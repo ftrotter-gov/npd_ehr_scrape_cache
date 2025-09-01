@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b4702bce-f977-5f53-b447-ce4dd1605a18",
+    "name": "Primary Care Providers",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e3173702-76f7-5206-a903-297eee39128f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871068726"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2640 Highway 70",
+          "Building 6B"
+        ],
+        "city": "MANASQUAN",
+        "state": "NJ",
+        "postalCode": "08736-2609"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19144"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19144.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b4702bce-f977-5f53-b447-ce4dd1605a18"
+}

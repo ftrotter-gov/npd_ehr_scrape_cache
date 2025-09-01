@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ea5e8239-a309-5f4a-87a9-9858c40db696",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a750abbc-3809-5d2f-bdfc-e96f1da4f8b1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902835655"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "83745 HWY 9"
+        ],
+        "city": "ASHLAND",
+        "state": "AL",
+        "postalCode": "36251-7988"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15719"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15719.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ea5e8239-a309-5f4a-87a9-9858c40db696"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3dc572c0-bf01-5077-bc55-82b51dfdabff",
+    "name": "Mountain View Medical Center - Home Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f4aab237-bc57-538a-a345-7f03d0321575"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477518694"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1909 MOUNTAIN VIEW LANE STE 200",
+          "SUITE 200"
+        ],
+        "city": "FOREST GROVE",
+        "state": "OR",
+        "postalCode": "97116-2894"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26386"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26386.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3dc572c0-bf01-5077-bc55-82b51dfdabff"
+}

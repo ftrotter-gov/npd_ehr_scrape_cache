@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "251090c0-9e6e-5efd-b6aa-e0329d1b2576",
+    "name": "Audiology Self Pay",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a3dbde99-aed0-5c7a-98f0-022642a225ab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447295910"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8440 Walnut Hill Ln.",
+          "Suite 500"
+        ],
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75231-3833"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-863"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-863.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:251090c0-9e6e-5efd-b6aa-e0329d1b2576"
+}

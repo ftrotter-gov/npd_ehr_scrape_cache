@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5c6fbdc9-454d-5707-abb1-7b7676485deb",
+    "name": "Babson and Associates Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ab1b34b9-b39a-5cb1-ac7d-81784543ad51"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184639759"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1331 Prairie Ave",
+          "Suite 1"
+        ],
+        "city": "CHEYENNE",
+        "state": "WY",
+        "postalCode": "82009-4867"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27166"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27166.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5c6fbdc9-454d-5707-abb1-7b7676485deb"
+}

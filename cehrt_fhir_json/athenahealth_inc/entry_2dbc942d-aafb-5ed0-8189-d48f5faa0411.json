@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2dbc942d-aafb-5ed0-8189-d48f5faa0411",
+    "name": "Catalight Care Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7f79a474-5033-5f60-9fbb-15e01c11f8bf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700105079"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588157424"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1301 Redwood Way, Suite 120"
+        ],
+        "city": "PETALUMA",
+        "state": "CA",
+        "postalCode": "94954-1136"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9495"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9495.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2dbc942d-aafb-5ed0-8189-d48f5faa0411"
+}

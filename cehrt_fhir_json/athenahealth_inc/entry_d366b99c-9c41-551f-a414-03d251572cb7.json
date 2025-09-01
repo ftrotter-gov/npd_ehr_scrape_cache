@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d366b99c-9c41-551f-a414-03d251572cb7",
+    "name": "Trinity Health Connections",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a451e111-bc3a-5401-8f85-9103e5ea59c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003277229"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "25882 ORCHARD LAKE RD",
+          "SUITE L-5"
+        ],
+        "city": "FARMINGTON HILLS",
+        "state": "MI",
+        "postalCode": "48336-1269"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13517"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13517.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d366b99c-9c41-551f-a414-03d251572cb7"
+}

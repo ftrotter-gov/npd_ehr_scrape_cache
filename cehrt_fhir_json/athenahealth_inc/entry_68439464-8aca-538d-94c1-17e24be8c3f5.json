@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "68439464-8aca-538d-94c1-17e24be8c3f5",
+    "name": "Newton Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c309b82e-57f7-5261-8c54-e9b832d0e076"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730115213"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 N 4TH AVE E"
+        ],
+        "city": "NEWTON",
+        "state": "IA",
+        "postalCode": "50208-3155"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31005"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31005.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:68439464-8aca-538d-94c1-17e24be8c3f5"
+}

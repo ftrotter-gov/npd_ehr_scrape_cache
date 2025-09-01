@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "06a8c3bc-83ac-5f51-9a8d-693ea5ee4eee",
+    "name": "Circle Psychiatry",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6b0e1d3a-b04d-573e-a85e-7771389ffe80"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770363004"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 Main St"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-1020"
+      },
+      {
+        "line": [
+          "2960 N CIRCLE DR STE 200"
+        ],
+        "city": "COLORADO SPRINGS",
+        "state": "CO",
+        "postalCode": "80909-1163"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31925"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31925.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:06a8c3bc-83ac-5f51-9a8d-693ea5ee4eee"
+}

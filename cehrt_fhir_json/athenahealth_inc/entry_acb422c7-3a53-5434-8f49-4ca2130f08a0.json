@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "acb422c7-3a53-5434-8f49-4ca2130f08a0",
+    "name": "Mount Auburn Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4b81cc10-af55-57ba-83c3-da57d974d0a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407865439"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 Mt. Auburn Street"
+        ],
+        "city": "CAMBRIDGE",
+        "state": "MA",
+        "postalCode": "02138-5600"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-86"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-86.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:acb422c7-3a53-5434-8f49-4ca2130f08a0"
+}

@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c3a7a558-ac44-53cd-8fa2-2d37ff4165dd",
+    "name": "NTMC Health Orthopedics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43f825de-6040-530f-9747-449506d77105"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033687900"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942778816"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1615 Hospital Blvd.",
+          "Suite C"
+        ],
+        "city": "GAINESVILLE",
+        "state": "TX",
+        "postalCode": "76240-2032"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26154"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26154.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c3a7a558-ac44-53cd-8fa2-2d37ff4165dd"
+}

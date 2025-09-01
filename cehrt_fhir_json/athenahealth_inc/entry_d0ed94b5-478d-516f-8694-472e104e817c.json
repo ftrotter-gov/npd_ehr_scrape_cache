@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d0ed94b5-478d-516f-8694-472e104e817c",
+    "name": "hialeah hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9c0d2ad8-b72e-5102-84c0-e3424475f1f3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891990917"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "651 east 25th street"
+        ],
+        "city": "HIALEAH",
+        "state": "FL",
+        "postalCode": "33013-3814"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3172"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3172.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d0ed94b5-478d-516f-8694-472e104e817c"
+}

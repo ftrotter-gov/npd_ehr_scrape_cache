@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8370bbe0-e480-59c2-95d3-35f63f7de7cb",
+    "name": "Hickman Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0a090602-e534-5b6e-9567-e51c8a9856bb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922100122"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245208875"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437109923"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2003 South 7th St."
+        ],
+        "city": "HICKMAN",
+        "state": "KY",
+        "postalCode": "42050-1841"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1591"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1591.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8370bbe0-e480-59c2-95d3-35f63f7de7cb"
+}

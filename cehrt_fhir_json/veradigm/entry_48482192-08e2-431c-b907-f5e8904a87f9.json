@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "48482192-08e2-431c-b907-f5e8904a87f9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c1fec8f9-81f6-479a-ae99-8882aca22774",
+        "name": "Adobe Medical Group Inc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Adobe Medical Group Inc",
+    "managingOrganization": {
+      "reference": "#c1fec8f9-81f6-479a-ae99-8882aca22774"
+    },
+    "period": {
+      "start": "2023-04-11T09:01:12+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/73406"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/73406"
+}

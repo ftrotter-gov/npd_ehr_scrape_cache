@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fc341847-30d3-5639-9d8b-d7b22663b2ab",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7727b2a1-efcb-5319-abfe-7cc002490a38"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376671800"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5155 HWY 13"
+        ],
+        "city": "JUNCTION",
+        "state": "IL",
+        "postalCode": "62954-2101"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14350"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14350.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fc341847-30d3-5639-9d8b-d7b22663b2ab"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "195d8d42-af88-5bbf-8a5c-4cabe7fa093c",
+    "name": "Medical City Plano",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9ed051a-3475-5b4c-8059-7a0a814a1403"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912042805"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3901 W 15th ST"
+        ],
+        "city": "PLANO",
+        "state": "TX",
+        "postalCode": "75075-7738"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15429"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15429.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:195d8d42-af88-5bbf-8a5c-4cabe7fa093c"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cee4ad0c-1946-5e3d-b8b5-3ac0fa5d0cb3",
+    "name": "St. Luke's Community Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58eb66d3-26ef-5333-a83a-ba74d8769598"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215955927"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "17200 St. Luke's Way"
+        ],
+        "city": "The Woodlands",
+        "state": "TX",
+        "postalCode": "77384-8007"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-650"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-650.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cee4ad0c-1946-5e3d-b8b5-3ac0fa5d0cb3"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3d52f21-43b1-5d61-a52b-0d1884377611",
+    "name": "Grandview Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/705984e4-47a4-5e40-bd1c-e73603d677fc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710038476"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3690 GRANDVIEW PARKWAY"
+        ],
+        "city": "BIRMINGHAM",
+        "state": "AL",
+        "postalCode": "35243-3326"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12861"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12861.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3d52f21-43b1-5d61-a52b-0d1884377611"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e6ffad2f-1028-5d7c-8993-7fb3bddccadc",
+    "name": "Marlton Rehabilitation Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1c8f1506-c4cd-5c05-b861-0f889378b6af"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902826241"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "92 Brick Road"
+        ],
+        "city": "MARLTON",
+        "state": "NJ",
+        "postalCode": "08053-2177"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10962"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10962.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e6ffad2f-1028-5d7c-8993-7fb3bddccadc"
+}

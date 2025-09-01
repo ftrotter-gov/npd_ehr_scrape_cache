@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "61d6a1a5-fe56-5252-bc08-d136b0e39d1b",
+    "name": "Beth Israel Deaconess Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8e869999-a2fa-5495-ab96-a590bf78f321"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255361051"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376571380"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20 Hope Avenue G07"
+        ],
+        "city": "Waltham",
+        "state": "MA",
+        "postalCode": "02453-2717"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-92"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-92.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:61d6a1a5-fe56-5252-bc08-d136b0e39d1b"
+}

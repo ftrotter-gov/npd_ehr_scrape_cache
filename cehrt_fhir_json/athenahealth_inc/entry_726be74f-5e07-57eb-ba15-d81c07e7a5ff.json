@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "726be74f-5e07-57eb-ba15-d81c07e7a5ff",
+    "name": "Healing Hands Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b40c86fd-e993-561f-8285-640071dd902f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5126 TIMUQUANA ROAD"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "FL",
+        "postalCode": "32210-7441"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14441"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14441.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:726be74f-5e07-57eb-ba15-d81c07e7a5ff"
+}

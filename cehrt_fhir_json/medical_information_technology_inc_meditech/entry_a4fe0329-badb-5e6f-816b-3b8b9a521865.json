@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a4fe0329-badb-5e6f-816b-3b8b9a521865",
+    "meta": {
+      "lastUpdated": "2022-09-29T22:51:38.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://wvumedicine.org/princeton"
+      }
+    ],
+    "name": "Princeton Community Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://wvumedicine.org/princeton"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "122 Twelfth Street"
+        ],
+        "city": "Princeton",
+        "state": "WV",
+        "postalCode": "24740",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:aead6121-1350-597a-b25a-a2dcc2723528"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:aead6121-1350-597a-b25a-a2dcc2723528"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a4fe0329-badb-5e6f-816b-3b8b9a521865"
+}

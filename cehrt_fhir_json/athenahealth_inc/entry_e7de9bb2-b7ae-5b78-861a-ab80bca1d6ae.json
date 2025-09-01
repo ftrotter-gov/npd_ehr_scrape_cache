@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7de9bb2-b7ae-5b78-861a-ab80bca1d6ae",
+    "name": "Wayne Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cbeb02a1-3a0b-5c16-9e5c-66bfd9ff9efe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144533670"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 Park St."
+        ],
+        "city": "FOREST CITY",
+        "state": "PA",
+        "postalCode": "18421-1445"
+      },
+      {
+        "line": [
+          "601 Park St."
+        ],
+        "city": "HONESDALE",
+        "state": "PA",
+        "postalCode": "18431-1445"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1972"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1972.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7de9bb2-b7ae-5b78-861a-ab80bca1d6ae"
+}

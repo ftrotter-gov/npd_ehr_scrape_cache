@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4dfa7c4c-a95d-54c7-b18d-19e26ae8ffd3",
+    "name": "Oasis Free Clinics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1b5d90b-729c-5a32-ab2b-c04e35a20183"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790951234"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "331 MAINE ST STE 4"
+        ],
+        "city": "BRUNSWICK",
+        "state": "ME",
+        "postalCode": "04011-3359"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13139"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13139.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4dfa7c4c-a95d-54c7-b18d-19e26ae8ffd3"
+}

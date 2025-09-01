@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ebe72f80-ca87-507b-b464-d6e901427885",
+    "name": "Robert Wood Johnson University Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/52bc5e88-9bba-5aa6-abb6-1c85599d1043"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073804233"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "One Robert Wood Johnson Place"
+        ],
+        "city": "NEW BRUNSWICK",
+        "state": "NJ",
+        "postalCode": "08901-1928"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14388"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14388.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ebe72f80-ca87-507b-b464-d6e901427885"
+}

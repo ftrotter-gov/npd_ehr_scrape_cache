@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0e415f35-9ad8-5615-a6e5-175abc54d979",
+    "name": "Coastal Carolina Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/12a8286e-b681-56f0-9c0f-b6d70c62c7e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699928879"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1166 Eastern Parkway"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11213-1234"
+      },
+      {
+        "line": [
+          "1166 EASTERN PARKWAYkway"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11213-4108"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17102"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17102.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0e415f35-9ad8-5615-a6e5-175abc54d979"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9cd05b04-4931-5378-ad35-a43624b89476",
+    "name": "Littleton Adventist Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0d8ad1d1-9b89-5800-8451-20ce8d5dd6ac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316354095"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7700 S BROADWAY"
+        ],
+        "city": "LITTLETON",
+        "state": "CO",
+        "postalCode": "80122-2602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9345"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9345.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9cd05b04-4931-5378-ad35-a43624b89476"
+}

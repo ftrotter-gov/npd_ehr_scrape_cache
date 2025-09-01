@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f1785a6c-f1e1-5f6e-b21a-e0862803f377",
+    "name": "Salem Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0fd93985-f7a5-597f-8b50-e78f7b323251"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437197092"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "32 Stiles Rd"
+        ],
+        "city": "SALEM",
+        "state": "NH",
+        "postalCode": "03079-2859"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6597"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6597.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f1785a6c-f1e1-5f6e-b21a-e0862803f377"
+}

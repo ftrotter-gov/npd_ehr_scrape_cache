@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ca2750db-80fd-5274-83cb-f7525d6d1c17",
+    "name": "Knox Clinic Corp",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/48984926-9c56-55ce-b6ec-34df8d327950"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265481006"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2295 N. Seminary St."
+        ],
+        "city": "GALESBURG",
+        "state": "IL",
+        "postalCode": "61401-2852"
+      },
+      {
+        "line": [
+          "1201 N. Cole St."
+        ],
+        "city": "BUSHNELL",
+        "state": "IL",
+        "postalCode": "61422-9395"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2623"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2623.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ca2750db-80fd-5274-83cb-f7525d6d1c17"
+}

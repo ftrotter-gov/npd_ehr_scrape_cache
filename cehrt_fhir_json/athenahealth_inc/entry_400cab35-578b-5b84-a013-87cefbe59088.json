@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "400cab35-578b-5b84-a013-87cefbe59088",
+    "name": "Medic Buddy",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9b6c90ee-a282-53f2-86f5-ca26d79ef71d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790185577"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11601 MONTGOMERY BLVD NE"
+        ],
+        "city": "ALBUQUERQUE",
+        "state": "NM",
+        "postalCode": "87111-2660"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27050"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27050.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:400cab35-578b-5b84-a013-87cefbe59088"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e973560f-7451-5994-87ef-1e01468971fb",
+    "name": "SkyRidge Medical Center Main",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7c134531-bbc8-5f40-a3d3-f4ebccf67067"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790756203"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2305 CHAMBLISS AVENUE"
+        ],
+        "city": "CLEVELAND",
+        "state": "TN",
+        "postalCode": "37311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5012"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5012.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e973560f-7451-5994-87ef-1e01468971fb"
+}

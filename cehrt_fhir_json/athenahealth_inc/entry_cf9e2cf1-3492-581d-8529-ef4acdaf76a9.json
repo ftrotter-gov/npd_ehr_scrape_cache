@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cf9e2cf1-3492-581d-8529-ef4acdaf76a9",
+    "name": "Parkway Radiology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c4458753-fcac-56c5-8435-7214ee1e3e29"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427318757"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3 Western Maryland Parkway",
+          "Suite 105"
+        ],
+        "city": "HAGERSTOWN",
+        "state": "MD",
+        "postalCode": "21740-6474"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8368"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8368.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cf9e2cf1-3492-581d-8529-ef4acdaf76a9"
+}

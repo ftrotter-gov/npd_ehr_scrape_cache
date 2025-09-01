@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "f808921b-3bb9-477d-b090-3800868313a0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e5164718-4bd4-4327-af23-a3dae8bc88ce",
+        "name": "Uwharrie Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Uwharrie Medical Center",
+    "managingOrganization": {
+      "reference": "#e5164718-4bd4-4327-af23-a3dae8bc88ce"
+    },
+    "period": {
+      "start": "2018-10-24T08:57:55+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76311"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76311"
+}

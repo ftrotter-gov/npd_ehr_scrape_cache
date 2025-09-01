@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a7d5a94-8db0-5fd4-b444-386a2207d887",
+    "name": "Main office location",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/69d5d105-2b7a-57d8-92bc-8c9774ddef2b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710030747"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2067 W VISTA WAY",
+          "SUITE 130"
+        ],
+        "city": "VISTA",
+        "state": "CA",
+        "postalCode": "92083-6001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8795"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8795.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a7d5a94-8db0-5fd4-b444-386a2207d887"
+}

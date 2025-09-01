@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0SA-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0SA"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "United Physicians, LLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5028830227"
+      },
+      {
+        "system": "fax",
+        "value": "5024100484"
+      }
+    ],
+    "address": [
+      {
+        "text": "1015 Dupont Road Louisville KY 402074610 US",
+        "line": [
+          "1015 Dupont Road"
+        ],
+        "city": "Louisville",
+        "state": "KY",
+        "postalCode": "402074610",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0SA-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0SA-Organization-2"
+}

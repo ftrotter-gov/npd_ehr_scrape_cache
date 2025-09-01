@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dcb14a97-781b-53ba-9f3c-f60b10eea4e8",
+    "name": "SKD - Phoenix Home Dialysis",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37d8cb4d-dd68-5215-8201-4661cf283863"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891933560"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407094436"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659316008"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5115 E Thomas Rd. Ste 100"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85018-7914"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2697"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2697.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dcb14a97-781b-53ba-9f3c-f60b10eea4e8"
+}

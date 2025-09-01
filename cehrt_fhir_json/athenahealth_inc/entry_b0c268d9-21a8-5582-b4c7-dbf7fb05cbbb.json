@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b0c268d9-21a8-5582-b4c7-dbf7fb05cbbb",
+    "name": "Adult and Geriatric Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4f0c7b77-4ac1-584d-a04e-292a88f6973f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114493111"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "325 1ST AVE SW"
+        ],
+        "city": "HICKORY",
+        "state": "NC",
+        "postalCode": "28602-2940"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26437"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26437.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b0c268d9-21a8-5582-b4c7-dbf7fb05cbbb"
+}

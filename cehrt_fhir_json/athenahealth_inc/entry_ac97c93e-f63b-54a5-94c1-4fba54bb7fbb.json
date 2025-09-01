@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ac97c93e-f63b-54a5-94c1-4fba54bb7fbb",
+    "name": "Sierra View Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cff53f63-fe5e-59be-a380-1e5189cc7368"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588249569"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487125019"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "465 W. Putnam Ave"
+        ],
+        "city": "PORTERVILLE",
+        "state": "CA",
+        "postalCode": "93257-3320"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25099"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25099.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ac97c93e-f63b-54a5-94c1-4fba54bb7fbb"
+}

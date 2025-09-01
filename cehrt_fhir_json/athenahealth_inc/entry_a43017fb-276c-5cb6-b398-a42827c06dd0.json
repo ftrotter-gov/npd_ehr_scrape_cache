@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a43017fb-276c-5cb6-b398-a42827c06dd0",
+    "name": "PERSONAL MDS LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9281c916-9c10-50ab-9f68-91ad0a065836"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710179197"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "22D1074146"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "25 BOYLSTON STREET"
+        ],
+        "city": "CHESTNUT HILL",
+        "state": "MA",
+        "postalCode": "02467-1715"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1268"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1268.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a43017fb-276c-5cb6-b398-a42827c06dd0"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f619771a-6908-54d2-b371-b9dc74089d05",
+    "name": "Outpatient surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6580f4a8-b743-5985-b12d-c8e339b6de25"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922049105"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "420 Elliott St",
+          "Suite B"
+        ],
+        "city": "EDENTON",
+        "state": "NC",
+        "postalCode": "27932-2010"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18436"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18436.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f619771a-6908-54d2-b371-b9dc74089d05"
+}

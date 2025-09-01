@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "02513180-76dc-50b9-ab66-a63bd1b079b6",
+    "name": "Tobey Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/690c3d1a-d417-503a-b08c-bd8db81d3d25"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336137629"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104874874"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "43 High Street"
+        ],
+        "city": "Wareham",
+        "state": "MA",
+        "postalCode": "02571-2097"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-788"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-788.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:02513180-76dc-50b9-ab66-a63bd1b079b6"
+}

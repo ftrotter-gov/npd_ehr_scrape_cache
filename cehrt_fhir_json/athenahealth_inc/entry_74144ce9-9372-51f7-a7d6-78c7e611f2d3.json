@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "74144ce9-9372-51f7-a7d6-78c7e611f2d3",
+    "name": "Patient Home Billing",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6853ddd4-f031-5d6d-a266-a4fd08567774"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487983151"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1601 FAIR RD STE 600"
+        ],
+        "city": "STATESBORO",
+        "state": "GA",
+        "postalCode": "30458-0800"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8824"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8824.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:74144ce9-9372-51f7-a7d6-78c7e611f2d3"
+}

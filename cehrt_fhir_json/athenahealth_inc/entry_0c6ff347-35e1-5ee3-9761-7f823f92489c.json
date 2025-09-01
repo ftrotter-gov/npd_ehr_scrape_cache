@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0c6ff347-35e1-5ee3-9761-7f823f92489c",
+    "name": "FMC San Carlos HD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d805751-1c88-5042-866a-b5e6c616c717"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316902208"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "860 US 70 HWY 171"
+        ],
+        "city": "PERIDOT",
+        "state": "AZ",
+        "postalCode": "85542-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11625"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11625.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0c6ff347-35e1-5ee3-9761-7f823f92489c"
+}

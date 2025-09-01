@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f53970b4-74e1-5bb3-ae4f-92ecaa3b6819",
+    "name": "Primary Care South",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e7676bf7-c1f0-57d0-a30b-75d78c967828"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164759189"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1385 SOUTH HIGHLAND AVENUE",
+          "STE B1"
+        ],
+        "city": "JACKSON",
+        "state": "TN",
+        "postalCode": "38301-7547"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14790"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14790.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f53970b4-74e1-5bb3-ae4f-92ecaa3b6819"
+}

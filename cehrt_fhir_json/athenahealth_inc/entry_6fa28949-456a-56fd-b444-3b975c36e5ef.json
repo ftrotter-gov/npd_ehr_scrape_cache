@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6fa28949-456a-56fd-b444-3b975c36e5ef",
+    "name": "Faith Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/42f09b6f-dd84-5714-80ab-6066cd0a07fb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518506542"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "830 W. Forth N. St."
+        ],
+        "city": "MORRISTOWN",
+        "state": "TN",
+        "postalCode": "37814-3992"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20995"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20995.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6fa28949-456a-56fd-b444-3b975c36e5ef"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "63c698e0-dac4-5f9f-8c65-a3ad56cc0400",
+    "name": "ReGen Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47ff31cf-1d4d-54b7-a508-b717d3fb899b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861936346"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2532 Patterson Rd, unit 5. Grand Junction, CO 8150"
+        ],
+        "city": "GRAND JUNCTION",
+        "state": "CO",
+        "postalCode": "81505-3607"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20794"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20794.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:63c698e0-dac4-5f9f-8c65-a3ad56cc0400"
+}

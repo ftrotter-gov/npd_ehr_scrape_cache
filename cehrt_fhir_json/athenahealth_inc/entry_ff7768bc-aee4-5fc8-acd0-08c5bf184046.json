@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ff7768bc-aee4-5fc8-acd0-08c5bf184046",
+    "name": "Healing Hands Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0b43870c-adde-5aa1-a3a1-28357bec9c40"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567891"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "245 MIDWAY MEDICAL PARK"
+        ],
+        "city": "BRISTOL",
+        "state": "TN",
+        "postalCode": "37620-1601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15459"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15459.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ff7768bc-aee4-5fc8-acd0-08c5bf184046"
+}

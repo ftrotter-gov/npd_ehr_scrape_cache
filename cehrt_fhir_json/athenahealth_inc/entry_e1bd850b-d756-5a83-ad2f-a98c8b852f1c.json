@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e1bd850b-d756-5a83-ad2f-a98c8b852f1c",
+    "name": "Commonwealth Health Old Forge",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/10878a27-826e-5a5b-a611-984f9a9a32d6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508143074"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 South Main St"
+        ],
+        "city": "OLD FORGE",
+        "state": "PA",
+        "postalCode": "18518-1606"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21771"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21771.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e1bd850b-d756-5a83-ad2f-a98c8b852f1c"
+}

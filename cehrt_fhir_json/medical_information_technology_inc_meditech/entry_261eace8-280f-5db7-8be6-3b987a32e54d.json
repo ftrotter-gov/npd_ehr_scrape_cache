@@ -1,0 +1,73 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "261eace8-280f-5db7-8be6-3b987a32e54d",
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://phelpsmemorial.com"
+      }
+    ],
+    "name": "Phelps Memorial Health Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://phelpsmemorial.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1215 Tibbals Street"
+        ],
+        "city": "Holdrege",
+        "state": "NE",
+        "postalCode": "68949",
+        "country": "United States"
+      }
+    ],
+    "meta": {
+      "lastUpdated": "2025-03-29T22:51:23.000Z"
+    },
+    "endpoint": [
+      {
+        "reference": "urn:uuid:26a07013-5508-5d46-b855-09c0c09e9951"
+      },
+      {
+        "reference": "urn:uuid:c0266e71-e3cf-54ce-9e45-7e53a3c024ef"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:26a07013-5508-5d46-b855-09c0c09e9951"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:c0266e71-e3cf-54ce-9e45-7e53a3c024ef"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:261eace8-280f-5db7-8be6-3b987a32e54d"
+}

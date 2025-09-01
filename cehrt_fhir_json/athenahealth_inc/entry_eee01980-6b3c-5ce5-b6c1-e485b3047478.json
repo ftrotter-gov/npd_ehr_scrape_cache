@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eee01980-6b3c-5ce5-b6c1-e485b3047478",
+    "name": "Nursing Home Provider Rounds",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9f10f630-43ef-5d04-8482-3c375d40d861"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770660920"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15 S Sixth St"
+        ],
+        "city": "BAY SPRINGS",
+        "state": "MS",
+        "postalCode": "39422-0527"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13268"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13268.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eee01980-6b3c-5ce5-b6c1-e485b3047478"
+}

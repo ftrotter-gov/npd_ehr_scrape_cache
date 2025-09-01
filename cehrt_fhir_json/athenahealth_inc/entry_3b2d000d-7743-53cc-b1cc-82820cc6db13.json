@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3b2d000d-7743-53cc-b1cc-82820cc6db13",
+    "name": "Randleman Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58cbb86a-e73a-5b80-a5f5-096559b8050b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477810265"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "670 W ACADEMY ST"
+        ],
+        "city": "RANDLEMAN",
+        "state": "NC",
+        "postalCode": "27317-9748"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32593"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32593.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3b2d000d-7743-53cc-b1cc-82820cc6db13"
+}

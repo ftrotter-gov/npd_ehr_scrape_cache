@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "397e7d74-3a27-5c2d-a73d-471dfe244112",
+    "meta": {
+      "lastUpdated": "2022-04-14T22:51:53.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://gvh.org"
+      }
+    ],
+    "name": "Grand View Hospital",
+    "active": true,
+    "partOf": {
+      "reference": "urn:uuid:74da4aef-123e-5985-b5ab-255762b22e1b"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://gvh.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "700 Lawn Avenue"
+        ],
+        "city": "Sellersville",
+        "state": "PA",
+        "postalCode": "18960",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:97c336e3-2f60-575a-b55e-d1b6495c6b61"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:97c336e3-2f60-575a-b55e-d1b6495c6b61"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:397e7d74-3a27-5c2d-a73d-471dfe244112"
+}

@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "14b29565-f5a2-5806-93e6-18bce4b3d9f6",
+    "name": "patient home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e39a3713-6754-5856-9c48-204a2276809a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750480646"
+      }
+    ],
+    "address": [
+      {
+        "line": [],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10028-0110"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1429"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1429.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:14b29565-f5a2-5806-93e6-18bce4b3d9f6"
+}

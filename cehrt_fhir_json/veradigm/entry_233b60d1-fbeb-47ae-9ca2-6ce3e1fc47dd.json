@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "233b60d1-fbeb-47ae-9ca2-6ce3e1fc47dd",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d88727d6-c613-403d-9228-1542f51be869",
+        "name": "Certified Allergy & Asthma Consultants"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Certified Allergy & Asthma Consultants",
+    "managingOrganization": {
+      "reference": "#d88727d6-c613-403d-9228-1542f51be869"
+    },
+    "period": {
+      "start": "2018-09-21T18:05:59+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10044422"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10044422"
+}

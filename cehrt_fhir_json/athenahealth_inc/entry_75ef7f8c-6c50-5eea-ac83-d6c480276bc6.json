@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "75ef7f8c-6c50-5eea-ac83-d6c480276bc6",
+    "name": "Southcoast Physicians Group, Inc.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/69ac8831-2f71-5ebe-938e-d3427b8d89dd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336137629"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104874874"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Rosebrook Way",
+          "Suite 201"
+        ],
+        "city": "WAREHAM",
+        "state": "MA",
+        "postalCode": "02571-1140"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-788"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-788.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:75ef7f8c-6c50-5eea-ac83-d6c480276bc6"
+}

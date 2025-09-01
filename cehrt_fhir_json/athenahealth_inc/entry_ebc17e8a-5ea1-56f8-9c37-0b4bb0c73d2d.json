@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ebc17e8a-5ea1-56f8-9c37-0b4bb0c73d2d",
+    "name": "Seton Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b853f79e-9ea9-5803-a04d-5176488ac83d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386911006"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548567498"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 Sullivan Ave."
+        ],
+        "city": "DALY CITY",
+        "state": "CA",
+        "postalCode": "94015-2200"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3663"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3663.Brand-16"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ebc17e8a-5ea1-56f8-9c37-0b4bb0c73d2d"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98af26af-2f26-5e84-b0b6-b804cde17dea",
+    "name": "GFW Centennial Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1fdb8dad-488b-5318-b2c9-6f4f94aafc10"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104083922"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1444 S POTOMAC ST"
+        ],
+        "city": "AURORA",
+        "state": "CO",
+        "postalCode": "80012-4508"
+      },
+      {
+        "line": [
+          "14200 E ARAPAHOE RD"
+        ],
+        "city": "ENGLEWOOD",
+        "state": "CO",
+        "postalCode": "80112-4065"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27100"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27100.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98af26af-2f26-5e84-b0b6-b804cde17dea"
+}

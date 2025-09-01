@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "80aded72-762d-54c5-9a7d-a5dfd426c737",
+    "name": "Med Spa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3aa2c8a5-daa2-5d36-86a8-bbf8ac97122b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518256650"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "134 West 1180 North",
+          "Ste 5"
+        ],
+        "city": "TOOELE",
+        "state": "UT",
+        "postalCode": "84074-1483"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3781"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3781.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:80aded72-762d-54c5-9a7d-a5dfd426c737"
+}

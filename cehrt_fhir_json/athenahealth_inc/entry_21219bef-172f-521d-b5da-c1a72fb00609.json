@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "21219bef-172f-521d-b5da-c1a72fb00609",
+    "name": "Tri City Patient Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7b23b35d-db4a-55fd-bb25-45f38446051d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811171853"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 LEIGHTON AVENUE"
+        ],
+        "city": "ANNISTON",
+        "state": "AL",
+        "postalCode": "36207-5743"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5472"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5472.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:21219bef-172f-521d-b5da-c1a72fb00609"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a1f4f1d8-4f99-53a5-a91e-c47ee00727c1",
+    "name": "Summit ASC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e5105664-4e9e-5d4c-95f4-0fe64502034f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821333451"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4126 Southwest freeway",
+          "Suite 108"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77027-7318"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5989"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5989.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a1f4f1d8-4f99-53a5-a91e-c47ee00727c1"
+}

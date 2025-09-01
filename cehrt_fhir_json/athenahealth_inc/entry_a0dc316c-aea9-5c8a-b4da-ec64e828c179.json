@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a0dc316c-aea9-5c8a-b4da-ec64e828c179",
+    "name": "Henry Ford Wyandotte Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a4b7210b-6938-557c-bf04-893f32714845"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114675238"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2333 Biddle Avenue",
+          "Suite A"
+        ],
+        "city": "WYANDOTTE",
+        "state": "MI",
+        "postalCode": "48192-4668"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26266"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26266.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a0dc316c-aea9-5c8a-b4da-ec64e828c179"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "087bb19e-b65c-5a58-8c00-ac0c87f3c4df",
+    "name": "AMC-IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a2d3c643-49e5-53d0-a9a3-b005e6552702"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013197987"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10123 SE Market St"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97216-2532"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9620"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9620.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:087bb19e-b65c-5a58-8c00-ac0c87f3c4df"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5930c698-14b9-5c49-b0a6-dc4ce7c2cddd",
+    "name": "Allen Park Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e616d5c4-a129-566f-b66c-6cf4e53dc18c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982826467"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1200 Joe Hall Drive"
+        ],
+        "city": "YPSILANTI",
+        "state": "MI",
+        "postalCode": "48197-7523"
+      },
+      {
+        "line": [
+          "8209 ALLEN ROAD"
+        ],
+        "city": "ALLEN PARK",
+        "state": "MI",
+        "postalCode": "48101-1401"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8026"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8026.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5930c698-14b9-5c49-b0a6-dc4ce7c2cddd"
+}

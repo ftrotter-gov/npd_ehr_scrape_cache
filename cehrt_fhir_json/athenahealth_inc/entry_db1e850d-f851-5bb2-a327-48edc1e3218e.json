@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db1e850d-f851-5bb2-a327-48edc1e3218e",
+    "name": "Southern Sprouts Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/72ca24a5-aa43-50e0-b3c7-eb4e4831a518"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730808866"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "217 BREVARD COURT",
+          "SUITE D"
+        ],
+        "city": "ALEXANDRIA",
+        "state": "LA",
+        "postalCode": "71303-3997"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27003"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27003.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db1e850d-f851-5bb2-a327-48edc1e3218e"
+}

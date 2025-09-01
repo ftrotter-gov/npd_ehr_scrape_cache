@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "d8e66b39-b860-421b-b295-b1712eaedf55",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3ff347c0-9e67-4e0a-9c6e-0db99e2a405d",
+        "name": "Mid Michigan Ear Nose Throat PC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Mid Michigan Ear Nose Throat PC",
+    "managingOrganization": {
+      "reference": "#3ff347c0-9e67-4e0a-9c6e-0db99e2a405d"
+    },
+    "period": {
+      "start": "2018-09-18T14:52:35+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10046080"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10046080"
+}

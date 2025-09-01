@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a281c9b6-c58a-5497-abfe-34b6cd9ee3e0",
+    "name": "Big Bend Regional Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db0fe249-fab5-57f4-b765-c444bd424844"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811973282"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2600 N HWY 118"
+        ],
+        "city": "ALPINE",
+        "state": "TX",
+        "postalCode": "79830-2002"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12292"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12292.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a281c9b6-c58a-5497-abfe-34b6cd9ee3e0"
+}

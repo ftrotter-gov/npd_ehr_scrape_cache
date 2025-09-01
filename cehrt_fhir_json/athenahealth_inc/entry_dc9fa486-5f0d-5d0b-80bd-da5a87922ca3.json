@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dc9fa486-5f0d-5d0b-80bd-da5a87922ca3",
+    "name": "Bradford Family Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/972de341-0197-5603-ad5d-98fb6c5b976b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407284532"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "508 Harley Street Suite D"
+        ],
+        "city": "SCOTTSBORO",
+        "state": "AL",
+        "postalCode": "35768-4263"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7879"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7879.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dc9fa486-5f0d-5d0b-80bd-da5a87922ca3"
+}

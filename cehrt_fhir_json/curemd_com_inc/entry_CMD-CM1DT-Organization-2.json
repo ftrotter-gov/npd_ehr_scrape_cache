@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1DT-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1DT"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Cancer and Blood Care Specialists",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7148354800"
+      },
+      {
+        "system": "fax",
+        "value": "7148351900"
+      },
+      {
+        "system": "url",
+        "value": "www.cancerandblood.care"
+      }
+    ],
+    "address": [
+      {
+        "text": "363 S Main Street, Suite 485 Orange CA 92868 US",
+        "line": [
+          "363 S Main Street, Suite 485"
+        ],
+        "city": "Orange",
+        "state": "CA",
+        "postalCode": "92868",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1DT-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1DT-Organization-2"
+}

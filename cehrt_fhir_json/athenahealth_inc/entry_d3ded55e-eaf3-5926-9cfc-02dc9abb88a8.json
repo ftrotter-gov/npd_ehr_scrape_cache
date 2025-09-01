@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d3ded55e-eaf3-5926-9cfc-02dc9abb88a8",
+    "name": "NorthBay Medical Center - NBMC IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2cfe6c98-c955-53d6-83ce-955f0b0f8f3d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093767063"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1200 B Gale Wilson Boulevard"
+        ],
+        "city": "FAIRFIELD",
+        "state": "CA",
+        "postalCode": "94533-3552"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33049"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33049.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d3ded55e-eaf3-5926-9cfc-02dc9abb88a8"
+}

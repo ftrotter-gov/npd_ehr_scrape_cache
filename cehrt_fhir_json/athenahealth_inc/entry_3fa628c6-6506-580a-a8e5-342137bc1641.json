@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3fa628c6-6506-580a-a8e5-342137bc1641",
+    "name": "Heart Mountain Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e6005831-594a-5e95-b4f8-949e2f1afd95"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "707 SHERIDAN AVE"
+        ],
+        "city": "CODY",
+        "state": "WY",
+        "postalCode": "82414-3409"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20640"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20640.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3fa628c6-6506-580a-a8e5-342137bc1641"
+}

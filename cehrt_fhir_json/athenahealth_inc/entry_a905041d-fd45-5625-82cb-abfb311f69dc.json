@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a905041d-fd45-5625-82cb-abfb311f69dc",
+    "name": "MAIN STREET WELLNESS CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2e973830-d41e-529b-ba9f-0536fdb63045"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063622546"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "510 N Main Street"
+        ],
+        "city": "PRINCETON",
+        "state": "IN",
+        "postalCode": "47670-1406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9644"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9644.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a905041d-fd45-5625-82cb-abfb311f69dc"
+}

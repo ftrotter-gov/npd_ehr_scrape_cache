@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c111563-22ee-56d4-ba94-40df3ffb2d90",
+    "name": "North Country Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e5bc7a6-4e36-5257-8ea5-b63e71f1c91c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750483780"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "189 PROUTY DRIVE"
+        ],
+        "city": "NEWPORT",
+        "state": "VT",
+        "postalCode": "05855-9326"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14688"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14688.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c111563-22ee-56d4-ba94-40df3ffb2d90"
+}

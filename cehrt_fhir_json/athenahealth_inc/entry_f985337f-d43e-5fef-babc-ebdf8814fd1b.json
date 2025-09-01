@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f985337f-d43e-5fef-babc-ebdf8814fd1b",
+    "name": "Candler General Hospital ED",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3ef95e92-699d-5654-9219-57b40b0ee3b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790942381"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5353 Reynolds Street"
+        ],
+        "city": "SAVANNAH",
+        "state": "GA",
+        "postalCode": "31405-6015"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16403"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16403.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f985337f-d43e-5fef-babc-ebdf8814fd1b"
+}

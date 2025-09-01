@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "ccc34022-d5db-40fd-98ec-8fbb9a5811c3",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d6402244-3d68-44f6-a143-6dfe048feba8",
+        "name": "Dr Joseph Lin"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dr Joseph Lin",
+    "managingOrganization": {
+      "reference": "#d6402244-3d68-44f6-a143-6dfe048feba8"
+    },
+    "period": {
+      "start": "2018-08-15T08:02:03+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/1700090"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/1700090"
+}

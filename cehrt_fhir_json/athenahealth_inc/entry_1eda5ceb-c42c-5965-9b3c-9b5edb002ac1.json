@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1eda5ceb-c42c-5965-9b3c-9b5edb002ac1",
+    "name": "Femihealth Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e9c44313-9347-59e9-a48f-0f5e2797a52c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003652124"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2901 E Katella Ave Ste A"
+        ],
+        "city": "ORANGE",
+        "state": "CA",
+        "postalCode": "92867-5248"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31225"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31225.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1eda5ceb-c42c-5965-9b3c-9b5edb002ac1"
+}

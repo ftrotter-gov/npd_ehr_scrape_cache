@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ba79b4b1-15f1-5032-b577-9c1161b29ebc",
+    "name": "Lawrence Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/390283ff-0659-5172-b6db-50f27acdc4de"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265456800"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "55 PALMER AVE"
+        ],
+        "city": "BRONXVILLE",
+        "state": "NY",
+        "postalCode": "10708-3403"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-946"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-946.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ba79b4b1-15f1-5032-b577-9c1161b29ebc"
+}

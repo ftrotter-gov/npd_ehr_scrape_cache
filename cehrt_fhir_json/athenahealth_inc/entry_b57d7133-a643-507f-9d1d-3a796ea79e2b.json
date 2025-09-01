@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b57d7133-a643-507f-9d1d-3a796ea79e2b",
+    "name": "Rosedale Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9231f6b4-05a5-54f2-bd1e-3d10cab600b5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952787889"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5233 KING AVENUE",
+          "SUITE 104"
+        ],
+        "city": "ROSEDALE",
+        "state": "MD",
+        "postalCode": "21237-4003"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15873"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15873.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b57d7133-a643-507f-9d1d-3a796ea79e2b"
+}

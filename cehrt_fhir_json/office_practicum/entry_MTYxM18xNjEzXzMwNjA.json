@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTYxM18xNjEzXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "113.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093802456"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pediatric Associates of Manhattan PA KS",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "785-537-9030",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "785-537-3334",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "1133 College Ave Suite G210 Manhattan, KS 665022770",
+        "line": [
+          "1133 College Ave",
+          "Suite G210"
+        ],
+        "city": "Manhattan",
+        "state": "KS",
+        "postalCode": "665022770",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTYxM18xNjEzXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTYxM18xNjEzXzMwNjA"
+}

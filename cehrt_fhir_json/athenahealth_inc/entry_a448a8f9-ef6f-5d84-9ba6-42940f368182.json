@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a448a8f9-ef6f-5d84-9ba6-42940f368182",
+    "name": "St. Mary's Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8ded8ac3-7264-5d4e-bf30-1a607d73b765"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578859732"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "901 45TH ST"
+        ],
+        "city": "WEST PALM BEACH",
+        "state": "FL",
+        "postalCode": "33407-2413"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2183"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2183.Brand-280"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a448a8f9-ef6f-5d84-9ba6-42940f368182"
+}

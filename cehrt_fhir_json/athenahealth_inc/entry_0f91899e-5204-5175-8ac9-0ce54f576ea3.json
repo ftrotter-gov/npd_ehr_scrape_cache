@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0f91899e-5204-5175-8ac9-0ce54f576ea3",
+    "name": "Menlo Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/53426256-46ad-526a-8359-d78082541d5c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154719623"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2968  Highway 337"
+        ],
+        "city": "MENLO",
+        "state": "GA",
+        "postalCode": "30731-6312"
+      },
+      {
+        "line": [
+          "2968 Hwy 337"
+        ],
+        "city": "MENLO",
+        "state": "GA",
+        "postalCode": "30731-0276"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10595"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10595.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0f91899e-5204-5175-8ac9-0ce54f576ea3"
+}

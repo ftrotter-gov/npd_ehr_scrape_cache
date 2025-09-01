@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "91c4b384-5fe9-5950-82ff-1c09951bccad",
+    "name": "DEPAUL MEDICAL CENTER OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0b9cf1fb-332b-5e13-b4b1-35724b905694"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245633056"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942391396"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 KINGSLEY LANE",
+          "NORFOLK"
+        ],
+        "city": "NORFOLK",
+        "state": "VA",
+        "postalCode": "23505-4602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8345"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8345.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:91c4b384-5fe9-5950-82ff-1c09951bccad"
+}

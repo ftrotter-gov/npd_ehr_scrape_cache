@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4873abaa-7202-502f-acf9-1e9c2b02e13b",
+    "name": "Harbor Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/00e943fc-31c8-5b62-ab09-bd2c48e44688"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821471780"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710327184"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043441694"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "860 South 8th Street"
+        ],
+        "city": "BEAUMONT",
+        "state": "TX",
+        "postalCode": "77701-4626"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2048"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2048.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4873abaa-7202-502f-acf9-1e9c2b02e13b"
+}

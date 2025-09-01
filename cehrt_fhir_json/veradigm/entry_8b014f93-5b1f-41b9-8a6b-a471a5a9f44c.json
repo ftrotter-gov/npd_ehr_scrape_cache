@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "8b014f93-5b1f-41b9-8a6b-a471a5a9f44c",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "bd06537f-c16b-4ea2-9aa4-445276f6e428",
+        "name": "Shingletown Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Shingletown Medical Center",
+    "managingOrganization": {
+      "reference": "#bd06537f-c16b-4ea2-9aa4-445276f6e428"
+    },
+    "period": {
+      "start": "2018-12-03T15:56:35+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10020344"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10020344"
+}

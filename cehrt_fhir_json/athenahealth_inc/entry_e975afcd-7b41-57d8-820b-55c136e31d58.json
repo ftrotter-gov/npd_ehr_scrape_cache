@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e975afcd-7b41-57d8-820b-55c136e31d58",
+    "name": "Reston Hospital Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/91f261fd-33d3-5b7a-b3d8-94ea7945d16e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366549834"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1850 TOWN CENTER PKWY"
+        ],
+        "city": "RESTON",
+        "state": "VA",
+        "postalCode": "20190-3219"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15391.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e975afcd-7b41-57d8-820b-55c136e31d58"
+}

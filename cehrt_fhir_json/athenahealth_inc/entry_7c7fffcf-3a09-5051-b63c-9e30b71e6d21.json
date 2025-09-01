@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7c7fffcf-3a09-5051-b63c-9e30b71e6d21",
+    "name": "Magnolia Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0972273d-d0d6-5a03-9c8f-dc380443363a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093537193"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "807 S Laurel Street",
+          "Ste B"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "GA",
+        "postalCode": "31329-9273"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32572"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32572.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7c7fffcf-3a09-5051-b63c-9e30b71e6d21"
+}

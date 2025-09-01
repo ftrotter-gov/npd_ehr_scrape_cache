@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9ad80a10-ebef-5a81-baff-09e62ebb9b47",
+    "name": "Hartford Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2604b0ac-53b6-568f-a6c5-b0744f0b1b5a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871794008"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "80 SEYMOUR STREET",
+          "PO BOX 5037"
+        ],
+        "city": "HARTFORD",
+        "state": "CT",
+        "postalCode": "06102-8000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12982"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12982.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9ad80a10-ebef-5a81-baff-09e62ebb9b47"
+}

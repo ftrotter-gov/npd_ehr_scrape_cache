@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8a75a551-5758-5090-b0ab-fa16f5cfffec",
+    "name": "MIDTOWN MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0a45111b-8e8b-5197-ba29-8acff9efba2f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407947625"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "710 CENTER STREET"
+        ],
+        "city": "COLUMBUS",
+        "state": "GA",
+        "postalCode": "31901-1527"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12580"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12580.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8a75a551-5758-5090-b0ab-fa16f5cfffec"
+}

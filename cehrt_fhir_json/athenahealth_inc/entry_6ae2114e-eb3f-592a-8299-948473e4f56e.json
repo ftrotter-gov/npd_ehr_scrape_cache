@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6ae2114e-eb3f-592a-8299-948473e4f56e",
+    "name": "Weiss Memorial Hospital Physician Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1a7d280f-f247-575f-839d-7f34c8f2ff37"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922060938"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4646 N Marine Drive"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60640-5759"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-683"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-683.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6ae2114e-eb3f-592a-8299-948473e4f56e"
+}

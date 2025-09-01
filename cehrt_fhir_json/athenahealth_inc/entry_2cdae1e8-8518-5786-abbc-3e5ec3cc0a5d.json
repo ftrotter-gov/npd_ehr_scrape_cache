@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2cdae1e8-8518-5786-abbc-3e5ec3cc0a5d",
+    "name": "Patient Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3df03cd-ea5d-5bb6-9c05-7dfc87e0286a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689769374"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1701 E Cesar E Chavez Ave, Suite 100"
+        ],
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "postalCode": "90033-2464"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27758"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27758.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2cdae1e8-8518-5786-abbc-3e5ec3cc0a5d"
+}

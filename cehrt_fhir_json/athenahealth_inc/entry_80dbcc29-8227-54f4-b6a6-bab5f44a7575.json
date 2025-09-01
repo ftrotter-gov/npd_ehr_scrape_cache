@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "80dbcc29-8227-54f4-b6a6-bab5f44a7575",
+    "name": "Shore Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d1fffba-b284-58a3-855e-70614f50e09b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376921460"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Medical Center Way"
+        ],
+        "city": "SOMERS POINT",
+        "state": "NJ",
+        "postalCode": "08244-2300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11515"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11515.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:80dbcc29-8227-54f4-b6a6-bab5f44a7575"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f41e5953-f315-5f48-b8f7-6ee530318254",
+    "name": "La Estancia SNF",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e7a8cbb4-f678-5a5f-ad5e-76f05fabfde1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831584127"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15810 S 42nd St"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85048-7409"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15588"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15588.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f41e5953-f315-5f48-b8f7-6ee530318254"
+}

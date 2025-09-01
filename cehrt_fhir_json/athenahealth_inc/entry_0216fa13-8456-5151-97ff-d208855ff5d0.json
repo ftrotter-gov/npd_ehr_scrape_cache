@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0216fa13-8456-5151-97ff-d208855ff5d0",
+    "name": "INCRMC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca107b64-a57f-5018-a42a-5822e8751114"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902171275"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "504 Medical Center Blvd."
+        ],
+        "city": "CONROE",
+        "state": "TX",
+        "postalCode": "77304-2808"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4049"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4049.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0216fa13-8456-5151-97ff-d208855ff5d0"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b941f901-64c6-5279-8677-849eca48a66b",
+    "name": "Cardiac Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c2db802b-93e7-5a5d-9dd8-b8c21203fee5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932134186"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3185 Windsong Drive"
+        ],
+        "city": "PRESCOTT VALLEY",
+        "state": "AZ",
+        "postalCode": "86314-2371"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23701"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23701.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b941f901-64c6-5279-8677-849eca48a66b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "23740ff4-d5fb-5a16-836e-d9e21d6cff1a",
+    "name": "PATIENTS HOME",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0d19a0fb-2d06-5b6e-95ab-988002f2ae2e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245741446"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12140 NALL SUITE 125"
+        ],
+        "city": "LEAWOOD",
+        "state": "KS",
+        "postalCode": "66209-2503"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16849"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16849.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:23740ff4-d5fb-5a16-836e-d9e21d6cff1a"
+}

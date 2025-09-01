@@ -1,0 +1,52 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e35878e9-49fe-517d-94f3-93c1163d6d4f",
+    "name": "Bailey Square Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e457035a-fc68-526d-8258-dc6e91f65d4f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922496504"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1111 West 34th St."
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78705-1900"
+      },
+      {
+        "line": [],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78758-2401"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10601"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10601.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e35878e9-49fe-517d-94f3-93c1163d6d4f"
+}

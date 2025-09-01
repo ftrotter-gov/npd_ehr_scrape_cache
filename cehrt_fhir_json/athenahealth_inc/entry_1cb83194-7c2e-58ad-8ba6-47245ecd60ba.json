@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1cb83194-7c2e-58ad-8ba6-47245ecd60ba",
+    "name": "Sedgwick County Jail",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8050c3ef-243d-54c8-9291-7bc81f36fef0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063453991"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417967365"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952593915"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "141 W Elm St"
+        ],
+        "city": "Wichita",
+        "state": "KS",
+        "postalCode": "67203-3848"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20807"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20807.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1cb83194-7c2e-58ad-8ba6-47245ecd60ba"
+}

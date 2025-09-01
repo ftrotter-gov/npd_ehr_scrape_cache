@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "16af8ff7-fe01-50b0-a2c9-3666a4f0de21",
+    "name": "Spotsylvania Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ebb125d7-2963-5c4a-8e68-71053acc0de8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346427564"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4600 SPOTSYLVANIA PKWY"
+        ],
+        "city": "FREDERICKSBURG",
+        "state": "VA",
+        "postalCode": "22408-7762"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21345"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21345.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:16af8ff7-fe01-50b0-a2c9-3666a4f0de21"
+}

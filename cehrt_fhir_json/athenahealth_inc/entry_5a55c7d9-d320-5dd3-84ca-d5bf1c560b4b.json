@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5a55c7d9-d320-5dd3-84ca-d5bf1c560b4b",
+    "name": "Point Meadows Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/89ca1187-a638-5380-b8eb-b97e18bd830a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861440810"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8262 POINT MEADOWS DR STE 101"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "FL",
+        "postalCode": "32256-4700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25110"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25110.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5a55c7d9-d320-5dd3-84ca-d5bf1c560b4b"
+}

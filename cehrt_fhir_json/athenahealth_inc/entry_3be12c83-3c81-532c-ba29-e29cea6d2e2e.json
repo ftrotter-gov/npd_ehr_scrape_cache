@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3be12c83-3c81-532c-ba29-e29cea6d2e2e",
+    "name": "Rome",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fe982f07-ace0-5ca6-afa9-9e92f64c66ca"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376618843"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417959701"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 East Chestnut Street",
+          "Suite 205"
+        ],
+        "city": "ROME",
+        "state": "NY",
+        "postalCode": "13440-2886"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3149"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3149.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3be12c83-3c81-532c-ba29-e29cea6d2e2e"
+}

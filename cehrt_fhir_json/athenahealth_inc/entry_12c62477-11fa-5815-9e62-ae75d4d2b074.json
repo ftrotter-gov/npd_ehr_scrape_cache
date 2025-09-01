@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12c62477-11fa-5815-9e62-ae75d4d2b074",
+    "name": "centrastate medical center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cd271850-aedc-510d-a31e-77d581bee3ca"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235472424"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "901 W. MAIN STREET"
+        ],
+        "city": "FREEHOLD",
+        "state": "NJ",
+        "postalCode": "07728-2537"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7625"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7625.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12c62477-11fa-5815-9e62-ae75d4d2b074"
+}

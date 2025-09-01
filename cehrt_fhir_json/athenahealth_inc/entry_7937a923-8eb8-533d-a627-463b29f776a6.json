@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7937a923-8eb8-533d-a627-463b29f776a6",
+    "name": "Hurst Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d5f13e74-6efb-5d00-816f-a7178807ae31"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629789524"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "330 GRAPEVINE HWY"
+        ],
+        "city": "HURST",
+        "state": "TX",
+        "postalCode": "76054-2429"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26136"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26136.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7937a923-8eb8-533d-a627-463b29f776a6"
+}

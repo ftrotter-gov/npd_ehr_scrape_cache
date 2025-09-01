@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a8ab369c-6bb5-51ea-b2d8-aaa2b1d34219",
+    "name": "Our House",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/71256a85-e0f6-54be-a6a3-977f3fb65685"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104527944"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225442783"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "OUR HOUSE",
+          "711 SOUTH COLUMBIA DRIVE"
+        ],
+        "city": "DECATUR",
+        "state": "GA",
+        "postalCode": "30030-4118"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10414"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10414.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a8ab369c-6bb5-51ea-b2d8-aaa2b1d34219"
+}

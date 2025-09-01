@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d57643fb-cccd-509e-b396-68f452146795",
+    "name": "Hopkins Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4bb4718e-d978-54b6-881d-2897f2a775d7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962916353"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "571 MAIN ST"
+        ],
+        "city": "SOUTH WEYMOUTH",
+        "state": "MA",
+        "postalCode": "02190-1843"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32432"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32432.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d57643fb-cccd-509e-b396-68f452146795"
+}

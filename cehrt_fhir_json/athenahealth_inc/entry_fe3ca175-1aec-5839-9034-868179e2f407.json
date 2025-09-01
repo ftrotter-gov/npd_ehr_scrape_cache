@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fe3ca175-1aec-5839-9034-868179e2f407",
+    "name": "Mesa PVMC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5eecb76c-f297-526e-a541-7ca6cd91df91"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609990928"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11011 Hwy 65",
+          "Unit B"
+        ],
+        "city": "MESA",
+        "state": "CO",
+        "postalCode": "81643-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26973"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26973.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fe3ca175-1aec-5839-9034-868179e2f407"
+}

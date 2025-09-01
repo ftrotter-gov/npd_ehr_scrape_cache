@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3be2a56b-4d76-5df7-b3ff-dd0fc1218cc5",
+    "name": "MRC - Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e55097f8-5be1-518b-9831-5b8d33d2154d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770182073"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "27001 US Hwy 19 N Suite 1033B, Clearwater, FL 3376"
+        ],
+        "city": "CLEARWATER",
+        "state": "FL",
+        "postalCode": "33761-3407"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24019"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24019.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3be2a56b-4d76-5df7-b3ff-dd0fc1218cc5"
+}

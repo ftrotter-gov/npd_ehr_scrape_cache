@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3256c87e-daeb-56da-a5f4-12cdb7e8eace",
+    "name": "STAMFORD HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f311db1d-590c-587c-a10d-2293abf25399"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902271729"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "ONE HOSPITAL PLAZA"
+        ],
+        "city": "STAMFORD",
+        "state": "CT",
+        "postalCode": "06904-9317"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13544"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13544.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3256c87e-daeb-56da-a5f4-12cdb7e8eace"
+}

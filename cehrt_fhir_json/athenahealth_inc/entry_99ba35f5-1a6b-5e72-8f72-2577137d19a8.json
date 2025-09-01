@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "99ba35f5-1a6b-5e72-8f72-2577137d19a8",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/432ce0ea-47cf-57d8-bdda-a50560d03e56"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336153709"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336353135"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "14131 METROPOLIS AVE SUITE 104"
+        ],
+        "city": "FORT MYERS",
+        "state": "FL",
+        "postalCode": "33912-4455"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12970"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12970.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:99ba35f5-1a6b-5e72-8f72-2577137d19a8"
+}

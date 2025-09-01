@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "237fdc86-ae41-53d6-ba8f-2f86a05e9d2b",
+    "name": "Melrose Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/63403931-4bc2-5bbf-8b9f-c3f9b006e50f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457897621"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "331 Melrose Dr, Suite 220"
+        ],
+        "city": "RICHARDSON",
+        "state": "TX",
+        "postalCode": "75080-4773"
+      },
+      {
+        "line": [
+          "331 MELROSE DR. SUITE 220"
+        ],
+        "city": "RICHARDSON",
+        "state": "TX",
+        "postalCode": "75080-4405"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15173"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15173.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:237fdc86-ae41-53d6-ba8f-2f86a05e9d2b"
+}

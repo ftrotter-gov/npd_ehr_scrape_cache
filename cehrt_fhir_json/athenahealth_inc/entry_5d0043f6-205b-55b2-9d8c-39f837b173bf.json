@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5d0043f6-205b-55b2-9d8c-39f837b173bf",
+    "name": "Home Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/875aa429-3ced-56ad-824a-1d2ceaadc1fd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821014929"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 Edward St."
+        ],
+        "city": "FORT ATKINSON",
+        "state": "WI",
+        "postalCode": "53538-1821"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7768"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7768.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5d0043f6-205b-55b2-9d8c-39f837b173bf"
+}

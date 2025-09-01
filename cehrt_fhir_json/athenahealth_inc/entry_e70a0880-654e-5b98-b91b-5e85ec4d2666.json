@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e70a0880-654e-5b98-b91b-5e85ec4d2666",
+    "name": "Sarah Brayton Nursing Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f598cdc7-a6af-5491-978d-51aab9dc6519"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336137629"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104874874"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4901 North Main Street"
+        ],
+        "city": "FALL RIVER",
+        "state": "MA",
+        "postalCode": "02720-2080"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-788"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-788.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e70a0880-654e-5b98-b91b-5e85ec4d2666"
+}

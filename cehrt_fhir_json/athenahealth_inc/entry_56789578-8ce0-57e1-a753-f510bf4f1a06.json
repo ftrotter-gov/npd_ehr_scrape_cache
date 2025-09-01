@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56789578-8ce0-57e1-a753-f510bf4f1a06",
+    "name": "Martin Luther King Jr. YMCA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/abb5f7d5-468e-5806-be46-fb2282afef02"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306381330"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 NW 62 Street"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33147-7826"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14268"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14268.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56789578-8ce0-57e1-a753-f510bf4f1a06"
+}

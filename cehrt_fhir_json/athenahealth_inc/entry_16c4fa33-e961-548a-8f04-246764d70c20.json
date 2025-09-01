@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "16c4fa33-e961-548a-8f04-246764d70c20",
+    "name": "Crossover Health Services at 36th St.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5cb0616c-d525-5507-81b1-29d6c45d9649"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407297963"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942958111"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "940 E 36TH ST N"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74106-1953"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16190"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16190.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:16c4fa33-e961-548a-8f04-246764d70c20"
+}

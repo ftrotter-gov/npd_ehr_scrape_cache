@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e9c7e72-b5af-5f3d-9dfd-fc207f05f79e",
+    "name": "THE CARE CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8373e7a7-1417-5a46-a976-b6d3b83fa10a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567891"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "239 ROBESON ST"
+        ],
+        "city": "FAYETTEVILLE",
+        "state": "NC",
+        "postalCode": "28301-5511"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15517"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15517.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e9c7e72-b5af-5f3d-9dfd-fc207f05f79e"
+}

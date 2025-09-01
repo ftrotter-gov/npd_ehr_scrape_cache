@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c1c3ab82-86e9-5424-a2b1-7e86b4a67347",
+    "name": "My Doctors Pediatrics TELEMEDICINE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/630a61a8-8b6f-5cca-a573-42605d5da6eb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972783165"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9000 SW 137th Ave"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33186-1436"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19588"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19588.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c1c3ab82-86e9-5424-a2b1-7e86b4a67347"
+}

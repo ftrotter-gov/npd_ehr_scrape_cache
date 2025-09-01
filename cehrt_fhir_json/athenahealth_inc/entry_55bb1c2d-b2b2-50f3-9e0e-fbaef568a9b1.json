@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "55bb1c2d-b2b2-50f3-9e0e-fbaef568a9b1",
+    "name": "Euthymia Behavioral Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1d96dbf0-f656-5a1f-8a7e-ae345f36f2e8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801556691"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356931968"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "764 MAIN ST STE 403"
+        ],
+        "city": "PATERSON",
+        "state": "NJ",
+        "postalCode": "07503-3298"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24913"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24913.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:55bb1c2d-b2b2-50f3-9e0e-fbaef568a9b1"
+}

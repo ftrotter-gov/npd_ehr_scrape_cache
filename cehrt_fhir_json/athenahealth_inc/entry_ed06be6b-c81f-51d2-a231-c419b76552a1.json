@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ed06be6b-c81f-51d2-a231-c419b76552a1",
+    "name": "Huntington Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/889283ea-4582-5052-a479-435b0c26ab5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376997221"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 W California Blvd"
+        ],
+        "city": "PASADENA",
+        "state": "CA",
+        "postalCode": "91105-3010"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16362"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16362.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ed06be6b-c81f-51d2-a231-c419b76552a1"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9b056dd7-9684-5829-b190-7de84758b47b",
+    "name": "Revere Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c2dc412b-659a-5ef8-9459-c31c91b6cf1f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821349317"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629398219"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "60 EAST ST"
+        ],
+        "city": "METHUEN",
+        "state": "MA",
+        "postalCode": "01844-4597"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2017"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2017.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9b056dd7-9684-5829-b190-7de84758b47b"
+}

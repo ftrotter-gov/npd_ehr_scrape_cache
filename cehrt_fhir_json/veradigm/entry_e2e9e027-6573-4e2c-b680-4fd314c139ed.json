@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e2e9e027-6573-4e2c-b680-4fd314c139ed",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "303644ad-9d21-42c3-ac01-88688ff9d35b",
+        "name": "NSLIJ Template"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "NSLIJ Template",
+    "managingOrganization": {
+      "reference": "#303644ad-9d21-42c3-ac01-88688ff9d35b"
+    },
+    "period": {
+      "start": "2020-12-18T09:14:21+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/NSLIJTMPT"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/NSLIJTMPT"
+}

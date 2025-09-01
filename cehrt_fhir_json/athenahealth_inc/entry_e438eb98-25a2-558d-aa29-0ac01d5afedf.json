@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e438eb98-25a2-558d-aa29-0ac01d5afedf",
+    "name": "MyHealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dc14bb9e-538a-586e-bc8b-d0a310a4318a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578130357"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760078182"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "14502  GREENVIEW DR",
+          "SUITE 500-L21"
+        ],
+        "city": "LAUREL",
+        "state": "MD",
+        "postalCode": "20708-3202"
+      },
+      {
+        "line": [
+          "14502 GREENVIEW DR # 500-L21"
+        ],
+        "city": "LAUREL",
+        "state": "MD",
+        "postalCode": "20708-3287"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23483"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23483.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e438eb98-25a2-558d-aa29-0ac01d5afedf"
+}

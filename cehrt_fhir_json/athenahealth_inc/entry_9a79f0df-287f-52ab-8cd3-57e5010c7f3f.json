@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9a79f0df-287f-52ab-8cd3-57e5010c7f3f",
+    "name": "VHMC Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4c322393-a367-5b0a-abc6-9c34c8b0037c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952527111"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "VALLEY HOSPITAL ROCKWOOD HEALTH",
+          "12606 E MISSION AVE"
+        ],
+        "city": "SPOKANE VALLEY",
+        "state": "WA",
+        "postalCode": "99216-3421"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8308"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8308.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9a79f0df-287f-52ab-8cd3-57e5010c7f3f"
+}

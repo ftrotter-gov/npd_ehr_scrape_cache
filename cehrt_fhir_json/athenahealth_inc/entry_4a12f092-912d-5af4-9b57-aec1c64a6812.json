@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4a12f092-912d-5af4-9b57-aec1c64a6812",
+    "name": "Bay Area Foot Care - Alameda",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/88bf1510-86ef-5c3e-86d7-2f0f8f9eef23"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508911892"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2059 Clinton Avenue",
+          "Suite 1"
+        ],
+        "city": "ALAMEDA",
+        "state": "CA",
+        "postalCode": "94501-4379"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20181"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20181.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4a12f092-912d-5af4-9b57-aec1c64a6812"
+}

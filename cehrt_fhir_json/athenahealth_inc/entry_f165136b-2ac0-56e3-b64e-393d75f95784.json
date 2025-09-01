@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f165136b-2ac0-56e3-b64e-393d75f95784",
+    "name": "SilverCare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a370ea66-984c-5167-8972-7fa59d3c6089"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225861107"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "529 UINTA WAY"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80230-7183"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32203"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32203.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f165136b-2ac0-56e3-b64e-393d75f95784"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5aaf6d3e-4aaf-534a-8866-5e64bad9380e",
+    "name": "Greenfield Family Medicine Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/60a9030e-5e09-5cd1-8b30-7736df01f314"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558634121"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "230 N FRONT ST"
+        ],
+        "city": "GREENFIELD",
+        "state": "TN",
+        "postalCode": "38230-1518"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16165"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16165.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5aaf6d3e-4aaf-534a-8866-5e64bad9380e"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ea4ce9fc-1a12-5e5e-960a-961406808a4c",
+    "name": "Mat-Su Medical Group internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/44776b57-d892-5037-b504-8bfcf6665f64"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366752560"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861935975"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2490 S WOODWORTH LOOP STE 250"
+        ],
+        "city": "PALMER",
+        "state": "AK",
+        "postalCode": "99645-7407"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2839"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2839.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ea4ce9fc-1a12-5e5e-960a-961406808a4c"
+}

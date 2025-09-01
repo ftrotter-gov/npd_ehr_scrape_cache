@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0cf85235-2182-5aaf-a9f6-a5e94719a49e",
+    "name": "Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a70b0ef5-0ae5-5ceb-8b2c-26e4a26f0ef7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235262734"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "47 SANTA ROSA ST"
+        ],
+        "city": "SAN LUIS OBISPO",
+        "state": "CA",
+        "postalCode": "93405-5816"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13850"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13850.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0cf85235-2182-5aaf-a9f6-a5e94719a49e"
+}

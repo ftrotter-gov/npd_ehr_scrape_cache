@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "af431a19-07e8-4e1f-9671-2fefec309738",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "ab4d13c9-c510-42e5-a3bf-7324f35a02fe",
+        "name": "Dominion Family Healthcare"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dominion Family Healthcare",
+    "managingOrganization": {
+      "reference": "#ab4d13c9-c510-42e5-a3bf-7324f35a02fe"
+    },
+    "period": {
+      "start": "2024-02-20T14:25:26+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10035692"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10035692"
+}

@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b234380b-36f9-5d52-8a4c-d7de3d7b249b",
+    "meta": {
+      "lastUpdated": "2023-05-11T22:51:26.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://blythedale.org"
+      }
+    ],
+    "name": "Blythedale Children's Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://blythedale.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "95 Bradhurst Avenue"
+        ],
+        "city": "Valhalla",
+        "state": "NY",
+        "postalCode": "10595",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:20406166-bb37-5b14-a560-4d88c6f4f337"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:20406166-bb37-5b14-a560-4d88c6f4f337"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b234380b-36f9-5d52-8a4c-d7de3d7b249b"
+}

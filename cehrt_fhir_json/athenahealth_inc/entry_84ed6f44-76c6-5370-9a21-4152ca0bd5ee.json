@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "84ed6f44-76c6-5370-9a21-4152ca0bd5ee",
+    "name": "Mercie Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a64f6111-1445-559f-af45-da59d296d218"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821674961"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "25031 WESTHEIMER PKWY STE 500"
+        ],
+        "city": "KATY",
+        "state": "TX",
+        "postalCode": "77494-7317"
+      },
+      {
+        "line": [
+          "123 Main St"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-1020"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23675"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23675.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:84ed6f44-76c6-5370-9a21-4152ca0bd5ee"
+}

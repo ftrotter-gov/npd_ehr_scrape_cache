@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cbca6ebe-04b8-52ff-9206-c44aa9daab01",
+    "meta": {
+      "lastUpdated": "2022-09-07T22:51:06.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://rfgh.net/aboutus/hospital.xhtml"
+      }
+    ],
+    "name": "Redington-Fairview General Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://rfgh.net/aboutus/hospital.xhtml"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "46 Fairview Avenue"
+        ],
+        "city": "Skowhegan",
+        "state": "ME",
+        "postalCode": "04976",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:43963dda-7194-5b8f-954f-6793120847b9"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:43963dda-7194-5b8f-954f-6793120847b9"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cbca6ebe-04b8-52ff-9206-c44aa9daab01"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c38f7a3-ceac-5b0c-86bd-1e46f04b4320",
+    "name": "The Surgery Clinic LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/040ae599-53b4-515a-a19a-9bc9a54f769a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205893732"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "419 SOUTH 5TH ST"
+        ],
+        "city": "GADSDEN",
+        "state": "AL",
+        "postalCode": "35901"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5468"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5468.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c38f7a3-ceac-5b0c-86bd-1e46f04b4320"
+}

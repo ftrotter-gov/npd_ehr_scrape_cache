@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3b32d034-3ea0-5213-8d21-147f217aa1cb",
+    "name": "EMC Home Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4fc562e7-fdc9-5936-bde0-0680e9dc906c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689726101"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215629886"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063472116"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "305 Back Road"
+        ],
+        "city": "OCRACOKE",
+        "state": "NC",
+        "postalCode": "27960-0543"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27056"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27056.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3b32d034-3ea0-5213-8d21-147f217aa1cb"
+}

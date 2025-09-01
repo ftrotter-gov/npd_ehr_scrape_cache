@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4a2c565e-d84e-5d8e-8a27-c500c19a6bb1",
+    "name": "HMC The Full Circle",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9163cda2-3118-5bf1-9d66-14bfacb23eba"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528056066"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1200 Memorial Dr"
+        ],
+        "city": "Dalton",
+        "state": "GA",
+        "postalCode": "30720-8662"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8518"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8518.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4a2c565e-d84e-5d8e-8a27-c500c19a6bb1"
+}

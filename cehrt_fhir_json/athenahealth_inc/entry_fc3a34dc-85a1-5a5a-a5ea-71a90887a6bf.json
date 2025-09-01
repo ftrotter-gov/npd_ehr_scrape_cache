@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fc3a34dc-85a1-5a5a-a5ea-71a90887a6bf",
+    "name": "Tucson Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9a973f37-8d31-5ab7-a988-e8605137b690"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609966399"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5301 E. Grant Road"
+        ],
+        "city": "TUCSON",
+        "state": "AZ",
+        "postalCode": "85712-2805"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16496"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16496.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fc3a34dc-85a1-5a5a-a5ea-71a90887a6bf"
+}

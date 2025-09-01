@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "6162d2ee-db54-4947-b22d-09f8a4f8fc63",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3b662f30-4494-4aed-a9d8-cf2429d3f96e",
+        "name": "Anthony Decotis Md"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Anthony Decotis Md",
+    "managingOrganization": {
+      "reference": "#3b662f30-4494-4aed-a9d8-cf2429d3f96e"
+    },
+    "period": {
+      "start": "2018-11-02T10:06:18+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/73388"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/73388"
+}

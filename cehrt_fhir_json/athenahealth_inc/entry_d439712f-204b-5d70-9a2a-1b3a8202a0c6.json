@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d439712f-204b-5d70-9a2a-1b3a8202a0c6",
+    "name": "Troy Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/928ce6e4-551b-54cc-bf8f-5531764c432c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760077747"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "320 North Main Street"
+        ],
+        "city": "LOCKNEY",
+        "state": "TX",
+        "postalCode": "79241-9802"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23654"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23654.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d439712f-204b-5d70-9a2a-1b3a8202a0c6"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f2ac9c38-767c-5a75-816f-e346dadd8940",
+    "name": "Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bfe467d1-4421-5e51-9eb5-d19219944741"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497164990"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1646 Lockhill Selma"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78213-1929"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11706"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11706.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f2ac9c38-767c-5a75-816f-e346dadd8940"
+}

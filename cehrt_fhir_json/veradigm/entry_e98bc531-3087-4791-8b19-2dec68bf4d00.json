@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e98bc531-3087-4791-8b19-2dec68bf4d00",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "bc5d87f9-1756-41a4-a2d9-1a9d72713722",
+        "name": "The Childhealth Center, PA"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "The Childhealth Center, PA",
+    "managingOrganization": {
+      "reference": "#bc5d87f9-1756-41a4-a2d9-1a9d72713722"
+    },
+    "period": {
+      "start": "2018-09-18T09:56:34+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10020578"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10020578"
+}

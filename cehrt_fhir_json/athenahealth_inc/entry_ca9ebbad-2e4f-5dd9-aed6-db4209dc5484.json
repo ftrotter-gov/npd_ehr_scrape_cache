@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ca9ebbad-2e4f-5dd9-aed6-db4209dc5484",
+    "name": "HYMC Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a3e8896e-0d96-5e2e-b931-bf383477eea8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598715401"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356391247"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "240 MAPLE STREET"
+        ],
+        "city": "WOODRUFF",
+        "state": "WI",
+        "postalCode": "54568-9190"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10114"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10114.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ca9ebbad-2e4f-5dd9-aed6-db4209dc5484"
+}

@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "02c8e6c8-33e4-59a0-856c-3684423fb752",
+    "meta": {
+      "lastUpdated": "2022-06-18T22:51:49.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://georgetownhospitalsystem.org"
+      }
+    ],
+    "name": "Tidelands Health",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://georgetownhospitalsystem.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "606 Black River Road"
+        ],
+        "city": "Georgetown",
+        "state": "SC",
+        "postalCode": "29440",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:b51a77ef-99bf-5e8b-87f2-b80c7d14e2e1"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:b51a77ef-99bf-5e8b-87f2-b80c7d14e2e1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:02c8e6c8-33e4-59a0-856c-3684423fb752"
+}

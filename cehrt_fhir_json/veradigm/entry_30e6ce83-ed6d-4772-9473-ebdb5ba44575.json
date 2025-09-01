@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "30e6ce83-ed6d-4772-9473-ebdb5ba44575",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "84ec4052-b8cd-4cf0-9505-2ccd7cc7ac15",
+        "name": "Columbia Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Columbia Medical Center",
+    "managingOrganization": {
+      "reference": "#84ec4052-b8cd-4cf0-9505-2ccd7cc7ac15"
+    },
+    "period": {
+      "start": "2018-09-26T07:04:08+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/9437"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/9437"
+}

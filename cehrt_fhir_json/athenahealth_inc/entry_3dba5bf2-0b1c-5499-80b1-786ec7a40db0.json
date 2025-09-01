@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3dba5bf2-0b1c-5499-80b1-786ec7a40db0",
+    "name": "Appalachian Regional Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/868b1081-8740-52c0-844a-bacfb75f40d4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639122690"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "260 Hospital Drive"
+        ],
+        "city": "South Williamson",
+        "state": "KY",
+        "postalCode": "41503-0260"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4693"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4693.Brand-14"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3dba5bf2-0b1c-5499-80b1-786ec7a40db0"
+}

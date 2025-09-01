@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "60934c2d-2372-5df8-a012-608aa4af0a2c",
+    "name": "Refresh Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fbe74f21-4e92-5c63-b98c-94ae5ba9099d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144652058"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8877 WEST UNION HILLS DRIVE",
+          "SUITE 350"
+        ],
+        "city": "PEORIA",
+        "state": "AZ",
+        "postalCode": "85382-3008"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27778"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27778.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:60934c2d-2372-5df8-a012-608aa4af0a2c"
+}

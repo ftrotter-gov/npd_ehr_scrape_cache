@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a15a23a5-3dc5-56e4-93c6-39f1896be82e",
+    "name": "Pediatric Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/50badddc-08d6-54d5-8778-221dc93e34a2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295920015"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "43 ENTERPRISE DR",
+          "STE 1"
+        ],
+        "city": "BRISTOL",
+        "state": "CT",
+        "postalCode": "06010-7457"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22544"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22544.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a15a23a5-3dc5-56e4-93c6-39f1896be82e"
+}

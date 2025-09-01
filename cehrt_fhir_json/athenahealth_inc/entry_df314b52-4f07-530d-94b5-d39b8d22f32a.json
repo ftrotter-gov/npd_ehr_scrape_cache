@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "df314b52-4f07-530d-94b5-d39b8d22f32a",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e7f22c8-97f3-540b-bdc9-c5e35a86d422"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740822477"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598394686"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013588250"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4000 Civic Center Dr."
+        ],
+        "city": "SAN RAFAEL",
+        "state": "CA",
+        "postalCode": "94903-4171"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20515"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20515.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:df314b52-4f07-530d-94b5-d39b8d22f32a"
+}

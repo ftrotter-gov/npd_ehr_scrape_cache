@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9b57af5f-f89a-5efb-8906-653e6195457b",
+    "name": "Primary Medical Group- Johnson",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/581962db-d3ca-5ca5-9d52-4966fa6bc97f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417970849"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2772 Johnson Dr",
+          "#200"
+        ],
+        "city": "VENTURA",
+        "state": "CA",
+        "postalCode": "93003-7262"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21226"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21226.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9b57af5f-f89a-5efb-8906-653e6195457b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e8a4e259-f4e0-54bc-a2f0-0c188c2ea145",
+    "name": "Touro Infirmary Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/07ff62c7-688f-55fd-8e98-f1b6c7f60547"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588077507"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 Foucher Street"
+        ],
+        "city": "NEW ORLEANS",
+        "state": "LA",
+        "postalCode": "70115-3515"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10050"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10050.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e8a4e259-f4e0-54bc-a2f0-0c188c2ea145"
+}

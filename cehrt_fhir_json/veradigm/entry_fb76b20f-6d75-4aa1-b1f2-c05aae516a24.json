@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "fb76b20f-6d75-4aa1-b1f2-c05aae516a24",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "33fc5245-2ca2-4ef7-8931-17fb510a312e",
+        "name": "Primary Care Specialists"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Primary Care Specialists",
+    "managingOrganization": {
+      "reference": "#33fc5245-2ca2-4ef7-8931-17fb510a312e"
+    },
+    "period": {
+      "start": "2018-06-26T13:58:35+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/9530"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/9530"
+}

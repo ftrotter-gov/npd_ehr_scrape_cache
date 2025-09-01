@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3dec8cf5-c9fb-57d4-9f2d-77c7c5f948b2",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e201217-8a34-5c65-817f-a9677e972522"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093832586"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3553 CAMINO MIRA COSTA",
+          "SUITE A"
+        ],
+        "city": "SAN CLEMENTE",
+        "state": "CA",
+        "postalCode": "92672-3512"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14460"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14460.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3dec8cf5-c9fb-57d4-9f2d-77c7c5f948b2"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a629806-3097-52cb-98a1-6437fd782bde",
+    "name": "Dr.nuMe",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/341f303a-41d3-5f9a-ac2f-09fe9c008e6e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336903921"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1205 SW 90th Ave"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33174-3119"
+      },
+      {
+        "line": [
+          "2500 SW 75TH AVENUE"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33155-2805"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31301"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31301.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a629806-3097-52cb-98a1-6437fd782bde"
+}

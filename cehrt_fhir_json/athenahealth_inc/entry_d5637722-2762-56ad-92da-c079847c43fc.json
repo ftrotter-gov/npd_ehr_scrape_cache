@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d5637722-2762-56ad-92da-c079847c43fc",
+    "name": "Pinetop Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/08de9af7-a6bc-5bb8-b370-9942bea9ce76"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467878108"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "728 E White Mountain Blvd # A"
+        ],
+        "city": "PINETOP",
+        "state": "AZ",
+        "postalCode": "85935-8460"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8480"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8480.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d5637722-2762-56ad-92da-c079847c43fc"
+}

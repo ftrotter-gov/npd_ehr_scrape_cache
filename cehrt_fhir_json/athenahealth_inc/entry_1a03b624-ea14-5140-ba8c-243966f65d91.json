@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1a03b624-ea14-5140-ba8c-243966f65d91",
+    "name": "EL CAMINO HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/57a3c369-df47-5244-bf9a-03b906098fbb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952742694"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881771798"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 GRANT ROAD"
+        ],
+        "city": "MOUNTAIN VIEW",
+        "state": "CA",
+        "postalCode": "94040-4302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3578"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3578.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1a03b624-ea14-5140-ba8c-243966f65d91"
+}

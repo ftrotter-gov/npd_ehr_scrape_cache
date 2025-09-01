@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5d27cc7-e0e7-55eb-b8cf-f6ddcf1086bf",
+    "name": "Parma Location",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/62b24782-5583-5747-a6f2-9aab083d4150"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669585428"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891271813"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6900 RIDGE RD.",
+          "SUITE 102"
+        ],
+        "city": "PARMA",
+        "state": "OH",
+        "postalCode": "44129-5629"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6591"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6591.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5d27cc7-e0e7-55eb-b8cf-f6ddcf1086bf"
+}

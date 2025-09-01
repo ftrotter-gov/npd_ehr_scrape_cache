@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "44de326e-0d5f-506d-a13a-ef77754addbf",
+    "name": "BOCA RATON Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/71043b12-ba0a-5ea0-a375-de765d0ddafe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861574030"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 Main St"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10030-1000"
+      },
+      {
+        "line": [
+          "3401 PGA BLVD",
+          "SUITE 300"
+        ],
+        "city": "PALM BEACH GARDENS",
+        "state": "FL",
+        "postalCode": "33410-2823"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-646"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-646.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:44de326e-0d5f-506d-a13a-ef77754addbf"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c00681c1-17df-5e1e-a8c2-a7961df49a35",
+    "name": "Anaheim Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f2d56898-d2e6-5964-a0a0-3515ca038c15"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144505330"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1110 W LA PALMA AVE",
+          "SUITE 5"
+        ],
+        "city": "ANAHEIM",
+        "state": "CA",
+        "postalCode": "92801-2822"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3850"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3850.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c00681c1-17df-5e1e-a8c2-a7961df49a35"
+}

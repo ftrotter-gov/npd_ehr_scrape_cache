@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MzExM18zMTEzXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1137.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083793525"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pediatrics At Chartley PA MD",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "410-833-2949",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "410-431-3572",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "Pediatrics at Chartley 210 Business Center Drive Reisterstown, MD 211361230",
+        "line": [
+          "Pediatrics at Chartley",
+          "210 Business Center Drive"
+        ],
+        "city": "Reisterstown",
+        "state": "MD",
+        "postalCode": "211361230",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MzExM18zMTEzXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MzExM18zMTEzXzMwNjA"
+}

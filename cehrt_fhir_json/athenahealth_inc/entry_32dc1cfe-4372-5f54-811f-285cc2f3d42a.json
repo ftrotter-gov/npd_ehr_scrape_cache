@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "32dc1cfe-4372-5f54-811f-285cc2f3d42a",
+    "name": "Inpatient Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aa8c290f-0aa6-56c4-a0ee-76296d56a4cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912190349"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 Remington Blvd"
+        ],
+        "city": "BOLINGBROOK",
+        "state": "IL",
+        "postalCode": "60440-4906"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11102"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11102.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:32dc1cfe-4372-5f54-811f-285cc2f3d42a"
+}

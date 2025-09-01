@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "58121ed6-bd31-5266-9c05-f78c765da4c9",
+    "name": "SurgCenter White Marsh",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d60adbb4-2299-58e2-b586-35cc77ca6bbe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154752202"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11605 Crossroads Circle",
+          "ste:A-C"
+        ],
+        "city": "MIDDLE RIVER",
+        "state": "MD",
+        "postalCode": "21220-2865"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7962"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7962.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:58121ed6-bd31-5266-9c05-f78c765da4c9"
+}

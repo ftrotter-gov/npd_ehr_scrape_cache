@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c552c7fe-6bd3-5915-800b-497c8fa06f6d",
+    "name": "Lehigh Acres Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/82bd6ea0-9177-51e7-8560-771721a2ebac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386884385"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2814 Lee Blvd.  Suite 2  Lehigh Acres"
+        ],
+        "city": "LEHIGH ACRES",
+        "state": "FL",
+        "postalCode": "33971-1561"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27479"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27479.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c552c7fe-6bd3-5915-800b-497c8fa06f6d"
+}

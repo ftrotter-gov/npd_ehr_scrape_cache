@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "da883c39-2150-4143-b947-624669dcff99",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "7bb288b2-ef5e-47f9-aa37-57f733a454b1",
+        "name": "Ear, Nose & Throat Specialist of Florida"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Ear, Nose & Throat Specialist of Florida",
+    "managingOrganization": {
+      "reference": "#7bb288b2-ef5e-47f9-aa37-57f733a454b1"
+    },
+    "period": {
+      "start": "2018-01-08T21:10:27+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10069211"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10069211"
+}

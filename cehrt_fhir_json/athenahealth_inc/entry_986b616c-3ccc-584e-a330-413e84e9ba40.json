@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "986b616c-3ccc-584e-a330-413e84e9ba40",
+    "name": "City Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6a2f67d7-84b5-5185-ad2b-2bc6f4f3a23d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326404443"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13403 W 7 MILE RD"
+        ],
+        "city": "DETROIT",
+        "state": "MI",
+        "postalCode": "48235-1387"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20832"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20832.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:986b616c-3ccc-584e-a330-413e84e9ba40"
+}

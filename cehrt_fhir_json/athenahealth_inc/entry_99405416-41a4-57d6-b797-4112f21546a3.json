@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "99405416-41a4-57d6-b797-4112f21546a3",
+    "name": "Riverview Medical Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eafe0346-f51b-5e83-9d94-2daa14b7391d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992389183"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "145 PRESIDENTIAL BLVD",
+          "STE 1"
+        ],
+        "city": "PATERSON",
+        "state": "NJ",
+        "postalCode": "07522-2173"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24140"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24140.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:99405416-41a4-57d6-b797-4112f21546a3"
+}

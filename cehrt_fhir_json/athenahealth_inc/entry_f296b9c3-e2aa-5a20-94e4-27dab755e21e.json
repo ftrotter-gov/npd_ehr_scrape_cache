@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f296b9c3-e2aa-5a20-94e4-27dab755e21e",
+    "name": "Lafayette Ambulatory Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6da302a6-ad08-571e-b5e6-18bf1215ea5c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831129790"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3733 Rome Drive"
+        ],
+        "city": "LAFAYETTE",
+        "state": "IN",
+        "postalCode": "47903-4490"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3642"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3642.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f296b9c3-e2aa-5a20-94e4-27dab755e21e"
+}

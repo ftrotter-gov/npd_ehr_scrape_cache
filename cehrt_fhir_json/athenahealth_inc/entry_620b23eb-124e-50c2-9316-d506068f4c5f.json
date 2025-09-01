@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "620b23eb-124e-50c2-9316-d506068f4c5f",
+    "name": "Abbeville General Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e1d472dd-4c1e-5c23-ad20-f9ce23a38767"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366774929"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "109 Rue Fontaine"
+        ],
+        "city": "LAFAYETTE",
+        "state": "LA",
+        "postalCode": "70508-5744"
+      },
+      {
+        "line": [
+          "118 N. Hospital Dr."
+        ],
+        "city": "ABBEVILLE",
+        "state": "LA",
+        "postalCode": "70510-4039"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8240"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8240.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:620b23eb-124e-50c2-9316-d506068f4c5f"
+}

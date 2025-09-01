@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ba64bbf-7dfe-584b-ac6b-a69c7834e741",
+    "name": "Fairview Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7326f8e9-2f47-5ec5-8703-32825939c065"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407390974"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18101 Lorain Ave"
+        ],
+        "city": "CLEVELAND",
+        "state": "OH",
+        "postalCode": "44111-5612"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15308"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15308.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ba64bbf-7dfe-584b-ac6b-a69c7834e741"
+}

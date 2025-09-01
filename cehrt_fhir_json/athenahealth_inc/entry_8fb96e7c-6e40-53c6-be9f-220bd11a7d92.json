@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8fb96e7c-6e40-53c6-be9f-220bd11a7d92",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/78121a8c-9d86-5faa-99ba-11987152c587"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952615528"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "35 E. GRASSY SPRAIN ROAD, SUITE 102"
+        ],
+        "city": "YONKERS",
+        "state": "NY",
+        "postalCode": "10710-4612"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12952"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12952.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8fb96e7c-6e40-53c6-be9f-220bd11a7d92"
+}

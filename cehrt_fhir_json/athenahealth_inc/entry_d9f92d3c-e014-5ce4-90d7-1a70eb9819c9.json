@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d9f92d3c-e014-5ce4-90d7-1a70eb9819c9",
+    "name": "Mercy Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df7707da-aa7b-511e-a84a-43d3c164287b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689729907"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4300 W MEMORIAL RD"
+        ],
+        "city": "OKLAHOMA CITY",
+        "state": "OK",
+        "postalCode": "73120-8304"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28118"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28118.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d9f92d3c-e014-5ce4-90d7-1a70eb9819c9"
+}

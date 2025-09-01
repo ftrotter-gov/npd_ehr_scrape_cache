@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "99873ee3-e4a9-4c7d-8017-920959c495e7",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "04d788c1-b848-44be-9143-b9cc0c4e382f",
+        "name": "Neuro Ctr Of N Orange County"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Neuro Ctr Of N Orange County",
+    "managingOrganization": {
+      "reference": "#04d788c1-b848-44be-9143-b9cc0c4e382f"
+    },
+    "period": {
+      "start": "2024-01-05T15:00:27+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10981686"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10981686"
+}

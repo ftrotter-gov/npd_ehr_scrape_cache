@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "36f7a87b-b929-55ab-91c1-953c9f9b0ffb",
+    "name": "MHCC Family Practice Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/60f95a7e-fce3-5b8d-8b65-f47a5e8059f4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710298757"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 3rd Street"
+        ],
+        "city": "RAWLINS",
+        "state": "WY",
+        "postalCode": "82301-5612"
+      },
+      {
+        "line": [
+          "300 3rd St"
+        ],
+        "city": "RAWLINS",
+        "state": "WY",
+        "postalCode": "82301-5371"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11372"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11372.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:36f7a87b-b929-55ab-91c1-953c9f9b0ffb"
+}

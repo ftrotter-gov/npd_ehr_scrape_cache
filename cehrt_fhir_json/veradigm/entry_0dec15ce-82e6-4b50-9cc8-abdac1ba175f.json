@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0dec15ce-82e6-4b50-9cc8-abdac1ba175f",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "a6406649-610b-462b-bb02-24b44331e35e",
+        "name": "Morgan Family Practice"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Morgan Family Practice",
+    "managingOrganization": {
+      "reference": "#a6406649-610b-462b-bb02-24b44331e35e"
+    },
+    "period": {
+      "start": "2019-01-04T09:00:08+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77374"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77374"
+}

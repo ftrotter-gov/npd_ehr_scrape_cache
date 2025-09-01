@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a611bc64-6cfb-5586-8941-85245ce65b71",
+    "name": "MERSI",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eb277728-db95-5e39-9afe-f817e01099d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730180274"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1440 MAIN ST.",
+          "SUITE 201"
+        ],
+        "city": "WALTHAM",
+        "state": "MA",
+        "postalCode": "02451-1640"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13784"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13784.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a611bc64-6cfb-5586-8941-85245ce65b71"
+}

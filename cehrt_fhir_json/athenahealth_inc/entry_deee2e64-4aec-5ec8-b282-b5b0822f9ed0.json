@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "deee2e64-4aec-5ec8-b282-b5b0822f9ed0",
+    "name": "IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2facc8a5-8c55-5bbf-af88-759859fa90ed"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477529360"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 HOSPITAL AVE"
+        ],
+        "city": "STUART",
+        "state": "FL",
+        "postalCode": "34994-2346"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12380"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12380.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:deee2e64-4aec-5ec8-b282-b5b0822f9ed0"
+}

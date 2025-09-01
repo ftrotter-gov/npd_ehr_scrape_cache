@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ef7c2580-1bd4-5e78-9a74-9f8870ee80fb",
+    "name": "Eleanor Health Akron",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0d1e53d0-6166-592b-9b69-30c16d57d203"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730782475"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "789 White Pond Drive",
+          "Suite C"
+        ],
+        "city": "AKRON",
+        "state": "OH",
+        "postalCode": "44320-4203"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21505"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21505.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ef7c2580-1bd4-5e78-9a74-9f8870ee80fb"
+}

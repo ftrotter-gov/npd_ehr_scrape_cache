@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "792d49a7-3179-55b5-8c74-007550a8f5d1",
+    "name": "St. Francis Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a229d9d-984f-5043-9900-42cc44378b2b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750475760"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6161 S. Yale Avenue"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74136-1902"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12700"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12700.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:792d49a7-3179-55b5-8c74-007550a8f5d1"
+}

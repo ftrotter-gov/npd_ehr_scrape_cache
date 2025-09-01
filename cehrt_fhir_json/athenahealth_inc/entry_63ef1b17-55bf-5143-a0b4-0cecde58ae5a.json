@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "63ef1b17-55bf-5143-a0b4-0cecde58ae5a",
+    "name": "Fairfield Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e5fdc08-c359-5ec5-8965-3d65465c1b43"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043544489"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 Beach Rd"
+        ],
+        "city": "Fairfield",
+        "state": "CT",
+        "postalCode": "06824-6668"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10861"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10861.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:63ef1b17-55bf-5143-a0b4-0cecde58ae5a"
+}

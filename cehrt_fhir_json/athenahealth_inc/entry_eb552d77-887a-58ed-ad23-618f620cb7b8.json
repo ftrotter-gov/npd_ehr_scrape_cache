@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eb552d77-887a-58ed-ad23-618f620cb7b8",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/668661dc-9b34-5ddb-a556-8d7767f4f70e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992850374"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "461 COOK ST STE B"
+        ],
+        "city": "ROYSTON",
+        "state": "GA",
+        "postalCode": "30662-4003"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16212"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16212.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eb552d77-887a-58ed-ad23-618f620cb7b8"
+}

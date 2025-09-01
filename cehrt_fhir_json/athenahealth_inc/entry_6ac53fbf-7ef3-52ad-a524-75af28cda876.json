@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6ac53fbf-7ef3-52ad-a524-75af28cda876",
+    "name": "Centered Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/60eb9f70-d96b-51e7-9ffa-2cb726cf86cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912775446"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2389 MAIN ST STE 100"
+        ],
+        "city": "GLASTONBURY",
+        "state": "CT",
+        "postalCode": "06033-4617"
+      },
+      {
+        "line": [
+          "966 PARK ST",
+          "STE B6"
+        ],
+        "city": "STOUGHTON",
+        "state": "MA",
+        "postalCode": "02072-3650"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30622"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30622.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6ac53fbf-7ef3-52ad-a524-75af28cda876"
+}

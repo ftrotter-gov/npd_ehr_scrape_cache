@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "be5980b9-8cb1-544d-a98b-00612f523818",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/30c545ec-9c4a-5f50-a7d2-c5c64a0d8976"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023112414"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2100 Clinch Ave",
+          "Suite 235"
+        ],
+        "city": "KNOXVILLE",
+        "state": "TN",
+        "postalCode": "37916-2287"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-977"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-977.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:be5980b9-8cb1-544d-a98b-00612f523818"
+}

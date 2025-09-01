@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fd23bb01-eff2-53af-ba18-88165c62e0a8",
+    "name": "BEMC OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0fe8759b-9757-5bf5-877e-f7868e6cdfb8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255379541"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9201 W Thomas Road"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85037-3332"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33009"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33009.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fd23bb01-eff2-53af-ba18-88165c62e0a8"
+}

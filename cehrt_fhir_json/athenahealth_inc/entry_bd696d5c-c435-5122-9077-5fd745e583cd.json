@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bd696d5c-c435-5122-9077-5fd745e583cd",
+    "name": "Cortez Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2c5a12b7-44ca-5f18-9cb1-fdba8ea48d36"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861503948"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 MERCADO ST STE 105"
+        ],
+        "city": "DURANGO",
+        "state": "CO",
+        "postalCode": "81301-7311"
+      },
+      {
+        "line": [
+          "2095 N Dolores Road",
+          "Unit A"
+        ],
+        "city": "Cortez",
+        "state": "CO",
+        "postalCode": "81301-7311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22261"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22261.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bd696d5c-c435-5122-9077-5fd745e583cd"
+}

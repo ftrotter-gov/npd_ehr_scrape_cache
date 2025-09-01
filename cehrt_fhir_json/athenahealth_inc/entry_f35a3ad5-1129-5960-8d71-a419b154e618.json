@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f35a3ad5-1129-5960-8d71-a419b154e618",
+    "name": "Grace Clinic Wellston",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/790eae0a-3a8e-5ee8-9a07-dc561d1d098c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "22 S. Ohio Avenue"
+        ],
+        "city": "WELLSTON",
+        "state": "OH",
+        "postalCode": "45692-1240"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16701"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16701.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f35a3ad5-1129-5960-8d71-a419b154e618"
+}

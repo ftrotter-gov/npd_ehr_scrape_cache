@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "78bb5b78-70e9-572f-aa17-2310173fbb4f",
+    "name": "AdventHealth Kissimmee",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7b663387-e3c2-5662-9790-59c81b17fcd1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225034234"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2450 N Orange Blossom Tr"
+        ],
+        "city": "KISSIMMEE",
+        "state": "FL",
+        "postalCode": "34744-3216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13122"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13122.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:78bb5b78-70e9-572f-aa17-2310173fbb4f"
+}

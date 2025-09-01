@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e91aba21-8dc1-5e5b-9b9f-555aa14cf4da",
+    "name": "Inner Healing Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2cd77b9f-125c-5537-b605-19946d7b89d1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700566635"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "465 WAVERLEY OAKS ROAD",
+          "SUITE 201"
+        ],
+        "city": "WALTHAM",
+        "state": "MA",
+        "postalCode": "02452-8489"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29224"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29224.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e91aba21-8dc1-5e5b-9b9f-555aa14cf4da"
+}

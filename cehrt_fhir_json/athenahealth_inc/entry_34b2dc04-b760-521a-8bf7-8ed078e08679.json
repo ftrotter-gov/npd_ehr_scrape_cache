@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "34b2dc04-b760-521a-8bf7-8ed078e08679",
+    "name": "CPAP of San Antonio",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e44a4fac-d65e-56d5-83ab-a30c40e2203e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922550110"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8093 ECKHERT RD"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78240-2637"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3724"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3724.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:34b2dc04-b760-521a-8bf7-8ed078e08679"
+}

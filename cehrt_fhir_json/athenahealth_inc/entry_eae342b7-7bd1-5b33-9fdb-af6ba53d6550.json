@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eae342b7-7bd1-5b33-9fdb-af6ba53d6550",
+    "name": "RADIOLOGY",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f36300ec-68e0-50a4-9093-fbc6e0914a38"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881743417"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467296277"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710037221"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "23901 LAHSER RD"
+        ],
+        "city": "SOUTHFIELD",
+        "state": "MI",
+        "postalCode": "48033-6035"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11987"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11987.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eae342b7-7bd1-5b33-9fdb-af6ba53d6550"
+}

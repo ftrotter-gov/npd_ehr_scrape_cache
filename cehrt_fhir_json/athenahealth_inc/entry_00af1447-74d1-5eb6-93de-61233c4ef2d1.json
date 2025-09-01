@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "00af1447-74d1-5eb6-93de-61233c4ef2d1",
+    "name": "Unity Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6bd822e-20d6-5ed3-bc3b-cd6a76c14594"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619619210"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20528 BOLAND FARM ROAD",
+          "SUITE 101"
+        ],
+        "city": "GERMANTOWN",
+        "state": "MD",
+        "postalCode": "20876-4032"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26821"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26821.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:00af1447-74d1-5eb6-93de-61233c4ef2d1"
+}

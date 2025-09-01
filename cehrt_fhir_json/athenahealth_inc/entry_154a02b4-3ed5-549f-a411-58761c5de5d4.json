@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "154a02b4-3ed5-549f-a411-58761c5de5d4",
+    "name": "Amory Gastroenterology Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c985f289-70d6-5b68-a386-d7dab233889e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255361978"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1127 Earl Frye Blvd.",
+          "Suite A"
+        ],
+        "city": "Amory",
+        "state": "MS",
+        "postalCode": "38821-5519"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:154a02b4-3ed5-549f-a411-58761c5de5d4"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0e3c043e-a783-4433-83e6-c0da49d17775",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "a2f4c4dc-f9d1-4c20-9ceb-322b3646c531",
+        "name": "DBWC LLC dba Daytona Beach WomenS Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "DBWC LLC dba Daytona Beach WomenS Center",
+    "managingOrganization": {
+      "reference": "#a2f4c4dc-f9d1-4c20-9ceb-322b3646c531"
+    },
+    "period": {
+      "start": "2018-11-21T09:15:38+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/58339"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/58339"
+}

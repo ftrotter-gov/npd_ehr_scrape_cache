@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3fef680e-d77e-53fa-a0db-772a5aeb9fc2",
+    "name": "Dr. Margo Goodman",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/da305e12-54bf-5133-aed5-7d9dcbef4db2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801661152"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11 BOWDOIN MILL IS STE 210"
+        ],
+        "city": "TOPSHAM",
+        "state": "ME",
+        "postalCode": "04086-1241"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30263"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30263.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3fef680e-d77e-53fa-a0db-772a5aeb9fc2"
+}

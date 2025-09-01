@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e2922636-1521-54f8-9b19-c435ec8603a0",
+    "name": "Howard County ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0aef9a87-788a-50fc-8d18-dd4b99364c84"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780225326"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144250176"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003079799"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5755 Cedar Lane"
+        ],
+        "city": "Columbia",
+        "state": "MD",
+        "postalCode": "21044-2912"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10777"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10777.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e2922636-1521-54f8-9b19-c435ec8603a0"
+}

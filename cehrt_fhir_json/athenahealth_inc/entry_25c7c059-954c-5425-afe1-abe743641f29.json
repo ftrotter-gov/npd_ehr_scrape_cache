@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "25c7c059-954c-5425-afe1-abe743641f29",
+    "name": "IPCS Anesthesia",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/98a6092d-3772-56be-ac9b-20715ce49075"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922477900"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6610 Flanders Dr.",
+          "Suite 100"
+        ],
+        "city": "San Diego",
+        "state": "CA",
+        "postalCode": "92121-3940"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13075"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13075.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:25c7c059-954c-5425-afe1-abe743641f29"
+}

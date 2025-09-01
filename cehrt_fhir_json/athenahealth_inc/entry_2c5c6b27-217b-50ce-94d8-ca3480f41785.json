@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c5c6b27-217b-50ce-94d8-ca3480f41785",
+    "name": "Ultimate Care Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/baa9d2c7-fb92-55e2-ac0f-95f573377d49"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801528591"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 STARK RD"
+        ],
+        "city": "STARKVILLE",
+        "state": "MS",
+        "postalCode": "39759-3613"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28806"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28806.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c5c6b27-217b-50ce-94d8-ca3480f41785"
+}

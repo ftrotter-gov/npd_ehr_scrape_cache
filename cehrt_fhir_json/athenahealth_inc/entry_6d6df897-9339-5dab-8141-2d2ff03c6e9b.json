@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d6df897-9339-5dab-8141-2d2ff03c6e9b",
+    "name": "Lake Shore Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f5abff84-06fb-543b-92a5-b65630abf658"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881693562"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962401745"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3111 VILLAGE POINT"
+        ],
+        "city": "CHESTERTON",
+        "state": "IN",
+        "postalCode": "46304-9689"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2301"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2301.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d6df897-9339-5dab-8141-2d2ff03c6e9b"
+}

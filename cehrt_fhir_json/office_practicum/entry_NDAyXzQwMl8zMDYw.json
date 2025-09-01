@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "NDAyXzQwMl8zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "951.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801064753"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Dr Bs Childrens Office",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "623-845-9009",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "623-845-6933",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "P.O. Box 56008 Phoenix, AZ 85079-6008",
+        "line": [
+          "P.O. Box 56008"
+        ],
+        "city": "Phoenix",
+        "state": "AZ",
+        "postalCode": "85079-6008",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/NDAyXzQwMl8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/NDAyXzQwMl8zMDYw"
+}

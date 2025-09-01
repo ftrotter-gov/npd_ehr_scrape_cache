@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "995760d7-e669-52c5-bc73-060bf30b4e43",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/80705999-35ce-5a59-9ca7-06c51580ed03"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063411106"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9420 KEY W AVE STE 340"
+        ],
+        "city": "ROCKVILLE",
+        "state": "MD",
+        "postalCode": "20850-6257"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15218"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15218.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:995760d7-e669-52c5-bc73-060bf30b4e43"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4a4ff5fb-82fe-5f41-8378-0de7d9acc3da",
+    "name": "Eastside Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b937e642-a310-5cc7-aa80-c8ee109855a8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831116730"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4850 East Main St."
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43213-3194"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-908"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-908.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4a4ff5fb-82fe-5f41-8378-0de7d9acc3da"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "80a1925f-73a2-554b-82fc-adb955d73b24",
+    "name": "AHC CA San Diego PCP Office Heredia",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4ea59969-28f8-501f-9da8-4dfd6546eee2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104439264"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "401 H ST",
+          "STE 2"
+        ],
+        "city": "CHULA VISTA",
+        "state": "CA",
+        "postalCode": "91910-4331"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29786"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29786.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:80a1925f-73a2-554b-82fc-adb955d73b24"
+}

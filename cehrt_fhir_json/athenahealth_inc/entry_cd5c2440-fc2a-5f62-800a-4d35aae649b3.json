@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cd5c2440-fc2a-5f62-800a-4d35aae649b3",
+    "name": "Las Vegas Cardiology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cf2e4c82-514f-52fa-a177-c73e18e85da7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114920717"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "108 Legion Drive Suite B"
+        ],
+        "city": "Las Vegas",
+        "state": "NM",
+        "postalCode": "87701-4898"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1592"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1592.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cd5c2440-fc2a-5f62-800a-4d35aae649b3"
+}

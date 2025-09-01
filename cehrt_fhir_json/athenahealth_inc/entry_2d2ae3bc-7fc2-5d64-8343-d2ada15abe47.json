@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2d2ae3bc-7fc2-5d64-8343-d2ada15abe47",
+    "name": "Saint Francis Hospital IPMA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/34b2dce8-3d1d-5a13-b946-0d9b21989cca"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215925789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "114 Woodland Street"
+        ],
+        "city": "HARTFORD",
+        "state": "CT",
+        "postalCode": "06105-1208"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27677"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27677.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2d2ae3bc-7fc2-5d64-8343-d2ada15abe47"
+}

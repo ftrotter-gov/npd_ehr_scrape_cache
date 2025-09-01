@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4fda599d-b891-520a-b7fc-b7c23224806d",
+    "name": "Sterling Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dcf5184a-7735-5f42-b1fb-760c0ebefed0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275588600"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235184672"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "303 Sterling Drive"
+        ],
+        "city": "ORCHARD PARK",
+        "state": "NY",
+        "postalCode": "14127-1570"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-457"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-457.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4fda599d-b891-520a-b7fc-b7c23224806d"
+}

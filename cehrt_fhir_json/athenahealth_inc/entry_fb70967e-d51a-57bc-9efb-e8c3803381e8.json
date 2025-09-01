@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fb70967e-d51a-57bc-9efb-e8c3803381e8",
+    "name": "Newton Wellesley Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c104b7e7-a8a1-53da-af14-05e8f359848d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447451133"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2014 Washington Street"
+        ],
+        "city": "Newton",
+        "state": "MA",
+        "postalCode": "02462-1607"
+      },
+      {
+        "line": [
+          "2014 Washington Stree"
+        ],
+        "city": "Newton",
+        "state": "MA",
+        "postalCode": "02462"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-83"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-83.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fb70967e-d51a-57bc-9efb-e8c3803381e8"
+}

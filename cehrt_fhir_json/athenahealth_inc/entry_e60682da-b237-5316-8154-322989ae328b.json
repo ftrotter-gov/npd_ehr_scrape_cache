@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e60682da-b237-5316-8154-322989ae328b",
+    "name": "Dr James Reynolds",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/258c35bc-b05b-550e-a706-e0c51f225462"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "116 East Division Road"
+        ],
+        "city": "OAK RIDGE",
+        "state": "TN",
+        "postalCode": "37830-6906"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17050"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17050.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e60682da-b237-5316-8154-322989ae328b"
+}

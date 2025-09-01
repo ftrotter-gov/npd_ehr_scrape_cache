@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a717ad78-29b3-56a6-89a0-88870750840b",
+    "name": "Crawford House",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f598cdc7-a6af-5491-978d-51aab9dc6519"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104874874"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336137629"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "237 Oak Grove Avenue"
+        ],
+        "city": "FALL RIVER",
+        "state": "MA",
+        "postalCode": "02720-2315"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-788"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-788.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a717ad78-29b3-56a6-89a0-88870750840b"
+}

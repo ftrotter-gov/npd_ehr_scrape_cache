@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cb08d29f-cf9c-5764-b78b-d2489f191074",
+    "name": "Doctors Community Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1cd0155-ab7c-542c-a067-9ceef303e217"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336660109"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8118 GOOD LUCK RD"
+        ],
+        "city": "LANHAM",
+        "state": "MD",
+        "postalCode": "20706-3574"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29845"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29845.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cb08d29f-cf9c-5764-b78b-d2489f191074"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1f67c9ab-4e92-5b88-a69d-6226b07ae110",
+    "name": "Silver Hill Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/77becba6-a53f-5960-a4a5-d4d3253e9562"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285132522"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5991 LEBANON RD"
+        ],
+        "city": "MURFREESBORO",
+        "state": "TN",
+        "postalCode": "37129-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17845"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17845.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1f67c9ab-4e92-5b88-a69d-6226b07ae110"
+}

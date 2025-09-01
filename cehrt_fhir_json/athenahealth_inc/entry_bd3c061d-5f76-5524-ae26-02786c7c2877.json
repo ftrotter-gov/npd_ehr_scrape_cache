@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bd3c061d-5f76-5524-ae26-02786c7c2877",
+    "name": "TWIN CITY MEDICAL CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6853ddd4-f031-5d6d-a266-a4fd08567774"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487983151"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "115 Gillikin St"
+        ],
+        "city": "TWIN CITY",
+        "state": "GA",
+        "postalCode": "30471-3989"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8824"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8824.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bd3c061d-5f76-5524-ae26-02786c7c2877"
+}

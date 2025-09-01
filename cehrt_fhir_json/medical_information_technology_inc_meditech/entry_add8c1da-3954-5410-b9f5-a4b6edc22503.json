@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "add8c1da-3954-5410-b9f5-a4b6edc22503",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://missionrmc.org"
+      }
+    ],
+    "name": "Mission Regional Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://missionrmc.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 South Bryan Road"
+        ],
+        "city": "Mission",
+        "state": "TX",
+        "postalCode": "78572",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:f8b56297-f2da-433d-965a-73dbd28e16f9"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:d6a22ad1-7348-544c-a4f3-721fc48b292c"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:f8b56297-f2da-433d-965a-73dbd28e16f9"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:add8c1da-3954-5410-b9f5-a4b6edc22503"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4fdb10ab-7e88-4641-b132-d49abd534b32",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "1d8f6ff6-597b-4f2e-a7f5-6125479226d2",
+        "name": "Raleigh Vein And Laser Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Raleigh Vein And Laser Center",
+    "managingOrganization": {
+      "reference": "#1d8f6ff6-597b-4f2e-a7f5-6125479226d2"
+    },
+    "period": {
+      "start": "2018-10-24T08:57:35+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76146"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76146"
+}

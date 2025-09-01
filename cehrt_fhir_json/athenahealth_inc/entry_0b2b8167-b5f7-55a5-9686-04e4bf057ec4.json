@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0b2b8167-b5f7-55a5-9686-04e4bf057ec4",
+    "name": "Goodland Regional Medical CTR",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fb9a5998-bd36-5f06-85d4-74470dfb3708"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497799241"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "220 W 2ND ST"
+        ],
+        "city": "GOODLAND",
+        "state": "KS",
+        "postalCode": "67735-1602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15016"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15016.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0b2b8167-b5f7-55a5-9686-04e4bf057ec4"
+}

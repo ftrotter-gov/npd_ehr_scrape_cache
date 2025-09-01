@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1fbf5110-0f31-59fb-a29e-2abad2fd8f08",
+    "name": "Carolina Family Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5f9450bf-bd89-553c-b893-810986e2cfea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548529878"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11220 ELM LANE",
+          "SUITE 102"
+        ],
+        "city": "CHARLOTTE",
+        "state": "NC",
+        "postalCode": "28277-0716"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4412"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4412.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1fbf5110-0f31-59fb-a29e-2abad2fd8f08"
+}

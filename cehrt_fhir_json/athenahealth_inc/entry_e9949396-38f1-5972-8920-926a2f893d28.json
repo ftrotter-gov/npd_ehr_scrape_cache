@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e9949396-38f1-5972-8920-926a2f893d28",
+    "name": "Foothills Boulder Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/06e14e5d-5984-5767-9a9c-a9496e0bc691"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376557967"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4745 Arapahoe ave"
+        ],
+        "city": "BOULDER",
+        "state": "CO",
+        "postalCode": "80303-1080"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1943"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1943.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e9949396-38f1-5972-8920-926a2f893d28"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12cc502a-a6eb-5e7d-aa45-97d7493cc7f4",
+    "name": "Adams Endocrinology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/25939d6c-43e0-5d03-85a3-5d7ff5a8ea2b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871094623"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20 EXPEDITION TRAIL, STE 204"
+        ],
+        "city": "GETTYSBURG",
+        "state": "PA",
+        "postalCode": "17325-8599"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18219"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18219.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12cc502a-a6eb-5e7d-aa45-97d7493cc7f4"
+}

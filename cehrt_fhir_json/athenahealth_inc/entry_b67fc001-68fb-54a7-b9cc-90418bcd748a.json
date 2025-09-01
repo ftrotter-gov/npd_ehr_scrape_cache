@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b67fc001-68fb-54a7-b9cc-90418bcd748a",
+    "name": "Physical Medicine Rehab",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f3dc51d7-f433-5d34-b83e-27db7a3e991e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083657829"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "647 Dunlop Lane Ste 210"
+        ],
+        "city": "CLARKSVILLE",
+        "state": "TN",
+        "postalCode": "37040-5165"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1879"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1879.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b67fc001-68fb-54a7-b9cc-90418bcd748a"
+}

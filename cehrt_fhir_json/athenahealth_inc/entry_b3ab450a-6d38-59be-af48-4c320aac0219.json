@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b3ab450a-6d38-59be-af48-4c320aac0219",
+    "name": "Northside Hospital Cherokee",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1f19ead0-4661-5b8c-9240-9cc63d8879c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811912611"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 Hospital Rd"
+        ],
+        "city": "CANTON",
+        "state": "GA",
+        "postalCode": "30114-2408"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8474"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8474.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b3ab450a-6d38-59be-af48-4c320aac0219"
+}

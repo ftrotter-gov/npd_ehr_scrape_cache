@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "64b49a67-faef-561f-867e-f4c4528238a0",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b48f1125-0fc4-5959-a91c-a76a8ad10fdd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104925213"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4808 N HIGH ST"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43214-1554"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15304"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15304.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:64b49a67-faef-561f-867e-f4c4528238a0"
+}

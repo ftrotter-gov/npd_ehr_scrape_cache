@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "86957825-0852-5989-add1-ef4fb162ea5d",
+    "name": "UMSS",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/12c0a05f-cfae-521b-a992-0602114e69d3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2921 S ORLANDO DR STE 166"
+        ],
+        "city": "SANFORD",
+        "state": "FL",
+        "postalCode": "32773-4105"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20432"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20432.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:86957825-0852-5989-add1-ef4fb162ea5d"
+}

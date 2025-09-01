@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ca2cf39-2e38-5e42-b9c2-6732209d4cad",
+    "name": "University Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/83cbfe22-a118-5459-9ec4-1cbaddc68859"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871080614"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629168562"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "602 Indiana Avenue"
+        ],
+        "city": "LUBBOCK",
+        "state": "TX",
+        "postalCode": "79415-3364"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20564"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20564.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ca2cf39-2e38-5e42-b9c2-6732209d4cad"
+}

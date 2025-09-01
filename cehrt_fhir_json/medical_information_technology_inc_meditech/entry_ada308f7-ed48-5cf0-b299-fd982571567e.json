@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ada308f7-ed48-5cf0-b299-fd982571567e",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://wilsonmedical.com"
+      }
+    ],
+    "name": "Wilson Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://wilsonmedical.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1705 Tarboro Street Southwest"
+        ],
+        "city": "Wilson",
+        "state": "NC",
+        "postalCode": "27893",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:b624940b-8ed1-42c5-835e-3f088b1393e4"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:773285c5-e409-5d3b-b553-886c8e874b4b"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:b624940b-8ed1-42c5-835e-3f088b1393e4"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ada308f7-ed48-5cf0-b299-fd982571567e"
+}

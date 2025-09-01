@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eb7c220e-df97-5208-8776-dd14dec17758",
+    "name": "\tSouthside Physicians Network",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/07b665e7-a9aa-5cfa-b676-13126eedcf2a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811146194"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "717 NORTH MAIN STREET"
+        ],
+        "city": "EMPORIA",
+        "state": "VA",
+        "postalCode": "23847-1274"
+      },
+      {
+        "line": [
+          "200 Medical Park Blvd"
+        ],
+        "city": "PETERSBURG",
+        "state": "VA",
+        "postalCode": "23803-9274"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1802"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1802.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eb7c220e-df97-5208-8776-dd14dec17758"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3330b8d5-0600-5bc1-a3f0-ba924c3284a3",
+    "name": "St. Catherine Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9afff6b0-6028-5b11-90ff-eeb0893669c2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356549273"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 Broad St."
+        ],
+        "city": "ASHLAND",
+        "state": "PA",
+        "postalCode": "17921-2147"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1274"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1274.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3330b8d5-0600-5bc1-a3f0-ba924c3284a3"
+}

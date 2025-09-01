@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "df5ddd55-e608-5199-b731-3ed849a6beda",
+    "name": "Helena Sleep Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2aee64b1-20e7-5917-b8b1-2427e9605296"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003031600"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1801 Martin Luther King Dr"
+        ],
+        "city": "HELENA",
+        "state": "AR",
+        "postalCode": "72342-9103"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1590"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1590.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:df5ddd55-e608-5199-b731-3ed849a6beda"
+}

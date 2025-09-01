@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "556f8657-5003-460b-8101-a2ffbf74cb3b",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "94ca0ad8-7372-40d1-9a9b-a4ff7f8a1962",
+        "name": "Forum Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Forum Medical Center",
+    "managingOrganization": {
+      "reference": "#94ca0ad8-7372-40d1-9a9b-a4ff7f8a1962"
+    },
+    "period": {
+      "start": "2018-06-25T18:49:32+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76187"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76187"
+}

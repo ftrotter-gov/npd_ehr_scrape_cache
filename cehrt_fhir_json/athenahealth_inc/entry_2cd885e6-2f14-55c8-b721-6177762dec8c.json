@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2cd885e6-2f14-55c8-b721-6177762dec8c",
+    "name": "East Granby Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec339f34-47c7-52e7-8a16-d0a6356a4570"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154308229"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13 Church Rd"
+        ],
+        "city": "EAST GRANBY",
+        "state": "CT",
+        "postalCode": "06026-9406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28841"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28841.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2cd885e6-2f14-55c8-b721-6177762dec8c"
+}

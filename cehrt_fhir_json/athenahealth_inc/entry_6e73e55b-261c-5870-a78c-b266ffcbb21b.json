@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e73e55b-261c-5870-a78c-b266ffcbb21b",
+    "name": "Alatna Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2b9afe14-a5a9-5ee0-8510-285d177f6333"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821201278"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1717 W COWLES ST"
+        ],
+        "city": "FAIRBANKS",
+        "state": "AK",
+        "postalCode": "99701-4871"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15989"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15989.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e73e55b-261c-5870-a78c-b266ffcbb21b"
+}

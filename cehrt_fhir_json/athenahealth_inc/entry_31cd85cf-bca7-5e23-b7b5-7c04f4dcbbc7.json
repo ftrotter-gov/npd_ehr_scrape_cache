@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "31cd85cf-bca7-5e23-b7b5-7c04f4dcbbc7",
+    "name": "Millard-Henry Orthopaedic Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b961806c-1593-513d-a979-2f4a6da22b0f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063626117"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124084991"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "401 N Phoenix Ave"
+        ],
+        "city": "RUSSELLVILLE",
+        "state": "AR",
+        "postalCode": "72801-2844"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2433"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2433.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:31cd85cf-bca7-5e23-b7b5-7c04f4dcbbc7"
+}

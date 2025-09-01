@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3de2caba-0921-55cb-9227-08aebbb6028e",
+    "name": "BSW - LKWY - OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d766e335-a106-5d9c-b54f-51fcd161d0be"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770553653"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Medical Pkwy"
+        ],
+        "city": "Lakeway",
+        "state": "TX",
+        "postalCode": "78738-5621"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30366"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30366.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3de2caba-0921-55cb-9227-08aebbb6028e"
+}

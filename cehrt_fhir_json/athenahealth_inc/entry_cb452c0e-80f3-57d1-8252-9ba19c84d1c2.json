@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cb452c0e-80f3-57d1-8252-9ba19c84d1c2",
+    "name": "Dr. Crever",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd9324e8-5907-5936-b25c-37014bf9df50"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073567756"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8600 E VIA DE VENTURA STE 101"
+        ],
+        "city": "SCOTTSDALE",
+        "state": "AZ",
+        "postalCode": "85258-3236"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26222"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26222.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cb452c0e-80f3-57d1-8252-9ba19c84d1c2"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9df764d1-def9-5bf5-844f-59285bf1ea35",
+    "name": "Cookeville Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7d242e3d-3ca8-52ac-a615-ae8d281788d0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922332428"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 MEDICAL CENTER BLVD"
+        ],
+        "city": "COOKEVILLE",
+        "state": "TN",
+        "postalCode": "38501-4294"
+      },
+      {
+        "line": [
+          "1 Medical Center Blvd"
+        ],
+        "city": "COOKEVILLE",
+        "state": "TN",
+        "postalCode": "38501-4294"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1854"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1854.Brand-9"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9df764d1-def9-5bf5-844f-59285bf1ea35"
+}

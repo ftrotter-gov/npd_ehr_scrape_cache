@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "07d2bea6-02e7-5083-b516-de396c0883bb",
+    "name": "Baptist Hospital of Miami",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c88a0d7e-6acd-5cf6-93bf-ac04e02fbe75"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205269008"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8900 N Kendall Drive"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33176-2118"
+      },
+      {
+        "line": [
+          "3659 S MIAMI AVE"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33133-4227"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14400"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14400.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:07d2bea6-02e7-5083-b516-de396c0883bb"
+}

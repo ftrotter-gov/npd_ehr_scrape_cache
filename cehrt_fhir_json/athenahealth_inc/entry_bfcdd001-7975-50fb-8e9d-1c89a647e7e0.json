@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bfcdd001-7975-50fb-8e9d-1c89a647e7e0",
+    "name": "My Virtual Physician-Maryland Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92a92863-5e58-505c-abaf-d305bf359ddb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972122596"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6700 ALEXANDER BELL DR STE 200"
+        ],
+        "city": "COLUMBIA",
+        "state": "MD",
+        "postalCode": "21046-2105"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27998"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27998.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bfcdd001-7975-50fb-8e9d-1c89a647e7e0"
+}

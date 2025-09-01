@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b8fe5581-39be-5bab-9981-e682006b0c97",
+    "name": "Greenville surgery center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f79b074e-e97e-5e8f-9b63-e96a25027b29"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801439484"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7150 Greenville Ave",
+          "ste 200"
+        ],
+        "city": "dallas",
+        "state": "TX",
+        "postalCode": "75231-5198"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20705"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20705.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b8fe5581-39be-5bab-9981-e682006b0c97"
+}

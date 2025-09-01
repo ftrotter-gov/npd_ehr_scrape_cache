@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8db14d57-f0d6-5c3b-a349-b3c7703d34e0",
+    "name": "Eastside Medical Associates, P.C.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/08ea8821-501b-59e5-8789-a88e4dd126f6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912962069"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1516 Lexington Avenue"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10029-7102"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3203"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3203.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8db14d57-f0d6-5c3b-a349-b3c7703d34e0"
+}

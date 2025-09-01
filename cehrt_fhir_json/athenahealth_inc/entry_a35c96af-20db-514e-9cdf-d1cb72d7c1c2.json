@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a35c96af-20db-514e-9cdf-d1cb72d7c1c2",
+    "name": "Sunrise Health Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c71a2269-36b9-5073-9a73-23dbcf5c7fc2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902314255"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15260 SW 280 ST,SUITE 113"
+        ],
+        "city": "HOMESTEAD",
+        "state": "FL",
+        "postalCode": "33032-8186"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18206"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18206.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a35c96af-20db-514e-9cdf-d1cb72d7c1c2"
+}

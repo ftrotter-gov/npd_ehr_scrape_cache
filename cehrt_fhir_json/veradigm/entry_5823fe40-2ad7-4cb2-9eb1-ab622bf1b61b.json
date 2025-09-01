@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5823fe40-2ad7-4cb2-9eb1-ab622bf1b61b",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "26684aeb-9593-49af-82c9-4977f6509593",
+        "name": "Center For Orthopedic Surgery"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Center For Orthopedic Surgery",
+    "managingOrganization": {
+      "reference": "#26684aeb-9593-49af-82c9-4977f6509593"
+    },
+    "period": {
+      "start": "2024-08-30T18:50:13+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10046270"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10046270"
+}

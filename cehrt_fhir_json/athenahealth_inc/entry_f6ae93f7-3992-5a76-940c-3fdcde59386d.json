@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f6ae93f7-3992-5a76-940c-3fdcde59386d",
+    "name": "Central Florida Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3083295f-3e25-5d3a-917b-75c71ac751e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225034234"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902095078"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 W Seminole Blvd"
+        ],
+        "city": "SANFORD",
+        "state": "FL",
+        "postalCode": "32771-6737"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13122"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13122.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f6ae93f7-3992-5a76-940c-3fdcde59386d"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "77a692a5-1a5b-5ea7-828b-6c5673470678",
+    "name": "Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6641dd8d-aeff-5f9f-9394-64558a8bdf79"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811039555"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2186 KERSHAW RD"
+        ],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162-7766"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24054"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24054.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:77a692a5-1a5b-5ea7-828b-6c5673470678"
+}

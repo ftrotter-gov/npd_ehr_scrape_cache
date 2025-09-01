@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b16e11ba-9a7f-5b3a-91ea-5b4b465efeb0",
+    "name": "Concinnity Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5acb2a1d-d81d-5ff2-b2b3-1ac260dabf34"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255098216"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "258 SOUTHTOWN CIRCLE"
+        ],
+        "city": "ROLESVILLE",
+        "state": "NC",
+        "postalCode": "27571-9593"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28891"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28891.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b16e11ba-9a7f-5b3a-91ea-5b4b465efeb0"
+}

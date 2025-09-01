@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "75f78e87-5292-5897-a176-be2a26ac8a25",
+    "name": "Home Based Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/176cd9da-8535-5b1f-a954-f6d9aa7ec00f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104674407"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 S SAN MATEO DR STE 102"
+        ],
+        "city": "SAN MATEO",
+        "state": "CA",
+        "postalCode": "94401-3840"
+      },
+      {
+        "line": [
+          "101 S SAN MATEO DR STE 106"
+        ],
+        "city": "SAN MATEO",
+        "state": "CA",
+        "postalCode": "94401-3840"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31728"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31728.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:75f78e87-5292-5897-a176-be2a26ac8a25"
+}

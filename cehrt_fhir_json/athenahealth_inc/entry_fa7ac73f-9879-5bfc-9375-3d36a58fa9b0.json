@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa7ac73f-9879-5bfc-9375-3d36a58fa9b0",
+    "name": "SELECT SPECIALTY HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5bc65425-7514-5f0e-89ae-a3e2c79f607a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316195241"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5959 PARK AVENUE, 12TH FLOOR"
+        ],
+        "city": "MEMPHIS",
+        "state": "TN",
+        "postalCode": "38119-5200"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14679"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14679.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa7ac73f-9879-5bfc-9375-3d36a58fa9b0"
+}

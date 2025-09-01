@@ -1,0 +1,60 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0CZ-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0CZ"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Sampson County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9105921131"
+      },
+      {
+        "system": "fax",
+        "value": "9105901050"
+      }
+    ],
+    "address": [
+      {
+        "text": "360 County Complex Road Suite 200 Clinton SAMPSON NC 28328 US",
+        "line": [
+          "360 County Complex Road",
+          "Suite 200"
+        ],
+        "city": "Clinton",
+        "district": "SAMPSON",
+        "state": "NC",
+        "postalCode": "28328",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0CZ-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0CZ-Organization-3"
+}

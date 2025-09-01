@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c1a9f237-6c64-5f3f-8959-fb32def1a3ca",
+    "name": "Pinnacle Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ce6c44f4-7dea-5837-b352-9bfcfffbe666"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023004231"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2605 W SWANN AVE STE 100"
+        ],
+        "city": "TAMPA",
+        "state": "FL",
+        "postalCode": "33609-4039"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16839"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16839.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c1a9f237-6c64-5f3f-8959-fb32def1a3ca"
+}

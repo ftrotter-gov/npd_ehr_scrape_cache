@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2baafe2b-e41f-5d44-8c75-32a76622398b",
+    "name": "San Antonio Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9dc3d722-9a0f-5ae6-84c5-064b3f3d7d51"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245256049"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "999 San Bernardino Rd"
+        ],
+        "city": "UPLAND",
+        "state": "CA",
+        "postalCode": "91786-4920"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12935"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12935.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2baafe2b-e41f-5d44-8c75-32a76622398b"
+}

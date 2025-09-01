@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "050b55b8-14a7-51b5-a254-b932e3f57751",
+    "name": "Bedford Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/951ac9c6-5e3d-5ab6-95af-02d12a462544"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568686376"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "40 S RIVER RD UNIT 16",
+          "BEDFORD PLACE"
+        ],
+        "city": "BEDFORD",
+        "state": "NH",
+        "postalCode": "03110-6721"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14548"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14548.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:050b55b8-14a7-51b5-a254-b932e3f57751"
+}

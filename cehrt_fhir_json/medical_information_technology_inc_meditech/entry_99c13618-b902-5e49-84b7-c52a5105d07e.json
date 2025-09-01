@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "99c13618-b902-5e49-84b7-c52a5105d07e",
+    "meta": {
+      "lastUpdated": "2022-06-28T22:51:09.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://fcmcpa.org/index.php"
+      }
+    ],
+    "name": "Fulton County Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://fcmcpa.org/index.php"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "214 Peach Orchard Road"
+        ],
+        "city": "McConnellsburg",
+        "state": "PA",
+        "postalCode": "17233",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:46de416b-0304-500e-a0a8-d8c04bc8af26"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:46de416b-0304-500e-a0a8-d8c04bc8af26"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:99c13618-b902-5e49-84b7-c52a5105d07e"
+}

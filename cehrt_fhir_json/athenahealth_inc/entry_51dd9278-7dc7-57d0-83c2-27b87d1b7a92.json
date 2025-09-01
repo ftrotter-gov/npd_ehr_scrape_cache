@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "51dd9278-7dc7-57d0-83c2-27b87d1b7a92",
+    "name": "HIPPO Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/76172f44-6b8b-548e-b414-77a3872da06a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285124420"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1919 14TH STREET"
+        ],
+        "city": "BOULDER",
+        "state": "CO",
+        "postalCode": "80302-5310"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25097"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25097.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:51dd9278-7dc7-57d0-83c2-27b87d1b7a92"
+}

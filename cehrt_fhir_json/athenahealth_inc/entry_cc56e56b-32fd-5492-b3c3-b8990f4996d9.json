@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cc56e56b-32fd-5492-b3c3-b8990f4996d9",
+    "name": "CCRM",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43d00dab-d9b4-54dd-99b3-3427186a6433"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912971912"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6565 France Ave South",
+          "Suite 400A"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55435-2137"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20581"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20581.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cc56e56b-32fd-5492-b3c3-b8990f4996d9"
+}

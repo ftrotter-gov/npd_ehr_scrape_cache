@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bc03d10c-71dc-5d5b-9fa3-e986562b2c47",
+    "name": "Onsite House Call Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9cbd62f5-c803-5491-af89-3fbbd5a809eb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922713544"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "280 TURNPIKE RD"
+        ],
+        "city": "PONTOTOC",
+        "state": "MS",
+        "postalCode": "38863-1310"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31437"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31437.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bc03d10c-71dc-5d5b-9fa3-e986562b2c47"
+}

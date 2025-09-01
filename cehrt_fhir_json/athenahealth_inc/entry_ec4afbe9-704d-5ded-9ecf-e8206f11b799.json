@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ec4afbe9-704d-5ded-9ecf-e8206f11b799",
+    "name": "Laredo Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9afd6131-e04e-521d-b284-3031d6182d38"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154486108"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "45D0925128"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1700 East Saunders"
+        ],
+        "city": "LAREDO",
+        "state": "TX",
+        "postalCode": "78041-5474"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-252"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-252.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ec4afbe9-704d-5ded-9ecf-e8206f11b799"
+}

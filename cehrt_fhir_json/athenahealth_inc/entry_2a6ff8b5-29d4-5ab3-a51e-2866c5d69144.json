@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2a6ff8b5-29d4-5ab3-a51e-2866c5d69144",
+    "name": "Lemon-AID Medical Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e1b22dd3-0f0b-5fc7-9dc8-933624c8abd7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730921792"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "425 HOLDERRIETH BLVD",
+          "STE 114"
+        ],
+        "city": "TOMBALL",
+        "state": "TX",
+        "postalCode": "77375-5189"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31515"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31515.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2a6ff8b5-29d4-5ab3-a51e-2866c5d69144"
+}

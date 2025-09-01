@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "65b55f53-3f7a-475d-a480-a915534ca90d",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e76a337f-9621-4d06-a5f0-77714f795d17",
+        "name": "Harry M. Coletta II, MD, PLLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Harry M. Coletta II, MD, PLLC",
+    "managingOrganization": {
+      "reference": "#e76a337f-9621-4d06-a5f0-77714f795d17"
+    },
+    "period": {
+      "start": "2018-08-25T08:19:58+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/900752"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/900752"
+}

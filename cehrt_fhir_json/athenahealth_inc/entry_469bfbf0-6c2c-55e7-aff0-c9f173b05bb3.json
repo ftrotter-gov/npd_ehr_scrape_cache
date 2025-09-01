@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "469bfbf0-6c2c-55e7-aff0-c9f173b05bb3",
+    "name": "Dallas Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/84996e8f-843d-59cd-b2cc-156ba84b7472"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689715252"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8325 Walnut Hill Lane",
+          "Suite 100"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75231-4262"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9229"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9229.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:469bfbf0-6c2c-55e7-aff0-c9f173b05bb3"
+}

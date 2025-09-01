@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fcdd2a97-135a-5c0e-9e27-5fd606e69db0",
+    "name": "Cerberus Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5123e5aa-b76c-5424-bba3-4c04db27d5b6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396435905"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 COMMUNITY DR"
+        ],
+        "city": "MANHASSET",
+        "state": "NY",
+        "postalCode": "11030-3816"
+      },
+      {
+        "line": [
+          "333 E SHORE RD"
+        ],
+        "city": "MANHASSET",
+        "state": "NY",
+        "postalCode": "11030-2924"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31292"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31292.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fcdd2a97-135a-5c0e-9e27-5fd606e69db0"
+}

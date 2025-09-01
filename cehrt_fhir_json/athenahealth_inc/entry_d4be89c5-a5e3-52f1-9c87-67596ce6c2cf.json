@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d4be89c5-a5e3-52f1-9c87-67596ce6c2cf",
+    "name": "Sarah Street Wellness Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/17b636b6-0612-5062-a3f5-9437179b3560"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962094748"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3455 SARAH STREET"
+        ],
+        "city": "BEAUMONT",
+        "state": "TX",
+        "postalCode": "77705-2906"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25048"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25048.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d4be89c5-a5e3-52f1-9c87-67596ce6c2cf"
+}

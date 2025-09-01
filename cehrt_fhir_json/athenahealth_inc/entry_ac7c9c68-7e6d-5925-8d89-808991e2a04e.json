@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ac7c9c68-7e6d-5925-8d89-808991e2a04e",
+    "name": "Newtown Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/de575d3e-7a17-50de-af22-a4b29d86dda7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316042104"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "33 Church Hill Rd"
+        ],
+        "city": "NEWTOWN",
+        "state": "CT",
+        "postalCode": "06470-1779"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13919"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13919.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ac7c9c68-7e6d-5925-8d89-808991e2a04e"
+}

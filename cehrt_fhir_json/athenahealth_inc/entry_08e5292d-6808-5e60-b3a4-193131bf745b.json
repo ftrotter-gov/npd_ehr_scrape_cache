@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "08e5292d-6808-5e60-b3a4-193131bf745b",
+    "name": "Pafford Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5290060c-d7f2-5b0c-be9e-a5ebd0dc9e46"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255568366"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "459 W. Line Street"
+        ],
+        "city": "BISHOP",
+        "state": "CA",
+        "postalCode": "93514-3310"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15383"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15383.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:08e5292d-6808-5e60-b3a4-193131bf745b"
+}

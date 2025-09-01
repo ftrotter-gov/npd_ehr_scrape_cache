@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c7e40c7-f3ed-5320-bf1f-c28894965501",
+    "name": "Saint Barnabas Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c9f0b272-b137-51a6-bb0a-6718bb0bff8d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083915821"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "94 OLD SHORT HILLS RD"
+        ],
+        "city": "LIVINGSTON",
+        "state": "NJ",
+        "postalCode": "07039-5672"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14565"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14565.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c7e40c7-f3ed-5320-bf1f-c28894965501"
+}

@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bea2d3f-1381-56b2-88c5-f6c941c27340",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ffb5af9d-2be2-5df2-9750-217998310e5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902353485"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295824431"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "450 WEST STATE ROAD 434",
+          "SUITE 2020"
+        ],
+        "city": "LONGWOOD",
+        "state": "FL",
+        "postalCode": "32750-5187"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12157"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12157.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bea2d3f-1381-56b2-88c5-f6c941c27340"
+}

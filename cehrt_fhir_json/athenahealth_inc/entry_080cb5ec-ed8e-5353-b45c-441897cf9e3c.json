@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "080cb5ec-ed8e-5353-b45c-441897cf9e3c",
+    "name": "St Peters Internal Medicine 1444 Western A",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e390e632-aa3f-567b-a157-2f27e7c66d9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750626834"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1444 Western Avenue",
+          "Suite A"
+        ],
+        "city": "Albany",
+        "state": "NY",
+        "postalCode": "12203-3459"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15557"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15557.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:080cb5ec-ed8e-5353-b45c-441897cf9e3c"
+}

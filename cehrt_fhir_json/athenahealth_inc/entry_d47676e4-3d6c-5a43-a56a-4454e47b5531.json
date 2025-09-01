@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d47676e4-3d6c-5a43-a56a-4454e47b5531",
+    "name": "DOCTORS HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c26c0208-65a1-529d-b46c-19437b4227fa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790733244"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "616 19th St"
+        ],
+        "city": "COLUMBUS",
+        "state": "GA",
+        "postalCode": "31901-1528"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-226"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-226.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d47676e4-3d6c-5a43-a56a-4454e47b5531"
+}

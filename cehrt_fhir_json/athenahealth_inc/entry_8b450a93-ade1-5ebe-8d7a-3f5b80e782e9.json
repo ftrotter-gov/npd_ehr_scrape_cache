@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8b450a93-ade1-5ebe-8d7a-3f5b80e782e9",
+    "name": "IndyCare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35366910-3a80-508b-952d-b8f42367412b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548740038"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "110 Boone Square St",
+          "29A"
+        ],
+        "city": "HILLSBOROUGH",
+        "state": "NC",
+        "postalCode": "27278-2665"
+      },
+      {
+        "line": [
+          "999 Main Street"
+        ],
+        "city": "Chapel Hill",
+        "state": "NC",
+        "postalCode": "27517-6459"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18181"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18181.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8b450a93-ade1-5ebe-8d7a-3f5b80e782e9"
+}

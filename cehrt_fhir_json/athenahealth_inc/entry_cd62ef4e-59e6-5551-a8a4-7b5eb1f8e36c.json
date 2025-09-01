@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cd62ef4e-59e6-5551-a8a4-7b5eb1f8e36c",
+    "name": "North Memorial Ambulatory Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43d00dab-d9b4-54dd-99b3-3427186a6433"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912971912"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9855 Hospital Drive",
+          "Suite 175"
+        ],
+        "city": "Maple Grove",
+        "state": "MN",
+        "postalCode": "55369-4778"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20581"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20581.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cd62ef4e-59e6-5551-a8a4-7b5eb1f8e36c"
+}

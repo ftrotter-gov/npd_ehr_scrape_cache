@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "44643689-9ac2-5162-9576-be15a9cdba53",
+    "name": "United Hospital OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43d00dab-d9b4-54dd-99b3-3427186a6433"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912971912"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1175 NININGER RD"
+        ],
+        "city": "HASTINGS",
+        "state": "MN",
+        "postalCode": "55033-1056"
+      },
+      {
+        "line": [
+          "333 N Smith Ave"
+        ],
+        "city": "SAINT PAUL",
+        "state": "MN",
+        "postalCode": "55102-2344"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20581"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20581.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:44643689-9ac2-5162-9576-be15a9cdba53"
+}

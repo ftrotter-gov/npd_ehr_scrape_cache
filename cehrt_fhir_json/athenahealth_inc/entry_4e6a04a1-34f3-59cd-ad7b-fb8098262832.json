@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4e6a04a1-34f3-59cd-ad7b-fb8098262832",
+    "name": "united physicians",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fc212b46-49c9-5fb4-857f-f90bf751bda6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285022152"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "28200 John R"
+        ],
+        "city": "MADISON HEIGHTS",
+        "state": "MI",
+        "postalCode": "48071-2814"
+      },
+      {
+        "line": [
+          "64321 Van Dyke"
+        ],
+        "city": "WASHINGTON",
+        "state": "MI",
+        "postalCode": "48095-2578"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10474"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10474.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4e6a04a1-34f3-59cd-ad7b-fb8098262832"
+}

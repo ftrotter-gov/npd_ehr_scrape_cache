@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "81d75894-d90d-50b4-b993-b8baa35e870a",
+    "name": "Wandermere Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6ba43886-cc88-539a-a671-a0143357c00a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730890617"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "309 E FARWELL RD",
+          "SUITE 204"
+        ],
+        "city": "SPOKANE",
+        "state": "WA",
+        "postalCode": "99218-8210"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27851"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27851.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:81d75894-d90d-50b4-b993-b8baa35e870a"
+}

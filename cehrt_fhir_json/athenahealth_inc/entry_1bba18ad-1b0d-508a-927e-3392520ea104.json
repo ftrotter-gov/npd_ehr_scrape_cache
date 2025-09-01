@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bba18ad-1b0d-508a-927e-3392520ea104",
+    "name": "CATHOLIC MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/595a0bd9-50f5-5726-8a92-344d2ab8c842"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306878749"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 MCGREGOR ST"
+        ],
+        "city": "MANCHESTER",
+        "state": "NH",
+        "postalCode": "03102-3770"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9292"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9292.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bba18ad-1b0d-508a-927e-3392520ea104"
+}

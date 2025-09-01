@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3d12e87a-aee5-5b54-a029-796790b518ef",
+    "name": "IMS Primary Care Mesa Suite 114",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/12101a02-bb9e-5fe4-97ef-3780548c93f1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760441141"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4540 E Baseline Rd",
+          "Bldg 6 Suite 114"
+        ],
+        "city": "MESA",
+        "state": "AZ",
+        "postalCode": "85206-4617"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17394"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17394.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3d12e87a-aee5-5b54-a029-796790b518ef"
+}

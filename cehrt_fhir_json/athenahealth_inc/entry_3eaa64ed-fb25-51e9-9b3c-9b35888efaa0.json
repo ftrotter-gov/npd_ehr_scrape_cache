@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3eaa64ed-fb25-51e9-9b3c-9b35888efaa0",
+    "name": "Procare Capitol Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f5f0b5af-0d74-568f-b8a2-be1ded13a4f0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922164656"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5434 W Capitol Drive",
+          "Suite 1"
+        ],
+        "city": "MILWAUKEE",
+        "state": "WI",
+        "postalCode": "53216-2298"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18762"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18762.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3eaa64ed-fb25-51e9-9b3c-9b35888efaa0"
+}

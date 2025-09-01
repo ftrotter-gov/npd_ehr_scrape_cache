@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ba5a2450-84ea-558d-8a7c-95db0dfef910",
+    "name": "Raleigh General Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58530812-ec20-5918-a92e-a05a019eae3a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063943678"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1710 HARPER ROAD"
+        ],
+        "city": "BECKLEY",
+        "state": "WV",
+        "postalCode": "25801-3357"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16151"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16151.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ba5a2450-84ea-558d-8a7c-95db0dfef910"
+}

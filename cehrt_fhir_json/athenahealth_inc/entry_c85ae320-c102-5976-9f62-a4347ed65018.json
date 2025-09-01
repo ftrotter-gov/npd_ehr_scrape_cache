@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c85ae320-c102-5976-9f62-a4347ed65018",
+    "name": "My Sacred Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ee9b347b-292a-5b73-8a7a-fae8b246f4d3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013155522"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7829 EAST ROCKHILL SUITE 406"
+        ],
+        "city": "WICHITA",
+        "state": "KS",
+        "postalCode": "67206-3920"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7268"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7268.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c85ae320-c102-5976-9f62-a4347ed65018"
+}

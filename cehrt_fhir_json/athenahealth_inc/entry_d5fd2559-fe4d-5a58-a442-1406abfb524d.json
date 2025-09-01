@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d5fd2559-fe4d-5a58-a442-1406abfb524d",
+    "name": "Care Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3002c959-527f-52c5-a678-d3944ddca71e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336198571"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1291 GLEN GLORIA ST"
+        ],
+        "city": "ORANGEBURG",
+        "state": "SC",
+        "postalCode": "29118-2525"
+      },
+      {
+        "line": [
+          "1291 GLEN GLORIA street"
+        ],
+        "city": "orangeburg",
+        "state": "SC",
+        "postalCode": "29118-2525"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6695.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d5fd2559-fe4d-5a58-a442-1406abfb524d"
+}

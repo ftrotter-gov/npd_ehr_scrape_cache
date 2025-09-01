@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f34b587b-7b3c-54d7-bf80-da192fa4caec",
+    "name": "Doctor On Call Corp",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cf112ecc-8034-5072-9bb9-43e7fffb6430"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194420174"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11201 N Tatum Blvd"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85028-6039"
+      },
+      {
+        "line": [
+          "11201 N Tatum Blvd",
+          "#300"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85028-6039"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29410"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29410.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f34b587b-7b3c-54d7-bf80-da192fa4caec"
+}

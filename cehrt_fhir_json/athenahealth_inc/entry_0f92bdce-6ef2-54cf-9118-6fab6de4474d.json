@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0f92bdce-6ef2-54cf-9118-6fab6de4474d",
+    "name": "Bingham Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eff0f541-da55-58cf-a81e-d5ffc8580893"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275723058"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2375 E Sunnyside Rd"
+        ],
+        "city": "IDAHO FALLS",
+        "state": "ID",
+        "postalCode": "83404-8281"
+      },
+      {
+        "line": [
+          "98 Poplar St"
+        ],
+        "city": "BLACKFOOT",
+        "state": "ID",
+        "postalCode": "83221-1758"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6289"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6289.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0f92bdce-6ef2-54cf-9118-6fab6de4474d"
+}

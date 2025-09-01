@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d6c82513-f932-5532-ae3f-35caf2fd7df4",
+    "name": "Main Office of Dr. Harper",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d27d0be0-ec59-55d6-8aed-c042dfbbe821"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821294810"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4224 SWISS AVE"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75204-6670"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12959"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12959.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d6c82513-f932-5532-ae3f-35caf2fd7df4"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "71d751da-828f-52e4-8931-a81e02369f65",
+    "name": "Kuakini St Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3712f8c5-b384-503d-b189-063107843c6c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851438360"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "405 N KUAKINI ST",
+          "SUITE 1104"
+        ],
+        "city": "HONOLULU",
+        "state": "HI",
+        "postalCode": "96817-6300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13642"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13642.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:71d751da-828f-52e4-8931-a81e02369f65"
+}

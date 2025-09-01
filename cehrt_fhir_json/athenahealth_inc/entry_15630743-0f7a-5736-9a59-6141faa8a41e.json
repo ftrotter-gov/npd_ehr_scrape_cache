@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "15630743-0f7a-5736-9a59-6141faa8a41e",
+    "name": "CHRISTUS Physician Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/61e604b1-89ec-5844-a524-9d1b29b8927e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801808571"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457382947"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 MAIN ST"
+        ],
+        "city": "IRVING",
+        "state": "TX",
+        "postalCode": "75038-3813"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-996"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-996.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:15630743-0f7a-5736-9a59-6141faa8a41e"
+}

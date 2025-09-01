@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e9adef30-b3ef-4b01-848b-a4328f4cf2d4",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "ceec9efa-6cd2-4d21-8aa3-9715b9d01b54",
+        "name": "Cornerstone Medical Care of Brandon LLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Cornerstone Medical Care of Brandon LLC",
+    "managingOrganization": {
+      "reference": "#ceec9efa-6cd2-4d21-8aa3-9715b9d01b54"
+    },
+    "period": {
+      "start": "2020-06-17T17:46:45+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042857"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042857"
+}

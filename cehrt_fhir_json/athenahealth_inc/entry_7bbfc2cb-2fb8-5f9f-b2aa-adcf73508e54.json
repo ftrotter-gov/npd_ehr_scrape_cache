@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7bbfc2cb-2fb8-5f9f-b2aa-adcf73508e54",
+    "name": "Main Office - GG Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7468142a-6b39-56d9-94f6-4bb2ce40923a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376130849"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "PO BOX 53061"
+        ],
+        "city": "SHREVEPORT",
+        "state": "LA",
+        "postalCode": "71135-3061"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26165"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26165.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7bbfc2cb-2fb8-5f9f-b2aa-adcf73508e54"
+}

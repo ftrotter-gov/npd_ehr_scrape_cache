@@ -1,0 +1,27 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "54425",
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Martinez Psychiatry",
+    "managingOrganization": {
+      "reference": "Organization/52445"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+            "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+          }
+        ]
+      }
+    ],
+    "address": "https://providerapi.advancedmd.com/v1/r4/52445"
+  },
+  "fullUrl": "https://providerapi.advancedmd.com/v1/r4/52445/Endpoint"
+}

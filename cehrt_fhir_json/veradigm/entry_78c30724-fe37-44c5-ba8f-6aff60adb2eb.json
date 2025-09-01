@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "78c30724-fe37-44c5-ba8f-6aff60adb2eb",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "bc05e0a8-ac54-4b4e-861f-4f2ed5d611df",
+        "name": "Sama Healthcare Services"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Sama Healthcare Services",
+    "managingOrganization": {
+      "reference": "#bc05e0a8-ac54-4b4e-861f-4f2ed5d611df"
+    },
+    "period": {
+      "start": "2018-12-03T20:04:35+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10032309"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10032309"
+}

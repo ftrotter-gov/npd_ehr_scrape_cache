@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4899d26d-f095-5627-8734-f5ed0019cc30",
+    "name": "White House Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2fd3e69c-9363-5da9-8126-e8f83f721ef6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154579647"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "560 Berkeley Ave"
+        ],
+        "city": "ORANGE",
+        "state": "NJ",
+        "postalCode": "07050-2109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5580"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5580.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4899d26d-f095-5627-8734-f5ed0019cc30"
+}

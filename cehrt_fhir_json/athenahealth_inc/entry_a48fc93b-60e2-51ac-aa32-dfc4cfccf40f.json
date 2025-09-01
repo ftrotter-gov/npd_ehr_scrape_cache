@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a48fc93b-60e2-51ac-aa32-dfc4cfccf40f",
+    "name": "Clinica Medicos",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9406f3bf-8b37-5dc2-94b0-0e72bedbc104"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548664840"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1300 E 23RD ST"
+        ],
+        "city": "CHATTANOOGA",
+        "state": "TN",
+        "postalCode": "37404-5701"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26609"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26609.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a48fc93b-60e2-51ac-aa32-dfc4cfccf40f"
+}

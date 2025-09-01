@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5c279707-08dc-52cc-933e-0b2454cb919f",
+    "name": "Hamilton Diagnostics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6b2ff33b-e1cf-5bfe-b52b-a561a7b89f43"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811005143"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1407 N Thornton Ave"
+        ],
+        "city": "DALTON",
+        "state": "GA",
+        "postalCode": "30720-3093"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8594"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8594.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5c279707-08dc-52cc-933e-0b2454cb919f"
+}

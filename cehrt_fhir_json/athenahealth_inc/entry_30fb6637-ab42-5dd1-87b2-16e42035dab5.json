@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "30fb6637-ab42-5dd1-87b2-16e42035dab5",
+    "name": "McMillan Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/675c383f-eb22-5e40-ae85-136272ae54dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073601233"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4750 N FIVE MILE RD"
+        ],
+        "city": "BOISE",
+        "state": "ID",
+        "postalCode": "83713-2715"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15154"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15154.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:30fb6637-ab42-5dd1-87b2-16e42035dab5"
+}

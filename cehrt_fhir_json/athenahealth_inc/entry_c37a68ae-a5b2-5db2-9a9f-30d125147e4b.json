@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c37a68ae-a5b2-5db2-9a9f-30d125147e4b",
+    "name": "CAM Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/96215d86-b9ed-56c3-9e3b-63f1eea18ac6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992863526"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1349 N WESTERN"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60622-8316"
+      },
+      {
+        "line": [
+          "1945 W. Wilson Ave"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60640-5255"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8544"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8544.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c37a68ae-a5b2-5db2-9a9f-30d125147e4b"
+}

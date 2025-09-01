@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "087c094a-406f-5940-b135-3528450d788b",
+    "name": "Dr. David Gomez",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1c75bfd-a07e-5420-808c-68246a396ca1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851918668"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1605 E Expressway 83"
+        ],
+        "city": "MISSION",
+        "state": "TX",
+        "postalCode": "78572-6607"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15119.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:087c094a-406f-5940-b135-3528450d788b"
+}

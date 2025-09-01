@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0c0e5af-4c65-5555-aad3-41d371db84da",
+    "name": "Psychotherapy",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6efeab62-0148-519b-b780-51e6591936dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063439065"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780864462"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "251 N. Bayou St"
+        ],
+        "city": "MOBILE",
+        "state": "AL",
+        "postalCode": "36603-5827"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15479"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15479.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0c0e5af-4c65-5555-aad3-41d371db84da"
+}

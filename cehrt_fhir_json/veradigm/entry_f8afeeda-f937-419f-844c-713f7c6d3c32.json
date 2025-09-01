@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "f8afeeda-f937-419f-844c-713f7c6d3c32",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "53e3d126-4956-4d5c-a7cc-e22f4feab959",
+        "name": "Peak Pediatrics"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Peak Pediatrics",
+    "managingOrganization": {
+      "reference": "#53e3d126-4956-4d5c-a7cc-e22f4feab959"
+    },
+    "period": {
+      "start": "2023-08-12T09:13:11+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10036895"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10036895"
+}

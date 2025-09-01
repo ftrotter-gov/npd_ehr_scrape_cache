@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8c8dfe7e-aa5f-5bf4-bf77-667d6993c22e",
+    "name": "NMMC Cardiology Inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2433cabb-6aa4-56ab-82d4-1df7c0d2dea8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902971492"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "830 South Gloster"
+        ],
+        "city": "TUPELO",
+        "state": "MS",
+        "postalCode": "38801-4934"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2987"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2987.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8c8dfe7e-aa5f-5bf4-bf77-667d6993c22e"
+}

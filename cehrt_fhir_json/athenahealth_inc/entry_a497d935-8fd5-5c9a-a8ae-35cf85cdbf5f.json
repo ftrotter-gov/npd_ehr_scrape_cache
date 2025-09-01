@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a497d935-8fd5-5c9a-a8ae-35cf85cdbf5f",
+    "name": "Student Health and Wellness Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/76373ee7-435f-5b55-84a5-74dd0203868b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073622254"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3333 Green Bay Road",
+          "Room L.054"
+        ],
+        "city": "NORTH CHICAGO",
+        "state": "IL",
+        "postalCode": "60064-3037"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3569"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3569.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a497d935-8fd5-5c9a-a8ae-35cf85cdbf5f"
+}

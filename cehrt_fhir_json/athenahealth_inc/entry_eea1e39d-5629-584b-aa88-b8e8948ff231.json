@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eea1e39d-5629-584b-aa88-b8e8948ff231",
+    "name": "McMinnville Immediate Health Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c8520dd3-512c-5d9c-ae2f-96f3f3ed2ac4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932621141"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "207 NE 19th St"
+        ],
+        "city": "MCMINNVILLE",
+        "state": "OR",
+        "postalCode": "97128-9927"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1814"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1814.Brand-22"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eea1e39d-5629-584b-aa88-b8e8948ff231"
+}

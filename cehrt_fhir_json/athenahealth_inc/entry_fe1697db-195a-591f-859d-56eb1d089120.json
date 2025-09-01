@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fe1697db-195a-591f-859d-56eb1d089120",
+    "name": "PrecisionHealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/871a6d4f-88f9-5bec-bf96-c2f941cd078e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942017967"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7611 FOREST AVE STE 410"
+        ],
+        "city": "HENRICO",
+        "state": "VA",
+        "postalCode": "23229-4946"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32559"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32559.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fe1697db-195a-591f-859d-56eb1d089120"
+}

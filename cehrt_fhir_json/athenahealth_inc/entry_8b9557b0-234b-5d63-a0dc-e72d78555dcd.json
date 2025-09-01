@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8b9557b0-234b-5d63-a0dc-e72d78555dcd",
+    "name": "Integrated Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/77923361-cb91-5391-ba30-9a98d688b293"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245630342"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "50 WOODSIDE PLAZA",
+          "804"
+        ],
+        "city": "REDWOOD CITY",
+        "state": "CA",
+        "postalCode": "94061-2500"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26655"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26655.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8b9557b0-234b-5d63-a0dc-e72d78555dcd"
+}

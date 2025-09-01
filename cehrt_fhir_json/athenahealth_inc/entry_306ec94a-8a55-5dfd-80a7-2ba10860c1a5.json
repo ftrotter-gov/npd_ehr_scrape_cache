@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "306ec94a-8a55-5dfd-80a7-2ba10860c1a5",
+    "name": "Eastside Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2e574bb3-ec6b-5677-a5e5-90df51e25329"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922033679"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1700 Medical Way"
+        ],
+        "city": "SNELLVILLE",
+        "state": "GA",
+        "postalCode": "30078-2195"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4405"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4405.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:306ec94a-8a55-5dfd-80a7-2ba10860c1a5"
+}

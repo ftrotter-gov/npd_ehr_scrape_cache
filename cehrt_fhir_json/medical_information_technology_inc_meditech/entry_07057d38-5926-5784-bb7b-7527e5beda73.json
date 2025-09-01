@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "07057d38-5926-5784-bb7b-7527e5beda73",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://newberryhospital.org"
+      }
+    ],
+    "name": "Newberry County Memorial Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://newberryhospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2669 Kinard Street"
+        ],
+        "city": "Newberry",
+        "state": "SC",
+        "postalCode": "29108",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:cb0b3c00-085d-4ff3-b1b7-dcbdb5310226"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:cb0b3c00-085d-4ff3-b1b7-dcbdb5310226"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:07057d38-5926-5784-bb7b-7527e5beda73"
+}

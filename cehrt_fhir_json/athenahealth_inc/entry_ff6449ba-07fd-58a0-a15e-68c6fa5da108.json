@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ff6449ba-07fd-58a0-a15e-68c6fa5da108",
+    "name": "BROOKDALE HOSPITAL MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aa10ad21-e6b1-5bf2-acd9-074d2e2b81c7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043232143"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "ONE BROOKDALE PLAZA"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11212-3139"
+      },
+      {
+        "line": [
+          "1222 east 96 street"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11236-3903"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-932"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-932.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ff6449ba-07fd-58a0-a15e-68c6fa5da108"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5a90b086-bd71-562f-9761-fdacfecc298f",
+    "name": "UH Solon Health Ctr",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3a6581a4-8ee6-54ef-b51a-46d679d7f6c3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669499414"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "34055 Solon Rd"
+        ],
+        "city": "SOLON",
+        "state": "OH",
+        "postalCode": "44139-2662"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1926"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1926.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5a90b086-bd71-562f-9761-fdacfecc298f"
+}

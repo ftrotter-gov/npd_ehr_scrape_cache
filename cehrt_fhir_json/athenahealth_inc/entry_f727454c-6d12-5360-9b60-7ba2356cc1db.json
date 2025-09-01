@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f727454c-6d12-5360-9b60-7ba2356cc1db",
+    "name": "Center for Primary Care - Gateway",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f3c2b1e9-d9b9-5147-8f55-983f5fe9df14"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316973472"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4039 Gateway Blvd"
+        ],
+        "city": "GROVETOWN",
+        "state": "GA",
+        "postalCode": "30813-3389"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26418"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26418.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f727454c-6d12-5360-9b60-7ba2356cc1db"
+}

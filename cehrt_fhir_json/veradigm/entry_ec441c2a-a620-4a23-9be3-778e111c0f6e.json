@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "ec441c2a-a620-4a23-9be3-778e111c0f6e",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "8b300a18-5474-442f-bf96-e73c7f6fefee",
+        "name": "Weiss Medical Allergy, Asthma & Immunology"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Weiss Medical Allergy, Asthma & Immunology",
+    "managingOrganization": {
+      "reference": "#8b300a18-5474-442f-bf96-e73c7f6fefee"
+    },
+    "period": {
+      "start": "2023-07-18T17:35:35+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11138843"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11138843"
+}

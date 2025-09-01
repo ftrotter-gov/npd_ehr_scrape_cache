@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0ebb5802-995e-4f0c-8a97-42143b522b85",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e31eb43c-b61c-49fb-8484-c5159749fbb3",
+        "name": "Rejuvinix LLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Rejuvinix LLC",
+    "managingOrganization": {
+      "reference": "#e31eb43c-b61c-49fb-8484-c5159749fbb3"
+    },
+    "period": {
+      "start": "2019-07-25T14:00:40+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10238913"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10238913"
+}

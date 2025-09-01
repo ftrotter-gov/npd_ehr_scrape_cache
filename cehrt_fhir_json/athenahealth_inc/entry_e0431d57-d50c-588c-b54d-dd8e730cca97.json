@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0431d57-d50c-588c-b54d-dd8e730cca97",
+    "name": "AHC Saint Agnes Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0aef9a87-788a-50fc-8d18-dd4b99364c84"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003079799"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780225326"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144250176"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 Caton Ave"
+        ],
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postalCode": "21229-5201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10777"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10777.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0431d57-d50c-588c-b54d-dd8e730cca97"
+}

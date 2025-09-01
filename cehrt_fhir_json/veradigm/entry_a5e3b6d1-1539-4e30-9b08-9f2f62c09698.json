@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a5e3b6d1-1539-4e30-9b08-9f2f62c09698",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "5170bfa4-a31d-4116-9dbf-aa1d8496e02e",
+        "name": "Physicians Associates"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Physicians Associates",
+    "managingOrganization": {
+      "reference": "#5170bfa4-a31d-4116-9dbf-aa1d8496e02e"
+    },
+    "period": {
+      "start": "2023-08-22T14:13:02+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10022711"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10022711"
+}

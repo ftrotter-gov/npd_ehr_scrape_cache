@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "606c212e-f7b7-5c7c-92b3-495843cb4a62",
+    "name": "Pain Management Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1a158bc-69f3-56eb-b36a-a35bd085a9ac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245089002"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720065048"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "825 N HILLSIDE ST",
+          "STE 200"
+        ],
+        "city": "WICHITA",
+        "state": "KS",
+        "postalCode": "67214-4939"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25457"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25457.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:606c212e-f7b7-5c7c-92b3-495843cb4a62"
+}

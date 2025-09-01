@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a4149e55-349a-53b9-9ca8-e6f3596d0d59",
+    "name": "Castle Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c1bf9c1a-cb40-5794-9301-b7cfb1a2cb87"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154385144"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5700 HIGHLANDS PKWY SE STE 100"
+        ],
+        "city": "SMYRNA",
+        "state": "GA",
+        "postalCode": "30082-5142"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12371"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12371.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a4149e55-349a-53b9-9ca8-e6f3596d0d59"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a57d0c10-71c1-5e90-8d67-0f3fc79c47ca",
+    "name": "Peak ENT Golden Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3ddbf5a-04f6-5261-b9e1-3877ef42d53d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104113430"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1030 Johnson Road",
+          "Suite 350"
+        ],
+        "city": "GOLDEN",
+        "state": "CO",
+        "postalCode": "80401-6016"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3333"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3333.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a57d0c10-71c1-5e90-8d67-0f3fc79c47ca"
+}

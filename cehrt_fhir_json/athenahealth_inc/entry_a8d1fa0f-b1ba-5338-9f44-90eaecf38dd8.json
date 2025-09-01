@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a8d1fa0f-b1ba-5338-9f44-90eaecf38dd8",
+    "name": "Texas Family Medicine Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d3ca7f7-dd93-5b2e-9a5c-eba69c059171"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730412271"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "506 Graham Drive",
+          "Suite 200, 170, and 290"
+        ],
+        "city": "TOMBALL",
+        "state": "TX",
+        "postalCode": "77375-3346"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3423"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3423.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a8d1fa0f-b1ba-5338-9f44-90eaecf38dd8"
+}

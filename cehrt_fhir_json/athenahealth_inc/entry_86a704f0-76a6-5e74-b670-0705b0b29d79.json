@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "86a704f0-76a6-5e74-b670-0705b0b29d79",
+    "name": "Dr. Wand's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9069f86a-3be5-5c5e-8ca6-67627a178875"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811059009"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2232 N University dr",
+          "Suite A"
+        ],
+        "city": "CORAL SPRINGS",
+        "state": "FL",
+        "postalCode": "33071-6184"
+      },
+      {
+        "line": [
+          "2232 N. UNIVERSITY DR.",
+          "A"
+        ],
+        "city": "Coral springs",
+        "state": "FL",
+        "postalCode": "33071-6184"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20983"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20983.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:86a704f0-76a6-5e74-b670-0705b0b29d79"
+}

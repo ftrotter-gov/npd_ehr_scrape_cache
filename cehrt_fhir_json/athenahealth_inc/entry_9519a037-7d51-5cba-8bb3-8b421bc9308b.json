@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9519a037-7d51-5cba-8bb3-8b421bc9308b",
+    "name": "Englewood Hospital and Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/30523b56-1abe-53b5-b8db-c263fd2199cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144501362"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7 broad ave #203"
+        ],
+        "city": "PALISADES PARK",
+        "state": "NJ",
+        "postalCode": "07650-1438"
+      },
+      {
+        "line": [
+          "350 ENGLE STREET"
+        ],
+        "city": "ENGLEWOOD",
+        "state": "NJ",
+        "postalCode": "07631-1808"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3579.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9519a037-7d51-5cba-8bb3-8b421bc9308b"
+}

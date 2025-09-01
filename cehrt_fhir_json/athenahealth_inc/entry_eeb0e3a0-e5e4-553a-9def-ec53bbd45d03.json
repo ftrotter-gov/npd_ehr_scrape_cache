@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eeb0e3a0-e5e4-553a-9def-ec53bbd45d03",
+    "name": "GOOD SAMARITAN HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/99203a1e-022a-5a1f-a3ce-5d7b48149240"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700880218"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2425 SAMARITAN DR"
+        ],
+        "city": "SAN JOSE",
+        "state": "CA",
+        "postalCode": "95124-3908"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3829"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3829.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eeb0e3a0-e5e4-553a-9def-ec53bbd45d03"
+}

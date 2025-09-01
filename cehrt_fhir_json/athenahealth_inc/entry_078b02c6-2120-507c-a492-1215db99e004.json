@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "078b02c6-2120-507c-a492-1215db99e004",
+    "name": "Centrol Iowa Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7e900212-ea26-58a2-9c4b-461c1c9006f8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215920020"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3 S 4th Avenue"
+        ],
+        "city": "MARSHALLTOWN",
+        "state": "IA",
+        "postalCode": "50158-2924"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15186"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15186.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:078b02c6-2120-507c-a492-1215db99e004"
+}

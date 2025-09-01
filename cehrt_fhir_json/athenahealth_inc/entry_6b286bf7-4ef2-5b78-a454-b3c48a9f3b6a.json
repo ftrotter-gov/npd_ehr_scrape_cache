@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b286bf7-4ef2-5b78-a454-b3c48a9f3b6a",
+    "name": "Shifa Clinic Clarkston",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4ad602cd-61c8-5efe-93fb-db508eb7141a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4773 MEMORIAL DR"
+        ],
+        "city": "DECATUR",
+        "state": "GA",
+        "postalCode": "30032-1417"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19580"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19580.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b286bf7-4ef2-5b78-a454-b3c48a9f3b6a"
+}

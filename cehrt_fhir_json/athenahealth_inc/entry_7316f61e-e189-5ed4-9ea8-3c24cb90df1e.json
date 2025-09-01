@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7316f61e-e189-5ed4-9ea8-3c24cb90df1e",
+    "name": "NYP Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d4398b3-4631-56f3-8b92-ee64e6d59c69"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083045090"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "506 6th Street"
+        ],
+        "city": "Brooklyn",
+        "state": "NY",
+        "postalCode": "11215-3671"
+      },
+      {
+        "line": [
+          "3959 Broadway"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10032-1559"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7316f61e-e189-5ed4-9ea8-3c24cb90df1e"
+}

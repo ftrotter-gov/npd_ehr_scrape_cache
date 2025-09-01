@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "71699f1f-08e7-5e85-bc94-796f5461c5bd",
+    "name": "Primary Care of TN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7c80c0f4-5294-5930-8bee-024de383c3b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235498247"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11509 HARDIN VALLEY RD",
+          "SUITE 103"
+        ],
+        "city": "KNOXVILLE",
+        "state": "TN",
+        "postalCode": "37932-2316"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4686"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4686.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:71699f1f-08e7-5e85-bc94-796f5461c5bd"
+}

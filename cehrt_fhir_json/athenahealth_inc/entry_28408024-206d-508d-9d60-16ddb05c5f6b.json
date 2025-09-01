@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "28408024-206d-508d-9d60-16ddb05c5f6b",
+    "name": "Wellspring",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/76ea0bf9-e631-59a1-b887-19bda5cf40db"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952627119"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "125 North Main Street"
+        ],
+        "city": "MADISON",
+        "state": "VA",
+        "postalCode": "22727-3057"
+      },
+      {
+        "line": [
+          "2503 S Seminole Trail"
+        ],
+        "city": "MADISON",
+        "state": "VA",
+        "postalCode": "22727-2609"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16609"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16609.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:28408024-206d-508d-9d60-16ddb05c5f6b"
+}

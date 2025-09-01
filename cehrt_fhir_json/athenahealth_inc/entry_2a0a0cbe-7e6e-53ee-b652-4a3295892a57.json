@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2a0a0cbe-7e6e-53ee-b652-4a3295892a57",
+    "name": "Obur Health PA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6dac4335-618d-5036-85d3-39fd7fd0f0ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912526997"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1700 POST OAK BLVD, SUITE 600"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77056-3973"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23557"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23557.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2a0a0cbe-7e6e-53ee-b652-4a3295892a57"
+}

@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "142d9dad-2fbb-54ee-80f2-c4a294e1e441",
+    "name": "MacNeal Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/46113b30-1395-5cf6-8734-8d2851e570d8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174553119"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3249 S. OAKPARK AVE"
+        ],
+        "city": "BERWYN",
+        "state": "IL",
+        "postalCode": "60402-6429"
+      },
+      {
+        "line": [
+          "610 S. Maple Ave",
+          "Suite 3150"
+        ],
+        "city": "OAK PARK",
+        "state": "IL",
+        "postalCode": "60304-2434"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8741"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8741.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:142d9dad-2fbb-54ee-80f2-c4a294e1e441"
+}

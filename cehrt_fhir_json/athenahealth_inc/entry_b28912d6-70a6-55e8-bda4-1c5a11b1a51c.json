@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b28912d6-70a6-55e8-bda4-1c5a11b1a51c",
+    "name": "Family Medicine Clinic of JALH",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af3c1002-1567-50cc-a860-e8e8da698267"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801147434"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538284377"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1322 ELTON RD",
+          "SUITE F"
+        ],
+        "city": "JENNINGS",
+        "state": "LA",
+        "postalCode": "70546-4100"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3259"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3259.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b28912d6-70a6-55e8-bda4-1c5a11b1a51c"
+}

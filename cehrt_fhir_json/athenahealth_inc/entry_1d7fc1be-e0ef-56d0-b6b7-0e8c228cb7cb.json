@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d7fc1be-e0ef-56d0-b6b7-0e8c228cb7cb",
+    "name": "Wilmington, Delaware",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2ab22625-6b17-5760-a693-acebfc59b6e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013023647"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1100 S Broom St",
+          "Suite 1"
+        ],
+        "city": "WILMINGTON",
+        "state": "DE",
+        "postalCode": "19805-4585"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9012"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9012.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d7fc1be-e0ef-56d0-b6b7-0e8c228cb7cb"
+}

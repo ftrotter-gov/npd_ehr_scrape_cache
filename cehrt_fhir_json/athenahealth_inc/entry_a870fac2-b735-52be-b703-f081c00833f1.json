@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a870fac2-b735-52be-b703-f081c00833f1",
+    "name": "Glassman Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7b86cac3-0fc0-5d2e-afde-23da7fbf413c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144026261"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "527 RIVER AVE"
+        ],
+        "city": "LAKEWOOD",
+        "state": "NJ",
+        "postalCode": "08701-4722"
+      },
+      {
+        "line": [
+          "84 SUSSEX RD"
+        ],
+        "city": "BERGENFIELD",
+        "state": "NJ",
+        "postalCode": "07621-4014"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31192"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31192.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a870fac2-b735-52be-b703-f081c00833f1"
+}

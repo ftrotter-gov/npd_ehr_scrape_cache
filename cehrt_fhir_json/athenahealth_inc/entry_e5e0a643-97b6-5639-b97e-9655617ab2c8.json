@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5e0a643-97b6-5639-b97e-9655617ab2c8",
+    "name": "ProMed Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26c6cb4c-4e74-5100-8cce-6752d7c2f483"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396409454"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "19041 E 12 MILE RD STE 102"
+        ],
+        "city": "ROSEVILLE",
+        "state": "MI",
+        "postalCode": "48066-2609"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25172"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25172.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5e0a643-97b6-5639-b97e-9655617ab2c8"
+}

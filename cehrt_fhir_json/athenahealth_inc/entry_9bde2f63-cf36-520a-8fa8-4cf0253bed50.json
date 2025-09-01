@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9bde2f63-cf36-520a-8fa8-4cf0253bed50",
+    "name": "Centennial Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/abb5f7d5-468e-5806-be46-fb2282afef02"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205383288"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2400 patterson Street"
+        ],
+        "city": "NASHVILLE",
+        "state": "TN",
+        "postalCode": "37203-1562"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14268"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14268.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9bde2f63-cf36-520a-8fa8-4cf0253bed50"
+}

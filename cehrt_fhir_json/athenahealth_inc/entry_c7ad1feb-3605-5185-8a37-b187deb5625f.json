@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c7ad1feb-3605-5185-8a37-b187deb5625f",
+    "name": "Milford Primary Care Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/81df9930-4bad-5b66-b176-c8e28c12508b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174271837"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 JEFFERSON AVE"
+        ],
+        "city": "MILFORD",
+        "state": "DE",
+        "postalCode": "19963-1800"
+      },
+      {
+        "line": [
+          "305 JEFFERSON AVENUE"
+        ],
+        "city": "MILFORD",
+        "state": "DE",
+        "postalCode": "19963-1800"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25924"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25924.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c7ad1feb-3605-5185-8a37-b187deb5625f"
+}

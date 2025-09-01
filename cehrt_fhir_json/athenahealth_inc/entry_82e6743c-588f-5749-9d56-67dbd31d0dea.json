@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "82e6743c-588f-5749-9d56-67dbd31d0dea",
+    "name": "Beersheba Springs Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bc687415-92b0-54bc-a2f9-4ab8e10aac9d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "19592 STATE HWY 56"
+        ],
+        "city": "BEERSHEBA SPRINGS",
+        "state": "TN",
+        "postalCode": "37305-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18883"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18883.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:82e6743c-588f-5749-9d56-67dbd31d0dea"
+}

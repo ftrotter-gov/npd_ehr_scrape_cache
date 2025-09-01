@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a834f853-fad6-5abf-8c1a-612a50af6785",
+    "meta": {
+      "lastUpdated": "2022-03-22T22:51:10.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://mhcs.us/locations/memorial-hospital"
+      }
+    ],
+    "name": "Memorial Health Care Systems",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://mhcs.us/locations/memorial-hospital"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 North Columbia"
+        ],
+        "city": "Seward",
+        "state": "NE",
+        "postalCode": "68434",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:6ae19dcb-6762-5dcc-a15c-67478197760d"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:6ae19dcb-6762-5dcc-a15c-67478197760d"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a834f853-fad6-5abf-8c1a-612a50af6785"
+}

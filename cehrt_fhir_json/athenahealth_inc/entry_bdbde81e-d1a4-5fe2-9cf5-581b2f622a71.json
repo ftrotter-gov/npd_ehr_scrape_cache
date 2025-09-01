@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bdbde81e-d1a4-5fe2-9cf5-581b2f622a71",
+    "name": "Norton Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b646eae2-dcb5-5dab-aace-addd15b24463"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023056744"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3535 Park St.",
+          "Suite 110"
+        ],
+        "city": "MUSKEGON",
+        "state": "MI",
+        "postalCode": "49444-3736"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11692"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11692.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bdbde81e-d1a4-5fe2-9cf5-581b2f622a71"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a6b9fb86-2dcc-5f8f-9c6e-5493b6c50dc7",
+    "name": "Page Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3fe70fa2-1da9-543e-916e-0c3277fd6cfd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427095801"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "501 N NAVAJO DR"
+        ],
+        "city": "PAGE",
+        "state": "AZ",
+        "postalCode": "86040-0959"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22724"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22724.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a6b9fb86-2dcc-5f8f-9c6e-5493b6c50dc7"
+}

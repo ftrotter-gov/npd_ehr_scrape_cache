@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "52fe2e78-f771-5f48-be61-b51fc8ed5ced",
+    "name": "ChoiceHealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e900e4e-339f-59d9-acbd-5fa83f6092ba"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043921430"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2225 N AUGUSTA ST STE B"
+        ],
+        "city": "STAUNTON",
+        "state": "VA",
+        "postalCode": "24401-2520"
+      },
+      {
+        "line": [
+          "2225 N AUGUSTA STREET",
+          "SUITE B"
+        ],
+        "city": "STAUNTON",
+        "state": "VA",
+        "postalCode": "24401-2520"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:52fe2e78-f771-5f48-be61-b51fc8ed5ced"
+}

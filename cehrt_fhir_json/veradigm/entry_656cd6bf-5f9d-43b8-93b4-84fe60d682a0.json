@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "656cd6bf-5f9d-43b8-93b4-84fe60d682a0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c97c5d55-6d00-427a-82e9-d93473942d75",
+        "name": "Westgate Family Physicians,P.A."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Westgate Family Physicians,P.A.",
+    "managingOrganization": {
+      "reference": "#c97c5d55-6d00-427a-82e9-d93473942d75"
+    },
+    "period": {
+      "start": "2018-12-14T10:28:45+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10055576"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10055576"
+}

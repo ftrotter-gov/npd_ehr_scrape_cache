@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9c6512fc-4ccb-5f74-bbab-60964fefffc3",
+    "name": "Villarreal Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d016700f-4420-530f-8045-e2c22c269ba0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306380605"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3006 N RAUL LONGORIA RD"
+        ],
+        "city": "SAN JUAN",
+        "state": "TX",
+        "postalCode": "78589-3676"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30238"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30238.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9c6512fc-4ccb-5f74-bbab-60964fefffc3"
+}

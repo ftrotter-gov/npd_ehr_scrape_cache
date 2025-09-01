@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c773ef9d-a333-56a4-b851-4682e5e758ce",
+    "name": "Texas Surgical Specialists",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578969465"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "19211 McKay Dr"
+        ],
+        "city": "HUMBLE",
+        "state": "TX",
+        "postalCode": "77338-5502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c773ef9d-a333-56a4-b851-4682e5e758ce"
+}

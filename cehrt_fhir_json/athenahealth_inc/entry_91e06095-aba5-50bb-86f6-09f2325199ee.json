@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "91e06095-aba5-50bb-86f6-09f2325199ee",
+    "name": "Dr. Mom",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e02ebe7d-838e-5fc7-8c1c-da061d1579ba"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811272719"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3000 CUSTER ROAD ST. 270-7004"
+        ],
+        "city": "PLANO",
+        "state": "TX",
+        "postalCode": "75075-4422"
+      },
+      {
+        "line": [
+          "965 JUNCTION DR"
+        ],
+        "city": "ALLEN",
+        "state": "TX",
+        "postalCode": "75013-5296"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19817"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19817.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:91e06095-aba5-50bb-86f6-09f2325199ee"
+}

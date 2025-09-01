@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1a34761f-9397-4a17-9548-209bc6a70d04",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "8f911db2-33bf-4b53-a956-82ce44597fed",
+        "name": "Florida Otolaryngology Group"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Florida Otolaryngology Group",
+    "managingOrganization": {
+      "reference": "#8f911db2-33bf-4b53-a956-82ce44597fed"
+    },
+    "period": {
+      "start": "2018-09-27T13:11:48+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10006617"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10006617"
+}

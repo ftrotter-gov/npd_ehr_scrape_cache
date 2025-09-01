@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d247786e-1620-5473-8c07-f84f352f7a0c",
+    "name": "McLean Ambulatory Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ccb1d255-4eb2-5d6e-b5e5-363566571c6a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215257803"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7601 LEWINSVILLE ROAD",
+          "SUITE 440"
+        ],
+        "city": "MC LEAN",
+        "state": "VA",
+        "postalCode": "22102-2834"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15928"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15928.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d247786e-1620-5473-8c07-f84f352f7a0c"
+}

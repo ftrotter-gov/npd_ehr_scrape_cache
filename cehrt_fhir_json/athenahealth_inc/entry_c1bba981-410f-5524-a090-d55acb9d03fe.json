@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c1bba981-410f-5524-a090-d55acb9d03fe",
+    "name": "Numo Health Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35450a56-e7e2-5b14-af16-6895a52b882d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770297137"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2 N CENTRAL AVE FL 1819",
+          "FL 1819"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85004-2322"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29654"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29654.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c1bba981-410f-5524-a090-d55acb9d03fe"
+}

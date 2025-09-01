@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDZG-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDZG"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Senior Xpress Care",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9419217788"
+      },
+      {
+        "system": "fax",
+        "value": "9419213399"
+      },
+      {
+        "system": "email",
+        "value": "seniorxpresscare@verizon.net"
+      }
+    ],
+    "address": [
+      {
+        "text": "5310 Clark Rd Suite 206 Sarasota FL 342333343 US",
+        "line": [
+          "5310 Clark Rd",
+          "Suite 206"
+        ],
+        "city": "Sarasota",
+        "state": "FL",
+        "postalCode": "342333343",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDZG-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDZG-Organization-3"
+}

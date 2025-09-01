@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "233d0f04-df63-5b3c-822b-751f9d31111e",
+    "name": "Surgery Center of Atlanta",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b443fb7a-0afb-5696-a54c-95ac23837952"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912041864"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4200 Northside Parkway",
+          "Building 8, Suite 100"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30327-3067"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17749"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17749.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:233d0f04-df63-5b3c-822b-751f9d31111e"
+}

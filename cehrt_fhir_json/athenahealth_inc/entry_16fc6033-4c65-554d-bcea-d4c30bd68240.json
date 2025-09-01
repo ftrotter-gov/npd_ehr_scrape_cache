@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "16fc6033-4c65-554d-bcea-d4c30bd68240",
+    "name": "Aventura Hosp OutPt",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fce6b27f-21e3-5ded-b731-4ae0fed33e61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235459686"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20900 Biscayne Blvd."
+        ],
+        "city": "Aventura",
+        "state": "FL",
+        "postalCode": "33180-1407"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17638"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17638.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:16fc6033-4c65-554d-bcea-d4c30bd68240"
+}

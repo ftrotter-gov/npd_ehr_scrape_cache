@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d6795fa4-ad97-5c80-861b-60951ca3a4fc",
+    "name": "Paoli Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/40bc1789-53b6-5a90-901f-9fcbf29bea82"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538230396"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033276076"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Industrial Blvd"
+        ],
+        "city": "PAOLI",
+        "state": "PA",
+        "postalCode": "19301-1601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-554"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-554.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d6795fa4-ad97-5c80-861b-60951ca3a4fc"
+}

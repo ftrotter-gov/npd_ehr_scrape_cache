@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7ce82cd0-f8c0-5ee7-94ce-8b3de0b7f344",
+    "name": "East Orange General Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/94cc936b-fdd3-5c3d-ab24-a06d36311a50"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114053071"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 CENTRAL AVENUE"
+        ],
+        "city": "EAST ORANGE",
+        "state": "NJ",
+        "postalCode": "07018-2819"
+      },
+      {
+        "line": [
+          "495 N. 13th Street"
+        ],
+        "city": "NEWARK",
+        "state": "NJ",
+        "postalCode": "07107-1317"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15982"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15982.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7ce82cd0-f8c0-5ee7-94ce-8b3de0b7f344"
+}

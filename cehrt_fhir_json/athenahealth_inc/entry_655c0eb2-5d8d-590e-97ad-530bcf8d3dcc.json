@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "655c0eb2-5d8d-590e-97ad-530bcf8d3dcc",
+    "name": "Arcadia OB/GYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ea82951-612f-566b-afca-5516f4703352"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457392763"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "251 East 33rd Street",
+          "3rd Floor"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10016-4325"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15987"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15987.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:655c0eb2-5d8d-590e-97ad-530bcf8d3dcc"
+}

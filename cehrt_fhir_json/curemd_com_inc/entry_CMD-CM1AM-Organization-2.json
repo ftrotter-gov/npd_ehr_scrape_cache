@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1AM-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1AM"
+        }
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952522054"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pike County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5733242111"
+      },
+      {
+        "system": "fax",
+        "value": "5733243057"
+      },
+      {
+        "system": "url",
+        "value": "www.pikecountyhealth.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "1 Health Care Place Bowling Green MO 633343602 US",
+        "line": [
+          "1 Health Care Place"
+        ],
+        "city": "Bowling Green",
+        "state": "MO",
+        "postalCode": "633343602",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1AM-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1AM-Organization-2"
+}

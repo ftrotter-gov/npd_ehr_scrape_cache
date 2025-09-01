@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1II-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1II"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "New Hanover County Health and Human Services",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9107983500"
+      },
+      {
+        "system": "fax",
+        "value": "9107987824"
+      },
+      {
+        "system": "url",
+        "value": "https://www.nhcgov.com/961/Health-Human-Services/"
+      }
+    ],
+    "address": [
+      {
+        "text": "1650 Greenfield Street Wilmington NEW HANOVER NC 28401 US",
+        "line": [
+          "1650 Greenfield Street"
+        ],
+        "city": "Wilmington",
+        "district": "NEW HANOVER",
+        "state": "NC",
+        "postalCode": "28401",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1II-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1II-Organization-2"
+}

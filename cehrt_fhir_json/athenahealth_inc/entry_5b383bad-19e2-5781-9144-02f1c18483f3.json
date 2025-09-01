@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5b383bad-19e2-5781-9144-02f1c18483f3",
+    "name": "Holiq Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6f19f9a0-e95f-5979-8eb6-e13fe3ffc992"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851022172"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1030 N ROGERS LN SUITE 121",
+          "5142"
+        ],
+        "city": "RALEIGH",
+        "state": "NC",
+        "postalCode": "27610-6080"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26306"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26306.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5b383bad-19e2-5781-9144-02f1c18483f3"
+}

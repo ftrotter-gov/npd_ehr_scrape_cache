@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "de7f0a79-64e6-5473-9341-dfc1ebe22b98",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a54a2a75-123e-5fff-8a12-b82249858e5e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427009232"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "331 SALEM PL STE 100"
+        ],
+        "city": "FAIRVIEW HEIGHTS",
+        "state": "IL",
+        "postalCode": "62208-1340"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12893"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12893.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:de7f0a79-64e6-5473-9341-dfc1ebe22b98"
+}

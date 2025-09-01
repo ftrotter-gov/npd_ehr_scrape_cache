@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6448affd-d9d3-509d-b482-e34e85c98dd5",
+    "name": "Troy Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1cfd7f5d-33c9-5147-977a-be2eff7fba1b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760077747"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1809 Lockwood Street"
+        ],
+        "city": "TAHOKA",
+        "state": "TX",
+        "postalCode": "79373-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23654"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23654.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6448affd-d9d3-509d-b482-e34e85c98dd5"
+}

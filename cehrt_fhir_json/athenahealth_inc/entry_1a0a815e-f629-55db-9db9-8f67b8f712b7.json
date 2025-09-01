@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1a0a815e-f629-55db-9db9-8f67b8f712b7",
+    "name": "Leesburg Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e73e367d-f91b-5ba3-83c4-ab633994f4f8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215974498"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 E DIXIE AVE"
+        ],
+        "city": "LEESBURG",
+        "state": "FL",
+        "postalCode": "34748-5925"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3063"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3063.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1a0a815e-f629-55db-9db9-8f67b8f712b7"
+}

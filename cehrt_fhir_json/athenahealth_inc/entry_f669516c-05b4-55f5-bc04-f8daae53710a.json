@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f669516c-05b4-55f5-bc04-f8daae53710a",
+    "name": "WAYNE COUNTY HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3e0603a0-ebc1-5e60-8c1d-150951ece6d6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780903070"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "166 HOSPITAL ST"
+        ],
+        "city": "MONTICELLO",
+        "state": "KY",
+        "postalCode": "42633-2430"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15293"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15293.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f669516c-05b4-55f5-bc04-f8daae53710a"
+}

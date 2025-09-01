@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "17d7d990-dc0d-56cb-8e03-bb52a9ea402d",
+    "name": "Florissant Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37e083b6-7a22-5e04-86b6-ebc5ac531211"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871124248"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18100 COUNTY RD 1"
+        ],
+        "city": "FLORISSANT",
+        "state": "CO",
+        "postalCode": "80816-1923"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26070"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26070.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:17d7d990-dc0d-56cb-8e03-bb52a9ea402d"
+}

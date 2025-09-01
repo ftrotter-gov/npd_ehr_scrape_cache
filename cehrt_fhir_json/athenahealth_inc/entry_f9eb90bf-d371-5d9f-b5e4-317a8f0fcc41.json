@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f9eb90bf-d371-5d9f-b5e4-317a8f0fcc41",
+    "name": "Clinic with a Heart",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cddf2068-e528-5b20-8e5f-1f415e81dea9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1010101010"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1701 S. 17TH STREET, STE 4G"
+        ],
+        "city": "LINCOLN",
+        "state": "NE",
+        "postalCode": "68502-2641"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19390"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19390.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f9eb90bf-d371-5d9f-b5e4-317a8f0fcc41"
+}

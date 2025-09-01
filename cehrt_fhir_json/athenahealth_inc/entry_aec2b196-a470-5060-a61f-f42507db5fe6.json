@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aec2b196-a470-5060-a61f-f42507db5fe6",
+    "name": "Foundation Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/99e5ec4b-1ea5-5c6a-9f0b-fafdb2b813a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639956246"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1601 HIGHWAY 121 BYP N STE B"
+        ],
+        "city": "MURRAY",
+        "state": "KY",
+        "postalCode": "42071-8759"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32361"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32361.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aec2b196-a470-5060-a61f-f42507db5fe6"
+}

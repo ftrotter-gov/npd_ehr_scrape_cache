@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM18X-Organization-4",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM18X"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Andalusia Neurology PC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3342223222"
+      },
+      {
+        "system": "fax",
+        "value": "3342223224"
+      },
+      {
+        "system": "email",
+        "value": "andalusia_neurology@yahoo.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "947 South Three Notch Street Andalusia AL 364205231 US",
+        "line": [
+          "947 South Three Notch Street"
+        ],
+        "city": "Andalusia",
+        "state": "AL",
+        "postalCode": "364205231",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM18X-Endpoint-4"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM18X-Organization-4"
+}

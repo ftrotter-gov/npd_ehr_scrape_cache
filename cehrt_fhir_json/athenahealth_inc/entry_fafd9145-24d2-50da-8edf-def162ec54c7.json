@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fafd9145-24d2-50da-8edf-def162ec54c7",
+    "name": "Hardtner Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3b34a264-dabe-52be-b61a-aa5efc78e97b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104890052"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1136 North Pine Rd"
+        ],
+        "city": "OLLA",
+        "state": "LA",
+        "postalCode": "71465-4804"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-658"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-658.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fafd9145-24d2-50da-8edf-def162ec54c7"
+}

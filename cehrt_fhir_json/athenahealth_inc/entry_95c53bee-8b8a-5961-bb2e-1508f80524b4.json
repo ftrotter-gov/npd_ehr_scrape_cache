@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "95c53bee-8b8a-5961-bb2e-1508f80524b4",
+    "name": "Tempe Chiropractic Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/74337445-5302-58d3-b09c-6108fdbbc6fa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326587213"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "422 E Southern Ave"
+        ],
+        "city": "TEMPE",
+        "state": "AZ",
+        "postalCode": "85282-5214"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15663"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15663.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:95c53bee-8b8a-5961-bb2e-1508f80524b4"
+}

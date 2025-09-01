@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1da51ff3-006c-5702-9fce-267d174eb2ae",
+    "name": "Truesdale Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e9da2f63-c301-597f-8781-52344e850c82"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336627371"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5064 RIVERS AVE"
+        ],
+        "city": "CHARLESTON",
+        "state": "SC",
+        "postalCode": "29406-6304"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20409"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20409.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1da51ff3-006c-5702-9fce-267d174eb2ae"
+}

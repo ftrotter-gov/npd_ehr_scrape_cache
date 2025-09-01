@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "78a79421-1f27-52bb-9c7a-f36ec6e66bfa",
+    "name": "MAIN OFFICE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/01a9417c-6080-59a2-8f9b-89e9a4ac911c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033556907"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2300 OLD SPANISH TRAIL",
+          "UNIT 1133"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77054-2170"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7656"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7656.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:78a79421-1f27-52bb-9c7a-f36ec6e66bfa"
+}

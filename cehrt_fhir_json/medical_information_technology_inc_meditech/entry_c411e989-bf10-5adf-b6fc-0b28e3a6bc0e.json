@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c411e989-bf10-5adf-b6fc-0b28e3a6bc0e",
+    "meta": {
+      "lastUpdated": "2022-03-23T22:51:46.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://salinasvalleyhealth.com"
+      }
+    ],
+    "name": "Salinas Valley Memorial Healthcare System",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://salinasvalleyhealth.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "450 East Romie Lane"
+        ],
+        "city": "Salinas",
+        "state": "CA",
+        "postalCode": "93901",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:6fd30b09-942a-5d62-8e5a-d13c69aad9a8"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:6fd30b09-942a-5d62-8e5a-d13c69aad9a8"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c411e989-bf10-5adf-b6fc-0b28e3a6bc0e"
+}

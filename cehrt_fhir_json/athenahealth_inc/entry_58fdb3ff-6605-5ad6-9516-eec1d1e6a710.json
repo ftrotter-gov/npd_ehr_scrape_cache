@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "58fdb3ff-6605-5ad6-9516-eec1d1e6a710",
+    "name": "Little Company of Mary Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec1e6566-cc84-5900-8831-0c5bac941a79"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578800421"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4101 Torrance Blvd"
+        ],
+        "city": "TORRANCE",
+        "state": "CA",
+        "postalCode": "90503-4607"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6657"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6657.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:58fdb3ff-6605-5ad6-9516-eec1d1e6a710"
+}

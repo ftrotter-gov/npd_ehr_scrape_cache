@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "96a664dd-a20a-57ca-afd9-63b004c712c1",
+    "name": "South Portland Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bc54abd4-03c1-52ee-9ef8-c638028c8540"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477692010"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "42 Anthoine Street"
+        ],
+        "city": "SOUTH PORTLAND",
+        "state": "ME",
+        "postalCode": "04106-4403"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3400"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3400.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:96a664dd-a20a-57ca-afd9-63b004c712c1"
+}

@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "88e34cec-b3dc-544d-8594-7b71a4ba872f",
+    "name": "Continuum Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c56b4879-0655-5e88-b841-fb7476ec364c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932485224"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366721334"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4850 W OAKLAND PARK BLVD",
+          "SUITE 224"
+        ],
+        "city": "FORT LAUDERDALE",
+        "state": "FL",
+        "postalCode": "33313-7261"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13370"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13370.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:88e34cec-b3dc-544d-8594-7b71a4ba872f"
+}

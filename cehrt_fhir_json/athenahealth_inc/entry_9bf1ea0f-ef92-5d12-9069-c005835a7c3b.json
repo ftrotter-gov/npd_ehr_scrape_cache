@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9bf1ea0f-ef92-5d12-9069-c005835a7c3b",
+    "name": "Jackson Pulmonary Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3f55efa5-f2d7-5f64-85f2-922f3e189565"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437102415"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "270 W. Church St"
+        ],
+        "city": "LEXINGTON",
+        "state": "TN",
+        "postalCode": "38351-2077"
+      },
+      {
+        "line": [
+          "3493 Veteran's Dr. N. Suite C"
+        ],
+        "city": "HUNTINGDON",
+        "state": "TN",
+        "postalCode": "38344-6230"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1582"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1582.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9bf1ea0f-ef92-5d12-9069-c005835a7c3b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8dc7f792-fd83-52ec-a68d-65cf6ca0709c",
+    "name": "Ovation Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5f8d43f1-22ed-5d14-996b-2776fabffdbf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144921867"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 E. FORT UNION BLVD"
+        ],
+        "city": "MIDVALE",
+        "state": "UT",
+        "postalCode": "84047-2391"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28152"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28152.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8dc7f792-fd83-52ec-a68d-65cf6ca0709c"
+}

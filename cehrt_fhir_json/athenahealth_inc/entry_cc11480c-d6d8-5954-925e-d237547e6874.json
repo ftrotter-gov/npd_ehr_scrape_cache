@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cc11480c-d6d8-5954-925e-d237547e6874",
+    "name": "Mayo Transplant Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d805751-1c88-5042-866a-b5e6c616c717"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316902208"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5777 E Mayo BLVD"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85054-4502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11625"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11625.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cc11480c-d6d8-5954-925e-d237547e6874"
+}

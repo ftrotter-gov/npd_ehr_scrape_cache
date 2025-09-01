@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8c174264-e588-551a-98e0-a78e23349827",
+    "name": "Dr. Teresa Kroeker's office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b7780e1d-170a-537f-908d-115d5e7cd15e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356703243"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12319 N Mopac Expressway",
+          "BLDG C  STE 260"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78758-2414"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13338"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13338.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8c174264-e588-551a-98e0-a78e23349827"
+}

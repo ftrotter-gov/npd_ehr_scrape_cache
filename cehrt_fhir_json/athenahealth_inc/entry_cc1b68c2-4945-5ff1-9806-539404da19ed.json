@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cc1b68c2-4945-5ff1-9806-539404da19ed",
+    "name": "BEP Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e7519379-5fbd-5e81-837e-602a941470f0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942976741"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.336",
+        "value": "H972440"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2929 KENNY ROAD, STE 100"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43221-2415"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24812"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24812.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cc1b68c2-4945-5ff1-9806-539404da19ed"
+}

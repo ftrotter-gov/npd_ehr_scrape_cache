@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9af4a575-bcf7-566e-8b96-7d57e493a8fb",
+    "name": "Global HealthCare Systems Inc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/79a2cf28-11c4-5412-9038-5a32c5d69686"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932758273"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2203 PHILADELPHIA RD"
+        ],
+        "city": "EDGEWOOD",
+        "state": "MD",
+        "postalCode": "21040-3435"
+      },
+      {
+        "line": [
+          "1045 TAYLOR AVE STE 104"
+        ],
+        "city": "TOWSON",
+        "state": "MD",
+        "postalCode": "21286-8315"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20414"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20414.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9af4a575-bcf7-566e-8b96-7d57e493a8fb"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4dadebcd-7d69-5fcf-b6e3-695995f47491",
+    "name": "Radcliff Urgent Care Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e50302fb-4941-5bd5-8689-4d9493daa9b7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508595034"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "650 WEST LINCOLN TRAIL BLVD"
+        ],
+        "city": "RADCLIFF",
+        "state": "KY",
+        "postalCode": "40160-2681"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25653"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25653.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4dadebcd-7d69-5fcf-b6e3-695995f47491"
+}

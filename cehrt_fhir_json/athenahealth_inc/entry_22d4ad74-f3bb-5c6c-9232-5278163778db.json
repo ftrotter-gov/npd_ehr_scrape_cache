@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22d4ad74-f3bb-5c6c-9232-5278163778db",
+    "name": "Gulfcoast Eye Care/ Northside Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d28980ef-d0c1-5535-9667-7f97e16f5011"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306165493"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6000 49th St North"
+        ],
+        "city": "SAINT PETERSBURG",
+        "state": "FL",
+        "postalCode": "33709-2114"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2809"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2809.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22d4ad74-f3bb-5c6c-9232-5278163778db"
+}

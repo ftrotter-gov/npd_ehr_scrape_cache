@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f77f0efe-243d-5dc0-a9a3-43c81e3ba95c",
+    "name": "Stride Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6ca3a623-766e-55b1-b9f1-555094872eaf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750115804"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6855 W CHARLESTON BLVD",
+          "STE A"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89117-1675"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32740"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32740.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f77f0efe-243d-5dc0-a9a3-43c81e3ba95c"
+}

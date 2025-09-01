@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c38036d9-e04f-5c61-a2bf-9cccea286714",
+    "name": "Infusion Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/03c2d26f-3a52-5d48-8de9-2db12ddf06cb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104857143"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4530 EAST MUIRWOOD DRIVE",
+          "SUITE 111"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85048-7693"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8409"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8409.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c38036d9-e04f-5c61-a2bf-9cccea286714"
+}

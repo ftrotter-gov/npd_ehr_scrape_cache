@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a7c0f5f2-c603-5609-a208-b4210a75b8af",
+    "name": "St Marys Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a949090b-48e4-53f7-acef-ed9559398cd4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659401511"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "235 West 6th Street"
+        ],
+        "city": "RENO",
+        "state": "NV",
+        "postalCode": "89503-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7649"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7649.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a7c0f5f2-c603-5609-a208-b4210a75b8af"
+}

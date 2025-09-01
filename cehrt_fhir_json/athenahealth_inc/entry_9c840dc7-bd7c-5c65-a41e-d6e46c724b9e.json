@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9c840dc7-bd7c-5c65-a41e-d6e46c724b9e",
+    "name": "Abbott Norwestern Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fcbeed71-103f-506e-b034-afa1651642d2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912271180"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 EAST 28TH ST"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55407-3731"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3659"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3659.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9c840dc7-bd7c-5c65-a41e-d6e46c724b9e"
+}

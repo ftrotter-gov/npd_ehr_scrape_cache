@@ -1,0 +1,61 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1D2-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1D2"
+        }
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912644352"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Roadrunner Laboratory Services, LLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8008479068"
+      }
+    ],
+    "address": [
+      {
+        "text": "150 SETTLEMENT DR STE B BASTROP TX 786029662 US",
+        "line": [
+          "150 SETTLEMENT DR",
+          "STE B"
+        ],
+        "city": "BASTROP",
+        "state": "TX",
+        "postalCode": "786029662",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1D2-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1D2-Organization-2"
+}

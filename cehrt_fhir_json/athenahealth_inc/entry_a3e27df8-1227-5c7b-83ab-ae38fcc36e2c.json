@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3e27df8-1227-5c7b-83ab-ae38fcc36e2c",
+    "name": "TMH Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5af222ae-3f31-5e24-9987-d3c7a89bea48"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396139507"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "943 W 8th Drive"
+        ],
+        "city": "CRAIG",
+        "state": "CO",
+        "postalCode": "81625-3110"
+      },
+      {
+        "line": [
+          "750 Hospital Loop"
+        ],
+        "city": "CRAIG",
+        "state": "CO",
+        "postalCode": "81625-8750"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10628"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10628.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3e27df8-1227-5c7b-83ab-ae38fcc36e2c"
+}

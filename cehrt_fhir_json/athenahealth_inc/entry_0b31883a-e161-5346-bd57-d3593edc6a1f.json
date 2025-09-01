@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0b31883a-e161-5346-bd57-d3593edc6a1f",
+    "name": "Omaha Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a18d6b96-6b64-52d7-a7a7-603b194f54ab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033184866"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2226 N Street"
+        ],
+        "city": "OMAHA",
+        "state": "NE",
+        "postalCode": "68107-2831"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28136"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28136.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0b31883a-e161-5346-bd57-d3593edc6a1f"
+}

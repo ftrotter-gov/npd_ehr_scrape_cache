@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e2b40461-fb81-5fb1-a0f1-e946c9d2101a",
+    "name": "Kendallville Mobile Clinic 307 Drake Road",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/21b57a07-4323-56d0-b7ee-80431762d153"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821347832"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "307 DRAKE RD"
+        ],
+        "city": "KENDALLVILLE",
+        "state": "IN",
+        "postalCode": "46755-2005"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e2b40461-fb81-5fb1-a0f1-e946c9d2101a"
+}

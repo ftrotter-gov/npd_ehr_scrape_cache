@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "20c2aee5-1a2c-568b-b363-489df90290c0",
+    "name": "AdventHealth Medical Group Primary Care at Durand South",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fda7357e-02e9-5b44-b90d-2ab6f765a59b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659471068"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1250 3rd Ave W"
+        ],
+        "city": "DURAND",
+        "state": "WI",
+        "postalCode": "54736-1600"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13124"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13124.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:20c2aee5-1a2c-568b-b363-489df90290c0"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "001",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\tVersaSuite Organization<br/>\n\t\t\tThis is the VersaSuite Organization in FHIR format, formatted to comply with the HTI-1 ruling for 2024\n\t\t</div>"
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "VersaSuite",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "(+1) 512-250-8775"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "Ste: 401"
+        ],
+        "city": "Austin",
+        "state": "TX",
+        "postalCode": "78750",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/VersaSuiteEndpoint"
+      }
+    ]
+  },
+  "fullUrl": "https://proxy-fhir.versasuite.com/Organization/001"
+}

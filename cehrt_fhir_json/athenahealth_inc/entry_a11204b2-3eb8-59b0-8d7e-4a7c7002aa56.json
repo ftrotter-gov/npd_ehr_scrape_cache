@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a11204b2-3eb8-59b0-8d7e-4a7c7002aa56",
+    "name": "Dr. Dobresu's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c1dbd036-0b5f-5466-90ea-9dd540b8a73b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841716321"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1270 HWY 35 STE 1"
+        ],
+        "city": "MIDDLETOWN",
+        "state": "NJ",
+        "postalCode": "07748-2014"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16676"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16676.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a11204b2-3eb8-59b0-8d7e-4a7c7002aa56"
+}

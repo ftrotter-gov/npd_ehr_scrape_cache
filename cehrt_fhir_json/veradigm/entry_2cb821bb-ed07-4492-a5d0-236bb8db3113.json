@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2cb821bb-ed07-4492-a5d0-236bb8db3113",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "694c9190-7ec6-49e2-bfde-8bb2b35053f2",
+        "name": "Midland County Health Department"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Midland County Health Department",
+    "managingOrganization": {
+      "reference": "#694c9190-7ec6-49e2-bfde-8bb2b35053f2"
+    },
+    "period": {
+      "start": "2023-10-13T15:06:41+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10031120"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10031120"
+}

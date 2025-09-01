@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9509252a-1760-5991-affe-9292a24aa0a1",
+    "name": "Charles B Goldberg MD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/06bd762b-535a-5ac5-8e06-9c6acd2e845f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7215 SE 13TH AVENUE"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97202-5803"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17423"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17423.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9509252a-1760-5991-affe-9292a24aa0a1"
+}

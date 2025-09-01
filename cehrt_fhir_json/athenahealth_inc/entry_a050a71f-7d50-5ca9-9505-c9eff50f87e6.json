@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a050a71f-7d50-5ca9-9505-c9eff50f87e6",
+    "name": "Elite Medical Clinic - Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ccc37e10-f75f-5816-a8ab-83843c0c81a6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407505142"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1204 OCILLA ROAD"
+        ],
+        "city": "DOUGLAS",
+        "state": "GA",
+        "postalCode": "31533-2220"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25957"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25957.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a050a71f-7d50-5ca9-9505-c9eff50f87e6"
+}

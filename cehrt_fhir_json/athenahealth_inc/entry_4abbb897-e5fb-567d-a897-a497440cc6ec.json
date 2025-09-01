@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4abbb897-e5fb-567d-a897-a497440cc6ec",
+    "name": "Mercy Hospital - IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e44b3422-0fdb-51ef-9dc0-2301c6f4deec"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215296199"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3663  SOUTH MIAMI AVE"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33133-4253"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12783"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12783.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4abbb897-e5fb-567d-a897-a497440cc6ec"
+}

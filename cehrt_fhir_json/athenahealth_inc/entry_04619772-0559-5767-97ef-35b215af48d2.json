@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "04619772-0559-5767-97ef-35b215af48d2",
+    "name": "DCMC IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f61d8d27-c8b4-5b76-a6ed-d3fcfca49a0f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144315383"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386192656"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4900 Mueller Blvd"
+        ],
+        "city": "Austin",
+        "state": "TX",
+        "postalCode": "78723-3079"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8363"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8363.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:04619772-0559-5767-97ef-35b215af48d2"
+}

@@ -1,0 +1,52 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "d97d8976-f33f-4e88-92d8-9f92aedd6e34",
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/endpoint-fhir-version",
+        "valueCode": "4.0.1"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Arizona Community Physicians",
+    "managingOrganization": {
+      "identifier": {
+        "system": "https://fhir.epic.com/Developer/Management/OrganizationId",
+        "value": "10008"
+      },
+      "display": "Arizona Community Physicians"
+    },
+    "contact": [
+      {
+        "system": "url",
+        "value": "https://open.epic.com"
+      }
+    ],
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+            "code": "none"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et1186.epichosted.com/FHIRProxyPRD/api/FHIR/R4"
+  },
+  "fullUrl": "urn:uuid:d97d8976-f33f-4e88-92d8-9f92aedd6e34"
+}

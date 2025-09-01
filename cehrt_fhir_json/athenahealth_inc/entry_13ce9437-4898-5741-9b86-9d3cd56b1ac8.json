@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "13ce9437-4898-5741-9b86-9d3cd56b1ac8",
+    "name": "The Good Clinic at Nordhaus",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1147f1cd-27be-56fe-8d90-6ceb94d6ce21"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003423252"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "307 1ST AVE NE"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55413-2205"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25714"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25714.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:13ce9437-4898-5741-9b86-9d3cd56b1ac8"
+}

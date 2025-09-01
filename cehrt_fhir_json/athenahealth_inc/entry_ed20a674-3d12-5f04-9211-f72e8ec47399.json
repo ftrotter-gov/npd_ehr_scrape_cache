@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ed20a674-3d12-5f04-9211-f72e8ec47399",
+    "name": "Cape Cod Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e964b897-93e1-50fe-b340-d8f70af9e739"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770534927"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "27 Park Street"
+        ],
+        "city": "HYANNIS",
+        "state": "MA",
+        "postalCode": "02601-5230"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-961"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-961.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ed20a674-3d12-5f04-9211-f72e8ec47399"
+}

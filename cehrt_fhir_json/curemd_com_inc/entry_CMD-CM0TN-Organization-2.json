@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0TN-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0TN"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Dr. Joyce Scott, DO",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9312434312"
+      },
+      {
+        "system": "fax",
+        "value": "9312434311"
+      },
+      {
+        "system": "url",
+        "value": "www.drjoycescott.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "1456 Proctor Creek Rd Celina TN 38551 US",
+        "line": [
+          "1456 Proctor Creek Rd"
+        ],
+        "city": "Celina",
+        "state": "TN",
+        "postalCode": "38551",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0TN-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0TN-Organization-2"
+}

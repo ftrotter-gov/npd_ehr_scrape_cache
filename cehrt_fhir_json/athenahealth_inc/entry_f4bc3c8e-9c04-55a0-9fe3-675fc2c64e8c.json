@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f4bc3c8e-9c04-55a0-9fe3-675fc2c64e8c",
+    "name": "Santana Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4809f45e-60eb-54c2-97fc-f50a6906a548"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8402 FULSHEAR RUN TRACE"
+        ],
+        "city": "RICHMOND",
+        "state": "TX",
+        "postalCode": "77406-2540"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28972"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28972.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f4bc3c8e-9c04-55a0-9fe3-675fc2c64e8c"
+}

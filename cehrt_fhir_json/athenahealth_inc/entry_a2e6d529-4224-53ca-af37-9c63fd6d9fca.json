@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a2e6d529-4224-53ca-af37-9c63fd6d9fca",
+    "name": "Greenbrook St. Pete",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca22cad7-e172-5ca8-ab38-fb90214a777d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073179123"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "147 2nd Ave South",
+          "Suite 303"
+        ],
+        "city": "SAINT PETERSBURG",
+        "state": "FL",
+        "postalCode": "33701-9999"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18773"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18773.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a2e6d529-4224-53ca-af37-9c63fd6d9fca"
+}

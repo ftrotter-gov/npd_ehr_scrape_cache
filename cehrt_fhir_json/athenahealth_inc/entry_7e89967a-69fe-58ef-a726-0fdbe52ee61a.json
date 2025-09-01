@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7e89967a-69fe-58ef-a726-0fdbe52ee61a",
+    "name": "Sierra Blanca Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a15be10c-9bd0-5e72-8a52-416d884a746f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366410771"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "208 PORR DR"
+        ],
+        "city": "RUIDOSO",
+        "state": "NM",
+        "postalCode": "88345-6713"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23925"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23925.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7e89967a-69fe-58ef-a726-0fdbe52ee61a"
+}

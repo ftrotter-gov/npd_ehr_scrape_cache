@@ -1,0 +1,27 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "45905",
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Hawkins Primary Care Services",
+    "managingOrganization": {
+      "reference": "Organization/50954"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+            "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+          }
+        ]
+      }
+    ],
+    "address": "https://providerapi.advancedmd.com/v1/r4/50954"
+  },
+  "fullUrl": "https://providerapi.advancedmd.com/v1/r4/50954/Endpoint"
+}

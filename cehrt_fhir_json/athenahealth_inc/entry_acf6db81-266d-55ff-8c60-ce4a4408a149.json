@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "acf6db81-266d-55ff-8c60-ce4a4408a149",
+    "name": "Colorado Plains General Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a01ebcd7-5a53-58e8-9a00-798cac8cce78"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821042409"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 Lincoln Street",
+          "Suite 208"
+        ],
+        "city": "FORT MORGAN",
+        "state": "CO",
+        "postalCode": "80701-3290"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20212"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20212.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:acf6db81-266d-55ff-8c60-ce4a4408a149"
+}

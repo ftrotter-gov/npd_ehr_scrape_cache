@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1b733b03-6817-50b2-a58c-dfda94b9f717",
+    "name": "Mission Hospital Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ae157fdb-937f-5c7f-b886-c4d4867da173"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528397585"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "509 Biltmore Ave"
+        ],
+        "city": "ASHEVILLE",
+        "state": "NC",
+        "postalCode": "28801-4601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30432"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30432.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1b733b03-6817-50b2-a58c-dfda94b9f717"
+}

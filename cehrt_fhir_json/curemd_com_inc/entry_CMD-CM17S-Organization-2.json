@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM17S-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM17S"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Cumberland Department of Public Health",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9104333600"
+      },
+      {
+        "system": "fax",
+        "value": "9104333659"
+      },
+      {
+        "system": "url",
+        "value": "http://www.co.cumberland.nc.us/departments/public-"
+      }
+    ],
+    "address": [
+      {
+        "text": "1235 Ramsey St Fayetteville CUMBERLAND NC 28301 US",
+        "line": [
+          "1235 Ramsey St"
+        ],
+        "city": "Fayetteville",
+        "district": "CUMBERLAND",
+        "state": "NC",
+        "postalCode": "28301",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM17S-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM17S-Organization-2"
+}

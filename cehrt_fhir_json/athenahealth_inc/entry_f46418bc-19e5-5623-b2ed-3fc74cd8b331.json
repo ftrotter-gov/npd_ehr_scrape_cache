@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f46418bc-19e5-5623-b2ed-3fc74cd8b331",
+    "name": "Martin Medical Center - ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a84fbb94-9bcb-50fa-99db-bfca8f039dad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376913962"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 SE HOSPITAL AVE"
+        ],
+        "city": "STUART",
+        "state": "FL",
+        "postalCode": "34994-2346"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12611"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12611.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f46418bc-19e5-5623-b2ed-3fc74cd8b331"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "58a9a9b7-9371-509c-8956-9bad5e0fb198",
+    "name": "Brave Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/46cde828-554a-5bbe-aa60-ca9fa7fc6cfc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164947701"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5915 LA CROSSE AVE BLDG 2 STE 140"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78739-1783"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31288"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31288.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:58a9a9b7-9371-509c-8956-9bad5e0fb198"
+}

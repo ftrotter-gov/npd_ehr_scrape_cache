@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ccfd951-272c-55fa-840a-b5bbfddca63d",
+    "name": "Gulf Breeze Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/175e4ee7-4a72-5d9b-8bcb-e8353df05502"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386823243"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1110 GULF BREEZE PKWY"
+        ],
+        "city": "GULF BREEZE",
+        "state": "FL",
+        "postalCode": "32561-4897"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2183"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2183.Brand-282"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ccfd951-272c-55fa-840a-b5bbfddca63d"
+}

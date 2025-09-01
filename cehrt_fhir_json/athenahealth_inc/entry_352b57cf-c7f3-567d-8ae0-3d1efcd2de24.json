@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "352b57cf-c7f3-567d-8ae0-3d1efcd2de24",
+    "name": "Chevy Chase Ambulatory Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3df03cd-ea5d-5bb6-9c05-7dfc87e0286a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689769374"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "801 S Chevy Chase Dr"
+        ],
+        "city": "GLENDALE",
+        "state": "CA",
+        "postalCode": "91205-4431"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27758"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27758.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:352b57cf-c7f3-567d-8ae0-3d1efcd2de24"
+}

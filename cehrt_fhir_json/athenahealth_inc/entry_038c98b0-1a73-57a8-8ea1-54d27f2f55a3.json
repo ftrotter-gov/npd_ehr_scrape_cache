@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "038c98b0-1a73-57a8-8ea1-54d27f2f55a3",
+    "name": "Northwest Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5556a35e-b9d8-566a-a011-a5b0bb20ef9e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255385670"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2701 N State Road 7"
+        ],
+        "city": "Margate",
+        "state": "FL",
+        "postalCode": "33063-5725"
+      },
+      {
+        "line": [
+          "2801 N State Road 7"
+        ],
+        "city": "Margate",
+        "state": "FL",
+        "postalCode": "33063-5727"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1121"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1121.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:038c98b0-1a73-57a8-8ea1-54d27f2f55a3"
+}

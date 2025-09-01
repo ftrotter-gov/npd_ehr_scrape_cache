@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MzIwM18zMjAzXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1164.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609906676"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Kids Central Pediatrics Inc TN",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "865-483-5678",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "865-483-4027",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "575 Oak Ridge Turnpike Suite 120 Oak Ridge, TN 378307173",
+        "line": [
+          "575 Oak Ridge Turnpike",
+          "Suite 120"
+        ],
+        "city": "Oak Ridge",
+        "state": "TN",
+        "postalCode": "378307173",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MzIwM18zMjAzXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MzIwM18zMjAzXzMwNjA"
+}

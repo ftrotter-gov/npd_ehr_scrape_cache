@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cd765bd5-0bf0-55bd-902c-4cd632352ba5",
+    "name": "Youper Patient Portal",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a6fe6a0d-cdba-588f-93d1-70940f4713c1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "548 MARKET STPMB 54448"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94104-5401"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23725"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23725.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cd765bd5-0bf0-55bd-902c-4cd632352ba5"
+}

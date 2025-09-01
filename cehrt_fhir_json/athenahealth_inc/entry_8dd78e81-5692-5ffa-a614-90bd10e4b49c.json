@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8dd78e81-5692-5ffa-a614-90bd10e4b49c",
+    "name": "Rainbow Pediatric",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dc052685-53ff-51fa-9217-5c7cb6649df1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255474300"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1636 E MAIN ST"
+        ],
+        "city": "HUMBOLDT",
+        "state": "TN",
+        "postalCode": "38343-2904"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21899"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21899.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8dd78e81-5692-5ffa-a614-90bd10e4b49c"
+}

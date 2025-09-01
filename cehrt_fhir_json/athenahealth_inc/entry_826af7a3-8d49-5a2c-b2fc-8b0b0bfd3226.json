@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "826af7a3-8d49-5a2c-b2fc-8b0b0bfd3226",
+    "name": "Jackson Free Clinic - ULTRASOUND",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/457cfd87-0d67-58d9-9d31-1d90bac83133"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "925 Martin Luther King Jr. Drive"
+        ],
+        "city": "JACKSON",
+        "state": "MS",
+        "postalCode": "39203-2233"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20428"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20428.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:826af7a3-8d49-5a2c-b2fc-8b0b0bfd3226"
+}

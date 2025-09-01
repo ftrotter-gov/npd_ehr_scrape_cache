@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "04f8fd26-0d09-5f8d-96c1-6f8baed2b19b",
+    "name": "The Kansas City Free Eye Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af72eefb-968c-573c-8d8f-c318fc9b414e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "705 VIRGINIA AVE"
+        ],
+        "city": "KANSAS CITY",
+        "state": "MO",
+        "postalCode": "64106-1744"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16003"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16003.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:04f8fd26-0d09-5f8d-96c1-6f8baed2b19b"
+}

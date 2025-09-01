@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4fcb33c6-04e1-5da4-8cee-dd6dce165851",
+    "name": "Sutter Sierra Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/41a5bd83-2f99-5da1-ac6c-d886fbd0b960"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568015808"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8 Medical Plaza Dr.",
+          "Suite 100"
+        ],
+        "city": "ROSEVILLE",
+        "state": "CA",
+        "postalCode": "95661-3107"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21842"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21842.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4fcb33c6-04e1-5da4-8cee-dd6dce165851"
+}

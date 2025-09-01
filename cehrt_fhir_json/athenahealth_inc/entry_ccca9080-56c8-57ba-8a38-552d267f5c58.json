@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ccca9080-56c8-57ba-8a38-552d267f5c58",
+    "name": "bay area regional medical center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e5105664-4e9e-5d4c-95f4-0fe64502034f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821333451"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 blossom"
+        ],
+        "city": "WEBSTER",
+        "state": "TX",
+        "postalCode": "77598-4204"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5989"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5989.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ccca9080-56c8-57ba-8a38-552d267f5c58"
+}

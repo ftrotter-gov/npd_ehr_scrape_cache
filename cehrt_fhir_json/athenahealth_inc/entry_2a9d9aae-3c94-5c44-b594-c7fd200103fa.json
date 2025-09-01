@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2a9d9aae-3c94-5c44-b594-c7fd200103fa",
+    "name": "HEC Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/51ab287b-3a44-5cf4-a68d-d982bf8d919f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003378738"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "157 REINHARDT COLLEGE PKWY",
+          "STE 200"
+        ],
+        "city": "CANTON",
+        "state": "GA",
+        "postalCode": "30114-1700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24076"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24076.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2a9d9aae-3c94-5c44-b594-c7fd200103fa"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ead2f4f8-51fc-5abd-88a4-d0a7b7e0dd82",
+    "name": "Taylor Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/97c14a0e-5775-5099-811e-3aea2fd98211"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730185950"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "175 E CHESTER PIKE"
+        ],
+        "city": "RIDLEY PARK",
+        "state": "PA",
+        "postalCode": "19078-2212"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14961"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14961.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ead2f4f8-51fc-5abd-88a4-d0a7b7e0dd82"
+}

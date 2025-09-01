@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9400ab0c-34d1-588c-837e-16006725f18d",
+    "name": "Just Rejuvenate Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e93d93d3-5eb5-5a50-b4ba-6ea303411d73"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184341372"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8300 SAN PEDRO NE",
+          "SUITE C"
+        ],
+        "city": "ALBUQUERQUE",
+        "state": "NM",
+        "postalCode": "87113-1703"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27912"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27912.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9400ab0c-34d1-588c-837e-16006725f18d"
+}

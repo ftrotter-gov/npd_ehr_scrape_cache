@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8aba306f-b7bf-5cd8-9d00-ddec94a36bad",
+    "name": "Osceola Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dd475764-7859-5ed4-b200-457d93163ae9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245289578"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4201 West Nolte Rd"
+        ],
+        "city": "SAINT CLOUD",
+        "state": "FL",
+        "postalCode": "34772-7158"
+      },
+      {
+        "line": [
+          "4201 West New Nolte Raod"
+        ],
+        "city": "St Cloud",
+        "state": "FL",
+        "postalCode": "34772-7100"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4692"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4692.Brand-24"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8aba306f-b7bf-5cd8-9d00-ddec94a36bad"
+}

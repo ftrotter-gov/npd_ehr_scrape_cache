@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8dbb87e4-75ff-5fb3-826d-488d536b2c2b",
+    "name": "Meeting",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/136318f2-c37b-5259-9aa4-71943eb5334e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891828075"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "880 W CENTRAL Rd",
+          "Ste 3500"
+        ],
+        "city": "ARLINGTON HEIGHTS",
+        "state": "IL",
+        "postalCode": "60005-2368"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12948"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12948.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8dbb87e4-75ff-5fb3-826d-488d536b2c2b"
+}

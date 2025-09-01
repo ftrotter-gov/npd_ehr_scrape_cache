@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "83b84e12-0b7c-5b11-815b-7c0bbfefe30a",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://wphospital.org/default.aspx"
+      }
+    ],
+    "name": "White Plains Hospital Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://wphospital.org/default.aspx"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "41 East Post Road"
+        ],
+        "city": "White Plains",
+        "state": "NY",
+        "postalCode": "10601",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:00c67f7b-fb28-4be1-b5d9-900f4fbfaa11"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:408b9053-e4a8-5227-af01-90f4d88755a5"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:00c67f7b-fb28-4be1-b5d9-900f4fbfaa11"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:83b84e12-0b7c-5b11-815b-7c0bbfefe30a"
+}

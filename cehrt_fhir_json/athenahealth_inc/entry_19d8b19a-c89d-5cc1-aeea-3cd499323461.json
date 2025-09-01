@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "19d8b19a-c89d-5cc1-aeea-3cd499323461",
+    "name": "Kirk's Pharmacy in Eatonville",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/caca9a27-f3ae-503e-b5c5-a5b4c2d69101"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700991759"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "104 Mashell Ave N",
+          "PO BOX 99"
+        ],
+        "city": "EATONVILLE",
+        "state": "WA",
+        "postalCode": "98328-8936"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21793"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21793.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:19d8b19a-c89d-5cc1-aeea-3cd499323461"
+}

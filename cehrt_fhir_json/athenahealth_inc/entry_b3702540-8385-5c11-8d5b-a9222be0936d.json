@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b3702540-8385-5c11-8d5b-a9222be0936d",
+    "name": "Knox Community Hospital - Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6b5a47c2-6803-5989-9f4d-6788ed81badb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972734788"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1330 COSHOCTON RD"
+        ],
+        "city": "MOUNT VERNON",
+        "state": "OH",
+        "postalCode": "43050-1440"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-587"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-587.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b3702540-8385-5c11-8d5b-a9222be0936d"
+}

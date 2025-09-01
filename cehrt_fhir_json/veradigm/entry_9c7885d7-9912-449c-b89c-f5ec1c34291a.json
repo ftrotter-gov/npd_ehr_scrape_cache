@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "9c7885d7-9912-449c-b89c-f5ec1c34291a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "438ec7ba-fa60-4f6d-abc8-553cf7bc5b31",
+        "name": "Mill Creek Pediatrics"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Mill Creek Pediatrics",
+    "managingOrganization": {
+      "reference": "#438ec7ba-fa60-4f6d-abc8-553cf7bc5b31"
+    },
+    "period": {
+      "start": "2018-08-11T07:34:23+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/69964"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/69964"
+}

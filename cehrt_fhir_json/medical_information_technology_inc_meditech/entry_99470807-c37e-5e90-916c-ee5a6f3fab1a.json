@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "99470807-c37e-5e90-916c-ee5a6f3fab1a",
+    "meta": {
+      "lastUpdated": "2023-10-31T19:51:08.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://strosehospital.org"
+      }
+    ],
+    "name": "Saint Rose Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://strosehospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "27200 Calaroga Avenue"
+        ],
+        "city": "Hayward",
+        "state": "CA",
+        "postalCode": "94545",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:9bbe8825-24fd-5821-a07b-9593a9f1e6fe"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:9bbe8825-24fd-5821-a07b-9593a9f1e6fe"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:99470807-c37e-5e90-916c-ee5a6f3fab1a"
+}

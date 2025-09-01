@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c81a0788-1e5a-50ab-b3dd-b3f2e480f8ce",
+    "name": "Davita San Francisco",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ccaa7c56-620e-50d3-b3ad-87f905f112c5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336117829"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1499 Webster St"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94115-3705"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17475"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17475.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c81a0788-1e5a-50ab-b3dd-b3f2e480f8ce"
+}

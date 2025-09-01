@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1fba748e-10cd-5c0c-8467-1333417b5fc9",
+    "name": "The Medical Center at Elizabeth Place",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3482bb2f-5dc4-52f2-9af9-ca84738e0c34"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497804181"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 ELIZABETH PL"
+        ],
+        "city": "DAYTON",
+        "state": "OH",
+        "postalCode": "45417-3445"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1918"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1918.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1fba748e-10cd-5c0c-8467-1333417b5fc9"
+}

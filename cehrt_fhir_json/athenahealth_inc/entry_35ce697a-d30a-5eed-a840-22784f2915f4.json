@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "35ce697a-d30a-5eed-a840-22784f2915f4",
+    "name": "CAMC South Parkersburg Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bd2170a3-33ec-542f-a781-d1daa6ab5ccb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457396152"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2838 PIKE ST"
+        ],
+        "city": "PARKERSBURG",
+        "state": "WV",
+        "postalCode": "26101-8659"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29596"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29596.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:35ce697a-d30a-5eed-a840-22784f2915f4"
+}

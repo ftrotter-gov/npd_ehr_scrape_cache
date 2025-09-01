@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c03e2bea-020f-5b72-bcab-fa58634a55fc",
+    "name": "Integrated Pain Solutions",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c79a09b4-2c18-56d6-b46f-3513a4f0ab21"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053695098"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2015 W MAIN ST",
+          "STE 350"
+        ],
+        "city": "STAMFORD",
+        "state": "CT",
+        "postalCode": "06902-4536"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20839"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20839.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c03e2bea-020f-5b72-bcab-fa58634a55fc"
+}

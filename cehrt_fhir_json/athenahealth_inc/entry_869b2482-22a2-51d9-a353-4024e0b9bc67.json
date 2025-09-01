@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "869b2482-22a2-51d9-a353-4024e0b9bc67",
+    "name": "MUSC HEALTH PRIMARY CARE MILL ST",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff9a92f1-f913-5999-bf52-d7d4aaf1d16a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841878006"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992383145"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1111 Mill Street"
+        ],
+        "city": "CAMDEN",
+        "state": "SC",
+        "postalCode": "29020-3763"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11951"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11951.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:869b2482-22a2-51d9-a353-4024e0b9bc67"
+}

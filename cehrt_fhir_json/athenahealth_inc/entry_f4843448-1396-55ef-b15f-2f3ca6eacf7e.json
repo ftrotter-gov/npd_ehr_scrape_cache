@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f4843448-1396-55ef-b15f-2f3ca6eacf7e",
+    "name": "Doctor's Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e122d4ac-f6ad-5e52-adc0-9ce468a4581d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396999124"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003060807"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3651 Wheeler Rd"
+        ],
+        "city": "AUGUSTA",
+        "state": "GA",
+        "postalCode": "30909-6521"
+      },
+      {
+        "line": [
+          "3651 WHEELER RD"
+        ],
+        "city": "AUGUSTA",
+        "state": "GA",
+        "postalCode": "30909-3851"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13941"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13941.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f4843448-1396-55ef-b15f-2f3ca6eacf7e"
+}

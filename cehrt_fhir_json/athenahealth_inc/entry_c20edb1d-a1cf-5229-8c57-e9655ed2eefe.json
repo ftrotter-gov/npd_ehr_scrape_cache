@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c20edb1d-a1cf-5229-8c57-e9655ed2eefe",
+    "name": "Keady Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aea0d59e-5e21-57bf-9515-e26b883068f9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033466784"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "157 Main Street"
+        ],
+        "city": "CHARLESTOWN",
+        "state": "NH",
+        "postalCode": "03603-4668"
+      },
+      {
+        "line": [
+          "71 Belknap Ave"
+        ],
+        "city": "NEWPORT",
+        "state": "NH",
+        "postalCode": "03773-1536"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17354"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17354.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c20edb1d-a1cf-5229-8c57-e9655ed2eefe"
+}

@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cef21642-4a76-5734-933f-f8babe6effaf",
+    "name": "intermed surgery center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0ecb1eeb-c1db-5034-929b-9eebfd0d781a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952485765"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912009416"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "84 MARGINAL WAY",
+          "10TH FLOOR, SUITE 1000"
+        ],
+        "city": "PORTLAND",
+        "state": "ME",
+        "postalCode": "04101-2477"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3608"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3608.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cef21642-4a76-5734-933f-f8babe6effaf"
+}

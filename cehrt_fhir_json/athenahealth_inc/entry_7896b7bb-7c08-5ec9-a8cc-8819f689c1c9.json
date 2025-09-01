@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7896b7bb-7c08-5ec9-a8cc-8819f689c1c9",
+    "name": "NP On Call Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d163b182-1110-5bc3-b0c7-a3d22968f944"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255713889"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5107 BEATLINE RD  STE 100"
+        ],
+        "city": "LONG BEACH",
+        "state": "MS",
+        "postalCode": "39560-3872"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13737"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13737.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7896b7bb-7c08-5ec9-a8cc-8819f689c1c9"
+}

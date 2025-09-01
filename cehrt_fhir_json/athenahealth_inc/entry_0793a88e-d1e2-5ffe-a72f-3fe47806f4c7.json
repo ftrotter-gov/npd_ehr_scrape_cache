@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0793a88e-d1e2-5ffe-a72f-3fe47806f4c7",
+    "name": "Bergan Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c32a070e-61d1-5ae5-b66f-fdc880e708d2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376686733"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7500 Mercy Rd"
+        ],
+        "city": "OMAHA",
+        "state": "NE",
+        "postalCode": "68124-0101"
+      },
+      {
+        "line": [
+          "111 N 175th St",
+          "Omaha"
+        ],
+        "city": "OMAHA",
+        "state": "NE",
+        "postalCode": "68118-3579"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15331"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15331.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0793a88e-d1e2-5ffe-a72f-3fe47806f4c7"
+}

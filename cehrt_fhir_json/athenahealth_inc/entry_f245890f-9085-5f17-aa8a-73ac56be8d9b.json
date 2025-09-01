@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f245890f-9085-5f17-aa8a-73ac56be8d9b",
+    "name": "Texas Health Fort Worth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/310fc315-0f2c-5414-9faa-7afdb06830ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801939244"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1301 Pennsylvania Avenue"
+        ],
+        "city": "FORT WORTH",
+        "state": "TX",
+        "postalCode": "76104-2122"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18287"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18287.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f245890f-9085-5f17-aa8a-73ac56be8d9b"
+}

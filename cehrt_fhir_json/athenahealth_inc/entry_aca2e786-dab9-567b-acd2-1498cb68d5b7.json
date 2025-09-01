@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aca2e786-dab9-567b-acd2-1498cb68d5b7",
+    "name": "Coventry Psychiatry Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/88f3280f-6a50-570d-b21c-11195e06a988"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649341934"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "305 SECOND AVE",
+          "STE 210"
+        ],
+        "city": "COLLEGEVILLE",
+        "state": "PA",
+        "postalCode": "19426-2658"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1916"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1916.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aca2e786-dab9-567b-acd2-1498cb68d5b7"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c658ee7f-2cb8-5e6e-b1ee-7797b5e1a760",
+    "name": "Sutter Sleep Disorder Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6ba6b11-977a-5a8a-b870-6ecdafcaf016"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407880719"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1625 Stockton Blvd",
+          "Suite 111"
+        ],
+        "city": "SACRAMENTO",
+        "state": "CA",
+        "postalCode": "95816-7098"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c658ee7f-2cb8-5e6e-b1ee-7797b5e1a760"
+}

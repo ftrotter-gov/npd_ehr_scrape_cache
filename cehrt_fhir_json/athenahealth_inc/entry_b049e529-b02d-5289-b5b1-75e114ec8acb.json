@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b049e529-b02d-5289-b5b1-75e114ec8acb",
+    "name": "Whatcom County Pregnancy Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cf2f6392-6daa-5a67-a0aa-e109a1806a4f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1310 N, STATE STREET"
+        ],
+        "city": "BELLINGHAM",
+        "state": "WA",
+        "postalCode": "98225-4715"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29028"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29028.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b049e529-b02d-5289-b5b1-75e114ec8acb"
+}

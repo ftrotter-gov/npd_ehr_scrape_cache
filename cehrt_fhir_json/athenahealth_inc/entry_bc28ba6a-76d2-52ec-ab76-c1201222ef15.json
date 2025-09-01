@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bc28ba6a-76d2-52ec-ab76-c1201222ef15",
+    "name": "St Vincent's Med Ctr",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6346fc33-2566-5ea3-9af9-67d80211ecc2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033318175"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "115 Technology Drive"
+        ],
+        "city": "Trumbull",
+        "state": "CT",
+        "postalCode": "06611-6337"
+      },
+      {
+        "line": [
+          "2800 Main Street"
+        ],
+        "city": "Bridgeport",
+        "state": "CT",
+        "postalCode": "06606-4201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32135"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32135.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bc28ba6a-76d2-52ec-ab76-c1201222ef15"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a31a5a1-7adc-5894-9f82-4cfc08008f9d",
+    "name": "Orcas Island Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dd4aab58-1105-564d-ba84-dbbcd9daced8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194778498"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "429 MADRONA ST"
+        ],
+        "city": "EASTSOUND",
+        "state": "WA",
+        "postalCode": "98245-8573"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23415"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23415.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a31a5a1-7adc-5894-9f82-4cfc08008f9d"
+}

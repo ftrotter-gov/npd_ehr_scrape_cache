@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "25fa0bf2-f869-5012-85ef-e3ba81e778ad",
+    "name": "Women's Clinic of Atlanta - Decatur",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9472515-af9e-5866-a9d8-b85fafeec531"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "125 CLAIREMONT AVE",
+          "SUITE 330"
+        ],
+        "city": "DECATUR",
+        "state": "GA",
+        "postalCode": "30030-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20336"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20336.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:25fa0bf2-f869-5012-85ef-e3ba81e778ad"
+}

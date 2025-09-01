@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c8b2d418-ddc8-5a44-a884-47867e029148",
+    "name": "Hickory Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2e34dcc7-742e-5682-bdae-0282ecf6c02a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235125378"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "50 13TH AVE NE STE 2A"
+        ],
+        "city": "HICKORY",
+        "state": "NC",
+        "postalCode": "28601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4261"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4261.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c8b2d418-ddc8-5a44-a884-47867e029148"
+}

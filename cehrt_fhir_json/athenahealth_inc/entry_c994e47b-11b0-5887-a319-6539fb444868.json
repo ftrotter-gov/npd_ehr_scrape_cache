@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c994e47b-11b0-5887-a319-6539fb444868",
+    "name": "Saint Cloud - Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e0f876c7-2db4-52fa-bf8a-e7e1fd1c34a6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376093609"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1050 Grape Ave"
+        ],
+        "city": "Saint Cloud",
+        "state": "FL",
+        "postalCode": "34769-3965"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26532"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26532.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c994e47b-11b0-5887-a319-6539fb444868"
+}

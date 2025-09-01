@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "984c5ed1-0d32-516c-ad83-cd986ce6e1fc",
+    "name": "Zuwa Family Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e9665a3f-778a-5b04-ba76-305803fc931d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467046151"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20046 N John Wayne Parkway",
+          "Ste 102"
+        ],
+        "city": "MARICOPA",
+        "state": "AZ",
+        "postalCode": "85139-4021"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23586"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23586.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:984c5ed1-0d32-516c-ad83-cd986ce6e1fc"
+}

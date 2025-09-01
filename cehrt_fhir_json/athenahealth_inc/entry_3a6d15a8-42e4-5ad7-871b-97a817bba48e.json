@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3a6d15a8-42e4-5ad7-871b-97a817bba48e",
+    "name": "Women's Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47a1ce34-c77c-5617-bb9d-427ee96f1495"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1605 East Plaza Dr.",
+          "Suite 3"
+        ],
+        "city": "TALLAHASSEE",
+        "state": "FL",
+        "postalCode": "32308-2304"
+      },
+      {
+        "line": [
+          "2560 W TENNESSEE ST"
+        ],
+        "city": "TALLAHASSEE",
+        "state": "FL",
+        "postalCode": "32304-2506"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19552"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19552.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3a6d15a8-42e4-5ad7-871b-97a817bba48e"
+}

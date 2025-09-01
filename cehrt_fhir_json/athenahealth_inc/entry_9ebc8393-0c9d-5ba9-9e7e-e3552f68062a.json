@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9ebc8393-0c9d-5ba9-9e7e-e3552f68062a",
+    "name": "AcuteCareHouseCalls",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e8a9ffa-9f9b-5fb9-9a84-70b779f92170"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033738786"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "106 MAIN STREET SUITE A"
+        ],
+        "city": "LOS LUNAS",
+        "state": "NM",
+        "postalCode": "87031-7795"
+      },
+      {
+        "line": [
+          "2210 Sun Ranch Village Lp",
+          "Suite A"
+        ],
+        "city": "LOS LUNAS",
+        "state": "NM",
+        "postalCode": "87031-7795"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21473"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21473.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9ebc8393-0c9d-5ba9-9e7e-e3552f68062a"
+}

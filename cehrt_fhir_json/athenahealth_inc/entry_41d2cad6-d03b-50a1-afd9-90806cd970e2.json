@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "41d2cad6-d03b-50a1-afd9-90806cd970e2",
+    "name": "North Suburban Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/34772665-bb8e-5b6a-9c45-884d2871107b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750372504"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9191 Grant Street"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80229-4361"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1521"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1521.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:41d2cad6-d03b-50a1-afd9-90806cd970e2"
+}

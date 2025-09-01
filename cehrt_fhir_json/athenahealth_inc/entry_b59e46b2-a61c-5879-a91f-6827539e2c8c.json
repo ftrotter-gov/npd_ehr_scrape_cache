@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b59e46b2-a61c-5879-a91f-6827539e2c8c",
+    "name": "Greenfield YMCA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/abb5f7d5-468e-5806-be46-fb2282afef02"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588115208"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "451 Main St"
+        ],
+        "city": "GREENFIELD",
+        "state": "MA",
+        "postalCode": "01301-3304"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14268"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14268.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b59e46b2-a61c-5879-a91f-6827539e2c8c"
+}

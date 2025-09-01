@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "08a17ffa-eec8-570b-a8c6-cfcf71353bb1",
+    "name": "North Andover Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e6eaafa8-9261-575a-bd05-15265b2cf114"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063285682"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "869 TURNPIKE ST",
+          "STE 210-212"
+        ],
+        "city": "NORTH ANDOVER",
+        "state": "MA",
+        "postalCode": "01845-6151"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30845"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30845.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:08a17ffa-eec8-570b-a8c6-cfcf71353bb1"
+}

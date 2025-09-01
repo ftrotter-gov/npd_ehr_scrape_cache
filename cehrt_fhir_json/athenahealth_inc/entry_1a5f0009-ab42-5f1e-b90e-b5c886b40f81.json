@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1a5f0009-ab42-5f1e-b90e-b5c886b40f81",
+    "name": "OCA Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a7493e47-7f6e-5577-9719-054c7b13819d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811665128"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4501 BIRCH ST STE 101-A"
+        ],
+        "city": "NEWPORT BEACH",
+        "state": "CA",
+        "postalCode": "92660-1990"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22164"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22164.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1a5f0009-ab42-5f1e-b90e-b5c886b40f81"
+}

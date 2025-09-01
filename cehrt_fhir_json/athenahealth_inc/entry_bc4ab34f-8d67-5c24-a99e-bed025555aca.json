@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bc4ab34f-8d67-5c24-a99e-bed025555aca",
+    "name": "Healing Bridge Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/561f29a3-198b-5d23-9416-c3308d9533ac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "215 WILLOW BEND ROAD"
+        ],
+        "city": "PEACHTREE CITY",
+        "state": "GA",
+        "postalCode": "30269-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19873"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19873.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bc4ab34f-8d67-5c24-a99e-bed025555aca"
+}

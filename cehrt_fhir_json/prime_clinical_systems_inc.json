@@ -1,0 +1,151 @@
+{
+  "resourceType": "Bundle",
+  "id": "b923bf84-8519-4f5a-8059-0a8e7378cae2",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "https://fhirpresentation.pcsdataxchg.com/fhir/r4/Endpoint/basepractice",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "basepractice",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+                "code": "urn:ihe:pcc:xphr:2007"
+              }
+            ]
+          }
+        ],
+        "payloadMimeType": [
+          "application/fhir+json",
+          "application/json+fhir",
+          "application/xml+fhir",
+          "application/fhir+xml"
+        ],
+        "address": "https://fhirpresentation.pcsdataxchg.com/fhir/dhit/basepractice/r4"
+      }
+    },
+    {
+      "fullUrl": "https://fhirpresentation.pcsdataxchg.com/fhir/r4/Organization/basepractice",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "basepractice",
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.3.6309.11",
+            "value": "basepractice"
+          }
+        ],
+        "active": true,
+        "name": "Test Envirnonment",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "504 309-9103"
+          },
+          {
+            "system": "email",
+            "value": "admin@dynamichealthit.com"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "134 S. Clark St."
+            ],
+            "city": "New Orleans",
+            "state": "AL",
+            "postalCode": "70119",
+            "country": "US"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/basepractice"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://fhirpresentation.pcsdataxchg.com/fhir/r4/Endpoint/N11",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "N11",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+                "code": "urn:ihe:pcc:xphr:2007"
+              }
+            ]
+          }
+        ],
+        "payloadMimeType": [
+          "application/fhir+json",
+          "application/json+fhir",
+          "application/xml+fhir",
+          "application/fhir+xml"
+        ],
+        "address": "https://fhirpresentation.pcsdataxchg.com/fhir/dhit/n11/r4"
+      }
+    },
+    {
+      "fullUrl": "https://fhirpresentation.pcsdataxchg.com/fhir/r4/Organization/N11",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "N11",
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.3.6309.11",
+            "value": "N11"
+          }
+        ],
+        "active": true,
+        "name": "Prime Clinical Systems Inc",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "8005235977"
+          },
+          {
+            "system": "email",
+            "value": "support@primeclinical.com"
+          },
+          {
+            "system": "url",
+            "value": "http://www.primeclinical.com/"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "3675 E Huntington Dr."
+            ],
+            "city": "Pasadena",
+            "state": "AL",
+            "postalCode": "91107",
+            "country": "US"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/N11"
+          }
+        ]
+      }
+    }
+  ]
+}

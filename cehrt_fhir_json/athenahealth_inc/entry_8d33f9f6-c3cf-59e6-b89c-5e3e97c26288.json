@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8d33f9f6-c3cf-59e6-b89c-5e3e97c26288",
+    "name": "Memorial Hospital and Health System",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/821e06ad-887f-5389-981c-43f0699ff5a8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760084156"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "615 North Michigan ST"
+        ],
+        "city": "SOUTH BEND",
+        "state": "IN",
+        "postalCode": "46601-1171"
+      },
+      {
+        "line": [
+          "229 Florence Ave"
+        ],
+        "city": "GRANGER",
+        "state": "IN",
+        "postalCode": "46530-8048"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22638"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22638.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8d33f9f6-c3cf-59e6-b89c-5e3e97c26288"
+}

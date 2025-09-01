@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM116-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM116"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "NEW YOU MEDISPA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7324146809"
+      },
+      {
+        "system": "fax",
+        "value": "7324146812"
+      },
+      {
+        "system": "url",
+        "value": "www.newyoumedispa.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "2360 ROUTE 9 SOUTH HOWELL NJ 7731 US",
+        "line": [
+          "2360 ROUTE 9 SOUTH"
+        ],
+        "city": "HOWELL",
+        "state": "NJ",
+        "postalCode": "7731",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM116-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM116-Organization-2"
+}

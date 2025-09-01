@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8b4af525-a68c-507e-ae9e-a4e58ff7ad2b",
+    "name": "Ohio State Pain management Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9a66856a-8a7e-51d6-8776-a5eed83ea238"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568497774"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3250 Northpointe Dr"
+        ],
+        "city": "ZANESVILLE",
+        "state": "OH",
+        "postalCode": "43701-2691"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2038"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2038.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8b4af525-a68c-507e-ae9e-a4e58ff7ad2b"
+}

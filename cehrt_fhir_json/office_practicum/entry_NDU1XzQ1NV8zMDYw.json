@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "NDU1XzQ1NV8zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "378.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851424931"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Bainbridge Pediatrics",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "206-780-5437",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "206-780-5438",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "1298 Grow Avenue NW Bainbridge Island, WA 98110-2708",
+        "line": [
+          "1298 Grow Avenue NW"
+        ],
+        "city": "Bainbridge Island",
+        "state": "WA",
+        "postalCode": "98110-2708",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/NDU1XzQ1NV8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/NDU1XzQ1NV8zMDYw"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "32299d33-d83d-59b9-8807-0cbb54a3df04",
+    "name": "Chester River Hospital Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3e4cd703-322b-57c6-a32d-cb3963183b96"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811363849"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629441241"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Brown St"
+        ],
+        "city": "CHESTERTOWN",
+        "state": "MD",
+        "postalCode": "21620-1435"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15585"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15585.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:32299d33-d83d-59b9-8807-0cbb54a3df04"
+}

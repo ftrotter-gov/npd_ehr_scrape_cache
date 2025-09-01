@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0c178062-9e5c-5c74-a9a5-b42d6fc5ec91",
+    "name": "Dr. Kerr's Torrance Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/08068c10-fcd7-5fb6-9f6f-a6e0e5896d38"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518051408"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4305 TORRANCE BLVD.  SUITE 500"
+        ],
+        "city": "TORRANCE",
+        "state": "CA",
+        "postalCode": "90503-4405"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10987"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10987.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0c178062-9e5c-5c74-a9a5-b42d6fc5ec91"
+}

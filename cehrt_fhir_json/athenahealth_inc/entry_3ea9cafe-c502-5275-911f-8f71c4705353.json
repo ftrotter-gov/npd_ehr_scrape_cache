@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3ea9cafe-c502-5275-911f-8f71c4705353",
+    "name": "Baldwyn Nursing Facility",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6951f776-58c5-547c-8896-036afc18db25"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588120943"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "739 4th Street"
+        ],
+        "city": "BALDWYN",
+        "state": "MS",
+        "postalCode": "38824-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19148"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19148.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3ea9cafe-c502-5275-911f-8f71c4705353"
+}

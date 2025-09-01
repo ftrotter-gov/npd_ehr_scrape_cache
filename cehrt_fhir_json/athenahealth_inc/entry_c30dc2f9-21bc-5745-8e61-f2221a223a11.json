@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c30dc2f9-21bc-5745-8e61-f2221a223a11",
+    "name": "Broad Street Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9427193b-6f33-5b0c-b49b-0c7d4d636fce"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265866107"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5201 Haverford Street"
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19139-1401"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20090"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20090.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c30dc2f9-21bc-5745-8e61-f2221a223a11"
+}

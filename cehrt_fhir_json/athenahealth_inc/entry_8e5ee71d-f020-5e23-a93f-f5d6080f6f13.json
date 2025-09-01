@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8e5ee71d-f020-5e23-a93f-f5d6080f6f13",
+    "name": "Dr. House's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cb323f26-e111-5458-8f3d-65a27847046b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801961149"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 SOUTH ORLANDO AVE. STE 410"
+        ],
+        "city": "WINTER PARK",
+        "state": "FL",
+        "postalCode": "32789-7107"
+      },
+      {
+        "line": [
+          "1201 S Orlando Ave",
+          "Suite 410"
+        ],
+        "city": "WINTER PARK",
+        "state": "FL",
+        "postalCode": "32789-7107"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13686"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13686.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8e5ee71d-f020-5e23-a93f-f5d6080f6f13"
+}

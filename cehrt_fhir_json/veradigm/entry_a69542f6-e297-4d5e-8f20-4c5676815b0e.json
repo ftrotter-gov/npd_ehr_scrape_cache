@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a69542f6-e297-4d5e-8f20-4c5676815b0e",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "0abf992e-ebb3-4da4-91bb-74d37b24caae",
+        "name": "Christopher D Carey Md"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Christopher D Carey Md",
+    "managingOrganization": {
+      "reference": "#0abf992e-ebb3-4da4-91bb-74d37b24caae"
+    },
+    "period": {
+      "start": "2018-10-16T06:40:56+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75826"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75826"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "17a8097c-7ad0-5aa5-9c39-6fd2ffaf9831",
+    "name": "Advanced Practice Pain Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1cbb181a-60f8-5339-9ba5-3a6bfb468305"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790308500"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "325 WILSON ST"
+        ],
+        "city": "HENDERSON",
+        "state": "TX",
+        "postalCode": "75652-5957"
+      },
+      {
+        "line": [
+          "300 WILSON ST"
+        ],
+        "city": "HENDERSON",
+        "state": "TX",
+        "postalCode": "75652-5957"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23637"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23637.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:17a8097c-7ad0-5aa5-9c39-6fd2ffaf9831"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "96d30ab4-b314-5a42-bde5-2d6a8634aec0",
+    "name": "Trinitas Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db51fdc6-16bd-53fe-a325-dcb07303b315"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205189941"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 Williamson street"
+        ],
+        "city": "ELIZABETH",
+        "state": "NJ",
+        "postalCode": "07202-2909"
+      },
+      {
+        "line": [
+          "225 WILLIAMSON ST"
+        ],
+        "city": "ELIZABETH",
+        "state": "NJ",
+        "postalCode": "07202-2909"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3830"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3830.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:96d30ab4-b314-5a42-bde5-2d6a8634aec0"
+}

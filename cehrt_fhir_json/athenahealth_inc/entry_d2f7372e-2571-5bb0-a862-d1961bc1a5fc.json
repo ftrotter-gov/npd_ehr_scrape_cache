@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d2f7372e-2571-5bb0-a862-d1961bc1a5fc",
+    "name": "Dr. Paul's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4425cdd3-6c5a-520e-b387-2185de923853"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235301235"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3839 FLATLANDS AVENUE SUITE 102"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11234-3533"
+      },
+      {
+        "line": [
+          "818 STERLING PL"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11216-3904"
+      },
+      {
+        "line": [
+          "86 E 49TH STREET SUITE F"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11203-1809"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3140"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3140.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d2f7372e-2571-5bb0-a862-d1961bc1a5fc"
+}

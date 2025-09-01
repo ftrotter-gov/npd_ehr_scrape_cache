@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTI5XzEyOV8zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "222.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972929289"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Heights Pediatrics",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "718-858-4924",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "718-522-4954",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "50 Clark St Brooklyn, NY 112012469",
+        "line": [
+          "50 Clark St"
+        ],
+        "city": "Brooklyn",
+        "state": "NY",
+        "postalCode": "112012469",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTI5XzEyOV8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTI5XzEyOV8zMDYw"
+}

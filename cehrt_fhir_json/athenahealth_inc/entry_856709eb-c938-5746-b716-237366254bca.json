@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "856709eb-c938-5746-b716-237366254bca",
+    "name": "Texas Oncology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3a6fa33-ad3d-5ee7-96fe-f2c45dcd25ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821265265"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13300 HARGRAVE RD SUITE 190"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77070"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4610"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4610.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:856709eb-c938-5746-b716-237366254bca"
+}

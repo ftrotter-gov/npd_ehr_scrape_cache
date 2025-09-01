@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5e33e8d4-d78c-4501-803e-83dcb2d366e0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "8f14a335-5138-4e10-aac8-5ce94b90107a",
+        "name": "Center For Vascular Disorders"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Center For Vascular Disorders",
+    "managingOrganization": {
+      "reference": "#8f14a335-5138-4e10-aac8-5ce94b90107a"
+    },
+    "period": {
+      "start": "2018-11-22T11:28:41+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10061453"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10061453"
+}

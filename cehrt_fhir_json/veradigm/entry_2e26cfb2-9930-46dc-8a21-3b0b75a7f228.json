@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2e26cfb2-9930-46dc-8a21-3b0b75a7f228",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "b4a5d969-f171-48e7-9a44-9a27a6564a6b",
+        "name": "High Desert Dermatology"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "High Desert Dermatology",
+    "managingOrganization": {
+      "reference": "#b4a5d969-f171-48e7-9a44-9a27a6564a6b"
+    },
+    "period": {
+      "start": "2018-11-30T08:52:54+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10068573"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10068573"
+}

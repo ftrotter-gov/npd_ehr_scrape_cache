@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d6c899e0-af04-5109-9ff1-d4905522d4d7",
+    "name": "PSA Digital Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a5bbde02-a4aa-5bf3-9dc5-fd6f8708137d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346823507"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 E FAYETTE",
+          "BOX 23250"
+        ],
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postalCode": "21203-7501"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24474"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24474.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d6c899e0-af04-5109-9ff1-d4905522d4d7"
+}

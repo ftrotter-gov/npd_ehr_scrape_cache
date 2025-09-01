@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "18f30dc3-9dd2-5102-85b6-67180e790f01",
+    "name": "Alaska Functional Medicine Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/08a6ee39-81eb-51cd-aea6-19e178cfef37"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457345498"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9138 ARLON ST",
+          "SUITE A2"
+        ],
+        "city": "ANCHORAGE",
+        "state": "AK",
+        "postalCode": "99507-3876"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10250"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10250.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:18f30dc3-9dd2-5102-85b6-67180e790f01"
+}

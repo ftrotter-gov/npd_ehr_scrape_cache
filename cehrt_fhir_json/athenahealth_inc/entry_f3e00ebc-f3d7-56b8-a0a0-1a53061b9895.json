@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f3e00ebc-f3d7-56b8-a0a0-1a53061b9895",
+    "name": "BEHAVIORAL HEALTH SERVICES",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/72056af1-0401-5a62-8a82-59083845094d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730416579"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609186741"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1500 N 28TH STREET"
+        ],
+        "city": "RICHMOND",
+        "state": "VA",
+        "postalCode": "23223-5332"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-679"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-679.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f3e00ebc-f3d7-56b8-a0a0-1a53061b9895"
+}

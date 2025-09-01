@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "975de03c-71fe-4631-ad81-07aa4050baed",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "9b87d004-c5b2-46c8-962f-37e4e9704e53",
+        "name": "Cornerstone Family Practice, PLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Cornerstone Family Practice, PLC",
+    "managingOrganization": {
+      "reference": "#9b87d004-c5b2-46c8-962f-37e4e9704e53"
+    },
+    "period": {
+      "start": "2018-08-27T12:35:33+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10017085"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10017085"
+}

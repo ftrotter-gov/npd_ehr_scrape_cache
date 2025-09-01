@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a8b2cc49-9473-53d2-a1bb-8bce7a27fb11",
+    "name": "St Peters Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/de6b69e1-8b85-5de8-9095-70fb77d4017b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508227448"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "413 Lilly Road N.E"
+        ],
+        "city": "OLYMPIA",
+        "state": "WA",
+        "postalCode": "98506-5133"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13862"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13862.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a8b2cc49-9473-53d2-a1bb-8bce7a27fb11"
+}

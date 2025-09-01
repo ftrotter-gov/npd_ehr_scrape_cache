@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "549e2c33-9ec5-5cf3-9534-3db3521b5b8f",
+    "name": "Memorial Hermann Hospital - Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3f7b348a-4bf3-5b7d-b3ee-657773fb4e90"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750476230"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033442173"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6411 Fannin St."
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77030-1501"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-824"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-824.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:549e2c33-9ec5-5cf3-9534-3db3521b5b8f"
+}

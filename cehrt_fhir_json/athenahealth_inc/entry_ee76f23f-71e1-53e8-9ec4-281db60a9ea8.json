@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ee76f23f-71e1-53e8-9ec4-281db60a9ea8",
+    "name": "ST CATHERINE HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/63c36f6e-3f5e-524f-b271-d92cb5d8f3e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396763330"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4321 FIR ST"
+        ],
+        "city": "EAST CHICAGO",
+        "state": "IN",
+        "postalCode": "46312-3049"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4395"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4395.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ee76f23f-71e1-53e8-9ec4-281db60a9ea8"
+}

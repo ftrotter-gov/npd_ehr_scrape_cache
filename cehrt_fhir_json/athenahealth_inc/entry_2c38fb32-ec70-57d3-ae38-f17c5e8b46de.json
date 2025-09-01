@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c38fb32-ec70-57d3-ae38-f17c5e8b46de",
+    "name": "Oakwood Country Place",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37590483-6eeb-5d98-b40f-c2e0b15a875e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003008665"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "421 S Evans St"
+        ],
+        "city": "McMinnville",
+        "state": "OR",
+        "postalCode": "97128-8861"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5756"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5756.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c38fb32-ec70-57d3-ae38-f17c5e8b46de"
+}

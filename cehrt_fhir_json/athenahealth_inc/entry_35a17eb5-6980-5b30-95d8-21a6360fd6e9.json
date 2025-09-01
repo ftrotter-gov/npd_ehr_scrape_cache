@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "35a17eb5-6980-5b30-95d8-21a6360fd6e9",
+    "name": "PRIMARY CARE CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a82d898-4143-54cd-8cc8-306b816cdc66"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003187113"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2249 BOREN BLVD"
+        ],
+        "city": "SEMINOLE",
+        "state": "OK",
+        "postalCode": "74868-1927"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4696"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4696.Brand-16"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:35a17eb5-6980-5b30-95d8-21a6360fd6e9"
+}

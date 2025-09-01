@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "13dddc49-9656-5741-8514-bb84384ed5d9",
+    "name": "MEDICARE DMERC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/18836063-593c-5e25-864c-473cbc5867d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811166341"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417032863"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "79-01 MYRTLE AVE"
+        ],
+        "city": "GLENDALE",
+        "state": "NY",
+        "postalCode": "11385-7441"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3577"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3577.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:13dddc49-9656-5741-8514-bb84384ed5d9"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6c9edd2f-1afa-545d-89f1-f62cd89a1cf0",
+    "name": "AdventHealth Imaging Center Westchase",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3083295f-3e25-5d3a-917b-75c71ac751e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619500881"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10987 SHELDON ROAD",
+          "SUITE 100"
+        ],
+        "city": "TAMPA",
+        "state": "FL",
+        "postalCode": "33626-4702"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13122"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13122.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6c9edd2f-1afa-545d-89f1-f62cd89a1cf0"
+}

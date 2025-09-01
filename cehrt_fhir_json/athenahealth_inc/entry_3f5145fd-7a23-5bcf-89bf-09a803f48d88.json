@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f5145fd-7a23-5bcf-89bf-09a803f48d88",
+    "name": "Springfield Health Center Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26192c04-c2fb-5002-8406-eba19a5c8501"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730336843"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 River Street"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "VT",
+        "postalCode": "05156-2930"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24182"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24182.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f5145fd-7a23-5bcf-89bf-09a803f48d88"
+}

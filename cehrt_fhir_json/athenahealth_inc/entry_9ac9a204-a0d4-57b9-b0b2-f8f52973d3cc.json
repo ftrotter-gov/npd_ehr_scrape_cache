@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9ac9a204-a0d4-57b9-b0b2-f8f52973d3cc",
+    "name": "Johnson Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6ef7fdc5-1b9b-59d7-8545-ac9116719ac1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770693939"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942376579"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "320 Federal St"
+        ],
+        "city": "LYNCHBURG",
+        "state": "VA",
+        "postalCode": "24504-2306"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-221"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-221.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9ac9a204-a0d4-57b9-b0b2-f8f52973d3cc"
+}

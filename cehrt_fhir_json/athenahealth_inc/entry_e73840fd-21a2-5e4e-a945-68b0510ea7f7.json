@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e73840fd-21a2-5e4e-a945-68b0510ea7f7",
+    "name": "Dr. McReynolds",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ef8cc2cb-2dd1-507d-b19f-76f4dc0cc191"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316776933"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "868 ULULANI ST",
+          "Suite 108"
+        ],
+        "city": "HILO",
+        "state": "HI",
+        "postalCode": "96720-3913"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32277"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32277.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e73840fd-21a2-5e4e-a945-68b0510ea7f7"
+}

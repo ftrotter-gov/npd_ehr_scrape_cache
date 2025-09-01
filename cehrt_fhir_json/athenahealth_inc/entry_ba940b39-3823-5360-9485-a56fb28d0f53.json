@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ba940b39-3823-5360-9485-a56fb28d0f53",
+    "name": "Mercy Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/59c1a187-dd2b-5388-bb78-eaefa366bbad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649650961"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1320 Mercy Dr NW"
+        ],
+        "city": "CANTON",
+        "state": "OH",
+        "postalCode": "44708-2614"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13791"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13791.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ba940b39-3823-5360-9485-a56fb28d0f53"
+}

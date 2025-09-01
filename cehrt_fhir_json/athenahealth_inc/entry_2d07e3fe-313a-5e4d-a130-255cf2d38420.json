@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2d07e3fe-313a-5e4d-a130-255cf2d38420",
+    "name": "Memorial Houston Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4787e355-641d-51f8-8ab5-333661f012b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932211992"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9230 Katy Freeway",
+          "STE 601"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77055-7469"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-957"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-957.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2d07e3fe-313a-5e4d-a130-255cf2d38420"
+}

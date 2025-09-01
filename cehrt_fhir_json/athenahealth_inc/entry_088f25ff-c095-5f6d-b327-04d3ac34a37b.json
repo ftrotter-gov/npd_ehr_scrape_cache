@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "088f25ff-c095-5f6d-b327-04d3ac34a37b",
+    "name": "Santa Fe Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f4c4ae90-f822-555d-ad02-a74a46e4db2b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982146346"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8564 E County Rd 466",
+          "#101"
+        ],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162-3021"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15111"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15111.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:088f25ff-c095-5f6d-b327-04d3ac34a37b"
+}

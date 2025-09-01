@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "de4a6610-e0ef-50f4-ba17-226405ebd806",
+    "name": "Healing Unleashed",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a297a2a4-4e42-56d5-92c6-f9b8e0fc3f3a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730226432"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3900 S WADSWORTH BLVD",
+          "SUITE 435"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80235-2106"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8800"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8800.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:de4a6610-e0ef-50f4-ba17-226405ebd806"
+}

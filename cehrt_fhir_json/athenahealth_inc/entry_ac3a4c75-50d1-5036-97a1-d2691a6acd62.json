@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ac3a4c75-50d1-5036-97a1-d2691a6acd62",
+    "name": "AIRS Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/85b8aee0-ee22-5b07-84c6-3b4713bb1d3c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699760769"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "801 S. FAIRMONT AVE",
+          "SUITE 1"
+        ],
+        "city": "LODI",
+        "state": "CA",
+        "postalCode": "95240-5106"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16625"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16625.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ac3a4c75-50d1-5036-97a1-d2691a6acd62"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ca25f6f1-0155-561e-ba08-2cd963b234bf",
+    "name": "DOCTORS HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0c9b52d5-581f-563d-a84b-3ab87ff27935"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699852020"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4950 S LE JEUNE RD STE H"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33146-2231"
+      },
+      {
+        "line": [
+          "5000 UNIVERSITY DRIVE"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33146-2008"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11561"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11561.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ca25f6f1-0155-561e-ba08-2cd963b234bf"
+}

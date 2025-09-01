@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e525d9f2-7bfa-5d35-aba6-a24b8c716a12",
+    "name": "Regional Family Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/de90607b-d04d-55b6-a236-c888f9e2c26a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043390156"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "29 Hospital Hill Rd",
+          "Suite 1800"
+        ],
+        "city": "Sharon",
+        "state": "CT",
+        "postalCode": "06069-2095"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1053"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1053.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e525d9f2-7bfa-5d35-aba6-a24b8c716a12"
+}

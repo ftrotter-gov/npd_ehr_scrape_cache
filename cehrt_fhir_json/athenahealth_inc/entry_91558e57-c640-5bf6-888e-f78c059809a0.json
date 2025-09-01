@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "91558e57-c640-5bf6-888e-f78c059809a0",
+    "name": "Quest Health Remote Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e99e8eee-1089-57dc-80a2-ce3ea956323f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720794019"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7351 WILES RD",
+          "Suite 104"
+        ],
+        "city": "CORAL SPRINGS",
+        "state": "FL",
+        "postalCode": "33067-4106"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32336"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32336.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:91558e57-c640-5bf6-888e-f78c059809a0"
+}

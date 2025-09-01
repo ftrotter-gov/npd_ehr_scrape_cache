@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "82e00293-b1d9-56d7-8169-44199f1c1789",
+    "name": "Dr Karen LaFace's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/691ff2e4-969f-5822-ba3f-129bb95e4310"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912342387"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "950 DANBY RD",
+          "STE 100-A2"
+        ],
+        "city": "ITHACA",
+        "state": "NY",
+        "postalCode": "14850-5778"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7234"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7234.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:82e00293-b1d9-56d7-8169-44199f1c1789"
+}

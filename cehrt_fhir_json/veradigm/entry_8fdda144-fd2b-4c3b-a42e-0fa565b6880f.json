@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "8fdda144-fd2b-4c3b-a42e-0fa565b6880f",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "804e66c0-7153-402c-a057-906300b1e02c",
+        "name": "Allcare TEST"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Allcare TEST",
+    "managingOrganization": {
+      "reference": "#804e66c0-7153-402c-a057-906300b1e02c"
+    },
+    "period": {
+      "start": "2025-03-09T09:26:06+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10359843T"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10359843T"
+}

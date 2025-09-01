@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "314c6668-101e-5659-a5f4-1a663fcd870d",
+    "name": "Village Pediatric Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/97986b7c-45b2-5ab2-8626-3fe33b649b37"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861626210"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "115 Main Street",
+          "Suite 301"
+        ],
+        "city": "TUCKAHOE",
+        "state": "NY",
+        "postalCode": "10707-2939"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32321"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32321.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:314c6668-101e-5659-a5f4-1a663fcd870d"
+}

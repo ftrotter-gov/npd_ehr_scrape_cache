@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c88da93-8925-5ec7-893b-82bbbccbcee3",
+    "name": "Hardin Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b437aa47-8427-5856-919f-bae17855e95f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235596180"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447269709"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "511 UNION ST STE 1800"
+        ],
+        "city": "NASHVILLE",
+        "state": "TN",
+        "postalCode": "37219-2509"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20919"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20919.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c88da93-8925-5ec7-893b-82bbbccbcee3"
+}

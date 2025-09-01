@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "af16253c-fc84-56cb-abc4-5466cc728def",
+    "name": "University Orthopedics Westerly Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d27593a4-0700-5ac2-a3ce-e56d33619eab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487761177"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235181041"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11 Wells Street",
+          "Suite 1"
+        ],
+        "city": "WESTERLY",
+        "state": "RI",
+        "postalCode": "02891-2998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13709"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13709.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:af16253c-fc84-56cb-abc4-5466cc728def"
+}

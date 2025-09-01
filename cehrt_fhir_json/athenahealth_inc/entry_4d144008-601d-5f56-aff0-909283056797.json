@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d144008-601d-5f56-aff0-909283056797",
+    "name": "My Eyes MD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fb52457e-b87e-551d-855e-5b8a02af74b4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366920787"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "902 FROSTWOOD DRIVE STE 284"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77024-7407"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22463"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22463.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d144008-601d-5f56-aff0-909283056797"
+}

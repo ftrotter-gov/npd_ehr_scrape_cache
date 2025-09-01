@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9a4ab0d8-0377-5622-a202-f674da0412ba",
+    "name": "Discover Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7b77ed36-a6e9-5234-a5b6-dd357576656e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477000602"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "135 S Power Rd",
+          "Suite 110"
+        ],
+        "city": "MESA",
+        "state": "AZ",
+        "postalCode": "85206-5245"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30133"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30133.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9a4ab0d8-0377-5622-a202-f674da0412ba"
+}

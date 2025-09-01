@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bb30ccce-8284-5cd4-a22e-ab9b519ea7a5",
+    "name": "Binz Surgery Center, LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/46f9ab1a-ea07-5b0b-ad00-189f4f286d81"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508223041"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1801 BINZ ST",
+          "SUITE 200"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77004-7296"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15216"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15216.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bb30ccce-8284-5cd4-a22e-ab9b519ea7a5"
+}

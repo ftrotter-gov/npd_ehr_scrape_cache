@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0cfa4ab-c192-5e19-b59f-51769365f3e8",
+    "name": "Wright Medical Service",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92f0b21b-827f-5888-913b-1b4d9a37f121"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992857106"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "810 EAST SUNFLOWER ROAD, SUITE 100A"
+        ],
+        "city": "CLEVELAND",
+        "state": "MS",
+        "postalCode": "38732-2828"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10526"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10526.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0cfa4ab-c192-5e19-b59f-51769365f3e8"
+}

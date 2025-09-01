@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a1f3e495-8340-55e8-9353-611b01b8d993",
+    "name": "SAN RAMON REGIONAL MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/828bcb3a-6a4a-55b3-8d99-e98828e2d2dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629132857"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11030 BOLLINGER CANYON ROAD",
+          "SUITE 250"
+        ],
+        "city": "SAN RAMON",
+        "state": "CA",
+        "postalCode": "94582-4874"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7871"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7871.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a1f3e495-8340-55e8-9353-611b01b8d993"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bbabca9c-a3a8-5d5f-b3d0-9e513e992a93",
+    "name": "The Campbell Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d1e0f2d9-6fd8-5cc7-9cb2-8529811d0ade"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487320917"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 7TH ST SE"
+        ],
+        "city": "DECATUR",
+        "state": "AL",
+        "postalCode": "35601-3337"
+      },
+      {
+        "line": [
+          "2828 HWY 31 S STE 107"
+        ],
+        "city": "DECATUR",
+        "state": "AL",
+        "postalCode": "35603-1538"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28888"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28888.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bbabca9c-a3a8-5d5f-b3d0-9e513e992a93"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e6ba8e82-bef1-5661-b131-463b473c8dec",
+    "name": "Urgent Care+TeleHealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c98bf4b8-2847-5990-86b8-538fd505e63a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568082774"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1387 EAST 2ND STREET"
+        ],
+        "city": "BENICIA",
+        "state": "CA",
+        "postalCode": "94510-2836"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21754"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21754.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e6ba8e82-bef1-5661-b131-463b473c8dec"
+}

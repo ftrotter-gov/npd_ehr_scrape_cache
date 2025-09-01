@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "41d33953-1522-5e7d-ac76-734571f280d8",
+    "name": "Forsyth Medical Center-Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1665fc6f-7318-53ec-b254-d13dd961eede"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013002138"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811090475"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3333 Silas Creek Parkway"
+        ],
+        "city": "WINSTON SALEM",
+        "state": "NC",
+        "postalCode": "27103-3013"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-952"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-952.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:41d33953-1522-5e7d-ac76-734571f280d8"
+}

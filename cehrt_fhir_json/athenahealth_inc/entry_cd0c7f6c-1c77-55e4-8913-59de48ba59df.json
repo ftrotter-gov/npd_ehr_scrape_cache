@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cd0c7f6c-1c77-55e4-8913-59de48ba59df",
+    "name": "NORTHSIDE HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/62d40ba7-a287-5f9f-b0b2-488acb84aa6a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427395334"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467468124"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6000 49TH STREET NORTH"
+        ],
+        "city": "SAINT PETERSBURG",
+        "state": "FL",
+        "postalCode": "33709-2114"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-968"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-968.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cd0c7f6c-1c77-55e4-8913-59de48ba59df"
+}

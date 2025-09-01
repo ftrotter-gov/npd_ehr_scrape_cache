@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3a513a42-8935-5018-89cf-ea6190f56042",
+    "name": "WBNA Lab",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ccaa7c56-620e-50d3-b3ad-87f905f112c5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336117829"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2149 East Warner Road",
+          "Suite 101"
+        ],
+        "city": "TEMPE",
+        "state": "AZ",
+        "postalCode": "85284-3495"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17475"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17475.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3a513a42-8935-5018-89cf-ea6190f56042"
+}

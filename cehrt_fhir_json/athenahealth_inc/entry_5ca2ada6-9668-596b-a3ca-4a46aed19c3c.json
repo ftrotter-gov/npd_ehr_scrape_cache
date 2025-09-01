@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5ca2ada6-9668-596b-a3ca-4a46aed19c3c",
+    "name": "CCOM Medical Group-Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a1d09baf-d80e-5ea5-953b-a3832068594e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053380287"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "350 S 40th Street"
+        ],
+        "city": "MUSKOGEE",
+        "state": "OK",
+        "postalCode": "74401-4915"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3442"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3442.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5ca2ada6-9668-596b-a3ca-4a46aed19c3c"
+}

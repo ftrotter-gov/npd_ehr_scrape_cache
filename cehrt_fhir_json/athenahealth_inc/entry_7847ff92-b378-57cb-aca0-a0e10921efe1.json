@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7847ff92-b378-57cb-aca0-a0e10921efe1",
+    "name": "Northside Hosp OP Infusion",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/28df7a8d-cbd8-51f0-8576-029251fa187b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700809159"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 Johnson Ferry Road"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30342-1709"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-186"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-186.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7847ff92-b378-57cb-aca0-a0e10921efe1"
+}

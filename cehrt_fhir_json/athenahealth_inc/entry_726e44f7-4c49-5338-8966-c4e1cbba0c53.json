@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "726e44f7-4c49-5338-8966-c4e1cbba0c53",
+    "name": "Metropolitan Methodist Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d9bff298-fd46-56cb-b700-19b26b9357a5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174772461"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1310 Mcullough Ave"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78212-5601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1813"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1813.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:726e44f7-4c49-5338-8966-c4e1cbba0c53"
+}

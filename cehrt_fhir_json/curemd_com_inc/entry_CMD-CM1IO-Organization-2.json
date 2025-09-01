@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1IO-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1IO"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Valley Cancer Medical Center",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2098231609"
+      },
+      {
+        "system": "fax",
+        "value": "2098231655"
+      }
+    ],
+    "address": [
+      {
+        "text": "1138 Norman Drive Manteca CA 95336 US",
+        "line": [
+          "1138 Norman Drive"
+        ],
+        "city": "Manteca",
+        "state": "CA",
+        "postalCode": "95336",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1IO-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1IO-Organization-2"
+}

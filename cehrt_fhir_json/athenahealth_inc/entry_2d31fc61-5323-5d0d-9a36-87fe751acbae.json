@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2d31fc61-5323-5d0d-9a36-87fe751acbae",
+    "name": "Phoenixville Clinic Company",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8ba54e13-12c2-57b4-aa79-88b2fa83d7d3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801146691"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "130 S Bryn Mawr Ave"
+        ],
+        "city": "BRYN MAWR",
+        "state": "PA",
+        "postalCode": "19010-3121"
+      },
+      {
+        "line": [
+          "254 W. Lancaster Ave."
+        ],
+        "city": "PAOLI",
+        "state": "PA",
+        "postalCode": "19301-1763"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1606"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1606.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2d31fc61-5323-5d0d-9a36-87fe751acbae"
+}

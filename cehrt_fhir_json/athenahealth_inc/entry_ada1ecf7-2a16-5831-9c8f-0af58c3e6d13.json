@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ada1ecf7-2a16-5831-9c8f-0af58c3e6d13",
+    "name": "Mission Arlington Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7e8c5d7a-ce35-5338-9bf2-6059a5b8989c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "210 W. SOUTH"
+        ],
+        "city": "ARLINGTON",
+        "state": "TX",
+        "postalCode": "76010-7134"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19934"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19934.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ada1ecf7-2a16-5831-9c8f-0af58c3e6d13"
+}

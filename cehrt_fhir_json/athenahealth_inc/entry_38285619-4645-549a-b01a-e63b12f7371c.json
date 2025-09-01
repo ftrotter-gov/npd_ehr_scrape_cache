@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "38285619-4645-549a-b01a-e63b12f7371c",
+    "name": "Triple C Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2255aacb-df5f-5ab9-8bef-70634d83cdb0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508450099"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 S Main St",
+          "ste 302"
+        ],
+        "city": "MINOT",
+        "state": "ND",
+        "postalCode": "58701-6109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23414"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23414.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:38285619-4645-549a-b01a-e63b12f7371c"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4a28fe77-d13b-5fcd-a246-72d3f246b3bf",
+    "name": "Life Bridge Counseling",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1196567d-c31e-5e59-ad9d-52474630d401"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1540 NE Stadium Way"
+        ],
+        "city": "PULLMAN",
+        "state": "WA",
+        "postalCode": "99163-1540"
+      },
+      {
+        "line": [
+          "1515 WEST A STREET"
+        ],
+        "city": "MOSCOW",
+        "state": "ID",
+        "postalCode": "83843-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20010"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20010.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4a28fe77-d13b-5fcd-a246-72d3f246b3bf"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0a48df01-c89b-55d8-845d-e8d580bf3dea",
+    "name": "Charlton Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/198982a8-027f-52ee-8fac-bd1a978f239e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104874874"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336137629"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "363 Highland Avenue"
+        ],
+        "city": "FALL RIVER",
+        "state": "MA",
+        "postalCode": "02720-3703"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-788"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-788.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0a48df01-c89b-55d8-845d-e8d580bf3dea"
+}

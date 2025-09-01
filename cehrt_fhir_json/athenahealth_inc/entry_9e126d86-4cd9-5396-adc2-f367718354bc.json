@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9e126d86-4cd9-5396-adc2-f367718354bc",
+    "name": "Waynesville Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d40993dc-0ce3-59ac-b3e8-af802c308062"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972533149"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760658371"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4353 E State Route 73"
+        ],
+        "city": "WAYNESVILLE",
+        "state": "OH",
+        "postalCode": "45068-8814"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-237"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-237.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9e126d86-4cd9-5396-adc2-f367718354bc"
+}

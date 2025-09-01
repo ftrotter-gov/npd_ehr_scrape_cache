@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4608a4db-e9f7-57c9-85c5-6237b2774dee",
+    "name": "Oaklawn Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/219c4384-2373-5237-97f0-fa99b529e259"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760698971"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 N. Madison"
+        ],
+        "city": "MARSHALL",
+        "state": "MI",
+        "postalCode": "49068-1497"
+      },
+      {
+        "line": [
+          "200 N Madison St"
+        ],
+        "city": "MARSHALL",
+        "state": "MI",
+        "postalCode": "49068-1497"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11831"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11831.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4608a4db-e9f7-57c9-85c5-6237b2774dee"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f3cb065c-61b5-5522-8f29-22ecef7bfe66",
+    "name": "St. Francis Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d8deac3-935e-5cdb-9f39-7dbd4c8fe3e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225237274"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13710 St Francis Blvd"
+        ],
+        "city": "MIDLOTHIAN",
+        "state": "VA",
+        "postalCode": "23114-3267"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1316"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1316.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f3cb065c-61b5-5522-8f29-22ecef7bfe66"
+}

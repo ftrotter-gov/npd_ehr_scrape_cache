@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "44db926d-4692-5202-ab97-ea6cbd50d1d8",
+    "meta": {
+      "lastUpdated": "2022-04-26T22:51:28.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://goshenhealth.com/locations/goshen-hospital"
+      }
+    ],
+    "name": "Goshen Health",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://goshenhealth.com/locations/goshen-hospital"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 High Park Avenue"
+        ],
+        "city": "Goshen",
+        "state": "IN",
+        "postalCode": "46526",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:2ca81be4-f662-524a-9ac0-d9dfb34ab8b1"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:2ca81be4-f662-524a-9ac0-d9dfb34ab8b1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:44db926d-4692-5202-ab97-ea6cbd50d1d8"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "76a65efc-7bbd-56a9-84f7-998783e80877",
+    "name": "Medical Circle of America Anesthesiology Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cd2ae382-a772-53e2-b412-48819f2e88cb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871036020"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Berkshire Square",
+          "Suite 110"
+        ],
+        "city": "ADAMS",
+        "state": "MA",
+        "postalCode": "01220-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23183"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23183.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:76a65efc-7bbd-56a9-84f7-998783e80877"
+}

@@ -1,0 +1,66 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0HF-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0HF"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pearl Health Clinic",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2083467500"
+      },
+      {
+        "system": "fax",
+        "value": "2083467501"
+      },
+      {
+        "system": "email",
+        "value": "info@pearlhealth.org"
+      },
+      {
+        "system": "url",
+        "value": "www.pearlhealth.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "2705 E. 17th St Ammon ID 834066601 US",
+        "line": [
+          "2705 E. 17th St"
+        ],
+        "city": "Ammon",
+        "state": "ID",
+        "postalCode": "834066601",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0HF-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0HF-Organization-2"
+}

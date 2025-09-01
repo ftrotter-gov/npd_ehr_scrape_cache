@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ce14c82a-2a83-5b1f-b56f-e0786eadc6c4",
+    "name": "Malden Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/46f01e37-ea5b-5f0d-9938-1dfe12930272"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932313228"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "195 CANAL STREET"
+        ],
+        "city": "MALDEN",
+        "state": "MA",
+        "postalCode": "02148-6701"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-664"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-664.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ce14c82a-2a83-5b1f-b56f-e0786eadc6c4"
+}

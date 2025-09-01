@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b05ce9dd-fa59-5a54-b225-3be8ca6cd5db",
+    "name": "HOSPITAL 3 - IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1714e18-41d9-554b-9b1a-b06b933c5ba1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013574102"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8111 TOWNSHIP LINE RD"
+        ],
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "postalCode": "46260-2479"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19786"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19786.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b05ce9dd-fa59-5a54-b225-3be8ca6cd5db"
+}

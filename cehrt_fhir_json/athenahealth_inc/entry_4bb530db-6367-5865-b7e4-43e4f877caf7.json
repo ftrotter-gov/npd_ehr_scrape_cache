@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4bb530db-6367-5865-b7e4-43e4f877caf7",
+    "name": "Lorenz Clinic - Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7f323119-11ef-565b-9ae2-f10777af0cfd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982900510"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1772 Stieger Lake Lane",
+          "Suite 220"
+        ],
+        "city": "VICTORIA",
+        "state": "MN",
+        "postalCode": "55386-7723"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16506"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16506.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4bb530db-6367-5865-b7e4-43e4f877caf7"
+}

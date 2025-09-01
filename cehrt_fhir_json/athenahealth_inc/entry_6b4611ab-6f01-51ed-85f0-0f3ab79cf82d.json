@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b4611ab-6f01-51ed-85f0-0f3ab79cf82d",
+    "name": "Primary Care Partners of South Bend",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff0e59d8-4c7d-5055-b3cd-7632f70ab19a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497399927"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 SOUTH ST. LOUIS BLVD",
+          "SUITE 204"
+        ],
+        "city": "SOUTH BEND",
+        "state": "IN",
+        "postalCode": "46617-3044"
+      },
+      {
+        "line": [
+          "615 N MICHIGAN STREET"
+        ],
+        "city": "SOUTH BEND",
+        "state": "IN",
+        "postalCode": "46601-1033"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20750"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20750.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b4611ab-6f01-51ed-85f0-0f3ab79cf82d"
+}

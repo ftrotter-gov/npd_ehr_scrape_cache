@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "282f9fb6-2bcb-5bf2-962a-c89dd3f18397",
+    "name": "MAIN OFFICE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4a54f753-1621-565b-b2b7-32abb5ed28d2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861416190"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1919 S WHEELING AVE",
+          "STE 108"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74104-5637"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13720"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13720.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:282f9fb6-2bcb-5bf2-962a-c89dd3f18397"
+}

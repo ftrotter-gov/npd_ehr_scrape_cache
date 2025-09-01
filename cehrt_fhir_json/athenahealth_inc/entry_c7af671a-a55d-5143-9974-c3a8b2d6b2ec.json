@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c7af671a-a55d-5143-9974-c3a8b2d6b2ec",
+    "name": "Dr. Aziz Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/38bde160-2fd4-5e56-abe6-0da7e2f36e9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821305012"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7320 E 82ND ST"
+        ],
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "postalCode": "46256-1424"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22429"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22429.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c7af671a-a55d-5143-9974-c3a8b2d6b2ec"
+}

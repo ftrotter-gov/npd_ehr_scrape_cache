@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "09f1bb27-4201-5646-abe8-a188fbd96515",
+    "name": "BORLAND FREE CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ab520af-676d-586c-b68d-18da5857398a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "Borland Free Clinic",
+          "3550 SW Borland Rd"
+        ],
+        "city": "TUALATIN",
+        "state": "OR",
+        "postalCode": "97062-6772"
+      },
+      {
+        "line": [
+          "3550 SW BORLAND RD"
+        ],
+        "city": "TUALATIN",
+        "state": "OR",
+        "postalCode": "97062-6772"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17650"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17650.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:09f1bb27-4201-5646-abe8-a188fbd96515"
+}

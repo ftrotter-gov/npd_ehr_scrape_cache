@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7db73d02-03a5-52be-837d-29044dc37654",
+    "name": "Inpatient - NICU ASMCA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/693bd2ae-fd4a-5723-b0fc-384d779d465e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609275858"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 W 38TH ST"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78705-1006"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26674"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26674.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7db73d02-03a5-52be-837d-29044dc37654"
+}

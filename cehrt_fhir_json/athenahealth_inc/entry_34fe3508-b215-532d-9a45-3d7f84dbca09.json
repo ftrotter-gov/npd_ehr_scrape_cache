@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "34fe3508-b215-532d-9a45-3d7f84dbca09",
+    "name": "Vital Clinic and Spa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8c048202-5d95-58e5-8cec-f78fafb9cbca"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871806547"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11590 BARKER CYPRESS RD"
+        ],
+        "city": "CYPRESS",
+        "state": "TX",
+        "postalCode": "77433-1216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33153"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33153.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:34fe3508-b215-532d-9a45-3d7f84dbca09"
+}

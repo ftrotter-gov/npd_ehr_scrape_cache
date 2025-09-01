@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aec9f3f7-93eb-55e0-875c-752e4a3ec20e",
+    "name": "AZH Wound Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6bc60d4d-ac88-57be-8a1c-906b3e05faac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780032219"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 W LAYTON AVE STE 30"
+        ],
+        "city": "MILWAUKEE",
+        "state": "WI",
+        "postalCode": "53221-5420"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25552"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25552.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aec9f3f7-93eb-55e0-875c-752e4a3ec20e"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7a43d14-71a2-5b56-a396-9d1e7507f93e",
+    "name": "New York Phone Call",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e618268f-590b-51c2-97db-a46a765a91c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245915172"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "633 Third Avenue",
+          "#9B"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-0091"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29754"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29754.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7a43d14-71a2-5b56-a396-9d1e7507f93e"
+}

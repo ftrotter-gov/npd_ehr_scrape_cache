@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aa05a2af-d5fe-5852-91d4-ba554136ed8b",
+    "name": "Dr. Soroka's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/24612b6b-0225-5bf6-b217-6e5010aa0e3f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184819302"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3 Concorde Way Suite 103"
+        ],
+        "city": "Windsor Locks",
+        "state": "CT",
+        "postalCode": "06096-1578"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31712"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31712.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aa05a2af-d5fe-5852-91d4-ba554136ed8b"
+}

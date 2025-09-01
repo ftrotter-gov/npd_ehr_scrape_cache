@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "c61e911c-9337-443b-a1a1-bcb84b62820f",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "be32270e-8143-4a9f-ab10-d00d7bc8de50",
+        "name": "G and G Healthcare"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "G and G Healthcare",
+    "managingOrganization": {
+      "reference": "#be32270e-8143-4a9f-ab10-d00d7bc8de50"
+    },
+    "period": {
+      "start": "2018-06-26T15:25:21+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77192"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77192"
+}

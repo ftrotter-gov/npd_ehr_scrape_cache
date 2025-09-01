@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d70b0c2-e8f6-5542-bc0f-f2a82f26c3f2",
+    "name": "Saratoga Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/938b7672-a303-5800-8679-dafdfb2300b8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487758074"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12945 Saratoga Avenue"
+        ],
+        "city": "SARATOGA",
+        "state": "CA",
+        "postalCode": "95070-4131"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6563"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6563.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d70b0c2-e8f6-5542-bc0f-f2a82f26c3f2"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "708d3f1d-c2fb-5913-97fb-04b8824b8e46",
+    "name": "Abundant Healthcare Clinic of Nashville",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/368ae256-04dd-56d6-be61-a710241f5338"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982180113"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6050 Dana Way",
+          "Suite 200"
+        ],
+        "city": "ANTIOCH",
+        "state": "TN",
+        "postalCode": "37013-3224"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23463"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23463.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:708d3f1d-c2fb-5913-97fb-04b8824b8e46"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "be7d8733-a9ac-5c74-afac-e1da6619f59c",
+    "name": "SC Sports Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b17309c4-e36e-5981-a9bf-3712d7c27f76"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922111715"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9100 Medcom Street"
+        ],
+        "city": "North Charleston",
+        "state": "SC",
+        "postalCode": "29406-9167"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1516"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1516.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:be7d8733-a9ac-5c74-afac-e1da6619f59c"
+}

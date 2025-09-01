@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5f38ea66-8cd8-51b6-9369-a55831283d26",
+    "name": "AO Smith Health and Wellness Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26fd2add-3bd2-506b-bed1-392394be4e50"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689931446"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 Tennessee Waltz Parkway"
+        ],
+        "city": "ASHLAND CITY",
+        "state": "TN",
+        "postalCode": "37015-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3908"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3908.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5f38ea66-8cd8-51b6-9369-a55831283d26"
+}

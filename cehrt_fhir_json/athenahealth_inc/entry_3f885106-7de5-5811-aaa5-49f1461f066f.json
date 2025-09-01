@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f885106-7de5-5811-aaa5-49f1461f066f",
+    "name": "TMHS Radiation Oncology Inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bc4e3ae3-4700-5b63-8c84-9ebd8af44e15"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548387418"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6565 FANNIN"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77030-2703"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4433"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4433.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f885106-7de5-5811-aaa5-49f1461f066f"
+}

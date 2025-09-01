@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1901ab7b-64a6-54f6-bac7-a1db28ee2e96",
+    "name": "Norwood",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/862bd897-b8f5-5615-971b-a10aa25c16a0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457302002"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 MORSE STREET",
+          "2ND FLOOR"
+        ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "02062-4679"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8485"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8485.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1901ab7b-64a6-54f6-bac7-a1db28ee2e96"
+}

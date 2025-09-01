@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "74ed5c4f-78c5-535f-925b-f65f05d6d432",
+    "name": "Occupy Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9816c6d2-a4e5-5a75-8056-aeadad419c26"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1717 CENTENNIAL BLVD"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "OR",
+        "postalCode": "97477-3378"
+      },
+      {
+        "line": [
+          "100 River Ave"
+        ],
+        "city": "EUGENE",
+        "state": "OR",
+        "postalCode": "97404-2507"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19242"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19242.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:74ed5c4f-78c5-535f-925b-f65f05d6d432"
+}

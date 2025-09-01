@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ece367a-3ce8-5b97-9786-1509fbed0c19",
+    "name": "AB Pediatric Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/98d47d81-6100-5303-a0e1-7ac039446b42"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447789250"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1400 N EL PASO ST"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79902-3438"
+      },
+      {
+        "line": [
+          "12001 TIERRA ESTE RD",
+          "SUITE B"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79938-4573"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24875"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24875.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ece367a-3ce8-5b97-9786-1509fbed0c19"
+}

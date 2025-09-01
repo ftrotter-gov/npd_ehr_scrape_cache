@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9846a48-3aa4-5e2a-b519-bef1e47c1658",
+    "name": "Orange Park Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c38f0217-b185-5e2f-8222-a513d13f400e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225401946"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2001 Kingsley Ave"
+        ],
+        "city": "ORANGE PARK",
+        "state": "FL",
+        "postalCode": "32073-5148"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-321"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-321.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9846a48-3aa4-5e2a-b519-bef1e47c1658"
+}

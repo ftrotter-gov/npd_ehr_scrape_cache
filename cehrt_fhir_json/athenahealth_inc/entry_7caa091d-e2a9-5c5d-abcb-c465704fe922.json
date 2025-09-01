@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7caa091d-e2a9-5c5d-abcb-c465704fe922",
+    "name": "Care Connection",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a8b372b9-b3eb-533a-bc82-a45ad10c9255"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760609556"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "865 Stone street",
+          "4East"
+        ],
+        "city": "RAHWAY",
+        "state": "NJ",
+        "postalCode": "07065-2742"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11169"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11169.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7caa091d-e2a9-5c5d-abcb-c465704fe922"
+}

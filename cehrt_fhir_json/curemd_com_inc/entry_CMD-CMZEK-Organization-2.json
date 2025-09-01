@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMZEK-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMZEK"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Mark W. Oakes, D.C.",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8147243239"
+      },
+      {
+        "system": "fax",
+        "value": "8147241110"
+      },
+      {
+        "system": "email",
+        "value": "drmoakes@yahoo.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "797 Park Ave Meadville PA 16335 US",
+        "line": [
+          "797 Park Ave"
+        ],
+        "city": "Meadville",
+        "state": "PA",
+        "postalCode": "16335",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMZEK-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMZEK-Organization-2"
+}

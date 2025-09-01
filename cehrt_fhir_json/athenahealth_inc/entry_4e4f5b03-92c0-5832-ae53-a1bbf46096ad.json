@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4e4f5b03-92c0-5832-ae53-a1bbf46096ad",
+    "name": "Home Team Medical Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43c9c6d3-23a3-51ce-bfba-22910010d318"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326813320"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2100 SOUTHBRIDGE PKWY STE 650"
+        ],
+        "city": "BIRMINGHAM",
+        "state": "AL",
+        "postalCode": "35209-1317"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30418"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30418.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4e4f5b03-92c0-5832-ae53-a1bbf46096ad"
+}

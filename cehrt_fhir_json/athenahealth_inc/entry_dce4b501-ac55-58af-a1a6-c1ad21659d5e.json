@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dce4b501-ac55-58af-a1a6-c1ad21659d5e",
+    "name": "Elkhart Clinic - Diagnostic Radiology - 303 S Nappanee St",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c894b289-d94c-56d6-b834-891f238e6a7e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013912286"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "303 S Nappanee St"
+        ],
+        "city": "ELKHART",
+        "state": "IN",
+        "postalCode": "46514-2066"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31626"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31626.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dce4b501-ac55-58af-a1a6-c1ad21659d5e"
+}

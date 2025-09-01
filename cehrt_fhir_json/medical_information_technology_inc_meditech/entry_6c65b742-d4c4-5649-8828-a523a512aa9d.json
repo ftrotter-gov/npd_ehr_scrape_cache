@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6c65b742-d4c4-5649-8828-a523a512aa9d",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://adirondackhealth.org/adirondack-medical-center-saranac-lake"
+      }
+    ],
+    "name": "Adirondack Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://adirondackhealth.org/adirondack-medical-center-saranac-lake"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2233 State Route 86"
+        ],
+        "city": "Saranac Lake",
+        "state": "NY",
+        "postalCode": "12983",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:0d77a229-a4cb-42ae-bba6-be910cb7e59a"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0d77a229-a4cb-42ae-bba6-be910cb7e59a"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6c65b742-d4c4-5649-8828-a523a512aa9d"
+}

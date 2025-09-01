@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "364e508b-7cc7-5436-b89c-3490063170e3",
+    "name": "MONTICELLO POWER PLANT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/624de58e-fc1e-5dea-b468-7ad2743339fe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093829509"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 N ALAMO BLVD"
+        ],
+        "city": "MARSHALL",
+        "state": "TX",
+        "postalCode": "75670-3451"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16223"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16223.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:364e508b-7cc7-5436-b89c-3490063170e3"
+}

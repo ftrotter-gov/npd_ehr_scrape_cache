@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eddc29bc-e6c4-5421-932c-6fecfaa97971",
+    "meta": {
+      "lastUpdated": "2022-03-31T22:51:18.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://ovsurgical.com/our-locations/ohio-valley-surgical-hospital"
+      }
+    ],
+    "name": "Ohio Valley Surgical Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://ovsurgical.com/our-locations/ohio-valley-surgical-hospital"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 West Main Street"
+        ],
+        "city": "Springfield",
+        "state": "OH",
+        "postalCode": "45502",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:d3b3341c-f7e8-582a-940b-df6c0d263ce6"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:d3b3341c-f7e8-582a-940b-df6c0d263ce6"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eddc29bc-e6c4-5421-932c-6fecfaa97971"
+}

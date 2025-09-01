@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d27fd709-9a13-5f14-b231-7602cd80f701",
+    "name": "Graham County Hospital Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/85de88af-2ec0-537e-b463-20343bf7800d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669519658"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629165998"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "207 W Prout Street"
+        ],
+        "city": "HILL CITY",
+        "state": "KS",
+        "postalCode": "67642-1722"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16187"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16187.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d27fd709-9a13-5f14-b231-7602cd80f701"
+}

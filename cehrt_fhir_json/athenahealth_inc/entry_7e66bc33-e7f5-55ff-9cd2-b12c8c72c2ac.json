@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7e66bc33-e7f5-55ff-9cd2-b12c8c72c2ac",
+    "name": "INDYTELEMEDICINE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f4b085d1-02c1-5fff-8936-01cc9438ed44"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5534 SAINT JOE RD"
+        ],
+        "city": "FORT WAYNE",
+        "state": "IN",
+        "postalCode": "46835-3328"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27202"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27202.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7e66bc33-e7f5-55ff-9cd2-b12c8c72c2ac"
+}

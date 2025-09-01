@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7040d602-b5c3-528c-808b-e5708579fb15",
+    "name": "Haven OBGYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5a349914-4209-5276-b420-70affad6a3e6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386823243"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578812012"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5481 W WATERS AVENUE",
+          "SUITE 111"
+        ],
+        "city": "TAMPA",
+        "state": "FL",
+        "postalCode": "33634-1205"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5518"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5518.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7040d602-b5c3-528c-808b-e5708579fb15"
+}

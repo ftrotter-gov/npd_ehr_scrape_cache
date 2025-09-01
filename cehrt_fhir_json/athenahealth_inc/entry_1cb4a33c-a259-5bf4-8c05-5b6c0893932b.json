@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1cb4a33c-a259-5bf4-8c05-5b6c0893932b",
+    "name": "360 Chronic Care Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dd780d08-c411-55cb-b4de-4a574a8fede3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962260232"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3643 WALTON WAY EXT BLDG 4 STE A2"
+        ],
+        "city": "AUGUSTA",
+        "state": "GA",
+        "postalCode": "30909-6677"
+      },
+      {
+        "line": [
+          "35 VARDEN DR A-1"
+        ],
+        "city": "AIKEN",
+        "state": "SC",
+        "postalCode": "29803-5275"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32735"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32735.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1cb4a33c-a259-5bf4-8c05-5b6c0893932b"
+}

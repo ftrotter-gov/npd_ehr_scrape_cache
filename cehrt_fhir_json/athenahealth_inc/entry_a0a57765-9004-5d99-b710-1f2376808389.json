@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a0a57765-9004-5d99-b710-1f2376808389",
+    "name": "Pines Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3cb633e8-42c8-5cdb-9105-436f48bd6ed3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689731432"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 NE 141st Street"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33161-2837"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12582"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12582.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a0a57765-9004-5d99-b710-1f2376808389"
+}

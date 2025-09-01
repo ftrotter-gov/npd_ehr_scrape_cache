@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ace9a754-1c9e-560e-988d-b15b35d07e31",
+    "name": "Health 210 - 5250 Rogers Road",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578969465"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5250 Rogers Road",
+          "Building 2"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78251-3769"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ace9a754-1c9e-560e-988d-b15b35d07e31"
+}

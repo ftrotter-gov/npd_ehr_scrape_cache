@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12cf9699-5bcc-5e8b-ad3f-25e55bcc23bd",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d9c4ce05-e0a4-5e1c-b1d9-d338ff673bfc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689863904"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1404 EASTLAND DRIVE SUITE 204"
+        ],
+        "city": "BLOOMINGTON",
+        "state": "IL",
+        "postalCode": "61701-7904"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8175"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8175.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12cf9699-5bcc-5e8b-ad3f-25e55bcc23bd"
+}

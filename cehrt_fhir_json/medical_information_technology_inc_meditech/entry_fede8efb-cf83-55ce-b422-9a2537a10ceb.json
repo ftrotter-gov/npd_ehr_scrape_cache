@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fede8efb-cf83-55ce-b422-9a2537a10ceb",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://redlandshospital.org"
+      }
+    ],
+    "name": "Redlands Community Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://redlandshospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "350 Terracina Boulevard"
+        ],
+        "city": "Redlands",
+        "state": "CA",
+        "postalCode": "92373",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:e93e68d9-7f1a-4763-b06c-77060ccfb0df"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:e93e68d9-7f1a-4763-b06c-77060ccfb0df"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fede8efb-cf83-55ce-b422-9a2537a10ceb"
+}

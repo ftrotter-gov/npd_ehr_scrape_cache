@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "44c37757-0ccc-4eda-b00a-3d9c7fcef381",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "cc3fb1c2-5918-4c4d-97eb-616e50bf2ac8",
+        "name": "Midwest Nephrology Consultants"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Midwest Nephrology Consultants",
+    "managingOrganization": {
+      "reference": "#cc3fb1c2-5918-4c4d-97eb-616e50bf2ac8"
+    },
+    "period": {
+      "start": "2019-04-25T15:33:23+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10027823"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10027823"
+}

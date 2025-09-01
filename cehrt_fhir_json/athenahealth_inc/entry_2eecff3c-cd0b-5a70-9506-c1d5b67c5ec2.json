@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2eecff3c-cd0b-5a70-9506-c1d5b67c5ec2",
+    "name": "PATIENT HOME",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fcb1eadb-ef37-5420-9c93-092803a82103"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740394949"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "750 ROUTE 73 S STE 108"
+        ],
+        "city": "MARLTON",
+        "state": "NJ",
+        "postalCode": "08053-4142"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12857"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12857.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2eecff3c-cd0b-5a70-9506-c1d5b67c5ec2"
+}

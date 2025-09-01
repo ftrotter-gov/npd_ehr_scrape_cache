@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e826745e-70dc-5ec1-890a-e8aca73d311f",
+    "name": "Paloma Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2e4ad7dc-0744-5f08-854b-96c14f91ec56"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356933204"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2200 N AW GRIMES BLVD, UNIT 210"
+        ],
+        "city": "ROUND ROCK",
+        "state": "TX",
+        "postalCode": "78665-2424"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27825"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27825.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e826745e-70dc-5ec1-890a-e8aca73d311f"
+}

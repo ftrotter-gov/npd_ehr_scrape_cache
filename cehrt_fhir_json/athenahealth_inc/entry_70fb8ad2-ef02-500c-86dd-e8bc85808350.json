@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "70fb8ad2-ef02-500c-86dd-e8bc85808350",
+    "name": "Health First Medical Group - 1223 Gateway Drive - STE 2A",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750626495"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1223 Gateway Dr",
+          "Ste 2A"
+        ],
+        "city": "MELBOURNE",
+        "state": "FL",
+        "postalCode": "32901-2607"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:70fb8ad2-ef02-500c-86dd-e8bc85808350"
+}

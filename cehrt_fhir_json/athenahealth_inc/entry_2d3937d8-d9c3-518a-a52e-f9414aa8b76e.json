@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2d3937d8-d9c3-518a-a52e-f9414aa8b76e",
+    "name": "Dr. Clemmons",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dc8f0f5b-667f-5567-b601-65f684db1ebd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578862959"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1300 BINZ"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77004-7016"
+      },
+      {
+        "line": [
+          "1213 HERMANN DR, SUITE 220"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77004-7009"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23633"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23633.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2d3937d8-d9c3-518a-a52e-f9414aa8b76e"
+}

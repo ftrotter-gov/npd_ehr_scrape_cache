@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e5d9bb3-3302-548e-b880-a77e723b8338",
+    "name": "Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/55409f96-2679-5385-9cca-16ab2f9db22c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073829404"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "114 HARMONY CROSSING STE 1"
+        ],
+        "city": "EATONTON",
+        "state": "GA",
+        "postalCode": "31024-9546"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14142"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14142.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e5d9bb3-3302-548e-b880-a77e723b8338"
+}

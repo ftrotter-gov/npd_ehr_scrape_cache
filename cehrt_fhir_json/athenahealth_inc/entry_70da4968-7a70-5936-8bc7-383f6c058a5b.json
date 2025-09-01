@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "70da4968-7a70-5936-8bc7-383f6c058a5b",
+    "name": "Presby of Dallas",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b2c87372-1784-5be2-8956-ed46190c73b1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306890736"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8200 Walnut Hill Lane"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75231-4426"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11319"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11319.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:70da4968-7a70-5936-8bc7-383f6c058a5b"
+}

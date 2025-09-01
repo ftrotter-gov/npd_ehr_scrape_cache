@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9cd405bc-f571-5a8d-ae55-c03a397202d8",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://elch.org"
+      }
+    ],
+    "name": "East Liverpool City Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://elch.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "425 West Fifth Street"
+        ],
+        "city": "East Liverpool",
+        "state": "OH",
+        "postalCode": "43920",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:5d3cb9db-05ce-4434-a47a-f36e7695bf0e"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:d6a22ad1-7348-544c-a4f3-721fc48b292c"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:5d3cb9db-05ce-4434-a47a-f36e7695bf0e"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9cd405bc-f571-5a8d-ae55-c03a397202d8"
+}

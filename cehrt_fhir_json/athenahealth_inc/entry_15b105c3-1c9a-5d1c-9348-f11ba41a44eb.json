@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "15b105c3-1c9a-5d1c-9348-f11ba41a44eb",
+    "name": "Arizona Mobile NP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b11ad8d1-63a5-5a8f-b198-5a76f871558a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972381564"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "37107 N. YELLOWSTONE DR."
+        ],
+        "city": "SAN TAN VALLEY",
+        "state": "AZ",
+        "postalCode": "85140-5612"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27223"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27223.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:15b105c3-1c9a-5d1c-9348-f11ba41a44eb"
+}

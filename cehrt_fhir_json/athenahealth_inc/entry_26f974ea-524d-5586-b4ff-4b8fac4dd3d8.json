@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "26f974ea-524d-5586-b4ff-4b8fac4dd3d8",
+    "name": "BestPractices HealthCare Center Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b05732a0-73fa-5ddf-a487-6be168710686"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235747411"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851919476"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "715 North Park Drive"
+        ],
+        "city": "SELAH",
+        "state": "WA",
+        "postalCode": "98942-1174"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22275"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22275.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:26f974ea-524d-5586-b4ff-4b8fac4dd3d8"
+}

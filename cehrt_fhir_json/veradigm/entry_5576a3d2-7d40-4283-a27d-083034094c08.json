@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5576a3d2-7d40-4283-a27d-083034094c08",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "430ee2ac-0e3b-434a-af79-48360d63a5da",
+        "name": "Gastrointestinal Specialists, Inc."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Gastrointestinal Specialists, Inc.",
+    "managingOrganization": {
+      "reference": "#430ee2ac-0e3b-434a-af79-48360d63a5da"
+    },
+    "period": {
+      "start": "2019-09-28T11:28:54+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10033042"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10033042"
+}

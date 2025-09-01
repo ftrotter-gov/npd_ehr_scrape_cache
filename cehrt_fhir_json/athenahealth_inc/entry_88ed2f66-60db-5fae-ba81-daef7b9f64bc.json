@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "88ed2f66-60db-5fae-ba81-daef7b9f64bc",
+    "name": "Hickory Surgical Clinic, Inc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/702f8a32-f712-5b35-8104-2193296aef7d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780647073"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "415 N. CENTER ST. STE102"
+        ],
+        "city": "HICKORY",
+        "state": "NC",
+        "postalCode": "28601-5057"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4182"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4182.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:88ed2f66-60db-5fae-ba81-daef7b9f64bc"
+}

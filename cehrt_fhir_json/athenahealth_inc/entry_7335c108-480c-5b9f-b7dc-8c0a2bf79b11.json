@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7335c108-480c-5b9f-b7dc-8c0a2bf79b11",
+    "name": "Columbus Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/095d0dd9-99b8-5ada-8b9f-8a47f2359979"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043482094"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3772 43RD AVE"
+        ],
+        "city": "COLUMBUS",
+        "state": "NE",
+        "postalCode": "68601-1681"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8703"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8703.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7335c108-480c-5b9f-b7dc-8c0a2bf79b11"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ebc54b8a-b755-5e05-a9ea-573784a7caf4",
+    "name": "Malta Dental and Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f11f35cb-1821-575c-8fff-3be4f84d51bd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567891"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8642 WOODWARD AVE., DETROIT, MI 48202"
+        ],
+        "city": "DETROIT",
+        "state": "MI",
+        "postalCode": "48202-2142"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26200"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26200.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ebc54b8a-b755-5e05-a9ea-573784a7caf4"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ab9efa77-b9ed-5202-a998-474fbbf6cd55",
+    "name": "Anchor Healthcare - 901 Preston Avenue Ste 400",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013042480"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "901 Preston Avenue",
+          "Suite 400"
+        ],
+        "city": "CHARLOTTESVILLE",
+        "state": "VA",
+        "postalCode": "22903-4491"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ab9efa77-b9ed-5202-a998-474fbbf6cd55"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "77fbbef3-c5bf-5664-9da2-91e069143f08",
+    "name": "Methodist IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b078c04e-0ea4-597b-b9c7-59321f851a42"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427166305"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7700 Floyd Curl",
+          "5107 MEDICAL DR"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78229-4801"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18380"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18380.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:77fbbef3-c5bf-5664-9da2-91e069143f08"
+}

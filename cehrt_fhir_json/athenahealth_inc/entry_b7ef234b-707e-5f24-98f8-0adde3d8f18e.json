@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b7ef234b-707e-5f24-98f8-0adde3d8f18e",
+    "name": "BILLED NAME",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/97b135f5-f5af-5e6e-9d90-1c40a4865fc1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567899"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "2233445566"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "75 MOUNT AUBURN STREET"
+        ],
+        "city": "WATERTOWN",
+        "state": "MA",
+        "postalCode": "02472-3924"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3226"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3226.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b7ef234b-707e-5f24-98f8-0adde3d8f18e"
+}

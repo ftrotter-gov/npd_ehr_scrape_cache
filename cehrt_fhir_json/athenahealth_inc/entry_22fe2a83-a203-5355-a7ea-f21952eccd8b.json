@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22fe2a83-a203-5355-a7ea-f21952eccd8b",
+    "name": "DispatchHealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bb7e4696-b653-576e-b198-7a4dce07e630"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689269920"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7227 METCALF AVE STE 100"
+        ],
+        "city": "OVERLAND PARK",
+        "state": "KS",
+        "postalCode": "66204-1900"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13869"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13869.Brand-39"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22fe2a83-a203-5355-a7ea-f21952eccd8b"
+}

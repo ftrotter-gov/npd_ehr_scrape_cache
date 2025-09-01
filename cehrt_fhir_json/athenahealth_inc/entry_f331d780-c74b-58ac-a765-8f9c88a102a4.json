@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f331d780-c74b-58ac-a765-8f9c88a102a4",
+    "name": "Dublin Methodist Hospital IP (CFA)",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fdd9986b-dc34-5ea4-a028-e8ba3238d1ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659364503"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7500 Hospital Dr"
+        ],
+        "city": "DUBLIN",
+        "state": "OH",
+        "postalCode": "43016-8518"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23107"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23107.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f331d780-c74b-58ac-a765-8f9c88a102a4"
+}

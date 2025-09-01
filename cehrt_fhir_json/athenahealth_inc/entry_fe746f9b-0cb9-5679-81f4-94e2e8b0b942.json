@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fe746f9b-0cb9-5679-81f4-94e2e8b0b942",
+    "name": "Christ Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5540975c-d415-58b7-b1cb-eb8d50fc5070"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821131194"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "36D0347780"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11140 MONTGOMERY RD"
+        ],
+        "city": "CINCINNATI",
+        "state": "OH",
+        "postalCode": "45249-2309"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-728"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-728.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fe746f9b-0cb9-5679-81f4-94e2e8b0b942"
+}

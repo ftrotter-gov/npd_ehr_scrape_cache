@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "342ba1c7-8e37-5b58-94a7-2a817eb15c08",
+    "name": "Home Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/33dc5da1-7894-5e14-a4c6-69ce0b4b07d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588121479"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "317 Saratoga los gatos rd"
+        ],
+        "city": "LOS GATOS",
+        "state": "CA",
+        "postalCode": "95030-5510"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18759"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18759.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:342ba1c7-8e37-5b58-94a7-2a817eb15c08"
+}

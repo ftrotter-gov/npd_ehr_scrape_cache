@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9b40c7a-725a-557e-b806-41529c1b4cdd",
+    "name": "Evolving Treatment Medical Service",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d4eb069-c07e-56f5-aeba-98db09b33c07"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942965116"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3 CARE LANE, SUITE 100"
+        ],
+        "city": "SARATOGA SPRINGS",
+        "state": "NY",
+        "postalCode": "12866-6050"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24799"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24799.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9b40c7a-725a-557e-b806-41529c1b4cdd"
+}

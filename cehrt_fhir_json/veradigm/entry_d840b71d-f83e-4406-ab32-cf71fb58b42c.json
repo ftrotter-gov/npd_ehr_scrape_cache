@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "d840b71d-f83e-4406-ab32-cf71fb58b42c",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "f993f84b-b77d-42ec-aa81-498c1ee9dde3",
+        "name": "Carl B Weiss Md Pc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Carl B Weiss Md Pc",
+    "managingOrganization": {
+      "reference": "#f993f84b-b77d-42ec-aa81-498c1ee9dde3"
+    },
+    "period": {
+      "start": "2023-06-21T07:04:57+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75081"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75081"
+}

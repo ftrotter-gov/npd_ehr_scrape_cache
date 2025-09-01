@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9da763d-dc86-52e5-a168-e6b34c566e92",
+    "name": "North Central Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd82e3a2-8cfe-5f23-9829-5a7770f5336d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821095779"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "391 Main Street"
+        ],
+        "city": "FITCHBURG",
+        "state": "MA",
+        "postalCode": "01420-8006"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14851"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14851.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9da763d-dc86-52e5-a168-e6b34c566e92"
+}

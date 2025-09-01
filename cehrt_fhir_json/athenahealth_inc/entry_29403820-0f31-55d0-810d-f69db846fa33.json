@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "29403820-0f31-55d0-810d-f69db846fa33",
+    "name": "Dr. Jagdeo's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/53c8f41e-1a50-54e8-a209-f9fd59af5322"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356759484"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "106 IRVING ST NW STE 406"
+        ],
+        "city": "WASHINGTON",
+        "state": "DC",
+        "postalCode": "20010-2989"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16369"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16369.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:29403820-0f31-55d0-810d-f69db846fa33"
+}

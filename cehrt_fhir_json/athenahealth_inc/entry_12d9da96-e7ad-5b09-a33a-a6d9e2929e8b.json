@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12d9da96-e7ad-5b09-a33a-a6d9e2929e8b",
+    "name": "Sugarland Walk-In Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4f2b667d-7b5e-5a1f-828d-e7d9eefee5c7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275070708"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1005 SUGARLAND DR"
+        ],
+        "city": "SHERIDAN",
+        "state": "WY",
+        "postalCode": "82801-4447"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32201"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32201.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12d9da96-e7ad-5b09-a33a-a6d9e2929e8b"
+}

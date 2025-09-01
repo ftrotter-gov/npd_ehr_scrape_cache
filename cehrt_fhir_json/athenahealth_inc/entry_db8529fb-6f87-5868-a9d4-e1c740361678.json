@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db8529fb-6f87-5868-a9d4-e1c740361678",
+    "name": "Brooklyn Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/19da5f54-6c57-5406-8b90-0296ff8a4b1b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992577977"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5521 8th Avenue, 2nd Fl"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11220-3515"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17371"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17371.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db8529fb-6f87-5868-a9d4-e1c740361678"
+}

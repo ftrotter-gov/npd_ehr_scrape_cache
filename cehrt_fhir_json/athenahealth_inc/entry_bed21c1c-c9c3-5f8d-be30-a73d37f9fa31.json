@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bed21c1c-c9c3-5f8d-be30-a73d37f9fa31",
+    "name": "MUVE Ambulatory Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d81f5920-f7a1-58d8-8a7d-e9419939fed4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760993000"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 Veterans Way Suite 201"
+        ],
+        "city": "WARMINSTER",
+        "state": "PA",
+        "postalCode": "18974-4513"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17399"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17399.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bed21c1c-c9c3-5f8d-be30-a73d37f9fa31"
+}

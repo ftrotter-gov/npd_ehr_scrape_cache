@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db7070bf-7ca6-5913-bb9a-72999ebc6be1",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/30b716d3-7238-5ebd-b173-63b6ebfa5981"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811249030"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1595 SOQUEL DR STE 350"
+        ],
+        "city": "SANTA CRUZ",
+        "state": "CA",
+        "postalCode": "95065-1723"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5900"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5900.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db7070bf-7ca6-5913-bb9a-72999ebc6be1"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e69f87e6-7c30-5871-81cf-a8ace7a53a8e",
+    "name": "OBGYN Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1bc3df28-540c-59d1-b1f3-62abf402a5c3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053480640"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1101 E JEFFERSON ST STE 4"
+        ],
+        "city": "CHARLOTTESVILLE",
+        "state": "VA",
+        "postalCode": "22902-5353"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14651"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14651.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e69f87e6-7c30-5871-81cf-a8ace7a53a8e"
+}

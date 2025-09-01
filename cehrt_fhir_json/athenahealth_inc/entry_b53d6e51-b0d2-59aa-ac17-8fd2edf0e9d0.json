@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b53d6e51-b0d2-59aa-ac17-8fd2edf0e9d0",
+    "name": "The Surgery Center of Athens",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/40f32b9a-cf4e-5f76-a3a2-561d513e5577"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689055774"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "105 North Meadows Dr"
+        ],
+        "city": "ATHENS",
+        "state": "TN",
+        "postalCode": "37303-4172"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19363"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19363.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b53d6e51-b0d2-59aa-ac17-8fd2edf0e9d0"
+}

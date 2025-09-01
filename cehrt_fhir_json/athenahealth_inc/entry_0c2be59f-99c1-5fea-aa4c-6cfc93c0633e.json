@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0c2be59f-99c1-5fea-aa4c-6cfc93c0633e",
+    "name": "Beth Israel Deaconess Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8bb5e594-8e79-5b60-bb00-b9ed2aa385e8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538145131"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "148 CHESTNUT ST"
+        ],
+        "city": "NEEDHAM",
+        "state": "MA",
+        "postalCode": "02492-3053"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2108"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2108.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0c2be59f-99c1-5fea-aa4c-6cfc93c0633e"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1a975f67-a274-57d9-ad67-d2931e3465ec",
+    "name": "Inova Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fa6bfde0-6cd3-5e58-acaa-b710efacd25d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720277932"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3300 gallows rd"
+        ],
+        "city": "FALLS CHURCH",
+        "state": "VA",
+        "postalCode": "22042-3307"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6947"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6947.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1a975f67-a274-57d9-ad67-d2931e3465ec"
+}

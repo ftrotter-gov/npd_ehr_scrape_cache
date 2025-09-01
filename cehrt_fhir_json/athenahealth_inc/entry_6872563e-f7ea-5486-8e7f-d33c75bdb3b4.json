@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6872563e-f7ea-5486-8e7f-d33c75bdb3b4",
+    "name": "Patient Home Visits - WFM",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013042480"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "311 N 4TH STREET",
+          "Suite 1"
+        ],
+        "city": "OAKLAND",
+        "state": "MD",
+        "postalCode": "21550-1371"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6872563e-f7ea-5486-8e7f-d33c75bdb3b4"
+}

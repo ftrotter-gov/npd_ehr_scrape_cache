@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "dfa3c88e-dd35-4df3-8e86-1703bf1129b2",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d4564553-5fb5-43e3-b57b-e1df0d8508a9",
+        "name": "Surgical Oncology and General Surgery PC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Surgical Oncology and General Surgery PC",
+    "managingOrganization": {
+      "reference": "#d4564553-5fb5-43e3-b57b-e1df0d8508a9"
+    },
+    "period": {
+      "start": "2018-10-12T09:05:49+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10071085"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10071085"
+}

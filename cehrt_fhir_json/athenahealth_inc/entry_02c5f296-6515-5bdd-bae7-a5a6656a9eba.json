@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "02c5f296-6515-5bdd-bae7-a5a6656a9eba",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7dd15a98-c644-5f48-9631-4408e4d30326"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417368168"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1205 23rd St Suite 6"
+        ],
+        "city": "CANYON",
+        "state": "TX",
+        "postalCode": "79015-3824"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15538"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15538.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:02c5f296-6515-5bdd-bae7-a5a6656a9eba"
+}

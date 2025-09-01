@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "026d0ab4-1d46-439a-a8d4-629ddb31c77e",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "9c51faa0-0f86-4f38-b6d9-c243a6d90701",
+        "name": "WinCare Medical Consultants Ltd"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "WinCare Medical Consultants Ltd",
+    "managingOrganization": {
+      "reference": "#9c51faa0-0f86-4f38-b6d9-c243a6d90701"
+    },
+    "period": {
+      "start": "2018-10-31T06:29:24+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76058"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76058"
+}

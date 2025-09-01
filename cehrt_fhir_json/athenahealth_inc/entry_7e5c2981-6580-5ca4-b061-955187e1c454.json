@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7e5c2981-6580-5ca4-b061-955187e1c454",
+    "name": "Central Mississippi Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b95ee0fc-ec8d-5c07-b000-aec8b1581031"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407020407"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1850 Chadwick Drive"
+        ],
+        "city": "Jackson",
+        "state": "MS",
+        "postalCode": "39204-3404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-12"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7e5c2981-6580-5ca4-b061-955187e1c454"
+}

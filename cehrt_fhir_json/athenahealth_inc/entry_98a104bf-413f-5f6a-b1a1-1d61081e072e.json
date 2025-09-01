@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98a104bf-413f-5f6a-b1a1-1d61081e072e",
+    "name": "Arizona Clinic - Buckeye",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2cf31667-5bdf-516e-beb1-1bd7a05d21e9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053188771"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "980 S WATSON RD STE 105"
+        ],
+        "city": "BUCKEYE",
+        "state": "AZ",
+        "postalCode": "85326-3433"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30891"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30891.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98a104bf-413f-5f6a-b1a1-1d61081e072e"
+}

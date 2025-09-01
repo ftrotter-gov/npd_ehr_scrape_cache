@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5c22c110-e39f-4e6c-9d8c-ec0434449414",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "67564f15-2f8e-41e9-afda-fda04aa4d4e9",
+        "name": "Batesville Medical Specialties"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Batesville Medical Specialties",
+    "managingOrganization": {
+      "reference": "#67564f15-2f8e-41e9-afda-fda04aa4d4e9"
+    },
+    "period": {
+      "start": "2020-12-11T09:03:03+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57412"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57412"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2a0a66ed-538f-51bc-9225-a00fa5fe534a",
+    "name": "FCP Intracoastal Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/84f8abd5-0829-5f8c-99c5-cc922220a296"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750323143"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "14444 Beach Blvd",
+          "Suite 28"
+        ],
+        "city": "JACKSONVILLE BEACH",
+        "state": "FL",
+        "postalCode": "32250-2082"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27472"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27472.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2a0a66ed-538f-51bc-9225-a00fa5fe534a"
+}

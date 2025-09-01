@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2e40c689-67a8-5603-b76f-32caed91a573",
+    "name": "YMCA of Franklin and Grove City",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/abb5f7d5-468e-5806-be46-fb2282afef02"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245773654"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 W Park St"
+        ],
+        "city": "FRANKLIN",
+        "state": "PA",
+        "postalCode": "16323-1365"
+      },
+      {
+        "line": [
+          "543 E Main St Ext"
+        ],
+        "city": "GROVE CITY",
+        "state": "PA",
+        "postalCode": "16127-6317"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14268"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14268.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2e40c689-67a8-5603-b76f-32caed91a573"
+}

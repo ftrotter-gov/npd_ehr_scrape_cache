@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "baebd053-759e-55b2-802c-51d419c07cdf",
+    "name": "Hope Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/94d21175-0e9c-59f6-81b2-929f6bffc643"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588086425"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "679 MIDDLE CREEK ROAD",
+          "SUITE B"
+        ],
+        "city": "SEVIERVILLE",
+        "state": "TN",
+        "postalCode": "37862-5014"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8389"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8389.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:baebd053-759e-55b2-802c-51d419c07cdf"
+}

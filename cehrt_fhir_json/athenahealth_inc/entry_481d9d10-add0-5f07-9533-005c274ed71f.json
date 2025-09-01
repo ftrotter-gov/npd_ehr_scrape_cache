@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "481d9d10-add0-5f07-9533-005c274ed71f",
+    "name": "Grant Medical Center (IP) - 111 S Grant AVE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b28ed6f6-5719-5346-a055-84214780f3b7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497482111"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 S Grant AVE"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43215-4701"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26020"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26020.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:481d9d10-add0-5f07-9533-005c274ed71f"
+}

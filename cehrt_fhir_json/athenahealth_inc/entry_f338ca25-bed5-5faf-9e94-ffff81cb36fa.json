@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f338ca25-bed5-5faf-9e94-ffff81cb36fa",
+    "name": "MyFamilyDoc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/584977c3-a1d9-553d-8412-90e08f610387"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346001377"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 N CURTIS RD STE 105"
+        ],
+        "city": "BOISE",
+        "state": "ID",
+        "postalCode": "83706-1345"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31175"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31175.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f338ca25-bed5-5faf-9e94-ffff81cb36fa"
+}

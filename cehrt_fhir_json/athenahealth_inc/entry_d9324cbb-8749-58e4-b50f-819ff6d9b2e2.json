@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d9324cbb-8749-58e4-b50f-819ff6d9b2e2",
+    "name": "The Hygienic Institute",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e023cf30-e4e2-50ce-ace0-96a216d9b6a9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912944703"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2970 Chartres Street"
+        ],
+        "city": "LA SALLE",
+        "state": "IL",
+        "postalCode": "61301-1097"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11902"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11902.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d9324cbb-8749-58e4-b50f-819ff6d9b2e2"
+}

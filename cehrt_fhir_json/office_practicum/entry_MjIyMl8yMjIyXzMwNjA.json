@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjIyMl8yMjIyXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1029.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316008626"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Richmond Pediatrics PA NC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "910-895-4140",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "866-790-9737",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "921 South Long Dr Suite 206 Rockingham, NC 283794925",
+        "line": [
+          "921 South Long Dr",
+          "Suite 206"
+        ],
+        "city": "Rockingham",
+        "state": "NC",
+        "postalCode": "283794925",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjIyMl8yMjIyXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjIyMl8yMjIyXzMwNjA"
+}

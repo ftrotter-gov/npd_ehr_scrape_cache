@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf4741ac-8962-5ad6-92d7-d5087ce5c90c",
+    "name": "Family Medical Centre",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3cfe5b47-a0c5-5a46-a537-a13c2c2b4eb6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215120316"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 Wolf Creek Blvd Suite 2"
+        ],
+        "city": "DOVER",
+        "state": "DE",
+        "postalCode": "19901-4969"
+      },
+      {
+        "line": [
+          "111 WOLF CREEK BLVD STE 2"
+        ],
+        "city": "DOVER",
+        "state": "DE",
+        "postalCode": "19901-4969"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19734"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19734.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf4741ac-8962-5ad6-92d7-d5087ce5c90c"
+}

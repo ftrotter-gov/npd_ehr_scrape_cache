@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b7b9bf4-13b9-50e1-952e-a90943096257",
+    "name": "Indianola Wellness Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b61569fe-1c6d-56ef-8e19-5e6d603c257f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508393000"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "131 MAIN STREET"
+        ],
+        "city": "INDIANOLA",
+        "state": "MS",
+        "postalCode": "38751-2849"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16590"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16590.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b7b9bf4-13b9-50e1-952e-a90943096257"
+}

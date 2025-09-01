@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "40a9463a-5a17-5a8e-b11d-ef82e3010b62",
+    "name": "White Oak Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a2cae454-c5ee-5869-b0eb-b36bfb0be7f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962110031"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11442 SR 27"
+        ],
+        "city": "HECTOR",
+        "state": "AR",
+        "postalCode": "72843-9102"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27812"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27812.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:40a9463a-5a17-5a8e-b11d-ef82e3010b62"
+}

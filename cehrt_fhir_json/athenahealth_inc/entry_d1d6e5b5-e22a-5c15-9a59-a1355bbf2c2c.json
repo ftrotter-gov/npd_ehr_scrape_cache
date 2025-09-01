@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d1d6e5b5-e22a-5c15-9a59-a1355bbf2c2c",
+    "name": "St Clair COMMUNITY HEALTH CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5deef3e7-89c0-5f04-90e7-7fea69443aec"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "205 EDWIN HOLLADAY"
+        ],
+        "city": "PELL CITY",
+        "state": "AL",
+        "postalCode": "35125-1601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18019"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18019.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d1d6e5b5-e22a-5c15-9a59-a1355bbf2c2c"
+}

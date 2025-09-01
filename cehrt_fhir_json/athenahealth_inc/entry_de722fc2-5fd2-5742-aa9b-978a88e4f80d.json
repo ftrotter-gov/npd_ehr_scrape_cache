@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "de722fc2-5fd2-5742-aa9b-978a88e4f80d",
+    "name": "SMG Dedham Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d7af1806-e8de-59b5-aef2-a76f2c6b6988"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629398219"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821349317"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 PROVIDENCE HIGHWAY  SUITE 203"
+        ],
+        "city": "DEDHAM",
+        "state": "MA",
+        "postalCode": "02026-1881"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2017"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2017.Brand-9"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:de722fc2-5fd2-5742-aa9b-978a88e4f80d"
+}

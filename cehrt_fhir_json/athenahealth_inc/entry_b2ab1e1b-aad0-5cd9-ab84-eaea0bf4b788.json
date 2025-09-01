@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b2ab1e1b-aad0-5cd9-ab84-eaea0bf4b788",
+    "name": "Med Care To You",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/51096bc9-b020-5287-b3f1-14a4cccd102f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568847879"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "24000 US-59"
+        ],
+        "city": "KINGWOOD",
+        "state": "TX",
+        "postalCode": "77339-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12345"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12345.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b2ab1e1b-aad0-5cd9-ab84-eaea0bf4b788"
+}

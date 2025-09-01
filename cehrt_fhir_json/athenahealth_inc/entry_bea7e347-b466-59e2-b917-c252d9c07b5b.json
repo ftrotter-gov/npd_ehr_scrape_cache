@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bea7e347-b466-59e2-b917-c252d9c07b5b",
+    "name": "Family Care Team",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8e2639ba-45cf-5695-a5d6-0e6bbd52bd7d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962674804"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 MEDICAL CTR BLVD STE 110"
+        ],
+        "city": "CONROE",
+        "state": "TX",
+        "postalCode": "77304-2821"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24738"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24738.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bea7e347-b466-59e2-b917-c252d9c07b5b"
+}

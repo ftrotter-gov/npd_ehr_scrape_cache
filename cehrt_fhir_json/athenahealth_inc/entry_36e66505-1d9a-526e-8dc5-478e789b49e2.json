@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "36e66505-1d9a-526e-8dc5-478e789b49e2",
+    "name": "Thousand Oaks Surgical Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/27623b7b-7c1b-5f7a-8ca1-ab1c678bba04"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073553590"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "401 E. Rolling Oaks Drive"
+        ],
+        "city": "Thousand Oaks",
+        "state": "CA",
+        "postalCode": "91361-1050"
+      },
+      {
+        "line": [
+          "401 E. Rolling Oaks Dr."
+        ],
+        "city": "Thousand Oaks",
+        "state": "CA",
+        "postalCode": "91361-1050"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1912"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1912.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:36e66505-1d9a-526e-8dc5-478e789b49e2"
+}

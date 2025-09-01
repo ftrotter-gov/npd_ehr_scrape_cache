@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2fcaf8ef-937b-52db-bc11-1f691b546da8",
+    "name": "HAH Care Coordination Illinois",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ada55a05-133d-583b-ac73-feb2863e667a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669247250"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "33 S STATE STREET",
+          "5th Floor Suite 100"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60603-2804"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30314"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30314.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2fcaf8ef-937b-52db-bc11-1f691b546da8"
+}

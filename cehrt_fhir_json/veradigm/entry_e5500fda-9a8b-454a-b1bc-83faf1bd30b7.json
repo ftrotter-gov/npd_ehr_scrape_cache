@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e5500fda-9a8b-454a-b1bc-83faf1bd30b7",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "9c6c28ad-1133-4855-b146-b573d336b23c",
+        "name": "Ram K Kamath MD Inc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Ram K Kamath MD Inc",
+    "managingOrganization": {
+      "reference": "#9c6c28ad-1133-4855-b146-b573d336b23c"
+    },
+    "period": {
+      "start": "2019-09-30T12:17:48+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10022640"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10022640"
+}

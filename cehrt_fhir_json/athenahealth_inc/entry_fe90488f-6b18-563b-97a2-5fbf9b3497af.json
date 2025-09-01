@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fe90488f-6b18-563b-97a2-5fbf9b3497af",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1ecdd60c-79ef-568e-b883-4b4968013520"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942621990"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "222 N. SAGINAW RD"
+        ],
+        "city": "MIDLAND",
+        "state": "MI",
+        "postalCode": "48640-2633"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8155"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8155.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fe90488f-6b18-563b-97a2-5fbf9b3497af"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5432eed-5c82-5b95-9032-0f7d8ef45281",
+    "name": "Lake City Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a655cc42-ef12-5b2e-b53b-87d24db2b780"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "PEND**1134186455"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 JOHN ST"
+        ],
+        "city": "LAKE CITY",
+        "state": "SC",
+        "postalCode": "29560"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3989"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3989.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5432eed-5c82-5b95-9032-0f7d8ef45281"
+}

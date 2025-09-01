@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a8040c53-9c28-4791-90bf-baf00aa247d3",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "889e926c-28d8-44c7-be95-d10552d29972",
+        "name": "Whiteville Medical Associates"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Whiteville Medical Associates",
+    "managingOrganization": {
+      "reference": "#889e926c-28d8-44c7-be95-d10552d29972"
+    },
+    "period": {
+      "start": "2019-01-05T09:37:37+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0009777"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0009777"
+}

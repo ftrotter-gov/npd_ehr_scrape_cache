@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "af030d91-86d2-5c37-89af-7a235607ac23",
+    "name": "Waianae",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/03567e06-1f44-5fec-bc8f-7e7ff499e66b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "651 Ilalo St."
+        ],
+        "city": "HONOLULU",
+        "state": "HI",
+        "postalCode": "96813-5525"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:af030d91-86d2-5c37-89af-7a235607ac23"
+}

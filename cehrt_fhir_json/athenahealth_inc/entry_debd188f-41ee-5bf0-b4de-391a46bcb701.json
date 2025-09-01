@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "debd188f-41ee-5bf0-b4de-391a46bcb701",
+    "name": "Taylors Free Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1f046b22-bda6-50df-a364-78ea73d5b02c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 W. MAIN ST"
+        ],
+        "city": "TAYLORS",
+        "state": "SC",
+        "postalCode": "29687-2951"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17577"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17577.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:debd188f-41ee-5bf0-b4de-391a46bcb701"
+}

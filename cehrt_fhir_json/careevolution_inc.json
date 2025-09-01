@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ce="http://careevolution.com" xml:lang="en" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+	
+
+    <link rel="stylesheet" type="text/css" href="/P360Member/Asset/css/-449266586?h=DC52D3954C50E112E7DEAE542775BC2F7FC8FDC9.css" />
+	
+
+    <script type="text/javascript" src="/P360Member/Asset/js/-449266586?h=E5BDECD0773A35F47380AC3385B582354E44C5D1.js" nonce='t0GQDmdVvYcgFrKWyxHh0w=='></script>
+
+	
+
+
+
+
+    <title>
+        Anthem Medicaid - FHIR 
+    </title>
+</head>
+
+<body>
+	<header class="navbar navbar-static-top header">
+		<div class="float-left">
+			<a href="/P360Member/fhir"><img src="/P360Member/Images/fhir-logo-www.png" height="32" /></a>
+		</div>
+
+
+		<div class="float-right">
+				<a href="/P360Member/fhir?login=true">Login</a>
+							<img alt="Anthem Medicaid" src="/P360Member/Images/anthem.png" height="32" />
+		</div>
+	</header>
+	
+	<div class="container-fluid">
+
+		
+
+
+
+
+
+
+
+    <p class="lead">
+        This Web site supports the HL7® FHIR® standard
+            with <a href="http://hl7.org/fhir/smart-app-launch/1.0.0/" target="_blank">SMART® v1.0</a> authorization
+    </p>
+    <h3>
+        Version 32.11.4<br/>
+        <small>(Consumers 32.11.4, HIEBus 32.11.5)</small>
+    </h3>
+    <h3>
+        <a class="anchor" id="endpoints" href="#endpoints" aria-hidden="true">
+            <svg aria-hidden="true" class="octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+                <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+            </svg>
+        </a>
+        Available end points
+    </h3>
+    <p><a href="/P360Member/fhir/endpoints">Also available as json</a></p>
+        <h4 style="padding-top: 10px">
+            <p>Amerigroup</p>
+            <code>https://patient360c.amerigroup.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360c.amerigroup.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360c.amerigroup.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Amerigroup Medicaid</p>
+            <code>https://patient360.amerigroup.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.amerigroup.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.amerigroup.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Anthem</p>
+            <code>https://patient360c.anthem.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360c.anthem.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360c.anthem.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Anthem Blue Cross CA</p>
+            <code>https://patient360ca.anthem.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360ca.anthem.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360ca.anthem.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Anthem Medicaid</p>
+            <code>https://patient360.anthem.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.anthem.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.anthem.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Blue Cross Blue Shield Kansas  Medicare Part D</p>
+            <code>https://patient360ks.bcbsdirect.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360ks.bcbsdirect.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360ks.bcbsdirect.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Blue Cross Blue Shield Kansas City</p>
+            <code>https://patient360kc.bcbsdirect.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360kc.bcbsdirect.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360kc.bcbsdirect.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Blue Medicare Advantage</p>
+            <code>https://patient360.bluemedadv.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.bluemedadv.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.bluemedadv.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Blue Rx New York</p>
+            <code>https://patient360ny.bcbsdirect.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360ny.bcbsdirect.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360ny.bcbsdirect.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Clear Health Alliance</p>
+            <code>https://patient360.clearhealthalliance.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.clearhealthalliance.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.clearhealthalliance.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Dell Children&#39;s Health Plan</p>
+            <code>https://patient360.mydellchildrens.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.mydellchildrens.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.mydellchildrens.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Empire Blue</p>
+            <code>https://patient360c.empireblue.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360c.empireblue.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360c.empireblue.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Empire Blue Medicaid</p>
+            <code>https://patient360.empireblue.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.empireblue.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.empireblue.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue LA</p>
+            <code>https://patient360la.anthem.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360la.anthem.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360la.anthem.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue LA Medicaid</p>
+            <code>https://patient360.healthybluela.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.healthybluela.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.healthybluela.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue MO</p>
+            <code>https://patient360mo.anthem.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360mo.anthem.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360mo.anthem.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue MO Medicaid</p>
+            <code>https://patient360.healthybluemo.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.healthybluemo.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.healthybluemo.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue NC Medicaid</p>
+            <code>https://patient360.healthybluenc.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.healthybluenc.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.healthybluenc.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue NE</p>
+            <code>https://patient360.healthybluene.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.healthybluene.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.healthybluene.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue North Carolina</p>
+            <code>https://patient360nc.bcbsdirect.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360nc.bcbsdirect.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360nc.bcbsdirect.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue SC</p>
+            <code>https://patient360.healthybluesc.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.healthybluesc.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.healthybluesc.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Highmark Western New York</p>
+            <code>https://patient360.mybcbswny.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.mybcbswny.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.mybcbswny.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Simply Healthcare Medicaid</p>
+            <code>https://patient360.simplyhealthcareplans.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.simplyhealthcareplans.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.simplyhealthcareplans.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Simply Healthcare Medicare</p>
+            <code>https://patient360c.simplyhealthcareplans.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360c.simplyhealthcareplans.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360c.simplyhealthcareplans.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Summit Community Care</p>
+            <code>https://patient360.summitcommunitycare.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.summitcommunitycare.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.summitcommunitycare.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Unicare</p>
+            <code>https://patient360c.unicare.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360c.unicare.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360c.unicare.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Unicare Massachusetts</p>
+            <code>https://patient360mass.unicare.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360mass.unicare.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360mass.unicare.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Unicare Medicaid</p>
+            <code>https://patient360.unicare.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.unicare.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.unicare.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Wellpoint</p>
+            <code>https://patient360.wellpoint.com/P360Member/api/fhir</code>
+        </h4>
+        <p class="indented">
+            <strong>DSTU2</strong>  &ndash; documented <a href="https://patient360.wellpoint.com/P360Member/fhir/documentation?prefix=fhir">here</a>, try it <a href="https://patient360.wellpoint.com/P360Member/fhir/search?prefix=fhir">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Amerigroup</p>
+            <code>https://patient360c.amerigroup.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360c.amerigroup.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360c.amerigroup.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Amerigroup Medicaid</p>
+            <code>https://patient360.amerigroup.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.amerigroup.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.amerigroup.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Anthem</p>
+            <code>https://patient360c.anthem.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360c.anthem.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360c.anthem.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Anthem Blue Cross CA</p>
+            <code>https://patient360ca.anthem.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360ca.anthem.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360ca.anthem.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Anthem Medicaid</p>
+            <code>https://patient360.anthem.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.anthem.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.anthem.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Blue Cross Blue Shield Kansas  Medicare Part D</p>
+            <code>https://patient360ks.bcbsdirect.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360ks.bcbsdirect.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360ks.bcbsdirect.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Blue Cross Blue Shield Kansas City</p>
+            <code>https://patient360kc.bcbsdirect.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360kc.bcbsdirect.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360kc.bcbsdirect.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Blue Medicare Advantage</p>
+            <code>https://patient360.bluemedadv.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.bluemedadv.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.bluemedadv.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Blue Rx New York</p>
+            <code>https://patient360ny.bcbsdirect.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360ny.bcbsdirect.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360ny.bcbsdirect.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Clear Health Alliance</p>
+            <code>https://patient360.clearhealthalliance.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.clearhealthalliance.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.clearhealthalliance.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Dell Children&#39;s Health Plan</p>
+            <code>https://patient360.mydellchildrens.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.mydellchildrens.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.mydellchildrens.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Empire Blue</p>
+            <code>https://patient360c.empireblue.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360c.empireblue.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360c.empireblue.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Empire Blue Medicaid</p>
+            <code>https://patient360.empireblue.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.empireblue.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.empireblue.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue LA</p>
+            <code>https://patient360la.anthem.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360la.anthem.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360la.anthem.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue LA Medicaid</p>
+            <code>https://patient360.healthybluela.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.healthybluela.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.healthybluela.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue MO</p>
+            <code>https://patient360mo.anthem.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360mo.anthem.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360mo.anthem.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue MO Medicaid</p>
+            <code>https://patient360.healthybluemo.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.healthybluemo.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.healthybluemo.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue NC Medicaid</p>
+            <code>https://patient360.healthybluenc.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.healthybluenc.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.healthybluenc.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue NE</p>
+            <code>https://patient360.healthybluene.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.healthybluene.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.healthybluene.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue North Carolina</p>
+            <code>https://patient360nc.bcbsdirect.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360nc.bcbsdirect.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360nc.bcbsdirect.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Healthy Blue SC</p>
+            <code>https://patient360.healthybluesc.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.healthybluesc.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.healthybluesc.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Highmark Western New York</p>
+            <code>https://patient360.mybcbswny.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.mybcbswny.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.mybcbswny.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Simply Healthcare Medicaid</p>
+            <code>https://patient360.simplyhealthcareplans.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.simplyhealthcareplans.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.simplyhealthcareplans.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Simply Healthcare Medicare</p>
+            <code>https://patient360c.simplyhealthcareplans.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360c.simplyhealthcareplans.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360c.simplyhealthcareplans.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Summit Community Care</p>
+            <code>https://patient360.summitcommunitycare.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.summitcommunitycare.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.summitcommunitycare.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Unicare</p>
+            <code>https://patient360c.unicare.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360c.unicare.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360c.unicare.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Unicare Massachusetts</p>
+            <code>https://patient360mass.unicare.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360mass.unicare.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360mass.unicare.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Unicare Medicaid</p>
+            <code>https://patient360.unicare.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.unicare.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.unicare.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+        <h4 style="padding-top: 10px">
+            <p>Wellpoint</p>
+            <code>https://patient360.wellpoint.com/P360Member/api/fhir-r4</code>
+        </h4>
+        <p class="indented">
+            <strong>R4</strong>  &ndash; documented <a href="https://patient360.wellpoint.com/P360Member/fhir/documentation?prefix=fhir-r4">here</a>, try it <a href="https://patient360.wellpoint.com/P360Member/fhir/search?prefix=fhir-r4">here</a>.
+        </p>
+<h3><a class="anchor" id="heading1" href="#heading1" aria-hidden="true">
+<svg aria-hidden="true" class="octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+    <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+</svg>
+</a>
+This is a production system</h3>
+<p>For experimentation and testing please use the <a href="https://fhir.careevolution.com/">sandbox</a> system.</p>
+<h3><a class="anchor" id="heading2" href="#heading2" aria-hidden="true">
+<svg aria-hidden="true" class="octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+    <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+</svg>
+</a>
+Resources</h3>
+<p>Documentation and tutorials can be found <a href="https://fhir.docs.careevolution.com/">here</a>.</p>
+<p>Release notes for all FHIR API changes can be found <a href="https://fhir.careevolution.com/ReleaseNotes.html">here</a>.</p>
+<h3><a class="anchor" id="heading3" href="#heading3" aria-hidden="true">
+<svg aria-hidden="true" class="octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16">
+    <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+</svg>
+</a>
+Support</h3>
+<p><a href="mailto:fhir@careevolution.com/">fhir@careevolution.com</a>.</p>
+
+
+
+
+		<hr />
+		<footer>
+			<p>
+				Copyright 2004-2025 <a href="https://www.careevolution.com" target="_blank">CareEvolution, Inc.</a> All rights reserved.
+			</p>
+		</footer>
+
+	</div> <!-- container -->
+</body>
+</html>
+
+
+

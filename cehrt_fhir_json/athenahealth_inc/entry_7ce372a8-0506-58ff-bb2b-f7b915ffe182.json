@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7ce372a8-0506-58ff-bb2b-f7b915ffe182",
+    "name": "Holy Family Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d6f57f37-df18-5154-b98e-0acf6af1b0f9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215012331"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5633 N LIDGERWOOD ST"
+        ],
+        "city": "SPOKANE",
+        "state": "WA",
+        "postalCode": "99208-1224"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29206"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29206.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7ce372a8-0506-58ff-bb2b-f7b915ffe182"
+}

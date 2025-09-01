@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae899a5c-3f51-55da-9d87-2b7edd98019f",
+    "name": "MOORE HEALTHCARE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/89a5555a-3316-5018-ad1c-06593ca39534"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861949133"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1138 N Germantown Parkway",
+          "Suite 226"
+        ],
+        "city": "CORDOVA",
+        "state": "TN",
+        "postalCode": "38016-5872"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16080"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16080.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae899a5c-3f51-55da-9d87-2b7edd98019f"
+}

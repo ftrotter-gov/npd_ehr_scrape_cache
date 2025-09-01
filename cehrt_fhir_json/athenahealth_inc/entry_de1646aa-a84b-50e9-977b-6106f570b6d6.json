@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "de1646aa-a84b-50e9-977b-6106f570b6d6",
+    "name": "LSCC at Texas A&M Health Science Center - Specialty Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/06388af1-29b1-5842-a463-d5135e168032"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891746970"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3950 N A W GRIMES BLVD STE N202",
+          "340B00556100LS"
+        ],
+        "city": "ROUND ROCK",
+        "state": "TX",
+        "postalCode": "78665-3540"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29821"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29821.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:de1646aa-a84b-50e9-977b-6106f570b6d6"
+}

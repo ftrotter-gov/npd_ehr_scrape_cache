@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2338571d-36cc-5b0f-a2ed-055a7788bb8a",
+    "name": "Stringfellow Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a691a9c5-ebf6-5bf7-be83-ce60e8b3d81d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003868712"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 East 18th Street"
+        ],
+        "city": "ANNISTON",
+        "state": "AL",
+        "postalCode": "36207-3952"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8821"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8821.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2338571d-36cc-5b0f-a2ed-055a7788bb8a"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5ea082d6-8f2c-5c67-bbd2-42da3e293b64",
+    "name": "Carlisle Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f6fc9881-76d9-5206-9513-3445720de2e9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487450698"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063831527"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447805965"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8685 South Old Highway 41"
+        ],
+        "city": "CARLISLE",
+        "state": "IN",
+        "postalCode": "47838-8234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8793"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8793.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5ea082d6-8f2c-5c67-bbd2-42da3e293b64"
+}

@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "269e4492-0cb2-5ca8-b386-9bf34e26e2de",
+    "meta": {
+      "lastUpdated": "2025-02-20T05:28:53.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://scahealth.org"
+      }
+    ],
+    "name": "San Carlos Apache Healthcare",
+    "active": true,
+    "partOf": {
+      "reference": "urn:uuid:72f029f5-eee2-5dff-a262-7865961084d8"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://scahealth.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "103 Medicine Way Road"
+        ],
+        "city": "Peridot",
+        "state": "AZ",
+        "postalCode": "85542",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:da88162d-130d-546f-87aa-3c5eb5dba9d0"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:da88162d-130d-546f-87aa-3c5eb5dba9d0"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:269e4492-0cb2-5ca8-b386-9bf34e26e2de"
+}

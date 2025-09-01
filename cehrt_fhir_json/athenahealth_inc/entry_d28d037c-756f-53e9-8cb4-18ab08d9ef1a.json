@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d28d037c-756f-53e9-8cb4-18ab08d9ef1a",
+    "name": "Westford Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2c9c25ab-5188-5a9e-b3c4-43ae901f1392"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174698385"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "198 Littleton Road, Suite 102"
+        ],
+        "city": "WESTFORD",
+        "state": "MA",
+        "postalCode": "01886-3513"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1559"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1559.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d28d037c-756f-53e9-8cb4-18ab08d9ef1a"
+}

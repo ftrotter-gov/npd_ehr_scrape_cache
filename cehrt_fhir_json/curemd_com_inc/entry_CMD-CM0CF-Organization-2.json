@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0CF-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0CF"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Delta Medical PA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8172938797"
+      },
+      {
+        "system": "fax",
+        "value": "8172938793"
+      },
+      {
+        "system": "url",
+        "value": "delta-medical.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "12001 S Freeway Ste 210 Burleson TX 76028 US",
+        "line": [
+          "12001 S Freeway",
+          "Ste 210"
+        ],
+        "city": "Burleson",
+        "state": "TX",
+        "postalCode": "76028",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0CF-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0CF-Organization-2"
+}

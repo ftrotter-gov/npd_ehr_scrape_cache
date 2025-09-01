@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bfed3ca-0960-5dc5-bc57-8c4b0ff75b22",
+    "name": "Grand Lake Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7009c91b-ec89-5b59-b157-0ed7999cb25b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619459708"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 S. BROADWAY"
+        ],
+        "city": "GROVE",
+        "state": "OK",
+        "postalCode": "74344-3429"
+      },
+      {
+        "line": [
+          "601 S Broadway St"
+        ],
+        "city": "GROVE",
+        "state": "OK",
+        "postalCode": "74344-3429"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18190"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18190.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bfed3ca-0960-5dc5-bc57-8c4b0ff75b22"
+}

@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b34413b1-48a3-54fe-8dbe-e03d1bad0ba4",
+    "name": "Alina Health Medical Center - Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/116cc250-2c42-5266-9c2a-bb4e164a031d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194459297"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144975418"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4800 N STATE ROAD 7",
+          "SUITE ABCD"
+        ],
+        "city": "Lauderdale Lakes",
+        "state": "FL",
+        "postalCode": "33319-5811"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28368"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28368.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b34413b1-48a3-54fe-8dbe-e03d1bad0ba4"
+}

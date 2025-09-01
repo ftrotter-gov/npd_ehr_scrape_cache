@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "109a9128-59c7-56b2-8ae1-1a9e5e2ff45a",
+    "name": "Medical City Lewisville",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/836ca9f9-78de-578a-ba4c-8f3bfa78694e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750706347"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 W Main ST",
+          "STE 1"
+        ],
+        "city": "LEWISVILLE",
+        "state": "TX",
+        "postalCode": "75057-3629"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16869"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16869.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:109a9128-59c7-56b2-8ae1-1a9e5e2ff45a"
+}

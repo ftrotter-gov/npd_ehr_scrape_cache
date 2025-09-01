@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "99113039-1319-5e1b-987a-6296f841f74a",
+    "name": "Dr. Miller's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43e62f6f-0bc1-5193-847c-2dd5b07b4d79"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710205927"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "203 SHIRLEY AVE"
+        ],
+        "city": "DOUGLAS",
+        "state": "GA",
+        "postalCode": "31533-2356"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21059"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21059.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:99113039-1319-5e1b-987a-6296f841f74a"
+}

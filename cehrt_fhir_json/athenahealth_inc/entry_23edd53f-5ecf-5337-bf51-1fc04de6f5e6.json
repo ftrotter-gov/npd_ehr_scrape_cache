@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "23edd53f-5ecf-5337-bf51-1fc04de6f5e6",
+    "name": "RHEA MEDICAL ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/baafd736-c210-5b84-a88d-a0bcf382d2fe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174552202"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9400 rhea county hwy"
+        ],
+        "city": "dayton",
+        "state": "TN",
+        "postalCode": "37321-2922"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1839"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1839.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:23edd53f-5ecf-5337-bf51-1fc04de6f5e6"
+}

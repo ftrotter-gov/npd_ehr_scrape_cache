@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7c48bb22-69fa-5395-b66c-81ee5b3c5072",
+    "name": "Surgery Center Chesapeake",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/71007f0f-162b-5897-a85e-dda173e5832e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568593952"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "844 Battlefield Blvd.",
+          "North"
+        ],
+        "city": "CHESAPEAKE",
+        "state": "VA",
+        "postalCode": "23320-4802"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-610"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-610.Brand-7"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7c48bb22-69fa-5395-b66c-81ee5b3c5072"
+}

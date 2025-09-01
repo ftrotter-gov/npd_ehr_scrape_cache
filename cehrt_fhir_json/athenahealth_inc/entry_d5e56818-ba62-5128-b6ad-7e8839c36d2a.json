@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d5e56818-ba62-5128-b6ad-7e8839c36d2a",
+    "name": "One Family Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8ef2e4a2-5869-55c1-844c-0f66fd6503bb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306207006"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1619 NW Hawthorne Ave",
+          "Ste 203"
+        ],
+        "city": "GRANTS PASS",
+        "state": "OR",
+        "postalCode": "97526-6009"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33242"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33242.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d5e56818-ba62-5128-b6ad-7e8839c36d2a"
+}

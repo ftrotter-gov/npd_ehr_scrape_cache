@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d67a9347-1107-527b-9c78-6978670ff885",
+    "name": "Awaken Alternatives",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1d801349-4d2f-55c5-833c-10a9591262aa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790517431"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 Test Rd"
+        ],
+        "city": "URBANA",
+        "state": "OH",
+        "postalCode": "43078-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31959"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31959.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d67a9347-1107-527b-9c78-6978670ff885"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7c30c393-eadf-5326-8873-dbf76fc5cc24",
+    "name": "Kingwood Medical Center - ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3f7b348a-4bf3-5b7d-b3ee-657773fb4e90"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033442173"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750476230"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "22999 U.S. Highway 59 N."
+        ],
+        "city": "KINGWOOD",
+        "state": "TX",
+        "postalCode": "77339-4412"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-824"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-824.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7c30c393-eadf-5326-8873-dbf76fc5cc24"
+}

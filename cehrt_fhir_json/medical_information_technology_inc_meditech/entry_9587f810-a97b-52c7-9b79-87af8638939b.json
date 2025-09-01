@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9587f810-a97b-52c7-9b79-87af8638939b",
+    "meta": {
+      "lastUpdated": "2022-03-22T22:52:05.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://kirbyhealth.org"
+      }
+    ],
+    "name": "Kirby Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://kirbyhealth.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 Medical Center Drive"
+        ],
+        "city": "Monticello",
+        "state": "IL",
+        "postalCode": "61856",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:50da21ea-9efe-50d4-94a6-e72964af9a66"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:50da21ea-9efe-50d4-94a6-e72964af9a66"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9587f810-a97b-52c7-9b79-87af8638939b"
+}

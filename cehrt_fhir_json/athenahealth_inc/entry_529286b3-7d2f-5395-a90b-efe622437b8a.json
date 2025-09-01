@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "529286b3-7d2f-5395-a90b-efe622437b8a",
+    "name": "North Suburban",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a3912821-3a4e-5163-83cc-16ac0ae39724"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881969277"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9191 Grant Street"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80229-4361"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23872"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23872.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:529286b3-7d2f-5395-a90b-efe622437b8a"
+}

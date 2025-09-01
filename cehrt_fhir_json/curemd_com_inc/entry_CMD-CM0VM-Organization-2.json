@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0VM-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0VM"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Linn County Public Health",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3198926000"
+      },
+      {
+        "system": "fax",
+        "value": "3198926098"
+      },
+      {
+        "system": "url",
+        "value": "health@linncounty.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "1020 6th Street SE Cedar Rapids LINCOLN IA 524012427 US",
+        "line": [
+          "1020 6th Street SE"
+        ],
+        "city": "Cedar Rapids",
+        "district": "LINCOLN",
+        "state": "IA",
+        "postalCode": "524012427",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0VM-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0VM-Organization-2"
+}

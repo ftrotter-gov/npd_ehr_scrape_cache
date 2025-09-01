@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e708e7b2-6943-5bd6-a0f7-e35fe74c8af9",
+    "name": "Samaritan Infusion Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/328d4579-619f-569b-9a81-6b203a05231f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649227265"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3615 NW Samaritan Drive"
+        ],
+        "city": "CORVALLIS",
+        "state": "OR",
+        "postalCode": "97330-3756"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14349"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14349.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e708e7b2-6943-5bd6-a0f7-e35fe74c8af9"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ba1a217b-21d9-52ef-b5bd-250b53967b47",
+    "name": "Texas Health Southwest Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b568f08c-0241-54e7-94ab-17cd66e25180"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568409571"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6100 Harris Pkwy"
+        ],
+        "city": "FORT WORTH",
+        "state": "TX",
+        "postalCode": "76132-4101"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20617"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20617.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ba1a217b-21d9-52ef-b5bd-250b53967b47"
+}

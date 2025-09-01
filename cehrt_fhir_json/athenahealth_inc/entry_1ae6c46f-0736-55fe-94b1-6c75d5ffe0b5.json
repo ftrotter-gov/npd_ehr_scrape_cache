@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ae6c46f-0736-55fe-94b1-6c75d5ffe0b5",
+    "name": "Bayside Medical Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b64b2500-7401-5fe7-a379-ed7ff34726bc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760168330"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 YACHT CLUB DRIVE"
+        ],
+        "city": "SAINT AUGUSTINE",
+        "state": "FL",
+        "postalCode": "32084-2196"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29338"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29338.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ae6c46f-0736-55fe-94b1-6c75d5ffe0b5"
+}

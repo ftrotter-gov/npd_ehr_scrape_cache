@@ -1,0 +1,173 @@
+{
+	"resourceType": "Bundle",
+	"id": "780c6aa1-0fe9-4349-818b-b739703bc5f5",
+	"type": "collection",
+	"entry": [
+		{
+			"fullUrl": "https://webservices2.systemedx.com/xnet/api/fhir/Endpoint/fhir",
+			"resource": {
+				"resourceType": "Endpoint",
+				"id": "fhir",
+				"status": "active",
+				"connectionType": {
+					"system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+					"code": "hl7-fhir-rest"
+				},
+				"name": "Systemedx R4 FHIR server",
+				"managingOrganization": {
+					"reference": "Organization/systemedx"
+				},
+				"contact": [
+					{
+						"system": "email",
+						"value": "support@systemedx.com",
+						"use": "work"
+					}
+				],
+				"payloadType": [
+					{
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "AllergyIntolerance"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Binary"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "CarePlan"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "CareTeam"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Condition"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Device"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "DiagnosticReport"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "DocumentReference"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Encounter"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Goal"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Group"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Immunization"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Location"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Medication"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "MedicationRequest"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Observation"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Organization"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Patient"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Practitioner"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "PractitionerRole"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Procedure"
+							},
+							{
+								"system": "http://hl7.org/fhir/resource-types",
+								"code": "Provenance"
+							}
+						]
+					}
+				],
+				"address": "https://webservices2.systemedx.com/xnet/api/fhir"
+			}
+		},
+		{
+			"fullUrl": "https://webservices2.systemedx.com/xnet/api/fhir/Organization/systemedx",
+			"resource": {
+				"resourceType": "Organization",
+				"id": "systemedx",
+				"active": true,
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "http://terminology.hl7.org/CodeSystem/organization-type",
+								"code": "bus",
+								"display": "Non-Healthcare Business or Corporation"
+							}
+						],
+						"text": "Medical Software Company"
+					}
+				],
+				"name": "Systemedx Inc.",
+				"telecom": [
+					{
+						"system": "phone",
+						"value": "(+1) 256-739-1398"
+					},
+					{
+						"system": "email",
+						"value": "support@systemedx.com",
+						"use": "work"
+					}
+				],
+				"address": [
+					{
+						"line": [
+							"1875 County Road 1435"
+						],
+						"city": "Vinemont",
+						"state": "AL",
+						"postalCode": "35055",
+						"country": "US"
+					}
+				],
+				"endpoint": [
+					{
+						"reference": "Endpoint/fhir"
+					}
+				]
+			}
+		}
+	]
+}

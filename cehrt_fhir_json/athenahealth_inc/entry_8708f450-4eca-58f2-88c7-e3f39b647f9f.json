@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8708f450-4eca-58f2-88c7-e3f39b647f9f",
+    "name": "Address Healthcare of FL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/20403360-530e-577c-8a38-f30885bd421a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447098934"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8348 LITTLE ROAD",
+          "STE 149"
+        ],
+        "city": "NEW PORT RICHEY",
+        "state": "FL",
+        "postalCode": "34654-4919"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29651"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29651.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8708f450-4eca-58f2-88c7-e3f39b647f9f"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "84d9aa1c-54e6-5be4-9ac6-fb0e579ac06e",
+    "name": "Sylvania Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3ef95e92-699d-5654-9219-57b40b0ee3b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790942381"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "102 Rocky Ford Road"
+        ],
+        "city": "SYLVANIA",
+        "state": "GA",
+        "postalCode": "30467-2044"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16403"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16403.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:84d9aa1c-54e6-5be4-9ac6-fb0e579ac06e"
+}

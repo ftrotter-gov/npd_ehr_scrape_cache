@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjE3M18yMTczXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "991.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891131298"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "First Pediatrics Medical Group CA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "559-435-1500",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "559-478-5082",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "7413 N CEDAR AVE Suite 101 Fresno, CA 93720-3637",
+        "line": [
+          "7413 N CEDAR AVE",
+          "Suite 101"
+        ],
+        "city": "Fresno",
+        "state": "CA",
+        "postalCode": "93720-3637",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjE3M18yMTczXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjE3M18yMTczXzMwNjA"
+}

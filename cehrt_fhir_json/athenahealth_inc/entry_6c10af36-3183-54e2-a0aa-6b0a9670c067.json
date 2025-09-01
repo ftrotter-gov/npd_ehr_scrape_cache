@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6c10af36-3183-54e2-a0aa-6b0a9670c067",
+    "name": "Radiation Oncology Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c7441411-830f-5323-a602-0fde213c0b38"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457382947"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801808571"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1415 SANTA FE"
+        ],
+        "city": "CORPUS CHRISTI",
+        "state": "TX",
+        "postalCode": "78404-2105"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-996"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-996.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6c10af36-3183-54e2-a0aa-6b0a9670c067"
+}

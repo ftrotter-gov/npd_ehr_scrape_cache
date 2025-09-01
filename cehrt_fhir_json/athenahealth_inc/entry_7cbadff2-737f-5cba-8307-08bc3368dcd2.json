@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7cbadff2-737f-5cba-8307-08bc3368dcd2",
+    "name": "NYPMG_MHB-Medical Records",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d4398b3-4631-56f3-8b92-ee64e6d59c69"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083045090"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1981 Marcus Avenue",
+          "Suite 208"
+        ],
+        "city": "New Hyde Park",
+        "state": "NY",
+        "postalCode": "11042-2060"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7cbadff2-737f-5cba-8307-08bc3368dcd2"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "483a7aa2-1583-5968-a868-63e961cc4c42",
+    "name": "KOG Integrated Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db183f08-e9d9-5734-8ea3-067c1f1ab4d7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922853514"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "810 ELM ST"
+        ],
+        "city": "FAYETTEVILLE",
+        "state": "NC",
+        "postalCode": "28303-4152"
+      },
+      {
+        "line": [
+          "1624 WHITE OAK CHURCH RD STE 100"
+        ],
+        "city": "APEX",
+        "state": "NC",
+        "postalCode": "27523-6071"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30455"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30455.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:483a7aa2-1583-5968-a868-63e961cc4c42"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a0819db7-361c-5d81-a538-9a7debdc159a",
+    "name": "Sunflower Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3ca23e39-5f33-5f84-b64c-3b85da8fbfae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902140098"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3405 NW Hunters Ridge Terrace",
+          "Suite 100"
+        ],
+        "city": "TOPEKA",
+        "state": "KS",
+        "postalCode": "66618-2510"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7235"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7235.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a0819db7-361c-5d81-a538-9a7debdc159a"
+}

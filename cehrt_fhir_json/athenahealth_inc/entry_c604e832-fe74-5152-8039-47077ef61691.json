@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c604e832-fe74-5152-8039-47077ef61691",
+    "name": "Cathy Polk NP, Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4f887041-413e-5e58-95a8-e3c4f07a636c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487611646"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "586 COUNTY ST STE 1 # OPTIONAL"
+        ],
+        "city": "SOMERSET",
+        "state": "MA",
+        "postalCode": "02726-4204"
+      },
+      {
+        "line": [
+          "586 COUNTY ST",
+          "SUITE 1"
+        ],
+        "city": "SOMERSET",
+        "state": "MA",
+        "postalCode": "02726-5034"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23077"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23077.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c604e832-fe74-5152-8039-47077ef61691"
+}

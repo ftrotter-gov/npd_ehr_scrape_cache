@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f199ea0e-f6d8-5bc4-80c9-6d5f3e655d7b",
+    "name": "Robert Lee Access Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/78ec5502-ad4c-574f-91cf-0918c01f001e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134993439"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "307 W 8TH ST"
+        ],
+        "city": "ROBERT LEE",
+        "state": "TX",
+        "postalCode": "76945-5067"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33373"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33373.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f199ea0e-f6d8-5bc4-80c9-6d5f3e655d7b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "70d9cbd2-9b79-5dcc-abfc-70e4d2f3b7e3",
+    "name": "Baylor",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f25834e6-ec92-520e-b3e4-97e32105d456"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023120698"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3500 Gaston Ave"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75246-2017"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8099"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8099.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:70d9cbd2-9b79-5dcc-abfc-70e4d2f3b7e3"
+}

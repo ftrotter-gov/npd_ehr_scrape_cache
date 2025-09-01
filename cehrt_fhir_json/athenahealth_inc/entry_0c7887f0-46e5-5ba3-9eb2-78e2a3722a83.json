@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0c7887f0-46e5-5ba3-9eb2-78e2a3722a83",
+    "name": "SHABACH Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3b9f2122-bd96-5341-a81d-1b35cc3fc86c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477100147"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "403 BRIGHTSEAT RD"
+        ],
+        "city": "HYATTSVILLE",
+        "state": "MD",
+        "postalCode": "20785-4737"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20401"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20401.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0c7887f0-46e5-5ba3-9eb2-78e2a3722a83"
+}

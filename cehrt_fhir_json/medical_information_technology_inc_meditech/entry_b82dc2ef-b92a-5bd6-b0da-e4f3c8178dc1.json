@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b82dc2ef-b92a-5bd6-b0da-e4f3c8178dc1",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://warnerhospital.org"
+      }
+    ],
+    "name": "Warner Hospital and Health Services",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://warnerhospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "422 West White Street"
+        ],
+        "city": "Clinton",
+        "state": "IL",
+        "postalCode": "61727",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:cd71f8bc-5797-4db4-a492-f9d973a8bcaf"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:cd71f8bc-5797-4db4-a492-f9d973a8bcaf"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b82dc2ef-b92a-5bd6-b0da-e4f3c8178dc1"
+}

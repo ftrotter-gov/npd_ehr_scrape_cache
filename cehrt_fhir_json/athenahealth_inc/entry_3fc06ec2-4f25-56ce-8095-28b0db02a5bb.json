@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3fc06ec2-4f25-56ce-8095-28b0db02a5bb",
+    "name": "Riverside Regional Medical Center - OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/79c9c485-7806-50cd-a939-f7d9ae4d2b16"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801979539"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 J CLYDE MORRIS BOULEVARD"
+        ],
+        "city": "NEWPORT NEWS",
+        "state": "VA",
+        "postalCode": "23601-4404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12483"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12483.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3fc06ec2-4f25-56ce-8095-28b0db02a5bb"
+}

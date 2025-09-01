@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "be9b137c-50d0-5f10-8ec3-5f53a03c94f2",
+    "name": "Madison Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2a6ea46d-7c4b-5bbe-967f-6a7b9ff8e531"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245257005"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "293 WEST BASE STREET"
+        ],
+        "city": "MADISON",
+        "state": "FL",
+        "postalCode": "32340-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15996"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15996.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:be9b137c-50d0-5f10-8ec3-5f53a03c94f2"
+}

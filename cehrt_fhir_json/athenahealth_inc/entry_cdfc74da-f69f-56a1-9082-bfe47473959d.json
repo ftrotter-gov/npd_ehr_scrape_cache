@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cdfc74da-f69f-56a1-9082-bfe47473959d",
+    "name": "Joy Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b8090541-4c49-5119-bfa5-85b90dd5b80d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760949200"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4310 S WESTERN ST UNIT E"
+        ],
+        "city": "AMARILLO",
+        "state": "TX",
+        "postalCode": "79109-6036"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15538"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15538.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cdfc74da-f69f-56a1-9082-bfe47473959d"
+}

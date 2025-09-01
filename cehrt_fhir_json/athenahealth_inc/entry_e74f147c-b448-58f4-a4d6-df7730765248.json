@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e74f147c-b448-58f4-a4d6-df7730765248",
+    "name": "Piedmont Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1af1943-8231-5762-8db9-2f2e98afce60"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669406591"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1800 Howell Mill Road",
+          "Suite 250"
+        ],
+        "city": "Atlanta",
+        "state": "GA",
+        "postalCode": "30318-2593"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5080"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5080.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e74f147c-b448-58f4-a4d6-df7730765248"
+}

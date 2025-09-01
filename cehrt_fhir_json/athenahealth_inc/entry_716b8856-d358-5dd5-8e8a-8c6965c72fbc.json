@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "716b8856-d358-5dd5-8e8a-8c6965c72fbc",
+    "name": "Coordinated Health-IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/577a6350-c7e9-5e60-8e65-96c73cbcb4bb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801086251"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "Bethlehem Hospital",
+          "2310 Highland Avenue"
+        ],
+        "city": "BETHLEHEM",
+        "state": "PA",
+        "postalCode": "18020-7500"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12865"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12865.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:716b8856-d358-5dd5-8e8a-8c6965c72fbc"
+}

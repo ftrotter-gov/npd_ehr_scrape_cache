@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "52e30a8c-5027-5736-87b8-ec93a181e1c6",
+    "name": "Wellcare Family Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/be363a47-e5df-5149-8d01-cd184507219b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114481561"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18110 Midway Rd Ste 136"
+        ],
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75287-6632"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24141"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24141.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:52e30a8c-5027-5736-87b8-ec93a181e1c6"
+}

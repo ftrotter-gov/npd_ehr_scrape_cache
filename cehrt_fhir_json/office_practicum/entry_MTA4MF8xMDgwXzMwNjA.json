@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTA4MF8xMDgwXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "224.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912043936"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pediatric Partners LLC MD",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "410-876-5660",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "410-751-7113",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "4C North Ave Suite 400 Bel Air, MD 210142333",
+        "line": [
+          "4C North Ave",
+          "Suite 400"
+        ],
+        "city": "Bel Air",
+        "state": "MD",
+        "postalCode": "210142333",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTA4MF8xMDgwXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTA4MF8xMDgwXzMwNjA"
+}

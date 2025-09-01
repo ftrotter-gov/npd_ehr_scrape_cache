@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d409fb21-27b8-5694-b685-04b28073fefe",
+    "name": "Rocky Mountain Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9a2e0eb9-f434-50e4-a864-627bc99e43c1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215981634"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8585 W 14TH AVE STE B-2"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80215-4860"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15135"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15135.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d409fb21-27b8-5694-b685-04b28073fefe"
+}

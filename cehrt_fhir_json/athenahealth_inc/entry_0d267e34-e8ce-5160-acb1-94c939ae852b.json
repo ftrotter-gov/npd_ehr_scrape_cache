@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0d267e34-e8ce-5160-acb1-94c939ae852b",
+    "name": "MediPsych Solutions",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e5685bed-4134-5f9b-a37d-0e5de3671ec5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770342354"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "127 E TRADE ST",
+          "STE B100"
+        ],
+        "city": "FOREST CITY",
+        "state": "NC",
+        "postalCode": "28043-2201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31258"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31258.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0d267e34-e8ce-5160-acb1-94c939ae852b"
+}

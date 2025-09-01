@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "18a73680-288c-52c6-ad59-dd0543eff767",
+    "name": "Tucker House",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/987dcb14-780a-55f6-b2ec-09f5a17962b3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942521810"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1001 Wallace St."
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19123-2502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25233"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25233.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:18a73680-288c-52c6-ad59-dd0543eff767"
+}

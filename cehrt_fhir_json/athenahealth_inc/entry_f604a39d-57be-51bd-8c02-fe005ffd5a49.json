@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f604a39d-57be-51bd-8c02-fe005ffd5a49",
+    "name": "Suter Davis Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6ba6b11-977a-5a8a-b870-6ecdafcaf016"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407880719"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 Sutter Place"
+        ],
+        "city": "DAVIS",
+        "state": "CA",
+        "postalCode": "95616-6201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f604a39d-57be-51bd-8c02-fe005ffd5a49"
+}

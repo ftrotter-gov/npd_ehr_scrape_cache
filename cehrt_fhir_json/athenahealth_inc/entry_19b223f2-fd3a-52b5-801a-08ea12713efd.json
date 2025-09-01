@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "19b223f2-fd3a-52b5-801a-08ea12713efd",
+    "name": "Telemedicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/28c494d1-e838-5753-923b-b23b8b8e2135"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811996549"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8444 WINTON RD"
+        ],
+        "city": "CINCINNATI",
+        "state": "OH",
+        "postalCode": "45231-4927"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3685"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3685.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:19b223f2-fd3a-52b5-801a-08ea12713efd"
+}

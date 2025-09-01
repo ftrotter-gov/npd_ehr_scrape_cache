@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "640b4b3e-9871-574d-8ece-a89ea7f49080",
+    "name": "Urgent Care on Main",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0dac48b1-7b2b-5078-a12e-80fd855fa7e9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417970849"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2660 E. Main St,",
+          "#100"
+        ],
+        "city": "VENTURA",
+        "state": "CA",
+        "postalCode": "93003-2893"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21226"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21226.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:640b4b3e-9871-574d-8ece-a89ea7f49080"
+}

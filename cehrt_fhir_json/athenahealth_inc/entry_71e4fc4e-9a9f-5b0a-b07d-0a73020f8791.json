@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "71e4fc4e-9a9f-5b0a-b07d-0a73020f8791",
+    "name": "Methodist Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6ba6b11-977a-5a8a-b870-6ecdafcaf016"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407880719"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7500 Hospital Drive"
+        ],
+        "city": "SACRAMENTO",
+        "state": "CA",
+        "postalCode": "95823-5403"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:71e4fc4e-9a9f-5b0a-b07d-0a73020f8791"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1cf8c09c-128c-58cd-adbc-04358442a42e",
+    "name": "Arizona Neurology Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9c8181e2-0439-5175-9fd1-5be008910e59"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861024184"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1976 E BASELINE RD",
+          "STE 101"
+        ],
+        "city": "TEMPE",
+        "state": "AZ",
+        "postalCode": "85283-1533"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21918"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21918.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1cf8c09c-128c-58cd-adbc-04358442a42e"
+}

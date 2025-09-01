@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5f90a028-4100-5eef-a023-51c26b8df6e5",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a1f8b20d-9102-592a-ad9f-69c0efb47a90"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215823497"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "941 E 3300 S"
+        ],
+        "city": "SALT LAKE CITY",
+        "state": "UT",
+        "postalCode": "84106-2100"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13794"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13794.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5f90a028-4100-5eef-a023-51c26b8df6e5"
+}

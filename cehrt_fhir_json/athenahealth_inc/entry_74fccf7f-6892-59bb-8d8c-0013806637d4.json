@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "74fccf7f-6892-59bb-8d8c-0013806637d4",
+    "name": "Athens Surgery Center, LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e007daf1-f5db-5d05-9692-f9217a1ebe4d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467140327"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1500 Oglethorpe Ave",
+          "Suite 500 A"
+        ],
+        "city": "ATHENS",
+        "state": "GA",
+        "postalCode": "30606-2179"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22722"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22722.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:74fccf7f-6892-59bb-8d8c-0013806637d4"
+}

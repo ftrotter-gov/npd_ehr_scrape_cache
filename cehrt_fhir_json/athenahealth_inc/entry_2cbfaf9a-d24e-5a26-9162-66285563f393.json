@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2cbfaf9a-d24e-5a26-9162-66285563f393",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/73b84d7e-9ad5-53f8-b94b-ec3d299d358e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558374702"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4222 COLLEGE ST"
+        ],
+        "city": "BEAUMONT",
+        "state": "TX",
+        "postalCode": "77707-3904"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13313"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13313.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2cbfaf9a-d24e-5a26-9162-66285563f393"
+}

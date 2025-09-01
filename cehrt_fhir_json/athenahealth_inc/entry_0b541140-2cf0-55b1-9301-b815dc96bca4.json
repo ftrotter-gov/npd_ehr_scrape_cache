@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0b541140-2cf0-55b1-9301-b815dc96bca4",
+    "name": "FIRST HOUSTON HEALTHCARE LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a8c1dbfc-aaf4-561f-8758-30ec76835869"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235312901"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "45D1011657"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6300 HILCROFT STREET"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77081-3006"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4667"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4667.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0b541140-2cf0-55b1-9301-b815dc96bca4"
+}

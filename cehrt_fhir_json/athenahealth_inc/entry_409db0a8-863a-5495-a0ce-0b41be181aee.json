@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "409db0a8-863a-5495-a0ce-0b41be181aee",
+    "name": "HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8ba86198-5f54-56dd-80bc-4f369ee6dbb1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194851865"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "205 NE AVE"
+        ],
+        "city": "JACKSON",
+        "state": "MI",
+        "postalCode": "49201-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26148"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26148.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:409db0a8-863a-5495-a0ce-0b41be181aee"
+}

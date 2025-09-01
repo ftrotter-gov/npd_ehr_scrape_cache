@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa0960e0-41d8-5e05-aacc-28ff63cd952e",
+    "name": "02-FL Telehealth-Other than Patient's Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/22b0c209-fcce-51f4-8c37-7d802120c95a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104542232"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "333 SE 2ND AVE"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33131-2176"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27760"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27760.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa0960e0-41d8-5e05-aacc-28ff63cd952e"
+}

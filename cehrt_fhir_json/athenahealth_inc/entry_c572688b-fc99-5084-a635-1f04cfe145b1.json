@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c572688b-fc99-5084-a635-1f04cfe145b1",
+    "name": "Mary Lee Community Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7504c918-2f38-50e9-a0b8-d6afc55cfa92"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083981724"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "25822 W 6 MILE RD"
+        ],
+        "city": "REDFORD",
+        "state": "MI",
+        "postalCode": "48240-2211"
+      },
+      {
+        "line": [
+          "25548 5 MILE RD"
+        ],
+        "city": "REDFORD",
+        "state": "MI",
+        "postalCode": "48239-3229"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27338"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27338.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c572688b-fc99-5084-a635-1f04cfe145b1"
+}

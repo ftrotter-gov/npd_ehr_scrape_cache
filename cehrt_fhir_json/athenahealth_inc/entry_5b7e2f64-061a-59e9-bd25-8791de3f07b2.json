@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5b7e2f64-061a-59e9-bd25-8791de3f07b2",
+    "name": "SPECTRA HELATHCARE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/830d35d8-9461-5e74-8873-bfb38af68069"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447277322"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "10D1026765"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "509 S. ARMENIA AVENUE",
+          "SUITE 302"
+        ],
+        "city": "Tampa",
+        "state": "FL",
+        "postalCode": "33609-3395"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1714"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1714.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5b7e2f64-061a-59e9-bd25-8791de3f07b2"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a65b750b-070c-5745-b9e4-ac0564f8fa09",
+    "name": "Walla Walla Wellness",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7fd4d293-7208-5bd2-8be8-369dc6460b54"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578330304"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "826 S. 2nd Ave",
+          "Suite B"
+        ],
+        "city": "WALLA WALLA",
+        "state": "WA",
+        "postalCode": "99362-2707"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30553"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30553.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a65b750b-070c-5745-b9e4-ac0564f8fa09"
+}

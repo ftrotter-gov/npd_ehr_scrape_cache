@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7f4ed14c-2026-585a-8c9f-9307d4990b2f",
+    "name": "Hospital Inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/40bcc996-2bb7-5c10-b5d9-7eb7b20100d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205974201"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "206 Bay Avenue"
+        ],
+        "city": "RICHTON",
+        "state": "MS",
+        "postalCode": "39476-9665"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11548"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11548.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7f4ed14c-2026-585a-8c9f-9307d4990b2f"
+}

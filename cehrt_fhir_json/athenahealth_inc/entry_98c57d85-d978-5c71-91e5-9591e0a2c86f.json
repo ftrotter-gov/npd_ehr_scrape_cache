@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98c57d85-d978-5c71-91e5-9591e0a2c86f",
+    "name": "Firefly Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/11de2a65-8e9b-5a0f-814d-d070352aae35"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962160937"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2860 10TH AVE N, SUITE 350"
+        ],
+        "city": "GRAND FORKS",
+        "state": "ND",
+        "postalCode": "58203-2276"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25261"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25261.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98c57d85-d978-5c71-91e5-9591e0a2c86f"
+}

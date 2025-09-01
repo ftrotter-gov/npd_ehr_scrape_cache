@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4235dfeb-c313-5b6c-b7b8-f62797a8ef72",
+    "name": "Clark Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3d7a16db-a64f-5705-a041-acb706e39fc4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790195717"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356689079"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "175 Hospital Dr."
+        ],
+        "city": "WINCHESTER",
+        "state": "KY",
+        "postalCode": "40391-1169"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19475"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19475.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4235dfeb-c313-5b6c-b7b8-f62797a8ef72"
+}

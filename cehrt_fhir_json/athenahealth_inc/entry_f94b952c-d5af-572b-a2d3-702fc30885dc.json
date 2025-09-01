@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f94b952c-d5af-572b-a2d3-702fc30885dc",
+    "name": "Omega Family Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/70f22888-838c-5f28-b568-ef39442c57d2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750702049"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7203 HANOVER PKWY",
+          "STE B"
+        ],
+        "city": "GREENBELT",
+        "state": "MD",
+        "postalCode": "20770-2000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21691"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21691.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f94b952c-d5af-572b-a2d3-702fc30885dc"
+}

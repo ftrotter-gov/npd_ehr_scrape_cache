@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "384b1270-0ddc-5653-8b1d-da97a9adfdb0",
+    "name": "St. Lukes Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0cf357ac-496a-5a07-a855-135607ae5e1d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407953581"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1101 OAKRIDGE DR STE B"
+        ],
+        "city": "FORT COLLINS",
+        "state": "CO",
+        "postalCode": "80525-5536"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18545"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18545.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:384b1270-0ddc-5653-8b1d-da97a9adfdb0"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8690e479-a20d-55cb-9fcd-68046053933a",
+    "name": "Falmouth Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e3775e17-5870-5ddc-99ea-d5765d7854a2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770534927"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Ter Heun Drive"
+        ],
+        "city": "FALMOUTH",
+        "state": "MA",
+        "postalCode": "02540-2503"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-961"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-961.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8690e479-a20d-55cb-9fcd-68046053933a"
+}

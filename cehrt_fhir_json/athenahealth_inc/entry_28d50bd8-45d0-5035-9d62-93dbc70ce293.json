@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "28d50bd8-45d0-5035-9d62-93dbc70ce293",
+    "name": "Bayou Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0884e45e-36a6-53ac-b696-c37d74267f5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972075372"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1947 HWY 146"
+        ],
+        "city": "DAYTON",
+        "state": "TX",
+        "postalCode": "77535-2315"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21380"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21380.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:28d50bd8-45d0-5035-9d62-93dbc70ce293"
+}

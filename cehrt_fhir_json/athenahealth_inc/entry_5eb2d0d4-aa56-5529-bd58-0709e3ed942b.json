@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5eb2d0d4-aa56-5529-bd58-0709e3ed942b",
+    "name": "Free Clinic of Culpeper",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/949cd06a-7cde-59fb-9409-b05b15f9397b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "610 Laurel Street",
+          "Suite 3"
+        ],
+        "city": "CULPEPER",
+        "state": "VA",
+        "postalCode": "22701-3932"
+      },
+      {
+        "line": [
+          "610 LAUREL STREET SUITE 3"
+        ],
+        "city": "CULPEPER",
+        "state": "VA",
+        "postalCode": "22701-3932"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16535"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16535.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5eb2d0d4-aa56-5529-bd58-0709e3ed942b"
+}

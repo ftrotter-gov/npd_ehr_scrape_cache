@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "09a46052-40a4-501a-abfa-608ff6c88919",
+    "meta": {
+      "lastUpdated": "2023-05-01T15:01:39.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://hammondhenry.com"
+      }
+    ],
+    "name": "Hammond-Henry Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://hammondhenry.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 North College Avenue"
+        ],
+        "city": "Geneseo",
+        "state": "IL",
+        "postalCode": "61254",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:12280eed-5521-45fb-b4b2-b5ce282b1f99"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:12280eed-5521-45fb-b4b2-b5ce282b1f99"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:09a46052-40a4-501a-abfa-608ff6c88919"
+}

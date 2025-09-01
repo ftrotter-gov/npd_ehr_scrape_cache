@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM06U-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM06U"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Health Edge Medical Care PLL",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6314754646"
+      },
+      {
+        "system": "fax",
+        "value": "6314475234"
+      }
+    ],
+    "address": [
+      {
+        "text": "504 Medford Ave Patchogue NY 117721321 US",
+        "line": [
+          "504 Medford Ave"
+        ],
+        "city": "Patchogue",
+        "state": "NY",
+        "postalCode": "117721321",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM06U-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM06U-Organization-2"
+}

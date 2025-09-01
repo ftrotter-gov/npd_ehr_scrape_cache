@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2dc9b584-b7d4-5ceb-86f4-07391c116b4f",
+    "name": "Dr. Elawar's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2c0871b2-9087-5a9b-a312-eee3617ab081"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891802922"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "480 EAST JEFFERSON ST.",
+          "STE C"
+        ],
+        "city": "BUTLER",
+        "state": "PA",
+        "postalCode": "16001-4780"
+      },
+      {
+        "line": [
+          "480 E Jefferson St",
+          "Ste C"
+        ],
+        "city": "BUTLER",
+        "state": "PA",
+        "postalCode": "16001-4780"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20206"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20206.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2dc9b584-b7d4-5ceb-86f4-07391c116b4f"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9a1871c-fc65-55e7-8deb-a8fd8492ae8b",
+    "name": "Tulane Lakeside Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4fa497cd-3948-5ad1-8832-3f13311761b6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649351529"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4700 S I 10 SERVICE RD W"
+        ],
+        "city": "METAIRIE",
+        "state": "LA",
+        "postalCode": "70001-1210"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29975"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29975.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9a1871c-fc65-55e7-8deb-a8fd8492ae8b"
+}

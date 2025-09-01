@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c07e902-af53-5d2e-bcae-2d2dd2294bc2",
+    "name": "Knox Primary Care LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/013974db-5c6d-50a2-96ef-d409dfdff854"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417769779"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9314 PARK WEST BLVD",
+          "STE 404"
+        ],
+        "city": "KNOXVILLE",
+        "state": "TN",
+        "postalCode": "37923-4329"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32963"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32963.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c07e902-af53-5d2e-bcae-2d2dd2294bc2"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d517283e-10cb-563a-8c0b-ad8c41bf23f0",
+    "name": "Choice Family",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e51b46d9-9f77-5901-91f0-245a3c3cace8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235812512"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11402 N NEWPORT HWY STE A & B"
+        ],
+        "city": "SPOKANE",
+        "state": "WA",
+        "postalCode": "99218-1661"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29211"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29211.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d517283e-10cb-563a-8c0b-ad8c41bf23f0"
+}

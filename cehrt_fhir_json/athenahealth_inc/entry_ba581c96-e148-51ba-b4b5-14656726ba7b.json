@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ba581c96-e148-51ba-b4b5-14656726ba7b",
+    "name": "Fort Wayne Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/090e11a8-9bc9-5ab8-9129-2e27ceafaa74"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528707619"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7802 W JEFFERSON BLVD, SUITE C"
+        ],
+        "city": "FORT WAYNE",
+        "state": "IN",
+        "postalCode": "46804-4138"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26403"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26403.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ba581c96-e148-51ba-b4b5-14656726ba7b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ff92aa2b-e90b-507c-86bb-d3e19a6a43fe",
+    "name": "St Louise Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b99b4dad-adbf-5ee9-a202-69aec7b1408f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437599032"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9400 No Name Uno"
+        ],
+        "city": "GILROY",
+        "state": "CA",
+        "postalCode": "95020-3528"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7346"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7346.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ff92aa2b-e90b-507c-86bb-d3e19a6a43fe"
+}

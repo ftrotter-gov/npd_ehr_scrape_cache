@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7adddd3c-c7e9-5b67-89cd-a5cbf82cf55a",
+    "name": "Highlands Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/abd6b908-4947-501e-b1e2-b980488b0c38"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700097417"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "401 Sewell Dr"
+        ],
+        "city": "SPARTA",
+        "state": "TN",
+        "postalCode": "38583-1223"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3995"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3995.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7adddd3c-c7e9-5b67-89cd-a5cbf82cf55a"
+}

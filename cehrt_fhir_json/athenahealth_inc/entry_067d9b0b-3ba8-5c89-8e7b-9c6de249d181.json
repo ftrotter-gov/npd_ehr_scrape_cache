@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "067d9b0b-3ba8-5c89-8e7b-9c6de249d181",
+    "name": "Familias Unidas",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0994ba87-8f00-56f7-9f3b-1d24d7ec1fc5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "256 24TH ST"
+        ],
+        "city": "RICHMOND",
+        "state": "CA",
+        "postalCode": "94804-1804"
+      },
+      {
+        "line": [
+          "205 39TH ST"
+        ],
+        "city": "RICHMOND",
+        "state": "CA",
+        "postalCode": "94805-2212"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27396"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27396.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:067d9b0b-3ba8-5c89-8e7b-9c6de249d181"
+}

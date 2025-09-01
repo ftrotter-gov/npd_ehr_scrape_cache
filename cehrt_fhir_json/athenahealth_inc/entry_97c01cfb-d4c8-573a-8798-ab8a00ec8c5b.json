@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "97c01cfb-d4c8-573a-8798-ab8a00ec8c5b",
+    "name": "UHS BINGHAMTON GENERAL HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/05af2b60-e7ef-5121-aaef-dec9eb76de1b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831439660"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10-42 MITCHELL AVENUE"
+        ],
+        "city": "BINGHAMTON",
+        "state": "NY",
+        "postalCode": "13903-1617"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11190"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11190.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:97c01cfb-d4c8-573a-8798-ab8a00ec8c5b"
+}

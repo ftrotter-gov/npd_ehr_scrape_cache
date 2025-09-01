@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "725723dd-fa60-5c4c-9789-7e984f0a5cf5",
+    "name": "Sunnyview Outpatient Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e390e632-aa3f-567b-a157-2f27e7c66d9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346771193"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578664470"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1270 Belmont Avenue"
+        ],
+        "city": "Schenectady",
+        "state": "NY",
+        "postalCode": "12308-2104"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15557"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15557.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:725723dd-fa60-5c4c-9789-7e984f0a5cf5"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "c0a269a1-cbf2-4c70-b159-3a5f99c399b6",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3fd5f831-0cad-4067-8a70-9e681a302979",
+        "name": "Carolina Digestive Disease Pa"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Carolina Digestive Disease Pa",
+    "managingOrganization": {
+      "reference": "#3fd5f831-0cad-4067-8a70-9e681a302979"
+    },
+    "period": {
+      "start": "2018-07-10T15:10:42+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0900850"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0900850"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a72e8912-c7ac-5e60-b11b-859c79c15fa7",
+    "name": "NP Psychiatry Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/14a52b70-a3dd-50d7-ab0a-ea76d8ee46f9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336708924"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "116 WEST 23RD STREET, FLOOR 5"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10011-2599"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24059"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24059.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a72e8912-c7ac-5e60-b11b-859c79c15fa7"
+}

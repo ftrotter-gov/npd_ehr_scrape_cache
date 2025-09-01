@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "50438ab6-608f-57f9-b906-28ee9e152f18",
+    "name": "MEDICAL CITY - ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f9070ec2-2ce4-5a54-8f5a-4ca19433e2cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043593528"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7777 FOREST LANE"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75230-2571"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4810"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4810.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:50438ab6-608f-57f9-b906-28ee9e152f18"
+}

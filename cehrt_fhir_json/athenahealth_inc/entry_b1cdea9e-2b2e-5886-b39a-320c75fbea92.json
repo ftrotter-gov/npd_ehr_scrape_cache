@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1cdea9e-2b2e-5886-b39a-320c75fbea92",
+    "name": "PCA Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/750ac46e-f96a-5404-82c0-671317ac4904"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033321658"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9755 N 90TH ST",
+          "SUITE B295"
+        ],
+        "city": "SCOTTSDALE",
+        "state": "AZ",
+        "postalCode": "85258-5071"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8854"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8854.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1cdea9e-2b2e-5886-b39a-320c75fbea92"
+}

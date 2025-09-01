@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e8c26e61-61d0-5c62-99db-3194aa78a37d",
+    "name": "Bluefield Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d106810d-2a9e-556b-b5ce-f4a8c26a674d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518273507"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "106 HUFFARD DR"
+        ],
+        "city": "BLUEFIELD",
+        "state": "VA",
+        "postalCode": "24605-9209"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2694"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2694.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e8c26e61-61d0-5c62-99db-3194aa78a37d"
+}

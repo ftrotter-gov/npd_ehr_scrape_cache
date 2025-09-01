@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "84c85f5c-cd2f-57de-a271-51aec4ddf593",
+    "name": "SPH Specialty Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b137a111-e5ba-5586-b063-4d8b9c63bfcc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1679566269"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4201 Bartlett",
+          "STE 201"
+        ],
+        "city": "HOMER",
+        "state": "AK",
+        "postalCode": "99603-7015"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14977"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14977.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:84c85f5c-cd2f-57de-a271-51aec4ddf593"
+}

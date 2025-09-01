@@ -1,0 +1,65 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "NTM1XzUzNV8zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "957.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215018023"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Sweet Water Pediatrics LLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "678-957-8283",
+        "use": "work",
+        "rank": 1
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "2518 Duluth Highway Suite 102 Duluth, GA 30097-4200",
+        "line": [
+          "2518 Duluth Highway",
+          "Suite 102"
+        ],
+        "city": "Duluth",
+        "state": "GA",
+        "postalCode": "30097-4200",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/NTM1XzUzNV8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/NTM1XzUzNV8zMDYw"
+}

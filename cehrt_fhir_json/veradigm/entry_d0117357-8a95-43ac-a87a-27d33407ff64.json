@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "d0117357-8a95-43ac-a87a-27d33407ff64",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "8e41ee54-2329-4dde-bd00-b47c5e2c3c4d",
+        "name": "Specialty Orthopaedics Psc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Specialty Orthopaedics Psc",
+    "managingOrganization": {
+      "reference": "#8e41ee54-2329-4dde-bd00-b47c5e2c3c4d"
+    },
+    "period": {
+      "start": "2018-12-05T09:42:11+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0007596"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0007596"
+}

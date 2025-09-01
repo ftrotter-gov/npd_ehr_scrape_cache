@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2111e170-c487-5abb-8076-2638e050f8a1",
+    "name": "Greene Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e992b51-68c1-5866-9b8d-ce66122ef8a3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205527124"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "409 S MARKET BLVD",
+          "SUITE 11"
+        ],
+        "city": "CHEHALIS",
+        "state": "WA",
+        "postalCode": "98532-3043"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27401"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27401.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2111e170-c487-5abb-8076-2638e050f8a1"
+}

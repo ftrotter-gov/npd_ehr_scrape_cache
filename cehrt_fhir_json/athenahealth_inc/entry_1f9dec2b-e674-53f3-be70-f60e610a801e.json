@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1f9dec2b-e674-53f3-be70-f60e610a801e",
+    "name": "Dr. Greer's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2278c787-aa95-556f-9aeb-082f8a28dd5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699969428"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8140 COLLEGE PKWY STE 101"
+        ],
+        "city": "FORT MYERS",
+        "state": "FL",
+        "postalCode": "33919-5189"
+      },
+      {
+        "line": [
+          "12631 WORLD PLAZA LN"
+        ],
+        "city": "FORT MYERS",
+        "state": "FL",
+        "postalCode": "33907-3990"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1f9dec2b-e674-53f3-be70-f60e610a801e"
+}

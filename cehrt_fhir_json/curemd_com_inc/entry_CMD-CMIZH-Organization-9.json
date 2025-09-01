@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMIZH-Organization-9",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMIZH"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Osage County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5738973103"
+      },
+      {
+        "system": "fax",
+        "value": "5738974915"
+      },
+      {
+        "system": "url",
+        "value": "osagecountyhd.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "1218 E Main Street Linn MO 65051 US",
+        "line": [
+          "1218 E Main Street"
+        ],
+        "city": "Linn",
+        "state": "MO",
+        "postalCode": "65051",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMIZH-Endpoint-9"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMIZH-Organization-9"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "02c97fe6-1323-48c1-b2e5-4676e205eae8",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d1a8899e-88de-4d65-bfd4-7db65bdc550b",
+        "name": "Family Health Care of Northwest Ohio Inc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Family Health Care of Northwest Ohio Inc",
+    "managingOrganization": {
+      "reference": "#d1a8899e-88de-4d65-bfd4-7db65bdc550b"
+    },
+    "period": {
+      "start": "2019-06-26T15:37:26+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10007750"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10007750"
+}

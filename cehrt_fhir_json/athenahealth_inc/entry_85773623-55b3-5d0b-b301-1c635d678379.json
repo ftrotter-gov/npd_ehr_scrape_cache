@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "85773623-55b3-5d0b-b301-1c635d678379",
+    "name": "TNJ Primary Care & TNJ Wellness",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6252ef55-97bb-5442-ba60-24450c8cff7f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285370858"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1331 H ST NW STE 200"
+        ],
+        "city": "WASHINGTON",
+        "state": "DC",
+        "postalCode": "20005-4706"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27357"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27357.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:85773623-55b3-5d0b-b301-1c635d678379"
+}

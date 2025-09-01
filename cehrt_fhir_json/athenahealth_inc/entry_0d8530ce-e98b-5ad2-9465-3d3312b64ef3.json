@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0d8530ce-e98b-5ad2-9465-3d3312b64ef3",
+    "name": "MERCY HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/89e3818c-c257-5989-a1d3-b07fb44778e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285833236"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "144 STATE ST"
+        ],
+        "city": "PORTLAND",
+        "state": "ME",
+        "postalCode": "04101-3776"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15149"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15149.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0d8530ce-e98b-5ad2-9465-3d3312b64ef3"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9562e159-7bcb-5b89-bd61-df324456d1a4",
+    "name": "HOPE at the Crossroads",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d18c091d-9466-596b-a1ee-4fe5664b1854"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "433 SCOTT ST"
+        ],
+        "city": "BRISTOL",
+        "state": "VA",
+        "postalCode": "24201-4301"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17155"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17155.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9562e159-7bcb-5b89-bd61-df324456d1a4"
+}

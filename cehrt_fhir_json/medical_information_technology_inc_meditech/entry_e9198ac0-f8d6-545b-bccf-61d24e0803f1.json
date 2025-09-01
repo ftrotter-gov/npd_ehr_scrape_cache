@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e9198ac0-f8d6-545b-bccf-61d24e0803f1",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://sturgishospital.com"
+      }
+    ],
+    "name": "Sturgis Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://sturgishospital.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "916 Myrtle Avenue"
+        ],
+        "city": "Sturgis",
+        "state": "MI",
+        "postalCode": "49091",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:71e7c5e5-5d1c-4916-8795-218b8f5616d9"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:71e7c5e5-5d1c-4916-8795-218b8f5616d9"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e9198ac0-f8d6-545b-bccf-61d24e0803f1"
+}

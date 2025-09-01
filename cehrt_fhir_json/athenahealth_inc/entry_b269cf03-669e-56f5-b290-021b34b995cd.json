@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b269cf03-669e-56f5-b290-021b34b995cd",
+    "name": "Wong Family Practice - 751 Rockville Pike",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013042480"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "751 ROCKVILLE PIKE",
+          "STE 13A"
+        ],
+        "city": "ROCKVILLE",
+        "state": "MD",
+        "postalCode": "20852-1129"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b269cf03-669e-56f5-b290-021b34b995cd"
+}

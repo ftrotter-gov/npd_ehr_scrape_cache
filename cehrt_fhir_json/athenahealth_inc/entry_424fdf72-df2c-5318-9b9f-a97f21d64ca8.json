@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "424fdf72-df2c-5318-9b9f-a97f21d64ca8",
+    "name": "Requested Appointments",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff6bf3f5-9b80-525e-a928-b450123a6d76"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255115853"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 2ND AVE"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98101-3020"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29863"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29863.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:424fdf72-df2c-5318-9b9f-a97f21d64ca8"
+}

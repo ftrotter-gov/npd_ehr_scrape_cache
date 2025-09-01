@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0d234c59-761f-5cad-9e58-b618cc2f0417",
+    "name": "Laser and Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7dbff1d4-9a3f-5c89-a8e1-5262fa3a4a64"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811932791"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "345 COLLEGE ST SE",
+          "STE A"
+        ],
+        "city": "LACEY",
+        "state": "WA",
+        "postalCode": "98503-1014"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20618"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20618.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0d234c59-761f-5cad-9e58-b618cc2f0417"
+}

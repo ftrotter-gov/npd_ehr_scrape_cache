@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0c47e39-6768-5f19-8462-9848201b720a",
+    "name": "Patient Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/69228288-923c-5e4c-824f-95632b5d55bb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538533534"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2338 Immokalee Road",
+          "Ste 161"
+        ],
+        "city": "NAPLES",
+        "state": "FL",
+        "postalCode": "34110-1445"
+      },
+      {
+        "line": [
+          "2338 Immokalee Road",
+          "Suite 161"
+        ],
+        "city": "NAPLES",
+        "state": "FL",
+        "postalCode": "34110-1445"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12825"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12825.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0c47e39-6768-5f19-8462-9848201b720a"
+}

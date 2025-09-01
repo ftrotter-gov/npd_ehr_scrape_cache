@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a40f208-8c73-5510-b645-bf9166a612ec",
+    "name": "Aurora Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ac476dd0-e371-5781-98ea-6e4a1d5ea5cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942788211"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9811 MALLARD DR STE 114"
+        ],
+        "city": "LAUREL",
+        "state": "MD",
+        "postalCode": "20708-3180"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20254"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20254.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a40f208-8c73-5510-b645-bf9166a612ec"
+}

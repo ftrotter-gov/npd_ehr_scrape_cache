@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4b11b1e8-b3be-5aa2-8f47-60edee3e547d",
+    "name": "Medical City Dallas Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bb11e6b8-0a53-59b1-863e-99c6313d05ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982717955"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386265353"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7777 Forest Lane"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75230-2571"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21398"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21398.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4b11b1e8-b3be-5aa2-8f47-60edee3e547d"
+}

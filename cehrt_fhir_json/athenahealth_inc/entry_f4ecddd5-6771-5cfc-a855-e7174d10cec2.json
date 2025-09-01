@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f4ecddd5-6771-5cfc-a855-e7174d10cec2",
+    "name": "Dr. Jose's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/acc1f03f-8316-5960-ba53-e3adb4230c66"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053581868"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "688 POST RD"
+        ],
+        "city": "DARIEN",
+        "state": "CT",
+        "postalCode": "06820-4717"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10855"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10855.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f4ecddd5-6771-5cfc-a855-e7174d10cec2"
+}

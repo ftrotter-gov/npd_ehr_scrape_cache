@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMZDC-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMZDC"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "ERIC C LUNDGREN MD",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8143718569"
+      },
+      {
+        "system": "fax",
+        "value": "8143718603"
+      },
+      {
+        "system": "email",
+        "value": "smorelli2@verizon.net"
+      }
+    ],
+    "address": [
+      {
+        "text": "605 S MAIN ST Du Bois PA 158011479 US",
+        "line": [
+          "605 S MAIN ST"
+        ],
+        "city": "Du Bois",
+        "state": "PA",
+        "postalCode": "158011479",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMZDC-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMZDC-Organization-2"
+}

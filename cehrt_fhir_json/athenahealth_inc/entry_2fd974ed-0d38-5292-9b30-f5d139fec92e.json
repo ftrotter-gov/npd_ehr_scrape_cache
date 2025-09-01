@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2fd974ed-0d38-5292-9b30-f5d139fec92e",
+    "name": "AZH Vascular Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6bc60d4d-ac88-57be-8a1c-906b3e05faac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508312570"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 W LAYTON STE 40"
+        ],
+        "city": "MILWAUKEE",
+        "state": "WI",
+        "postalCode": "53221-5420"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25552"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25552.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2fd974ed-0d38-5292-9b30-f5d139fec92e"
+}

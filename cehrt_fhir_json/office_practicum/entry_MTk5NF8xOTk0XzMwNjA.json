@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTk5NF8xOTk0XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "797.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407980717"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Gomez Yim and Rastogi MD PA MD",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "410-838-9555",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "410-836-5056",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "602 S Atwood Road Suite 104 Bel Air, MD 210144305",
+        "line": [
+          "602 S Atwood Road",
+          "Suite 104"
+        ],
+        "city": "Bel Air",
+        "state": "MD",
+        "postalCode": "210144305",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTk5NF8xOTk0XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTk5NF8xOTk0XzMwNjA"
+}

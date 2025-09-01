@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2a44e4c9-a794-50ff-831b-93a00df4fa79",
+    "name": "State of Vermont",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca3ec986-92cf-5611-ac19-ca3b8779e85a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851722417"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "798 US ROUTE 302",
+          "New London"
+        ],
+        "city": "BARRE",
+        "state": "VT",
+        "postalCode": "05641-2305"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8963"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8963.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2a44e4c9-a794-50ff-831b-93a00df4fa79"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9f0a05e3-38df-5af4-80fc-077e7194bf7c",
+    "name": "Green Mountain Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/610f4483-c4b7-5425-976b-72378b0a435e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265901938"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "102A COURT STREET"
+        ],
+        "city": "MIDDLEBURY",
+        "state": "VT",
+        "postalCode": "05753-1472"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18903"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18903.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9f0a05e3-38df-5af4-80fc-077e7194bf7c"
+}

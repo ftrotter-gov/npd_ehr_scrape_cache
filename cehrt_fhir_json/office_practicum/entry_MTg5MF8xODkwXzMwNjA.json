@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTg5MF8xODkwXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "772.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174583694"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Robert D Lehman MD PC VA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "757-473-3200",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "757-389-8123",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "200 Grayson Rd Suite 101 Virginia Beach, VA 23462-3745",
+        "line": [
+          "200 Grayson Rd",
+          "Suite 101"
+        ],
+        "city": "Virginia Beach",
+        "state": "VA",
+        "postalCode": "23462-3745",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTg5MF8xODkwXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTg5MF8xODkwXzMwNjA"
+}

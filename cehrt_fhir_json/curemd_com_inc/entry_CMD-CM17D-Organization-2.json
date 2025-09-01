@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM17D-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM17D"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Manchester Health Dept.",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6036246466"
+      },
+      {
+        "system": "fax",
+        "value": "6036286004"
+      },
+      {
+        "system": "url",
+        "value": "https://www.manchesternh.gov/Departments/Health"
+      }
+    ],
+    "address": [
+      {
+        "text": "1528 Elm Street Manchester NH 3101 US",
+        "line": [
+          "1528 Elm Street"
+        ],
+        "city": "Manchester",
+        "state": "NH",
+        "postalCode": "3101",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM17D-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM17D-Organization-2"
+}

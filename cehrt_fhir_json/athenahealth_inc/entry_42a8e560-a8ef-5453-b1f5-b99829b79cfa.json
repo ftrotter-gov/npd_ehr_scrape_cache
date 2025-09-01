@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42a8e560-a8ef-5453-b1f5-b99829b79cfa",
+    "name": "Advanced Care Connections",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/01bf0f74-ce9e-52b8-ba9f-8c5f77a4c88c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780059790"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "110 N JOHNSON ST"
+        ],
+        "city": "BLUFFTON",
+        "state": "IN",
+        "postalCode": "46714-1910"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17849"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17849.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42a8e560-a8ef-5453-b1f5-b99829b79cfa"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "d221d483-4266-4e0e-895a-f739fb6b6ebf",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "286a6744-4c3c-4467-8dea-384c13b4a855",
+        "name": "Padma Wijetilleke MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Padma Wijetilleke MD",
+    "managingOrganization": {
+      "reference": "#286a6744-4c3c-4467-8dea-384c13b4a855"
+    },
+    "period": {
+      "start": "2018-08-28T15:02:06+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/74587"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/74587"
+}

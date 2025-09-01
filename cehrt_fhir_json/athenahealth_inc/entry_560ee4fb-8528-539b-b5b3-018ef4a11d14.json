@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "560ee4fb-8528-539b-b5b3-018ef4a11d14",
+    "name": "Bayshore medical center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a1882bf-37e1-51df-b2e3-1ba48cecdf31"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396880845"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4000 Spencer Hwy"
+        ],
+        "city": "PASADENA",
+        "state": "TX",
+        "postalCode": "77504-1910"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5911"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5911.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:560ee4fb-8528-539b-b5b3-018ef4a11d14"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c92de9b7-c19b-5a07-abc7-72f18817039a",
+    "name": "Southside OB/GYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/22b63ecf-dcf4-588d-82dc-74510237871d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427322882"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1380 NE Miami Gardens Dr",
+          "STE 138"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33179-4744"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12360"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12360.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c92de9b7-c19b-5a07-abc7-72f18817039a"
+}

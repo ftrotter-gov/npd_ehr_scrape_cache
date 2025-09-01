@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d54243d8-5b82-5d6c-a447-c97c6d7f5d41",
+    "name": "Fademos Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/18e6d95a-2419-5884-9ca8-c386ebc5bb80"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801138896"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "16 OLD ASHTON RD"
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19152-1661"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22343"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22343.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d54243d8-5b82-5d6c-a447-c97c6d7f5d41"
+}

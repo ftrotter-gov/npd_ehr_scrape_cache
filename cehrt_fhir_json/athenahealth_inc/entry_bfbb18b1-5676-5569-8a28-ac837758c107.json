@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bfbb18b1-5676-5569-8a28-ac837758c107",
+    "name": "Christian Free Clinic in Botetourt",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ea3f6ca-b3f4-5145-8fe4-309f42923cac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7330 ROANOKE ROAD, BOX 707",
+          "BOX 707"
+        ],
+        "city": "FINCASTLE",
+        "state": "VA",
+        "postalCode": "24090-5237"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18074"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18074.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bfbb18b1-5676-5569-8a28-ac837758c107"
+}

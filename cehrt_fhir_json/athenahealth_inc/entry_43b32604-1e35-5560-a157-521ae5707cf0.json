@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "43b32604-1e35-5560-a157-521ae5707cf0",
+    "name": "Suburban Urology Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a9a6810d-231a-5762-b273-2ba7a8d3c523"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891755351"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043501448"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3340 S OAK PK AVE",
+          "SUITE305"
+        ],
+        "city": "BERWYN",
+        "state": "IL",
+        "postalCode": "60402-3420"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3164"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3164.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:43b32604-1e35-5560-a157-521ae5707cf0"
+}

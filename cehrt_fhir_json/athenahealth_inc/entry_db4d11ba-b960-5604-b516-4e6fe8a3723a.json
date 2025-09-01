@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db4d11ba-b960-5604-b516-4e6fe8a3723a",
+    "name": "MGH Gastroenterology Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/48818081-aa47-5e0c-bd25-ede2857262e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891013496"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "616 S. Washington St"
+        ],
+        "city": "BASTROP",
+        "state": "LA",
+        "postalCode": "71220-5033"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29430"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29430.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db4d11ba-b960-5604-b516-4e6fe8a3723a"
+}

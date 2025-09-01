@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5b362d9f-89dd-55a0-ae30-cef4c193a438",
+    "name": "Physicians for OBGYN Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/456ca376-b061-57df-ab45-953680067584"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659060010"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1800 TOWN CENTER DR STE 222"
+        ],
+        "city": "RESTON",
+        "state": "VA",
+        "postalCode": "20190-3238"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31204"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31204.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5b362d9f-89dd-55a0-ae30-cef4c193a438"
+}

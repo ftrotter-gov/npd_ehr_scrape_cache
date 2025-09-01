@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b6fd0a8a-be87-515e-b0d7-fffefc461dff",
+    "name": "Identity Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1f0f2e73-43cf-511c-9519-c3d57f365fb8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225633449"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "307 EAST NORTHERN LIGHTS BLVD",
+          "SUITE 101"
+        ],
+        "city": "ANCHORAGE",
+        "state": "AK",
+        "postalCode": "99503-2701"
+      },
+      {
+        "line": [
+          "307 E NORTHERN LIGHTS BLVD STE 101"
+        ],
+        "city": "ANCHORAGE",
+        "state": "AK",
+        "postalCode": "99503-2701"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23050"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23050.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b6fd0a8a-be87-515e-b0d7-fffefc461dff"
+}

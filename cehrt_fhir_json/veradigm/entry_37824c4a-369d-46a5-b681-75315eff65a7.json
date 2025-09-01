@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "37824c4a-369d-46a5-b681-75315eff65a7",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "a75f1bbb-ab75-4de6-870c-829887f78424",
+        "name": "San Antonio Kidney"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "San Antonio Kidney",
+    "managingOrganization": {
+      "reference": "#a75f1bbb-ab75-4de6-870c-829887f78424"
+    },
+    "period": {
+      "start": "2018-08-30T13:43:46+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10038025"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10038025"
+}

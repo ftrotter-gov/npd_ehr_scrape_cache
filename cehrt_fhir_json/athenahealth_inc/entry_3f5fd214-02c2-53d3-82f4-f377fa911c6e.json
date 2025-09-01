@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f5fd214-02c2-53d3-82f4-f377fa911c6e",
+    "name": "Boulder Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0eeef342-ddd1-5e91-b7ff-f2b99c45645e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922043645"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1136 Alpine Ave #115"
+        ],
+        "city": "BOULDER",
+        "state": "CO",
+        "postalCode": "80304-3421"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10688"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10688.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f5fd214-02c2-53d3-82f4-f377fa911c6e"
+}

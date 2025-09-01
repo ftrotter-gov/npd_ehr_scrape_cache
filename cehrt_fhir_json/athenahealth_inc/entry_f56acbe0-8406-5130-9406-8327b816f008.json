@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f56acbe0-8406-5130-9406-8327b816f008",
+    "name": "Middlesex Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0913610f-2689-5176-9d36-b6aaaf9643cd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184606865"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "41 Highland Avenue"
+        ],
+        "city": "WINCHESTER",
+        "state": "MA",
+        "postalCode": "01890-1446"
+      },
+      {
+        "line": [
+          "46 Woburn Street"
+        ],
+        "city": "READING",
+        "state": "MA",
+        "postalCode": "01867-2901"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-391.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f56acbe0-8406-5130-9406-8327b816f008"
+}

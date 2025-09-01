@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f36017ef-fea8-57f3-b405-ab25b4eca073",
+    "name": "Texas Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cff2cb2e-c357-564b-9df8-0a367cb6e795"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346681061"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5609 Deauville Blvd"
+        ],
+        "city": "MIDLAND",
+        "state": "TX",
+        "postalCode": "79706-2870"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3522"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3522.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f36017ef-fea8-57f3-b405-ab25b4eca073"
+}

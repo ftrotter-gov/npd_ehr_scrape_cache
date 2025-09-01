@@ -1,0 +1,73 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9b53851f-10e0-51e4-915e-633b780f6483",
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://myccmc.org"
+      }
+    ],
+    "name": "Copiah County Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://myccmc.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "27190 Highway 28"
+        ],
+        "city": "Hazlehurst",
+        "state": "MS",
+        "postalCode": "39083",
+        "country": "United States"
+      }
+    ],
+    "meta": {
+      "lastUpdated": "2024-03-13T20:09:21.969Z"
+    },
+    "endpoint": [
+      {
+        "reference": "urn:uuid:b81e0b4a-1446-5763-8499-df144e3ebc4e"
+      },
+      {
+        "reference": "urn:uuid:a748d97a-a4ba-4a4c-9368-7f877c95a07c"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:b81e0b4a-1446-5763-8499-df144e3ebc4e"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:a748d97a-a4ba-4a4c-9368-7f877c95a07c"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9b53851f-10e0-51e4-915e-633b780f6483"
+}

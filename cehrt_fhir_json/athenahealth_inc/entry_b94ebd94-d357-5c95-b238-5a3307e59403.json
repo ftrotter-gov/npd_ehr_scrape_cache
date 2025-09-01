@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b94ebd94-d357-5c95-b238-5a3307e59403",
+    "name": "inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ade821df-895a-56e3-8e94-e3077d4fc83d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902428840"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285629535"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881789659"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821087230"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "211 Cherry Ave"
+        ],
+        "city": "OAKLEY",
+        "state": "KS",
+        "postalCode": "67748-1218"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11985"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11985.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b94ebd94-d357-5c95-b238-5a3307e59403"
+}

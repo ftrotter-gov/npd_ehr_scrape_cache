@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0c2786ec-8f8c-5175-8c68-e447769ee329",
+    "name": "Nucleus Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e7e309a-e65d-57b6-8ede-376f553513ef"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982882742"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1323 COON RAPIDS BLVD NW STE A"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55433-5382"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27542"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27542.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0c2786ec-8f8c-5175-8c68-e447769ee329"
+}

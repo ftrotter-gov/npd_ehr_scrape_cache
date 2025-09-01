@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ee47588-203a-5af9-aa99-aa7f58e72e7d",
+    "name": "We Care for Dr. Cornejo for Oral Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f5300147-08e6-5039-b9aa-ca2c4604b108"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 AVE K SE, STE 14A",
+          "WINTER HAVEN ORAL SX"
+        ],
+        "city": "WINTER HAVEN",
+        "state": "FL",
+        "postalCode": "33880-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18417"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18417.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ee47588-203a-5af9-aa99-aa7f58e72e7d"
+}

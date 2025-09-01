@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "17ecc2cd-dc5d-5cde-8664-3db863660db7",
+    "name": "MERCY REGIONAL MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a42f76e3-6533-5a7c-bd78-735c30d06a32"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316266943"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 EAST MAIN"
+        ],
+        "city": "VILLE PLATTE",
+        "state": "LA",
+        "postalCode": "70586-4618"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2629"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2629.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:17ecc2cd-dc5d-5cde-8664-3db863660db7"
+}

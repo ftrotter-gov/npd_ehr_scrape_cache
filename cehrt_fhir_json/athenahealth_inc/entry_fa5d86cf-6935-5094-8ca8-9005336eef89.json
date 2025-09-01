@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa5d86cf-6935-5094-8ca8-9005336eef89",
+    "name": "Chambersburg Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7a35c2cd-ad53-56d8-9908-e690ce3151cd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083640254"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "112 N 7TH ST"
+        ],
+        "city": "CHAMBERSBURG",
+        "state": "PA",
+        "postalCode": "17201-1720"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13093"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13093.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa5d86cf-6935-5094-8ca8-9005336eef89"
+}

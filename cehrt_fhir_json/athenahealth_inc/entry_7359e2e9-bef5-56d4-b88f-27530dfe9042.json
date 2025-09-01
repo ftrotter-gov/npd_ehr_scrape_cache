@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7359e2e9-bef5-56d4-b88f-27530dfe9042",
+    "name": "Colorado Plains Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/13da64ed-3e0c-5d83-b4a2-60755533ffde"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821042409"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 Lincoln Street"
+        ],
+        "city": "FORT MORGAN",
+        "state": "CO",
+        "postalCode": "80701-3290"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20212"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20212.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7359e2e9-bef5-56d4-b88f-27530dfe9042"
+}

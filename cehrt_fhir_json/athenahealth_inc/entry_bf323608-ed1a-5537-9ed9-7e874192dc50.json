@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf323608-ed1a-5537-9ed9-7e874192dc50",
+    "name": "Advanced Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cf6c0940-24fd-5969-8fe5-b29e9c202bd9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326254962"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "77 W Granda Boulevard"
+        ],
+        "city": "ORMOND BEACH",
+        "state": "FL",
+        "postalCode": "32174-3036"
+      },
+      {
+        "line": [
+          "77 W. Granada Blvd"
+        ],
+        "city": "ORMOND BEACH",
+        "state": "FL",
+        "postalCode": "32174-6302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1579.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf323608-ed1a-5537-9ed9-7e874192dc50"
+}

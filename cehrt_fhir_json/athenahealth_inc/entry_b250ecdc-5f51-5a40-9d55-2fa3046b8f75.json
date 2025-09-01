@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b250ecdc-5f51-5a40-9d55-2fa3046b8f75",
+    "name": "San Antonio Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9b3fc06b-d558-5d84-81b6-47412a575b1c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407226962"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "24165 IH 10 W, SUITE 126"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78257-1114"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12711"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12711.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b250ecdc-5f51-5a40-9d55-2fa3046b8f75"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d2a360cd-2135-5581-9f7c-89a2977a71d4",
+    "name": "DIABETIC_ED",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0769ac9c-8c76-555a-9b53-d37aab04206f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003124421"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366750788"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1340 HIGHWAY 231 SOUTH"
+        ],
+        "city": "TROY",
+        "state": "AL",
+        "postalCode": "36081-3058"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3503"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3503.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d2a360cd-2135-5581-9f7c-89a2977a71d4"
+}

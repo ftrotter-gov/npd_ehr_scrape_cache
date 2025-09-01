@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9d4e37e6-082d-558d-b03a-8989fc6906d5",
+    "name": "SBO MRI ELM",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ecdc7a7e-5a18-5265-a81b-71d415f70cbc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669421277"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "60160 Bodnar Blvd"
+        ],
+        "city": "MISHAWAKA",
+        "state": "IN",
+        "postalCode": "46544-9338"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13070"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13070.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9d4e37e6-082d-558d-b03a-8989fc6906d5"
+}

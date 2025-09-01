@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f6751c0d-0f3c-5aa0-a645-6b6e2402831b",
+    "name": "Texas Presbyterian Hospital of Plano",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d6134502-7278-5e3c-8148-abc49142d1fb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619259553"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6200 W Parker Rd"
+        ],
+        "city": "PLANO",
+        "state": "TX",
+        "postalCode": "75093-4426"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11810"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11810.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f6751c0d-0f3c-5aa0-a645-6b6e2402831b"
+}

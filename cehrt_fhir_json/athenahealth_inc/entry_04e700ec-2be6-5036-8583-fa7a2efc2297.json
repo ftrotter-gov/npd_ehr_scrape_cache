@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "04e700ec-2be6-5036-8583-fa7a2efc2297",
+    "name": "MT.Auburn Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8e869999-a2fa-5495-ab96-a590bf78f321"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255361051"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376571380"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "330 Mount Auburn Street"
+        ],
+        "city": "Cambridge",
+        "state": "MA",
+        "postalCode": "02138-5502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-92"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-92.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:04e700ec-2be6-5036-8583-fa7a2efc2297"
+}

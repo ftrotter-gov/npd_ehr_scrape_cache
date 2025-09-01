@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a362370c-51cc-5774-81f8-00b56907b0bb",
+    "name": "Sunny Meadow Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/962d37cd-f392-5292-ba35-bfb4bb96f8eb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255619003"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12003 N 13TH ST"
+        ],
+        "city": "NORFOLK",
+        "state": "NE",
+        "postalCode": "68701-2609"
+      },
+      {
+        "line": [
+          "305 N 37TH ST"
+        ],
+        "city": "NORFOLK",
+        "state": "NE",
+        "postalCode": "68701-3275"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19135"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19135.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a362370c-51cc-5774-81f8-00b56907b0bb"
+}

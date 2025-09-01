@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "114d6710-e6c8-5a04-bb02-bf46c080ffd4",
+    "name": "Springfield Dialysis Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a1cd076d-60eb-587e-bf49-a8d557a8057b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497773394"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "134-35 Springfield Blvd"
+        ],
+        "city": "SPRINGFIELD GARDENS",
+        "state": "NY",
+        "postalCode": "11413-1405"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31700"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31700.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:114d6710-e6c8-5a04-bb02-bf46c080ffd4"
+}

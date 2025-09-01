@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1FU-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1FU"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Waco-McLennan County Public Health District",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2547505450"
+      },
+      {
+        "system": "url",
+        "value": "www.waco-texas.com/Departments/Health-District"
+      }
+    ],
+    "address": [
+      {
+        "text": "225 W. Waco Drive Waco TX 76707 US",
+        "line": [
+          "225 W. Waco Drive"
+        ],
+        "city": "Waco",
+        "state": "TX",
+        "postalCode": "76707",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1FU-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1FU-Organization-2"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4e6e51da-58fe-5982-be13-35e769707ede",
+    "name": "Dr. Harris",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf696586-eef3-54af-9a56-009dc55ffbc7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992367791"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 Clay Street"
+        ],
+        "city": "KENNER",
+        "state": "LA",
+        "postalCode": "70062-7606"
+      },
+      {
+        "line": [
+          "300 CLAY ST"
+        ],
+        "city": "KENNER",
+        "state": "LA",
+        "postalCode": "70062-7606"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19865"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19865.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4e6e51da-58fe-5982-be13-35e769707ede"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c6882601-8e6c-56e8-a1a6-ff10cf1daf43",
+    "name": "Primary Convenient Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4b3ccaf0-6164-59ec-877f-69ffb6b18b72"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558951392"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3763 E Main St"
+        ],
+        "city": "NEW WATERFORD",
+        "state": "OH",
+        "postalCode": "44445-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23378"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23378.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c6882601-8e6c-56e8-a1a6-ff10cf1daf43"
+}

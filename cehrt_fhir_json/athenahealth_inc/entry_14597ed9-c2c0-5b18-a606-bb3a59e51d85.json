@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "14597ed9-c2c0-5b18-a606-bb3a59e51d85",
+    "name": "MRI CPO",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fc6916b8-2abc-5677-b1d2-24ce1a477892"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871533216"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "989 Route 146",
+          "Bldg 200"
+        ],
+        "city": "CLIFTON PARK",
+        "state": "NY",
+        "postalCode": "12065-3647"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28317"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28317.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:14597ed9-c2c0-5b18-a606-bb3a59e51d85"
+}

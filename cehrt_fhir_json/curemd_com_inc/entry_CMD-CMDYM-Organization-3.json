@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDYM-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDYM"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Healthy Heart Cardiology",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6167807015"
+      },
+      {
+        "system": "fax",
+        "value": "6169652471"
+      },
+      {
+        "system": "email",
+        "value": "skhurana@healthyheart.md"
+      },
+      {
+        "system": "url",
+        "value": "http://www.healthyheart.md"
+      }
+    ],
+    "address": [
+      {
+        "text": "4081 Cascade Rd SE Suite 200 Grand Rapids MI 495462170 US",
+        "line": [
+          "4081 Cascade Rd SE",
+          "Suite 200"
+        ],
+        "city": "Grand Rapids",
+        "state": "MI",
+        "postalCode": "495462170",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDYM-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDYM-Organization-3"
+}

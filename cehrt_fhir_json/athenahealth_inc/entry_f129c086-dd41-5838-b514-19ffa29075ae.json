@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f129c086-dd41-5838-b514-19ffa29075ae",
+    "name": "LCMA X-Ray",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d63e6853-d618-53d2-a7c6-2b438bb930fd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861078685"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447330451"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "350 Hospital Way",
+          "Suite 100"
+        ],
+        "city": "SOMERSET",
+        "state": "KY",
+        "postalCode": "42503-1872"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21269"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21269.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f129c086-dd41-5838-b514-19ffa29075ae"
+}

@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTY3NV8xNjc1XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "145.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952525636"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Northwest Spokane Pediatrics PLLC WA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "509-483-4060",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "509-483-0043",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "220 E Rowan Ave Suite 150 Spokane, WA 99207-2244",
+        "line": [
+          "220 E Rowan Ave",
+          "Suite 150"
+        ],
+        "city": "Spokane",
+        "state": "WA",
+        "postalCode": "99207-2244",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTY3NV8xNjc1XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTY3NV8xNjc1XzMwNjA"
+}

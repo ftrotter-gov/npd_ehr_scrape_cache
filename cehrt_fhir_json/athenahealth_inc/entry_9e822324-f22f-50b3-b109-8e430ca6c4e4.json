@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9e822324-f22f-50b3-b109-8e430ca6c4e4",
+    "name": "Rockdale Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/83725ce8-fbb4-599b-9fd6-b60baba18062"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053749457"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1412 Milstead Avenue"
+        ],
+        "city": "CONYERS",
+        "state": "GA",
+        "postalCode": "30012-3807"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8228"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8228.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9e822324-f22f-50b3-b109-8e430ca6c4e4"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0e567cdc-553b-5d8b-a8bd-684d27040218",
+    "name": "Camelback SurgCenter",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1c2cb4b1-a036-553c-aa89-e97caf23f3b7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952357022"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6245 N 24TH PKWY",
+          "Suite 112"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85016-2029"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5564"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5564.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0e567cdc-553b-5d8b-a8bd-684d27040218"
+}

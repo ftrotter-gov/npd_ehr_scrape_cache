@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d2f8ea4-ba26-5f83-88a7-aa7247bb87f2",
+    "name": "St. Mary's Ambulatory Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d8deac3-935e-5cdb-9f39-7dbd4c8fe3e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225237274"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1501 Maple Ave  Ste 300"
+        ],
+        "city": "RICHMOND",
+        "state": "VA",
+        "postalCode": "23226-2553"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1316"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1316.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d2f8ea4-ba26-5f83-88a7-aa7247bb87f2"
+}

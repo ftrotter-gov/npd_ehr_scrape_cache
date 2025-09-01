@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d30738a-bd0e-5980-9740-78132afe19f6",
+    "name": "Madison County Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3c5d93b4-0410-5d8f-ab0c-f5b50749feda"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134154750"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "210 North Main Street"
+        ],
+        "city": "LONDON",
+        "state": "OH",
+        "postalCode": "43140-1115"
+      },
+      {
+        "line": [
+          "210 N Main Street"
+        ],
+        "city": "LONDON",
+        "state": "OH",
+        "postalCode": "43140-1115"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11128"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11128.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d30738a-bd0e-5980-9740-78132afe19f6"
+}

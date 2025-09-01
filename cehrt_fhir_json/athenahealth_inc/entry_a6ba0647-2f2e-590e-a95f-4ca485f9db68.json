@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a6ba0647-2f2e-590e-a95f-4ca485f9db68",
+    "name": "Hospital for Speacial Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8e556ca0-08d7-5d9f-b4ba-d91a8a55d4b3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891939229"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205945409"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "535 E 70th Street"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10021-4823"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1554"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1554.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a6ba0647-2f2e-590e-a95f-4ca485f9db68"
+}

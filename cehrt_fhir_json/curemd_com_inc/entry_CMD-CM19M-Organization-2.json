@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM19M-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM19M"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Castle Valley Childrens Clinic",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9709843333"
+      },
+      {
+        "system": "fax",
+        "value": "9709840293"
+      }
+    ],
+    "address": [
+      {
+        "text": "820 Castle Valley Blvd Suite 204 New Castle CO 81647 US",
+        "line": [
+          "820 Castle Valley Blvd",
+          "Suite 204"
+        ],
+        "city": "New Castle",
+        "state": "CO",
+        "postalCode": "81647",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM19M-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM19M-Organization-2"
+}

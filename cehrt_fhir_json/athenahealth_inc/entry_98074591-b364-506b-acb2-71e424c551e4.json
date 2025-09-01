@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98074591-b364-506b-acb2-71e424c551e4",
+    "name": "LSCC at Oak Springs",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/06388af1-29b1-5842-a463-d5135e168032"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891746970"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3000 Oak Springs Dr Lone Star Suite",
+          "340B00556100LS"
+        ],
+        "city": "Austin",
+        "state": "TX",
+        "postalCode": "78702-2531"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29821"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29821.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98074591-b364-506b-acb2-71e424c551e4"
+}

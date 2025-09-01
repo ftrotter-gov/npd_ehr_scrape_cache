@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "39ec6d8d-248b-5180-9180-2c7cf98f2176",
+    "name": "Patient's Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7af97ee2-a2d3-59e3-adfa-fd4d18227e84"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053715169"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8054 Falls Ave SE"
+        ],
+        "city": "SNOQUALMIE",
+        "state": "WA",
+        "postalCode": "98065-0451"
+      },
+      {
+        "line": [
+          "8054  Falls Ave SE"
+        ],
+        "city": "SNOQUALMIE",
+        "state": "WA",
+        "postalCode": "98065-5027"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9655"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9655.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:39ec6d8d-248b-5180-9180-2c7cf98f2176"
+}

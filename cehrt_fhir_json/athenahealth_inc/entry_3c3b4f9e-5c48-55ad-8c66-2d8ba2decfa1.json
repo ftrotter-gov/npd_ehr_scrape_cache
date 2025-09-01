@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3c3b4f9e-5c48-55ad-8c66-2d8ba2decfa1",
+    "name": "Regency Extended Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec506914-afb0-5f81-a63a-c12afac2c497"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184839094"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "65 Ashburton ave"
+        ],
+        "city": "YONKERS",
+        "state": "NY",
+        "postalCode": "10701-2930"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2194"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2194.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3c3b4f9e-5c48-55ad-8c66-2d8ba2decfa1"
+}

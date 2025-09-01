@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3ba5661b-c651-5c1a-bb65-a2f1b6737952",
+    "name": "Drummond Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35a1df43-7772-5125-9ad4-a658a2f946a1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922073907"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942321120"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023130754"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "26 EAST BROAD STREET"
+        ],
+        "city": "DRUMMOND",
+        "state": "MT",
+        "postalCode": "59832-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15204"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15204.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3ba5661b-c651-5c1a-bb65-a2f1b6737952"
+}

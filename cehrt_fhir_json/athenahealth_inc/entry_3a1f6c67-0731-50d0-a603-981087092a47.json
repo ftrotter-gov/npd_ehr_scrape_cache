@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3a1f6c67-0731-50d0-a603-981087092a47",
+    "name": "Pearland Medical Ctr",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf47ad48-6b66-533a-a673-8deee1eff149"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245281922"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11100 Shadow Creek"
+        ],
+        "city": "PEARLAND",
+        "state": "TX",
+        "postalCode": "77584-7285"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15454"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15454.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3a1f6c67-0731-50d0-a603-981087092a47"
+}

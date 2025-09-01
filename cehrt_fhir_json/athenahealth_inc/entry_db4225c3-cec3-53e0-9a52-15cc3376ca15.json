@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db4225c3-cec3-53e0-9a52-15cc3376ca15",
+    "name": "Sutter Medical Center ICU",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6ba6b11-977a-5a8a-b870-6ecdafcaf016"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407880719"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "One Medical Plaza"
+        ],
+        "city": "ROSEVILLE",
+        "state": "CA",
+        "postalCode": "95661-3037"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db4225c3-cec3-53e0-9a52-15cc3376ca15"
+}

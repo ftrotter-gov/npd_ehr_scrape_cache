@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b4a6a607-0da8-5e7d-8f2a-808df5321bf5",
+    "name": "Logan Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff565688-1fb8-59f0-945f-bf94c2a7df88"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558107433"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477399350"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1625 Nashville St"
+        ],
+        "city": "RUSSELLVILLE",
+        "state": "KY",
+        "postalCode": "42276-8853"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31599"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31599.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b4a6a607-0da8-5e7d-8f2a-808df5321bf5"
+}

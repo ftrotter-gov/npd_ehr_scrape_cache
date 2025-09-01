@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8fe0b585-6455-5984-9b0a-3deb1296462b",
+    "name": "Daisy Family Health-Main Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/116a2ab0-700c-5abe-83ab-775501ff8c87"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023657772"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4150 W. PEORIA AVENUE, SUITE 121"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85029-3951"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22821"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22821.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8fe0b585-6455-5984-9b0a-3deb1296462b"
+}

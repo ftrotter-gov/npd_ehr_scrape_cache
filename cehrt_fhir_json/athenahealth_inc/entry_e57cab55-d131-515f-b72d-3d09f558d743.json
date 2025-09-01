@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e57cab55-d131-515f-b72d-3d09f558d743",
+    "name": "TEST GEORGIA, TESTING",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2eefbd1d-c736-5fa5-8e55-0eb1e474f0d4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578812012"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386823243"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "33 PEACHTREE DR"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30301-1845"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5518"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5518.Brand-12"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e57cab55-d131-515f-b72d-3d09f558d743"
+}

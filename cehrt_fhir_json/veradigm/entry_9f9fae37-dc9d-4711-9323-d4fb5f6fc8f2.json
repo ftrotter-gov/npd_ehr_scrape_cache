@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "9f9fae37-dc9d-4711-9323-d4fb5f6fc8f2",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "8595d370-70bf-4ad3-9d13-fb6765dee21b",
+        "name": "Decatur Orthopedic Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Decatur Orthopedic Center",
+    "managingOrganization": {
+      "reference": "#8595d370-70bf-4ad3-9d13-fb6765dee21b"
+    },
+    "period": {
+      "start": "2018-03-09T20:39:03+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10121736"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10121736"
+}

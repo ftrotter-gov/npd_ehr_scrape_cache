@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c624d8a9-4df2-571b-aec3-50efb498346f",
+    "name": "Dr. Kim's Adult Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/567d1361-6f6f-5655-aad7-95f33befdf4b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174042485"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "211 EAST 5TH ST"
+        ],
+        "city": "TABOR CITY",
+        "state": "NC",
+        "postalCode": "28463-2101"
+      },
+      {
+        "line": [
+          "PO Box 369"
+        ],
+        "city": "ELIZABETHTOWN",
+        "state": "NC",
+        "postalCode": "28337-0369"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17049"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17049.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c624d8a9-4df2-571b-aec3-50efb498346f"
+}

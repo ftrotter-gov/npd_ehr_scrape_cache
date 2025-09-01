@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b42638a1-3854-5031-9881-f4f000016daf",
+    "name": "Northwest Primary Care Oregon City Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fa71228e-2714-5f10-add8-60c7c3d312c6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558572180"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1511 Division St.",
+          "Suite 102"
+        ],
+        "city": "Oregon City",
+        "state": "OR",
+        "postalCode": "97045-1583"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30939"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30939.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b42638a1-3854-5031-9881-f4f000016daf"
+}

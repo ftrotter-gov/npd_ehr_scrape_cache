@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0aa19c48-5e30-5bbe-840c-bcfddd015c4e",
+    "name": "Urgent Care 360",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9db41964-8db3-588e-a453-ac6884c22c5f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780151738"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467962118"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 S. SHACKLEFORD RD"
+        ],
+        "city": "LITTLE ROCK",
+        "state": "AR",
+        "postalCode": "72211-5725"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20061"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20061.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0aa19c48-5e30-5bbe-840c-bcfddd015c4e"
+}

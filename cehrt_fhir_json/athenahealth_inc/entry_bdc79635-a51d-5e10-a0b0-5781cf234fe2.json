@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bdc79635-a51d-5e10-a0b0-5781cf234fe2",
+    "name": "SupraCare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8bb47546-067f-591a-acdb-9cadaae1ddec"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801234596"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "310 E HOSKINS ST"
+        ],
+        "city": "NEW BOSTON",
+        "state": "TX",
+        "postalCode": "75570-2727"
+      },
+      {
+        "line": [
+          "310 E. HOSKINS"
+        ],
+        "city": "NEW BOSTON",
+        "state": "TX",
+        "postalCode": "75570-2727"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7280"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7280.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bdc79635-a51d-5e10-a0b0-5781cf234fe2"
+}

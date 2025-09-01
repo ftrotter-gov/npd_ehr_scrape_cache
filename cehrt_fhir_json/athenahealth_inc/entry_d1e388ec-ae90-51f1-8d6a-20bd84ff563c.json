@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d1e388ec-ae90-51f1-8d6a-20bd84ff563c",
+    "name": "Regional Urgent Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b22cedfa-99d1-51c4-bd86-f4d953c38f9e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790733244"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356309249"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "616 19th St",
+          "Suite 200"
+        ],
+        "city": "COLUMBUS",
+        "state": "GA",
+        "postalCode": "31901-1528"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-202"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-202.Brand-20"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d1e388ec-ae90-51f1-8d6a-20bd84ff563c"
+}

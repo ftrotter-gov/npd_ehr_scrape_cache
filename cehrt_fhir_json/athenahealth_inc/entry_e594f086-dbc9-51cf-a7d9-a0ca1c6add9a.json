@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e594f086-dbc9-51cf-a7d9-a0ca1c6add9a",
+    "name": "Ratino Interventional Pain Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6441d725-634a-577a-b509-0d0abf782759"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1123456789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 SUMMIT AVENUE, STE 400"
+        ],
+        "city": "FORT WORTH",
+        "state": "TX",
+        "postalCode": "76102-4428"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25344"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25344.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e594f086-dbc9-51cf-a7d9-a0ca1c6add9a"
+}

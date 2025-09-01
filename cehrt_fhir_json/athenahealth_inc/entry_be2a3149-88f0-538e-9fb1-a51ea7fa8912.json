@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "be2a3149-88f0-538e-9fb1-a51ea7fa8912",
+    "name": "Kirkwood Medical Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/73bb97c2-a022-582e-81ea-1fb7ff94efe0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497530463"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "865 US Route 11"
+        ],
+        "city": "KIRKWOOD",
+        "state": "NY",
+        "postalCode": "13795-1001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31128"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31128.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:be2a3149-88f0-538e-9fb1-a51ea7fa8912"
+}

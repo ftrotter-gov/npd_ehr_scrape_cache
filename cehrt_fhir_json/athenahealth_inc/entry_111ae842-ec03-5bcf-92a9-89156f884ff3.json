@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "111ae842-ec03-5bcf-92a9-89156f884ff3",
+    "name": "St Annes",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3cd87ae6-8f6e-5bdd-88fb-085cb963e630"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770710766"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3952 Columbia Ave"
+        ],
+        "city": "COLUMBIA",
+        "state": "PA",
+        "postalCode": "17512-9702"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6718"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6718.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:111ae842-ec03-5bcf-92a9-89156f884ff3"
+}

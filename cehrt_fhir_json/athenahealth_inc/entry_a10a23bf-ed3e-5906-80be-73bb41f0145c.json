@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a10a23bf-ed3e-5906-80be-73bb41f0145c",
+    "name": "UPMC MERCY_IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/068a46ee-9bb8-5d60-b2e8-885093ec5d9c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912925819"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1400 Locust St"
+        ],
+        "city": "PITTSBURGH",
+        "state": "PA",
+        "postalCode": "15219-5114"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14360"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14360.Brand-21"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a10a23bf-ed3e-5906-80be-73bb41f0145c"
+}

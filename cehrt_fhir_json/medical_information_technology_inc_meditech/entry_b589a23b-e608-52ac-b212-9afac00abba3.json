@@ -1,0 +1,76 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b589a23b-e608-52ac-b212-9afac00abba3",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://healthcare.ascension.org/en/locations/kansas/kswic/manhattan-ascension-via-christi-hospital-in-manhattan"
+      }
+    ],
+    "name": "Ascension Via Christi Hospital Manhattan, Inc.",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://healthcare.ascension.org/en/locations/kansas/kswic/manhattan-ascension-via-christi-hospital-in-manhattan"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1823 College Avenue"
+        ],
+        "city": "Manhattan",
+        "state": "KS",
+        "postalCode": "66502",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:295037e4-de74-4dd7-8d00-1bd3addc03b4"
+      },
+      {
+        "reference": "urn:uuid:3905916f-fc5d-4417-8d7f-b68cde931057"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:a3d2b923-0414-5a06-8d03-0c4a95f99dc8"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:295037e4-de74-4dd7-8d00-1bd3addc03b4"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:3905916f-fc5d-4417-8d7f-b68cde931057"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b589a23b-e608-52ac-b212-9afac00abba3"
+}

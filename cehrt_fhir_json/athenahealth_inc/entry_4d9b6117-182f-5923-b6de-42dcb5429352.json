@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d9b6117-182f-5923-b6de-42dcb5429352",
+    "name": "SRMC Wound Healing Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/24e2aef3-f0ba-56ff-b44b-02ce203ba745"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477112225"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3335 South Crater Road"
+        ],
+        "city": "PETERSBURG",
+        "state": "VA",
+        "postalCode": "23805-9214"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-679"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-679.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d9b6117-182f-5923-b6de-42dcb5429352"
+}

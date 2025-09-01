@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5e7b25e9-6934-5970-8c07-d2ef507ea2a9",
+    "name": "Franklin Square Hospital Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a6b05668-f2e8-549e-a619-da1749ff5c3e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487879938"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9100 Franklin Square Drive"
+        ],
+        "city": "ROSEDALE",
+        "state": "MD",
+        "postalCode": "21237-3903"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6814"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6814.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5e7b25e9-6934-5970-8c07-d2ef507ea2a9"
+}

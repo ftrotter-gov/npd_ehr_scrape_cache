@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cf5bc485-4017-5a36-935b-fc312a4db474",
+    "name": "HUNTSVILLE PRIMARY CARE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/baafd736-c210-5b84-a88d-a0bcf382d2fe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174552202"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2974 BAKER HWY"
+        ],
+        "city": "HUNTSVILLE",
+        "state": "TN",
+        "postalCode": "37756-3806"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1839"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1839.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cf5bc485-4017-5a36-935b-fc312a4db474"
+}

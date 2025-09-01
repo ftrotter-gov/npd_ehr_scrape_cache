@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f207dc93-f690-52fe-9ca7-59507959fa49",
+    "name": "Rockford Health Physicians - Audiology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d96d30bf-aa39-5cf5-b2fd-67704a57afaa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043242886"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2300 N Rockton Ave"
+        ],
+        "city": "ROCKFORD",
+        "state": "IL",
+        "postalCode": "61103-3619"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-395"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-395.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f207dc93-f690-52fe-9ca7-59507959fa49"
+}

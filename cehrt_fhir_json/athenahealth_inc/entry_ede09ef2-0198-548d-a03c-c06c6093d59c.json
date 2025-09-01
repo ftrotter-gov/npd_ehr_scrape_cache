@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ede09ef2-0198-548d-a03c-c06c6093d59c",
+    "name": "NewYork-Presbyterian Greenpoint Avenue",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d4398b3-4631-56f3-8b92-ee64e6d59c69"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083045090"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "126 Greenpoint Avenue"
+        ],
+        "city": "Brooklyn",
+        "state": "NY",
+        "postalCode": "11222-2202"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ede09ef2-0198-548d-a03c-c06c6093d59c"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "82210833-16b2-5b73-b5ec-eb5047ed0ac7",
+    "name": "Care Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9c2df9a-aaeb-5c9d-976d-1334950d615a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619102530"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4501 MEDICAL CENTER DR STE 200"
+        ],
+        "city": "MCKINNEY",
+        "state": "TX",
+        "postalCode": "75069-6943"
+      },
+      {
+        "line": [
+          "4501 MEDICAL CENTER DR, STE 200"
+        ],
+        "city": "MCKINNEY",
+        "state": "TX",
+        "postalCode": "75069-6943"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16825"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16825.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:82210833-16b2-5b73-b5ec-eb5047ed0ac7"
+}

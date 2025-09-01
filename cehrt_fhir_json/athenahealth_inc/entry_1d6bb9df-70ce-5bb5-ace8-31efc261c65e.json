@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d6bb9df-70ce-5bb5-ace8-31efc261c65e",
+    "name": "Parke Clinic North",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8b5aa8f4-ba6e-5750-8a93-6dad58b67be8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497760144"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 N GRANT ST",
+          "PO BOX 492"
+        ],
+        "city": "CAYUGA",
+        "state": "IN",
+        "postalCode": "47928-0492"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26599"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26599.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d6bb9df-70ce-5bb5-ace8-31efc261c65e"
+}

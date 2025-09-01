@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5d8bbe00-c38c-4de4-8c7a-4bfd1485594e",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "aa3f7ea0-5bc6-4637-9b84-da440a6a756a",
+        "name": "Womens Health Center of Southern Oregon"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Womens Health Center of Southern Oregon",
+    "managingOrganization": {
+      "reference": "#aa3f7ea0-5bc6-4637-9b84-da440a6a756a"
+    },
+    "period": {
+      "start": "2020-06-05T21:51:56+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10359874"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10359874"
+}

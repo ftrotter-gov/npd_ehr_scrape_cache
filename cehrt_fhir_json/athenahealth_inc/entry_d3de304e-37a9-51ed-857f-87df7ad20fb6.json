@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d3de304e-37a9-51ed-857f-87df7ad20fb6",
+    "name": "Summit Wellness",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a468cfe4-7b1e-55a2-8772-0ea952452f2c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7337 E COUNTY LINE RD"
+        ],
+        "city": "LONGMONT",
+        "state": "CO",
+        "postalCode": "80504-8430"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28682"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28682.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d3de304e-37a9-51ed-857f-87df7ad20fb6"
+}

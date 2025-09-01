@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e00c2175-d5bc-5fac-be96-293f5a3b2502",
+    "name": "university physicians of brooklyn",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/687f0c08-ffcc-5080-826c-d7a4b08d7f5a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568419000"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "470 Clarkson AVe"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11203-2012"
+      },
+      {
+        "line": [
+          "450 clarkson ave",
+          "Suite A"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11203-2098"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-438"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-438.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e00c2175-d5bc-5fac-be96-293f5a3b2502"
+}

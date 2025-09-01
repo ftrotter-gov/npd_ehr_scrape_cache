@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "80c93d59-f16d-5430-ba56-81c045f5a855",
+    "name": "Dialysis Clinic Inc Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0b050f87-93d9-5ac6-9700-27d5cf00aeed"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992756894"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "870 Northside Dr Nw"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30318-8498"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16547"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16547.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:80c93d59-f16d-5430-ba56-81c045f5a855"
+}

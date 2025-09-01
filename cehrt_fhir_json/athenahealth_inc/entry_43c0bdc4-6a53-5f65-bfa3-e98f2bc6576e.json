@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "43c0bdc4-6a53-5f65-bfa3-e98f2bc6576e",
+    "name": "UMC Chelsea Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e69275ab-1d8a-5564-9be9-f5e041189cba"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528683810"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 Chelsea Street"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79925-3315"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24611"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24611.Brand-11"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:43c0bdc4-6a53-5f65-bfa3-e98f2bc6576e"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "273ffd23-d697-52e8-b0a7-70cb61376b93",
+    "name": "Carolina Express Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ece6a29-8b4c-55cf-bdd6-c1c4c324e9ac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427483601"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5110 PARK RD STE 1J"
+        ],
+        "city": "CHARLOTTE",
+        "state": "NC",
+        "postalCode": "28209-3735"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30433"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30433.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:273ffd23-d697-52e8-b0a7-70cb61376b93"
+}

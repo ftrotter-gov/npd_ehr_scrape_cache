@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e341cc35-8aee-5332-9923-81f8438dd8ca",
+    "name": "St. Joseph's Manor",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6782fb4c-563f-5c15-8f65-8e037b99545a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700131539"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497750905"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1616 Huntingdon Pike"
+        ],
+        "city": "Meadowbrook",
+        "state": "PA",
+        "postalCode": "19046-8008"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e341cc35-8aee-5332-9923-81f8438dd8ca"
+}

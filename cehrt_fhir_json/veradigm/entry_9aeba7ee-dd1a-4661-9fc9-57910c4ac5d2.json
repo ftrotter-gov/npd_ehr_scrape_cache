@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "9aeba7ee-dd1a-4661-9fc9-57910c4ac5d2",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "41fc2a3c-57ad-4984-b8a3-db649a89eb54",
+        "name": "Huntingdon Gastroenterology Assoc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Huntingdon Gastroenterology Assoc",
+    "managingOrganization": {
+      "reference": "#41fc2a3c-57ad-4984-b8a3-db649a89eb54"
+    },
+    "period": {
+      "start": "2018-12-14T10:50:11+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0300592"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0300592"
+}

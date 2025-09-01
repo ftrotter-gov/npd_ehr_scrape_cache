@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d211bae1-4bdd-5e94-a696-99b72605456e",
+    "name": "UrgenCare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/14f6d88b-3c11-5e58-b6a8-b95484879d13"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598223844"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2169 W POINT RD STE 300"
+        ],
+        "city": "LAGRANGE",
+        "state": "GA",
+        "postalCode": "30240-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18471"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18471.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d211bae1-4bdd-5e94-a696-99b72605456e"
+}

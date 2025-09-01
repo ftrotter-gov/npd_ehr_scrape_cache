@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4321ced6-a282-51dd-b028-2219da171d36",
+    "name": "Alpha Omega Medspa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5ff6f1e6-44d4-5712-924a-104e9c2d02c0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932776424"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3265 NORTH POINT PKWY"
+        ],
+        "city": "ALPHARETTA",
+        "state": "GA",
+        "postalCode": "30005-4711"
+      },
+      {
+        "line": [
+          "1200 Northside Forsyth Drive"
+        ],
+        "city": "CUMMING",
+        "state": "GA",
+        "postalCode": "30041-7659"
+      },
+      {
+        "line": [
+          "3265 NORTH POINT PKWY STE 103",
+          "SUITE 103"
+        ],
+        "city": "ALPHARETTA",
+        "state": "GA",
+        "postalCode": "30005-4711"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24160"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24160.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4321ced6-a282-51dd-b028-2219da171d36"
+}

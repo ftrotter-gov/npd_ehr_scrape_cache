@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "29357889-2fc8-436d-a8f8-915e9b693798",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "897c3421-6ed8-49d2-b9db-971cda9f8a58",
+        "name": "Alliance Xpress Care LLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Alliance Xpress Care LLC",
+    "managingOrganization": {
+      "reference": "#897c3421-6ed8-49d2-b9db-971cda9f8a58"
+    },
+    "period": {
+      "start": "2019-07-05T10:56:20+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10129099"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10129099"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3009a15a-9f00-5a5e-b8cc-37bc40ac2a20",
+    "name": "The Medical Center of Central Georgia",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bdfc41a9-fab1-55b0-90f6-1c73ce86535e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356489850"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "777 Hemlock Street"
+        ],
+        "city": "MACON",
+        "state": "GA",
+        "postalCode": "31201-2102"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4291"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4291.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3009a15a-9f00-5a5e-b8cc-37bc40ac2a20"
+}

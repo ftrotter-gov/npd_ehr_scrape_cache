@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9cd1a6c6-05fc-5cb9-90bb-1e00511b1aa1",
+    "name": "Katy Orthopedics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/80e4f9ee-55fb-5111-b26d-1b4b9b1efcdb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053461806"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417287020"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5420 West Loop South",
+          "Ste 2500"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77026-1970"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-443"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-443.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9cd1a6c6-05fc-5cb9-90bb-1e00511b1aa1"
+}

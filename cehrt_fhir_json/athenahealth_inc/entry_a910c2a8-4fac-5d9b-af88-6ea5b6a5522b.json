@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a910c2a8-4fac-5d9b-af88-6ea5b6a5522b",
+    "name": "Open MRI of Jasper",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ee1fc43c-be10-56c1-a3ce-0027d96db569"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598700965"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 N WALSTON BRIDGE RD STE 104"
+        ],
+        "city": "JASPER",
+        "state": "AL",
+        "postalCode": "35504"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5122"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5122.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a910c2a8-4fac-5d9b-af88-6ea5b6a5522b"
+}

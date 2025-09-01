@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d2be126d-de86-50f1-ad80-1134f442d435",
+    "name": "Bay Area Foot Care - Shrader",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/88bf1510-86ef-5c3e-86d7-2f0f8f9eef23"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508911892"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Shrader Street",
+          "Suite 580"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94117-1034"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20181"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20181.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d2be126d-de86-50f1-ad80-1134f442d435"
+}

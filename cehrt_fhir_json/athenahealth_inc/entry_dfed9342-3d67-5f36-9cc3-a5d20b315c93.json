@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dfed9342-3d67-5f36-9cc3-a5d20b315c93",
+    "name": "Dr. Jeff Moffat Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3ed92318-176e-5c01-aa84-2a81e64332af"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710125000"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4731 S. WHITE MOUNTAIN RD , STE 1"
+        ],
+        "city": "SHOW LOW",
+        "state": "AZ",
+        "postalCode": "85901-7818"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15884"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15884.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dfed9342-3d67-5f36-9cc3-a5d20b315c93"
+}

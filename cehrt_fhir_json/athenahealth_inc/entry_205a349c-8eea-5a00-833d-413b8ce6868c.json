@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "205a349c-8eea-5a00-833d-413b8ce6868c",
+    "name": "Omaha HQ Wellness Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/731210f4-c425-5d2e-9887-da31b4bf02bd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831554211"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15000 Valmont Plaza"
+        ],
+        "city": "OMAHA",
+        "state": "NE",
+        "postalCode": "68154-5215"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3908"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3908.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:205a349c-8eea-5a00-833d-413b8ce6868c"
+}

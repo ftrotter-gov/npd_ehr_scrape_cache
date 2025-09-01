@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2f3ea35a-4a42-56ea-9513-fbe3cf9f14d3",
+    "name": "Northstar Healthcare Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a5caa957-bee9-5197-9582-cf45ab733a29"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265858708"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4120 Southwest Freeway"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77027-7736"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-443"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-443.Brand-11"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2f3ea35a-4a42-56ea-9513-fbe3cf9f14d3"
+}

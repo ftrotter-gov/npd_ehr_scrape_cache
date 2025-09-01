@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "64b1a6e6-4053-56f1-b9c4-1ce321ebda3b",
+    "name": "BCCHC_SIUH",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6164f0fa-df18-5afb-8d9c-87947ef21997"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750700902"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639246358"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "475 Seaview Avenue"
+        ],
+        "city": "STATEN ISLAND",
+        "state": "NY",
+        "postalCode": "10305-3436"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:64b1a6e6-4053-56f1-b9c4-1ce321ebda3b"
+}

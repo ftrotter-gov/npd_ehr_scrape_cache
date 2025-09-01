@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f98e0178-209f-5684-9ab2-dc76a0399e65",
+    "name": "Bellevue Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b70dd93e-723f-51cc-8180-c3276cb96cad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194886382"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 116th Ave NE 102"
+        ],
+        "city": "BELLEVUE",
+        "state": "WA",
+        "postalCode": "98004-3055"
+      },
+      {
+        "line": [
+          "1600 116th Ave NE Suite 102"
+        ],
+        "city": "BELLEVUE",
+        "state": "WA",
+        "postalCode": "98004-3014"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1219"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1219.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f98e0178-209f-5684-9ab2-dc76a0399e65"
+}

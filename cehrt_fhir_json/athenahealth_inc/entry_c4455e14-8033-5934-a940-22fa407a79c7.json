@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c4455e14-8033-5934-a940-22fa407a79c7",
+    "name": "Union",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2cb24849-40ce-5cb5-8e05-935bd25e4a89"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013963982"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1005 Thompson Blvd."
+        ],
+        "city": "UNION",
+        "state": "SC",
+        "postalCode": "29379-7409"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16459"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16459.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c4455e14-8033-5934-a940-22fa407a79c7"
+}

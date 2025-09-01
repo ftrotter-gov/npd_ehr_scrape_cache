@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bb12e764-f860-546a-b595-b474fb9741f7",
+    "name": "REGIONAL MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d1c5a95-572e-508b-a83c-cee8d85f3f78"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942622204"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649551516"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528061157"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 Medical Parkway"
+        ],
+        "city": "CEDAR PARK",
+        "state": "TX",
+        "postalCode": "78613-5028"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1570"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1570.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bb12e764-f860-546a-b595-b474fb9741f7"
+}

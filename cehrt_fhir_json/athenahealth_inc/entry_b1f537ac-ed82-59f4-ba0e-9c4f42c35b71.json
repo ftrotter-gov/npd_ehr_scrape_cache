@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1f537ac-ed82-59f4-ba0e-9c4f42c35b71",
+    "name": "Oregon Outpatient Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca7a06e4-038a-546e-b7d5-4f39f43d4f88"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669681573"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7300 SW CHILDS RD"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97224-7713"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8752"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8752.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1f537ac-ed82-59f4-ba0e-9c4f42c35b71"
+}

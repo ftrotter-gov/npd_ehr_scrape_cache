@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d317c566-75ca-5907-842b-5389670708d9",
+    "name": "Surgery Appointment",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9786a91c-7a96-5ce6-af13-9507736f1550"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467493890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "19930 BALLINGER WAY NE"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98155-1223"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4089"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4089.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d317c566-75ca-5907-842b-5389670708d9"
+}

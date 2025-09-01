@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "16fe546a-7eb0-5d56-9684-5f98893ff911",
+    "name": "White Oak Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/79dce611-05be-5a0b-9cae-ea9a003cc940"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558411934"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11890 Healing Way"
+        ],
+        "city": "SILVER SPRING",
+        "state": "MD",
+        "postalCode": "20904-7917"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17360"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17360.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:16fe546a-7eb0-5d56-9684-5f98893ff911"
+}

@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0bcd8134-5cc4-5aaa-8201-5832bd97a0d6",
+    "name": "LAWRENCE GENERAL HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/06ca56f5-4ddf-562f-a6a8-b8e14c3969cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841536174"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821019779"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "EMERGENCY ROOM",
+          "ONE GENERAL STREET"
+        ],
+        "city": "LAWRENCE",
+        "state": "MA",
+        "postalCode": "01841-2961"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1753"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1753.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0bcd8134-5cc4-5aaa-8201-5832bd97a0d6"
+}

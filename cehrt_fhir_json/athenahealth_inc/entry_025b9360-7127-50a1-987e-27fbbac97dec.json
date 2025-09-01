@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "025b9360-7127-50a1-987e-27fbbac97dec",
+    "name": "Emerald Medical Practice - New Hampshire",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/84c656c6-2220-5041-9433-529acc5b5772"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447011267"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 N Commercial St",
+          "Suite 502"
+        ],
+        "city": "MANCHESTER",
+        "state": "NH",
+        "postalCode": "03101-1151"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30093"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30093.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:025b9360-7127-50a1-987e-27fbbac97dec"
+}

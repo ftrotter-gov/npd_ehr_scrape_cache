@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "de4d8cc2-0b18-5b49-8e96-9d7191e38cae",
+    "name": "Rex Cary Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/40706d7f-cdc1-5bb5-abc3-9601e42fa63c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346535283"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184375156"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1505 SW CARY PARKWAY",
+          "SUITE 100"
+        ],
+        "city": "CARY",
+        "state": "NC",
+        "postalCode": "27511-6219"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16818"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16818.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:de4d8cc2-0b18-5b49-8e96-9d7191e38cae"
+}

@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "24aa351d-04c1-510d-a22c-1a4c63e99ea1",
+    "name": "Compass Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/060538cf-f8b8-527e-aba1-6fa2b8c5d37a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811387285"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1765 SOUTH 20TH AVENUE"
+        ],
+        "city": "SAFFORD",
+        "state": "AZ",
+        "postalCode": "85546-4012"
+      },
+      {
+        "line": [
+          "1300 S MAIN ST"
+        ],
+        "city": "SNOWFLAKE",
+        "state": "AZ",
+        "postalCode": "85937-5661"
+      },
+      {
+        "line": [
+          "1300 S MAIN ST",
+          "Suite A"
+        ],
+        "city": "SNOWFLAKE",
+        "state": "AZ",
+        "postalCode": "85937-5661"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15799"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15799.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:24aa351d-04c1-510d-a22c-1a4c63e99ea1"
+}

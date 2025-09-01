@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a970c61-002b-57ac-83fd-2aef35405ec6",
+    "name": "CHI Health Bergan Mercy",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/28a7f16d-c5bf-59fb-b723-bfc907c4e8ea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427348838"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7500 Mercy Road"
+        ],
+        "city": "OMAHA",
+        "state": "NE",
+        "postalCode": "68124-2319"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23781"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23781.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a970c61-002b-57ac-83fd-2aef35405ec6"
+}

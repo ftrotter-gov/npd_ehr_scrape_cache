@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa3e1f96-5afc-5254-b27d-4728fecac388",
+    "name": "Fayetteville Ambulatory Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/981a7eed-e89c-54a6-9a80-547fcf378fd5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255591566"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770916611"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1638 Owen Drive"
+        ],
+        "city": "Fayetteville",
+        "state": "NC",
+        "postalCode": "28304-3431"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1434"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1434.Brand-18"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa3e1f96-5afc-5254-b27d-4728fecac388"
+}

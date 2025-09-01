@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "263bb10b-12aa-5aaa-8a2e-4b9748f2d1a9",
+    "name": "Glenn Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/163e9634-b46c-51f7-b58b-3ff1a1dee0ef"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356388961"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1133 W SYCAMORE ST"
+        ],
+        "city": "WILLOWS",
+        "state": "CA",
+        "postalCode": "95988-2601"
+      },
+      {
+        "line": [
+          "130 N ENRIGHT STREET"
+        ],
+        "city": "WILLOWS",
+        "state": "CA",
+        "postalCode": "95988-2716"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27779"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27779.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:263bb10b-12aa-5aaa-8a2e-4b9748f2d1a9"
+}

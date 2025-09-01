@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1f232726-d96f-548b-bb76-77a5637bd138",
+    "name": "Vital Clinic & Spa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8c048202-5d95-58e5-8cec-f78fafb9cbca"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871806547"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7825 HIGHWAY 6 N",
+          "STE 112"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77095-1705"
+      },
+      {
+        "line": [
+          "17750 CALI DR"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77090-2705"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33153"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33153.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1f232726-d96f-548b-bb76-77a5637bd138"
+}

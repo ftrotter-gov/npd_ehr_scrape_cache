@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "067f4083-3a45-5a00-b61f-248d3a362b45",
+    "name": "Alliance Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3083295f-3e25-5d3a-917b-75c71ac751e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225034234"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "917 Rinehart Road",
+          "Suite 1001"
+        ],
+        "city": "LAKE MARY",
+        "state": "FL",
+        "postalCode": "32746-4804"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13122"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13122.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:067f4083-3a45-5a00-b61f-248d3a362b45"
+}

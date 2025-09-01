@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6c936fda-1b50-5dd3-95ea-267c1197761a",
+    "name": "Regional Hosp Of Jackson",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f943579d-e06c-5a19-9588-ca1eb9b98e00"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437102415"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "367 Hospital Blvd"
+        ],
+        "city": "JACKSON",
+        "state": "TN",
+        "postalCode": "38305-2080"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1582"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1582.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6c936fda-1b50-5dd3-95ea-267c1197761a"
+}

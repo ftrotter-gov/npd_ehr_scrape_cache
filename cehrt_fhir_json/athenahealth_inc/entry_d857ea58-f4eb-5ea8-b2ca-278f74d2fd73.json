@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d857ea58-f4eb-5ea8-b2ca-278f74d2fd73",
+    "name": "Kent Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d27593a4-0700-5ac2-a3ce-e56d33619eab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235181041"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487761177"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "455 Toll Gate Road"
+        ],
+        "city": "WARWICK",
+        "state": "RI",
+        "postalCode": "02886-2770"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13709"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13709.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d857ea58-f4eb-5ea8-b2ca-278f74d2fd73"
+}

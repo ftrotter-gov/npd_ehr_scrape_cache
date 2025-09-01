@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0c70c25b-110f-5919-bec9-7d3a9664d2c9",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4303a7d5-0c44-5de3-984c-987aabc46f1e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346664281"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "405 Myers Road"
+        ],
+        "city": "CELINA",
+        "state": "OH",
+        "postalCode": "45822-1132"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8412"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8412.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0c70c25b-110f-5919-bec9-7d3a9664d2c9"
+}

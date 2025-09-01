@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a9624112-7d95-5b89-9fb0-d7ee4e7095b7",
+    "name": "Practitioner Touch",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/65109942-4fce-54b9-b460-8262c99ce385"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578221669"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "243 E. Ayr Parkway"
+        ],
+        "city": "MADISONVILLE",
+        "state": "KY",
+        "postalCode": "42431-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25260"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25260.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a9624112-7d95-5b89-9fb0-d7ee4e7095b7"
+}

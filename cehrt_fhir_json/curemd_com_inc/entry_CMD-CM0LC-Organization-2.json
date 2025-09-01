@@ -1,0 +1,72 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0LC-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0LC"
+        }
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700151123"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "URGENT CARE OF TEXAS",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8174727601"
+      },
+      {
+        "system": "fax",
+        "value": "8174727213"
+      },
+      {
+        "system": "email",
+        "value": "rshahid.uctx@outlook.com"
+      },
+      {
+        "system": "url",
+        "value": "www.urgentcaretexas.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "6407 S COOPER ST STE 117 ARLINGTON TX 760015813 US",
+        "line": [
+          "6407 S COOPER ST STE 117"
+        ],
+        "city": "ARLINGTON",
+        "state": "TX",
+        "postalCode": "760015813",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0LC-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0LC-Organization-2"
+}

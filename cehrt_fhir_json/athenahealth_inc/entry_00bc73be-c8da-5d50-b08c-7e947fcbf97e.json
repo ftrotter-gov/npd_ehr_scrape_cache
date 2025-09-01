@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "00bc73be-c8da-5d50-b08c-7e947fcbf97e",
+    "name": "Doctor Townley's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ee6974db-a391-55c5-930e-728ed7ef3185"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316454077"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2639 Nicollet Ave S"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55408-1629"
+      },
+      {
+        "line": [
+          "2639 NICOLLET AVE S"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55408-1629"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18672"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18672.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:00bc73be-c8da-5d50-b08c-7e947fcbf97e"
+}

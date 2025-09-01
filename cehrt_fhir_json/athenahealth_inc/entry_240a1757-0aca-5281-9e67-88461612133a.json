@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "240a1757-0aca-5281-9e67-88461612133a",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c1fca5e5-8336-55b5-bd96-a25cbfa35ccf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578646774"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699444976"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "406 TAYLOR ST STE A"
+        ],
+        "city": "SCOTTSBORO",
+        "state": "AL",
+        "postalCode": "35768-2406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11590"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11590.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:240a1757-0aca-5281-9e67-88461612133a"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f5ee7759-b844-56ab-86c1-b889f9d63155",
+    "name": "Simple Health Limited",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/16b136e2-ab3f-5aa1-a7a2-5af350895539"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760003941"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "68 EAST SERENE AVE",
+          "UNIT 104"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89123-3733"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21729"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21729.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f5ee7759-b844-56ab-86c1-b889f9d63155"
+}

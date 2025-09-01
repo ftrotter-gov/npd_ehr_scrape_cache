@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "52da15e9-8e16-5251-92c9-ca6cc8f05c38",
+    "name": "Meeker Family Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/03eec042-8758-5a95-a9cf-c967394dde8b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801874771"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 PIONEERS MEDICAL CENTER DRIVE"
+        ],
+        "city": "MEEKER",
+        "state": "CO",
+        "postalCode": "81641-3181"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31155"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31155.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:52da15e9-8e16-5251-92c9-ca6cc8f05c38"
+}

@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM18G-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM18G"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Ralls County Health Dept",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5739857121"
+      },
+      {
+        "system": "fax",
+        "value": "5739851531"
+      },
+      {
+        "system": "url",
+        "value": "RallsCountyHealth.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "405 W. First St. New London MO 63459 US",
+        "line": [
+          "405 W. First St."
+        ],
+        "city": "New London",
+        "state": "MO",
+        "postalCode": "63459",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM18G-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM18G-Organization-2"
+}

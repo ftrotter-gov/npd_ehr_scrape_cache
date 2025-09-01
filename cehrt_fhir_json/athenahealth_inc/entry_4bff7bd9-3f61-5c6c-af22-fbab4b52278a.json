@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4bff7bd9-3f61-5c6c-af22-fbab4b52278a",
+    "name": "GraceWay Direct Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/55449bc7-aaa0-5c30-8f0f-61a45e7457cb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689255127"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5807 HASBROOK DR"
+        ],
+        "city": "LOUISVILLE",
+        "state": "KY",
+        "postalCode": "40229-2984"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24640"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24640.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4bff7bd9-3f61-5c6c-af22-fbab4b52278a"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "77fa86bc-18c9-5d13-aa05-60a461012131",
+    "name": "Troy Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/529caf4f-4a26-5e50-a5ad-21feb6680296"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760077747"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1507 W MAIN ST"
+        ],
+        "city": "GATESVILLE",
+        "state": "TX",
+        "postalCode": "76528-1024"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23654"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23654.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:77fa86bc-18c9-5d13-aa05-60a461012131"
+}

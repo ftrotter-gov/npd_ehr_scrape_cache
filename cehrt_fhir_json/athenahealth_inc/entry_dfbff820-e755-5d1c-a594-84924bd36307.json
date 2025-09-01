@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dfbff820-e755-5d1c-a594-84924bd36307",
+    "name": "ESD Pediatric Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fabf2d5c-4892-5371-9603-90e669b7d7a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265411912"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "905 Main Street"
+        ],
+        "city": "MILFORD",
+        "state": "OH",
+        "postalCode": "45150-5049"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1200"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1200.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dfbff820-e755-5d1c-a594-84924bd36307"
+}

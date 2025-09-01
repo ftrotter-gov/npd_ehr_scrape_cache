@@ -1,0 +1,706 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "timestamp": "2025-09-01T00:19:54Z",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:24b8ff8c-f408-401d-8037-c117073efebb",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "24b8ff8c-f408-401d-8037-c117073efebb",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "Sandbox Test Server (Sandbox)",
+                "address": "https://sandbox-r4.interopengine.com/fhir/r4/imedemr",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a05b6445-3682-4d7b-a47d-fb53b5ed0c17",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "a05b6445-3682-4d7b-a47d-fb53b5ed0c17",
+                "name": "Sandbox Test Server",
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:24b8ff8c-f408-401d-8037-c117073efebb"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1144221847"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "123 Main St"
+                        ],
+                        "city": "Unknown City",
+                        "state": "Unknown State",
+                        "postalCode": "00000",
+                        "country": "US"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:7fd939d8-26ef-462a-a6ba-13a8b33c6db3",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "7fd939d8-26ef-462a-a6ba-13a8b33c6db3",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "Act One",
+                "address": "https://fhir.healthtogo.me/fhir/r4/imed.actone",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:2ee1d0e7-cda8-436d-8f4c-64fc730f14bd",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "2ee1d0e7-cda8-436d-8f4c-64fc730f14bd",
+                "active": true,
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                                "code": "prov",
+                                "display": "Healthcare Provider"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Act One",
+                "identifier": [
+                    {
+                        "system": "urn:uuid:2ee1d0e7-cda8-436d-8f4c-64fc730f14bd"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "Acadian Thruway"
+                        ],
+                        "city": "Baton Rouge",
+                        "state": "LA",
+                        "country": "USA"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:7fd939d8-26ef-462a-a6ba-13a8b33c6db3"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b72bbef2-ac4b-46b3-8cd7-408e3b4fdffb",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "b72bbef2-ac4b-46b3-8cd7-408e3b4fdffb",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "Daniel R. Bourque, M.D., APMC",
+                "address": "https://fhir.healthtogo.me/fhir/r4/imed.bourque",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:b6306a0d-37ec-4a9b-be1b-f7e471f42a1f",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "b6306a0d-37ec-4a9b-be1b-f7e471f42a1f",
+                "active": true,
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                                "code": "prov",
+                                "display": "Healthcare Provider"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Daniel R. Bourque, M.D., APMC",
+                "identifier": [
+                    {
+                        "system": "urn:uuid:b6306a0d-37ec-4a9b-be1b-f7e471f42a1f"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "435 Heymann Blvd."
+                        ],
+                        "city": "Lafayette",
+                        "state": "LA",
+                        "postalCode": "70503",
+                        "country": "USA"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:b72bbef2-ac4b-46b3-8cd7-408e3b4fdffb"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:e974ff88-a670-4cec-ab4a-c3831fdacee4",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "e974ff88-a670-4cec-ab4a-c3831fdacee4",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "Edwards Family Medicine",
+                "address": "https://fhir.healthtogo.me/fhir/r4/imed.efm",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1f2893c3-1e26-4758-afca-2775ef5a182b",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "1f2893c3-1e26-4758-afca-2775ef5a182b",
+                "active": true,
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                                "code": "prov",
+                                "display": "Healthcare Provider"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Edwards Family Medicine",
+                "identifier": [
+                    {
+                        "system": "urn:uuid:1f2893c3-1e26-4758-afca-2775ef5a182b"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "1322 Elton Rd",
+                            "Suite P"
+                        ],
+                        "city": "Jennings",
+                        "state": "LA",
+                        "postalCode": "70546",
+                        "country": "USA"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:e974ff88-a670-4cec-ab4a-c3831fdacee4"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1af35a26-ddc4-4ce9-a5bd-8b071edd92fd",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "1af35a26-ddc4-4ce9-a5bd-8b071edd92fd",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "Family Medicine, P.C.",
+                "address": "https://fhir.healthtogo.me/fhir/r4/imed.fammedpc",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:459c4a51-e85a-4c85-9be3-6ac0e2d4ffe0",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "459c4a51-e85a-4c85-9be3-6ac0e2d4ffe0",
+                "active": true,
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                                "code": "prov",
+                                "display": "Healthcare Provider"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Family Medicine, P.C.",
+                "identifier": [
+                    {
+                        "system": "urn:uuid:459c4a51-e85a-4c85-9be3-6ac0e2d4ffe0"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "7406 Hwy 1",
+                            "Suite 103"
+                        ],
+                        "city": "MANSURA",
+                        "state": "LA",
+                        "postalCode": "71350",
+                        "country": "USA"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:1af35a26-ddc4-4ce9-a5bd-8b071edd92fd"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:5e9cc976-ee0d-4fe5-9193-4783ba814dbb",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "5e9cc976-ee0d-4fe5-9193-4783ba814dbb",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "LCMH TCW",
+                "address": "https://fhir.healthtogo.me/fhir/r4/imed.welshfamily",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d1d32a76-467e-4275-9b23-8e7988717aff",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "d1d32a76-467e-4275-9b23-8e7988717aff",
+                "active": true,
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                                "code": "prov",
+                                "display": "Healthcare Provider"
+                            }
+                        ]
+                    }
+                ],
+                "name": "LCMH TCW",
+                "identifier": [
+                    {
+                        "system": "urn:uuid:d1d32a76-467e-4275-9b23-8e7988717aff"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "708 E. Russell Avenue"
+                        ],
+                        "city": "Welsh",
+                        "state": "LA",
+                        "postalCode": "70591"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:5e9cc976-ee0d-4fe5-9193-4783ba814dbb"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a815c99a-1d70-40cc-84ab-2161fda0a689",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "a815c99a-1d70-40cc-84ab-2161fda0a689",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "Louisiana Heart Center ** LHC",
+                "address": "https://fhir.healthtogo.me/fhir/r4/imed.lhc",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:91d40f96-30e4-449a-8c54-648b3106aa2c",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "91d40f96-30e4-449a-8c54-648b3106aa2c",
+                "active": true,
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                                "code": "prov",
+                                "display": "Healthcare Provider"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Louisiana Heart Center ** LHC",
+                "identifier": [
+                    {
+                        "system": "urn:uuid:91d40f96-30e4-449a-8c54-648b3106aa2c"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "901 Gause Blvd",
+                            "2nd floor"
+                        ],
+                        "city": "Slidell",
+                        "postalCode": "70458"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:a815c99a-1d70-40cc-84ab-2161fda0a689"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:41b4a33c-6d02-4857-8b89-46b78c45a9b5",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "41b4a33c-6d02-4857-8b89-46b78c45a9b5",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "North Oaks Internal Medicine",
+                "address": "https://fhir.healthtogo.me/fhir/r4/imed.noim",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1d08f59a-9a16-4780-8702-225efe329c27",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "1d08f59a-9a16-4780-8702-225efe329c27",
+                "active": true,
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                                "code": "prov",
+                                "display": "Healthcare Provider"
+                            }
+                        ]
+                    }
+                ],
+                "name": "North Oaks Internal Medicine",
+                "identifier": [
+                    {
+                        "system": "urn:uuid:1d08f59a-9a16-4780-8702-225efe329c27"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "15744 Medical Arts Plaza"
+                        ],
+                        "city": "Hammond",
+                        "postalCode": "70403"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:41b4a33c-6d02-4857-8b89-46b78c45a9b5"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:6b3ee3e6-0f9e-4515-be7d-2fcc12458721",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "6b3ee3e6-0f9e-4515-be7d-2fcc12458721",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "Roland J. Degeyter, M.D., APMC",
+                "address": "https://fhir.healthtogo.me/fhir/r4/imed.degeyter",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:983b1742-8b27-4cad-80fb-b50eb93f76f4",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "983b1742-8b27-4cad-80fb-b50eb93f76f4",
+                "active": true,
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                                "code": "prov",
+                                "display": "Healthcare Provider"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Roland J. Degeyter, M.D., APMC",
+                "identifier": [
+                    {
+                        "system": "urn:uuid:983b1742-8b27-4cad-80fb-b50eb93f76f4"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "502 Haifleigh Street"
+                        ],
+                        "city": "Franklin",
+                        "state": "LA",
+                        "postalCode": "70508"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:6b3ee3e6-0f9e-4515-be7d-2fcc12458721"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:7545fa5c-a6ad-4885-b12f-8ed56e11e83c",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "7545fa5c-a6ad-4885-b12f-8ed56e11e83c",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "Vascular Specialty C VSC",
+                "address": "https://fhir.healthtogo.me/fhir/r4/imed.vsc",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:c4dbf5cf-c329-4747-8110-c92d6b2aabd2",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "c4dbf5cf-c329-4747-8110-c92d6b2aabd2",
+                "active": true,
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                                "code": "prov",
+                                "display": "Healthcare Provider"
+                            }
+                        ]
+                    }
+                ],
+                "name": "Vascular Specialty C VSC",
+                "identifier": [
+                    {
+                        "system": "urn:uuid:c4dbf5cf-c329-4747-8110-c92d6b2aabd2"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "8888 Summa Avenue",
+                            "3rd floor"
+                        ],
+                        "city": "Baton Rouge",
+                        "state": "LA",
+                        "postalCode": "70809"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:7545fa5c-a6ad-4885-b12f-8ed56e11e83c"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:079f13fc-fa62-4a60-afc7-abaacd2a6dd3",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "079f13fc-fa62-4a60-afc7-abaacd2a6dd3",
+                "status": "active",
+                "connectionType": {
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                    "code": "hl7-fhir-rest"
+                },
+                "name": "imed.maysclinic",
+                "address": "https://fhir.healthtogo.me/fhir/r4/imed.maysclinic",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                                "code": "any"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:bc504bab-8833-449f-8df1-99dc799aa32b",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "bc504bab-8833-449f-8df1-99dc799aa32b",
+                "active": true,
+                "type": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                                "code": "prov",
+                                "display": "Healthcare Provider"
+                            }
+                        ]
+                    }
+                ],
+                "name": "imed.maysclinic",
+                "identifier": [
+                    {
+                        "system": "urn:uuid:bc504bab-8833-449f-8df1-99dc799aa32b"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "4242 Gus Young Ave"
+                        ],
+                        "city": "Baton Rouge",
+                        "state": "LA",
+                        "postalCode": "70802"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "urn:uuid:079f13fc-fa62-4a60-afc7-abaacd2a6dd3"
+                    }
+                ]
+            }
+        }
+    ]
+}

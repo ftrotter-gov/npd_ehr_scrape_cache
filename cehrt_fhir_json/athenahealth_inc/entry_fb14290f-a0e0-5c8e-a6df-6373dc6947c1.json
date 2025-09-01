@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fb14290f-a0e0-5c8e-a6df-6373dc6947c1",
+    "name": "South Texas Surgical Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dc866cba-c8a8-5300-a4ce-cb689389cd8f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558447300"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6130 Parkway Dr.",
+          "PO BOX 270480"
+        ],
+        "city": "CORPUS CHRISTI",
+        "state": "TX",
+        "postalCode": "78414-2455"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-676"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-676.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fb14290f-a0e0-5c8e-a6df-6373dc6947c1"
+}

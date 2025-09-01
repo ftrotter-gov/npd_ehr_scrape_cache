@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "395f1621-0f28-556d-9766-e994766f31b2",
+    "name": "Baltimore Suburban Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ad132162-bee1-5222-8ffe-da698113db7f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134529779"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4000 OLD COURT ROAD"
+        ],
+        "city": "PIKESVILLE",
+        "state": "MD",
+        "postalCode": "21208-6417"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14466"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14466.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:395f1621-0f28-556d-9766-e994766f31b2"
+}

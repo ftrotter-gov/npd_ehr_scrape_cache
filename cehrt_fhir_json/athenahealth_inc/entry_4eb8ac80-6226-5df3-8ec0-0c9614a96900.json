@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4eb8ac80-6226-5df3-8ec0-0c9614a96900",
+    "name": "Natural Health Ctr",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/04f8dc71-eab5-5360-b341-5290f5590a63"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225303019"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3330 EAGLE ST"
+        ],
+        "city": "ANCHORAGE",
+        "state": "AK",
+        "postalCode": "99503-4146"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29731"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29731.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4eb8ac80-6226-5df3-8ec0-0c9614a96900"
+}

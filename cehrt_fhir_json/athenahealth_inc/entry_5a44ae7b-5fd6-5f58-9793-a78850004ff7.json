@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5a44ae7b-5fd6-5f58-9793-a78850004ff7",
+    "name": "Good Shepherd Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/226c4ac2-1848-5f45-86f6-532826a69a3c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295706851"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104897644"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "450 IL-22"
+        ],
+        "city": "Barrington",
+        "state": "IL",
+        "postalCode": "60010-1919"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26750"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26750.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5a44ae7b-5fd6-5f58-9793-a78850004ff7"
+}

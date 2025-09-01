@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cec6972f-d92e-5e91-be98-b80926f615db",
+    "name": "Legacy Good Samaritan - IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1d0dfdb9-5ba3-534d-904a-22cd0e70ae03"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588869572"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "PO BOX 4037"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97208-4037"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33239"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33239.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cec6972f-d92e-5e91-be98-b80926f615db"
+}

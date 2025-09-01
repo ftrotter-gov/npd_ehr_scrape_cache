@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "48505fdc-7a85-4c84-a6fb-13daccf4ba45",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "84b5f6c5-9187-4401-bd30-52b6b27a9b51",
+        "name": "Dermatology Specialists of Omaha"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dermatology Specialists of Omaha",
+    "managingOrganization": {
+      "reference": "#84b5f6c5-9187-4401-bd30-52b6b27a9b51"
+    },
+    "period": {
+      "start": "2018-09-14T15:13:58+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042673"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042673"
+}

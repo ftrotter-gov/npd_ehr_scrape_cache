@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "33fdf6e5-3d1b-5088-aecd-10f962146e5b",
+    "name": "Norwalk Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/99e41ac2-2389-59e7-8e95-fc6b5ab2c6f3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962763722"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "34 Maple St"
+        ],
+        "city": "Norwalk",
+        "state": "CT",
+        "postalCode": "06850-3815"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10861"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10861.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:33fdf6e5-3d1b-5088-aecd-10f962146e5b"
+}

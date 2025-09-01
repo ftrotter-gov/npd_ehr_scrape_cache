@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "23c0a7de-ff96-5d97-8a09-1a000cbd6fe1",
+    "name": "HOSPITAL BILLING",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/62509a34-817c-5d39-bb24-758eef86fd01"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144565748"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2567 Erie Avenue"
+        ],
+        "city": "CINCINNATI",
+        "state": "OH",
+        "postalCode": "45208-2018"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6059"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6059.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:23c0a7de-ff96-5d97-8a09-1a000cbd6fe1"
+}

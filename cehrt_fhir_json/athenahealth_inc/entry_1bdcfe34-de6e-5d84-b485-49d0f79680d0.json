@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bdcfe34-de6e-5d84-b485-49d0f79680d0",
+    "name": "Gynecological Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5a9ca83a-0a21-5da0-a652-5fce0cc114a0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730817248"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "32 STRAWBERRY HILL COURT",
+          "4TH FLOOR, SUITE 3"
+        ],
+        "city": "STAMFORD",
+        "state": "CT",
+        "postalCode": "06902-2777"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26970"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26970.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bdcfe34-de6e-5d84-b485-49d0f79680d0"
+}

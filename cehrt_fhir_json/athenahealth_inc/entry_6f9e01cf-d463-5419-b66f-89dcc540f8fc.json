@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6f9e01cf-d463-5419-b66f-89dcc540f8fc",
+    "name": "Lake West Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/85d61e7d-f71f-5fb2-92d9-5661bd1a4c72"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356394357"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "36000 Euclid Ave"
+        ],
+        "city": "Willoughby",
+        "state": "OH",
+        "postalCode": "44094-4625"
+      },
+      {
+        "line": [
+          "36000 Euclid Ave"
+        ],
+        "city": "WILLOUGHBY",
+        "state": "OH",
+        "postalCode": "44094-4625"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1926"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1926.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6f9e01cf-d463-5419-b66f-89dcc540f8fc"
+}

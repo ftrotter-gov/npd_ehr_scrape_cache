@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0862a82f-d3f9-5bcc-86a9-f39b250489aa",
+    "name": "Good Samaritan",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a3912821-3a4e-5163-83cc-16ac0ae39724"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881969277"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 Exempla Circle"
+        ],
+        "city": "LAFAYETTE",
+        "state": "CO",
+        "postalCode": "80026-3370"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23872"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23872.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0862a82f-d3f9-5bcc-86a9-f39b250489aa"
+}

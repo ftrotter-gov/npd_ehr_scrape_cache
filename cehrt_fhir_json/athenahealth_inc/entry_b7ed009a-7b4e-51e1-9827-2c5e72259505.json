@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b7ed009a-7b4e-51e1-9827-2c5e72259505",
+    "name": "OptumMD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/deca1ffa-f3b3-5992-be53-87cf6693e627"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629816459"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3747 PEACHTREE RD NE"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30319-1360"
+      },
+      {
+        "line": [
+          "91 W WIEUCA RD NE STE 1000"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30342-3289"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31818"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31818.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b7ed009a-7b4e-51e1-9827-2c5e72259505"
+}

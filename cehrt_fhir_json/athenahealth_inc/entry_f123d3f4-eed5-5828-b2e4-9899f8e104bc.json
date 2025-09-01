@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f123d3f4-eed5-5828-b2e4-9899f8e104bc",
+    "name": "Family Health North Mobile Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/46fb7e15-d3ea-5f51-a360-5cd0beeb4551"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063439065"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780864462"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "950 East Coy Smith Hwy"
+        ],
+        "city": "MOUNT VERNON",
+        "state": "AL",
+        "postalCode": "36560-3201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15479"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15479.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f123d3f4-eed5-5828-b2e4-9899f8e104bc"
+}

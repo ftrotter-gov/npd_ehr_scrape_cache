@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d09aa343-abc4-5f84-8fe7-6e55e0ed9599",
+    "name": "Highland Personal Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92dad269-73df-5292-8121-e3d0f284d75a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225352701"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1679680557"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "920 PONCE DE LEON AVE NE"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30306-4212"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12848"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12848.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d09aa343-abc4-5f84-8fe7-6e55e0ed9599"
+}

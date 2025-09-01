@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b580271-7a36-5602-bb1c-715759ca382f",
+    "name": "Monroe Pediatric Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/310d3728-c873-50e4-8de4-8e9cb429d4b8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396944799"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "70 Gilbert Street",
+          "Suite 103"
+        ],
+        "city": "MONROE",
+        "state": "NY",
+        "postalCode": "10950-1538"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29151"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29151.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b580271-7a36-5602-bb1c-715759ca382f"
+}

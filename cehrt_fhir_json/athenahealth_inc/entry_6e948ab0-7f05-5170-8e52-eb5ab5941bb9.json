@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e948ab0-7f05-5170-8e52-eb5ab5941bb9",
+    "name": "Dr. Courtney Bloomer",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/44634147-d14f-5570-bf19-01d3e1fd74eb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801606652"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "House call"
+        ],
+        "city": "WESTFIELD",
+        "state": "NJ",
+        "postalCode": "07090-3121"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31442"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31442.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e948ab0-7f05-5170-8e52-eb5ab5941bb9"
+}

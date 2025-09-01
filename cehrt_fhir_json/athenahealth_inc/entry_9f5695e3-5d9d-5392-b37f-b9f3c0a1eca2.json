@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9f5695e3-5d9d-5392-b37f-b9f3c0a1eca2",
+    "name": "Dr. DiMotta's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/da57b310-605a-5d5f-a2e0-08a7403310d5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992132500"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "208 PORR DR"
+        ],
+        "city": "RUIDOSO",
+        "state": "NM",
+        "postalCode": "88345-6713"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18658"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18658.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9f5695e3-5d9d-5392-b37f-b9f3c0a1eca2"
+}

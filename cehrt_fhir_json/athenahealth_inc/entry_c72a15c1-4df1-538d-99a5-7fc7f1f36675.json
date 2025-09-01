@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c72a15c1-4df1-538d-99a5-7fc7f1f36675",
+    "name": "City of Wabash",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c98bd6a2-1363-518b-80e0-f8fadf6810e8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013267871"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20 John Kissinger Dr"
+        ],
+        "city": "WABASH",
+        "state": "IN",
+        "postalCode": "46992-1648"
+      },
+      {
+        "line": [
+          "797 S Wabash St"
+        ],
+        "city": "WABASH",
+        "state": "IN",
+        "postalCode": "46992-3332"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5693"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5693.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c72a15c1-4df1-538d-99a5-7fc7f1f36675"
+}

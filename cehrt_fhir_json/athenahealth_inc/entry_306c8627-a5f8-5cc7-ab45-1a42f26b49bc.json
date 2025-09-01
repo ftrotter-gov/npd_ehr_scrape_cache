@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "306c8627-a5f8-5cc7-ab45-1a42f26b49bc",
+    "name": "HealthyMe",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fe8408c3-92ac-5363-8b7a-523ceb904a49"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598371239"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "302 Wesley St.",
+          "Suite 8"
+        ],
+        "city": "JOHNSON CITY",
+        "state": "TN",
+        "postalCode": "37601-1740"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22490"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22490.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:306c8627-a5f8-5cc7-ab45-1a42f26b49bc"
+}

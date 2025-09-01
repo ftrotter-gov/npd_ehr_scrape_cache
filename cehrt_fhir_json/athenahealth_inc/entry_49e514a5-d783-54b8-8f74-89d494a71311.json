@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "49e514a5-d783-54b8-8f74-89d494a71311",
+    "name": "First Choice Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/560afdfc-c3fa-5197-b31f-1bdfe2a010de"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154549640"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 W MAIN ST"
+        ],
+        "city": "OTTUMWA",
+        "state": "IA",
+        "postalCode": "52501-2524"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20462"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20462.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:49e514a5-d783-54b8-8f74-89d494a71311"
+}

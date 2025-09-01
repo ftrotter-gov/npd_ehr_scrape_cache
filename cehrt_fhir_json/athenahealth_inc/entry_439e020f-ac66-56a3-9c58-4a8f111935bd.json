@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "439e020f-ac66-56a3-9c58-4a8f111935bd",
+    "name": "Dr. Camargo",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5a526050-348d-5cc5-aa72-14e52ea28e25"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124309463"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 EAST MATTHEWS ST STE 400"
+        ],
+        "city": "MATTHEWS",
+        "state": "NC",
+        "postalCode": "28105-5373"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29612"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29612.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:439e020f-ac66-56a3-9c58-4a8f111935bd"
+}

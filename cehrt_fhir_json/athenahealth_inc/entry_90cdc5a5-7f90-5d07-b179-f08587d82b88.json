@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "90cdc5a5-7f90-5d07-b179-f08587d82b88",
+    "name": "Southern Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d12972f8-090e-56cb-a0e8-c641f12f3d61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386697928"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11 Upper Riverdale Road SW"
+        ],
+        "city": "RIVERDALE",
+        "state": "GA",
+        "postalCode": "30274-2600"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15749"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15749.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:90cdc5a5-7f90-5d07-b179-f08587d82b88"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b8b9274d-7446-5a77-88a9-1fd8c8fdced2",
+    "name": "Breast Imaging",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b7839396-e843-558a-84d1-be5dfb8718b3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942376579"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770693939"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1330 Oak Lane, Suite 202"
+        ],
+        "city": "LYNCHBURG",
+        "state": "VA",
+        "postalCode": "24503-2513"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-221"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-221.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b8b9274d-7446-5a77-88a9-1fd8c8fdced2"
+}

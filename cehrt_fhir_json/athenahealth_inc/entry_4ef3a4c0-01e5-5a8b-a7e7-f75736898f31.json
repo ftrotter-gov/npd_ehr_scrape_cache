@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ef3a4c0-01e5-5a8b-a7e7-f75736898f31",
+    "name": "Lynchburg General Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2fa131bb-0724-5006-a432-65a55e99aa46"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124077979"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1901 Tate Spring Road"
+        ],
+        "city": "LYNCHBURG",
+        "state": "VA",
+        "postalCode": "24501-1109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-221"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-221.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ef3a4c0-01e5-5a8b-a7e7-f75736898f31"
+}

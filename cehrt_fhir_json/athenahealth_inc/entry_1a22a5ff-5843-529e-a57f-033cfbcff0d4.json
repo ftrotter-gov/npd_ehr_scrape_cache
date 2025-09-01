@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1a22a5ff-5843-529e-a57f-033cfbcff0d4",
+    "name": "Mercy Medical Free Clinics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8e57d472-d223-591e-bd07-8db217092914"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "203 Grove Street"
+        ],
+        "city": "DARLINGTON",
+        "state": "SC",
+        "postalCode": "29532-0001"
+      },
+      {
+        "line": [
+          "500 West Carolina Ave"
+        ],
+        "city": "HARTSVILLE",
+        "state": "SC",
+        "postalCode": "29550-5412"
+      },
+      {
+        "line": [
+          "500 SOUTH COIT STREET"
+        ],
+        "city": "FLORENCE",
+        "state": "SC",
+        "postalCode": "29501-5221"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18007"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18007.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1a22a5ff-5843-529e-a57f-033cfbcff0d4"
+}

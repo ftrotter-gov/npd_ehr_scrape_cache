@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ec60daec-1aa3-5616-84e8-35d4f91e8a85",
+    "name": "Evans Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/42da9ca0-1435-598b-aded-8cfdad443c0f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417064924"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "411 Town Park Blvd"
+        ],
+        "city": "EVANS",
+        "state": "GA",
+        "postalCode": "30809-3487"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14928"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14928.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ec60daec-1aa3-5616-84e8-35d4f91e8a85"
+}

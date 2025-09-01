@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a83571d-f179-55e5-9a4b-64fc79c2c963",
+    "name": "Alpha Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e2b4c95f-bea5-56a1-bad1-a1c5ffc7393e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053681023"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "24727 STATE HIGHWAY 249 STE 100"
+        ],
+        "city": "TOMBALL",
+        "state": "TX",
+        "postalCode": "77375-7877"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24405"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24405.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a83571d-f179-55e5-9a4b-64fc79c2c963"
+}

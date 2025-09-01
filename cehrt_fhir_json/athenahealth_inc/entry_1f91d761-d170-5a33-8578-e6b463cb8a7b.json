@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1f91d761-d170-5a33-8578-e6b463cb8a7b",
+    "name": "Cypress Creek Clinic, Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ed35a6a8-9564-5b81-ab80-c0de033dfea6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144724261"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "345 Cypress Creek Rd",
+          "Ste #104"
+        ],
+        "city": "CEDAR PARK",
+        "state": "TX",
+        "postalCode": "78613-4483"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11316"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11316.Brand-7"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1f91d761-d170-5a33-8578-e6b463cb8a7b"
+}

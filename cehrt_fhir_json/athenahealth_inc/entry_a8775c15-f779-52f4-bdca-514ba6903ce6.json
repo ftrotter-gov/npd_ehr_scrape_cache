@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a8775c15-f779-52f4-bdca-514ba6903ce6",
+    "name": "Promise Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3d97f14b-8d64-5290-b822-30401d40e98e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548753866"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "159 N 400 W UNIT B-8"
+        ],
+        "city": "OREM",
+        "state": "UT",
+        "postalCode": "84057-1909"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20258"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20258.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a8775c15-f779-52f4-bdca-514ba6903ce6"
+}

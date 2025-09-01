@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "238eec61-e62b-58d9-a9e3-a49223f5f6d3",
+    "name": "Womens Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a724c505-5236-5dac-abac-8a57652a6643"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407235971"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174744379"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548640642"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1026 North Flowood Dr"
+        ],
+        "city": "FLOWOOD",
+        "state": "MS",
+        "postalCode": "39232-9512"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28954"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28954.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:238eec61-e62b-58d9-a9e3-a49223f5f6d3"
+}

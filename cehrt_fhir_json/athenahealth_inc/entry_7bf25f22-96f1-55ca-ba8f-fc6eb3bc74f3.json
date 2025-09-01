@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7bf25f22-96f1-55ca-ba8f-fc6eb3bc74f3",
+    "name": "Cabrini Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a4863a7d-d4e5-5c1f-a023-acdf85583480"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1234 PORTER STREET"
+        ],
+        "city": "DETROIT",
+        "state": "MI",
+        "postalCode": "48226-2407"
+      },
+      {
+        "line": [
+          "1234 Porter"
+        ],
+        "city": "DETROIT",
+        "state": "MI",
+        "postalCode": "48226-2407"
+      },
+      {
+        "line": [
+          "1234 PORTER ST"
+        ],
+        "city": "DETROIT",
+        "state": "MI",
+        "postalCode": "48226-2407"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18430"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18430.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7bf25f22-96f1-55ca-ba8f-fc6eb3bc74f3"
+}

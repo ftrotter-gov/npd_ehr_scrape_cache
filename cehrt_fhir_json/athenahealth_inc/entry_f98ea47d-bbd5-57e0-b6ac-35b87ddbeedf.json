@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f98ea47d-bbd5-57e0-b6ac-35b87ddbeedf",
+    "name": "Abilene Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/33086b93-013e-579e-88ae-878e5c36af3a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639132251"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174904551"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6250 US HWY 83"
+        ],
+        "city": "ABILENE",
+        "state": "TX",
+        "postalCode": "79606-5215"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2230"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2230.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f98ea47d-bbd5-57e0-b6ac-35b87ddbeedf"
+}

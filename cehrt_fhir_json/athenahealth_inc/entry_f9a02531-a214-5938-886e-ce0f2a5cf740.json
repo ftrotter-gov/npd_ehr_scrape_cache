@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f9a02531-a214-5938-886e-ce0f2a5cf740",
+    "name": "Aurora Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/be565e79-b07c-58b5-95a0-4d5ef4e4c696"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750372504"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1501 S. Potomac Street"
+        ],
+        "city": "AURORA",
+        "state": "CO",
+        "postalCode": "80012-5411"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1521"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1521.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f9a02531-a214-5938-886e-ce0f2a5cf740"
+}

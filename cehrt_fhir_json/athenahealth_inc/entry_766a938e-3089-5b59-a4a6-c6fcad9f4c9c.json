@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "766a938e-3089-5b59-a4a6-c6fcad9f4c9c",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4e9408a9-c7ee-54dc-bce8-9eb776c3f7c0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770526097"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5037 LAKESHORE ROAD"
+        ],
+        "city": "HAMBURG",
+        "state": "NY",
+        "postalCode": "14075-5720"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8900"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8900.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:766a938e-3089-5b59-a4a6-c6fcad9f4c9c"
+}

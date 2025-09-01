@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56e8dc3a-7b2e-5b9b-95c9-ab77e60dd5ec",
+    "name": "New Covenant Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d5d248da-fb4a-597c-98db-ab0d8ba24b72"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770770133"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 SUSAN DRIVE"
+        ],
+        "city": "WEST FRANKFORT",
+        "state": "IL",
+        "postalCode": "62896-1937"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21329"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21329.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56e8dc3a-7b2e-5b9b-95c9-ab77e60dd5ec"
+}

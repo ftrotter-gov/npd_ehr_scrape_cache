@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cbb23bf0-7025-5434-b369-c64cf5d37786",
+    "name": "Oceanside Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4e91246a-1407-52bc-9319-84f2d83108ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720727274"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 TOLL GATE RD STE 207"
+        ],
+        "city": "WARWICK",
+        "state": "RI",
+        "postalCode": "02886-4448"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30105"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30105.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cbb23bf0-7025-5434-b369-c64cf5d37786"
+}

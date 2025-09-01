@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22601170-cd1a-57bb-9bdd-459b1ffb7200",
+    "name": "Midtown OBGYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/04f2e6c7-cc8a-5958-b16d-1071f0dc16a2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174244313"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1705 E 19TH STSUITE 701"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74104-5418"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27051"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27051.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22601170-cd1a-57bb-9bdd-459b1ffb7200"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a5201739-3163-5432-86b7-dbf924a048cd",
+    "name": "BALTIMORE WASHINGTON MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9ef3326a-2a8e-5e26-8667-2c87e4592aad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760872709"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841336302"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 HOSPITAL DR"
+        ],
+        "city": "GLEN BURNIE",
+        "state": "MD",
+        "postalCode": "21061-5803"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6309"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6309.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a5201739-3163-5432-86b7-dbf924a048cd"
+}

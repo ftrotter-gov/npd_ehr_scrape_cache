@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "608c33b1-7de4-5e66-a61a-6d41e8327fb8",
+    "name": "Hopscotch Primary Care Hudson",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0abe62b3-8369-5c47-95a0-5065eb83c958"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265716922"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3060 Hickory Boulevard"
+        ],
+        "city": "HUDSON",
+        "state": "NC",
+        "postalCode": "28638-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26812"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26812.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:608c33b1-7de4-5e66-a61a-6d41e8327fb8"
+}

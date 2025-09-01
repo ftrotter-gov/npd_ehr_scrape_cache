@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "674f7193-a7a6-563c-afc2-bc965144de3c",
+    "name": "Trinity Medical Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1bb19c0a-8cc2-5bb3-84b7-27b031c9d228"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710594577"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "345 SOMERSET ST SUITE 102A"
+        ],
+        "city": "PLAINFIELD",
+        "state": "NJ",
+        "postalCode": "07060-4774"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26065"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26065.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:674f7193-a7a6-563c-afc2-bc965144de3c"
+}

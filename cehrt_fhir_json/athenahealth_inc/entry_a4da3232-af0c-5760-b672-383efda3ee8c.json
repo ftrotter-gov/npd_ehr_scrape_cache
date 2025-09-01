@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a4da3232-af0c-5760-b672-383efda3ee8c",
+    "name": "AZ Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/00c45b1f-cf9d-57b3-9d49-5002428a64d3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376026328"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "202 MILBY ST"
+        ],
+        "city": "GREENSBURG",
+        "state": "KY",
+        "postalCode": "42743-1136"
+      },
+      {
+        "line": [
+          "202 Milby Street"
+        ],
+        "city": "GREENSBURG",
+        "state": "KY",
+        "postalCode": "42743-1136"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20115"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20115.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a4da3232-af0c-5760-b672-383efda3ee8c"
+}

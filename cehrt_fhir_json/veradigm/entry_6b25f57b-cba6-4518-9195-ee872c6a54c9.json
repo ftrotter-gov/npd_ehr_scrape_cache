@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "6b25f57b-cba6-4518-9195-ee872c6a54c9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "7ebb2cdb-f57b-42a6-8ed4-533b043edba7",
+        "name": "Colorado Physician Partners"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Colorado Physician Partners",
+    "managingOrganization": {
+      "reference": "#7ebb2cdb-f57b-42a6-8ed4-533b043edba7"
+    },
+    "period": {
+      "start": "2020-02-04T13:58:21+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10211803"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10211803"
+}

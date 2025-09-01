@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ce6e0add-4d9a-58cb-b14e-83db2b040143",
+    "name": "Trinity Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b2211c61-2bde-5ba0-b17f-ff6f1879a78e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760662746"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4000 Johnson Road"
+        ],
+        "city": "STEUBENVILLE",
+        "state": "OH",
+        "postalCode": "43952-2364"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16358"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16358.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ce6e0add-4d9a-58cb-b14e-83db2b040143"
+}

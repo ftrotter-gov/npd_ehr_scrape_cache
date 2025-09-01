@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bba17d12-0326-5ff0-a727-23385c949be1",
+    "name": "Advanced Home Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ee37158b-b4e7-5ddd-b402-19b8959f6d0c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467959155"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4362 Auburn Blvd"
+        ],
+        "city": "SACRAMENTO",
+        "state": "CA",
+        "postalCode": "95841-4107"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10649"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10649.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bba17d12-0326-5ff0-a727-23385c949be1"
+}

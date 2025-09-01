@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "af3bc88c-60c8-5743-864e-2c621dbaa713",
+    "name": "St. Luke's Baptist Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/400c96a5-4b38-54d9-8012-14e12058b938"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184098279"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7930 Floyd Curl Dr."
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78229-3925"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16015"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16015.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:af3bc88c-60c8-5743-864e-2c621dbaa713"
+}

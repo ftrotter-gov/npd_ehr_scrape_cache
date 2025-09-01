@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "62dcd973-0639-54fe-8775-5773fff202c9",
+    "name": "SALEM HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a30fdb5a-8411-552c-b900-c3e84af311d8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114052495"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "81 HIGHLAND AVE"
+        ],
+        "city": "SALEM",
+        "state": "MA",
+        "postalCode": "01970-2714"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-819"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-819.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:62dcd973-0639-54fe-8775-5773fff202c9"
+}

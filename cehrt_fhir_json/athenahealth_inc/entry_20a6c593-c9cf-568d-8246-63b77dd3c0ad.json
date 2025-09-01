@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "20a6c593-c9cf-568d-8246-63b77dd3c0ad",
+    "name": "Dr. David King",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fb651b83-a1c5-5b8c-8843-8c363d04913a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215971510"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "830 Lincoln St"
+        ],
+        "city": "LANDER",
+        "state": "WY",
+        "postalCode": "82520-2736"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5036"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5036.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:20a6c593-c9cf-568d-8246-63b77dd3c0ad"
+}

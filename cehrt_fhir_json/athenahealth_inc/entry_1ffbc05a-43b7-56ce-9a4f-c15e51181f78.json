@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ffbc05a-43b7-56ce-9a4f-c15e51181f78",
+    "name": "Grand Oaks",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5d89f1d5-8328-5b56-b85a-8d5a092bb55f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023303807"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225563232"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5901 MacArthur Blvd NW"
+        ],
+        "city": "WASHINGTON",
+        "state": "DC",
+        "postalCode": "20016-2541"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13924"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13924.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ffbc05a-43b7-56ce-9a4f-c15e51181f78"
+}

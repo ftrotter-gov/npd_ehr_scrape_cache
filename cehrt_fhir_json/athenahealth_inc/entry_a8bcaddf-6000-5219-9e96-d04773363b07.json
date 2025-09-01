@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a8bcaddf-6000-5219-9e96-d04773363b07",
+    "name": "North Austin Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/08759391-4152-5b5b-bd34-524d0d46bb11"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457729733"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12221 N MOPAC EXPY"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78758-2401"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13029"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13029.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a8bcaddf-6000-5219-9e96-d04773363b07"
+}

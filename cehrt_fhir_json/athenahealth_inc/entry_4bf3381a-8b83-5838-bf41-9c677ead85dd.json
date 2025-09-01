@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4bf3381a-8b83-5838-bf41-9c677ead85dd",
+    "name": "Aventura",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e0c30053-4237-5a7b-8a26-8c8844e02335"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174236566"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 E HALLANDALE BEACH BLVD 406"
+        ],
+        "city": "HALLANDALE",
+        "state": "FL",
+        "postalCode": "33009-7809"
+      },
+      {
+        "line": [
+          "2820 NE 214TH ST STE 828"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33180-1270"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27498"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27498.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4bf3381a-8b83-5838-bf41-9c677ead85dd"
+}

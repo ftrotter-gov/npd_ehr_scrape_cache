@@ -1,0 +1,66 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM096-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM096"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Indiana Pain & Spine Clinic",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5742342191"
+      },
+      {
+        "system": "fax",
+        "value": "5742347720"
+      },
+      {
+        "system": "email",
+        "value": "indianapainandspine@gmail.com"
+      },
+      {
+        "system": "url",
+        "value": "WWW.INDIANAPAINCLINIC.COM"
+      }
+    ],
+    "address": [
+      {
+        "text": "6915 N. Fir Road Granger IN 465304754 US",
+        "line": [
+          "6915 N. Fir Road"
+        ],
+        "city": "Granger",
+        "state": "IN",
+        "postalCode": "465304754",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM096-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM096-Organization-2"
+}

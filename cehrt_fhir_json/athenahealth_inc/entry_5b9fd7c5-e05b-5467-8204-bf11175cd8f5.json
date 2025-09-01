@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5b9fd7c5-e05b-5467-8204-bf11175cd8f5",
+    "name": "KYB Health and Wellness Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35b6fd9f-056a-5a54-bdbf-c41e7d6eaab5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043769722"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518209782"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2621 N. Morton St."
+        ],
+        "city": "FRANKLIN",
+        "state": "IN",
+        "postalCode": "46131-8820"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14940"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14940.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5b9fd7c5-e05b-5467-8204-bf11175cd8f5"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3eb225a5-2f81-556b-8aa6-16d77a49d6d8",
+    "name": "Trilogy Health INC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/406d09cc-64bc-59d2-98ba-c4d0e738967b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629764451"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "350 LINCOLN ST",
+          "STE 1108"
+        ],
+        "city": "HINGHAM",
+        "state": "MA",
+        "postalCode": "02043-1658"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29331"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29331.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3eb225a5-2f81-556b-8aa6-16d77a49d6d8"
+}

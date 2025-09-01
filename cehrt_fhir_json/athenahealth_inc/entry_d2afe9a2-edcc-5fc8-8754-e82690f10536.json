@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d2afe9a2-edcc-5fc8-8754-e82690f10536",
+    "name": "BRANDYWINE HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0f8a797a-7ded-5e6c-abfd-0603a4d84fea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891866182"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750805552"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 REECEVILLE RD"
+        ],
+        "city": "COATESVILLE",
+        "state": "PA",
+        "postalCode": "19320-1542"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1606"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1606.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d2afe9a2-edcc-5fc8-8754-e82690f10536"
+}

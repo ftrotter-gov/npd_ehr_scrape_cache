@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e21cfe4c-4ea6-5759-9a08-509730dc747e",
+    "name": "Kings Daughters Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b859ac39-142d-5acd-9a07-5427d8a5742e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871512160"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578085296"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "ONE KING'S DAUGHTERS DR"
+        ],
+        "city": "MADISON",
+        "state": "IN",
+        "postalCode": "47250-3300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3402"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3402.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e21cfe4c-4ea6-5759-9a08-509730dc747e"
+}

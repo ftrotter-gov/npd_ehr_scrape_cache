@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56ab088b-74ac-5a7a-b312-b8667a0a9e29",
+    "name": "STRESS TEST",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b403fe2e-e223-5fe8-b86e-f46a3aae20fe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073506317"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124011457"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "31 OLD ROUTE 7",
+          "SUITE 1A"
+        ],
+        "city": "BROOKFIELD",
+        "state": "CT",
+        "postalCode": "06804-1714"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11729"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11729.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56ab088b-74ac-5a7a-b312-b8667a0a9e29"
+}

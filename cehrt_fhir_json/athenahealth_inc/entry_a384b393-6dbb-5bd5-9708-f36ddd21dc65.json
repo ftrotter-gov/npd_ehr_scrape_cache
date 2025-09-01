@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a384b393-6dbb-5bd5-9708-f36ddd21dc65",
+    "name": "New Jersey Eye Institute",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/03c61fd2-213f-53dc-9178-1f2a57ad33a6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134415078"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "703 Main Street"
+        ],
+        "city": "PATERSON",
+        "state": "NJ",
+        "postalCode": "07503-2621"
+      },
+      {
+        "line": [
+          "1033 Route 46 East",
+          "Suite 105"
+        ],
+        "city": "CLIFTON",
+        "state": "NJ",
+        "postalCode": "07013-2473"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19757"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19757.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a384b393-6dbb-5bd5-9708-f36ddd21dc65"
+}

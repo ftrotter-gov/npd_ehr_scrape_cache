@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f61407ff-4812-5184-8dce-007592ff2ab7",
+    "name": "Dr. Zack Hall's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/90dd3661-1297-596b-957a-6de5ecf65565"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003075219"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "217 TURNER DRIVE",
+          "STE F"
+        ],
+        "city": "REIDSVILLE",
+        "state": "NC",
+        "postalCode": "27320-5022"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25214"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25214.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f61407ff-4812-5184-8dce-007592ff2ab7"
+}

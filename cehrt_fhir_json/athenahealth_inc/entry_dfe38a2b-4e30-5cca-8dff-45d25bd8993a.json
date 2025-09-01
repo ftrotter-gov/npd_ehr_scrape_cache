@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dfe38a2b-4e30-5cca-8dff-45d25bd8993a",
+    "name": "PCC Clinic at the Boulevard",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7b551089-a834-5135-a51a-661b31a924c5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871516799"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3456 W Franklin Blvd"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60624-1308"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13158"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13158.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dfe38a2b-4e30-5cca-8dff-45d25bd8993a"
+}

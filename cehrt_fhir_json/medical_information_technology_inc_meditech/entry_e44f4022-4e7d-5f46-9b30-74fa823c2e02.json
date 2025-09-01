@@ -1,0 +1,73 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e44f4022-4e7d-5f46-9b30-74fa823c2e02",
+    "meta": {
+      "lastUpdated": "2024-08-29T14:41:56.620Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://ahcs.org"
+      }
+    ],
+    "name": "Appling Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://ahcs.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "163 East Tollison Street"
+        ],
+        "city": "Baxley",
+        "state": "GA",
+        "postalCode": "31513",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:0d863627-69c8-46b1-bd86-3fb3608c4b24"
+      },
+      {
+        "reference": "urn:uuid:a1af0eec-ad21-400b-a157-ad0b87c67c0e"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0d863627-69c8-46b1-bd86-3fb3608c4b24"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:a1af0eec-ad21-400b-a157-ad0b87c67c0e"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e44f4022-4e7d-5f46-9b30-74fa823c2e02"
+}

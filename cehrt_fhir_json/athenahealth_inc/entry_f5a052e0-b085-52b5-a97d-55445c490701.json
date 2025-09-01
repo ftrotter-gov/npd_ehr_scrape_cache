@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f5a052e0-b085-52b5-a97d-55445c490701",
+    "name": "Aseptic Primary Care & Family Practice Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1abb5110-7383-5347-bb93-08780ff5bde9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033815295"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1505 Highway 6 South",
+          "Suite 240"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77077-1725"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31163"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31163.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f5a052e0-b085-52b5-a97d-55445c490701"
+}

@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM18I-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM18I"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Saline County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6608863434"
+      },
+      {
+        "system": "fax",
+        "value": "6608866676"
+      },
+      {
+        "system": "url",
+        "value": "salinecountyhealthdepartment.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "1825 Atchison Ave Marshall MO 653409752 US",
+        "line": [
+          "1825 Atchison Ave"
+        ],
+        "city": "Marshall",
+        "state": "MO",
+        "postalCode": "653409752",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM18I-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM18I-Organization-2"
+}

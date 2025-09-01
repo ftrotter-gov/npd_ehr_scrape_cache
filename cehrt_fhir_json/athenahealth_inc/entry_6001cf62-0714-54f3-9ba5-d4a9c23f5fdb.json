@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6001cf62-0714-54f3-9ba5-d4a9c23f5fdb",
+    "name": "The Methodist Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c97ee9d9-39b2-518f-bc20-87a91c18869c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598799116"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6565 Fannin Street"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77030-2703"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1171"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1171.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6001cf62-0714-54f3-9ba5-d4a9c23f5fdb"
+}

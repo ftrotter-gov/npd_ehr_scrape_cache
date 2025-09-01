@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0ca00e24-61f3-50b8-83fd-88d44e3b2390",
+    "name": "Care Access Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eb677f6b-97b4-5ba1-8f92-82b0240e153b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184038085"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "133 E MAIN STREET SUITE 1B"
+        ],
+        "city": "BABYLON",
+        "state": "NY",
+        "postalCode": "11702-3517"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20511"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20511.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0ca00e24-61f3-50b8-83fd-88d44e3b2390"
+}

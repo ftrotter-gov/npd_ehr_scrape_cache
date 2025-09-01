@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d61d3826-b95b-51af-9e01-29495ee0bbd4",
+    "name": "davita",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/34e60843-7393-53fd-aa90-5c92b921d8e7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962433565"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "124 fire tower rd"
+        ],
+        "city": "ORANGEBURG",
+        "state": "SC",
+        "postalCode": "29118-1401"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11847"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11847.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d61d3826-b95b-51af-9e01-29495ee0bbd4"
+}

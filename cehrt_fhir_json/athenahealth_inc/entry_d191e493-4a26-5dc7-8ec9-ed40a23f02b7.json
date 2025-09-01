@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d191e493-4a26-5dc7-8ec9-ed40a23f02b7",
+    "name": "Augusta Allergy and Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/292627be-b9f4-539d-bd8a-580f475375b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962471516"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2021 Scotts Rd"
+        ],
+        "city": "AUGUSTA",
+        "state": "GA",
+        "postalCode": "30906-2539"
+      },
+      {
+        "line": [
+          "2122 Cumming Rd"
+        ],
+        "city": "AUGUSTA",
+        "state": "GA",
+        "postalCode": "30904-4334"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13204"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13204.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d191e493-4a26-5dc7-8ec9-ed40a23f02b7"
+}

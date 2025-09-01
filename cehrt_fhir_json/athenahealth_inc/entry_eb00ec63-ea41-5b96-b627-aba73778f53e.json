@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eb00ec63-ea41-5b96-b627-aba73778f53e",
+    "name": "Medical City McKinney",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a8be7e66-7743-5877-8fc2-636c6364ee41"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962663682"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4500 Medical Center Drive"
+        ],
+        "city": "McKinney",
+        "state": "TX",
+        "postalCode": "75069-1650"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1686"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1686.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eb00ec63-ea41-5b96-b627-aba73778f53e"
+}

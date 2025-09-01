@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5984ba90-2ec3-4032-956b-415cede0059d",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "5d1be150-fc20-4c0a-a57d-7dc1a86d5000",
+        "name": "Maryland Neurological Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Maryland Neurological Center",
+    "managingOrganization": {
+      "reference": "#5d1be150-fc20-4c0a-a57d-7dc1a86d5000"
+    },
+    "period": {
+      "start": "2019-05-15T17:16:47+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/71949"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/71949"
+}

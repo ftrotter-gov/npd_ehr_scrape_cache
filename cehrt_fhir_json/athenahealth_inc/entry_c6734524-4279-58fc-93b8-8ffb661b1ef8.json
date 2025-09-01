@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c6734524-4279-58fc-93b8-8ffb661b1ef8",
+    "name": "Maine Street Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/889bf266-2a28-516e-9bfd-0e0956c40800"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598477887"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 Main St"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-1103"
+      },
+      {
+        "line": [
+          "8 MASON ST"
+        ],
+        "city": "BRUNSWICK",
+        "state": "ME",
+        "postalCode": "04011-1514"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27919"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27919.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c6734524-4279-58fc-93b8-8ffb661b1ef8"
+}

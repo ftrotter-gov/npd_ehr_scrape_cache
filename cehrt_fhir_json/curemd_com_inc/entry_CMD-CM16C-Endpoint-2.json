@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "CMD-CM16C-Endpoint-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/StructureDefinition/Endpoint"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM16C"
+        }
+      ]
+    },
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "name": "CardioVascular Institute, PC",
+    "managingOrganization": {
+      "reference": "Organization/CMD-CM16C-Organization-2"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+            "code": "none",
+            "display": "None"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir"
+    ],
+    "address": "https://fhirendpoint.curemd.net/CM16C"
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Endpoint/CMD-CM16C-Endpoint-2"
+}

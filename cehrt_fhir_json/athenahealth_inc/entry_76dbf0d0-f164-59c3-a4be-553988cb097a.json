@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "76dbf0d0-f164-59c3-a4be-553988cb097a",
+    "name": "HealthPark Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/68c55986-f9a9-5431-a75b-2c53f67fb1fe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437100146"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9981 S. HealthPark Drive"
+        ],
+        "city": "FORT MYERS",
+        "state": "FL",
+        "postalCode": "33908-3618"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22073"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22073.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:76dbf0d0-f164-59c3-a4be-553988cb097a"
+}

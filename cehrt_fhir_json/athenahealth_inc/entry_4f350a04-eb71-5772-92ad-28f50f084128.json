@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4f350a04-eb71-5772-92ad-28f50f084128",
+    "name": "Winchester Hosp Breast Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/735bc798-6775-51ad-9911-d7007199f240"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184606865"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7 Alfred Street, suite 370"
+        ],
+        "city": "WOBURN",
+        "state": "MA",
+        "postalCode": "01801-1929"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-391.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4f350a04-eb71-5772-92ad-28f50f084128"
+}

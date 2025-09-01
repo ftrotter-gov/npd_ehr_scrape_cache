@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "046d3343-c2c3-429b-b680-d3f6a3282d27",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "6b65b06b-5978-4cf1-a173-85bf3735bbf2",
+        "name": "Airport Family Physicians"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Airport Family Physicians",
+    "managingOrganization": {
+      "reference": "#6b65b06b-5978-4cf1-a173-85bf3735bbf2"
+    },
+    "period": {
+      "start": "2018-06-25T13:51:36+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/7339"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/7339"
+}
