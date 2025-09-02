@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5af14714-1ca8-56a0-8dc1-5f0ea0336014",
+    "name": "Birth N Beyond",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/358ed877-677f-55a0-89a5-8b3ee52a44f3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922004050"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 FITCH ST",
+          "STE 206"
+        ],
+        "city": "ELMIRA",
+        "state": "NY",
+        "postalCode": "14905-1634"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29089"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29089.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5af14714-1ca8-56a0-8dc1-5f0ea0336014"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "149a4e41-42d5-5189-95b1-e6d25a1223cb",
+    "name": "St. Luke's Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ac16de48-203e-532c-ab65-d75a545f0f4a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891783189"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 Page Street"
+        ],
+        "city": "NEW BEDFORD",
+        "state": "MA",
+        "postalCode": "02740-3464"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-788"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-788.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:149a4e41-42d5-5189-95b1-e6d25a1223cb"
+}

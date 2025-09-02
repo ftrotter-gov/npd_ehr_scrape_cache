@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db8d52a2-cd35-5e26-b6c7-e8de91543450",
+    "name": "Emerson Road Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a7d61a21-3beb-5a69-9831-eb6f3423b622"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174595409"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "633 emerson"
+        ],
+        "city": "SAINT LOUIS",
+        "state": "MO",
+        "postalCode": "63141-6739"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11161"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11161.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db8d52a2-cd35-5e26-b6c7-e8de91543450"
+}

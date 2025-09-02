@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2053e121-8a69-56ad-b52f-a91dfea293aa",
+    "name": "Colleton Medical Center Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6f6e7136-867a-5665-9cca-7a558153aea1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376592972"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "501 Robertson Blvd"
+        ],
+        "city": "WALTERBORO",
+        "state": "SC",
+        "postalCode": "29488-2787"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13532"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13532.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2053e121-8a69-56ad-b52f-a91dfea293aa"
+}

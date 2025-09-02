@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7f0442ff-dec3-5bb9-865f-086b3426bd5c",
+    "name": "FMC_Riverside HD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a2520fc-c922-587a-b2aa-21c8c4f36f83"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447200126"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3470 La Sierra Ave",
+          "Ste F"
+        ],
+        "city": "RIVERSIDE",
+        "state": "CA",
+        "postalCode": "92503-5273"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7f0442ff-dec3-5bb9-865f-086b3426bd5c"
+}

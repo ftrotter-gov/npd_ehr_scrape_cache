@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0987c71a-bfdc-4b21-bd77-ef6fea241149",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3abee885-c265-41be-ab9e-dd5f0d163e85",
+        "name": "Kinston Head & Neck Physicians & Surgeons"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Kinston Head & Neck Physicians & Surgeons",
+    "managingOrganization": {
+      "reference": "#3abee885-c265-41be-ab9e-dd5f0d163e85"
+    },
+    "period": {
+      "start": "2024-10-30T05:50:29+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11398844"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11398844"
+}

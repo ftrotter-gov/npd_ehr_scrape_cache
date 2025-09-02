@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "311c3a09-64f9-46d5-9d86-f3b43f4a9758",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3dc4ebbb-429d-4f2c-96b8-74fc98fa634a",
+        "name": "Anniston Medical Clinic PC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Anniston Medical Clinic PC",
+    "managingOrganization": {
+      "reference": "#3dc4ebbb-429d-4f2c-96b8-74fc98fa634a"
+    },
+    "period": {
+      "start": "2017-12-29T19:00:20+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10009389"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10009389"
+}

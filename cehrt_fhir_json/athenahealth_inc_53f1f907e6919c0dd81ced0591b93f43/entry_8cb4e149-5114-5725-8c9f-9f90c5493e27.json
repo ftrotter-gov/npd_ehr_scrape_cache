@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8cb4e149-5114-5725-8c9f-9f90c5493e27",
+    "name": "Anesthesia Billing Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a29b1e73-7619-5247-822b-b159d0a5583d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336319649"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194025544"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5355 Commerce Blvd"
+        ],
+        "city": "CROWN POINT",
+        "state": "IN",
+        "postalCode": "46307-5325"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2458"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2458.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8cb4e149-5114-5725-8c9f-9f90c5493e27"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "077eb89e-1dbe-5177-84d7-0c68496f197d",
+    "name": "UCSF outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/94443419-bcc5-5763-8ce5-4800dfaf345e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689858094"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "505 parnassus ave"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94143-2205"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:077eb89e-1dbe-5177-84d7-0c68496f197d"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8dd10203-b805-520e-92a6-32493d6c17b1",
+    "name": "Abba Wellness",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b022a206-a5f4-54ee-a552-05121ae1314d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417746686"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1303 S MAIN ST",
+          "STE A"
+        ],
+        "city": "CHELSEA",
+        "state": "MI",
+        "postalCode": "48118-1483"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33944"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33944.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8dd10203-b805-520e-92a6-32493d6c17b1"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8905e7dd-4b02-5346-a16a-ce0add8953a9",
+    "name": "Williamsburg OBGYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9ba32214-7ba1-5e36-9712-256344b9781d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699365072"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 SENTARA CIRCLE",
+          "SUITE 105"
+        ],
+        "city": "WILLIAMSBURG",
+        "state": "VA",
+        "postalCode": "23188-5727"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22824"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22824.Brand-19"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8905e7dd-4b02-5346-a16a-ce0add8953a9"
+}

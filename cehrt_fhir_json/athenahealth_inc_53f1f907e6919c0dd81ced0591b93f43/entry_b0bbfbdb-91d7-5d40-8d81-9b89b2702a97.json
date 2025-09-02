@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b0bbfbdb-91d7-5d40-8d81-9b89b2702a97",
+    "name": "SouthCoast Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013313857"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1451A Hwy 21 South"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "GA",
+        "postalCode": "31329-1451"
+      },
+      {
+        "line": [
+          "54 Traders Way"
+        ],
+        "city": "POOLER",
+        "state": "GA",
+        "postalCode": "31322-4158"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b0bbfbdb-91d7-5d40-8d81-9b89b2702a97"
+}

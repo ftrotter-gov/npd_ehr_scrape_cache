@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c6afcf3c-34c7-56aa-827d-6a3badb4bbb4",
+    "name": "Medical Care at Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/24246738-756b-5051-83e4-f6bc9d10bdcd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811138415"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "220 East 42nd Street",
+          "6th Floor"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-5831"
+      },
+      {
+        "line": [
+          "220 E 42ND ST"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-5835"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30409"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30409.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c6afcf3c-34c7-56aa-827d-6a3badb4bbb4"
+}

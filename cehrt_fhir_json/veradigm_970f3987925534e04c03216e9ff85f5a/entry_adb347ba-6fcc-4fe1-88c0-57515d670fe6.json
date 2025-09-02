@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "adb347ba-6fcc-4fe1-88c0-57515d670fe6",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "a6881299-0f7a-4bd4-8d4c-cdd97a9d0c50",
+        "name": "Dr Teresita T. Barbadillo"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dr Teresita T. Barbadillo",
+    "managingOrganization": {
+      "reference": "#a6881299-0f7a-4bd4-8d4c-cdd97a9d0c50"
+    },
+    "period": {
+      "start": "2019-03-14T19:26:27+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72013"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72013"
+}

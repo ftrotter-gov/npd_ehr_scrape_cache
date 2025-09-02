@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d4d73a9-b3c8-54c0-9879-e03c4c28891b",
+    "name": "ST DAVIDS HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/378d1cec-0a14-5c6d-a496-fb701c366d8a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699761494"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "919 E 32ND ST"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78705-2709"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6286"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6286.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d4d73a9-b3c8-54c0-9879-e03c4c28891b"
+}

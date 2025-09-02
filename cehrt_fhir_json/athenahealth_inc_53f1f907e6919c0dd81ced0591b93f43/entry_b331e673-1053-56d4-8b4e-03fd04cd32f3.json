@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b331e673-1053-56d4-8b4e-03fd04cd32f3",
+    "name": "NoCo Main Campus",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9e482788-a3b1-55da-ac21-dacb07b40e85"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609946821"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "238 Arsenal St"
+        ],
+        "city": "Watertown",
+        "state": "NY",
+        "postalCode": "13601-2504"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21901"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21901.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b331e673-1053-56d4-8b4e-03fd04cd32f3"
+}

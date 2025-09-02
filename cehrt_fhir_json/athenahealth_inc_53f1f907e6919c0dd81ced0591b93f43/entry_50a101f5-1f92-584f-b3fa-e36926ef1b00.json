@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "50a101f5-1f92-584f-b3fa-e36926ef1b00",
+    "name": "Onestop Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fb87d7f2-deeb-5b7b-be59-659aedadcadf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720540529"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15440 NE 95th St"
+        ],
+        "city": "REDMOND",
+        "state": "WA",
+        "postalCode": "98052-2547"
+      },
+      {
+        "line": [
+          "1314 CENTRAL AVE. S SUITE 102"
+        ],
+        "city": "KENT",
+        "state": "WA",
+        "postalCode": "98032-7430"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19605"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19605.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:50a101f5-1f92-584f-b3fa-e36926ef1b00"
+}

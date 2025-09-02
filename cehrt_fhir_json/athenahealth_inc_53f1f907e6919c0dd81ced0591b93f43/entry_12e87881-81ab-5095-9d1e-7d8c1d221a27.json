@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12e87881-81ab-5095-9d1e-7d8c1d221a27",
+    "name": "Dr. Smith-Fernandez",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1aaed0e1-b70b-5a75-a616-965d0c93d6d1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326588054"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2350 Vanderbilt Beach Rd 302B"
+        ],
+        "city": "NAPLES",
+        "state": "FL",
+        "postalCode": "34109-2760"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15646"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15646.Brand-9"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12e87881-81ab-5095-9d1e-7d8c1d221a27"
+}

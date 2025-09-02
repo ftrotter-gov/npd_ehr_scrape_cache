@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bfa37f9-62cf-541a-82af-caf2906bb15c",
+    "name": "CovenantCare Practices",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/847d6d42-e147-55e9-a9f4-1b215e501d4f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225073166"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "21 ROBY DRIVE"
+        ],
+        "city": "ERIN",
+        "state": "TN",
+        "postalCode": "37061-6113"
+      },
+      {
+        "line": [
+          "1000 Highway 76"
+        ],
+        "city": "CLARKSVILLE",
+        "state": "TN",
+        "postalCode": "37043-2530"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18155"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18155.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bfa37f9-62cf-541a-82af-caf2906bb15c"
+}

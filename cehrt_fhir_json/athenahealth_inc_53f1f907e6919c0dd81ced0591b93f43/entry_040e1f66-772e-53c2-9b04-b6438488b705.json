@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "040e1f66-772e-53c2-9b04-b6438488b705",
+    "name": "Care OnCall",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fa945ce2-1d2f-5127-ad72-b344b9930b02"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003334418"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2340 S HIGHLAND AVE",
+          "SUITE 270"
+        ],
+        "city": "LOMBARD",
+        "state": "IL",
+        "postalCode": "60148-5396"
+      },
+      {
+        "line": [
+          "366 S MAIN ST"
+        ],
+        "city": "BARTLETT",
+        "state": "IL",
+        "postalCode": "60103-4423"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26404"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26404.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:040e1f66-772e-53c2-9b04-b6438488b705"
+}

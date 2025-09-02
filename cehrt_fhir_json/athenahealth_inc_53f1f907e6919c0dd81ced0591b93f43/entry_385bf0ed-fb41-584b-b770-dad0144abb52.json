@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "385bf0ed-fb41-584b-b770-dad0144abb52",
+    "name": "Westmed Pathology - White Plains",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0e522861-4010-5ea6-bd0b-40eb00438423"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881653822"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "210 Westchester Avenue"
+        ],
+        "city": "White Plains",
+        "state": "NY",
+        "postalCode": "10604-2901"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21260"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21260.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:385bf0ed-fb41-584b-b770-dad0144abb52"
+}

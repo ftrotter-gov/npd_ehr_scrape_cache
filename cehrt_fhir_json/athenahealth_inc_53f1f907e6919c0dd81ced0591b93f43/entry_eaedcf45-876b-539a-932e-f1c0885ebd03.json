@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eaedcf45-876b-539a-932e-f1c0885ebd03",
+    "name": "NORTHWEST SURGERY CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/736fee6b-5314-5d19-bce6-c84b62323151"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215443064"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11111 Research",
+          "Suite LL3"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78759-5200"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17234"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17234.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eaedcf45-876b-539a-932e-f1c0885ebd03"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3337221c-bd9d-52cc-9725-f23e1ed8841e",
+    "name": "Dignitas Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3521bd4d-c37f-5ab6-9424-cb53b768260f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801642277"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6817 SOUTHPOINT PKWY STE 802"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "FL",
+        "postalCode": "32216-6292"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31314"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31314.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3337221c-bd9d-52cc-9725-f23e1ed8841e"
+}

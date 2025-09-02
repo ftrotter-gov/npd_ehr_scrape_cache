@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a03b2762-24ae-5ef2-9b58-38a900132d18",
+    "name": "LONGVIEW OFFICE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/624de58e-fc1e-5dea-b468-7ad2743339fe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093829509"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1800 JUDSON ROAD",
+          "SUITE 400"
+        ],
+        "city": "LONGVIEW",
+        "state": "TX",
+        "postalCode": "75605-4742"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16223"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16223.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a03b2762-24ae-5ef2-9b58-38a900132d18"
+}

@@ -1,0 +1,73 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "518758f9-3b2d-550f-a237-7d6883879693",
+    "meta": {
+      "lastUpdated": "2025-07-07T23:51:41.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://schneckmed.org"
+      }
+    ],
+    "name": "Schneck Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://schneckmed.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "411 West Tipton Street"
+        ],
+        "city": "Seymour",
+        "state": "IN",
+        "postalCode": "47274",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:b369f2c7-a085-5cfa-bff3-f1b79e11f2bb"
+      },
+      {
+        "reference": "urn:uuid:0d192d75-515b-424d-aedd-f11201d95ced"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:b369f2c7-a085-5cfa-bff3-f1b79e11f2bb"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0d192d75-515b-424d-aedd-f11201d95ced"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:518758f9-3b2d-550f-a237-7d6883879693"
+}

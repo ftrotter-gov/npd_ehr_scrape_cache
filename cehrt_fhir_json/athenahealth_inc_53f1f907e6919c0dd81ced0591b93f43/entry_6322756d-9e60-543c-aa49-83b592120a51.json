@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6322756d-9e60-543c-aa49-83b592120a51",
+    "name": "\"Lancaster General Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3cd87ae6-8f6e-5bdd-88fb-085cb963e630"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770710766"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "555 N Duke Street"
+        ],
+        "city": "LANCASTER",
+        "state": "PA",
+        "postalCode": "17602-2250"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6718"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6718.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6322756d-9e60-543c-aa49-83b592120a51"
+}

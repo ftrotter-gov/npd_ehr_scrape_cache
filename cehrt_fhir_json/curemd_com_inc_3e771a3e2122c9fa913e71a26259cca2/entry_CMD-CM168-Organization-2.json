@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM168-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM168"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Grundy County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6603594196"
+      },
+      {
+        "system": "fax",
+        "value": "6603595470"
+      },
+      {
+        "system": "url",
+        "value": "www.grundycountyhealth.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "1716 Lincoln Street Trenton MO 64683 US",
+        "line": [
+          "1716 Lincoln Street"
+        ],
+        "city": "Trenton",
+        "state": "MO",
+        "postalCode": "64683",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM168-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM168-Organization-2"
+}

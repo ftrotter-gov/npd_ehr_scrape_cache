@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5584bd8a-2a96-5609-8deb-167880361082",
+    "name": "Hesperia Dialysis",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f090640d-dda3-5ff9-a53d-0a57fd89ae2d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871734921"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "14135 MAIN ST",
+          "STE 501"
+        ],
+        "city": "HESPERIA",
+        "state": "CA",
+        "postalCode": "92345-8092"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3576"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3576.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5584bd8a-2a96-5609-8deb-167880361082"
+}

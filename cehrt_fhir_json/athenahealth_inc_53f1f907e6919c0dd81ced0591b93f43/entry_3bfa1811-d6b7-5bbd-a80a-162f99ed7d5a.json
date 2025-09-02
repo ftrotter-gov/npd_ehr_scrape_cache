@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3bfa1811-d6b7-5bbd-a80a-162f99ed7d5a",
+    "name": "Louis Smith Memorial Hospital (OP)",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013313857"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "116 West Thigpen Avenue"
+        ],
+        "city": "LAKELAND",
+        "state": "GA",
+        "postalCode": "31635-1011"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3bfa1811-d6b7-5bbd-a80a-162f99ed7d5a"
+}

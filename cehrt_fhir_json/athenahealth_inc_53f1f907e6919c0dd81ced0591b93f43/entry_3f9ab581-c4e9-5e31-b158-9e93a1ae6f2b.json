@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f9ab581-c4e9-5e31-b158-9e93a1ae6f2b",
+    "name": "Deerbrook Cath Lab",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3f7b348a-4bf3-5b7d-b3ee-657773fb4e90"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033442173"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750476230"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18450 Highway 59",
+          "Suite 101A"
+        ],
+        "city": "HUMBLE",
+        "state": "TX",
+        "postalCode": "77338-4404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-824"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-824.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f9ab581-c4e9-5e31-b158-9e93a1ae6f2b"
+}

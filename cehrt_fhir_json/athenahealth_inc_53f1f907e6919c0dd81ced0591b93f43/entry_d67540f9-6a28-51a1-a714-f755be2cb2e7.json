@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d67540f9-6a28-51a1-a714-f755be2cb2e7",
+    "name": "Advanced Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/de85ee0b-b0b0-57e2-9567-e89925588064"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013020817"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "235 O'Connor Drive"
+        ],
+        "city": "SAN JOSE",
+        "state": "CA",
+        "postalCode": "95128-1624"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7961"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7961.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d67540f9-6a28-51a1-a714-f755be2cb2e7"
+}

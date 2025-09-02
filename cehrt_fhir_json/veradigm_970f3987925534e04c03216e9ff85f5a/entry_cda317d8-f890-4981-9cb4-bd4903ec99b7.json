@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "cda317d8-f890-4981-9cb4-bd4903ec99b7",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "79f9d352-2091-415a-a1e9-2420d3faf6fd",
+        "name": "Opdyke Medical, PLLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Opdyke Medical, PLLC",
+    "managingOrganization": {
+      "reference": "#79f9d352-2091-415a-a1e9-2420d3faf6fd"
+    },
+    "period": {
+      "start": "2018-11-16T09:10:18+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10065479"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10065479"
+}

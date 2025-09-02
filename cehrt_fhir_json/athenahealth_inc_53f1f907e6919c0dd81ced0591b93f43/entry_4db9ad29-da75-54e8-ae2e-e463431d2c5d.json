@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4db9ad29-da75-54e8-ae2e-e463431d2c5d",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/069a2c3e-29d4-541f-9fe5-d3375636de80"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578950077"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20 MAGNOLIA AVE STE A"
+        ],
+        "city": "BRIDGETON",
+        "state": "NJ",
+        "postalCode": "08302-1759"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14628"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14628.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4db9ad29-da75-54e8-ae2e-e463431d2c5d"
+}

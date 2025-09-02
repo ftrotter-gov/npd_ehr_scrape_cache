@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dcacf493-709f-5290-aef3-ecd4c5b642fc",
+    "name": "Chronic Disease Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1df81e1b-9b0d-5bac-bdab-6643e2feccd6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154032472"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "130 N. MAIN ST"
+        ],
+        "city": "BUTTE",
+        "state": "MT",
+        "postalCode": "59701-9314"
+      },
+      {
+        "line": [
+          "7 MICROWAVE HILL RD STE C"
+        ],
+        "city": "CLANCY",
+        "state": "MT",
+        "postalCode": "59634-8001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27781"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27781.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dcacf493-709f-5290-aef3-ecd4c5b642fc"
+}

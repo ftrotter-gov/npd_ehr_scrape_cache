@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "bb32c81c-5a91-4302-b3c7-ff1cb65fd438",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "18e1c4b4-7e4e-4a9c-9909-2d2f19a14f3f",
+        "name": "Preston Medical"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Preston Medical",
+    "managingOrganization": {
+      "reference": "#18e1c4b4-7e4e-4a9c-9909-2d2f19a14f3f"
+    },
+    "period": {
+      "start": "2019-07-23T07:16:53+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0007447"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0007447"
+}

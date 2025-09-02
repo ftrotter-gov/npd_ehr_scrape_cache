@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "67620c1a-21e8-4b35-a792-4a88a09ef924",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4fafe152-e56f-45e0-941c-b1b422e0bcfd",
+        "name": "Family Practice Assoc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Family Practice Assoc",
+    "managingOrganization": {
+      "reference": "#4fafe152-e56f-45e0-941c-b1b422e0bcfd"
+    },
+    "period": {
+      "start": "2018-09-25T12:18:35+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10056927"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10056927"
+}

@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjE4OV8yMTg5XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "987.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922761097"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "TruCare Pediatrics LLC FL",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "321-285-7212",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "321-250-2038",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "5200 Babcock St NE Suite 302 Palm Bay, FL 32905-4648",
+        "line": [
+          "5200 Babcock St NE",
+          "Suite 302"
+        ],
+        "city": "Palm Bay",
+        "state": "FL",
+        "postalCode": "32905-4648",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjE4OV8yMTg5XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjE4OV8yMTg5XzMwNjA"
+}

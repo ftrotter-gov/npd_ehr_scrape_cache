@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9b65f648-ca40-5d9f-b7a8-83ec85c94453",
+    "name": "Prov Portland InPt",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/275df390-c51a-515d-bdc1-f4a0e458c06f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740517325"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4805 NE Glisan Street"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97213-2933"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5500"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5500.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9b65f648-ca40-5d9f-b7a8-83ec85c94453"
+}

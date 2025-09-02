@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "89f82180-e020-52d1-b053-8476c64f5db4",
+    "name": "RediMed Onsite Clinics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37f3118d-59cc-5b14-82a9-5c845de24d51"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619918026"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 E. Cook Road"
+        ],
+        "city": "FORT WAYNE",
+        "state": "IN",
+        "postalCode": "46825-3311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29579.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:89f82180-e020-52d1-b053-8476c64f5db4"
+}

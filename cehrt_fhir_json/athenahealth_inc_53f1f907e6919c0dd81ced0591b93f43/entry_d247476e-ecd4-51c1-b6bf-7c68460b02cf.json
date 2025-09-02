@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d247476e-ecd4-51c1-b6bf-7c68460b02cf",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c3a7b0f4-752f-5645-9cb8-9aaf6b917b6f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053677351"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7922 EWING HALSELL DR STE 270"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78229-3725"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15039"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15039.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d247476e-ecd4-51c1-b6bf-7c68460b02cf"
+}

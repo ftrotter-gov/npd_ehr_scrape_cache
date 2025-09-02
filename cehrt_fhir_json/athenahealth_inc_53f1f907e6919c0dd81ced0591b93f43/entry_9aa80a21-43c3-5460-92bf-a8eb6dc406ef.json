@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9aa80a21-43c3-5460-92bf-a8eb6dc406ef",
+    "name": "Northwoods Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58b4d5b4-acea-5bc3-a060-05df2bb03afb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063064640"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "502 North 6th Avenue W"
+        ],
+        "city": "VIRGINIA",
+        "state": "MN",
+        "postalCode": "55792-2336"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21990"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21990.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9aa80a21-43c3-5460-92bf-a8eb6dc406ef"
+}

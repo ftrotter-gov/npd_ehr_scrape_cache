@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3281f15e-c82a-5e43-94b7-7d38ddb9829d",
+    "name": "Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/90a07f78-7871-52db-b41c-845545e37ee8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689022469"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659326395"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1525 W Caro Rd"
+        ],
+        "city": "CARO",
+        "state": "MI",
+        "postalCode": "48723-9686"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20296"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20296.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3281f15e-c82a-5e43-94b7-7d38ddb9829d"
+}

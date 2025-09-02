@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e2337ef5-feee-5e79-a8eb-48845d7c3a36",
+    "name": "North Park Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1c7a6fb5-bad3-57df-86c5-5a69d8eb86f6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295782852"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9101 N Central Expressway",
+          "Suite 300"
+        ],
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75231-5927"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1213"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1213.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e2337ef5-feee-5e79-a8eb-48845d7c3a36"
+}

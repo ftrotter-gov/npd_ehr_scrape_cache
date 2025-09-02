@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "8345544c-9b99-482f-98dc-94db8a57a3eb",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "18c20943-b4f9-4ff5-a7c4-af94c2f6ae1c",
+        "name": "Avon Medical Professionals LLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Avon Medical Professionals LLC",
+    "managingOrganization": {
+      "reference": "#18c20943-b4f9-4ff5-a7c4-af94c2f6ae1c"
+    },
+    "period": {
+      "start": "2018-06-27T17:20:34+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/9263"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/9263"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d22a11c9-082a-5d06-a47d-7364ce20eb29",
+    "name": "BoulderCentre MRI_CT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db2ffe72-cf06-5082-8cca-0ca6b7b0f094"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336197631"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952427049"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4740 PEARL PARKWAY STE 110"
+        ],
+        "city": "BOULDER",
+        "state": "CO",
+        "postalCode": "80301-3080"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3497"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3497.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d22a11c9-082a-5d06-a47d-7364ce20eb29"
+}

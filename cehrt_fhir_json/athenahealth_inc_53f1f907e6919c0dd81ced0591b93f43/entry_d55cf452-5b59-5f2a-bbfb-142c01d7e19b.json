@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d55cf452-5b59-5f2a-bbfb-142c01d7e19b",
+    "name": "Clearfork Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f39ad103-b77c-5ada-90ad-bc465956f367"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104808112"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "774 STATE HWY 70 N"
+        ],
+        "city": "ROTAN",
+        "state": "TX",
+        "postalCode": "79546-6918"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29392"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29392.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d55cf452-5b59-5f2a-bbfb-142c01d7e19b"
+}

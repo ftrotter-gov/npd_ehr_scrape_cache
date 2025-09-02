@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cbf12bfc-9dd0-5dc3-bc25-319bfca43f03",
+    "name": "YALE NEW HAVEN HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ce499687-26d5-5dbd-859b-1465b5976e05"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740245703"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20 YORK STREET"
+        ],
+        "city": "NEW HAVEN",
+        "state": "CT",
+        "postalCode": "06510-3220"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16090"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16090.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cbf12bfc-9dd0-5dc3-bc25-319bfca43f03"
+}

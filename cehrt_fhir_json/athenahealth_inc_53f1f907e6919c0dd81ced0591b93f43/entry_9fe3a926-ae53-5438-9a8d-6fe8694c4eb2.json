@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9fe3a926-ae53-5438-9a8d-6fe8694c4eb2",
+    "name": "Sutter Roseville Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/deff342c-fa46-5326-bb07-21bf2a9fc43e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861867855"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 MEDICAL PLAZA DRIVE"
+        ],
+        "city": "ROSEVILLE",
+        "state": "CA",
+        "postalCode": "95661-3037"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13768"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13768.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9fe3a926-ae53-5438-9a8d-6fe8694c4eb2"
+}

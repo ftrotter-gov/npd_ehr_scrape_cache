@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a57ad91-3d4c-546e-ac6a-c46821e62e6a",
+    "name": "Missouri OAH",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d58306c5-de4b-56ef-b449-93e49c4eefc4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902300825"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13655 Riverport Drive"
+        ],
+        "city": "MARYLAND HEIGHTS",
+        "state": "MO",
+        "postalCode": "63043-4812"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33202"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33202.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a57ad91-3d4c-546e-ac6a-c46821e62e6a"
+}

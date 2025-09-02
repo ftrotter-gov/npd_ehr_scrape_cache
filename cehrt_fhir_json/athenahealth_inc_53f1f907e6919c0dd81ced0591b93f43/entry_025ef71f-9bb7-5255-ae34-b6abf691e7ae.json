@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "025ef71f-9bb7-5255-ae34-b6abf691e7ae",
+    "name": "Caritas Norwood Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/14d65779-e374-595b-bbf1-04a71a36748d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710055967"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 Washington St"
+        ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "02062-7602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-644"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-644.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:025ef71f-9bb7-5255-ae34-b6abf691e7ae"
+}

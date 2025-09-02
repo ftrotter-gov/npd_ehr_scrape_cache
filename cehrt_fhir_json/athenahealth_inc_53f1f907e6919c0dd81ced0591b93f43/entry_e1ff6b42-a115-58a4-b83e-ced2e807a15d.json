@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e1ff6b42-a115-58a4-b83e-ced2e807a15d",
+    "name": "North Valley Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0423aacd-55a0-5d3d-b013-2b2c48774e59"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326189564"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8901 E RAINTREE DRIVE",
+          "SUITE 100"
+        ],
+        "city": "SCOTTSDALE",
+        "state": "AZ",
+        "postalCode": "85255-5570"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15400"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15400.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e1ff6b42-a115-58a4-b83e-ced2e807a15d"
+}

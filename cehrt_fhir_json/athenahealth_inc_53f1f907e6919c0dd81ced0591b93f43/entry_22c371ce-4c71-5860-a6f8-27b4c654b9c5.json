@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22c371ce-4c71-5860-a6f8-27b4c654b9c5",
+    "name": "Mckinney Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/56486d19-b598-5017-be87-554ba7b1569d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558717108"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4510 Medical Center Dr",
+          "Suite 150"
+        ],
+        "city": "MCKINNEY",
+        "state": "TX",
+        "postalCode": "75069-0144"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13808"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13808.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22c371ce-4c71-5860-a6f8-27b4c654b9c5"
+}

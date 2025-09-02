@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1ba77b1-5e0e-5bf7-aa3a-e5bf97aa815c",
+    "name": "Troy Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8bc11dbd-8679-5565-bf48-a18cd50c43ef"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760077747"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 W HALSELL ST"
+        ],
+        "city": "DIMMITT",
+        "state": "TX",
+        "postalCode": "79027-1846"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23654"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23654.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1ba77b1-5e0e-5bf7-aa3a-e5bf97aa815c"
+}

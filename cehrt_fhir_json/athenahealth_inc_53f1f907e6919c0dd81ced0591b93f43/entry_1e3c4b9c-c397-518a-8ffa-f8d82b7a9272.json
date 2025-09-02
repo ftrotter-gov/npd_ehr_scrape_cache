@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1e3c4b9c-c397-518a-8ffa-f8d82b7a9272",
+    "name": "East LA Doctors Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3df03cd-ea5d-5bb6-9c05-7dfc87e0286a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689769374"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4060 Whittier Blvd"
+        ],
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "postalCode": "90023-2526"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27758"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27758.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1e3c4b9c-c397-518a-8ffa-f8d82b7a9272"
+}

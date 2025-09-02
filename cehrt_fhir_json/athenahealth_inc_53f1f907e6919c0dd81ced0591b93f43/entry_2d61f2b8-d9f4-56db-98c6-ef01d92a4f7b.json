@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2d61f2b8-d9f4-56db-98c6-ef01d92a4f7b",
+    "name": "Shelby Baptist Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d8445b39-a774-57c7-956c-9874aba9d448"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053403220"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 1ST STREET N"
+        ],
+        "city": "ALABASTER",
+        "state": "AL",
+        "postalCode": "35007"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5114"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5114.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2d61f2b8-d9f4-56db-98c6-ef01d92a4f7b"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1b2d0a22-bca8-58c1-a6b7-63af621568b3",
+    "name": "Assisted Living",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/debcb5cb-cff5-5970-9bd9-83b325b04920"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124369368"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2111 e baseline Rd"
+        ],
+        "city": "TEMPE",
+        "state": "AZ",
+        "postalCode": "85283-1516"
+      },
+      {
+        "line": [
+          "4527 N 16th Street Suite 104"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85016-5353"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8491"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8491.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1b2d0a22-bca8-58c1-a6b7-63af621568b3"
+}

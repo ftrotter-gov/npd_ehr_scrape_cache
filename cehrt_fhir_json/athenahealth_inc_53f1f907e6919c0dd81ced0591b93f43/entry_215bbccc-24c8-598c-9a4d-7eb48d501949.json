@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "215bbccc-24c8-598c-9a4d-7eb48d501949",
+    "name": "Conroe Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6f9e21ec-af69-560e-b707-3eb33de82116"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235148172"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1501 River Pointe Drive",
+          "Ste 200"
+        ],
+        "city": "CONROE",
+        "state": "TX",
+        "postalCode": "77304-2861"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23958"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23958.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:215bbccc-24c8-598c-9a4d-7eb48d501949"
+}

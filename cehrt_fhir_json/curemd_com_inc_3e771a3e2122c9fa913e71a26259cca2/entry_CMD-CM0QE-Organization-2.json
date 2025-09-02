@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0QE-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0QE"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Family Care Psychiatry",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7342062888"
+      },
+      {
+        "system": "fax",
+        "value": "7343451019"
+      },
+      {
+        "system": "url",
+        "value": "www.fcpsychiatry.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "5340 Plymouth Rd Suite # 101 Ann Arbor MI 48105 US",
+        "line": [
+          "5340 Plymouth Rd",
+          "Suite # 101"
+        ],
+        "city": "Ann Arbor",
+        "state": "MI",
+        "postalCode": "48105",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0QE-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0QE-Organization-2"
+}

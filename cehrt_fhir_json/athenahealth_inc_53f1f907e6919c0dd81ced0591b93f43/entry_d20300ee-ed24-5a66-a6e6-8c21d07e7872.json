@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d20300ee-ed24-5a66-a6e6-8c21d07e7872",
+    "name": "Rockledge Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eb82aabe-541b-5e60-aabd-80ae1124f80c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700155678"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2070 US HIGHWAY 1",
+          "Suite 103"
+        ],
+        "city": "ROCKLEDGE",
+        "state": "FL",
+        "postalCode": "32955-3745"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4692"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4692.Brand-22"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d20300ee-ed24-5a66-a6e6-8c21d07e7872"
+}

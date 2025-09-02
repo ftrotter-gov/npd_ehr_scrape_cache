@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8dc1a8f1-9272-5215-9670-d3d6dc329c88",
+    "name": "Emmaus Healthcare PLLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4d573491-94fa-54e5-8e76-02ef1799f896"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932339009"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7737 SOUTHWEST FWY STE 900"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77074-1889"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30988"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30988.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8dc1a8f1-9272-5215-9670-d3d6dc329c88"
+}

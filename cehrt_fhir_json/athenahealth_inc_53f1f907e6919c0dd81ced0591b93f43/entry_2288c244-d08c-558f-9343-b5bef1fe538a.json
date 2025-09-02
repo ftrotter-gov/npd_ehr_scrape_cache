@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2288c244-d08c-558f-9343-b5bef1fe538a",
+    "name": "Health Equity Alliance Triage Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c2f09e09-9745-5494-9745-a8511e4e8fa7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "304 HANCOCK STREET",
+          "SUITE 3B"
+        ],
+        "city": "BANGOR",
+        "state": "ME",
+        "postalCode": "04401-6573"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17914"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17914.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2288c244-d08c-558f-9343-b5bef1fe538a"
+}

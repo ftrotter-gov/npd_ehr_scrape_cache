@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "75cc4a27-630a-5d80-8f83-996b219b872a",
+    "name": "AdventHealth Medical Group Family Medicine at Willowbrook Way",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3279a3ae-6619-5b1e-9a31-f2999f0ac44d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699791343"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "105 Willowbrook Way SE"
+        ],
+        "city": "CALHOUN",
+        "state": "GA",
+        "postalCode": "30701-1404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13123"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13123.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:75cc4a27-630a-5d80-8f83-996b219b872a"
+}

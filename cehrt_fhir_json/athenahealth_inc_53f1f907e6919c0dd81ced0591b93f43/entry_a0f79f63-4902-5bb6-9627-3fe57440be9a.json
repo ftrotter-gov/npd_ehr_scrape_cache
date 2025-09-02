@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a0f79f63-4902-5bb6-9627-3fe57440be9a",
+    "name": "Pierce Healthcare Solutions",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f0edba1d-94b1-54f6-966c-12b8750eb99e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831822386"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "316 HIGHLAND PARK DR"
+        ],
+        "city": "RICHMOND",
+        "state": "KY",
+        "postalCode": "40475-3487"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27513"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27513.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a0f79f63-4902-5bb6-9627-3fe57440be9a"
+}

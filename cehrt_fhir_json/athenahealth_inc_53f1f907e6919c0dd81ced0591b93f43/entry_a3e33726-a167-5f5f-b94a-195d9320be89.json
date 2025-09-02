@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3e33726-a167-5f5f-b94a-195d9320be89",
+    "name": "NP CLINICS @ Park Place",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e1c87d98-3cb5-52aa-b11a-2ce66174ec24"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083054308"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 South Park Road"
+        ],
+        "city": "SPOKANE",
+        "state": "WA",
+        "postalCode": "99212-0593"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8151"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8151.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3e33726-a167-5f5f-b94a-195d9320be89"
+}

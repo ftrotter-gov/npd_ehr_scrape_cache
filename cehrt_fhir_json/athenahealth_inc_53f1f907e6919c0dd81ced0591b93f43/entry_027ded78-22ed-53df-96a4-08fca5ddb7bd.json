@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "027ded78-22ed-53df-96a4-08fca5ddb7bd",
+    "name": "MHCC Allergy Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/60f95a7e-fce3-5b8d-8b65-f47a5e8059f4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710298757"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2221 ELM ST"
+        ],
+        "city": "RAWLINS",
+        "state": "WY",
+        "postalCode": "82301-5108"
+      },
+      {
+        "line": [
+          "300 3rd St"
+        ],
+        "city": "RAWLINS",
+        "state": "WY",
+        "postalCode": "82301-5612"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11372"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11372.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:027ded78-22ed-53df-96a4-08fca5ddb7bd"
+}

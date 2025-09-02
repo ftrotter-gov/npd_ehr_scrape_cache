@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d958788-61b6-5c01-8a65-825768e03302",
+    "name": "Helms Clinic of Vincent",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b90b034e-c937-576f-bcd2-27db226f0eb6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124824446"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "131 Florey Street"
+        ],
+        "city": "VINCENT",
+        "state": "AL",
+        "postalCode": "35178-0049"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32977"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32977.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d958788-61b6-5c01-8a65-825768e03302"
+}

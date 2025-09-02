@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0c719d91-2b64-5f3a-9dd1-e0ad7ac091b8",
+    "name": "Laramie Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/05fe2d95-a832-5b9d-bae5-9c8309c36d79"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336215441"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1252 NORTH 22ND STREET",
+          "SUITE B"
+        ],
+        "city": "LARAMIE",
+        "state": "WY",
+        "postalCode": "82072-5306"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7816"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7816.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0c719d91-2b64-5f3a-9dd1-e0ad7ac091b8"
+}

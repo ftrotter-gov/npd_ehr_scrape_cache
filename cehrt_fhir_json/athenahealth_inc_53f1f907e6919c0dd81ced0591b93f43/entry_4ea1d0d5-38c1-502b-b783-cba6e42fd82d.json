@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ea1d0d5-38c1-502b-b783-cba6e42fd82d",
+    "name": "Sacred Heart Health System",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/de0a142e-0e3e-5fed-986b-fc14a2b60bec"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013455609"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5151 N 9th Ave"
+        ],
+        "city": "PENSACOLA",
+        "state": "FL",
+        "postalCode": "32504-8721"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16053"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16053.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ea1d0d5-38c1-502b-b783-cba6e42fd82d"
+}

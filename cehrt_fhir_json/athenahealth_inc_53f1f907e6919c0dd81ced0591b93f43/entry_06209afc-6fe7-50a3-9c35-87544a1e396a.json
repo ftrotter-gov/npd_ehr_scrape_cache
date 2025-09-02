@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "06209afc-6fe7-50a3-9c35-87544a1e396a",
+    "name": "HAVIT Baptist Health Drive",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/858f99d4-69a1-5632-87b1-d31aed75d946"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447524392"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598958431"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5000 Baptist Health Drive",
+          "Suite  #101"
+        ],
+        "city": "SCHERTZ",
+        "state": "TX",
+        "postalCode": "78154-1194"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1438"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1438.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:06209afc-6fe7-50a3-9c35-87544a1e396a"
+}

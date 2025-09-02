@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "690d0b86-b369-55f6-ba4d-a8e747bc5457",
+    "name": "Kindred Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/261028e4-49c8-5954-a976-d2d9222113dd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619183753"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "730 West Market Street"
+        ],
+        "city": "LIMA",
+        "state": "OH",
+        "postalCode": "45801-4602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-257"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-257.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:690d0b86-b369-55f6-ba4d-a8e747bc5457"
+}

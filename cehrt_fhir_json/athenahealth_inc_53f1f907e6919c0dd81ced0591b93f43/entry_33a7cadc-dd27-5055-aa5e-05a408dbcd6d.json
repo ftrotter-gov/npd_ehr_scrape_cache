@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "33a7cadc-dd27-5055-aa5e-05a408dbcd6d",
+    "name": "Cleveland Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/76640984-2962-5743-bde1-5503e6a29a82"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528619921"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1956 E 79th St"
+        ],
+        "city": "CLEVELAND",
+        "state": "OH",
+        "postalCode": "44103-4270"
+      },
+      {
+        "line": [
+          "401 CLEVELAND ST"
+        ],
+        "city": "ELYRIA",
+        "state": "OH",
+        "postalCode": "44035-6143"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26582"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26582.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:33a7cadc-dd27-5055-aa5e-05a408dbcd6d"
+}

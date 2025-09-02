@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ca57e92-6a51-581f-a4e5-0e816586c8ef",
+    "name": "Church Hill Medical Mission",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9e48645c-e0aa-5f3b-a8b9-8a814d01e742"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "401 RICHMOND STREET"
+        ],
+        "city": "CHURCH HILL",
+        "state": "TN",
+        "postalCode": "37642-3457"
+      },
+      {
+        "line": [
+          "401 RICHMOND ST",
+          "STE 107"
+        ],
+        "city": "CHURCH HILL",
+        "state": "TN",
+        "postalCode": "37642-3457"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17812"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17812.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ca57e92-6a51-581f-a4e5-0e816586c8ef"
+}

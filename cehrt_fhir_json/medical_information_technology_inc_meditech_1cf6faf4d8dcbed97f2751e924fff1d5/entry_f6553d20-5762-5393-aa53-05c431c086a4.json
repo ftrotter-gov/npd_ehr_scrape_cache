@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f6553d20-5762-5393-aa53-05c431c086a4",
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://medinahospital.net"
+      }
+    ],
+    "name": "Medina Regional Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://medinahospital.net"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3100 Avenue E"
+        ],
+        "city": "Hondo",
+        "state": "TX",
+        "postalCode": "78861",
+        "country": "United States"
+      }
+    ],
+    "meta": {
+      "lastUpdated": "2024-03-13T17:21:26.056Z"
+    },
+    "endpoint": [
+      {
+        "reference": "urn:uuid:82cd1a90-d486-4b88-b901-bdac5b90bd9d"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:82cd1a90-d486-4b88-b901-bdac5b90bd9d"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f6553d20-5762-5393-aa53-05c431c086a4"
+}

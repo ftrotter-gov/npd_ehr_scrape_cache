@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "caaa0699-d657-5889-83fc-ce1b4aada434",
+    "name": "Dr. Kuo's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec0720b1-53eb-5009-ae48-e882aa1ce51d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881778157"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1356 E WALNUT ST"
+        ],
+        "city": "SEGUIN",
+        "state": "TX",
+        "postalCode": "78155-5126"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16193"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16193.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:caaa0699-d657-5889-83fc-ce1b4aada434"
+}

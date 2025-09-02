@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fd47fb63-7186-5d7c-aa16-e80e9e2112a1",
+    "name": "Travel Medicine Consultations",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3ae91d07-6911-507b-89b5-4f0a4ccf91dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316562986"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "178 E 85TH ST, 3RD FLOOR"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10028-2119"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21782"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21782.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fd47fb63-7186-5d7c-aa16-e80e9e2112a1"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0856341-e2be-593b-9aec-9ef6a770de2a",
+    "name": "We Care for Dr. Nobo Gynecology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f5300147-08e6-5039-b9aa-ca2c4604b108"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "222 W. MAIN STREET"
+        ],
+        "city": "BARTOW",
+        "state": "FL",
+        "postalCode": "33830-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18417"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18417.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0856341-e2be-593b-9aec-9ef6a770de2a"
+}

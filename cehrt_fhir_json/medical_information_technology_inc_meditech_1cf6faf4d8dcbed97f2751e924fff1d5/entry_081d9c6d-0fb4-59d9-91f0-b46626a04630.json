@@ -1,0 +1,73 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "081d9c6d-0fb4-59d9-91f0-b46626a04630",
+    "meta": {
+      "lastUpdated": "2024-07-22T22:51:34.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://cueroregionalhospital.org"
+      }
+    ],
+    "name": "DeWitt Medical District dba Cuero Regional Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://cueroregionalhospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2550 North Esplanade"
+        ],
+        "city": "Cuero",
+        "state": "TX",
+        "postalCode": "77954",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:14409ed8-8bdf-524f-8820-90abd0957e04"
+      },
+      {
+        "reference": "urn:uuid:0cb58524-b7ab-4b90-bbcf-5f110796309b"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:14409ed8-8bdf-524f-8820-90abd0957e04"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0cb58524-b7ab-4b90-bbcf-5f110796309b"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:081d9c6d-0fb4-59d9-91f0-b46626a04630"
+}

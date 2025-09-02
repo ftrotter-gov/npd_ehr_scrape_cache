@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "48c20c13-7419-5c07-8237-d0dac57fad61",
+    "name": "Mental Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4d2d2b9d-b70a-5c46-b2b4-e9ad9db837ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700549052"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "314 E MAIN ST STE 1"
+        ],
+        "city": "NEWARK",
+        "state": "DE",
+        "postalCode": "19711-7195"
+      },
+      {
+        "line": [
+          "5641 DUPONT PKWY"
+        ],
+        "city": "SMYRNA",
+        "state": "DE",
+        "postalCode": "19977-9203"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24192"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24192.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:48c20c13-7419-5c07-8237-d0dac57fad61"
+}

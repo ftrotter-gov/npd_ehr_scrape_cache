@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5c088df9-7161-5c4a-957e-0b0c63e779c5",
+    "name": "Mountain Vista Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8c4eecce-5585-51f5-b5cc-b6f63f53cdda"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770025439"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447272372"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1301 S. CRISMON RD."
+        ],
+        "city": "MESA",
+        "state": "AZ",
+        "postalCode": "85209-3767"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15230"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15230.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5c088df9-7161-5c4a-957e-0b0c63e779c5"
+}

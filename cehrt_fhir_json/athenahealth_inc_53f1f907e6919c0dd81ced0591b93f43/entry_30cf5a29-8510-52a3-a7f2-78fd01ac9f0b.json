@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "30cf5a29-8510-52a3-a7f2-78fd01ac9f0b",
+    "name": "Arnold PrimaryCare Woundcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca5a8d87-71cd-520c-8bbe-3e82c90001b4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619101573"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1257 Florida Ave",
+          "Suite 3"
+        ],
+        "city": "ROCKLEDGE",
+        "state": "FL",
+        "postalCode": "32955-2488"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22964"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22964.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:30cf5a29-8510-52a3-a7f2-78fd01ac9f0b"
+}

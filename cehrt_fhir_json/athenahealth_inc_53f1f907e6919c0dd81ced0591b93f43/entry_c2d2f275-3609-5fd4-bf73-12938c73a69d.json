@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c2d2f275-3609-5fd4-bf73-12938c73a69d",
+    "name": "Cure Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eae6554d-8479-5542-8f33-464f54f98cdd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003253030"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2689 Broadway"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10025-4412"
+      },
+      {
+        "line": [
+          "175 EAST 96TH ST"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10128-6200"
+      },
+      {
+        "line": [
+          "2718 Mermaid Ave"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11224-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21688"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21688.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c2d2f275-3609-5fd4-bf73-12938c73a69d"
+}

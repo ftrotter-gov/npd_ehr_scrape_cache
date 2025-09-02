@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "547d6658-6f03-5db6-b283-19ef19249d3c",
+    "name": "Bedford Ambulatory Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0e550ea4-9d86-51be-9ca2-90c38e72f67a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942220264"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "16 Keewaydin Drive"
+        ],
+        "city": "SALEM",
+        "state": "NH",
+        "postalCode": "03079-2839"
+      },
+      {
+        "line": [
+          "Washington Pl"
+        ],
+        "city": "Bedford",
+        "state": "NH",
+        "postalCode": "03110-6747"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-663"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-663.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:547d6658-6f03-5db6-b283-19ef19249d3c"
+}

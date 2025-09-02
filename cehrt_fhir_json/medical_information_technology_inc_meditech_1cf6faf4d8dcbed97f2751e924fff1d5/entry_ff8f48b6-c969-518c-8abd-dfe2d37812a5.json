@@ -1,0 +1,74 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ff8f48b6-c969-518c-8abd-dfe2d37812a5",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://aboutsmh.org"
+      }
+    ],
+    "name": "St. Margaret's Health",
+    "active": true,
+    "partOf": {
+      "reference": "urn:uuid:baca3699-bb52-5fc6-896a-ad8d5e59d395"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://aboutsmh.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 East First Street"
+        ],
+        "city": "Spring Valley",
+        "state": "IL",
+        "postalCode": "61362",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:41cd14aa-fcf8-5c9e-ab87-fa2977115ff0"
+      },
+      {
+        "reference": "urn:uuid:a8377635-7037-4a89-8589-b666fe5426c4"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:41cd14aa-fcf8-5c9e-ab87-fa2977115ff0"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ff8f48b6-c969-518c-8abd-dfe2d37812a5"
+}

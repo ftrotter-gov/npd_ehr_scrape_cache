@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cb256876-a417-50ae-bffa-6adfaedd18d1",
+    "name": "Fullerton Kimball Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7e22fa88-59dc-5ddb-9a33-e85ca748bcd8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043501448"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891755351"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3412 W. FULLERTON AVE"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60647-2416"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3164"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3164.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cb256876-a417-50ae-bffa-6adfaedd18d1"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8cb2dda7-ed06-588a-bb99-9102609cf895",
+    "name": "Beverly Hospital at Danvers OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ea1bf7e-2184-548a-ae19-2764dce8aa96"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457543639"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821104241"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "480 maple street"
+        ],
+        "city": "DANVERS",
+        "state": "MA",
+        "postalCode": "01923-4065"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1090"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1090.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8cb2dda7-ed06-588a-bb99-9102609cf895"
+}

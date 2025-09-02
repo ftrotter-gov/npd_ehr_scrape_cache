@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8af692ac-3906-5d70-b598-c1417e095068",
+    "name": "Parkside Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8ca1d3f9-463b-5004-970c-886d65d11856"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730139510"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "308 W Emma"
+        ],
+        "city": "Union Gap",
+        "state": "WA",
+        "postalCode": "98903-1940"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4690"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4690.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8af692ac-3906-5d70-b598-c1417e095068"
+}

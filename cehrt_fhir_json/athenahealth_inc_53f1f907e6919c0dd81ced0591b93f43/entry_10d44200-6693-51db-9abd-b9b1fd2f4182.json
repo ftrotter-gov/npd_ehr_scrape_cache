@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "10d44200-6693-51db-9abd-b9b1fd2f4182",
+    "name": "Cardiology Clinic of Muskogee",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a1d09baf-d80e-5ea5-953b-a3832068594e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053380287"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "350 S 40th Street"
+        ],
+        "city": "MUSKOGEE",
+        "state": "OK",
+        "postalCode": "74401-4915"
+      },
+      {
+        "line": [
+          "One Hospital Drive",
+          "Suite 1"
+        ],
+        "city": "EUFAULA",
+        "state": "OK",
+        "postalCode": "74432-4010"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3442"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3442.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:10d44200-6693-51db-9abd-b9b1fd2f4182"
+}

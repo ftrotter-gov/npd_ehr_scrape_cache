@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ba206d8-82c7-5093-a7db-40f4c2090c19",
+    "name": "Neurology Procedure Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e724b4f-234a-5464-8519-831cb3b67947"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164270591"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1002 N VERMONT AVE"
+        ],
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "postalCode": "90029-2620"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31716"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31716.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ba206d8-82c7-5093-a7db-40f4c2090c19"
+}

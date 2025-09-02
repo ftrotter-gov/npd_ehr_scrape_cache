@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f9a9bc45-f686-5b3c-98bc-e25309b81f8f",
+    "name": "Union County Wound Care Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7dbc5abe-3e4d-56a3-8b5c-f6d10ff2f881"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275166134"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "515 North Main St., Suite D"
+        ],
+        "city": "ANNA",
+        "state": "IL",
+        "postalCode": "62906-1668"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21167"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21167.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f9a9bc45-f686-5b3c-98bc-e25309b81f8f"
+}

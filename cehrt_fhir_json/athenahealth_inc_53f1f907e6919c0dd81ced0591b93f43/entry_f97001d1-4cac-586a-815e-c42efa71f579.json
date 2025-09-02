@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f97001d1-4cac-586a-815e-c42efa71f579",
+    "name": "Dr. Lawler's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a0f803d1-f49e-57d5-8ee3-fb3b0248e5e8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720530017"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1428 WEST HEBRON PKWAY",
+          "SUITE 130"
+        ],
+        "city": "CARROLLTON",
+        "state": "TX",
+        "postalCode": "75010-6341"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15587"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15587.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f97001d1-4cac-586a-815e-c42efa71f579"
+}

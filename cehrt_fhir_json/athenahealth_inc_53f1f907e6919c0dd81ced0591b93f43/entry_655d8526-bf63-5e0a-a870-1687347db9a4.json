@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "655d8526-bf63-5e0a-a870-1687347db9a4",
+    "name": "AZ Specialty Hospital OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3fe70fa2-1da9-543e-916e-0c3277fd6cfd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427095801"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2905 W WARNER RD STE 1"
+        ],
+        "city": "CHANDLER",
+        "state": "AZ",
+        "postalCode": "85224-1674"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22724"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22724.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:655d8526-bf63-5e0a-a870-1687347db9a4"
+}

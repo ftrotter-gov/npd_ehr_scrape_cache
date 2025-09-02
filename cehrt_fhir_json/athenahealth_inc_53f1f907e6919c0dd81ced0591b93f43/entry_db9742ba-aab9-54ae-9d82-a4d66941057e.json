@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db9742ba-aab9-54ae-9d82-a4d66941057e",
+    "name": "ExperCARE Rincon",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3c8eafd9-118a-5cac-9eba-19c889b5e9d2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144084856"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "463 S Columbia Ave",
+          "Unit A"
+        ],
+        "city": "RINCON",
+        "state": "GA",
+        "postalCode": "31326-9446"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31652"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31652.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db9742ba-aab9-54ae-9d82-a4d66941057e"
+}

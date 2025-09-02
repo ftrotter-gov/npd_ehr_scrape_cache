@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1HG-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1HG"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "PALMETTO PULMONARY ASSOCIATES LLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9142944447"
+      }
+    ],
+    "address": [
+      {
+        "text": "PO BOX 970832 Boca Raton FL 33497 US",
+        "line": [
+          "PO BOX 970832"
+        ],
+        "city": "Boca Raton",
+        "state": "FL",
+        "postalCode": "33497",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1HG-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1HG-Organization-2"
+}

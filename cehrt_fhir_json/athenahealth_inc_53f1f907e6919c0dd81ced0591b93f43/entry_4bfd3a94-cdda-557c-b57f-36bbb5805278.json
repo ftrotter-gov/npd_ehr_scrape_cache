@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4bfd3a94-cdda-557c-b57f-36bbb5805278",
+    "name": "Best Care Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9169b140-9665-5516-bbc9-9252be69a71c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649743253"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891443404"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "701 SOUTH DIXIE HWY"
+        ],
+        "city": "CAVE CITY",
+        "state": "KY",
+        "postalCode": "42127-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19075"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19075.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4bfd3a94-cdda-557c-b57f-36bbb5805278"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "72828f9d-27ba-54fb-9df0-1e3c2563b01f",
+    "name": "Hamilton Ambulatory Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/39be9d2a-8bd9-50e3-b119-9062b6694c1b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902914237"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1250 Broadrick Dr"
+        ],
+        "city": "DALTON",
+        "state": "GA",
+        "postalCode": "30720-2503"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8594"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8594.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:72828f9d-27ba-54fb-9df0-1e3c2563b01f"
+}

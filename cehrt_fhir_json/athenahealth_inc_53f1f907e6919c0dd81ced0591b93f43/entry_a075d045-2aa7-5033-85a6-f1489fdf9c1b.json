@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a075d045-2aa7-5033-85a6-f1489fdf9c1b",
+    "name": "Biloxi Regional Medical Center L&D",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e9db1c39-66b3-57a7-be69-15f1cadc3a1b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609129808"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 Reynoir St"
+        ],
+        "city": "BILOXI",
+        "state": "MS",
+        "postalCode": "39530-4130"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7991"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7991.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a075d045-2aa7-5033-85a6-f1489fdf9c1b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e82cff66-fb6a-57e5-af37-0535d65ff58f",
+    "name": "MCHC Medical Department",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ed59d2eb-001d-51ae-9035-edacca201b4f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770570780"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "30 Oki Place"
+        ],
+        "city": "KAUNAKAKAI",
+        "state": "HI",
+        "postalCode": "96748-2040"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23954"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23954.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e82cff66-fb6a-57e5-af37-0535d65ff58f"
+}

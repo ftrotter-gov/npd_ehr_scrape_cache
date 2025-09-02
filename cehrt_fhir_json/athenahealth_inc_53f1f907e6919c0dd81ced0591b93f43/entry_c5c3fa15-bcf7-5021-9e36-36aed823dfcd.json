@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5c3fa15-bcf7-5021-9e36-36aed823dfcd",
+    "name": "St Savids Rehab Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/97829e1f-51c8-551a-8b6f-0fee761ed045"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326061714"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1005 E 32nd St"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78705-2713"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-856"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-856.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5c3fa15-bcf7-5021-9e36-36aed823dfcd"
+}

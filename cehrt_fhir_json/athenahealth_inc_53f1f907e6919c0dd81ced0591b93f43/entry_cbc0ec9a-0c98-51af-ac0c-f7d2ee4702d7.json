@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cbc0ec9a-0c98-51af-ac0c-f7d2ee4702d7",
+    "name": "Houston ENT Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0bd875e1-67c7-5f09-8686-02dff36e8faa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477515617"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18220 TOMBALL PARKWAY SUITE 155"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77070"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4491"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4491.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cbc0ec9a-0c98-51af-ac0c-f7d2ee4702d7"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5ee8934-e424-558d-8363-a33574e5080b",
+    "name": "Williamson Surgery Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/868b1081-8740-52c0-844a-bacfb75f40d4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639122690"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "183 2nd Ave",
+          "Suite 1"
+        ],
+        "city": "Williamson",
+        "state": "WV",
+        "postalCode": "25661-3103"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4693"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4693.Brand-14"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5ee8934-e424-558d-8363-a33574e5080b"
+}

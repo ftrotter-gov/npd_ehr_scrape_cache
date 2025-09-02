@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e17cc8db-c7df-5e2c-9e38-318bb5105fa2",
+    "name": "Dr. Guadalupe Zamora's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ee6c4879-d8ac-5ab3-94c8-dca7cad9fb99"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730306853"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2100 E 6TH ST STE A"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78702-3406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14720"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14720.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e17cc8db-c7df-5e2c-9e38-318bb5105fa2"
+}

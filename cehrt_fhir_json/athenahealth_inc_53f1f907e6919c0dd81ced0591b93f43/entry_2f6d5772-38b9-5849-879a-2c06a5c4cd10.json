@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2f6d5772-38b9-5849-879a-2c06a5c4cd10",
+    "name": "Gnaden Huetten Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8fd13bb6-2db2-5be1-b6a9-008262332ce4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376501270"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "211 North 12th Street"
+        ],
+        "city": "LEHIGHTON",
+        "state": "PA",
+        "postalCode": "18235-1138"
+      },
+      {
+        "line": [
+          "250 s 21 st"
+        ],
+        "city": "EASTON",
+        "state": "PA",
+        "postalCode": "18042-3892"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2828"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2828.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2f6d5772-38b9-5849-879a-2c06a5c4cd10"
+}

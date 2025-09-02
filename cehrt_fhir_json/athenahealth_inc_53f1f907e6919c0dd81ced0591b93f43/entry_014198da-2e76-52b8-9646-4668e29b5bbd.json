@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "014198da-2e76-52b8-9646-4668e29b5bbd",
+    "name": "Community Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bb7c5d4b-e2ad-5139-aa2d-06efc48c1f1d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "528 A LAKE CONCORD ROAD, NE"
+        ],
+        "city": "CONCORD",
+        "state": "NC",
+        "postalCode": "28025-2926"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14089"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14089.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:014198da-2e76-52b8-9646-4668e29b5bbd"
+}

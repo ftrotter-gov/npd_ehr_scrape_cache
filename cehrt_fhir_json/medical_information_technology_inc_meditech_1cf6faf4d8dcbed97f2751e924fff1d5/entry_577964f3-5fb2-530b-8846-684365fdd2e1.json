@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "577964f3-5fb2-530b-8846-684365fdd2e1",
+    "meta": {
+      "lastUpdated": "2024-03-16T17:41:01.209Z"
+    },
+    "name": "Upper Allegheny Health System",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://uahs.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "515 Main Street"
+        ],
+        "city": "Olean",
+        "state": "NY",
+        "postalCode": "14760",
+        "country": "United States"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://uahs.org"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:021e3b5b-1eaa-4d8d-9ca7-b429e7831254"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:289defe8-3d43-5539-906d-fa1c86be5345"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:021e3b5b-1eaa-4d8d-9ca7-b429e7831254"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:577964f3-5fb2-530b-8846-684365fdd2e1"
+}

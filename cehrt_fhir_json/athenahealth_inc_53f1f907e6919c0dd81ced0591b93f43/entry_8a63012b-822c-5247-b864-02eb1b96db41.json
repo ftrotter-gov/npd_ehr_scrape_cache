@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8a63012b-822c-5247-b864-02eb1b96db41",
+    "name": "Oncall Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47eff30d-99fe-53f7-90f0-393a240d0ab2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871765453"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "115 NORTH PEMBROKE AVE"
+        ],
+        "city": "MARGATE CITY",
+        "state": "NJ",
+        "postalCode": "08402-1317"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23428"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23428.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8a63012b-822c-5247-b864-02eb1b96db41"
+}

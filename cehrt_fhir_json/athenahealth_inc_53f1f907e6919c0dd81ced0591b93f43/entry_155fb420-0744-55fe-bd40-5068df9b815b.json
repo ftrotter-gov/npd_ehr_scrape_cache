@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "155fb420-0744-55fe-bd40-5068df9b815b",
+    "name": "Osceola Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c1eb03fb-fa9a-5074-8a80-e3de4340a250"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467560227"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "21150 Ozark Ave. N."
+        ],
+        "city": "SCANDIA",
+        "state": "MN",
+        "postalCode": "55073-9447"
+      },
+      {
+        "line": [
+          "2600 65th Ave"
+        ],
+        "city": "OSCEOLA",
+        "state": "WI",
+        "postalCode": "54020-0218"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15980"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15980.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:155fb420-0744-55fe-bd40-5068df9b815b"
+}

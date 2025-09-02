@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7e6e07a0-60ba-56e0-9cbd-0a6b333cdcb5",
+    "name": "St. Joseph Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c06a58aa-c201-5fe6-889b-0f551288dd10"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386911006"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548567498"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1100 W Stewart Dr."
+        ],
+        "city": "ORANGE",
+        "state": "CA",
+        "postalCode": "92868-3849"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3663"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3663.Brand-19"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7e6e07a0-60ba-56e0-9cbd-0a6b333cdcb5"
+}

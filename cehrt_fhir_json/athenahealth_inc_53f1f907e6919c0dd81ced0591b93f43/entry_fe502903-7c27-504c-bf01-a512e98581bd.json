@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fe502903-7c27-504c-bf01-a512e98581bd",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0d935ccc-134d-5efe-81af-eed01a462642"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376898734"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7701 CORRYTON RD"
+        ],
+        "city": "MAYNARDVILLE",
+        "state": "TN",
+        "postalCode": "37721-2630"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5517"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5517.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fe502903-7c27-504c-bf01-a512e98581bd"
+}

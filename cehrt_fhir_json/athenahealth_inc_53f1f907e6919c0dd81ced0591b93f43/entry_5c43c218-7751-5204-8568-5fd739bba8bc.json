@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5c43c218-7751-5204-8568-5fd739bba8bc",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/035cbb59-5134-5db5-9222-4c9607bc3ee3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841310331"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2135 DANA AVE STE 210"
+        ],
+        "city": "CINCINNATI",
+        "state": "OH",
+        "postalCode": "45207-1327"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11554"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11554.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5c43c218-7751-5204-8568-5fd739bba8bc"
+}

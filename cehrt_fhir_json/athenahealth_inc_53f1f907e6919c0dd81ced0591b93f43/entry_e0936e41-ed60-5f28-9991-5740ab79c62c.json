@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0936e41-ed60-5f28-9991-5740ab79c62c",
+    "name": "Sundstrom Clinical Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b7ea855f-ab18-5be7-9a32-29e2609e17c0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669508412"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "21900 Willamette Drive",
+          "Suite 202"
+        ],
+        "city": "West Linn",
+        "state": "OR",
+        "postalCode": "97068-3284"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32989"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32989.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0936e41-ed60-5f28-9991-5740ab79c62c"
+}

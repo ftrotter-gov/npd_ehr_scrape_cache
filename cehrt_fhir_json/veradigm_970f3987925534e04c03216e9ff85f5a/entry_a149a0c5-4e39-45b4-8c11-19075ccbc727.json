@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a149a0c5-4e39-45b4-8c11-19075ccbc727",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "5d292b10-7d23-430c-b0e4-98b53e55a1e7",
+        "name": "William B Funk Md Pa"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "William B Funk Md Pa",
+    "managingOrganization": {
+      "reference": "#5d292b10-7d23-430c-b0e4-98b53e55a1e7"
+    },
+    "period": {
+      "start": "2019-01-04T08:57:00+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10055449"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10055449"
+}

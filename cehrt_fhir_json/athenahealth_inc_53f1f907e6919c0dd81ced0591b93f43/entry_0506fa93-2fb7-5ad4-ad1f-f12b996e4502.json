@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0506fa93-2fb7-5ad4-ad1f-f12b996e4502",
+    "name": "Beaumont Hospital, Taylor",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a4b7210b-6938-557c-bf04-893f32714845"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114675238"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10000 Telegraph Rd"
+        ],
+        "city": "TAYLOR",
+        "state": "MI",
+        "postalCode": "48180-3330"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26266"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26266.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0506fa93-2fb7-5ad4-ad1f-f12b996e4502"
+}

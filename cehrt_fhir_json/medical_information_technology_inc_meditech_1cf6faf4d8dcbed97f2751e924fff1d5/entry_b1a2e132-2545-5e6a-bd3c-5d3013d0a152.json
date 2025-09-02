@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1a2e132-2545-5e6a-bd3c-5d3013d0a152",
+    "meta": {
+      "lastUpdated": "2024-10-16T22:51:08.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://dchsystem.com"
+      }
+    ],
+    "name": "DCH Health System",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://dchsystem.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "809 University Boulevard East"
+        ],
+        "city": "Tuscaloosa",
+        "state": "AL",
+        "postalCode": "35401",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:7659adfa-7b20-5593-937b-23cad219454a"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:7659adfa-7b20-5593-937b-23cad219454a"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1a2e132-2545-5e6a-bd3c-5d3013d0a152"
+}

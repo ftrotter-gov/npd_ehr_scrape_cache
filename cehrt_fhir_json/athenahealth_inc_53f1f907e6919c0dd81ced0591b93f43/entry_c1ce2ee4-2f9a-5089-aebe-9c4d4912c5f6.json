@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c1ce2ee4-2f9a-5089-aebe-9c4d4912c5f6",
+    "name": "ENCOMPASS",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/03c2d26f-3a52-5d48-8de9-2db12ddf06cb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104857143"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5652 E Baseline Road"
+        ],
+        "city": "MESA",
+        "state": "AZ",
+        "postalCode": "85206-4713"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8409"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8409.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c1ce2ee4-2f9a-5089-aebe-9c4d4912c5f6"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a66b55eb-eb19-5d0a-823a-8c822b7fd15c",
+    "name": "Five Clinics LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec5a5a25-df54-54e4-9baf-984f07da26e6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518583855"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6495 E Broad St",
+          "Suite J"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43213-1541"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20696"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20696.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a66b55eb-eb19-5d0a-823a-8c822b7fd15c"
+}

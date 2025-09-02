@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "90545acc-8ada-5891-b53e-94e645536a96",
+    "meta": {
+      "lastUpdated": "2022-07-19T22:51:51.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://colquittregional.com"
+      }
+    ],
+    "name": "Colquitt Regional Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://colquittregional.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3131 South Main Street"
+        ],
+        "city": "Moultrie",
+        "state": "GA",
+        "postalCode": "31768",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:76e49d3d-0d79-5887-ad8d-e2f92cbc2025"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:76e49d3d-0d79-5887-ad8d-e2f92cbc2025"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:90545acc-8ada-5891-b53e-94e645536a96"
+}

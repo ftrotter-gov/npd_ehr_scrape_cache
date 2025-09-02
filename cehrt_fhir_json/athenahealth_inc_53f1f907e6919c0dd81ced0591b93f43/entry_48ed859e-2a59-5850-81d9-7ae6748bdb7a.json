@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "48ed859e-2a59-5850-81d9-7ae6748bdb7a",
+    "name": "Joe Graham, FNP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b78fd09b-ce1a-5ab7-8aa0-1652c625022a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467890954"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2900 DENTON HWY",
+          "STE A"
+        ],
+        "city": "HALTOM CITY",
+        "state": "TX",
+        "postalCode": "76117-3763"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15811"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15811.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:48ed859e-2a59-5850-81d9-7ae6748bdb7a"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5a65277a-cd05-59c1-9531-942d82fc3766",
+    "name": "Northwest Integrated Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fa71228e-2714-5f10-add8-60c7c3d312c6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558572180"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12117 SE Stevens Ct"
+        ],
+        "city": "Happy Valley",
+        "state": "OR",
+        "postalCode": "97086-2620"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30939"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30939.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5a65277a-cd05-59c1-9531-942d82fc3766"
+}

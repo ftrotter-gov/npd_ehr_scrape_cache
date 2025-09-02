@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "fbef7597-1df7-4846-8359-1d3862cc4a70",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "a1fa95a1-ddcb-4971-8ec2-f0ef27a1e023",
+        "name": "Woman Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Woman Care",
+    "managingOrganization": {
+      "reference": "#a1fa95a1-ddcb-4971-8ec2-f0ef27a1e023"
+    },
+    "period": {
+      "start": "2018-06-19T14:03:44+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10041587"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10041587"
+}

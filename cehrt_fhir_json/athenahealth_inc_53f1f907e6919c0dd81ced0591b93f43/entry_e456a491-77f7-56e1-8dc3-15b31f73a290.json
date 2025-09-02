@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e456a491-77f7-56e1-8dc3-15b31f73a290",
+    "name": "Auria Medical Clinics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fc620fae-7815-55f6-b03d-ff0a242e45dd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528433455"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1700 MEDICAL WAY"
+        ],
+        "city": "SNELLVILLE",
+        "state": "GA",
+        "postalCode": "30078-6765"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23030"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23030.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e456a491-77f7-56e1-8dc3-15b31f73a290"
+}

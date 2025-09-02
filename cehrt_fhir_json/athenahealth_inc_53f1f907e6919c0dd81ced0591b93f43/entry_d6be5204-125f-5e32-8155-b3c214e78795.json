@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d6be5204-125f-5e32-8155-b3c214e78795",
+    "name": "The Taylor Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cdb12b2b-f9f7-5897-a808-119bffbdc524"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740647866"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8369 FLORIDA BLVD, SUITE 9"
+        ],
+        "city": "DENHAM SPRINGS",
+        "state": "LA",
+        "postalCode": "70726-7862"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12350"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12350.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d6be5204-125f-5e32-8155-b3c214e78795"
+}

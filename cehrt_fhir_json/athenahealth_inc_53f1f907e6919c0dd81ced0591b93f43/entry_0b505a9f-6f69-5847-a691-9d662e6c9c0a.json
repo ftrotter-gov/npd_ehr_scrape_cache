@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0b505a9f-6f69-5847-a691-9d662e6c9c0a",
+    "name": "Pine Creek",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/54ee7fc2-f404-51d8-acf6-47244dd57ef1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013303080"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 N Saint Paul Street",
+          "Suite 1280"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75201-3114"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11087"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11087.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0b505a9f-6f69-5847-a691-9d662e6c9c0a"
+}

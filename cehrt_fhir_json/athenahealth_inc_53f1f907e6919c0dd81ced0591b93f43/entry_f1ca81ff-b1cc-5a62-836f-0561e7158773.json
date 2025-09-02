@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f1ca81ff-b1cc-5a62-836f-0561e7158773",
+    "name": "Island Medical Consultants",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/006d7c1f-3f56-5d41-b81a-98366de3bb99"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902005127"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11 RALPH PLACE"
+        ],
+        "city": "STATEN ISLAND",
+        "state": "NY",
+        "postalCode": "10304-4401"
+      },
+      {
+        "line": [
+          "11 RALPH PLACE",
+          "SUITE 214"
+        ],
+        "city": "STATEN ISLAND",
+        "state": "NY",
+        "postalCode": "10304-4401"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32015"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32015.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f1ca81ff-b1cc-5a62-836f-0561e7158773"
+}

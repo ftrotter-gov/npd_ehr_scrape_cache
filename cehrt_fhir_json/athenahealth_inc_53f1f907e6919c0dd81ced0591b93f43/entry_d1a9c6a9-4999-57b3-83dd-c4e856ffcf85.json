@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d1a9c6a9-4999-57b3-83dd-c4e856ffcf85",
+    "name": "MyOBGYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/019a2668-5c91-54c7-b9b0-a7dafb6f4b4b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467496240"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2011 PINTO LN"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89106-4004"
+      },
+      {
+        "line": [
+          "3186 S MARYLAND PKWY"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89109-2317"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27017"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27017.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d1a9c6a9-4999-57b3-83dd-c4e856ffcf85"
+}

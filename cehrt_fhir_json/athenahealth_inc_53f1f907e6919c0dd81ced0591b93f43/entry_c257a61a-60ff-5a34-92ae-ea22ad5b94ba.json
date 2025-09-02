@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c257a61a-60ff-5a34-92ae-ea22ad5b94ba",
+    "name": "Mend Medical Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/64b2148f-4040-538a-93f9-bf580e754fb8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225845233"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 main st"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-1020"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32576"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32576.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c257a61a-60ff-5a34-92ae-ea22ad5b94ba"
+}

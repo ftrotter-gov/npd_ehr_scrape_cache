@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a6441920-c2ef-5e0f-9b64-560026a22e6e",
+    "name": "Select Urgent Care Milaca",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2d8296b1-e051-5467-9441-501c2cc55650"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952063158"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "190 CENTRAL AVE S"
+        ],
+        "city": "MILACA",
+        "state": "MN",
+        "postalCode": "56353-1123"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28265"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28265.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a6441920-c2ef-5e0f-9b64-560026a22e6e"
+}

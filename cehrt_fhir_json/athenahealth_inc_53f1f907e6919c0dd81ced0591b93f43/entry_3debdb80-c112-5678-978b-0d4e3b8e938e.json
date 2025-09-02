@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3debdb80-c112-5678-978b-0d4e3b8e938e",
+    "name": "Total Care Physicians-Omega",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd1134bb-71ee-5724-a8c3-64bde6207979"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164477451"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "86 OMEGA DR",
+          "BLDG B STE 86"
+        ],
+        "city": "NEWARK",
+        "state": "DE",
+        "postalCode": "19713-6008"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28224"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28224.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3debdb80-c112-5678-978b-0d4e3b8e938e"
+}

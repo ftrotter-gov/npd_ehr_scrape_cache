@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2b0c4897-6840-5abc-b804-026df64124e6",
+    "name": "Lutheran Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/942e5320-a720-5d82-bb8a-b3fcda342de0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639472475"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 55TH STREET"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11220-2574"
+      },
+      {
+        "line": [
+          "121 DEKALB AVE"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11201-5425"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2895"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2895.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2b0c4897-6840-5abc-b804-026df64124e6"
+}

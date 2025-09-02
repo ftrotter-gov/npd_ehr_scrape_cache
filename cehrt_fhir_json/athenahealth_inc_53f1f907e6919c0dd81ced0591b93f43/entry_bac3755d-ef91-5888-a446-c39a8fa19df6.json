@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bac3755d-ef91-5888-a446-c39a8fa19df6",
+    "name": "Brigid Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/395e9785-6488-521f-962a-e51ffe44d51a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790457091"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3456 Rochester Rd"
+        ],
+        "city": "TROY",
+        "state": "MI",
+        "postalCode": "48083-5210"
+      },
+      {
+        "line": [
+          "4870 W CLARK RD STE 107"
+        ],
+        "city": "YPSILANTI",
+        "state": "MI",
+        "postalCode": "48197-1104"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30539"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30539.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bac3755d-ef91-5888-a446-c39a8fa19df6"
+}

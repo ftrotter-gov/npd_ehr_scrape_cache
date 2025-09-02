@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3e9bdba0-9edd-44f5-a501-cd897721bbee",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "5e725794-befa-4e90-b1c7-864b9f94a9c5",
+        "name": "Rainelle Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Rainelle Medical Center",
+    "managingOrganization": {
+      "reference": "#5e725794-befa-4e90-b1c7-864b9f94a9c5"
+    },
+    "period": {
+      "start": "2018-09-13T12:45:44+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10035997"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10035997"
+}

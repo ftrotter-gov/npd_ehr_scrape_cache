@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f84f4d4d-3561-5dc4-85cf-aa1ed8c7d046",
+    "name": "Mayfair Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cb47c23d-1f9f-5501-9706-8a513256b613"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710696661"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "650 HOWE AVENUE STE 730"
+        ],
+        "city": "SACRAMENTO",
+        "state": "CA",
+        "postalCode": "95825-4797"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28283"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28283.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f84f4d4d-3561-5dc4-85cf-aa1ed8c7d046"
+}

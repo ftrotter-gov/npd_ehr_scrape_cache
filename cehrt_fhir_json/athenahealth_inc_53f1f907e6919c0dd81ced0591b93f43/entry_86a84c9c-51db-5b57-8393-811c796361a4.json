@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "86a84c9c-51db-5b57-8393-811c796361a4",
+    "name": "INPATIENT HOSPITAL BILLING",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff993f60-8a7e-58e6-a73b-2ddc3720216a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528188430"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912962069"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 East 77th Street"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10075-1850"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3539"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3539.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:86a84c9c-51db-5b57-8393-811c796361a4"
+}

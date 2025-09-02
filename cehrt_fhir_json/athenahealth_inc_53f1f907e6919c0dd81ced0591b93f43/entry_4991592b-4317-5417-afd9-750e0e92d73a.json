@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4991592b-4317-5417-afd9-750e0e92d73a",
+    "name": "Premier Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4bbfefa5-e3c8-53b7-bc04-9e6e183f0cd0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831342880"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 E ash Street"
+        ],
+        "city": "PERRY",
+        "state": "FL",
+        "postalCode": "32347-2029"
+      },
+      {
+        "line": [
+          "315 E Ash St"
+        ],
+        "city": "PERRY",
+        "state": "FL",
+        "postalCode": "32347-2029"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23008"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23008.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4991592b-4317-5417-afd9-750e0e92d73a"
+}

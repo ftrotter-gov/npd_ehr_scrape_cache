@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "62c7b504-a4fd-53f2-8b74-5f4f12b5f9bc",
+    "name": "Lakeside Womens Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/82cee78b-1c77-58a5-b9c1-835ffce32b2d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811295108"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11200 N. Portland Ave"
+        ],
+        "city": "OKLAHOMA CITY",
+        "state": "OK",
+        "postalCode": "73120-5045"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3062"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3062.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:62c7b504-a4fd-53f2-8b74-5f4f12b5f9bc"
+}

@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDJC-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDJC"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Primary Care Physicians Medical Corp.",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4082510835"
+      },
+      {
+        "system": "fax",
+        "value": "4087703314"
+      }
+    ],
+    "address": [
+      {
+        "text": "200 Jose Figueres Ave Suite 325 San Jose CA 951161555 US",
+        "line": [
+          "200 Jose Figueres Ave",
+          "Suite 325"
+        ],
+        "city": "San Jose",
+        "state": "CA",
+        "postalCode": "951161555",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDJC-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDJC-Organization-3"
+}

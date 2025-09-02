@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e02ccb93-0f3a-5be9-af09-5e93a257af76",
+    "name": "Forsyth Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1665fc6f-7318-53ec-b254-d13dd961eede"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811090475"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013002138"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3333 Silas Creek Parkway"
+        ],
+        "city": "WINSTON SALEM",
+        "state": "NC",
+        "postalCode": "27103-3013"
+      },
+      {
+        "line": [
+          "3333 Silas Creek Pkwy"
+        ],
+        "city": "Winston-Salem",
+        "state": "NC",
+        "postalCode": "27103-3912"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-952"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-952.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e02ccb93-0f3a-5be9-af09-5e93a257af76"
+}

@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eb740b56-f6bb-5eb7-927d-b328303f6ff7",
+    "name": "Atma Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/56b3b76c-c652-569d-8d15-1d8f42f657fe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538615190"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10590 BARKLEY ST",
+          "FL 2"
+        ],
+        "city": "OVERLAND PARK",
+        "state": "KS",
+        "postalCode": "66212-1811"
+      },
+      {
+        "line": [
+          "1026 WESTDALE RD"
+        ],
+        "city": "LAWRENCE",
+        "state": "KS",
+        "postalCode": "66049-2637"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20969"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20969.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eb740b56-f6bb-5eb7-927d-b328303f6ff7"
+}

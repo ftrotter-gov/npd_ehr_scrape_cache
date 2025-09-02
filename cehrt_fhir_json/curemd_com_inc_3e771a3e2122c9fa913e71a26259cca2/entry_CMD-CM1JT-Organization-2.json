@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1JT-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1JT"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "La Plata County Public Health CO",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9702475702"
+      },
+      {
+        "system": "fax",
+        "value": "9703757487"
+      },
+      {
+        "system": "url",
+        "value": "www.sjbpublichealth.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "281 Sawyer Drive Suite 300 Durango CO 81303 US",
+        "line": [
+          "281 Sawyer Drive",
+          "Suite 300"
+        ],
+        "city": "Durango",
+        "state": "CO",
+        "postalCode": "81303",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1JT-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1JT-Organization-2"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b492a048-4dd9-549b-9fe8-779ab7588433",
+    "name": "Progressive Radiology Olney",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ab4bf860-ce3f-578c-91cc-569b2c844a61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689783185"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3300 Olney- Sandy Spring Road",
+          "Suite 100"
+        ],
+        "city": "OLNEY",
+        "state": "MD",
+        "postalCode": "20832-1494"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6413"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6413.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b492a048-4dd9-549b-9fe8-779ab7588433"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a2a50c4-c079-5aaa-82b1-af1d4f805995",
+    "name": "Lyn Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd670418-bca7-5071-8db7-6cddf47b0f9e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962153080"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548929250"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13607 118th Ave NE"
+        ],
+        "city": "KIRKLAND",
+        "state": "WA",
+        "postalCode": "98034-2147"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24779"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24779.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a2a50c4-c079-5aaa-82b1-af1d4f805995"
+}

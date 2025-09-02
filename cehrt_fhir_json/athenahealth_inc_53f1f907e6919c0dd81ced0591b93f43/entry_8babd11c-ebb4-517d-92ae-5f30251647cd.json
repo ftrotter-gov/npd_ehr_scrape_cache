@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8babd11c-ebb4-517d-92ae-5f30251647cd",
+    "name": "Greater Good Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dedd5331-a905-5604-96c1-b01aa5a0c308"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821673005"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 CONTINENTAL BLVD STE 635"
+        ],
+        "city": "EL SEGUNDO",
+        "state": "CA",
+        "postalCode": "90245-5040"
+      },
+      {
+        "line": [
+          "4001 Bell Ave"
+        ],
+        "city": "BILLINGS",
+        "state": "MT",
+        "postalCode": "59106-2415"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28616"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28616.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8babd11c-ebb4-517d-92ae-5f30251647cd"
+}

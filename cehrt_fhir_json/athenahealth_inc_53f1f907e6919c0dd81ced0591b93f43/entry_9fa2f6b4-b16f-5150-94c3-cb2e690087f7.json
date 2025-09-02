@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9fa2f6b4-b16f-5150-94c3-cb2e690087f7",
+    "name": "Dr. Kopera's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/53f4eb34-1941-5ebc-9a46-6deea56ba1e8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982873345"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "44405 Woodward Ave"
+        ],
+        "city": "PONTIAC",
+        "state": "MI",
+        "postalCode": "48341-5023"
+      },
+      {
+        "line": [
+          "1101 W. University Drive"
+        ],
+        "city": "ROCHESTER",
+        "state": "MI",
+        "postalCode": "48307-1863"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7140"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7140.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9fa2f6b4-b16f-5150-94c3-cb2e690087f7"
+}

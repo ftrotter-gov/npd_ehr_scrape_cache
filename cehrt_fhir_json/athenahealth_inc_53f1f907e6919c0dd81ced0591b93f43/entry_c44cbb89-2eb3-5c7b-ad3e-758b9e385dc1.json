@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c44cbb89-2eb3-5c7b-ad3e-758b9e385dc1",
+    "name": "Bodyworks Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/23a23a72-98d9-520e-9db2-1982f99c69c6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912145707"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3225 OLD WASHINGTON RD"
+        ],
+        "city": "WALDORF",
+        "state": "MD",
+        "postalCode": "20602-3202"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16709"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16709.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c44cbb89-2eb3-5c7b-ad3e-758b9e385dc1"
+}

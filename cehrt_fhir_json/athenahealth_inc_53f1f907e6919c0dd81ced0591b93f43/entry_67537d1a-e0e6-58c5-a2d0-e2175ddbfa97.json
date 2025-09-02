@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "67537d1a-e0e6-58c5-a2d0-e2175ddbfa97",
+    "name": "SAY Detroit Family Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5f560085-d2d3-5672-a85c-84a3eccdaf40"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1355 OAKMAN BLVD"
+        ],
+        "city": "DETROIT",
+        "state": "MI",
+        "postalCode": "48238-2849"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20091"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20091.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:67537d1a-e0e6-58c5-a2d0-e2175ddbfa97"
+}

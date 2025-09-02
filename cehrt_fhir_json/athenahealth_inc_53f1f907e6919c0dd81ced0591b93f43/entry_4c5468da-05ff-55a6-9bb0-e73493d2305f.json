@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c5468da-05ff-55a6-9bb0-e73493d2305f",
+    "name": "Plateau Medical Group - Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9dea62e7-113c-55d7-ad07-adc6e640da3d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336148931"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "102 BROOKSHIRE LN"
+        ],
+        "city": "BECKLEY",
+        "state": "WV",
+        "postalCode": "25801-6761"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1572"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1572.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c5468da-05ff-55a6-9bb0-e73493d2305f"
+}

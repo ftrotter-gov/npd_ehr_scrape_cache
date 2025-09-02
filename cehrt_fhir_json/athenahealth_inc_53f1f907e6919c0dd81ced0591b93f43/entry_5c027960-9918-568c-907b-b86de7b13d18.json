@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5c027960-9918-568c-907b-b86de7b13d18",
+    "name": "Dexter Family Planning",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5132271e-394c-5146-a38f-5f36e8948ef3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477768216"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "311A Corinna Road"
+        ],
+        "city": "DEXTER",
+        "state": "ME",
+        "postalCode": "04930-2040"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3508"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3508.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5c027960-9918-568c-907b-b86de7b13d18"
+}

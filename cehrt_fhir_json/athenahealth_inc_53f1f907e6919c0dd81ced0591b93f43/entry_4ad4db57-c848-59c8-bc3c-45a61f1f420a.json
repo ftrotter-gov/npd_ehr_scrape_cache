@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ad4db57-c848-59c8-bc3c-45a61f1f420a",
+    "name": "ELGIN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/624de58e-fc1e-5dea-b468-7ad2743339fe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093829509"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 N ALAMO BLVD"
+        ],
+        "city": "MARSHALL",
+        "state": "TX",
+        "postalCode": "75670-3451"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16223"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16223.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ad4db57-c848-59c8-bc3c-45a61f1f420a"
+}

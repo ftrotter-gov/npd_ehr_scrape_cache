@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fedf5465-281c-52a3-9771-4daeb1f9f37a",
+    "name": "HCA Houston Healthcare Conroe",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6f9e21ec-af69-560e-b707-3eb33de82116"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235148172"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "504 Medical Center Blvd"
+        ],
+        "city": "CONROE",
+        "state": "TX",
+        "postalCode": "77304-2808"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23958"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23958.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fedf5465-281c-52a3-9771-4daeb1f9f37a"
+}

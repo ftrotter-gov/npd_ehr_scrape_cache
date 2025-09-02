@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8c725773-3094-5be6-b3b5-4b8694947e1c",
+    "meta": {
+      "lastUpdated": "2023-01-11T17:32:18.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://eohospital.com"
+      }
+    ],
+    "name": "East Ohio Regional Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://eohospital.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "90 North Fourth Street"
+        ],
+        "city": "Martins Ferry",
+        "state": "OH",
+        "postalCode": "43935",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:e37c521e-c908-45f9-a1f2-65182f9039d5"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:e37c521e-c908-45f9-a1f2-65182f9039d5"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8c725773-3094-5be6-b3b5-4b8694947e1c"
+}

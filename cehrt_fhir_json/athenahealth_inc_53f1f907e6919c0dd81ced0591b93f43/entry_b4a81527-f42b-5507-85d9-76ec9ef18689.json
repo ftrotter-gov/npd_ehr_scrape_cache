@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b4a81527-f42b-5507-85d9-76ec9ef18689",
+    "name": "Health Check, PLLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d11d8dbe-af92-5a32-9044-7c108e20115b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912656778"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "305 MAPLE AVENUE W",
+          "Suite A"
+        ],
+        "city": "VIENNA",
+        "state": "VA",
+        "postalCode": "22180-4306"
+      },
+      {
+        "line": [
+          "305 MAPLE AVE W STE A"
+        ],
+        "city": "VIENNA",
+        "state": "VA",
+        "postalCode": "22180-4306"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25520"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25520.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b4a81527-f42b-5507-85d9-76ec9ef18689"
+}

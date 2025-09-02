@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e538125-7cf3-5676-8677-d340ecf040a2",
+    "name": "Pontchartrain Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8b64386f-386d-5900-a4e3-167d417c336f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871919936"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4407 Hwy 190 Srvc RD East",
+          "Ste 200"
+        ],
+        "city": "COVINGTON",
+        "state": "LA",
+        "postalCode": "70433-4957"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1179"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1179.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e538125-7cf3-5676-8677-d340ecf040a2"
+}

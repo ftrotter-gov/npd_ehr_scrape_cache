@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c9838e71-476c-551a-8418-2ab9beb8276b",
+    "name": "MOUNT SINAI MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4dda6dee-81a2-544d-9ebc-0c6b48fb8d2b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265771307"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255642435"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5 E 98th Street",
+          "14th Floor"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10029-6574"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2613"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2613.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c9838e71-476c-551a-8418-2ab9beb8276b"
+}

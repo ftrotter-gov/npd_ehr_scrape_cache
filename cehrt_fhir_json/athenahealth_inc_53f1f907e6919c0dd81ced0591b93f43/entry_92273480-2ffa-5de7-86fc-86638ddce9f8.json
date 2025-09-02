@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "92273480-2ffa-5de7-86fc-86638ddce9f8",
+    "name": "South County Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6346fc33-2566-5ea3-9af9-67d80211ecc2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033318175"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Kenyon Avenue"
+        ],
+        "city": "Wakefield",
+        "state": "RI",
+        "postalCode": "02879-4216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32135"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32135.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:92273480-2ffa-5de7-86fc-86638ddce9f8"
+}

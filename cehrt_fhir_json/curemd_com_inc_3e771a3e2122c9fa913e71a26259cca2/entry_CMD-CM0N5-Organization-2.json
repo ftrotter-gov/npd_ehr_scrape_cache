@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0N5-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0N5"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Randolph County Public Health",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3363186882"
+      },
+      {
+        "system": "fax",
+        "value": "3363186234"
+      },
+      {
+        "system": "url",
+        "value": "www.co.randolph.nc.us/ph"
+      }
+    ],
+    "address": [
+      {
+        "text": "2222-B S Fayetteville Street Asheboro RANDOLPH NC 27205 US",
+        "line": [
+          "2222-B S Fayetteville Street"
+        ],
+        "city": "Asheboro",
+        "district": "RANDOLPH",
+        "state": "NC",
+        "postalCode": "27205",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0N5-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0N5-Organization-2"
+}

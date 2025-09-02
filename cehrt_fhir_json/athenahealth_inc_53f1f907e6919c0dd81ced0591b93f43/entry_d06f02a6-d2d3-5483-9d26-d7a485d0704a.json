@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d06f02a6-d2d3-5483-9d26-d7a485d0704a",
+    "name": "FMH - ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e398799-8f8f-5c92-afbd-3a900a0822fd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215367115"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "21298 OLEAN BLVD"
+        ],
+        "city": "PORT CHARLOTTE",
+        "state": "FL",
+        "postalCode": "33952-6705"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2765"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2765.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d06f02a6-d2d3-5483-9d26-d7a485d0704a"
+}

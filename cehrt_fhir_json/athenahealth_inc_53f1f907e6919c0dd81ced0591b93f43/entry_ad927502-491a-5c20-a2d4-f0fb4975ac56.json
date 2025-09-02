@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ad927502-491a-5c20-a2d4-f0fb4975ac56",
+    "name": "El Camino Hospital - 2500 Grant Road",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ea15ec77-567c-51ca-bf16-f13fc1d0cdca"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154401941"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 Grant Road"
+        ],
+        "city": "MOUNTAIN VIEW",
+        "state": "CA",
+        "postalCode": "94040-4302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25176"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25176.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ad927502-491a-5c20-a2d4-f0fb4975ac56"
+}

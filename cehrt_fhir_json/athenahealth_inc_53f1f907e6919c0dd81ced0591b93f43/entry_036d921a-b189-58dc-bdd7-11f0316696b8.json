@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "036d921a-b189-58dc-bdd7-11f0316696b8",
+    "name": "Dr. Laker's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/07a2eec5-d739-574d-b8f5-91c0e8246394"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063850329"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5807 W MAPLE RD STE 175"
+        ],
+        "city": "WEST BLOOMFIELD",
+        "state": "MI",
+        "postalCode": "48322-2278"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16156"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16156.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:036d921a-b189-58dc-bdd7-11f0316696b8"
+}

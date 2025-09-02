@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "475d2b23-1b4e-52a6-a1f7-6e229e1b7267",
+    "name": "Baptist Health-Fort Smith IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e1e166ae-4046-5540-b12c-e6b8f112762e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750856043"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1001 Towson Avenue"
+        ],
+        "city": "FORT SMITH",
+        "state": "AR",
+        "postalCode": "72901-4921"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18330"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18330.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:475d2b23-1b4e-52a6-a1f7-6e229e1b7267"
+}

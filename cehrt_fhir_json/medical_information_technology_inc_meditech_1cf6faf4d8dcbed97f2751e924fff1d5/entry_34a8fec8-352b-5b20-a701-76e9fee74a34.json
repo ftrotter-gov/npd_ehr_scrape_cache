@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "34a8fec8-352b-5b20-a701-76e9fee74a34",
+    "meta": {
+      "lastUpdated": "2025-05-14T22:51:58.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://limamemorial.org"
+      }
+    ],
+    "name": "Lima Memorial Health System",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://limamemorial.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1001 Bellefontaine Avenue"
+        ],
+        "city": "Lima",
+        "state": "OH",
+        "postalCode": "45804",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:db5751ff-bd99-5c40-8fcb-dee2068b5832"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:db5751ff-bd99-5c40-8fcb-dee2068b5832"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:34a8fec8-352b-5b20-a701-76e9fee74a34"
+}

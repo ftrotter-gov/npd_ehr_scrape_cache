@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4a8eb582-154b-5925-a6ac-392279ddcaca",
+    "name": "MSC - Montgomery Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/513d2486-1fc8-5bfe-9ef8-99bd71a3c09d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376634683"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "470 TAYLOR RD STE 100"
+        ],
+        "city": "MONTGOMERY",
+        "state": "AL",
+        "postalCode": "36117-3532"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5142"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5142.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4a8eb582-154b-5925-a6ac-392279ddcaca"
+}

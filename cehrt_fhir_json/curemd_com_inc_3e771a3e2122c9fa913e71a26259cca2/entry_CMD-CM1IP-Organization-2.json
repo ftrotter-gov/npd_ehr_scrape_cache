@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1IP-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1IP"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Holt County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6604462909"
+      },
+      {
+        "system": "fax",
+        "value": "6604462921"
+      }
+    ],
+    "address": [
+      {
+        "text": "108 S Main St Oregon MO 64473 US",
+        "line": [
+          "108 S Main St"
+        ],
+        "city": "Oregon",
+        "state": "MO",
+        "postalCode": "64473",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1IP-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1IP-Organization-2"
+}

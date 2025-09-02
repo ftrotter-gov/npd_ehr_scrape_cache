@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a1671287-a8bf-510f-92ca-8d82bbcf176f",
+    "name": "Pesala Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/42a74e7a-1255-51f0-b34c-edc481586fb9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346440823"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "51 SAINT NICHOLAS AVE APT 1",
+          "APT 1"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10026-3467"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14194"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14194.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a1671287-a8bf-510f-92ca-8d82bbcf176f"
+}

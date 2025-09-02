@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f556a140-1602-5a94-b290-4a63f82143fc",
+    "name": "Home Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4e570fbc-b5d0-50f6-9068-584dec3fdce9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649546946"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "203 park vista terrace"
+        ],
+        "city": "ALLENTOWN",
+        "state": "PA",
+        "postalCode": "18104-4525"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4275"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4275.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f556a140-1602-5a94-b290-4a63f82143fc"
+}

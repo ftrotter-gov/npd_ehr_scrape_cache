@@ -1,0 +1,73 @@
+{
+  "resourceType": "Bundle",
+  "id": "c4a8135b-6038-4b37-9a45-2720496dc7a4",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "https://micromd.dynamicfhir.com/fhir/r4/Endpoint/id53TtyeAgHWFuWp6FY1HhYQ",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "id53TtyeAgHWFuWp6FY1HhYQ",
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+                "code": "urn:ihe:pcc:xphr:2007"
+              }
+            ]
+          }
+        ],
+        "payloadMimeType": [
+          "application/fhir+json",
+          "application/json+fhir",
+          "application/xml+fhir",
+          "application/fhir+xml"
+        ],
+        "address": "https://micromd.dynamicfhir.com/fhir/micromd/basepractice/r4"
+      }
+    },
+    {
+      "fullUrl": "https://micromd.dynamicfhir.com/fhir/r4/Organization/id53TtyeAgHWFuWp6FY1HhYQ",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "id53TtyeAgHWFuWp6FY1HhYQ",
+        "identifier": [
+          {
+            "system": "urn:oid:2.16.840.1.113883.3",
+            "value": "BasePractice"
+          }
+        ],
+        "active": true,
+        "name": "BasePractice",
+        "telecom": [
+          {
+            "system": "email",
+            "value": "support@micromd.com"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "6715 Tippecanoe Road"
+            ],
+            "city": "Canfield",
+            "state": "OH",
+            "postalCode": "44407",
+            "country": "US"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/id53TtyeAgHWFuWp6FY1HhYQ"
+          }
+        ]
+      }
+    }
+  ]
+}

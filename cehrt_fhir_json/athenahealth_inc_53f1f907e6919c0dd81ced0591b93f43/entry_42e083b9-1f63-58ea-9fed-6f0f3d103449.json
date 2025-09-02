@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42e083b9-1f63-58ea-9fed-6f0f3d103449",
+    "name": "O'Bleness Wound Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b46508f2-b52a-5311-955b-b487858aa8a3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982714358"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "444 West Union",
+          "Suite D"
+        ],
+        "city": "ATHENS",
+        "state": "OH",
+        "postalCode": "45701-2340"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3310"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3310.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42e083b9-1f63-58ea-9fed-6f0f3d103449"
+}

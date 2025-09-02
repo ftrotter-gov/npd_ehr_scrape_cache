@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "599432ca-e3c1-5006-b8b0-9b05182d8343",
+    "name": "Odessa Regional Hospital-IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2a5a306-1f26-5d9f-a1d3-80cffd1bd438"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386000180"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "520 E 6th St, Odessa"
+        ],
+        "city": "ODESSA",
+        "state": "TX",
+        "postalCode": "79761-4527"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12909"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12909.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:599432ca-e3c1-5006-b8b0-9b05182d8343"
+}

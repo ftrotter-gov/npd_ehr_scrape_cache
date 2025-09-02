@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f604308-fa23-5b4e-ab03-da1cebfdfec3",
+    "name": "Good Samaritan Emergency Dept",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/174dac32-b1ca-56d3-b071-a27a5d9f4b64"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154575058"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "114 Whitwell Street"
+        ],
+        "city": "QUINCY",
+        "state": "MA",
+        "postalCode": "02169-1870"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6537"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6537.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f604308-fa23-5b4e-ab03-da1cebfdfec3"
+}

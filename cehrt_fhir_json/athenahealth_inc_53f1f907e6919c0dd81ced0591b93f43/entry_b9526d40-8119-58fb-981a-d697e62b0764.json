@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9526d40-8119-58fb-981a-d697e62b0764",
+    "name": "Yuma Regional Out Pt",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a728e0fb-b658-5cfb-bd2d-8fc181ec89cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902071590"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2400 S Ave A"
+        ],
+        "city": "YUMA",
+        "state": "AZ",
+        "postalCode": "85364-7421"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21139"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21139.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9526d40-8119-58fb-981a-d697e62b0764"
+}

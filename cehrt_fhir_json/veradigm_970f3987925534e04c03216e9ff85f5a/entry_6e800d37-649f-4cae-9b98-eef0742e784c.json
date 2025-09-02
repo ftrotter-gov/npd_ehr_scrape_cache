@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "6e800d37-649f-4cae-9b98-eef0742e784c",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "13eb210d-e094-481e-bea5-93754db71eff",
+        "name": "Southern ObGyn Assoc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Southern ObGyn Assoc",
+    "managingOrganization": {
+      "reference": "#13eb210d-e094-481e-bea5-93754db71eff"
+    },
+    "period": {
+      "start": "2018-12-28T14:44:47+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10012164"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10012164"
+}

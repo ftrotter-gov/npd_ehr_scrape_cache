@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9f988e1c-e150-5c16-b00b-cb83f17760c1",
+    "name": "Dr. Coye's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a90d2d16-c874-524a-97e4-e213c6451a26"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083075972"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6465 SOUTH YALE AVE"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74136-7823"
+      },
+      {
+        "line": [
+          "6465 S. YALE AVE., SUITE 808"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74136-7810"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19975"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19975.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9f988e1c-e150-5c16-b00b-cb83f17760c1"
+}

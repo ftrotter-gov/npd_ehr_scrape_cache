@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a4602fe1-b61b-575c-a8d4-bdd955a0e366",
+    "name": "Bacon County Hospital Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/adc76d77-0db8-501b-b62e-4fbfd5533da2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710046073"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 DOCTORS DR STE O"
+        ],
+        "city": "DOUGLAS",
+        "state": "GA",
+        "postalCode": "31533-2202"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9964"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9964.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a4602fe1-b61b-575c-a8d4-bdd955a0e366"
+}

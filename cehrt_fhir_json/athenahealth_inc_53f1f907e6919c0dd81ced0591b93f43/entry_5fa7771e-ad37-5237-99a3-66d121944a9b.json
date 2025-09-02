@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5fa7771e-ad37-5237-99a3-66d121944a9b",
+    "name": "IMS Urgent Care Buckeye Suite A104",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/12101a02-bb9e-5fe4-97ef-3780548c93f1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760441141"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1300 S Watson Rd",
+          "Suite A104"
+        ],
+        "city": "BUCKEYE",
+        "state": "AZ",
+        "postalCode": "85326-6303"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17394"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17394.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5fa7771e-ad37-5237-99a3-66d121944a9b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "75c96f0e-9c7f-50a8-a396-6326ea001737",
+    "name": "Greenville Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2030be7b-0b2a-581f-8167-d20c3dc006fd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "50 PARKINS MILL ROAD"
+        ],
+        "city": "GREENVILLE",
+        "state": "SC",
+        "postalCode": "29607-2930"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20400"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20400.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:75c96f0e-9c7f-50a8-a396-6326ea001737"
+}

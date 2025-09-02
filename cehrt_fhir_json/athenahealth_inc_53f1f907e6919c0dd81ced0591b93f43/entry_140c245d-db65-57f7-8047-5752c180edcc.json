@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "140c245d-db65-57f7-8047-5752c180edcc",
+    "name": "Clinica Woodstock",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6b2da527-0d05-5807-b0ee-8457c44a1213"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912161381"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1046 JUSTICE LANE"
+        ],
+        "city": "ACWORTH",
+        "state": "GA",
+        "postalCode": "30102-6351"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20999"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20999.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:140c245d-db65-57f7-8047-5752c180edcc"
+}

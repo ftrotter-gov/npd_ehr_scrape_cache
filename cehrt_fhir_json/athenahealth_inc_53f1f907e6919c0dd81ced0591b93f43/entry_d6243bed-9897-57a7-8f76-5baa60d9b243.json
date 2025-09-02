@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d6243bed-9897-57a7-8f76-5baa60d9b243",
+    "name": "Provena Covenant Medical Center IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/29478ac1-7fab-5d90-8b73-8b26158f056f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063420248"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1400 West Park Street"
+        ],
+        "city": "URBANA",
+        "state": "IL",
+        "postalCode": "61801-2334"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-491"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-491.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d6243bed-9897-57a7-8f76-5baa60d9b243"
+}

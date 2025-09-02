@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0bfaeaa3-c4f6-5a7c-8f4f-98adfb4c75c7",
+    "name": "PACIFIC CREST MEDICAL GROUP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/22874ca6-aeef-5ac4-ba16-fde9d09d464b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567891"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "34052 LA PLAZA",
+          "STE 101"
+        ],
+        "city": "DANA POINT",
+        "state": "CA",
+        "postalCode": "92629-2571"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16536"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16536.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0bfaeaa3-c4f6-5a7c-8f4f-98adfb4c75c7"
+}

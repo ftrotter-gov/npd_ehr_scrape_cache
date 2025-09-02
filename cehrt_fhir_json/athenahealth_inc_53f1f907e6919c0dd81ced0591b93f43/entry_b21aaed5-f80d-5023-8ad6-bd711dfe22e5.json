@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b21aaed5-f80d-5023-8ad6-bd711dfe22e5",
+    "name": "Tri Lakes Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ab3345ed-6a6d-56f4-a3e3-d8434c7afd78"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124321294"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "303 Medical Center Drive"
+        ],
+        "city": "Batesville",
+        "state": "MS",
+        "postalCode": "38606-8606"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b21aaed5-f80d-5023-8ad6-bd711dfe22e5"
+}

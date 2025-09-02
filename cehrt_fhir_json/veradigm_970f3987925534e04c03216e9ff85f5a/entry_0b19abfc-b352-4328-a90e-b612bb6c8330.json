@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0b19abfc-b352-4328-a90e-b612bb6c8330",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "927500d6-c4ca-45e4-a70d-0a8e262b5bb1",
+        "name": "Fall General Surgery"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Fall General Surgery",
+    "managingOrganization": {
+      "reference": "#927500d6-c4ca-45e4-a70d-0a8e262b5bb1"
+    },
+    "period": {
+      "start": "2025-02-07T13:21:01+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042050"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042050"
+}

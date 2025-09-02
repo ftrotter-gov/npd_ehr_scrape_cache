@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "7243a9c0-7bee-43b4-9388-9b21854d02c8",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c6ed968b-9cec-4c67-8867-bc0dac11b126",
+        "name": "Southwest Medical Consultants"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Southwest Medical Consultants",
+    "managingOrganization": {
+      "reference": "#c6ed968b-9cec-4c67-8867-bc0dac11b126"
+    },
+    "period": {
+      "start": "2018-01-04T18:44:42+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/61026"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/61026"
+}

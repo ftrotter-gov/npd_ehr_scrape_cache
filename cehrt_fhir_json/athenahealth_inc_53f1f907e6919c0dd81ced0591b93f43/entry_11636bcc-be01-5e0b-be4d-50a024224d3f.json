@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "11636bcc-be01-5e0b-be4d-50a024224d3f",
+    "name": "Davita Gateway",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/08105025-799e-5587-abdc-9a2c27b43697"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972117109"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5705 Lee Blvd",
+          "Ste 16"
+        ],
+        "city": "LEHIGH ACRES",
+        "state": "FL",
+        "postalCode": "33971-6342"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22073"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22073.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:11636bcc-be01-5e0b-be4d-50a024224d3f"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "acf032d9-57ff-5519-b7d9-9bdf6605fd38",
+    "name": "Riverside Medical Center- OUT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1da3a66a-c5af-55b8-af82-7380f52d25bc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497907638"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 Main Street"
+        ],
+        "city": "FRANKLINTON",
+        "state": "LA",
+        "postalCode": "70438-3688"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2046"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2046.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:acf032d9-57ff-5519-b7d9-9bdf6605fd38"
+}

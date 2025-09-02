@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bb6c163-400a-5cf6-a286-9b5d9a8cb29e",
+    "name": "Cardiology PC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a6aca869-4aed-5ada-829a-a92e873c0bd3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003922287"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 RETREAT AVE",
+          "SUITE 811"
+        ],
+        "city": "HARTFORD",
+        "state": "CT",
+        "postalCode": "06106-2528"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-473"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-473.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bb6c163-400a-5cf6-a286-9b5d9a8cb29e"
+}

@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e4784351-976a-5e0c-93fa-edcef4634854",
+    "name": "The Surgery Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/006adb12-89b1-5f75-9d3d-1b2d450c14ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003091000"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316947609"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902977150"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "45D1036752"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "320 TEXAS BLVD"
+        ],
+        "city": "DALHART",
+        "state": "TX",
+        "postalCode": "79022-4300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-454"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-454.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e4784351-976a-5e0c-93fa-edcef4634854"
+}

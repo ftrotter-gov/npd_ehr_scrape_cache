@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0dd70881-16d7-58de-b6db-081d53e9dbc8",
+    "name": "INGALLS HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/90594a9a-00ae-54a3-93b9-37ab403a3d0c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598954471"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 INGALLS DRIVE"
+        ],
+        "city": "HARVEY",
+        "state": "IL",
+        "postalCode": "60426-3558"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3598"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3598.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0dd70881-16d7-58de-b6db-081d53e9dbc8"
+}

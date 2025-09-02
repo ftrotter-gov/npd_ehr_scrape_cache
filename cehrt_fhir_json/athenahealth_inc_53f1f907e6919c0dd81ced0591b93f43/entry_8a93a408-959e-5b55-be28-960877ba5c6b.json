@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8a93a408-959e-5b55-be28-960877ba5c6b",
+    "name": "knownwell Chicago",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0ea3daf0-6579-581c-8a67-25dca1407682"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700609484"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "331 W SURF ST STE 5100"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60657-7227"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27511"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27511.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8a93a408-959e-5b55-be28-960877ba5c6b"
+}

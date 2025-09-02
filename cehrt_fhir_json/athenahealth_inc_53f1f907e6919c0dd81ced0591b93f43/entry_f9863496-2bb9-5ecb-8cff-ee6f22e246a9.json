@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f9863496-2bb9-5ecb-8cff-ee6f22e246a9",
+    "name": "South Shore Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/771f592b-576e-5281-9b31-1087e2598d50"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265617799"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 W MEDICAL CENTER BLVD STE 215"
+        ],
+        "city": "WEBSTER",
+        "state": "TX",
+        "postalCode": "77598-4227"
+      },
+      {
+        "line": [
+          "400 N Medical Ctr"
+        ],
+        "city": "WEBSTER",
+        "state": "TX",
+        "postalCode": "77598-4227"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32452"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32452.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f9863496-2bb9-5ecb-8cff-ee6f22e246a9"
+}

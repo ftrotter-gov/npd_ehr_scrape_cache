@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2a4450c8-c5f7-5411-86fd-d905f1f6f148",
+    "name": "Avaesen Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0b77e0a7-f996-5487-b53c-32cadd801295"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013651306"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508521428"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5100 BUCKEYSTOWN PIKE STE 250"
+        ],
+        "city": "FREDERICK",
+        "state": "MD",
+        "postalCode": "21704-8344"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25262"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25262.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2a4450c8-c5f7-5411-86fd-d905f1f6f148"
+}

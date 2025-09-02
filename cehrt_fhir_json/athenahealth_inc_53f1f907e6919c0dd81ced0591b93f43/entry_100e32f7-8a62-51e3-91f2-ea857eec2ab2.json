@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "100e32f7-8a62-51e3-91f2-ea857eec2ab2",
+    "name": "Surgical Associates of Western NY PC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dcf5184a-7735-5f42-b1fb-760c0ebefed0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235184672"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275588600"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "550 Orchard Park Rd",
+          "A103"
+        ],
+        "city": "West Seneca",
+        "state": "NY",
+        "postalCode": "14224-2646"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-457"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-457.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:100e32f7-8a62-51e3-91f2-ea857eec2ab2"
+}

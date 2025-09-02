@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98776088-0a93-5270-9adb-6031479f4c26",
+    "name": "The Community Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6925f28c-7865-508b-a927-af2270a44418"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "701 S. JOPLIN AVENUE"
+        ],
+        "city": "JOPLIN",
+        "state": "MO",
+        "postalCode": "64801-4515"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20184"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20184.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98776088-0a93-5270-9adb-6031479f4c26"
+}

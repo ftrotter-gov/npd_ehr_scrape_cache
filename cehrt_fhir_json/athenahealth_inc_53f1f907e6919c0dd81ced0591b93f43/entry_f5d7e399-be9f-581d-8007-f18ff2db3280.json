@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f5d7e399-be9f-581d-8007-f18ff2db3280",
+    "name": "Cardiothoracic Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8b1cc52f-e52f-5449-8edd-d37a9e029fc5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437263472"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "64040 HIGHWAY 434 STE 101"
+        ],
+        "city": "LACOMBE",
+        "state": "LA",
+        "postalCode": "70445-3499"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15912"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15912.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f5d7e399-be9f-581d-8007-f18ff2db3280"
+}

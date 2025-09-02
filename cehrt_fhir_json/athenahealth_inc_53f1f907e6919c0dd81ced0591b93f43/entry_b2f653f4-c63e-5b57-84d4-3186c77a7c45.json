@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b2f653f4-c63e-5b57-84d4-3186c77a7c45",
+    "name": "st lukes patient medical center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a1882bf-37e1-51df-b2e3-1ba48cecdf31"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396880845"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4600 East Sam Houston Pkwy-South"
+        ],
+        "city": "PASADENA",
+        "state": "TX",
+        "postalCode": "77505-2015"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5911"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5911.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b2f653f4-c63e-5b57-84d4-3186c77a7c45"
+}

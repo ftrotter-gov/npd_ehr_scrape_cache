@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f900d74-b12c-5206-8fad-7813d5fe014b",
+    "name": "IHOPE Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1db7faf1-daa1-5c84-a0b0-5dae0832f3ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316422694"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13214 COTTNER ST"
+        ],
+        "city": "OMAHA",
+        "state": "NE",
+        "postalCode": "68137-1777"
+      },
+      {
+        "line": [
+          "1835 E MILITARY AVE SUITE 115"
+        ],
+        "city": "FREMONT",
+        "state": "NE",
+        "postalCode": "68025-5477"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18791"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18791.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f900d74-b12c-5206-8fad-7813d5fe014b"
+}

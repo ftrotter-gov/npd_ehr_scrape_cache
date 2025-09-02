@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6f987e2e-40dd-523d-a684-22b5d3041976",
+    "name": "Grove City Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/45f3b83f-6464-578e-bc7e-79a4a7ded230"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659364503"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2030 Stringtown Road",
+          "Suite 210"
+        ],
+        "city": "GROVE CITY",
+        "state": "OH",
+        "postalCode": "43213-3993"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23107"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23107.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6f987e2e-40dd-523d-a684-22b5d3041976"
+}

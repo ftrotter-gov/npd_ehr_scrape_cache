@@ -1,0 +1,65 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "356ec066-d1a4-55a6-9643-1aec6860bb34",
+    "meta": {
+      "lastUpdated": "2025-08-15T22:51:28.000Z"
+    },
+    "name": "HCA Healthcare UK (MTSA GCP)",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "asked-unknown"
+          }
+        ]
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2 Cavendish Square"
+        ],
+        "city": "London",
+        "state": "ENG",
+        "country": [
+          "United",
+          "Kingdom",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:fc83aadb-ee25-5267-9c69-bcc189663ebd"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:fc83aadb-ee25-5267-9c69-bcc189663ebd"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:356ec066-d1a4-55a6-9643-1aec6860bb34"
+}

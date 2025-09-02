@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0d1bdec2-21c7-53d9-b745-1062d0bdf0a3",
+    "name": "Pinebrook-Sage Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/871b6bf6-642c-5284-9baf-64f081eba590"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063123602"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3980 Airport Blvd"
+        ],
+        "city": "MOBILE",
+        "state": "AL",
+        "postalCode": "36608-2224"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27478"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27478.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0d1bdec2-21c7-53d9-b745-1062d0bdf0a3"
+}

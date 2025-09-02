@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8bf10803-911b-5a34-ba1b-015feb213677",
+    "name": "Dr. Bueso's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cba64cc3-8a6e-58e6-939f-0e2d321c1bb7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477857407"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1315 St. Joseph Pkwy",
+          "#1810"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77002-8538"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29787"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29787.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8bf10803-911b-5a34-ba1b-015feb213677"
+}

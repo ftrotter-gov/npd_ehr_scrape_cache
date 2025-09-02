@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f311e9ea-6773-5a04-9f3c-8a193b71b88d",
+    "name": "Lincoln Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6cd83ca-0cce-516e-864f-3aa6fd2b0866"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669575841"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "77 Lincoln Blvd #1"
+        ],
+        "city": "LINCOLN",
+        "state": "CA",
+        "postalCode": "95648-7422"
+      },
+      {
+        "line": [
+          "77 Lincoln Blvd Suite 1"
+        ],
+        "city": "LINCOLN",
+        "state": "CA",
+        "postalCode": "95648-7422"
+      },
+      {
+        "line": [
+          "225 Colfax Ave"
+        ],
+        "city": "GRASS VALLEY",
+        "state": "CA",
+        "postalCode": "95945-6810"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2545"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2545.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f311e9ea-6773-5a04-9f3c-8a193b71b88d"
+}

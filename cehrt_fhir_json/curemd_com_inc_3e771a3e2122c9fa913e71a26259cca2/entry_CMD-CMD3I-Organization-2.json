@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMD3I-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMD3I"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Meyers Professional Group",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4129204200"
+      },
+      {
+        "system": "fax",
+        "value": "4129200630"
+      },
+      {
+        "system": "email",
+        "value": "cprb48@gmail.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "2121 Noblestown Road Suite 201 Pittsburgh PA 152053933 US",
+        "line": [
+          "2121 Noblestown Road",
+          "Suite 201"
+        ],
+        "city": "Pittsburgh",
+        "state": "PA",
+        "postalCode": "152053933",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMD3I-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMD3I-Organization-2"
+}

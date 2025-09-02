@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f6b542b3-2a89-5c92-8a19-d0e816521c83",
+    "name": "North Shore Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ccb200b-7168-50b3-a1d7-e2dd64a47cc4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750429023"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "81 Highland Avenue"
+        ],
+        "city": "SALEM",
+        "state": "MA",
+        "postalCode": "01970-2714"
+      },
+      {
+        "line": [
+          "81 Highland Ave"
+        ],
+        "city": "Salem",
+        "state": "MA",
+        "postalCode": "01970-2714"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7130"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7130.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f6b542b3-2a89-5c92-8a19-d0e816521c83"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0f55d5db-8919-512d-8984-cdcaf6f2736f",
+    "name": "Aurora Community Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3227fb9e-f451-5e5d-968e-225f982812c5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124527809"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821867961"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "520 GUARD STREET"
+        ],
+        "city": "FRIDAY HARBOR",
+        "state": "WA",
+        "postalCode": "98250-8022"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0f55d5db-8919-512d-8984-cdcaf6f2736f"
+}

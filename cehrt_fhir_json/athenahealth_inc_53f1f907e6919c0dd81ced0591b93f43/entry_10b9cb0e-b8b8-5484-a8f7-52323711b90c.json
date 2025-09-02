@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "10b9cb0e-b8b8-5484-a8f7-52323711b90c",
+    "name": "UNC HEALTHCARE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d6d2de83-12cc-5bc5-9b41-45fdf1a7a547"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417337429"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "MANNING DR"
+        ],
+        "city": "CHAPEL HILL",
+        "state": "NC",
+        "postalCode": "27514-4226"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10516"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10516.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:10b9cb0e-b8b8-5484-a8f7-52323711b90c"
+}

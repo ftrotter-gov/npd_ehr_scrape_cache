@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f3e28ea9-873a-5c01-a28b-280432a3bd84",
+    "name": "Maple Health Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/873f3aa1-6302-52b4-a1c2-97b381d1fc60"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376234112"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 E WOODFIELD RD",
+          "SUITE 103"
+        ],
+        "city": "SCHAUMBURG",
+        "state": "IL",
+        "postalCode": "60173-4718"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29144"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29144.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f3e28ea9-873a-5c01-a28b-280432a3bd84"
+}

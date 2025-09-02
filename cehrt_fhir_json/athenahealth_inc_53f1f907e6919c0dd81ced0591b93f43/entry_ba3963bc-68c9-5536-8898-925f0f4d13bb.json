@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ba3963bc-68c9-5536-8898-925f0f4d13bb",
+    "name": "UW East Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47dbc6ac-bf40-5341-9021-4e19054fc0d1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689628802"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5249 EAST TERRACE DR"
+        ],
+        "city": "MADISON",
+        "state": "WI",
+        "postalCode": "53718-8339"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14801"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14801.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ba3963bc-68c9-5536-8898-925f0f4d13bb"
+}

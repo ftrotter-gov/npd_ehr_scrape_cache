@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "46a341d3-630e-5ed8-acdd-7e74ee609030",
+    "name": "Salus Health Inc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/76cb5e58-6d01-5e76-b4fc-0a9f67d1efd8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205400835"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285244004"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1020 ST PAUL ST"
+        ],
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postalCode": "21202-2606"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23679"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23679.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:46a341d3-630e-5ed8-acdd-7e74ee609030"
+}

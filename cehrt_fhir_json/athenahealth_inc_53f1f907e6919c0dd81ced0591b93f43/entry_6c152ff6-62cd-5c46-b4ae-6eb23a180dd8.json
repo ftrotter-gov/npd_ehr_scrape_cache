@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6c152ff6-62cd-5c46-b4ae-6eb23a180dd8",
+    "name": "SEH Edgewood Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/609b9e0b-69c8-5533-8c2c-372ad6d9455b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922001833"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 MEDICAL VILLAGE DRIVE"
+        ],
+        "city": "EDGEWOOD",
+        "state": "KY",
+        "postalCode": "41017-3403"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6776"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6776.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6c152ff6-62cd-5c46-b4ae-6eb23a180dd8"
+}

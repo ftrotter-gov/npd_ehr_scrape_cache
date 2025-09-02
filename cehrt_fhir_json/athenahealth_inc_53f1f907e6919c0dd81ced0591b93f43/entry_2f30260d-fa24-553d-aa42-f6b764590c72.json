@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2f30260d-fa24-553d-aa42-f6b764590c72",
+    "name": "Healing Community Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9e1a1083-be5f-5cc7-aac4-f73f563c74ea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831476399"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2600 MARTIN L KING JR DR SW",
+          "SUITE 100"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30311-1636"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13609"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13609.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2f30260d-fa24-553d-aa42-f6b764590c72"
+}

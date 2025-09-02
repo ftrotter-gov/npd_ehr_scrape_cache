@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8bc493ed-786d-5d18-a0c3-c396e88e3e30",
+    "name": "PATIENT HOME",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0ce8e5cc-7405-552e-bde0-4353a8a9d34a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184729253"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3540 SEVEN BRIDGES DRIVE",
+          "SUITE 290"
+        ],
+        "city": "WOODRIDGE",
+        "state": "IL",
+        "postalCode": "60517-1221"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2582"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2582.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8bc493ed-786d-5d18-a0c3-c396e88e3e30"
+}

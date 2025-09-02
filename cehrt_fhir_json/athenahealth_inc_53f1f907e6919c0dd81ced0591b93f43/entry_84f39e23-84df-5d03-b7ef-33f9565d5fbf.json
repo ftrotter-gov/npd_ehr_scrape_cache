@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "84f39e23-84df-5d03-b7ef-33f9565d5fbf",
+    "name": "SALUD PEDIATRICS",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5363dac8-069b-592d-bae8-db9c9bd12625"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801811757"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.336",
+        "value": "F300800223"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 S. Randall Rd.",
+          "Suite 220"
+        ],
+        "city": "ALGONQUIN",
+        "state": "IL",
+        "postalCode": "60102-5937"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11453"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11453.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:84f39e23-84df-5d03-b7ef-33f9565d5fbf"
+}

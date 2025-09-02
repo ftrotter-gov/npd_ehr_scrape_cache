@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3c10abf-3ec4-5030-9b66-08d823018ce7",
+    "name": "North Central Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf0074ca-4c2d-57b3-a748-788843244bab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437846086"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9301 N Central Expy Ste 100"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75231-0802"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29928"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29928.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3c10abf-3ec4-5030-9b66-08d823018ce7"
+}

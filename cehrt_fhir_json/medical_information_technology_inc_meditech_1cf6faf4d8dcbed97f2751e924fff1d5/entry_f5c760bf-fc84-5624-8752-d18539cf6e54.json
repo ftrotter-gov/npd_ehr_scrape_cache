@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f5c760bf-fc84-5624-8752-d18539cf6e54",
+    "meta": {
+      "lastUpdated": "2022-06-24T22:51:39.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://cedarcomem.com"
+      }
+    ],
+    "name": "Cedar County Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://cedarcomem.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 South Park Street"
+        ],
+        "city": "El Dorado Springs",
+        "state": "MO",
+        "postalCode": "64744",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:0a69fcc2-063d-5f2c-bc16-a0700ddeec79"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0a69fcc2-063d-5f2c-bc16-a0700ddeec79"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f5c760bf-fc84-5624-8752-d18539cf6e54"
+}

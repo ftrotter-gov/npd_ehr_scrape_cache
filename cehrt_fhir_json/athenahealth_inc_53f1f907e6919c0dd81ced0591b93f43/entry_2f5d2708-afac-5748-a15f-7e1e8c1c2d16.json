@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2f5d2708-afac-5748-a15f-7e1e8c1c2d16",
+    "name": "Jefferson County Family Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fe258c62-7073-595d-9478-42d28f009ca2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043204555"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386018083"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "870 Main Street"
+        ],
+        "city": "FAYETTE",
+        "state": "MS",
+        "postalCode": "39069-0577"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13136"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13136.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2f5d2708-afac-5748-a15f-7e1e8c1c2d16"
+}

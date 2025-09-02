@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "15e03948-a906-51a4-b4fe-994038060433",
+    "name": "Center for Incontinence and Pelvic Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/13e9f6c9-1d0c-58ec-ab89-e4f586c50b1f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083072342"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437516887"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2997 Princeton Pike",
+          "Suite 301"
+        ],
+        "city": "LAWRENCE TOWNSHIP",
+        "state": "NJ",
+        "postalCode": "08648-3430"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12833"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12833.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:15e03948-a906-51a4-b4fe-994038060433"
+}

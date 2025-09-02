@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "168483e7-9c26-5a56-b574-4333a5bf1cb9",
+    "name": "Lutheran Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7e5f785c-518e-5320-ac8c-6faceb271e61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265793111"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1730 WEST 25TH STREET"
+        ],
+        "city": "CLEVELAND",
+        "state": "OH",
+        "postalCode": "44113-3108"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14723"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14723.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:168483e7-9c26-5a56-b574-4333a5bf1cb9"
+}

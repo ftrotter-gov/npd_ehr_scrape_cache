@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM138-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM138"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Friendship Physician Clinic Inc",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5402652087"
+      },
+      {
+        "system": "fax",
+        "value": "5402126357"
+      },
+      {
+        "system": "url",
+        "value": "www.friendship.us"
+      }
+    ],
+    "address": [
+      {
+        "text": "391 Hershberger Road Roanoke VA 24012 US",
+        "line": [
+          "391 Hershberger Road"
+        ],
+        "city": "Roanoke",
+        "state": "VA",
+        "postalCode": "24012",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM138-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM138-Organization-2"
+}

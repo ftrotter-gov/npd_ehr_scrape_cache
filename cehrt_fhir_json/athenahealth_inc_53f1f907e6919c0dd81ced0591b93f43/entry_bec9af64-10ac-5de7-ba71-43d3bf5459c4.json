@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bec9af64-10ac-5de7-ba71-43d3bf5459c4",
+    "name": "COMMUNITY HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1490729c-1015-5982-82ed-4a7dfe833e81"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093954257"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376567396"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "744 Horizon Court",
+          "Suite 360"
+        ],
+        "city": "GRAND JUNCTION",
+        "state": "CO",
+        "postalCode": "81506-3936"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-939"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-939.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bec9af64-10ac-5de7-ba71-43d3bf5459c4"
+}

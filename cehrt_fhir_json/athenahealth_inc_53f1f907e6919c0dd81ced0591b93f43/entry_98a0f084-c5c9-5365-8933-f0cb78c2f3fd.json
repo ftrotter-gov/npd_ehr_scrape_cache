@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98a0f084-c5c9-5365-8933-f0cb78c2f3fd",
+    "name": "Soledad Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/42bf0b5c-a5a0-5882-a236-d66d29ca8f65"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003822453"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 MAIN ST"
+        ],
+        "city": "SOLEDAD",
+        "state": "CA",
+        "postalCode": "93960-2533"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23190"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23190.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98a0f084-c5c9-5365-8933-f0cb78c2f3fd"
+}

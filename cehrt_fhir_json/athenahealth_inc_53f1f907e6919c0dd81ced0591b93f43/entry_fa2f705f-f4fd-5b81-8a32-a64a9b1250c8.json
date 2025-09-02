@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa2f705f-f4fd-5b81-8a32-a64a9b1250c8",
+    "name": "Hope Clinic and Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5dad1e72-02a2-51d0-802c-1ce614e34127"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1123456789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1814 Appleton Road"
+        ],
+        "city": "MENASHA",
+        "state": "WI",
+        "postalCode": "54952-1110"
+      },
+      {
+        "line": [
+          "2693 W. GRAND CHUTE BLVD"
+        ],
+        "city": "APPLETON",
+        "state": "WI",
+        "postalCode": "54913-9617"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17649"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17649.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa2f705f-f4fd-5b81-8a32-a64a9b1250c8"
+}

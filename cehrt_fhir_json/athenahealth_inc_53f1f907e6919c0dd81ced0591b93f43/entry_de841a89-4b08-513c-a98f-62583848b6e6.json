@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "de841a89-4b08-513c-a98f-62583848b6e6",
+    "name": "Indian Circle for Caring",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1becccc5-a3c9-5151-8c87-397802e13067"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20 HOPE AVENUE",
+          "309"
+        ],
+        "city": "WALTHAM",
+        "state": "MA",
+        "postalCode": "02453-2717"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26701"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26701.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:de841a89-4b08-513c-a98f-62583848b6e6"
+}

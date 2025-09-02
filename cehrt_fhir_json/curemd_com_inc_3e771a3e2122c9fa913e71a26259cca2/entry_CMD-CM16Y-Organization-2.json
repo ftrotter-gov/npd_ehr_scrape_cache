@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM16Y-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM16Y"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "KeystoneCare",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2158362440"
+      },
+      {
+        "system": "url",
+        "value": "www.keystonecare.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "8765 Stenton Avenue Wyndmoor PA 19038 US",
+        "line": [
+          "8765 Stenton Avenue"
+        ],
+        "city": "Wyndmoor",
+        "state": "PA",
+        "postalCode": "19038",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM16Y-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM16Y-Organization-2"
+}

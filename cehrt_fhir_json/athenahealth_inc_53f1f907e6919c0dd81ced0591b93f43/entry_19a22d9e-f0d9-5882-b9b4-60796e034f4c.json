@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "19a22d9e-f0d9-5882-b9b4-60796e034f4c",
+    "name": "Morehead Hospital OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1bf919ea-f79b-562b-96e9-ab07e3f77cb7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629022868"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265243612"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "117 East King Hwy"
+        ],
+        "city": "EDEN",
+        "state": "NC",
+        "postalCode": "27288-5201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19847"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19847.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:19a22d9e-f0d9-5882-b9b4-60796e034f4c"
+}

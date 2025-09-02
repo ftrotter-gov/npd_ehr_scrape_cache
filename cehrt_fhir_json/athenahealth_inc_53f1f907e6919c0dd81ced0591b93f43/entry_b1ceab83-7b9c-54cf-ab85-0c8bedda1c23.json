@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1ceab83-7b9c-54cf-ab85-0c8bedda1c23",
+    "name": "Bosworth Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b28395e3-add5-5b86-a45c-521c3e125aa1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275746091"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447676283"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1881 W GRAND RIVER AVE"
+        ],
+        "city": "OKEMOS",
+        "state": "MI",
+        "postalCode": "48864-1840"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15091"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15091.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1ceab83-7b9c-54cf-ab85-0c8bedda1c23"
+}

@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7aa4d0e5-7285-5ae5-b150-bbeba18c2359",
+    "name": "Main Street Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6aed4628-41bd-57c3-9458-eb443b36fc04"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629417324"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023474780"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033598503"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588091714"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "16569 W Main Street"
+        ],
+        "city": "LOUISVILLE",
+        "state": "MS",
+        "postalCode": "39339-2647"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15070"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15070.Brand-9"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7aa4d0e5-7285-5ae5-b150-bbeba18c2359"
+}

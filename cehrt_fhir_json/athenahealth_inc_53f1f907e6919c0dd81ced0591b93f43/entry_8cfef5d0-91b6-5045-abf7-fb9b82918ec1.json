@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8cfef5d0-91b6-5045-abf7-fb9b82918ec1",
+    "name": "DCR Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bb782b5c-e75d-5f7e-9314-56f788032a93"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174571970"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "245 W ELMWOOD DR",
+          "STE 100"
+        ],
+        "city": "DAYTON",
+        "state": "OH",
+        "postalCode": "45459-4259"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21615"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21615.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8cfef5d0-91b6-5045-abf7-fb9b82918ec1"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e845e191-fbc1-5901-8bd7-81c02f006f91",
+    "name": "Olde Towne Primary Care LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9e618b4e-6650-55b7-9e15-037c24d34e67"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417315813"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "317 East Diamond Avenue",
+          "Suite C1"
+        ],
+        "city": "GAITHERSBURG",
+        "state": "MD",
+        "postalCode": "20877-3093"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10530"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10530.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e845e191-fbc1-5901-8bd7-81c02f006f91"
+}

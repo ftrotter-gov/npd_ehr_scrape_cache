@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c9a34170-1425-5cdf-986b-2680f0d26810",
+    "name": "Dr. Lopez's Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2dfb58e2-58d0-5729-a7fd-cff655d978b1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265946511"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 N. FLAMINGO ROAD STE 305"
+        ],
+        "city": "PEMBROKE PINES",
+        "state": "FL",
+        "postalCode": "33028-1010"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17782"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17782.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c9a34170-1425-5cdf-986b-2680f0d26810"
+}

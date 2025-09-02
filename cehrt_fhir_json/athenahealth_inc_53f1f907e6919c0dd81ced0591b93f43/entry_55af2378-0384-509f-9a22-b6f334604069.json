@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "55af2378-0384-509f-9a22-b6f334604069",
+    "name": "Tracy Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f30a37ba-6c34-5956-a1bd-b65f2379bf1f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770588683"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "740 MAIN ST"
+        ],
+        "city": "TRACY CITY",
+        "state": "TN",
+        "postalCode": "37387-4020"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21192"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21192.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:55af2378-0384-509f-9a22-b6f334604069"
+}

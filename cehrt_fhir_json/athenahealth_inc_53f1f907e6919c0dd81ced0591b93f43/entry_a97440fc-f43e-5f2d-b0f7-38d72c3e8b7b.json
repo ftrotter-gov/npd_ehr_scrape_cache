@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a97440fc-f43e-5f2d-b0f7-38d72c3e8b7b",
+    "name": "Direct Access Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/12fdd84b-cbba-50a5-a389-8a96a3ce5d5e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639476831"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6609 MAIN ST"
+        ],
+        "city": "GLOUCESTER",
+        "state": "VA",
+        "postalCode": "23061-5194"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32014"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32014.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a97440fc-f43e-5f2d-b0f7-38d72c3e8b7b"
+}

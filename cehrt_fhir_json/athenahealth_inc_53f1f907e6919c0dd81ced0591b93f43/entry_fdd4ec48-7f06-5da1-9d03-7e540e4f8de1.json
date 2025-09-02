@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fdd4ec48-7f06-5da1-9d03-7e540e4f8de1",
+    "name": "Norwood Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/147c5f15-1ab7-51a5-ba89-03ab163b4e9a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043429954"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104285501"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 Washington Street",
+          "Norwood"
+        ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "02062-3487"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1269"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1269.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fdd4ec48-7f06-5da1-9d03-7e540e4f8de1"
+}

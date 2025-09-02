@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a5c914cd-c919-5f3e-bf1e-301d7845a9c2",
+    "name": "VCare Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/86e573b7-aebf-5460-a17f-c915ffac0abf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801563366"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "485 GEORGES RD STE 114"
+        ],
+        "city": "DAYTON",
+        "state": "NJ",
+        "postalCode": "08810-2439"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31873"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31873.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a5c914cd-c919-5f3e-bf1e-301d7845a9c2"
+}

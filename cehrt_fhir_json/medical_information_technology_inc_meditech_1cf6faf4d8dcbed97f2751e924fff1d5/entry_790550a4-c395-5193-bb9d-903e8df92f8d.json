@@ -1,0 +1,73 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "790550a4-c395-5193-bb9d-903e8df92f8d",
+    "meta": {
+      "lastUpdated": "2024-07-11T08:21:54.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://mh-m.org"
+      }
+    ],
+    "name": "Memorial Hospital and Manor",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://mh-m.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1500 East Shotwell Street"
+        ],
+        "city": "Bainbridge",
+        "state": "GA",
+        "postalCode": "39819",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:2fd485fe-8d8a-5096-83bd-57b39eb15519"
+      },
+      {
+        "reference": "urn:uuid:0cfa5bf1-492d-4964-aad5-1450c4436829"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:2fd485fe-8d8a-5096-83bd-57b39eb15519"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0cfa5bf1-492d-4964-aad5-1450c4436829"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:790550a4-c395-5193-bb9d-903e8df92f8d"
+}

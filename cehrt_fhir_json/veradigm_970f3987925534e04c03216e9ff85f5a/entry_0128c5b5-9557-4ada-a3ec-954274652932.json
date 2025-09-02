@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0128c5b5-9557-4ada-a3ec-954274652932",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "38b4ee47-f301-419a-851d-0fa4ce9a091b",
+        "name": "Endocrine & Metabolic Disorders Center PC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Endocrine & Metabolic Disorders Center PC",
+    "managingOrganization": {
+      "reference": "#38b4ee47-f301-419a-851d-0fa4ce9a091b"
+    },
+    "period": {
+      "start": "2017-12-15T16:38:02+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10088479"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10088479"
+}

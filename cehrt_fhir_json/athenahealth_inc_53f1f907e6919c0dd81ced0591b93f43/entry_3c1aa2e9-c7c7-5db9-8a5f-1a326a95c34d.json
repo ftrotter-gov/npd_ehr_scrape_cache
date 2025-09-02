@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3c1aa2e9-c7c7-5db9-8a5f-1a326a95c34d",
+    "name": "Piedmont Hospital -Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bc27c0dd-c05c-5b79-a165-bc45024c9ff5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710160056"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1968 Peachtree Rd NW"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30309-1281"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12313"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12313.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3c1aa2e9-c7c7-5db9-8a5f-1a326a95c34d"
+}

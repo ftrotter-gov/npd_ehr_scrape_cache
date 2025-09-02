@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "475f2004-aca0-572d-ba5c-5a3e186ddb8f",
+    "name": "Austin Primary Care Physicians- Cedar Park",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7c630b04-7996-568e-ab93-0d036463df0e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922101591"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11901 W. Parmer Lane",
+          "Suite 300"
+        ],
+        "city": "Cedar Park",
+        "state": "TX",
+        "postalCode": "78613-7654"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3126"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3126.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:475f2004-aca0-572d-ba5c-5a3e186ddb8f"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2df33d32-51ed-52fc-bb5a-b290c5d51c71",
+    "name": "Forrest City Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/771ace81-fc3e-5986-875d-ab5430bb886f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821293051"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1601 NewCastle"
+        ],
+        "city": "FORREST CITY",
+        "state": "AR",
+        "postalCode": "72335-2218"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1607"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1607.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2df33d32-51ed-52fc-bb5a-b290c5d51c71"
+}

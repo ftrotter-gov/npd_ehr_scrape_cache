@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2dbf87b5-2b3a-55bd-83dd-ddecb6e9b1ea",
+    "name": "Southwest Specialty Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/01b0bf09-2ed9-57ac-bd36-73352f3bf70f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669442042"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750369203"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6210 JOHN RYAN SUITE 107"
+        ],
+        "city": "FORT WORTH",
+        "state": "TX",
+        "postalCode": "76132-4111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2155"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2155.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2dbf87b5-2b3a-55bd-83dd-ddecb6e9b1ea"
+}

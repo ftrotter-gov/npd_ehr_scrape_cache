@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f0e5e557-3760-5103-b6ba-040aea41b666",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/52f66415-ac63-5c67-a98f-1265c5ff6221"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649710377"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2323 E TYLER AVE"
+        ],
+        "city": "HARLINGEN",
+        "state": "TX",
+        "postalCode": "78550-7384"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16285"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16285.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f0e5e557-3760-5103-b6ba-040aea41b666"
+}

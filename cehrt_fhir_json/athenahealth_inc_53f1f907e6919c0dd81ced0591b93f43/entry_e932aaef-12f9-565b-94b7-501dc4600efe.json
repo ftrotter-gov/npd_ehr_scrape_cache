@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e932aaef-12f9-565b-94b7-501dc4600efe",
+    "name": "MedNow Clinics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/304f312f-f027-575f-a594-cd1d7060bd8d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669888764"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5161 E ARAPAHOE RD",
+          "STE 290"
+        ],
+        "city": "CENTENNIAL",
+        "state": "CO",
+        "postalCode": "80122-4810"
+      },
+      {
+        "line": [
+          "4500 E 9TH AVE",
+          "STE 150"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80220-3932"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14209"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14209.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e932aaef-12f9-565b-94b7-501dc4600efe"
+}

@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0UY-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0UY"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Health First Center LLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2562407332"
+      },
+      {
+        "system": "fax",
+        "value": "2562407334"
+      }
+    ],
+    "address": [
+      {
+        "text": "901 Leighton Ave Ste 704 Anniston AL 36207 US",
+        "line": [
+          "901 Leighton Ave",
+          "Ste 704"
+        ],
+        "city": "Anniston",
+        "state": "AL",
+        "postalCode": "36207",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0UY-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0UY-Organization-2"
+}

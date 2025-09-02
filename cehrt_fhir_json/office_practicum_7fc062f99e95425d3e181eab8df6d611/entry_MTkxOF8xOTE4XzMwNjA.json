@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTkxOF8xOTE4XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "928.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275198392"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Spring Hill Pediatric Care PA FL",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "352-701-4030",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "352-606-3149",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "99 Seven Hills Dr Spring Hill, FL 34609",
+        "line": [
+          "99 Seven Hills Dr"
+        ],
+        "city": "Spring Hill",
+        "state": "FL",
+        "postalCode": "34609",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTkxOF8xOTE4XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTkxOF8xOTE4XzMwNjA"
+}

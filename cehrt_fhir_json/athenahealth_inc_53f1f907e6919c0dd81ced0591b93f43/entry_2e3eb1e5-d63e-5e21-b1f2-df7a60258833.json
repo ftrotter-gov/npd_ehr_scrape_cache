@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2e3eb1e5-d63e-5e21-b1f2-df7a60258833",
+    "name": "Mercy Folsom Hospital OUT PT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/32f9f16c-607f-50cd-850a-3b85398aa805"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144770256"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1650 Creekside Dr"
+        ],
+        "city": "FOLSOM",
+        "state": "CA",
+        "postalCode": "95630-3400"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20181"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20181.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2e3eb1e5-d63e-5e21-b1f2-df7a60258833"
+}

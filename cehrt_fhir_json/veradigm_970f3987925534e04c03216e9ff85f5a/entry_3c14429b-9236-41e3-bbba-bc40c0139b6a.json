@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3c14429b-9236-41e3-bbba-bc40c0139b6a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "181e8241-d576-43af-8505-4ec5fc7cfc0d",
+        "name": "Holmes Family Medicine"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Holmes Family Medicine",
+    "managingOrganization": {
+      "reference": "#181e8241-d576-43af-8505-4ec5fc7cfc0d"
+    },
+    "period": {
+      "start": "2019-09-19T20:16:44+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10175745"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10175745"
+}

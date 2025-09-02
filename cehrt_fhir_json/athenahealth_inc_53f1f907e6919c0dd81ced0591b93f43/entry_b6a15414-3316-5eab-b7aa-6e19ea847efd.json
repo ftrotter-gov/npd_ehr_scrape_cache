@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b6a15414-3316-5eab-b7aa-6e19ea847efd",
+    "name": "Southcoast Physicians Group, Inc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ef4f5787-efbf-5c21-a4d5-ea09c7420440"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336137629"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104874874"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "208 Mill Road",
+          "Suite 200"
+        ],
+        "city": "FAIRHAVEN",
+        "state": "MA",
+        "postalCode": "02719-5208"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-788"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-788.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b6a15414-3316-5eab-b7aa-6e19ea847efd"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0X2-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0X2"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Houston Medical Consultants PA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7132392347"
+      }
+    ],
+    "address": [
+      {
+        "text": "1140 Westmont Dr, STE 340 Houston TX 77015 US",
+        "line": [
+          "1140 Westmont Dr, STE 340"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77015",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0X2-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0X2-Organization-2"
+}

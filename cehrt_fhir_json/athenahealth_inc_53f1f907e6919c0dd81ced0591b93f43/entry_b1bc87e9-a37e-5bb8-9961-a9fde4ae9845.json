@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1bc87e9-a37e-5bb8-9961-a9fde4ae9845",
+    "name": "Hayes Manor",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/987dcb14-780a-55f6-b2ec-09f5a17962b3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942521810"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2210 Belmont  Ave."
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19131-2618"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25233"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25233.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1bc87e9-a37e-5bb8-9961-a9fde4ae9845"
+}

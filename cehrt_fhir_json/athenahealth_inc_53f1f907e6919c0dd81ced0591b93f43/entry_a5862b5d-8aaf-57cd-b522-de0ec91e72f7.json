@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a5862b5d-8aaf-57cd-b522-de0ec91e72f7",
+    "name": "TMW Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/edcf4524-9809-5c71-b59a-8d3db854a352"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801599295"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700580198"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "504 WOLCOTT RD"
+        ],
+        "city": "WOLCOTT",
+        "state": "CT",
+        "postalCode": "06716-2461"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31946"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31946.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a5862b5d-8aaf-57cd-b522-de0ec91e72f7"
+}

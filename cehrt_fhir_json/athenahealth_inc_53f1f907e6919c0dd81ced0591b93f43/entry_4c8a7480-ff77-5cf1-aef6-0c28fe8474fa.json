@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c8a7480-ff77-5cf1-aef6-0c28fe8474fa",
+    "name": "OA_MCL_ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ad6deefc-221d-50c1-a860-93c2f31c6c3d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336134469"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 W. Main"
+        ],
+        "city": "LEWISVILLE",
+        "state": "TX",
+        "postalCode": "75057-3629"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15749"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15749.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c8a7480-ff77-5cf1-aef6-0c28fe8474fa"
+}

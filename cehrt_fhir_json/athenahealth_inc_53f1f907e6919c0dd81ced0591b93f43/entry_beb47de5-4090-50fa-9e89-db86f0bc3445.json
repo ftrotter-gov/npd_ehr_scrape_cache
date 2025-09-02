@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "beb47de5-4090-50fa-9e89-db86f0bc3445",
+    "name": "Lehigh Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/62798366-8e19-5128-8766-e157515d6f3e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114385655"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1530 Lee Boulevard",
+          "Suite 1100"
+        ],
+        "city": "LEHIGH ACRES",
+        "state": "FL",
+        "postalCode": "33936-4887"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12808"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12808.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:beb47de5-4090-50fa-9e89-db86f0bc3445"
+}

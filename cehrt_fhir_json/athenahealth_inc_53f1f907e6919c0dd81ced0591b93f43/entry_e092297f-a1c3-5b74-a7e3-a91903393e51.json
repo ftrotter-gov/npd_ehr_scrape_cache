@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e092297f-a1c3-5b74-a7e3-a91903393e51",
+    "name": "Sage Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cb5df8c1-e29d-552c-9f6c-1e8632fc127d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568042513"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7160 E KIERLAND BLVD",
+          "STE 213"
+        ],
+        "city": "SCOTTSDALE",
+        "state": "AZ",
+        "postalCode": "85254-2988"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27234"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27234.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e092297f-a1c3-5b74-a7e3-a91903393e51"
+}

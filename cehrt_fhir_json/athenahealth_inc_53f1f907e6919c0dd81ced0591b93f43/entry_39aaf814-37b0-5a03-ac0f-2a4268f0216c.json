@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "39aaf814-37b0-5a03-ac0f-2a4268f0216c",
+    "name": "Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d36bbbcb-f1bd-5b08-ab6d-fe4d81a732f9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194085886"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 NESCONSET HWY",
+          "BUILDING 12 SUITE 45"
+        ],
+        "city": "STONY BROOK",
+        "state": "NY",
+        "postalCode": "11790-2555"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4407"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4407.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:39aaf814-37b0-5a03-ac0f-2a4268f0216c"
+}

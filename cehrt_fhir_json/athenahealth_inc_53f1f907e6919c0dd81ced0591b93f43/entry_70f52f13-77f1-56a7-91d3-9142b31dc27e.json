@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "70f52f13-77f1-56a7-91d3-9142b31dc27e",
+    "name": "NSMC/UNION HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ea1bf7e-2184-548a-ae19-2764dce8aa96"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457543639"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821104241"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 LYNNFIELD STREET"
+        ],
+        "city": "LYNN",
+        "state": "MA",
+        "postalCode": "01904-1424"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1090"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1090.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:70f52f13-77f1-56a7-91d3-9142b31dc27e"
+}

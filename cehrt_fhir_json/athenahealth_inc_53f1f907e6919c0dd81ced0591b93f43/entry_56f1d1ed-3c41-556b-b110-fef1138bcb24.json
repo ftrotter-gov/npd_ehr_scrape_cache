@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56f1d1ed-3c41-556b-b110-fef1138bcb24",
+    "name": "Lake Wales Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3d1359d-90ef-5832-80dd-bbd6f0dd4e49"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457350027"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "410 S 11th st"
+        ],
+        "city": "LAKE WALES",
+        "state": "FL",
+        "postalCode": "33853-4203"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1593"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1593.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56f1d1ed-3c41-556b-b110-fef1138bcb24"
+}

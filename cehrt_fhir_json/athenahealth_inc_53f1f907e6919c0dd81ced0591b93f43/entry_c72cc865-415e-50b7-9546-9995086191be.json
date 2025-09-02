@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c72cc865-415e-50b7-9546-9995086191be",
+    "name": "Summa Western Reserve Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d044fd2f-dec2-58cb-8a08-8bcb3eeb3002"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710062013"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 Twenty third st"
+        ],
+        "city": "CUYAHOGA FALLS",
+        "state": "OH",
+        "postalCode": "44223-1497"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1156"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1156.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c72cc865-415e-50b7-9546-9995086191be"
+}

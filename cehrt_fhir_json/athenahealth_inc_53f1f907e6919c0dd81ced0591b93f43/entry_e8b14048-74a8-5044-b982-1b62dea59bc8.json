@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e8b14048-74a8-5044-b982-1b62dea59bc8",
+    "name": "Humble Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1e926588-73d8-5603-835d-485f72361e83"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346963865"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13551 WILL CLAYTON PKWY",
+          "SUITE 3"
+        ],
+        "city": "HUMBLE",
+        "state": "TX",
+        "postalCode": "77346-3778"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27268"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27268.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e8b14048-74a8-5044-b982-1b62dea59bc8"
+}

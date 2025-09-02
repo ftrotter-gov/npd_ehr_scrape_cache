@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a6977b6-f27f-5d12-ae35-42822b1bad3d",
+    "name": "Health Choice Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2bfe933e-4762-5425-8a9a-589cc7198014"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093257990"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6826 Highway 6 S"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77083-3302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31633"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31633.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a6977b6-f27f-5d12-ae35-42822b1bad3d"
+}

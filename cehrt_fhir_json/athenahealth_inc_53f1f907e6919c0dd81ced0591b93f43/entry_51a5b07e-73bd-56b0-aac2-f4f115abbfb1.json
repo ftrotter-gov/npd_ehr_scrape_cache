@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "51a5b07e-73bd-56b0-aac2-f4f115abbfb1",
+    "name": "Pleasant Grove Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4ba3111d-fdec-5c74-8ad5-f82b814192a7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316436215"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033608930"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4131 S BUCKNER BLVD",
+          "STE A"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75227-4318"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16988"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16988.Brand-9"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:51a5b07e-73bd-56b0-aac2-f4f115abbfb1"
+}

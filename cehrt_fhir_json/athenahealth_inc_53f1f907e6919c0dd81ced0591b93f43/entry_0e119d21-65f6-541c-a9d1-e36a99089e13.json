@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0e119d21-65f6-541c-a9d1-e36a99089e13",
+    "name": "Dr. Benton",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/829fec78-603b-5c73-b175-bd56146f0805"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275030066"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "95 THIRD ST, 2ND FLOOR"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94103-3103"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28091"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28091.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0e119d21-65f6-541c-a9d1-e36a99089e13"
+}

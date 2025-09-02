@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ffad3f1-2775-5d7a-b585-59ceba9f4d54",
+    "name": "main office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/565806e1-5daf-5468-867b-98d274a716af"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861818460"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "41750 MICHIGAN AVE"
+        ],
+        "city": "CANTON",
+        "state": "MI",
+        "postalCode": "48188-2679"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8640"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8640.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ffad3f1-2775-5d7a-b585-59ceba9f4d54"
+}

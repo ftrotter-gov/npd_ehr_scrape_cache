@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "79abaab6-6691-589b-8770-b463b07a910e",
+    "name": "St. Francis Medical Center ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5b5aee42-9175-520e-88ef-072a82e812f6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639127962"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13700 St. Francis Blvd"
+        ],
+        "city": "MIDLOTHIAN",
+        "state": "VA",
+        "postalCode": "23114-3222"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3475"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3475.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:79abaab6-6691-589b-8770-b463b07a910e"
+}

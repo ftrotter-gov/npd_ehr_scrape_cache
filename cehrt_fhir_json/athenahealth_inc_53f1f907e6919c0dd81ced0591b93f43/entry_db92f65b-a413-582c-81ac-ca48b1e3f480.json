@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db92f65b-a413-582c-81ac-ca48b1e3f480",
+    "name": "Call's Community Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a623bf48-e558-5482-b493-91c722d9e056"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750094181"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "815 N Main St",
+          "Suite D"
+        ],
+        "city": "TAYLOR",
+        "state": "AZ",
+        "postalCode": "85939-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31055"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31055.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db92f65b-a413-582c-81ac-ca48b1e3f480"
+}

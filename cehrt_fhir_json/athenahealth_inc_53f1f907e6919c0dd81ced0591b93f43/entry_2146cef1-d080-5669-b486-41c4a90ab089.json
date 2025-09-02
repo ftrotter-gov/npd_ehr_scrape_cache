@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2146cef1-d080-5669-b486-41c4a90ab089",
+    "name": "Knox Clinic Corp",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd65a1be-5df2-5c5d-8ba3-02da4b53d4d0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265481006"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "205 E Park Street"
+        ],
+        "city": "MUNDELEIN",
+        "state": "IL",
+        "postalCode": "60060-1957"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2623"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2623.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2146cef1-d080-5669-b486-41c4a90ab089"
+}

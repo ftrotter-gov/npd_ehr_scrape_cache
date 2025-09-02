@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2af1761a-cb1f-5f66-8f3d-20dbf56f2ce5",
+    "name": "Epic Wellness - Austin",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6de07fe4-f33c-5abd-b131-a530bac096a7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124806146"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "805 E 32ND ST",
+          "STE 101"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78705-2529"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30052"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30052.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2af1761a-cb1f-5f66-8f3d-20dbf56f2ce5"
+}

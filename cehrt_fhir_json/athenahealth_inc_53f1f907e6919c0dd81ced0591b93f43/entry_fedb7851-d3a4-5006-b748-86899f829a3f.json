@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fedb7851-d3a4-5006-b748-86899f829a3f",
+    "name": "Texas Lone Star Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ded6ba07-dee3-5197-baa6-5d3887f77b20"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336660406"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730921792"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "506 GRAHAM DRIVE",
+          "SUITE 290"
+        ],
+        "city": "TOMBALL",
+        "state": "TX",
+        "postalCode": "77375-4551"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16530"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16530.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fedb7851-d3a4-5006-b748-86899f829a3f"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7b343f16-a028-5fc6-91b1-3ff0bf9902f9",
+    "name": "Greenbrook Lakes",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca22cad7-e172-5ca8-ab38-fb90214a777d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700440203"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2300 Haggerty Road",
+          "Suite 1120"
+        ],
+        "city": "WEST BLOOMFIELD",
+        "state": "MI",
+        "postalCode": "48323-2184"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18773"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18773.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7b343f16-a028-5fc6-91b1-3ff0bf9902f9"
+}

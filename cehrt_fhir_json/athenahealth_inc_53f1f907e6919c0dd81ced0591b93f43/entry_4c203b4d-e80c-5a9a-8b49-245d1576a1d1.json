@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c203b4d-e80c-5a9a-8b49-245d1576a1d1",
+    "name": "Browns Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/00d27679-830f-5b15-a840-dcecbde4a7bf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194028977"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "226 S  College  Street"
+        ],
+        "city": "Statesboro",
+        "state": "GA",
+        "postalCode": "30458-5299"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4693"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4693.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c203b4d-e80c-5a9a-8b49-245d1576a1d1"
+}

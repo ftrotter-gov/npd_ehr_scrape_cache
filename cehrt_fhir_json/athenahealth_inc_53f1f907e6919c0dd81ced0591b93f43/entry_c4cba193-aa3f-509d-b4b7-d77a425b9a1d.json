@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c4cba193-aa3f-509d-b4b7-d77a425b9a1d",
+    "name": "ASK Alliance Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2da2d94a-56fe-52bd-8c4b-ae8a8e7fd8ce"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780299081"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "14362 N FRANK LLOYD WRIGHT BLVD"
+        ],
+        "city": "SCOTTSDALE",
+        "state": "AZ",
+        "postalCode": "85260-8846"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22442"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22442.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c4cba193-aa3f-509d-b4b7-d77a425b9a1d"
+}

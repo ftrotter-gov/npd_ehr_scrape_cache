@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "469c4923-8aa1-5e56-85aa-2d8f2234aeab",
+    "name": "San Miguel Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fbbcb188-9499-5276-858c-5f11ed8d4f22"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114920717"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "104 Legion Drive"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NM",
+        "postalCode": "87701-4804"
+      },
+      {
+        "line": [
+          "104 LEGION DR STE 4"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NM",
+        "postalCode": "87701-4804"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1592"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1592.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:469c4923-8aa1-5e56-85aa-2d8f2234aeab"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aeee390f-42c3-54bc-8f4c-cd07441507cb",
+    "name": "Victoria Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec665bda-ecd0-5bdd-b323-efecd9365e9e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740450584"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2240 Coliseum Drive",
+          "Suite D"
+        ],
+        "city": "HAMPTON",
+        "state": "VA",
+        "postalCode": "23666-5903"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3912"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3912.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aeee390f-42c3-54bc-8f4c-cd07441507cb"
+}

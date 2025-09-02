@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "509f972c-38cd-5702-bd98-cd20d71cf2aa",
+    "name": "Laplace office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5b7c2f27-3760-50ca-a0f9-02427d71beb7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043376007"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "501 RUE DE SANTE",
+          "STE 9"
+        ],
+        "city": "LA PLACE",
+        "state": "LA",
+        "postalCode": "70068-5400"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3616"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3616.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:509f972c-38cd-5702-bd98-cd20d71cf2aa"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9091379f-33aa-513b-bbd7-0633b6ca5aec",
+    "name": "Providence Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d7013379-c49e-5a58-adf3-de592d099119"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487302857"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9765 SAN JOSE BLVD",
+          "SUITE 103"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "FL",
+        "postalCode": "32257-5467"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25891"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25891.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9091379f-33aa-513b-bbd7-0633b6ca5aec"
+}

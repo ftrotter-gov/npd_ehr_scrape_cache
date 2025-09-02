@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b7e34863-90de-5bb6-a17f-28c191709146",
+    "name": "Duluth Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ae609a59-9f99-51f4-94f5-6d5fe0d8db7f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659587947"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3855 PLEASANT HILL ROAD",
+          "SUITE 100"
+        ],
+        "city": "DULUTH",
+        "state": "GA",
+        "postalCode": "30096-1407"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3469"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3469.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b7e34863-90de-5bb6-a17f-28c191709146"
+}

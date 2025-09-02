@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "233bb63c-1db5-5b0a-8923-66dce41e7ddc",
+    "name": "Robert C. Byrd Clinic Medical Records",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af1e81ed-b3b1-536a-9d6b-e8154b50de6d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871539296"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1464 Jefferson St. N."
+        ],
+        "city": "LEWISBURG",
+        "state": "WV",
+        "postalCode": "24901-1380"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17660"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17660.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:233bb63c-1db5-5b0a-8923-66dce41e7ddc"
+}

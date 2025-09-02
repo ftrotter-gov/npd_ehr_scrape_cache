@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "39edc9c1-4e59-5179-bc19-470e6c11fb26",
+    "name": "Texas IM",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c50fbdf5-2977-5e57-bd87-0d93a1e5c4a2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093487746"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235764564"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 Bee Caves Rd.",
+          "Bld. 1, Suite 400"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78704-5869"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19956"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19956.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:39edc9c1-4e59-5179-bc19-470e6c11fb26"
+}

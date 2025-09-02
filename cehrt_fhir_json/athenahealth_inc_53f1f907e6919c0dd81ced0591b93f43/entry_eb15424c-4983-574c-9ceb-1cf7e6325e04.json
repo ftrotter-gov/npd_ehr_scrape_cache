@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eb15424c-4983-574c-9ceb-1cf7e6325e04",
+    "name": "Bernard Healthcare Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ebd87c65-b819-5922-86e6-71fe09650277"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992126130"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1171 FRANKLIN ST"
+        ],
+        "city": "ROCKY MOUNT",
+        "state": "VA",
+        "postalCode": "24151-1248"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24676"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24676.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eb15424c-4983-574c-9ceb-1cf7e6325e04"
+}

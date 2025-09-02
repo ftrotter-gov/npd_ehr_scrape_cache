@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d510f44-15ba-51d8-a718-1f636ae7dbaa",
+    "name": "Madison Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47dbc6ac-bf40-5341-9021-4e19054fc0d1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689628802"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 SOUTH PARK"
+        ],
+        "city": "MADISON",
+        "state": "WI",
+        "postalCode": "53715-1315"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14801"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14801.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d510f44-15ba-51d8-a718-1f636ae7dbaa"
+}

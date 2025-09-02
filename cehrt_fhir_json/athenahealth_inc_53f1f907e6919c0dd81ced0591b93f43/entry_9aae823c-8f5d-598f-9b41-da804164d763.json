@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9aae823c-8f5d-598f-9b41-da804164d763",
+    "name": "Chicago Street Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ed7959bb-b7b5-5220-bf8f-c5e887a355c0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5743 W GRAND AVE"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60639-2849"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20978"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20978.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9aae823c-8f5d-598f-9b41-da804164d763"
+}

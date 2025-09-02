@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8e0931ab-f182-521b-9a8c-dde48d5f581e",
+    "name": "Ashville Lab",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/99b76e99-463f-55c5-814c-31227d405ba1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336635622"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "635 Park Ave"
+        ],
+        "city": "MOODY",
+        "state": "AL",
+        "postalCode": "35004-3240"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15135"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15135.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8e0931ab-f182-521b-9a8c-dde48d5f581e"
+}

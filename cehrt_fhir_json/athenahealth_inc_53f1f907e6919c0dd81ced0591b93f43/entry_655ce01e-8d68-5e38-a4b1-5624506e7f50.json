@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "655ce01e-8d68-5e38-a4b1-5624506e7f50",
+    "name": "Address Healthcare of Michigan",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec911038-afcf-5501-948b-10d41756b6a2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043075294"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 MONROE AVE NW"
+        ],
+        "city": "GRAND RAPIDS",
+        "state": "MI",
+        "postalCode": "49503-1473"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29651"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29651.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:655ce01e-8d68-5e38-a4b1-5624506e7f50"
+}

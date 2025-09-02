@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b48a4a8-fcff-53ce-a17a-d2971afa5d48",
+    "name": "Dominion Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3886679f-5225-5d20-818e-f62bb7af2ed9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902159122"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578873469"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2960 Sleepy Hollow Road"
+        ],
+        "city": "FALLS CHURCH",
+        "state": "VA",
+        "postalCode": "22044-2030"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5031"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5031.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b48a4a8-fcff-53ce-a17a-d2971afa5d48"
+}

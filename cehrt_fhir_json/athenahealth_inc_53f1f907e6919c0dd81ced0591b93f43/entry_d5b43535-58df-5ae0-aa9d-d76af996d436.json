@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d5b43535-58df-5ae0-aa9d-d76af996d436",
+    "name": "Medical Clinic at Saint Ann",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9bbed9e4-0ed4-512f-ae3c-2d7fe90aefea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4057 US HWY 70 BUSINESS WEST"
+        ],
+        "city": "CLAYTON",
+        "state": "NC",
+        "postalCode": "27520-4310"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17586"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17586.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d5b43535-58df-5ae0-aa9d-d76af996d436"
+}

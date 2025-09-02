@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9ee74b46-bf9d-5d5c-af5f-f01fd5a4b50e",
+    "name": "MedExpress WV Logan(123 Enterprise Dr)",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/078b0545-9574-509b-af39-a48da12297ad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912133315"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 Enterprise Dr"
+        ],
+        "city": "Logan",
+        "state": "WV",
+        "postalCode": "25601-3442"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27404"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27404.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9ee74b46-bf9d-5d5c-af5f-f01fd5a4b50e"
+}

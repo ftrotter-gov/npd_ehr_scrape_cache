@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "f64e035e-e8b8-40b1-932a-ae6bafbdd72e",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "59e18fe6-49ec-46dd-b14a-2baf41973343",
+        "name": "OBGYN of Huntington"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "OBGYN of Huntington",
+    "managingOrganization": {
+      "reference": "#59e18fe6-49ec-46dd-b14a-2baf41973343"
+    },
+    "period": {
+      "start": "2023-05-08T17:30:17+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10121096"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10121096"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c59aaff-e579-51b1-b62c-46533d78770f",
+    "name": "ST. VINCENT'S MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d85ee9e5-3e0d-5af0-b1d4-be61c2ff59a7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336374339"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2800 MAIN ST"
+        ],
+        "city": "BRIDGEPORT",
+        "state": "CT",
+        "postalCode": "06606-5301"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12760"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12760.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c59aaff-e579-51b1-b62c-46533d78770f"
+}

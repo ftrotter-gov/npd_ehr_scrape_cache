@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "674c33c5-6263-5fbc-947d-9071aa33d071",
+    "name": "ST JOSEPH HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6a258bf6-f1b4-5720-98ea-a03acb7b971e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790717239"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.336",
+        "value": "31d2126260"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "703 main street"
+        ],
+        "city": "PATERSON",
+        "state": "NJ",
+        "postalCode": "07503-2621"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14491"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14491.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:674c33c5-6263-5fbc-947d-9071aa33d071"
+}

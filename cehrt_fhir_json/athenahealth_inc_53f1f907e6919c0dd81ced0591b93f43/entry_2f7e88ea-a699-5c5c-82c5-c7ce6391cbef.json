@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2f7e88ea-a699-5c5c-82c5-c7ce6391cbef",
+    "name": "Sherman Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/226c4ac2-1848-5f45-86f6-532826a69a3c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104897644"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295706851"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1425 N Randall Rd"
+        ],
+        "city": "Elgin",
+        "state": "IL",
+        "postalCode": "60123-2300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26750"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26750.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2f7e88ea-a699-5c5c-82c5-c7ce6391cbef"
+}

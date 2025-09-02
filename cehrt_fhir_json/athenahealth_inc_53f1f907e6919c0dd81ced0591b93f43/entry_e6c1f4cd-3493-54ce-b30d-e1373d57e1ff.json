@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e6c1f4cd-3493-54ce-b30d-e1373d57e1ff",
+    "name": "AdventHealth Medical Group Family Medicine at Dr. Phillips",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3083295f-3e25-5d3a-917b-75c71ac751e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225034234"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7940 Via Dellagio Way Suite 142"
+        ],
+        "city": "ORLANDO",
+        "state": "FL",
+        "postalCode": "32819-5400"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13122"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13122.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e6c1f4cd-3493-54ce-b30d-e1373d57e1ff"
+}

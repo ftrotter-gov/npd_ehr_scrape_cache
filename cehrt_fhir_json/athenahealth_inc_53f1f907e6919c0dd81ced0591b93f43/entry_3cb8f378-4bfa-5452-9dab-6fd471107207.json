@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3cb8f378-4bfa-5452-9dab-6fd471107207",
+    "name": "Optimal Medical Care Inc.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a3866ff2-ceb1-5bc9-9a46-482f32180d49"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972243640"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1860 S CENTRAL ST., SUITE B"
+        ],
+        "city": "VISALIA",
+        "state": "CA",
+        "postalCode": "93277-4497"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26432"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26432.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3cb8f378-4bfa-5452-9dab-6fd471107207"
+}

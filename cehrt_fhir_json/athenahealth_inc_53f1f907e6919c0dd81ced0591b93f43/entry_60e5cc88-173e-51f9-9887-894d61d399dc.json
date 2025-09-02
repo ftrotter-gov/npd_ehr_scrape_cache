@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "60e5cc88-173e-51f9-9887-894d61d399dc",
+    "name": "The McGinley Clinic- Main",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/060ba4de-2a09-590a-bde5-70d6e378dfb7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033720008"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "234 E 1st St  Ste 230"
+        ],
+        "city": "CASPER",
+        "state": "WY",
+        "postalCode": "82601-2516"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21988"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21988.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:60e5cc88-173e-51f9-9887-894d61d399dc"
+}

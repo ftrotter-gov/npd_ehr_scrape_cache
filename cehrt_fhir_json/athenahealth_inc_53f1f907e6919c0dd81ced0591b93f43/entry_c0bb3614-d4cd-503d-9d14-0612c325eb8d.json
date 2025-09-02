@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c0bb3614-d4cd-503d-9d14-0612c325eb8d",
+    "name": "Ashe Oncology Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9ddeb2ca-e135-5d4f-b35c-da11ce0bd352"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639757974"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427048172"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 Hospital Avenue",
+          "Oncology"
+        ],
+        "city": "JEFFERSON",
+        "state": "NC",
+        "postalCode": "28640-9244"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14562"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14562.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c0bb3614-d4cd-503d-9d14-0612c325eb8d"
+}

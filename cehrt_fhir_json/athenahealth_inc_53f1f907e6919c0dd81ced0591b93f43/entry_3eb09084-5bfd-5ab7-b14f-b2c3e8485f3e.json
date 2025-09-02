@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3eb09084-5bfd-5ab7-b14f-b2c3e8485f3e",
+    "name": "Kindred Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5556a35e-b9d8-566a-a011-a5b0bb20ef9e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255385670"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1859 Van Buren Street"
+        ],
+        "city": "HOLLYWOOD",
+        "state": "FL",
+        "postalCode": "33020-5127"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1121"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1121.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3eb09084-5bfd-5ab7-b14f-b2c3e8485f3e"
+}

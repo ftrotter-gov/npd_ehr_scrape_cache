@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b78ed0ff-9122-5a51-aa86-9f09bc2dba4e",
+    "name": "Summit Wellness at Circle of Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a468cfe4-7b1e-55a2-8772-0ea952452f2c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 S AIRPORT RD STE G"
+        ],
+        "city": "LONGMONT",
+        "state": "CO",
+        "postalCode": "80503-6424"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28682"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28682.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b78ed0ff-9122-5a51-aa86-9f09bc2dba4e"
+}

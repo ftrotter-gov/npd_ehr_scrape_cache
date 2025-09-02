@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7ef8519c-ece1-5307-b264-a8369e1efe44",
+    "name": "DOCTORS HOSPITAL - ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f79c40e4-ce2f-56cc-b47d-80a8c5ebbb5f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154515526"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10700 MCPHERSON"
+        ],
+        "city": "LAREDO",
+        "state": "TX",
+        "postalCode": "78045-6268"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7ef8519c-ece1-5307-b264-a8369e1efe44"
+}

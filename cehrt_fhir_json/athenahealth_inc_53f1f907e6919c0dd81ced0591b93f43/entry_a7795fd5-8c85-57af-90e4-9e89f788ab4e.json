@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a7795fd5-8c85-57af-90e4-9e89f788ab4e",
+    "name": "HOLY CROSS HOSPITAL PROFESSIONAL BILLING SERVICE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f52ded3e-d95c-5daa-81d0-a77c0552dd10"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891070777"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639310436"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1397 Weimer Road"
+        ],
+        "city": "TAOS",
+        "state": "NM",
+        "postalCode": "87571-6253"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2508"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2508.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a7795fd5-8c85-57af-90e4-9e89f788ab4e"
+}

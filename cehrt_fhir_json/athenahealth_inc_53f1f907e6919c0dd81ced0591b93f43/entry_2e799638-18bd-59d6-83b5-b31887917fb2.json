@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2e799638-18bd-59d6-83b5-b31887917fb2",
+    "name": "Advanced Wound Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1f2369ac-55b3-5e7a-bf39-5af6050cd7f6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275341042"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Park Avenue",
+          "Suite 108A"
+        ],
+        "city": "ROCKVILLE",
+        "state": "MD",
+        "postalCode": "20850-2651"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33168"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33168.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2e799638-18bd-59d6-83b5-b31887917fb2"
+}

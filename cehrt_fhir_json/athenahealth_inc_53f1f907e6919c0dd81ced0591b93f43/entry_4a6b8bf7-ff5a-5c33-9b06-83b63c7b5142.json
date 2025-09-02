@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4a6b8bf7-ff5a-5c33-9b06-83b63c7b5142",
+    "name": "Goreville Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5660b431-299a-57f1-b40f-49a31ebfdc2e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982666384"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "211 N BROADWAY"
+        ],
+        "city": "GOREVILLE",
+        "state": "IL",
+        "postalCode": "62939-2323"
+      },
+      {
+        "line": [
+          "400 S BROADWAY"
+        ],
+        "city": "GOREVILLE",
+        "state": "IL",
+        "postalCode": "62939-2444"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7601"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7601.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4a6b8bf7-ff5a-5c33-9b06-83b63c7b5142"
+}

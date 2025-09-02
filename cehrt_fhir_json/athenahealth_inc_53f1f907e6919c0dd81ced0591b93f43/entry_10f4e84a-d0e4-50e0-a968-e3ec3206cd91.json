@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "10f4e84a-d0e4-50e0-a968-e3ec3206cd91",
+    "name": "Melrose-Wakefield Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2961de59-beef-5551-8384-555a2b73bb66"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164479002"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "585 Lebanon Street"
+        ],
+        "city": "Melrose",
+        "state": "MA",
+        "postalCode": "02176-3225"
+      },
+      {
+        "line": [
+          "391 Broadway Suite 301"
+        ],
+        "city": "EVERETT",
+        "state": "MA",
+        "postalCode": "02149-3471"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-483"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-483.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:10f4e84a-d0e4-50e0-a968-e3ec3206cd91"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f6b274ce-2c3f-5623-b382-7b135bcf2d39",
+    "name": "Doctor Balocca's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fedd8731-8129-521f-b7a9-ed16908d6931"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053786145"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9305 W Thomas Rd SUITE 225"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85037-3363"
+      },
+      {
+        "line": [
+          "7071 N 138th Ave"
+        ],
+        "city": "LUKE AIR FORCE BASE",
+        "state": "AZ",
+        "postalCode": "85309-2006"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16464"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16464.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f6b274ce-2c3f-5623-b382-7b135bcf2d39"
+}

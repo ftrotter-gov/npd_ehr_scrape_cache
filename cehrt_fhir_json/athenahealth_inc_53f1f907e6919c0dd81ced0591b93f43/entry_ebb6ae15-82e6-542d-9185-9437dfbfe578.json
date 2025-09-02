@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ebb6ae15-82e6-542d-9185-9437dfbfe578",
+    "name": "Atlanta Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/50773f93-c23f-5bc3-a559-261ba252afa2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063110328"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4905 LAVISTA RD STE B"
+        ],
+        "city": "TUCKER",
+        "state": "GA",
+        "postalCode": "30084-4409"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30361"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30361.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ebb6ae15-82e6-542d-9185-9437dfbfe578"
+}

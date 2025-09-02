@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bcd96700-8467-575f-a1aa-2bdd6eda0329",
+    "meta": {
+      "lastUpdated": "2024-10-01T22:51:26.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://richlandhospital.com"
+      }
+    ],
+    "name": "The Richland Hospital, Inc.",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://richlandhospital.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "333 East Second"
+        ],
+        "city": "Richland Center",
+        "state": "WI",
+        "postalCode": "53581",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:f4035629-bd58-5b5c-9b5d-7d9286035dde"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:f4035629-bd58-5b5c-9b5d-7d9286035dde"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bcd96700-8467-575f-a1aa-2bdd6eda0329"
+}

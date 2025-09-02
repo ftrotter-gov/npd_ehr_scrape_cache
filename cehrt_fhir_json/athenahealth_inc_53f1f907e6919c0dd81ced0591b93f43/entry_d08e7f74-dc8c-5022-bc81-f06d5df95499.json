@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d08e7f74-dc8c-5022-bc81-f06d5df95499",
+    "name": "Bon Secours Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/50390f0a-1bca-5d36-b407-3a6a7482788b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184787731"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912061706"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487694345"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "160 East Main St"
+        ],
+        "city": "PORT JERVIS",
+        "state": "NY",
+        "postalCode": "12771-2253"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-797"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-797.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d08e7f74-dc8c-5022-bc81-f06d5df95499"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1b6eb4c6-f9b8-581a-9ff9-d8e471269ad0",
+    "name": "University Pain Consultants",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f7a42c88-95a9-58b7-99ef-7dc5c184afb9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467649657"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6900 BROCKTON AVE",
+          "SUITE 103"
+        ],
+        "city": "RIVERSIDE",
+        "state": "CA",
+        "postalCode": "92506-3817"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7620"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7620.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1b6eb4c6-f9b8-581a-9ff9-d8e471269ad0"
+}

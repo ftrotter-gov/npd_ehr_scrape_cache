@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "df26318e-a3e6-5f0d-9423-020b1d09692b",
+    "name": "Brother Bill's Helping Hand Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/420db295-10f5-53e0-bd9a-1e297b53e937"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3906 N. WESTMORELAND RD"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75212-1350"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18564"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18564.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:df26318e-a3e6-5f0d-9423-020b1d09692b"
+}

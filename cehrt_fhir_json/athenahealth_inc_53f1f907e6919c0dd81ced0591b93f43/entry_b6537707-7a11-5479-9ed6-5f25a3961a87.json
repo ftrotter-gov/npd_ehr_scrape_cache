@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b6537707-7a11-5479-9ed6-5f25a3961a87",
+    "name": "Home Visits",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fbf03a1c-a529-5a9d-bd60-8b29fd1d7fc5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154654440"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1037 E Old Hickory Blvd."
+        ],
+        "city": "MADISON",
+        "state": "TN",
+        "postalCode": "37115-4614"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11141"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11141.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b6537707-7a11-5479-9ed6-5f25a3961a87"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7ae495de-9821-57c0-9333-7a3c253fb28a",
+    "name": "Catalight Care Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff5b0486-726c-520a-9324-3daff2c38c9f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700105079"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588157424"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "416 HILLCREST RD"
+        ],
+        "city": "SAN CARLOS",
+        "state": "CA",
+        "postalCode": "94070-1919"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9495"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9495.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7ae495de-9821-57c0-9333-7a3c253fb28a"
+}

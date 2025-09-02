@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3db923cb-dc0a-5362-aff3-ce776c736b21",
+    "name": "DERMATOLOGY",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/750e6126-b1ae-59db-a192-6dc41b4e1fd7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851334056"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10075 S JOG RD",
+          "STE 306"
+        ],
+        "city": "BOYNTON BEACH",
+        "state": "FL",
+        "postalCode": "33437-3537"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11933"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11933.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3db923cb-dc0a-5362-aff3-ce776c736b21"
+}

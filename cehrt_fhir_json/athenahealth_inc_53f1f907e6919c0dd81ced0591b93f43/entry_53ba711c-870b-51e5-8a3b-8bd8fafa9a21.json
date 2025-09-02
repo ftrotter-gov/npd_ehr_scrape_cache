@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "53ba711c-870b-51e5-8a3b-8bd8fafa9a21",
+    "name": "Miss Albright, your Home Health Medical Provider",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dd004567-28f6-5247-bbde-8b1c9e76d3b0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386838886"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2104 N KARNES AVE"
+        ],
+        "city": "CAMERON",
+        "state": "TX",
+        "postalCode": "76520-1055"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24128"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24128.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:53ba711c-870b-51e5-8a3b-8bd8fafa9a21"
+}

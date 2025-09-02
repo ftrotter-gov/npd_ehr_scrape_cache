@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a0a3ae96-2fc6-5515-969e-cdc073e9b5bb",
+    "name": "AdventHealth Primary Care Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/18d5653a-b50f-5751-be34-d8d71f0701d8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558665752"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255471827"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831150119"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "56 Marie Langdon Dr"
+        ],
+        "city": "MANCHESTER",
+        "state": "KY",
+        "postalCode": "40962-6329"
+      },
+      {
+        "line": [
+          "509 Memorial Drive",
+          "Suite 2"
+        ],
+        "city": "MANCHESTER",
+        "state": "KY",
+        "postalCode": "40962-6196"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13123"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13123.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a0a3ae96-2fc6-5515-969e-cdc073e9b5bb"
+}

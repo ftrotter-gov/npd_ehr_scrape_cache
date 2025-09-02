@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b868dfab-5435-50e4-8b14-11091f995fd1",
+    "name": "Lorenz Clinic - Prior Lake",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7f323119-11ef-565b-9ae2-f10777af0cfd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982900510"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "16180 Hastings Ave SE",
+          "Suite 205"
+        ],
+        "city": "PRIOR LAKE",
+        "state": "MN",
+        "postalCode": "55372-9228"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16506"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16506.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b868dfab-5435-50e4-8b14-11091f995fd1"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a47d43af-8e22-585b-b767-82ab0badd278",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/616f390e-fa20-5318-a4b1-0f990e75f4b3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952474769"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "202 GAVIN ST"
+        ],
+        "city": "SAINT GEORGE",
+        "state": "SC",
+        "postalCode": "29477-2403"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8260"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8260.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a47d43af-8e22-585b-b767-82ab0badd278"
+}

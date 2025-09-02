@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "08fc553d-0770-5bd2-8099-2acf48b5fe5c",
+    "name": "Patterson Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e8116893-77d4-54f2-a9af-0cc1f23e28ea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649682378"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548813520"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "485 N KS Hwy 2"
+        ],
+        "city": "ANTHONY",
+        "state": "KS",
+        "postalCode": "67003-2526"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12181"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12181.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:08fc553d-0770-5bd2-8099-2acf48b5fe5c"
+}

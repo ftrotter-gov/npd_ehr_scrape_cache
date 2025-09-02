@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22dc0558-517d-5c3c-9d60-24d41eff226f",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://claxtonhepburn.org"
+      }
+    ],
+    "name": "Claxton-Hepburn Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://claxtonhepburn.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "214 King Street"
+        ],
+        "city": "Ogdensburg",
+        "state": "NY",
+        "postalCode": "13669",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:8428d899-cb1c-4fe8-a767-d16b43eef042"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:8428d899-cb1c-4fe8-a767-d16b43eef042"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22dc0558-517d-5c3c-9d60-24d41eff226f"
+}

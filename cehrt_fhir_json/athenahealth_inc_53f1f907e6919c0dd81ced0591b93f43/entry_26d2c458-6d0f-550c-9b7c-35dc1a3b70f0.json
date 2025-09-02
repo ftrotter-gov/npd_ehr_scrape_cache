@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "26d2c458-6d0f-550c-9b7c-35dc1a3b70f0",
+    "name": "Holistic Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/17d90a95-e6e3-5f13-a57b-1b1e2ec12a10"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346256351"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1530 S. UNION AVE. STE 4"
+        ],
+        "city": "TACOMA",
+        "state": "WA",
+        "postalCode": "98405-1954"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26258"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26258.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:26d2c458-6d0f-550c-9b7c-35dc1a3b70f0"
+}

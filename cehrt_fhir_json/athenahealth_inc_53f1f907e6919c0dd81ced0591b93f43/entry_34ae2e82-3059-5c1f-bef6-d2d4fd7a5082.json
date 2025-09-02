@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "34ae2e82-3059-5c1f-bef6-d2d4fd7a5082",
+    "name": "Mariposa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e865323-dc80-5f15-b96c-96e315a859f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619912565"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 LaSalle Ave"
+        ],
+        "city": "SEASIDE",
+        "state": "CA",
+        "postalCode": "93955-3109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2000"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2000.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:34ae2e82-3059-5c1f-bef6-d2d4fd7a5082"
+}

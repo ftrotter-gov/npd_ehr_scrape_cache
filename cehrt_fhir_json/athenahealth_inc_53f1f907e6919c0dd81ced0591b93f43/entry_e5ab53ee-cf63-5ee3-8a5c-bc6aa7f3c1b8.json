@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5ab53ee-cf63-5ee3-8a5c-bc6aa7f3c1b8",
+    "name": "Natchez Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1ca2caa8-6d49-5c5e-bce9-7999b9c82dfb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972904944"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134884745"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "54 Seargeant S Prentiss Drive"
+        ],
+        "city": "NATCHEZ",
+        "state": "MS",
+        "postalCode": "39120-4726"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5ab53ee-cf63-5ee3-8a5c-bc6aa7f3c1b8"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0bc54dff-97e2-5a18-bb8d-87c684755dd0",
+    "name": "East Cooper Medical Center IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b17309c4-e36e-5981-a9bf-3712d7c27f76"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922111715"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 Hospital Drive"
+        ],
+        "city": "MOUNT PLEASANT",
+        "state": "SC",
+        "postalCode": "29464-3764"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1516"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1516.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0bc54dff-97e2-5a18-bb8d-87c684755dd0"
+}

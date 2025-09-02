@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM18K-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM18K"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Kleiman Healthcare Services",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5034270588"
+      },
+      {
+        "system": "fax",
+        "value": "5033765064"
+      }
+    ],
+    "address": [
+      {
+        "text": "19365 SW 65th Ave SUITE 205 Tualatin OR 970629196 US",
+        "line": [
+          "19365 SW 65th Ave",
+          "SUITE 205"
+        ],
+        "city": "Tualatin",
+        "state": "OR",
+        "postalCode": "970629196",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM18K-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM18K-Organization-2"
+}

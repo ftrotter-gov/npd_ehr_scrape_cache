@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3e575c99-8c45-584b-82af-b05160f90b6a",
+    "name": "Desert Spring Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b74ecd4f-4ffe-5786-b50b-588a0b5dfc9f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003904665"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2075 E Flamingo RD"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89119-5188"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10841"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10841.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3e575c99-8c45-584b-82af-b05160f90b6a"
+}

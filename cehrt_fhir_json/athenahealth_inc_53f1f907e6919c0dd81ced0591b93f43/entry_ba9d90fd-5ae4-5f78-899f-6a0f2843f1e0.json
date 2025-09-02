@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ba9d90fd-5ae4-5f78-899f-6a0f2843f1e0",
+    "name": "Halifax Health Clinics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/11fb1082-a01c-5b46-8380-774d39812e5a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245283530"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "550 MEMORIAL CIR",
+          "Suite G"
+        ],
+        "city": "ORMOND BEACH",
+        "state": "FL",
+        "postalCode": "32174-5059"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16462"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16462.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ba9d90fd-5ae4-5f78-899f-6a0f2843f1e0"
+}

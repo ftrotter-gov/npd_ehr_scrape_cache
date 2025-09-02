@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa99f392-473e-5a8f-bfae-72a5ac028290",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://inhs.info"
+      }
+    ],
+    "name": "Inland Northwest Health Services",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://inhs.info"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "P.O. Box 469"
+        ],
+        "city": "SPOKANE",
+        "state": "WA",
+        "postalCode": "99201",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:7fa98525-66ad-403d-be58-18a534c2b64f"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:7fa98525-66ad-403d-be58-18a534c2b64f"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa99f392-473e-5a8f-bfae-72a5ac028290"
+}

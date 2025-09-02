@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0e43b86b-7fd5-5980-b072-3d9bb3043d6a",
+    "name": "Glenbrook Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a36fbe35-17b9-59d0-a79d-2666d1ab43cd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326403593"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2100 Pfingsten Road"
+        ],
+        "city": "GLENVIEW",
+        "state": "IL",
+        "postalCode": "60026-1301"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13127"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13127.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0e43b86b-7fd5-5980-b072-3d9bb3043d6a"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "daf609d9-13f4-4dc5-9cb9-5ecfdd7fe149",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "94e9184c-1dc5-49b0-bfd5-2608379db0c7",
+        "name": "West Texas Heart & Vascular, PLLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "West Texas Heart & Vascular, PLLC",
+    "managingOrganization": {
+      "reference": "#94e9184c-1dc5-49b0-bfd5-2608379db0c7"
+    },
+    "period": {
+      "start": "2024-12-16T19:16:48+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11281845"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11281845"
+}

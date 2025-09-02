@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "621809a8-aee5-4093-a9d8-1f3007bf35d3",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c45424b9-12c7-4c8a-b442-cddefb38e281",
+        "name": "Colorado Springs Urological As"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Colorado Springs Urological As",
+    "managingOrganization": {
+      "reference": "#c45424b9-12c7-4c8a-b442-cddefb38e281"
+    },
+    "period": {
+      "start": "2025-04-01T07:18:01+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11513843"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11513843"
+}

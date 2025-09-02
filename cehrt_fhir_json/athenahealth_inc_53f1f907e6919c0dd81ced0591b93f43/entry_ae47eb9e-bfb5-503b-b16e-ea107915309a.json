@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae47eb9e-bfb5-503b-b16e-ea107915309a",
+    "name": "Orange County Housecalls",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5de66664-7a12-5e7e-9b39-346af784ec7a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992238224"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15 MAREBLU",
+          "STE 230"
+        ],
+        "city": "ALISO VIEJO",
+        "state": "CA",
+        "postalCode": "92656-3047"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32328"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32328.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae47eb9e-bfb5-503b-b16e-ea107915309a"
+}

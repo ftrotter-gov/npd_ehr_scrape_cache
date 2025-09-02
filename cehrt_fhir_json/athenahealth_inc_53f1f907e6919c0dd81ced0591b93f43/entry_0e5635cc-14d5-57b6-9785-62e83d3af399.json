@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0e5635cc-14d5-57b6-9785-62e83d3af399",
+    "name": "Westside Surgical Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c9437f4b-a70b-5c6e-9882-baaf8713123d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285684431"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4200 Twelve Oaks Dr"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77027-6812"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1171"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1171.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0e5635cc-14d5-57b6-9785-62e83d3af399"
+}

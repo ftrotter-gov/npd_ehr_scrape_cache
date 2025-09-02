@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7bd97ce-a44f-5726-9d76-d56635a02cb6",
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://muensterhospital.com"
+      }
+    ],
+    "name": "Muenster Memorial Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://muensterhospital.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "605 North Maple Street"
+        ],
+        "city": "Muenster",
+        "state": "TX",
+        "postalCode": "76252",
+        "country": "United States"
+      }
+    ],
+    "meta": {
+      "lastUpdated": "2024-03-13T19:42:09.885Z"
+    },
+    "endpoint": [
+      {
+        "reference": "urn:uuid:c9846186-e096-4e93-8f03-0545d67d8fc5"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:c9846186-e096-4e93-8f03-0545d67d8fc5"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7bd97ce-a44f-5726-9d76-d56635a02cb6"
+}

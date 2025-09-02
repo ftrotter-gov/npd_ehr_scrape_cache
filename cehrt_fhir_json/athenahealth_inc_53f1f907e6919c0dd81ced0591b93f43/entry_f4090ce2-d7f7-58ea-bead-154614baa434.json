@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f4090ce2-d7f7-58ea-bead-154614baa434",
+    "name": "Queens Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1ebe9687-562b-5b82-9fa5-f2c7fbe803ce"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225264740"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1301 PUNCHBOWL ST."
+        ],
+        "city": "HONOLULU",
+        "state": "HI",
+        "postalCode": "96813-2402"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16482"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16482.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f4090ce2-d7f7-58ea-bead-154614baa434"
+}

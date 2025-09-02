@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "86250b37-98b1-41b3-9ef7-d24f6b501a83",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "1323661c-c9cb-49f6-a532-8c6b37ebb031",
+        "name": "Amy Brenner MD  Associates LLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Amy Brenner MD  Associates LLC",
+    "managingOrganization": {
+      "reference": "#1323661c-c9cb-49f6-a532-8c6b37ebb031"
+    },
+    "period": {
+      "start": "2023-06-22T05:41:17+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10079236"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10079236"
+}

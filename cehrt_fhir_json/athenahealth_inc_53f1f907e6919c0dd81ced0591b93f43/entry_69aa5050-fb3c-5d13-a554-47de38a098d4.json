@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "69aa5050-fb3c-5d13-a554-47de38a098d4",
+    "name": "Hands of Hope Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/956f2166-faff-51e6-bf70-1992ea407223"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "320 WEST MAPLE STREET"
+        ],
+        "city": "YADKINVILLE",
+        "state": "NC",
+        "postalCode": "27055-0062"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20352"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20352.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:69aa5050-fb3c-5d13-a554-47de38a098d4"
+}

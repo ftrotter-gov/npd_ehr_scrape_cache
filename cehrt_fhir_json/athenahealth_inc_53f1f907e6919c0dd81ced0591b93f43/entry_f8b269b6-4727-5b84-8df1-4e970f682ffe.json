@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f8b269b6-4727-5b84-8df1-4e970f682ffe",
+    "name": "Smith and Gayle Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e6af493c-2e86-57c8-8898-ad820515ee73"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194806844"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1159 Springhill Ave"
+        ],
+        "city": "MOBILE",
+        "state": "AL",
+        "postalCode": "36604-2725"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21104"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21104.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f8b269b6-4727-5b84-8df1-4e970f682ffe"
+}

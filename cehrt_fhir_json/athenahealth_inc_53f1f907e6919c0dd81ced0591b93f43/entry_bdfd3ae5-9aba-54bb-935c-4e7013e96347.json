@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bdfd3ae5-9aba-54bb-935c-4e7013e96347",
+    "name": "FCI",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/416e77f0-26b0-52ed-bcb8-690ec06b00a3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811973282"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 SIMLER DR"
+        ],
+        "city": "BIG SPRING",
+        "state": "TX",
+        "postalCode": "79720-7789"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1603"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1603.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bdfd3ae5-9aba-54bb-935c-4e7013e96347"
+}

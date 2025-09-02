@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ec8cc295-1381-59c6-8207-22a2c174f9a9",
+    "name": "Anthem",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/51c2b9fc-1da0-5fe8-b317-96e760ca6c0d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134437205"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "41810 N Venture Drive",
+          "Suite C-120"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85086-3172"
+      },
+      {
+        "line": [
+          "6520 W HAPPY VALLEY RD",
+          "STE B103"
+        ],
+        "city": "GLENDALE",
+        "state": "AZ",
+        "postalCode": "85310-2615"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2736"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2736.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ec8cc295-1381-59c6-8207-22a2c174f9a9"
+}

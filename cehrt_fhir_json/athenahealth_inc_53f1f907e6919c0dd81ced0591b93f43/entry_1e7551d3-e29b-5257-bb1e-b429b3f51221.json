@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1e7551d3-e29b-5257-bb1e-b429b3f51221",
+    "name": "Red River Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/68d14162-5bcb-5a76-9c78-1123930895c0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861442170"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 E 30TH ST STE 300"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78705-3323"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29492"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29492.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1e7551d3-e29b-5257-bb1e-b429b3f51221"
+}

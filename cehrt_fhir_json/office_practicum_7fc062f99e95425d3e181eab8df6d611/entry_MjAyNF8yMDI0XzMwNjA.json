@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjAyNF8yMDI0XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "841.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558500876"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Rebecca DiMundo MD Inc CA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "310-829-3525",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "310-829-7437",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "2210 Santa Monica Blvd Suite 00 Santa Monica, CA 90404-2313",
+        "line": [
+          "2210 Santa Monica Blvd",
+          "Suite 00"
+        ],
+        "city": "Santa Monica",
+        "state": "CA",
+        "postalCode": "90404-2313",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjAyNF8yMDI0XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjAyNF8yMDI0XzMwNjA"
+}

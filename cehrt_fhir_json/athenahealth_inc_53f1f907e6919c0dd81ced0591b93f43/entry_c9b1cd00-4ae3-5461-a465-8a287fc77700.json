@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c9b1cd00-4ae3-5461-a465-8a287fc77700",
+    "name": "ECP_EC Medical Center Wound Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b3aac933-9518-57a2-afb5-c288caa808a0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861253981"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1156 BOWMAN RD",
+          "STE 103"
+        ],
+        "city": "MOUNT PLEASANT",
+        "state": "SC",
+        "postalCode": "29464-3803"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30548"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30548.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c9b1cd00-4ae3-5461-a465-8a287fc77700"
+}

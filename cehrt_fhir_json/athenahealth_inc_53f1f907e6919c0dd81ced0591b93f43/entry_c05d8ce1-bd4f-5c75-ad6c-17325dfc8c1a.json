@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c05d8ce1-bd4f-5c75-ad6c-17325dfc8c1a",
+    "name": "MERCY SOUTH HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d805a4de-676b-5850-96c6-aa95e60c5877"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477511251"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10010 KENNERLY RD"
+        ],
+        "city": "SAINT LOUIS",
+        "state": "MO",
+        "postalCode": "63128-1206"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3641"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3641.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c05d8ce1-bd4f-5c75-ad6c-17325dfc8c1a"
+}

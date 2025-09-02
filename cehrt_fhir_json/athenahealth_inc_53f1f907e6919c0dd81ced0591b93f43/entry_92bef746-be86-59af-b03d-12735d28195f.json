@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "92bef746-be86-59af-b03d-12735d28195f",
+    "name": "Express Family Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca0ee6bc-5ebc-5b08-a7f6-5fe72f12002b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144675059"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "940 Ridgeview Drive",
+          "Bldg B STE 150"
+        ],
+        "city": "ALLEN",
+        "state": "TX",
+        "postalCode": "75013-5544"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31148"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31148.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:92bef746-be86-59af-b03d-12735d28195f"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4412d792-8bce-58c3-b05d-3d7dce97017d",
+    "name": "Norwood IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/174dac32-b1ca-56d3-b071-a27a5d9f4b64"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154575058"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 Washington Street"
+        ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "02062-3487"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6537"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6537.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4412d792-8bce-58c3-b05d-3d7dce97017d"
+}

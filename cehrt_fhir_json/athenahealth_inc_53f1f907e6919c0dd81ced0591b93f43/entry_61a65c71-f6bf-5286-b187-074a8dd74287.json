@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "61a65c71-f6bf-5286-b187-074a8dd74287",
+    "name": "On Site Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db6e12d2-b413-596b-b7d9-4252f2b60af4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598348799"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 S PEAR ORCHARD RD"
+        ],
+        "city": "RIDGELAND",
+        "state": "MS",
+        "postalCode": "39157-4221"
+      },
+      {
+        "line": [
+          "660 LAKELAND EAST DR STE 106"
+        ],
+        "city": "FLOWOOD",
+        "state": "MS",
+        "postalCode": "39232-9777"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24074"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24074.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:61a65c71-f6bf-5286-b187-074a8dd74287"
+}

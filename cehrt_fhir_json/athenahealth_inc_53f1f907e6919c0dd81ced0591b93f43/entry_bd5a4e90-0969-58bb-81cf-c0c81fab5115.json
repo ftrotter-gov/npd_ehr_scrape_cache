@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bd5a4e90-0969-58bb-81cf-c0c81fab5115",
+    "name": "Dr Bauer's office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a9da3630-2d1f-5af9-8ba8-4040a0fd2ecd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750334405"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1231 Pine Grove Ave",
+          "Suite 1B"
+        ],
+        "city": "PORT HURON",
+        "state": "MI",
+        "postalCode": "48060-3500"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11357"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11357.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bd5a4e90-0969-58bb-81cf-c0c81fab5115"
+}

@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8124b6a8-d54f-599f-a6a7-c866b5f236a6",
+    "name": "Magnolia Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/764a5623-924d-5b1a-94e5-15e445d901e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043769862"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1850 RACE ST"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80206-1116"
+      },
+      {
+        "line": [
+          "1300 S POTOMAC ST",
+          "SUITE 104"
+        ],
+        "city": "AURORA",
+        "state": "CO",
+        "postalCode": "80012-4526"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18684"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18684.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8124b6a8-d54f-599f-a6a7-c866b5f236a6"
+}

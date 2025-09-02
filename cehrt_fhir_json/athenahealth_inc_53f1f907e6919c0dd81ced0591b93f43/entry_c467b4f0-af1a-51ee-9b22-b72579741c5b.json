@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c467b4f0-af1a-51ee-9b22-b72579741c5b",
+    "name": "Islamic Center of Morris County",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a070f8ab-1b60-541e-9d43-5be90ecda78d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 MANNINO DRIVE"
+        ],
+        "city": "ROCKAWAY",
+        "state": "NJ",
+        "postalCode": "07866-3422"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20320"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20320.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c467b4f0-af1a-51ee-9b22-b72579741c5b"
+}

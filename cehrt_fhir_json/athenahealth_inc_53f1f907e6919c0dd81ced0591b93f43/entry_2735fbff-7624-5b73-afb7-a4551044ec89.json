@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2735fbff-7624-5b73-afb7-a4551044ec89",
+    "name": "Mercy Gilbert Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8c4eecce-5585-51f5-b5cc-b6f63f53cdda"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447272372"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770025439"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3555 S Val Vista Dr"
+        ],
+        "city": "GILBERT",
+        "state": "AZ",
+        "postalCode": "85297-7323"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15230"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15230.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2735fbff-7624-5b73-afb7-a4551044ec89"
+}

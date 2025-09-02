@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2b13a38f-d501-505a-aca7-e126bbed3318",
+    "name": "Generations Behavioral Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9cc18d86-9cfd-51f4-8362-613d94d57769"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588971477"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336456227"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11111 Research Blvd",
+          "Ste 340"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78759-5200"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8363"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8363.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2b13a38f-d501-505a-aca7-e126bbed3318"
+}

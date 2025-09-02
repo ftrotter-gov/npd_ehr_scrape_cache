@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aaa72943-5b7a-5752-af7e-695744d00636",
+    "name": "Hamilton Heart Hosp OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1c7a6fb5-bad3-57df-86c5-5a69d8eb86f6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295782852"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "621 Hall St"
+        ],
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75226-1339"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1213"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1213.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aaa72943-5b7a-5752-af7e-695744d00636"
+}

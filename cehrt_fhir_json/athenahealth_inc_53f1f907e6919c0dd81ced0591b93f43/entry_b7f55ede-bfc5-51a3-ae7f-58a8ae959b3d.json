@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b7f55ede-bfc5-51a3-ae7f-58a8ae959b3d",
+    "name": "Phoenix House",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ffc7cbcb-cb18-5635-81bf-8f86caddee1f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275906018"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3319 35th st."
+        ],
+        "city": "LUBBOCK",
+        "state": "TX",
+        "postalCode": "79411-2316"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12642"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12642.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b7f55ede-bfc5-51a3-ae7f-58a8ae959b3d"
+}

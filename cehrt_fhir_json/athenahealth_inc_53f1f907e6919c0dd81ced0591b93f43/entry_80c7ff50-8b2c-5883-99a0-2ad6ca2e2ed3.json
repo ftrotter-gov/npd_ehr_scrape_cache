@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "80c7ff50-8b2c-5883-99a0-2ad6ca2e2ed3",
+    "name": "Helping Hand Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92aff3cb-4c26-5c93-8d79-5927548db844"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "409 Carthage st. Sanford"
+        ],
+        "city": "SANFORD",
+        "state": "NC",
+        "postalCode": "27330-1111"
+      },
+      {
+        "line": [
+          "507 N. STEELE ST. SANFORD"
+        ],
+        "city": "SANFORD",
+        "state": "NC",
+        "postalCode": "27330-1111"
+      },
+      {
+        "line": [
+          "507 N. Steele St."
+        ],
+        "city": "SANFORD",
+        "state": "NC",
+        "postalCode": "27330-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23663"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23663.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:80c7ff50-8b2c-5883-99a0-2ad6ca2e2ed3"
+}

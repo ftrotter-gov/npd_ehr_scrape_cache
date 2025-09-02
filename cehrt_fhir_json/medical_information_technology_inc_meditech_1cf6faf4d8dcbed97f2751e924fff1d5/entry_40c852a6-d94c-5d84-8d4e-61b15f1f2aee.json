@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "40c852a6-d94c-5d84-8d4e-61b15f1f2aee",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://emersonhospital.org"
+      }
+    ],
+    "name": "Emerson Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://emersonhospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "133 Old Road to Nine Acre Corner"
+        ],
+        "city": "Concord",
+        "state": "MA",
+        "postalCode": "01742",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:c85b0579-159d-4f10-8caa-a502ddd6c7d1"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:c85b0579-159d-4f10-8caa-a502ddd6c7d1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:40c852a6-d94c-5d84-8d4e-61b15f1f2aee"
+}

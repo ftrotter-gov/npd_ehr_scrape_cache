@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ff904f79-1bee-5ea3-adad-6e30f4ca9343",
+    "name": "The Wellness Home at NorthStar",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f733ae22-4c6e-5124-a1c5-7374a8d91de1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114547247"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215403530"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2835 N Sheffield",
+          "Suite 500"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60657-5084"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21150"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21150.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ff904f79-1bee-5ea3-adad-6e30f4ca9343"
+}

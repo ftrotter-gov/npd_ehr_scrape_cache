@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b5e37917-8f71-5cd4-bda7-2743f520e0a1",
+    "name": "Texas Health Hospital Carrollton - ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/04924405-4236-5f8a-8957-caf6cbc9e8a8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427309145"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 E. Trinity Mills Rd."
+        ],
+        "city": "CARROLLTON",
+        "state": "TX",
+        "postalCode": "75006-0111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5851"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5851.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b5e37917-8f71-5cd4-bda7-2743f520e0a1"
+}

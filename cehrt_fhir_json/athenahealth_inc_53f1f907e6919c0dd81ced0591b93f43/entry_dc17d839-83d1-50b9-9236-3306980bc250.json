@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dc17d839-83d1-50b9-9236-3306980bc250",
+    "name": "Accura HealthCare of Newton",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f2a69686-d37d-5fae-bf8b-2e4f7174f314"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730115213"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 N 4TH AVE E"
+        ],
+        "city": "NEWTON",
+        "state": "IA",
+        "postalCode": "50208-3155"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31005"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31005.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dc17d839-83d1-50b9-9236-3306980bc250"
+}

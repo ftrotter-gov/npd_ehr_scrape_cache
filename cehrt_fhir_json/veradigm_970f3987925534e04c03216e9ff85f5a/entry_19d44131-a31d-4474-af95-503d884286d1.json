@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "19d44131-a31d-4474-af95-503d884286d1",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "680a398d-d27c-40bd-bb89-8b4a49f6bb1a",
+        "name": "Innovative Community Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Innovative Community Health",
+    "managingOrganization": {
+      "reference": "#680a398d-d27c-40bd-bb89-8b4a49f6bb1a"
+    },
+    "period": {
+      "start": "2019-09-30T14:09:34+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10246815"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10246815"
+}

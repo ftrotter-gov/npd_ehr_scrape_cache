@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b2af72fd-7877-54a0-90ef-26fea836f49b",
+    "name": "ISP HEALTH PLLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf0074ca-4c2d-57b3-a748-788843244bab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437846086"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8222 Douglas Ave",
+          "Suite 890A"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75225-5923"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29928"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29928.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b2af72fd-7877-54a0-90ef-26fea836f49b"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "91893fe3-6f5a-5e6d-b661-f3a8415e4661",
+    "name": "Bienville Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/96a5b6ab-312d-5a4d-836a-bd15d6536bdd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588369128"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11 Doctor's Drive"
+        ],
+        "city": "OCEAN SPRINGS",
+        "state": "MS",
+        "postalCode": "39564-4351"
+      },
+      {
+        "line": [
+          "11 Doctor's Dr"
+        ],
+        "city": "OCEAN SPRINGS",
+        "state": "MS",
+        "postalCode": "39564-5709"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13820"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13820.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:91893fe3-6f5a-5e6d-b661-f3a8415e4661"
+}

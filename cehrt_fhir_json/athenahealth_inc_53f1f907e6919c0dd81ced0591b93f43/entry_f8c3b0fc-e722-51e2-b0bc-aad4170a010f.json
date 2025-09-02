@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f8c3b0fc-e722-51e2-b0bc-aad4170a010f",
+    "name": "Charlottesville Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7f13aced-c79e-5a59-b785-ad7c7f175ded"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548240344"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 HICKMAN ROAD",
+          "SUITE 202"
+        ],
+        "city": "CHARLOTTESVILLE",
+        "state": "VA",
+        "postalCode": "22911-3554"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4607"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4607.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f8c3b0fc-e722-51e2-b0bc-aad4170a010f"
+}

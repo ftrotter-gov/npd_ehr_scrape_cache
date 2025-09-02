@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7e2928de-4ec9-5995-a8bd-92285461577d",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/57b927ec-a0dd-551c-8c7e-abae4f21b707"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801229554"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "105 VAN HOUTEN AVENUE",
+          "SUITE A"
+        ],
+        "city": "PASSAIC",
+        "state": "NJ",
+        "postalCode": "07055-5518"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9317"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9317.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7e2928de-4ec9-5995-a8bd-92285461577d"
+}

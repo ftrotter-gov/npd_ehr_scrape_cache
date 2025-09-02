@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6c87ef01-f9d4-5a6d-8228-164a89903b29",
+    "name": "Kids Clinic of Paris",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/63751eec-cd52-5c09-8d81-eba59bb129d8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710449566"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "345 Stone Ave"
+        ],
+        "city": "PARIS",
+        "state": "TX",
+        "postalCode": "75460-9309"
+      },
+      {
+        "line": [
+          "345 STONE AVE"
+        ],
+        "city": "PARIS",
+        "state": "TX",
+        "postalCode": "75460-9309"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19608"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19608.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6c87ef01-f9d4-5a6d-8228-164a89903b29"
+}

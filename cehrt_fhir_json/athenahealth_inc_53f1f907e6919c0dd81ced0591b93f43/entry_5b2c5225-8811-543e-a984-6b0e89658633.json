@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5b2c5225-8811-543e-a984-6b0e89658633",
+    "name": "Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/550514fb-2d15-518c-aa46-a44b95065755"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407254055"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "21 SCHOOL STREET",
+          "STE 1"
+        ],
+        "city": "QUINCY",
+        "state": "MA",
+        "postalCode": "02169-6640"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11882"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11882.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5b2c5225-8811-543e-a984-6b0e89658633"
+}

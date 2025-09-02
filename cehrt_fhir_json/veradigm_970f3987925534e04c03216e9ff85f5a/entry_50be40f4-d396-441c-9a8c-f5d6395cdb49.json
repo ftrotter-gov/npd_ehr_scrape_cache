@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "50be40f4-d396-441c-9a8c-f5d6395cdb49",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "727e959a-f50b-454e-b42b-a1049b121f1b",
+        "name": "Lenawee Adult & Pediatric Medicine"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Lenawee Adult & Pediatric Medicine",
+    "managingOrganization": {
+      "reference": "#727e959a-f50b-454e-b42b-a1049b121f1b"
+    },
+    "period": {
+      "start": "2018-09-20T20:26:12+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10045120"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10045120"
+}

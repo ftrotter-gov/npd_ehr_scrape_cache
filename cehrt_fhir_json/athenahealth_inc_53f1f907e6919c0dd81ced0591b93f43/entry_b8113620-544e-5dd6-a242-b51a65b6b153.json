@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b8113620-544e-5dd6-a242-b51a65b6b153",
+    "name": "PARKVIEW MEDICAL CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3ddc941e-fdd5-53f1-96f5-e0f89a6c16c3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1205 DR. MARTIN L KING JR WAY"
+        ],
+        "city": "HAINES CITY",
+        "state": "FL",
+        "postalCode": "33844-3490"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26688"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26688.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b8113620-544e-5dd6-a242-b51a65b6b153"
+}

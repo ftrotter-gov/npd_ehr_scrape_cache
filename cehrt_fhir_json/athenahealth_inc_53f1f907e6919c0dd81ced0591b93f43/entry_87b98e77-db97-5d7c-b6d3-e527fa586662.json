@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "87b98e77-db97-5d7c-b6d3-e527fa586662",
+    "name": "NorthStar Medical Specialists",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b351781a-1549-51f1-907b-506ae99bf2ce"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912921586"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1345 King Street"
+        ],
+        "city": "BELLINGHAM",
+        "state": "WA",
+        "postalCode": "98229-6223"
+      },
+      {
+        "line": [
+          "2116 E. Section St."
+        ],
+        "city": "MOUNT VERNON",
+        "state": "WA",
+        "postalCode": "98274-9124"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1250"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1250.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:87b98e77-db97-5d7c-b6d3-e527fa586662"
+}

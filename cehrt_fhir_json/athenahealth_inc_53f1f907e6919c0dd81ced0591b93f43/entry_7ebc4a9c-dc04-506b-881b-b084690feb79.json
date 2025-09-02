@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7ebc4a9c-dc04-506b-881b-b084690feb79",
+    "name": "1stCallHealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92d68323-0397-5d99-b0c6-8c27f4ee321d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2300 18TH STREET NW",
+          "LOBBY #21004"
+        ],
+        "city": "WASHINGTON",
+        "state": "DC",
+        "postalCode": "20009-8602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22048"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22048.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7ebc4a9c-dc04-506b-881b-b084690feb79"
+}

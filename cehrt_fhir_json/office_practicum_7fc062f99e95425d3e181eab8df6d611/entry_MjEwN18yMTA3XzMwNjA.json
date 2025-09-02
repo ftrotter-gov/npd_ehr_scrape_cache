@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjEwN18yMTA3XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "927.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760618383"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Holmdel Pediatrics LLC NJ",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "732-739-4414",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "732-739-9537",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "719 N Beers St Ste 1E Holmdel, NJ 07733-1523",
+        "line": [
+          "719 N Beers St",
+          "Ste 1E"
+        ],
+        "city": "Holmdel",
+        "state": "NJ",
+        "postalCode": "07733-1523",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjEwN18yMTA3XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjEwN18yMTA3XzMwNjA"
+}

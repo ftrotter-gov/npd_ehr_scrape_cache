@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0MN-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0MN"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Central Ohio Breast & Endocrine Surgery",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6145471770"
+      },
+      {
+        "system": "fax",
+        "value": "6145471773"
+      },
+      {
+        "system": "url",
+        "value": "www.breastandendo.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "1080 Beecher Crossing N Suite A Gahanna OH 432304711 US",
+        "line": [
+          "1080 Beecher Crossing N",
+          "Suite A"
+        ],
+        "city": "Gahanna",
+        "state": "OH",
+        "postalCode": "432304711",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0MN-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0MN-Organization-2"
+}

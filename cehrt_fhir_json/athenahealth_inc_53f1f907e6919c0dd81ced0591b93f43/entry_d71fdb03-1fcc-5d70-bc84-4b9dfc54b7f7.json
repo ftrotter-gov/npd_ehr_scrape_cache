@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d71fdb03-1fcc-5d70-bc84-4b9dfc54b7f7",
+    "name": "Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0fd93985-f7a5-597f-8b50-e78f7b323251"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437197092"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "198 Massachusetts Ave"
+        ],
+        "city": "NORTH ANDOVER",
+        "state": "MA",
+        "postalCode": "01845-4143"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6597"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6597.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d71fdb03-1fcc-5d70-bc84-4b9dfc54b7f7"
+}

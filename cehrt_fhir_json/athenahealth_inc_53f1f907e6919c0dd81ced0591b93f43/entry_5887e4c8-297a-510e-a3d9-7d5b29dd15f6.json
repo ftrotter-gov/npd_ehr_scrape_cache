@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5887e4c8-297a-510e-a3d9-7d5b29dd15f6",
+    "name": "Real Healthcare Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7551dca0-8289-596f-ae64-ad1f63488f7a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780461442"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 Springhall Dr"
+        ],
+        "city": "GOOSE CREEK",
+        "state": "SC",
+        "postalCode": "29445-5336"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31845"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31845.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5887e4c8-297a-510e-a3d9-7d5b29dd15f6"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ca995e1-f3f2-54e5-888c-8e821641b814",
+    "name": "St. Luke's Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d5851273-fea8-5b46-93c2-bdff559724d1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881626117"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "17200 St. Luke's Way"
+        ],
+        "city": "The Woodlands",
+        "state": "TX",
+        "postalCode": "77384-8007"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1066"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1066.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ca995e1-f3f2-54e5-888c-8e821641b814"
+}

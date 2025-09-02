@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "25f18339-61bc-5444-8763-b281ad1883b0",
+    "name": "Hudson Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1112cc29-7b0a-5038-b31a-8ac2c7794356"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205923364"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "109 FAIRWAY SHOPPING CENTER"
+        ],
+        "city": "HUDSON",
+        "state": "NC",
+        "postalCode": "28638"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4247"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4247.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:25f18339-61bc-5444-8763-b281ad1883b0"
+}

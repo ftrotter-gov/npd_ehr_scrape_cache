@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db4225f0-6bf8-5d45-b6e7-01f5912a5445",
+    "meta": {
+      "lastUpdated": "2023-05-11T23:07:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://bellevuehospital.com"
+      }
+    ],
+    "name": "The Bellevue Hospital",
+    "active": true,
+    "partOf": {
+      "reference": "urn:uuid:ac262286-570a-54d3-b569-e3fc2d655e0a"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://bellevuehospital.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1400 West Main Street"
+        ],
+        "city": "Bellevue",
+        "state": "OH",
+        "postalCode": "44811",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:19d56469-0885-5011-aeb0-895d2f6e7a23"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:19d56469-0885-5011-aeb0-895d2f6e7a23"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db4225f0-6bf8-5d45-b6e7-01f5912a5445"
+}

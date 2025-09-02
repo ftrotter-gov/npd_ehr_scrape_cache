@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "466b0ed5-295a-542d-8774-0f35b4201d5c",
+    "name": "MHC Westside Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d19c756a-d4cd-540f-aad4-d299b4aa28be"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447263405"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1707 W SAINT MARYS RD"
+        ],
+        "city": "TUCSON",
+        "state": "AZ",
+        "postalCode": "85745-2608"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32652"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32652.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:466b0ed5-295a-542d-8774-0f35b4201d5c"
+}

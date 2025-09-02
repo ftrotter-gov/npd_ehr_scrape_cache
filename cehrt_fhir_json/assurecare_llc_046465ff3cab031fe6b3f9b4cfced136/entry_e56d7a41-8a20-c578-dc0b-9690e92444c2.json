@@ -1,0 +1,27 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e56d7a41-8a20-c578-dc0b-9690e92444c2",
+    "name": "Monroe Health Center LLC",
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "direct-project"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+            "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+          }
+        ]
+      }
+    ],
+    "address": "https://fhir.ipatientcare.net:9443/fhir-server/api/v4",
+    "header": [
+      "X-FHIR-TENANT-ID mhcl"
+    ]
+  },
+  "fullUrl": "https://oauth.ipatientcare.net/api/Endpoint/e56d7a41-8a20-c578-dc0b-9690e92444c2"
+}

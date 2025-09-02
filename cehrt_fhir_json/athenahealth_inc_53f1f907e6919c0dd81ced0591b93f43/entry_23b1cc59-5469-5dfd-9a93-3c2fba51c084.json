@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "23b1cc59-5469-5dfd-9a93-3c2fba51c084",
+    "name": "J.B. Medical Group of Florida",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26e3e6a8-fb74-5709-8c71-5a3f65764349"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740003946"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 N ORANGE AVE",
+          "STE 800"
+        ],
+        "city": "ORLANDO",
+        "state": "FL",
+        "postalCode": "32801-2381"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31913"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31913.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:23b1cc59-5469-5dfd-9a93-3c2fba51c084"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "371874b0-27cd-5fdf-b88f-710434c66d33",
+    "name": "Los Alamitos Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/61a6aa31-03ec-571a-8fd2-058d3f0d1bd6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326015470"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3751 Katella Ave, Los Alamitos, CA 90720"
+        ],
+        "city": "LOS ALAMITOS",
+        "state": "CA",
+        "postalCode": "90720-3353"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17218"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17218.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:371874b0-27cd-5fdf-b88f-710434c66d33"
+}

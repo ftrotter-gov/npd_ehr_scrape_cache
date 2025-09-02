@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f74b22b6-66c4-5ff0-9879-278ded117e15",
+    "name": "N AL Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/090c217f-7d87-56b5-94ac-a7e79eaeac8f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902111560"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "540 Hughes Rd",
+          "St 5"
+        ],
+        "city": "MADISON",
+        "state": "AL",
+        "postalCode": "35758-4900"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13223"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13223.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f74b22b6-66c4-5ff0-9879-278ded117e15"
+}

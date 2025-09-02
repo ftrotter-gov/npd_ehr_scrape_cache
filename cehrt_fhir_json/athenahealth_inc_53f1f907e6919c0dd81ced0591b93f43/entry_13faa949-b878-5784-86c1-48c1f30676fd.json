@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "13faa949-b878-5784-86c1-48c1f30676fd",
+    "name": "DSI_Aloha",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b87b4fcc-3b0e-540d-ab60-55a578517227"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871909549"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1520 LILIHA ST",
+          "1ST FLOOR"
+        ],
+        "city": "HONOLULU",
+        "state": "HI",
+        "postalCode": "96817-3562"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14360"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14360.Brand-9"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:13faa949-b878-5784-86c1-48c1f30676fd"
+}

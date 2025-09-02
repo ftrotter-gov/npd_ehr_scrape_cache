@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d3bb98c9-fd0a-5db3-8919-c64d5c86179b",
+    "name": "Mercy Heart Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/584bdcf3-c222-55c0-b8f3-657dd025bebd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1400 Parker Rd SE",
+          "Ste 100"
+        ],
+        "city": "CONYERS",
+        "state": "GA",
+        "postalCode": "30094-5933"
+      },
+      {
+        "line": [
+          "1400 PARKER RD SE, STE 100"
+        ],
+        "city": "CONYERS",
+        "state": "GA",
+        "postalCode": "30094-5933"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19107"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19107.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d3bb98c9-fd0a-5db3-8919-c64d5c86179b"
+}

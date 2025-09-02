@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d31d11af-6341-5d7f-8b8c-95925543c4ce",
+    "name": "Rehabilitation care center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/616514e3-f849-54e5-a99e-8787323e16fc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568417186"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "835 hospital rd"
+        ],
+        "city": "INDIANA",
+        "state": "PA",
+        "postalCode": "15701-3629"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3258"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3258.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d31d11af-6341-5d7f-8b8c-95925543c4ce"
+}

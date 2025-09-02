@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0b82ec93-88e2-59de-abd4-80f7e34103ae",
+    "name": "Free Clinic Mobile Pomeroy",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43f7f355-71b3-57a7-b277-fd8d6e8f19cb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568676138"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "54 E. Main Street"
+        ],
+        "city": "POMEROY",
+        "state": "OH",
+        "postalCode": "45769-1115"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7802"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7802.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0b82ec93-88e2-59de-abd4-80f7e34103ae"
+}

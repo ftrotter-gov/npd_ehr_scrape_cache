@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d93ee9d5-c8ad-5484-b34a-369c3d9ca6ce",
+    "name": "Aultman Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/59c1a187-dd2b-5388-bb78-eaefa366bbad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649650961"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2600 6th St NW"
+        ],
+        "city": "CANTON",
+        "state": "OH",
+        "postalCode": "44710-1799"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13791"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13791.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d93ee9d5-c8ad-5484-b34a-369c3d9ca6ce"
+}

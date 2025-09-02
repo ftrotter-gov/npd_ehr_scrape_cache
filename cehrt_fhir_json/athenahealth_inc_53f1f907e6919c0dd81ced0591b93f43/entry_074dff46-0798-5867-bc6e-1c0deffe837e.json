@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "074dff46-0798-5867-bc6e-1c0deffe837e",
+    "name": "Jill's House",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/38da206e-313b-5e6b-9c2d-a5463bb1f123"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750870499"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "751 E Tamarack Trail"
+        ],
+        "city": "BLOOMINGTON",
+        "state": "IN",
+        "postalCode": "47408-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18115"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18115.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:074dff46-0798-5867-bc6e-1c0deffe837e"
+}

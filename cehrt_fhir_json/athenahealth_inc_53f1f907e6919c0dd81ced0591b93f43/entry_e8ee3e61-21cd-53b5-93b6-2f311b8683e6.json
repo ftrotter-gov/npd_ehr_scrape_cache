@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e8ee3e61-21cd-53b5-93b6-2f311b8683e6",
+    "name": "St Joseph Hospital IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a6b05668-f2e8-549e-a619-da1749ff5c3e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487879938"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7601 OSLER DR"
+        ],
+        "city": "TOWSON",
+        "state": "MD",
+        "postalCode": "21204-7700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6814"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6814.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e8ee3e61-21cd-53b5-93b6-2f311b8683e6"
+}

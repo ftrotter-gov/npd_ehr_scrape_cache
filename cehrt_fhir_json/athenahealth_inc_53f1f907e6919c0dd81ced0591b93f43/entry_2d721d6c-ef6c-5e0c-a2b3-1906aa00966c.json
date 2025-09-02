@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2d721d6c-ef6c-5e0c-a2b3-1906aa00966c",
+    "name": "UCHC 188th Medicine Dept",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7070e792-6eae-5fb9-b08f-86f6d5069be8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437255155"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "260 East 188th Street"
+        ],
+        "city": "BRONX",
+        "state": "NY",
+        "postalCode": "10458-5302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18107"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18107.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2d721d6c-ef6c-5e0c-a2b3-1906aa00966c"
+}

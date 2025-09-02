@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d2d6a3da-097f-5c27-b37b-9b5a9a39c33e",
+    "name": "RemoteMed Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fbd02258-bbea-5aea-8b3a-bd4bb5e54950"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841803376"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "16 PIN OAK LN"
+        ],
+        "city": "HAMMOND",
+        "state": "LA",
+        "postalCode": "70401-8201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22092"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22092.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d2d6a3da-097f-5c27-b37b-9b5a9a39c33e"
+}

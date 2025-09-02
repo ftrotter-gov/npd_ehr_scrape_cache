@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5d025a7e-1c69-5199-9d00-2086432b5712",
+    "name": "Minot Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92944ace-b037-5dd2-a9f0-0308daad07bc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477970846"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1021 20th Ave SW Suite 113"
+        ],
+        "city": "MINOT",
+        "state": "ND",
+        "postalCode": "58701-6487"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22649"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22649.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5d025a7e-1c69-5199-9d00-2086432b5712"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0e96b5c4-bb68-5c18-b562-fdb3b704a0b2",
+    "name": "Corpus Christi MRI Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d73a375b-8033-51f8-9eff-4c4cf9a61ced"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235170283"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710090089"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3702 S Alameda St"
+        ],
+        "city": "CORPUS CHRISTI",
+        "state": "TX",
+        "postalCode": "78411-1630"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15288"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15288.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0e96b5c4-bb68-5c18-b562-fdb3b704a0b2"
+}

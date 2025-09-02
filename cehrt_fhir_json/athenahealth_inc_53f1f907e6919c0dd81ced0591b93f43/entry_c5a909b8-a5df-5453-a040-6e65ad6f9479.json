@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5a909b8-a5df-5453-a040-6e65ad6f9479",
+    "name": "Carney Hospital Cardiology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d7af1806-e8de-59b5-aef2-a76f2c6b6988"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821349317"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629398219"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2100 DORCHESTER AVE"
+        ],
+        "city": "BOSTON",
+        "state": "MA",
+        "postalCode": "02124-5615"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2017"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2017.Brand-9"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5a909b8-a5df-5453-a040-6e65ad6f9479"
+}

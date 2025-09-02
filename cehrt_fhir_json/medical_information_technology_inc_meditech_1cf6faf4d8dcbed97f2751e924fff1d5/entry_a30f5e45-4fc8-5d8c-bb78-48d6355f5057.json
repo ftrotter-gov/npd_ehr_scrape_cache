@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a30f5e45-4fc8-5d8c-bb78-48d6355f5057",
+    "meta": {
+      "lastUpdated": "2024-11-26T02:36:21.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://winnebagohealth.com"
+      }
+    ],
+    "name": "Winnebago Comprehensive Healthcare System",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://winnebagohealth.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "225 S Bluff St"
+        ],
+        "city": "Winnebago",
+        "state": "NE",
+        "postalCode": "68071",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:6bf333ea-e32d-51f0-85f7-db2a716625cc"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:6bf333ea-e32d-51f0-85f7-db2a716625cc"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a30f5e45-4fc8-5d8c-bb78-48d6355f5057"
+}

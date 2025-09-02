@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b758cafd-4647-52b2-aa5a-07b4e71451c3",
+    "name": "FitCare Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b4e7c651-5330-52a5-a589-33b7d79a2e87"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851011647"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1216 1ST ST N"
+        ],
+        "city": "ALABASTER",
+        "state": "AL",
+        "postalCode": "35007-8702"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27196"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27196.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b758cafd-4647-52b2-aa5a-07b4e71451c3"
+}

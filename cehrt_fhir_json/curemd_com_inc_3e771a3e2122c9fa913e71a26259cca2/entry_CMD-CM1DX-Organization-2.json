@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1DX-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1DX"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Legacy Health Medical Group, LLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7274893305"
+      },
+      {
+        "system": "fax",
+        "value": "7274999559"
+      }
+    ],
+    "address": [
+      {
+        "text": "801 West Bay Drive, Suite 605 Largo FL 33770 US",
+        "line": [
+          "801 West Bay Drive, Suite 605"
+        ],
+        "city": "Largo",
+        "state": "FL",
+        "postalCode": "33770",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1DX-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1DX-Organization-2"
+}

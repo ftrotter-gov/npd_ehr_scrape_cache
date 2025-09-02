@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "61b62e7f-24aa-5373-85ad-6c2cc1e9865b",
+    "name": "My Favorite Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2b25b81b-4720-5b1c-b287-79bb9123bd09"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982342275"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2708 W SAINT JOHN ST"
+        ],
+        "city": "TAMPA",
+        "state": "FL",
+        "postalCode": "33607-2944"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28069"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28069.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:61b62e7f-24aa-5373-85ad-6c2cc1e9865b"
+}

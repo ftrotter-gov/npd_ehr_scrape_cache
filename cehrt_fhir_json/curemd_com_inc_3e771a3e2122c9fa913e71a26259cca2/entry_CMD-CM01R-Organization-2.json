@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM01R-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM01R"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Madison County Health Dept",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8286493531"
+      },
+      {
+        "system": "fax",
+        "value": "8286499078"
+      },
+      {
+        "system": "url",
+        "value": "madisioncountypublichealthnow.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "493 Medical Park Drive Marshall MADISON NC 287533901 US",
+        "line": [
+          "493 Medical Park Drive"
+        ],
+        "city": "Marshall",
+        "district": "MADISON",
+        "state": "NC",
+        "postalCode": "287533901",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM01R-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM01R-Organization-2"
+}

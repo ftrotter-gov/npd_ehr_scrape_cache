@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f2485f5-a0d9-5380-9a54-b9abd7c8a8e6",
+    "meta": {
+      "lastUpdated": "2022-06-30T00:36:47.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://northfieldhospital.org"
+      }
+    ],
+    "name": "Northfield Hospital and Clinics",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://northfieldhospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 North Avenue"
+        ],
+        "city": "Northfield",
+        "state": "MN",
+        "postalCode": "55057",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:fc666059-55e3-59ed-96c7-816bab35314e"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:fc666059-55e3-59ed-96c7-816bab35314e"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f2485f5-a0d9-5380-9a54-b9abd7c8a8e6"
+}

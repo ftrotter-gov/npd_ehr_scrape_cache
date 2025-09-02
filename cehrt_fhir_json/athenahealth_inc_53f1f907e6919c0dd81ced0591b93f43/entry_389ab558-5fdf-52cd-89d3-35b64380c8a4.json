@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "389ab558-5fdf-52cd-89d3-35b64380c8a4",
+    "name": "Crossen Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b25e2f3c-59dd-5044-8c82-3120b1bf2454"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861425464"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1503 MICHAELS RD"
+        ],
+        "city": "HENRICO",
+        "state": "VA",
+        "postalCode": "23229-4822"
+      },
+      {
+        "line": [
+          "7305 HANCOCK VILLAGE DR # 327"
+        ],
+        "city": "CHESTERFIELD",
+        "state": "VA",
+        "postalCode": "23832-2771"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18583"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18583.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:389ab558-5fdf-52cd-89d3-35b64380c8a4"
+}

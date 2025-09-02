@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a9ea6794-8bc4-5bda-bccb-5c6e12c58c3c",
+    "name": "Community Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eafc209a-87ea-5778-91de-cdbff0a274c2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1113 WOODLAND DR"
+        ],
+        "city": "ELIZABETHTOWN",
+        "state": "KY",
+        "postalCode": "42701-2749"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15287"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15287.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a9ea6794-8bc4-5bda-bccb-5c6e12c58c3c"
+}

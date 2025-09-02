@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f60a5570-503f-5337-a83a-cf63ce891b1d",
+    "name": "Dr. Diehl Practice Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/623ea8fa-8d3b-5599-9d6c-67dc176e1714"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538294103"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "23101 SHERMAN PLACE",
+          "SUITE 302"
+        ],
+        "city": "WEST HILLS",
+        "state": "CA",
+        "postalCode": "91307-1470"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3013"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3013.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f60a5570-503f-5337-a83a-cf63ce891b1d"
+}

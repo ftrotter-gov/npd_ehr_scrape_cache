@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2ca8d040-c3bd-5b75-9af8-fb33c21d4210",
+    "name": "Carlisle Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3d7a16db-a64f-5705-a041-acb706e39fc4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356689079"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790195717"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "107 S Broadway St"
+        ],
+        "city": "CARLISLE",
+        "state": "KY",
+        "postalCode": "40311-1150"
+      },
+      {
+        "line": [
+          "9 Linville Lane"
+        ],
+        "city": "PARIS",
+        "state": "KY",
+        "postalCode": "40361-2129"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19475"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19475.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2ca8d040-c3bd-5b75-9af8-fb33c21d4210"
+}

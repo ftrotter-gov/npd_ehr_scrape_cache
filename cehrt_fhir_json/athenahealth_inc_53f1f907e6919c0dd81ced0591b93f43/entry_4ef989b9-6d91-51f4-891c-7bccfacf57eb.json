@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ef989b9-6d91-51f4-891c-7bccfacf57eb",
+    "name": "Medical Center of South Arkansas",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5bb44a53-d3a2-5b0c-aa43-3966ba7803ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427018704"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "700 W Grove St"
+        ],
+        "city": "EL DORADO",
+        "state": "AR",
+        "postalCode": "71730-4416"
+      },
+      {
+        "line": [
+          "700 West Grove"
+        ],
+        "city": "EL DORADO",
+        "state": "AR",
+        "postalCode": "71730-4416"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2218"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2218.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ef989b9-6d91-51f4-891c-7bccfacf57eb"
+}

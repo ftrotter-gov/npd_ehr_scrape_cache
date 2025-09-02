@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1e6c2b2d-12df-4f36-9cf9-92ad274704d8",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "46655ed8-2ab5-459e-9f89-7a0ab5351834",
+        "name": "EndoMed Clinic SC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "EndoMed Clinic SC",
+    "managingOrganization": {
+      "reference": "#46655ed8-2ab5-459e-9f89-7a0ab5351834"
+    },
+    "period": {
+      "start": "2019-01-05T09:40:52+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10086544"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10086544"
+}

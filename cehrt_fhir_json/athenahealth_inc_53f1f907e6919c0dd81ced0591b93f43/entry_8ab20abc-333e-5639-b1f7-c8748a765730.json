@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ab20abc-333e-5639-b1f7-c8748a765730",
+    "name": "PAM Specialty Hospital of Sarasota",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8fdda852-3ae7-53ba-98cb-af4818785317"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174929541"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6150 EDGELAKE DRIVE"
+        ],
+        "city": "SARASOTA",
+        "state": "FL",
+        "postalCode": "34240-8803"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11048"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11048.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ab20abc-333e-5639-b1f7-c8748a765730"
+}

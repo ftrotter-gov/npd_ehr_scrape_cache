@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4cf4cf8d-8b90-5b66-a78e-e7bb04ad4a07",
+    "name": "NewU Wellness",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8be3c204-38cb-502a-8766-99d543321913"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1112223331"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "14090 METROPOLIS AVE STE 102"
+        ],
+        "city": "FORT MYERS",
+        "state": "FL",
+        "postalCode": "33912-0614"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23950"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23950.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4cf4cf8d-8b90-5b66-a78e-e7bb04ad4a07"
+}

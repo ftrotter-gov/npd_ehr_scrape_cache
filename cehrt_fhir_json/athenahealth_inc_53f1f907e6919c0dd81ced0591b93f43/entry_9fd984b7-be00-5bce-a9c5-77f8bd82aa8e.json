@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9fd984b7-be00-5bce-a9c5-77f8bd82aa8e",
+    "name": "Holy Name Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/30523b56-1abe-53b5-b8db-c263fd2199cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144501362"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "718 Teaneck Road"
+        ],
+        "city": "TEANECK",
+        "state": "NJ",
+        "postalCode": "07666-4245"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3579.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9fd984b7-be00-5bce-a9c5-77f8bd82aa8e"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d77a9212-7eda-57ad-be34-e122f0728ce4",
+    "name": "ABC Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/665a8c54-9092-59f5-8969-ccc481debfdd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700874559"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7125 N Chestnut Ave 101"
+        ],
+        "city": "FRESNO",
+        "state": "CA",
+        "postalCode": "93720-0358"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4059"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4059.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d77a9212-7eda-57ad-be34-e122f0728ce4"
+}

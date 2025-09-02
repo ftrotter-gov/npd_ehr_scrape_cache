@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1b232228-37f7-5caf-9062-59cbda29a8ea",
+    "name": "Collins Medical Associates - 928 Farmington Avenue",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/78e19c3d-125c-573b-b586-4cb6089c412d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912928169"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "928 Farmington Avenue",
+          "Suite 4"
+        ],
+        "city": "WEST HARTFORD",
+        "state": "CT",
+        "postalCode": "06107-2229"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27673"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27673.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1b232228-37f7-5caf-9062-59cbda29a8ea"
+}

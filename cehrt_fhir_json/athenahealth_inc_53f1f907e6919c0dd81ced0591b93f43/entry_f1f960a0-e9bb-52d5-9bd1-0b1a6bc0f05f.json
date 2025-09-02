@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f1f960a0-e9bb-52d5-9bd1-0b1a6bc0f05f",
+    "name": "TELEHEALTH",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4b3d6bcc-92ec-5616-908e-4a7026df6ee4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124027669"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "104 7TH STREET"
+        ],
+        "city": "BAY CITY",
+        "state": "TX",
+        "postalCode": "77414-3084"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6249"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6249.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f1f960a0-e9bb-52d5-9bd1-0b1a6bc0f05f"
+}

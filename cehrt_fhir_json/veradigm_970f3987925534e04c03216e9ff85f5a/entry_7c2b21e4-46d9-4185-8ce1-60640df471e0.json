@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "7c2b21e4-46d9-4185-8ce1-60640df471e0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "a6c75e07-4283-47ac-9779-9a5f1ab0c247",
+        "name": "North Oakland Ent Center, P.C."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "North Oakland Ent Center, P.C.",
+    "managingOrganization": {
+      "reference": "#a6c75e07-4283-47ac-9779-9a5f1ab0c247"
+    },
+    "period": {
+      "start": "2023-06-07T09:36:09+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10056175"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10056175"
+}

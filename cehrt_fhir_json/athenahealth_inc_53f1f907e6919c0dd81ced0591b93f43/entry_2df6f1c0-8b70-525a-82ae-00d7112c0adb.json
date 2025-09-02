@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2df6f1c0-8b70-525a-82ae-00d7112c0adb",
+    "name": "Oklahoma Spine Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e72c20cd-71dd-527e-8f5c-6a0698276b9d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528009438"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "14101 PARKWAY COMMONS DRIVE"
+        ],
+        "city": "OKLAHOMA CITY",
+        "state": "OK",
+        "postalCode": "73134-6012"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14870"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14870.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2df6f1c0-8b70-525a-82ae-00d7112c0adb"
+}

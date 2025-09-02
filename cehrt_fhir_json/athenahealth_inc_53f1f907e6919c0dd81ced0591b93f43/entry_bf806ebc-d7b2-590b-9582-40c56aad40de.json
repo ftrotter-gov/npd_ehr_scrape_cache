@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf806ebc-d7b2-590b-9582-40c56aad40de",
+    "name": "Premier Diagnostic Imaging",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9cb39d7a-de35-57c6-9326-2e3aa8852eb6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730130345"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 N Washington Ave"
+        ],
+        "city": "COOKEVILLE",
+        "state": "TN",
+        "postalCode": "38501-2603"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6939"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6939.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf806ebc-d7b2-590b-9582-40c56aad40de"
+}

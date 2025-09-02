@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8de66a31-156a-548f-9e4f-809f924e4b84",
+    "name": "The Healthy Choice Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c735913e-e1a7-5dec-a0f6-5bb8866a78a8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922485259"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 E 1st Street"
+        ],
+        "city": "MONTGOMERY CITY",
+        "state": "MO",
+        "postalCode": "63361-2550"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32856"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32856.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8de66a31-156a-548f-9e4f-809f924e4b84"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ced7a7e8-f199-5f74-af36-e4c74a5f4042",
+    "name": "Medical Expense Division",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/395bda15-19d2-5c65-bbc6-6c613d2a7cad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740440437"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2001 SE GREEN OAKS BLVD",
+          "#130"
+        ],
+        "city": "ARLINGTON",
+        "state": "TX",
+        "postalCode": "76018-0951"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11201"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11201.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ced7a7e8-f199-5f74-af36-e4c74a5f4042"
+}

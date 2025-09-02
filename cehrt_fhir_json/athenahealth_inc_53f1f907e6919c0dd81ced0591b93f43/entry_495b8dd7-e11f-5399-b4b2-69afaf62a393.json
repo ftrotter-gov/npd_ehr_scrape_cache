@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "495b8dd7-e11f-5399-b4b2-69afaf62a393",
+    "name": "Western Plains Medical Heights",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/24c9dd20-5f51-505f-9aec-99b087c146ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326384009"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 West Ross Blvd",
+          "Suite 2A"
+        ],
+        "city": "DODGE CITY",
+        "state": "KS",
+        "postalCode": "67801-7216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20238"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20238.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:495b8dd7-e11f-5399-b4b2-69afaf62a393"
+}

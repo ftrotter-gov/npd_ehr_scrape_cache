@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "280eb1dd-49ba-5c52-b580-910bb14d38e6",
+    "name": "NYACK HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/76bf53f3-9c3f-5ed1-b61f-0746888f6201"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073523320"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "160 NORTH MIDLAND AVENUE"
+        ],
+        "city": "NYACK",
+        "state": "NY",
+        "postalCode": "10960-1912"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3202"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3202.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:280eb1dd-49ba-5c52-b580-910bb14d38e6"
+}

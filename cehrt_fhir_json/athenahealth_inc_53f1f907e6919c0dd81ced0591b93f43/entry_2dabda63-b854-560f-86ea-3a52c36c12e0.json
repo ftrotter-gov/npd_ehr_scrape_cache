@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2dabda63-b854-560f-86ea-3a52c36c12e0",
+    "name": "Deaconess Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b95a8942-754e-5456-a282-d5f4919a1c66"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740231752"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5501 NORTH PORTLAND"
+        ],
+        "city": "OKLAHOMA CITY",
+        "state": "OK",
+        "postalCode": "73112-2074"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4980"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4980.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2dabda63-b854-560f-86ea-3a52c36c12e0"
+}

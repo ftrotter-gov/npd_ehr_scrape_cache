@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ededea97-7d74-5ecd-8017-4a395437b7e8",
+    "name": "Adoni Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e4e13ef6-71aa-54c6-870e-b3aaa314d134"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912407891"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7525 GREENWAY CENTER DR STE 316"
+        ],
+        "city": "GREENBELT",
+        "state": "MD",
+        "postalCode": "20770-3525"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18565"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18565.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ededea97-7d74-5ecd-8017-4a395437b7e8"
+}

@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8a361fc1-7aac-5fab-aa5c-f0e0a15c9c90",
+    "meta": {
+      "lastUpdated": "2023-05-01T14:58:01.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://whmc.org"
+      }
+    ],
+    "name": "Whitman Hospital & Medical Clinics",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://whmc.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1200 West Fairview"
+        ],
+        "city": "Colfax",
+        "state": "WA",
+        "postalCode": "99111",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:793fd909-0c4c-49f8-a03b-312854bce5af"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:793fd909-0c4c-49f8-a03b-312854bce5af"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8a361fc1-7aac-5fab-aa5c-f0e0a15c9c90"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "009e7d1b-8e1c-4fe5-b146-0cfa6e07bafb",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "abc4c9a2-3ba7-4bd9-8c9e-4a8b5bef531d",
+        "name": "London Women's Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "London Women's Care",
+    "managingOrganization": {
+      "reference": "#abc4c9a2-3ba7-4bd9-8c9e-4a8b5bef531d"
+    },
+    "period": {
+      "start": "2025-07-13T06:17:01+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57097"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57097"
+}

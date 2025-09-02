@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4b4c5dee-c07f-53d6-a197-d35681f89d7c",
+    "name": "Advantia Health MFM",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/902a21c5-e602-5d22-b84f-b32ae897cada"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972922920"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144252859"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10750 Columbia Pike",
+          "Suite 700"
+        ],
+        "city": "SILVER SPRING",
+        "state": "MD",
+        "postalCode": "20901-4461"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8994"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8994.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4b4c5dee-c07f-53d6-a197-d35681f89d7c"
+}

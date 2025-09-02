@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56d9e131-0766-5417-88bd-70c12abfbb7a",
+    "name": "TriHealth Blanchester Medical Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e39071e5-cd4f-50bf-8358-e91de2b0d160"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295862944"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "849 Cherry St."
+        ],
+        "city": "BLANCHESTER",
+        "state": "OH",
+        "postalCode": "45107-1315"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6237"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6237.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56d9e131-0766-5417-88bd-70c12abfbb7a"
+}

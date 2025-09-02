@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b8f5e981-537d-502a-bbf7-89d1d6e611c5",
+    "name": "Fannin",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fee35a44-2f49-5e8b-99ed-6686db290192"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689015265"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7900 FANNIN ST. SUITE 1200"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77054-2936"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7621"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7621.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b8f5e981-537d-502a-bbf7-89d1d6e611c5"
+}

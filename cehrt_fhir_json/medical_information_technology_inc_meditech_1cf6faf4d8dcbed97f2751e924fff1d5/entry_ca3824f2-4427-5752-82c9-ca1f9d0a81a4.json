@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ca3824f2-4427-5752-82c9-ca1f9d0a81a4",
+    "meta": {
+      "lastUpdated": "2023-07-27T01:36:23.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://touchette.org"
+      }
+    ],
+    "name": "Touchette Regional Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://touchette.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5900 Bond Avenue"
+        ],
+        "city": "Cahokia Heights",
+        "state": "IL",
+        "postalCode": "62207",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:70d66ca1-7a82-5ae8-9a6c-e286082a2f8d"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:70d66ca1-7a82-5ae8-9a6c-e286082a2f8d"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ca3824f2-4427-5752-82c9-ca1f9d0a81a4"
+}

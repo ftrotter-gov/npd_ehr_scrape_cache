@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f91fa69-6a6d-59b9-a22d-eea6381f8336",
+    "name": "Central Ms Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fc9bf28c-55c5-52ac-9c90-a6231074f152"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114008901"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 MAXWELL DR"
+        ],
+        "city": "VICKSBURG",
+        "state": "MS",
+        "postalCode": "39180-4476"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1673"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1673.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f91fa69-6a6d-59b9-a22d-eea6381f8336"
+}

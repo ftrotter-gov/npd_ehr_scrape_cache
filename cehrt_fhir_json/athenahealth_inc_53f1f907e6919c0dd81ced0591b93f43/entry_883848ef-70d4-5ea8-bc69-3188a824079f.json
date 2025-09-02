@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "883848ef-70d4-5ea8-bc69-3188a824079f",
+    "name": "Harrison Endo Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0f2721c3-85ca-5019-92ee-6d0b25be3743"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568858686"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942254347"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "620 Essex Street",
+          "3rd Floor"
+        ],
+        "city": "HARRISON",
+        "state": "NJ",
+        "postalCode": "07029-2134"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2983"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2983.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:883848ef-70d4-5ea8-bc69-3188a824079f"
+}

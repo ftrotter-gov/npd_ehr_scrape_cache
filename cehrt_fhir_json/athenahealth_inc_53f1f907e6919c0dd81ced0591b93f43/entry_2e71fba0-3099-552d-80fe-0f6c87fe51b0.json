@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2e71fba0-3099-552d-80fe-0f6c87fe51b0",
+    "name": "CAMC Primary Care Beckley",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6bb676fc-450f-5122-a70e-f150c553a895"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124248752"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750166898"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "230 GEORGE ST STE 2"
+        ],
+        "city": "BECKLEY",
+        "state": "WV",
+        "postalCode": "25801-2620"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27854"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27854.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2e71fba0-3099-552d-80fe-0f6c87fe51b0"
+}

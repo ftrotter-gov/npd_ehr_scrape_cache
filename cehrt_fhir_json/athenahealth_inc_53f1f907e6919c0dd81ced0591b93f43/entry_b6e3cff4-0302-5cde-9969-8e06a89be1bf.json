@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b6e3cff4-0302-5cde-9969-8e06a89be1bf",
+    "name": "CMG Foothills",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/32f14274-2475-5aab-8db1-c755385c31f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356726939"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5605 E. River Rd",
+          "Ste 219"
+        ],
+        "city": "TUCSON",
+        "state": "AZ",
+        "postalCode": "85750-1900"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-600"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-600.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b6e3cff4-0302-5cde-9969-8e06a89be1bf"
+}

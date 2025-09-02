@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a52a3415-86b6-597f-94b2-bca1d396f85b",
+    "name": "Ouch Urgent Care of Hamilton",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5a3918d9-5795-5d85-a0ba-914c1e361982"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265962708"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1195 Military Street South"
+        ],
+        "city": "HAMILTON",
+        "state": "AL",
+        "postalCode": "35570-5048"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29425"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29425.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a52a3415-86b6-597f-94b2-bca1d396f85b"
+}

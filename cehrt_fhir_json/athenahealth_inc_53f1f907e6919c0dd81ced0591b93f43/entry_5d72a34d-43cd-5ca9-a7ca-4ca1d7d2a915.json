@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5d72a34d-43cd-5ca9-a7ca-4ca1d7d2a915",
+    "name": "Chronic Care Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c7383810-27de-5392-aa96-e1607611083c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376622720"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7171 N. University Drive",
+          "Suite 203"
+        ],
+        "city": "Tamarac",
+        "state": "FL",
+        "postalCode": "33321-2902"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10469"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10469.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5d72a34d-43cd-5ca9-a7ca-4ca1d7d2a915"
+}

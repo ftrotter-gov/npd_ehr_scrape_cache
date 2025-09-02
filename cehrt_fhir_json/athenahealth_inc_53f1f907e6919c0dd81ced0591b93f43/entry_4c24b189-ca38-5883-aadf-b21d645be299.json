@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c24b189-ca38-5883-aadf-b21d645be299",
+    "name": "Post Acute Specialty Hospital LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ecab29c5-afcf-5933-a805-57bfe9b10041"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063715639"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "746 Jefferson ave"
+        ],
+        "city": "SCRANTON",
+        "state": "PA",
+        "postalCode": "18510-1624"
+      },
+      {
+        "line": [
+          "575 river st"
+        ],
+        "city": "WILKES BARRE",
+        "state": "PA",
+        "postalCode": "18764-2634"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6773"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6773.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c24b189-ca38-5883-aadf-b21d645be299"
+}

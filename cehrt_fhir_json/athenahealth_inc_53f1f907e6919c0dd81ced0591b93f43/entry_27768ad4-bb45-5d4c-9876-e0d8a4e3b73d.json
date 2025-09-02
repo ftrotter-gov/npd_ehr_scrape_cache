@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "27768ad4-bb45-5d4c-9876-e0d8a4e3b73d",
+    "name": "Clinton Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/174dac32-b1ca-56d3-b071-a27a5d9f4b64"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154575058"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 Highland St"
+        ],
+        "city": "CLINTON",
+        "state": "MA",
+        "postalCode": "01510-1037"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6537"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6537.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:27768ad4-bb45-5d4c-9876-e0d8a4e3b73d"
+}

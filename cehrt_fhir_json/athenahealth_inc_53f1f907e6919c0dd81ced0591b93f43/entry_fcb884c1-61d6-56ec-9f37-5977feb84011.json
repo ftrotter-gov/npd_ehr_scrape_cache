@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fcb884c1-61d6-56ec-9f37-5977feb84011",
+    "name": "West Columbia Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd1980b6-670f-5f9c-995c-ea27361227ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023011657"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770081028"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "668 W.  Brazos Avenue"
+        ],
+        "city": "WEST COLUMBIA",
+        "state": "TX",
+        "postalCode": "77486-2616"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17497"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17497.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fcb884c1-61d6-56ec-9f37-5977feb84011"
+}

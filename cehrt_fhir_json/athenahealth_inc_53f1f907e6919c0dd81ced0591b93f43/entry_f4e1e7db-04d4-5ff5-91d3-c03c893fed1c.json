@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f4e1e7db-04d4-5ff5-91d3-c03c893fed1c",
+    "name": "Scott Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4dcf7a09-dcca-5956-a23e-86dfb6b9d36b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356689079"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790195717"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "160 Pedro Way"
+        ],
+        "city": "WINCHESTER",
+        "state": "KY",
+        "postalCode": "40391-2933"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19475"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19475.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f4e1e7db-04d4-5ff5-91d3-c03c893fed1c"
+}

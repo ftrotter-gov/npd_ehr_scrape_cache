@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "77f442df-5c37-5e84-9e7a-71449e219df5",
+    "name": "Tate Springs Mammography Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8b5df945-4f0e-5312-a166-538c35b3b3dd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942376579"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770693939"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 Tate Springs Rd"
+        ],
+        "city": "LYNCHBURG",
+        "state": "VA",
+        "postalCode": "24501-1122"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-221"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-221.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:77f442df-5c37-5e84-9e7a-71449e219df5"
+}

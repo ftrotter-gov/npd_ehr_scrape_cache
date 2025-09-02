@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b413084f-7a4c-5029-8487-219431d7c9c9",
+    "name": "Lone Peak Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35018678-52a4-5d8c-8517-cc92cd1343d4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396761193"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11925 S STATE ST"
+        ],
+        "city": "DRAPER",
+        "state": "UT",
+        "postalCode": "84020-7735"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15147"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15147.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b413084f-7a4c-5029-8487-219431d7c9c9"
+}

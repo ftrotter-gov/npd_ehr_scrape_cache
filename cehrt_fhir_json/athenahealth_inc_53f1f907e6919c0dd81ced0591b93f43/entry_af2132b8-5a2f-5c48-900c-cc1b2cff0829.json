@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "af2132b8-5a2f-5c48-900c-cc1b2cff0829",
+    "name": "Complex Care Tenaya",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0f5a3383-c135-5e49-9423-22123a3a12b8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952760480"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 N Tenaya Way"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89128-0482"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12846"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12846.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:af2132b8-5a2f-5c48-900c-cc1b2cff0829"
+}

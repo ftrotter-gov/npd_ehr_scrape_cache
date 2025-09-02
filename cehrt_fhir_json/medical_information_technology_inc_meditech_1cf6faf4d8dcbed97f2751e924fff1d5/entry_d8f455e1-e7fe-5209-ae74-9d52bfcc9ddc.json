@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d8f455e1-e7fe-5209-ae74-9d52bfcc9ddc",
+    "meta": {
+      "lastUpdated": "2022-06-02T22:51:05.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://fhn.org/locations.asp?id=11"
+      }
+    ],
+    "name": "FHN Memorial Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://fhn.org/locations.asp?id=11"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1045 West Stephenson Street"
+        ],
+        "city": "Freeport",
+        "state": "IL",
+        "postalCode": "61032",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:eb4b8858-b4ad-5c5d-9397-4ea7db73ba56"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:eb4b8858-b4ad-5c5d-9397-4ea7db73ba56"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d8f455e1-e7fe-5209-ae74-9d52bfcc9ddc"
+}

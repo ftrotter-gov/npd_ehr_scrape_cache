@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e8eb6858-c24c-5cd3-bc1f-7cba18a02855",
+    "name": "John Muir Health Center-OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/40278eea-55ef-5c76-9bb7-8e804d45f568"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265443303"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2540 East Street"
+        ],
+        "city": "CONCORD",
+        "state": "CA",
+        "postalCode": "94520-1906"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13364"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13364.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e8eb6858-c24c-5cd3-bc1f-7cba18a02855"
+}

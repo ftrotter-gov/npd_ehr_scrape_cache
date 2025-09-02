@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDSF-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDSF"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Long Island Thoracic",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5162555010"
+      },
+      {
+        "system": "fax",
+        "value": "5162555020"
+      }
+    ],
+    "address": [
+      {
+        "text": "444 Merrick Road, Suite 102 Lynbrook NY 115632465 US",
+        "line": [
+          "444 Merrick Road, Suite 102"
+        ],
+        "city": "Lynbrook",
+        "state": "NY",
+        "postalCode": "115632465",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDSF-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDSF-Organization-3"
+}

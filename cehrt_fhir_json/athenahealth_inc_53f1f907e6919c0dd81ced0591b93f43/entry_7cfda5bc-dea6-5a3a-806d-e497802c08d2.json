@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7cfda5bc-dea6-5a3a-806d-e497802c08d2",
+    "name": "GRIFFIN HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7b01a55b-0298-5a95-9f9f-2063f0bcfcb5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801826680"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "130 DIVISION ST"
+        ],
+        "city": "DERBY",
+        "state": "CT",
+        "postalCode": "06418-1326"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10170"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10170.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7cfda5bc-dea6-5a3a-806d-e497802c08d2"
+}

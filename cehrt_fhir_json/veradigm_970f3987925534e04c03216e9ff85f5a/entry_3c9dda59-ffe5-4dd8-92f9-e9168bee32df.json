@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3c9dda59-ffe5-4dd8-92f9-e9168bee32df",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "f5e09829-c3f7-477c-b367-876a42f5cd62",
+        "name": "Bone & Joint Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Bone & Joint Center",
+    "managingOrganization": {
+      "reference": "#f5e09829-c3f7-477c-b367-876a42f5cd62"
+    },
+    "period": {
+      "start": "2018-06-18T14:03:53+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10029141"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10029141"
+}

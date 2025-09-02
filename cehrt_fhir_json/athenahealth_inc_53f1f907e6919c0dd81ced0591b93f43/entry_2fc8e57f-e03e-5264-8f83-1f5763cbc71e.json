@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2fc8e57f-e03e-5264-8f83-1f5763cbc71e",
+    "name": "Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/941da9eb-c0c7-547f-acf7-dba7630f3e4a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245735349"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508830340"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 E 10th St"
+        ],
+        "city": "ANNISTON",
+        "state": "AL",
+        "postalCode": "36207-4716"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12011"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12011.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2fc8e57f-e03e-5264-8f83-1f5763cbc71e"
+}

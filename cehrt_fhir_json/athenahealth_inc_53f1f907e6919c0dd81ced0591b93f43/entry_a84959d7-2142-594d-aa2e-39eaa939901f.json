@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a84959d7-2142-594d-aa2e-39eaa939901f",
+    "name": "Medical Clinic of Houston",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e8da8f44-d925-5d65-940f-2c7a4b3aa2e1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972539492"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1701 SUNSET BLVD"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77005-1713"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4615"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4615.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a84959d7-2142-594d-aa2e-39eaa939901f"
+}

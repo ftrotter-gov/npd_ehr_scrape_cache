@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTAxNl8xMDE2XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "523.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598101388"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Village Pediatrics PC GA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "678-288-4142",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "678-288-4143",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "Village Pediatrics,1862 Auburn Road Suite 107 Dacula, GA 300191677",
+        "line": [
+          "Village Pediatrics,1862 Auburn Road",
+          "Suite 107"
+        ],
+        "city": "Dacula",
+        "state": "GA",
+        "postalCode": "300191677",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTAxNl8xMDE2XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTAxNl8xMDE2XzMwNjA"
+}

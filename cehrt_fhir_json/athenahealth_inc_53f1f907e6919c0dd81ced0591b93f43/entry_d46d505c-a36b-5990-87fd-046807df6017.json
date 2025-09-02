@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d46d505c-a36b-5990-87fd-046807df6017",
+    "name": "UW Hospitals and Clinics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47dbc6ac-bf40-5341-9021-4e19054fc0d1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689628802"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 HIGHLAND AVE"
+        ],
+        "city": "MADISON",
+        "state": "WI",
+        "postalCode": "53792-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14801"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14801.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d46d505c-a36b-5990-87fd-046807df6017"
+}

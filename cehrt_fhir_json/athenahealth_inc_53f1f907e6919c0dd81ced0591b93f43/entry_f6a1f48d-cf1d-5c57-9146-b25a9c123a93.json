@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f6a1f48d-cf1d-5c57-9146-b25a9c123a93",
+    "name": "WiseCare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7102018d-fd31-5a6f-9bb4-6f1e0f331f6e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437847837"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7455 N FRESNO ST"
+        ],
+        "city": "FRESNO",
+        "state": "CA",
+        "postalCode": "93720-2480"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28816"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28816.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f6a1f48d-cf1d-5c57-9146-b25a9c123a93"
+}

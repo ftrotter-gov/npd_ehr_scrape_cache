@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "09c1ed61-9f6d-5086-8621-b0413a7c6f46",
+    "name": "FirstHealth MRH IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1fa3ceec-34b9-594e-a9b7-1de143c8ca22"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932486289"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "155 Memorial Drive"
+        ],
+        "city": "Pinehurst",
+        "state": "NC",
+        "postalCode": "28374-8710"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1434"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1434.Brand-21"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:09c1ed61-9f6d-5086-8621-b0413a7c6f46"
+}

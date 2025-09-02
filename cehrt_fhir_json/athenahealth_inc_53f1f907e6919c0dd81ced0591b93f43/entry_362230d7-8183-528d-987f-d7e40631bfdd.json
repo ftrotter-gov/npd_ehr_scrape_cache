@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "362230d7-8183-528d-987f-d7e40631bfdd",
+    "name": "Milford Physician Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2a9aba3f-7f44-5108-92de-c942ab6c1145"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891728960"
+      }
+    ],
+    "address": [
+      {
+        "line": [],
+        "city": "MILFORD",
+        "state": "CT",
+        "postalCode": "06460-3278"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6642"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6642.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:362230d7-8183-528d-987f-d7e40631bfdd"
+}

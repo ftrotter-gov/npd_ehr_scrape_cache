@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "cd4a40ff-8bbc-4af2-9995-9dc545e0e73a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d03dcdd0-ccef-416a-a621-e7c3d3c927d3",
+        "name": "Chancellor Internal Medicine"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Chancellor Internal Medicine",
+    "managingOrganization": {
+      "reference": "#d03dcdd0-ccef-416a-a621-e7c3d3c927d3"
+    },
+    "period": {
+      "start": "2018-08-03T07:19:07+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/9311"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/9311"
+}

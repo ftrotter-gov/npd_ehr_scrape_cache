@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae4897a7-aa79-53d0-a049-feb8500b9250",
+    "name": "ACE Healthcare Services Primary Care Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3450f843-a393-5fee-ab34-8da90629de5d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467137463"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5223 WEST WOODMILL DR STE 41"
+        ],
+        "city": "WILMINGTON",
+        "state": "DE",
+        "postalCode": "19808-4068"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30407"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30407.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae4897a7-aa79-53d0-a049-feb8500b9250"
+}

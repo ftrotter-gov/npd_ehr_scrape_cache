@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM18L-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM18L"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Howell County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4172567078"
+      },
+      {
+        "system": "fax",
+        "value": "4172561179"
+      },
+      {
+        "system": "url",
+        "value": "howellcountyhealth.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "180 KENTUCKY AVE WEST PLAINS MO 65775 US",
+        "line": [
+          "180 KENTUCKY AVE"
+        ],
+        "city": "WEST PLAINS",
+        "state": "MO",
+        "postalCode": "65775",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM18L-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM18L-Organization-2"
+}

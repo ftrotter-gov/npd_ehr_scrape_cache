@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa6aaf76-5244-572f-9517-aca05dfff7a9",
+    "name": "Health Tapestry",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2c57c1b-247a-5e9c-9952-58c36c40ebcd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053347294"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "121 W MAIN STREET"
+        ],
+        "city": "EMMITSBURG",
+        "state": "MD",
+        "postalCode": "21727-9220"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23323"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23323.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa6aaf76-5244-572f-9517-aca05dfff7a9"
+}

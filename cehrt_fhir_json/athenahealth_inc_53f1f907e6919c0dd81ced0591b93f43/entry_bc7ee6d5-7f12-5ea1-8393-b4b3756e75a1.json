@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bc7ee6d5-7f12-5ea1-8393-b4b3756e75a1",
+    "name": "SALTILLO MEDICAL CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2a05e12e-74d7-5472-a083-5af46afb4a68"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053469486"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396849329"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "125 TURNER PARK ROAD"
+        ],
+        "city": "SALTILLO",
+        "state": "MS",
+        "postalCode": "38866-6801"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8056"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8056.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bc7ee6d5-7f12-5ea1-8393-b4b3756e75a1"
+}

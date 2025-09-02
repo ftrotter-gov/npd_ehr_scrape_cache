@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d8ff58d8-7fd1-5f82-8f5b-f450b4e554e2",
+    "name": "Bay Street Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7bd6666d-380d-5bb0-87d7-6329066d868c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093381063"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "403 BAY STREET"
+        ],
+        "city": "GADSDEN",
+        "state": "AL",
+        "postalCode": "35901-5107"
+      },
+      {
+        "line": [
+          "403 Bay Street"
+        ],
+        "city": "GADSDEN",
+        "state": "AL",
+        "postalCode": "35901-5107"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23678"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23678.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d8ff58d8-7fd1-5f82-8f5b-f450b4e554e2"
+}

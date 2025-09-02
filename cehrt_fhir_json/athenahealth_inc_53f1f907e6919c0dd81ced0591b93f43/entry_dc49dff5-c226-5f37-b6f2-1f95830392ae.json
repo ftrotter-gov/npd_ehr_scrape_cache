@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dc49dff5-c226-5f37-b6f2-1f95830392ae",
+    "name": "After Hours Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e5ac7949-243e-543f-9228-998fbcab4f6f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144724261"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1001 Little Oak Way"
+        ],
+        "city": "ROUND ROCK",
+        "state": "TX",
+        "postalCode": "78681-5516"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11316"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11316.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dc49dff5-c226-5f37-b6f2-1f95830392ae"
+}

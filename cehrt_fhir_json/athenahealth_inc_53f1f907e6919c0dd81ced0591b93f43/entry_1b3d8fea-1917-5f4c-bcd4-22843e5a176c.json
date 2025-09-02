@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1b3d8fea-1917-5f4c-bcd4-22843e5a176c",
+    "name": "NORTH AUSTIN MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5975c4ec-a997-5cdf-90a4-657faf85730e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912107178"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12221 N. MOPAC EXPWY"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78757-2496"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1312"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1312.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1b3d8fea-1917-5f4c-bcd4-22843e5a176c"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "058983c7-11e2-5389-82d2-e1fdbeb800d8",
+    "name": "Madison Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e6e87141-f2dc-5e46-8fb5-61a1a2e54dab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "125 N. MAIN STREET"
+        ],
+        "city": "MADISON",
+        "state": "VA",
+        "postalCode": "22727-3035"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29319"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29319.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:058983c7-11e2-5389-82d2-e1fdbeb800d8"
+}

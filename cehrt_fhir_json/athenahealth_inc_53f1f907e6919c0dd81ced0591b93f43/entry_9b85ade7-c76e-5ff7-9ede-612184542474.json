@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9b85ade7-c76e-5ff7-9ede-612184542474",
+    "name": "Decatur General Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e515466a-907c-511c-88bb-e239ac488ec7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285904276"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 7TH ST. SE"
+        ],
+        "city": "DECATUR",
+        "state": "AL",
+        "postalCode": "35601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5138"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5138.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9b85ade7-c76e-5ff7-9ede-612184542474"
+}

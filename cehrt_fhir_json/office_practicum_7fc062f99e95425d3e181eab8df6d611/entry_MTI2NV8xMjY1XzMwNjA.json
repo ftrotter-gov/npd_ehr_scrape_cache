@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTI2NV8xMjY1XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "623.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417492828"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pediatric Care Specialist PA KS",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "913-906-0900",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "913-906-0909",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "7400 West 129th St Suite 200 Overland Park, KS 662132301",
+        "line": [
+          "7400 West 129th St",
+          "Suite 200"
+        ],
+        "city": "Overland Park",
+        "state": "KS",
+        "postalCode": "662132301",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTI2NV8xMjY1XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTI2NV8xMjY1XzMwNjA"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c3d36d5-ea54-5a2b-99ce-46432b280ea1",
+    "name": "St Mary's Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/48cffa1f-68ad-5690-9a17-c1a79718c9db"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336323484"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2233 West Division St"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60622-8151"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10790"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10790.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c3d36d5-ea54-5a2b-99ce-46432b280ea1"
+}

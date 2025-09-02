@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "acfcbd5d-3602-46bf-9761-3d57faa26cc5",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "dfaa2476-8c6c-40f0-a9d5-01b1fe63ab55",
+        "name": "South FL Vascular Associates"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "South FL Vascular Associates",
+    "managingOrganization": {
+      "reference": "#dfaa2476-8c6c-40f0-a9d5-01b1fe63ab55"
+    },
+    "period": {
+      "start": "2020-04-10T18:31:11+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10373841"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10373841"
+}

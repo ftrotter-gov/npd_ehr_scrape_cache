@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1fc09719-3cf6-5963-8f05-e0084c4b3f31",
+    "name": "Best Care Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/16cd6b39-3af7-5ac1-ae4f-c4cd9ffbf764"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073296364"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11331 OLD HAMMOND HWY STE A"
+        ],
+        "city": "BATON ROUGE",
+        "state": "LA",
+        "postalCode": "70816-8461"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29060"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29060.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1fc09719-3cf6-5963-8f05-e0084c4b3f31"
+}

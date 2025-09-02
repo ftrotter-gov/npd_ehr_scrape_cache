@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e3fe71be-0bb5-54db-9454-6bd90b9cc115",
+    "name": "Primary Care First",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/147b434b-de80-508c-8219-1366bc7d862e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972011450"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2544 Nottingham Way"
+        ],
+        "city": "TRENTON",
+        "state": "NJ",
+        "postalCode": "08619-4104"
+      },
+      {
+        "line": [
+          "170 AVENUE AT THE CMN STE 2"
+        ],
+        "city": "SHREWSBURY",
+        "state": "NJ",
+        "postalCode": "07702-4568"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26112"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26112.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e3fe71be-0bb5-54db-9454-6bd90b9cc115"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "83ca461f-11cb-58bb-a0da-5c41e2f76cb1",
+    "name": "Barrett Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/56a95b32-001b-5598-9475-8167cfac9f11"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215340096"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8074 SOUTH 84TH STREET"
+        ],
+        "city": "LAVISTA",
+        "state": "NE",
+        "postalCode": "68128-3303"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10185"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10185.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:83ca461f-11cb-58bb-a0da-5c41e2f76cb1"
+}

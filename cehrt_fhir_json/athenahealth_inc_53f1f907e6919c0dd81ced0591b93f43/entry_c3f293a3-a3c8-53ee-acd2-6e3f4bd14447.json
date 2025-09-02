@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c3f293a3-a3c8-53ee-acd2-6e3f4bd14447",
+    "name": "Virginia Gary Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7e900212-ea26-58a2-9c4b-461c1c9006f8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215920020"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "502 N 9th Avenue"
+        ],
+        "city": "VINTON",
+        "state": "IA",
+        "postalCode": "52349-2254"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15186"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15186.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c3f293a3-a3c8-53ee-acd2-6e3f4bd14447"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "28ce91df-1307-5ec8-9213-22bc25e4a902",
+    "name": "Westgate Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2db2c4a2-c65c-52cd-9951-10eea748761e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467914259"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7330 N. 99th Ave",
+          "Ste 100"
+        ],
+        "city": "GLENDALE",
+        "state": "AZ",
+        "postalCode": "85307-3015"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19670"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19670.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:28ce91df-1307-5ec8-9213-22bc25e4a902"
+}

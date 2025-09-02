@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ef58fcfe-dc7f-50ce-a95f-d5aa760a2efd",
+    "name": "Bayfront Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6f517a6-66a9-5ce7-b2f6-df67538fbb60"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518572551"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285240192"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "701 6TH ST S"
+        ],
+        "city": "SAINT PETERSBURG",
+        "state": "FL",
+        "postalCode": "33701-4891"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21683"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21683.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ef58fcfe-dc7f-50ce-a95f-d5aa760a2efd"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a9de92b-9262-5936-8b2e-3726863e4695",
+    "name": "Premier Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37412a59-8354-5309-a8ed-a84406c2aba5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740831049"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "One Greentree Center",
+          "10000 Lincoln Dr, Suite 301"
+        ],
+        "city": "MARLTON",
+        "state": "NJ",
+        "postalCode": "08053-3105"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6563"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6563.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a9de92b-9262-5936-8b2e-3726863e4695"
+}

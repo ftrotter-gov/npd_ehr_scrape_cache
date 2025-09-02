@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e1891113-4230-4791-a154-3d5f1eab80f6",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c816c77a-1570-4b64-ac9b-5a4221eb2c05",
+        "name": "Hewitt Davis and Lyons"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Hewitt Davis and Lyons",
+    "managingOrganization": {
+      "reference": "#c816c77a-1570-4b64-ac9b-5a4221eb2c05"
+    },
+    "period": {
+      "start": "2023-04-26T10:14:09+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0004513"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0004513"
+}

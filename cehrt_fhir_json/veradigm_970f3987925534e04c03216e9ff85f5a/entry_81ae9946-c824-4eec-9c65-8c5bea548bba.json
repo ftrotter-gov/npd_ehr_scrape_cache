@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "81ae9946-c824-4eec-9c65-8c5bea548bba",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4093f35b-4fae-4a2b-852e-34fdd8dc88da",
+        "name": "Dallas County Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dallas County Hospital",
+    "managingOrganization": {
+      "reference": "#4093f35b-4fae-4a2b-852e-34fdd8dc88da"
+    },
+    "period": {
+      "start": "2019-11-04T18:39:38+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10159240"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10159240"
+}

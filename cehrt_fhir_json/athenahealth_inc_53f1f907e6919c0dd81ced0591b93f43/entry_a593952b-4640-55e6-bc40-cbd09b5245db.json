@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a593952b-4640-55e6-bc40-cbd09b5245db",
+    "name": "The Grove of Evanston",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c8535f89-3b3a-51cf-be3f-a893e03f254a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619258118"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 Asbury Avenue"
+        ],
+        "city": "EVANSTON",
+        "state": "IL",
+        "postalCode": "60202-2724"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3770"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3770.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a593952b-4640-55e6-bc40-cbd09b5245db"
+}

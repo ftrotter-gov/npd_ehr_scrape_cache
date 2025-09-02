@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "67c7f031-80bd-53b2-9be0-3c51c240b284",
+    "name": "GHC Marathon",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff8294f0-ff65-5183-867a-407db3e53a24"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5800 Overseas Hwy",
+          "St 36"
+        ],
+        "city": "MARATHON",
+        "state": "FL",
+        "postalCode": "33050-3513"
+      },
+      {
+        "line": [
+          "91555 OVERSEAS HWY STE 2"
+        ],
+        "city": "TAVERNIER",
+        "state": "FL",
+        "postalCode": "33070-2505"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15032"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15032.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:67c7f031-80bd-53b2-9be0-3c51c240b284"
+}

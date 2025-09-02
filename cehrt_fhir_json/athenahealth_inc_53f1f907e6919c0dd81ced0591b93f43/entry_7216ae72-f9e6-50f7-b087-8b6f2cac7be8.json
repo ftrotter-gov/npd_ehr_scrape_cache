@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7216ae72-f9e6-50f7-b087-8b6f2cac7be8",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/983ccb38-a77e-5d21-91d6-7bea259822bd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326113861"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7768 NW 44TH STREET",
+          "SUITE A"
+        ],
+        "city": "FORT LAUDERDALE",
+        "state": "FL",
+        "postalCode": "33351-6204"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9779"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9779.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7216ae72-f9e6-50f7-b087-8b6f2cac7be8"
+}

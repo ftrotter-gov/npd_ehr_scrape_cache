@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "afc40ed1-88fd-54bc-9531-90518ee04222",
+    "name": "St. David's Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df006be3-d5f6-5b14-8531-e6292426be3b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003836404"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "919 E 32ND ST"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78705-2703"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8247"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8247.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:afc40ed1-88fd-54bc-9531-90518ee04222"
+}

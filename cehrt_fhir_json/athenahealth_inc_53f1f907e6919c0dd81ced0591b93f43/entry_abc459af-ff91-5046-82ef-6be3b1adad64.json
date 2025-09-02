@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "abc459af-ff91-5046-82ef-6be3b1adad64",
+    "name": "CWHC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eaf3e96a-2969-58c1-89e0-05432cf672dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922122506"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3200 Highlands Pkwy",
+          "SUITE 250"
+        ],
+        "city": "SMYRNA",
+        "state": "GA",
+        "postalCode": "30082-4888"
+      },
+      {
+        "line": [
+          "3200 Highlands Parkway SE",
+          "Suite 250"
+        ],
+        "city": "SMYRNA",
+        "state": "GA",
+        "postalCode": "30082-5161"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8768"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8768.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:abc459af-ff91-5046-82ef-6be3b1adad64"
+}

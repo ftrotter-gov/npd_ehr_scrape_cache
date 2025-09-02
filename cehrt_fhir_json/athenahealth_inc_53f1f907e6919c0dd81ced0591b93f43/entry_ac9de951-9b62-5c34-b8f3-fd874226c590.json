@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ac9de951-9b62-5c34-b8f3-fd874226c590",
+    "name": "HealthWorks",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35b6fd9f-056a-5a54-bdbf-c41e7d6eaab5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043769722"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "880 CARILLON PKWY Tower 2 Floor 1"
+        ],
+        "city": "SAINT PETERSBURG",
+        "state": "FL",
+        "postalCode": "33716-1131"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14940"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14940.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ac9de951-9b62-5c34-b8f3-fd874226c590"
+}

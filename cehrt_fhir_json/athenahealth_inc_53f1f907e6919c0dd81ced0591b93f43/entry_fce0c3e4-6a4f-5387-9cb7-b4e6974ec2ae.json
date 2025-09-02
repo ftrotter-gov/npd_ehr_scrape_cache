@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fce0c3e4-6a4f-5387-9cb7-b4e6974ec2ae",
+    "name": "DaVita Yakima Dialysis Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/82881bd3-c8c8-56e3-b10d-287790289834"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831682806"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1221 N 16th Ave"
+        ],
+        "city": "YAKIMA",
+        "state": "WA",
+        "postalCode": "98902-1347"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18485"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18485.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fce0c3e4-6a4f-5387-9cb7-b4e6974ec2ae"
+}

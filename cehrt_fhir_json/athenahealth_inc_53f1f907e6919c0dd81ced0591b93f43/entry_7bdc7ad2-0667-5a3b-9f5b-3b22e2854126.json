@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7bdc7ad2-0667-5a3b-9f5b-3b22e2854126",
+    "name": "Southern Tennessee Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b3e31f7e-04ed-534e-8436-04f2dd60254c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063817625"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "185 Hospital Road"
+        ],
+        "city": "Winchester",
+        "state": "TN",
+        "postalCode": "37398-2404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1292"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1292.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7bdc7ad2-0667-5a3b-9f5b-3b22e2854126"
+}

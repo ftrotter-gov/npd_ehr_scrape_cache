@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "acdaa6af-1720-5707-a18b-c83b8f23c02d",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58567e68-2231-5cf4-94b8-c7bb3a9e3317"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871669358"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1340 BLVD SE"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30315-3016"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15540"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15540.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:acdaa6af-1720-5707-a18b-c83b8f23c02d"
+}

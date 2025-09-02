@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "69b01410-46b5-593d-9ff6-8c2b63b8b6fa",
+    "name": "STM IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3877f756-6bc0-5add-b403-ae6c78f3322f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588401384"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1200 E 3900 S"
+        ],
+        "city": "SALT LAKE CITY",
+        "state": "UT",
+        "postalCode": "84124-1300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30853"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30853.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:69b01410-46b5-593d-9ff6-8c2b63b8b6fa"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9d439f12-c1ab-5ccd-b1a1-38b3f0cc536a",
+    "name": "Herman Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0da68cd0-64c9-5961-a9ce-5d7ae64ae4ac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659410009"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "204 Fifth St East"
+        ],
+        "city": "HERMAN",
+        "state": "MN",
+        "postalCode": "56248-9673"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13664"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13664.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9d439f12-c1ab-5ccd-b1a1-38b3f0cc536a"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0281ddc1-2795-552e-a4b4-856f553a7522",
+    "name": "Parke Clinic Billing",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8b5aa8f4-ba6e-5750-8a93-6dad58b67be8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497760144"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "803 S 3RD ST",
+          "PO BOX 266"
+        ],
+        "city": "CLINTON",
+        "state": "IN",
+        "postalCode": "47842-0266"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26599"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26599.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0281ddc1-2795-552e-a4b4-856f553a7522"
+}

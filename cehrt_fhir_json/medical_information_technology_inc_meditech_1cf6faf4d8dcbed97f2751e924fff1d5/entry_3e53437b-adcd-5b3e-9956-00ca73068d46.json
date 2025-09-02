@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3e53437b-adcd-5b3e-9956-00ca73068d46",
+    "meta": {
+      "lastUpdated": "2023-02-11T01:07:13.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://pchne.org"
+      }
+    ],
+    "name": "Pender Community Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://pchne.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Hospital Drive"
+        ],
+        "city": "Pender",
+        "state": "NE",
+        "postalCode": "68047",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:aa02f311-1e34-5ebc-84bc-fcc9ddf785cd"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:aa02f311-1e34-5ebc-84bc-fcc9ddf785cd"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3e53437b-adcd-5b3e-9956-00ca73068d46"
+}

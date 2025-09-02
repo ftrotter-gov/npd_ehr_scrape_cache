@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56e3603e-8c76-5fe6-94b8-a640e9f401e5",
+    "name": "Select Specialty Hospital-Phoenix",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37d8cb4d-dd68-5215-8201-4661cf283863"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407094436"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891933560"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659316008"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "350 W Thomas Rd"
+        ],
+        "city": "Phoenix",
+        "state": "AZ",
+        "postalCode": "85013-4409"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2697"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2697.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56e3603e-8c76-5fe6-94b8-a640e9f401e5"
+}

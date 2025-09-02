@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5adac5af-3de1-5389-ab81-ccd51942462c",
+    "name": "MedMan Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/88283b19-3ee4-5b23-92bf-6596f7a67725"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548890460"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "801 N Stilson Road Ste 100"
+        ],
+        "city": "BOISE",
+        "state": "ID",
+        "postalCode": "83703-5145"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20796"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20796.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5adac5af-3de1-5389-ab81-ccd51942462c"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "b71b11c8-f03f-4bf3-9978-b44816f508d9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "cc3162b9-e159-4e48-927b-2d2d810792b4",
+        "name": "Arthritis  Pain Assoc Of Pg County"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Arthritis  Pain Assoc Of Pg County",
+    "managingOrganization": {
+      "reference": "#cc3162b9-e159-4e48-927b-2d2d810792b4"
+    },
+    "period": {
+      "start": "2018-06-25T16:43:00+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10040076"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10040076"
+}

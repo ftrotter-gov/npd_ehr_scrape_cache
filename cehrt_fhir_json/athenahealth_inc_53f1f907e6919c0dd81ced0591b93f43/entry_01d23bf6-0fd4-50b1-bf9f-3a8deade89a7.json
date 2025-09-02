@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "01d23bf6-0fd4-50b1-bf9f-3a8deade89a7",
+    "name": "CMC Union Inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/40e9aed6-6d2a-54b2-be1d-4490dda3daaf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457601601"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 Hospital Drive"
+        ],
+        "city": "MONROE",
+        "state": "NC",
+        "postalCode": "28112-6000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11945"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11945.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:01d23bf6-0fd4-50b1-bf9f-3a8deade89a7"
+}

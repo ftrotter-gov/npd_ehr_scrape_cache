@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0ab4d9fc-8d8f-5561-9cb4-a2c0a3288944",
+    "name": "HealthFirst at Central Street",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/89b408ed-64dd-5ff5-bb86-e29ed3a495cd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134180367"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "841 Central St"
+        ],
+        "city": "FRANKLIN",
+        "state": "NH",
+        "postalCode": "03235-2026"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28435"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28435.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0ab4d9fc-8d8f-5561-9cb4-a2c0a3288944"
+}

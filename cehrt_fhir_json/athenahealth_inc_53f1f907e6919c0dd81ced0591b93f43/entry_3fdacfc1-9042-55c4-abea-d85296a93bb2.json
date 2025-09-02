@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3fdacfc1-9042-55c4-abea-d85296a93bb2",
+    "name": "Cumberland Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff00f5e2-86d3-5f18-bcb6-ce4a1b1b4ebd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831243757"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1110 7th Avenue"
+        ],
+        "city": "CUMBERLAND",
+        "state": "WI",
+        "postalCode": "54829-9138"
+      },
+      {
+        "line": [
+          "1110 7th Ave"
+        ],
+        "city": "CUMBERLAND",
+        "state": "WI",
+        "postalCode": "54829-9138"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16857"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16857.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3fdacfc1-9042-55c4-abea-d85296a93bb2"
+}

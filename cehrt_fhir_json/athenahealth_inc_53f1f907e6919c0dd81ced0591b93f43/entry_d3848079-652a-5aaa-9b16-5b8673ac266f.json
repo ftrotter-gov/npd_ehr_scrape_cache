@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d3848079-652a-5aaa-9b16-5b8673ac266f",
+    "name": "Knoxville Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/28463b08-6c40-5a10-877d-a269f94a6865"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639826324"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9314 PARK WEST BLVD STE 404"
+        ],
+        "city": "KNOXVILLE",
+        "state": "TN",
+        "postalCode": "37923-4329"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26086"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26086.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d3848079-652a-5aaa-9b16-5b8673ac266f"
+}

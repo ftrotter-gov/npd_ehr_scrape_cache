@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "NzcyXzc3Ml8zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "441.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144345737"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Southwest Childrens Clinic",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "801-563-1975",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "801-563-1984",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "Southwest Children's Clinic 8822 So Redwood Rd,  C211 West Jordan, UT 840888811",
+        "line": [
+          "Southwest Children's Clinic",
+          "8822 So Redwood Rd,  C211"
+        ],
+        "city": "West Jordan",
+        "state": "UT",
+        "postalCode": "840888811",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/NzcyXzc3Ml8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/NzcyXzc3Ml8zMDYw"
+}

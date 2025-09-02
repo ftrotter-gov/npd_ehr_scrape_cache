@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dbdeed25-0428-5a82-932e-9e118ab71eb1",
+    "name": "Dental Clinic Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf702da3-d577-5dc4-832e-6f33bdfbbdc1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659415131"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1501 Imperial Ave"
+        ],
+        "city": "SAN DIEGO",
+        "state": "CA",
+        "postalCode": "92101-7638"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12525"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12525.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dbdeed25-0428-5a82-932e-9e118ab71eb1"
+}

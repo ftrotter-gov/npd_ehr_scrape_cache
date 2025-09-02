@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e034c1bd-e567-5476-92dc-36b52b981f21",
+    "name": "Doctors Hospital of Sarasota-ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/261028e4-49c8-5954-a976-d2d9222113dd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942658893"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5731 Bee Ridge Road"
+        ],
+        "city": "SARASOTA",
+        "state": "FL",
+        "postalCode": "34233-5056"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-257"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-257.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e034c1bd-e567-5476-92dc-36b52b981f21"
+}

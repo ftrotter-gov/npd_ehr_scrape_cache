@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1707a18f-39b7-54d7-8936-dae9ad59234c",
+    "name": "Alina Health Medical Center - Mental Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/116cc250-2c42-5266-9c2a-bb4e164a031d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194459297"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144975418"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4800 N STATE ROAD 7",
+          "SUITE ABCD"
+        ],
+        "city": "Lauderdale Lakes",
+        "state": "FL",
+        "postalCode": "33319-5811"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28368"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28368.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1707a18f-39b7-54d7-8936-dae9ad59234c"
+}

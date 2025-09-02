@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2e212e82-9482-578d-9155-78a067fd7b49",
+    "name": "University Skin Oncology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4c5c5bed-0c25-51a5-a80f-80066e806e21"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730526484"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "480 Maple Street",
+          "SUITE 103"
+        ],
+        "city": "DANVERS",
+        "state": "MA",
+        "postalCode": "01923-4067"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7911"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7911.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2e212e82-9482-578d-9155-78a067fd7b49"
+}

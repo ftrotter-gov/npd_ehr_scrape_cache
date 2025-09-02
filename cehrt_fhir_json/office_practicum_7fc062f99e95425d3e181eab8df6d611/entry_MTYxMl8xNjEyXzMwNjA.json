@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTYxMl8xNjEyXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "666.PRACTICE"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Island Coast Pediatrics PA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "239-768-2111",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "239-482-4404",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "632 Del Prado Blvd N Suite 301 Cape Coral, FL 33909",
+        "line": [
+          "632 Del Prado Blvd N",
+          "Suite 301"
+        ],
+        "city": "Cape Coral",
+        "state": "FL",
+        "postalCode": "33909",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTYxMl8xNjEyXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTYxMl8xNjEyXzMwNjA"
+}

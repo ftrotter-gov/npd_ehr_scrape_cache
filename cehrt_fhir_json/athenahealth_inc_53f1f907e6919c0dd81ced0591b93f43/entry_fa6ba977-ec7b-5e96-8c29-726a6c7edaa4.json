@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa6ba977-ec7b-5e96-8c29-726a6c7edaa4",
+    "name": "Previvor Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e07b1669-a93c-5f0d-afaf-c5c3f94a426e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760258545"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 EAST 65TH STREET",
+          "28N"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10065-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30057"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30057.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa6ba977-ec7b-5e96-8c29-726a6c7edaa4"
+}

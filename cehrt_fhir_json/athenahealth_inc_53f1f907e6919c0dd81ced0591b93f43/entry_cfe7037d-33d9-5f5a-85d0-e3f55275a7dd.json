@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cfe7037d-33d9-5f5a-85d0-e3f55275a7dd",
+    "name": "The Headache Lab",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ace638e5-be19-5416-9bd9-e20b46111f9d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891984068"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9760 S KEDZIE AVE",
+          "STE 2"
+        ],
+        "city": "EVERGREEN PARK",
+        "state": "IL",
+        "postalCode": "60805-3182"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27901"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27901.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cfe7037d-33d9-5f5a-85d0-e3f55275a7dd"
+}

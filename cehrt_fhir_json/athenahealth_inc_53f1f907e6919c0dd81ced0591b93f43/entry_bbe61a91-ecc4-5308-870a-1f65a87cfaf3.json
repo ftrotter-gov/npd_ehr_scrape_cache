@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bbe61a91-ecc4-5308-870a-1f65a87cfaf3",
+    "name": "PGAR_Patients Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2c842539-bdba-5d36-b3a8-f7d968b1048e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093060824"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9 Galen St"
+        ],
+        "city": "WATERTOWN",
+        "state": "MA",
+        "postalCode": "02472-4515"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19036"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19036.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bbe61a91-ecc4-5308-870a-1f65a87cfaf3"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "230f1303-3486-5475-aaea-2cedac4867b5",
+    "name": "Natchez Anesthesia",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/34804945-1bf8-5cff-8fdb-9d342ac8bbac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386684199"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "129 Jefferson Davis Blvd"
+        ],
+        "city": "NATCHEZ",
+        "state": "MS",
+        "postalCode": "39120-5103"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-15"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:230f1303-3486-5475-aaea-2cedac4867b5"
+}

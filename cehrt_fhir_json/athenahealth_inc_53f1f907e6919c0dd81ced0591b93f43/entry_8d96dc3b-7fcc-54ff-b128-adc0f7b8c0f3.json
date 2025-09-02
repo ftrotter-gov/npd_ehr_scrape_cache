@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8d96dc3b-7fcc-54ff-b128-adc0f7b8c0f3",
+    "name": "Riverside Methodist Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3fe18761-2e93-5618-9fac-4402c43f2cc6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427081330"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801915293"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "797 Thomas Lane"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43214-3903"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-924"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-924.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8d96dc3b-7fcc-54ff-b128-adc0f7b8c0f3"
+}

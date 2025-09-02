@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8c7c5b21-628d-5791-a59d-4e603eca87e5",
+    "name": "East Jefferson General Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fb589f69-4944-5bd9-8285-67e23702e40b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326090077"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4200 Houma Blvd"
+        ],
+        "city": "METAIRIE",
+        "state": "LA",
+        "postalCode": "70006-2970"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20631"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20631.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8c7c5b21-628d-5791-a59d-4e603eca87e5"
+}

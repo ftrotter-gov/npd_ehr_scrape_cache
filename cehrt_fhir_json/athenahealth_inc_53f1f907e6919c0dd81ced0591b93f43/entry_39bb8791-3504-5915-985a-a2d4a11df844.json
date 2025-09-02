@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "39bb8791-3504-5915-985a-a2d4a11df844",
+    "name": "McLeod Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2a9d1a43-235d-5c83-8fe0-b81e701644af"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588041545"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "555 E.Cheves Street"
+        ],
+        "city": "FLORENCE",
+        "state": "SC",
+        "postalCode": "29506-2606"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11599"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11599.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:39bb8791-3504-5915-985a-a2d4a11df844"
+}

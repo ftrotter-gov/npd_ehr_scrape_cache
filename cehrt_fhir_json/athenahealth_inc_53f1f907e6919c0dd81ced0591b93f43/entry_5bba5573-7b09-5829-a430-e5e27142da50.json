@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5bba5573-7b09-5829-a430-e5e27142da50",
+    "name": "Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5b2da7c8-2401-5977-b70b-abbe2f65bd0d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588775647"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1041 W STEARNS RD"
+        ],
+        "city": "BARTLETT",
+        "state": "IL",
+        "postalCode": "60103-4509"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-380"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-380.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5bba5573-7b09-5829-a430-e5e27142da50"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9e5785d8-9fe8-5b39-8e8b-1e9e9041935b",
+    "name": "ABC Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/666c25f9-bce4-5add-871c-a073bcb4abdc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649335290"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "131 DRUM POINT RD"
+        ],
+        "city": "BRICK",
+        "state": "NJ",
+        "postalCode": "08723-6221"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26292"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26292.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9e5785d8-9fe8-5b39-8e8b-1e9e9041935b"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1f680992-1a59-59fd-9386-d7dafab9e725",
+    "name": "BAPTIST HEALTH",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3c09731-6469-565b-a842-e8636f47acb9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396865697"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "PEND**45D1066816"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "520 Madison Oak Dr"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78205-1115"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1167"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1167.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1f680992-1a59-59fd-9386-d7dafab9e725"
+}

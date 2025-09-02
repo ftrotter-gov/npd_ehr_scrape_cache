@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d677bf65-8d0c-51f6-bdcb-344f3a9eafd4",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://stillwater-medical.org"
+      }
+    ],
+    "name": "Stillwater Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://stillwater-medical.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1323 West Sixth"
+        ],
+        "city": "Stillwater",
+        "state": "OK",
+        "postalCode": "74074",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:0922c2d3-9761-40e7-bf9f-39731df8101e"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:718fe6a7-7914-5bc5-a301-6647dbd709ab"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0922c2d3-9761-40e7-bf9f-39731df8101e"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d677bf65-8d0c-51f6-bdcb-344f3a9eafd4"
+}

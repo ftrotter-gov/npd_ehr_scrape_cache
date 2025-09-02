@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "da805596-5a41-54be-be10-a3fbb71ceb5a",
+    "name": "Health Haven LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/da899464-c011-58c7-beb8-46232dc8931f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265824858"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 MAIN ST"
+        ],
+        "city": "OKEECHOBEE",
+        "state": "FL",
+        "postalCode": "34974-3497"
+      },
+      {
+        "line": [
+          "308 NW 5TH AVE"
+        ],
+        "city": "OKEECHOBEE",
+        "state": "FL",
+        "postalCode": "34972-2568"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26495"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26495.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:da805596-5a41-54be-be10-a3fbb71ceb5a"
+}

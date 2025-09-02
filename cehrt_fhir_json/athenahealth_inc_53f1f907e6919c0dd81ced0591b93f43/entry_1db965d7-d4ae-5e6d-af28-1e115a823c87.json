@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1db965d7-d4ae-5e6d-af28-1e115a823c87",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/84023624-97ed-509c-be5e-b75e778b06b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871813170"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "105 S BRYANT AVE",
+          "STE 101"
+        ],
+        "city": "EDMOND",
+        "state": "OK",
+        "postalCode": "73034-6330"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8611"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8611.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1db965d7-d4ae-5e6d-af28-1e115a823c87"
+}

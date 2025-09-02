@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a28d0490-b82a-5c91-8deb-3ba11fb28bcd",
+    "name": "St Anthony North Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db2ffe72-cf06-5082-8cca-0ca6b7b0f094"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952427049"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336197631"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "14300 ORCHARD PKWY"
+        ],
+        "city": "BROOMFIELD",
+        "state": "CO",
+        "postalCode": "80023-9206"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3497"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3497.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a28d0490-b82a-5c91-8deb-3ba11fb28bcd"
+}

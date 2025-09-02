@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf4e81fe-7fe7-59a1-94bf-337d8507be25",
+    "name": "Brandermill Woods",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d8deac3-935e-5cdb-9f39-7dbd4c8fe3e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225237274"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2100 Brandermill Pkwy"
+        ],
+        "city": "MIDLOTHIAN",
+        "state": "VA",
+        "postalCode": "23112-4160"
+      },
+      {
+        "line": [
+          "8254 Atlee Rd."
+        ],
+        "city": "MECHANICSVILLE",
+        "state": "VA",
+        "postalCode": "23116-1844"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1316"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1316.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf4e81fe-7fe7-59a1-94bf-337d8507be25"
+}

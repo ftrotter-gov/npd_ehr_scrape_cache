@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b043e26-ff2a-5b26-b961-012ae7289c58",
+    "name": "Care on Location Telemedicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/18abece2-596c-5930-9326-d76615220468"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629439500"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1615 CALIFORNIA ST",
+          "STE 601"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80202-3721"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25294"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25294.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b043e26-ff2a-5b26-b961-012ae7289c58"
+}

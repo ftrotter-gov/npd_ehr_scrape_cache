@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "25dd74a2-ca43-51a1-9e3a-e6c1812700cb",
+    "name": "Crossroads Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d40993dc-0ce3-59ac-b3e8-af802c308062"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760658371"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972533149"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 Corporate Center Drive"
+        ],
+        "city": "VANDALIA",
+        "state": "OH",
+        "postalCode": "45377-1169"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-237"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-237.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:25dd74a2-ca43-51a1-9e3a-e6c1812700cb"
+}

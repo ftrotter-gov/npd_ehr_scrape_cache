@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c96ac299-6115-577b-9529-1c48ff5b18f7",
+    "name": "Lincoln Medical Center Emergency Department",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d586e6eb-9a4f-5778-a8ea-8de2a45668f8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578885620"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "106 Medical Center Blvd"
+        ],
+        "city": "FAYETTEVILLE",
+        "state": "TN",
+        "postalCode": "37334-2743"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21536"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21536.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c96ac299-6115-577b-9529-1c48ff5b18f7"
+}

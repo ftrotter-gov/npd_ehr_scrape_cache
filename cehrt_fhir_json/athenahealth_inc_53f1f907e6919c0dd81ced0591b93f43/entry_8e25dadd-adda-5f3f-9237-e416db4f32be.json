@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8e25dadd-adda-5f3f-9237-e416db4f32be",
+    "name": "Eleanor Health St. Louis",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d651678d-57de-5cf7-a850-c73e0d7e329a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932854981"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2055 CRAIGSHIRE DR STE 410 OFC",
+          "Office Room # 437"
+        ],
+        "city": "SAINT LOUIS",
+        "state": "MO",
+        "postalCode": "63146-4012"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21505"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21505.Brand-13"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8e25dadd-adda-5f3f-9237-e416db4f32be"
+}

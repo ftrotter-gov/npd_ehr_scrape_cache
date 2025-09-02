@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e3fdc24d-8af3-5771-aaaf-08adc3151cdf",
+    "name": "Springfield Psychiatry",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/260b2783-ed63-50e8-9c02-dec0189d0a81"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427733898"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1675 E SEMINOLE ST"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "MO",
+        "postalCode": "65804-2490"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29205"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29205.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e3fdc24d-8af3-5771-aaaf-08adc3151cdf"
+}

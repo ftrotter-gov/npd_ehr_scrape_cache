@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b31bb9d8-0556-5a01-b64d-3a7ae4ba7dba",
+    "name": "Broward Health North ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/092de931-a7d6-5abc-8aea-71053a04d097"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528034402"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "PEND**10D2001449"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "PEND**10D2001447"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 E Sample Road"
+        ],
+        "city": "POMPANO BEACH",
+        "state": "FL",
+        "postalCode": "33064-3502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1864"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1864.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b31bb9d8-0556-5a01-b64d-3a7ae4ba7dba"
+}

@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e1b0164d-f30f-5651-8147-9c81cd873223",
+    "name": "Access Family Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/624de58e-fc1e-5dea-b468-7ad2743339fe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093829509"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 N ALAMO BLVD"
+        ],
+        "city": "MARSHALL",
+        "state": "TX",
+        "postalCode": "75670-3451"
+      },
+      {
+        "line": [
+          "310 N ALAMO BLVD"
+        ],
+        "city": "MARSHALL",
+        "state": "TX",
+        "postalCode": "75670-3451"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16223"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16223.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e1b0164d-f30f-5651-8147-9c81cd873223"
+}

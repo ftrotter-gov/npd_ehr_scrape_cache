@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3003e739-9f8b-5bfc-a83d-cbc1928d8b30",
+    "name": "Houston Methodist West Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e2b4c95f-bea5-56a1-bad1-a1c5ffc7393e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053681023"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18500 KATY FWY"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77094-1110"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24405"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24405.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3003e739-9f8b-5bfc-a83d-cbc1928d8b30"
+}

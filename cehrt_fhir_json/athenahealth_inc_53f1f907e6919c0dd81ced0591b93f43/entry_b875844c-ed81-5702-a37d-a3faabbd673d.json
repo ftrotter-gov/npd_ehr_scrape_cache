@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b875844c-ed81-5702-a37d-a3faabbd673d",
+    "name": "Dorchester Health and Wellness",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/60a8018c-e41e-5e9b-876f-84424373d5f5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770291023"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 BRAMBLE ST STE 2"
+        ],
+        "city": "CAMBRIDGE",
+        "state": "MD",
+        "postalCode": "21613-2471"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27807"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27807.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b875844c-ed81-5702-a37d-a3faabbd673d"
+}

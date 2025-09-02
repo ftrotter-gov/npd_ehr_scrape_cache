@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b2ffa397-012b-5fc0-a7ef-8573f78ef8a4",
+    "name": "Advanced Dallas Hospital & Clinics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/66b97c80-1890-58f2-89b7-a19814fc1017"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669732178"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7502 GREENVILLE AVE"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75231-3802"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13131"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13131.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b2ffa397-012b-5fc0-a7ef-8573f78ef8a4"
+}

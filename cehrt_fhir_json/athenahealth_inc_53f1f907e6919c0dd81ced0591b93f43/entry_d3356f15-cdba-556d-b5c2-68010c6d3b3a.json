@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d3356f15-cdba-556d-b5c2-68010c6d3b3a",
+    "name": "North State Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a25ece5a-6a38-541a-8277-139511003e11"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922037019"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10300 Gilead Road"
+        ],
+        "city": "HUNTERSVILLE",
+        "state": "NC",
+        "postalCode": "28078-7505"
+      },
+      {
+        "line": [
+          "433 MCALISTER RD"
+        ],
+        "city": "LINCOLNTON",
+        "state": "NC",
+        "postalCode": "28092-4147"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31154"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31154.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d3356f15-cdba-556d-b5c2-68010c6d3b3a"
+}

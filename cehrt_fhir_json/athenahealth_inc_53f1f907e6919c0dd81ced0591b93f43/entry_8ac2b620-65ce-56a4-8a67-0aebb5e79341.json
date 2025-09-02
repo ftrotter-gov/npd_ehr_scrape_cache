@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ac2b620-65ce-56a4-8a67-0aebb5e79341",
+    "name": "Beattyville Family Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e11955e6-9873-5a22-b6f7-97151ea3c09d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992044747"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750626339"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1027 Hwy 11 N"
+        ],
+        "city": "BEATTYVILLE",
+        "state": "KY",
+        "postalCode": "41311-9240"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1885"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1885.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ac2b620-65ce-56a4-8a67-0aebb5e79341"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cf7ce229-7b04-58d5-8843-639fb7eabf01",
+    "name": "LA Beautiful Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5c541b52-d69d-5bd3-878d-71fa9050f47e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972666840"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "701 E. 28th Street",
+          "Suite 301"
+        ],
+        "city": "Long Beach",
+        "state": "CA",
+        "postalCode": "90806-2777"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2241"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2241.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cf7ce229-7b04-58d5-8843-639fb7eabf01"
+}

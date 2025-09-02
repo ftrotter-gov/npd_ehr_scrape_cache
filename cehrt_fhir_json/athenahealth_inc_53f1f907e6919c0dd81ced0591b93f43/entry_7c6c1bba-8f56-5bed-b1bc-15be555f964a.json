@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7c6c1bba-8f56-5bed-b1bc-15be555f964a",
+    "name": "Care First Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47ed4823-5071-5683-8969-c4b9726ef4c3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215785241"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2851 CARROLLTON PIKE",
+          "STE A5"
+        ],
+        "city": "WOODLAWN",
+        "state": "VA",
+        "postalCode": "24381-3664"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31538"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31538.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7c6c1bba-8f56-5bed-b1bc-15be555f964a"
+}

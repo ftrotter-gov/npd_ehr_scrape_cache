@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b85a9755-fa90-5047-be14-5343cba6e2ee",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://phhealthcare.org/location/hospitals/penn-highlands-tyrone-660"
+      }
+    ],
+    "name": "Tyrone Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://phhealthcare.org/location/hospitals/penn-highlands-tyrone-660"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "187 Hospital Drive"
+        ],
+        "city": "Tyrone",
+        "state": "PA",
+        "postalCode": "16686",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:b01155b1-611e-42a7-bcc9-0017b726ff16"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:6ee11a3c-ddeb-518a-ac02-4b52df3d8666"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:b01155b1-611e-42a7-bcc9-0017b726ff16"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b85a9755-fa90-5047-be14-5343cba6e2ee"
+}

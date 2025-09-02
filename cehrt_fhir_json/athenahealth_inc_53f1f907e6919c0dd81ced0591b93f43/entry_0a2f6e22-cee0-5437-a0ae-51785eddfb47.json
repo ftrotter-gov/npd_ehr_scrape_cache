@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0a2f6e22-cee0-5437-a0ae-51785eddfb47",
+    "name": "Bennett Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6839d63d-ffcd-54db-a735-db04cdff1fe5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053837104"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10876 A N JACOB SMART BLVD"
+        ],
+        "city": "RIDGELAND",
+        "state": "SC",
+        "postalCode": "29936-2707"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17566"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17566.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0a2f6e22-cee0-5437-a0ae-51785eddfb47"
+}

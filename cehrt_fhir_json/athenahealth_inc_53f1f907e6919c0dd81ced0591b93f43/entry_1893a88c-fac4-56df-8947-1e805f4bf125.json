@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1893a88c-fac4-56df-8947-1e805f4bf125",
+    "name": "The Neighborhood Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e9dc9d9-99e0-5107-aa0a-0daa6ff5b284"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104366988"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 N. BREWER STREET"
+        ],
+        "city": "PARIS",
+        "state": "TN",
+        "postalCode": "38242-3403"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23204"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23204.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1893a88c-fac4-56df-8947-1e805f4bf125"
+}

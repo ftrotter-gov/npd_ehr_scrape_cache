@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "141b28ae-6bf2-5c4f-9fe4-b9a3e26a1cc1",
+    "name": "St. Mark's Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35018678-52a4-5d8c-8517-cc92cd1343d4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396761193"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1200 East 3900 South"
+        ],
+        "city": "SALT LAKE CITY",
+        "state": "UT",
+        "postalCode": "84124-1300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15147"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15147.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:141b28ae-6bf2-5c4f-9fe4-b9a3e26a1cc1"
+}

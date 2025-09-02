@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e4dbb373-ef63-59b6-891a-5339c38f59b7",
+    "name": "Cahaba Medical Care Bessemer",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dc529424-97a1-54a4-8fef-c19a7342fa3f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093058133"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316201809"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "975 9th Avenue SW",
+          "Suite #310"
+        ],
+        "city": "BESSEMER",
+        "state": "AL",
+        "postalCode": "35022-7839"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11347"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11347.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e4dbb373-ef63-59b6-891a-5339c38f59b7"
+}

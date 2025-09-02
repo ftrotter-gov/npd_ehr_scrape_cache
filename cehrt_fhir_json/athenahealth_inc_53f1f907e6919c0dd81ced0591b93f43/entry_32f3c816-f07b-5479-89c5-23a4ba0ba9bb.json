@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "32f3c816-f07b-5479-89c5-23a4ba0ba9bb",
+    "name": "Elder Care First Inc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/07f2650e-dcad-51b6-a3bf-5f60d93e94fd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881251288"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "218 E Bearss Ave",
+          "ste 207"
+        ],
+        "city": "TAMPA",
+        "state": "FL",
+        "postalCode": "33613-1625"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22436"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22436.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:32f3c816-f07b-5479-89c5-23a4ba0ba9bb"
+}

@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c572bb80-fed2-5d65-a21d-a225cd89c0c1",
+    "meta": {
+      "lastUpdated": "2024-07-10T22:51:48.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://andersonhospital.org"
+      }
+    ],
+    "name": "Anderson Hospital",
+    "active": true,
+    "partOf": {
+      "reference": "urn:uuid:84e1b6d1-c449-52d8-a453-87ae46710e6c"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://andersonhospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6800 State Route 162"
+        ],
+        "city": "Maryville",
+        "state": "IL",
+        "postalCode": "62062",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:f8319a35-0e4b-5e94-bfe5-599f98f5725d"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:f8319a35-0e4b-5e94-bfe5-599f98f5725d"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c572bb80-fed2-5d65-a21d-a225cd89c0c1"
+}

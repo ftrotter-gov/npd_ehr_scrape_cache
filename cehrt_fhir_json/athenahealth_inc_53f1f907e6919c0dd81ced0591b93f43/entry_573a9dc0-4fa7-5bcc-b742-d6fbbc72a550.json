@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "573a9dc0-4fa7-5bcc-b742-d6fbbc72a550",
+    "name": "Premier Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f38287e6-a493-5079-9329-b862c2b65d61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053897165"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1301 EAST 47TH STREET"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60653-4507"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18065"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18065.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:573a9dc0-4fa7-5bcc-b742-d6fbbc72a550"
+}

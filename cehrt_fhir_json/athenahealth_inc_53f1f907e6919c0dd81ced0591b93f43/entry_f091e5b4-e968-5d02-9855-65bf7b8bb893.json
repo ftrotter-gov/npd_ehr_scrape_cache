@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f091e5b4-e968-5d02-9855-65bf7b8bb893",
+    "name": "Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0f10c80c-ebc0-57a5-8bc7-c22862dc4132"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467709261"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "235 WELLESLEY ST",
+          "BOX 11"
+        ],
+        "city": "WESTON",
+        "state": "MA",
+        "postalCode": "02493-1571"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7286"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7286.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f091e5b4-e968-5d02-9855-65bf7b8bb893"
+}

@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "NjQzXzY0M18zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "415.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750091351"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Premier Pediatrics PA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "913-345-9400",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "913-345-9408",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "8675 College Boulevard Suite 100 Overland Park, KS 66210-1863",
+        "line": [
+          "8675 College Boulevard",
+          "Suite 100"
+        ],
+        "city": "Overland Park",
+        "state": "KS",
+        "postalCode": "66210-1863",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/NjQzXzY0M18zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/NjQzXzY0M18zMDYw"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "622d613e-6268-56a1-ba34-787d390115a7",
+    "name": "Ahavah Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d9801159-195c-516d-bc37-86da35b40e27"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215675954"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12300 FORD RD",
+          "SUITE B425"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75234-7248"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28560"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28560.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:622d613e-6268-56a1-ba34-787d390115a7"
+}

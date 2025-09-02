@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "15b26493-73ad-5319-a488-f9703bb32073",
+    "name": "Doctor Ljubic's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a1468e15-ac92-5ef9-a918-36dfea87f297"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730358383"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4000 KRESGE WAY"
+        ],
+        "city": "LOUISVILLE",
+        "state": "KY",
+        "postalCode": "40207-4605"
+      },
+      {
+        "line": [
+          "4001 KRESGE WAY STE 236"
+        ],
+        "city": "LOUISVILLE",
+        "state": "KY",
+        "postalCode": "40207-4640"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16968"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16968.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:15b26493-73ad-5319-a488-f9703bb32073"
+}

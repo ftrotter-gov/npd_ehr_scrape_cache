@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "fb996c88-7594-442c-93af-7aafa8c6d7c6",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "800396b4-375e-4676-ac7e-6e8ad23f10ff",
+        "name": "Andrew Kim MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Andrew Kim MD",
+    "managingOrganization": {
+      "reference": "#800396b4-375e-4676-ac7e-6e8ad23f10ff"
+    },
+    "period": {
+      "start": "2018-06-19T11:33:25+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10062405"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10062405"
+}

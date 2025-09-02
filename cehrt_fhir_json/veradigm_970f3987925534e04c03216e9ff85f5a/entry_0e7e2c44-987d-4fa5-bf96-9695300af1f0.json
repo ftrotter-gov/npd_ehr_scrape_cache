@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0e7e2c44-987d-4fa5-bf96-9695300af1f0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4f97002a-d860-458a-988a-cf138c735d12",
+        "name": "Ob-Gyn Assoc Of Southern Indiana"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Ob-Gyn Assoc Of Southern Indiana",
+    "managingOrganization": {
+      "reference": "#4f97002a-d860-458a-988a-cf138c735d12"
+    },
+    "period": {
+      "start": "2018-09-12T15:46:25+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10035911"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10035911"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "bac47752-507e-4e67-8aa6-b86b1ebc0cc8",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d2fc1e4d-4d86-4d1c-9baf-78c058cd8ece",
+        "name": "Accent Family Healthcare"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Accent Family Healthcare",
+    "managingOrganization": {
+      "reference": "#d2fc1e4d-4d86-4d1c-9baf-78c058cd8ece"
+    },
+    "period": {
+      "start": "2020-11-05T11:53:25+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/1700131A"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/1700131A"
+}

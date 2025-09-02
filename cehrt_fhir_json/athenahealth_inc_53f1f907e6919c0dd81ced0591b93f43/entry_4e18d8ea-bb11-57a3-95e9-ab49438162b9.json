@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4e18d8ea-bb11-57a3-95e9-ab49438162b9",
+    "name": "Providence Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/836ca9f9-78de-578a-ba4c-8f3bfa78694e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750706347"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6901 Medical PKWY"
+        ],
+        "city": "WOODWAY",
+        "state": "TX",
+        "postalCode": "76712-7910"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16869"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16869.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4e18d8ea-bb11-57a3-95e9-ab49438162b9"
+}

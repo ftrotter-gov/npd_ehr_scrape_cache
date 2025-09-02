@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0a28d37b-1727-5bef-9b70-be0e3628734e",
+    "name": "Norfolk Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d535bbd8-401c-5ed7-9628-e0234781ae7e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871709899"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1701 CHURCH STREET",
+          "SUITE B"
+        ],
+        "city": "NORFOLK",
+        "state": "VA",
+        "postalCode": "23504-2313"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8293"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8293.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0a28d37b-1727-5bef-9b70-be0e3628734e"
+}

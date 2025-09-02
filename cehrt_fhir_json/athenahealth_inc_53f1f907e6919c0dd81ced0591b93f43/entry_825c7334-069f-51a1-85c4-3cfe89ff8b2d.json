@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "825c7334-069f-51a1-85c4-3cfe89ff8b2d",
+    "name": "Cedar Park Regional Medical Center In Pt",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/06388af1-29b1-5842-a463-d5135e168032"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891746970"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 MEDICAL PKWY"
+        ],
+        "city": "Cedar Park",
+        "state": "TX",
+        "postalCode": "78613-7763"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29821"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29821.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:825c7334-069f-51a1-85c4-3cfe89ff8b2d"
+}

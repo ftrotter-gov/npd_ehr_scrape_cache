@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bda051f6-726c-5286-915b-47658971f0f0",
+    "name": "Access Medical Care-Patient Home Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/63ad2b66-eeea-51a8-af38-7a3d046b8a2c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962877712"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4233 HIGHWAY 411 NORTH"
+        ],
+        "city": "MADISONVILLE",
+        "state": "TN",
+        "postalCode": "37354-1571"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12911"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12911.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bda051f6-726c-5286-915b-47658971f0f0"
+}

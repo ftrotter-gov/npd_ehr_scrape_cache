@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3b5f94c4-2ede-5d65-8959-13f721d06201",
+    "meta": {
+      "lastUpdated": "2024-02-01T02:04:43.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://mrhme.org"
+      }
+    ],
+    "name": "Millinocket Regional Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://mrhme.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 Somerset Street"
+        ],
+        "city": "Millinocket",
+        "state": "ME",
+        "postalCode": "04462",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:0b08de0f-5a55-59c7-af7c-52ed544f32a5"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0b08de0f-5a55-59c7-af7c-52ed544f32a5"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3b5f94c4-2ede-5d65-8959-13f721d06201"
+}

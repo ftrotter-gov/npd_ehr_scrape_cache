@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cbe384fc-df27-55d0-9213-9392eeed46c6",
+    "name": "Winchester Hospital OPD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a82eb98-2367-5263-89e8-cbf4e39e9c83"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184606865"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7 Alfred Street",
+          "Suite 170"
+        ],
+        "city": "WOBURN",
+        "state": "MA",
+        "postalCode": "01801-1915"
+      },
+      {
+        "line": [
+          "500 Salem Street",
+          "Family Medical Center"
+        ],
+        "city": "WILMINGTON",
+        "state": "MA",
+        "postalCode": "01887-1200"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-391.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cbe384fc-df27-55d0-9213-9392eeed46c6"
+}

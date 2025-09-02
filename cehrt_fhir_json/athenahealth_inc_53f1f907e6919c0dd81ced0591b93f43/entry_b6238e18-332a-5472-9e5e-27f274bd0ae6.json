@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b6238e18-332a-5472-9e5e-27f274bd0ae6",
+    "name": "ALLEGHENY GENERAL HOSPITAL AHN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/12a703f0-4d82-5676-aac4-e84d52d1df72"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043635402"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "320 EAST NORTH AVENUE"
+        ],
+        "city": "PITTSBURGH",
+        "state": "PA",
+        "postalCode": "15212-4756"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6385"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6385.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b6238e18-332a-5472-9e5e-27f274bd0ae6"
+}

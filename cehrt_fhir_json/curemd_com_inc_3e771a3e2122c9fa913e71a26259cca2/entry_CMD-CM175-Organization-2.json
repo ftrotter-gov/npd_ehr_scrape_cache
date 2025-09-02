@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM175-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM175"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Bates County Health Center",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6606796108"
+      },
+      {
+        "system": "fax",
+        "value": "6606796022"
+      }
+    ],
+    "address": [
+      {
+        "text": "501 N. Orange St. PO Box 178 Butler MO 647301325 US",
+        "line": [
+          "501 N. Orange St.",
+          "PO Box 178"
+        ],
+        "city": "Butler",
+        "state": "MO",
+        "postalCode": "647301325",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM175-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM175-Organization-2"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9bb3e8d4-13b5-5c1e-ae0d-e3aeb7f0e6f4",
+    "name": "Palos Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f22951d1-6e80-58aa-a738-a56e8e8c94a8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912912445"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12251 South 80th Avenue"
+        ],
+        "city": "PALOS HEIGHTS",
+        "state": "IL",
+        "postalCode": "60463-2145"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11957"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11957.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9bb3e8d4-13b5-5c1e-ae0d-e3aeb7f0e6f4"
+}

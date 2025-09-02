@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ec080d68-9de0-579e-b315-db6576fb8948",
+    "name": "LAPALCO",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/55497ad9-957a-5dc2-a309-ea9f7529d1ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255537411"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "145 LAPALCO BLVD",
+          "STE B"
+        ],
+        "city": "GRETNA",
+        "state": "LA",
+        "postalCode": "70056-7149"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6225"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6225.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ec080d68-9de0-579e-b315-db6576fb8948"
+}

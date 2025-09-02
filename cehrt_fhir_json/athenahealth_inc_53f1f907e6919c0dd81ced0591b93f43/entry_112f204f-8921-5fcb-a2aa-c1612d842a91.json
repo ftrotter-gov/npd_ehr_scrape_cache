@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "112f204f-8921-5fcb-a2aa-c1612d842a91",
+    "name": "Lanham Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/88f68d7e-2044-5e66-9a92-badf7b25b60f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952491672"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9500 ANNAPOLIS RD",
+          "SUITE A1"
+        ],
+        "city": "LANHAM",
+        "state": "MD",
+        "postalCode": "20706-2060"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6603"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6603.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:112f204f-8921-5fcb-a2aa-c1612d842a91"
+}

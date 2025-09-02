@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a220e4af-8d9e-5fd7-82d2-7320f096e882",
+    "name": "Stepping Stone",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a05f682c-3b3c-5003-a597-c50f96019e5f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "382 WOODLAND TRAIL RD"
+        ],
+        "city": "DUBLIN",
+        "state": "GA",
+        "postalCode": "31021-0448"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18433"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18433.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a220e4af-8d9e-5fd7-82d2-7320f096e882"
+}

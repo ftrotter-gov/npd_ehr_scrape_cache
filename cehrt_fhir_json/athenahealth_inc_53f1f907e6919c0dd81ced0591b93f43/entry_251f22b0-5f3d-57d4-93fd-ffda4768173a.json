@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "251f22b0-5f3d-57d4-93fd-ffda4768173a",
+    "name": "Advanced Pain Management Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4e0f555c-ec5a-5352-84b1-4e60154029e3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760531339"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10305 SW Park Way STE 300"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97225-5033"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31950"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31950.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:251f22b0-5f3d-57d4-93fd-ffda4768173a"
+}

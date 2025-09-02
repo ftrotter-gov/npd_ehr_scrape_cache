@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ee7998c7-9443-596b-8c6e-05ae24c14f84",
+    "name": "Borinquen Health Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f9909a3c-496d-5225-93b6-9f862fb923d7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407913338"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356765275"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2001 W 68 Street"
+        ],
+        "city": "HIALEAH",
+        "state": "FL",
+        "postalCode": "33016-1801"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8506"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8506.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ee7998c7-9443-596b-8c6e-05ae24c14f84"
+}

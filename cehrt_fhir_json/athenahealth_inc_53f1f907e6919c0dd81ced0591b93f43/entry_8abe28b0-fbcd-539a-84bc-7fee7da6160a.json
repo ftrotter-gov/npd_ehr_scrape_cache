@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8abe28b0-fbcd-539a-84bc-7fee7da6160a",
+    "name": "Assurance Health and Recovery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cf5fe90a-70f6-56e3-ae85-d19c0407e829"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558945220"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "50 YUMA ROAD LOGAN"
+        ],
+        "city": "LOGAN",
+        "state": "WV",
+        "postalCode": "25601-7111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24065"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24065.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8abe28b0-fbcd-539a-84bc-7fee7da6160a"
+}

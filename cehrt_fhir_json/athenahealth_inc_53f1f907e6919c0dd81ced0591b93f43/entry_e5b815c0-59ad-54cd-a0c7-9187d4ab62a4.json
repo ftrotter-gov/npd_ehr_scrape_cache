@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5b815c0-59ad-54cd-a0c7-9187d4ab62a4",
+    "name": "St. John Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/401105c3-86e3-5cde-8061-ed95b3eff636"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003865072"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1615 DELAWARE ST"
+        ],
+        "city": "LONGVIEW",
+        "state": "WA",
+        "postalCode": "98632-2310"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30102"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30102.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5b815c0-59ad-54cd-a0c7-9187d4ab62a4"
+}

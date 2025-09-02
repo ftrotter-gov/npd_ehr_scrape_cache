@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1e8da679-ea26-515c-aeb8-d2dbd5744ad0",
+    "name": "Karis Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/552ba513-5fd8-5dd7-bca5-bf90cf50034c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "256 BROAD ST. SW"
+        ],
+        "city": "CLEVELAND",
+        "state": "TN",
+        "postalCode": "37311-5929"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23864"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23864.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1e8da679-ea26-515c-aeb8-d2dbd5744ad0"
+}

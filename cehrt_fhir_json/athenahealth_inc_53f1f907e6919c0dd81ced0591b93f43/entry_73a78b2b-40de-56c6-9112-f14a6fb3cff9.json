@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "73a78b2b-40de-56c6-9112-f14a6fb3cff9",
+    "name": "Baystate Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/31f75ddb-c92e-5292-b1f8-c417413ccdd1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831388552"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "759 CHESTNUT STREET"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "postalCode": "01199-1619"
+      },
+      {
+        "line": [
+          "222 Carew Street suite #101"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "postalCode": "01104-4109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14763"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14763.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:73a78b2b-40de-56c6-9112-f14a6fb3cff9"
+}

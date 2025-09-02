@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5b7ca9b-7cd1-543c-9c64-d0c843ea67a7",
+    "name": "Claremont Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dc401f71-7881-50f3-a89d-61329af7ef80"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265483556"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2890 S. LOOKOUT ST PO BOX 490"
+        ],
+        "city": "CLAREMONT",
+        "state": "NC",
+        "postalCode": "28610"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4229"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4229.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5b7ca9b-7cd1-543c-9c64-d0c843ea67a7"
+}

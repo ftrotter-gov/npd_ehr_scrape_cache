@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "64b4df81-caa6-5988-bb37-cabc155f2860",
+    "name": "St Rose San Martin Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/315f2b08-f7cc-50cc-b8af-e068f0f3172f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134437445"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8280 W Warm Springs Rd"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89113-3612"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8323"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8323.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:64b4df81-caa6-5988-bb37-cabc155f2860"
+}

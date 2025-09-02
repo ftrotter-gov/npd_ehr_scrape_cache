@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5b2200c8-3f41-5f4d-9aa7-00368b688251",
+    "name": "Las Vegas",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9209cc35-944b-52cc-a564-13672c491a6c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346242575"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "105 Mills Ave Ste 200"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NM",
+        "postalCode": "87701-4169"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10534"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10534.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5b2200c8-3f41-5f4d-9aa7-00368b688251"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "50c312a9-2ca7-569f-b44c-a35c429854d4",
+    "name": "Dr. Milligan's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9b5a78a-eb1b-598c-8772-0d7432d25042"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487670733"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "766 S STATE ST"
+        ],
+        "city": "DOVER",
+        "state": "DE",
+        "postalCode": "19901-4146"
+      },
+      {
+        "line": [
+          "766 S. State St"
+        ],
+        "city": "DOVER",
+        "state": "DE",
+        "postalCode": "19901-4146"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20198"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20198.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:50c312a9-2ca7-569f-b44c-a35c429854d4"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "91a9e588-1441-50f2-b4a7-4ba4339c5a92",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f983df4a-6fa6-5a8f-a4a0-35025ba42edf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851430870"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6100 UPTOWN BLVD. NE STE 600"
+        ],
+        "city": "ALBUQUERQUE",
+        "state": "NM",
+        "postalCode": "87110-4163"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14554"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14554.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:91a9e588-1441-50f2-b4a7-4ba4339c5a92"
+}

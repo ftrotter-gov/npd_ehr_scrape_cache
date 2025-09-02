@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a41b50c-5fd0-57c3-b474-ef2137f8ca5e",
+    "name": "Huntington Beach Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/93729932-030c-530b-8861-2d7ed32deade"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780843458"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "19582 BEACH BLVD",
+          "SUITE 270"
+        ],
+        "city": "HUNTINGTON BEACH",
+        "state": "CA",
+        "postalCode": "92648-5924"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16468"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16468.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a41b50c-5fd0-57c3-b474-ef2137f8ca5e"
+}

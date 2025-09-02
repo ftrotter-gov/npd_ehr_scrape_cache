@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "41c3bfba-892e-5df7-b34f-5ff58c76931f",
+    "name": "Wesley Physician Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df5414ad-59dd-5578-be88-a04bbd91c555"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538200209"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2109 HARDY ST"
+        ],
+        "city": "HATTIESBURG",
+        "state": "MS",
+        "postalCode": "39401-5963"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1930"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1930.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:41c3bfba-892e-5df7-b34f-5ff58c76931f"
+}

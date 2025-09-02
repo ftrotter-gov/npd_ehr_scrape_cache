@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a6d1a91-bb62-52c4-87b9-6460eaa489a3",
+    "name": "CareSmart Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1366862d-9b68-5110-9653-8f2b4a91108e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336885227"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2820 NE 214TH ST FL 8"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33180-1268"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27956"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27956.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a6d1a91-bb62-52c4-87b9-6460eaa489a3"
+}

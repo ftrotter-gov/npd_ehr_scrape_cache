@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e9b8a445-8cf0-5f97-a1e7-4d9b345a7f40",
+    "name": "Adullum Community Health Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d62930b-0bea-58b1-b39b-c8a91bab7353"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801277520"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376758391"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2640 ST. PAUL ST"
+        ],
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postalCode": "21218-4531"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18149"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18149.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e9b8a445-8cf0-5f97-a1e7-4d9b345a7f40"
+}

@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7d9410a4-facb-5439-ac35-5b77ef605e11",
+    "meta": {
+      "lastUpdated": "2022-12-16T23:52:03.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://srhc.com"
+      }
+    ],
+    "name": "Salina Regional Health Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://srhc.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 South Santa Fe Avenue"
+        ],
+        "city": "Salina",
+        "state": "KS",
+        "postalCode": "67401",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:b0050983-ba4f-5395-9a30-31b5c67a5fdd"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:b0050983-ba4f-5395-9a30-31b5c67a5fdd"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7d9410a4-facb-5439-ac35-5b77ef605e11"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1f31d815-31ee-5eb3-a108-e17b20540965",
+    "name": "Dr. Knippers Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f257a5f7-2bc5-581b-8d0d-6563167d515a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285891945"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7711 E 111TH ST STE 111"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74133-2563"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15752"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15752.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1f31d815-31ee-5eb3-a108-e17b20540965"
+}

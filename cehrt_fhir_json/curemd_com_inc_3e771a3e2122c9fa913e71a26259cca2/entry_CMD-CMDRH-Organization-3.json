@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDRH-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDRH"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Caricare Family Health Services LLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3407768112"
+      },
+      {
+        "system": "fax",
+        "value": "3407768113"
+      }
+    ],
+    "address": [
+      {
+        "text": "9149 Estate Thomas Ste 301 St Thomas VI 8023133 US",
+        "line": [
+          "9149 Estate Thomas Ste 301"
+        ],
+        "city": "St Thomas",
+        "state": "VI",
+        "postalCode": "8023133",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDRH-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDRH-Organization-3"
+}

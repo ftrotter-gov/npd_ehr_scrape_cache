@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cbfe90b8-23a7-5194-b9fc-a602d6fff945",
+    "name": "St. Charles Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e4513496-5848-5366-83f5-b69b1251ba2f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730185141"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 NE NEFF RD"
+        ],
+        "city": "BEND",
+        "state": "OR",
+        "postalCode": "97701-6015"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15499"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15499.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cbfe90b8-23a7-5194-b9fc-a602d6fff945"
+}

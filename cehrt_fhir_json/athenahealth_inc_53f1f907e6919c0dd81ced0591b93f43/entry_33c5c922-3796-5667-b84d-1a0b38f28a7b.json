@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "33c5c922-3796-5667-b84d-1a0b38f28a7b",
+    "name": "Tri-City Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c27f9583-5881-5a28-8f3e-e78b554a796c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114310083"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4002 VISTA WAY"
+        ],
+        "city": "OCEANSIDE",
+        "state": "CA",
+        "postalCode": "92056-4506"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14432"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14432.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:33c5c922-3796-5667-b84d-1a0b38f28a7b"
+}

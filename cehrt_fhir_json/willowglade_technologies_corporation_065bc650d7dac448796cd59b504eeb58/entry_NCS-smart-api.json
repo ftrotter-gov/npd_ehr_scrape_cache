@@ -1,0 +1,25 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "NCS-smart-api",
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "name": "NCS FHIR base URL",
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+            "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+          }
+        ]
+      }
+    ],
+    "address": "https://ccdoc.phn.care/tenant/NCS/patient/smart-api"
+  },
+  "fullUrl": "https://ccdoc.phn.care/fhir/Endpoint/NCS-smart-api"
+}

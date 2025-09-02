@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e33c7ccd-b949-5c42-af70-c477b2f9d161",
+    "name": "Vityl Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e6e2835-5093-52dc-8b64-9072eafc96d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063062081"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11035 LAVENDER HILL DR STE 160-408"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89135-2957"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29622"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29622.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e33c7ccd-b949-5c42-af70-c477b2f9d161"
+}

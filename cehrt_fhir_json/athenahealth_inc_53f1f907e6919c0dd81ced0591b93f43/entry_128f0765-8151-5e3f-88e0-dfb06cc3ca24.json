@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "128f0765-8151-5e3f-88e0-dfb06cc3ca24",
+    "name": "MetroWest Physician Services, Inc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9c929381-01cf-5373-8fe6-2fd056457442"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760566350"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508818618"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "67 Union St"
+        ],
+        "city": "NATICK",
+        "state": "MA",
+        "postalCode": "01760-7700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-966"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-966.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:128f0765-8151-5e3f-88e0-dfb06cc3ca24"
+}

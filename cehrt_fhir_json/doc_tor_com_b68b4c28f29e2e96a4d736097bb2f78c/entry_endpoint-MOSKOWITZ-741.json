@@ -1,0 +1,37 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "endpoint-MOSKOWITZ-741",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "MOSKOWITZ-741",
+        "name": "MOSKOWITZ"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "managingOrganization": {
+      "reference": "#MOSKOWITZ-741"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+            "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir"
+    ],
+    "address": "https://pic-fhir.harrisambulatory.com/MOSKOWITZ-741/fhir/r4"
+  },
+  "fullUrl": "https://pic-fhir.harrisambulatory.com/MOSKOWITZ-741/fhir/r4/Endpoint/endpoint-MOSKOWITZ-741"
+}

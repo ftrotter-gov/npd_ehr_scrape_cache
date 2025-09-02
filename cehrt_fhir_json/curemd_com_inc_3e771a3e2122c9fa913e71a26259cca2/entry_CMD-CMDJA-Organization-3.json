@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDJA-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDJA"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Janice Prime Care Medical P.C.",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7184006951"
+      },
+      {
+        "system": "fax",
+        "value": "5164332890"
+      },
+      {
+        "system": "email",
+        "value": "jpc.drshukla@janiceprimecare.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "1530 Bedford Ave 3rd Floor Brooklyn NY 11216 US",
+        "line": [
+          "1530 Bedford Ave",
+          "3rd Floor"
+        ],
+        "city": "Brooklyn",
+        "state": "NY",
+        "postalCode": "11216",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDJA-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDJA-Organization-3"
+}

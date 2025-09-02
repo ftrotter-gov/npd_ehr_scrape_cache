@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1909c61c-6196-5ab6-b536-652b3d8678f4",
+    "name": "CBL_Patient Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e865323-dc80-5f15-b96c-96e315a859f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619912565"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5 Harris Ct., Bldg. T",
+          "Suite 103"
+        ],
+        "city": "MONTEREY",
+        "state": "CA",
+        "postalCode": "93940-5750"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2000"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2000.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1909c61c-6196-5ab6-b536-652b3d8678f4"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d7d09fc1-607c-5370-bb6c-a096f77d7bd8",
+    "name": "Hinsdale Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1549c8db-31e2-5a2a-aefa-bce46d0749e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801146303"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "120 N. Oak"
+        ],
+        "city": "HINSDALE",
+        "state": "IL",
+        "postalCode": "60521-3829"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13549"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13549.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d7d09fc1-607c-5370-bb6c-a096f77d7bd8"
+}

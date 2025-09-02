@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bba2f45c-bc63-50ce-ad9f-bede104efce7",
+    "name": "Millbrook Family Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/77fa1c30-9742-5367-a5d5-23b37c48f7a5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881193340"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2588 Main Street"
+        ],
+        "city": "MILLBROOK",
+        "state": "AL",
+        "postalCode": "36054-3849"
+      },
+      {
+        "line": [
+          "2588 MAIN STREET"
+        ],
+        "city": "MILLBROOK",
+        "state": "AL",
+        "postalCode": "36054-4902"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17953"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17953.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bba2f45c-bc63-50ce-ad9f-bede104efce7"
+}

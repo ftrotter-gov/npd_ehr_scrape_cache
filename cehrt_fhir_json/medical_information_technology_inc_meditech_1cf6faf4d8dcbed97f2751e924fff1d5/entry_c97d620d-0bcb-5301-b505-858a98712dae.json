@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c97d620d-0bcb-5301-b505-858a98712dae",
+    "meta": {
+      "lastUpdated": "2025-02-25T23:51:11.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://st-claire.org/locations/st-claire-regional-medical-center"
+      }
+    ],
+    "name": "Saint Claire Regional Medical Center",
+    "active": true,
+    "partOf": {
+      "reference": "urn:uuid:b1e96388-7d2e-5fcc-a11a-45896b112d95"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://st-claire.org/locations/st-claire-regional-medical-center"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "222 Medical Circle Drive"
+        ],
+        "city": "Morehead",
+        "state": "KY",
+        "postalCode": "40351",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:1fa8af81-0c2c-5034-980e-6b64e8bbb299"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:1fa8af81-0c2c-5034-980e-6b64e8bbb299"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c97d620d-0bcb-5301-b505-858a98712dae"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "71a1ab79-7d0e-5e3f-a123-efb6c3028a95",
+    "name": "My Cardiologist- Boynton Beach",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d526232-48e0-5def-8e4a-cf76c4dbbb5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831123520"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2609 W WOOLBRIGHT RD STE 4A"
+        ],
+        "city": "BOYNTON BEACH",
+        "state": "FL",
+        "postalCode": "33436-6634"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1931"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1931.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:71a1ab79-7d0e-5e3f-a123-efb6c3028a95"
+}

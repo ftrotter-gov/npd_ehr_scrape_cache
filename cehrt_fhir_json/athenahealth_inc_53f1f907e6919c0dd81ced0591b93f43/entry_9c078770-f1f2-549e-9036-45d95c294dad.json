@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9c078770-f1f2-549e-9036-45d95c294dad",
+    "name": "MedNM Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6186aa75-a2c2-50ea-9f76-8104e7cad35b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396405528"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3305 N Grimes St"
+        ],
+        "city": "HOBBS",
+        "state": "NM",
+        "postalCode": "88240-1219"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8262"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8262.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9c078770-f1f2-549e-9036-45d95c294dad"
+}

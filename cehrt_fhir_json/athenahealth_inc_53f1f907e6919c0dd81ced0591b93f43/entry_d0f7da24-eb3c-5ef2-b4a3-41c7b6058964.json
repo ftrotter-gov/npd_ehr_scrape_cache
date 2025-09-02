@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d0f7da24-eb3c-5ef2-b4a3-41c7b6058964",
+    "name": "Dr. Staggs",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f9019748-5899-5759-8ce6-89c78ce3a98e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821107574"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 MEDICAL CENTER BLVD"
+        ],
+        "city": "COOKEVILLE",
+        "state": "TN",
+        "postalCode": "38501-1760"
+      },
+      {
+        "line": [
+          "753 HUMBLE DR STE B"
+        ],
+        "city": "COOKEVILLE",
+        "state": "TN",
+        "postalCode": "38501-4202"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28143"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28143.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d0f7da24-eb3c-5ef2-b4a3-41c7b6058964"
+}

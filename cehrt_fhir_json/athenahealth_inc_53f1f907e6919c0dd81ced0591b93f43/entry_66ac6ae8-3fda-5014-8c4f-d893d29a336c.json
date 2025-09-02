@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "66ac6ae8-3fda-5014-8c4f-d893d29a336c",
+    "name": "SUTTER DAVIS HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/719f7029-f98b-5b27-b6c8-090517687045"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235135427"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 SUTTER PLACE"
+        ],
+        "city": "DAVIS",
+        "state": "CA",
+        "postalCode": "95616-6201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8542"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8542.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:66ac6ae8-3fda-5014-8c4f-d893d29a336c"
+}

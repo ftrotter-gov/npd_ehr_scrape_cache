@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "84aee0ec-39b1-5b05-84c6-4db1df5090fd",
+    "name": "Winn Rural Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/76fd60a5-b490-508f-82cc-4042a63b6537"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811436058"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467055442"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "639 W LAFAYETTE ST"
+        ],
+        "city": "WINNFIELD",
+        "state": "LA",
+        "postalCode": "71483-3451"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25133"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25133.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:84aee0ec-39b1-5b05-84c6-4db1df5090fd"
+}

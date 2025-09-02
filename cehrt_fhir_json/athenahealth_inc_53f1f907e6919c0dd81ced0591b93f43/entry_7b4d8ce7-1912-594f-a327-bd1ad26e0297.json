@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7b4d8ce7-1912-594f-a327-bd1ad26e0297",
+    "name": "Select Pain Procedure",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a80a5dc-9c2c-55e9-b41d-3fc46c93e4ca"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568512515"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "PEND**45D1085997"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "17110 DALLAS PARKWAY",
+          "SUITE 125"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75248-1167"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1255"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1255.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7b4d8ce7-1912-594f-a327-bd1ad26e0297"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f0c48eb3-1e31-5335-bccb-eb7a274e09b6",
+    "name": "Patient home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7205eb26-422f-51ae-86cc-4969fd51f5d0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750310926"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1450 Ellis St Ste 201"
+        ],
+        "city": "BOZEMAN",
+        "state": "MT",
+        "postalCode": "59715-8813"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12906"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12906.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f0c48eb3-1e31-5335-bccb-eb7a274e09b6"
+}

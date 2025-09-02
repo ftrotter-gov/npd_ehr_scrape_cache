@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2b66c5b9-7575-4a62-9489-ae304ea07df6",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "b0c77ce0-c6cf-4c56-956e-a5905fab0942",
+        "name": "Southwest Family Medicine"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Southwest Family Medicine",
+    "managingOrganization": {
+      "reference": "#b0c77ce0-c6cf-4c56-956e-a5905fab0942"
+    },
+    "period": {
+      "start": "2024-11-05T17:04:26+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10033441"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10033441"
+}

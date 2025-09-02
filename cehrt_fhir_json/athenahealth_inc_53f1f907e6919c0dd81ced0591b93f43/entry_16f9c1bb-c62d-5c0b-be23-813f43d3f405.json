@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "16f9c1bb-c62d-5c0b-be23-813f43d3f405",
+    "name": "Temecula Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e90fa549-f18e-5d27-b372-fea9b59444a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013163914"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "41715 Winchester Road",
+          "Suite 107"
+        ],
+        "city": "TEMECULA",
+        "state": "CA",
+        "postalCode": "92590-4853"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24997"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24997.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:16f9c1bb-c62d-5c0b-be23-813f43d3f405"
+}

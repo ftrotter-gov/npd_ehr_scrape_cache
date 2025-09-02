@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d6abc68-1b11-5ee6-9924-604e65f435a8",
+    "name": "Checkmate Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df4d5bf4-a9f2-51d0-9f36-6a17e3c3a989"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639418858"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "149 DUPONT ST"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11222-1279"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16096"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16096.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d6abc68-1b11-5ee6-9924-604e65f435a8"
+}

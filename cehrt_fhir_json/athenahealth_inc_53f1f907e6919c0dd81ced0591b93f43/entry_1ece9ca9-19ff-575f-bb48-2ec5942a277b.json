@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ece9ca9-19ff-575f-bb48-2ec5942a277b",
+    "name": "Hill Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4cf7b073-1d83-5945-a6dc-c6f554bafaea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528061157"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942622204"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649551516"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "117 JANE LN"
+        ],
+        "city": "HILLSBORO",
+        "state": "TX",
+        "postalCode": "76645-2673"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1570"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1570.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ece9ca9-19ff-575f-bb48-2ec5942a277b"
+}

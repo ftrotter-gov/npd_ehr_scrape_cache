@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "09cc1234-1aee-5183-851f-b83ecc006627",
+    "name": "Ridgewood Surgery & Endoscopy Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8050c3ef-243d-54c8-9291-7bc81f36fef0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063453991"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417967365"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952593915"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4013 N Ridge Rd, Ste 100"
+        ],
+        "city": "WICHITA",
+        "state": "KS",
+        "postalCode": "67205-8858"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20807"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20807.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:09cc1234-1aee-5183-851f-b83ecc006627"
+}

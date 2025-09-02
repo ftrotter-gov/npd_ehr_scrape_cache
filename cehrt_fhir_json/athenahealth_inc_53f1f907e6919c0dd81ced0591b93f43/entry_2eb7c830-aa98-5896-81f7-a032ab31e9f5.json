@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2eb7c830-aa98-5896-81f7-a032ab31e9f5",
+    "name": "Tulsa Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e47e1b8f-07f3-5dc1-a0fa-1374288d510a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720355357"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9641 Riverside Parkway"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74137-7441"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5941"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5941.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2eb7c830-aa98-5896-81f7-a032ab31e9f5"
+}

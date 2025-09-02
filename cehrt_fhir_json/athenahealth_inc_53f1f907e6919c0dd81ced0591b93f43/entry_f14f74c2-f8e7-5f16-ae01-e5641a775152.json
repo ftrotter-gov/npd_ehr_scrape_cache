@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f14f74c2-f8e7-5f16-ae01-e5641a775152",
+    "name": "Wall Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5d82c7d7-832b-519d-8ce8-528e6a2c9181"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427008135"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "455 Grand Avenue"
+        ],
+        "city": "SOUTH SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94080-9999"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8700"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8700.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f14f74c2-f8e7-5f16-ae01-e5641a775152"
+}

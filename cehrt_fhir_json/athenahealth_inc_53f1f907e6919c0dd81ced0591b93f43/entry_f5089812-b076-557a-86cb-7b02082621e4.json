@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f5089812-b076-557a-86cb-7b02082621e4",
+    "name": "Catawba Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6ad19ff0-378a-5001-9310-bc0c813da060"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174753024"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3909 Lancaster Highway"
+        ],
+        "city": "Richburg",
+        "state": "SC",
+        "postalCode": "29729-9053"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4693"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4693.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f5089812-b076-557a-86cb-7b02082621e4"
+}

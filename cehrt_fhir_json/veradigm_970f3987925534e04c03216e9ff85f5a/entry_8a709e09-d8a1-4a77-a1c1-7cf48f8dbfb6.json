@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "8a709e09-d8a1-4a77-a1c1-7cf48f8dbfb6",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c7b77561-19de-42cb-8920-1cb0c32bfcbb",
+        "name": "Ear Nose and Throat Associates"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Ear Nose and Throat Associates",
+    "managingOrganization": {
+      "reference": "#c7b77561-19de-42cb-8920-1cb0c32bfcbb"
+    },
+    "period": {
+      "start": "2024-01-25T03:55:28+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11260846"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11260846"
+}

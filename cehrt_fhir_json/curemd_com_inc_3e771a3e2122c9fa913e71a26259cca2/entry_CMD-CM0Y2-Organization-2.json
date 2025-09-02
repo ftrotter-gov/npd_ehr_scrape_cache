@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0Y2-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0Y2"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Sand Lake Cancer Center",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4073511002"
+      },
+      {
+        "system": "fax",
+        "value": "4073511119"
+      }
+    ],
+    "address": [
+      {
+        "text": "7301 Stonerock Circle Orlando FL 328198004 US",
+        "line": [
+          "7301 Stonerock Circle"
+        ],
+        "city": "Orlando",
+        "state": "FL",
+        "postalCode": "328198004",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0Y2-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0Y2-Organization-2"
+}

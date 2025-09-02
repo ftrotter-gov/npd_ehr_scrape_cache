@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "20acf8a2-ca93-53d4-a756-1c2597ee6f1e",
+    "name": "Our Family Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6de75fc8-36da-5f4c-b77b-39b2c3dbb9d0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740937366"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1576 MERRITT BLVD",
+          "SUITE 15"
+        ],
+        "city": "DUNDALK",
+        "state": "MD",
+        "postalCode": "21222-1031"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27109"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27109.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:20acf8a2-ca93-53d4-a756-1c2597ee6f1e"
+}

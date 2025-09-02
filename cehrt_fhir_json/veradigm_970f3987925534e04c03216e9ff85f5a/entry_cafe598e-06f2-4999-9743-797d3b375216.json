@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "cafe598e-06f2-4999-9743-797d3b375216",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "1d00bd2e-b520-4529-a074-bdd3813c7a01",
+        "name": "Lifetime Family Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Lifetime Family Care",
+    "managingOrganization": {
+      "reference": "#1d00bd2e-b520-4529-a074-bdd3813c7a01"
+    },
+    "period": {
+      "start": "2018-01-02T12:10:54+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/58105"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/58105"
+}

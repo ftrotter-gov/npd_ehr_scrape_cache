@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5f693f45-e9ab-5484-97e3-95d22a40150c",
+    "name": "POOLER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1acfc61d-c60b-5d50-8687-7021f648dac8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386823243"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578812012"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 TOWNE CENTER BLVD",
+          "SUITE 305"
+        ],
+        "city": "POOLER",
+        "state": "GA",
+        "postalCode": "31322-4068"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5518"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5518.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5f693f45-e9ab-5484-97e3-95d22a40150c"
+}

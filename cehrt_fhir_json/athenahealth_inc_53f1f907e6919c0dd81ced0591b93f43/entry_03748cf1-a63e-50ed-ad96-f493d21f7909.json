@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "03748cf1-a63e-50ed-ad96-f493d21f7909",
+    "name": "Porter Adventist Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dffbd2c1-f9a4-5259-8d85-35f67635d466"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669653242"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2535 S Downing St",
+          "suite 380"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80210-5850"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1411"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1411.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:03748cf1-a63e-50ed-ad96-f493d21f7909"
+}

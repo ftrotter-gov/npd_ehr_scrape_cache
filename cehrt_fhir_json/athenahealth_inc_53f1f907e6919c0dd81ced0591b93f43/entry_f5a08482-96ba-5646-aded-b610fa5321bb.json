@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f5a08482-96ba-5646-aded-b610fa5321bb",
+    "name": "Tripoint Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/85d61e7d-f71f-5fb2-92d9-5661bd1a4c72"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356394357"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7590 Auburn Rd"
+        ],
+        "city": "Concord",
+        "state": "OH",
+        "postalCode": "44077-9176"
+      },
+      {
+        "line": [
+          "7590 Auburn Rd"
+        ],
+        "city": "PAINESVILLE",
+        "state": "OH",
+        "postalCode": "44077-9176"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1926"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1926.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f5a08482-96ba-5646-aded-b610fa5321bb"
+}

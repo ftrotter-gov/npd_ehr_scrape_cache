@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTI3N18xMjc3XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "156.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Orange Grove Pediatrics AZ",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "520-797-3888",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "520-797-2196",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "1925 W. Orange Grove Rd Suite 302 Tucson, AZ 85704",
+        "line": [
+          "1925 W. Orange Grove Rd",
+          "Suite 302"
+        ],
+        "city": "Tucson",
+        "state": "AZ",
+        "postalCode": "85704",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTI3N18xMjc3XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTI3N18xMjc3XzMwNjA"
+}

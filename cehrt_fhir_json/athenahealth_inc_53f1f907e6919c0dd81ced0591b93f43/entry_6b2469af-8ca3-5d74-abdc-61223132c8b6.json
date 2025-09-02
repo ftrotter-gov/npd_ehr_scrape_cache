@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b2469af-8ca3-5d74-abdc-61223132c8b6",
+    "name": "bear hill nursing center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/854c5b37-1b58-5bae-b8f0-c141c0f5fec6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871575480"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "22D0990272"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "25 Woodland Rd"
+        ],
+        "city": "STONEHAM",
+        "state": "MA",
+        "postalCode": "02180-1705"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-106"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-106.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b2469af-8ca3-5d74-abdc-61223132c8b6"
+}

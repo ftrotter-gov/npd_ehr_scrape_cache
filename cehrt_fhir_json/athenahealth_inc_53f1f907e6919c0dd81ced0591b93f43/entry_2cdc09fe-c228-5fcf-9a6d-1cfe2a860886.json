@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2cdc09fe-c228-5fcf-9a6d-1cfe2a860886",
+    "name": "Riddle Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/40bc1789-53b6-5a90-901f-9fcbf29bea82"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538230396"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1068 West Baltimore Pike"
+        ],
+        "city": "MEDIA",
+        "state": "PA",
+        "postalCode": "19063-5104"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-554"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-554.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2cdc09fe-c228-5fcf-9a6d-1cfe2a860886"
+}

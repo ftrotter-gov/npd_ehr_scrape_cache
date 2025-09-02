@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ac3cb0be-ce3f-51e3-aaf9-ebfda202af76",
+    "name": "Sierra Vista Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a6dd2b31-e582-5b45-a1b6-88475c509439"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750799086"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1010 MURRAY AVE"
+        ],
+        "city": "SAN LUIS OBISPO",
+        "state": "CA",
+        "postalCode": "93405-1806"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9312"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9312.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ac3cb0be-ce3f-51e3-aaf9-ebfda202af76"
+}

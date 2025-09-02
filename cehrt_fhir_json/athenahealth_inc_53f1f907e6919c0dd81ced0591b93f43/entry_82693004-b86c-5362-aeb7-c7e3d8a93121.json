@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "82693004-b86c-5362-aeb7-c7e3d8a93121",
+    "name": "Medical Center, Inc. - ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dfcff080-dc57-507a-8cce-9e3ad39a6f03"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326412420"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "710 CENTER STREET"
+        ],
+        "city": "COLUMBUS",
+        "state": "GA",
+        "postalCode": "31901-1527"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12736"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12736.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:82693004-b86c-5362-aeb7-c7e3d8a93121"
+}

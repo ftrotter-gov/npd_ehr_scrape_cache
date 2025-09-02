@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c03c459e-bf73-5a40-8a9b-b0ecf71238c2",
+    "name": "Gray Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bdfc41a9-fab1-55b0-90f6-1c73ce86535e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356489850"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "260 West Clinton Street"
+        ],
+        "city": "GRAY",
+        "state": "GA",
+        "postalCode": "31032-5430"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4291"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4291.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c03c459e-bf73-5a40-8a9b-b0ecf71238c2"
+}

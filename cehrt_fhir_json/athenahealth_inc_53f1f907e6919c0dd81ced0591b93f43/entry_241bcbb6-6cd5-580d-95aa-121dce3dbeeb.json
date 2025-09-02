@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "241bcbb6-6cd5-580d-95aa-121dce3dbeeb",
+    "name": "Athena Home Visits",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1a750244-2148-57e6-983b-b3c35aa2717f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295189249"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8301 LAKEVIEW PKWY STE 106"
+        ],
+        "city": "ROWLETT",
+        "state": "TX",
+        "postalCode": "75088-1216"
+      },
+      {
+        "line": [
+          "8301 LAKEVIEW PKWY STE. 106"
+        ],
+        "city": "ROWLETT",
+        "state": "TX",
+        "postalCode": "75088-9319"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13577"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13577.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:241bcbb6-6cd5-580d-95aa-121dce3dbeeb"
+}

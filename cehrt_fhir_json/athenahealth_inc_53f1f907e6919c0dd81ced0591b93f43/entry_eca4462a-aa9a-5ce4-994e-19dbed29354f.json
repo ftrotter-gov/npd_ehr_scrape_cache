@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eca4462a-aa9a-5ce4-994e-19dbed29354f",
+    "name": "Clarkston Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cc201f26-4fcd-5f9b-b12a-115050e91f46"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871282772"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114632932"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5701 BOW POINTE DR STE 145"
+        ],
+        "city": "CLARKSTON",
+        "state": "MI",
+        "postalCode": "48346-5404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28822"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28822.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eca4462a-aa9a-5ce4-994e-19dbed29354f"
+}

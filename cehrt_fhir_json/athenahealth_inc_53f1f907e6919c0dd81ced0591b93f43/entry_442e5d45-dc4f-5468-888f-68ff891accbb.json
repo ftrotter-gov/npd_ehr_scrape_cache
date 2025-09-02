@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "442e5d45-dc4f-5468-888f-68ff891accbb",
+    "name": "Alexian Brothers Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/494bb072-88f0-5a55-aaaa-c631bc4e4450"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487728002"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 Biesterfield Rd."
+        ],
+        "city": "ELK GROVE VILLAGE",
+        "state": "IL",
+        "postalCode": "60007-3361"
+      },
+      {
+        "line": [
+          "277 Yord Rd."
+        ],
+        "city": "ELMHURST",
+        "state": "IL",
+        "postalCode": "60126-2627"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10870"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10870.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:442e5d45-dc4f-5468-888f-68ff891accbb"
+}

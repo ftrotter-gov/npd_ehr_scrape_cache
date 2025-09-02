@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7b724ebe-b65a-5ad6-8aec-ac41dc1ea24d",
+    "name": "Podiatry",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/947e4045-0bb0-51af-b0b0-4ec5965fd639"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1679252118"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5401 PEACH ST"
+        ],
+        "city": "ERIE",
+        "state": "PA",
+        "postalCode": "16509-2601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29935"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29935.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7b724ebe-b65a-5ad6-8aec-ac41dc1ea24d"
+}

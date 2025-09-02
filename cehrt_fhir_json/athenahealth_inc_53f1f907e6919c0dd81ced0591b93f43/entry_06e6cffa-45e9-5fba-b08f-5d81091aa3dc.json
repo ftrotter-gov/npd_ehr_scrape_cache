@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "06e6cffa-45e9-5fba-b08f-5d81091aa3dc",
+    "name": "Forest Lane Pediatrics LLP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bca3dd9d-7370-53b1-a920-6bacf5948fea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225173107"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7777 Forest Lane",
+          "B300"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75230-2510"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9229"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9229.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:06e6cffa-45e9-5fba-b08f-5d81091aa3dc"
+}

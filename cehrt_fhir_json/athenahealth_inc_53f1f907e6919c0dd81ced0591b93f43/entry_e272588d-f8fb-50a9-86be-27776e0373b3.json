@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e272588d-f8fb-50a9-86be-27776e0373b3",
+    "name": "Milford Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e5fdc08-c359-5ec5-8965-3d65465c1b43"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043544489"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 Seaside Ave"
+        ],
+        "city": "MILFORD",
+        "state": "CT",
+        "postalCode": "06460-4603"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10861"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10861.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e272588d-f8fb-50a9-86be-27776e0373b3"
+}

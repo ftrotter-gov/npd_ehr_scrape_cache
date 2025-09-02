@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12a040c1-64bd-5d8e-ad2c-7bda1a5ba564",
+    "name": "UPMC EAST",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/30c36008-89e7-5882-8627-f3fec7d6f084"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124025929"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2775 MONROEVILLE BLVD."
+        ],
+        "city": "MONROEVILLE",
+        "state": "PA",
+        "postalCode": "15146-2760"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2305"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2305.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12a040c1-64bd-5d8e-ad2c-7bda1a5ba564"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1f3fc3d1-48a6-5400-a9b5-2ebc8e09f2d9",
+    "name": "Katherine Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b99b4dad-adbf-5ee9-a202-69aec7b1408f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437599032"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 Alameda Ave"
+        ],
+        "city": "SALINAS",
+        "state": "CA",
+        "postalCode": "93901-4120"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7346"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7346.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1f3fc3d1-48a6-5400-a9b5-2ebc8e09f2d9"
+}

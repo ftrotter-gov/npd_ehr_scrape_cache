@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3811934d-83b0-5011-aebd-d6c16036f5a8",
+    "name": "Willamette Valley Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ed18d0f5-a94c-54a2-b090-8235f29fb8be"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790740520"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1679537252"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2700 SE Stratus Ave"
+        ],
+        "city": "McMinnville",
+        "state": "OR",
+        "postalCode": "97128-6239"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1814"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1814.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3811934d-83b0-5011-aebd-d6c16036f5a8"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "969548fe-258e-5cb5-803d-ffbb539c6e64",
+    "name": "Impact Psychedelics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd8d6b85-85f3-5c83-90f5-53cb01acd76b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1806 W CAMELBACK RD"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85015-3326"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26668"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26668.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:969548fe-258e-5cb5-803d-ffbb539c6e64"
+}

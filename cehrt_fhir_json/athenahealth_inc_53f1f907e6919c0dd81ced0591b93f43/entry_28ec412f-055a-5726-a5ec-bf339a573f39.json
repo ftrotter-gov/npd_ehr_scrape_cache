@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "28ec412f-055a-5726-a5ec-bf339a573f39",
+    "name": "Parker Adventist Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca8397b5-cac4-58d3-b4d2-8417ac25092f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700844768"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9395 Crown Crest Blvd"
+        ],
+        "city": "PARKER",
+        "state": "CO",
+        "postalCode": "80138-8573"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4826"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4826.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:28ec412f-055a-5726-a5ec-bf339a573f39"
+}

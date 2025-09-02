@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "59dc357d-d636-5eb0-bce7-77f25ff729dd",
+    "name": "Vail Valley Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4e96f417-6d8a-59c9-81d3-544a04475eb0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114918018"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "181 W. Meadow Drive"
+        ],
+        "city": "VAIL",
+        "state": "CO",
+        "postalCode": "81657-5242"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-980"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-980.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:59dc357d-d636-5eb0-bce7-77f25ff729dd"
+}

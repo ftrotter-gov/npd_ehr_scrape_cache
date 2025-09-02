@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e1b9a8d-6d1e-500d-8039-1b4edd0eaf25",
+    "name": "Clinton Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26e98536-f1d1-5d7d-b4c6-935507e1f903"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922029040"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "901 Highway 80 E"
+        ],
+        "city": "Clinton",
+        "state": "MS",
+        "postalCode": "39056-5244"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e1b9a8d-6d1e-500d-8039-1b4edd0eaf25"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5825a49-1d84-54e3-af32-ba23a2a0d833",
+    "name": "Saint Marys Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6121606b-1357-53e1-9c01-6033f81f79af"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316162795"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "235 West 6th St"
+        ],
+        "city": "RENO",
+        "state": "NV",
+        "postalCode": "89503-4548"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19482"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19482.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5825a49-1d84-54e3-af32-ba23a2a0d833"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "62853dcd-57b1-54c4-884c-fb1508ab32ae",
+    "name": "Somerset Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e88fb0db-7d65-5764-ab14-74b75cf87808"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992536213"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "659 AUBURN AVE NE STE 505"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30312-1903"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31998"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31998.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:62853dcd-57b1-54c4-884c-fb1508ab32ae"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5cac132e-8d0e-5a39-ae7f-9518727f9c8f",
+    "name": "NYU LANGONE OUTPATIENT SC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/46293170-4a25-5e50-a4dc-9ea9b965266d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598162521"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15055th Street"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11220-2508"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10570"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10570.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5cac132e-8d0e-5a39-ae7f-9518727f9c8f"
+}

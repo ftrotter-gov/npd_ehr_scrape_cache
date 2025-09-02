@@ -1,0 +1,27 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "d78c9c0b-1da1-7e92-8cb3-8ec87777de6e",
+    "name": "Reddy Family Medical Clinic",
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "direct-project"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+            "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+          }
+        ]
+      }
+    ],
+    "address": "https://fhir.ipatientcare.net:9443/fhir-server/api/v4",
+    "header": [
+      "X-FHIR-TENANT-ID rmc1"
+    ]
+  },
+  "fullUrl": "https://oauth.ipatientcare.net/api/Endpoint/d78c9c0b-1da1-7e92-8cb3-8ec87777de6e"
+}

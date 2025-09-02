@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dd608281-c179-5bc3-a34e-cb73f5db99ee",
+    "name": "Alacare Home Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/baa9cb2d-5d8e-55ae-8ac3-3456cdbffdd4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447433222"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3804 Rainbow Drive"
+        ],
+        "city": "RAINBOW CITY",
+        "state": "AL",
+        "postalCode": "35906-3051"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8688"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8688.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dd608281-c179-5bc3-a34e-cb73f5db99ee"
+}

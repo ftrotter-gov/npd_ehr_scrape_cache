@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7ade7ca3-7389-52ad-8616-cb4fcba890d1",
+    "name": "The Center for Outpatient Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/13439e60-efa9-538b-a757-62d039003d53"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801088067"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2502 East Empire St",
+          "Suite B"
+        ],
+        "city": "BLOOMINGTON",
+        "state": "IL",
+        "postalCode": "61704-3738"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1321"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1321.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7ade7ca3-7389-52ad-8616-cb4fcba890d1"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "45daf489-148a-46ae-97a9-28ca8af39f35",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4d5bd17c-a13c-41ea-84c9-67602e5daf2b",
+        "name": "Med Specialists Of Madison Co"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Med Specialists Of Madison Co",
+    "managingOrganization": {
+      "reference": "#4d5bd17c-a13c-41ea-84c9-67602e5daf2b"
+    },
+    "period": {
+      "start": "2018-01-04T19:30:30+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/70226"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/70226"
+}

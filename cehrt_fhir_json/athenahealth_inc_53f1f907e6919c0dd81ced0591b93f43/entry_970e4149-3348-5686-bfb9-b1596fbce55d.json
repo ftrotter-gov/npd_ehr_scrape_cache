@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "970e4149-3348-5686-bfb9-b1596fbce55d",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/041a1894-9b57-566c-b348-b1fc65198722"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992762728"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2509 WOOTEN BLVD SW"
+        ],
+        "city": "WILSON",
+        "state": "NC",
+        "postalCode": "27893-4426"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11542"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11542.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:970e4149-3348-5686-bfb9-b1596fbce55d"
+}

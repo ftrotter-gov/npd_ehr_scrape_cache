@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0OR-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0OR"
+        }
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851496269"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Jones County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2524489111"
+      },
+      {
+        "system": "fax",
+        "value": "2524481670"
+      },
+      {
+        "system": "url",
+        "value": "www.jonescountyhealth.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "418 NC HIGHWAY 58 N Unit C Trenton JONES NC 285859619 US",
+        "line": [
+          "418 NC HIGHWAY 58 N",
+          "Unit C"
+        ],
+        "city": "Trenton",
+        "district": "JONES",
+        "state": "NC",
+        "postalCode": "285859619",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0OR-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0OR-Organization-2"
+}

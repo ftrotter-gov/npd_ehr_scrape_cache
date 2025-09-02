@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c79dd023-70ad-527c-9458-e2cd30635399",
+    "name": "Parma Occupational Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0d565c9e-96f7-5ee3-a109-54cbf7eeb64b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770993453"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1400 W. PLEASANT VALLEY RD"
+        ],
+        "city": "CLEVELAND",
+        "state": "OH",
+        "postalCode": "44134-6720"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31377"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31377.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c79dd023-70ad-527c-9458-e2cd30635399"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bacd2a67-d7e3-5ff5-b37c-5c64f6a891a4",
+    "name": "ST James Hospital Outpatient Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a70060d7-9def-55cb-ab8e-8c99cd4e379e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578776050"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2471 LOUISIANA AVE"
+        ],
+        "city": "LUTCHER",
+        "state": "LA",
+        "postalCode": "70071-5150"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12094"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12094.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bacd2a67-d7e3-5ff5-b37c-5c64f6a891a4"
+}

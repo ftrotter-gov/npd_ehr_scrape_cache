@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "38116246-2926-5048-85b3-4f08b209c0f8",
+    "name": "Advanced Surgical Arts",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26aa92db-6c96-5f2c-8c03-76bfe0ff44dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235453408"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538155817"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1605 S. Baltimore",
+          "Suite B"
+        ],
+        "city": "KIRKSVILLE",
+        "state": "MO",
+        "postalCode": "63501-4508"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2245"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2245.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:38116246-2926-5048-85b3-4f08b209c0f8"
+}

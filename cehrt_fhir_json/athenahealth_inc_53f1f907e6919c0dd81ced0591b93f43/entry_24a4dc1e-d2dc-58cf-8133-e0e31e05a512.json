@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "24a4dc1e-d2dc-58cf-8133-e0e31e05a512",
+    "name": "BAPTIST HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db0d0bbb-cbeb-553f-81cb-88cd6c75e704"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013123231"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3100 SW 62 AVE"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33155-3009"
+      },
+      {
+        "line": [
+          "8900 N KENDALL DR"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33176-2118"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-844"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-844.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:24a4dc1e-d2dc-58cf-8133-e0e31e05a512"
+}

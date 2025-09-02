@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2b2e40f8-4643-5e63-a748-96fddeb8d60b",
+    "name": "Lakeside Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/94f30776-ef20-574e-a9d4-861d40abb9ac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811226442"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "44472 Hayes Rd"
+        ],
+        "city": "CLINTON TOWNSHIP",
+        "state": "MI",
+        "postalCode": "48038-1090"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8723"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8723.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2b2e40f8-4643-5e63-a748-96fddeb8d60b"
+}

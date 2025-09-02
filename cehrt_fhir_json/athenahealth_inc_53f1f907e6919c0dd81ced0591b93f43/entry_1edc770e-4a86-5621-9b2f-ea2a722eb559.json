@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1edc770e-4a86-5621-9b2f-ea2a722eb559",
+    "name": "AMG Berkeley",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cda151c2-c5d8-547b-83ee-ac06e5cbc324"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265719033"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3000 Colby St Suite 101"
+        ],
+        "city": "BERKELEY",
+        "state": "CA",
+        "postalCode": "94705-2083"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24668"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24668.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1edc770e-4a86-5621-9b2f-ea2a722eb559"
+}

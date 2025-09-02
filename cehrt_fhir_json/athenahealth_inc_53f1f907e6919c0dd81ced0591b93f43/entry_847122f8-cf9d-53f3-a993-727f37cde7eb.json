@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "847122f8-cf9d-53f3-a993-727f37cde7eb",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7d994e74-7d31-59c9-9481-cf223ee99a5a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235567785"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "131 NORTH 5TH ST",
+          "FIRST FLOOR"
+        ],
+        "city": "READING",
+        "state": "PA",
+        "postalCode": "19601-3415"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15261"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15261.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:847122f8-cf9d-53f3-a993-727f37cde7eb"
+}

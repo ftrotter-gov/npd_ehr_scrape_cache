@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d34bd4e6-11ab-5865-8819-947f416148b2",
+    "name": "Primary Care Medical Partners",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2f2759f-10e3-5e2c-8f42-1f653908e3b0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700476843"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3025 TERRACE DR"
+        ],
+        "city": "LAS CRUCES",
+        "state": "NM",
+        "postalCode": "88011-5053"
+      },
+      {
+        "line": [
+          "1550 N ZARAGOZA SUITE 107"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79936-7905"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23770"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23770.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d34bd4e6-11ab-5865-8819-947f416148b2"
+}

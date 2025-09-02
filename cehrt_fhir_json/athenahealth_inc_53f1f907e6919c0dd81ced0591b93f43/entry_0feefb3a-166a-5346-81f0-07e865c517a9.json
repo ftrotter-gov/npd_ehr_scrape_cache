@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0feefb3a-166a-5346-81f0-07e865c517a9",
+    "name": "St Josephs Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ae35b341-d359-5709-b65a-80a9e2d8e678"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073850160"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3001 West Dr MLK Jr Blvd"
+        ],
+        "city": "TAMPA",
+        "state": "FL",
+        "postalCode": "33607-6307"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5077"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5077.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0feefb3a-166a-5346-81f0-07e865c517a9"
+}

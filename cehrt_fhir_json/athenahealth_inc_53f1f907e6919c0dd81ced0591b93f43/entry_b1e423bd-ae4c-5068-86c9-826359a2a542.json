@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1e423bd-ae4c-5068-86c9-826359a2a542",
+    "name": "St. Francis Palliative Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5402d977-3532-5f7b-a326-419fe7d7e278"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588775647"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275990061"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "355 Ridge Ave"
+        ],
+        "city": "EVANSTON",
+        "state": "IL",
+        "postalCode": "60202-3328"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-380"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-380.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1e423bd-ae4c-5068-86c9-826359a2a542"
+}

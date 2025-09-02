@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d2bd704a-3137-527e-b78f-aa17e6dfb7f1",
+    "name": "PENGUIN PHYSICAL THERAPY",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3427209d-7192-57f9-a65a-6629fc24ceb8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 WICK AVE"
+        ],
+        "city": "YOUNGSTOWN",
+        "state": "OH",
+        "postalCode": "44503-1001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17032"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17032.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d2bd704a-3137-527e-b78f-aa17e6dfb7f1"
+}

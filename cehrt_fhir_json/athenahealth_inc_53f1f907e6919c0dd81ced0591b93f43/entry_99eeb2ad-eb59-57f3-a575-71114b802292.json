@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "99eeb2ad-eb59-57f3-a575-71114b802292",
+    "name": "Tennova Primary Care-Chambliss",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8f7232ba-07c5-5600-a7c8-a7febf26f0d7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720149222"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457350951"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2253 Chambliss Ave NW Ste 400"
+        ],
+        "city": "CLEVELAND",
+        "state": "TN",
+        "postalCode": "37311-3861"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1525"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1525.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:99eeb2ad-eb59-57f3-a575-71114b802292"
+}

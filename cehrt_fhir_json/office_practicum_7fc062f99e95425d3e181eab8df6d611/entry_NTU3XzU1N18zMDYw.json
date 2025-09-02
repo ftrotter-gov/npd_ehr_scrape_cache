@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "NTU3XzU1N18zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "845.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871745802"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Tulsa Pediatric Urgent Care",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "918-895-7808",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "918-895-7807",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "Tulsa Pediatric Urgent Care 7723 E. 91st Street Tulsa, OK 741336053",
+        "line": [
+          "Tulsa Pediatric Urgent Care",
+          "7723 E. 91st Street"
+        ],
+        "city": "Tulsa",
+        "state": "OK",
+        "postalCode": "741336053",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/NTU3XzU1N18zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/NTU3XzU1N18zMDYw"
+}

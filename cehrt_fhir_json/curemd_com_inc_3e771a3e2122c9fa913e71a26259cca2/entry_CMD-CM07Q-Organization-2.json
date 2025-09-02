@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM07Q-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM07Q"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Robert L Coray MD, PLLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2083569086"
+      },
+      {
+        "system": "fax",
+        "value": "2083694498"
+      },
+      {
+        "system": "url",
+        "value": "drcoray.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "859 S Yellowstone Suite 3301 Rexburg ID 83440 US",
+        "line": [
+          "859 S Yellowstone Suite 3301"
+        ],
+        "city": "Rexburg",
+        "state": "ID",
+        "postalCode": "83440",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM07Q-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM07Q-Organization-2"
+}

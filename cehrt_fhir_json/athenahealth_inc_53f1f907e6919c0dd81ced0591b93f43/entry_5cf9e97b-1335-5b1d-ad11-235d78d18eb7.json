@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5cf9e97b-1335-5b1d-ad11-235d78d18eb7",
+    "name": "Arise Medical Center Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/be5b93ec-720e-5c1f-a74a-af2998e1c33f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740525237"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3003 BEE CAVES"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78746-5542"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6775"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6775.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5cf9e97b-1335-5b1d-ad11-235d78d18eb7"
+}

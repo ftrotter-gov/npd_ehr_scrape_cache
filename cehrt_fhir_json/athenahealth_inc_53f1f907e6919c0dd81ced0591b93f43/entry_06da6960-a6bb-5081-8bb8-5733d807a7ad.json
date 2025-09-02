@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "06da6960-a6bb-5081-8bb8-5733d807a7ad",
+    "name": "Phoenix Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9858ee83-f266-576f-853b-4ea2624a3051"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316952971"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9145 W THUNDERBIRD RD STE 101",
+          "SUITE 101"
+        ],
+        "city": "PEORIA",
+        "state": "AZ",
+        "postalCode": "85381-4872"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28150"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28150.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:06da6960-a6bb-5081-8bb8-5733d807a7ad"
+}

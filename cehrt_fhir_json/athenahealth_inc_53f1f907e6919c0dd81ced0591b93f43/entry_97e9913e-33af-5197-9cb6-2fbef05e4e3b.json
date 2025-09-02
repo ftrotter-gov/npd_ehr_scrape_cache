@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "97e9913e-33af-5197-9cb6-2fbef05e4e3b",
+    "name": "Atlanta Outpatient Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/771fe1cc-1ca3-53d8-9be8-6403fec095fa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982618294"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 Circle 75 Parkway",
+          "Suite 1700"
+        ],
+        "city": "Atlanta",
+        "state": "GA",
+        "postalCode": "30339-3087"
+      },
+      {
+        "line": [
+          "970 Woodstock Pkwy, STE 310"
+        ],
+        "city": "WOODSTOCK",
+        "state": "GA",
+        "postalCode": "30188-4869"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-327"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-327.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:97e9913e-33af-5197-9cb6-2fbef05e4e3b"
+}

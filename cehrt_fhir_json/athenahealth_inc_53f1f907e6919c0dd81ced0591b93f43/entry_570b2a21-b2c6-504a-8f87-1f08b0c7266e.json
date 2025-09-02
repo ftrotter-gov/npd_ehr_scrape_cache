@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "570b2a21-b2c6-504a-8f87-1f08b0c7266e",
+    "name": "BE MED PT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f493a867-173f-5248-844a-7bcebca78376"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225029705"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 NW 87TH AVE",
+          "SUITE 216B"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33172-2657"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28381"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28381.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:570b2a21-b2c6-504a-8f87-1f08b0c7266e"
+}

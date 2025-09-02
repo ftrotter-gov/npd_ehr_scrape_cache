@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "460c840d-9969-5b5b-a6dc-499469faaa76",
+    "name": "Dr. Kocharian's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7872de78-9b1c-553e-bd21-16405a1439fb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417136091"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5414 Oberlin Drive Suite 230"
+        ],
+        "city": "SAN DIEGO",
+        "state": "CA",
+        "postalCode": "92121-3911"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17887"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17887.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:460c840d-9969-5b5b-a6dc-499469faaa76"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "632b1366-f48b-5fd2-b95c-8132dfb5fb83",
+    "name": "Newnan Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/22d58937-b2c9-59a5-b761-2fb081347ac5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740953447"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3231 HWY 34E",
+          "STE B"
+        ],
+        "city": "NEWNAN",
+        "state": "GA",
+        "postalCode": "30265-6407"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22722"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22722.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:632b1366-f48b-5fd2-b95c-8132dfb5fb83"
+}

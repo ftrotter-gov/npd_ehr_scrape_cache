@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9d54a3de-a26e-5cd8-86a1-65deb046fbd3",
+    "name": "Winchester Physician Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/05bb4116-d53f-51f4-acfb-6a948f7e6543"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184606865"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "259 SWANTON STREET"
+        ],
+        "city": "WINCHESTER",
+        "state": "MA",
+        "postalCode": "01890-4301"
+      },
+      {
+        "line": [
+          "1021 Main Street"
+        ],
+        "city": "WINCHESTER",
+        "state": "MA",
+        "postalCode": "01890-1969"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-391.Brand-11"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9d54a3de-a26e-5cd8-86a1-65deb046fbd3"
+}

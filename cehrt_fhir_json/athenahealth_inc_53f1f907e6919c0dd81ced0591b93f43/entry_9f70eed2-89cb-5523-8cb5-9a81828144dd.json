@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9f70eed2-89cb-5523-8cb5-9a81828144dd",
+    "name": "Southwest Pain Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f589dfe5-262d-5e3b-b82f-8c6fba3e2058"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821351750"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3005 HILLRISE DR"
+        ],
+        "city": "LAS CRUCES",
+        "state": "NM",
+        "postalCode": "88011-4703"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20389"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20389.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9f70eed2-89cb-5523-8cb5-9a81828144dd"
+}

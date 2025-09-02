@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "45fb593a-160c-58b5-ad74-4086a0df0a92",
+    "name": "MISTR/SISTR",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/01dbe6b9-bbdf-50a8-b2a1-0daa72361ce3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093766396"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2800 S INTERSTATE 35",
+          "STE 215"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78704-5700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15777"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15777.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:45fb593a-160c-58b5-ad74-4086a0df0a92"
+}

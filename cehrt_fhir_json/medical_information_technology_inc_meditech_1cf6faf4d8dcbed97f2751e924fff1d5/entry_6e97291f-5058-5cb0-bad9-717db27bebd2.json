@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e97291f-5058-5cb0-bad9-717db27bebd2",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://southshorehospital.com"
+      }
+    ],
+    "name": "South Shore Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://southshorehospital.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8012 South Crandon Avenue"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60617",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:56a495d6-2b54-4263-aa7b-eb8551450391"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:56a495d6-2b54-4263-aa7b-eb8551450391"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e97291f-5058-5cb0-bad9-717db27bebd2"
+}

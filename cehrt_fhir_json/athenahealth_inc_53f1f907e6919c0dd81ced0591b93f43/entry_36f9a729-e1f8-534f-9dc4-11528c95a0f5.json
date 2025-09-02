@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "36f9a729-e1f8-534f-9dc4-11528c95a0f5",
+    "name": "Health One",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0379371f-dbcc-54a5-9707-9232c99aae05"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275981185"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4079 Gantz Rd",
+          "Ste B"
+        ],
+        "city": "GROVE CITY",
+        "state": "OH",
+        "postalCode": "43123-4913"
+      },
+      {
+        "line": [
+          "4079 B GANTZ RD"
+        ],
+        "city": "GROVE CITY",
+        "state": "OH",
+        "postalCode": "43123-4913"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2030"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2030.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:36f9a729-e1f8-534f-9dc4-11528c95a0f5"
+}

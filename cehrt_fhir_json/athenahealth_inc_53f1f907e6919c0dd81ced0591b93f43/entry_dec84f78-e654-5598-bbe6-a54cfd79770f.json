@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dec84f78-e654-5598-bbe6-a54cfd79770f",
+    "name": "Mountain West Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ce3caa5a-e1cc-5d3b-b7c8-aab066f2f272"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306952783"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2066 No Main Street"
+        ],
+        "city": "TOOELE",
+        "state": "UT",
+        "postalCode": "84074-2794"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11893"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11893.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dec84f78-e654-5598-bbe6-a54cfd79770f"
+}

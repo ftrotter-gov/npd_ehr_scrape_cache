@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cd602ff9-4697-5a8f-856d-9e74f8f1153b",
+    "name": "SPS Family Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f2efc05b-e39a-5cbe-9fe7-5455ff5fb855"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346423399"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2113 W CHICAGO AVE"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60622-8881"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23433"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23433.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cd602ff9-4697-5a8f-856d-9e74f8f1153b"
+}

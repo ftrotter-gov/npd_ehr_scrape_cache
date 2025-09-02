@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa294eda-a724-5d18-a5da-c79a6ebbe52b",
+    "name": "Smithville Community Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3c7d564e-1c21-5ee7-924b-c888101e43ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 LYNCH STREET"
+        ],
+        "city": "SMITHVILLE",
+        "state": "TX",
+        "postalCode": "78957-2514"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20638"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20638.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa294eda-a724-5d18-a5da-c79a6ebbe52b"
+}

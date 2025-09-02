@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5f656e37-1f1f-55b1-aa73-8cf5a16915f6",
+    "name": "Parker Place",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e00a9605-294b-50b1-b683-db60075177de"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063920197"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "116 DEFENSE HWY STE 403"
+        ],
+        "city": "ANNAPOLIS",
+        "state": "MD",
+        "postalCode": "21401-7020"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19111"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19111.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5f656e37-1f1f-55b1-aa73-8cf5a16915f6"
+}

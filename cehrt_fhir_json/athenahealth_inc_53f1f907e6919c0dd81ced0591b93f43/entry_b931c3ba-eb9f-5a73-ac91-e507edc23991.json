@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b931c3ba-eb9f-5a73-ac91-e507edc23991",
+    "name": "Upper Bay Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6b42517e-12de-513b-a36f-9f881591ee10"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629441241"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811363849"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "360 Pulaski Hwy",
+          "Ste 2A"
+        ],
+        "city": "ELKTON",
+        "state": "MD",
+        "postalCode": "21921-6595"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15585"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15585.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b931c3ba-eb9f-5a73-ac91-e507edc23991"
+}

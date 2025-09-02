@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aa38300e-38cd-51d2-985f-536fc432e6ac",
+    "name": "Hillsboro Area Hospital Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d227788c-3447-58a3-9380-cc8ce5a1f836"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780638478"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992752224"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528782042"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1200 E Tremont St"
+        ],
+        "city": "Hillsboro",
+        "state": "IL",
+        "postalCode": "62049-1912"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28977"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28977.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aa38300e-38cd-51d2-985f-536fc432e6ac"
+}

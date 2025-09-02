@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42f8d73e-b552-5c15-b9f2-fe2dc07a2279",
+    "name": "Replenish Wellness Ctr",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d18e46fe-1905-598a-b464-775f8dc1d259"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962564476"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "185 CHATEAU DR SW, Suite 302"
+        ],
+        "city": "HUNTSVILLE",
+        "state": "AL",
+        "postalCode": "35801-7413"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32676"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32676.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42f8d73e-b552-5c15-b9f2-fe2dc07a2279"
+}

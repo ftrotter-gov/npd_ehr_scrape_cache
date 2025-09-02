@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ca5ae2a5-c748-503e-9bca-ebc1b1940420",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/08c46ba3-92fa-5dfe-8d1e-0e49e7b7ece3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881168342"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5555 N TACOMA AVE",
+          "STE 113"
+        ],
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "postalCode": "46220-3551"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26534"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26534.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ca5ae2a5-c748-503e-9bca-ebc1b1940420"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b889e96e-2c6a-52ea-918e-d1d905f9358d",
+    "name": "VA Internal Medicine Inc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d9ba31b1-c4d6-551a-8ea3-50dd8e04c9ac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740525245"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "46531 Harry Byrd Hwy"
+        ],
+        "city": "STERLING",
+        "state": "VA",
+        "postalCode": "20164-3555"
+      },
+      {
+        "line": [
+          "110 Chalmers Ct"
+        ],
+        "city": "BERRYVILLE",
+        "state": "VA",
+        "postalCode": "22611-1347"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5997"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5997.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b889e96e-2c6a-52ea-918e-d1d905f9358d"
+}

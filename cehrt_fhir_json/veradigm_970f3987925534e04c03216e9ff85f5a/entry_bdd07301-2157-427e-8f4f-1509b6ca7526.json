@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "bdd07301-2157-427e-8f4f-1509b6ca7526",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "bab750b6-d1c6-4585-bc52-814b4253e8ef",
+        "name": "CHRISTUS Heart & Vascular Institute"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "CHRISTUS Heart & Vascular Institute",
+    "managingOrganization": {
+      "reference": "#bab750b6-d1c6-4585-bc52-814b4253e8ef"
+    },
+    "period": {
+      "start": "2018-08-23T14:03:43+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0300005"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0300005"
+}

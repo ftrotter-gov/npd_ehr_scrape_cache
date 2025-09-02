@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "88c9fd0e-740e-5f41-8a03-7b1aba602d06",
+    "name": "Eagle Village Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ed9c140-800d-5e50-99aa-362c972c2d7e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821201278"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "134 Long Lake Rd"
+        ],
+        "city": "EAGLE",
+        "state": "AK",
+        "postalCode": "99738-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15989"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15989.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:88c9fd0e-740e-5f41-8a03-7b1aba602d06"
+}

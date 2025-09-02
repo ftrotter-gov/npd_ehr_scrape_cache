@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "122d6ba0-7635-5d25-a328-ac95b29b365d",
+    "name": "PATIENT PORTAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5f297c67-1658-50df-9b9e-fad0ce00682d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568534402"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2510 COMMONS BLVD SUITE 240"
+        ],
+        "city": "DAYTON",
+        "state": "OH",
+        "postalCode": "45431-3820"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6848"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6848.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:122d6ba0-7635-5d25-a328-ac95b29b365d"
+}

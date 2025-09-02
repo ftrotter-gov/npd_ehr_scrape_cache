@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "51d02a21-7ceb-5377-9ffb-40452e24ab3f",
+    "name": "VirtualMed PLLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0a4e6440-646f-5165-ae2f-64a2b60b83ca"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790279685"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9733 E. THEIA DR."
+        ],
+        "city": "MESA",
+        "state": "AZ",
+        "postalCode": "85212-8524"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22001"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22001.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:51d02a21-7ceb-5377-9ffb-40452e24ab3f"
+}

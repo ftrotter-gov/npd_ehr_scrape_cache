@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b52480f4-9000-5411-80e5-14664d90a6d4",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf94dbc0-a174-5cba-ac36-673f1bec1d3f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225547326"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1515 S CAPITAL OF TEXAS HWY",
+          "STE 105"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78746-6579"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17411"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17411.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b52480f4-9000-5411-80e5-14664d90a6d4"
+}

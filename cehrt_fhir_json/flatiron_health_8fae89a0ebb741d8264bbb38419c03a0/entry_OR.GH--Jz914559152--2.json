@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "OR.GH--Jz914559152--2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "123"
+      }
+    ],
+    "active": true,
+    "name": "Nuance Test Practice",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "(123)123-1234"
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "postal",
+        "line": [
+          "1 Soho Square"
+        ],
+        "city": "New YOrk",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/EP.All",
+        "type": "Endpoint"
+      }
+    ]
+  },
+  "fullUrl": "https://fhir.prod.flatiron.io/fhir/Organization/OR.GH--Jz914559152--2"
+}

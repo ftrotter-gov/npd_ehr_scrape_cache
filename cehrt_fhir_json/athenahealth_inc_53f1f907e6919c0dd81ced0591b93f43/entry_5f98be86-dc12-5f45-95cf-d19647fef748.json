@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5f98be86-dc12-5f45-95cf-d19647fef748",
+    "name": "Heywood Medical Group Inc.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9ee3a55-940b-53f2-a265-8f2893bb73ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699762286"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2033 Main Street"
+        ],
+        "city": "ATHOL",
+        "state": "MA",
+        "postalCode": "01331-3535"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-192"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-192.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5f98be86-dc12-5f45-95cf-d19647fef748"
+}

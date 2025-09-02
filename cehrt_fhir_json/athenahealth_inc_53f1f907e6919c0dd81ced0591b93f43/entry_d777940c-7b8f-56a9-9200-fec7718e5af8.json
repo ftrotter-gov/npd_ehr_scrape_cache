@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d777940c-7b8f-56a9-9200-fec7718e5af8",
+    "name": "Ocala Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7f9a47db-b30d-5c64-9d41-df164fb02e3d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831269638"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1431 SW 1ST AVE"
+        ],
+        "city": "OCALA",
+        "state": "FL",
+        "postalCode": "34471-6500"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1114"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1114.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d777940c-7b8f-56a9-9200-fec7718e5af8"
+}

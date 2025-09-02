@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ced762a2-237d-5657-8265-9c87eb04ee4d",
+    "name": "Elkhart General Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f2536f0f-1237-5863-b1fd-8c105e0b7add"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609894518"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 E. BLVD."
+        ],
+        "city": "ELKHART",
+        "state": "IN",
+        "postalCode": "46514-2483"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15748"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15748.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ced762a2-237d-5657-8265-9c87eb04ee4d"
+}

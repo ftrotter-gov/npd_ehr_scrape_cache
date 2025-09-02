@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b52e89eb-109b-5d06-b3ac-b77c274f1c4e",
+    "meta": {
+      "lastUpdated": "2025-01-22T23:51:14.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://williamsonmedicalcenter.org"
+      }
+    ],
+    "name": "Williamson Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://williamsonmedicalcenter.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4321 Carothers Parkway"
+        ],
+        "city": "Franklin",
+        "state": "TN",
+        "postalCode": "37067",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:7556ceb4-175c-542c-ad26-81d9a20ea40e"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:7556ceb4-175c-542c-ad26-81d9a20ea40e"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b52e89eb-109b-5d06-b3ac-b77c274f1c4e"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ce4617a-936e-5113-95ac-e5c7499c3b44",
+    "name": "Online Consultation",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5585acdd-7651-5672-a1a6-eb77fe577230"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275728305"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10640 MO 21 Business"
+        ],
+        "city": "HILLSBORO",
+        "state": "MO",
+        "postalCode": "63050-5039"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13500"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13500.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ce4617a-936e-5113-95ac-e5c7499c3b44"
+}

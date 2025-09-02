@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "00045ac4-abab-52e3-b055-71c29a35e4a4",
+    "name": "Bay Area Foot and Ankle Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e765ba22-2dd4-52a1-8fcd-4d94268dd7ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033266721"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2299 POST ST",
+          "SUITE 210"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94115-3473"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6647"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6647.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:00045ac4-abab-52e3-b055-71c29a35e4a4"
+}

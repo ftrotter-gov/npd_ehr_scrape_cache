@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5be9e8af-065c-5b73-a0a8-2ef84a49e475",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6d34dcd-7417-5957-9569-37ea10aeeea1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245754506"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "971 Lakeland Drive",
+          "Suite 1159"
+        ],
+        "city": "JACKSON",
+        "state": "MS",
+        "postalCode": "39216-4609"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16238"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16238.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5be9e8af-065c-5b73-a0a8-2ef84a49e475"
+}

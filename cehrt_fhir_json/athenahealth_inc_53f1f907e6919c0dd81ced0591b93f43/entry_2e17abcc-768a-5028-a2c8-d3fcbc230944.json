@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2e17abcc-768a-5028-a2c8-d3fcbc230944",
+    "name": "Red River Valley",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2dcc17e3-ed23-56b4-9047-9eb896f81ab9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053870253"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1701 38TH ST S STE 101"
+        ],
+        "city": "FARGO",
+        "state": "ND",
+        "postalCode": "58103-4499"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20350"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20350.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2e17abcc-768a-5028-a2c8-d3fcbc230944"
+}

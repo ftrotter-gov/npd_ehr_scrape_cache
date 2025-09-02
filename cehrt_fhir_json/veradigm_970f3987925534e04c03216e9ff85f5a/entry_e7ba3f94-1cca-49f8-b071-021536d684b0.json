@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e7ba3f94-1cca-49f8-b071-021536d684b0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "1d5e0999-98a4-4dd7-a66d-a5c63fb6684e",
+        "name": "Carolyn J Agresti MD Ear Nose Throat Inc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Carolyn J Agresti MD Ear Nose Throat Inc",
+    "managingOrganization": {
+      "reference": "#1d5e0999-98a4-4dd7-a66d-a5c63fb6684e"
+    },
+    "period": {
+      "start": "2018-01-02T17:14:45+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10079043"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10079043"
+}

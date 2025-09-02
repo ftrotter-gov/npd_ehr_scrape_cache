@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "46d68b22-1549-5e3d-8a38-e03778da5966",
+    "meta": {
+      "lastUpdated": "2024-08-29T22:51:54.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://islandhospital.org"
+      }
+    ],
+    "name": "Island Health",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://islandhospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1211 Twenty Fourth Street"
+        ],
+        "city": "Anacortes",
+        "state": "WA",
+        "postalCode": "98221",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:41acfa73-7b0f-5d5a-9694-329ef0bc1657"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:41acfa73-7b0f-5d5a-9694-329ef0bc1657"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:46d68b22-1549-5e3d-8a38-e03778da5966"
+}

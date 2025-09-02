@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "eaf6752b-ca67-4167-a448-c8d4428a767d",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "5d559a32-8119-431c-b91c-147992fcd617",
+        "name": "UroSurgery Inc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "UroSurgery Inc",
+    "managingOrganization": {
+      "reference": "#5d559a32-8119-431c-b91c-147992fcd617"
+    },
+    "period": {
+      "start": "2018-01-09T11:11:05+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10018943"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10018943"
+}

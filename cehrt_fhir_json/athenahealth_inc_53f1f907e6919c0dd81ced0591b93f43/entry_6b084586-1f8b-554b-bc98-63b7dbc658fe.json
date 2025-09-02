@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b084586-1f8b-554b-bc98-63b7dbc658fe",
+    "name": "Town & Country Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/830d35d8-9461-5e74-8873-bfb38af68069"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447277322"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "10D1026765"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6001 Webb Rd"
+        ],
+        "city": "Tampa",
+        "state": "FL",
+        "postalCode": "33615-3241"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1714"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1714.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b084586-1f8b-554b-bc98-63b7dbc658fe"
+}

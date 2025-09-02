@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3d4f911-7d5c-5a68-97ba-d02d15a1ff84",
+    "name": "LSCC OB/GYN at Round Rock",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/06388af1-29b1-5842-a463-d5135e168032"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891746970"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2300 Round Rock Ave Ste 208",
+          "340B00556100LS"
+        ],
+        "city": "Round Rock",
+        "state": "TX",
+        "postalCode": "78681-4026"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29821"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29821.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3d4f911-7d5c-5a68-97ba-d02d15a1ff84"
+}

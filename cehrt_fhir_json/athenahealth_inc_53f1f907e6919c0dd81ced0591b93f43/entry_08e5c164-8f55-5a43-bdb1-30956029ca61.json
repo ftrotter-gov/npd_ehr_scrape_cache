@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "08e5c164-8f55-5a43-bdb1-30956029ca61",
+    "name": "Trumbull Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e5fdc08-c359-5ec5-8965-3d65465c1b43"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043544489"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "17 Church Hill Road"
+        ],
+        "city": "Trumbull",
+        "state": "CT",
+        "postalCode": "06611-3116"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10861"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10861.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:08e5c164-8f55-5a43-bdb1-30956029ca61"
+}

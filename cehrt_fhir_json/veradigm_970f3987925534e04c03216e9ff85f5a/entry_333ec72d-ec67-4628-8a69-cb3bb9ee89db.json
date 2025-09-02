@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "333ec72d-ec67-4628-8a69-cb3bb9ee89db",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d549e380-b3ad-4d13-80ca-697c0c0a4f68",
+        "name": "Beauregard Family Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Beauregard Family Medical Center",
+    "managingOrganization": {
+      "reference": "#d549e380-b3ad-4d13-80ca-697c0c0a4f68"
+    },
+    "period": {
+      "start": "2018-10-12T09:06:06+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10077327"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10077327"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "efb56106-4e74-53db-8a2f-12a7c5ea60eb",
+    "name": "Summertown Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c46e72ad-2aeb-5487-a282-9e01d6440850"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326550732"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811543929"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4955D Hwy 43 North"
+        ],
+        "city": "MOUNT PLEASANT",
+        "state": "TN",
+        "postalCode": "38474-5010"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19363"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19363.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:efb56106-4e74-53db-8a2f-12a7c5ea60eb"
+}

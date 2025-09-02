@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8e4b16ac-66e3-58d2-9caa-11bff85b2d89",
+    "name": "Downtown Eyecare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a0238705-cac3-53e6-9e3e-3853897789e3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720351703"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "297 MARCUS GARVEY BLVD"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11221-1114"
+      },
+      {
+        "line": [
+          "398 BRIDGE ST"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11201-5210"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21132"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21132.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8e4b16ac-66e3-58d2-9caa-11bff85b2d89"
+}

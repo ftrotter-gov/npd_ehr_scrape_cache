@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "49ae3421-deb9-5799-b489-e592cc0ea819",
+    "name": "Bay Minette Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8882f613-3489-5852-a55a-d01186f45e57"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912748914"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2305 Hand Ave",
+          "Suite 1"
+        ],
+        "city": "BAY MINETTE",
+        "state": "AL",
+        "postalCode": "36507-4191"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31146"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31146.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:49ae3421-deb9-5799-b489-e592cc0ea819"
+}

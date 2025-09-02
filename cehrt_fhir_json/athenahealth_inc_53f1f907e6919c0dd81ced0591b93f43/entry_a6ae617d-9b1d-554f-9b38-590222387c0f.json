@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a6ae617d-9b1d-554f-9b38-590222387c0f",
+    "name": "Well Child",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d5d6dff2-1cb2-5193-ad0d-59a1daa77f9f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508514340"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "92 BROAD ST"
+        ],
+        "city": "GLENS FALLS",
+        "state": "NY",
+        "postalCode": "12801-4489"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33041"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33041.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a6ae617d-9b1d-554f-9b38-590222387c0f"
+}

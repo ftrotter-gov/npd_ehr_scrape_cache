@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2731c799-876e-5b37-af96-d02f3f1bbf30",
+    "name": "Chico Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eb1a24d4-504f-5207-814b-19b252e95fc1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235111006"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "188 Cohasset Lane"
+        ],
+        "city": "CHICO",
+        "state": "CA",
+        "postalCode": "95926-2206"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10649"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10649.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2731c799-876e-5b37-af96-d02f3f1bbf30"
+}

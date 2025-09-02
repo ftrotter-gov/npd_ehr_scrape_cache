@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9e325d86-1ff4-5807-8a02-02d88309b771",
+    "name": "Family Counseling",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e46efc21-666f-5d2f-a4ea-c8eb3024438a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528605276"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5797 BEECHCROFT RD",
+          "suite a"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43229-2758"
+      },
+      {
+        "line": [
+          "643A STATE ROUTE 821"
+        ],
+        "city": "MARIETTA",
+        "state": "OH",
+        "postalCode": "45750-5304"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32062"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32062.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9e325d86-1ff4-5807-8a02-02d88309b771"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "c35c5fa8-1ec3-45be-ae90-42e0b0d3ae37",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "33d06d09-454c-44db-9670-53565fad5c05",
+        "name": "Neighborhood Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Neighborhood Medical Center",
+    "managingOrganization": {
+      "reference": "#33d06d09-454c-44db-9670-53565fad5c05"
+    },
+    "period": {
+      "start": "2022-08-25T19:11:50+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10035411"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10035411"
+}

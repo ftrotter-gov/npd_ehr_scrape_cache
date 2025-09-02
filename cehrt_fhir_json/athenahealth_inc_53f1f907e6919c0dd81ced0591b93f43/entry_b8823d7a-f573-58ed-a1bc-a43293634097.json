@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b8823d7a-f573-58ed-a1bc-a43293634097",
+    "name": "Florence Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2370fefa-90d2-504e-a14a-6fc5bc46557c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487847331"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "225 main st",
+          "suite G"
+        ],
+        "city": "FLORENCE",
+        "state": "KY",
+        "postalCode": "41042-2049"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8225"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8225.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b8823d7a-f573-58ed-a1bc-a43293634097"
+}

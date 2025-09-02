@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "906ed595-0707-5ff4-be6c-f9dbc524b75c",
+    "name": "Napa Women's Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/25cab2b4-10a9-51df-9bf6-dee4a0efc22a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "935 Trancas St",
+          "Suite 4B"
+        ],
+        "city": "NAPA",
+        "state": "CA",
+        "postalCode": "94558-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20765"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20765.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:906ed595-0707-5ff4-be6c-f9dbc524b75c"
+}

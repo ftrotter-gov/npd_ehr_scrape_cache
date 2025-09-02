@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b7f628f8-3861-5226-83cb-79580d1fab31",
+    "name": "Scottsdale Family and Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/39ea4f97-e562-5bd3-866f-b033971c5061"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104875822"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9767 N 91ST ST STE 103"
+        ],
+        "city": "SCOTTSDALE",
+        "state": "AZ",
+        "postalCode": "85258-5086"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20147"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20147.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b7f628f8-3861-5226-83cb-79580d1fab31"
+}

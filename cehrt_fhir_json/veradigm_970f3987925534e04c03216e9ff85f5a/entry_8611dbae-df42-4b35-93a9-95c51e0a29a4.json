@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "8611dbae-df42-4b35-93a9-95c51e0a29a4",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "720d4408-e2b7-437a-a622-c0ef42b479fd",
+        "name": "Plastic Surgeons of Lexington"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Plastic Surgeons of Lexington",
+    "managingOrganization": {
+      "reference": "#720d4408-e2b7-437a-a622-c0ef42b479fd"
+    },
+    "period": {
+      "start": "2018-08-02T04:58:04+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/70525B"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/70525B"
+}

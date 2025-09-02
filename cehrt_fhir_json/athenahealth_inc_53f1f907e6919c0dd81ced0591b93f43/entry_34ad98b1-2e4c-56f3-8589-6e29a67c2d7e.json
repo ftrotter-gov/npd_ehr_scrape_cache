@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "34ad98b1-2e4c-56f3-8589-6e29a67c2d7e",
+    "name": "Northeast Regional Pain Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7bcfadc5-b1b2-5ace-ba77-1a9c94e8aa8e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235453408"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538155817"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 W JEFFERSON ST"
+        ],
+        "city": "KIRKSVILLE",
+        "state": "MO",
+        "postalCode": "63501-1443"
+      },
+      {
+        "line": [
+          "1513 Union Ave. Suite 1500"
+        ],
+        "city": "MOBERLY",
+        "state": "MO",
+        "postalCode": "65270-9408"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2245"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2245.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:34ad98b1-2e4c-56f3-8589-6e29a67c2d7e"
+}

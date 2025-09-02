@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "62d0493a-ee4a-51a3-b458-248aac7435c3",
+    "name": "Neighbors Along the Line",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0b0758e2-c74e-5c18-8c5b-e98da0faf29f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5000 CHARLES PAGE BLVD."
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74127-7560"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23846"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23846.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:62d0493a-ee4a-51a3-b458-248aac7435c3"
+}

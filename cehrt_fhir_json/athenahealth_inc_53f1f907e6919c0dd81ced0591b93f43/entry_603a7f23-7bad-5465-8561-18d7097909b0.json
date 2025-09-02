@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "603a7f23-7bad-5465-8561-18d7097909b0",
+    "name": "Statum Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0c0a21b4-d66b-53f5-84a5-f36ac492452d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992230981"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "801 MARKET STREET",
+          "SUITE 300, ATTN STATUM HEALTH"
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19107-3183"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16639"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16639.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:603a7f23-7bad-5465-8561-18d7097909b0"
+}

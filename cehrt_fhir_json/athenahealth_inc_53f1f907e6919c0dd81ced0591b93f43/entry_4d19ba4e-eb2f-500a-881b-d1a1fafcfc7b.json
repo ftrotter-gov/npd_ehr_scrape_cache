@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d19ba4e-eb2f-500a-881b-d1a1fafcfc7b",
+    "name": "Free Medical Clinic of Oak Ridge, Harriman, and Briceville Tennessee",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/258c35bc-b05b-550e-a706-e0c51f225462"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1456 Briceville Hwy"
+        ],
+        "city": "BRICEVILLE",
+        "state": "TN",
+        "postalCode": "37710-0061"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17050"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17050.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d19ba4e-eb2f-500a-881b-d1a1fafcfc7b"
+}

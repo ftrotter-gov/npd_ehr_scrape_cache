@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d42ebbe2-4ad6-5838-adad-1f4be5925e62",
+    "name": "LITTLE TREE NURSE PRACTITIONER CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8bb9c3b3-c73c-5109-9ea5-ec2f843e2eac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306008107"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811321102"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 WEST  BYPASS"
+        ],
+        "city": "DRUMRIGHT",
+        "state": "OK",
+        "postalCode": "74030-6200"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1900"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1900.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d42ebbe2-4ad6-5838-adad-1f4be5925e62"
+}

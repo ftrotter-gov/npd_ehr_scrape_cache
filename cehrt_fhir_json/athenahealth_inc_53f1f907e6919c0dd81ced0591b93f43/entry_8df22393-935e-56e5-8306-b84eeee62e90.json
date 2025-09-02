@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8df22393-935e-56e5-8306-b84eeee62e90",
+    "name": "OnSite Medical House Calls",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a8663716-1456-54a9-bbf5-8dd9329e12f5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124695143"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568964898"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "760 CHESSIE CROSSING WAY"
+        ],
+        "city": "WOODBINE",
+        "state": "MD",
+        "postalCode": "21797-8768"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17833"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17833.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8df22393-935e-56e5-8306-b84eeee62e90"
+}

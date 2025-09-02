@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b0d83324-8d12-5f1f-94db-b097859fa0bb",
+    "name": "SOUTHSIDE PRIMARY CARE MEDICAL PARK",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f2ae59d9-1b48-5531-b716-a213f9f8c605"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861050635"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "50 MEDICAL PARK BLVD SUITE C"
+        ],
+        "city": "PETERSBURG",
+        "state": "VA",
+        "postalCode": "23805-9289"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-679"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-679.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b0d83324-8d12-5f1f-94db-b097859fa0bb"
+}

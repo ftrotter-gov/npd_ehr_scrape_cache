@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c0cd8739-9578-53a3-8326-35f04e54dc3f",
+    "name": "Saratoga Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d4738aa1-4fce-527a-b44c-2d36d4e382af"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467629303"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7839 ROLLING RD STE A"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "VA",
+        "postalCode": "22153-2821"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17216"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17216.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c0cd8739-9578-53a3-8326-35f04e54dc3f"
+}

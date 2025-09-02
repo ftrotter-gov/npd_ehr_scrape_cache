@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ebf52bd6-f3f7-5e70-bbe9-d92323302a60",
+    "name": "EMERGENCY DEPARTMENT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/616514e3-f849-54e5-a99e-8787323e16fc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568417186"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "835 HOSPITAL ROAD",
+          "IRMC"
+        ],
+        "city": "INDIANA",
+        "state": "PA",
+        "postalCode": "15701-3629"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3258"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3258.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ebf52bd6-f3f7-5e70-bbe9-d92323302a60"
+}

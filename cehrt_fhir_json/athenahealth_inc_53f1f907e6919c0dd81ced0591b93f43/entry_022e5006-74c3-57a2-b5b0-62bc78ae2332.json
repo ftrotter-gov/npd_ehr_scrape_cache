@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "022e5006-74c3-57a2-b5b0-62bc78ae2332",
+    "name": "Halsted Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/722b1314-1eb9-54e0-a5d2-4ab9a09000a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477504579"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10814 S HALSTED"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60628-3126"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6720"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6720.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:022e5006-74c3-57a2-b5b0-62bc78ae2332"
+}

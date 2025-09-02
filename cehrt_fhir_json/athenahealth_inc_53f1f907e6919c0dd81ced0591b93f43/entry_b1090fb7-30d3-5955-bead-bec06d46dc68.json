@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1090fb7-30d3-5955-bead-bec06d46dc68",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ea99a644-8a1e-531e-96ab-f6e7ba8b1644"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609112861"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "19820 N 7TH ST STE 115"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85024-1690"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8576"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8576.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1090fb7-30d3-5955-bead-bec06d46dc68"
+}

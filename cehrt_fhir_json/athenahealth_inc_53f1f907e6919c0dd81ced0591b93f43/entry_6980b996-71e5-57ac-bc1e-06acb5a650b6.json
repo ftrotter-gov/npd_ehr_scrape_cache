@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6980b996-71e5-57ac-bc1e-06acb5a650b6",
+    "name": "Med-Care Providers",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0cc99ed6-5720-5004-8c12-cc50b2f2a3b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508630542"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1515 E TROPICANA AVE",
+          "STE 345-A"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89119-6517"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32174"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32174.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6980b996-71e5-57ac-bc1e-06acb5a650b6"
+}

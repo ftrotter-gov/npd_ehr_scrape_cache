@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bf9426c-7ade-504d-b0cd-2d02aa7ba157",
+    "name": "TruCare Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/012f6672-1ae7-56c1-91bf-582214474379"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285182147"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1500 Eagle Ridge Drive",
+          "Suite 201"
+        ],
+        "city": "SCHERERVILLE",
+        "state": "IN",
+        "postalCode": "46375-3228"
+      },
+      {
+        "line": [
+          "8437 KENNEDY AVENUE"
+        ],
+        "city": "HIGHLAND",
+        "state": "IN",
+        "postalCode": "46322-1140"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15021"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15021.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bf9426c-7ade-504d-b0cd-2d02aa7ba157"
+}

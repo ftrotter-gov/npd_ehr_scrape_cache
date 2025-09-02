@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTY5Nl8xNjk2XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "915.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114310083"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Anna E Lee MD Medical Corporation CA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "760-295-1995",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "760-295-1118",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "3998 Vista Way Suite D Oceanside, CA 92056-4514",
+        "line": [
+          "3998 Vista Way",
+          "Suite D"
+        ],
+        "city": "Oceanside",
+        "state": "CA",
+        "postalCode": "92056-4514",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTY5Nl8xNjk2XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTY5Nl8xNjk2XzMwNjA"
+}

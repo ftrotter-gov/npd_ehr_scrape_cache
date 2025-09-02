@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42e3d4a9-c8be-555f-9d12-bcb49d79122f",
+    "name": "Union County Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/19f86c67-5298-5070-998c-ef003da411c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477907780"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912975533"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750553863"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "517 N Main St"
+        ],
+        "city": "ANNA",
+        "state": "IL",
+        "postalCode": "62906-1668"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1803"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1803.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42e3d4a9-c8be-555f-9d12-bcb49d79122f"
+}

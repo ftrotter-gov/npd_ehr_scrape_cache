@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7760444-81d5-5d56-86e8-66a0950e2f87",
+    "name": "Lakeside Medical Center ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0240ad92-768b-5812-b1f8-72e0548af1dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134467129"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "39200 Hooker Highway"
+        ],
+        "city": "BELLE GLADE",
+        "state": "FL",
+        "postalCode": "33430-5368"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13043"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13043.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7760444-81d5-5d56-86e8-66a0950e2f87"
+}

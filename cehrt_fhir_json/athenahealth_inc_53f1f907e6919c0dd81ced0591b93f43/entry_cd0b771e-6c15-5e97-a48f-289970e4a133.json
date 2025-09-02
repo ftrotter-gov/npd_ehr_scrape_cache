@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cd0b771e-6c15-5e97-a48f-289970e4a133",
+    "name": "JFS Northpoint Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/561b425a-397f-5794-b1d6-7d649e0cbedc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982611000"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12606 GREENVILLE AVE",
+          "Suite 200"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75243-1921"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27034"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27034.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cd0b771e-6c15-5e97-a48f-289970e4a133"
+}

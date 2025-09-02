@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c1ec98a1-7db1-5b46-8770-03df171339ec",
+    "name": "Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6f1c64cd-7158-5d99-9af4-0ee7b431d769"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043351703"
+      }
+    ],
+    "address": [
+      {
+        "line": [],
+        "city": "AUGUSTA",
+        "state": "GA",
+        "postalCode": "30909-9481"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1717"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1717.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c1ec98a1-7db1-5b46-8770-03df171339ec"
+}

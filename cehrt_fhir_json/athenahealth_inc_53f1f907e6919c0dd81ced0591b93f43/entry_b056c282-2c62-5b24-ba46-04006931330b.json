@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b056c282-2c62-5b24-ba46-04006931330b",
+    "name": "Lynn Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3e9381ec-df59-5657-8949-e8439114659b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992342075"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "776 WESTERN AVE"
+        ],
+        "city": "LYNN",
+        "state": "MA",
+        "postalCode": "01905-2408"
+      },
+      {
+        "line": [
+          "19 PLEASANT ST"
+        ],
+        "city": "WOBURN",
+        "state": "MA",
+        "postalCode": "01801-4124"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29271"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29271.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b056c282-2c62-5b24-ba46-04006931330b"
+}

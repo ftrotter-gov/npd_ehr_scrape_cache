@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1C5-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1C5"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Mississippi County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5736832191"
+      },
+      {
+        "system": "fax",
+        "value": "5736836539"
+      },
+      {
+        "system": "url",
+        "value": "www.misscohealth.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "1200 E MARSHALL ST CHARLESTON MO 638341336 US",
+        "line": [
+          "1200 E MARSHALL ST"
+        ],
+        "city": "CHARLESTON",
+        "state": "MO",
+        "postalCode": "638341336",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1C5-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1C5-Organization-2"
+}

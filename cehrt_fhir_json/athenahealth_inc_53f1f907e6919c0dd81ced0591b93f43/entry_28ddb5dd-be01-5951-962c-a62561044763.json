@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "28ddb5dd-be01-5951-962c-a62561044763",
+    "name": "Beebe Behavioral Health Mobile Unit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c4840c8c-5c6b-53bc-b4ad-b61d33b98dd5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730133992"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "34382 Carpenters Way",
+          "Suites 7 & 8"
+        ],
+        "city": "LEWES",
+        "state": "DE",
+        "postalCode": "19958-4919"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6835"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6835.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:28ddb5dd-be01-5951-962c-a62561044763"
+}

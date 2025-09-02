@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cfafdf2e-c370-5320-9a43-2b11560a51fc",
+    "name": "Doctors' Outpatient Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/39d1479e-c0a0-5ed0-b530-00ad00a6c49f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801156401"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2155 E Conference Dr Ste111"
+        ],
+        "city": "TEMPE",
+        "state": "AZ",
+        "postalCode": "85284-2604"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8168"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8168.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cfafdf2e-c370-5320-9a43-2b11560a51fc"
+}

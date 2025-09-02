@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5fd33e62-47a5-443d-a0d1-0cfc8505c270",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "fd1dd0a3-aea2-4012-8b84-a8a178637c83",
+        "name": "Eastern Carolina ENT"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Eastern Carolina ENT",
+    "managingOrganization": {
+      "reference": "#fd1dd0a3-aea2-4012-8b84-a8a178637c83"
+    },
+    "period": {
+      "start": "2017-12-21T19:17:21+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042881"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042881"
+}

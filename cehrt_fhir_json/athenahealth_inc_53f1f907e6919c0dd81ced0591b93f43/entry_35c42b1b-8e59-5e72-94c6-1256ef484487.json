@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "35c42b1b-8e59-5e72-94c6-1256ef484487",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6fcc7bf7-1f86-54b3-a2b8-f4d6548c0476"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861690703"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2600 UNION LAKE RD STE 140"
+        ],
+        "city": "COMMERCE TOWNSHIP",
+        "state": "MI",
+        "postalCode": "48382-3588"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16391.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:35c42b1b-8e59-5e72-94c6-1256ef484487"
+}

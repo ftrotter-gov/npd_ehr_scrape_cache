@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eda174d6-67a8-5241-a672-a295d49e237b",
+    "name": "CHC Lompoc - Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e8ad0de-e028-53e0-81f9-fb6a620e48d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841217866"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1300 West Ocean Avenue"
+        ],
+        "city": "LOMPOC",
+        "state": "CA",
+        "postalCode": "93436-5678"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17363"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17363.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eda174d6-67a8-5241-a672-a295d49e237b"
+}

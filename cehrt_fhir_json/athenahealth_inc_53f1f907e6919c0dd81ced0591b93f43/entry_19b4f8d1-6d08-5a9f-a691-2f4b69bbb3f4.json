@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "19b4f8d1-6d08-5a9f-a691-2f4b69bbb3f4",
+    "name": "NW Hospital In-Patient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/048bd673-2799-56ef-ae20-0f7f2f742702"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356569735"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2014 Washington ST"
+        ],
+        "city": "Newton",
+        "state": "MA",
+        "postalCode": "02462-1607"
+      },
+      {
+        "line": [
+          "65 Walnut St",
+          "Suite 310"
+        ],
+        "city": "Wellesley Hills",
+        "state": "MA",
+        "postalCode": "02481-2118"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:19b4f8d1-6d08-5a9f-a691-2f4b69bbb3f4"
+}

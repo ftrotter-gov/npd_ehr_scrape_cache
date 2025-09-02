@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "688f8959-0daf-50cc-ba55-1c490d3c8ea6",
+    "name": "TMS Therapy Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2a5cb881-ab04-5cca-937e-788e64b7dea5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508581661"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3730 KIRBY DR STE 12 UNIT 1"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77098-3905"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27188"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27188.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:688f8959-0daf-50cc-ba55-1c490d3c8ea6"
+}

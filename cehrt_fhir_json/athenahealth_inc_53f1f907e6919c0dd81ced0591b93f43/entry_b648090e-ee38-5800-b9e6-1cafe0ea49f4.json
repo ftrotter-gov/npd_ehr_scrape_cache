@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b648090e-ee38-5800-b9e6-1cafe0ea49f4",
+    "name": "Albany Radiation Oncology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e390e632-aa3f-567b-a157-2f27e7c66d9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750626834"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "317 South Manning Blvd"
+        ],
+        "city": "ALBANY",
+        "state": "NY",
+        "postalCode": "12208-1707"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15557"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15557.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b648090e-ee38-5800-b9e6-1cafe0ea49f4"
+}

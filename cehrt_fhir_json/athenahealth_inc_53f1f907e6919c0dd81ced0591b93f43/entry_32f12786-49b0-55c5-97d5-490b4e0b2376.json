@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "32f12786-49b0-55c5-97d5-490b4e0b2376",
+    "name": "KindlyMD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/33c0c9ec-18c1-5873-b253-648e7637753c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225647480"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "222 DRAPER LN",
+          "STE 2"
+        ],
+        "city": "PROVO",
+        "state": "UT",
+        "postalCode": "84601-2310"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21160"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21160.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:32f12786-49b0-55c5-97d5-490b4e0b2376"
+}

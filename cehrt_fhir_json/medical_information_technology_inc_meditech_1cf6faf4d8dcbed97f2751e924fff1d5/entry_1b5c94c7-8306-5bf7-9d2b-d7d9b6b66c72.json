@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1b5c94c7-8306-5bf7-9d2b-d7d9b6b66c72",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://dmh.org"
+      }
+    ],
+    "name": "Desoto Memorial Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://dmh.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 North Roberts Avenue"
+        ],
+        "city": "Arcadia",
+        "state": "FL",
+        "postalCode": "34266",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:2eec1b34-5b5d-42d5-b111-218c41632319"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:2eec1b34-5b5d-42d5-b111-218c41632319"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1b5c94c7-8306-5bf7-9d2b-d7d9b6b66c72"
+}

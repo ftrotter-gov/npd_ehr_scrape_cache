@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "31fc3139-74c1-54d4-bb77-ae9e2d8dd1d8",
+    "name": "Cisco Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ccf4f343-5a42-53d7-8436-55b59df88717"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053408989"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "290 E VERDUGO AVE",
+          "SUITE 206"
+        ],
+        "city": "BURBANK",
+        "state": "CA",
+        "postalCode": "91502-1342"
+      },
+      {
+        "line": [
+          "18518 SHERMAN WAY"
+        ],
+        "city": "RESEDA",
+        "state": "CA",
+        "postalCode": "91335-4212"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25605"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25605.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:31fc3139-74c1-54d4-bb77-ae9e2d8dd1d8"
+}

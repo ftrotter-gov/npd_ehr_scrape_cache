@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "640698df-b04a-569c-a93e-60d9f6ec212b",
+    "name": "test",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a5a3c45b-1333-5e20-a26d-555ae1f48af1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073385431"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "330 N BABCOCK ST STE 103"
+        ],
+        "city": "MELBOURNE",
+        "state": "FL",
+        "postalCode": "32935-7324"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30100"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30100.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:640698df-b04a-569c-a93e-60d9f6ec212b"
+}

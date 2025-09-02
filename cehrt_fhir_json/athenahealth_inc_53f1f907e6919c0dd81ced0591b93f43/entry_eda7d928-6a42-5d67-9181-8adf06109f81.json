@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eda7d928-6a42-5d67-9181-8adf06109f81",
+    "name": "Jacksonville Integrative Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bc079064-e390-5d08-92c4-f146f87e9cbd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861089062"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13241 BARTRAM PARK BLVD., STE 2501"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "FL",
+        "postalCode": "32258-5218"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27932"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27932.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eda7d928-6a42-5d67-9181-8adf06109f81"
+}

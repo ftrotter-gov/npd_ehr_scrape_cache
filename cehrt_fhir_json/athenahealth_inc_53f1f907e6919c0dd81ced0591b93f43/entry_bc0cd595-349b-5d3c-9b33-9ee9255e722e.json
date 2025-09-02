@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bc0cd595-349b-5d3c-9b33-9ee9255e722e",
+    "name": "Elkhorn Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/056ec830-2b1f-5449-ba8e-b94e5f80317c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881263721"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3705 MIDWAY DR"
+        ],
+        "city": "BAKER CITY",
+        "state": "OR",
+        "postalCode": "97814-1456"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23554"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23554.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bc0cd595-349b-5d3c-9b33-9ee9255e722e"
+}

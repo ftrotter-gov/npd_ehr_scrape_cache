@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDYX-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDYX"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Internal Medicine & Cardiology Associates, P",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4078708220"
+      },
+      {
+        "system": "fax",
+        "value": "4079002163"
+      }
+    ],
+    "address": [
+      {
+        "text": "1819 West Oak Street Kissimmee FL 34741 US",
+        "line": [
+          "1819 West Oak Street"
+        ],
+        "city": "Kissimmee",
+        "state": "FL",
+        "postalCode": "34741",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDYX-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDYX-Organization-3"
+}

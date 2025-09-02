@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bbf6a0f-a732-54a8-88ca-8912ffc6803a",
+    "name": "BAYLOR UNIVERSITY MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d1bd59f3-4b0a-5b4b-8d72-c579f1092ce2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962644955"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3500 GASTON AVE."
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75246-2017"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2111"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2111.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bbf6a0f-a732-54a8-88ca-8912ffc6803a"
+}

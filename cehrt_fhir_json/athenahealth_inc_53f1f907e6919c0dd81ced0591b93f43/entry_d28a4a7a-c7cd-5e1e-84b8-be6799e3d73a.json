@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d28a4a7a-c7cd-5e1e-84b8-be6799e3d73a",
+    "name": "Complete Family Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ab2f2ebb-dc85-5686-9983-109b22b34724"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710320361"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2450 GLENWOOD AVE",
+          "STE 101"
+        ],
+        "city": "JOLIET",
+        "state": "IL",
+        "postalCode": "60435-2892"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21705"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21705.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d28a4a7a-c7cd-5e1e-84b8-be6799e3d73a"
+}

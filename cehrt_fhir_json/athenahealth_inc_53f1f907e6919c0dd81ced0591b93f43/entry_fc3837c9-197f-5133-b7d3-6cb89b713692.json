@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fc3837c9-197f-5133-b7d3-6cb89b713692",
+    "name": "Zachary Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d988f0c7-24ac-556e-ad7e-7e8338af1c44"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275974040"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6110 MAIN ST",
+          "STE C"
+        ],
+        "city": "ZACHARY",
+        "state": "LA",
+        "postalCode": "70791-4079"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7513"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7513.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fc3837c9-197f-5133-b7d3-6cb89b713692"
+}

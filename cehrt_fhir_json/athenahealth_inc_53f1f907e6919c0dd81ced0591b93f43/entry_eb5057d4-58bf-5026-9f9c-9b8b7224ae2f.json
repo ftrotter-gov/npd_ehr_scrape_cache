@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eb5057d4-58bf-5026-9f9c-9b8b7224ae2f",
+    "name": "AdventHealth Lake Mary ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3083295f-3e25-5d3a-917b-75c71ac751e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225034234"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "950 REINHART ROAD"
+        ],
+        "city": "LAKE MARY",
+        "state": "FL",
+        "postalCode": "32746-1555"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13122"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13122.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eb5057d4-58bf-5026-9f9c-9b8b7224ae2f"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2472c533-547b-51fd-ac50-4b393bc97407",
+    "name": "Lincoln Internal Medicine Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/42103d94-11c3-595b-a30b-ac6814ebd5c3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891708848"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3901 Pine Lake Road",
+          "Suite 220"
+        ],
+        "city": "LINCOLN",
+        "state": "NE",
+        "postalCode": "68516-5497"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14572"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14572.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2472c533-547b-51fd-ac50-4b393bc97407"
+}

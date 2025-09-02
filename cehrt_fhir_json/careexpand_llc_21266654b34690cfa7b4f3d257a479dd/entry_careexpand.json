@@ -1,0 +1,39 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "careexpand",
+    "name": "CareExpand",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "other",
+            "display": "Other"
+          }
+        ]
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "CareExpand Main Office",
+        "line": [
+          "123 Health Street"
+        ],
+        "city": "Healthcare City",
+        "state": "HC",
+        "postalCode": "12345",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/careexpand-fhir-api"
+      }
+    ]
+  },
+  "fullUrl": "https://auth-api.dev.careexpandcloud.com/fhir/Organization/careexpand"
+}

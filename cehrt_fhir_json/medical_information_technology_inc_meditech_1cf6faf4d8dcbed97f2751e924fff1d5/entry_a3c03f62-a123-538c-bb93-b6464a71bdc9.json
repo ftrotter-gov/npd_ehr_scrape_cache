@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3c03f62-a123-538c-bb93-b6464a71bdc9",
+    "meta": {
+      "lastUpdated": "2022-10-12T22:51:05.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://bartletthospital.org"
+      }
+    ],
+    "name": "Bartlett Regional Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://bartletthospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3260 Hospital Drive"
+        ],
+        "city": "Juneau",
+        "state": "AK",
+        "postalCode": "99801",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:637865ab-78dd-5d83-905d-dc6c5a1c2a05"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:637865ab-78dd-5d83-905d-dc6c5a1c2a05"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3c03f62-a123-538c-bb93-b6464a71bdc9"
+}

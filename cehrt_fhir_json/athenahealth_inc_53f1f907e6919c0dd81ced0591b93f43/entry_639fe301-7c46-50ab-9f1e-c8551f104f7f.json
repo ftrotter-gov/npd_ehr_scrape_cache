@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "639fe301-7c46-50ab-9f1e-c8551f104f7f",
+    "name": "Dr. Taylor's Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/18e992af-1fd3-55b9-9887-126e3d40fc50"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407895493"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1101 Beacon Steet",
+          "8West"
+        ],
+        "city": "BROOKLINE",
+        "state": "MA",
+        "postalCode": "02446-5587"
+      },
+      {
+        "line": [
+          "1101 BEACON ST STE 8W"
+        ],
+        "city": "BROOKLINE",
+        "state": "MA",
+        "postalCode": "02446-5587"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19968"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19968.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:639fe301-7c46-50ab-9f1e-c8551f104f7f"
+}

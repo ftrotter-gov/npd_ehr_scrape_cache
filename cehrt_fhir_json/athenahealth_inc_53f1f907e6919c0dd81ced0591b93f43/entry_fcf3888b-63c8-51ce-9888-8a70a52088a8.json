@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fcf3888b-63c8-51ce-9888-8a70a52088a8",
+    "name": "ETMC HOSPITAL ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ceb4391f-7771-5860-b1db-cbb3535c87af"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699765107"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 SOUTH BECKHAM"
+        ],
+        "city": "TYLER",
+        "state": "TX",
+        "postalCode": "75701-8336"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15533"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15533.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fcf3888b-63c8-51ce-9888-8a70a52088a8"
+}

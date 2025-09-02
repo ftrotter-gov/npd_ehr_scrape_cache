@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c3f53ee9-d217-5fd8-93f6-eaf19e25060e",
+    "name": "Park Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/29a08d1e-de17-5162-8a13-d2cde6cc98f6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891984068"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9760 S KEDZIE AVE STE 2"
+        ],
+        "city": "EVERGREEN PARK",
+        "state": "IL",
+        "postalCode": "60805-3182"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27901"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27901.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c3f53ee9-d217-5fd8-93f6-eaf19e25060e"
+}

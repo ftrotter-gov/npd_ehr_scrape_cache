@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "17d7c578-b641-5966-85e4-72fca9ad4773",
+    "name": "MCMG East Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3c5d93b4-0410-5d8f-ab0c-f5b50749feda"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356384143"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3900 E Livingston Ave"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43227-2301"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11128"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11128.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:17d7c578-b641-5966-85e4-72fca9ad4773"
+}

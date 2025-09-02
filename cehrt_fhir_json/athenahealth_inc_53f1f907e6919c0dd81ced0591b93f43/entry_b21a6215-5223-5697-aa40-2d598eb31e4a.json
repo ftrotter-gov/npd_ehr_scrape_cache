@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b21a6215-5223-5697-aa40-2d598eb31e4a",
+    "name": "Orange Coast Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/83757e8d-9cdb-5648-b8b6-8db263711f31"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326151192"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9920 TALBERT AVE"
+        ],
+        "city": "FOUNTAIN VALLEY",
+        "state": "CA",
+        "postalCode": "92708-5153"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27740"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27740.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b21a6215-5223-5697-aa40-2d598eb31e4a"
+}

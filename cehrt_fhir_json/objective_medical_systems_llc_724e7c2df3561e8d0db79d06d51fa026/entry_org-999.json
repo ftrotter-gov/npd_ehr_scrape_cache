@@ -1,0 +1,48 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "org-999",
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "999999999"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "CIS",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "(+1) (999) 000-0000"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10310 Houma Highlands"
+        ],
+        "city": "Houma",
+        "state": "LA",
+        "postalCode": "70360",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/end-999"
+      }
+    ]
+  },
+  "fullUrl": "https://dxe.omshealth.com:6908/OAuth2/interface-connect-oms/api/FHIR/R4/Organization/org-999"
+}

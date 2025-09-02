@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a01dfafb-0886-561a-a7c5-898b1d53fe47",
+    "name": "Bon Secours DePaul Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b8cda3ad-f3b7-59f8-bab1-39e49924d8e6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477695740"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 Kingsley Lane"
+        ],
+        "city": "NORFOLK",
+        "state": "VA",
+        "postalCode": "23505-4602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-823"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-823.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a01dfafb-0886-561a-a7c5-898b1d53fe47"
+}

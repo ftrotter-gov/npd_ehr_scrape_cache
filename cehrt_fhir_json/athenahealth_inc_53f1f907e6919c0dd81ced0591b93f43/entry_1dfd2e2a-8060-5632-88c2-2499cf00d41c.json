@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1dfd2e2a-8060-5632-88c2-2499cf00d41c",
+    "name": "COMMUNITY HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e7d8e0ad-30c4-555d-9de2-d054ddc2e51a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720207863"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2021 N. 12TH STREET"
+        ],
+        "city": "GRAND JUNCTION",
+        "state": "CO",
+        "postalCode": "81501-2980"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8783"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8783.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1dfd2e2a-8060-5632-88c2-2499cf00d41c"
+}

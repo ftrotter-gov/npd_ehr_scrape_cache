@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1dab347a-4495-56b3-8e38-52e47995629a",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f06f1f2c-bbe2-58b9-9ad2-3a9c9a78baac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275624389"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1710 Catherine Court"
+        ],
+        "city": "AUBURN",
+        "state": "AL",
+        "postalCode": "36830-8447"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13463"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13463.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1dab347a-4495-56b3-8e38-52e47995629a"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6ece211d-9d4b-5b36-b5c1-03945e16525b",
+    "name": "Rockville Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5640c22b-b81b-552e-b5b2-52b30e35b1b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689612236"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "303 ADCLAIRE Rd."
+        ],
+        "city": "ROCKVILLE",
+        "state": "MD",
+        "postalCode": "20850-3825"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16377"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16377.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6ece211d-9d4b-5b36-b5c1-03945e16525b"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8a458fb8-7611-5a05-97d2-a011cc61251e",
+    "name": "Sequoia Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8b4ef1c9-3e2c-54a8-9d44-ddeebb516e5c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558459701"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "170 Alameda"
+        ],
+        "city": "Redwood City",
+        "state": "CA",
+        "postalCode": "94062-2751"
+      },
+      {
+        "line": [
+          "3301 EL CAMINO REAL"
+        ],
+        "city": "ATHERTON",
+        "state": "CA",
+        "postalCode": "94027-3812"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-46"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-46.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8a458fb8-7611-5a05-97d2-a011cc61251e"
+}

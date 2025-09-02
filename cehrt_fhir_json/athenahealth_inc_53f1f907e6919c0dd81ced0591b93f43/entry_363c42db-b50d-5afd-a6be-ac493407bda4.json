@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "363c42db-b50d-5afd-a6be-ac493407bda4",
+    "name": "Kirkland Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/175919bd-f751-5128-a3d1-0f2d51366196"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134383151"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11821 NE128th st",
+          "SUITE D"
+        ],
+        "city": "KIRKLAND",
+        "state": "WA",
+        "postalCode": "98034-2900"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4353"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4353.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:363c42db-b50d-5afd-a6be-ac493407bda4"
+}

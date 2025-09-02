@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "096f1e52-f063-51c4-9fbf-122ab0f2556b",
+    "name": "Good Samaritan Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ebdf2b36-2000-5911-a5d7-11fbb42277cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982094421"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2425 Samaritan Dr."
+        ],
+        "city": "SAN JOSE",
+        "state": "CA",
+        "postalCode": "95124-3908"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10676"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10676.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:096f1e52-f063-51c4-9fbf-122ab0f2556b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "38e2c3b3-15d7-5346-bbf5-a1b6abf205ad",
+    "name": "Corrales Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c08efef4-3f55-5bdb-a642-3cd39551e8f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043401508"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3841 Corrales Road"
+        ],
+        "city": "CORRALES",
+        "state": "NM",
+        "postalCode": "87048-9311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12417"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12417.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:38e2c3b3-15d7-5346-bbf5-a1b6abf205ad"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "702899cb-9aa2-47ef-bafd-7ccb5c6421ef",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "ea771570-cee3-4758-82f0-599dd2cb6649",
+        "name": "Hazlett Family Healthcare"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Hazlett Family Healthcare",
+    "managingOrganization": {
+      "reference": "#ea771570-cee3-4758-82f0-599dd2cb6649"
+    },
+    "period": {
+      "start": "2018-05-29T10:28:08+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/74618"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/74618"
+}

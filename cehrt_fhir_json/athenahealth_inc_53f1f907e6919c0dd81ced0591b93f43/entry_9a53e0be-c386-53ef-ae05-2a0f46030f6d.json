@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9a53e0be-c386-53ef-ae05-2a0f46030f6d",
+    "name": "La Clinica Gratis - The Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9d27b839-10a7-55e6-8686-7c82b0fa093d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235502808"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "212 OVERLAND DR"
+        ],
+        "city": "GREENWOOD",
+        "state": "SC",
+        "postalCode": "29646-4069"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20723"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20723.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9a53e0be-c386-53ef-ae05-2a0f46030f6d"
+}

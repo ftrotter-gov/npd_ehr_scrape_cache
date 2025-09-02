@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTIzOV8xMjM5XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "612.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083669063"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "North Fulton Pediatrics PC GA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "770-442-1050",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "770-475-1621",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "1285 Hembree Road Suite 100 Roswell, GA 300765715",
+        "line": [
+          "1285 Hembree Road",
+          "Suite 100"
+        ],
+        "city": "Roswell",
+        "state": "GA",
+        "postalCode": "300765715",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTIzOV8xMjM5XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTIzOV8xMjM5XzMwNjA"
+}

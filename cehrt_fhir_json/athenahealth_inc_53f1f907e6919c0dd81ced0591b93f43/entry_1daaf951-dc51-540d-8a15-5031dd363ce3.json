@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1daaf951-dc51-540d-8a15-5031dd363ce3",
+    "name": "Pikes Peak Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c6c4331a-dccf-5496-bdc7-d48cdeb38372"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538362389"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "16420 W Hwy 24"
+        ],
+        "city": "WOODLAND PARK",
+        "state": "CO",
+        "postalCode": "80863-8760"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1521"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1521.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1daaf951-dc51-540d-8a15-5031dd363ce3"
+}

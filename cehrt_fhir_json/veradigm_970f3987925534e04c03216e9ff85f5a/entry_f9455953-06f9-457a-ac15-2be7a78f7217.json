@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "f9455953-06f9-457a-ac15-2be7a78f7217",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "56e2d729-7688-4adb-9cee-5ec196238c21",
+        "name": "Digestive And Liver Clinic"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Digestive And Liver Clinic",
+    "managingOrganization": {
+      "reference": "#56e2d729-7688-4adb-9cee-5ec196238c21"
+    },
+    "period": {
+      "start": "2018-05-25T19:38:59+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/74093"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/74093"
+}

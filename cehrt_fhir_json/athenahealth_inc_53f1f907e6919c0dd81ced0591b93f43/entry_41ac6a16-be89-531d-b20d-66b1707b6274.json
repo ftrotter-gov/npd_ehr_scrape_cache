@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "41ac6a16-be89-531d-b20d-66b1707b6274",
+    "name": "Dr. Locus",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df7b649a-1fdb-56d6-8090-04886aaa3b71"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245334507"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 HOSPITAL CIRCLE"
+        ],
+        "city": "PARIS",
+        "state": "TN",
+        "postalCode": "38242-4504"
+      },
+      {
+        "line": [
+          "1323 E WOOD ST"
+        ],
+        "city": "PARIS",
+        "state": "TN",
+        "postalCode": "38242-4421"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17960"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17960.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:41ac6a16-be89-531d-b20d-66b1707b6274"
+}

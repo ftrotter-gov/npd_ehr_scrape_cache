@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa3c6495-fbf6-51fa-aa2c-e4e7a75c1ecb",
+    "name": "Christian Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/65fff364-9591-56ad-aba8-d2fb189ebab2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1123456789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "440 WHILDEN ST"
+        ],
+        "city": "MOUNT PLEASANT",
+        "state": "SC",
+        "postalCode": "29464-5357"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18006"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18006.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa3c6495-fbf6-51fa-aa2c-e4e7a75c1ecb"
+}

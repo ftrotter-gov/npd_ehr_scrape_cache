@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c0b303a-888a-5757-81c4-013dcc3fd448",
+    "name": "LEAP Integrated Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9e1df9a6-00a5-5e9a-a104-d01bc2665370"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "64B Sycolin Rd. SW"
+        ],
+        "city": "LEESBURG",
+        "state": "VA",
+        "postalCode": "20175-6374"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20121"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20121.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c0b303a-888a-5757-81c4-013dcc3fd448"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22314695-685b-548a-9378-289a018e79a1",
+    "name": "NSMC OutPt",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fce6b27f-21e3-5ded-b731-4ae0fed33e61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235459686"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1100 NW 95th Street"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33150-2064"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17638"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17638.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22314695-685b-548a-9378-289a018e79a1"
+}

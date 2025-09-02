@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e95adfaf-0475-516d-a4f8-4f8c7d97493b",
+    "name": "Midwestern University",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e9f705f6-0cbb-5590-8cca-43c9cb313073"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932206414"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 W Bethany Home Road"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85015-2443"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26556"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26556.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e95adfaf-0475-516d-a4f8-4f8c7d97493b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b3693dfa-80d1-59d3-8210-89c4e12350ad",
+    "name": "Aspen Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4575f453-092f-53fb-a77a-dd9759da6908"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740385137"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2975 N. SYCAMORE DR"
+        ],
+        "city": "SIMI VALLEY",
+        "state": "CA",
+        "postalCode": "93065-1201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1912"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1912.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b3693dfa-80d1-59d3-8210-89c4e12350ad"
+}

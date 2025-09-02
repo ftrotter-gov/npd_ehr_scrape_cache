@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b06cbdf9-f1c2-50c5-8ce5-e2cdb5ba4d75",
+    "name": "Health Outreach",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e15d448-e080-5e7e-8f8e-ad51d0f55215"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629519111"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1010 N THOMPSON ST"
+        ],
+        "city": "RICHMOND",
+        "state": "VA",
+        "postalCode": "23230-4924"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27370"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27370.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b06cbdf9-f1c2-50c5-8ce5-e2cdb5ba4d75"
+}

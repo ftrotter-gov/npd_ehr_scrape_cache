@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c39ede6b-3435-501f-b61f-34ac38f0ea88",
+    "name": "Newton Wellesley Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f957a8be-cbf4-5a04-a1db-c4f7b5cadae3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396801650"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 Washington Street"
+        ],
+        "city": "NEWTON LOWER FALLS",
+        "state": "MA",
+        "postalCode": "02462-1650"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-799"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-799.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c39ede6b-3435-501f-b61f-34ac38f0ea88"
+}

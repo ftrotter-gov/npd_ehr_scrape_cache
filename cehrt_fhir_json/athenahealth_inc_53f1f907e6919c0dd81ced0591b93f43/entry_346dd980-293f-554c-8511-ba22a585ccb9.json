@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "346dd980-293f-554c-8511-ba22a585ccb9",
+    "name": "St Cloud Hospital Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b273ec03-7943-58b7-a057-6767e0cb9a2c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083638761"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1406 6th Ave N"
+        ],
+        "city": "SAINT CLOUD",
+        "state": "MN",
+        "postalCode": "56301-1901"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30879"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30879.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:346dd980-293f-554c-8511-ba22a585ccb9"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "35f70eb7-b2d2-5d2d-a001-ed8aa360f64d",
+    "name": "Missouri Vein Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f6fde93c-2652-590a-9689-88630a08482c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174529739"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1620 SOUTHRIDGE DR STE B"
+        ],
+        "city": "JEFFERSON CITY",
+        "state": "MO",
+        "postalCode": "65109-4005"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25907"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25907.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:35f70eb7-b2d2-5d2d-a001-ed8aa360f64d"
+}

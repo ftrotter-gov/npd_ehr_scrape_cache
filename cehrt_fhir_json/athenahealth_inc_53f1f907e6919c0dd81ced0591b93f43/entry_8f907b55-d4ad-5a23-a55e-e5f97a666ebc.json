@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8f907b55-d4ad-5a23-a55e-e5f97a666ebc",
+    "name": "SHERMAN OAKS HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1890aaae-cdff-540f-8c27-7f89bd0f07cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326419417"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4929 VAN NUYS BLVD"
+        ],
+        "city": "SHERMAN OAKS",
+        "state": "CA",
+        "postalCode": "91403-1702"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12545"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12545.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8f907b55-d4ad-5a23-a55e-e5f97a666ebc"
+}

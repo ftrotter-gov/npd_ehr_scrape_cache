@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3bd4bad-614b-5e92-9642-b0c5c7547cd3",
+    "name": "MCMG Briggs Road",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3c5d93b4-0410-5d8f-ab0c-f5b50749feda"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356384143"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2350 Briggs Road"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43223-3218"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11128"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11128.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3bd4bad-614b-5e92-9642-b0c5c7547cd3"
+}

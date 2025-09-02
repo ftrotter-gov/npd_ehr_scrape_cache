@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e9693fa0-064a-5049-9b94-f7657e2c45e2",
+    "name": "A&M Healthcare Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/46140998-d775-5ec4-bedd-f47c89b30764"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568969632"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3606 N. MARTIN L KING  BLVD"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74106-6459"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17718"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17718.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e9693fa0-064a-5049-9b94-f7657e2c45e2"
+}

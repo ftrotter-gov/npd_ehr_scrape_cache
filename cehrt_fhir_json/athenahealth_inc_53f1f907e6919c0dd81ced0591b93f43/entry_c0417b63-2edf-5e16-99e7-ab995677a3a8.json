@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c0417b63-2edf-5e16-99e7-ab995677a3a8",
+    "name": "Wellnest MD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/455858cc-ec7d-56d8-b34a-177e97f1a20d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1123456789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1300 ALTMORE AVE STE 175",
+          "BUILDING D"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30342-2598"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27690"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27690.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c0417b63-2edf-5e16-99e7-ab995677a3a8"
+}

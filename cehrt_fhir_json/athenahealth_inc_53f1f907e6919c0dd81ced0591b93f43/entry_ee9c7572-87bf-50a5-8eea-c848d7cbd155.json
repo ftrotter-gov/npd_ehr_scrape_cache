@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ee9c7572-87bf-50a5-8eea-c848d7cbd155",
+    "name": "Dublin Methodist Hospital - outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ea219483-ed18-57ab-8740-9174a430e009"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306845078"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7500 Hospital Dr"
+        ],
+        "city": "DUBLIN",
+        "state": "OH",
+        "postalCode": "43016-8518"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-548"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-548.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ee9c7572-87bf-50a5-8eea-c848d7cbd155"
+}

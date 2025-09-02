@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae91b80a-354c-5bc6-a8f7-e83273775e81",
+    "name": "Cooper Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/643f9a02-37ef-5952-a91f-a295aa4376a8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053345025"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3755 Peachtree Rd. NE"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30319-1323"
+      },
+      {
+        "line": [
+          "218 E. Trinity Place",
+          "apt"
+        ],
+        "city": "DECATUR",
+        "state": "GA",
+        "postalCode": "30030-3409"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5069"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5069.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae91b80a-354c-5bc6-a8f7-e83273775e81"
+}

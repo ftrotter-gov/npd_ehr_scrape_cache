@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d8a52f43-d9c6-5115-97ff-6908ed5009a0",
+    "name": "Cleveland Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8890a321-8b50-57de-9327-64f2ea63b1a3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578214037"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "26901 BROOKPARK ROAD EXT"
+        ],
+        "city": "NORTH OLMSTED",
+        "state": "OH",
+        "postalCode": "44070-3176"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26582"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26582.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d8a52f43-d9c6-5115-97ff-6908ed5009a0"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9c5602ad-ae73-5999-a600-80fafb2e74e6",
+    "name": "All In One Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/01a13f3d-4f2b-5168-89ed-8849f753e12b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083233654"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11843 WHITTIER BLVD"
+        ],
+        "city": "WHITTIER",
+        "state": "CA",
+        "postalCode": "90601-3941"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21337"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21337.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9c5602ad-ae73-5999-a600-80fafb2e74e6"
+}

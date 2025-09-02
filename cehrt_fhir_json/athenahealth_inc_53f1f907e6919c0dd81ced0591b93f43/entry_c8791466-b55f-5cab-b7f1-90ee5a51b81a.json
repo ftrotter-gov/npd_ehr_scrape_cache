@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c8791466-b55f-5cab-b7f1-90ee5a51b81a",
+    "name": "Stead Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/45a1aad6-6dda-5834-8c2a-a7b9ea0b7be9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437894466"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3060 TAMIAMI TRAIL NORTH SUITE 201"
+        ],
+        "city": "NAPLES",
+        "state": "FL",
+        "postalCode": "34103-2749"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26769"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26769.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c8791466-b55f-5cab-b7f1-90ee5a51b81a"
+}

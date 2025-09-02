@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ed073759-93cb-5725-8c1a-7c5a9cd0edbc",
+    "name": "Family Centered Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2514ff30-334c-5b7f-a8a8-408f130c0a2e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871018085"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2121 S ONEIDA ST",
+          "STE 248"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80224-2551"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30918"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30918.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ed073759-93cb-5725-8c1a-7c5a9cd0edbc"
+}

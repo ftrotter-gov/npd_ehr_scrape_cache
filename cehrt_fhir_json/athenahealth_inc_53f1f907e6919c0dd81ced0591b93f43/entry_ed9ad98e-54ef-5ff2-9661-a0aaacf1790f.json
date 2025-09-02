@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ed9ad98e-54ef-5ff2-9661-a0aaacf1790f",
+    "name": "Prescribed By Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0b90195a-506b-5717-8b66-e9af66fb1dbc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811513310"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7240 BROOKLYN BOULEVARD",
+          "SUITE 230"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55429-1274"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22590"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22590.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ed9ad98e-54ef-5ff2-9661-a0aaacf1790f"
+}

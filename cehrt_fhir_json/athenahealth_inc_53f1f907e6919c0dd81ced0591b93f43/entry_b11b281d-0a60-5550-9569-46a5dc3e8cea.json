@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b11b281d-0a60-5550-9569-46a5dc3e8cea",
+    "name": "Dr. Choo's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9e4cbf1f-8560-56a0-bdde-61b14eb8d681"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558866129"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "188 BROADWAY"
+        ],
+        "city": "METHUEN",
+        "state": "MA",
+        "postalCode": "01844-3862"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17195"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17195.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b11b281d-0a60-5550-9569-46a5dc3e8cea"
+}

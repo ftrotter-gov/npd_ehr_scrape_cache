@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e24f5a07-1dde-5f9c-8e10-cb6e0044bdb4",
+    "name": "APEX Pain Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/24f04de0-a926-5329-9705-936218211b5e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4441 W AIRPORT FREEWAY",
+          "SUITE 210"
+        ],
+        "city": "IRVING",
+        "state": "TX",
+        "postalCode": "75062-5840"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28826"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28826.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e24f5a07-1dde-5f9c-8e10-cb6e0044bdb4"
+}

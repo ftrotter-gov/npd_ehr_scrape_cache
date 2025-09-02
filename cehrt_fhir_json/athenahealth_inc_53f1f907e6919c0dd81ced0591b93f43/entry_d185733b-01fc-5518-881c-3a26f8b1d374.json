@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d185733b-01fc-5518-881c-3a26f8b1d374",
+    "name": "Sinai Grace Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/17807406-22a7-51c6-a2e9-a8f4be599d2b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306818331"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6071 W Outer Dr"
+        ],
+        "city": "DETROIT",
+        "state": "MI",
+        "postalCode": "48235-2624"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22724"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22724.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d185733b-01fc-5518-881c-3a26f8b1d374"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1f2b2968-8ed8-5e95-9479-c3662ac46973",
+    "name": "Clarkston Family Medicine Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f3cd4dfe-8ba5-57e5-a1f2-0c3f0f2259dd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346284684"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6770 Dixie Hwy",
+          "Ste 303"
+        ],
+        "city": "CLARKSTON",
+        "state": "MI",
+        "postalCode": "48346-2090"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11692"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11692.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1f2b2968-8ed8-5e95-9479-c3662ac46973"
+}

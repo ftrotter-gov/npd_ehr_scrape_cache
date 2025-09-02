@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "27e6fc62-defc-4fb1-ae73-c384f5d5d24d",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c41d0e18-3b7c-4f3a-9e41-6f3b06ea456d",
+        "name": "James S Albertoli Md Facs"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "James S Albertoli Md Facs",
+    "managingOrganization": {
+      "reference": "#c41d0e18-3b7c-4f3a-9e41-6f3b06ea456d"
+    },
+    "period": {
+      "start": "2018-11-28T09:16:32+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72869"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72869"
+}

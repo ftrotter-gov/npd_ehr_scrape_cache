@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a6464af0-34b4-5f1a-b162-ea28860ae852",
+    "name": "At-Home Visits",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8460dcda-715a-582b-af7a-d9cbf598fb57"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659725455"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "509 Olive Way",
+          "ste 755"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98101-1720"
+      },
+      {
+        "line": [
+          "509 OLIVE WAY STE 755"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98101-1773"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13348"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13348.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a6464af0-34b4-5f1a-b162-ea28860ae852"
+}

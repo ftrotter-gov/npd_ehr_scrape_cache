@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "047c3b1c-527b-5e79-bb3b-9ac425fb72bf",
+    "name": "Belmont Community Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8de4545a-867d-5d87-92dc-f900d2ff93e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083013619"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4030 Brown st"
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19104-4844"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12684"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12684.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:047c3b1c-527b-5e79-bb3b-9ac425fb72bf"
+}

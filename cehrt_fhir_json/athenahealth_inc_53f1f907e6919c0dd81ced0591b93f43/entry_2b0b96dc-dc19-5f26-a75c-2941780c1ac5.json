@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2b0b96dc-dc19-5f26-a75c-2941780c1ac5",
+    "name": "Parkview Healthcare Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/046e55ba-7770-57a0-9045-f35ddf21f743"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841473485"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1514 E Lincoln Ave"
+        ],
+        "city": "ANAHEIM",
+        "state": "CA",
+        "postalCode": "92805-2219"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7272"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7272.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2b0b96dc-dc19-5f26-a75c-2941780c1ac5"
+}

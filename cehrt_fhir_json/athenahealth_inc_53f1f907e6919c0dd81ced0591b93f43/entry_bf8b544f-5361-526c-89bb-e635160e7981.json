@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf8b544f-5361-526c-89bb-e635160e7981",
+    "name": "Texas Health SW Fort Worth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/310fc315-0f2c-5414-9faa-7afdb06830ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801939244"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6100 Harris Parkway"
+        ],
+        "city": "FORT WORTH",
+        "state": "TX",
+        "postalCode": "76132-4101"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18287"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18287.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf8b544f-5361-526c-89bb-e635160e7981"
+}

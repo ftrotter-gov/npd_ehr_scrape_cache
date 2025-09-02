@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aaa0d792-cf6f-5374-9140-a35d9acdfc4f",
+    "name": "A Woman's Place",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5288378c-4b09-50b7-922d-fab5816b07ec"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467511287"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4207 James Casey St # 302"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78745-1193"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1681"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1681.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aaa0d792-cf6f-5374-9140-a35d9acdfc4f"
+}

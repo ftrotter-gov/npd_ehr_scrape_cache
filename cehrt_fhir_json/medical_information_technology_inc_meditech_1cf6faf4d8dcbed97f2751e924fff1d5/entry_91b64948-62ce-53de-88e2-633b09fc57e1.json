@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "91b64948-62ce-53de-88e2-633b09fc57e1",
+    "meta": {
+      "lastUpdated": "2023-06-06T22:51:13.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://nvrh.org"
+      }
+    ],
+    "name": "Northeastern Vermont Regional Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://nvrh.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1315 Hospital Drive"
+        ],
+        "city": "Saint Johnsbury",
+        "state": "VT",
+        "postalCode": "05819",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:25918b2b-e21f-5c3a-843f-2b09eb0e0fcc"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:25918b2b-e21f-5c3a-843f-2b09eb0e0fcc"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:91b64948-62ce-53de-88e2-633b09fc57e1"
+}

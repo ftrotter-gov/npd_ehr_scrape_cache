@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "88817fb8-e4d1-5859-98b2-4088616ba90a",
+    "name": "Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/803eddc6-1cf3-597f-b19a-e331197481d0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073987111"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6608 GULF FWY",
+          "ste 100"
+        ],
+        "city": "LA MARQUE",
+        "state": "TX",
+        "postalCode": "77568-2508"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12941"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12941.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:88817fb8-e4d1-5859-98b2-4088616ba90a"
+}

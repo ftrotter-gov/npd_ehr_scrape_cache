@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM17P-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM17P"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "other",
+            "display": "Other"
+          }
+        ]
+      }
+    ],
+    "name": "California Medical Arts",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3103186500"
+      },
+      {
+        "system": "fax",
+        "value": "3103188055"
+      }
+    ],
+    "address": [
+      {
+        "text": "21143 Hawthorne Blvd #253 Torrance CA 90503 US",
+        "line": [
+          "21143 Hawthorne Blvd #253"
+        ],
+        "city": "Torrance",
+        "state": "CA",
+        "postalCode": "90503",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM17P-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM17P-Organization-2"
+}

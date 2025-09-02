@@ -1,0 +1,690 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-security-policy" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patient API - Humana Data Exchange</title>
+    <meta name="description" content="The Patient API enables the secure exchange of personal details like name, address, phone number, and date of birth with third party applications.">
+    <script type="text/javascript" src="/ruxitagentjs_ICANfghqru_10291240606133530.js" data-dtconfig="rid=RID_-1030147579|rpid=-1297190613|domain=appserviceenvironment.net|reportUrl=/rb_d3610855-748f-4365-9bb1-f036451fac27|app=ea7c4b59f27d43eb|ssc=1|owasp=1|featureHash=ICANfghqru|srsr=50000|rdnt=1|uxrgce=1|cuc=dd3lovee|mel=100000|md=mdcc1=aap_tsoid,mdcc2=cap_tsoid,mdcc3=a#login ^rb span|lastModification=1756526090394|mdp=mdcc3|tp=500,50,0|agentUri=/ruxitagentjs_ICANfghqru_10291240606133530.js"></script><link rel="stylesheet" href="/apis/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/apis/swaggerui/swagger-ui.css?v=-Zyoh536KSNedgj5lR3I9wUsbh9JJmvKPjM2akwRGns" />
+    
+    
+        <link rel="stylesheet" href="/apis/css/main.min.css?v=hO4V8XpXj9F3owmwxzbbqLKrRdbzNL-F_-jGT6gbnG4" />
+    
+    <link rel="icon" href="/apis/images/favicon.ico" type="image/gif" sizes="16x16">
+</head>
+<body class="body">
+    <!--desktop navigation-->
+<div class="navigation-bar">
+    <div class="header-wrapper">
+        <a href="/" aria-current="page" class="logo-wrapper w-inline-block w--current"><img src="/apis/images/Humana Data Exchange Regular.svg" alt="Humana API Marketplace" width="" height=""></a>
+        <div class="centered-center">
+            <div class="navigation-group-wrapper">
+
+                <a href="https://developers.humana.com/apis" class="nav-link-2 w-inline-block menu-link hovered api-menu-link globalMenuHover" id="api-menu-link" data-id="#marketplace">
+                    <div class="text-block-79">Humana APIs <i class="fas fa-angle-down"></i></div>
+                </a>
+                <nav class="dropdown-list nav-drop-border" style="left: 150px;">
+                    
+<div class="dropdown-list-full-wrapper explore-api-link-menus new" id="marketplace">
+
+    <!--headers for popular apis and api categories dropdown nav  -->
+    <div class="navigation-drop-container label-wrapper">
+        <div class="navigation-column label-wrapper">
+            <h5 class="dropdown-label">Browse &amp; Test APIs</h5>
+            <div class="divider nav"></div>
+        </div>
+        <div class="navigation-column label-wrapper">
+            <h5 class="dropdown-label">Most Popular APIs</h5>
+            <div class="divider nav"></div>
+        </div>
+        <div class="navigation-column label-wrapper">
+            <h5 class="dropdown-label">Explore&#xA0;By&#xA0;Category</h5>
+            <div class="divider nav"></div>
+        </div>
+    </div>
+
+    <!--popular apis and api categories dropdown nav sections -->
+    <div class="dropdown-list-full-wrapper-new api-section">
+        <div class="new-navigation-drop-container">
+
+            <div class="navigation-column one">
+                <div class="nav-card">
+                        
+    <a href="/apis/marketplace" class="new-dropdown-link-mobile w-inline-block" tabindex="0">
+        <div class="icon-square"><img src="/apis/images/APIexplorer.svg" alt="" class="image-11" width="" height="" /></div>
+        <div class="nav-content-wrap">
+            <div class="new-text-block-61">API Explorer</div>
+            <div class="new-nav-link-details">Browse our API library and filter by category.</div>
+        </div>
+    </a>
+    <a href="/apis/marketplace?viewtype=viewall" class="new-dropdown-link-mobile w-inline-block" tabindex="0">
+        <div class="icon-square"><img src="/apis/images/ViewAll.svg" alt="" class="image-11" width="" height="" /></div>
+        <div class="nav-content-wrap">
+            <div class="new-text-block-61">View All APIs</div>
+            <div class="new-nav-link-details">A sample view of all the APIs currently offered on the Data Exchange</div>
+        </div>
+    </a>
+    <a href="/apis/registerapp" class="new-dropdown-link-mobile w-inline-block" tabindex="0">
+        <div class="icon-square"><img src="/apis/images/Sandbox.svg" alt="" class="image-11" width="" height="" /></div>
+        <div class="nav-content-wrap">
+            <div class="new-text-block-61">FHIR Sandbox</div>
+            <div class="new-nav-link-details">A quick and easy way to test our APIs and get a sample view of the data provided</div>
+        </div>
+    </a>
+
+                </div>
+            </div>
+            <div class="navigation-column two">
+                <div class="nav-card">
+                        
+    <a href="/apis/patient-api/doc" class="new-dropdown-link-mobile w-inline-block" tabindex="0">
+        <div class="icon-square"><img src="/apis/images/Patient.svg" alt="" class="image-11" width="" height="" /></div>
+        <div class="nav-content-wrap">
+            <div class="new-text-block-61">Patient</div>
+            <div class="new-nav-link-details">Fetch demographics data for a Humana member.</div>
+        </div>
+    </a>
+    <a href="/apis/coverage-api/doc" class="new-dropdown-link-mobile w-inline-block" tabindex="0">
+        <div class="icon-square"><img src="/apis/images/Coverage.svg" alt="" class="image-11" width="" height="" /></div>
+        <div class="nav-content-wrap">
+            <div class="new-text-block-61">Coverage</div>
+            <div class="new-nav-link-details">Pay for health care products or services with insurance or self-payment.</div>
+        </div>
+    </a>
+    <a href="/apis/explanation-of-benefits-api/doc" class="new-dropdown-link-mobile w-inline-block" tabindex="0">
+        <div class="icon-square"><img src="/apis/images/ExplanationOfBenefits.svg" alt="" class="image-11" width="" height="" /></div>
+        <div class="nav-content-wrap">
+            <div class="new-text-block-61">Explanation of Benefits</div>
+            <div class="new-nav-link-details">Exchanges information about the benefits Humana has provided on behalf of a member.</div>
+        </div>
+    </a>
+
+                </div>
+            </div>
+            <div class="categories-wrapper">
+                <div class="navigation-column three">
+                    <div class="nav-card">
+                            
+    <a href="/apis/marketplace#hl7-apis" class="new-dropdown-link-mobile w-inline-block" tabindex="0">
+        <div class="icon-square"><img src="/apis/images/HL7-FHIR-Category-Icon.svg" alt="" class="image-11" width="" height="" /></div>
+        <div class="nav-content-wrap">
+            <div class="new-text-block-61">HL7FHIR</div>
+            <div class="new-nav-link-details">APIs formatted to the FHIR specification.</div>
+        </div>
+    </a>
+    <a href="/apis/marketplace#apigee-apis1" class="new-dropdown-link-mobile w-inline-block" tabindex="0">
+        <div class="icon-square"><img src="/apis/images/agent-category-briefcase-icon.svg" alt="" class="image-11" width="" height="" /></div>
+        <div class="nav-content-wrap">
+            <div class="new-text-block-61">Agent</div>
+            <div class="new-nav-link-details">Data about agents, including details on which services they can or cannot sell.</div>
+        </div>
+    </a>
+    <a href="/apis/marketplace#apigee-apis0" class="new-dropdown-link-mobile w-inline-block" tabindex="0">
+        <div class="icon-square"><img src="/apis/images/enrollment-category-icon.svg" alt="" class="image-11" width="" height="" /></div>
+        <div class="nav-content-wrap">
+            <div class="new-text-block-61">Enrollment</div>
+            <div class="new-nav-link-details">Obtain enrollment status for Medicare and enable pharmacy consent.</div>
+        </div>
+    </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-drop-container gutter">
+            <a href="/apis/marketplace?viewtype=viewall" class="underlined-link w-inline-block fw700 color-pink" tabindex="0">
+                <div>View All APIs</div>
+                <div class="underlined-link-line-a"></div>
+                <div class="underlined-link-line-b"></div>
+            </a>
+        </div>
+    </div>
+</div>
+                </nav>
+
+            </div>
+        </div>
+        <div class="navigation-right-info">
+                <a href="/support" class="nav-link ml-3 support-link">Support</a>
+                <a href="https://developers.humana.com/account/login?ReturnUrl=/apis/secured" class="nav-link login ml-3">Login</a>
+
+            <a href="https://developers.humana.com/account/signup?ReturnUrl=/apis/secured" class="btn bg-pink color-white font-weight-bold navigation-button">Get Started</a>
+        </div>
+    </div>
+</div>
+
+<!-- mobile navigation -->
+<header>
+    
+<div class="mobile-navigation w-nav">
+    <div class="container-large-1264px-2 header-nav w-container">
+        <div class="w-layout-grid header-grid">
+            <div id="w-node-_0f99a2f4-1016-76ff-689d-4c40299763ca-94657a7d">
+                <a href="/" class="brand-2 w-nav-brand">
+                    <img src="/apis/images/Humana Data Exchange Regular.svg" alt="Humana API Marketplace" class="header-logo" width="195"  height="30"/>
+                </a>
+            </div>
+            <div class="flex-center">
+                <!--where nav was - moved to overlay section -->
+                <!-- where the click triggers the dropdown -->
+                <div class="menu-button-2 w-nav-button main-mobile-toggle" role="button" tabindex="0">
+                    <div class="menu-burger-icon">
+                        <div class="menu-icon-top-line-2"></div>
+                        <div class="menu-icon-middle-line-2"></div>
+                        <div class="menu-icon-bottom-line-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-nav-overlay show-nav-overlay" data-nav-open="false" id="mobile-nav-overlay">
+        <nav aria-label="navigation" role="navigation" class="header-nav-menu-mobile-2 w-nav-menu">
+
+            <div class="header-dropdown mobile w-dropdown d-block menu-mobile-apiExplorer">
+                <div class="header-dropdown-toggle-2 w-dropdown-toggle" id="local-nav-toggle" tabindex="0">
+                    <div class="div-block-3">
+                        <div class="dropdown-text"> Humana APIs <span class="dropdown-icon fas fa-angle-down fa-2x"></span>  </div>
+                    </div>
+                </div>
+             
+                <nav aria-label="mega-menu-container" aria-labelledby="local-nav-toggle" class="mega-menu-api-container mega-menu-container local w-dropdown-list">
+                    <div class="w-layout-grid mega-menu-grid">
+                        <div class="mega-menu-column-1">
+                            <h4 class="mega-menu-title">Browse &amp; Test APIs</h4>
+                            <div class="mega-menu-wrapper">
+                                <div class="mega-menu-links">
+                                            <div class="navigation-column-2">
+                                                <div class="nav-card-4">
+                                                    <a href="/apis/marketplace" class="dropdown-link-mobile-2 w-inline-block" tabindex="0">
+                                                        <div class="icon-square">
+                                                            <img src="/apis/images/APIexplorer.svg" width="" height="" alt="api icon" class="image-28" />
+                                                        </div>
+                                                        <div class="nav-content-wrap">
+                                                            <div class="text-block-87 local">API Explorer</div>
+                                                            <div class="nav-link-details-2">Browse our API library and filter by category.</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="navigation-column-2">
+                                                <div class="nav-card-4">
+                                                    <a href="/apis/marketplace?viewtype=viewall" class="dropdown-link-mobile-2 w-inline-block" tabindex="0">
+                                                        <div class="icon-square">
+                                                            <img src="/apis/images/ViewAll.svg" width="" height="" alt="api icon" class="image-28" />
+                                                        </div>
+                                                        <div class="nav-content-wrap">
+                                                            <div class="text-block-87 local">View All APIs</div>
+                                                            <div class="nav-link-details-2">A sample view of all the APIs currently offered on the Data Exchange</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="navigation-column-2">
+                                                <div class="nav-card-4">
+                                                    <a href="/apis/registerapp" class="dropdown-link-mobile-2 w-inline-block" tabindex="0">
+                                                        <div class="icon-square">
+                                                            <img src="/apis/images/Sandbox.svg" width="" height="" alt="api icon" class="image-28" />
+                                                        </div>
+                                                        <div class="nav-content-wrap">
+                                                            <div class="text-block-87 local">FHIR Sandbox</div>
+                                                            <div class="nav-link-details-2">A quick and easy way to test our APIs and get a sample view of the data provided</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mega-menu-column-1">
+                            <h4 class="mega-menu-title">Most Popular APIs</h4>
+                            <div class="mega-menu-wrapper">
+                                <div class="mega-menu-links">
+                                            <div class="navigation-column-2">
+                                                <div class="nav-card-4">
+                                                    <a href="/apis/patient-api/doc" class="dropdown-link-mobile-2 w-inline-block" tabindex="0">
+                                                        <div class="icon-square">
+                                                            <img src="/apis/images/Patient.svg" width="" height="" alt="api icon" class="image-28" />
+                                                        </div>
+                                                        <div class="nav-content-wrap">
+                                                            <div class="text-block-87 local">Patient</div>
+                                                            <div class="nav-link-details-2">Fetch demographics data for a Humana member.</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="navigation-column-2">
+                                                <div class="nav-card-4">
+                                                    <a href="/apis/coverage-api/doc" class="dropdown-link-mobile-2 w-inline-block" tabindex="0">
+                                                        <div class="icon-square">
+                                                            <img src="/apis/images/Coverage.svg" width="" height="" alt="api icon" class="image-28" />
+                                                        </div>
+                                                        <div class="nav-content-wrap">
+                                                            <div class="text-block-87 local">Coverage</div>
+                                                            <div class="nav-link-details-2">Pay for health care products or services with insurance or self-payment.</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="navigation-column-2">
+                                                <div class="nav-card-4">
+                                                    <a href="/apis/explanation-of-benefits-api/doc" class="dropdown-link-mobile-2 w-inline-block" tabindex="0">
+                                                        <div class="icon-square">
+                                                            <img src="/apis/images/ExplanationOfBenefits.svg" width="" height="" alt="api icon" class="image-28" />
+                                                        </div>
+                                                        <div class="nav-content-wrap">
+                                                            <div class="text-block-87 local">Explanation of Benefits</div>
+                                                            <div class="nav-link-details-2">Exchanges information about the benefits Humana has provided on behalf of a member.</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mega-menu-column-1">
+                            <h4 class="mega-menu-title">Explore&#xA0;By&#xA0;Category</h4>
+                            <div class="mega-menu-wrapper grid">
+                                <div class="mega-menu-links grid">
+                                            <div class="navigation-column-2">
+                                                <div class="nav-card-4">
+                                                    <a href="/apis/marketplace#hl7-apis" class="dropdown-link-mobile-2 w-inline-block" tabindex="0">
+                                                        <div class="icon-square">
+                                                            <img src="/apis/images/HL7-FHIR-Category-Icon.svg" width="" height="" alt="api icon" class="image-28" />
+                                                        </div>
+                                                        <div class="nav-content-wrap">
+                                                            <div class="text-block-87 local">HL7FHIR</div>
+                                                            <div class="nav-link-details-2">APIs formatted to the FHIR specification.</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="navigation-column-2">
+                                                <div class="nav-card-4">
+                                                    <a href="/apis/marketplace#apigee-apis1" class="dropdown-link-mobile-2 w-inline-block" tabindex="0">
+                                                        <div class="icon-square">
+                                                            <img src="/apis/images/agent-category-briefcase-icon.svg" width="" height="" alt="api icon" class="image-28" />
+                                                        </div>
+                                                        <div class="nav-content-wrap">
+                                                            <div class="text-block-87 local">Agent</div>
+                                                            <div class="nav-link-details-2">Data about agents, including details on which services they can or cannot sell.</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="navigation-column-2">
+                                                <div class="nav-card-4">
+                                                    <a href="/apis/marketplace#apigee-apis0" class="dropdown-link-mobile-2 w-inline-block" tabindex="0">
+                                                        <div class="icon-square">
+                                                            <img src="/apis/images/enrollment-category-icon.svg" width="" height="" alt="api icon" class="image-28" />
+                                                        </div>
+                                                        <div class="nav-content-wrap">
+                                                            <div class="text-block-87 local">Enrollment</div>
+                                                            <div class="nav-link-details-2">Obtain enrollment status for Medicare and enable pharmacy consent.</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/apis/marketplace?viewtype=viewall" class="nav-link-3 w-nav-link view-all-api-btn">
+                            View All APIs
+                        </a>
+
+                    </div>
+                </nav>
+            </div>
+
+
+
+
+
+
+            
+            <div class="button-mobile-wrapper">
+                <a href="https://developers.humana.com/account/signup?ReturnUrl=/apis/secured" class="primary-button-2 w-button">Get Started</a>
+                <a href="https://developers.humana.com/account/login?ReturnUrl=/apis/secured" class="primary-button-2 w-button">Login</a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+</header>
+    <main role="main" id="main-1">
+        <input type="hidden" id="VerintForeseeEnv" value="//gateway.foresee.com/sites/humana/production/gateway.min.js" />
+<input type="hidden" id="TealiumEnv" value="//tags.tiqcdn.com/utag/humana/main/prod/utag.js" />
+        
+<div class="page-left-sidebar">
+    <div class="paypal-page page-details">
+        <div class="container3">
+            <div class="help-center-container">
+                
+<div class="help-center-sidebar">
+    <div class="help-center-grid">
+            <div class="show">
+                <h6 class="heading-4 color-gray4 fs-me fw700 f12 l18 mt10 mb10 upper-case">Test Sandbox APIs</h6>
+                <ul class="help-center-links-grid">
+                            <li><a href="/apis/oauth" class="link-hover color-sidebar-link ">OAuth</a></li>
+                            <li><a href="/apis/registerapp" class="link-hover color-sidebar-link ">Register Your Application</a></li>
+                    
+                </ul>
+            </div>
+            <div class="hide">
+                <h6 class="heading-4 color-gray4 fs-me fw700 f12 l18 mt10 mb10 upper-case">Using Data</h6>
+                <ul class="help-center-links-grid">
+                            <li><a href="#" class="link-hover color-sidebar-link ">Computed Data</a></li>
+                            <li><a href="#" class="link-hover color-sidebar-link ">Custom Data File Formats</a></li>
+                            <li><a href="#" class="link-hover color-sidebar-link ">Global Data Files</a></li>
+                    
+                </ul>
+            </div>
+            <div class="show">
+                <h6 class="heading-4 color-gray4 fs-me fw700 f12 l18 mt10 mb10 upper-case">API Reference</h6>
+                <ul class="help-center-links-grid">
+                            <li><a href="/apis/allergyintolerance-api/doc" class="link-hover color-sidebar-link ">AllergyIntolerance</a></li>
+                            <li><a href="/apis/careplan-api/doc" class="link-hover color-sidebar-link ">CarePlan</a></li>
+                            <li><a href="/apis/careteam-api/doc" class="link-hover color-sidebar-link ">CareTeam</a></li>
+                            <li><a href="/apis/condition-api/doc" class="link-hover color-sidebar-link ">Condition</a></li>
+                            <li><a href="/apis/coverage-api/doc" class="link-hover color-sidebar-link ">Coverage</a></li>
+                            <li><a href="/apis/documentreference-api/doc" class="link-hover color-sidebar-link ">DocumentReference</a></li>
+                            <li id="accordion6">
+                                <a href="/apis/drug-formulary-api/doc"  class="accordionMenu cursor-pointer link-hover color-sidebar-link color-black" 
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne6" aria-expanded="true" aria-controls="collapseOneDir">
+                                    Drug Formulary <i class="fa fa-angle-right"></i>
+                                </a>
+                                <div id="collapseOne6" class="collapse provider-directory-api" aria-labelledby="headingTwo" data-bs-parent="#accordion6" >
+                                    <ul class="help-center-links-grid ml-8">
+                                        <li class="mb10 mt20"><a href="/apis/drug-formulary-api/doc" class="link-hover color-sidebar-link">Overview</a></li>
+                                        <li><text class=" heading-4 color-gray4 fs-me fw700 f12 l18 mt10 mb10 upper-case ">ENDPOINTS</li>
+                                            <li><a href="/apis/list-api/doc" class="link-hover color-sidebar-link">List</a></li>
+                                            <li><a href="/apis/medication-api/doc" class="link-hover color-sidebar-link">Medication</a></li>
+                                            <li><a href="/apis/medicationknowledge-api/doc" class="link-hover color-sidebar-link">MedicationKnowledge</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="/apis/explanation-of-benefits-api/doc" class="link-hover color-sidebar-link ">Explanation of Benefits</a></li>
+                            <li><a href="/apis/goal-api/doc" class="link-hover color-sidebar-link ">Goal</a></li>
+                            <li><a href="/apis/immunization-api/doc" class="link-hover color-sidebar-link ">Immunization</a></li>
+                            <li><a href="/apis/medicationrequest-api/doc" class="link-hover color-sidebar-link ">MedicationRequest</a></li>
+                            <li><a href="/apis/observation-api/doc" class="link-hover color-sidebar-link ">Observation</a></li>
+                            <li><a href="/apis/patient-api/doc" class="link-hover color-sidebar-link ">Patient</a></li>
+                            <li><a href="/apis/procedure-api/doc" class="link-hover color-sidebar-link ">Procedure</a></li>
+                            <li id="accordion14">
+                                <a href="/apis/provider-directory-api/doc"  class="accordionMenu cursor-pointer link-hover color-sidebar-link color-black" 
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne14" aria-expanded="true" aria-controls="collapseOneDir">
+                                    Provider Directory <i class="fa fa-angle-right"></i>
+                                </a>
+                                <div id="collapseOne14" class="collapse provider-directory-api" aria-labelledby="headingTwo" data-bs-parent="#accordion14" >
+                                    <ul class="help-center-links-grid ml-8">
+                                        <li class="mb10 mt20"><a href="/apis/provider-directory-api/doc" class="link-hover color-sidebar-link">Overview</a></li>
+                                        <li><text class=" heading-4 color-gray4 fs-me fw700 f12 l18 mt10 mb10 upper-case ">ENDPOINTS</li>
+                                            <li><a href="/apis/insuranceplan-api/doc" class="link-hover color-sidebar-link">InsurancePlan</a></li>
+                                            <li><a href="/apis/location-api/doc" class="link-hover color-sidebar-link">Location</a></li>
+                                            <li><a href="/apis/organization-api/doc" class="link-hover color-sidebar-link">Organization</a></li>
+                                            <li><a href="/apis/practitioner-api/doc" class="link-hover color-sidebar-link">Practitioner</a></li>
+                                            <li><a href="/apis/practitionerrole-api/doc" class="link-hover color-sidebar-link">PractitionerRole</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                    
+                </ul>
+            </div>
+            <div class="show">
+                <h6 class="heading-4 color-gray4 fs-me fw700 f12 l18 mt10 mb10 upper-case">Capability Statement</h6>
+                <ul class="help-center-links-grid">
+                            <li><a href="/apis/humana-api-explorer/getting-started/conformance" class="link-hover color-sidebar-link ">Conformance</a></li>
+                    
+                </ul>
+            </div>
+    </div>
+</div>
+                <div class="help-center-main-area">
+                    
+<h1>Patient</h1>
+<p>The Patient API enables Humana members to securely exchange their personal details like name, address, phone number, and date of birth with third party applications. This API conforms to the R4 FHIR standard and the US Core STU3 Implementation Guide.</p>
+<hr class="wp-block-separator is-style-wide">
+<h4>URL</h4>
+<p><label class="sdlink">https://<label class="sdlink">sandbox-</label>fhir.humana.com/api/Patient</label><br>
+<label class="d-none prod">https://fhir.humana.com/api/Patient</label></p>
+<h4>Sample Request</h4>
+<pre class="wp-block-code sdcode"><code>curl -X GET \
+https://sandbox-fhir.humana.com/api/Patient \
+-H 'Accept: application/json' \
+-H 'Authorization: Bearer {your access token}' \</code></pre>
+<pre class="wp-block-code d-none prodcode"><code>curl -X GET \
+https://fhir.humana.com/api/Patient \
+-H 'Accept: application/json' \
+-H 'Authorization: Bearer {your access token}' \</code></pre>
+<h4>Sample Response</h4>
+<pre class="wp-block-code"><code>
+{
+    "resourceType": "Bundle",
+    "type": "searchset",
+    "timestamp": "2025-01-15T04:19:52.355+00:00",
+    "meta": {
+        "lastUpdated": "2025-01-15T04:19:52.355+00:00",
+        "versionId": "7a1a2fd1-6d19-4421-a131-ffbeabdc6514"
+    },
+    "entry": [
+        {
+            "fullUrl": "https://sandbox-fhir.humana.com/api/Patient/5a357166754b59777137634248494434654c336d68773d3d",
+            "search": {
+                "mode": "match"
+            },
+            "resource": {
+                "resourceType": "Patient",
+                "id": "5a357166754b59777137634248494434654c336d68773d3d",
+                "identifier": [
+                    {
+                        "system": "https://fhir.humana.com/documentation/glossary/userinfo_id",
+                        "value": "1882543039903"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "usual",
+                        "text": "Valentine Renner",
+                        "family": "Renner",
+                        "given": [
+                            "Valentine"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "222234",
+                        "use": "home"
+                    },
+                    {
+                        "system": "email",
+                        "value": "333222@Td33mtest.com"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1963-02-09",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "2231 xxee Aly"
+                        ],
+                        "city": "RAYTOWN",
+                        "district": "JACKSON",
+                        "state": "MO",
+                        "postalCode": "64138",
+                        "country": "US"
+                    }
+                ],
+                "meta": {
+                    "versionId": "edd2fbca-21bb-4d4e-86ba-742f2d9c9691",
+                    "lastUpdated": "2025-01-15T03:59:24.587+00:00"
+                }
+            }
+        }
+    ],
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://sandbox-fhir.humana.com/api/Patient?_id=5a357166754b59777137634248494434654c336d68773d3d&_total=accurate&_count=10&_skip=0"
+        }
+    ],
+    "id": "de2f3d3f-4d4e-4dd6-88e6-dbaca5c5967d"
+}
+</code></pre>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </main>
+    
+    <div class="row footer-module no-gutters">
+        <div class="col-12 ">
+            <div class="footer-secondary-navigation-section adj-background-secondary-light">
+                <div class="content-rendering-v2">
+                    <div small="12" class="footer-additional-and-social-links-section">
+                        <div class="footer-humana-copyright">
+                            &#xA9; Humana 2025
+                        </div>
+                        <div role="navigation" aria-label="Legal links" class="footer-additional-links-section">
+                            <ul class="footer-additional-links-container">
+                                    <li class="footer-additional-link-container">
+                                        <a href="https://www.humana.com/legal"
+                                           class="footer-additional-link adj-link-primary"><span>Legal</span></a>
+                                    </li>
+                                    <li class="footer-additional-link-container">
+                                        <a href="https://www.humana.com/legal/privacy"
+                                           class="footer-additional-link adj-link-primary"><span>Privacy Policies</span></a>
+                                    </li>
+                                    <li class="footer-additional-link-container">
+                                        <a href="javascript:void(0);"
+                                           class="footer-additional-link adj-link-primary privacy-options"><span>Your Privacy Choices</span></a>
+                                    </li>
+                                    <li class="footer-additional-link-container">
+                                        <a href="https://www.humana.com/legal/internet-privacy"
+                                           class="footer-additional-link adj-link-primary"><span>Internet Privacy Statement</span></a>
+                                    </li>
+                                    <li class="footer-additional-link-container">
+                                        <a href="https://www.humana.com/site-map"
+                                           class="footer-additional-link adj-link-primary"><span>Site Map</span></a>
+                                    </li>
+                                    <li class="footer-additional-link-container">
+                                        <a href="https://www.humana.com/legal/disclaimer-and-licensure"
+                                           class="footer-additional-link adj-link-primary"><span>Disclaimers & Licensure</span></a>
+                                    </li>
+                                    <li class="footer-additional-link-container">
+                                        <a href="https://www.humana.com/legal/fraud-waste-and-abuse"
+                                           class="footer-additional-link adj-link-primary"><span>Fraud, Waste & Abuse</span></a>
+                                    </li>
+                                    <li class="footer-additional-link-container">
+                                        <a href="https://www.humana.com/legal/accessibility-resources"
+                                           class="footer-additional-link adj-link-primary"><span>Accessibility</span></a>
+                                    </li>
+                                    <li class="footer-additional-link-container">
+                                        <a href="https://www.humana.com/legal/site-system-requirements"
+                                           class="footer-additional-link adj-link-primary"><span>System Requirements</span></a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 ">
+            <div class="footer-disclaimer-section adj-background-secondary-light">
+                <div class="content-rendering-v2">
+                    <div class="footer-disclaimers-content">
+                        <div role="region" aria-label="Legal information" class="footer-disclaimers-container">
+                                <p>Humana complies with all applicable federal civil rights laws and does not discriminate on the basis of race, color, national origin, ancestry, religion, sex, marital status, gender, gender identity, sexual orientation, age, or disability. We also provide free language interpreter services. See our <a class='paraLink' href='https://www.humana.com/legal/accessibility-resources'>full accessibility rights information and language options</a></p>
+                                <p>Humana is a Medicare Advantage HMO, PPO and PFFS organization and a stand-alone prescription drug plan with a Medicare contract. Humana is also a Coordinated Care plan with a Medicare contract and a contract with the state Medicaid program Enrollment in any Humana plan depends on contract renewal.</p>
+                                <p>This material is provided for informational use only and should not be construed as medical advice or used in place of consulting a licensed medical professional. You should consult your doctor to determine what is right for you.</p>
+                                <p>Some links on this page may take you to Humana non-Medicare product or service pages or to a different website.</p>
+                                <p>“Humana” is the brand name for plans, products and services provided by one or more of the subsidiaries and affiliate companies of Humana Inc. (“Humana Entities”). Plans, products, and services are solely and only provided by one or more Humana Entities specified on the plan, product, or service contract, not Humana Inc. Not all plans, products, and services are available in each state.</p>
+
+
+                            <div class="core-disclosure-indL-s">
+                                <h3 class="core-disclosure-indL-s-summary-heading">
+                                    <button class="core-disclosure-indL-s-summary"
+                                            data-bs-toggle="collapse" data-bs-target="#core-disclosure-indL-s-mri251-summary" >
+                                        <span class="core-disclosure-indL-s-summary-icon">
+                                            <span class="core-icon-scale-to-fit"><span class="fas fa-angle-down"></span></span>
+                                        </span><span class="core-disclosure-indL-s-summary-content">
+                                            <span class="core-disclosure-indL-s-summary-headline">
+                                                <span class="footer-disclosure-link">Humana legal entities that offer, underwrite, administer or insure insurance products and services</span>
+                                            </span>
+                                            <!---->
+                                        </span>
+                                        <!---->
+                                    </button>
+                                </h3>
+                                <div id="core-disclosure-indL-s-mri251-summary"
+                                     aria-labelledby="core-disclosure-indL-s-mri251-summary" role="region"
+                                     class="core-disclosure-indL-s-panel collapse " tabindex="-1">
+                                    <!---->
+                                        <p><strong>Medical Plans</strong></p>
+                                            <p>Humana group medical plans are offered by Humana Medical Plan, Inc., Humana Employers Health Plan of Georgia, Inc., Humana Health Plan, Inc., Humana Health Benefit Plan of Louisiana, Inc., Humana Health Plan of Ohio, Inc., Humana Health Plans of Puerto Rico, Inc. License # 00235-0008, Humana Wisconsin Health Organization Insurance Corporation, or Humana Health Plan of Texas, Inc., or insured by Humana Health Insurance Company of Florida, Inc., Humana Health Plan, Inc., Humana Health Benefit Plan of Louisiana, Inc., Humana Insurance Company, Humana Insurance Company of Kentucky, Humana Insurance of Puerto Rico, Inc. License # 00187-0009, or administered by Humana Insurance Company or Humana Health Plan, Inc. For Arizona residents, plans are offered by Humana Health Plan, Inc. or insured by Humana Insurance Company. Administered by Humana Insurance Company.</p>
+                                            <p>Go365<sup>®</sup> is not an insurance product. Not available with all Humana health plans.</p>
+                                        <p><strong>Individual Dental and Vision Plans</strong></p>
+                                            <p>Humana Individual dental and vision plans are insured or offered by Humana Insurance Company, HumanaDental Insurance Company, Humana Insurance Company of New York, The Dental Concern, Inc., CompBenefits Insurance Company, CompBenefits Company, CompBenefits Dental, Inc., Humana Employers Health Plan of Georgia, Inc. or Humana Health Benefit Plan of Louisiana, Inc. Discount plans offered by HumanaDental Insurance Company or Humana Insurance Company. For Arizona residents: Insured by Humana Insurance Company. For Texas residents: Insured or offered by Humana Insurance Company, HumanaDental Insurance Company or DentiCare, Inc (d/b/a Compbenefits).</p>
+                                            <p>In states, and for products where applicable, the premium may include a $1 administrative fee. If you have purchased an association plan, an association fee may also apply. Some plans may also charge a one-time, non-refundable enrollment fee. (This fee is non-refundable as allowed by state).</p>
+                                            <p>A minimum one-year, initial contract period may be required for some dental and vision plans, excluding Dental Savings Plus.</p>
+                                        <p><strong>Group Dental and Vision Plans (Insurance through your employer)</strong></p>
+                                            <p>Humana group dental plans are offered by Humana Insurance Company, HumanaDental Insurance Company, Humana Insurance Company of New York, The Dental Concern, Inc., Humana Medical Plan of Utah, Humana Health Benefit Plan of Louisiana, CompBenefits Company, CompBenefits Insurance Company, CompBenefits Dental, Inc., Humana Employers Health Plan of Georgia, Inc., or DentiCare, Inc. (DBA CompBenefits). Humana group vision plans are offered by Humana Insurance Company, HumanaDental Insurance Company, Humana Health Benefit Plan of Louisiana, Humana Insurance Company of Kentucky, Humana Insurance Company of New York, CompBenefits Insurance Company, CompBenefits Company, or The Dental Concern,</p>
+                                        <p><strong>Life Insurance Plans</strong></p>
+                                            <p> Humana group life plans are offered by Humana Insurance Company or Humana Insurance Company of Kentucky.</p>
+                                            <p>The website is maintained outside of New York state and the insurer is not authorized to transact the business of insurance in New York.</p>
+                                            <p>Humana individual life insurance plans are offered in New York by Humana Insurance Company.</p>
+                                        <p><strong>Limitations and exclusions</strong></p>
+                                            <p>This communication provides a general description of certain identified insurance or non-insurance benefits provided under one or more of our health benefit plans. Our health benefit plans have exclusions and limitations and terms under which the coverage may be continued in force or discontinued. For costs and complete details of the coverage, refer to the plan document or call or write Humana, or your Humana insurance agent or broker. In the event of any disagreement between this communication and the plan document, the plan document will control.</p>
+                                            <p>Individual applications are subject to eligibility requirements.</p>
+                                            <p>Before applying for group coverage, please refer to the pre-enrollment disclosures for a description of plan provisions which may exclude, limit, reduce, modify or terminate your coverage. <a class='paraLink' href='https://www.humana.com/member/documents-and-forms/pre-enrollment-disclosure'>View plan provisions</a> or check with your sales representative.</p>
+                                            <p>For group plans, please refer to your Benefit Plan Document (Certificate of Coverage/Insurance or Summary Plan Description/Administrative Services Only) for more information on the company providing your benefits.</p>
+                                            <p>Statements in languages other than English contained in the advertisement do not necessarily reflect the exact contents of the policy written in English, because of possible linguistic differences. In the event of a dispute, the policy as written in English is considered the controlling authority.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+
+    <input type="hidden" id="aiKey" value="3308723e-31c6-45db-9e57-c00bbec3f7ab" />
+    <script src="/apis/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/apis/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/apis/js/lib/lottie.min.js"></script>
+    <script src="/apis/js/lib/slick.min.js?v=4aUsCgb6n2XgFbAufsRj_WISEanSrkS2ZgWXkA6Sf7s"></script>
+    <script src="/apis/js/lib/popper.min.js"></script>
+    <script src="/apis/lib/jquery-datatable/dist/jquery.dataTables.min.js"></script>
+    <script src="/apis/lib/jquery-datatable/dist/dataTables.bootstrap.min.js"></script>
+    <script src="/apis/swaggerui/swagger-ui-bundle.js"></script>
+    <script src="/apis/swaggerui/swagger-ui-standalone-preset.js"></script>
+    
+    
+
+    <script src="/apis/js/Tealium/Tealium.js"></script>
+    
+    
+        <script src="/apis/js/site.min.js?v=sX_1ekTXtKgSEkOswuKrOMpOI53oqBIm_PlIDmbwBJM"></script>
+        <script src="/apis/js/aos.js?v=8mhhK6WerRskNTu3fWZ4O8xDWv8cIr5fk8QLrDhplo4"></script>
+        <script>
+            AOS.init({
+                easing: 'ease-out-back',
+                duration: 1000
+            })
+        </script>
+    
+
+    
+<script type="text/javascript"  src="/9e0i_50sBO/auFwhy/5dWI/wY9GQmD3u18bcDwuc7/Hls2Ag/bBQDWE/kxRxgB"></script></body>
+</html>

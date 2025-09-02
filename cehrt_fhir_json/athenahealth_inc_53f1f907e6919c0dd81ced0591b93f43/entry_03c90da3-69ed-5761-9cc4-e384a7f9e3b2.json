@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "03c90da3-69ed-5761-9cc4-e384a7f9e3b2",
+    "name": "BRYN MAWR HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a2c17ee5-d95b-5460-8a2c-89fcfa7a0c5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720255508"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "130 SOUTH BRYN MAWR AVENUE"
+        ],
+        "city": "BRYN MAWR",
+        "state": "PA",
+        "postalCode": "19010-3121"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1734"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1734.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:03c90da3-69ed-5761-9cc4-e384a7f9e3b2"
+}

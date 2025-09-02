@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4adc1c4d-2171-5909-95ff-c9844f6b3c71",
+    "name": "Martin Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3456db0f-459c-5d68-93a3-6f68ba470923"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508201062"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "723 Memorial St."
+        ],
+        "city": "PROSSER",
+        "state": "WA",
+        "postalCode": "99350-1524"
+      },
+      {
+        "line": [
+          "35 S. LOUSIANA ST.  SUITE A120"
+        ],
+        "city": "KENNEWICK",
+        "state": "WA",
+        "postalCode": "99336-8630"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15006"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15006.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4adc1c4d-2171-5909-95ff-c9844f6b3c71"
+}

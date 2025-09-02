@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "72af5d66-7a03-5597-bb15-0fb5abcd4d6d",
+    "name": "MGH RURAL HEALTH CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/48818081-aa47-5e0c-bd25-ede2857262e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992207294"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245544923"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "420 GUNBY AVE"
+        ],
+        "city": "BASTROP",
+        "state": "LA",
+        "postalCode": "71220-4406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29430"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29430.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:72af5d66-7a03-5597-bb15-0fb5abcd4d6d"
+}

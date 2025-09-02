@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8d641be1-8ed4-5707-8cc1-bae2a434f2aa",
+    "name": "Training NJ",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5794a0e8-bb43-52e4-bf1f-07853edfd538"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245981539"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "221 River Street 9th Floor"
+        ],
+        "city": "HOBOKEN",
+        "state": "NJ",
+        "postalCode": "07030-5990"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8d641be1-8ed4-5707-8cc1-bae2a434f2aa"
+}

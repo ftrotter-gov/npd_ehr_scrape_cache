@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12fb3d36-20da-56a2-a2ca-ff00f97deadc",
+    "name": "Third City Community Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3d444091-085d-5b89-af41-abdda2b80abe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1107 N BROADWELL AVE"
+        ],
+        "city": "GRAND ISLAND",
+        "state": "NE",
+        "postalCode": "68803-3755"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17848"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17848.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12fb3d36-20da-56a2-a2ca-ff00f97deadc"
+}

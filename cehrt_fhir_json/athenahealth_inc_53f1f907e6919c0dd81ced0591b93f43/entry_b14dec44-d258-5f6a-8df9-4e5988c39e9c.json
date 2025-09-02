@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b14dec44-d258-5f6a-8df9-4e5988c39e9c",
+    "name": "Dr. Cagna Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1b85d104-53f5-547e-9b14-f235cd2f4db6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831153154"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2 CONCORDE WAY"
+        ],
+        "city": "WINDSOR LOCKS",
+        "state": "CT",
+        "postalCode": "06096-1577"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8207"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8207.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b14dec44-d258-5f6a-8df9-4e5988c39e9c"
+}

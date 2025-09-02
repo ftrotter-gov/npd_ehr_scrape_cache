@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9cbfc7f5-605b-5ca2-9639-72b6880dc06e",
+    "name": "Evanston Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0c524b3e-253c-5c6d-8012-14c565e01ded"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013288836"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "190 Arrowhead Dr"
+        ],
+        "city": "EVANSTON",
+        "state": "WY",
+        "postalCode": "82930-9266"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3853"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3853.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9cbfc7f5-605b-5ca2-9639-72b6880dc06e"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d9b1f5ba-47f1-5c67-bb2b-a3352cd368e6",
+    "name": "PATIENTS HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/44d4619e-6a1e-509d-820e-351a76233d16"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619053899"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2900 EUREKA WAY"
+        ],
+        "city": "REDDING",
+        "state": "CA",
+        "postalCode": "96001-0220"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15337"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15337.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d9b1f5ba-47f1-5c67-bb2b-a3352cd368e6"
+}

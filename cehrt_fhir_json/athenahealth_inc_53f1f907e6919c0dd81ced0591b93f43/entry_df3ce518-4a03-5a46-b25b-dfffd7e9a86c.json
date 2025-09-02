@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "df3ce518-4a03-5a46-b25b-dfffd7e9a86c",
+    "name": "Patient Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c2fcd436-18ec-526a-965f-68f126a8fb41"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598995300"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "701 Medical Park Drive",
+          "Suite 304"
+        ],
+        "city": "HARTSVILLE",
+        "state": "SC",
+        "postalCode": "29550-4779"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8689"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8689.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:df3ce518-4a03-5a46-b25b-dfffd7e9a86c"
+}

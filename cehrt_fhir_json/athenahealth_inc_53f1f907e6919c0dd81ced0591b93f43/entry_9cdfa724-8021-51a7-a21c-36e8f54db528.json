@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9cdfa724-8021-51a7-a21c-36e8f54db528",
+    "name": "Great Falls Clinic Main - Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8df5749b-7e0a-586c-a1a8-27e33f720441"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801897780"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1400 29th St S"
+        ],
+        "city": "GREAT FALLS",
+        "state": "MT",
+        "postalCode": "59405-5315"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25095"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25095.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9cdfa724-8021-51a7-a21c-36e8f54db528"
+}

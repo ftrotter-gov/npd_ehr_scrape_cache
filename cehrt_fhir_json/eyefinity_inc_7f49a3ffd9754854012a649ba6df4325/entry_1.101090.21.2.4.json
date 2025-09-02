@@ -1,0 +1,38 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1.101090.21.2.4",
+    "meta": {
+      "lastUpdated": "2022-11-16T21:50:07.487+00:00",
+      "source": "Organization/1.101090"
+    },
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Demo Dermatology",
+    "managingOrganization": {
+      "reference": "Organization/1.101090",
+      "type": "Organization"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/fhir+xml",
+      "application/xml+fhir"
+    ],
+    "address": "https://derm.ef.prod.fhir.ema-api.com/fhir/r4/"
+  },
+  "fullUrl": "https://public-api.mmi.prod.fhir.ema-api.com:443/fhir/r4/Endpoint/1.101090.21.2.4"
+}

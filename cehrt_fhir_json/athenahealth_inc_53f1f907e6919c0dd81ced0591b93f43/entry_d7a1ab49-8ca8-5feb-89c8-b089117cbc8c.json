@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d7a1ab49-8ca8-5feb-89c8-b089117cbc8c",
+    "name": "Freedom Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d93935c2-3f01-5bda-b7d8-1c0570e1ec74"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558301358"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "243 GREEN VALLEY RD.",
+          "Suite B"
+        ],
+        "city": "FREEDOM",
+        "state": "CA",
+        "postalCode": "95019-3133"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10621"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10621.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d7a1ab49-8ca8-5feb-89c8-b089117cbc8c"
+}

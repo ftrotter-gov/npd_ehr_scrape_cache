@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjIwMl8yMjAyXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1014.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518931732"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Grandville Pediatrics PC MI",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "616-538-2410",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "616-214-3551",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "2845 44th Street SW Suite 200 Grandville, MI 49418-2678",
+        "line": [
+          "2845 44th Street SW",
+          "Suite 200"
+        ],
+        "city": "Grandville",
+        "state": "MI",
+        "postalCode": "49418-2678",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjIwMl8yMjAyXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjIwMl8yMjAyXzMwNjA"
+}

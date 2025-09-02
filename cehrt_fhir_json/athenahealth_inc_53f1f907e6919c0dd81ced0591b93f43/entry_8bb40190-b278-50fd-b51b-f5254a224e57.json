@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8bb40190-b278-50fd-b51b-f5254a224e57",
+    "name": "St. Claude",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2189353b-d979-5729-b050-57df70f0d8bf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780199265"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932440500"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4960 ST CLAUDE AVE"
+        ],
+        "city": "NEW ORLEANS",
+        "state": "LA",
+        "postalCode": "70117-4258"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12400"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12400.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8bb40190-b278-50fd-b51b-f5254a224e57"
+}

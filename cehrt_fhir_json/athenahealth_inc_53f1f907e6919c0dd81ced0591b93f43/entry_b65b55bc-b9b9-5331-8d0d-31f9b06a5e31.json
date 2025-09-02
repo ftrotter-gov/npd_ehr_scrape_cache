@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b65b55bc-b9b9-5331-8d0d-31f9b06a5e31",
+    "name": "Patient's Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8050c3ef-243d-54c8-9291-7bc81f36fef0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952593915"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063453991"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417967365"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "818 N Carriage Parkway"
+        ],
+        "city": "Wichita",
+        "state": "KS",
+        "postalCode": "67208-4500"
+      },
+      {
+        "line": [
+          "750 N Socora St",
+          "Suite 100"
+        ],
+        "city": "Wichita",
+        "state": "KS",
+        "postalCode": "67212-3793"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20807"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20807.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b65b55bc-b9b9-5331-8d0d-31f9b06a5e31"
+}

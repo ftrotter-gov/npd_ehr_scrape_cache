@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8e3b3f93-a909-58c5-bc83-62e8bd5a8e16",
+    "name": "UMMC/Riverside",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a13350ea-3977-521c-96fd-a21f84713160"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659301992"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104539774"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2450 Riverside Ave"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55454-0355"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15270"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15270.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8e3b3f93-a909-58c5-bc83-62e8bd5a8e16"
+}

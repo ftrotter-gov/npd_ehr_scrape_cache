@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a09497a9-ca6a-4bf0-8196-d2bba2ef9339",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c9e3f110-b770-48de-9a8f-00d3607d00c4",
+        "name": "Bellingham Asthma Allergy & Immunology"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Bellingham Asthma Allergy & Immunology",
+    "managingOrganization": {
+      "reference": "#c9e3f110-b770-48de-9a8f-00d3607d00c4"
+    },
+    "period": {
+      "start": "2018-09-28T16:48:45+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0009783"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0009783"
+}

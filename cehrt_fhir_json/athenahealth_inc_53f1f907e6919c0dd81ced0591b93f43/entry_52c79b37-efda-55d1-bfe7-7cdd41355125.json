@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "52c79b37-efda-55d1-bfe7-7cdd41355125",
+    "name": "GHI Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5162b0ee-209e-529d-bae9-316d57c5c088"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699308460"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 W 5TH ST"
+        ],
+        "city": "TEMPE",
+        "state": "AZ",
+        "postalCode": "85281-0400"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20964"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20964.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:52c79b37-efda-55d1-bfe7-7cdd41355125"
+}

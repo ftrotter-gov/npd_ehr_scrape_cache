@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "423f3354-1dd7-5d0b-9de6-8379b7b2c053",
+    "name": "Banner Gateway",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f95bcae5-c9a4-5530-9355-ab438ac00673"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255541520"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 N Higley"
+        ],
+        "city": "GILBERT",
+        "state": "AZ",
+        "postalCode": "85234-1604"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-807"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-807.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:423f3354-1dd7-5d0b-9de6-8379b7b2c053"
+}

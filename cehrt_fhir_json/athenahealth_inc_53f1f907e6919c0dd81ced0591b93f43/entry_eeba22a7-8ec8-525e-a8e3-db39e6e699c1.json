@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eeba22a7-8ec8-525e-a8e3-db39e6e699c1",
+    "name": "FMC Fire Mesa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/62a324a9-314e-5f05-b069-a55da40fd62d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265831432"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2450 Fire Mesa WAy",
+          "#120"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89128-9031"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11769"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11769.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eeba22a7-8ec8-525e-a8e3-db39e6e699c1"
+}

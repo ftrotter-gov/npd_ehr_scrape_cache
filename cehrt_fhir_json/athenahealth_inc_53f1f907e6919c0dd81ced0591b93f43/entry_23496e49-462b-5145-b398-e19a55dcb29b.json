@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "23496e49-462b-5145-b398-e19a55dcb29b",
+    "name": "Midwest Minor Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c679f3a6-562e-5c30-8664-29e635144b8b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770677601"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "14104 S ST"
+        ],
+        "city": "OMAHA",
+        "state": "NE",
+        "postalCode": "68137-2636"
+      },
+      {
+        "line": [
+          "8610 W DODGE RD"
+        ],
+        "city": "OMAHA",
+        "state": "NE",
+        "postalCode": "68114-2882"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31007"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31007.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:23496e49-462b-5145-b398-e19a55dcb29b"
+}

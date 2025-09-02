@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "28cde411-110c-5581-a93a-8e0807dc622b",
+    "name": "Inform Diagnostics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/10470628-5177-5f8a-90aa-b1ac8b112743"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902931728"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6655 N. Macarthur Blvd."
+        ],
+        "city": "IRVING",
+        "state": "TX",
+        "postalCode": "75039-2443"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12517"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12517.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:28cde411-110c-5581-a93a-8e0807dc622b"
+}

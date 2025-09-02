@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1fed677c-37cc-5b53-8f65-285516d0644c",
+    "name": "An outside provider/proveedor fuera de VIM",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/abb0b9cf-5c1f-5f00-bcf5-07ddc532aa24"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982837274"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "Call office/Llamar a la oficina"
+        ],
+        "city": "PITTSFIELD",
+        "state": "MA",
+        "postalCode": "01201-4109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13063"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13063.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1fed677c-37cc-5b53-8f65-285516d0644c"
+}

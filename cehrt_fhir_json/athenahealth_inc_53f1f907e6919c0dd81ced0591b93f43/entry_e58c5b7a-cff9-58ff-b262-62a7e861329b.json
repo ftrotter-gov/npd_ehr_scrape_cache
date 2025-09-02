@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e58c5b7a-cff9-58ff-b262-62a7e861329b",
+    "name": "Waterbury Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6346fc33-2566-5ea3-9af9-67d80211ecc2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033318175"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "64 Robbins Street"
+        ],
+        "city": "Waterbury",
+        "state": "CT",
+        "postalCode": "06721-2613"
+      },
+      {
+        "line": [
+          "64 Robbins Street"
+        ],
+        "city": "Waterbury",
+        "state": "CT",
+        "postalCode": "06708-2613"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32135"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32135.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e58c5b7a-cff9-58ff-b262-62a7e861329b"
+}

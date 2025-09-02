@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e3bef48e-f6ce-5493-8482-21b3dd1315fc",
+    "name": "Evansville Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6da302a6-ad08-571e-b5e6-18bf1215ea5c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831129790"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4133 Gateway Boulevard",
+          "Suite 100"
+        ],
+        "city": "NEWBURGH",
+        "state": "IN",
+        "postalCode": "47630-4760"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3642"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3642.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e3bef48e-f6ce-5493-8482-21b3dd1315fc"
+}

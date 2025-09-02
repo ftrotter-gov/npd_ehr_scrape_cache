@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "172bf195-5e90-578e-b3d0-1c968f341fe3",
+    "name": "ANew Divine Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eedda29f-0085-50f9-ba6d-bf8da2d37cc1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124719232"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2913 RIVER RD W STE K"
+        ],
+        "city": "GOOCHLAND",
+        "state": "VA",
+        "postalCode": "23063-3263"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30109"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30109.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:172bf195-5e90-578e-b3d0-1c968f341fe3"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "465e51d6-70b9-5ace-9f2e-da2b9798ce2d",
+    "name": "Vernon Medical Center - NECG Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2ee8688b-a036-597b-a9d6-04c99c18b50a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821133885"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10 Winthrop Street",
+          "Suite 311"
+        ],
+        "city": "WORCESTER",
+        "state": "MA",
+        "postalCode": "01604-4438"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9433"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9433.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:465e51d6-70b9-5ace-9f2e-da2b9798ce2d"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d12170d9-c264-5fe9-b062-14095933afd3",
+    "name": "Midwest Healthcare Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8339b391-d0ea-576c-83ce-e90b10a63680"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982207932"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "21410 136th Ave N STE 105B"
+        ],
+        "city": "ROGERS",
+        "state": "MN",
+        "postalCode": "55374-4921"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23201"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23201.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d12170d9-c264-5fe9-b062-14095933afd3"
+}

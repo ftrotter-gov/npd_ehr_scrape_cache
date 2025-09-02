@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7c66a383-3006-501b-867c-5199426b1592",
+    "name": "Flatlands Foot Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a767a56d-221c-5a19-b2db-38a2ddbee1c9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144641101"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518363290"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2075 FLATBUSH AVE"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11234-4340"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21170"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21170.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7c66a383-3006-501b-867c-5199426b1592"
+}

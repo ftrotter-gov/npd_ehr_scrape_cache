@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d3b4dac5-2dfd-5bf4-8cb6-2428d29ead60",
+    "name": "Telemetry Unit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9f6b09c7-0a78-589a-b2bf-ddaaa8d7e0da"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265739643"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "326 W 64th Street"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60621-3114"
+      },
+      {
+        "line": [
+          "2320 E 93rd Street"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60617-3909"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15638"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15638.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d3b4dac5-2dfd-5bf4-8cb6-2428d29ead60"
+}

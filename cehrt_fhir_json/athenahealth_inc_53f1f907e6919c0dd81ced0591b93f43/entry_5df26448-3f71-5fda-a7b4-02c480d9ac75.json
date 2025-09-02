@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5df26448-3f71-5fda-a7b4-02c480d9ac75",
+    "name": "ST. Mary's Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a3052deb-910e-5772-8536-09a3f7292a64"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417610999"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1808 WEST MAIN ST"
+        ],
+        "city": "RUSSELLVILLE",
+        "state": "AR",
+        "postalCode": "72801-2724"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24926"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24926.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5df26448-3f71-5fda-a7b4-02c480d9ac75"
+}

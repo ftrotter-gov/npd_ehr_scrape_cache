@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b5cfbdf6-f9ee-5cbe-8607-9f7b8f22cca0",
+    "name": "Assured Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/70a310aa-4258-5ed1-9028-2a22cfe7ed7d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316473382"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8421 W BROADWAY AVE"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55445-2266"
+      },
+      {
+        "line": [
+          "8421 W. BROADWAY AVE"
+        ],
+        "city": "BROOKLYN PARK",
+        "state": "MN",
+        "postalCode": "55445-2266"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16780"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16780.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b5cfbdf6-f9ee-5cbe-8607-9f7b8f22cca0"
+}

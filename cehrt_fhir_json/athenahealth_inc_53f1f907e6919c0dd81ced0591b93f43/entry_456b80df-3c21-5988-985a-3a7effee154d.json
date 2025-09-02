@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "456b80df-3c21-5988-985a-3a7effee154d",
+    "name": "Even Care Virtual Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a3a9eb1-8ec3-53b9-93bc-271c3f70fbb4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801550140"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "226 N NOVA RD",
+          "SUITE 354"
+        ],
+        "city": "ORMOND BEACH",
+        "state": "FL",
+        "postalCode": "32174-5124"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25030"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25030.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:456b80df-3c21-5988-985a-3a7effee154d"
+}

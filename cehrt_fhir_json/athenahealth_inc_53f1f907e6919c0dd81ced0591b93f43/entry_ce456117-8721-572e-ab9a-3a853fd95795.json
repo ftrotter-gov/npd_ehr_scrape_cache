@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ce456117-8721-572e-ab9a-3a853fd95795",
+    "name": "Ortho Instacare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/72b0b99b-eaaf-51a0-9c89-65acce20ec26"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669170577"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "234 East 1st St Suite 102"
+        ],
+        "city": "CASPER",
+        "state": "WY",
+        "postalCode": "82601-2516"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21988"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21988.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ce456117-8721-572e-ab9a-3a853fd95795"
+}

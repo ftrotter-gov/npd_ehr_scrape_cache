@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b508a406-c7ab-5238-8d40-db2585729ac7",
+    "name": "Hurley Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/270d52a2-209f-5a41-bb58-500e7a3eebe9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760884449"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 main street"
+        ],
+        "city": "FLUSHING",
+        "state": "MI",
+        "postalCode": "48433-2022"
+      },
+      {
+        "line": [
+          "1 Hurley Plaza"
+        ],
+        "city": "FLINT",
+        "state": "MI",
+        "postalCode": "48503-5902"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12394"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12394.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b508a406-c7ab-5238-8d40-db2585729ac7"
+}

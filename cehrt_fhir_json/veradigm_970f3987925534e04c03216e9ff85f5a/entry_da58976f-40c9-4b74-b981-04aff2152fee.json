@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "da58976f-40c9-4b74-b981-04aff2152fee",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4d4963fe-2ff1-4bee-8c6e-99de160fe60a",
+        "name": "Foothill Surgical Specialists"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Foothill Surgical Specialists",
+    "managingOrganization": {
+      "reference": "#4d4963fe-2ff1-4bee-8c6e-99de160fe60a"
+    },
+    "period": {
+      "start": "2023-05-19T03:35:34+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77159"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77159"
+}

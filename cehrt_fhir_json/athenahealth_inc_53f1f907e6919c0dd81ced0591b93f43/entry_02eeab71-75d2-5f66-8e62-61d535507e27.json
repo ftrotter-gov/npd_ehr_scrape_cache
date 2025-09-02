@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "02eeab71-75d2-5f66-8e62-61d535507e27",
+    "name": "DePaul Hospital_IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/360ea192-848a-5e43-b699-8869e166ba99"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780058727"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12303 DePaul Drive"
+        ],
+        "city": "BRIDGETON",
+        "state": "MO",
+        "postalCode": "63044-2512"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14360"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14360.Brand-13"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:02eeab71-75d2-5f66-8e62-61d535507e27"
+}

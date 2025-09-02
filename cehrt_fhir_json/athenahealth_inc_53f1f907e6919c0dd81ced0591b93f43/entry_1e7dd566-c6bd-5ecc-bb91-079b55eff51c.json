@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1e7dd566-c6bd-5ecc-bb91-079b55eff51c",
+    "name": "Long Beach Memorial Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2e5917af-6341-5013-bfdf-ce0f7e59b818"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518061530"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2801 ATLANTIC AVE"
+        ],
+        "city": "LONG BEACH",
+        "state": "CA",
+        "postalCode": "90806-1701"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3750"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3750.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1e7dd566-c6bd-5ecc-bb91-079b55eff51c"
+}

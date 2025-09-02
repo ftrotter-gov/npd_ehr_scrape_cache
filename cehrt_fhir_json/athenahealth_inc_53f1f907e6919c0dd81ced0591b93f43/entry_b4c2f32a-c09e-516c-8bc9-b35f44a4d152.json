@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b4c2f32a-c09e-516c-8bc9-b35f44a4d152",
+    "name": "REGIONAL HOSPITAL JACKSON",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e8307d71-26b9-57c5-9bb7-e7dca1171944"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144253279"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "367 HOSPITAL BLVD"
+        ],
+        "city": "JACKSON",
+        "state": "TN",
+        "postalCode": "38305-2080"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14864"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14864.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b4c2f32a-c09e-516c-8bc9-b35f44a4d152"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c34a71ca-45a6-5189-8c6b-a297136bba6b",
+    "name": "Dr. TMG Test",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8db210db-6fe9-59dc-b0a1-92f9842a52cb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295407922"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "325 N SAINT PAUL ST STE 3100"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75201-3923"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25244"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25244.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c34a71ca-45a6-5189-8c6b-a297136bba6b"
+}

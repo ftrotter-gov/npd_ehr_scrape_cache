@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "253b24ba-e383-5bfd-bce0-b136c8c21d29",
+    "name": "The Hughston Clinic. P.C.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c38f0217-b185-5e2f-8222-a513d13f400e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164461190"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6262 Veterans Parkway",
+          "P.O. box 9517"
+        ],
+        "city": "COLUMBUS",
+        "state": "GA",
+        "postalCode": "31909-3540"
+      },
+      {
+        "line": [
+          "100 Medical Drive Suite 400"
+        ],
+        "city": "DUBLIN",
+        "state": "GA",
+        "postalCode": "31021-2561"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-321"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-321.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:253b24ba-e383-5bfd-bce0-b136c8c21d29"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c388a1b1-9f20-57ab-b445-fc25e18f2e8d",
+    "name": "PATIENT HOME",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eeaef16e-9d0e-5f35-a932-5d52826e3064"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417231135"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "450 MAMARONECK AVENUE STE 414"
+        ],
+        "city": "HARRISON",
+        "state": "NY",
+        "postalCode": "10528-2400"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12058"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12058.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c388a1b1-9f20-57ab-b445-fc25e18f2e8d"
+}

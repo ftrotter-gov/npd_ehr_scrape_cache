@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "983fd29f-b9f3-5954-8755-9e0bbef3763b",
+    "name": "Overlook Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/20f88e54-e489-515f-805b-177ff6733ab0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457602823"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "99 BEAUVOIR AVE"
+        ],
+        "city": "SUMMIT",
+        "state": "NJ",
+        "postalCode": "07901-3353"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6920"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6920.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:983fd29f-b9f3-5954-8755-9e0bbef3763b"
+}

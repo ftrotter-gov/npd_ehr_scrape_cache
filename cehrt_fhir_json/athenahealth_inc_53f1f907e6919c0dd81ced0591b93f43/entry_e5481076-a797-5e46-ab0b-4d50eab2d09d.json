@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5481076-a797-5e46-ab0b-4d50eab2d09d",
+    "name": "Doctor Mom",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e02ebe7d-838e-5fc7-8c1c-da061d1579ba"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811272719"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "650 S. Greeneville Ave."
+        ],
+        "city": "ALLEN",
+        "state": "TX",
+        "postalCode": "75002-3037"
+      },
+      {
+        "line": [
+          "401 E. CORPORATE DR. STE 290A"
+        ],
+        "city": "LEWISVILLE",
+        "state": "TX",
+        "postalCode": "75057-6430"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19817"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19817.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5481076-a797-5e46-ab0b-4d50eab2d09d"
+}

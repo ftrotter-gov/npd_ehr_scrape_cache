@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "85f2115d-cec1-5f0f-a0ae-c63886df1e18",
+    "name": "All Health Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d77c36ad-828a-5cc1-a638-ceb776430511"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801042072"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20 PROSPECT AVE",
+          "SUITE 703"
+        ],
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "postalCode": "07601-0619"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23990"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23990.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:85f2115d-cec1-5f0f-a0ae-c63886df1e18"
+}

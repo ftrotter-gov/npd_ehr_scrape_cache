@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "06befae2-3d51-588e-8c6c-323573106116",
+    "name": "Thompson Medical - 132 Westminster Road",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/78e19c3d-125c-573b-b586-4cb6089c412d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750783619"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "132 Westminster Road"
+        ],
+        "city": "CANTERBURY",
+        "state": "CT",
+        "postalCode": "06331-1454"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27673"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27673.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:06befae2-3d51-588e-8c6c-323573106116"
+}

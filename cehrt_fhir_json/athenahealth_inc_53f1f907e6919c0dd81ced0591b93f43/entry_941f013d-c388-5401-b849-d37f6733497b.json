@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "941f013d-c388-5401-b849-d37f6733497b",
+    "name": "My Healthy Place",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2f313747-415e-5c8a-bff2-b79798b3911d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982471496"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8118 FRY RD STE 302"
+        ],
+        "city": "CYPRESS",
+        "state": "TX",
+        "postalCode": "77433-7851"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31649"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31649.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:941f013d-c388-5401-b849-d37f6733497b"
+}

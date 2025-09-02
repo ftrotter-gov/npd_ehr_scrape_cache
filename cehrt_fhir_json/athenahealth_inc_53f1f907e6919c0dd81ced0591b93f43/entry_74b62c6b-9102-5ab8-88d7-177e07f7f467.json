@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "74b62c6b-9102-5ab8-88d7-177e07f7f467",
+    "name": "Inpatient Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/998fe51f-7f94-59ae-b709-fa33d35d6434"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598755605"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "130 Division Street"
+        ],
+        "city": "Derby",
+        "state": "CT",
+        "postalCode": "06418-1326"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1323"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1323.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:74b62c6b-9102-5ab8-88d7-177e07f7f467"
+}

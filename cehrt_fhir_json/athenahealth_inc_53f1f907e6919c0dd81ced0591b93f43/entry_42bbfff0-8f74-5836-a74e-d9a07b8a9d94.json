@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42bbfff0-8f74-5836-a74e-d9a07b8a9d94",
+    "name": "IV HEALTH PLLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e8e64328-efdf-5159-8491-8e1817cee738"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962941427"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1107 WALNUT DRIVE"
+        ],
+        "city": "ARDMORE",
+        "state": "OK",
+        "postalCode": "73401-2354"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15709"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15709.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42bbfff0-8f74-5836-a74e-d9a07b8a9d94"
+}

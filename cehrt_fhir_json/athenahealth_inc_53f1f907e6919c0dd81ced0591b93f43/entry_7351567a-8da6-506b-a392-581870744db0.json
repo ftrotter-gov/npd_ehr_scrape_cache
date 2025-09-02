@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7351567a-8da6-506b-a392-581870744db0",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d5baf1da-bbeb-5707-a849-50935d35dbe0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184051989"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1100 NORTHSIDE FORSYTH DR STE 310"
+        ],
+        "city": "CUMMING",
+        "state": "GA",
+        "postalCode": "30041-6020"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11182"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11182.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7351567a-8da6-506b-a392-581870744db0"
+}

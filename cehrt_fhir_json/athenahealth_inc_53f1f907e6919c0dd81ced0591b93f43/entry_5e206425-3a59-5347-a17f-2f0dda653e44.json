@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5e206425-3a59-5347-a17f-2f0dda653e44",
+    "name": "USA Health West Mobile Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/83fd66e3-e712-5955-b2ac-ac784f2193d1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508392432"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2423 Schillinger Rd Suite 103"
+        ],
+        "city": "MOBILE",
+        "state": "AL",
+        "postalCode": "36695-4142"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16253"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16253.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5e206425-3a59-5347-a17f-2f0dda653e44"
+}

@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bc51f250-a957-5d6c-bb19-bd916fb9e688",
+    "name": "Medika",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2fc75bb1-4f6e-5521-b5ac-fb4e9d45b6dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003132143"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6056 Boynton Beach Blvd",
+          "Suite 115"
+        ],
+        "city": "BOYNTON BEACH",
+        "state": "FL",
+        "postalCode": "33437-3500"
+      },
+      {
+        "line": [
+          "7100 WEST CAMINO REAL",
+          "SUITE 207"
+        ],
+        "city": "BOCA RATON",
+        "state": "FL",
+        "postalCode": "33433-5510"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10036"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10036.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bc51f250-a957-5d6c-bb19-bd916fb9e688"
+}

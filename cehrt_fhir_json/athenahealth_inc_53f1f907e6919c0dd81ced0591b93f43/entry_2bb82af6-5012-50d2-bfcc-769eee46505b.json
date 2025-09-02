@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2bb82af6-5012-50d2-bfcc-769eee46505b",
+    "name": "LGH MEDICAL GROUP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d7211358-79fa-5aee-a547-058ce17586e3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174698385"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "ONE HOSPITAL DRIVE"
+        ],
+        "city": "LOWELL",
+        "state": "MA",
+        "postalCode": "01852-1311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1559"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1559.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2bb82af6-5012-50d2-bfcc-769eee46505b"
+}

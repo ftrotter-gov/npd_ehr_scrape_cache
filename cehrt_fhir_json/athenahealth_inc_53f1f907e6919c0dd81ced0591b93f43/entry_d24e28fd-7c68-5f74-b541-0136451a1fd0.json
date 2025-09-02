@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d24e28fd-7c68-5f74-b541-0136451a1fd0",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5ceba27a-70e1-5609-88fd-a2b34169989c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346616901"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1220 SUNSHINE AVENUE, SUITE B"
+        ],
+        "city": "CODY",
+        "state": "WY",
+        "postalCode": "82414-4248"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16374"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16374.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d24e28fd-7c68-5f74-b541-0136451a1fd0"
+}

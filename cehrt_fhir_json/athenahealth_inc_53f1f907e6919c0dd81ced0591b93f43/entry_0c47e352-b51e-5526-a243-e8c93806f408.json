@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0c47e352-b51e-5526-a243-e8c93806f408",
+    "name": "SMCA Psych Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9cc18d86-9cfd-51f4-8362-613d94d57769"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588971477"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336456227"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 W 38th St"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78705-1006"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8363"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8363.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0c47e352-b51e-5526-a243-e8c93806f408"
+}

@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "99e9667a-eede-5134-8e0b-89f5d3fea0c5",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://baylorfrisco.com"
+      }
+    ],
+    "name": "Baylor Scott and White Medical Center-Frisco",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://baylorfrisco.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5601 Warren Parkway"
+        ],
+        "city": "Frisco",
+        "state": "TX",
+        "postalCode": "75034",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:0cb14cbb-d89c-4e9e-b6be-06763a1be9e0"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0cb14cbb-d89c-4e9e-b6be-06763a1be9e0"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:99e9667a-eede-5134-8e0b-89f5d3fea0c5"
+}

@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b6e92c84-8920-5e04-b37f-9430dcc5d9f2",
+    "name": "Onsite Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d403665c-fd70-53bb-9290-1a37d4998800"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740585579"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7301 N Lincoln Ave",
+          "Suite 183"
+        ],
+        "city": "LINCOLNWOOD",
+        "state": "IL",
+        "postalCode": "60712-1736"
+      },
+      {
+        "line": [
+          "7301 N Lincoln",
+          "Suite 183"
+        ],
+        "city": "LINCOLNWOOD",
+        "state": "IL",
+        "postalCode": "60712-1757"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b6e92c84-8920-5e04-b37f-9430dcc5d9f2"
+}

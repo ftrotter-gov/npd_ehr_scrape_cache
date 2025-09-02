@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "7cbb894f-0f50-4724-bb60-0877083a60b8",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c6fb1448-2413-40c6-bfaf-67f25875ea3f",
+        "name": "William D Adams Md"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "William D Adams Md",
+    "managingOrganization": {
+      "reference": "#c6fb1448-2413-40c6-bfaf-67f25875ea3f"
+    },
+    "period": {
+      "start": "2018-08-29T06:53:57+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77220"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77220"
+}

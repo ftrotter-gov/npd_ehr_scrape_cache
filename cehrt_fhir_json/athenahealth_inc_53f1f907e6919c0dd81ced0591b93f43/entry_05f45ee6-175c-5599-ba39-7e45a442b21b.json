@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "05f45ee6-175c-5599-ba39-7e45a442b21b",
+    "name": "Amory Phys Management Patient Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c985f289-70d6-5b68-a386-d7dab233889e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255361978"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "404 Gilmore Drive"
+        ],
+        "city": "AMORY",
+        "state": "MS",
+        "postalCode": "38821-5414"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:05f45ee6-175c-5599-ba39-7e45a442b21b"
+}

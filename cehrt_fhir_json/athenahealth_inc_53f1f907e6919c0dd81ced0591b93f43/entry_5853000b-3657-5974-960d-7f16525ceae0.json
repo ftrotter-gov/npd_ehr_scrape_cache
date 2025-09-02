@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5853000b-3657-5974-960d-7f16525ceae0",
+    "name": "Brandywine Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/03a44d2c-a9a1-5ff5-93e9-3ea205d00164"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437175197"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "213 Reeceville road"
+        ],
+        "city": "COATESVILLE",
+        "state": "PA",
+        "postalCode": "19320-1528"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-899"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-899.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5853000b-3657-5974-960d-7f16525ceae0"
+}

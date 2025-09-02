@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4e247c3a-9ab4-554c-8805-315e2994c8c1",
+    "name": "NHELP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ced756b9-bce7-5876-bc2f-1c1e415ea346"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598070849"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11200 SW 8TH ST",
+          " # AHC2-693"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33199-2516"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27920"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27920.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4e247c3a-9ab4-554c-8805-315e2994c8c1"
+}

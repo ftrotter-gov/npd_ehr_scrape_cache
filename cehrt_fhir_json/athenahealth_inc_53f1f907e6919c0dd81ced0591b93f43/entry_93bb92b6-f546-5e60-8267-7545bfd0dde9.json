@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "93bb92b6-f546-5e60-8267-7545bfd0dde9",
+    "name": "United Ministry Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2fbf0bca-f650-5280-be17-d41ab5d6f5e1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1123456789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "316 BATESBURG HWY"
+        ],
+        "city": "SALUDA",
+        "state": "SC",
+        "postalCode": "29138-1710"
+      },
+      {
+        "line": [
+          "1404 EDGEFIELD STREET"
+        ],
+        "city": "GREENWOOD",
+        "state": "SC",
+        "postalCode": "29646-4014"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29259"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29259.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:93bb92b6-f546-5e60-8267-7545bfd0dde9"
+}

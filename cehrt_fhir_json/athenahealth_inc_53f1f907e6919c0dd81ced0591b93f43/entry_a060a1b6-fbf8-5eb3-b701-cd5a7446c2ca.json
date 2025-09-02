@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a060a1b6-fbf8-5eb3-b701-cd5a7446c2ca",
+    "name": "McAllen Knee Pain Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37baab84-3838-5b8c-a2cb-a5298df72186"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689314189"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295861557"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "501 N WARE RD"
+        ],
+        "city": "MCALLEN",
+        "state": "TX",
+        "postalCode": "78501-8055"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16665"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16665.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a060a1b6-fbf8-5eb3-b701-cd5a7446c2ca"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7dc10ae1-79e2-5198-96be-fbfa5de9121f",
+    "name": "Stress Test at Vidant Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c06ab675-2c88-5bf4-85cb-a2e8da612574"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912354374"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2100 Stantonsburg Rd"
+        ],
+        "city": "GREENVILLE",
+        "state": "NC",
+        "postalCode": "27834-2818"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14149"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14149.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7dc10ae1-79e2-5198-96be-fbfa5de9121f"
+}

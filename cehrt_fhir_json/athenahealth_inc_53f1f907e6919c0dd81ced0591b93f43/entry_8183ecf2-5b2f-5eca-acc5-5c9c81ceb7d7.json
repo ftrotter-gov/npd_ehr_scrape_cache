@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8183ecf2-5b2f-5eca-acc5-5c9c81ceb7d7",
+    "name": "Allen Family Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f9c04485-8b0b-59e1-bc89-5263a71fb670"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831621887"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7930 HWY 85 STE B"
+        ],
+        "city": "RIVERDALE",
+        "state": "GA",
+        "postalCode": "30274-3902"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25635"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25635.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8183ecf2-5b2f-5eca-acc5-5c9c81ceb7d7"
+}

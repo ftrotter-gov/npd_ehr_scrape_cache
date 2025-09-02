@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8cce42cc-c319-5d96-8239-c0bcd1614f39",
+    "name": "Sun City Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1eeee444-7356-54c4-addc-6430f528d129"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710706874"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "646 MAIN ST"
+        ],
+        "city": "EL CENTRO",
+        "state": "CA",
+        "postalCode": "92243-7914"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23613"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23613.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8cce42cc-c319-5d96-8239-c0bcd1614f39"
+}

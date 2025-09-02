@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "faedf432-ae51-50c2-9559-e0574522c8da",
+    "name": "Merit Health Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e8276972-4cca-59e8-ae23-dca622632ac0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538200209"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "103 ASBURY CIR"
+        ],
+        "city": "HATTIESBURG",
+        "state": "MS",
+        "postalCode": "39402-1302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1930"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1930.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:faedf432-ae51-50c2-9559-e0574522c8da"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7c657cb-3664-5340-b48c-93aae784f807",
+    "name": "Sage Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d4141f9f-2860-5dd3-8cff-732c27f8d4b5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720858996"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1919 5TH ST STE A"
+        ],
+        "city": "SANTA FE",
+        "state": "NM",
+        "postalCode": "87505-5402"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30751"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30751.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7c657cb-3664-5340-b48c-93aae784f807"
+}

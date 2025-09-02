@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "10d227d3-e07b-4a89-85eb-f14ad2c5c9ce",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d5c5ff35-41e0-416d-b2ff-d99d9f3c8eac",
+        "name": "Nephrology Consultants of NW Ohio"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Nephrology Consultants of NW Ohio",
+    "managingOrganization": {
+      "reference": "#d5c5ff35-41e0-416d-b2ff-d99d9f3c8eac"
+    },
+    "period": {
+      "start": "2018-09-07T18:15:48+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10014209"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10014209"
+}

@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0IG-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0IG"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Sleep Solutions of North Florida",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3867526700"
+      },
+      {
+        "system": "fax",
+        "value": "3867526709"
+      }
+    ],
+    "address": [
+      {
+        "text": "301 NW Cole Terr Suite 103 Lake City FL 320558617 US",
+        "line": [
+          "301 NW Cole Terr",
+          "Suite 103"
+        ],
+        "city": "Lake City",
+        "state": "FL",
+        "postalCode": "320558617",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0IG-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0IG-Organization-2"
+}

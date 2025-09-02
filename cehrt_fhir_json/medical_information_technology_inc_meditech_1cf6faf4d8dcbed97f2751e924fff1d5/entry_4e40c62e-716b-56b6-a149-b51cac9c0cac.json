@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4e40c62e-716b-56b6-a149-b51cac9c0cac",
+    "meta": {
+      "lastUpdated": "2023-10-26T22:51:45.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://tsh.org"
+      }
+    ],
+    "name": "Tri-State Memorial Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://tsh.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1221 Highland Avenue"
+        ],
+        "city": "Clarkston",
+        "state": "WA",
+        "postalCode": "99403",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:5c89f182-f120-550c-8a0b-ad44bf6ad6bf"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:5c89f182-f120-550c-8a0b-ad44bf6ad6bf"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4e40c62e-716b-56b6-a149-b51cac9c0cac"
+}

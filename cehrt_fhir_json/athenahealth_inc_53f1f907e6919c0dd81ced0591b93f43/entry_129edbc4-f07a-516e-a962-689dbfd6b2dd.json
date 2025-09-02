@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "129edbc4-f07a-516e-a962-689dbfd6b2dd",
+    "name": "Patients Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1d08d5ab-12c2-5448-9d26-0c3e597315cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346345055"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2021 E Commercial Blvd",
+          "Ste 201"
+        ],
+        "city": "FORT LAUDERDALE",
+        "state": "FL",
+        "postalCode": "33308-3754"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12132"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12132.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:129edbc4-f07a-516e-a962-689dbfd6b2dd"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6fa79e67-bc33-563d-8387-5d7ab745dc98",
+    "name": "NORTHEAST REGIONAL MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a6c86e13-bd4b-58ba-a78a-5d714fa04e6f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336491448"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164776944"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 S OSTEOPATHY AVE"
+        ],
+        "city": "KIRKSVILLE",
+        "state": "MO",
+        "postalCode": "63501-6401"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2245"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2245.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6fa79e67-bc33-563d-8387-5d7ab745dc98"
+}

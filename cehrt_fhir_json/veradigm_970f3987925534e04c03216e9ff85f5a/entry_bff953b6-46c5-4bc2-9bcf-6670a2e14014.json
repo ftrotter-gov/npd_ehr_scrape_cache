@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "bff953b6-46c5-4bc2-9bcf-6670a2e14014",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3b4d3ace-e487-4076-b6ab-ed2dfefedda2",
+        "name": "Chippenham Pediatric and Adolescent Medicine"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Chippenham Pediatric and Adolescent Medicine",
+    "managingOrganization": {
+      "reference": "#3b4d3ace-e487-4076-b6ab-ed2dfefedda2"
+    },
+    "period": {
+      "start": "2018-09-06T12:24:47+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10035446"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10035446"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "55f4c64f-310e-5286-83af-2f48ed812bd3",
+    "name": "Westview Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/520549d7-7200-5698-a2fe-3ec535218a0c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356374854"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1220 W UNIVERSITY BLVD"
+        ],
+        "city": "ODESSA",
+        "state": "TX",
+        "postalCode": "79764-7118"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10019"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10019.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:55f4c64f-310e-5286-83af-2f48ed812bd3"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0d909704-5639-41f7-819f-76f6bf71d094",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d33ae884-9dd9-494e-8b39-47a79e8949c6",
+        "name": "Suncoast Family Medical Assoc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Suncoast Family Medical Assoc",
+    "managingOrganization": {
+      "reference": "#d33ae884-9dd9-494e-8b39-47a79e8949c6"
+    },
+    "period": {
+      "start": "2018-05-29T14:48:36+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75400"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75400"
+}

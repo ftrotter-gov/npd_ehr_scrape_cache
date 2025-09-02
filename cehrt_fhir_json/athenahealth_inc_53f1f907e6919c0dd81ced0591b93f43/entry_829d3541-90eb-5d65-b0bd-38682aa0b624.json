@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "829d3541-90eb-5d65-b0bd-38682aa0b624",
+    "name": "Forest Hills Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a1c31f12-c1e2-5038-914f-e9bd5c1f0dbd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497773394"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "102-01 66th Road"
+        ],
+        "city": "FOREST HILLS",
+        "state": "NY",
+        "postalCode": "11375-2029"
+      },
+      {
+        "line": [
+          "2001 Marcus Ave Suite E249"
+        ],
+        "city": "NEW HYDE PARK",
+        "state": "NY",
+        "postalCode": "11042-1000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31700"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31700.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:829d3541-90eb-5d65-b0bd-38682aa0b624"
+}

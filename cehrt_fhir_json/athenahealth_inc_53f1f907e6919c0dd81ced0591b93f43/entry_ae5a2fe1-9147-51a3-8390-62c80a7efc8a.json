@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae5a2fe1-9147-51a3-8390-62c80a7efc8a",
+    "name": "Nutmeg Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9866bb1c-ad18-5693-919e-d6d2c3db9568"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760001010"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "64 Maple Street",
+          "Suite A"
+        ],
+        "city": "KENT",
+        "state": "CT",
+        "postalCode": "06757-1721"
+      },
+      {
+        "line": [
+          "64 MAPLE ST"
+        ],
+        "city": "KENT",
+        "state": "CT",
+        "postalCode": "06757-1721"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21553"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21553.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae5a2fe1-9147-51a3-8390-62c80a7efc8a"
+}

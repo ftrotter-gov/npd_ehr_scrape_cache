@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2a9bc433-700a-5d98-a324-9705b98c0b79",
+    "name": "Sacramento",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fe8cb476-3282-5574-94f5-1b4d925de7ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124668660"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 University Ave Suite 112"
+        ],
+        "city": "SACRAMENTO",
+        "state": "CA",
+        "postalCode": "95825-6514"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25975"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25975.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2a9bc433-700a-5d98-a324-9705b98c0b79"
+}

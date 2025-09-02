@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ea99d74-c8c6-59da-890c-57a366d39c16",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2ccdf9a9-1e2f-5160-a440-794e76369ed4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881132660"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7271 N Main Street",
+          "Suite 2"
+        ],
+        "city": "DAYTON",
+        "state": "OH",
+        "postalCode": "45415-1397"
+      },
+      {
+        "line": [
+          "7271 N MAIN ST # SUI2"
+        ],
+        "city": "DAYTON",
+        "state": "OH",
+        "postalCode": "45415-2567"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15377"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15377.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ea99d74-c8c6-59da-890c-57a366d39c16"
+}

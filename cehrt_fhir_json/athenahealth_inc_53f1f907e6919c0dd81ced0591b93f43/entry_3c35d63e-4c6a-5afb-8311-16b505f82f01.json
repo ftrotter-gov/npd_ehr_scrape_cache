@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3c35d63e-4c6a-5afb-8311-16b505f82f01",
+    "name": "U of L Health DT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ab428b12-5036-5c00-9c19-bb30f811b22e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427779289"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 ABRAHAM FLEXNER WAY"
+        ],
+        "city": "LOUISVILLE",
+        "state": "KY",
+        "postalCode": "40202-2877"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31342"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31342.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3c35d63e-4c6a-5afb-8311-16b505f82f01"
+}

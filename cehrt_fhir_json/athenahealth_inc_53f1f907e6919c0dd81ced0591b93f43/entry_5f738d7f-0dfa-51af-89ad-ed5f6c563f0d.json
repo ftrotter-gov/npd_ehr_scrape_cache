@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5f738d7f-0dfa-51af-89ad-ed5f6c563f0d",
+    "name": "Dr. Padma's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3787773-c089-5cea-9724-0f83dd3655d7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477503142"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1070 Luther Road"
+        ],
+        "city": "EAST GREENBUSH",
+        "state": "NY",
+        "postalCode": "12061-4020"
+      },
+      {
+        "line": [
+          "2500 POND VW STE 202"
+        ],
+        "city": "CASTLETON ON HUDSON",
+        "state": "NY",
+        "postalCode": "12033-9776"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15426"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15426.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5f738d7f-0dfa-51af-89ad-ed5f6c563f0d"
+}

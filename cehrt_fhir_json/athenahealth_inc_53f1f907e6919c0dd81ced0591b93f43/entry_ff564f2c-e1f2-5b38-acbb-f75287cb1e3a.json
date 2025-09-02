@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ff564f2c-e1f2-5b38-acbb-f75287cb1e3a",
+    "name": "Greensburg Walk In Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2c765da0-b404-556c-9296-10d9d9fbe03e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184999757"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6763 HWY 10"
+        ],
+        "city": "GREENSBURG",
+        "state": "LA",
+        "postalCode": "70441-0208"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21441"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21441.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ff564f2c-e1f2-5b38-acbb-f75287cb1e3a"
+}

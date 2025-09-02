@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9da6d59-8c86-5fa3-8de1-5f3ab1223c56",
+    "name": "PATIENTS HOME",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5c79f452-801d-52f8-a4c9-ec6b56a4c265"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790109734"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7557 Rambler Road",
+          "SUITE 730"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75231-4142"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8625"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8625.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9da6d59-8c86-5fa3-8de1-5f3ab1223c56"
+}

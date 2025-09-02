@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "27e5a136-7eaf-545d-a247-26a2c14dd6c3",
+    "name": "The office Dr. Redix",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/18e2f607-a2f5-5975-ab32-efdf9728747e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154965093"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15248 ELEVENTH ST"
+        ],
+        "city": "VICTORVILLE",
+        "state": "CA",
+        "postalCode": "92395-3704"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10718"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10718.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:27e5a136-7eaf-545d-a247-26a2c14dd6c3"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "819ede48-f100-5428-afe8-5dc39f2cdfa9",
+    "name": "Monmoth Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8fb1a9d6-fc95-5408-9083-31e40b35b63d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104257336"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 SECOND AVENUE"
+        ],
+        "city": "LONG BRANCH",
+        "state": "NJ",
+        "postalCode": "07740-6303"
+      },
+      {
+        "line": [
+          "300 2nd AVE"
+        ],
+        "city": "LONG BRANCH",
+        "state": "NJ",
+        "postalCode": "07740-6395"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15879"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15879.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:819ede48-f100-5428-afe8-5dc39f2cdfa9"
+}

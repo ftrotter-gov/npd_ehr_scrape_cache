@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5003d453-52ae-5064-b16d-9535eb81d05d",
+    "name": "Knox Clinic Mobile Van",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b3837a90-d639-5686-b329-73bec75d9721"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346070117"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "22 WHITE STREET",
+          "SUITE 101"
+        ],
+        "city": "ROCKLAND",
+        "state": "ME",
+        "postalCode": "04841-2978"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26648"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26648.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5003d453-52ae-5064-b16d-9535eb81d05d"
+}

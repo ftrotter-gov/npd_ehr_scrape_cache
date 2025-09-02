@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c87c2583-97d1-5232-957a-514cd7c83768",
+    "name": "ROCKVILLE SURGICAL SUITES",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ebb125d7-2963-5c4a-8e68-71053acc0de8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346427564"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3200 TOWER OAKS BLVD",
+          "SUITE 100"
+        ],
+        "city": "ROCKVILLE",
+        "state": "MD",
+        "postalCode": "20852-4216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21345"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21345.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c87c2583-97d1-5232-957a-514cd7c83768"
+}

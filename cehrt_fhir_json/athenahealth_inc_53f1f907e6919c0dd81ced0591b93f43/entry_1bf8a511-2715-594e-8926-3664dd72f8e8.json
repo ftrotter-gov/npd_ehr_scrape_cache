@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bf8a511-2715-594e-8926-3664dd72f8e8",
+    "name": "Connection Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b8b69f97-4726-52a6-a975-126a68cff409"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306453626"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1317 15TH ST SE"
+        ],
+        "city": "DEMOTTE",
+        "state": "IN",
+        "postalCode": "46310-9393"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22473"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22473.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bf8a511-2715-594e-8926-3664dd72f8e8"
+}

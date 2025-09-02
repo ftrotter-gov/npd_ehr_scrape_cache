@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a456bbf2-eb1a-5c50-858b-6d2f3b4ce9f1",
+    "name": "YOUR WELLNESS SOURCES - PRIMARY CARE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cf4d1512-da02-5e8e-9ea9-3f24e874ee7c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780031724"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4301 GARDEN CITY DR",
+          "STE 304"
+        ],
+        "city": "HYATTSVILLE",
+        "state": "MD",
+        "postalCode": "20785-6105"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32304"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32304.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a456bbf2-eb1a-5c50-858b-6d2f3b4ce9f1"
+}

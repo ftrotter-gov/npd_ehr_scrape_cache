@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "706e1277-fc4f-544e-b17e-55c7ebd176be",
+    "name": "Atlanta Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f30f3611-aed0-5421-b129-06db7aedcdee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306964853"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "550 Peachttree Street Ne.",
+          "suite 1750"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30308-2263"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12313"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12313.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:706e1277-fc4f-544e-b17e-55c7ebd176be"
+}

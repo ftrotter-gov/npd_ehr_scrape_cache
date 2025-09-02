@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2ea0a45a-39b7-5113-a028-c17ad8270e54",
+    "name": "Walnut Medical Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cc615435-59ca-5101-83f3-8d0a4ffb66fa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063988384"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1860 S CENTRAL ST"
+        ],
+        "city": "VISALIA",
+        "state": "CA",
+        "postalCode": "93277-4496"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17371"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17371.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2ea0a45a-39b7-5113-a028-c17ad8270e54"
+}

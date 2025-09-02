@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db1bdb42-5466-5462-8933-eb0f19acf387",
+    "name": "Island Glo Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/49a89aca-3526-53e7-b039-de24245a058a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619692472"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8313 SW Freeway",
+          "Suite 230"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77074-1613"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31823"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31823.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db1bdb42-5466-5462-8933-eb0f19acf387"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f1130df7-0370-5651-8d65-eadb5f215c45",
+    "name": "GLFHC - LGH Inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/146f53a4-5485-5dc3-9ca4-9d1f45c6d9cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699774646"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760108047"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 General Street"
+        ],
+        "city": "LAWRENCE",
+        "state": "MA",
+        "postalCode": "01841-2961"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23857"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23857.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f1130df7-0370-5651-8d65-eadb5f215c45"
+}

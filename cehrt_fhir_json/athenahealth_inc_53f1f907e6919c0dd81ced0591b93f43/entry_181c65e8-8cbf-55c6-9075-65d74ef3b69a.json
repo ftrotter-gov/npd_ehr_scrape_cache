@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "181c65e8-8cbf-55c6-9075-65d74ef3b69a",
+    "name": "Kennedy Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/455e29f2-ac21-561e-82ff-87f93d1a74d4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487415170"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1153 W 15TH ST"
+        ],
+        "city": "AUBURN",
+        "state": "IN",
+        "postalCode": "46706-2061"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30579.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:181c65e8-8cbf-55c6-9075-65d74ef3b69a"
+}

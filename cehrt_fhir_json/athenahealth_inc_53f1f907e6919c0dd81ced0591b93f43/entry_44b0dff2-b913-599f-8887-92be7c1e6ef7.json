@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "44b0dff2-b913-599f-8887-92be7c1e6ef7",
+    "name": "primary care medical practice Dr. Mallouhi",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/25413c86-c6dd-5615-acb3-cea194f9643b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912113002"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1031 MCBRIDE AVE STE D205"
+        ],
+        "city": "Woodland Park",
+        "state": "NJ",
+        "postalCode": "07424-2569"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32084"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32084.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:44b0dff2-b913-599f-8887-92be7c1e6ef7"
+}

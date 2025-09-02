@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fcc636c9-bb42-5ed2-95f7-5abfc282bfb2",
+    "name": "Dr. Jalli's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/67384ad9-4d43-5588-9d9c-0fe5ed0168b2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598121923"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2401 RESEARCH BLVD STE 330"
+        ],
+        "city": "ROCKVILLE",
+        "state": "MD",
+        "postalCode": "20850-6255"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30779"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30779.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fcc636c9-bb42-5ed2-95f7-5abfc282bfb2"
+}

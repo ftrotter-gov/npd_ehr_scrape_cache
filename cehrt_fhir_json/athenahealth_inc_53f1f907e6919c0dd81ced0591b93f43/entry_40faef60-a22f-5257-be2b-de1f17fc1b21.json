@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "40faef60-a22f-5257-be2b-de1f17fc1b21",
+    "name": "Dr. Freedman's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/54e8f4ee-62f4-5541-bd00-a747792630c3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497792048"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578217188"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2700 QUARRY LAKE DR",
+          "SUITE 200"
+        ],
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postalCode": "21209-3762"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25717"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25717.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:40faef60-a22f-5257-be2b-de1f17fc1b21"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fe1d1dd1-c59d-5769-8477-8754e3cc6a87",
+    "name": "Central Bucks Rheumatology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c5e921cf-2105-5be3-9d7d-f890cdc82aa0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770178600"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1456 FERRY ROAD",
+          "SUITE 403"
+        ],
+        "city": "DOYLESTOWN",
+        "state": "PA",
+        "postalCode": "18901-2306"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23151"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23151.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fe1d1dd1-c59d-5769-8477-8754e3cc6a87"
+}

@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0a54acf7-1c88-5f8e-b225-5cbdfe569b43",
+    "name": "Beacon Behavioral Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5c31d014-a87f-5dac-9f6d-dec41a2ecaad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699013292"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5646 READ BLVD, STE 100"
+        ],
+        "city": "NEW ORLEANS",
+        "state": "LA",
+        "postalCode": "70127-3106"
+      },
+      {
+        "line": [
+          "14500 HAYNE BLVD",
+          "SUITE 200"
+        ],
+        "city": "NEW ORLEANS",
+        "state": "LA",
+        "postalCode": "70128-1751"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15990"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15990.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0a54acf7-1c88-5f8e-b225-5cbdfe569b43"
+}

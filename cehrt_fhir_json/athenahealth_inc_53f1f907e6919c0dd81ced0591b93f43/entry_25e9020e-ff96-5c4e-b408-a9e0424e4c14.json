@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "25e9020e-ff96-5c4e-b408-a9e0424e4c14",
+    "name": "Out of Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/205119a9-e9ee-5238-8925-590098b44c55"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811321102"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 W. MAIN STREET"
+        ],
+        "city": "JENKS",
+        "state": "OK",
+        "postalCode": "74037-2311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7659"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7659.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:25e9020e-ff96-5c4e-b408-a9e0424e4c14"
+}

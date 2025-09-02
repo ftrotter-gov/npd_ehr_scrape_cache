@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "01000656-b813-57a9-a9d4-0bf967fc7fd8",
+    "name": "patients home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7d0d4ed0-f274-5c7b-80ad-494cd081be6d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770828527"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7007 BACKLICK COURT"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "VA",
+        "postalCode": "22151-3964"
+      },
+      {
+        "line": [
+          "112 ELDEN ST",
+          "SUITE D"
+        ],
+        "city": "HERNDON",
+        "state": "VA",
+        "postalCode": "20170-4902"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8239"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8239.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:01000656-b813-57a9-a9d4-0bf967fc7fd8"
+}

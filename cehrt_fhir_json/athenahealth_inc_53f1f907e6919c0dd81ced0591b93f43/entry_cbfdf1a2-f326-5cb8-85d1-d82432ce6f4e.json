@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cbfdf1a2-f326-5cb8-85d1-d82432ce6f4e",
+    "name": "Arnold Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca5a8d87-71cd-520c-8bbe-3e82c90001b4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619101573"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "po box 541813"
+        ],
+        "city": "MERRITT ISLAND",
+        "state": "FL",
+        "postalCode": "32953-1813"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22964"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22964.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cbfdf1a2-f326-5cb8-85d1-d82432ce6f4e"
+}

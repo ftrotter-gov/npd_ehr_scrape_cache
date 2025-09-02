@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ef28eb0c-0a3b-5246-9f3d-f368a3ee1d1c",
+    "name": "DOCTOR'S HOSPITAL OF MICHIGAN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2ff6fff0-ed01-5045-9213-796f93740567"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235101247"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "461 WEST HURON"
+        ],
+        "city": "WATERFORD",
+        "state": "MI",
+        "postalCode": "48341-1601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3996"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3996.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ef28eb0c-0a3b-5246-9f3d-f368a3ee1d1c"
+}

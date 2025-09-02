@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eba40f30-40bd-51cd-8ee1-4a6ccb0ff493",
+    "meta": {
+      "lastUpdated": "2022-12-22T23:52:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://dcmh.net"
+      }
+    ],
+    "name": "Decatur County Memorial Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://dcmh.net"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "720 North Lincoln Street"
+        ],
+        "city": "Greensburg",
+        "state": "IN",
+        "postalCode": "47240",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:184624fb-b0b3-5753-97a2-ec937c7cf3fd"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:184624fb-b0b3-5753-97a2-ec937c7cf3fd"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eba40f30-40bd-51cd-8ee1-4a6ccb0ff493"
+}

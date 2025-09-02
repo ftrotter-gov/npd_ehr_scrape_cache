@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12ff79bf-455c-5fb9-b7a6-1b0ff25fb2bb",
+    "name": "Benton Dental",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b8f8c0cd-80bd-5909-b008-7212bcbc9bdd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821092552"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15921 BOUNDARY DR"
+        ],
+        "city": "ASHLAND",
+        "state": "MS",
+        "postalCode": "38603-7740"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28179"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28179.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12ff79bf-455c-5fb9-b7a6-1b0ff25fb2bb"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dce0ab96-46a8-5ea2-8937-8a4d48da5bcb",
+    "name": "Surgery Center of Reno Out Patient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6121606b-1357-53e1-9c01-6033f81f79af"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316162795"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "343 Elm St",
+          "Ste 102"
+        ],
+        "city": "RENO",
+        "state": "NV",
+        "postalCode": "89503-4504"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19482"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19482.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dce0ab96-46a8-5ea2-8937-8a4d48da5bcb"
+}

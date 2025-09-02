@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "60794f8e-b685-54fe-b3aa-179bbba97dcd",
+    "name": "OH Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/953379b8-7abb-5721-91d7-0b2288030f95"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003002759"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4031 Colonel Glenn HWY STE 113"
+        ],
+        "city": "DAYTON",
+        "state": "OH",
+        "postalCode": "45431-2774"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29651"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29651.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:60794f8e-b685-54fe-b3aa-179bbba97dcd"
+}

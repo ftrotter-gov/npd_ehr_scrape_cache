@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTYzOV8xNjM5XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "917.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093060238"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Rene Salhab MD Inc CA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "909-466-7337",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "909-466-7338",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "8112 Milliken Ave Suite 201 Rancho Cucamonga, CA 91730",
+        "line": [
+          "8112 Milliken Ave",
+          "Suite 201"
+        ],
+        "city": "Rancho Cucamonga",
+        "state": "CA",
+        "postalCode": "91730",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTYzOV8xNjM5XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTYzOV8xNjM5XzMwNjA"
+}

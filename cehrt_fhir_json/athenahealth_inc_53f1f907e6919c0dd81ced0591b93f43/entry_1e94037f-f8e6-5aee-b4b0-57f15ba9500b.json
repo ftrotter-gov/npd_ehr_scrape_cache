@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1e94037f-f8e6-5aee-b4b0-57f15ba9500b",
+    "name": "Doctor Nieva's Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3db9ef3b-f288-554e-9375-37375f1eec3f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568767986"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 VICTORIA STREET"
+        ],
+        "city": "COSTA MESA",
+        "state": "CA",
+        "postalCode": "92627-1995"
+      },
+      {
+        "line": [
+          "330 W WILLOW ST"
+        ],
+        "city": "LONG BEACH",
+        "state": "CA",
+        "postalCode": "90806-2802"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17879"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17879.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1e94037f-f8e6-5aee-b4b0-57f15ba9500b"
+}

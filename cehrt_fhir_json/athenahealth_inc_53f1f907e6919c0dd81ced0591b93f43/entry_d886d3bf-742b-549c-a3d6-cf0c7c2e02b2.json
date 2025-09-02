@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d886d3bf-742b-549c-a3d6-cf0c7c2e02b2",
+    "name": "Texas Health HEB IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/31f93f3a-3859-5192-a110-2248a3944fa6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023119336"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 HOSPITAL PKWY"
+        ],
+        "city": "BEDFORD",
+        "state": "TX",
+        "postalCode": "76022-6913"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29952"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29952.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d886d3bf-742b-549c-a3d6-cf0c7c2e02b2"
+}

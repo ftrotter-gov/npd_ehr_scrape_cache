@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "699e192c-fc9e-56cf-a5d7-cb15a167a40a",
+    "name": "Farmington Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/91cd88c4-c07d-582a-8717-5f866b9e9762"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437118619"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "19685 Pilot Knob Rd"
+        ],
+        "city": "FARMINGTON",
+        "state": "MN",
+        "postalCode": "55024-7238"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29593"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29593.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:699e192c-fc9e-56cf-a5d7-cb15a167a40a"
+}

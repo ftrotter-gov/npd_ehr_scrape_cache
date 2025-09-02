@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c598bc8b-7d19-523d-8ca2-a7f38387f936",
+    "name": "St. Elizabeth Hospital IL IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cd3237b4-df42-54e7-8941-eb75295ceef9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922019926"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "211 S 3rd St"
+        ],
+        "city": "BELLEVILLE",
+        "state": "IL",
+        "postalCode": "62220-1915"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9559"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9559.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c598bc8b-7d19-523d-8ca2-a7f38387f936"
+}

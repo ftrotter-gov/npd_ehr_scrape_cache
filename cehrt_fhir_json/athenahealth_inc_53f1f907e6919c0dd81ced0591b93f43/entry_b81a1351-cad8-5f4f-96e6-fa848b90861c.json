@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b81a1351-cad8-5f4f-96e6-fa848b90861c",
+    "name": "Rose Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca8397b5-cac4-58d3-b4d2-8417ac25092f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700844768"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4567 E. 9th Avenue"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80220-3908"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4826"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4826.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b81a1351-cad8-5f4f-96e6-fa848b90861c"
+}

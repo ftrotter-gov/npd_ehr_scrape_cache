@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "94a5a3b5-6698-50fa-9c06-e3b4f79c21a6",
+    "name": "St. Alexis Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5402d977-3532-5f7b-a326-419fe7d7e278"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275990061"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1555 Barrington Rd."
+        ],
+        "city": "HOFFMAN ESTATES",
+        "state": "IL",
+        "postalCode": "60169-1099"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-380"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-380.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:94a5a3b5-6698-50fa-9c06-e3b4f79c21a6"
+}

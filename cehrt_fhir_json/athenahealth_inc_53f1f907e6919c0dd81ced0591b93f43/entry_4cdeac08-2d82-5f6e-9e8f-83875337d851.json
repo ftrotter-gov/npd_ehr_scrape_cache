@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4cdeac08-2d82-5f6e-9e8f-83875337d851",
+    "name": "Optum Poinciana Location",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/96dc9672-992c-5130-9b9c-f5fcc9d053b8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053384214"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "339 Cypress Parkway",
+          "Suite 100"
+        ],
+        "city": "KISSIMMEE",
+        "state": "FL",
+        "postalCode": "34759-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5045"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5045.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4cdeac08-2d82-5f6e-9e8f-83875337d851"
+}

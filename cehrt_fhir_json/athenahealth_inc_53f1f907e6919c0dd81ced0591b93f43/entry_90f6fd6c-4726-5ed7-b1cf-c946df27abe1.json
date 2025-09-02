@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "90f6fd6c-4726-5ed7-b1cf-c946df27abe1",
+    "name": "Family Doctor Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3124c348-f91f-5ea0-91f7-6e5d538672df"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245880715"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700117942"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7201 SOUTH STONY ISLAND AVENUE"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60649-1234"
+      },
+      {
+        "line": [
+          "7201 S Stony Island Avenue"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60649-2806"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21029"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21029.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:90f6fd6c-4726-5ed7-b1cf-c946df27abe1"
+}
