@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "b4744960-848b-42f6-a492-02bc2ea4f7f5",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "ea74e3e6-e1f3-494c-9225-86ec658110bd",
+        "name": "Tuba City Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Tuba City Health",
+    "managingOrganization": {
+      "reference": "#ea74e3e6-e1f3-494c-9225-86ec658110bd"
+    },
+    "period": {
+      "start": "2020-01-02T23:03:46+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.tchealth.org/R4/open-Prod"
+  },
+  "fullUrl": "https://fhir.tchealth.org/R4/open-Prod"
+}

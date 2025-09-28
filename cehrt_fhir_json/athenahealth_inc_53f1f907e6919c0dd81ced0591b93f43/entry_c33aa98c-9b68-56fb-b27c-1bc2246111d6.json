@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c33aa98c-9b68-56fb-b27c-1bc2246111d6",
+    "name": "Ableto - NY",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47e9f25d-091a-56f2-8f44-55a438d58eb6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235427667"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "320 W. 37th St.",
+          "5th fl"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10018-4289"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32870"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32870.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c33aa98c-9b68-56fb-b27c-1bc2246111d6"
+}

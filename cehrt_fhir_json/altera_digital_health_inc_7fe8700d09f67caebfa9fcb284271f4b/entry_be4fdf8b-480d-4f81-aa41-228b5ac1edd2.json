@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "be4fdf8b-480d-4f81-aa41-228b5ac1edd2",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c85d787d-418e-476b-ae7e-7ff3048e1cd4",
+        "name": "Houston Physicians Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Houston Physicians Hospital",
+    "managingOrganization": {
+      "reference": "#c85d787d-418e-476b-ae7e-7ff3048e1cd4"
+    },
+    "period": {
+      "start": "2023-09-30T14:27:37+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10128914"
+  },
+  "fullUrl": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10128914"
+}

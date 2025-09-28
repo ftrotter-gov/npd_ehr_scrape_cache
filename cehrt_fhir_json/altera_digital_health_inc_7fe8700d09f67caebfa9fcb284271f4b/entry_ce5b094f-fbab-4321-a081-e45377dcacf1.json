@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "ce5b094f-fbab-4321-a081-e45377dcacf1",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "f0d4f3cf-1c7f-4571-80d0-78872cc66cba",
+        "name": "Monadnock Community Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Monadnock Community Hospital",
+    "managingOrganization": {
+      "reference": "#f0d4f3cf-1c7f-4571-80d0-78872cc66cba"
+    },
+    "period": {
+      "start": "2024-07-01T17:51:12+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10159248"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10159248"
+}

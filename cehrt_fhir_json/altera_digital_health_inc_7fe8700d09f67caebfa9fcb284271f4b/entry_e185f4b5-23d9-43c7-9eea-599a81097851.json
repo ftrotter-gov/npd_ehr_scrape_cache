@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e185f4b5-23d9-43c7-9eea-599a81097851",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "431385b4-7b17-4fa0-a2f8-cf3aa34eb8e3",
+        "name": "SIU Physicians and Surgeons"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "SIU Physicians and Surgeons",
+    "managingOrganization": {
+      "reference": "#431385b4-7b17-4fa0-a2f8-cf3aa34eb8e3"
+    },
+    "period": {
+      "start": "2024-12-03T19:57:48+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhirwebr4.emrspi.org/R4/open-R4?cust=100741622776982"
+  },
+  "fullUrl": "https://fhirwebr4.emrspi.org/R4/open-R4?cust=100741622776982"
+}

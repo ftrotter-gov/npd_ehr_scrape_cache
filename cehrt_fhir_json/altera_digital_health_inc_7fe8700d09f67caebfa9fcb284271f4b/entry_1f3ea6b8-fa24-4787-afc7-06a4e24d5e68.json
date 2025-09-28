@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1f3ea6b8-fa24-4787-afc7-06a4e24d5e68",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "36af14a2-3404-47b4-a681-820d08b25efa",
+        "name": "Sarasota Memorial Health Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Sarasota Memorial Health Care",
+    "managingOrganization": {
+      "reference": "#36af14a2-3404-47b4-a681-820d08b25efa"
+    },
+    "period": {
+      "start": "2018-05-30T18:00:50+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://mobilitymd.smh.com/R4/open-Prod"
+  },
+  "fullUrl": "https://mobilitymd.smh.com/R4/open-Prod"
+}

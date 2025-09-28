@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "de8462ce-ae79-4de4-bb37-597898876786",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "a5b78d60-7c38-46dd-9b13-697be96d56bf",
+        "name": "St. Louis County"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "St. Louis County",
+    "managingOrganization": {
+      "reference": "#a5b78d60-7c38-46dd-9b13-697be96d56bf"
+    },
+    "period": {
+      "start": "2019-01-09T18:07:29+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10029506"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10029506"
+}

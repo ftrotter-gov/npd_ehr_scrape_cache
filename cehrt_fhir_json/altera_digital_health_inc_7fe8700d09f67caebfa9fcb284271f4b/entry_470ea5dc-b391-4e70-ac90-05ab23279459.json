@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "470ea5dc-b391-4e70-ac90-05ab23279459",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "f28deebd-e3bd-447c-8d8f-7761bb824e9f",
+        "name": "Cookeville Reg Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Cookeville Reg Medical Center",
+    "managingOrganization": {
+      "reference": "#f28deebd-e3bd-447c-8d8f-7761bb824e9f"
+    },
+    "period": {
+      "start": "2023-09-25T17:52:27+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10086440"
+  },
+  "fullUrl": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10086440"
+}

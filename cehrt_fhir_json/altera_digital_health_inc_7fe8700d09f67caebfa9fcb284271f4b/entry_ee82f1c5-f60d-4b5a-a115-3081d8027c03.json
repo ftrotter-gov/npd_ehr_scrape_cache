@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "ee82f1c5-f60d-4b5a-a115-3081d8027c03",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "25312820-523d-433d-a08a-38a5a7a085b2",
+        "name": "The Daviess Community Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "The Daviess Community Hospital",
+    "managingOrganization": {
+      "reference": "#25312820-523d-433d-a08a-38a5a7a085b2"
+    },
+    "period": {
+      "start": "2023-09-28T15:24:47+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10152753"
+  },
+  "fullUrl": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10152753"
+}

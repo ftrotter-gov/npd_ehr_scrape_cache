@@ -1,7 +1,7 @@
 {
   "resourceType": "Bundle",
   "type": "collection",
-  "timestamp": "2025-09-01T18:03:00.0105905+00:00",
+  "timestamp": "2025-09-20T01:24:53.5507842+00:00",
   "entry": [
     {
       "fullUrl": "https://ct-fhir.harrisambulatory.com/ct-9163/fhir/r4/Endpoint/endpoint-ct-9163",
@@ -46703,6 +46703,118 @@
         "endpoint": [
           {
             "reference": "Endpoint/endpoint-ct-12890"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ct-fhir.harrisambulatory.com/ct-16255/fhir/r4/Endpoint/endpoint-ct-16255",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "endpoint-ct-16255",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "ct-16255",
+            "name": "Michael R Gallops MD PA"
+          }
+        ],
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest"
+        },
+        "managingOrganization": {
+          "reference": "#ct-16255"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+                "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+              }
+            ]
+          }
+        ],
+        "payloadMimeType": [
+          "application/fhir+json",
+          "application/json+fhir"
+        ],
+        "address": "https://ct-fhir.harrisambulatory.com/ct-16255/fhir/r4"
+      }
+    },
+    {
+      "fullUrl": "https://ct-fhir.harrisambulatory.com/ct-16255/fhir/r4/Organization/organization-ct-16255",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "organization-ct-16255",
+        "active": true,
+        "name": "Michael R Gallops MD PA",
+        "address": [
+          {
+            "country": "USA"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/endpoint-ct-16255"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://ct-fhir.harrisambulatory.com/ct-11379/fhir/r4/Endpoint/endpoint-ct-11379",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "endpoint-ct-11379",
+        "contained": [
+          {
+            "resourceType": "Organization",
+            "id": "ct-11379",
+            "name": "Pain Management Associates of CT PC"
+          }
+        ],
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest"
+        },
+        "managingOrganization": {
+          "reference": "#ct-11379"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+                "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+              }
+            ]
+          }
+        ],
+        "payloadMimeType": [
+          "application/fhir+json",
+          "application/json+fhir"
+        ],
+        "address": "https://ct-fhir.harrisambulatory.com/ct-11379/fhir/r4"
+      }
+    },
+    {
+      "fullUrl": "https://ct-fhir.harrisambulatory.com/ct-11379/fhir/r4/Organization/organization-ct-11379",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "organization-ct-11379",
+        "active": true,
+        "name": "Pain Management Associates of CT PC",
+        "address": [
+          {
+            "country": "USA"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/endpoint-ct-11379"
           }
         ]
       }

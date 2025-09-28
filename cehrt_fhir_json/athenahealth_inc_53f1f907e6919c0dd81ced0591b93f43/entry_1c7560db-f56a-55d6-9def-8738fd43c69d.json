@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c7560db-f56a-55d6-9def-8738fd43c69d",
+    "name": "MDCS: Medical Dermatology and Cosmetic Surgery Centers",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2ec517a-70ff-52f1-ba02-38bdd71a420b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639495732"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "820 2ND AVE"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-4502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7628"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7628.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c7560db-f56a-55d6-9def-8738fd43c69d"
+}

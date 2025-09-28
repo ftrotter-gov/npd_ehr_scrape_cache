@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "546581f4-33e3-4b66-b516-5d55338f243a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "7776603b-5e92-4640-a642-2667158bc945",
+        "name": "SUNY Downstate Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "SUNY Downstate Medical Center",
+    "managingOrganization": {
+      "reference": "#7776603b-5e92-4640-a642-2667158bc945"
+    },
+    "period": {
+      "start": "2019-09-17T18:47:26+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.sny.hos.ahcentral.com/R4/open-Prod"
+  },
+  "fullUrl": "https://fhir.sny.hos.ahcentral.com/R4/open-Prod"
+}

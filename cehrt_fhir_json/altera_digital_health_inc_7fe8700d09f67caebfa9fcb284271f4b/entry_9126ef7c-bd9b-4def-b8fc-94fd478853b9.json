@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "9126ef7c-bd9b-4def-b8fc-94fd478853b9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d8a13eb1-7d89-4717-ace7-dc2e4a847059",
+        "name": "Summit Orthopedics Ltd"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Summit Orthopedics Ltd",
+    "managingOrganization": {
+      "reference": "#d8a13eb1-7d89-4717-ace7-dc2e4a847059"
+    },
+    "period": {
+      "start": "2019-03-27T18:00:10+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://pso0fhir.so0.allscriptstw.com/R4/open-R4"
+  },
+  "fullUrl": "https://pso0fhir.so0.allscriptstw.com/R4/open-R4"
+}

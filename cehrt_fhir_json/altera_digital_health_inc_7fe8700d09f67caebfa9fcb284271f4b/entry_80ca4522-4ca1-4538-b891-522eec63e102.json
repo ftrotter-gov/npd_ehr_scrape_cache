@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "80ca4522-4ca1-4538-b891-522eec63e102",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "422c2eb2-baa9-4594-aa83-02c904118e86",
+        "name": "Washington Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Washington Hospital",
+    "managingOrganization": {
+      "reference": "#422c2eb2-baa9-4594-aa83-02c904118e86"
+    },
+    "period": {
+      "start": "2019-09-16T20:44:47+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhirprod.whs.org/open"
+  },
+  "fullUrl": "https://fhirprod.whs.org/open"
+}

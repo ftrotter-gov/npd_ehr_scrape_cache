@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e054ef72-73c6-456e-9c71-139bffab101f",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "51ebb255-f524-429d-8006-89d118c9fe6a",
+        "name": "Pottstown Medical Specialists"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Pottstown Medical Specialists",
+    "managingOrganization": {
+      "reference": "#51ebb255-f524-429d-8006-89d118c9fe6a"
+    },
+    "period": {
+      "start": "2019-09-24T13:52:43+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.pmsiforlife.com/R4/open-R4"
+  },
+  "fullUrl": "https://fhir.pmsiforlife.com/R4/open-R4"
+}

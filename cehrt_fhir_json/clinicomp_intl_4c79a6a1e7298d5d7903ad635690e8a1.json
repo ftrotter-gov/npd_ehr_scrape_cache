@@ -1,8 +1,8 @@
 {
   "resourceType": "Bundle",
-  "id": "941fe87c-3742-4fbf-b2ff-dd8b745d1de7",
+  "id": "d0f2b8c7-e2a6-426c-a268-c1116af21f02",
   "meta": {
-    "lastUpdated": "2025-09-01T18:06:49.176+00:00"
+    "lastUpdated": "2025-09-20T01:31:39.394+00:00"
   },
   "type": "searchset",
   "total": 8,
@@ -11,6 +11,40 @@
     "url": "https://mum8.clinicomp.com:8445/fhir/Organization?_include=Organization%3Aendpoint"
   } ],
   "entry": [ {
+    "fullUrl": "https://mum8.clinicomp.com:8445/fhir/Organization/org.mum.123456111",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "org.mum.123456111",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2024-10-30T07:09:02.024+00:00",
+        "source": "#mBzfJork4nfUfgjA"
+      },
+      "identifier": [ {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "123456111"
+      } ],
+      "active": true,
+      "name": "Health Level Seven International",
+      "telecom": [ {
+        "system": "phone",
+        "value": "(+1) 734-677-7777"
+      } ],
+      "address": [ {
+        "line": [ "3300 Washtenaw Avenue, Suite 227, Ann Arbor, MI, USA" ],
+        "city": "Ann Arbor",
+        "state": "Michigan",
+        "postalCode": "48104",
+        "country": "US"
+      } ],
+      "endpoint": [ {
+        "reference": "Endpoint/cci.fhir.endpoint"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
     "fullUrl": "https://mum8.clinicomp.com:8445/fhir/Organization/org.mum.123456222",
     "resource": {
       "resourceType": "Organization",
@@ -228,40 +262,6 @@
         "city": "Sendiego",
         "state": "LA",
         "country": "USA"
-      } ],
-      "endpoint": [ {
-        "reference": "Endpoint/cci.fhir.endpoint"
-      } ]
-    },
-    "search": {
-      "mode": "match"
-    }
-  }, {
-    "fullUrl": "https://mum8.clinicomp.com:8445/fhir/Organization/org.mum.123456111",
-    "resource": {
-      "resourceType": "Organization",
-      "id": "org.mum.123456111",
-      "meta": {
-        "versionId": "2",
-        "lastUpdated": "2024-10-30T07:09:02.024+00:00",
-        "source": "#mBzfJork4nfUfgjA"
-      },
-      "identifier": [ {
-        "system": "http://hl7.org/fhir/sid/us-npi",
-        "value": "123456111"
-      } ],
-      "active": true,
-      "name": "Health Level Seven International",
-      "telecom": [ {
-        "system": "phone",
-        "value": "(+1) 734-677-7777"
-      } ],
-      "address": [ {
-        "line": [ "3300 Washtenaw Avenue, Suite 227, Ann Arbor, MI, USA" ],
-        "city": "Ann Arbor",
-        "state": "Michigan",
-        "postalCode": "48104",
-        "country": "US"
       } ],
       "endpoint": [ {
         "reference": "Endpoint/cci.fhir.endpoint"

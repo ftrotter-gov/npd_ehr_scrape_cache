@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "61ab6076-3332-44e6-81e1-b2b6539c93c9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3b4167e2-d031-421f-88dd-7991fcf57f7f",
+        "name": "Rome Memorial Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Rome Memorial Hospital",
+    "managingOrganization": {
+      "reference": "#3b4167e2-d031-421f-88dd-7991fcf57f7f"
+    },
+    "period": {
+      "start": "2023-09-05T16:07:46+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10153803"
+  },
+  "fullUrl": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10153803"
+}

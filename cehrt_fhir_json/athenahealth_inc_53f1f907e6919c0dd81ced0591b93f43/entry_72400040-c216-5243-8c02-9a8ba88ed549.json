@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "72400040-c216-5243-8c02-9a8ba88ed549",
+    "name": "ANC Infusion",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a2a0232b-aea2-52ce-8c3e-86eb4f262dc3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972556991"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2121 E HARMONY RD",
+          "UNIT 180"
+        ],
+        "city": "FORT COLLINS",
+        "state": "CO",
+        "postalCode": "80528-3401"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32973"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32973.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:72400040-c216-5243-8c02-9a8ba88ed549"
+}

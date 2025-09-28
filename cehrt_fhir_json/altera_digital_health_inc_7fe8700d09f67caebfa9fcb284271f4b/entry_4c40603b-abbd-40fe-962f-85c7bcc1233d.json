@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4c40603b-abbd-40fe-962f-85c7bcc1233d",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "8b185eb0-f128-4a66-b821-36bfa595eb60",
+        "name": "Murfreesboro Medical Clinic"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Murfreesboro Medical Clinic",
+    "managingOrganization": {
+      "reference": "#8b185eb0-f128-4a66-b821-36bfa595eb60"
+    },
+    "period": {
+      "start": "2019-04-18T09:20:35+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.mmclinic.com/R4/open-R4"
+  },
+  "fullUrl": "https://fhir.mmclinic.com/R4/open-R4"
+}
