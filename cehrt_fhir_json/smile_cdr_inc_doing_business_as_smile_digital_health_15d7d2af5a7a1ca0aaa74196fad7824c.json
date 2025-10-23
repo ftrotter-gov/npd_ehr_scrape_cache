@@ -80,8 +80,8 @@
 	<link rel="icon" href="https://www.smiledigitalhealth.com/favicon.ico">
 
 	<!-- css sheet -->
-	<link rel="stylesheet" type="text/css" href="/resources/css/documentation-026409d5fa9504ba701dfd8f54c919cf.css">
-	<link href="/resources/cdr-web-resources/css/help-common-2bff2e8cd92b34b53ae63f636d56de7d.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="/resources/css/documentation-9dd112868038c98c1e32bb02427c396b.css">
+	<link href="/resources/cdr-web-resources/css/help-common-08479060c9b9bb3c95b9a8a8acdbeb97.css" rel="stylesheet" type="text/css"/>
 	<link href="/resources/cdr-web-resources/css/site-common-7caeb0b15db5c65d1a750b9a98501dac.css" rel="stylesheet" type="text/css"/>
 	<script src="/resources/htmx.org/dist/htmx.min.js"></script>
 	<script defer src="/resources/alpinejs/dist/cdn.min.js"></script>
@@ -922,6 +922,15 @@
 									hx-push-url="/docs/fhir_standard/fhirpath_expressions.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">FHIRPath Expressions</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/fhir_standard/fhir_patch.html"
+									hx-get="/docs/fhir_standard/fhir_patch/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/fhir_standard/fhir_patch.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">FHIRPath Patch</span>
 								</a>
 							</li>
 						</ul>
@@ -1906,6 +1915,24 @@
 								</a>
 							</li>
 							<li class="subheading-indent">
+								<a href="/docs/fhir_storage_relational/megascale_patient_id_selection_mode.html"
+									hx-get="/docs/fhir_storage_relational/megascale_patient_id_selection_mode/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/fhir_storage_relational/megascale_patient_id_selection_mode.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">MegaScale Patient ID Partition Selection Modes</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/fhir_storage_relational/megascale_document_repository_mode.html"
+									hx-get="/docs/fhir_storage_relational/megascale_document_repository_mode/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/fhir_storage_relational/megascale_document_repository_mode.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">MegaScale Document Repository Mode</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
 								<a href="/docs/fhir_storage_relational/meta_source_migration.html"
 									hx-get="/docs/fhir_storage_relational/meta_source_migration/content"
 									hx-target="#docs-content-div"
@@ -2146,6 +2173,15 @@
 									hx-push-url="/docs/terminology/valueset_expansion.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">ValueSet Expansion</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/terminology/terminology_mapping.html"
+									hx-get="/docs/terminology/terminology_mapping/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/terminology/terminology_mapping.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Terminology Mapping</span>
 								</a>
 							</li>
 							<li class="subheading-indent">
@@ -4006,6 +4042,15 @@
 								</a>
 							</li>
 							<li class="subheading-indent">
+								<a href="/docs/json_admin_endpoints/privacy_notice_endpoint.html"
+									hx-get="/docs/json_admin_endpoints/privacy_notice_endpoint/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/json_admin_endpoints/privacy_notice_endpoint.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Privacy Notice Endpoint</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
 								<a href="/docs/json_admin_endpoints/runtime_status_endpoint.html"
 									hx-get="/docs/json_admin_endpoints/runtime_status_endpoint/content"
 									hx-target="#docs-content-div"
@@ -4833,6 +4878,27 @@
 				<li class="subheading-indent">
 					<details>
 						<summary>
+							<span>Smile Portal</span>
+							<div class="hstack gap-2">
+								
+							</div>
+						</summary>
+						<ul>
+							<li class="subheading-indent">
+								<a href="/docs/smile_portal/smile_portal.html"
+									hx-get="/docs/smile_portal/smile_portal/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/smile_portal/smile_portal.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Smile Portal Module</span>
+								</a>
+							</li>
+						</ul>
+					</details>
+				</li>
+				<li class="subheading-indent">
+					<details>
+						<summary>
 							<span>Davinci Data Exchange</span>
 							<div class="hstack gap-2">
 								
@@ -4933,12 +4999,30 @@
 								</a>
 							</li>
 							<li class="subheading-indent">
+								<a href="/docs/modules/audit_log_otel.html"
+									hx-get="/docs/modules/audit_log_otel/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/modules/audit_log_otel.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Audit Log OpenTelemetry</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
 								<a href="/docs/modules/transaction_log_persistence.html"
 									hx-get="/docs/modules/transaction_log_persistence/content"
 									hx-target="#docs-content-div"
 									hx-push-url="/docs/modules/transaction_log_persistence.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">Transaction Log Persistence</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/modules/transaction_log_otel.html"
+									hx-get="/docs/modules/transaction_log_otel/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/modules/transaction_log_otel.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Transaction Log OpenTelemetry</span>
 								</a>
 							</li>
 							<li class="subheading-indent">
@@ -5335,6 +5419,15 @@
 									hx-push-url="/docs/modules/consent.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">Consent Module</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/modules/smile_portal.html"
+									hx-get="/docs/modules/smile_portal/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/modules/smile_portal.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Smile Portal</span>
 								</a>
 							</li>
 							<li class="subheading-indent">
@@ -6349,6 +6442,15 @@
 								</a>
 							</li>
 							<li class="subheading-indent">
+								<a href="/docs/configuration_categories/initial_custom_roles_seeding.html"
+									hx-get="/docs/configuration_categories/initial_custom_roles_seeding/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/configuration_categories/initial_custom_roles_seeding.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Initial Custom Roles Seeding</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
 								<a href="/docs/configuration_categories/initial_user_seeding.html"
 									hx-get="/docs/configuration_categories/initial_user_seeding/content"
 									hx-target="#docs-content-div"
@@ -6472,15 +6574,6 @@
 									hx-push-url="/docs/configuration_categories/privacy_notice.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">Privacy Security Notice</span>
-								</a>
-							</li>
-							<li class="subheading-indent">
-								<a href="/docs/configuration_categories/product_portal.html"
-									hx-get="/docs/configuration_categories/product_portal/content"
-									hx-target="#docs-content-div"
-									hx-push-url="/docs/configuration_categories/product_portal.html"
-									onclick="NavigationHandler.toggleLeftBarActive(event)">
-									<span class="pull-left">Product Portal</span>
 								</a>
 							</li>
 							<li class="subheading-indent">
@@ -6643,6 +6736,15 @@
 									hx-push-url="/docs/configuration_categories/sessions.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">Sessions</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/configuration_categories/smile_portal.html"
+									hx-get="/docs/configuration_categories/smile_portal/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/configuration_categories/smile_portal.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Smile Portal</span>
 								</a>
 							</li>
 							<li class="subheading-indent">
@@ -7654,6 +7756,15 @@
 								</a>
 							</li>
 							<li class="subheading-indent">
+								<a href="/docs/configuration_categories/initial_custom_roles_seeding.html"
+									hx-get="/docs/configuration_categories/initial_custom_roles_seeding/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/configuration_categories/initial_custom_roles_seeding.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Initial Custom Roles Seeding</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
 								<a href="/docs/configuration_categories/initial_user_seeding.html"
 									hx-get="/docs/configuration_categories/initial_user_seeding/content"
 									hx-target="#docs-content-div"
@@ -7777,15 +7888,6 @@
 									hx-push-url="/docs/configuration_categories/privacy_notice.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">Privacy Security Notice</span>
-								</a>
-							</li>
-							<li class="subheading-indent">
-								<a href="/docs/configuration_categories/product_portal.html"
-									hx-get="/docs/configuration_categories/product_portal/content"
-									hx-target="#docs-content-div"
-									hx-push-url="/docs/configuration_categories/product_portal.html"
-									onclick="NavigationHandler.toggleLeftBarActive(event)">
-									<span class="pull-left">Product Portal</span>
 								</a>
 							</li>
 							<li class="subheading-indent">
@@ -7951,6 +8053,15 @@
 								</a>
 							</li>
 							<li class="subheading-indent">
+								<a href="/docs/configuration_categories/smile_portal.html"
+									hx-get="/docs/configuration_categories/smile_portal/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/configuration_categories/smile_portal.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Smile Portal</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
 								<a href="/docs/configuration_categories/tfa_security_settings.html"
 									hx-get="/docs/configuration_categories/tfa_security_settings/content"
 									hx-target="#docs-content-div"
@@ -8046,7 +8157,7 @@
 </div>
 </div>
 		</div>
-		<div class="versionBranding">Powered by Smile CDR v2025.11.PRE-25 (build 76750ac359)</div>
+		<div class="versionBranding">Powered by Smile CDR v2025.11.PRE-39 (build 566d8493a5)</div>
 		<div class="currentDocsVersionBranding">Showing documentation for 2025.11.PRE</div>
 	</div>
 </div>
