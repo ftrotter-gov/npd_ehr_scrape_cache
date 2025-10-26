@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f41e6e84-e906-54d6-b807-6aba5a2235f4",
+    "name": "York Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3a82a34c-d290-5bfc-85a9-d6bed311a4bd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003800624"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1001 S George St"
+        ],
+        "city": "YORK",
+        "state": "PA",
+        "postalCode": "17403-3676"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10619"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10619.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f41e6e84-e906-54d6-b807-6aba5a2235f4"
+}

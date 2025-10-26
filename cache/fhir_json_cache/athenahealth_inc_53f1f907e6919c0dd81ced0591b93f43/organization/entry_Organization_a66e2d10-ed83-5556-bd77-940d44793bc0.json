@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a66e2d10-ed83-5556-bd77-940d44793bc0",
+    "name": "North Valley Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26d58e1b-7346-5bef-be58-5c5639531c5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255675591"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2330 S. MILFORD RD",
+          "STE 120"
+        ],
+        "city": "HIGHLAND",
+        "state": "MI",
+        "postalCode": "48357-4982"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8941"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8941.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a66e2d10-ed83-5556-bd77-940d44793bc0"
+}

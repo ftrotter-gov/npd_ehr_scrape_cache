@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "65fed8f8-4c60-58da-adf5-55568316695d",
+    "name": "Magnolia Rheumatology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/91c4df91-07c7-5b66-97c3-28805435bbca"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326636119"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2 OVERHILL ROAD",
+          "SUITE 220"
+        ],
+        "city": "SCARSDALE",
+        "state": "NY",
+        "postalCode": "10583-5336"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23080"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23080.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:65fed8f8-4c60-58da-adf5-55568316695d"
+}

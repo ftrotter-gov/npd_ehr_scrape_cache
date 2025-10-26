@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3504101-2f4a-57ac-be29-c1d8c8401b51",
+    "name": "Eden Health NoMad",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/740e0e92-6969-5cbe-b006-c8ba066d0b61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407539059"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811436157"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "245 5th Ave",
+          "Floor 3"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10016-8728"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15349"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15349.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3504101-2f4a-57ac-be29-c1d8c8401b51"
+}

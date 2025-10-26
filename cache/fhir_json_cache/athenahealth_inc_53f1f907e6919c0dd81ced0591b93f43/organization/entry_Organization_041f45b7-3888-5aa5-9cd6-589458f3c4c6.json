@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "041f45b7-3888-5aa5-9cd6-589458f3c4c6",
+    "name": "M. Hospital.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a5720f1b-baf3-5235-a02f-307ff8608d98"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285293225"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "22617 HAWTHORNE BLVD"
+        ],
+        "city": "TORRANCE",
+        "state": "CA",
+        "postalCode": "90505-2510"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19787"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19787.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:041f45b7-3888-5aa5-9cd6-589458f3c4c6"
+}

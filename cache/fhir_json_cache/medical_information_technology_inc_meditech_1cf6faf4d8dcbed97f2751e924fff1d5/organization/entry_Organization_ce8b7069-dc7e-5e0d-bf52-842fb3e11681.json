@@ -1,0 +1,73 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ce8b7069-dc7e-5e0d-bf52-842fb3e11681",
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://bbgh.org"
+      }
+    ],
+    "name": "Box Butte General Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://bbgh.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2101 Box Butte Avenue"
+        ],
+        "city": "Alliance",
+        "state": "NE",
+        "postalCode": "69301",
+        "country": "United States"
+      }
+    ],
+    "meta": {
+      "lastUpdated": "2024-03-13T17:18:30.913Z"
+    },
+    "endpoint": [
+      {
+        "reference": "urn:uuid:1579576a-7f5e-5280-b205-8c7f77493053"
+      },
+      {
+        "reference": "urn:uuid:43037ed0-fe23-4e7f-b381-9a86c2dc1406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:1579576a-7f5e-5280-b205-8c7f77493053"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:43037ed0-fe23-4e7f-b381-9a86c2dc1406"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ce8b7069-dc7e-5e0d-bf52-842fb3e11681"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3525d421-5e18-5d45-94e9-e80756b83772",
+    "name": "TLC WALK-IN CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e7dc74ff-8bd9-5761-91bb-53fa5b6f06b5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215369384"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7900 Northwest 23rd Street",
+          "Suite 1"
+        ],
+        "city": "bethany",
+        "state": "OK",
+        "postalCode": "73008-4961"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7416"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7416.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3525d421-5e18-5d45-94e9-e80756b83772"
+}

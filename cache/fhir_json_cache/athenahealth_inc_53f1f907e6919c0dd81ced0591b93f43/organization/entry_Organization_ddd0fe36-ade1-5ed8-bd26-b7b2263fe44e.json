@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ddd0fe36-ade1-5ed8-bd26-b7b2263fe44e",
+    "name": "Wayne County Surgical Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3e0603a0-ebc1-5e60-8c1d-150951ece6d6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841811866"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "One South Creek Drive",
+          "Suite 112"
+        ],
+        "city": "MONTICELLO",
+        "state": "KY",
+        "postalCode": "42633-9472"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15293"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15293.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ddd0fe36-ade1-5ed8-bd26-b7b2263fe44e"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d719d6aa-72b5-58e5-86d3-f24e8e21e77b",
+    "name": "Genesis Community Health--Canyon Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2cbb9757-2d29-5021-b126-97aaa82eef33"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4521 Thomas Jefferson St"
+        ],
+        "city": "CALDWELL",
+        "state": "ID",
+        "postalCode": "83605-4076"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13873"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13873.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d719d6aa-72b5-58e5-86d3-f24e8e21e77b"
+}

@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "CMD-CM04N-Endpoint-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/StructureDefinition/Endpoint"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM04N"
+        }
+      ]
+    },
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "name": "HELLER FAMILY CHIROPRACTIC, PC",
+    "managingOrganization": {
+      "reference": "Organization/CMD-CM04N-Organization-3"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+            "code": "none",
+            "display": "None"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir"
+    ],
+    "address": "https://fhirendpoint.curemd.net/CM04N"
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Endpoint/CMD-CM04N-Endpoint-3"
+}

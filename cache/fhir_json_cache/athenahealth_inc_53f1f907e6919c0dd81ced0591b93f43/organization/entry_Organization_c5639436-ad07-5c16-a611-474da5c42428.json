@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5639436-ad07-5c16-a611-474da5c42428",
+    "name": "Palliative Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d4398b3-4631-56f3-8b92-ee64e6d59c69"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023257441"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "685 White Plains Road",
+          "2nd Floor"
+        ],
+        "city": "Eastchester",
+        "state": "NY",
+        "postalCode": "10709-5545"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5639436-ad07-5c16-a611-474da5c42428"
+}

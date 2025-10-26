@@ -1,0 +1,24 @@
+{
+  "resource": {
+    "id": "NextechSelectR4Api",
+    "name": "Nextech Select FHIR R4 API",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "resourceType": "Endpoint",
+    "address": "https://select.nextech-api.com/api/r4",
+    "status": "active",
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+            "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:nextechfhir:NextechSelectR4Api"
+}

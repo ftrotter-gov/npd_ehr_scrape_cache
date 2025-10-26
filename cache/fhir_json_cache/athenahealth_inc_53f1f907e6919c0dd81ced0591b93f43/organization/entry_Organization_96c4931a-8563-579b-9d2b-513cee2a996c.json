@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "96c4931a-8563-579b-9d2b-513cee2a996c",
+    "name": "Oncology Joliet",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cd80ccff-2d6c-5b52-a014-e89afb316eb3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619334406"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "333 N Madison St",
+          "Suite CC 360"
+        ],
+        "city": "JOLIET",
+        "state": "IL",
+        "postalCode": "60435-8200"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-380"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-380.Brand-7"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:96c4931a-8563-579b-9d2b-513cee2a996c"
+}

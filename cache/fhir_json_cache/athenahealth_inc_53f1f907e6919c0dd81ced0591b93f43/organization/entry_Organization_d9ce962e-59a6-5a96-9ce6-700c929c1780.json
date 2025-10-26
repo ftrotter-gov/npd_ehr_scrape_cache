@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d9ce962e-59a6-5a96-9ce6-700c929c1780",
+    "name": "PMR Gateway Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1979d376-842f-5c9f-bb3d-72315b435412"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720646235"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6189 W. John Modglin Drive",
+          "Suite 203"
+        ],
+        "city": "GREENFIELD",
+        "state": "IN",
+        "postalCode": "46140-9363"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14191"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14191.Brand-16"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d9ce962e-59a6-5a96-9ce6-700c929c1780"
+}

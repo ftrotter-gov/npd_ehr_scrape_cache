@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12575cc1-c426-5deb-bc4f-a0bdbb718756",
+    "name": "PrimeMed Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/755f9067-22a4-587f-baa2-cb04b7e5f308"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396450953"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "322 W LAKE ST STE 101"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55408-1080"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29159"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29159.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12575cc1-c426-5deb-bc4f-a0bdbb718756"
+}

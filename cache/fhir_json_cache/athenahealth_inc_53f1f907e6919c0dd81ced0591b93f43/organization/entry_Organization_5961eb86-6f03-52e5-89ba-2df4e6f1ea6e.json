@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5961eb86-6f03-52e5-89ba-2df4e6f1ea6e",
+    "name": "Good Samaritan Health Center East",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ea48875e-7320-5069-a8e9-8a3451a0644b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4864 JIMMY CARTER BLVD",
+          "STE 203"
+        ],
+        "city": "NORCROSS",
+        "state": "GA",
+        "postalCode": "30093-3704"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14358"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14358.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5961eb86-6f03-52e5-89ba-2df4e6f1ea6e"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0abcccc6-b219-5e79-bb6d-1348be8bb065",
+    "name": "Hughston Diagnostics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b188560c-8b48-5fed-8fe9-0e8a093c3c44"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962964833"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6262 Veterans Parkway"
+        ],
+        "city": "COLUMBUS",
+        "state": "GA",
+        "postalCode": "31909-3540"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-321"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-321.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0abcccc6-b219-5e79-bb6d-1348be8bb065"
+}

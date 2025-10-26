@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1b227e73-5e2a-5370-9799-20a724c4bbfd",
+    "name": "COPIA HEALTH CARE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/08cfd6d1-79f9-52e0-a6ec-cb1ad3b9425a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053510305"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1650 W SAND LAKE RD",
+          "STE 270"
+        ],
+        "city": "ORLANDO",
+        "state": "FL",
+        "postalCode": "32809-9161"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2116"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2116.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1b227e73-5e2a-5370-9799-20a724c4bbfd"
+}

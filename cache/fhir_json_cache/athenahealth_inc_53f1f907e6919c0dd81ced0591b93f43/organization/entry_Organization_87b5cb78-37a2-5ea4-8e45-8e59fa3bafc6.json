@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "87b5cb78-37a2-5ea4-8e45-8e59fa3bafc6",
+    "name": "North Pines Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e19d487e-aa16-523c-9f48-5b5dafb1ce32"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336252469"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4019 INTERSTATE 45 N # 150"
+        ],
+        "city": "CONROE",
+        "state": "TX",
+        "postalCode": "77304-4901"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27312"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27312.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:87b5cb78-37a2-5ea4-8e45-8e59fa3bafc6"
+}

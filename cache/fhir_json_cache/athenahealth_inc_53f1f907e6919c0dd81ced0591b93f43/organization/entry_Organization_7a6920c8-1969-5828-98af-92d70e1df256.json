@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a6920c8-1969-5828-98af-92d70e1df256",
+    "name": "FHCA Viridian Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/65d8e775-2e13-5a09-9a37-cc6f947644f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831159466"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4100 North Collins Street",
+          "Suite 200"
+        ],
+        "city": "ARLINGTON",
+        "state": "TX",
+        "postalCode": "76005-4127"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28396"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28396.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a6920c8-1969-5828-98af-92d70e1df256"
+}

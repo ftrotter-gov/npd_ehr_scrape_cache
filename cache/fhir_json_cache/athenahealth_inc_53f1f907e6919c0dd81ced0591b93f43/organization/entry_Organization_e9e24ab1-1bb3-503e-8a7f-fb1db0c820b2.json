@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e9e24ab1-1bb3-503e-8a7f-fb1db0c820b2",
+    "name": "CHS - Lancaster Clinic Corp",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fe8f64aa-fa52-5dd9-84d4-91c73f04bda4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366702615"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 West Meeting Street Ste A"
+        ],
+        "city": "LANCASTER",
+        "state": "SC",
+        "postalCode": "29720-2380"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1398"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1398.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e9e24ab1-1bb3-503e-8a7f-fb1db0c820b2"
+}

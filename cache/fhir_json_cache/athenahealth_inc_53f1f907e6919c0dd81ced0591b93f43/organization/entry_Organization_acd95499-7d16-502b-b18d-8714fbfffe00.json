@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "acd95499-7d16-502b-b18d-8714fbfffe00",
+    "name": "SV house call",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0dc46a30-d44e-5974-b795-e32ac7b3fd36"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700989936"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2340 W 113th Place"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60643-4107"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3834"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3834.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:acd95499-7d16-502b-b18d-8714fbfffe00"
+}

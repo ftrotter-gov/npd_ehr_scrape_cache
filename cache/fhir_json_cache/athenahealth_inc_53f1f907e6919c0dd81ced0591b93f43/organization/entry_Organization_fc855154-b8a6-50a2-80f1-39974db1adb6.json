@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fc855154-b8a6-50a2-80f1-39974db1adb6",
+    "name": "Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f34b751d-b3b0-57bb-a6f6-d86466f3dc8d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013109834"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9233 W Pico Blvd",
+          "#230"
+        ],
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "postalCode": "90035-1385"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fc855154-b8a6-50a2-80f1-39974db1adb6"
+}

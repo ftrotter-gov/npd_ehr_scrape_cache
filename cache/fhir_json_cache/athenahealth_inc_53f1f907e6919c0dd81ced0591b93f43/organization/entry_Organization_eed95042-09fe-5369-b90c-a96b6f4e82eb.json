@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eed95042-09fe-5369-b90c-a96b6f4e82eb",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/117af764-c23f-588c-a4b5-b188be2c1f88"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205155801"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "711 Fairgrove Church Rd. SE"
+        ],
+        "city": "CONOVER",
+        "state": "NC",
+        "postalCode": "28613-8201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2575"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2575.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eed95042-09fe-5369-b90c-a96b6f4e82eb"
+}

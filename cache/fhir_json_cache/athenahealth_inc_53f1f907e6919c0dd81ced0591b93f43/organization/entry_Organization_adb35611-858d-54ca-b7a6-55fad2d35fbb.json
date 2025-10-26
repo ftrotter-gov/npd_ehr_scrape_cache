@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "adb35611-858d-54ca-b7a6-55fad2d35fbb",
+    "name": "Caribou Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e0a726d1-80d0-568c-982f-40eab8943fe5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609341742"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1351 W 70TH AVE"
+        ],
+        "city": "ANCHORAGE",
+        "state": "AK",
+        "postalCode": "99518-2010"
+      },
+      {
+        "line": [
+          "2011 ABBOTT RD STE C"
+        ],
+        "city": "ANCHORAGE",
+        "state": "AK",
+        "postalCode": "99507-3400"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26079"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26079.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:adb35611-858d-54ca-b7a6-55fad2d35fbb"
+}

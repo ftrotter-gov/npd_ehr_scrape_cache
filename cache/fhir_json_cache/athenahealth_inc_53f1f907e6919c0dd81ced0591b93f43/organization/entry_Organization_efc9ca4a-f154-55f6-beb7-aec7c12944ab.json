@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "efc9ca4a-f154-55f6-beb7-aec7c12944ab",
+    "name": "Boston Holistic Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4ac7adbf-59b9-5bfd-b551-06db2150fd34"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346954948"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "376 BOYLSTON STREET",
+          "SUITE 403"
+        ],
+        "city": "BOSTON",
+        "state": "MA",
+        "postalCode": "02116-3826"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28231"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28231.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:efc9ca4a-f154-55f6-beb7-aec7c12944ab"
+}

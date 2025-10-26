@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1I5-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1I5"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Consultants in Rehabilitation Medicine LLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8773287112"
+      }
+    ],
+    "address": [
+      {
+        "text": "16 Mount Bethel Road Suite 322 WARREN NJ 7059 US",
+        "line": [
+          "16 Mount Bethel Road",
+          "Suite 322"
+        ],
+        "city": "WARREN",
+        "state": "NJ",
+        "postalCode": "7059",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1I5-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1I5-Organization-2"
+}

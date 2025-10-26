@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5cbba45d-e5be-598c-a500-285ecd863d23",
+    "name": "Memorial Northpark Hospital ip",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2790edce-f04d-504e-81fc-51db5fba9947"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760603666"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2051 Hamill Road"
+        ],
+        "city": "HIXSON",
+        "state": "TN",
+        "postalCode": "37343-4026"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2651"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2651.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5cbba45d-e5be-598c-a500-285ecd863d23"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "675bf633-7077-5157-a666-a06c9c74ba90",
+    "name": "Seahurst Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/57ea1600-6aa7-590f-b612-be7c770b1f25"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629002597"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "16233 SYLVESTER RD SW STE 230"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98166-3044"
+      },
+      {
+        "line": [
+          "16251 SYLVESTER RD SW"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98166-3045"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27600"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27600.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:675bf633-7077-5157-a666-a06c9c74ba90"
+}

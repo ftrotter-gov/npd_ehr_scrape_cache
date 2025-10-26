@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a9e09fdb-94c8-4e50-b5a3-8eec2039ef50",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3c10e319-bc77-43b7-a8f9-3ef28bc74d69",
+        "name": "Allergy Asthma and Immunology Ctr Of Ak"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Allergy Asthma and Immunology Ctr Of Ak",
+    "managingOrganization": {
+      "reference": "#3c10e319-bc77-43b7-a8f9-3ef28bc74d69"
+    },
+    "period": {
+      "start": "2018-09-24T12:53:19+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/69103"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/69103"
+}

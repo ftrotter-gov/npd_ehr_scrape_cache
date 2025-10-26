@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7c18f3cd-f39d-5525-95f0-a74b231622ad",
+    "name": "Elwood Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eb8f211d-9e6a-52ed-9528-4f1042907cd1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093212169"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104228451"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407211220"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "202 Smith Ave"
+        ],
+        "city": "ELWOOD",
+        "state": "NE",
+        "postalCode": "68937-5247"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14365"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14365.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7c18f3cd-f39d-5525-95f0-a74b231622ad"
+}

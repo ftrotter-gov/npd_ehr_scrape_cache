@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1049cad7-0740-53f2-95b8-7993f4f7dd67",
+    "name": "Scripps Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/75647ebf-754b-5538-8966-51323348eba9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871081455"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "320 SANTA FE DRIVE",
+          "SUITE LL2"
+        ],
+        "city": "ENCINITAS",
+        "state": "CA",
+        "postalCode": "92024-5140"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17920"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17920.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1049cad7-0740-53f2-95b8-7993f4f7dd67"
+}

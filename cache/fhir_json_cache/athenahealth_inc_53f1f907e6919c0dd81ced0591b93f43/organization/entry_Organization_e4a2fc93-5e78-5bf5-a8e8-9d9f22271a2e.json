@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e4a2fc93-5e78-5bf5-a8e8-9d9f22271a2e",
+    "name": "Texas Cannabis Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7089a8fd-7ec7-5f9d-8abd-6b9a713a9019"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578791976"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "VIRTUAL VISIT"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78735-8977"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22683"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22683.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e4a2fc93-5e78-5bf5-a8e8-9d9f22271a2e"
+}

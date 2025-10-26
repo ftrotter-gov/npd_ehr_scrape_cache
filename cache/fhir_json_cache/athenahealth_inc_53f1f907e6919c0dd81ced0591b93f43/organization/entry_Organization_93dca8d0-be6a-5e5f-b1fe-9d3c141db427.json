@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "93dca8d0-be6a-5e5f-b1fe-9d3c141db427",
+    "name": "NORTHSIDE HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5b519ee1-62f6-59bb-ad04-930964cba5ab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972524700"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 JOHNSON FERRY RD"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30342-1606"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6148"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6148.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:93dca8d0-be6a-5e5f-b1fe-9d3c141db427"
+}

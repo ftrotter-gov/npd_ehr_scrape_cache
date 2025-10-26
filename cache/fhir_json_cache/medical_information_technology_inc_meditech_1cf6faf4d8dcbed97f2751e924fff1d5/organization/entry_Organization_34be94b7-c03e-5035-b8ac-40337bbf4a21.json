@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "34be94b7-c03e-5035-b8ac-40337bbf4a21",
+    "meta": {
+      "lastUpdated": "2024-07-01T22:51:34.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://gfclinic.com/location/great-falls-clinic-hospital"
+      }
+    ],
+    "name": "Great Falls Clinic Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://gfclinic.com/location/great-falls-clinic-hospital"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3010 15th Avenue South"
+        ],
+        "city": "Great Falls",
+        "state": "MT",
+        "postalCode": "59405",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:7ff245ed-f5fa-5abe-ac28-b2e10a4b9f5a"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:7ff245ed-f5fa-5abe-ac28-b2e10a4b9f5a"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:34be94b7-c03e-5035-b8ac-40337bbf4a21"
+}

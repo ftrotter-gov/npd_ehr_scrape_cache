@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bc951096-d30e-5d44-b33d-f9882a3d17b6",
+    "name": "Surgery Center of Plano",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5f26a6ac-b69f-521e-91d0-95ac594c3182"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467598524"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1620, Coit Road"
+        ],
+        "city": "PLANO",
+        "state": "TX",
+        "postalCode": "75075-6135"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7058"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7058.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bc951096-d30e-5d44-b33d-f9882a3d17b6"
+}

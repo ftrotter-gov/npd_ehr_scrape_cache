@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7f6e92e-ada3-55bc-8043-f90bbef18ba0",
+    "name": "Hackettstown Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d9df9910-fba2-5f64-9b5e-159fe6a5545e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629197819"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "176 MOUNTAIN AVE",
+          "STE 2A"
+        ],
+        "city": "HACKETTSTOWN",
+        "state": "NJ",
+        "postalCode": "07840-2412"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2486"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2486.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7f6e92e-ada3-55bc-8043-f90bbef18ba0"
+}

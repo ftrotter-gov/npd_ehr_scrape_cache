@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "95e0b1f2-6eab-5c27-875a-fd278243ad3c",
+    "name": "EMA Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1154aea8-451d-57a6-93f2-b5e6c20bd4dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760412134"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "700 W WALNUT ST"
+        ],
+        "city": "DECATUR",
+        "state": "TX",
+        "postalCode": "76234-1216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9018"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9018.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:95e0b1f2-6eab-5c27-875a-fd278243ad3c"
+}

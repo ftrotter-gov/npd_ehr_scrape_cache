@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98ec78b4-a7c5-5b46-8749-712919494daa",
+    "name": "Dr. Jensen's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c05120e1-4d50-5bd1-ab3d-e78bde5a1aa9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619242179"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3272 E 12 MILE RD STE 102"
+        ],
+        "city": "WARREN",
+        "state": "MI",
+        "postalCode": "48092-5622"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16188"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16188.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98ec78b4-a7c5-5b46-8749-712919494daa"
+}

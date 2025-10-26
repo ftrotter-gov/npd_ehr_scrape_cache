@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b0e63e52-6417-5d98-810f-5aefb9374d1a",
+    "name": "Hyde Park ASC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d766e335-a106-5d9c-b54f-51fcd161d0be"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770553653"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4611 GUADALUPE ST STE 100"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78751-2928"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30366"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30366.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b0e63e52-6417-5d98-810f-5aefb9374d1a"
+}

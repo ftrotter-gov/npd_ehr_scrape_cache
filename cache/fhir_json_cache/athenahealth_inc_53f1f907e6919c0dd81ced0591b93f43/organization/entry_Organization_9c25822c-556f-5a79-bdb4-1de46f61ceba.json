@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9c25822c-556f-5a79-bdb4-1de46f61ceba",
+    "name": "MMP Healthcare Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf066d15-71f5-5bb4-8d19-6d11a06ab7bc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1111111111"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "250 CHATEAU DRIVE SUITE 216"
+        ],
+        "city": "HUNTSVILLE",
+        "state": "AL",
+        "postalCode": "35801-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25301"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25301.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9c25822c-556f-5a79-bdb4-1de46f61ceba"
+}

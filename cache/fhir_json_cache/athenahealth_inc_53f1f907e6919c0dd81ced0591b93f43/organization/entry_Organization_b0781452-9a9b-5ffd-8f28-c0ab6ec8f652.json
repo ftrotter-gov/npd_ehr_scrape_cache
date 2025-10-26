@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b0781452-9a9b-5ffd-8f28-c0ab6ec8f652",
+    "name": "Boca Raton Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/91f5518b-8448-5aea-b180-f61d97920d18"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174899082"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 Meadows Road"
+        ],
+        "city": "BOCA RATON",
+        "state": "FL",
+        "postalCode": "33486-2304"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6382"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6382.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b0781452-9a9b-5ffd-8f28-c0ab6ec8f652"
+}

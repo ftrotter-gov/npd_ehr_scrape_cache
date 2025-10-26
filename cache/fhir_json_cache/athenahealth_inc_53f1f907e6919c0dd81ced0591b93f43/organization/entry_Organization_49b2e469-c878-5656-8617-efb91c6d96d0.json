@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "49b2e469-c878-5656-8617-efb91c6d96d0",
+    "name": "SC House Calls/ Main Street Ph",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/75b989b6-039f-5b9b-838f-f58e0c865101"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518048859"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 DOCTOR CIR"
+        ],
+        "city": "COLUMBIA",
+        "state": "SC",
+        "postalCode": "29203-6502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7602"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7602.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:49b2e469-c878-5656-8617-efb91c6d96d0"
+}

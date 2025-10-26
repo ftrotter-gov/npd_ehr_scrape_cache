@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bd73dbe2-0cb5-5cb6-98a4-87249238936b",
+    "name": "Atlantic Health Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/99a39bf7-79f4-5793-aca0-756940536792"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144704040"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3301 WOODBURN RD. STE. 311"
+        ],
+        "city": "ANNANDALE",
+        "state": "VA",
+        "postalCode": "22003-1229"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bd73dbe2-0cb5-5cb6-98a4-87249238936b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8147c16d-5a38-5ae4-883e-3235421b5024",
+    "name": "Nurses Global Outreach, Inc.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0cde5c35-c5c7-5065-be35-89f857e1f77a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "402 N. TOPEKA STREET"
+        ],
+        "city": "WICHITA",
+        "state": "KS",
+        "postalCode": "67202-2414"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19748"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19748.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8147c16d-5a38-5ae4-883e-3235421b5024"
+}

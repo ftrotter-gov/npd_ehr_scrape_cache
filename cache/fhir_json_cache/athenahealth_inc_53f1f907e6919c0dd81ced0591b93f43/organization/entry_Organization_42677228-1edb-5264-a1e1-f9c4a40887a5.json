@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42677228-1edb-5264-a1e1-f9c4a40887a5",
+    "name": "South Lake Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/73eb7ea9-3251-5b5f-8ea2-d9bb9f258c86"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740375765"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 DON WICKHAM DR"
+        ],
+        "city": "CLERMONT",
+        "state": "FL",
+        "postalCode": "34711-1979"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1337"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1337.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42677228-1edb-5264-a1e1-f9c4a40887a5"
+}

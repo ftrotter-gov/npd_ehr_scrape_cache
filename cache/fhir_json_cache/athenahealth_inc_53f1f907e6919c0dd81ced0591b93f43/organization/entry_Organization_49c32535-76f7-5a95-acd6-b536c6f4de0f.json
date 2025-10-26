@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "49c32535-76f7-5a95-acd6-b536c6f4de0f",
+    "name": "Bryan Station",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a748da3c-f609-541b-9e61-0971dc32f593"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114932514"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1640 Bryan Station Rd Ste 1"
+        ],
+        "city": "LEXINGTON",
+        "state": "KY",
+        "postalCode": "40505-2144"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32600"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32600.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:49c32535-76f7-5a95-acd6-b536c6f4de0f"
+}

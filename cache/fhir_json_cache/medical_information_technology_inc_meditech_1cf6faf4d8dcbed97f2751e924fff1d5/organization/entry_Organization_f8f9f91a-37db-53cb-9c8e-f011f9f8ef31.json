@@ -1,0 +1,83 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f8f9f91a-37db-53cb-9c8e-f011f9f8ef31",
+    "meta": {
+      "lastUpdated": "2025-10-21T00:51:34.000Z"
+    },
+    "name": "MaaS MEDITECH Hosted Pod 010",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "asked-unknown"
+          }
+        ]
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3333 West 9000 South"
+        ],
+        "city": "West Jordan",
+        "state": "UT",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:5d166965-53fd-5ca2-8afc-f22447304c20"
+      },
+      {
+        "reference": "urn:uuid:edc2ce16-2efc-5673-a19a-939bc39a8332"
+      },
+      {
+        "reference": "urn:uuid:c87218a2-ff95-5730-a050-800c102177d6"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:5d166965-53fd-5ca2-8afc-f22447304c20"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:edc2ce16-2efc-5673-a19a-939bc39a8332"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:c87218a2-ff95-5730-a050-800c102177d6"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f8f9f91a-37db-53cb-9c8e-f011f9f8ef31"
+}

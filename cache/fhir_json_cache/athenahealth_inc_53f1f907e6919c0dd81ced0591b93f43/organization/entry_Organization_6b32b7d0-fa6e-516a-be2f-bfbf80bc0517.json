@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b32b7d0-fa6e-516a-be2f-bfbf80bc0517",
+    "name": "Connections for the Homeless",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca847903-6007-5ef7-aed4-7333922b431f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1458 CHICAGO AVE"
+        ],
+        "city": "EVANSTON",
+        "state": "IL",
+        "postalCode": "60201-4768"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18345"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18345.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b32b7d0-fa6e-516a-be2f-bfbf80bc0517"
+}

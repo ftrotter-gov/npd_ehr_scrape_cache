@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5e3acb3f-12ac-59f6-921e-9e4f0d32e261",
+    "name": "South Shore Hospital (OUT)",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/83dfab9e-6e51-5eb2-bb09-cc269044ef7f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497015507"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "55 FOGG ROAD"
+        ],
+        "city": "SOUTH WEYMOUTH",
+        "state": "MA",
+        "postalCode": "02190-2432"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32236"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32236.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5e3acb3f-12ac-59f6-921e-9e4f0d32e261"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae6556c7-213c-5c66-b34a-f931e7a75e04",
+    "name": "Milford Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e5fdc08-c359-5ec5-8965-3d65465c1b43"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043544489"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "199 Cherry St"
+        ],
+        "city": "MILFORD",
+        "state": "CT",
+        "postalCode": "06460-3501"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10861"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10861.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae6556c7-213c-5c66-b34a-f931e7a75e04"
+}

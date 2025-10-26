@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c57ef223-8b13-574c-8c78-1727dc196f36",
+    "name": "Biloxi Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2433db1c-8616-5e05-af26-db10ae2b0972"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770537920"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 Reynoir Street"
+        ],
+        "city": "BILOXI",
+        "state": "MS",
+        "postalCode": "39530-4130"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-14"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c57ef223-8b13-574c-8c78-1727dc196f36"
+}

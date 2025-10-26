@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2d67976d-b64b-53b6-ae48-ff992b2cd4ae",
+    "name": "Dr. Fleischner's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4849dc33-48a5-5a42-891f-b47d2e253693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053856617"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1411 N FLAGLER DR, STE 6200"
+        ],
+        "city": "WEST PALM BEACH",
+        "state": "FL",
+        "postalCode": "33401-3416"
+      },
+      {
+        "line": [
+          "1309 N Flagler Drive"
+        ],
+        "city": "WEST PALM BEACH",
+        "state": "FL",
+        "postalCode": "33401-3406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15995"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15995.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2d67976d-b64b-53b6-ae48-ff992b2cd4ae"
+}

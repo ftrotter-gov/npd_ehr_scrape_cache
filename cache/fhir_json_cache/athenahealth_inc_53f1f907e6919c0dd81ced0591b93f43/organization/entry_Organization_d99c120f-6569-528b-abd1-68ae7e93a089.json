@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d99c120f-6569-528b-abd1-68ae7e93a089",
+    "name": "McKay Dee Hosp-OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8070a2d8-ce2d-5ebf-8862-b1b86ce8cc91"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437146065"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4401 Harrison Blvd"
+        ],
+        "city": "OGDEN",
+        "state": "UT",
+        "postalCode": "84403-3195"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6971"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6971.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d99c120f-6569-528b-abd1-68ae7e93a089"
+}

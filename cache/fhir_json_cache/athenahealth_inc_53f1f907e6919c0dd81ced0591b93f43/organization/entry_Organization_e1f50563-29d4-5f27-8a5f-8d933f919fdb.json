@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e1f50563-29d4-5f27-8a5f-8d933f919fdb",
+    "name": "New You Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e1baca5b-ad1f-58dc-b6b1-4430e136df91"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1010 KENNEDY DR SUITE 302"
+        ],
+        "city": "KEY WEST",
+        "state": "FL",
+        "postalCode": "33040-4133"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29368"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29368.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e1f50563-29d4-5f27-8a5f-8d933f919fdb"
+}

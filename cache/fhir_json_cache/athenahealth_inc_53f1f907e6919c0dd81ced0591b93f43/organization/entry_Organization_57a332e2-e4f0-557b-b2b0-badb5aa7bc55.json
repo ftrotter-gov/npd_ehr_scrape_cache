@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "57a332e2-e4f0-557b-b2b0-badb5aa7bc55",
+    "name": "Roundhill Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7aadf751-89b5-5e50-8552-1fd9dfa8a206"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013665801"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "195 HWY 50 STE 104"
+        ],
+        "city": "STATELINE",
+        "state": "NV",
+        "postalCode": "89449-9449"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26210"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26210.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:57a332e2-e4f0-557b-b2b0-badb5aa7bc55"
+}

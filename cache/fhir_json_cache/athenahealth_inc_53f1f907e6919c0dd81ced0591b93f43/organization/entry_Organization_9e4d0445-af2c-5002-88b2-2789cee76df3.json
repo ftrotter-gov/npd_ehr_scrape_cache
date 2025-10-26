@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9e4d0445-af2c-5002-88b2-2789cee76df3",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c00c7ccd-e13b-5001-810e-c528207c7cd1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780023507"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2686 W ALTON GLOOR BLVD",
+          "SUITE 5"
+        ],
+        "city": "BROWNSVILLE",
+        "state": "TX",
+        "postalCode": "78520-4054"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8572"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8572.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9e4d0445-af2c-5002-88b2-2789cee76df3"
+}

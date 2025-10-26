@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aa66b075-369c-5b26-9d58-1129599351ec",
+    "name": "Island Pond Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f8577c29-e30a-5715-bf85-a08bdc611d24"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649236225"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "82 Maple Street"
+        ],
+        "city": "Island Pond",
+        "state": "VT",
+        "postalCode": "05846-0425"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28542"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28542.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aa66b075-369c-5b26-9d58-1129599351ec"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d505e67-74fd-57df-88be-f02f4a8d8934",
+    "name": "Family Care Psychiatry",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/913b9bb2-bbd6-528c-a080-75bc14849cd8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982114229"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5340 PLYMOUTH RD",
+          "STE 101"
+        ],
+        "city": "ANN ARBOR",
+        "state": "MI",
+        "postalCode": "48105-9557"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33079"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33079.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d505e67-74fd-57df-88be-f02f4a8d8934"
+}

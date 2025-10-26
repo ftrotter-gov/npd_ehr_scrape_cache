@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d27c573-e5f0-5e6d-9aef-be1fc7ace0e7",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7d2948be-6be5-57e2-9020-65050046b1cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215615497"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10214 NORTH TATUM BLVD.",
+          "SUITE A 1600"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85028-4253"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29610"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29610.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d27c573-e5f0-5e6d-9aef-be1fc7ace0e7"
+}

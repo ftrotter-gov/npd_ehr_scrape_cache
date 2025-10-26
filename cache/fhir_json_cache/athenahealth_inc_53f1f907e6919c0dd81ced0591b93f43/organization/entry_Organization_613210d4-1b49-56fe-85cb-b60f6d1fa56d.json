@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "613210d4-1b49-56fe-85cb-b60f6d1fa56d",
+    "name": "Old Irving Park Community Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e3f349dc-dc6d-5cc5-84c8-860ca7bed6e1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1123456789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5425 W ADDISON ST FL 1"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60641-3203"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13465"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13465.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:613210d4-1b49-56fe-85cb-b60f6d1fa56d"
+}

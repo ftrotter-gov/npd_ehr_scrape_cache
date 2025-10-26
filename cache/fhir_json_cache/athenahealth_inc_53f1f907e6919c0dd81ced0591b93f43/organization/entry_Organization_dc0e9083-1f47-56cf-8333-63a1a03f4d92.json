@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dc0e9083-1f47-56cf-8333-63a1a03f4d92",
+    "name": "Allegro Plaza Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/30a2a98b-bcdd-5bf2-a403-80c438434134"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215276175"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3600 BLUECUTT RD",
+          "STE 201"
+        ],
+        "city": "Columbus",
+        "state": "MS",
+        "postalCode": "39705-1397"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17762"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17762.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dc0e9083-1f47-56cf-8333-63a1a03f4d92"
+}

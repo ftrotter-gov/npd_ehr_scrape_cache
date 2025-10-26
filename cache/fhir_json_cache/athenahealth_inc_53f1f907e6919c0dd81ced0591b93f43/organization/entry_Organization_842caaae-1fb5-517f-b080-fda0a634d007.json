@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "842caaae-1fb5-517f-b080-fda0a634d007",
+    "name": "Alpine Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca36c443-14d7-5b4b-a187-eb123238c87d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992298491"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "402 ALPINE HEIGHTS RD. STE. 109"
+        ],
+        "city": "ALPINE",
+        "state": "CA",
+        "postalCode": "91901-2872"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18262"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18262.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:842caaae-1fb5-517f-b080-fda0a634d007"
+}

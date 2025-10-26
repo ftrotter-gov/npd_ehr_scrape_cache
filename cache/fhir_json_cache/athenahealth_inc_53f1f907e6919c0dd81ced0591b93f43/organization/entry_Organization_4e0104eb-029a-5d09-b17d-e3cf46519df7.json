@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4e0104eb-029a-5d09-b17d-e3cf46519df7",
+    "name": "Urgent Care of Hamilton",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ab9e150b-9487-5aa7-8ce6-6f595b9dbec2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881991792"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 N BROOKWOOD AVE"
+        ],
+        "city": "HAMILTON",
+        "state": "OH",
+        "postalCode": "45013-1209"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21282"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21282.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4e0104eb-029a-5d09-b17d-e3cf46519df7"
+}

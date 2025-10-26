@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c1e00f31-2915-597d-bd8b-80c8042115a2",
+    "name": "DME_Home_Manzanita",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/32f9f16c-607f-50cd-850a-3b85398aa805"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144770256"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5120 Manzanita Ave Ste 100"
+        ],
+        "city": "CARMICHAEL",
+        "state": "CA",
+        "postalCode": "95608-0558"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20181"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20181.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c1e00f31-2915-597d-bd8b-80c8042115a2"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4172c272-0b83-521f-8abd-283c639e5aac",
+    "name": "Adams Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/85a4f413-1c87-581f-9999-630ae9ace3d6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780895110"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "620 Main Street"
+        ],
+        "city": "ADAMS",
+        "state": "NE",
+        "postalCode": "68301-8277"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15810"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15810.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4172c272-0b83-521f-8abd-283c639e5aac"
+}

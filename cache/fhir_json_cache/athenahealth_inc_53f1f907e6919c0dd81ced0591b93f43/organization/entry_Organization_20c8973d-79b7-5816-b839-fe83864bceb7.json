@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "20c8973d-79b7-5816-b839-fe83864bceb7",
+    "name": "PMA Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8bf12a7c-52bf-5102-806a-0eff065c6c58"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144271115"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 MEADOWS RD"
+        ],
+        "city": "BOCA RATON",
+        "state": "FL",
+        "postalCode": "33486-2304"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31574"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31574.Brand-7"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:20c8973d-79b7-5816-b839-fe83864bceb7"
+}

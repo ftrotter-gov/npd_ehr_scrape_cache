@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12ab246a-9e20-5421-99ea-4ae7e18ffb74",
+    "name": "Grand Terrance",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bd45a90d-7094-54fe-b5f6-8d097d1c5a32"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871832113"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "812 WEST HOUSTON AVE"
+        ],
+        "city": "MCALLEN",
+        "state": "TX",
+        "postalCode": "78501-2832"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6430"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6430.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12ab246a-9e20-5421-99ea-4ae7e18ffb74"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "de83a010-5162-5183-a990-ce1f4a7fd750",
+    "name": "myMD Direct Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e7ec4b9e-6b86-5254-983e-8fcdef80323d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285620484"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2101 WAUKEGAN ROAD",
+          "STE 303"
+        ],
+        "city": "Bannockburn",
+        "state": "IL",
+        "postalCode": "60015-1836"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29061"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29061.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:de83a010-5162-5183-a990-ce1f4a7fd750"
+}

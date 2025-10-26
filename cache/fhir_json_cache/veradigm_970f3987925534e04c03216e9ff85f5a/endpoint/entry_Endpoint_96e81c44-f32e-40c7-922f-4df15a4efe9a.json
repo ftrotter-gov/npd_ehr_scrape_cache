@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "96e81c44-f32e-40c7-922f-4df15a4efe9a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "7b25e7bc-99aa-433c-8d21-937bd70c4b33",
+        "name": "Healthy  Urgent Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Healthy  Urgent Care",
+    "managingOrganization": {
+      "reference": "#7b25e7bc-99aa-433c-8d21-937bd70c4b33"
+    },
+    "period": {
+      "start": "2018-11-02T10:05:41+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/69147"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/69147"
+}

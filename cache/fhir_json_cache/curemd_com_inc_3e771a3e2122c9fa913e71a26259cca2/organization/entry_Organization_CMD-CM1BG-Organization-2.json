@@ -1,0 +1,65 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1BG-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1BG"
+        }
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659523462"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Southwest CO Spine Center",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9703828292"
+      },
+      {
+        "system": "fax",
+        "value": "9703820073"
+      }
+    ],
+    "address": [
+      {
+        "text": "575 Rivergate Lane Suite 109 Durango CO 813017488 US",
+        "line": [
+          "575 Rivergate Lane",
+          "Suite 109"
+        ],
+        "city": "Durango",
+        "state": "CO",
+        "postalCode": "813017488",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1BG-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1BG-Organization-2"
+}

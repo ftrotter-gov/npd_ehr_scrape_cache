@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "800b4696-38b2-5a6d-9d37-e12699f6c412",
+    "name": "WMS Hormone Optimization",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/59c6192c-865a-5962-8963-532f15616c97"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417459561"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1234 S POWER RD, STE 252"
+        ],
+        "city": "MESA",
+        "state": "AZ",
+        "postalCode": "85206-3700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20160"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20160.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:800b4696-38b2-5a6d-9d37-e12699f6c412"
+}

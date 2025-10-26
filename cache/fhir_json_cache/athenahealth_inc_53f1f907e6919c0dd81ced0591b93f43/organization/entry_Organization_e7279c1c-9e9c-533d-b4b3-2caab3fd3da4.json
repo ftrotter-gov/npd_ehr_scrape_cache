@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7279c1c-9e9c-533d-b4b3-2caab3fd3da4",
+    "name": "Dr. Kim's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cbe6575c-c074-54c1-a627-46b23da48624"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942451695"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3930 PENDER DRIVE  SUIT 320"
+        ],
+        "city": "FAIRFAX",
+        "state": "VA",
+        "postalCode": "22030-0986"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3772"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3772.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7279c1c-9e9c-533d-b4b3-2caab3fd3da4"
+}

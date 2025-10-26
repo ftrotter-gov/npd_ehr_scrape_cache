@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0a38a07e-00f6-5433-8bae-81b9310ef2a3",
+    "name": "Alaska Compass",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c17a7d30-e525-5190-b048-fc644c9ec115"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669130035"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2600 DENALI ST",
+          "SUITE 300"
+        ],
+        "city": "ANCHORAGE",
+        "state": "AK",
+        "postalCode": "99503-2746"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25023"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25023.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0a38a07e-00f6-5433-8bae-81b9310ef2a3"
+}

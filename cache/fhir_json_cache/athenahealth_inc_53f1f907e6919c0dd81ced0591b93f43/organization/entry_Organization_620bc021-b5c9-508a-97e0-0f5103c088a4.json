@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "620bc021-b5c9-508a-97e0-0f5103c088a4",
+    "name": "Physicians Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/33a0b880-dc0a-5019-91a0-519dd5bd8e7e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073782660"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4023 Reas Lane"
+        ],
+        "city": "NEW ALBANY",
+        "state": "IN",
+        "postalCode": "47150-2228"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-814"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-814.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:620bc021-b5c9-508a-97e0-0f5103c088a4"
+}

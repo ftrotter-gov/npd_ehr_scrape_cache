@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12b23f89-b30e-5063-98a2-f5f15625be95",
+    "name": "Forest Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/79fafcd3-27b9-5292-bd4c-dc67cc818201"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780794644"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "80 WEST 5TH ST"
+        ],
+        "city": "GILROY",
+        "state": "CA",
+        "postalCode": "95020-5748"
+      },
+      {
+        "line": [
+          "2110 Forest Ave. Suite 2"
+        ],
+        "city": "SAN JOSE",
+        "state": "CA",
+        "postalCode": "95128-1469"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7301"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7301.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12b23f89-b30e-5063-98a2-f5f15625be95"
+}

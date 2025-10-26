@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf007f7e-a37e-5880-ac97-f3bdd700a6e2",
+    "name": "ICHC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1b05da58-e71a-5617-aba7-fcea2ec33c22"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578539979"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11 Main street"
+        ],
+        "city": "Denver",
+        "state": "CO",
+        "postalCode": "30309-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18112"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18112.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf007f7e-a37e-5880-ac97-f3bdd700a6e2"
+}

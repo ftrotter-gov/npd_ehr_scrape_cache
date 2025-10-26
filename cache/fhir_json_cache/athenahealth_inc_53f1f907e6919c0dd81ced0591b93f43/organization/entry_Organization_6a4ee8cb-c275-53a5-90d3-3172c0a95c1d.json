@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a4ee8cb-c275-53a5-90d3-3172c0a95c1d",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dfb02949-cc68-56b2-a17d-7496872cceb0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538545181"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "209 N ILLINOIS ST"
+        ],
+        "city": "HARRISBURG",
+        "state": "AR",
+        "postalCode": "72432-1243"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11995"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11995.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a4ee8cb-c275-53a5-90d3-3172c0a95c1d"
+}

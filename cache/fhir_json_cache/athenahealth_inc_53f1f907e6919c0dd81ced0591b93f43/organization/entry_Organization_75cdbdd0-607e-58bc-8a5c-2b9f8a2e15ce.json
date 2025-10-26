@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "75cdbdd0-607e-58bc-8a5c-2b9f8a2e15ce",
+    "name": "Dr Randy Folker - Powell Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3b4e30c3-2a17-5da2-8294-7c3521fbeb4e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649296914"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "777 Ave H"
+        ],
+        "city": "POWELL",
+        "state": "WY",
+        "postalCode": "82435-2260"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24483"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24483.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:75cdbdd0-607e-58bc-8a5c-2b9f8a2e15ce"
+}

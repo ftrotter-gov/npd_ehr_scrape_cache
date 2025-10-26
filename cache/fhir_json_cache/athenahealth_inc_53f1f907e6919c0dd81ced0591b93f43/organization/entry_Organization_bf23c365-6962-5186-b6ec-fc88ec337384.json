@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf23c365-6962-5186-b6ec-fc88ec337384",
+    "name": "WCSI at Hayes Street",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b123677a-decc-5db3-9ab3-230b59a021b8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861554099"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2250 Hayes St.",
+          "Site 208"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94117-1078"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16493"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16493.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf23c365-6962-5186-b6ec-fc88ec337384"
+}

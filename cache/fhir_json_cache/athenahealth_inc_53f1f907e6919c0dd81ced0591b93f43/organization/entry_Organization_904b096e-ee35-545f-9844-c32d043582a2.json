@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "904b096e-ee35-545f-9844-c32d043582a2",
+    "name": "Neuro Network",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db0d0bbb-cbeb-553f-81cb-88cd6c75e704"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013123231"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7950 SW 30 STREET",
+          "SUITE 201"
+        ],
+        "city": "DAVIE",
+        "state": "FL",
+        "postalCode": "33328-1979"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-844"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-844.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:904b096e-ee35-545f-9844-c32d043582a2"
+}

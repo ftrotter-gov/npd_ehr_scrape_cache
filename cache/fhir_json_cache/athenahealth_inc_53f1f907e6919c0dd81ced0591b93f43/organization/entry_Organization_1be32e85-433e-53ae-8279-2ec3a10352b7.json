@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1be32e85-433e-53ae-8279-2ec3a10352b7",
+    "name": "Lorenz Clinic - Chaska",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7f323119-11ef-565b-9ae2-f10777af0cfd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982900510"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1435 White Oak Drive",
+          "Suite 200"
+        ],
+        "city": "CHASKA",
+        "state": "MN",
+        "postalCode": "55318-2567"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16506"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16506.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1be32e85-433e-53ae-8279-2ec3a10352b7"
+}

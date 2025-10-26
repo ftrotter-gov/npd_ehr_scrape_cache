@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c809d96e-f795-53e7-a203-f260ce81daca",
+    "name": "Southland Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3e1a5308-3c1d-5749-b0c2-483e1aa888dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871655993"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770600066"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 Shivers Terrace"
+        ],
+        "city": "MARION",
+        "state": "AL",
+        "postalCode": "36756-3534"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19364"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19364.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c809d96e-f795-53e7-a203-f260ce81daca"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "469b3c54-e76a-5cd5-8367-4b23928170c1",
+    "name": "MedStat KGC Onsite Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/776f4277-f749-5c5a-8dd9-2fd2164b48d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942388368"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "203 N Lake St"
+        ],
+        "city": "WARSAW",
+        "state": "IN",
+        "postalCode": "46580-2714"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29579.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:469b3c54-e76a-5cd5-8367-4b23928170c1"
+}

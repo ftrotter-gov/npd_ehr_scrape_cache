@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c069df9f-3b38-5003-8e86-407b307ccd6b",
+    "name": "The Methodist Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/127ccf24-e572-56a4-973d-f56971a4880a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598799116"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6565 Main"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77030-2703"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1171"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1171.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c069df9f-3b38-5003-8e86-407b307ccd6b"
+}

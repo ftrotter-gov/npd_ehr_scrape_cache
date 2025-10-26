@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a0bd28ae-3794-5f3b-bef0-389f5723b90a",
+    "name": "Northfield Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3a50044-1b64-5804-a863-cb027addac03"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144468448"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2014 JEFFERSON RD STE C"
+        ],
+        "city": "NORTHFIELD",
+        "state": "MN",
+        "postalCode": "55057-3251"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19579.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a0bd28ae-3794-5f3b-bef0-389f5723b90a"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aab73091-3cbb-5999-a3af-1ebc2dd1edd4",
+    "name": "CWH_Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ad8e9439-d47b-5a37-b871-d25dd3574873"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972515799"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1040 NW 22nd Ave"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97210-3057"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5500"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5500.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aab73091-3cbb-5999-a3af-1ebc2dd1edd4"
+}

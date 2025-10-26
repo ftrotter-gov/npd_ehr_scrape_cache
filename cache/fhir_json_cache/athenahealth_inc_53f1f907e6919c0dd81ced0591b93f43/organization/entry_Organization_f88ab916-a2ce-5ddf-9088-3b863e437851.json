@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f88ab916-a2ce-5ddf-9088-3b863e437851",
+    "name": "Parkland Medical Center - Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8cce69db-face-55eb-bdbf-50bd2bc5d28c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417724170"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Parkland Drive"
+        ],
+        "city": "DERRY",
+        "state": "NH",
+        "postalCode": "03038-2746"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32845"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32845.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f88ab916-a2ce-5ddf-9088-3b863e437851"
+}

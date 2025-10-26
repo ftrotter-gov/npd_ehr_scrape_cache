@@ -1,0 +1,34 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "anaheim-community-hospital",
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104544204"
+      }
+    ],
+    "active": true,
+    "name": "Anaheim Community Hospital",
+    "address": [
+      {
+        "line": [
+          "3350 W Ball Rd"
+        ],
+        "city": "Anaheim",
+        "state": "CA",
+        "postalCode": "92804",
+        "country": "United States of America"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/single-patient-api"
+      },
+      {
+        "reference": "Endpoint/multi-patient-api"
+      }
+    ]
+  },
+  "fullUrl": "https://portal.ezcaretech.com:30112/fhir/Organization/anaheim-community-hospital"
+}

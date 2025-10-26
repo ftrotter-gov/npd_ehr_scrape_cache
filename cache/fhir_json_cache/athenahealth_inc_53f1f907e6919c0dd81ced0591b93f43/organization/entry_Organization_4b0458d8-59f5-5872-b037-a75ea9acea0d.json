@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4b0458d8-59f5-5872-b037-a75ea9acea0d",
+    "name": "Doctor Mangannan's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/25a20e3f-72d0-583d-84b9-7545dfa87af3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598737900"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "25 DOCTORS PARK DR STE 201"
+        ],
+        "city": "SPARTANBURG",
+        "state": "SC",
+        "postalCode": "29307-1025"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16672"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16672.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4b0458d8-59f5-5872-b037-a75ea9acea0d"
+}

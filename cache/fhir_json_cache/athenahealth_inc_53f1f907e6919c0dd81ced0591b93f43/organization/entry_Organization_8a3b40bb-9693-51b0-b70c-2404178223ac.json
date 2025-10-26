@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8a3b40bb-9693-51b0-b70c-2404178223ac",
+    "name": "Shamrock Health and Wellness Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2f89d84d-b417-52c6-8048-c17b08001a37"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912550765"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 SOUTH MAIN STREET"
+        ],
+        "city": "NORTH LIBERTY",
+        "state": "IN",
+        "postalCode": "46554-7705"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19998"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19998.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8a3b40bb-9693-51b0-b70c-2404178223ac"
+}

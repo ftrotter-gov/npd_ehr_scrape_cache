@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "84c278a2-55aa-5849-9072-3873ee231cf0",
+    "name": "Medford Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4529c17e-1f84-57fb-9380-492ca3925382"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811174519"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1715 N Ocean Ave"
+        ],
+        "city": "MEDFORD",
+        "state": "NY",
+        "postalCode": "11763-2602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1427"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1427.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:84c278a2-55aa-5849-9072-3873ee231cf0"
+}

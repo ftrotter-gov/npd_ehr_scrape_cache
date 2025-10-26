@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8d7c5773-f315-5adb-8f08-5e1d5ee0c551",
+    "name": "Liberty Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/84603b69-e385-5cf1-8351-74d974b1582c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568633253"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3200 WEST LIBERTY STE A"
+        ],
+        "city": "ANN ARBOR",
+        "state": "MI",
+        "postalCode": "48103-9794"
+      },
+      {
+        "line": [
+          "3200 W Liberty",
+          "Suite 3200"
+        ],
+        "city": "ANN ARBOR",
+        "state": "MI",
+        "postalCode": "48103-9794"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7128"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7128.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8d7c5773-f315-5adb-8f08-5e1d5ee0c551"
+}

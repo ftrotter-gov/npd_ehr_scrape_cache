@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0df345b8-b271-5009-bc93-4d7b3a748f2b",
+    "name": "Flowers Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/561efa48-6c43-5743-b28c-31931637290f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558657890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4370 W Main St"
+        ],
+        "city": "DOTHAN",
+        "state": "AL",
+        "postalCode": "36305-1056"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3326"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3326.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0df345b8-b271-5009-bc93-4d7b3a748f2b"
+}

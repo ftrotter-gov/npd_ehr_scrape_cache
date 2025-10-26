@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2e9cc97a-a741-5ec1-899e-19c554590368",
+    "name": "Gracious Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/38c65278-7557-5acd-b03d-fff7aaf2f00c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730848227"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1035 MARSHANE RD"
+        ],
+        "city": "REISTERSTOWN",
+        "state": "MD",
+        "postalCode": "21136-5861"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26893"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26893.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2e9cc97a-a741-5ec1-899e-19c554590368"
+}

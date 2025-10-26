@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d8263f58-a1a5-5fb1-b069-1d3384bd8686",
+    "name": "CHM Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e6c597fc-b324-571f-a022-b39b9c352c9e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396817714"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3990 JOHN R STREET"
+        ],
+        "city": "DETROIT",
+        "state": "MI",
+        "postalCode": "48201-2018"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15143"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15143.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d8263f58-a1a5-5fb1-b069-1d3384bd8686"
+}

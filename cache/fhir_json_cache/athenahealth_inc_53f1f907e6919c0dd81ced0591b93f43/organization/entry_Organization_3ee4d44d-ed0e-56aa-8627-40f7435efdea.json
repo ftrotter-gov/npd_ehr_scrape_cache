@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3ee4d44d-ed0e-56aa-8627-40f7435efdea",
+    "name": "DOCTORS",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/70f5f867-7d6c-57ca-8dfb-60150f74250e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568547586"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3651 WHEELER RD"
+        ],
+        "city": "AUGUSTA",
+        "state": "GA",
+        "postalCode": "30909-6426"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1459"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1459.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3ee4d44d-ed0e-56aa-8627-40f7435efdea"
+}

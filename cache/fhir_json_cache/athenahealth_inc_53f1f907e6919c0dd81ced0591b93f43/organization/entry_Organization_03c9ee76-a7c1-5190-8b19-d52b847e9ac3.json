@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "03c9ee76-a7c1-5190-8b19-d52b847e9ac3",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0a26ddf9-9cd8-5508-b62b-1a2af6a66233"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427202001"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2929 SW MULTNOMAH BLVD",
+          "SUITE 302"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97219-4025"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14817"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14817.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:03c9ee76-a7c1-5190-8b19-d52b847e9ac3"
+}

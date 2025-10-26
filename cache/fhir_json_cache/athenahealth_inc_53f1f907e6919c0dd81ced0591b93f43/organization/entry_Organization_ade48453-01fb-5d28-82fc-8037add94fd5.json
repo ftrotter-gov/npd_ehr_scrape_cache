@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ade48453-01fb-5d28-82fc-8037add94fd5",
+    "name": "Medical Specialists of NNJ",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/65668366-db06-55ab-a1e9-fed7165293a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255690822"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1120 ALPS RD"
+        ],
+        "city": "WAYNE",
+        "state": "NJ",
+        "postalCode": "07470-3704"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23718"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23718.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ade48453-01fb-5d28-82fc-8037add94fd5"
+}

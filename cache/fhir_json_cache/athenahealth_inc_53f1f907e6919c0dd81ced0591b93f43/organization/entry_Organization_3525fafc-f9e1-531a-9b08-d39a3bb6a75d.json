@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3525fafc-f9e1-531a-9b08-d39a3bb6a75d",
+    "name": "Tri-Lakes Medical Center OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d805807d-a83c-56fd-90b4-716995c8fca3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124321294"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "303 Medical Center"
+        ],
+        "city": "BATESVILLE",
+        "state": "MS",
+        "postalCode": "38606-8608"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3525fafc-f9e1-531a-9b08-d39a3bb6a75d"
+}

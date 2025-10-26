@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b59f6a79-f24a-5e38-a155-89212c7dc9b2",
+    "name": "More MD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aff879d6-1879-5b8b-801e-bb506958789e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1123456789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8000 ELDORODO PKWY BUILDING C SUITE B"
+        ],
+        "city": "MCKINNEY",
+        "state": "TX",
+        "postalCode": "75070-1739"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24102"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24102.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b59f6a79-f24a-5e38-a155-89212c7dc9b2"
+}

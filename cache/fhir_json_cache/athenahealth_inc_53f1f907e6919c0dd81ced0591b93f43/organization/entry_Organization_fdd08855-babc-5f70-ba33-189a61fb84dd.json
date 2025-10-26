@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fdd08855-babc-5f70-ba33-189a61fb84dd",
+    "name": "Therapy Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3efb804-9f50-5dcf-9eda-a9828c54a60f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275021271"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7501 Greenway Center Dr.",
+          "suite 220"
+        ],
+        "city": "GREENBELT",
+        "state": "MD",
+        "postalCode": "20770-3514"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17733"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17733.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fdd08855-babc-5f70-ba33-189a61fb84dd"
+}

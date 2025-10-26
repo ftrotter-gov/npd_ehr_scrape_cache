@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c1912c18-b85f-5407-8aae-0211c63e17fe",
+    "name": "Jackson County Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3c776423-26ad-5a92-a7c2-b11125701e4b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750041786"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "508 HARLEY ST"
+        ],
+        "city": "SCOTTSBORO",
+        "state": "AL",
+        "postalCode": "35768-4294"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29332"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29332.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c1912c18-b85f-5407-8aae-0211c63e17fe"
+}

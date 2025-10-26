@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0e8a322d-e0ce-5f48-a31e-123243cdbb13",
+    "name": "Good Shepherd Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26c482a2-9157-58d6-a3a8-a49fd1a1d030"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6392 MURPHY DRIVE"
+        ],
+        "city": "MORROW",
+        "state": "GA",
+        "postalCode": "30260-1714"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18184"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18184.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0e8a322d-e0ce-5f48-a31e-123243cdbb13"
+}

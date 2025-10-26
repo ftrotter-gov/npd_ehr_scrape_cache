@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "61efe1f1-d25d-55e6-a467-dcaa8141ca0a",
+    "name": "Heart of Christ Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e4bacbe4-5805-5593-afe2-9695c5a0e594"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003685975"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2630 W LAFAYETTE BLVD"
+        ],
+        "city": "DETROIT",
+        "state": "MI",
+        "postalCode": "48216-2019"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29818"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29818.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:61efe1f1-d25d-55e6-a467-dcaa8141ca0a"
+}

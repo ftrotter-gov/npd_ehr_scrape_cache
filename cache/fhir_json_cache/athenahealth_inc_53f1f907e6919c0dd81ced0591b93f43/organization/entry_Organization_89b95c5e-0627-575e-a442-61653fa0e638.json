@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "89b95c5e-0627-575e-a442-61653fa0e638",
+    "name": "Hometown Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/85b283dd-4c2a-5028-b0df-a9d487a25f15"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225757271"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "108 EAST H AVENUE"
+        ],
+        "city": "MILBURN",
+        "state": "OK",
+        "postalCode": "73450-9445"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26920"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26920.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:89b95c5e-0627-575e-a442-61653fa0e638"
+}

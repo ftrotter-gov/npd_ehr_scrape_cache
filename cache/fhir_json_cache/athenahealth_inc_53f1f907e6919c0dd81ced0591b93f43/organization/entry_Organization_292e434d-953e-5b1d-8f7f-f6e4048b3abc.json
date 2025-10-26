@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "292e434d-953e-5b1d-8f7f-f6e4048b3abc",
+    "name": "HMC PRIMARY CARE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2adb067-c3a7-54ef-9a37-bcfc88b07995"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194364984"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7534 Wyoming Ave"
+        ],
+        "city": "DEARBORN",
+        "state": "MI",
+        "postalCode": "48126-1690"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32709"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32709.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:292e434d-953e-5b1d-8f7f-f6e4048b3abc"
+}

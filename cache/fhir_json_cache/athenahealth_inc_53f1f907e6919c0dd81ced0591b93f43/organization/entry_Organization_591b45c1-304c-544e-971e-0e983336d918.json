@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "591b45c1-304c-544e-971e-0e983336d918",
+    "name": "Golden Estates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/07069977-8748-5083-a0b6-21209f79d884"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750560520"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "130 Spencer Lane"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78201-2109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12438"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12438.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:591b45c1-304c-544e-971e-0e983336d918"
+}

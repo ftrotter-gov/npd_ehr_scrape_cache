@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b539428d-454b-5377-9674-84a7bd672e20",
+    "name": "Machias Family Planning",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5132271e-394c-5146-a38f-5f36e8948ef3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477768216"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "247 Main St",
+          "Suite 2"
+        ],
+        "city": "MACHIAS",
+        "state": "ME",
+        "postalCode": "04654-3606"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3508"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3508.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b539428d-454b-5377-9674-84a7bd672e20"
+}

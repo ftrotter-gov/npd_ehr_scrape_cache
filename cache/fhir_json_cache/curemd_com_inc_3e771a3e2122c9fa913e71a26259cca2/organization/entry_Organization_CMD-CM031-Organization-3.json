@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM031-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM031"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "New York Minimally Invasive Surgery, PLLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9172612061"
+      },
+      {
+        "system": "fax",
+        "value": "8883009429"
+      },
+      {
+        "system": "url",
+        "value": "www.noobesity.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "1060 5th Avenue Suite 1B New York NY 10128 US",
+        "line": [
+          "1060 5th Avenue",
+          "Suite 1B"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10128",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM031-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM031-Organization-3"
+}

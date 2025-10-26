@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ca913997-5d8f-59b7-9192-6613afff4181",
+    "name": "Rocco's Remedy",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6d30a81-804d-5c05-81fb-4b0212e4a167"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437605813"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 W BROADWAY STE 150"
+        ],
+        "city": "EUGENE",
+        "state": "OR",
+        "postalCode": "97401-3081"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31990"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31990.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ca913997-5d8f-59b7-9192-6613afff4181"
+}

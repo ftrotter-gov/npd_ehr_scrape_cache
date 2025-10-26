@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5409fe7f-7b5a-5023-89ad-118cb092874d",
+    "name": "Omnibus Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/885f0d9c-a8cd-5b8c-bc63-3474b8e222c6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003565524"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "232 Cockeysville RD",
+          "SuiteA-100"
+        ],
+        "city": "COCKEYSVILLE",
+        "state": "MD",
+        "postalCode": "21030-2239"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26438"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26438.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5409fe7f-7b5a-5023-89ad-118cb092874d"
+}

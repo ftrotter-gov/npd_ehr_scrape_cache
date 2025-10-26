@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3d2a2759-059c-5338-92ea-c5bc60bb5d5f",
+    "name": "CVC Arrowhead",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8c383203-53df-5da3-a428-84fdf45706fc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023073525"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18700 N. 64th Drive",
+          "Suite 101"
+        ],
+        "city": "GLENDALE",
+        "state": "AZ",
+        "postalCode": "85308-7110"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31664"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31664.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3d2a2759-059c-5338-92ea-c5bc60bb5d5f"
+}

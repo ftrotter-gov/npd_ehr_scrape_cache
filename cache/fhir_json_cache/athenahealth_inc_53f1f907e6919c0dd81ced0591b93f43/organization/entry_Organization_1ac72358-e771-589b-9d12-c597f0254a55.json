@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ac72358-e771-589b-9d12-c597f0254a55",
+    "name": "Epic Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1d61bb71-c2b1-53a4-8083-d8da8b4b94ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396563177"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3204 NAPIER PARK"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78231-1522"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30052"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30052.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ac72358-e771-589b-9d12-c597f0254a55"
+}

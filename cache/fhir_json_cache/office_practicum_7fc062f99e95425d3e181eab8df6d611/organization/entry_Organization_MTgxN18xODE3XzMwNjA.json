@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTgxN18xODE3XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "750.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518075779"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Karen Filler MD GA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "706-956-5262",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "706-956-5267",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "4211 Cloud Springs Road Ringgold, GA 30736",
+        "line": [
+          "4211 Cloud Springs Road"
+        ],
+        "city": "Ringgold",
+        "state": "GA",
+        "postalCode": "30736",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTgxN18xODE3XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTgxN18xODE3XzMwNjA"
+}

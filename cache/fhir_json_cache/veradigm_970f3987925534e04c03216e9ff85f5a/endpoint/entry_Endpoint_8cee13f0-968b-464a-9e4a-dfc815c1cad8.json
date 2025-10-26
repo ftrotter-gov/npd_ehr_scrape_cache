@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "8cee13f0-968b-464a-9e4a-dfc815c1cad8",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "45803824-2cc5-4810-9afe-a1eaed22af71",
+        "name": "Specialty Clinics Of Dallas"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Specialty Clinics Of Dallas",
+    "managingOrganization": {
+      "reference": "#45803824-2cc5-4810-9afe-a1eaed22af71"
+    },
+    "period": {
+      "start": "2018-12-05T09:46:00+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/73872"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/73872"
+}

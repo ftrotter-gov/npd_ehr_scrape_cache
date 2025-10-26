@@ -1,0 +1,74 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b2a8547-446a-5663-b4b1-25eeed044d93",
+    "meta": {
+      "lastUpdated": "2025-09-29T22:51:38.000Z"
+    },
+    "name": "HCA GULF COAST UNV",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "asked-unknown"
+          }
+        ]
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "One Park Plaza"
+        ],
+        "city": "Nashville",
+        "state": "TN",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:776c8633-b182-576d-9963-74dc96a1fc72"
+      },
+      {
+        "reference": "urn:uuid:88aaaea2-689e-5aac-9463-6b14258e1df9"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:776c8633-b182-576d-9963-74dc96a1fc72"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:88aaaea2-689e-5aac-9463-6b14258e1df9"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b2a8547-446a-5663-b4b1-25eeed044d93"
+}

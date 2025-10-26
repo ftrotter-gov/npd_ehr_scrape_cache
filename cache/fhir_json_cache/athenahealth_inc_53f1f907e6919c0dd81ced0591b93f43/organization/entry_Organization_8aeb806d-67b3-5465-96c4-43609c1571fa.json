@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8aeb806d-67b3-5465-96c4-43609c1571fa",
+    "name": "Willow Place",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37590483-6eeb-5d98-b40f-c2e0b15a875e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003008665"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1307 N College St"
+        ],
+        "city": "NEWBERG",
+        "state": "OR",
+        "postalCode": "97132-7395"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5756"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5756.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8aeb806d-67b3-5465-96c4-43609c1571fa"
+}

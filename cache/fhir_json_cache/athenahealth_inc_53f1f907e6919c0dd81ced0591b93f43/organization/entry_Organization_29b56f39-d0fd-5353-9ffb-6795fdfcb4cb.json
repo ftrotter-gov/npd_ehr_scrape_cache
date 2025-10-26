@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "29b56f39-d0fd-5353-9ffb-6795fdfcb4cb",
+    "name": "La-Quinta Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8f47a43a-6525-5a26-b9f4-beb2e8789638"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386454379"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "79440 CORPORATE CENTER DR",
+          "STE 102"
+        ],
+        "city": "LA QUINTA",
+        "state": "CA",
+        "postalCode": "92253-7243"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32881"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32881.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:29b56f39-d0fd-5353-9ffb-6795fdfcb4cb"
+}

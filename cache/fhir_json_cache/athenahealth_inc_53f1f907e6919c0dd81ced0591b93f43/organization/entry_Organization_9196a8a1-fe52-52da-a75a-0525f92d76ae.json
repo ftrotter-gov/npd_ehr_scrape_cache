@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9196a8a1-fe52-52da-a75a-0525f92d76ae",
+    "name": "St. Agnes Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/55ea003e-0940-5617-ae4a-8d4941696a5d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457575656"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 S. Caton"
+        ],
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postalCode": "21229-5201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15120"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15120.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9196a8a1-fe52-52da-a75a-0525f92d76ae"
+}

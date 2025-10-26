@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "14030b5a-c9fd-5e31-9d10-43303baca62c",
+    "name": "Adventist Bolingbrook Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6bffa209-1de0-584a-a285-a3e0abd9f422"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801318928"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013017839"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 REMINGTON BLVD"
+        ],
+        "city": "BOLINGBROOK",
+        "state": "IL",
+        "postalCode": "60440-4906"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15182"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15182.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:14030b5a-c9fd-5e31-9d10-43303baca62c"
+}

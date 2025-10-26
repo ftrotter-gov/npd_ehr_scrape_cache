@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6708dfb8-b094-5747-b686-65de20544dd0",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/534c45de-14ef-5928-8075-8dfa930b45c1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720403371"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "120 NE WILSHIRE BLVD"
+        ],
+        "city": "BURLESON",
+        "state": "TX",
+        "postalCode": "76028-5711"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8044"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8044.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6708dfb8-b094-5747-b686-65de20544dd0"
+}

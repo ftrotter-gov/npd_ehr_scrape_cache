@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "69fb7fa1-14db-5119-8dfa-5609d9f8442c",
+    "name": "outpatient surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/417e81ac-9a68-56e7-8c90-a1f7d3492bd4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699876615"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3300 gallows rd"
+        ],
+        "city": "FALLS CHURCH",
+        "state": "VA",
+        "postalCode": "22042-3300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7129"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7129.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:69fb7fa1-14db-5119-8dfa-5609d9f8442c"
+}

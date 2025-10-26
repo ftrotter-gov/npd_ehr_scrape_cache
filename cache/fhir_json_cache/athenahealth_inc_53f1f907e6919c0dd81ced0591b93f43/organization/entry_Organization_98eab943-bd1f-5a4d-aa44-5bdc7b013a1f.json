@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98eab943-bd1f-5a4d-aa44-5bdc7b013a1f",
+    "name": "AAMC OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a6b05668-f2e8-549e-a619-da1749ff5c3e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487879938"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2001 Medical Pkwy"
+        ],
+        "city": "ANNAPOLIS",
+        "state": "MD",
+        "postalCode": "21401-3773"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6814"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6814.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98eab943-bd1f-5a4d-aa44-5bdc7b013a1f"
+}

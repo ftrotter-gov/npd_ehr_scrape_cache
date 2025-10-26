@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98a0fd09-faf4-5a03-a283-f7d1aed7a396",
+    "name": "Southwest Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af3c1002-1567-50cc-a860-e8e8da698267"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538284377"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801147434"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1636 elton rd",
+          "ste 201"
+        ],
+        "city": "JENNINGS",
+        "state": "LA",
+        "postalCode": "70546-3648"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3259"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3259.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98a0fd09-faf4-5a03-a283-f7d1aed7a396"
+}

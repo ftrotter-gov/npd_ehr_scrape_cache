@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0fe31cca-c32a-5be8-86d2-fc02f65433ef",
+    "name": "Greenbrier Surgical Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4f6c862e-468d-5742-aa19-b82ebbaf15e6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306170048"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "102 BROOKSHIRE LN"
+        ],
+        "city": "BECKLEY",
+        "state": "WV",
+        "postalCode": "25801-6761"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2276"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2276.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0fe31cca-c32a-5be8-86d2-fc02f65433ef"
+}

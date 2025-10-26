@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56f43452-3e8d-5109-bbb7-cd00e65e2dde",
+    "name": "Patient's Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db3b3e37-d7c7-51d5-ad87-b1a050f9931f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366485963"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1165 PARK AVENUE"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10128-1248"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16155"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16155.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56f43452-3e8d-5109-bbb7-cd00e65e2dde"
+}

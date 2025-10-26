@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "efa16a83-086a-5e56-b5c7-caa7b1c6daeb",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c1cfd2cb-d5ba-5acf-9efe-f6bc8ab00ece"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619092210"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "161 LOUREYRO ROAD"
+        ],
+        "city": "SANTA BARBARA",
+        "state": "CA",
+        "postalCode": "93108-2911"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12883"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12883.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:efa16a83-086a-5e56-b5c7-caa7b1c6daeb"
+}

@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTI1NF8xMjU0XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "867.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902063530"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Lansing Pediatric Associates PC MI",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "517-371-4712",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "517-371-3116",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "2414 Lake Lansing Road Lansing, MI 489123618",
+        "line": [
+          "2414 Lake Lansing Road"
+        ],
+        "city": "Lansing",
+        "state": "MI",
+        "postalCode": "489123618",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTI1NF8xMjU0XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTI1NF8xMjU0XzMwNjA"
+}

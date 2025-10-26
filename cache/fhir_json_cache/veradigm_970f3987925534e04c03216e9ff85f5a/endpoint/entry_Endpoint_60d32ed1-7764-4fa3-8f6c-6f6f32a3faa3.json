@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "60d32ed1-7764-4fa3-8f6c-6f6f32a3faa3",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "49c9bb61-492f-41d5-b827-88022c1247fc",
+        "name": "NY Ortho, Sports Medicine & Trauma, P.C."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "NY Ortho, Sports Medicine & Trauma, P.C.",
+    "managingOrganization": {
+      "reference": "#49c9bb61-492f-41d5-b827-88022c1247fc"
+    },
+    "period": {
+      "start": "2024-03-20T14:16:15+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10033659"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10033659"
+}

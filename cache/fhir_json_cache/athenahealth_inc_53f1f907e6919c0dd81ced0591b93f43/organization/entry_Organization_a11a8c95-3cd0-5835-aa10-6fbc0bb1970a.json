@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a11a8c95-3cd0-5835-aa10-6fbc0bb1970a",
+    "name": "main office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8ac0602a-5b22-53c7-9e71-2c6a8131b85e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780975300"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5460 N state road 7 suite 110"
+        ],
+        "city": "north lauderdale",
+        "state": "FL",
+        "postalCode": "33319-2968"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3139"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3139.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a11a8c95-3cd0-5835-aa10-6fbc0bb1970a"
+}

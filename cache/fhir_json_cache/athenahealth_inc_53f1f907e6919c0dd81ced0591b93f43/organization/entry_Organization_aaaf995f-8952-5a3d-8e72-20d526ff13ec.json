@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aaaf995f-8952-5a3d-8e72-20d526ff13ec",
+    "name": "Scottsdale Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0423aacd-55a0-5d3d-b013-2b2c48774e59"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326189564"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9003 E SHEA BLVD"
+        ],
+        "city": "SCOTTSDALE",
+        "state": "AZ",
+        "postalCode": "85260-6709"
+      },
+      {
+        "line": [
+          "7400 E THOMPSON PEAK PARKWAY"
+        ],
+        "city": "SCOTTSDALE",
+        "state": "AZ",
+        "postalCode": "85255-4109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15400"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15400.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aaaf995f-8952-5a3d-8e72-20d526ff13ec"
+}

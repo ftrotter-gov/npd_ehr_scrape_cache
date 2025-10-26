@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f454606a-51aa-55c6-8299-6ec2af3b2040",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e958fa8b-fafa-55eb-a787-c8619f5f6137"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023564325"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2400 FM 1488",
+          "SUITE 400"
+        ],
+        "city": "CONROE",
+        "state": "TX",
+        "postalCode": "77384-4958"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14160"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14160.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f454606a-51aa-55c6-8299-6ec2af3b2040"
+}

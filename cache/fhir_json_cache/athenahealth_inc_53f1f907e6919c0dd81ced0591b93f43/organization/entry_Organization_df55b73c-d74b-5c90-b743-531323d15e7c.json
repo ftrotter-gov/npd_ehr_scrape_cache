@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "df55b73c-d74b-5c90-b743-531323d15e7c",
+    "name": "Olathe Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/49fa522c-1dda-5776-adcd-9fc092b69a6b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992893200"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20375 W. 151ST STREET",
+          "SUITE 403"
+        ],
+        "city": "OLATHE",
+        "state": "KS",
+        "postalCode": "66061-5306"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-557"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-557.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:df55b73c-d74b-5c90-b743-531323d15e7c"
+}

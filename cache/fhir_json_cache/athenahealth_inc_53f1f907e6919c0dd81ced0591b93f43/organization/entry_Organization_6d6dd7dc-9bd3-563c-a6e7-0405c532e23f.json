@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d6dd7dc-9bd3-563c-a6e7-0405c532e23f",
+    "name": "Effingham Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9bebaa0a-0d21-58ed-8ae7-3ae8a98852f0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013459551"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "459 Highway 119 South"
+        ],
+        "city": "Springfield",
+        "state": "GA",
+        "postalCode": "31329-3021"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18355"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18355.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d6dd7dc-9bd3-563c-a6e7-0405c532e23f"
+}

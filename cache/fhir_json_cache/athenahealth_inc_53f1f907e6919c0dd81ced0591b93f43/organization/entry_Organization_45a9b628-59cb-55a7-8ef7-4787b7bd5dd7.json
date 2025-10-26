@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "45a9b628-59cb-55a7-8ef7-4787b7bd5dd7",
+    "name": "Presbyterian Hospital of Allen",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a824d847-795f-55cc-aaab-b5e20ebc3028"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255596086"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1105 Central Expressway North"
+        ],
+        "city": "Allen",
+        "state": "TX",
+        "postalCode": "75013-6103"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1504"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1504.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:45a9b628-59cb-55a7-8ef7-4787b7bd5dd7"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d5e2c41-d2eb-5a35-b937-d224c7414e03",
+    "name": "Sierra Nevada Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a7a8e99e-5f37-58a9-8d10-a912011f1600"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124046560"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "05D1065000"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "155 Glasson Way"
+        ],
+        "city": "GRASS VALLEY",
+        "state": "CA",
+        "postalCode": "95945-5723"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1751"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1751.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d5e2c41-d2eb-5a35-b937-d224c7414e03"
+}

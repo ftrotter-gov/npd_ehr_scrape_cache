@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db1be885-f647-59b4-a9aa-fd2922deee01",
+    "meta": {
+      "lastUpdated": "2023-10-04T04:14:47.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://pioneershospital.org"
+      }
+    ],
+    "name": "Pioneers Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://pioneershospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Pioneers Medical Center Drive"
+        ],
+        "city": "Meeker",
+        "state": "CO",
+        "postalCode": "81641",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:692f7033-02e6-5bac-8fed-1ca79702488c"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:692f7033-02e6-5bac-8fed-1ca79702488c"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db1be885-f647-59b4-a9aa-fd2922deee01"
+}

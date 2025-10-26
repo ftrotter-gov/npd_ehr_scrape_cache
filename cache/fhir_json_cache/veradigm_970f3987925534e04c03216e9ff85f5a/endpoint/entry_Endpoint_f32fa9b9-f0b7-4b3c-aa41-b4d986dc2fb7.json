@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "f32fa9b9-f0b7-4b3c-aa41-b4d986dc2fb7",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "f92cc3b4-65a3-4f06-908a-bdf0d700495c",
+        "name": "Pulmonary Consultants and Sleep Disorders Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Pulmonary Consultants and Sleep Disorders Center",
+    "managingOrganization": {
+      "reference": "#f92cc3b4-65a3-4f06-908a-bdf0d700495c"
+    },
+    "period": {
+      "start": "2019-01-04T08:54:23+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10027540"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10027540"
+}

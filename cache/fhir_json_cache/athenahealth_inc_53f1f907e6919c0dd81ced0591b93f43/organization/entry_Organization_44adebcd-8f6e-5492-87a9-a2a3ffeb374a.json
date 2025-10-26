@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "44adebcd-8f6e-5492-87a9-a2a3ffeb374a",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9e0af79b-9e28-5c16-ac01-8c8c836c035e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285043406"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10 Peterboro St."
+        ],
+        "city": "DETROIT",
+        "state": "MI",
+        "postalCode": "48201-2722"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23845"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23845.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:44adebcd-8f6e-5492-87a9-a2a3ffeb374a"
+}

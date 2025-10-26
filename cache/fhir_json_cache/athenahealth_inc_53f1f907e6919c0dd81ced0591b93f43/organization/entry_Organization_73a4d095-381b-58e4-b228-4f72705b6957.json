@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "73a4d095-381b-58e4-b228-4f72705b6957",
+    "name": "TVE-Watertown",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6346fc33-2566-5ea3-9af9-67d80211ecc2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033318175"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "595 Straits Turnpike",
+          "Unit 2"
+        ],
+        "city": "Watertown",
+        "state": "CT",
+        "postalCode": "06795-3322"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32135"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32135.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:73a4d095-381b-58e4-b228-4f72705b6957"
+}

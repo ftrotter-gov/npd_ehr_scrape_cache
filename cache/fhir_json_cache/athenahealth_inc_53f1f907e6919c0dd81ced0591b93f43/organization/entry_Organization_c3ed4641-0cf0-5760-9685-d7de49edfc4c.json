@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c3ed4641-0cf0-5760-9685-d7de49edfc4c",
+    "name": "Advantage Health Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26e098b3-2065-5aa2-ad2a-3065739db612"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134699416"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "803 MAIN ST"
+        ],
+        "city": "ALAMO",
+        "state": "TX",
+        "postalCode": "78516-2520"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30082"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30082.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c3ed4641-0cf0-5760-9685-d7de49edfc4c"
+}

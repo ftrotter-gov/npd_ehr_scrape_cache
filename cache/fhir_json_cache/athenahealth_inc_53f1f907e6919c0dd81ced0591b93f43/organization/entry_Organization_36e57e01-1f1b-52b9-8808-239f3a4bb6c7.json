@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "36e57e01-1f1b-52b9-8808-239f3a4bb6c7",
+    "name": "Pinckneyville Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2e6d1d52-cee9-5373-a536-3debcfac5e5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134470859"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5383 State Route 154"
+        ],
+        "city": "PINCKNEYVILLE",
+        "state": "IL",
+        "postalCode": "62274-3342"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1965"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1965.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:36e57e01-1f1b-52b9-8808-239f3a4bb6c7"
+}

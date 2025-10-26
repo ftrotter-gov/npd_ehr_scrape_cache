@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c9cdca7c-9746-5519-9545-1df0a68aef01",
+    "name": "LCMC-OUTPATIENT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a9ac879f-e607-5a58-bc3a-297c7aa1cc03"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437225067"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "340 COMMERCE DRIVE"
+        ],
+        "city": "LAKE CITY",
+        "state": "FL",
+        "postalCode": "32055-4709"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28914"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28914.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c9cdca7c-9746-5519-9545-1df0a68aef01"
+}

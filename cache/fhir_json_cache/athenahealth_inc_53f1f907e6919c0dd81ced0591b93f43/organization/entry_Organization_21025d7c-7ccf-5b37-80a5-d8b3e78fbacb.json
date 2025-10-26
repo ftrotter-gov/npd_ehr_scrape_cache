@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "21025d7c-7ccf-5b37-80a5-d8b3e78fbacb",
+    "name": "Bolingbrook Christian Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c7a504ba-dfec-5ec3-bdee-5ebfb09fe943"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "151 E BRIARCLIFF RD"
+        ],
+        "city": "BOLINGBROOK",
+        "state": "IL",
+        "postalCode": "60440-3070"
+      },
+      {
+        "line": [
+          "151 E. Briarcliff Rd"
+        ],
+        "city": "BOLINGBROOK",
+        "state": "IL",
+        "postalCode": "60440-3070"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18377"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18377.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:21025d7c-7ccf-5b37-80a5-d8b3e78fbacb"
+}

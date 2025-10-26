@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dcaab1cc-66fe-5a79-9f3e-5a8be2158939",
+    "name": "Concierge Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a7dd3670-515f-5a6c-b406-249133bbd5ed"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932701497"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7050 West Palmetto Park Road",
+          "Suite 15513"
+        ],
+        "city": "BOCA RATON",
+        "state": "FL",
+        "postalCode": "33433-3426"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22848"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22848.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dcaab1cc-66fe-5a79-9f3e-5a8be2158939"
+}

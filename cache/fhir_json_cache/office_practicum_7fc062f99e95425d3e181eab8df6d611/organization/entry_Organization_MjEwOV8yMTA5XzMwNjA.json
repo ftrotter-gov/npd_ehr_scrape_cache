@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjEwOV8yMTA5XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "923.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740807445"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Plum Pediatrics PLLC TX",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "469-864-7586",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "469-864-7571",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "270 S Collins Rd #300 Sunnyvale, TX 75182",
+        "line": [
+          "270 S Collins Rd",
+          "#300"
+        ],
+        "city": "Sunnyvale",
+        "state": "TX",
+        "postalCode": "75182",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjEwOV8yMTA5XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjEwOV8yMTA5XzMwNjA"
+}

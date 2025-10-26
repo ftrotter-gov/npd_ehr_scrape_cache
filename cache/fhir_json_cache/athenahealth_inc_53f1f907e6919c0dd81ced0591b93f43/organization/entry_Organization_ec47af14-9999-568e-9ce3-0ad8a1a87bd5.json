@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ec47af14-9999-568e-9ce3-0ad8a1a87bd5",
+    "name": "Maternal-Fetal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a50ce513-0851-5107-bcbe-a88c93aef50c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336681568"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2600 ROOSEVELT",
+          "UNIT 2006"
+        ],
+        "city": "VALPARAISO",
+        "state": "IN",
+        "postalCode": "46383-0971"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14180"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14180.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ec47af14-9999-568e-9ce3-0ad8a1a87bd5"
+}

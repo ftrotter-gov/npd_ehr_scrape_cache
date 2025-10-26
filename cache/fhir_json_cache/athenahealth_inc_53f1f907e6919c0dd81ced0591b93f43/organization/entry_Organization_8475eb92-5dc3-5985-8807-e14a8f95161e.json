@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8475eb92-5dc3-5985-8807-e14a8f95161e",
+    "name": "KMC Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e9d40b86-4c81-55b1-822c-8b0f0176e608"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568161131"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7500 VETERANS PKWY Unit G"
+        ],
+        "city": "COLUMBUS",
+        "state": "GA",
+        "postalCode": "31909-2524"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28559"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28559.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8475eb92-5dc3-5985-8807-e14a8f95161e"
+}

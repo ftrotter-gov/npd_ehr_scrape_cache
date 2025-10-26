@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d74996fa-5084-59cf-9408-f853d393091b",
+    "name": "ALC PRIMARY CARE - GA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e104c96d-b502-5782-80cb-d735a8ee7642"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083195564"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3500 Lenox Rd NE",
+          "Suite 1500"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30326-4231"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30821"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30821.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d74996fa-5084-59cf-9408-f853d393091b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ecd12091-14cc-5eda-9e5b-3f5b5cb05681",
+    "name": "Premier Walk In Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a88dc3a0-e7d6-56b7-8cb2-99ec247b3f25"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053338707"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4025 W CALDWELL AVE STE A"
+        ],
+        "city": "VISALIA",
+        "state": "CA",
+        "postalCode": "93277-9224"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27520"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27520.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ecd12091-14cc-5eda-9e5b-3f5b5cb05681"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a14105a6-0453-5d12-9bcb-2927c82bd273",
+    "name": "Behavioral Health Home Visits",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c9973aab-67d2-5c9b-a2dc-fd6b6cbe7474"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225145105"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "715 W. Court Street"
+        ],
+        "city": "PASCO",
+        "state": "WA",
+        "postalCode": "99301-4153"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21034"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21034.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a14105a6-0453-5d12-9bcb-2927c82bd273"
+}

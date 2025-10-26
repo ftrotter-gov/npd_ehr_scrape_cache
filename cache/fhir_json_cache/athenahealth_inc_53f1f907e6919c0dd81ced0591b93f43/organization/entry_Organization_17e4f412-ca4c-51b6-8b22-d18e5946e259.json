@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "17e4f412-ca4c-51b6-8b22-d18e5946e259",
+    "name": "Caruthersville Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bb5e2c3d-6265-5278-85e8-9176cac59971"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932108974"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "109 East 5th St."
+        ],
+        "city": "CARUTHERSVILLE",
+        "state": "MO",
+        "postalCode": "63830-9193"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14764"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14764.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:17e4f412-ca4c-51b6-8b22-d18e5946e259"
+}

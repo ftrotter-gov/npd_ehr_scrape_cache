@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9d5edc6-5677-539c-bcd6-898fd9db4165",
+    "name": "Jackson Regional Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43ac5020-30ab-54bd-a770-6206ecc66f81"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437102415"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "202 West Church St."
+        ],
+        "city": "LEXINGTON",
+        "state": "TN",
+        "postalCode": "38351-2038"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1582"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1582.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9d5edc6-5677-539c-bcd6-898fd9db4165"
+}

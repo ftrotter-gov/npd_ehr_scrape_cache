@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f64b6857-8ae0-5a78-a16a-037f7ac270ad",
+    "name": "SAINT ANNE'S HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eeff190f-e01e-5265-be7a-e3a9d5f3b2f0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841268265"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "795 MIDDLE STREET"
+        ],
+        "city": "FALL RIVER",
+        "state": "MA",
+        "postalCode": "02721-1798"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1182"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1182.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f64b6857-8ae0-5a78-a16a-037f7ac270ad"
+}

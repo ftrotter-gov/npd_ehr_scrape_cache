@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0cacd951-3b6c-43cd-8255-60cea90799a6",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "049be17d-6561-4406-89fc-e4423b425a9b",
+        "name": "Fort Myers Pediatrics"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Fort Myers Pediatrics",
+    "managingOrganization": {
+      "reference": "#049be17d-6561-4406-89fc-e4423b425a9b"
+    },
+    "period": {
+      "start": "2019-01-04T08:57:46+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/71963"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/71963"
+}

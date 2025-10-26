@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "11a30d87-b5b3-5991-b0d5-55642aa52f6f",
+    "name": "Urgent Care Associates of Erie",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e96e7173-bce7-54c0-af3f-29b682be73b4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497702294"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2861 W 26TH ST"
+        ],
+        "city": "ERIE",
+        "state": "PA",
+        "postalCode": "16506-3064"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28732"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28732.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:11a30d87-b5b3-5991-b0d5-55642aa52f6f"
+}

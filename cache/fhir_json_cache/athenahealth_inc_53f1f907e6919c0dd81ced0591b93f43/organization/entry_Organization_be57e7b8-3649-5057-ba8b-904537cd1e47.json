@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "be57e7b8-3649-5057-ba8b-904537cd1e47",
+    "name": "Get Healthy Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/33c532da-0b90-534c-aca6-271bb1a46657"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528894284"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6775 CHOPRA TERRACE",
+          "Suite 2101"
+        ],
+        "city": "ORLANDO",
+        "state": "FL",
+        "postalCode": "32827-7903"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31676"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31676.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:be57e7b8-3649-5057-ba8b-904537cd1e47"
+}

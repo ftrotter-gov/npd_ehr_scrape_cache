@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4dabb700-1f65-5afe-ad8f-8048e5f89272",
+    "name": "Anna Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cdc841b4-68d5-59d1-ab11-7eb1fdfaafe6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184952582"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467671263"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "517 North Main Street, 2nd Floor Clinic"
+        ],
+        "city": "ANNA",
+        "state": "IL",
+        "postalCode": "62906-1668"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1803"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1803.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4dabb700-1f65-5afe-ad8f-8048e5f89272"
+}

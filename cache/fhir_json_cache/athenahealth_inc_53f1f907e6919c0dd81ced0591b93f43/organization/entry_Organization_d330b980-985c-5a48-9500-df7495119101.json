@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d330b980-985c-5a48-9500-df7495119101",
+    "name": "BJC- Memorial City",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58eb66d3-26ef-5333-a83a-ba74d8769598"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215955927"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "915 Gessner Rd",
+          "Pro 3 Ste 560"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77024-2527"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-650"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-650.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d330b980-985c-5a48-9500-df7495119101"
+}

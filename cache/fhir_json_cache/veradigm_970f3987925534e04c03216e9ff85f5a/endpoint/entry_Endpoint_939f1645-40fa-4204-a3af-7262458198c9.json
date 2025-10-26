@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "939f1645-40fa-4204-a3af-7262458198c9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e0b3ab84-fd0b-464b-8f61-61a3fe7d6084",
+        "name": "Associated Gastroenterology Consultants"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Associated Gastroenterology Consultants",
+    "managingOrganization": {
+      "reference": "#e0b3ab84-fd0b-464b-8f61-61a3fe7d6084"
+    },
+    "period": {
+      "start": "2018-08-31T20:11:31+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10011068"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10011068"
+}

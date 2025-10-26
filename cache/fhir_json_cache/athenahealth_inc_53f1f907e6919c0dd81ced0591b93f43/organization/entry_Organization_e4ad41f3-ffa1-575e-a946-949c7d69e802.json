@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e4ad41f3-ffa1-575e-a946-949c7d69e802",
+    "name": "St Lukes Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/107cfc89-ce41-51d3-8b14-c2707e87f36d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659380269"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "190 E Bannock St"
+        ],
+        "city": "BOISE",
+        "state": "ID",
+        "postalCode": "83712-6241"
+      },
+      {
+        "line": [
+          "520 S Eagle Rd"
+        ],
+        "city": "MERIDIAN",
+        "state": "ID",
+        "postalCode": "83642-6351"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10048"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10048.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e4ad41f3-ffa1-575e-a946-949c7d69e802"
+}

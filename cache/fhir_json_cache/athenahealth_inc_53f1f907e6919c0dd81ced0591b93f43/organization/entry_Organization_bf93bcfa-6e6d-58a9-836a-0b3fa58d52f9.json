@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf93bcfa-6e6d-58a9-836a-0b3fa58d52f9",
+    "name": "Saint Alexius",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/658b6cda-a750-549e-89d5-668aa07f9995"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750308516"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1555 Barrington Rd"
+        ],
+        "city": "HOFFMAN ESTATES",
+        "state": "IL",
+        "postalCode": "60169-1019"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3943"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3943.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf93bcfa-6e6d-58a9-836a-0b3fa58d52f9"
+}

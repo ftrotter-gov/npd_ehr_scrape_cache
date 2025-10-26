@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c7577932-16af-518b-b708-fa0ca788fe2b",
+    "name": "WHITMAN MEDICAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ce88794c-f849-54d1-b83f-a717bac57b31"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922334804"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1200 W FAIRVIEW"
+        ],
+        "city": "COLFAX",
+        "state": "WA",
+        "postalCode": "99111-9552"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12441"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12441.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c7577932-16af-518b-b708-fa0ca788fe2b"
+}

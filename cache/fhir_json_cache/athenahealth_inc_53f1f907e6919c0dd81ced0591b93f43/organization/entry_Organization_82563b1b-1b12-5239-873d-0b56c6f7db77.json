@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "82563b1b-1b12-5239-873d-0b56c6f7db77",
+    "name": "Trinity Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8b289eed-572e-55f6-bea8-1efe220496fb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356563977"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1045 W. 146TH STREET",
+          "SUITE B"
+        ],
+        "city": "CARMEL",
+        "state": "IN",
+        "postalCode": "46032-1118"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20754"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20754.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:82563b1b-1b12-5239-873d-0b56c6f7db77"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "efad1b5e-5c08-59e8-9c9b-9ac3274fa469",
+    "name": "DaVita Allen Dialysis",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c97acacc-a33c-5152-bc8a-158e6b1ac2cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821169632"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 S JUPITER RD"
+        ],
+        "city": "ALLEN",
+        "state": "TX",
+        "postalCode": "75002-3035"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23918"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23918.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:efad1b5e-5c08-59e8-9c9b-9ac3274fa469"
+}

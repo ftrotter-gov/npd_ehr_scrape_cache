@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5e8b10e3-86bd-516a-9f25-10821b815e81",
+    "name": "Border Pediatric",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/83495a95-452c-5585-9ddf-fd8523f6a9ef"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528683810"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10301 Gateway Blvd W"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79925-7701"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24611"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24611.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5e8b10e3-86bd-516a-9f25-10821b815e81"
+}

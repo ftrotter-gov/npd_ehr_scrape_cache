@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b8323e0d-9874-5ede-ab29-fa1dd55f467c",
+    "name": "Beth Israel",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4b81cc10-af55-57ba-83c3-da57d974d0a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407865439"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "77 Massachusetts Avenue",
+          "Building E23 Room 315"
+        ],
+        "city": "CAMBRIDGE",
+        "state": "MA",
+        "postalCode": "02139-4301"
+      },
+      {
+        "line": [
+          "330 Brookline Avenue"
+        ],
+        "city": "Boston",
+        "state": "MA",
+        "postalCode": "02215-5400"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-86"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-86.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b8323e0d-9874-5ede-ab29-fa1dd55f467c"
+}

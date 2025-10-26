@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f0bab066-913c-58b1-b1c0-2a094004ebef",
+    "name": "Hartford Cardiac Laboratory, P.C.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9ffeba30-a453-5717-bdbe-f2e3d78c4dee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174557227"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "85 Seymour Street",
+          "Suite 1022"
+        ],
+        "city": "HARTFORD",
+        "state": "CT",
+        "postalCode": "06106-5501"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-496"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-496.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f0bab066-913c-58b1-b1c0-2a094004ebef"
+}

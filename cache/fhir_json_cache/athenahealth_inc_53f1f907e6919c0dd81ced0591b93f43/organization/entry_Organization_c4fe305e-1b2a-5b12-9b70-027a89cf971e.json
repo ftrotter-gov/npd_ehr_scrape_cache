@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c4fe305e-1b2a-5b12-9b70-027a89cf971e",
+    "name": "Community Orthopedic Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/34804945-1bf8-5cff-8fdb-9d342ac8bbac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386684199"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 Jefferson Davis Blvd Ste 100"
+        ],
+        "city": "Natchez",
+        "state": "MS",
+        "postalCode": "39120-5120"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-15"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c4fe305e-1b2a-5b12-9b70-027a89cf971e"
+}

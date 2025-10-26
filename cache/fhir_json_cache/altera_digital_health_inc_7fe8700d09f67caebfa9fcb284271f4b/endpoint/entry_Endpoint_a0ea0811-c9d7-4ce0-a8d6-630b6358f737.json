@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a0ea0811-c9d7-4ce0-a8d6-630b6358f737",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "0ece3853-3c2c-4ce6-bcdc-e2cd8fe0b918",
+        "name": "MaineGeneral Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "MaineGeneral Health",
+    "managingOrganization": {
+      "reference": "#0ece3853-3c2c-4ce6-bcdc-e2cd8fe0b918"
+    },
+    "period": {
+      "start": "2023-09-20T20:35:58+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://pma0fhir.ma0.allscriptstw.com/R4/open-R4"
+  },
+  "fullUrl": "https://pma0fhir.ma0.allscriptstw.com/R4/open-R4"
+}

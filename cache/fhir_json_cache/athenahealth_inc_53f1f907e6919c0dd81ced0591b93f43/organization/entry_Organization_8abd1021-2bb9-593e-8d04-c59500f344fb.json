@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8abd1021-2bb9-593e-8d04-c59500f344fb",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/65b32983-28ea-5f4b-a8a9-cfead837015b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285826198"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5250 FAR HILLS AVE",
+          "SUITE 250"
+        ],
+        "city": "DAYTON",
+        "state": "OH",
+        "postalCode": "45429-2353"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14486"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14486.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8abd1021-2bb9-593e-8d04-c59500f344fb"
+}

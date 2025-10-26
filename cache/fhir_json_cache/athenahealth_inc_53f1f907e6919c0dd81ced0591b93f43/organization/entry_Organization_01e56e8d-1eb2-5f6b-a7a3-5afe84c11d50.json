@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "01e56e8d-1eb2-5f6b-a7a3-5afe84c11d50",
+    "name": "New York Eye Institute",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f124efca-f6e9-563c-a1ec-a76756ab3cf7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326267568"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "99 DUTCH HILL PLAZA"
+        ],
+        "city": "ORANGEBURG",
+        "state": "NY",
+        "postalCode": "10962-2185"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19757"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19757.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:01e56e8d-1eb2-5f6b-a7a3-5afe84c11d50"
+}

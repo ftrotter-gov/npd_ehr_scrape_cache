@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4cfc066e-3f3f-5c90-80a8-22189d1a3baa",
+    "name": "HENDRICK HEALTH SYSTEM",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/16cf0927-98cd-5b93-beb9-7d5e11935e4d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316957731"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 PINE STREET"
+        ],
+        "city": "ABILENE",
+        "state": "TX",
+        "postalCode": "79601-2432"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10613"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10613.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4cfc066e-3f3f-5c90-80a8-22189d1a3baa"
+}

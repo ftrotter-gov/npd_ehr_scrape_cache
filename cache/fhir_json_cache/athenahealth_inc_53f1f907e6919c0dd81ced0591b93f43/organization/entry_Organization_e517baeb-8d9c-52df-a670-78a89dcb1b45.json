@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e517baeb-8d9c-52df-a670-78a89dcb1b45",
+    "name": "Newberry County Memorial Hospital Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af78a6fa-84ae-5218-8b7f-23c43a225b33"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346249430"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2669 Kinard St"
+        ],
+        "city": "NEWBERRY",
+        "state": "SC",
+        "postalCode": "29108-2911"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10781"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10781.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e517baeb-8d9c-52df-a670-78a89dcb1b45"
+}

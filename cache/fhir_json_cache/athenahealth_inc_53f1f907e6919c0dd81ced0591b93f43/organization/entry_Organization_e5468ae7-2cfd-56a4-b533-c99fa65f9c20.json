@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5468ae7-2cfd-56a4-b533-c99fa65f9c20",
+    "name": "CVC Deer Valley",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8c383203-53df-5da3-a428-84fdf45706fc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023073525"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "19646 N. 27th Ave.",
+          "Suite 408"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85027-4028"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31664"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31664.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5468ae7-2cfd-56a4-b533-c99fa65f9c20"
+}

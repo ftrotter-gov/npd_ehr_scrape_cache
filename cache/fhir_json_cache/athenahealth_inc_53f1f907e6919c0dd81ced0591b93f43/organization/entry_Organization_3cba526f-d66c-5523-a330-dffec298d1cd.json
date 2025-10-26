@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3cba526f-d66c-5523-a330-dffec298d1cd",
+    "name": "HOUSECALLS 02",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4e7cc775-562a-5b7d-8c72-e94ec7f5105b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699317693"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4021 W 63RD ST"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60629-4642"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4021"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4021.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3cba526f-d66c-5523-a330-dffec298d1cd"
+}

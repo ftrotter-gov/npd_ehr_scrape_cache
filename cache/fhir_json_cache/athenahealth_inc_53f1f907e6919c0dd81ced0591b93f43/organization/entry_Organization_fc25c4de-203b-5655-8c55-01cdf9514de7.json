@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fc25c4de-203b-5655-8c55-01cdf9514de7",
+    "name": "Windsor House",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e59c0de5-304c-5ca7-9110-dca6224759d0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366658692"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3333 E Cherokee Drive"
+        ],
+        "city": "CANTON",
+        "state": "GA",
+        "postalCode": "30115-9229"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12389"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12389.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fc25c4de-203b-5655-8c55-01cdf9514de7"
+}

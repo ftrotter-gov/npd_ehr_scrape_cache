@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5b1e6ad3-211a-540a-8d37-f5dd88a64f8d",
+    "name": "Shipman Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b3092c19-2c4e-5be4-8168-2983682aaf3e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790807139"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 BRICKYARD LANE"
+        ],
+        "city": "YORK",
+        "state": "ME",
+        "postalCode": "03909-1681"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6460"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6460.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5b1e6ad3-211a-540a-8d37-f5dd88a64f8d"
+}

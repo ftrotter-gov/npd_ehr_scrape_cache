@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d75b530a-9a0f-555f-a9b2-5f27ccfa84f9",
+    "name": "REGIONAL HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35d3bb25-fd96-5ff8-b67b-69311f46987f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184746042"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "746",
+          "JEFFERSON AVE."
+        ],
+        "city": "SCRANTONSCRANTON",
+        "state": "PA",
+        "postalCode": "18510-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6392"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6392.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d75b530a-9a0f-555f-a9b2-5f27ccfa84f9"
+}

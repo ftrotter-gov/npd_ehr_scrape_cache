@@ -1,0 +1,73 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ad77a2c7-9524-5ccb-b0d1-7eec4b63731e",
+    "meta": {
+      "lastUpdated": "2024-08-28T00:07:15.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://cookhospital.org"
+      }
+    ],
+    "name": "Cook Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://cookhospital.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10 Southeast Fifth Street"
+        ],
+        "city": "Cook",
+        "state": "MN",
+        "postalCode": "55723",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:11e8feea-d5b0-5ce1-8112-f10e84577cf2"
+      },
+      {
+        "reference": "urn:uuid:267151ac-ce41-428a-80bc-16ed72fc9409"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:11e8feea-d5b0-5ce1-8112-f10e84577cf2"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:267151ac-ce41-428a-80bc-16ed72fc9409"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ad77a2c7-9524-5ccb-b0d1-7eec4b63731e"
+}

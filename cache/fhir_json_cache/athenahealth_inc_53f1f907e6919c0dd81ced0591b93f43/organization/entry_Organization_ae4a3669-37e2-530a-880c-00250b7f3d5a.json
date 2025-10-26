@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae4a3669-37e2-530a-880c-00250b7f3d5a",
+    "name": "Western Carteret Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8e8c584e-efe6-5dd3-89db-a8147ef9d2e7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447496112"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "718 CEDAR POINT BLVD"
+        ],
+        "city": "SWANSBORO",
+        "state": "NC",
+        "postalCode": "28584-8012"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25088"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25088.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae4a3669-37e2-530a-880c-00250b7f3d5a"
+}

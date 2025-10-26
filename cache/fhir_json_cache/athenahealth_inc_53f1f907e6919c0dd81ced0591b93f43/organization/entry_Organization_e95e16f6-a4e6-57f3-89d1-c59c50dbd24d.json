@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e95e16f6-a4e6-57f3-89d1-c59c50dbd24d",
+    "name": "Main Office-Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/80df1fc3-d76a-58a4-92c1-ec1d122f32b3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245667823"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "102 W 112TH ST"
+        ],
+        "city": "CUT OFF",
+        "state": "LA",
+        "postalCode": "70345-3628"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13021"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13021.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e95e16f6-a4e6-57f3-89d1-c59c50dbd24d"
+}

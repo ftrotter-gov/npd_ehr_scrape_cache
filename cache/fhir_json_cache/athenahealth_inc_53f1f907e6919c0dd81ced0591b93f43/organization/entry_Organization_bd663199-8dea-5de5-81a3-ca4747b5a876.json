@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bd663199-8dea-5de5-81a3-ca4747b5a876",
+    "name": "Patients Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4259b2db-f702-5fbb-b49b-9f60218d47ba"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811160575"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "65 Energy Rd."
+        ],
+        "city": "FLEMINGSBURG",
+        "state": "KY",
+        "postalCode": "41041-9806"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8163"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8163.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bd663199-8dea-5de5-81a3-ca4747b5a876"
+}

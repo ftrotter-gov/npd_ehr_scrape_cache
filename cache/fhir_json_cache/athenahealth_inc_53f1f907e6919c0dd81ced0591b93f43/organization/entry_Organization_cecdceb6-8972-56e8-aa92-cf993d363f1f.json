@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cecdceb6-8972-56e8-aa92-cf993d363f1f",
+    "name": "Ludlow Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26192c04-c2fb-5002-8406-eba19a5c8501"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730336843"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Elm Street"
+        ],
+        "city": "Ludlow",
+        "state": "VT",
+        "postalCode": "05149-1301"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24182"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24182.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cecdceb6-8972-56e8-aa92-cf993d363f1f"
+}

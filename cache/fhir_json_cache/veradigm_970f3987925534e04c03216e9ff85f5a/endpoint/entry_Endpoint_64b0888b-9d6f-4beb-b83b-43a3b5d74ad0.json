@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "64b0888b-9d6f-4beb-b83b-43a3b5d74ad0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "184f4d65-4187-406e-8eb3-83a8d9a8a7cf",
+        "name": "Brown Fertility"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Brown Fertility",
+    "managingOrganization": {
+      "reference": "#184f4d65-4187-406e-8eb3-83a8d9a8a7cf"
+    },
+    "period": {
+      "start": "2025-05-21T10:00:33+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10239843"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10239843"
+}

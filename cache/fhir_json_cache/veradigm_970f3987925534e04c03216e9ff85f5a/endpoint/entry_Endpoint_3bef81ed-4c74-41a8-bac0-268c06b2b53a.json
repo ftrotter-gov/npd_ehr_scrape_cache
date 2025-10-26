@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3bef81ed-4c74-41a8-bac0-268c06b2b53a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3d03b98b-ef33-4fbf-aaad-f15fe4dabb7d",
+        "name": "Ashchi Heart and Vascular Center PA"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Ashchi Heart and Vascular Center PA",
+    "managingOrganization": {
+      "reference": "#3d03b98b-ef33-4fbf-aaad-f15fe4dabb7d"
+    },
+    "period": {
+      "start": "2021-12-13T15:23:49+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10083716"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10083716"
+}

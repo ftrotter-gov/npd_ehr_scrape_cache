@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "130919c3-8223-590b-a535-acdabf9b6715",
+    "name": "Optimum Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c0b1e4d9-6c36-5afe-853b-8664382dd039"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710799465"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417723545"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6354 WALKER LN STE 350 # 3"
+        ],
+        "city": "ALEXANDRIA",
+        "state": "VA",
+        "postalCode": "22310-3256"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30467"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30467.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:130919c3-8223-590b-a535-acdabf9b6715"
+}

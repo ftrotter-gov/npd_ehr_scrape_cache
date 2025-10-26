@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8c51bc7c-e49f-5891-8615-520b08c8fbe6",
+    "name": "Northern Westchester Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7fa9a7c0-4331-5c76-8ca7-c751c8e6ea98"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316933872"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 E MAIN ST"
+        ],
+        "city": "MOUNT KISCO",
+        "state": "NY",
+        "postalCode": "10549-3417"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11998"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11998.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8c51bc7c-e49f-5891-8615-520b08c8fbe6"
+}

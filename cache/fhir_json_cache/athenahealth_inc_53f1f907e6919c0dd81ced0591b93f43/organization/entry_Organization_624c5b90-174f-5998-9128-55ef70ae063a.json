@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "624c5b90-174f-5998-9128-55ef70ae063a",
+    "name": "Monadnock Health Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f6457e8e-7cc5-5ac4-970e-234d952c40a1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194335570"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6 First Street"
+        ],
+        "city": "COLEBROOK",
+        "state": "NH",
+        "postalCode": "03576-3128"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22109"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22109.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:624c5b90-174f-5998-9128-55ef70ae063a"
+}

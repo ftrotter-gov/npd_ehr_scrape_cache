@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0bde8fe8-8ba2-55d0-b679-c92451661c20",
+    "name": "Concord Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f8577c29-e30a-5715-bf85-a08bdc611d24"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649236225"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 East Main Street"
+        ],
+        "city": "Concord",
+        "state": "VT",
+        "postalCode": "05824-0355"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28542"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28542.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0bde8fe8-8ba2-55d0-b679-c92451661c20"
+}

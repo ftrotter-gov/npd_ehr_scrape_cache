@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5615b18-d0f4-535f-ac40-273bcbdebee2",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://phelps.northwell.edu"
+      }
+    ],
+    "name": "Phelps Memorial Hospital Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://phelps.northwell.edu"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "701 North Broadway"
+        ],
+        "city": "Sleepy Hollow",
+        "state": "NY",
+        "postalCode": "10591",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:f0aadb66-b514-4b23-a1a0-e279e872371e"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:54f48d49-67b3-5af0-a61d-6b890fd347fc"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:f0aadb66-b514-4b23-a1a0-e279e872371e"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5615b18-d0f4-535f-ac40-273bcbdebee2"
+}

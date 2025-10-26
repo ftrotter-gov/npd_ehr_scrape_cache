@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d62e3ac-c159-56ba-840d-7e8e11eee929",
+    "name": "Fallon Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d553130c-2f61-5abd-a6c0-1a2e17915294"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811606189"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1077 NEW RIVER PKWY"
+        ],
+        "city": "FALLON",
+        "state": "NV",
+        "postalCode": "89406-6894"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31618"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31618.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d62e3ac-c159-56ba-840d-7e8e11eee929"
+}

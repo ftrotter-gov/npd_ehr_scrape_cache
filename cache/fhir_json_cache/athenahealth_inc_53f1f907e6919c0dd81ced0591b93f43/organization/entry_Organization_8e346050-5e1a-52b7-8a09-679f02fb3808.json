@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8e346050-5e1a-52b7-8a09-679f02fb3808",
+    "name": "Dr. McDermott",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dcf2e328-5d69-5e54-932e-d83910662343"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285159798"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3 HONEY HOLLOW ROAD"
+        ],
+        "city": "QUEENSBURY",
+        "state": "NY",
+        "postalCode": "12804-9117"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16498"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16498.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8e346050-5e1a-52b7-8a09-679f02fb3808"
+}

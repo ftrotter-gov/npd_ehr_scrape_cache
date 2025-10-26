@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "53c0214b-a59d-5543-99e5-636ac5a3aed4",
+    "name": "Dr. Kagan's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf2666b4-3343-5f1c-9e37-73472ac65c13"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265642185"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13320 RIVERSIDE DRIVE",
+          "SUITE 100"
+        ],
+        "city": "SHERMAN OAKS",
+        "state": "CA",
+        "postalCode": "91423-2519"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14588"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14588.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:53c0214b-a59d-5543-99e5-636ac5a3aed4"
+}

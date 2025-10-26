@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "55a5d4a3-427d-562c-a168-d9ea6368ddbe",
+    "name": "ID Specialists PA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6f2719dc-2d40-54f0-9413-824574eb30d2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962523852"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7777 FOREST LANE",
+          "SUITE B-412"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75230-1000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26987"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26987.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:55a5d4a3-427d-562c-a168-d9ea6368ddbe"
+}

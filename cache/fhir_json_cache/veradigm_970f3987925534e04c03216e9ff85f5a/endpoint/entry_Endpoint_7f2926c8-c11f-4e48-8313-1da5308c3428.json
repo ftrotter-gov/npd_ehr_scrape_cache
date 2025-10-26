@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "7f2926c8-c11f-4e48-8313-1da5308c3428",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "24f485a0-ae15-4b2f-997b-ad4ec6369eb1",
+        "name": "Family Care of Fairview, PA"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Family Care of Fairview, PA",
+    "managingOrganization": {
+      "reference": "#24f485a0-ae15-4b2f-997b-ad4ec6369eb1"
+    },
+    "period": {
+      "start": "2018-09-18T12:58:41+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0008445"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0008445"
+}

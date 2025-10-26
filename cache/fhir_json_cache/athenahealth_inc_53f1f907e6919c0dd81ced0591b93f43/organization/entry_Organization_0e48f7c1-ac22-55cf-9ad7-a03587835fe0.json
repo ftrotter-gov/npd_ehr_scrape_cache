@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0e48f7c1-ac22-55cf-9ad7-a03587835fe0",
+    "name": "THE HELPER CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/750ae1fc-2c17-5e8a-9744-06424c2d49da"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497717821"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "125 S. MAIN STREET"
+        ],
+        "city": "HELPER",
+        "state": "UT",
+        "postalCode": "84526-0525"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12888"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12888.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0e48f7c1-ac22-55cf-9ad7-a03587835fe0"
+}

@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0JJ-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0JJ"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Paul Mitchell Pain Management",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8434158511"
+      },
+      {
+        "system": "fax",
+        "value": "8008200148"
+      }
+    ],
+    "address": [
+      {
+        "text": "15 Moss Creek Village Hilton Head Island SC 29926 US",
+        "line": [
+          "15 Moss Creek Village"
+        ],
+        "city": "Hilton Head Island",
+        "state": "SC",
+        "postalCode": "29926",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0JJ-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0JJ-Organization-2"
+}

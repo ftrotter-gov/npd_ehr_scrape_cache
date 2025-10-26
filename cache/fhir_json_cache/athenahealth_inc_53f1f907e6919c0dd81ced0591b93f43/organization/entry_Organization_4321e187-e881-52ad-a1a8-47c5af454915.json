@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4321e187-e881-52ad-a1a8-47c5af454915",
+    "name": "Sutter Auburn Faith Hospital Wound Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/deff342c-fa46-5326-bb07-21bf2a9fc43e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861867855"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11775 Education St.",
+          "suite 22"
+        ],
+        "city": "AUBURN",
+        "state": "CA",
+        "postalCode": "95602-2453"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13768"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13768.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4321e187-e881-52ad-a1a8-47c5af454915"
+}

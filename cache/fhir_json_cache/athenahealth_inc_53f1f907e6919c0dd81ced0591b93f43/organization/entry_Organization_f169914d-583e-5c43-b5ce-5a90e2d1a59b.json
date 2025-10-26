@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f169914d-583e-5c43-b5ce-5a90e2d1a59b",
+    "name": "CareATC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/060f341f-66f6-5988-bffd-56bb84d21170"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114378106"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2700 AVENGER DR",
+          "STE 109"
+        ],
+        "city": "VIRGINIA BEACH",
+        "state": "VA",
+        "postalCode": "23452-7394"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17374"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17374.Brand-21"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f169914d-583e-5c43-b5ce-5a90e2d1a59b"
+}

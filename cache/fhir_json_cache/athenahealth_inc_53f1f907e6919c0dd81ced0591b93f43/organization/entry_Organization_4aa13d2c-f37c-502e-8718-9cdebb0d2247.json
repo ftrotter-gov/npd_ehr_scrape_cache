@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4aa13d2c-f37c-502e-8718-9cdebb0d2247",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/81801141-fabd-5264-b9a0-d1889a4335d4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861743619"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 W HIGGINS RD SUITE 470"
+        ],
+        "city": "HOFFMAN ESTATES",
+        "state": "IL",
+        "postalCode": "60169-7208"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7450"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7450.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4aa13d2c-f37c-502e-8718-9cdebb0d2247"
+}

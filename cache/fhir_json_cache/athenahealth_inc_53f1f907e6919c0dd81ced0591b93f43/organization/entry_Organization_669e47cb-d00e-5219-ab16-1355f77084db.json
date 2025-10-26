@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "669e47cb-d00e-5219-ab16-1355f77084db",
+    "name": "Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a2a244d-f310-5b38-b910-f3eb3991b2fa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982131785"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "74000 COUNTRY CLUB DR. G-3"
+        ],
+        "city": "PALM DESERT",
+        "state": "CA",
+        "postalCode": "92260-1685"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20806"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20806.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:669e47cb-d00e-5219-ab16-1355f77084db"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3c66acd7-05a0-5acd-afea-d5c8afc07d0a",
+    "name": "Wayne Memorial Surgical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4fee5531-30f9-5707-90fc-b0fa316ba59b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124026182"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 MAPLE AVE",
+          "SUITE 1"
+        ],
+        "city": "HONESDALE",
+        "state": "PA",
+        "postalCode": "18431-1445"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30200"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30200.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3c66acd7-05a0-5acd-afea-d5c8afc07d0a"
+}

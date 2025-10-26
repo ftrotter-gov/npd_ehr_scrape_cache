@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e3b488ea-3f99-5c3e-a4ad-61aa3af38909",
+    "name": "FaithCare Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/204a67da-147c-5603-8dbe-3716934d5a72"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689485468"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1003 BISHOP ST",
+          "# Suite 460"
+        ],
+        "city": "HONOLULU",
+        "state": "HI",
+        "postalCode": "96813-6400"
+      },
+      {
+        "line": [
+          "94-366 PUPUPANI ST",
+          "SUITE 212"
+        ],
+        "city": "WAIPAHU",
+        "state": "HI",
+        "postalCode": "96797-2650"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33500"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33500.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e3b488ea-3f99-5c3e-a4ad-61aa3af38909"
+}

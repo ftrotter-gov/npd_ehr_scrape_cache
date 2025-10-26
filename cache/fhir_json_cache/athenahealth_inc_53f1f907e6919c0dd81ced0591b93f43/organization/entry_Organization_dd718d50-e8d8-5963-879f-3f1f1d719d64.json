@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dd718d50-e8d8-5963-879f-3f1f1d719d64",
+    "name": "ORL, Inc.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/79821849-df2c-587d-b668-1efb589817e3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790846434"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1853 W Main Street"
+        ],
+        "city": "TROY",
+        "state": "OH",
+        "postalCode": "45373-2303"
+      },
+      {
+        "line": [
+          "1103 Fairington Drive"
+        ],
+        "city": "SIDNEY",
+        "state": "OH",
+        "postalCode": "45365-8130"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-592"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-592.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dd718d50-e8d8-5963-879f-3f1f1d719d64"
+}

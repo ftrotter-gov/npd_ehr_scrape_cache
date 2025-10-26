@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "092ce18a-d2ed-4e7c-af54-3eeb10ef9d18",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "0976fc26-8733-4bd5-9131-a8c9a71c9104",
+        "name": "Coksaygan Medical"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Coksaygan Medical",
+    "managingOrganization": {
+      "reference": "#0976fc26-8733-4bd5-9131-a8c9a71c9104"
+    },
+    "period": {
+      "start": "2018-11-27T08:53:18+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/9653"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/9653"
+}

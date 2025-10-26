@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fdcb49b8-db36-5648-9311-121e2d144c28",
+    "name": "Fresenius Avondale Dialysis",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3a28b0b8-1028-5489-9e7c-cb9563dcf4bf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013962729"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10750 W McDowell Rd",
+          "Bldg E-200"
+        ],
+        "city": "AVONDALE",
+        "state": "AZ",
+        "postalCode": "85392-5960"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6761"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6761.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fdcb49b8-db36-5648-9311-121e2d144c28"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3ed3781c-aef2-528a-8bac-cbfefc7917d6",
+    "name": "LWSS Bellevue",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/317823d1-dcf3-54c0-8d5f-13f42c81fe23"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992074066"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 116TH AVE NE",
+          "SUTE 206"
+        ],
+        "city": "BELLEVUE",
+        "state": "WA",
+        "postalCode": "98004-3056"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3999"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3999.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3ed3781c-aef2-528a-8bac-cbfefc7917d6"
+}

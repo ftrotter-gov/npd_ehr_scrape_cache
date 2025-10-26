@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d0362b8-1d0c-5c2a-90ec-a1ad816e7410",
+    "name": "Lakeshore Village Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/87d1c252-a7ca-54d7-8630-fb2505dcd91c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932210838"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2320 Lake Shore Dr"
+        ],
+        "city": "WACO",
+        "state": "TX",
+        "postalCode": "76708-1276"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9635"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9635.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d0362b8-1d0c-5c2a-90ec-a1ad816e7410"
+}

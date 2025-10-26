@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d2daef10-d9fd-5579-9690-e2da43ff418f",
+    "name": "Mills Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d499ccce-a5e4-52b1-8936-bb1de6a73038"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831484526"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 s. san mateo drive"
+        ],
+        "city": "SAN MATEO",
+        "state": "CA",
+        "postalCode": "94404-1296"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16278"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16278.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d2daef10-d9fd-5579-9690-e2da43ff418f"
+}

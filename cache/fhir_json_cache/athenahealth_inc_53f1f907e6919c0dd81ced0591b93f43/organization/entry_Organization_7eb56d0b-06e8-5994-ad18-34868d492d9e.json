@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7eb56d0b-06e8-5994-ad18-34868d492d9e",
+    "name": "FIRST STREET HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df38c850-a804-526c-ab4a-b5169a70397c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497795272"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4801 BISSONNET"
+        ],
+        "city": "BELLAIRE",
+        "state": "TX",
+        "postalCode": "77401-4028"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-702"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-702.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7eb56d0b-06e8-5994-ad18-34868d492d9e"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "24ba778b-6f29-512f-8220-c9f5fcdc0cb4",
+    "name": "Shady Grove Adventist Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/902a21c5-e602-5d22-b84f-b32ae897cada"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144252859"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972922920"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9901 MEDICAL CENTER DR"
+        ],
+        "city": "ROCKVILLE",
+        "state": "MD",
+        "postalCode": "20850-3357"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8994"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8994.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:24ba778b-6f29-512f-8220-c9f5fcdc0cb4"
+}

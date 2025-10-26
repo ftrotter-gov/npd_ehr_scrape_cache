@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "45c9c82c-9695-56af-8871-2fdfa608f7c2",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://monvalleyhospital.com"
+      }
+    ],
+    "name": "Monongahela Valley Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://monvalleyhospital.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1163 Country Club Road"
+        ],
+        "city": "Monongahela",
+        "state": "PA",
+        "postalCode": "15063",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:26e50d3b-c134-4d0e-a384-95b5f128fedb"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:6ee11a3c-ddeb-518a-ac02-4b52df3d8666"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:26e50d3b-c134-4d0e-a384-95b5f128fedb"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:45c9c82c-9695-56af-8871-2fdfa608f7c2"
+}

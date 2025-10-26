@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cff0f016-2ad2-5276-999b-a5023815563d",
+    "name": "Triple S Salud",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/296d5592-679a-551a-8e70-7a44c602eec9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649960022"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "405 CONSTITUTION AVENUE"
+        ],
+        "city": "SAN JUAN",
+        "state": "PR",
+        "postalCode": "00901-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29290"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29290.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cff0f016-2ad2-5276-999b-a5023815563d"
+}

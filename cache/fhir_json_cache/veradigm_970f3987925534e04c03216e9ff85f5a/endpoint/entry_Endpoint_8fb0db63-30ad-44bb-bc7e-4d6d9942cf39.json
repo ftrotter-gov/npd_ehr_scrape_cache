@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "8fb0db63-30ad-44bb-bc7e-4d6d9942cf39",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e3197bc1-9cba-44ff-93d7-8fa37f40f118",
+        "name": "South Baldwin Pediatrics"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "South Baldwin Pediatrics",
+    "managingOrganization": {
+      "reference": "#e3197bc1-9cba-44ff-93d7-8fa37f40f118"
+    },
+    "period": {
+      "start": "2018-10-16T06:40:09+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75219"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75219"
+}

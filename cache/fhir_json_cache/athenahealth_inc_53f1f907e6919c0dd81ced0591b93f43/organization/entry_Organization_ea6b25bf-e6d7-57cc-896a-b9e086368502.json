@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ea6b25bf-e6d7-57cc-896a-b9e086368502",
+    "name": "Dr. Erol's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/694a77b3-a041-59fa-969f-396226347834"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205217304"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "901 WETHERSFIELD AVE.",
+          "SECOND FLOOR"
+        ],
+        "city": "HARTFORD",
+        "state": "CT",
+        "postalCode": "06114-3127"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12498"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12498.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ea6b25bf-e6d7-57cc-896a-b9e086368502"
+}

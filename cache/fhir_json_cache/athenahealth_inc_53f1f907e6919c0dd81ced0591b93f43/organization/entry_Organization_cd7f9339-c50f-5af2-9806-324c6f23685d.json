@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cd7f9339-c50f-5af2-9806-324c6f23685d",
+    "name": "Med Surg",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0322cebd-ba8a-5260-a281-f57f4c2580ea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073799367"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477648178"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 North Hwy 21"
+        ],
+        "city": "PILOT KNOB",
+        "state": "MO",
+        "postalCode": "63663-0548"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16878"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16878.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cd7f9339-c50f-5af2-9806-324c6f23685d"
+}

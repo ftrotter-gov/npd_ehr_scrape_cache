@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "831c3010-288f-57c2-a710-2b067617eb85",
+    "name": "Wagoner Family Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/950e50c0-4abd-5844-873b-fed1e5465979"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396454484"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          " 1023 N MOUND STREET",
+          " SUITE E"
+        ],
+        "city": "NACOGDOCHES",
+        "state": "TX",
+        "postalCode": "75961-4453"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27888"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27888.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:831c3010-288f-57c2-a710-2b067617eb85"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d6c4a8cc-f469-53b1-a1ff-25b08835c842",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e066206-7ef4-5f28-b7a0-3979da1c7816"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396323143"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "28 RIVERSIDE DRIVE",
+          "SUITE 101"
+        ],
+        "city": "PEMBROKE",
+        "state": "MA",
+        "postalCode": "02359-4947"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23930"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23930.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d6c4a8cc-f469-53b1-a1ff-25b08835c842"
+}

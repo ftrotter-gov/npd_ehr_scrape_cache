@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a5294ef2-ac3e-589e-aaf2-fa8dc6fa38c1",
+    "name": "TELEHEALTH",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f8df8648-a6df-5a43-abc5-3d34631285a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780807859"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174763619"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "105 chestnut street suite 26"
+        ],
+        "city": "NEEDHAM",
+        "state": "MA",
+        "postalCode": "02492-2599"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-422"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-422.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a5294ef2-ac3e-589e-aaf2-fa8dc6fa38c1"
+}

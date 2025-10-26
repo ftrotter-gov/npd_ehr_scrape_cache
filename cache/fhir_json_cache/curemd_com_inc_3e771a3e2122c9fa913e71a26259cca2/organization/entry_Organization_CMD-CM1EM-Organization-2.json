@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1EM-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1EM"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Douglas County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4024447471"
+      },
+      {
+        "system": "fax",
+        "value": "4025460709"
+      },
+      {
+        "system": "url",
+        "value": "https://www.douglascountyhealth.com/"
+      }
+    ],
+    "address": [
+      {
+        "text": "1111 S 41st St Suite 210 Omaha NE 68105 US",
+        "line": [
+          "1111 S 41st St",
+          "Suite 210"
+        ],
+        "city": "Omaha",
+        "state": "NE",
+        "postalCode": "68105",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1EM-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1EM-Organization-2"
+}

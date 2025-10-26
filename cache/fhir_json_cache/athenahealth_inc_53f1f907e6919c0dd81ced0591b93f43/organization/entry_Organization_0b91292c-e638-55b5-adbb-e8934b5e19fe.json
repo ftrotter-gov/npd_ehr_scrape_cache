@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0b91292c-e638-55b5-adbb-e8934b5e19fe",
+    "name": "PATIENT HOME",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7e9235c0-6610-5463-a904-562ee13ae514"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497014476"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2025 E BELTLINE SUITE 200"
+        ],
+        "city": "GRAND RAPIDS",
+        "state": "MI",
+        "postalCode": "49546-5783"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16329"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16329.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0b91292c-e638-55b5-adbb-e8934b5e19fe"
+}

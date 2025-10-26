@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e9454df-e94a-5123-887b-9028c81ed99a",
+    "name": "FITT Medical Clinic PLLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a42e35d-6286-505c-818c-6a3dc0b3389b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568211928"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "575 18TH ST",
+          "SUITE 4"
+        ],
+        "city": "BEAUMONT",
+        "state": "TX",
+        "postalCode": "77706-5031"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31727"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31727.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e9454df-e94a-5123-887b-9028c81ed99a"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e2bd3b4f-886e-5857-add8-6411f924d431",
+    "name": "Bayonne Medical Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c2eff6eb-281b-5571-a289-d0040d388b16"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437382231"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "415 AVENEL ST"
+        ],
+        "city": "AVENEL",
+        "state": "NJ",
+        "postalCode": "07001-1281"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32400"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32400.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e2bd3b4f-886e-5857-add8-6411f924d431"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d0c9aa5e-b51e-5409-b319-c5c4fb9426fe",
+    "name": "Hope Family Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/60ce27ea-0544-5057-879c-e2a93804a847"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2332 JORDAN AVE"
+        ],
+        "city": "MCALLEN",
+        "state": "TX",
+        "postalCode": "78503-7822"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18763"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18763.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d0c9aa5e-b51e-5409-b319-c5c4fb9426fe"
+}

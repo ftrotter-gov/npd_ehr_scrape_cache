@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2710aaf7-60f5-51bf-babb-d058ecdf4258",
+    "name": "Dr. Brooks",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/380ab483-4cf7-5600-917d-63806b6dee0c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225117211"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4710 AUTH PLACE",
+          "SUITE 120"
+        ],
+        "city": "SUITLAND",
+        "state": "MD",
+        "postalCode": "20746-4223"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21557"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21557.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2710aaf7-60f5-51bf-babb-d058ecdf4258"
+}

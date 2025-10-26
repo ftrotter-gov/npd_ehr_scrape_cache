@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "6e4ccf58-21a5-4b4d-bea4-18687dec85f4",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "05e73a91-dc10-41f2-9524-fbf97a7c8a6c",
+        "name": "Belleville Pediatrics"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Belleville Pediatrics",
+    "managingOrganization": {
+      "reference": "#05e73a91-dc10-41f2-9524-fbf97a7c8a6c"
+    },
+    "period": {
+      "start": "2018-09-27T04:20:22+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75557"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75557"
+}

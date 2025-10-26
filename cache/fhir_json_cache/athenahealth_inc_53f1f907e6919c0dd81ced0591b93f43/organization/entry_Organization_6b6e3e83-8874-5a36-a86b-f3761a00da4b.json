@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b6e3e83-8874-5a36-a86b-f3761a00da4b",
+    "name": "Texas Rehab of Keller",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7c25a7e9-9979-55a6-b430-d95ee1d2c97a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235535105"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "791 South Main street"
+        ],
+        "city": "KELLER",
+        "state": "TX",
+        "postalCode": "76248-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16562"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16562.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b6e3e83-8874-5a36-a86b-f3761a00da4b"
+}

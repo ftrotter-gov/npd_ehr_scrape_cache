@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7b0c9332-a191-5494-992b-fc783ac8d8f1",
+    "name": "Western Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/722b1314-1eb9-54e0-a5d2-4ab9a09000a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477504579"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9727 SOUTH WESTERN"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60643-1723"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6720"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6720.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7b0c9332-a191-5494-992b-fc783ac8d8f1"
+}

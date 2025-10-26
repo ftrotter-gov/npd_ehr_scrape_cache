@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e6f931c3-6287-5f7f-a2e5-20eb7d4eb053",
+    "name": "Amsterdam Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2766c22e-d502-5cf7-b29f-138ae4354765"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790894475"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1060 AMSTERDAM AVENUE"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10025-1715"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15610"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15610.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e6f931c3-6287-5f7f-a2e5-20eb7d4eb053"
+}

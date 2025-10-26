@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7838a8da-c1fa-589e-a7db-625e14589cdd",
+    "name": "Health center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b451c5f5-e933-54ea-a252-04de91fba3df"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477563518"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336150051"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1850 Spring Ridge Drive"
+        ],
+        "city": "SUSANVILLE",
+        "state": "CA",
+        "postalCode": "96130-6109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12850"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12850.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7838a8da-c1fa-589e-a7db-625e14589cdd"
+}

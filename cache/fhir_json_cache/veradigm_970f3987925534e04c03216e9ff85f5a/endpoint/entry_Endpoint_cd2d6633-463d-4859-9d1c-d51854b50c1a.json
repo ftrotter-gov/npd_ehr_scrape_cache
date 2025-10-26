@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "cd2d6633-463d-4859-9d1c-d51854b50c1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "1a350067-2f70-48b4-8de7-f4dac8fdc84b",
+        "name": "Fallbrook Family Health Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Fallbrook Family Health Care",
+    "managingOrganization": {
+      "reference": "#1a350067-2f70-48b4-8de7-f4dac8fdc84b"
+    },
+    "period": {
+      "start": "2019-03-25T20:11:28+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10235808"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10235808"
+}

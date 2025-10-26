@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "89c75853-79e8-5599-a74e-78beeef2336c",
+    "name": "Kidney Care Center El Paso",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7a35c2cd-ad53-56d8-9908-e690ce3151cd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982079596"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 Medical Center",
+          "Suite 214"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79902-5008"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13093"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13093.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:89c75853-79e8-5599-a74e-78beeef2336c"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dfda7c60-877b-5e86-a1d7-39fc01a9cf71",
+    "name": "eHealth Medical Systems LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/29a7c046-6389-587b-8cce-3c27b5a76dc1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386986859"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 MAIN STREET"
+        ],
+        "city": "CLIO",
+        "state": "SC",
+        "postalCode": "29525-3001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19344"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19344.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dfda7c60-877b-5e86-a1d7-39fc01a9cf71"
+}

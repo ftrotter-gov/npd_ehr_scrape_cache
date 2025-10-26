@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjAzXzIwM18zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "86.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750509022"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Lighthouse Pediatrics PC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "212-781-0800",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "212-928-2161",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "160 BENNETT AVENUE NEW YORK, NY 10040-3803",
+        "line": [
+          "160 BENNETT AVENUE"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10040-3803",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjAzXzIwM18zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjAzXzIwM18zMDYw"
+}

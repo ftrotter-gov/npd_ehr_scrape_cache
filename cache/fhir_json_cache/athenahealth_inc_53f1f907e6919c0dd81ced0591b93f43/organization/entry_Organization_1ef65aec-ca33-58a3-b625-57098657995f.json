@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ef65aec-ca33-58a3-b625-57098657995f",
+    "name": "Conway Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3523b929-9b49-53a3-8585-3ec7db4bcd1a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710948716"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 SINGLETON RIDGE RD"
+        ],
+        "city": "CONWAY",
+        "state": "SC",
+        "postalCode": "29526-8965"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14811"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14811.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ef65aec-ca33-58a3-b625-57098657995f"
+}

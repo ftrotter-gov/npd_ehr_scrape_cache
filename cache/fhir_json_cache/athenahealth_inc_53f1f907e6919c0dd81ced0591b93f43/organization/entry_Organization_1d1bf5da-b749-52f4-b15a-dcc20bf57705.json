@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d1bf5da-b749-52f4-b15a-dcc20bf57705",
+    "name": "JFK MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ee260ba-ec8d-51c9-b4e1-616b509c388b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780845651"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "65 JAMES STREET"
+        ],
+        "city": "EDISON",
+        "state": "NJ",
+        "postalCode": "08818-3972"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11579.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d1bf5da-b749-52f4-b15a-dcc20bf57705"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "59f9e4a8-1c7e-58ca-add7-b060376eff2d",
+    "name": "Equity Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1bddf6fe-765a-5daf-9b51-d0c795b1476a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578275335"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2111 West Park Court"
+        ],
+        "city": "CHAMPAIGN",
+        "state": "IL",
+        "postalCode": "61821-2986"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27494"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27494.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:59f9e4a8-1c7e-58ca-add7-b060376eff2d"
+}

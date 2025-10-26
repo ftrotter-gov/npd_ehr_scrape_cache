@@ -1,0 +1,52 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a24216e4-9f97-44ff-be2a-2735cb1e0edb",
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/endpoint-fhir-version",
+        "valueCode": "4.0.1"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "San Diego Ear, Nose & Throat Specialists MyChart",
+    "managingOrganization": {
+      "identifier": {
+        "system": "https://fhir.epic.com/Developer/Management/OrganizationId",
+        "value": "1005"
+      },
+      "display": "UC San Diego Health"
+    },
+    "contact": [
+      {
+        "system": "url",
+        "value": "https://open.epic.com"
+      }
+    ],
+    "period": {
+      "start": "2025-05-14T00:00:00-05:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+            "code": "none"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et0502.epichosted.com/FhirProxy/UCIHEALTH/api/FHIR/R4"
+  },
+  "fullUrl": "urn:uuid:a24216e4-9f97-44ff-be2a-2735cb1e0edb"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cab35f2c-8f20-5a75-8cb5-7cd3d9344fe1",
+    "name": "MVMC_Medical Center ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a2520fc-c922-587a-b2aa-21c8c4f36f83"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447200126"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "28400 McCall Blvd"
+        ],
+        "city": "SUN CITY",
+        "state": "CA",
+        "postalCode": "92585-9658"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cab35f2c-8f20-5a75-8cb5-7cd3d9344fe1"
+}

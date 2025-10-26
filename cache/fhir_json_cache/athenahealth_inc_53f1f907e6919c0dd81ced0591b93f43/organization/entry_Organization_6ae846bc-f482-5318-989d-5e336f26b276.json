@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6ae846bc-f482-5318-989d-5e336f26b276",
+    "name": "Dallas Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e678f632-589b-5684-bf87-95261d483c16"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922450170"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1011 N Galloway Ave"
+        ],
+        "city": "MESQUITE",
+        "state": "TX",
+        "postalCode": "75149-2433"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16630"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16630.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6ae846bc-f482-5318-989d-5e336f26b276"
+}

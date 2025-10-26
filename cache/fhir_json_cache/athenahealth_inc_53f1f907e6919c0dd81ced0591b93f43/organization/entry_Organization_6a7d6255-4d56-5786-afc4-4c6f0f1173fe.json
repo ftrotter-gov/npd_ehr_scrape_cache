@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a7d6255-4d56-5786-afc4-4c6f0f1173fe",
+    "name": "Del Sol Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/03dbe9a5-391c-53f3-8ee0-55fefca4e88d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295989127"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1330 East Yandell Dr."
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79902-5529"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11036"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11036.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a7d6255-4d56-5786-afc4-4c6f0f1173fe"
+}

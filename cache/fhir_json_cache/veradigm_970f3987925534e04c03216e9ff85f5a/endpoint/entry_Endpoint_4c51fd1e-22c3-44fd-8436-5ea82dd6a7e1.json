@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4c51fd1e-22c3-44fd-8436-5ea82dd6a7e1",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "ff2d54b5-c2a5-4db9-89f9-ec465a32f4df",
+        "name": "Central Carolina Community Family Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Central Carolina Community Family Care",
+    "managingOrganization": {
+      "reference": "#ff2d54b5-c2a5-4db9-89f9-ec465a32f4df"
+    },
+    "period": {
+      "start": "2018-12-04T09:08:29+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/73500"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/73500"
+}

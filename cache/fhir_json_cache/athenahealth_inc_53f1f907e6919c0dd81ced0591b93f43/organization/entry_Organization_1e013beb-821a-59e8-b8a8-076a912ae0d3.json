@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1e013beb-821a-59e8-b8a8-076a912ae0d3",
+    "name": "Fulton Family Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c985f289-70d6-5b68-a386-d7dab233889e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255361978"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "302 Hospital Road"
+        ],
+        "city": "Fulton",
+        "state": "MS",
+        "postalCode": "38843-6002"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1e013beb-821a-59e8-b8a8-076a912ae0d3"
+}

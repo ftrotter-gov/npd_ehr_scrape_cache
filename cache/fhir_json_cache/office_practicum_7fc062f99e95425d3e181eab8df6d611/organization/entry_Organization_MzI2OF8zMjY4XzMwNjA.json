@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MzI2OF8zMjY4XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1214.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720979651"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Corvallis Pediatrics LLC OR",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "541-725-5538",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "458-201-6785",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "1873 NW Kings Blvd Ste A Corvallis, OR 973301907",
+        "line": [
+          "1873 NW Kings Blvd",
+          "Ste A"
+        ],
+        "city": "Corvallis",
+        "state": "OR",
+        "postalCode": "973301907",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MzI2OF8zMjY4XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MzI2OF8zMjY4XzMwNjA"
+}

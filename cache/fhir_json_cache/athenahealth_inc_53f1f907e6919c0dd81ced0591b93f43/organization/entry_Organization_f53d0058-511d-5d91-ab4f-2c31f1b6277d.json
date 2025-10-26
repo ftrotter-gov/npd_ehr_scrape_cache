@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f53d0058-511d-5d91-ab4f-2c31f1b6277d",
+    "name": "KershawHealth Spine PDT IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e253ae7e-c61d-5beb-8a54-ad588b9b743b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033593454"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2435 Forest Dr"
+        ],
+        "city": "COLUMBIA",
+        "state": "SC",
+        "postalCode": "29204-2026"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11951"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11951.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f53d0058-511d-5d91-ab4f-2c31f1b6277d"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2d4313ae-fb73-45fa-8852-e80cec7c6f20",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4977ad1c-6b40-4a04-aedc-7229e19e4006",
+        "name": "Zubritzky  Christy ObGyn AssocPA"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Zubritzky  Christy ObGyn AssocPA",
+    "managingOrganization": {
+      "reference": "#4977ad1c-6b40-4a04-aedc-7229e19e4006"
+    },
+    "period": {
+      "start": "2019-01-03T09:43:06+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77777"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77777"
+}

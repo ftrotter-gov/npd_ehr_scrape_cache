@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4191e67e-7b0d-5f3c-84fb-4344449bcef8",
+    "name": "Home Visits",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d94b6bc2-d05a-50cd-b9e6-476d03d8fd2c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063535391"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609903004"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "404 N Cayuga Street"
+        ],
+        "city": "ITHACA",
+        "state": "NY",
+        "postalCode": "14850-4219"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14564"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14564.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4191e67e-7b0d-5f3c-84fb-4344449bcef8"
+}

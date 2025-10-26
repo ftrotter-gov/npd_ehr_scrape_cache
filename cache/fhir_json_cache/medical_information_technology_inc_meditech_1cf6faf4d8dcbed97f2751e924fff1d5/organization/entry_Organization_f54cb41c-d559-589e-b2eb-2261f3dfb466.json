@@ -1,0 +1,65 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f54cb41c-d559-589e-b2eb-2261f3dfb466",
+    "meta": {
+      "lastUpdated": "2025-10-10T23:06:41.000Z"
+    },
+    "name": "Schroeder Ambulatory Centre",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "asked-unknown"
+          }
+        ]
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9355 Leslie Street"
+        ],
+        "city": "Richmond Hills",
+        "state": "ON",
+        "postalCode": "L4B 3B6",
+        "country": [
+          "Canada",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:edc0c058-17c6-59c3-ab2b-7cd4bb8adbde"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:edc0c058-17c6-59c3-ab2b-7cd4bb8adbde"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f54cb41c-d559-589e-b2eb-2261f3dfb466"
+}

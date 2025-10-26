@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2bf73f2f-eb29-56dd-974e-89a4d69f6cb3",
+    "name": "Coffee Road Medical Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/037cd686-22a9-5a2d-b1b2-c384aec3ac96"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356830947"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 COFFEE RD STE B"
+        ],
+        "city": "MODESTO",
+        "state": "CA",
+        "postalCode": "95355-4926"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17371"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17371.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2bf73f2f-eb29-56dd-974e-89a4d69f6cb3"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "82dc4603-fe70-5752-95cc-fe20abe03189",
+    "name": "New Mexico Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bc12cc8c-ae4c-5592-b99a-61bbe468cbba"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508643479"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2005 W US ROUTE 66 STE A"
+        ],
+        "city": "MORIARTY",
+        "state": "NM",
+        "postalCode": "87035-1007"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31386"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31386.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:82dc4603-fe70-5752-95cc-fe20abe03189"
+}

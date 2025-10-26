@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "30a42636-e17a-55f1-af0f-3a9727f68bb5",
+    "name": "NewYork-Presbyterian Medical Group Brooklyn Heights",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d4398b3-4631-56f3-8b92-ee64e6d59c69"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083045090"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "38 6th Avenue"
+        ],
+        "city": "Brooklyn",
+        "state": "NY",
+        "postalCode": "11217-4187"
+      },
+      {
+        "line": [
+          "50 Court Street",
+          "6th Floor"
+        ],
+        "city": "Brooklyn",
+        "state": "NY",
+        "postalCode": "11201-4879"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:30a42636-e17a-55f1-af0f-3a9727f68bb5"
+}

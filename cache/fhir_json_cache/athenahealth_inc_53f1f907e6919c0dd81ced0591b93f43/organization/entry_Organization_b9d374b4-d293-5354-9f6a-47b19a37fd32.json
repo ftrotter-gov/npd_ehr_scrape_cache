@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9d374b4-d293-5354-9f6a-47b19a37fd32",
+    "name": "Carlsbad Medical Center Physicians",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e802bc6e-d417-5500-a61f-83821f40847d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598446171"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2430 W PIERCE ST"
+        ],
+        "city": "CARLSBAD",
+        "state": "NM",
+        "postalCode": "88220-3553"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1928"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1928.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9d374b4-d293-5354-9f6a-47b19a37fd32"
+}

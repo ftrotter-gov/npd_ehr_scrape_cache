@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cf62eafb-4b7b-5f24-8a1c-bf1126448b5a",
+    "name": "Cityblock Health VA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d0d1a364-7162-57af-aeb0-1d4528b4caf8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588296784"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "250 BROWNS HILL CT"
+        ],
+        "city": "MIDLOTHIAN",
+        "state": "VA",
+        "postalCode": "23114-9510"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27775"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27775.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cf62eafb-4b7b-5f24-8a1c-bf1126448b5a"
+}

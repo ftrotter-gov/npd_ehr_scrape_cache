@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "96ef9172-ee8c-5a55-9d64-54b3d38be3e8",
+    "name": "Northwest Specialty Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6eb8c545-19b5-5fcd-a533-b565ff328188"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962944272"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1593 E POLSTON AVE"
+        ],
+        "city": "POST FALLS",
+        "state": "ID",
+        "postalCode": "83854-7852"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15112"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15112.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:96ef9172-ee8c-5a55-9d64-54b3d38be3e8"
+}

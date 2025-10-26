@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4a71141e-09e4-56dd-9903-17684ff349a5",
+    "name": "Makkah Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9def10d4-d2ac-59d7-9f4c-51907378cd84"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3301 W BUCKINGHAM RD"
+        ],
+        "city": "GARLAND",
+        "state": "TX",
+        "postalCode": "75042-4303"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18152"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18152.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4a71141e-09e4-56dd-9903-17684ff349a5"
+}

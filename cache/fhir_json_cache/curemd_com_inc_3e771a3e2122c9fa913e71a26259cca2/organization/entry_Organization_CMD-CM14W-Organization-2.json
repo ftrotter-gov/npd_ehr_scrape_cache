@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM14W-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM14W"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Advanced Magnetic Imaging",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2012951099"
+      },
+      {
+        "system": "fax",
+        "value": "2012951035"
+      },
+      {
+        "system": "url",
+        "value": "advancedimagingnj.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "6414 Bergenline Ave West New York NJ 70931621 US",
+        "line": [
+          "6414 Bergenline Ave"
+        ],
+        "city": "West New York",
+        "state": "NJ",
+        "postalCode": "70931621",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM14W-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM14W-Organization-2"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f5162ab1-ce8b-5fb3-b80c-3e411f0442f2",
+    "name": "Mental Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/294f4561-a834-5faa-bd13-9c5bfb70caa0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720702434"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 S 1000 E"
+        ],
+        "city": "SALT LAKE CITY",
+        "state": "UT",
+        "postalCode": "84102-1496"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29053"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29053.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f5162ab1-ce8b-5fb3-b80c-3e411f0442f2"
+}

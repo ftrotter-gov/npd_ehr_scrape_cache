@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3ca4bbed-6980-54dd-a205-7c9e9636a64a",
+    "name": "MAIN OFFICE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/256b9835-5c35-5d03-be8a-8cd39e11abe6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861483570"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "17901 GOVERNORS HIGHWAY",
+          "SUITE 102"
+        ],
+        "city": "HOMEWOOD",
+        "state": "IL",
+        "postalCode": "60430-1145"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6788"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6788.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3ca4bbed-6980-54dd-a205-7c9e9636a64a"
+}

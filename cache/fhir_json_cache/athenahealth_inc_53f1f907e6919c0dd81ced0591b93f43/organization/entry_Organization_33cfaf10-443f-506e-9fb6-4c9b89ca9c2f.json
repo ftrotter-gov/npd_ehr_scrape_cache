@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "33cfaf10-443f-506e-9fb6-4c9b89ca9c2f",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/31d437fd-6096-5b0d-b928-b53f4e185791"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750468575"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5525 ETIWANDA AVE",
+          "SUITE 305"
+        ],
+        "city": "TARZANA",
+        "state": "CA",
+        "postalCode": "91356-3647"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14426"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14426.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:33cfaf10-443f-506e-9fb6-4c9b89ca9c2f"
+}

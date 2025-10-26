@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "cbf0a172-40e1-4797-b54c-cede6a28442b",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "74998a5d-01cd-4391-b7cd-e2404da0ddb4",
+        "name": "Capital Family Physicians, P.A."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Capital Family Physicians, P.A.",
+    "managingOrganization": {
+      "reference": "#74998a5d-01cd-4391-b7cd-e2404da0ddb4"
+    },
+    "period": {
+      "start": "2018-01-16T18:23:46+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0008817"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0008817"
+}

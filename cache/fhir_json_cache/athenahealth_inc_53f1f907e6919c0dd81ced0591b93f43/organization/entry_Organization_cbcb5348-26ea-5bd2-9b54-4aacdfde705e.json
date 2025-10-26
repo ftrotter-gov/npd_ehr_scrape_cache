@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cbcb5348-26ea-5bd2-9b54-4aacdfde705e",
+    "name": "St Framcis Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/24c8e7ac-6728-5436-9601-410336233eb1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104256445"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "710 S 348th St"
+        ],
+        "city": "FEDERAL WAY",
+        "state": "WA",
+        "postalCode": "98003-7042"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8547"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8547.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cbcb5348-26ea-5bd2-9b54-4aacdfde705e"
+}

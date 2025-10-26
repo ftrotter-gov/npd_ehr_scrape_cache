@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0845dea7-2247-57a5-8fbb-c796eda0f4e3",
+    "name": "Mercy Health West Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d07963a2-4c45-5436-a347-3e1d476b87dd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548299431"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3300 MERCY HEALTH BLVD"
+        ],
+        "city": "CINCINNATI",
+        "state": "OH",
+        "postalCode": "45211-1103"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6293"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6293.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0845dea7-2247-57a5-8fbb-c796eda0f4e3"
+}

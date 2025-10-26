@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "584c2594-4510-5e7e-8de2-a74d54b3a0b4",
+    "name": "Memorial Hermann Hospital - ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3f7b348a-4bf3-5b7d-b3ee-657773fb4e90"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033442173"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750476230"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6411 Fannin St."
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77030-1501"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-824"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-824.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:584c2594-4510-5e7e-8de2-a74d54b3a0b4"
+}

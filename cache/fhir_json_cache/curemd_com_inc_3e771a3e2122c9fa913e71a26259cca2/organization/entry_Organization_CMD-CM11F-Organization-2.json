@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM11F-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM11F"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Women's Clinic of South Texas",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9563803441"
+      },
+      {
+        "system": "fax",
+        "value": "9563803715"
+      },
+      {
+        "system": "url",
+        "value": "www.womensclinicofsouthtexas.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "910 S Closner Blvd Edinburg TX 78539 US",
+        "line": [
+          "910 S Closner Blvd"
+        ],
+        "city": "Edinburg",
+        "state": "TX",
+        "postalCode": "78539",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM11F-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM11F-Organization-2"
+}

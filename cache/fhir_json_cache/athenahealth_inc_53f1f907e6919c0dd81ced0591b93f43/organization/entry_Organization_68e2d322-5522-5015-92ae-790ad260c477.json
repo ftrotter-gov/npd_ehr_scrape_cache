@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "68e2d322-5522-5015-92ae-790ad260c477",
+    "name": "Local Urgent",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5d20c357-0fd7-5590-9e38-8450e65cf0a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790512572"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "22 Audrey Lane"
+        ],
+        "city": "OXON HILL",
+        "state": "MD",
+        "postalCode": "20745-1302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33277"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33277.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:68e2d322-5522-5015-92ae-790ad260c477"
+}

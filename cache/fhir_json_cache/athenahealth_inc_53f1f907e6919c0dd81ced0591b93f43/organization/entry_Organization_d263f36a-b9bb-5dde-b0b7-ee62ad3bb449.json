@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d263f36a-b9bb-5dde-b0b7-ee62ad3bb449",
+    "name": "Charlottesville Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6b664f96-84fe-51e7-9732-dfa74a8818e3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477089639"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "901 Preston Avenue, Suite 300"
+        ],
+        "city": "CHARLOTTESVILLE",
+        "state": "VA",
+        "postalCode": "22903-4491"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20955"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20955.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d263f36a-b9bb-5dde-b0b7-ee62ad3bb449"
+}

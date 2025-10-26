@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "55e821cc-f275-4def-a1ce-a6188548c844",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "b9fd90f1-1e1b-4eb1-92c8-a340bbb42486",
+        "name": "Dean Har Md"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dean Har Md",
+    "managingOrganization": {
+      "reference": "#b9fd90f1-1e1b-4eb1-92c8-a340bbb42486"
+    },
+    "period": {
+      "start": "2018-11-28T09:17:05+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76813"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76813"
+}

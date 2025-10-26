@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "57f826ca-4e40-50cd-9da6-8df915c4ac44",
+    "name": "NYU Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ea82951-612f-566b-afca-5516f4703352"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457392763"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "550 1st Avenue"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10016-4325"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15987"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15987.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:57f826ca-4e40-50cd-9da6-8df915c4ac44"
+}

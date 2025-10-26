@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0a7b31ed-0c33-5849-a54c-21d06324a16f",
+    "name": "MM Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/245690f6-4416-53a2-afce-a6882375cc9d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790285849"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 N BRYANT AVE STE 120"
+        ],
+        "city": "EDMOND",
+        "state": "OK",
+        "postalCode": "73034-6273"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28118"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28118.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0a7b31ed-0c33-5849-a54c-21d06324a16f"
+}

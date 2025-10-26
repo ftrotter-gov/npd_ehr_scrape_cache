@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db9d27ea-e313-552f-9a9f-a53b4797ddf1",
+    "name": "Dr Cohen's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4bf8726d-ca4b-5727-8e79-a3e4016ca820"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730271495"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3301 PLAINVIEW SUITE D6"
+        ],
+        "city": "PASADENA",
+        "state": "TX",
+        "postalCode": "77504-9234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7729"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7729.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db9d27ea-e313-552f-9a9f-a53b4797ddf1"
+}

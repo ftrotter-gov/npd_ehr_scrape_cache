@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f1832e94-1b0c-595a-8bfd-acd96785f2a5",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bad17313-a79f-564c-b37d-1033b57a7559"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720168123"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 W HUNTINGTON DR STE 327"
+        ],
+        "city": "ARCADIA",
+        "state": "CA",
+        "postalCode": "91007-1501"
+      },
+      {
+        "line": [
+          "300 Huntington Drive"
+        ],
+        "city": "ARCADIA",
+        "state": "CA",
+        "postalCode": "91007-3402"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15278"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15278.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f1832e94-1b0c-595a-8bfd-acd96785f2a5"
+}

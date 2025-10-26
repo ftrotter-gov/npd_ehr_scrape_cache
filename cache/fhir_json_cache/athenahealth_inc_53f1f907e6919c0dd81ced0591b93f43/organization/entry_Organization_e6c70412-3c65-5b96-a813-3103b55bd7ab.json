@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e6c70412-3c65-5b96-a813-3103b55bd7ab",
+    "name": "Pioneer Specialty Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/550f1d34-e65d-5dec-b76f-62217e564bd6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437794112"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "50 N Perry St"
+        ],
+        "city": "PONTIAC",
+        "state": "MI",
+        "postalCode": "48342-2217"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22774"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22774.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e6c70412-3c65-5b96-a813-3103b55bd7ab"
+}

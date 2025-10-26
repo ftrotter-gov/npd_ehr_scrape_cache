@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d413d801-76dd-5c65-8343-57b48846be4a",
+    "name": "Emmaus Health Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/362b0afc-13ec-54ef-888c-b8e531332f8f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881002491"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "24 Frank Lloyd Wright Dr",
+          "L2200"
+        ],
+        "city": "ANN ARBOR",
+        "state": "MI",
+        "postalCode": "48105-9484"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11144"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11144.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d413d801-76dd-5c65-8343-57b48846be4a"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b2deec04-4380-5032-a4d7-3848ef455fc1",
+    "name": "Medical City Heart & Spine - OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5967e311-ec95-552c-80cc-2dae18823384"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972582690"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11970 N Central Expy"
+        ],
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75243-3768"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25955"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25955.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b2deec04-4380-5032-a4d7-3848ef455fc1"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a220895-f494-5e95-8e97-1becd2167874",
+    "name": "Heal",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/155a5432-9036-5e10-b564-3c486e185f16"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033959135"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2501 W WILLIAM CANNON DR",
+          "Ste 207"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78745-5255"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31474"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31474.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a220895-f494-5e95-8e97-1becd2167874"
+}

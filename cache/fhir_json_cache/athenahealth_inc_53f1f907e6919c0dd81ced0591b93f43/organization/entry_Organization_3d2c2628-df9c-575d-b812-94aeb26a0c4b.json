@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3d2c2628-df9c-575d-b812-94aeb26a0c4b",
+    "name": "Arc-en-ciel Holistic Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/03ce2fa9-600b-57f6-8a77-124e8a0caffb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3390 STRATFORD ROAD NE, UNITE 2313"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30326-1756"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28289"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28289.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3d2c2628-df9c-575d-b812-94aeb26a0c4b"
+}

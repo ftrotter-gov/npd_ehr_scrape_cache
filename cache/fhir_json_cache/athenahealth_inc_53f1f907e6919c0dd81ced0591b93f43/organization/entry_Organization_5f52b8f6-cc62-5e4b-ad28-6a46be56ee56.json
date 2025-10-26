@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5f52b8f6-cc62-5e4b-ad28-6a46be56ee56",
+    "name": "Consejo Counseling and Referral Service",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b29760a9-435f-590f-8bb8-51c16b502c29"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972352243"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "723 SW 10TH ST"
+        ],
+        "city": "RENTON",
+        "state": "WA",
+        "postalCode": "98057-5223"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31289"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31289.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5f52b8f6-cc62-5e4b-ad28-6a46be56ee56"
+}

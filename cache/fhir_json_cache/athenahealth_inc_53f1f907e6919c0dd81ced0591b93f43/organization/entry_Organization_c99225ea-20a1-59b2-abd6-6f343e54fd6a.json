@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c99225ea-20a1-59b2-abd6-6f343e54fd6a",
+    "name": "Artius Integrated Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/479da17b-e2ef-589f-ae0d-8dabaca34c19"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447790118"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8100 BOONE BLVD STE 710"
+        ],
+        "city": "VIENNA",
+        "state": "VA",
+        "postalCode": "22182-2683"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c99225ea-20a1-59b2-abd6-6f343e54fd6a"
+}

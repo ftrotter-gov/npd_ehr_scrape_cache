@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "bb67a22a-9251-4322-9cf5-6372d8950d47",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "df87089d-deb2-427a-8489-0f9cf03b595b",
+        "name": "Paul Murray MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Paul Murray MD",
+    "managingOrganization": {
+      "reference": "#df87089d-deb2-427a-8489-0f9cf03b595b"
+    },
+    "period": {
+      "start": "2019-10-08T14:29:05+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0009574"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0009574"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3d6c4e08-5906-5f2e-b0be-683f06ee1713",
+    "name": "Lake Wales Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d81f602-31ef-58bd-b3b7-8260035154c7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "210 EAST DR JA WILTSHIRE AVE"
+        ],
+        "city": "LAKE WALES",
+        "state": "FL",
+        "postalCode": "33853-3218"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27269"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27269.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3d6c4e08-5906-5f2e-b0be-683f06ee1713"
+}

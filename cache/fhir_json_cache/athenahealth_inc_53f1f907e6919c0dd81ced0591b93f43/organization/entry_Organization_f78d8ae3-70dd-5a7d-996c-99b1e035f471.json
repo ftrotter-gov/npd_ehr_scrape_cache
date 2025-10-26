@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f78d8ae3-70dd-5a7d-996c-99b1e035f471",
+    "name": "SMG Brockton Cardiology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d7af1806-e8de-59b5-aef2-a76f2c6b6988"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629398219"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821349317"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "830 OAK ST",
+          "STE 205W"
+        ],
+        "city": "BROCKTON",
+        "state": "MA",
+        "postalCode": "02301-1168"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2017"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2017.Brand-9"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f78d8ae3-70dd-5a7d-996c-99b1e035f471"
+}

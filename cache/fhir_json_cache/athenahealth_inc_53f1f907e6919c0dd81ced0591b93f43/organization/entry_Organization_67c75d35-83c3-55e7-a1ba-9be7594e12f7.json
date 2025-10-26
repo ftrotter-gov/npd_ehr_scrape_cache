@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "67c75d35-83c3-55e7-a1ba-9be7594e12f7",
+    "name": "Prime MD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ce5df6cd-10e2-5206-bd3c-a926d6f70eec"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215547310"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2515 Northbrooke PLaza Dr",
+          "suite 200"
+        ],
+        "city": "NAPLES",
+        "state": "FL",
+        "postalCode": "34119-8088"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22143"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22143.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:67c75d35-83c3-55e7-a1ba-9be7594e12f7"
+}

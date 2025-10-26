@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d7ffa902-04ac-525d-aa32-9fce9e386b1c",
+    "meta": {
+      "lastUpdated": "2025-07-31T04:46:31.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://gibsonhospital.org/home"
+      }
+    ],
+    "name": "Gibson Area Hospital & Health Services",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://gibsonhospital.org/home"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1120 North Melvin Street"
+        ],
+        "city": "Gibson City",
+        "state": "IL",
+        "postalCode": "60936",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:5e33fd5e-43be-5b9b-9c67-7dcd9556c8b5"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:5e33fd5e-43be-5b9b-9c67-7dcd9556c8b5"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d7ffa902-04ac-525d-aa32-9fce9e386b1c"
+}

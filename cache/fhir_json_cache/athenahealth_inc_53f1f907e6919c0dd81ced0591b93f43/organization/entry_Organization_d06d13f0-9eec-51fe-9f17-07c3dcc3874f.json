@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d06d13f0-9eec-51fe-9f17-07c3dcc3874f",
+    "name": "White Sands HealthCare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/98fc5bc4-2883-54d7-9ad4-b4fc9c7a729f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255441051"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5715 LOVINGTON HWY"
+        ],
+        "city": "HOBBS",
+        "state": "NM",
+        "postalCode": "88240-9131"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1911"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1911.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d06d13f0-9eec-51fe-9f17-07c3dcc3874f"
+}

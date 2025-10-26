@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "11b3bb2d-9527-5e82-a448-aab295868649",
+    "name": "MPT - ASC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d766e335-a106-5d9c-b54f-51fcd161d0be"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770553653"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1301 W 38th St",
+          "Suite 109"
+        ],
+        "city": "Austin",
+        "state": "TX",
+        "postalCode": "78705-1010"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30366"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30366.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:11b3bb2d-9527-5e82-a448-aab295868649"
+}

@@ -1,0 +1,3005 @@
+{
+  "resourceType" : "Bundle",
+  "type" : "collection",
+  "entry" : [ {
+    "fullUrl" : "https://masv.mdnavigatorclinical.com/prognocis/fhir/masv",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "1",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "1",
+        "name" : "Medical Associates of Southwest Virginia"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Medical Associates of Southwest Virginia",
+      "managingOrganization" : {
+        "reference" : "#1"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://masv.mdnavigatorclinical.com/prognocis/fhir/masv"
+    }
+  }, {
+    "fullUrl" : "https://masv.mdnavigatorclinical.com/prognocis/fhir/masv/Organization/1",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "1",
+      "active" : true,
+      "name" : "Medical Associates of Southwest Virginia",
+      "address" : [ {
+        "line" : [ "810 Hospital Drive" ],
+        "city" : "Blacksburg",
+        "state" : "Virginia",
+        "postalCode" : "24060",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/1"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://mik.mdnavigatorclinical.com/prognocis/fhir/mik",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "14",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "14",
+        "name" : "Muhammed I Khokar, MD"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Muhammed I Khokar, MD",
+      "managingOrganization" : {
+        "reference" : "#14"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://mik.mdnavigatorclinical.com/prognocis/fhir/mik"
+    }
+  }, {
+    "fullUrl" : "https://mik.mdnavigatorclinical.com/prognocis/fhir/mik/Organization/14",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "14",
+      "identifier" : [ {
+        "value" : "1659336766"
+      } ],
+      "active" : true,
+      "name" : "Muhammed I Khokar, MD",
+      "address" : [ {
+        "line" : [ "608 New Hope Road", "Suite 3" ],
+        "city" : "Princeton",
+        "state" : "West Virginia",
+        "postalCode" : "24740",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/14"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://duc.mdnavigatorclinical.com/prognocis/fhir/duc",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "15",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "15",
+        "name" : "Doctors Urgent Care"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Doctors Urgent Care",
+      "managingOrganization" : {
+        "reference" : "#15"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://duc.mdnavigatorclinical.com/prognocis/fhir/duc"
+    }
+  }, {
+    "fullUrl" : "https://duc.mdnavigatorclinical.com/prognocis/fhir/duc/Organization/15",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "15",
+      "active" : true,
+      "name" : "Doctors Urgent Care",
+      "address" : [ {
+        "line" : [ "24 Homestead Ave" ],
+        "city" : "Wheeling",
+        "state" : "West Virginia",
+        "postalCode" : "26003",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/15"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://franzus.mdnavigatorclinical.com/prognocis/fhir/franzus",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "16",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "16",
+        "name" : "David H. Franzus, MD"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "David H. Franzus, MD",
+      "managingOrganization" : {
+        "reference" : "#16"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://franzus.mdnavigatorclinical.com/prognocis/fhir/franzus"
+    }
+  }, {
+    "fullUrl" : "https://franzus.mdnavigatorclinical.com/prognocis/fhir/franzus/Organization/16",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "16",
+      "identifier" : [ {
+        "value" : "1366425498"
+      } ],
+      "active" : true,
+      "name" : "David H. Franzus, MD",
+      "address" : [ {
+        "line" : [ "121 Est Ravine Rd", "Suite 700" ],
+        "city" : "Kingsport",
+        "state" : "Tennessee",
+        "postalCode" : "37660",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/16"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://wyndhurst.mdnavigatorclinical.com/prognocis/fhir/wyndhurst",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "18",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "18",
+        "name" : "Wyndhurst Family Medicine"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Wyndhurst Family Medicine",
+      "managingOrganization" : {
+        "reference" : "#18"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://wyndhurst.mdnavigatorclinical.com/prognocis/fhir/wyndhurst"
+    }
+  }, {
+    "fullUrl" : "https://wyndhurst.mdnavigatorclinical.com/prognocis/fhir/wyndhurst/Organization/18",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "18",
+      "active" : true,
+      "name" : "Wyndhurst Family Medicine",
+      "address" : [ {
+        "line" : [ "102 Archway Court" ],
+        "city" : "Lynchburg",
+        "state" : "Virginia",
+        "postalCode" : "24502",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/18"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://sandler.mdnavigatorclinical.com/prognocis/fhir/sandler",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "22",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "22",
+        "name" : "Richard Sandler, MD"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Richard Sandler, MD",
+      "managingOrganization" : {
+        "reference" : "#22"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://sandler.mdnavigatorclinical.com/prognocis/fhir/sandler"
+    }
+  }, {
+    "fullUrl" : "https://sandler.mdnavigatorclinical.com/prognocis/fhir/sandler/Organization/22",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "22",
+      "identifier" : [ {
+        "value" : "1720009376"
+      } ],
+      "active" : true,
+      "name" : "Richard Sandler, MD",
+      "address" : [ {
+        "line" : [ "201 NW 82nd Avenue", "Suite 502" ],
+        "city" : "Plantation",
+        "state" : "Florida",
+        "postalCode" : "33324",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/22"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://mccon.mdnavigatorclinical.com/prognocis/fhir/mccon",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "27",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "27",
+        "name" : "James J. McConnell, MD"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "James J. McConnell, MD",
+      "managingOrganization" : {
+        "reference" : "#27"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://mccon.mdnavigatorclinical.com/prognocis/fhir/mccon"
+    }
+  }, {
+    "fullUrl" : "https://mccon.mdnavigatorclinical.com/prognocis/fhir/mccon/Organization/27",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "27",
+      "active" : true,
+      "name" : "James J. McConnell, MD",
+      "address" : [ {
+        "line" : [ "365 W. Ridge Rd" ],
+        "city" : "Wytheville",
+        "state" : "Virginia",
+        "postalCode" : "24382",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/27"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://ryan.mdnavigatorclinical.com/prognocis/fhir/ryan",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "32",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "32",
+        "name" : "Quail Ridge Family Practice"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Quail Ridge Family Practice",
+      "managingOrganization" : {
+        "reference" : "#32"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://ryan.mdnavigatorclinical.com/prognocis/fhir/ryan"
+    }
+  }, {
+    "fullUrl" : "https://ryan.mdnavigatorclinical.com/prognocis/fhir/ryan/Organization/32",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "32",
+      "identifier" : [ {
+        "value" : "1912918129"
+      } ],
+      "active" : true,
+      "name" : "Quail Ridge Family Practice",
+      "address" : [ {
+        "line" : [ "1410 N Pittsburgh St.", "Bldg. A" ],
+        "city" : "Kennewick",
+        "state" : "Washington",
+        "postalCode" : "99336",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/32"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://artspec.mdnavigatorclinical.com/prognocis/fhir/artspec",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "34",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "34",
+        "name" : "Arthritis Specialists"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Arthritis Specialists",
+      "managingOrganization" : {
+        "reference" : "#34"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://artspec.mdnavigatorclinical.com/prognocis/fhir/artspec"
+    }
+  }, {
+    "fullUrl" : "https://artspec.mdnavigatorclinical.com/prognocis/fhir/artspec/Organization/34",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "34",
+      "identifier" : [ {
+        "value" : "1710983580"
+      } ],
+      "active" : true,
+      "name" : "Arthritis Specialists",
+      "address" : [ {
+        "line" : [ "1401 Johnston Willis", "The Atrium - Suite 1200" ],
+        "city" : "Richmond",
+        "state" : "Virginia",
+        "postalCode" : "23235",
+        "country" : "US"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/34"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://lima.mdnavigatorclinical.com/prognocis/fhir/lima",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "40",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "40",
+        "name" : "Lake Internal Medicine Associates"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Lake Internal Medicine Associates",
+      "managingOrganization" : {
+        "reference" : "#40"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://lima.mdnavigatorclinical.com/prognocis/fhir/lima"
+    }
+  }, {
+    "fullUrl" : "https://lima.mdnavigatorclinical.com/prognocis/fhir/lima/Organization/40",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "40",
+      "active" : true,
+      "name" : "Lake Internal Medicine Associates",
+      "address" : [ {
+        "line" : [ "2101 Prevatt Street" ],
+        "city" : "Eustis",
+        "state" : "Virginia",
+        "postalCode" : "32726",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/40"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://flpulm.mdnavigatorclinical.com/prognocis/fhir/flpulm",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "41",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "41",
+        "name" : "Florida Pulmonary Consultants"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Florida Pulmonary Consultants",
+      "managingOrganization" : {
+        "reference" : "#41"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://flpulm.mdnavigatorclinical.com/prognocis/fhir/flpulm"
+    }
+  }, {
+    "fullUrl" : "https://flpulm.mdnavigatorclinical.com/prognocis/fhir/flpulm/Organization/41",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "41",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "Florida Pulmonary Consultants",
+      "address" : [ {
+        "line" : [ "1788 West Fairbanks Ave", "Suite A" ],
+        "city" : "Winter Park",
+        "state" : "Florida",
+        "postalCode" : "32789",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/41"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://dubin.mdnavigatorclinical.com/prognocis/fhir/dubin",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "42",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "42",
+        "name" : "Kentucky Orthopedic Clinic"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Kentucky Orthopedic Clinic",
+      "managingOrganization" : {
+        "reference" : "#42"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://dubin.mdnavigatorclinical.com/prognocis/fhir/dubin"
+    }
+  }, {
+    "fullUrl" : "https://dubin.mdnavigatorclinical.com/prognocis/fhir/dubin/Organization/42",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "42",
+      "active" : true,
+      "name" : "Kentucky Orthopedic Clinic",
+      "address" : [ {
+        "line" : [ "705 North 12th Street" ],
+        "city" : "Middlesboro",
+        "state" : "Kentucky",
+        "postalCode" : "40965",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/42"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://buttar.mdnavigatorclinical.com/prognocis/fhir/buttar",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "46",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "46",
+        "name" : "Daljit Buttar, MD"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Daljit Buttar, MD",
+      "managingOrganization" : {
+        "reference" : "#46"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://buttar.mdnavigatorclinical.com/prognocis/fhir/buttar"
+    }
+  }, {
+    "fullUrl" : "https://buttar.mdnavigatorclinical.com/prognocis/fhir/buttar/Organization/46",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "46",
+      "identifier" : [ {
+        "value" : "1518197839"
+      } ],
+      "active" : true,
+      "name" : "Daljit Buttar, MD",
+      "address" : [ {
+        "line" : [ "4201 Lake Boone Trail", "Suite 100" ],
+        "city" : "Raleigh",
+        "state" : "North Carolina",
+        "postalCode" : "27607",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/46"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://volz.mdnavigatorclinical.com/prognocis/fhir/volz",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "55",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "55",
+        "name" : "Advanced Allergy Asthma and Immunology"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Advanced Allergy Asthma and Immunology",
+      "managingOrganization" : {
+        "reference" : "#55"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://volz.mdnavigatorclinical.com/prognocis/fhir/volz"
+    }
+  }, {
+    "fullUrl" : "https://volz.mdnavigatorclinical.com/prognocis/fhir/volz/Organization/55",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "55",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "Advanced Allergy Asthma and Immunology",
+      "address" : [ {
+        "line" : [ "5690 DTC Blvd.", "#150 E" ],
+        "city" : "Greenwood Village",
+        "state" : "Colorado",
+        "postalCode" : "80111",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/55"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://pedpart.mdnavigatorclinical.com/prognocis/fhir/pedpart",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "64",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "64",
+        "name" : "Pediatric Partners"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Pediatric Partners",
+      "managingOrganization" : {
+        "reference" : "#64"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://pedpart.mdnavigatorclinical.com/prognocis/fhir/pedpart"
+    }
+  }, {
+    "fullUrl" : "https://pedpart.mdnavigatorclinical.com/prognocis/fhir/pedpart/Organization/64",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "64",
+      "active" : true,
+      "name" : "Pediatric Partners",
+      "address" : [ {
+        "line" : [ "312 Tenth Street" ],
+        "city" : "Fairmont",
+        "state" : "West Virginia",
+        "postalCode" : "26554",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/64"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://delci.mdnavigatorclinical.com/prognocis/fhir/delci",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "69",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "69",
+        "name" : "Diabetes, Endocrinology & Lipidology Center, INC"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Diabetes, Endocrinology & Lipidology Center, INC",
+      "managingOrganization" : {
+        "reference" : "#69"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://delci.mdnavigatorclinical.com/prognocis/fhir/delci"
+    }
+  }, {
+    "fullUrl" : "https://delci.mdnavigatorclinical.com/prognocis/fhir/delci/Organization/69",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "69",
+      "active" : true,
+      "name" : "Diabetes, Endocrinology & Lipidology Center, INC",
+      "address" : [ {
+        "line" : [ "2011 Professional Court" ],
+        "city" : "Martinsburg",
+        "state" : "West Virginia",
+        "postalCode" : "25401",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/69"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://sewell.mdnavigatorclinical.com/prognocis/fhir/sewell",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "70",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "70",
+        "name" : "Christopher S. Sewell, MD"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Christopher S. Sewell, MD",
+      "managingOrganization" : {
+        "reference" : "#70"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://sewell.mdnavigatorclinical.com/prognocis/fhir/sewell"
+    }
+  }, {
+    "fullUrl" : "https://sewell.mdnavigatorclinical.com/prognocis/fhir/sewell/Organization/70",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "70",
+      "active" : true,
+      "name" : "Christopher S. Sewell, MD",
+      "address" : [ {
+        "line" : [ "341 West Central Avenue" ],
+        "city" : "Jamestown",
+        "state" : "Tennessee",
+        "postalCode" : "38556",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/70"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://medeyectr.mdnavigatorclinical.com/prognocis/fhir/medeyectr",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "71",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "71",
+        "name" : "The Medical Eye Center"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "The Medical Eye Center",
+      "managingOrganization" : {
+        "reference" : "#71"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://medeyectr.mdnavigatorclinical.com/prognocis/fhir/medeyectr"
+    }
+  }, {
+    "fullUrl" : "https://medeyectr.mdnavigatorclinical.com/prognocis/fhir/medeyectr/Organization/71",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "71",
+      "identifier" : [ {
+        "value" : "1679633598"
+      } ],
+      "active" : true,
+      "name" : "The Medical Eye Center",
+      "address" : [ {
+        "line" : [ "710 Somerset Blvd.", "Suite 101" ],
+        "city" : "Charlestown",
+        "state" : "West Virginia",
+        "postalCode" : "25414",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/71"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://ermtc.mdnavigatorclinical.com/prognocis/fhir/ermtc",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "74",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "74",
+        "name" : "Endocrine and Thyroid Center"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Endocrine and Thyroid Center",
+      "managingOrganization" : {
+        "reference" : "#74"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://ermtc.mdnavigatorclinical.com/prognocis/fhir/ermtc"
+    }
+  }, {
+    "fullUrl" : "https://ermtc.mdnavigatorclinical.com/prognocis/fhir/ermtc/Organization/74",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "74",
+      "active" : true,
+      "name" : "Endocrine and Thyroid Center",
+      "address" : [ {
+        "line" : [ "7141 Colleyville Blvd." ],
+        "city" : "Colleyville",
+        "state" : "Texas",
+        "postalCode" : "76034",
+        "country" : "US"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/74"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://dharris.mdnavigatorclinical.com/prognocis/fhir/dharris",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "91",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "91",
+        "name" : "David Harris MD"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "David Harris MD",
+      "managingOrganization" : {
+        "reference" : "#91"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://dharris.mdnavigatorclinical.com/prognocis/fhir/dharris"
+    }
+  }, {
+    "fullUrl" : "https://dharris.mdnavigatorclinical.com/prognocis/fhir/dharris/Organization/91",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "91",
+      "identifier" : [ {
+        "value" : "1234536789"
+      } ],
+      "active" : true,
+      "name" : "David Harris MD",
+      "address" : [ {
+        "line" : [ "95 Harris Road", "Suite 3" ],
+        "city" : "Kilmarnock",
+        "state" : "Virginia",
+        "postalCode" : "22482",
+        "country" : "US"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/91"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://neuroserv.mdnavigatorclinical.com/prognocis/fhir/neuroserv",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "94",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "94",
+        "name" : "Neurology Services, Inc."
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Neurology Services, Inc.",
+      "managingOrganization" : {
+        "reference" : "#94"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://neuroserv.mdnavigatorclinical.com/prognocis/fhir/neuroserv"
+    }
+  }, {
+    "fullUrl" : "https://neuroserv.mdnavigatorclinical.com/prognocis/fhir/neuroserv/Organization/94",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "94",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "Neurology Services, Inc.",
+      "address" : [ {
+        "line" : [ "2616 Sherwood Hall Lane", "Suite 201" ],
+        "city" : "Alexandria",
+        "state" : "Virginia",
+        "postalCode" : "22306",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/94"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://bluefwc.mdnavigatorclinical.com/prognocis151/fhir/bluefwc",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "96",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "96",
+        "name" : "Bluefield Women's Center"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Bluefield Women's Center",
+      "managingOrganization" : {
+        "reference" : "#96"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://bluefwc.mdnavigatorclinical.com/prognocis151/fhir/bluefwc"
+    }
+  }, {
+    "fullUrl" : "https://bluefwc.mdnavigatorclinical.com/prognocis151/fhir/bluefwc/Organization/96",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "96",
+      "identifier" : [ {
+        "value" : "1235275579"
+      } ],
+      "active" : true,
+      "name" : "Bluefield Women's Center",
+      "address" : [ {
+        "line" : [ "150 COURTHOUSE ROAD", "SUITE 202" ],
+        "city" : "Princeton",
+        "state" : "West Virginia",
+        "postalCode" : "24740",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/96"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://baram.mdnavigatorclinical.com/prognocis/fhir/baram",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "103",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "103",
+        "name" : "Vadim Y Baram"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Vadim Y Baram",
+      "managingOrganization" : {
+        "reference" : "#103"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://baram.mdnavigatorclinical.com/prognocis/fhir/baram"
+    }
+  }, {
+    "fullUrl" : "https://baram.mdnavigatorclinical.com/prognocis/fhir/baram/Organization/103",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "103",
+      "identifier" : [ {
+        "value" : "1234567899"
+      } ],
+      "active" : true,
+      "name" : "Vadim Y Baram",
+      "address" : [ {
+        "line" : [ "10420 Old Olive St. Rd.", "Suite 205" ],
+        "city" : "St. Louis",
+        "state" : "Missouri",
+        "postalCode" : "63141",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/103"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://sungate.mdnavigatorclinical.com/prognocis/fhir/sungate",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "107",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "107",
+        "name" : "SunGate Primary Care"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "SunGate Primary Care",
+      "managingOrganization" : {
+        "reference" : "#107"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://sungate.mdnavigatorclinical.com/prognocis/fhir/sungate"
+    }
+  }, {
+    "fullUrl" : "https://sungate.mdnavigatorclinical.com/prognocis/fhir/sungate/Organization/107",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "107",
+      "active" : true,
+      "name" : "SunGate Primary Care",
+      "address" : [ {
+        "line" : [ "10 William Pope Drive" ],
+        "city" : "Bluffton",
+        "state" : "South Carolina",
+        "postalCode" : "29909",
+        "country" : "US"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/107"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://archapm.mdnavigatorclinical.com/prognocis/fhir/archapm",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "116",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "116",
+        "name" : "Arch Advanced Pain Management"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Arch Advanced Pain Management",
+      "managingOrganization" : {
+        "reference" : "#116"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://archapm.mdnavigatorclinical.com/prognocis/fhir/archapm"
+    }
+  }, {
+    "fullUrl" : "https://archapm.mdnavigatorclinical.com/prognocis/fhir/archapm/Organization/116",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "116",
+      "active" : true,
+      "name" : "Arch Advanced Pain Management",
+      "address" : [ {
+        "line" : [ "4169 Old Mill Pkwy" ],
+        "city" : "Saint Peters",
+        "state" : "Missouri",
+        "postalCode" : "63376",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/116"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://allergya.mdnavigatorclinical.com/prognocis/fhir/allergya",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "118",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "118",
+        "name" : "Allergy Associates, Inc."
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Allergy Associates, Inc.",
+      "managingOrganization" : {
+        "reference" : "#118"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://allergya.mdnavigatorclinical.com/prognocis/fhir/allergya"
+    }
+  }, {
+    "fullUrl" : "https://allergya.mdnavigatorclinical.com/prognocis/fhir/allergya/Organization/118",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "118",
+      "active" : true,
+      "name" : "Allergy Associates, Inc.",
+      "address" : [ {
+        "line" : [ "1570 Woodlake Drive" ],
+        "city" : "Chesterfield",
+        "state" : "Missouri",
+        "postalCode" : "63017",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/118"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://johncardio.mdnavigatorclinical.com/prognocis/fhir/johncardio",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "119",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "119",
+        "name" : "Johnstown Cardiovascular Associates"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Johnstown Cardiovascular Associates",
+      "managingOrganization" : {
+        "reference" : "#119"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://johncardio.mdnavigatorclinical.com/prognocis/fhir/johncardio"
+    }
+  }, {
+    "fullUrl" : "https://johncardio.mdnavigatorclinical.com/prognocis/fhir/johncardio/Organization/119",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "119",
+      "active" : true,
+      "name" : "Johnstown Cardiovascular Associates",
+      "address" : [ {
+        "line" : [ "1123 Franklin St." ],
+        "city" : "Johnstown",
+        "state" : "Pennsylvania",
+        "postalCode" : "15905",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/119"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://acharya.mdnavigatorclinical.com/prognocis/fhir/acharya",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "126",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "126",
+        "name" : "Ajay Acharya, MD"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Ajay Acharya, MD",
+      "managingOrganization" : {
+        "reference" : "#126"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://acharya.mdnavigatorclinical.com/prognocis/fhir/acharya"
+    }
+  }, {
+    "fullUrl" : "https://acharya.mdnavigatorclinical.com/prognocis/fhir/acharya/Organization/126",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "126",
+      "active" : true,
+      "name" : "Ajay Acharya, MD",
+      "address" : [ {
+        "line" : [ "4291 Lee Highway" ],
+        "city" : "Pulaski",
+        "state" : "Virginia",
+        "postalCode" : "24301",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/126"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://comppeds.mdnavigatorclinical.com/prognocis/fhir/comppeds",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "128",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "128",
+        "name" : "Comprehensive Pediatrics"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Comprehensive Pediatrics",
+      "managingOrganization" : {
+        "reference" : "#128"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://comppeds.mdnavigatorclinical.com/prognocis/fhir/comppeds"
+    }
+  }, {
+    "fullUrl" : "https://comppeds.mdnavigatorclinical.com/prognocis/fhir/comppeds/Organization/128",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "128",
+      "active" : true,
+      "name" : "Comprehensive Pediatrics",
+      "address" : [ {
+        "line" : [ "1407 West 6th Street" ],
+        "city" : "Brooklyn",
+        "state" : "New York",
+        "postalCode" : "11204",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/128"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://horizoninf.mdnavigatorclinical.com/prognocis/fhir/horizoninf",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "133",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "133",
+        "name" : "Horizon Infusions"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Horizon Infusions",
+      "managingOrganization" : {
+        "reference" : "#133"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://horizoninf.mdnavigatorclinical.com/prognocis/fhir/horizoninf"
+    }
+  }, {
+    "fullUrl" : "https://horizoninf.mdnavigatorclinical.com/prognocis/fhir/horizoninf/Organization/133",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "133",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "Horizon Infusions",
+      "address" : [ {
+        "line" : [ "4260 Glendale Milford Road", "Suite 201" ],
+        "city" : "Cincinnati",
+        "state" : "Ohio",
+        "postalCode" : "45242",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/133"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://benzaquen.mdnavigatorclinical.com/prognocis/fhir/benzaquen",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "135",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "135",
+        "name" : "Max P. Benzaquen, M.D."
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Max P. Benzaquen, M.D.",
+      "managingOrganization" : {
+        "reference" : "#135"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://benzaquen.mdnavigatorclinical.com/prognocis/fhir/benzaquen"
+    }
+  }, {
+    "fullUrl" : "https://benzaquen.mdnavigatorclinical.com/prognocis/fhir/benzaquen/Organization/135",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "135",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "Max P. Benzaquen, M.D.",
+      "address" : [ {
+        "line" : [ "14377 Woodlake Dr", "Suite 308" ],
+        "city" : "Chesterfield",
+        "state" : "Missouri",
+        "postalCode" : "63017",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/135"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://cinallergy.mdnavigatorclinical.com/prognocis/fhir/cinallergy",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "136",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "136",
+        "name" : "Cincinnati Allergy & Asthma Center, Inc."
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Cincinnati Allergy & Asthma Center, Inc.",
+      "managingOrganization" : {
+        "reference" : "#136"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://cinallergy.mdnavigatorclinical.com/prognocis/fhir/cinallergy"
+    }
+  }, {
+    "fullUrl" : "https://cinallergy.mdnavigatorclinical.com/prognocis/fhir/cinallergy/Organization/136",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "136",
+      "identifier" : [ {
+        "value" : "1306913959"
+      } ],
+      "active" : true,
+      "name" : "Cincinnati Allergy & Asthma Center, Inc.",
+      "address" : [ {
+        "line" : [ "7495 State Road", "Suite 350" ],
+        "city" : "Cincinnati",
+        "state" : "Ohio",
+        "postalCode" : "45255",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/136"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://swvacardio.mdnavigatorclinical.com/prognocis/fhir/swvacardio",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "137",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "137",
+        "name" : "Southwest Virginia Cardiology PC"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Southwest Virginia Cardiology PC",
+      "managingOrganization" : {
+        "reference" : "#137"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://swvacardio.mdnavigatorclinical.com/prognocis/fhir/swvacardio"
+    }
+  }, {
+    "fullUrl" : "https://swvacardio.mdnavigatorclinical.com/prognocis/fhir/swvacardio/Organization/137",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "137",
+      "active" : true,
+      "name" : "Southwest Virginia Cardiology PC",
+      "address" : [ {
+        "line" : [ "2850 Keagy Road" ],
+        "city" : "Salem",
+        "state" : "Virginia",
+        "postalCode" : "24153",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/137"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://cochise.mdnavigatorclinical.com/prognocis/fhir/cochise",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "141",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "141",
+        "name" : "Cochise Oncology"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Cochise Oncology",
+      "managingOrganization" : {
+        "reference" : "#141"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://cochise.mdnavigatorclinical.com/prognocis/fhir/cochise"
+    }
+  }, {
+    "fullUrl" : "https://cochise.mdnavigatorclinical.com/prognocis/fhir/cochise/Organization/141",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "141",
+      "active" : true,
+      "name" : "Cochise Oncology",
+      "address" : [ {
+        "line" : [ "5151 E. HWY 90" ],
+        "city" : "Sierra Vista",
+        "state" : "Arizona",
+        "postalCode" : "85635",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/141"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://cranspine.mdnavigatorclinical.com/prognocis/fhir/cranspine",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "142",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "142",
+        "name" : "Center for Cranial & Spinal Surgery"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Center for Cranial & Spinal Surgery",
+      "managingOrganization" : {
+        "reference" : "#142"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://cranspine.mdnavigatorclinical.com/prognocis/fhir/cranspine"
+    }
+  }, {
+    "fullUrl" : "https://cranspine.mdnavigatorclinical.com/prognocis/fhir/cranspine/Organization/142",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "142",
+      "active" : true,
+      "name" : "Center for Cranial & Spinal Surgery",
+      "address" : [ {
+        "line" : [ "3016 Williams Drive" ],
+        "city" : "Fairfax",
+        "state" : "Virginia",
+        "postalCode" : "22031",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/142"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://opthealth.mdnavigatorclinical.com/prognocis/fhir/opthealth",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "143",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "143",
+        "name" : "Optimal Health Miami"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Optimal Health Miami",
+      "managingOrganization" : {
+        "reference" : "#143"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://opthealth.mdnavigatorclinical.com/prognocis/fhir/opthealth"
+    }
+  }, {
+    "fullUrl" : "https://opthealth.mdnavigatorclinical.com/prognocis/fhir/opthealth/Organization/143",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "143",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "Optimal Health Miami",
+      "address" : [ {
+        "line" : [ "2801 NE 213th Street", "Suite 1112" ],
+        "city" : "Aventura",
+        "state" : "Florida",
+        "postalCode" : "33180",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/143"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://springer.mdnavigatorclinical.com/prognocis/fhir/springer",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "149",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "149",
+        "name" : "Springer Medical Associates"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Springer Medical Associates",
+      "managingOrganization" : {
+        "reference" : "#149"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://springer.mdnavigatorclinical.com/prognocis/fhir/springer"
+    }
+  }, {
+    "fullUrl" : "https://springer.mdnavigatorclinical.com/prognocis/fhir/springer/Organization/149",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "149",
+      "identifier" : [ {
+        "value" : "1235482084"
+      } ],
+      "active" : true,
+      "name" : "Springer Medical Associates",
+      "address" : [ {
+        "line" : [ "16615 Highway 104 North", "Suite B" ],
+        "city" : "Lexington",
+        "state" : "Virginia",
+        "postalCode" : "38351",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/149"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://coastalconcierge.mdnavigatorclinical.com/prognocis/fhir/coastalconcierge",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "153",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "153",
+        "name" : "Vital Personalized Healthcare"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Vital Personalized Healthcare",
+      "managingOrganization" : {
+        "reference" : "#153"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://coastalconcierge.mdnavigatorclinical.com/prognocis/fhir/coastalconcierge"
+    }
+  }, {
+    "fullUrl" : "https://coastalconcierge.mdnavigatorclinical.com/prognocis/fhir/coastalconcierge/Organization/153",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "153",
+      "identifier" : [ {
+        "value" : "1205875853"
+      } ],
+      "active" : true,
+      "name" : "Vital Personalized Healthcare",
+      "address" : [ {
+        "line" : [ "23 Plantation Park Drive", "Bldg 400" ],
+        "city" : "Bluffton",
+        "state" : "South Carolina",
+        "postalCode" : "29910",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/153"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://highcountryneuro.mdnavigatorclinical.com/prognocis/fhir/highcountryneuro",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "156",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "156",
+        "name" : "High Country Neurology"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "High Country Neurology",
+      "managingOrganization" : {
+        "reference" : "#156"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://highcountryneuro.mdnavigatorclinical.com/prognocis/fhir/highcountryneuro"
+    }
+  }, {
+    "fullUrl" : "https://highcountryneuro.mdnavigatorclinical.com/prognocis/fhir/highcountryneuro/Organization/156",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "156",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "High Country Neurology",
+      "address" : [ {
+        "line" : [ "400 Shadowline Drive", "Suite 202" ],
+        "city" : "Boone",
+        "state" : "North Carolina",
+        "postalCode" : "28607",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/156"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://carbo.mdnavigatorclinical.com/prognocis/fhir/carbo",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "157",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "157",
+        "name" : "Carolina Breast and Oncologic Surgery"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Carolina Breast and Oncologic Surgery",
+      "managingOrganization" : {
+        "reference" : "#157"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://carbo.mdnavigatorclinical.com/prognocis/fhir/carbo"
+    }
+  }, {
+    "fullUrl" : "https://carbo.mdnavigatorclinical.com/prognocis/fhir/carbo/Organization/157",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "157",
+      "active" : true,
+      "name" : "Carolina Breast and Oncologic Surgery",
+      "address" : [ {
+        "line" : [ "2223 Hemby Lane" ],
+        "city" : "Greenville",
+        "state" : "North Carolina",
+        "postalCode" : "27834",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/157"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://munsey.mdnavigatorclinical.com/prognocis/fhir/munsey",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "158",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "158",
+        "name" : "Bliss Aesthetics & Wellness"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Bliss Aesthetics & Wellness",
+      "managingOrganization" : {
+        "reference" : "#158"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://munsey.mdnavigatorclinical.com/prognocis/fhir/munsey"
+    }
+  }, {
+    "fullUrl" : "https://munsey.mdnavigatorclinical.com/prognocis/fhir/munsey/Organization/158",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "158",
+      "identifier" : [ {
+        "value" : "1902325913"
+      } ],
+      "active" : true,
+      "name" : "Bliss Aesthetics & Wellness",
+      "address" : [ {
+        "line" : [ "20 Bobby's Way", "Suite 105" ],
+        "city" : "Staunton",
+        "state" : "Virginia",
+        "postalCode" : "24401",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/158"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://eastcardio.mdnavigatorclinical.com/prognocis/fhir/eastcardio",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "161",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "161",
+        "name" : "East Cardiovascular Specialist"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "East Cardiovascular Specialist",
+      "managingOrganization" : {
+        "reference" : "#161"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://eastcardio.mdnavigatorclinical.com/prognocis/fhir/eastcardio"
+    }
+  }, {
+    "fullUrl" : "https://eastcardio.mdnavigatorclinical.com/prognocis/fhir/eastcardio/Organization/161",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "161",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "East Cardiovascular Specialist",
+      "address" : [ {
+        "line" : [ "6275 E. Virginia Beach Blvd", "Suite 200" ],
+        "city" : "Norfolk",
+        "state" : "Virginia",
+        "postalCode" : "23502",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/161"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://fertcennm.mdnavigatorclinical.com/prognocis/fhir/fertcennm",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "162",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "162",
+        "name" : "The Fertility Center of New Mexico"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "The Fertility Center of New Mexico",
+      "managingOrganization" : {
+        "reference" : "#162"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://fertcennm.mdnavigatorclinical.com/prognocis/fhir/fertcennm"
+    }
+  }, {
+    "fullUrl" : "https://fertcennm.mdnavigatorclinical.com/prognocis/fhir/fertcennm/Organization/162",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "162",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "The Fertility Center of New Mexico",
+      "address" : [ {
+        "line" : [ "201 Cedar Street SE", "Suite S1-20" ],
+        "city" : "Albuquerque",
+        "state" : "New Mexico",
+        "postalCode" : "87106",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/162"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://overlake.mdnavigatorclinical.com/prognocis/fhir/overlake",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "163",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "163",
+        "name" : "Overlake Reproductive Health"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Overlake Reproductive Health",
+      "managingOrganization" : {
+        "reference" : "#163"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://overlake.mdnavigatorclinical.com/prognocis/fhir/overlake"
+    }
+  }, {
+    "fullUrl" : "https://overlake.mdnavigatorclinical.com/prognocis/fhir/overlake/Organization/163",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "163",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "Overlake Reproductive Health",
+      "address" : [ {
+        "line" : [ "11232 NE 15th Street", "Ste. 201" ],
+        "city" : "Bellevue",
+        "state" : "Washington",
+        "postalCode" : "98004",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/163"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://swhyperbarics.mdnavigatorclinical.com/prognocis/fhir/swhyperbarics",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "164",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "164",
+        "name" : "Southwest Hyperbarics, PLLC"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Southwest Hyperbarics, PLLC",
+      "managingOrganization" : {
+        "reference" : "#164"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://swhyperbarics.mdnavigatorclinical.com/prognocis/fhir/swhyperbarics"
+    }
+  }, {
+    "fullUrl" : "https://swhyperbarics.mdnavigatorclinical.com/prognocis/fhir/swhyperbarics/Organization/164",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "164",
+      "identifier" : [ {
+        "value" : "1679780183"
+      } ],
+      "active" : true,
+      "name" : "Southwest Hyperbarics, PLLC",
+      "address" : [ {
+        "line" : [ "1845 Precinct Line Rd.,", "Suite 105" ],
+        "city" : "Hurst",
+        "state" : "Texas",
+        "postalCode" : "76054",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/164"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://zeidan.mdnavigatorclinical.com/prognocis/fhir/zeidan",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "166",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "166",
+        "name" : "Boutros Zeidan, MD"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Boutros Zeidan, MD",
+      "managingOrganization" : {
+        "reference" : "#166"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://zeidan.mdnavigatorclinical.com/prognocis/fhir/zeidan"
+    }
+  }, {
+    "fullUrl" : "https://zeidan.mdnavigatorclinical.com/prognocis/fhir/zeidan/Organization/166",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "166",
+      "active" : true,
+      "name" : "Boutros Zeidan, MD",
+      "address" : [ {
+        "line" : [ "1123 Franklin Street" ],
+        "city" : "Johnstown",
+        "state" : "Pennsylvania",
+        "postalCode" : "15905",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/166"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://monroechildren.mdnavigatorclinical.com/prognocis/fhir/monroechildren",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "167",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "167",
+        "name" : "Monroe Children's Center"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Monroe Children's Center",
+      "managingOrganization" : {
+        "reference" : "#167"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://monroechildren.mdnavigatorclinical.com/prognocis/fhir/monroechildren"
+    }
+  }, {
+    "fullUrl" : "https://monroechildren.mdnavigatorclinical.com/prognocis/fhir/monroechildren/Organization/167",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "167",
+      "active" : true,
+      "name" : "Monroe Children's Center",
+      "address" : [ {
+        "line" : [ "1307 E. Franklin Street" ],
+        "city" : "Monroe",
+        "state" : "North Carolina",
+        "postalCode" : "28111",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/167"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://anderson.mdnavigatorclinical.com/prognocis/fhir/anderson",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "169",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "169",
+        "name" : "Anderson Counseling Services"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Anderson Counseling Services",
+      "managingOrganization" : {
+        "reference" : "#169"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://anderson.mdnavigatorclinical.com/prognocis/fhir/anderson"
+    }
+  }, {
+    "fullUrl" : "https://anderson.mdnavigatorclinical.com/prognocis/fhir/anderson/Organization/169",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "169",
+      "active" : true,
+      "name" : "Anderson Counseling Services",
+      "address" : [ {
+        "line" : [ "434 Graves Mill Road" ],
+        "city" : "Lynchburg",
+        "state" : "Virginia",
+        "postalCode" : "24502",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/169"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://lifetime.mdnavigatorclinical.com/prognocis/fhir/lifetime",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "170",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "170",
+        "name" : "Lifetime Psychiatry LLC"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Lifetime Psychiatry LLC",
+      "managingOrganization" : {
+        "reference" : "#170"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://lifetime.mdnavigatorclinical.com/prognocis/fhir/lifetime"
+    }
+  }, {
+    "fullUrl" : "https://lifetime.mdnavigatorclinical.com/prognocis/fhir/lifetime/Organization/170",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "170",
+      "identifier" : [ {
+        "value" : "1212323415"
+      } ],
+      "active" : true,
+      "name" : "Lifetime Psychiatry LLC",
+      "address" : [ {
+        "line" : [ "5700 Mexico Road", "Suite 8" ],
+        "city" : "Saint Peters",
+        "state" : "Missouri",
+        "postalCode" : "63376",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/170"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://aaacosl.mdnavigatorclinical.com/prognocis/fhir/aaacosl",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "173",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "173",
+        "name" : "Allergy and Asthma Care of St Louis"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Allergy and Asthma Care of St Louis",
+      "managingOrganization" : {
+        "reference" : "#173"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://aaacosl.mdnavigatorclinical.com/prognocis/fhir/aaacosl"
+    }
+  }, {
+    "fullUrl" : "https://aaacosl.mdnavigatorclinical.com/prognocis/fhir/aaacosl/Organization/173",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "173",
+      "identifier" : [ {
+        "value" : "1790974004"
+      } ],
+      "active" : true,
+      "name" : "Allergy and Asthma Care of St Louis",
+      "address" : [ {
+        "line" : [ "1585 WOODLAKE DRIVE", "Suite 201" ],
+        "city" : "Chesterfield",
+        "state" : "Missouri",
+        "postalCode" : "63017",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/173"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://martsurg.mdnavigatorclinical.com/prognocis/fhir/martsurg",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "175",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "175",
+        "name" : "Martinsville Surgical"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Martinsville Surgical",
+      "managingOrganization" : {
+        "reference" : "#175"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://martsurg.mdnavigatorclinical.com/prognocis/fhir/martsurg"
+    }
+  }, {
+    "fullUrl" : "https://martsurg.mdnavigatorclinical.com/prognocis/fhir/martsurg/Organization/175",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "175",
+      "active" : true,
+      "name" : "Martinsville Surgical",
+      "address" : [ {
+        "line" : [ "319 Hospital Drive" ],
+        "city" : "Martinsville",
+        "state" : "Virginia",
+        "postalCode" : "24112",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/175"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://sonego.mdnavigatorclinical.com/prognocis/fhir/sonego",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "176",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "176",
+        "name" : "David F. Sonego MD & Associates"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "David F. Sonego MD & Associates",
+      "managingOrganization" : {
+        "reference" : "#176"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://sonego.mdnavigatorclinical.com/prognocis/fhir/sonego"
+    }
+  }, {
+    "fullUrl" : "https://sonego.mdnavigatorclinical.com/prognocis/fhir/sonego/Organization/176",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "176",
+      "identifier" : [ {
+        "value" : "1063575108"
+      } ],
+      "active" : true,
+      "name" : "David F. Sonego MD & Associates",
+      "address" : [ {
+        "line" : [ "230 E. Day Road", "Suite 160" ],
+        "city" : "Mishawaka",
+        "state" : "Indiana",
+        "postalCode" : "46545",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/176"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://dyer.mdnavigatorclinical.com/prognocis/fhir/dyer",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "178",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "178",
+        "name" : "Marc L. Dyer MD"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Marc L. Dyer MD",
+      "managingOrganization" : {
+        "reference" : "#178"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://dyer.mdnavigatorclinical.com/prognocis/fhir/dyer"
+    }
+  }, {
+    "fullUrl" : "https://dyer.mdnavigatorclinical.com/prognocis/fhir/dyer/Organization/178",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "178",
+      "active" : true,
+      "name" : "Marc L. Dyer MD",
+      "address" : [ {
+        "line" : [ "30131 TOWN CENTER DRIVE STE. 120" ],
+        "city" : "Laguna Niguel",
+        "state" : "California",
+        "postalCode" : "92677",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/178"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://mtnview.mdnavigatorclinical.com/prognocis/fhir/mtnview",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "179",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "179",
+        "name" : "Mountain View Obstetrics and Gynecology PLLC"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Mountain View Obstetrics and Gynecology PLLC",
+      "managingOrganization" : {
+        "reference" : "#179"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://mtnview.mdnavigatorclinical.com/prognocis/fhir/mtnview"
+    }
+  }, {
+    "fullUrl" : "https://mtnview.mdnavigatorclinical.com/prognocis/fhir/mtnview/Organization/179",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "179",
+      "active" : true,
+      "name" : "Mountain View Obstetrics and Gynecology PLLC",
+      "address" : [ {
+        "line" : [ "112 UNDERCLIFF TERRACE" ],
+        "city" : "Princeton",
+        "state" : "West Virginia",
+        "postalCode" : "24740",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/179"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://aspire.mdnavigatorclinical.com/prognocis/fhir/aspire",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "182",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "182",
+        "name" : "Aspire Primary Care"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Aspire Primary Care",
+      "managingOrganization" : {
+        "reference" : "#182"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://aspire.mdnavigatorclinical.com/prognocis/fhir/aspire"
+    }
+  }, {
+    "fullUrl" : "https://aspire.mdnavigatorclinical.com/prognocis/fhir/aspire/Organization/182",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "182",
+      "identifier" : [ {
+        "value" : "1659890846"
+      } ],
+      "active" : true,
+      "name" : "Aspire Primary Care",
+      "address" : [ {
+        "line" : [ "2006 Franklin Street", "Suite 102" ],
+        "city" : "Huntsville",
+        "state" : "Alabama",
+        "postalCode" : "35801",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/182"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://gkhokar.mdnavigatorclinical.com/prognocis/fhir/gkhokar",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "183",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "183",
+        "name" : "Ghazala Q. Khokar M.D."
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Ghazala Q. Khokar M.D.",
+      "managingOrganization" : {
+        "reference" : "#183"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://gkhokar.mdnavigatorclinical.com/prognocis/fhir/gkhokar"
+    }
+  }, {
+    "fullUrl" : "https://gkhokar.mdnavigatorclinical.com/prognocis/fhir/gkhokar/Organization/183",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "183",
+      "identifier" : [ {
+        "value" : "1609080761"
+      } ],
+      "active" : true,
+      "name" : "Ghazala Q. Khokar M.D.",
+      "address" : [ {
+        "line" : [ "608 New Hope Rd.", "SUITE 3" ],
+        "city" : "Princeton",
+        "state" : "West Virginia",
+        "postalCode" : "24740",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/183"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://hopepediatrics.prognocis.com/prognocis/fhir/hopepediatrics",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "184",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "184",
+        "name" : "Hope Pediatric Behavioral Solutions - Chaney Health PLLC"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Hope Pediatric Behavioral Solutions - Chaney Health PLLC",
+      "managingOrganization" : {
+        "reference" : "#184"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://hopepediatrics.prognocis.com/prognocis/fhir/hopepediatrics"
+    }
+  }, {
+    "fullUrl" : "https://hopepediatrics.prognocis.com/prognocis/fhir/hopepediatrics/Organization/184",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "184",
+      "active" : true,
+      "name" : "Hope Pediatric Behavioral Solutions - Chaney Health PLLC",
+      "address" : [ {
+        "line" : [ "511 West Kentucky Ave", "Suite 3" ],
+        "city" : "Pampa",
+        "state" : "Texas",
+        "postalCode" : "79065",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/184"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://fallhillpeds.mdnavigatorclinical.com/prognocis/fhir/fallhillpeds",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "186",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "186",
+        "name" : "Fall Hill Pediatrics"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Fall Hill Pediatrics",
+      "managingOrganization" : {
+        "reference" : "#186"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://fallhillpeds.mdnavigatorclinical.com/prognocis/fhir/fallhillpeds"
+    }
+  }, {
+    "fullUrl" : "https://fallhillpeds.mdnavigatorclinical.com/prognocis/fhir/fallhillpeds/Organization/186",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "186",
+      "active" : true,
+      "name" : "Fall Hill Pediatrics",
+      "address" : [ {
+        "line" : [ "1123 Heatherstone Drive" ],
+        "city" : "Fredericksburg",
+        "state" : "Virginia",
+        "postalCode" : "22407",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/186"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://riverside.mdnavigatorclinical.com/prognocis/fhir/riverside",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "188",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "188",
+        "name" : "Riverside Medical Associates"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Riverside Medical Associates",
+      "managingOrganization" : {
+        "reference" : "#188"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://riverside.mdnavigatorclinical.com/prognocis/fhir/riverside"
+    }
+  }, {
+    "fullUrl" : "https://riverside.mdnavigatorclinical.com/prognocis/fhir/riverside/Organization/188",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "188",
+      "identifier" : [ {
+        "value" : "1821173857"
+      } ],
+      "active" : true,
+      "name" : "Riverside Medical Associates",
+      "address" : [ {
+        "line" : [ "408 8TH STREET", "STE 1" ],
+        "city" : "N Wilkesboro",
+        "state" : "North Carolina",
+        "postalCode" : "28659",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/188"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://albpedoph.mdnavigatorclinical.com/prognocis/fhir/albpedoph",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "189",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "189",
+        "name" : "Albemarle Pediatric Ophthalmology & Strabismus PC"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Albemarle Pediatric Ophthalmology & Strabismus PC",
+      "managingOrganization" : {
+        "reference" : "#189"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://albpedoph.mdnavigatorclinical.com/prognocis/fhir/albpedoph"
+    }
+  }, {
+    "fullUrl" : "https://albpedoph.mdnavigatorclinical.com/prognocis/fhir/albpedoph/Organization/189",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "189",
+      "identifier" : [ {
+        "value" : "1750456745"
+      } ],
+      "active" : true,
+      "name" : "Albemarle Pediatric Ophthalmology & Strabismus PC",
+      "address" : [ {
+        "line" : [ "1101 E. Jefferson St.", "Suite 3" ],
+        "city" : "Charlottesville",
+        "state" : "Virginia",
+        "postalCode" : "22902",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/189"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://louisafam.mdnavigatorclinical.com/prognocis/fhir/louisafam",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "190",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "190",
+        "name" : "Louisa Family Practice"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Louisa Family Practice",
+      "managingOrganization" : {
+        "reference" : "#190"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://louisafam.mdnavigatorclinical.com/prognocis/fhir/louisafam"
+    }
+  }, {
+    "fullUrl" : "https://louisafam.mdnavigatorclinical.com/prognocis/fhir/louisafam/Organization/190",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "190",
+      "active" : true,
+      "name" : "Louisa Family Practice",
+      "address" : [ {
+        "line" : [ "101 Woolfolk Avenue" ],
+        "city" : "Louisa",
+        "state" : "Virginia",
+        "postalCode" : "23093",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/190"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://masters.mdnavigatorclinical.com/prognocis/fhir/masters",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "193",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "193",
+        "name" : "Masters Family Medical"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Masters Family Medical",
+      "managingOrganization" : {
+        "reference" : "#193"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://masters.mdnavigatorclinical.com/prognocis/fhir/masters"
+    }
+  }, {
+    "fullUrl" : "https://masters.mdnavigatorclinical.com/prognocis/fhir/masters/Organization/193",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "193",
+      "identifier" : [ {
+        "value" : "1902669682"
+      } ],
+      "active" : true,
+      "name" : "Masters Family Medical",
+      "address" : [ {
+        "line" : [ "234 W Central Ave", "No 224" ],
+        "city" : "Jamestown",
+        "state" : "Tennessee",
+        "postalCode" : "38556",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/193"
+      } ]
+    }
+  }, {
+    "fullUrl" : "https://advchiro.mdnavigatorclinical.com/prognocis/fhir/advchiro",
+    "resource" : {
+      "resourceType" : "Endpoint",
+      "id" : "195",
+      "contained" : [ {
+        "resourceType" : "Organization",
+        "id" : "195",
+        "name" : "Advanced Chiropractic Solutions"
+      } ],
+      "status" : "active",
+      "connectionType" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+        "code" : "hl7-fhir-rest"
+      },
+      "name" : "Advanced Chiropractic Solutions",
+      "managingOrganization" : {
+        "reference" : "#195"
+      },
+      "payloadType" : [ {
+        "coding" : [ {
+          "system" : "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+          "code" : "NA"
+        } ]
+      } ],
+      "payloadMimeType" : [ "application/fhir+json", "application/json+fhir", "application/xml+fhir", "application/fhir+xml" ],
+      "address" : "https://advchiro.mdnavigatorclinical.com/prognocis/fhir/advchiro"
+    }
+  }, {
+    "fullUrl" : "https://advchiro.mdnavigatorclinical.com/prognocis/fhir/advchiro/Organization/195",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "195",
+      "identifier" : [ {
+        "value" : "1234567890"
+      } ],
+      "active" : true,
+      "name" : "Advanced Chiropractic Solutions",
+      "address" : [ {
+        "line" : [ "290 springfield Dr.", "265" ],
+        "city" : "Bloomingdale",
+        "state" : "Illinois",
+        "postalCode" : "60108",
+        "country" : "USA"
+      } ],
+      "endpoint" : [ {
+        "reference" : "Endpoint/195"
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "d2cd623d-ccf7-4bd3-a7f8-6bc109e2a74e",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4eef2d77-cf79-400f-ae90-79d5a4973dc0",
+        "name": "Victor Valley Global Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Victor Valley Global Medical Center",
+    "managingOrganization": {
+      "reference": "#4eef2d77-cf79-400f-ae90-79d5a4973dc0"
+    },
+    "period": {
+      "start": "2025-02-13T00:07:06+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10157500"
+  },
+  "fullUrl": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10157500"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8776d235-df51-5272-96a6-e1a1b137806c",
+    "name": "Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43f7f355-71b3-57a7-b277-fd8d6e8f19cb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568676138"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 OHIO UNIVERSITY",
+          "GROSVENOR HALL 055"
+        ],
+        "city": "ATHENS",
+        "state": "OH",
+        "postalCode": "45701-2979"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7802"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7802.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8776d235-df51-5272-96a6-e1a1b137806c"
+}

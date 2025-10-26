@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2bb3bae1-4e22-5cc0-bae2-ff084519b208",
+    "name": "Bethesda North Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e0b5e5e8-8208-5da4-85ae-e29c70dbf939"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902877574"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10500 Montgomery Road"
+        ],
+        "city": "Cincinnati",
+        "state": "OH",
+        "postalCode": "45242-4402"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-445"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-445.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2bb3bae1-4e22-5cc0-bae2-ff084519b208"
+}

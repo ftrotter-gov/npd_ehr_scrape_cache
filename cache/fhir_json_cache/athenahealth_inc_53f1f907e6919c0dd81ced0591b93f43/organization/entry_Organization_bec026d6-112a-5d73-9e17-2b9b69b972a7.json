@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bec026d6-112a-5d73-9e17-2b9b69b972a7",
+    "name": "Epic Wellness - Med Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6de07fe4-f33c-5abd-b131-a530bac096a7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124806146"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5939 BABCOCK RD",
+          "STE 112"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78240-3462"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30052"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30052.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bec026d6-112a-5d73-9e17-2b9b69b972a7"
+}

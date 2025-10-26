@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fe6ac809-56ed-58ea-bc09-a01e6c454d9e",
+    "name": "Helping Hands Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0fd972fe-4a04-5f53-9d58-530d82049ac5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356985998"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1512 WEST MAIN ST"
+        ],
+        "city": "RUSSELLVILLE",
+        "state": "AR",
+        "postalCode": "72801-2820"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20623"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20623.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fe6ac809-56ed-58ea-bc09-a01e6c454d9e"
+}

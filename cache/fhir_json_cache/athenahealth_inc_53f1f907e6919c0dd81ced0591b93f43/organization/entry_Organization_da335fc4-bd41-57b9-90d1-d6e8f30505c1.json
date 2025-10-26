@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "da335fc4-bd41-57b9-90d1-d6e8f30505c1",
+    "name": "ST. VINCENT HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f016f79b-5d87-5794-9643-e9d64c4f7926"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114984606"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 SUMMER STREET"
+        ],
+        "city": "WORCESTER",
+        "state": "MA",
+        "postalCode": "01608-1216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10827"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10827.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:da335fc4-bd41-57b9-90d1-d6e8f30505c1"
+}

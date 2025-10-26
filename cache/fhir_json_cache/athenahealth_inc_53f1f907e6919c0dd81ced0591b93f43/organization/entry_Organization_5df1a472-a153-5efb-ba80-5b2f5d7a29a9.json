@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5df1a472-a153-5efb-ba80-5b2f5d7a29a9",
+    "name": "DaVita Palmer",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b557129c-159d-553c-b4ae-c7a7ac934d32"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851635999"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 E. Palmer Ave."
+        ],
+        "city": "GLENDALE",
+        "state": "CA",
+        "postalCode": "91205-3532"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11066"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11066.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5df1a472-a153-5efb-ba80-5b2f5d7a29a9"
+}

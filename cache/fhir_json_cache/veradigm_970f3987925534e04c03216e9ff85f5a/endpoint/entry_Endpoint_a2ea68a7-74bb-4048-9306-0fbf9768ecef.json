@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a2ea68a7-74bb-4048-9306-0fbf9768ecef",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c4fea4c8-9c74-4942-9624-29162f44cf92",
+        "name": "Docere Physicians"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Docere Physicians",
+    "managingOrganization": {
+      "reference": "#c4fea4c8-9c74-4942-9624-29162f44cf92"
+    },
+    "period": {
+      "start": "2023-06-16T11:22:12+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57526"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57526"
+}

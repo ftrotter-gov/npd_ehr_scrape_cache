@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9d3e1022-5e1c-5c92-b393-aad57014981e",
+    "name": "Uinta Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f30d83c1-813a-5cae-828e-d63e7ab691a0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013916519"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "196 Arrowhead Drive Suite 1"
+        ],
+        "city": "EVANSTON",
+        "state": "WY",
+        "postalCode": "82930-8752"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1583"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1583.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9d3e1022-5e1c-5c92-b393-aad57014981e"
+}

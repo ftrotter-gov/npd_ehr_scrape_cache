@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dcb89bd7-c640-5c11-813c-86ee65ee32ab",
+    "name": "Christopher Vignare LLP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c1741c49-dde2-56b6-b48c-6b461f424b28"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "2212345678"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 Main Street"
+        ],
+        "city": "BRIGHTON",
+        "state": "MA",
+        "postalCode": "02129-3533"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2864"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2864.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dcb89bd7-c640-5c11-813c-86ee65ee32ab"
+}

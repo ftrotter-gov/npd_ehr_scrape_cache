@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c3ba9d1a-2b78-5a72-b35d-8883fb847309",
+    "name": "Fresenius City Line",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7a35c2cd-ad53-56d8-9908-e690ce3151cd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275784498"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2601 North 3rd Street",
+          "Ste 101"
+        ],
+        "city": "HARRISBURG",
+        "state": "PA",
+        "postalCode": "17110-2061"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13093"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13093.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c3ba9d1a-2b78-5a72-b35d-8883fb847309"
+}

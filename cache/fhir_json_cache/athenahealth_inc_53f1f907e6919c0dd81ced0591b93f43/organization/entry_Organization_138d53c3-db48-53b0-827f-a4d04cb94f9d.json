@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "138d53c3-db48-53b0-827f-a4d04cb94f9d",
+    "name": "Villa Therese Catholic Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c6b6e68f-c43b-580d-a722-b1297948413d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1779 HOPEWELL ST"
+        ],
+        "city": "SANTA FE",
+        "state": "NM",
+        "postalCode": "87505-3897"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17367"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17367.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:138d53c3-db48-53b0-827f-a4d04cb94f9d"
+}

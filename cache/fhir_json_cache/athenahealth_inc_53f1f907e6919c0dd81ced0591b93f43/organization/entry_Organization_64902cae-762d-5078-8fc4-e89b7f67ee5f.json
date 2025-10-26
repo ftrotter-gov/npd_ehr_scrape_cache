@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "64902cae-762d-5078-8fc4-e89b7f67ee5f",
+    "name": "IVMC_Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a2520fc-c922-587a-b2aa-21c8c4f36f83"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447200126"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "36485 Inland Valley Dr"
+        ],
+        "city": "WILDOMAR",
+        "state": "CA",
+        "postalCode": "92595-9681"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:64902cae-762d-5078-8fc4-e89b7f67ee5f"
+}

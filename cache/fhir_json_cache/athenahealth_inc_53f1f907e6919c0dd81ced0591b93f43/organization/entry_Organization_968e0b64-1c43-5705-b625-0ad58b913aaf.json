@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "968e0b64-1c43-5705-b625-0ad58b913aaf",
+    "name": "Zah Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/12ea9d9e-d55a-540b-8677-276e7ca0434f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093402315"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "353 Miller Ave"
+        ],
+        "city": "SHEFFIELD",
+        "state": "MA",
+        "postalCode": "01257-9776"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29116"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29116.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:968e0b64-1c43-5705-b625-0ad58b913aaf"
+}

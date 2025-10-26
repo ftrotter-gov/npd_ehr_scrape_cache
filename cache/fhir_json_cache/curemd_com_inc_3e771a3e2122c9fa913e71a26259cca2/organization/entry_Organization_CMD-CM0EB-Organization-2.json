@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0EB-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0EB"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Kota Cancer Clinic, PLLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5014635700"
+      },
+      {
+        "system": "fax",
+        "value": "5014635710"
+      },
+      {
+        "system": "url",
+        "value": "kotacancerclinic@gmail.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "180 Medical Park Place Suite 201 Hot Springs AR 71901 US",
+        "line": [
+          "180 Medical Park Place",
+          "Suite 201"
+        ],
+        "city": "Hot Springs",
+        "state": "AR",
+        "postalCode": "71901",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0EB-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0EB-Organization-2"
+}

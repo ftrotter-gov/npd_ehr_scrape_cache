@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ca9ed9b4-e81f-52fa-aa5c-be12050da984",
+    "meta": {
+      "lastUpdated": "2022-03-23T22:51:04.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://bidmc.org"
+      }
+    ],
+    "name": "Beth Israel Deaconess Health System",
+    "active": true,
+    "partOf": {
+      "reference": "urn:uuid:05214e56-34b5-5391-addc-4547e25c26ff"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://bidmc.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "330 Brookline Avenue"
+        ],
+        "city": "BOSTON",
+        "state": "MA",
+        "postalCode": "02215",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:bb0e576e-7968-5c28-8fe6-3dc488b7a93c"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:bb0e576e-7968-5c28-8fe6-3dc488b7a93c"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ca9ed9b4-e81f-52fa-aa5c-be12050da984"
+}

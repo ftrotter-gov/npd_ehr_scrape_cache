@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b0444a77-281b-5d01-b0b0-71fce7fddf32",
+    "name": "New York Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92a92863-5e58-505c-abaf-d305bf359ddb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972122596"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "165 BROADWAY",
+          "23 FLOOR"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10006-1404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27998"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27998.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b0444a77-281b-5d01-b0b0-71fce7fddf32"
+}

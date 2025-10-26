@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a30723f-ec12-5801-932f-ea2d89faefae",
+    "name": "OrthoIndy Northwest Pre-Op",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/42d342ae-13cb-560d-a687-ee4888fa193f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336252451"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6040 W 84th St"
+        ],
+        "city": "Indianapolis",
+        "state": "IN",
+        "postalCode": "46278-1381"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29985"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29985.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a30723f-ec12-5801-932f-ea2d89faefae"
+}

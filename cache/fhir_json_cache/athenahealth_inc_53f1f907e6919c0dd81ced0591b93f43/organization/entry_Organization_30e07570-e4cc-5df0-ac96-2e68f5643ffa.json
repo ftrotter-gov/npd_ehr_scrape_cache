@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "30e07570-e4cc-5df0-ac96-2e68f5643ffa",
+    "name": "Psychiatry Services of NY",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aac3339a-32cd-53eb-beab-7048167a913c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013781871"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "80 GUEST ST"
+        ],
+        "city": "BRIGHTON",
+        "state": "MA",
+        "postalCode": "02135-2071"
+      },
+      {
+        "line": [
+          "121 Sully's Trail",
+          "Suite 8"
+        ],
+        "city": "PITTSFORD",
+        "state": "NY",
+        "postalCode": "14534-4570"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28623"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28623.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:30e07570-e4cc-5df0-ac96-2e68f5643ffa"
+}

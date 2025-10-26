@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4fa00575-bc29-5b06-8b83-55f4c71123f3",
+    "name": "MMI DOCTORS",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fc554ce5-e3ec-5dc8-8327-1cc06c337a3a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962841627"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588634570"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3414 olandwood court"
+        ],
+        "city": "OLNEY",
+        "state": "MD",
+        "postalCode": "20832-2905"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3812"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3812.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4fa00575-bc29-5b06-8b83-55f4c71123f3"
+}

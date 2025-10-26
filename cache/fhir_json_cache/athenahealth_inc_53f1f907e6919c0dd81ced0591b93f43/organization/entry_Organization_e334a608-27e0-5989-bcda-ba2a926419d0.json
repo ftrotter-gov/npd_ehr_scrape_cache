@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e334a608-27e0-5989-bcda-ba2a926419d0",
+    "name": "The Family Place",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/354d6dcc-7776-5972-ab85-dde48fe1c8cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2241 Butler"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75235-7826"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17923"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17923.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e334a608-27e0-5989-bcda-ba2a926419d0"
+}

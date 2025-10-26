@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "698abd1b-3361-563d-951e-11ded5dcb497",
+    "name": "Snellville Dialysis Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d1d63ca-8fdd-55d0-b4c9-29270c03127b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053968511"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2290 Oak Road",
+          "Suite 101"
+        ],
+        "city": "SNELLVILLE",
+        "state": "GA",
+        "postalCode": "30078-2355"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20244"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20244.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:698abd1b-3361-563d-951e-11ded5dcb497"
+}

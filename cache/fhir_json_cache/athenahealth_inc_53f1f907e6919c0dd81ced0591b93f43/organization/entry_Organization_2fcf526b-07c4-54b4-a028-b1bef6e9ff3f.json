@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2fcf526b-07c4-54b4-a028-b1bef6e9ff3f",
+    "name": "My Mother's Place B&C",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f34b751d-b3b0-57bb-a6f6-d86466f3dc8d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013109834"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11827 Rose Ave"
+        ],
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "postalCode": "90066-1119"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2fcf526b-07c4-54b4-a028-b1bef6e9ff3f"
+}

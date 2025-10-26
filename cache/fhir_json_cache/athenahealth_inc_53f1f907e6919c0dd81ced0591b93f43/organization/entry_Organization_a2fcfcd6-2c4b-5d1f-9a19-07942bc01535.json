@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a2fcfcd6-2c4b-5d1f-9a19-07942bc01535",
+    "name": "PRIMARY CARE CENTER/Taylor",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c51ee79c-4d57-5bb0-9025-62809aabef76"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780292623"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10424 PELHAM RD"
+        ],
+        "city": "TAYLOR",
+        "state": "MI",
+        "postalCode": "48180-3828"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23214"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23214.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a2fcfcd6-2c4b-5d1f-9a19-07942bc01535"
+}

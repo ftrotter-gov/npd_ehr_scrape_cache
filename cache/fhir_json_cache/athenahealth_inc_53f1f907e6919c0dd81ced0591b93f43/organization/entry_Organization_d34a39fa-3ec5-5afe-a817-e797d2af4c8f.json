@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d34a39fa-3ec5-5afe-a817-e797d2af4c8f",
+    "name": "Mesquite Speciality",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/344b8810-7bcd-5312-ac13-a46b8907af9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992811657"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1023 N Belt Line Rd"
+        ],
+        "city": "Mesquite",
+        "state": "TX",
+        "postalCode": "75149-1788"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3518"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3518.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d34a39fa-3ec5-5afe-a817-e797d2af4c8f"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7d293ca1-10eb-5c08-81bd-a3fe07b141ea",
+    "name": "The Doctors Center | Orlando",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1c7fbbf-bc6b-5422-b262-8b545aaa08bc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053366880"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7824 Lake Underhill Rd",
+          "Suite B"
+        ],
+        "city": "ORLANDO",
+        "state": "FL",
+        "postalCode": "32822-8201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25165"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25165.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7d293ca1-10eb-5c08-81bd-a3fe07b141ea"
+}

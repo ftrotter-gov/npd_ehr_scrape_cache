@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2e08fb40-0651-5609-86dd-b6894ee51446",
+    "name": "Williamson Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/16809e52-6857-5c33-921e-dedec989db66"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639122690"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "859 Alderson St"
+        ],
+        "city": "WILLIAMSON",
+        "state": "WV",
+        "postalCode": "25661-3103"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15521"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15521.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2e08fb40-0651-5609-86dd-b6894ee51446"
+}

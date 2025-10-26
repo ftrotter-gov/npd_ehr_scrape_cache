@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3fb3781e-7ed8-58ad-bcd3-41b067b575ae",
+    "name": "OSU Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6a6beeb5-91e9-5aba-9a44-c0f256b2e3b4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124399233"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "744 W. 9th St."
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74127-9020"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4696"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4696.Brand-15"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3fb3781e-7ed8-58ad-bcd3-41b067b575ae"
+}

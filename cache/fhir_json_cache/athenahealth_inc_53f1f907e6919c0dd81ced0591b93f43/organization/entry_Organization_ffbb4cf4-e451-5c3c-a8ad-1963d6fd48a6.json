@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ffbb4cf4-e451-5c3c-a8ad-1963d6fd48a6",
+    "name": "Welcome Health Home Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/adc3677a-a9cb-56c0-bcb2-1a4475212738"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174295349"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8135 PAINTER AVE # 105"
+        ],
+        "city": "WHITTIER",
+        "state": "CA",
+        "postalCode": "90602-3158"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25469"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25469.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ffbb4cf4-e451-5c3c-a8ad-1963d6fd48a6"
+}

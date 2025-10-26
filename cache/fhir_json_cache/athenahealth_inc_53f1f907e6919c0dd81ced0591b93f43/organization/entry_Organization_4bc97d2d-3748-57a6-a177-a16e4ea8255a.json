@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4bc97d2d-3748-57a6-a177-a16e4ea8255a",
+    "name": "Smith and Kolb Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a778e415-e17b-597b-b132-5039c9afa580"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114688223"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1766 Metro Medical Dr"
+        ],
+        "city": "FAYETTEVILLE",
+        "state": "NC",
+        "postalCode": "28304-3861"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25646"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25646.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4bc97d2d-3748-57a6-a177-a16e4ea8255a"
+}

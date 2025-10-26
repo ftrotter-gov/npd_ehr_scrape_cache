@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b37a9de2-aaca-5159-a1ef-dc558fa17afe",
+    "name": "GR St Anne IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/32da5689-95d6-5bde-9bbf-28cfe8626014"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366448110"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "340 W Sylvania"
+        ],
+        "city": "TOLEDO",
+        "state": "OH",
+        "postalCode": "43623-4467"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9045"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9045.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b37a9de2-aaca-5159-a1ef-dc558fa17afe"
+}

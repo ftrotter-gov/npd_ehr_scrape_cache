@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf0e16a7-e9e4-53b4-8974-42b3d69d512d",
+    "name": "Southern Virginia Pain Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/657410ea-8335-5839-938e-d128447ec215"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851390447"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "727 NORTH MAIN STREET"
+        ],
+        "city": "Emporia",
+        "state": "VA",
+        "postalCode": "23847-1274"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1571"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1571.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf0e16a7-e9e4-53b4-8974-42b3d69d512d"
+}

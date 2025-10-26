@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e3c3827d-4670-546e-8df8-ba8b0adc2a72",
+    "name": "Parkland Medical Center - In Patient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8cce69db-face-55eb-bdbf-50bd2bc5d28c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417724170"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Parkland Drive"
+        ],
+        "city": "DERRY",
+        "state": "NH",
+        "postalCode": "03038-2746"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32845"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32845.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e3c3827d-4670-546e-8df8-ba8b0adc2a72"
+}

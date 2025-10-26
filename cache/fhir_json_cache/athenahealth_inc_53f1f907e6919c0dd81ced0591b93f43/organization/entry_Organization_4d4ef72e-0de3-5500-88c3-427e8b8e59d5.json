@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d4ef72e-0de3-5500-88c3-427e8b8e59d5",
+    "name": "Internal Med Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/19bc1d4b-84bd-5079-bd4c-4861e2c0fd95"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306805767"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1139 CARTHAGE ST.",
+          "SUITE 110"
+        ],
+        "city": "SANFORD",
+        "state": "NC",
+        "postalCode": "27330-4144"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4706"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4706.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d4ef72e-0de3-5500-88c3-427e8b8e59d5"
+}

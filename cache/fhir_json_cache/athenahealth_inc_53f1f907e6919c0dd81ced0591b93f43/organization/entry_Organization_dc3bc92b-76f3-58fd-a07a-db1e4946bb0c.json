@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dc3bc92b-76f3-58fd-a07a-db1e4946bb0c",
+    "name": "The Integrative Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/79e49269-4a2b-527e-8e9d-51ae07e7f68e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366914590"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2300 GREEN OAK DRIVE, SUITE 150"
+        ],
+        "city": "KINGWOOD",
+        "state": "TX",
+        "postalCode": "77339-2038"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20185"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20185.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dc3bc92b-76f3-58fd-a07a-db1e4946bb0c"
+}

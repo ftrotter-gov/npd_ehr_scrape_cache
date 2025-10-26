@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c8ce765a-b3d1-5640-b965-fde30d39b29d",
+    "name": "Physicians Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8e8411a3-7a81-5863-a29b-8a0678027f85"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912932047"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8300 COLLIER BLVD"
+        ],
+        "city": "NAPLES",
+        "state": "FL",
+        "postalCode": "34114-3549"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6140"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6140.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c8ce765a-b3d1-5640-b965-fde30d39b29d"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5ab401a-c8bc-5b28-83a9-a86bc27a721e",
+    "name": "Yosi Test",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f98e401f-e9dd-5f08-8a62-8b387488657e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407573850"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 MAIN STREET"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10120-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27742"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27742.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5ab401a-c8bc-5b28-83a9-a86bc27a721e"
+}

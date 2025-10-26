@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "239eb1fa-0faa-538b-a1dd-eb9bf6c6b73b",
+    "name": "Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6b502c4f-571e-56ee-8543-0ee6700a3adb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215404108"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3720 WEST BROADWAY ST"
+        ],
+        "city": "MUSKOGEE",
+        "state": "OK",
+        "postalCode": "74401-2141"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19201"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19201.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:239eb1fa-0faa-538b-a1dd-eb9bf6c6b73b"
+}

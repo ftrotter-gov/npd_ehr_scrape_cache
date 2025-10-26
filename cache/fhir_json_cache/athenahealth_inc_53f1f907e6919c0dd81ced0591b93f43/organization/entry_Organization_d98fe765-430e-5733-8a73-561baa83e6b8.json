@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d98fe765-430e-5733-8a73-561baa83e6b8",
+    "name": "McInnis Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/86a11e5d-ecd5-5935-9f52-632b215d970a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114447083"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1123 S MAIN ST STE C"
+        ],
+        "city": "REIDSVILLE",
+        "state": "NC",
+        "postalCode": "27320-5340"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29598"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29598.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d98fe765-430e-5733-8a73-561baa83e6b8"
+}

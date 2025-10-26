@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "84feab73-51af-568a-a7ec-9c8482619202",
+    "name": "DeKalb Rural Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a69e93e1-76ec-5ac0-978a-bf908dc41038"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053172874"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "415 Medical Center Drive SW"
+        ],
+        "city": "FORT PAYNE",
+        "state": "AL",
+        "postalCode": "35968-3421"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30893"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30893.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:84feab73-51af-568a-a7ec-9c8482619202"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fae99347-8bf4-57aa-947c-ce446e867cb3",
+    "name": "D'Amico Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3659eb93-ec6a-5ce4-ab2e-f45cd683ed47"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154129112"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2013 MIDWEST RD"
+        ],
+        "city": "OAK BROOK",
+        "state": "IL",
+        "postalCode": "60523-1312"
+      },
+      {
+        "line": [
+          "275 N YORK ST"
+        ],
+        "city": "ELMHURST",
+        "state": "IL",
+        "postalCode": "60126-2766"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33364"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33364.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fae99347-8bf4-57aa-947c-ce446e867cb3"
+}

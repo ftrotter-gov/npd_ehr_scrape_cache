@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5055cf83-6967-5d70-98c2-8c9c7ba4c7e5",
+    "name": "The Pediatric Place",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f2bd5b40-424c-5a72-91de-52eebc053450"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609479138"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3020 S GENESEE RD"
+        ],
+        "city": "BURTON",
+        "state": "MI",
+        "postalCode": "48519-1420"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28670"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28670.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5055cf83-6967-5d70-98c2-8c9c7ba4c7e5"
+}

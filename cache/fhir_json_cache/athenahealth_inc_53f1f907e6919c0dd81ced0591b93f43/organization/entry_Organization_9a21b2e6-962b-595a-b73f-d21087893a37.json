@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9a21b2e6-962b-595a-b73f-d21087893a37",
+    "name": "Utah Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ce3caa5a-e1cc-5d3b-b7c8-aab066f2f272"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306952783"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3715 W 4100 S"
+        ],
+        "city": "SALT LAKE CITY",
+        "state": "UT",
+        "postalCode": "84120-5537"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11893"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11893.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9a21b2e6-962b-595a-b73f-d21087893a37"
+}

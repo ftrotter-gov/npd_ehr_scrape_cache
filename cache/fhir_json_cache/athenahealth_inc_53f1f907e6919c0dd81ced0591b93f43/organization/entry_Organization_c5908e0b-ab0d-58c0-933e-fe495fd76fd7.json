@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5908e0b-ab0d-58c0-933e-fe495fd76fd7",
+    "name": "Lenexa Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1b8c114d-586e-554d-b7fd-e8421b75b175"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134124746"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8550 Marshall Drive",
+          "Suite 100"
+        ],
+        "city": "LENEXA",
+        "state": "KS",
+        "postalCode": "66214-9836"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-583"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-583.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5908e0b-ab0d-58c0-933e-fe495fd76fd7"
+}

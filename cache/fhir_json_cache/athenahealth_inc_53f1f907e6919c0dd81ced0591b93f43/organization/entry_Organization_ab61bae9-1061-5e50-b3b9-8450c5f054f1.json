@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ab61bae9-1061-5e50-b3b9-8450c5f054f1",
+    "name": "Clinica Maria Luisa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d63795bd-329d-506a-93db-5914e103fc33"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "17617 SABAL PALM DRIVE"
+        ],
+        "city": "PENITAS",
+        "state": "TX",
+        "postalCode": "78576-8220"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18757"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18757.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ab61bae9-1061-5e50-b3b9-8450c5f054f1"
+}

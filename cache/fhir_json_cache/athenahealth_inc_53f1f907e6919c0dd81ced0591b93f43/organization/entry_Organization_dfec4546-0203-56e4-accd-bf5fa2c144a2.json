@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dfec4546-0203-56e4-accd-bf5fa2c144a2",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e18cbfe9-519e-5caa-957d-2f420c6cd856"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598132854"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5 EAST LONG STREET SUITE 500"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43215-2959"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12110"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12110.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dfec4546-0203-56e4-accd-bf5fa2c144a2"
+}

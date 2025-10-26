@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM18D-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM18D"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Shannon County Health Center",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5732263914"
+      },
+      {
+        "system": "fax",
+        "value": "5732263240"
+      },
+      {
+        "system": "url",
+        "value": "shannoncountyhealth.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "18018 Grey Jones Dr. Eminence MO 65466 US",
+        "line": [
+          "18018 Grey Jones Dr."
+        ],
+        "city": "Eminence",
+        "state": "MO",
+        "postalCode": "65466",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM18D-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM18D-Organization-2"
+}

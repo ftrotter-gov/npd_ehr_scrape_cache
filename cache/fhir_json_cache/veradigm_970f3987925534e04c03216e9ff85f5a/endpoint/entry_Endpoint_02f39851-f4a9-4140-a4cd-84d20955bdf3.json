@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "02f39851-f4a9-4140-a4cd-84d20955bdf3",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "b85dd1ed-880f-4eed-a29a-33334ad53b79",
+        "name": "CardioMetabolic Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "CardioMetabolic Health",
+    "managingOrganization": {
+      "reference": "#b85dd1ed-880f-4eed-a29a-33334ad53b79"
+    },
+    "period": {
+      "start": "2025-03-13T07:47:10+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0011291"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0011291"
+}

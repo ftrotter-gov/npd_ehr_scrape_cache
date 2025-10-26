@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ce6c7981-34cb-50ad-851f-ea9e45dc84c7",
+    "name": "Battle Ground HealthCare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6d1848d-ce01-54f5-ba67-694bf29b2289"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11117 189th Street"
+        ],
+        "city": "BATTLE GROUND",
+        "state": "WA",
+        "postalCode": "98604-9102"
+      },
+      {
+        "line": [
+          "1910 SW 9th Avenue"
+        ],
+        "city": "BATTLE GROUND",
+        "state": "WA",
+        "postalCode": "98604-3269"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18826"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18826.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ce6c7981-34cb-50ad-851f-ea9e45dc84c7"
+}

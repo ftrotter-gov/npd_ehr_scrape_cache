@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "48d73774-6512-5b46-9be4-2072f5be9b5a",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://citizensmedicalcenter.org/home"
+      }
+    ],
+    "name": "Citizens Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://citizensmedicalcenter.org/home"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2701 Hospital Drive"
+        ],
+        "city": "Victoria",
+        "state": "TX",
+        "postalCode": "77901",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:4bb3a98c-b867-45a9-bbce-eca4c1dcf7fc"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:4bb3a98c-b867-45a9-bbce-eca4c1dcf7fc"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:48d73774-6512-5b46-9be4-2072f5be9b5a"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f1b2fed8-5ca9-5d95-975c-28b83db9fe5d",
+    "name": "AllCare Manteca Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bb871ae6-61dd-54be-af8d-95438fc33ff9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336543925"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "332 NORTHGATE DRIVE"
+        ],
+        "city": "MANTECA",
+        "state": "CA",
+        "postalCode": "95336-3139"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29991"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29991.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f1b2fed8-5ca9-5d95-975c-28b83db9fe5d"
+}

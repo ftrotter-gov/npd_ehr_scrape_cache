@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "297ca6de-4687-596f-8a97-71ff7a87cd6a",
+    "name": "Sunrise Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/52c9a8fb-68c0-5adc-ae4c-610997bef4fa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790712537"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "815 Atlantic Ave",
+          "Suite 201"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11238-6589"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26654"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26654.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:297ca6de-4687-596f-8a97-71ff7a87cd6a"
+}

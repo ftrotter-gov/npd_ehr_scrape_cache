@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d7d1c4d4-e471-51e9-aebb-0fbd1164f272",
+    "name": "Modesto Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eaa084e5-e5fb-58dc-ab16-7a164d2e0041"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356830947"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1224 Scenic Dr"
+        ],
+        "city": "MODESTO",
+        "state": "CA",
+        "postalCode": "95350-6137"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17371"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17371.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d7d1c4d4-e471-51e9-aebb-0fbd1164f272"
+}

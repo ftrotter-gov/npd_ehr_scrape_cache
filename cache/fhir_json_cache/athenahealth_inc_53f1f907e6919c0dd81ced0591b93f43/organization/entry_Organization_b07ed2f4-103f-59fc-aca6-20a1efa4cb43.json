@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b07ed2f4-103f-59fc-aca6-20a1efa4cb43",
+    "name": "Central Neurological Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5d72b79a-dbfe-54db-b4b4-33a7d2328373"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "PEND**1982815676"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 MEDICAL CENTER DR SUITE 325"
+        ],
+        "city": "FRANKLIN",
+        "state": "OH",
+        "postalCode": "45005"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4937"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4937.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b07ed2f4-103f-59fc-aca6-20a1efa4cb43"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a40c82a0-51c1-527c-8fab-557817de069c",
+    "name": "Franklin Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a840cbdb-221e-5cd2-a2af-896cd04e0b1c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528266590"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 FRANKLIN HEALTH COMMONS"
+        ],
+        "city": "FARMINGTON",
+        "state": "ME",
+        "postalCode": "04938-6144"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2491"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2491.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a40c82a0-51c1-527c-8fab-557817de069c"
+}

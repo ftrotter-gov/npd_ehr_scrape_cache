@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8480d16c-a2b7-56be-99c7-83ebf8328b32",
+    "meta": {
+      "lastUpdated": "2023-05-01T14:57:42.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://whiteriverhealthsystem.com"
+      }
+    ],
+    "name": "White River Health",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://whiteriverhealthsystem.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1710 Harrison Street"
+        ],
+        "city": "BATESVILLE",
+        "state": "AR",
+        "postalCode": "72501",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:be9bd559-8aa9-4d7f-82f3-e971fee81e12"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:be9bd559-8aa9-4d7f-82f3-e971fee81e12"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8480d16c-a2b7-56be-99c7-83ebf8328b32"
+}

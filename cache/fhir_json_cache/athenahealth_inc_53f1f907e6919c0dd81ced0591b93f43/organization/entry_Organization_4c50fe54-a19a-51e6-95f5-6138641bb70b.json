@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c50fe54-a19a-51e6-95f5-6138641bb70b",
+    "name": "iCare Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6f55c3ac-a0b7-56db-9cfd-2e12959eb67a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396410528"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "218 W NASA PARKWAY",
+          "SUITE B"
+        ],
+        "city": "WEBSTER",
+        "state": "TX",
+        "postalCode": "77598-5393"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27595"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27595.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c50fe54-a19a-51e6-95f5-6138641bb70b"
+}

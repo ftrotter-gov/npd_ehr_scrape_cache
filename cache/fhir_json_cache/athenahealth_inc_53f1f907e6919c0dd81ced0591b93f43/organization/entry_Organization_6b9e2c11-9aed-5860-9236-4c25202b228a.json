@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b9e2c11-9aed-5860-9236-4c25202b228a",
+    "name": "Romeo Plank Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/662499e5-3e78-5d09-b4b1-46bfa7672bdf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851765374"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "46591 ROMEO PLANK",
+          "STE 200"
+        ],
+        "city": "MACOMB",
+        "state": "MI",
+        "postalCode": "48044-5705"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8209"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8209.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b9e2c11-9aed-5860-9236-4c25202b228a"
+}

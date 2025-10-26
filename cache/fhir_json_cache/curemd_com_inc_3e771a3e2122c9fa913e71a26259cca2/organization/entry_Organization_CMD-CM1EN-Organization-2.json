@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1EN-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1EN"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "other",
+            "display": "Other"
+          }
+        ]
+      }
+    ],
+    "name": "MassMutual",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4137445978"
+      },
+      {
+        "system": "fax",
+        "value": "4132264407"
+      }
+    ],
+    "address": [
+      {
+        "text": "1295 State St F210 SPRINGFIELD MA 1111 US",
+        "line": [
+          "1295 State St F210"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "postalCode": "1111",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1EN-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1EN-Organization-2"
+}

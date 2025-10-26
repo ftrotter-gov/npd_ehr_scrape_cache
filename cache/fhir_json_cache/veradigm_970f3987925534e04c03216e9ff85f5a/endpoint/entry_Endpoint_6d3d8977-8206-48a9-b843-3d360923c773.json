@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "6d3d8977-8206-48a9-b843-3d360923c773",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "6c0f8226-7cbe-4198-a4eb-0d0d2ad7e0a9",
+        "name": "Optum"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Optum",
+    "managingOrganization": {
+      "reference": "#6c0f8226-7cbe-4198-a4eb-0d0d2ad7e0a9"
+    },
+    "period": {
+      "start": "2019-01-22T08:38:10+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10017518"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10017518"
+}

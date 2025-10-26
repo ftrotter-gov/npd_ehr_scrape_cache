@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8bc037e1-70dc-5ba1-9b7a-f45f44102bf1",
+    "name": "My Christian Doctor",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ef2a041c-658e-5291-bace-50ba3203d562"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659552305"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1213 S. TAMIAMI TRAIL"
+        ],
+        "city": "SARASOTA",
+        "state": "FL",
+        "postalCode": "34239-2208"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25585"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25585.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8bc037e1-70dc-5ba1-9b7a-f45f44102bf1"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b0f3288a-c9df-5a44-862a-ff3e2371bc89",
+    "name": "Bay Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/61f0e480-2180-547e-9d25-8cd576183e54"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770534927"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "40 Quinlan Way",
+          "Suite 206"
+        ],
+        "city": "HYANNIS",
+        "state": "MA",
+        "postalCode": "02601-5232"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-961"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-961.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b0f3288a-c9df-5a44-862a-ff3e2371bc89"
+}

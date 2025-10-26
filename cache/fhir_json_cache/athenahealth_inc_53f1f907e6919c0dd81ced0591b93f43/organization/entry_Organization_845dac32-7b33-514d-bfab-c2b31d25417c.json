@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "845dac32-7b33-514d-bfab-c2b31d25417c",
+    "name": "Saint Ignace Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af9ce499-78af-56a3-b0aa-5b51f9ba2f2d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932904489"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1140 N STATE ST"
+        ],
+        "city": "SAINT IGNACE",
+        "state": "MI",
+        "postalCode": "49781-1013"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33154"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33154.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:845dac32-7b33-514d-bfab-c2b31d25417c"
+}

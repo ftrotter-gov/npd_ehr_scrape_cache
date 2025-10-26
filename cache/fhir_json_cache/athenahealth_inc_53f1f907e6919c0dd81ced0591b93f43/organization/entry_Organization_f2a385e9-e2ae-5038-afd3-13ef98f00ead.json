@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f2a385e9-e2ae-5038-afd3-13ef98f00ead",
+    "name": "Qualified Quacks",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/168aa022-af24-5fe3-bfe1-712d037de83a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568125524"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2897 NORTH DRUID HILLS ROAD",
+          "SUITE 427"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30329-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25106"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25106.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f2a385e9-e2ae-5038-afd3-13ef98f00ead"
+}

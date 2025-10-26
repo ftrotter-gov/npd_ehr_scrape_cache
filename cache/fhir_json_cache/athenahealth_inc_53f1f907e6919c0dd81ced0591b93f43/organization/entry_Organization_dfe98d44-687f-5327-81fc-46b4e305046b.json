@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dfe98d44-687f-5327-81fc-46b4e305046b",
+    "name": "Batesville Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/53aae78a-7394-581b-8dfb-9a663b97c1bb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487194650"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "155 Keating Road"
+        ],
+        "city": "BATESVILLE",
+        "state": "MS",
+        "postalCode": "38606-2901"
+      },
+      {
+        "line": [
+          "303 Medical Center Drive"
+        ],
+        "city": "BATESVILLE",
+        "state": "MS",
+        "postalCode": "38606-8606"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15519"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15519.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dfe98d44-687f-5327-81fc-46b4e305046b"
+}

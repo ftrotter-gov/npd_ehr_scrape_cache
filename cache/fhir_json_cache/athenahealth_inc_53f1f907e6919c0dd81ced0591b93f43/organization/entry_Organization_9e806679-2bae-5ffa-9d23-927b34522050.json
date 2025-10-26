@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9e806679-2bae-5ffa-9d23-927b34522050",
+    "name": "Sullivan Street Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/72cfc3af-aa08-5e6b-b0eb-0a5743304746"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730419284"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "124 W 36TH ST FL 4"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10018-6915"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3299"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3299.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9e806679-2bae-5ffa-9d23-927b34522050"
+}

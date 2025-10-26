@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0MX-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0MX"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Anson County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7046945188"
+      },
+      {
+        "system": "fax",
+        "value": "7046949067"
+      },
+      {
+        "system": "url",
+        "value": "www.co.anson.nc.us"
+      }
+    ],
+    "address": [
+      {
+        "text": "110 Ashe Street Wadesboro ANSON NC 281702702 US",
+        "line": [
+          "110 Ashe Street"
+        ],
+        "city": "Wadesboro",
+        "district": "ANSON",
+        "state": "NC",
+        "postalCode": "281702702",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0MX-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0MX-Organization-2"
+}

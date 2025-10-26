@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3c4f184-3345-57dd-8f31-5f8f50d0671b",
+    "name": "Select Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6240de53-b2aa-50bf-b08a-c9964da28da0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215681176"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13108 DALLAS PKWY STE 430"
+        ],
+        "city": "FRISCO",
+        "state": "TX",
+        "postalCode": "75033-4246"
+      },
+      {
+        "line": [
+          "13108 DALLAS PKWY",
+          "Suite 430"
+        ],
+        "city": "Frisco",
+        "state": "TX",
+        "postalCode": "75033-4246"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25851"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25851.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3c4f184-3345-57dd-8f31-5f8f50d0671b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2ed77abc-aebc-5981-b3b7-a48f9fc456c5",
+    "name": "Kindred Central",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/344b8810-7bcd-5312-ac13-a46b8907af9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992811657"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8050 Meadows Rd"
+        ],
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75231-3406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3518"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3518.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2ed77abc-aebc-5981-b3b7-a48f9fc456c5"
+}

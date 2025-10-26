@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fab4650d-d3fe-50e7-8f77-e9a4106a9d63",
+    "name": "Elkhart Clinic - 600 East Blvd",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c894b289-d94c-56d6-b834-891f238e6a7e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013912286"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 East Blvd"
+        ],
+        "city": "ELKHART",
+        "state": "IN",
+        "postalCode": "46514-2483"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31626"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31626.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fab4650d-d3fe-50e7-8f77-e9a4106a9d63"
+}

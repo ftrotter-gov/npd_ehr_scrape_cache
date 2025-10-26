@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cc051f4e-7c1a-5f6e-9f72-14ae453fcbe4",
+    "name": "SURGERY CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/06e14e5d-5984-5767-9a9c-a9496e0bc691"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376557967"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4743 ARAPAHOE AVE",
+          "SUITE 101"
+        ],
+        "city": "BOULDER",
+        "state": "CO",
+        "postalCode": "80303-1123"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1943"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1943.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cc051f4e-7c1a-5f6e-9f72-14ae453fcbe4"
+}

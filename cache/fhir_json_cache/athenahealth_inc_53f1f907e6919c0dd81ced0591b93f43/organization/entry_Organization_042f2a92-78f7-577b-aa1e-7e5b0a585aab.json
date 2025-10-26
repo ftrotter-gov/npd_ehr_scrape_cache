@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "042f2a92-78f7-577b-aa1e-7e5b0a585aab",
+    "name": "St Mary Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f090640d-dda3-5ff9-a53d-0a57fd89ae2d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871734921"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18300 HWY 18"
+        ],
+        "city": "APPLE VALLEY",
+        "state": "CA",
+        "postalCode": "92307-2206"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3576"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3576.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:042f2a92-78f7-577b-aa1e-7e5b0a585aab"
+}

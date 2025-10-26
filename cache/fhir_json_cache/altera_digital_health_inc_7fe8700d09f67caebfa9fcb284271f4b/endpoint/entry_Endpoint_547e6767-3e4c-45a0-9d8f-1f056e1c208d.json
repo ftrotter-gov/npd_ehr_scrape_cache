@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "547e6767-3e4c-45a0-9d8f-1f056e1c208d",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "0bef8f3a-1710-4f65-91d8-511e56263ff5",
+        "name": "Madonna Rehabilitation Hospitals"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Madonna Rehabilitation Hospitals",
+    "managingOrganization": {
+      "reference": "#0bef8f3a-1710-4f65-91d8-511e56263ff5"
+    },
+    "period": {
+      "start": "2024-01-17T11:56:21+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://FHIR.madonna.org/open-Prod"
+  },
+  "fullUrl": "https://FHIR.madonna.org/open-Prod"
+}

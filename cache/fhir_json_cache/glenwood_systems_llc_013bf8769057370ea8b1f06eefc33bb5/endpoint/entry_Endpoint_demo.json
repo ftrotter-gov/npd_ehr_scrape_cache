@@ -1,0 +1,36 @@
+{
+  "resource": {
+    "contained": [
+      {
+        "id": "demo",
+        "resourceType": "Organization"
+      }
+    ],
+    "period": {
+      "start": "2022-11-30T23:29:20.000Z"
+    },
+    "managingOrganization": {
+      "reference": "Organization/demo"
+    },
+    "address": "https://fhir.glaceemr.com/fhir_base_r4/fhir/primecare",
+    "payloadType": [
+      {
+        "text": "FHIR R4 facade"
+      }
+    ],
+    "name": "FHIR R4 Production Sandbox EMR",
+    "id": "demo",
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "resourceType": "Endpoint",
+    "status": "active"
+  }
+}

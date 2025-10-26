@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3bd99812-6887-531f-aa43-6ce272b2a498",
+    "name": "The Wellness Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35b6fd9f-056a-5a54-bdbf-c41e7d6eaab5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043769722"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2601 Midpoint Dr",
+          "Suite 100"
+        ],
+        "city": "FORT COLLINS",
+        "state": "CO",
+        "postalCode": "80525-4451"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14940"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14940.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3bd99812-6887-531f-aa43-6ce272b2a498"
+}

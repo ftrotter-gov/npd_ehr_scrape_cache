@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a5573773-b52b-50d6-bf4e-b27cae8f6268",
+    "name": "Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/86180786-dac9-50af-8ab6-c4693a99ddd5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1010101010"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11 BACK RD"
+        ],
+        "city": "PERRY",
+        "state": "ME",
+        "postalCode": "04667-4119"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18830"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18830.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a5573773-b52b-50d6-bf4e-b27cae8f6268"
+}

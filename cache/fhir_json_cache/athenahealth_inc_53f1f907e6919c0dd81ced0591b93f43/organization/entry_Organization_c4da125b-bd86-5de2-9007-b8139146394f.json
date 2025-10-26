@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c4da125b-bd86-5de2-9007-b8139146394f",
+    "name": "FEARON - Medical City Dallas Hospital - IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd3dbaa8-f253-5be1-b20b-c1c44a5821ad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851439780"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7777 FOREST LN"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75230-2571"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8820"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8820.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c4da125b-bd86-5de2-9007-b8139146394f"
+}

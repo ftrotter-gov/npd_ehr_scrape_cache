@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a02b262b-d9f7-55d3-9577-68b3987833c9",
+    "name": "Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c890886d-8a6c-5529-9a41-49a357452924"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447509112"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "475 IRVING AVENUE"
+        ],
+        "city": "SYRACUSE",
+        "state": "NY",
+        "postalCode": "13210-1756"
+      },
+      {
+        "line": [
+          "725 IRVING AVENUE"
+        ],
+        "city": "SYRACUSE",
+        "state": "NY",
+        "postalCode": "13210-1603"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9322"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9322.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a02b262b-d9f7-55d3-9577-68b3987833c9"
+}

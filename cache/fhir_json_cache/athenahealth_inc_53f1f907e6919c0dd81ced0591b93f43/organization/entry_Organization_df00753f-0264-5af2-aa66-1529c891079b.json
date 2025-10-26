@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "df00753f-0264-5af2-aa66-1529c891079b",
+    "name": "Las Palmas Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6272967b-a509-571d-ad13-ad9ebc0101d4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720682008"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1801 N OREGON ST"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79902-3524"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23528"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23528.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:df00753f-0264-5af2-aa66-1529c891079b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0f5793d9-b381-5cf4-8427-e8203e7809b3",
+    "name": "Coweta Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cfdb7569-a3e5-5a4b-97ce-45a8a6edb3c6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083740047"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "607 S Broadway"
+        ],
+        "city": "COWETA",
+        "state": "OK",
+        "postalCode": "74429-5000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25507"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25507.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0f5793d9-b381-5cf4-8427-e8203e7809b3"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2140f57c-959f-5b24-a8f6-b04ca311833d",
+    "name": "Medical Diagnostic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0f098321-5c98-5f6d-a9d5-f46c525b8e8d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205968054"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "133 Gaither Dr. Suite-C",
+          "Mt. Laurel, NJ"
+        ],
+        "city": "MOUNT LAUREL",
+        "state": "NJ",
+        "postalCode": "08054-1710"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-328"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-328.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2140f57c-959f-5b24-a8f6-b04ca311833d"
+}

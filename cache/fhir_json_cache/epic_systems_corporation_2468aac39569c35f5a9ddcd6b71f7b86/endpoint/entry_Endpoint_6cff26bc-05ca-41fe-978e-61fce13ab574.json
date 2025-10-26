@@ -1,0 +1,52 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "6cff26bc-05ca-41fe-978e-61fce13ab574",
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/endpoint-fhir-version",
+        "valueCode": "4.0.1"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Methodist Health System",
+    "managingOrganization": {
+      "identifier": {
+        "system": "https://fhir.epic.com/Developer/Management/OrganizationId",
+        "value": "2407"
+      },
+      "display": "Methodist Health System (Dallas TX)"
+    },
+    "contact": [
+      {
+        "system": "url",
+        "value": "https://open.epic.com"
+      }
+    ],
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+            "code": "none"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epcapp.mhd.com/arr-prd-fhir/api/FHIR/R4"
+  },
+  "fullUrl": "urn:uuid:6cff26bc-05ca-41fe-978e-61fce13ab574"
+}

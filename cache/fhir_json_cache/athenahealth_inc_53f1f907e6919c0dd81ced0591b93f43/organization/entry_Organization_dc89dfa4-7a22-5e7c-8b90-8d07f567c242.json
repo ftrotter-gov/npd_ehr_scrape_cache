@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dc89dfa4-7a22-5e7c-8b90-8d07f567c242",
+    "name": "Pocola Health and Rehab",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5a0aef64-1148-5741-b2a3-ed616d718038"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982948287"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 HOME STREET"
+        ],
+        "city": "POCOLA",
+        "state": "OK",
+        "postalCode": "74902-1944"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15855"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15855.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dc89dfa4-7a22-5e7c-8b90-8d07f567c242"
+}

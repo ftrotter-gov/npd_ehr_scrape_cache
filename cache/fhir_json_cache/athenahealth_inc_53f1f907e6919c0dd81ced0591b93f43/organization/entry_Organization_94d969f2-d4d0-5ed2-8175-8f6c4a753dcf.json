@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "94d969f2-d4d0-5ed2-8175-8f6c4a753dcf",
+    "name": "Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/163a24c9-0c30-5882-81fa-ca3c1c3cac39"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619232956"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1501 TROUSDALE DR"
+        ],
+        "city": "BURLINGAME",
+        "state": "CA",
+        "postalCode": "94010-4506"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5522"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5522.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:94d969f2-d4d0-5ed2-8175-8f6c4a753dcf"
+}

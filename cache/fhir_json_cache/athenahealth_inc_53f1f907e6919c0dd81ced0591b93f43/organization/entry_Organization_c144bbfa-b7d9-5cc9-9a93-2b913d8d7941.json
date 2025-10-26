@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c144bbfa-b7d9-5cc9-9a93-2b913d8d7941",
+    "name": "Audubon Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/574cf1a3-09a5-5997-ac7b-4d374ea33fe4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568060135"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2301 MOSS ST"
+        ],
+        "city": "LAFAYETTE",
+        "state": "LA",
+        "postalCode": "70501-2125"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30289"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30289.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c144bbfa-b7d9-5cc9-9a93-2b913d8d7941"
+}

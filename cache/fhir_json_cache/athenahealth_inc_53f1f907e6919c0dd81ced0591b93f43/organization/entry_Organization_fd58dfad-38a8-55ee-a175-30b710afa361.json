@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fd58dfad-38a8-55ee-a175-30b710afa361",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b880c221-8f71-5ec8-9aa8-8c7bebeb5d6e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821399171"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "508 S HABANA AVE STE 220"
+        ],
+        "city": "TAMPA",
+        "state": "FL",
+        "postalCode": "33609-4161"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13863"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13863.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fd58dfad-38a8-55ee-a175-30b710afa361"
+}

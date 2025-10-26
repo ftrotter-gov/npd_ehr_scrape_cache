@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "97c830dd-160e-5465-970b-3d7b4d38e8a5",
+    "name": "ELLIS HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a086d77c-4f4f-5ae4-852d-54ff6918e0fb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770646804"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1101 NOTT STREET",
+          "0"
+        ],
+        "city": "SCHENECTADY",
+        "state": "NY",
+        "postalCode": "12308-2425"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3143"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3143.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:97c830dd-160e-5465-970b-3d7b4d38e8a5"
+}

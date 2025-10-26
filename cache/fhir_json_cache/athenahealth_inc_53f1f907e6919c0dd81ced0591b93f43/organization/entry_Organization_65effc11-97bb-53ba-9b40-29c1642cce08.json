@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "65effc11-97bb-53ba-9b40-29c1642cce08",
+    "name": "Twin Falls Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9d499f39-f5d0-589c-9a94-b979ce65dd00"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467816199"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1625 Addison Ave East"
+        ],
+        "city": "TWIN FALLS",
+        "state": "ID",
+        "postalCode": "83301-6424"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15480"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15480.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:65effc11-97bb-53ba-9b40-29c1642cce08"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c0224424-2c4e-5e91-b583-05ae974745a8",
+    "name": "Aria Health and Wellness",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ce3f110c-5301-5917-9c04-4751ab13e7c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982909099"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1111 RAINTREE CIR",
+          "STE 210"
+        ],
+        "city": "ALLEN",
+        "state": "TX",
+        "postalCode": "75013-4902"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20480"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20480.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c0224424-2c4e-5e91-b583-05ae974745a8"
+}

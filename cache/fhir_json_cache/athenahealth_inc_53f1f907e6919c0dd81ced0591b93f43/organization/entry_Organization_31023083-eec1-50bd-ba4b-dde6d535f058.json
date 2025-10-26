@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "31023083-eec1-50bd-ba4b-dde6d535f058",
+    "name": "Michael Gross, MD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/063e14ad-1386-55eb-b090-38b983ffc8c6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "329 AMBOY AVE"
+        ],
+        "city": "WOODBRIDGE",
+        "state": "NJ",
+        "postalCode": "07095-2975"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27471"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27471.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:31023083-eec1-50bd-ba4b-dde6d535f058"
+}

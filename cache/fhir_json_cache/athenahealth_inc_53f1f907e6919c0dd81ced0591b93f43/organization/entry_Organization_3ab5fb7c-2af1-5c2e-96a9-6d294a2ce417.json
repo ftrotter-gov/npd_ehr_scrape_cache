@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3ab5fb7c-2af1-5c2e-96a9-6d294a2ce417",
+    "name": "Frye Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/31d9bcb5-d4db-5a3c-a2a5-51ac0f8af226"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801823349"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "420 N CENTER ST"
+        ],
+        "city": "HICKORY",
+        "state": "NC",
+        "postalCode": "28601-5046"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4067"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4067.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3ab5fb7c-2af1-5c2e-96a9-6d294a2ce417"
+}

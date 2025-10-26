@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0c6e24e5-5936-5466-a35a-f0ac3f649949",
+    "name": "Healing Hands Community Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7b3394f9-a9de-536d-83b5-6772eea75efb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "108 BLUE RIDGE HWY STE 2"
+        ],
+        "city": "BLAIRSVILLE",
+        "state": "GA",
+        "postalCode": "30512-4458"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19762"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19762.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0c6e24e5-5936-5466-a35a-f0ac3f649949"
+}

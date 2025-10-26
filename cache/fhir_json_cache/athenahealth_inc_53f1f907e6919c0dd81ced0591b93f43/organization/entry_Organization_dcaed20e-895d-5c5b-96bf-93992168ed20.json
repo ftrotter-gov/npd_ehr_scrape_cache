@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dcaed20e-895d-5c5b-96bf-93992168ed20",
+    "name": "Jacksonville Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/baa9cb2d-5d8e-55ae-8ac3-3456cdbffdd4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447433222"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1701 S Pelham Road"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "AL",
+        "postalCode": "36265-3369"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8688"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8688.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dcaed20e-895d-5c5b-96bf-93992168ed20"
+}

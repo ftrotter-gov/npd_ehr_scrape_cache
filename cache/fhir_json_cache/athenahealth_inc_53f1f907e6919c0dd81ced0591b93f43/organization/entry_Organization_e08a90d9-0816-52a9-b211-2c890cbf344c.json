@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e08a90d9-0816-52a9-b211-2c890cbf344c",
+    "name": "Laredo Digestive Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9afd6131-e04e-521d-b284-3031d6182d38"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154486108"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "45D0925128"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6999 McPherson Road",
+          "Suite 219"
+        ],
+        "city": "LAREDO",
+        "state": "TX",
+        "postalCode": "78041-6449"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-252"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-252.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e08a90d9-0816-52a9-b211-2c890cbf344c"
+}

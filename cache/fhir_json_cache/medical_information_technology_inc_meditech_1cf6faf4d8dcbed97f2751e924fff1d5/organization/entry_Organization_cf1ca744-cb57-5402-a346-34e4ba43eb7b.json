@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cf1ca744-cb57-5402-a346-34e4ba43eb7b",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://trinityhealth.com"
+      }
+    ],
+    "name": "Trinity Health System",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://trinityhealth.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "380 Summit Avenue"
+        ],
+        "city": "Steubenville",
+        "state": "OH",
+        "postalCode": "43952",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:4ead1374-d405-4b85-9aae-dcd0d8477ca8"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:8b36fd6b-245d-5bce-82d2-181f9447a205"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:4ead1374-d405-4b85-9aae-dcd0d8477ca8"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cf1ca744-cb57-5402-a346-34e4ba43eb7b"
+}

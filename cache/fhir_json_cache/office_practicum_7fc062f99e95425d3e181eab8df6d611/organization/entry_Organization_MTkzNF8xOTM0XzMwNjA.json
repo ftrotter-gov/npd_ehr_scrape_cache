@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTkzNF8xOTM0XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "267.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285177949"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Samuel R Williams MD PA MD",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "410-788-2350",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "410-788-6859",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "5707 Calverton St Suite 1B Catonsville, MD 212281780",
+        "line": [
+          "5707 Calverton St",
+          "Suite 1B"
+        ],
+        "city": "Catonsville",
+        "state": "MD",
+        "postalCode": "212281780",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTkzNF8xOTM0XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTkzNF8xOTM0XzMwNjA"
+}

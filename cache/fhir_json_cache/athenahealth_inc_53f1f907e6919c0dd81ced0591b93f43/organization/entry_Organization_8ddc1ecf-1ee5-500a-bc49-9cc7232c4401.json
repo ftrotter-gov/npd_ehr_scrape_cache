@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ddc1ecf-1ee5-500a-bc49-9cc7232c4401",
+    "name": "OUR LADY OF GUADALUPE FREE CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6278af73-b2cb-5e44-9d65-2067baf0793a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1820 OXFORD STREET"
+        ],
+        "city": "WORTHINGTON",
+        "state": "MN",
+        "postalCode": "56187-1866"
+      },
+      {
+        "line": [
+          "616 11TH ST"
+        ],
+        "city": "WORTHINGTON",
+        "state": "MN",
+        "postalCode": "56187-2223"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15839"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15839.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ddc1ecf-1ee5-500a-bc49-9cc7232c4401"
+}

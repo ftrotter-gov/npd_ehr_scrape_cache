@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a041d7ab-f17d-580e-b6ba-79e670f4a466",
+    "name": "The Stone Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f384c9c1-005d-509f-baf1-e5f1de90f445"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104991769"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3727 Buchanan Street",
+          "Suite 300"
+        ],
+        "city": "San Francisco",
+        "state": "CA",
+        "postalCode": "94123-1779"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18612"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18612.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a041d7ab-f17d-580e-b6ba-79e670f4a466"
+}

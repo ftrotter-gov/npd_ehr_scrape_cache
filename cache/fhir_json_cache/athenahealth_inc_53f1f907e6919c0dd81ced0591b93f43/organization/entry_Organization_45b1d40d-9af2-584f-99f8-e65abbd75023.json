@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "45b1d40d-9af2-584f-99f8-e65abbd75023",
+    "name": "Modern Vein Providers",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cdb20066-4d3c-530e-bbcb-72ed57b13c7f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346010527"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "903 HARTFORD TPKE",
+          "STE 30"
+        ],
+        "city": "WATERFORD",
+        "state": "CT",
+        "postalCode": "06385-4264"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29708"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29708.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:45b1d40d-9af2-584f-99f8-e65abbd75023"
+}

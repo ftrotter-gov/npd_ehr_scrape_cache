@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a9c1f026-f07b-5b2d-9f69-84c1c0dec2e9",
+    "name": "Marion Providers",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1f631ea6-e15a-52ec-a093-fb13ec1262bf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720087950"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3331 West DeYoung",
+          "Suite 305"
+        ],
+        "city": "MARION",
+        "state": "IL",
+        "postalCode": "62959-5898"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1588"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1588.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a9c1f026-f07b-5b2d-9f69-84c1c0dec2e9"
+}

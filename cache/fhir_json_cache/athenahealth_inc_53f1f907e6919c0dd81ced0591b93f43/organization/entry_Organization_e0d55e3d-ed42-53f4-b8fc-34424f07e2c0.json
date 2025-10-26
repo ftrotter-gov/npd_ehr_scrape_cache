@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0d55e3d-ed42-53f4-b8fc-34424f07e2c0",
+    "name": "Family First",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/154f9e22-d48c-5009-a8b4-6252037e7694"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407419427"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "705 W. 7th Avenue",
+          "McCauley Hall Suite B"
+        ],
+        "city": "SPOKANE",
+        "state": "WA",
+        "postalCode": "99204-1000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22082"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22082.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0d55e3d-ed42-53f4-b8fc-34424f07e2c0"
+}

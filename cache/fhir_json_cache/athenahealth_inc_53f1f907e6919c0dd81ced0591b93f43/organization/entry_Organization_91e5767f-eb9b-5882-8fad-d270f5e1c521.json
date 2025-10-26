@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "91e5767f-eb9b-5882-8fad-d270f5e1c521",
+    "name": "Lake Forest Academy Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e31c9836-358f-579d-b182-6a8f6971a20c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1500 W KENNEDY ROAD LAKE FOREST"
+        ],
+        "city": "LAKE FOREST",
+        "state": "IL",
+        "postalCode": "60045-1047"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24811"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24811.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:91e5767f-eb9b-5882-8fad-d270f5e1c521"
+}

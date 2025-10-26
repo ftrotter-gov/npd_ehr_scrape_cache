@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e9101e02-9b81-571a-830f-1040da24fdc8",
+    "name": "Concord Orthopaedics - Concord Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8cce69db-face-55eb-bdbf-50bd2bc5d28c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417724170"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "264 Pleasant Street"
+        ],
+        "city": "CONCORD",
+        "state": "NH",
+        "postalCode": "03301-2551"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32845"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32845.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e9101e02-9b81-571a-830f-1040da24fdc8"
+}

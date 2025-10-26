@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42af45be-bcce-51e9-977c-d5c79a9c1312",
+    "name": "First Choice Medical Group Vero",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f04f0293-e732-5dec-9130-e545546ec5bb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578846564"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1715 37th Place",
+          "Suite 101"
+        ],
+        "city": "VERO BEACH",
+        "state": "FL",
+        "postalCode": "32960-4502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8524"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8524.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42af45be-bcce-51e9-977c-d5c79a9c1312"
+}

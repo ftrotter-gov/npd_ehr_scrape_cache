@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "390607fb-738e-5ea7-bfcf-352fb2041085",
+    "name": "Dr. Brown Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d543dd26-23ca-5eb2-938e-9105fe9c522e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356641104"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7829 E ROCKHILL",
+          "SUITES 406"
+        ],
+        "city": "WICHITA",
+        "state": "KS",
+        "postalCode": "67206-3915"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5687"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5687.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:390607fb-738e-5ea7-bfcf-352fb2041085"
+}

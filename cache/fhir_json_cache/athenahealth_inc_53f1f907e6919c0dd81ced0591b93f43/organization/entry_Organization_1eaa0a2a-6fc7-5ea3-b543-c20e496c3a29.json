@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1eaa0a2a-6fc7-5ea3-b543-c20e496c3a29",
+    "name": "Circle Home Telehealth Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7fd46f0e-0c5e-5d1d-8bab-e0390cfd9fc4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497537187"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6701 Democracy Blvd",
+          "Suite 300"
+        ],
+        "city": "BETHESDA",
+        "state": "MD",
+        "postalCode": "20817-7500"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28988"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28988.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1eaa0a2a-6fc7-5ea3-b543-c20e496c3a29"
+}

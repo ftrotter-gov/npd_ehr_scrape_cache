@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3b6eec72-8743-5197-b7f7-2d63fa19b588",
+    "name": "EPHS - Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/777fca81-603d-58c7-bb04-056006dd2e9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144302415"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "121 Calle Del Presidente"
+        ],
+        "city": "BERNALILLO",
+        "state": "NM",
+        "postalCode": "87004-6091"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30308"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30308.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3b6eec72-8743-5197-b7f7-2d63fa19b588"
+}

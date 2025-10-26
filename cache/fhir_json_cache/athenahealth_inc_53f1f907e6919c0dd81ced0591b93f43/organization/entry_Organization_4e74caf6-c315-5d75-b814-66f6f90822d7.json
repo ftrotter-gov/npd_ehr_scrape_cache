@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4e74caf6-c315-5d75-b814-66f6f90822d7",
+    "name": "Health Medical Institute",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/42d29aa4-b618-5229-915a-d7a54853e959"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154858736"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 AIRPORT PKWY STE 100"
+        ],
+        "city": "CHEYENNE",
+        "state": "WY",
+        "postalCode": "82001-1522"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17626"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17626.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4e74caf6-c315-5d75-b814-66f6f90822d7"
+}

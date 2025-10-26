@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0509a421-265f-58f6-b72c-2be3c6d04ed9",
+    "name": "Robles Medical Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9bc4c822-3cb6-5318-94a0-79008b4a5304"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760435705"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9040 TELEGRAPH RD",
+          "STE 102"
+        ],
+        "city": "DOWNEY",
+        "state": "CA",
+        "postalCode": "90240-2395"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32527"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32527.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0509a421-265f-58f6-b72c-2be3c6d04ed9"
+}

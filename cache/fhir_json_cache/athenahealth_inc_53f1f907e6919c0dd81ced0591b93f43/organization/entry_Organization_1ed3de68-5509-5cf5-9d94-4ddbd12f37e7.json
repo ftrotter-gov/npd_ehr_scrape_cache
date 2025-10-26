@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ed3de68-5509-5cf5-9d94-4ddbd12f37e7",
+    "name": "HCO - Harding MRI",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b188560c-8b48-5fed-8fe9-0e8a093c3c44"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962964833"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "394 HARDING PL, STE 101"
+        ],
+        "city": "NASHVILLE",
+        "state": "TN",
+        "postalCode": "37211-3980"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-321"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-321.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ed3de68-5509-5cf5-9d94-4ddbd12f37e7"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f547d827-de5e-5e54-81fc-3fe6af28a5be",
+    "name": "First State Women's Care - AAA Blvd",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aa6ab6ec-56ec-523e-a2d4-d9f4911e4f30"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821041617"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "875 AAA Blvd",
+          "Suite B, #3"
+        ],
+        "city": "Newark",
+        "state": "DE",
+        "postalCode": "19713-3624"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27010"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27010.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f547d827-de5e-5e54-81fc-3fe6af28a5be"
+}

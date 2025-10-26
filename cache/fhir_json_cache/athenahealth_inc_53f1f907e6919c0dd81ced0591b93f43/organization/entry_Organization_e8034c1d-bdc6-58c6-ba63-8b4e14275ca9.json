@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e8034c1d-bdc6-58c6-ba63-8b4e14275ca9",
+    "name": "Your Friendly Dietitian",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/813aba6d-649a-59ad-8fe6-81f7e67fd1cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093394678"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1222 MEREDITH DRIVE"
+        ],
+        "city": "SPRING HILL",
+        "state": "FL",
+        "postalCode": "34608-6232"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28428"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28428.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e8034c1d-bdc6-58c6-ba63-8b4e14275ca9"
+}

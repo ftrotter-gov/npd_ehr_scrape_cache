@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aadeeeca-f714-564e-937e-0715d161fea2",
+    "name": "Doctor Longoria",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6795cd67-4a26-5efc-b683-f292a678dab8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356866271"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 B TRANSMOUNTAIN RD - STE 260"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79911-3600"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16537"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16537.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aadeeeca-f714-564e-937e-0715d161fea2"
+}

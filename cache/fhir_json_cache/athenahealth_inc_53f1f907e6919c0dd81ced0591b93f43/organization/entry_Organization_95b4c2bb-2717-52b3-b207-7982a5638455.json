@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "95b4c2bb-2717-52b3-b207-7982a5638455",
+    "name": "Freeport Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7a2a4a22-4886-5a21-b1c9-22dfaf653efb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "16019 331 BUSINESS"
+        ],
+        "city": "FREEPORT",
+        "state": "FL",
+        "postalCode": "32439-3183"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15074"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15074.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:95b4c2bb-2717-52b3-b207-7982a5638455"
+}

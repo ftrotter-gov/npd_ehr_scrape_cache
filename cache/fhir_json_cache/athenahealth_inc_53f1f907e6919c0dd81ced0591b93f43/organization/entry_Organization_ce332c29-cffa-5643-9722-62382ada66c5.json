@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ce332c29-cffa-5643-9722-62382ada66c5",
+    "name": "Healing Hands Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d04970b7-3c75-55f4-a7dd-9c90ddf936b6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184740367"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2975 WILSHIRE BLVD STE 401"
+        ],
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "postalCode": "90010-1112"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13745"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13745.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ce332c29-cffa-5643-9722-62382ada66c5"
+}

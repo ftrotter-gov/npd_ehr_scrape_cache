@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7c6bf678-2b60-5214-a6f6-1e7d1688652b",
+    "name": "Resilient Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b455e3d7-4aa1-5cc7-8f84-b6f497728927"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9500 ROOSEVELT WAY NE, STE 301"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98115-2253"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19418"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19418.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7c6bf678-2b60-5214-a6f6-1e7d1688652b"
+}

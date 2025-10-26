@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d7741701-fe20-5dc8-b0c8-c106e47d1795",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://eastern-niagara-health.org"
+      }
+    ],
+    "name": "Eastern Niagara Health System",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://eastern-niagara-health.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "521 East Avenue"
+        ],
+        "city": "Lockport",
+        "state": "NY",
+        "postalCode": "14094",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:d5e682a5-1464-4cce-969e-a1f1be48f57d"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:d5e682a5-1464-4cce-969e-a1f1be48f57d"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d7741701-fe20-5dc8-b0c8-c106e47d1795"
+}

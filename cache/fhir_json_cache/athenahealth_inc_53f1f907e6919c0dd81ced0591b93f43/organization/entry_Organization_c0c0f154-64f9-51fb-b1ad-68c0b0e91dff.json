@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c0c0f154-64f9-51fb-b1ad-68c0b0e91dff",
+    "name": "Medical Procedures Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b82e444d-9208-5c78-b0fc-6ee4230e41b0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922513555"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4800 N SAGINAW RD"
+        ],
+        "city": "MIDLAND",
+        "state": "MI",
+        "postalCode": "48640-2953"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20495"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20495.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c0c0f154-64f9-51fb-b1ad-68c0b0e91dff"
+}

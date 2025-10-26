@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "596f1883-e68e-53b0-939e-babb6860c0ab",
+    "name": "Blue Star Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dc670c31-5507-58c9-8762-590863195706"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265089734"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "540 STRAIGHT ST STE 2B"
+        ],
+        "city": "PATERSON",
+        "state": "NJ",
+        "postalCode": "07503-3240"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25183"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25183.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:596f1883-e68e-53b0-939e-babb6860c0ab"
+}

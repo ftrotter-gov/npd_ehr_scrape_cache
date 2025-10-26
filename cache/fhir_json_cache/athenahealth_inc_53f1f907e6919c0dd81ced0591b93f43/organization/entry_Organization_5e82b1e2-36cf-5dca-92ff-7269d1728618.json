@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5e82b1e2-36cf-5dca-92ff-7269d1728618",
+    "name": "New Haven Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/141622b0-0118-55c7-a676-79cf492fc74f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568575991"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "46 PRINCE STREET",
+          "SUITE 401"
+        ],
+        "city": "NEW HAVEN",
+        "state": "CT",
+        "postalCode": "06519-1600"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8076"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8076.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5e82b1e2-36cf-5dca-92ff-7269d1728618"
+}

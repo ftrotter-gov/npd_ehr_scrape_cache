@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1e7ba682-fd90-5e18-85a1-4c9d586a1e2d",
+    "name": "AMERICAN FORK HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/12116b4b-0744-5892-8b84-08af254791b5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174804504"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "170 NORTH 1100 EAST"
+        ],
+        "city": "AMERICAN FORK",
+        "state": "UT",
+        "postalCode": "84003-2096"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3717"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3717.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1e7ba682-fd90-5e18-85a1-4c9d586a1e2d"
+}

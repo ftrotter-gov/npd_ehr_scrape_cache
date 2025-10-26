@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MzI0MV8zMjQxXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1181.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124118344"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Dyan Hes MD",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "616-681-1211",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "646-607-2616",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "420 West 23rd St. Suite AGF New York, NY 100112100",
+        "line": [
+          "420 West 23rd St.",
+          "Suite AGF"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "100112100",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MzI0MV8zMjQxXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MzI0MV8zMjQxXzMwNjA"
+}

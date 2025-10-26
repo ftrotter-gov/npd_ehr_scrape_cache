@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ff3fc565-29b1-5c6e-ab03-df70db6d80e0",
+    "name": "The Carlisle Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dad8ba75-bf9d-5b63-bcb2-a8959c65c218"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538401377"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6955 CARLISLE CT."
+        ],
+        "city": "NAPLES",
+        "state": "FL",
+        "postalCode": "34109-8972"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7973"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7973.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ff3fc565-29b1-5c6e-ab03-df70db6d80e0"
+}

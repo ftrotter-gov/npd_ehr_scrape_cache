@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a703c416-4409-51d9-8c71-cca61a2cec56",
+    "name": "Compassionate Health Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/645a6538-d727-5483-a673-86bd419efc12"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790009793"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1013 EXECUTIVE DR",
+          "STE 101"
+        ],
+        "city": "HIXSON",
+        "state": "TN",
+        "postalCode": "37343-7913"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32871"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32871.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a703c416-4409-51d9-8c71-cca61a2cec56"
+}

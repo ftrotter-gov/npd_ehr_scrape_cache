@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6a0789c3-8a72-585f-accd-45f872b31edf",
+    "meta": {
+      "lastUpdated": "2022-05-12T22:51:08.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://nlh.org"
+      }
+    ],
+    "name": "Nathan Littauer Hospital & Nursing Home",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://nlh.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "99 East State Street"
+        ],
+        "city": "Gloversville",
+        "state": "NY",
+        "postalCode": "12078",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:f8119584-f971-5960-b20c-fffa1bd0df8a"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:f8119584-f971-5960-b20c-fffa1bd0df8a"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6a0789c3-8a72-585f-accd-45f872b31edf"
+}

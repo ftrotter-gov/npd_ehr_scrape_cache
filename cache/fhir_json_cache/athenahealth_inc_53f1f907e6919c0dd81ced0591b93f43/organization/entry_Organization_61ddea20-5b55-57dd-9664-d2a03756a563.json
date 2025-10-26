@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "61ddea20-5b55-57dd-9664-d2a03756a563",
+    "name": "dallas medical center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/344b8810-7bcd-5312-ac13-a46b8907af9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992811657"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7 Medical Parkway"
+        ],
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75234-7823"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3518"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3518.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:61ddea20-5b55-57dd-9664-d2a03756a563"
+}

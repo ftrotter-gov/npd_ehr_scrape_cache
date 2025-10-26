@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ea8800a-2e71-55c3-902b-01f4ddb61c81",
+    "name": "Next Level Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a16e6eaa-26b2-5fce-b4b2-7fe54c2cd805"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407453269"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1646 WESTGATE CIR",
+          "STE 106"
+        ],
+        "city": "BRENTWOOD",
+        "state": "TN",
+        "postalCode": "37027-8563"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33213"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33213.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ea8800a-2e71-55c3-902b-01f4ddb61c81"
+}

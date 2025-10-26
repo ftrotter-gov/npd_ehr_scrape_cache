@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42ebcd06-68ae-5718-aed2-a2e17b5763ca",
+    "name": "Pulaski Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fff6e1dd-dfb2-5a34-8606-9d36716e5872"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225619117"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "25 4TH ST NW",
+          "PO BOX 1088"
+        ],
+        "city": "PULASKI",
+        "state": "VA",
+        "postalCode": "24301-4613"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16596"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16596.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42ebcd06-68ae-5718-aed2-a2e17b5763ca"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1ec3f221-15eb-4567-bb78-38a436af3a90",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "775db531-7a7c-4075-9155-d5157527e91f",
+        "name": "Russellville Pediatric Adolescent Clinic"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Russellville Pediatric Adolescent Clinic",
+    "managingOrganization": {
+      "reference": "#775db531-7a7c-4075-9155-d5157527e91f"
+    },
+    "period": {
+      "start": "2018-11-02T10:05:27+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10132763"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10132763"
+}

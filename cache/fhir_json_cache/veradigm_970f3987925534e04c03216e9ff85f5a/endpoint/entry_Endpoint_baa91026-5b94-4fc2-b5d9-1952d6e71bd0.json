@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "baa91026-5b94-4fc2-b5d9-1952d6e71bd0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "8cc54ae0-5b95-45d7-a517-90120ed6e7ad",
+        "name": "Peachtree Neurological Clinic"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Peachtree Neurological Clinic",
+    "managingOrganization": {
+      "reference": "#8cc54ae0-5b95-45d7-a517-90120ed6e7ad"
+    },
+    "period": {
+      "start": "2024-11-07T08:16:47+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57065"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57065"
+}

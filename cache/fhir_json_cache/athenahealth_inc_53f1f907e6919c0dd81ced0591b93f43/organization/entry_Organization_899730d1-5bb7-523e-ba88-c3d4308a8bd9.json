@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "899730d1-5bb7-523e-ba88-c3d4308a8bd9",
+    "name": "Emerson Hospital Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e3df2544-4528-503b-8c0a-33737982ea86"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891861050"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "133 ORNAC"
+        ],
+        "city": "Concord",
+        "state": "MA",
+        "postalCode": "01742-4159"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-740"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-740.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:899730d1-5bb7-523e-ba88-c3d4308a8bd9"
+}

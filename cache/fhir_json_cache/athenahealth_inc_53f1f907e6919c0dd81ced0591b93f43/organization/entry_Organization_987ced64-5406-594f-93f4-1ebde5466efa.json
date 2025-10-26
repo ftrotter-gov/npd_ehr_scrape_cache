@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "987ced64-5406-594f-93f4-1ebde5466efa",
+    "name": "Danacare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5165978a-1013-5c06-b30b-bf6b35d74aa9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326813825"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6530 SHERIDAN RD",
+          "STE 7"
+        ],
+        "city": "KENOSHA",
+        "state": "WI",
+        "postalCode": "53143-5063"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33666"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33666.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:987ced64-5406-594f-93f4-1ebde5466efa"
+}

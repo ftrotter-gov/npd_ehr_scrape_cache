@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "869ada6a-931a-5df5-b30f-8cc2b974ce55",
+    "name": "West Michigan Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/00f242f7-4a83-518b-853c-18d253bb1e2b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447366224"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20095 Gilbert Road",
+          "Suite: B"
+        ],
+        "city": "BIG RAPIDS",
+        "state": "MI",
+        "postalCode": "49307-2366"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17442"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17442.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:869ada6a-931a-5df5-b30f-8cc2b974ce55"
+}

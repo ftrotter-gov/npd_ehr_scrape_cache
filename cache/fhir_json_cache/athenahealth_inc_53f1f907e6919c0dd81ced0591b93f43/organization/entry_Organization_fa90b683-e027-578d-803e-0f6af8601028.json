@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa90b683-e027-578d-803e-0f6af8601028",
+    "name": "OUTPATIENT CARE CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4b7df401-c7c4-5105-8dba-7655ed8cf830"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558546994"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "01D1089186"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2720 UNIVERSITY BLVD"
+        ],
+        "city": "BIRMINGHAM",
+        "state": "AL",
+        "postalCode": "35233-3408"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2264"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2264.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa90b683-e027-578d-803e-0f6af8601028"
+}

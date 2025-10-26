@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4542a76c-5104-53ff-9bda-66c2add31171",
+    "name": "Logan Orthopaedics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/30e6c7ef-22d6-50f6-b3ba-1029df3384e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477399350"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558107433"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1623 S Nashville St",
+          "Suite 102/103"
+        ],
+        "city": "RUSSELLVILLE",
+        "state": "KY",
+        "postalCode": "42276-8889"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31599"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31599.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4542a76c-5104-53ff-9bda-66c2add31171"
+}

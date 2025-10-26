@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "CMD-CMZME-Endpoint-4",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/StructureDefinition/Endpoint"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMZME"
+        }
+      ]
+    },
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "name": "Comprehensive OBGYN",
+    "managingOrganization": {
+      "reference": "Organization/CMD-CMZME-Organization-4"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+            "code": "none",
+            "display": "None"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir"
+    ],
+    "address": "https://fhirendpoint.curemd.net/CMZME"
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Endpoint/CMD-CMZME-Endpoint-4"
+}

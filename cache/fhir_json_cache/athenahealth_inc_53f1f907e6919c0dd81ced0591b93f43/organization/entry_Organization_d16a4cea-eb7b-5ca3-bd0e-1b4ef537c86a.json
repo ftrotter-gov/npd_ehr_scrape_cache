@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d16a4cea-eb7b-5ca3-bd0e-1b4ef537c86a",
+    "name": "Swedish Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6ea27e5-9706-5dca-ac6b-2ea662e05b58"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790885358"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "747 Broadway"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98122-4307"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6078"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6078.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d16a4cea-eb7b-5ca3-bd0e-1b4ef537c86a"
+}

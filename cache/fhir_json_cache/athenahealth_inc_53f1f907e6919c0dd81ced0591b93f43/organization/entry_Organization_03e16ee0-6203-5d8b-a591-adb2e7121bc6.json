@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "03e16ee0-6203-5d8b-a591-adb2e7121bc6",
+    "name": "BERKSHIRE MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8883882c-f6c7-56e8-81e2-34fca0e5cf7a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821161795"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "725 NORTH STREET"
+        ],
+        "city": "PITTSFIELD",
+        "state": "MA",
+        "postalCode": "01201-4109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1004"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1004.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:03e16ee0-6203-5d8b-a591-adb2e7121bc6"
+}

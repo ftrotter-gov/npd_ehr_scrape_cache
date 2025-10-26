@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d26c9d3-4746-58dc-9d20-d2542bfd5a0b",
+    "name": "Primary Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9a6b826-af16-5be1-8840-76820c722482"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730501297"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "29777 TELEGRAPH RD",
+          "STE 2415"
+        ],
+        "city": "SOUTHFIELD",
+        "state": "MI",
+        "postalCode": "48034-6700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8533"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8533.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d26c9d3-4746-58dc-9d20-d2542bfd5a0b"
+}

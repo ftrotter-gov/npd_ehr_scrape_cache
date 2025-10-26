@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c063a451-8604-59b1-a0c4-ce655953e2ec",
+    "name": "People Care Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f41e7715-cc00-5241-b2af-4544679eec47"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205311461"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2738 SUNRISE BLVD",
+          "STE 16"
+        ],
+        "city": "RANCHO CORDOVA",
+        "state": "CA",
+        "postalCode": "95742-6214"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30870"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30870.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c063a451-8604-59b1-a0c4-ce655953e2ec"
+}

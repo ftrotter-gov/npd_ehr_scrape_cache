@@ -1,0 +1,73 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d40a587-2395-53c5-91ec-2a5262cc877d",
+    "meta": {
+      "lastUpdated": "2024-01-17T23:51:38.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://wgh.org/#gsc.tab=0"
+      }
+    ],
+    "name": "Warren General Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://wgh.org/#gsc.tab=0"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "Two Crescent Park West"
+        ],
+        "city": "Warren",
+        "state": "PA",
+        "postalCode": "16365",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:6d29034a-dc7a-523d-be7f-c794ecd30b0a"
+      },
+      {
+        "reference": "urn:uuid:ab138c9b-3dbc-4c33-ab1d-5f768c02dd17"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:6d29034a-dc7a-523d-be7f-c794ecd30b0a"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:ab138c9b-3dbc-4c33-ab1d-5f768c02dd17"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d40a587-2395-53c5-91ec-2a5262cc877d"
+}

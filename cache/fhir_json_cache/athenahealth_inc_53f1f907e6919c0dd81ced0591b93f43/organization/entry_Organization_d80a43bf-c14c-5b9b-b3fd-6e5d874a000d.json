@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d80a43bf-c14c-5b9b-b3fd-6e5d874a000d",
+    "name": "New York Community Maimo",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/697be51b-4740-5a05-bf93-f4f4b4de0bbb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265571863"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2525 KINGS HWY"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11229-1705"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24721"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24721.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d80a43bf-c14c-5b9b-b3fd-6e5d874a000d"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c492b74-867e-57cd-8095-5ebe4552ab54",
+    "name": "Sanctum Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/11a3bf13-57fb-51f2-8e10-fb06883d7cf1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437848785"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8405 E BASELINE RD STE 102"
+        ],
+        "city": "MESA",
+        "state": "AZ",
+        "postalCode": "85209-4376"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27941"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27941.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c492b74-867e-57cd-8095-5ebe4552ab54"
+}

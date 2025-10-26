@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2c87b263-4423-486c-819b-ce2a65f855ff",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e9451dee-373f-4aef-b7ff-0d4903b33734",
+        "name": "Dr Jonathan Pasko"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dr Jonathan Pasko",
+    "managingOrganization": {
+      "reference": "#e9451dee-373f-4aef-b7ff-0d4903b33734"
+    },
+    "period": {
+      "start": "2018-06-25T19:16:19+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10026469"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10026469"
+}

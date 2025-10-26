@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4fcc4213-82a3-5093-9fb1-91d88e0f0d95",
+    "name": "Mary Washington IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3da92158-8879-5595-8135-db88ff79a09c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073872156"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1101 Sam Perry Blvd"
+        ],
+        "city": "FREDERICKSBURG",
+        "state": "VA",
+        "postalCode": "22401-4467"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21079"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21079.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4fcc4213-82a3-5093-9fb1-91d88e0f0d95"
+}

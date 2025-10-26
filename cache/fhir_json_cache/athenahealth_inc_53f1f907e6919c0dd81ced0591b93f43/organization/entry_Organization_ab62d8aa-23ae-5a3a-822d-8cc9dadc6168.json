@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ab62d8aa-23ae-5a3a-822d-8cc9dadc6168",
+    "name": "Kind Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fbf365d3-7552-5ebd-9084-735e6a168100"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346058922"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1400 N COIT RD",
+          "STE 302"
+        ],
+        "city": "MCKINNEY",
+        "state": "TX",
+        "postalCode": "75071-6656"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32915"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32915.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ab62d8aa-23ae-5a3a-822d-8cc9dadc6168"
+}

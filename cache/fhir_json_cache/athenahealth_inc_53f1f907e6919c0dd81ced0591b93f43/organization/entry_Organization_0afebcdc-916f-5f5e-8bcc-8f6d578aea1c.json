@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0afebcdc-916f-5f5e-8bcc-8f6d578aea1c",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aa129646-318a-52a0-bf02-b152d277d39c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710095559"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "117 West Central Street",
+          "Suite 203"
+        ],
+        "city": "NATICK",
+        "state": "MA",
+        "postalCode": "01760-4383"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12874"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12874.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0afebcdc-916f-5f5e-8bcc-8f6d578aea1c"
+}

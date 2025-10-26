@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM17Z-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM17Z"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Visiting Nurse Association of Southeast Missouri",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5738885892"
+      },
+      {
+        "system": "fax",
+        "value": "5738880538"
+      },
+      {
+        "system": "url",
+        "value": "www.vnasemo.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "1124 Independence Ave Kennett MO 638571314 US",
+        "line": [
+          "1124 Independence Ave"
+        ],
+        "city": "Kennett",
+        "state": "MO",
+        "postalCode": "638571314",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM17Z-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM17Z-Organization-2"
+}

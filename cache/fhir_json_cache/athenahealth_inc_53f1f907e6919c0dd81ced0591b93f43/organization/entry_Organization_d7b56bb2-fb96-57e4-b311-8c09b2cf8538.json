@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d7b56bb2-fb96-57e4-b311-8c09b2cf8538",
+    "name": "Dr. Orfanos",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a7c5f35-007b-5d9c-9e29-bd68e5f641ba"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225426018"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "700 OLD COUNTRY RD SUITE 200"
+        ],
+        "city": "PLAINVIEW",
+        "state": "NY",
+        "postalCode": "11803-4932"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16169"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16169.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d7b56bb2-fb96-57e4-b311-8c09b2cf8538"
+}

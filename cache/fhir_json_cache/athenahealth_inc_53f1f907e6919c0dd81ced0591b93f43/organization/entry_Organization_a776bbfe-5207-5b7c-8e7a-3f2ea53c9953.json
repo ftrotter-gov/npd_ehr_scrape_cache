@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a776bbfe-5207-5b7c-8e7a-3f2ea53c9953",
+    "name": "Richmond Surgical Clinic PA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e48f6895-cc5b-5339-bc7f-99c0f65f65e8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164653499"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "921 S Long Drive Suite 206"
+        ],
+        "city": "ROCKINGHAM",
+        "state": "NC",
+        "postalCode": "28379-4874"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12291"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12291.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a776bbfe-5207-5b7c-8e7a-3f2ea53c9953"
+}

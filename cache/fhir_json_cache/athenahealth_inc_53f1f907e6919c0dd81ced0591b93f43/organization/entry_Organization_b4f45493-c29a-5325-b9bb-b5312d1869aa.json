@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b4f45493-c29a-5325-b9bb-b5312d1869aa",
+    "name": "Great Plains Health (Telehealth)",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d1d6462d-69ba-5f70-adcc-b724f1df937c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134588957"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1320 N Main St",
+          "STE 103"
+        ],
+        "city": "CEDAR CITY",
+        "state": "UT",
+        "postalCode": "84721-1230"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14360"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14360.Brand-15"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b4f45493-c29a-5325-b9bb-b5312d1869aa"
+}

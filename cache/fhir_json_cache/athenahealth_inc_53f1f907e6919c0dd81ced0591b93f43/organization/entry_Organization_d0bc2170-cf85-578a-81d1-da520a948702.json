@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d0bc2170-cf85-578a-81d1-da520a948702",
+    "name": "A Better Health Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d6669ee-b72d-5544-956d-e49c9526fa7a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881478188"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "971 TOMMY MUNRO DR, STE D"
+        ],
+        "city": "BILOXI",
+        "state": "MS",
+        "postalCode": "39532-2137"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30071"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30071.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d0bc2170-cf85-578a-81d1-da520a948702"
+}

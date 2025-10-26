@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c88e0174-64fc-5465-8a2a-447fdfc2b6db",
+    "name": "Saint Francis Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9b90db10-7258-5663-a299-af37dc1d7ce2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891732889"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "333 Laidley Street"
+        ],
+        "city": "CHARLESTON",
+        "state": "WV",
+        "postalCode": "25301-1614"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7161"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7161.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c88e0174-64fc-5465-8a2a-447fdfc2b6db"
+}

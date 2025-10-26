@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cc747685-ad35-5109-8b91-cbb53b62aa5b",
+    "name": "Pinckneyville Community Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7dbc5abe-3e4d-56a3-8b5c-f6d10ff2f881"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275166134"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5383 ST. RT. 154"
+        ],
+        "city": "PINCKNEYVILLE",
+        "state": "IL",
+        "postalCode": "62274-3342"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21167"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21167.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cc747685-ad35-5109-8b91-cbb53b62aa5b"
+}

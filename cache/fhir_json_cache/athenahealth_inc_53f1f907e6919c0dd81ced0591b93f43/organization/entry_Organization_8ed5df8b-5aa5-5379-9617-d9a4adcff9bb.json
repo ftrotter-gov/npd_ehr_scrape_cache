@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ed5df8b-5aa5-5379-9617-d9a4adcff9bb",
+    "name": "Chester-Horicon Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/be0215eb-46d0-5b7f-8971-95416e6df4d4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013928159"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6223 State Route 9"
+        ],
+        "city": "Chestertown",
+        "state": "NY",
+        "postalCode": "12817-2823"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1823"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1823.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ed5df8b-5aa5-5379-9617-d9a4adcff9bb"
+}

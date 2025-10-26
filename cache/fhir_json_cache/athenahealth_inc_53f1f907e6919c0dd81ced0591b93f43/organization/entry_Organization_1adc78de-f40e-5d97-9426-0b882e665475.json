@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1adc78de-f40e-5d97-9426-0b882e665475",
+    "name": "Arlington Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a824d847-795f-55cc-aaab-b5e20ebc3028"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255596086"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 W Randol Mill Road"
+        ],
+        "city": "Arlington",
+        "state": "TX",
+        "postalCode": "76012-2504"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1504"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1504.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1adc78de-f40e-5d97-9426-0b882e665475"
+}

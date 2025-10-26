@@ -1,0 +1,52 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "fad69ba2-b8c6-4be1-9e16-f886dac17306",
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/endpoint-fhir-version",
+        "valueCode": "4.0.1"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Heart of Texas",
+    "managingOrganization": {
+      "identifier": {
+        "system": "https://fhir.epic.com/Developer/Management/OrganizationId",
+        "value": "2166"
+      },
+      "display": "Shannon Medical Center"
+    },
+    "contact": [
+      {
+        "system": "url",
+        "value": "https://open.epic.com"
+      }
+    ],
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+            "code": "none"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicrpx.shannonhealth.org/FHIR_ARR/api/FHIR/R4"
+  },
+  "fullUrl": "urn:uuid:fad69ba2-b8c6-4be1-9e16-f886dac17306"
+}

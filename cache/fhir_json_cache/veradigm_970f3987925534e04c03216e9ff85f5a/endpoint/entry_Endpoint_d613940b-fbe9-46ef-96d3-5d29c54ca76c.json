@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "d613940b-fbe9-46ef-96d3-5d29c54ca76c",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "1bb71af6-3b26-4c96-9440-b7c60a5ac9e0",
+        "name": "Riverbend Health Care, P. C."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Riverbend Health Care, P. C.",
+    "managingOrganization": {
+      "reference": "#1bb71af6-3b26-4c96-9440-b7c60a5ac9e0"
+    },
+    "period": {
+      "start": "2019-12-12T15:10:50+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10028910"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10028910"
+}

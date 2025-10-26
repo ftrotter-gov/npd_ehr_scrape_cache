@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "34ae4e88-c822-5099-93d4-65ccff64bb38",
+    "name": "Clinica Latina",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cf877c87-ffc9-521f-852c-353ccee4118e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2231 N HIGH ST"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43201-1101"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19221"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19221.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:34ae4e88-c822-5099-93d4-65ccff64bb38"
+}

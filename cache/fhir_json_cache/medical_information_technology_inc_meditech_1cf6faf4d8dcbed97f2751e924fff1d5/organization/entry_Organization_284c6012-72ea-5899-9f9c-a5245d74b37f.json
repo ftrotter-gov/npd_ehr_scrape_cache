@@ -1,0 +1,77 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "284c6012-72ea-5899-9f9c-a5245d74b37f",
+    "meta": {
+      "lastUpdated": "2025-03-18T22:51:56.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://newmanrh.org"
+      }
+    ],
+    "name": "Newman Regional Health",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://newmanrh.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 West 12th Avenue"
+        ],
+        "city": "Emporia",
+        "state": "KS",
+        "postalCode": "66801",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:e9f43511-ea69-5696-bdf6-8d84d9880f21"
+      },
+      {
+        "reference": "urn:uuid:991c5a6b-ad0e-5ee6-9e22-5efd1791a7e8"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:e9f43511-ea69-5696-bdf6-8d84d9880f21"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:991c5a6b-ad0e-5ee6-9e22-5efd1791a7e8"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:284c6012-72ea-5899-9f9c-a5245d74b37f"
+}

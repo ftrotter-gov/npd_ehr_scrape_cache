@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2850372e-0e19-57a5-9138-623177f50c6e",
+    "name": "Ultra Health Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5a255330-0cfb-5b1b-a1b9-9e085206a572"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386163822"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1039 MAYBERRY CROSSING",
+          "Suites A & B"
+        ],
+        "city": "MONETA",
+        "state": "VA",
+        "postalCode": "24121-6413"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30160"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30160.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2850372e-0e19-57a5-9138-623177f50c6e"
+}

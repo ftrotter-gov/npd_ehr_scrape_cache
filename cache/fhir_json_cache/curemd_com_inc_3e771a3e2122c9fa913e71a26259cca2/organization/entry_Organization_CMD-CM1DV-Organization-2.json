@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1DV-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1DV"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Phelps/Maries County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5734586010"
+      },
+      {
+        "system": "fax",
+        "value": "5734586060"
+      },
+      {
+        "system": "url",
+        "value": "www.phelpscountyhealth.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "200 N Main St Ste G-51 Rolla MO 65401 US",
+        "line": [
+          "200 N Main St",
+          "Ste G-51"
+        ],
+        "city": "Rolla",
+        "state": "MO",
+        "postalCode": "65401",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1DV-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1DV-Organization-2"
+}

@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM187-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM187"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "LINCOLN COUNTY HEALTH DEPARTMENT",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7044795030"
+      },
+      {
+        "system": "fax",
+        "value": "7047364551"
+      },
+      {
+        "system": "url",
+        "value": "lincolncounty.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "200 Gamble Drive Lincolnton LINCOLN NC 28092 US",
+        "line": [
+          "200 Gamble Drive"
+        ],
+        "city": "Lincolnton",
+        "district": "LINCOLN",
+        "state": "NC",
+        "postalCode": "28092",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM187-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM187-Organization-2"
+}

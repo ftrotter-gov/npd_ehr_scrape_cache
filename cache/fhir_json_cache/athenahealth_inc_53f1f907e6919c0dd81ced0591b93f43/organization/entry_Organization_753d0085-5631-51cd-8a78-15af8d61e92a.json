@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "753d0085-5631-51cd-8a78-15af8d61e92a",
+    "name": "Portages Health, LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5099d528-9d77-5de2-830b-b401c88f0d25"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942945761"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "310 4TH AVE S",
+          "STE 5010"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55415-1053"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27307"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27307.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:753d0085-5631-51cd-8a78-15af8d61e92a"
+}

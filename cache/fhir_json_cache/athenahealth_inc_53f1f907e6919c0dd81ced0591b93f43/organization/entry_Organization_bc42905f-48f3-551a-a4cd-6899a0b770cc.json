@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bc42905f-48f3-551a-a4cd-6899a0b770cc",
+    "name": "CHP Main-Musculoskeletal Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bbca1d85-b5a9-5909-8f3f-e6375541cebc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962860528"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9005 Grant St.",
+          "suite 300"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80229-4384"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19093"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19093.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bc42905f-48f3-551a-a4cd-6899a0b770cc"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "68aa3c23-9160-4193-b044-91f323d8ba37",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "6ecb63b7-1896-495f-a479-df07538298cc",
+        "name": "Pulmonary Assoc PC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Pulmonary Assoc PC",
+    "managingOrganization": {
+      "reference": "#6ecb63b7-1896-495f-a479-df07538298cc"
+    },
+    "period": {
+      "start": "2018-06-25T11:25:37+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/56481"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/56481"
+}

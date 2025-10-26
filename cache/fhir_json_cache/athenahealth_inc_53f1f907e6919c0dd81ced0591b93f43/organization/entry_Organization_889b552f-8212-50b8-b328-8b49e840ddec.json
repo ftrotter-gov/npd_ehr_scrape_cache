@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "889b552f-8212-50b8-b328-8b49e840ddec",
+    "name": "Greater Los Angeles Cardiology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5246ca6b-82c8-57fc-b2f6-bb90c0a43711"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447343413"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154407799"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "711 W COLLEGE ST",
+          "STE 208"
+        ],
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "postalCode": "90012-1093"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32769"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32769.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:889b552f-8212-50b8-b328-8b49e840ddec"
+}

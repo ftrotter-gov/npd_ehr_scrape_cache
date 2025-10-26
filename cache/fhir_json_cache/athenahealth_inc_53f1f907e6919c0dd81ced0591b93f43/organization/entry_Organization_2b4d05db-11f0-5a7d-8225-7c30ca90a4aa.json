@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2b4d05db-11f0-5a7d-8225-7c30ca90a4aa",
+    "name": "Birch Creek Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ed9c140-800d-5e50-99aa-362c972c2d7e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821201278"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Main St"
+        ],
+        "city": "FORT YUKON",
+        "state": "AK",
+        "postalCode": "99740-8999"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15989"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15989.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2b4d05db-11f0-5a7d-8225-7c30ca90a4aa"
+}

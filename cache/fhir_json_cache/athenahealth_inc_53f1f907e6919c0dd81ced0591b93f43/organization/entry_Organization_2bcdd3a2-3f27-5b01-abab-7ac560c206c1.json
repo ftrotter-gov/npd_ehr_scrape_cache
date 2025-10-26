@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2bcdd3a2-3f27-5b01-abab-7ac560c206c1",
+    "name": "Appleton Retirement Community",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5fafb2d3-4ae2-5c26-a48e-9cb710501246"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730126392"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 W Packard St"
+        ],
+        "city": "APPLETON",
+        "state": "WI",
+        "postalCode": "54911-6700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10114"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10114.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2bcdd3a2-3f27-5b01-abab-7ac560c206c1"
+}

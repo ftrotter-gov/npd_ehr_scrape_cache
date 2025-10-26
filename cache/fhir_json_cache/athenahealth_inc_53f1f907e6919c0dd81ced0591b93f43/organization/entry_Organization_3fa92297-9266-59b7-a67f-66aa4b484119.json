@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3fa92297-9266-59b7-a67f-66aa4b484119",
+    "name": "Gateway Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5953ff93-2930-580c-9163-4af65a8710e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275166134"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2100 Madison Avenue"
+        ],
+        "city": "GRANITE CITY",
+        "state": "IL",
+        "postalCode": "62040-4701"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21167"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21167.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3fa92297-9266-59b7-a67f-66aa4b484119"
+}

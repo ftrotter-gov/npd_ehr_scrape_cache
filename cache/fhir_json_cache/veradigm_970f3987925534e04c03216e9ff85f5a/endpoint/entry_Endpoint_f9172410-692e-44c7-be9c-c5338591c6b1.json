@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "f9172410-692e-44c7-be9c-c5338591c6b1",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "02794991-a56a-49b9-9017-956b291deabf",
+        "name": "The Foot Doctors Pc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "The Foot Doctors Pc",
+    "managingOrganization": {
+      "reference": "#02794991-a56a-49b9-9017-956b291deabf"
+    },
+    "period": {
+      "start": "2020-10-16T11:07:55+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72886"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72886"
+}

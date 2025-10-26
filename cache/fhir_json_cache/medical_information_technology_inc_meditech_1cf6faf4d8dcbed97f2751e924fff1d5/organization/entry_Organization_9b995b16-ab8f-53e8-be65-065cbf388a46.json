@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9b995b16-ab8f-53e8-be65-065cbf388a46",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://avrmc.org"
+      }
+    ],
+    "name": "Arkansas Valley Regional Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://avrmc.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1100 Carson Avenue"
+        ],
+        "city": "La Junta",
+        "state": "CO",
+        "postalCode": "81050",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:89d1249f-bd12-482c-bd92-831bc9d05849"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:89d1249f-bd12-482c-bd92-831bc9d05849"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9b995b16-ab8f-53e8-be65-065cbf388a46"
+}

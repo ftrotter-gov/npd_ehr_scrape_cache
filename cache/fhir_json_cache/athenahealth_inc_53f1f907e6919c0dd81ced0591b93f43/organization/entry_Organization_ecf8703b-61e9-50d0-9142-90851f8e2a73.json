@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ecf8703b-61e9-50d0-9142-90851f8e2a73",
+    "name": "Mason and Partners Clinics - Manassas",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/09f1b6d3-8d3f-555c-8033-4b942119a684"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567891"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "99 TREMONT STREET"
+        ],
+        "city": "MANASSAS PARK",
+        "state": "VA",
+        "postalCode": "20111-1800"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29379"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29379.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ecf8703b-61e9-50d0-9142-90851f8e2a73"
+}

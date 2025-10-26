@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "49fe7f7e-3960-5daa-8de2-ff0f915599bb",
+    "name": "Healthy at Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ad76dd5f-596f-5d5a-9088-ee06922eff1d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255579942"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3524 N Meridian St"
+        ],
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "postalCode": "46208-4486"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30205"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30205.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:49fe7f7e-3960-5daa-8de2-ff0f915599bb"
+}

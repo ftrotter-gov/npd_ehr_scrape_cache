@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bb983a17-45c9-5992-b194-da1a02bfe5e2",
+    "name": "Dr. Dumont's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aa37e955-bc56-5b16-af3f-6a8fc1a91127"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285906420"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "911 BROWN STREET"
+        ],
+        "city": "ANN ARBOR",
+        "state": "MI",
+        "postalCode": "48104-3203"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8598"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8598.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bb983a17-45c9-5992-b194-da1a02bfe5e2"
+}

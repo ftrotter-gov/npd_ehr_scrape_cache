@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b7db3dbe-fb4c-542f-9905-ab86a696b34e",
+    "name": "CarePoint Dental Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47929b11-f5a9-51d2-9c53-c363d1504126"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "36017 SE FISH HATCHERY RD"
+        ],
+        "city": "FALL CITY",
+        "state": "WA",
+        "postalCode": "98024-9749"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19198"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19198.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b7db3dbe-fb4c-542f-9905-ab86a696b34e"
+}

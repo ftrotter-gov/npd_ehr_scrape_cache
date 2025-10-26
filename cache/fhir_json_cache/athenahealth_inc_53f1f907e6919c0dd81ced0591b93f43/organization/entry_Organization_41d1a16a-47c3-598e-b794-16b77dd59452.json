@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "41d1a16a-47c3-598e-b794-16b77dd59452",
+    "name": "Internal Medicine & Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/55a74bcc-c75c-515e-b8e3-9d898d326dfc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891728960"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 seaside ave"
+        ],
+        "city": "MILFORD",
+        "state": "CT",
+        "postalCode": "06460-4606"
+      },
+      {
+        "line": [
+          "849 Boston Post Rd",
+          "Suite 205"
+        ],
+        "city": "MILFORD",
+        "state": "CT",
+        "postalCode": "06460-3537"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6642"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6642.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:41d1a16a-47c3-598e-b794-16b77dd59452"
+}

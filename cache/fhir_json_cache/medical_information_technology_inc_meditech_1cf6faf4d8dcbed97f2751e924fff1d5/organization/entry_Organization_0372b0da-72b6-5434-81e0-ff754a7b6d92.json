@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0372b0da-72b6-5434-81e0-ff754a7b6d92",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://carepartners.org"
+      }
+    ],
+    "name": "CarePartners Health Services",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://carepartners.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "68 Sweeten Creek Road"
+        ],
+        "city": "ASHEVILLE",
+        "state": "NC",
+        "postalCode": "28803",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:6576a535-b4d8-4049-8002-83fbfaa9bfbc"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:6e60ed8d-23c6-545a-8dc4-8a09438c32e2"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:6576a535-b4d8-4049-8002-83fbfaa9bfbc"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0372b0da-72b6-5434-81e0-ff754a7b6d92"
+}

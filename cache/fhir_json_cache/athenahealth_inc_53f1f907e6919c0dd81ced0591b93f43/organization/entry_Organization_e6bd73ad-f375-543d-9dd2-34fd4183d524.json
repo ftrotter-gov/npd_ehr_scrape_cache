@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e6bd73ad-f375-543d-9dd2-34fd4183d524",
+    "name": "Southpoint Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/89ca1187-a638-5380-b8eb-b97e18bd830a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861440810"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7051 Southpoint Pkwy"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "FL",
+        "postalCode": "32216-8713"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25110"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25110.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e6bd73ad-f375-543d-9dd2-34fd4183d524"
+}

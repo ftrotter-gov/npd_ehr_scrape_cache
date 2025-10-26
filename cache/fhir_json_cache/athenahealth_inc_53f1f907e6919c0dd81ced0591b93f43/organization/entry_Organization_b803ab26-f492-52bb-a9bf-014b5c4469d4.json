@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b803ab26-f492-52bb-a9bf-014b5c4469d4",
+    "name": "Lotus Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f819a218-6144-5d8c-9b14-628a6b91a1d8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144932815"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4810 BLUFFTON PKWY STE 101"
+        ],
+        "city": "BLUFFTON",
+        "state": "SC",
+        "postalCode": "29910-4602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27897"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27897.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b803ab26-f492-52bb-a9bf-014b5c4469d4"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2722dab7-38db-5325-a344-a09252970614",
+    "name": "Family Care Clinic Arizona",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37d2ea05-42b9-5241-b52a-734830feef9c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124481791"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9700 N 91st Street",
+          "A-115"
+        ],
+        "city": "SCOTTSDALE",
+        "state": "AZ",
+        "postalCode": "85258-0000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13763"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13763.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2722dab7-38db-5325-a344-a09252970614"
+}

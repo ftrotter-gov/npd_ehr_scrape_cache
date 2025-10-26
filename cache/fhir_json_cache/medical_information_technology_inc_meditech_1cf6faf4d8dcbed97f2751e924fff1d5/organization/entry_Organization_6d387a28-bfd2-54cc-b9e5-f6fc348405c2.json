@@ -1,0 +1,77 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d387a28-bfd2-54cc-b9e5-f6fc348405c2",
+    "meta": {
+      "lastUpdated": "2022-04-14T22:51:10.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://holyokehealth.com"
+      }
+    ],
+    "name": "Holyoke Medical Center, Inc.",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://holyokehealth.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "575 Beech Street"
+        ],
+        "city": "Holyoke",
+        "state": "MA",
+        "postalCode": "01040",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:0afb031c-af17-5e2d-85f9-3936c8cbaba6"
+      },
+      {
+        "reference": "urn:uuid:f67d68c4-e367-52b9-97f7-87301aeb5966"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0afb031c-af17-5e2d-85f9-3936c8cbaba6"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:f67d68c4-e367-52b9-97f7-87301aeb5966"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d387a28-bfd2-54cc-b9e5-f6fc348405c2"
+}

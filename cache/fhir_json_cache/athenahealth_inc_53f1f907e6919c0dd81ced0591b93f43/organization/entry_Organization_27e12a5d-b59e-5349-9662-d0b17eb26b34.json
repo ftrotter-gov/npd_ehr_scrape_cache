@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "27e12a5d-b59e-5349-9662-d0b17eb26b34",
+    "name": "Athens Family Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2e8dba59-29b6-5d25-8f54-b223e9877c44"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407891336"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1005 W. Market St",
+          "Suite B"
+        ],
+        "city": "ATHENS",
+        "state": "AL",
+        "postalCode": "35611-2454"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12822"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12822.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:27e12a5d-b59e-5349-9662-d0b17eb26b34"
+}

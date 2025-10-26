@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a7ebd9fd-46ff-531f-8e34-9e6e3f518516",
+    "name": "Dr. Campbell's office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6af8558d-e8a5-57de-b0f1-a379b172ef3b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023004389"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2345 LAMINGTON ROAD",
+          "SUITE 105"
+        ],
+        "city": "BEDMINSTER",
+        "state": "NJ",
+        "postalCode": "07921-2612"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28484"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28484.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a7ebd9fd-46ff-531f-8e34-9e6e3f518516"
+}

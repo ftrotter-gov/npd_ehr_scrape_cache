@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "70",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "70",
+        "name": "Inmediata SecureEMR+ Guaynabo Vascular"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Inmediata SecureEMR+ Guaynabo Vascular",
+    "managingOrganization": {
+      "reference": "#70"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://www.secureemrplus.com/prognocis/fhir/guaynavascular"
+  },
+  "fullUrl": "https://www.secureemrplus.com/prognocis/fhir/guaynavascular"
+}

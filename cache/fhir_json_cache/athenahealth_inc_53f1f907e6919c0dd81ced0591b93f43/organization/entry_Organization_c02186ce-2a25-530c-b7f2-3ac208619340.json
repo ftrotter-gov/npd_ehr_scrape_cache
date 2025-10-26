@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c02186ce-2a25-530c-b7f2-3ac208619340",
+    "name": "Telemedicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/91972728-9f8e-5eba-be3f-d793ce3b128b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538343918"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9500 NORTHEAST AVE"
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19115-3005"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17311"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17311.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c02186ce-2a25-530c-b7f2-3ac208619340"
+}

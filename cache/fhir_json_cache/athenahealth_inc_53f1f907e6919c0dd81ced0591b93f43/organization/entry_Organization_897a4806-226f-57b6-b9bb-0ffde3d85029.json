@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "897a4806-226f-57b6-b9bb-0ffde3d85029",
+    "name": "Gwinnett Medical Center ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eceadaf5-6e2f-56bb-8ff4-d48939b675fd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801974175"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 Medical Center Blvd"
+        ],
+        "city": "Lawrenceville",
+        "state": "GA",
+        "postalCode": "30046-7694"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14769"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14769.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:897a4806-226f-57b6-b9bb-0ffde3d85029"
+}

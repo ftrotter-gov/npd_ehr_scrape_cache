@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6ed59ca8-7e90-58fa-a6c5-8a9abae80820",
+    "name": "GECOM Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35b6fd9f-056a-5a54-bdbf-c41e7d6eaab5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043769722"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1035 E BARACHEL LN"
+        ],
+        "city": "GREENSBURG",
+        "state": "IN",
+        "postalCode": "47240-1269"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14940"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14940.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6ed59ca8-7e90-58fa-a6c5-8a9abae80820"
+}

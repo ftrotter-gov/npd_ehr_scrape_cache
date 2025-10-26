@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1e97f010-8e6a-5497-9875-1aa01a3bbda1",
+    "name": "Gulf Coast Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/08105025-799e-5587-abdc-9a2c27b43697"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972117109"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13681 Doctor's Way"
+        ],
+        "city": "FORT MYERS",
+        "state": "FL",
+        "postalCode": "33912-4300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22073"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22073.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1e97f010-8e6a-5497-9875-1aa01a3bbda1"
+}

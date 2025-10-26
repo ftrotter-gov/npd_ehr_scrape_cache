@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM05D-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM05D"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Daniel Matalon, M.D.",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2126078225"
+      },
+      {
+        "system": "fax",
+        "value": "2126078226"
+      }
+    ],
+    "address": [
+      {
+        "text": "323 East 34th St 2nd Floor New York NY 10016 US",
+        "line": [
+          "323 East 34th St",
+          "2nd Floor"
+        ],
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10016",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM05D-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM05D-Organization-3"
+}

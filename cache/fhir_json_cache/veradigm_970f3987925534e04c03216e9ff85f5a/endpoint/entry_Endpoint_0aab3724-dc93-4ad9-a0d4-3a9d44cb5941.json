@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0aab3724-dc93-4ad9-a0d4-3a9d44cb5941",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "673cfa86-3aab-45d8-ac4d-31264963947d",
+        "name": "NJ Spine Specialists/Surgery"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "NJ Spine Specialists/Surgery",
+    "managingOrganization": {
+      "reference": "#673cfa86-3aab-45d8-ac4d-31264963947d"
+    },
+    "period": {
+      "start": "2024-03-19T19:40:13+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10059472"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10059472"
+}

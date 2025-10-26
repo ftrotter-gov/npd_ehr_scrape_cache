@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a445086-2590-533f-aba8-d6152000f95f",
+    "name": "Aim Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1bb3099-fde0-5111-bec2-fdf6b1017c9e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063034767"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "222 JEFFERSON BLVD STE 4"
+        ],
+        "city": "WARWICK",
+        "state": "RI",
+        "postalCode": "02888-3847"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22370"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22370.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a445086-2590-533f-aba8-d6152000f95f"
+}

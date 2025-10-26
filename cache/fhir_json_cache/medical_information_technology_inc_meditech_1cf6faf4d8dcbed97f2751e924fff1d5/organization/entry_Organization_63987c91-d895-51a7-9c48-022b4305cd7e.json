@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "63987c91-d895-51a7-9c48-022b4305cd7e",
+    "meta": {
+      "lastUpdated": "2022-06-01T22:52:01.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://qch.on.ca"
+      }
+    ],
+    "name": "Queensway Carleton Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://qch.on.ca"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3045 Baseline Rd"
+        ],
+        "city": "Nepean",
+        "state": "ON",
+        "postalCode": "K2H 8P4",
+        "country": [
+          "Canada",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:46c16b26-5844-578c-ad41-9f8b98001455"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:46c16b26-5844-578c-ad41-9f8b98001455"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:63987c91-d895-51a7-9c48-022b4305cd7e"
+}

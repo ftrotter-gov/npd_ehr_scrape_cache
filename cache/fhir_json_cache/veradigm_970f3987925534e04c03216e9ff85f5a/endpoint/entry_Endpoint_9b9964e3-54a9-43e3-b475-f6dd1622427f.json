@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "9b9964e3-54a9-43e3-b475-f6dd1622427f",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "501ae171-cdfc-4e8f-bb75-c09a10afd1ba",
+        "name": "Stephen B Sherer Md"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Stephen B Sherer Md",
+    "managingOrganization": {
+      "reference": "#501ae171-cdfc-4e8f-bb75-c09a10afd1ba"
+    },
+    "period": {
+      "start": "2018-11-22T11:30:32+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72630"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72630"
+}

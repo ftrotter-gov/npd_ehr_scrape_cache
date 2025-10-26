@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ff81e10-b6bd-5744-be10-5645a0e8034b",
+    "name": "Pediatric Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7faa2c53-103f-5919-a059-b6b636d8a95e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811430523"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3500 KABEL DR"
+        ],
+        "city": "NEW ORLEANS",
+        "state": "LA",
+        "postalCode": "70131-6928"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11369"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11369.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ff81e10-b6bd-5744-be10-5645a0e8034b"
+}

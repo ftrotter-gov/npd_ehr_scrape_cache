@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "140d6304-805a-4d90-9fc0-dd4163f314f3",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "bc98b9a5-9fb5-426f-be15-85baad0dcddf",
+        "name": "City of Raleigh"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "City of Raleigh",
+    "managingOrganization": {
+      "reference": "#bc98b9a5-9fb5-426f-be15-85baad0dcddf"
+    },
+    "period": {
+      "start": "2018-11-21T09:15:05+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10203801"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10203801"
+}

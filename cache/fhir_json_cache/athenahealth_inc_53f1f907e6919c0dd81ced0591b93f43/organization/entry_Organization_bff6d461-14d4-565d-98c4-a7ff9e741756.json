@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bff6d461-14d4-565d-98c4-a7ff9e741756",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/236ed1d9-4766-5c26-8030-2d22f2b0ba4d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124404272"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4855 ASBURY RD",
+          "STE #7"
+        ],
+        "city": "DUBUQUE",
+        "state": "IA",
+        "postalCode": "52002-2904"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12147"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12147.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bff6d461-14d4-565d-98c4-a7ff9e741756"
+}

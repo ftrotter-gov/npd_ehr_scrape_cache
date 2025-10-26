@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "73b4023a-1263-5fbf-82d2-b2ca8fe9a4b3",
+    "name": "Primary Care El Paso East",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/115d1a4f-6b62-5101-865b-3aa693fda27b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225568330"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10965 BEN CRENSHAW",
+          "BUILDING 1"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79935-3021"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16308"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16308.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:73b4023a-1263-5fbf-82d2-b2ca8fe9a4b3"
+}

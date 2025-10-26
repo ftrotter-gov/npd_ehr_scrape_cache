@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c59eae50-c692-5f1c-86b2-61c4cbbcdcc1",
+    "name": "Albany ResourceCare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b3b3ddb9-da52-5941-9aee-dba77603be94"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194804278"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "725 Pate Street"
+        ],
+        "city": "ALBANY",
+        "state": "TX",
+        "postalCode": "76430-3225"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28291"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28291.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c59eae50-c692-5f1c-86b2-61c4cbbcdcc1"
+}

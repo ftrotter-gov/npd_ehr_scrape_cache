@@ -1,0 +1,82 @@
+
+{
+  "resourceType": "Bundle",
+  "id": "047f81fb-33a5-4ef8-b363-3816ce328cef",
+  "type": "collection",
+  "entry": [
+   {
+     "fullUrl": "https://hamilton.echoehr.com/fhir/r4/Endpoint/H9NEO6LkO7QNfslW",
+     "resource": {
+       "resourceType": "Endpoint",
+       "id": "H9NEO6LkO7QNfslW",
+       "status": "active",
+       "connectionType": {
+         "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+         "code": "hl7-fhir-rest"
+       },
+       "payloadType": [
+         {
+           "coding": [
+             {
+               "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+               "code": "urn:ihe:pcc:xphr:2007"
+             }
+           ]
+         }
+       ],
+       "payloadMimeType": [
+         "application/fhir+json",
+         "application/json+fhir",
+         "application/xml+fhir",
+         "application/fhir+xml"
+       ],
+       "address": "https://hamilton.echoehr.com/fhir/r4/"
+     }
+   },
+   {
+     "fullUrl": "https://hamilton.echoehr.com/fhir/AppOrg/H9NEO6LkO7QNfslW",
+     "resource": {
+       "resourceType": "Organization",
+       "id": "H9NEO6LkO7QNfslW",
+       "identifier": [
+         {
+           "system": "urn:oid:2.16.840.1.113883.4.6",
+           "value": "1205980901"
+         },
+         {
+           "system": "urn:oid:2.16.840.1.113883.4.4",
+           "value": "351140758"
+         }
+       ],
+       "active": true,
+       "name": "HAMILTON CENTER, INC",
+       "telecom": [
+         {
+           "system": "phone",
+           "value": "8122318323"
+         },
+         {
+           "system": "fax",
+           "value": "8122318178"
+         }
+       ],
+       "address": [
+         {
+           "line": [
+             "620 8TH AVENUE"
+           ],
+           "city": "TERRE HAUTE",
+           "state": "IN",
+           "postalCode": "47804-0323",
+           "country": "US"
+         }
+       ],
+       "endpoint": [
+         {
+           "reference": "Endpoint/H9NEO6LkO7QNfslW"
+         }
+       ]
+     }
+   }
+  ]
+}

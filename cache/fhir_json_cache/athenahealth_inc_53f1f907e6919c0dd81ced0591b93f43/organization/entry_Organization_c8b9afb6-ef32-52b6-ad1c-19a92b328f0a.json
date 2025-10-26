@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c8b9afb6-ef32-52b6-ad1c-19a92b328f0a",
+    "name": "Emory Midtown OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d12972f8-090e-56cb-a0e8-c641f12f3d61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386697928"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "550 Peachtree St NE"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30308-2247"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15749"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15749.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c8b9afb6-ef32-52b6-ad1c-19a92b328f0a"
+}

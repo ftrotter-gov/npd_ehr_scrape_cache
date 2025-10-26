@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "354e8826-2456-526c-bc9c-188cd0f5a5a1",
+    "name": "Napa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fe8cb476-3282-5574-94f5-1b4d925de7ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124668660"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3010 BEARD RD"
+        ],
+        "city": "NAPA",
+        "state": "CA",
+        "postalCode": "94558-3442"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25975"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25975.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:354e8826-2456-526c-bc9c-188cd0f5a5a1"
+}

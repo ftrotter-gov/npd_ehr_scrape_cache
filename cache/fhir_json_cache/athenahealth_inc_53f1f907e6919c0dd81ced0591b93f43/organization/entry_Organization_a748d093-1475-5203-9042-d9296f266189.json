@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a748d093-1475-5203-9042-d9296f266189",
+    "name": "Hopedale Medical Complex",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7a35c2cd-ad53-56d8-9908-e690ce3151cd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932514387"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "107 TREMONT ST"
+        ],
+        "city": "HOPEDALE",
+        "state": "IL",
+        "postalCode": "61747-7525"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13093"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13093.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a748d093-1475-5203-9042-d9296f266189"
+}

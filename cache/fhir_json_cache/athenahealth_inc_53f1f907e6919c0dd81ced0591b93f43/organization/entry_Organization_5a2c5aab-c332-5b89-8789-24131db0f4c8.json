@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5a2c5aab-c332-5b89-8789-24131db0f4c8",
+    "name": "AllCare Family Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0f4752d5-d856-5864-b816-cd7b7e9ab207"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972141794"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "109 EUREKA STREET STE B"
+        ],
+        "city": "BATESVILLE",
+        "state": "MS",
+        "postalCode": "38606-2534"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20823"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20823.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5a2c5aab-c332-5b89-8789-24131db0f4c8"
+}

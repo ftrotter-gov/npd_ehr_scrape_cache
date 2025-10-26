@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c04a7268-d198-5f6c-a3bb-ac5b052ca95e",
+    "name": "Franklinton Family Medicine-Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6c982866-7d87-5924-99ca-ab69fe2e1f19"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700616661"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "810 Riverside Dr"
+        ],
+        "city": "FRANKLINTON",
+        "state": "LA",
+        "postalCode": "70438-9532"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31809"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31809.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c04a7268-d198-5f6c-a3bb-ac5b052ca95e"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "18d3eec6-17b8-576f-bcde-f235d9bf6488",
+    "name": "Gastroenterology Consultants Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6785144b-071b-55e9-9ea6-7bab69ec51de"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053524876"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "778 LONG RIDGE ROAD",
+          "SUITE 101"
+        ],
+        "city": "STAMFORD",
+        "state": "CT",
+        "postalCode": "06902-1265"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8591"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8591.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:18d3eec6-17b8-576f-bcde-f235d9bf6488"
+}

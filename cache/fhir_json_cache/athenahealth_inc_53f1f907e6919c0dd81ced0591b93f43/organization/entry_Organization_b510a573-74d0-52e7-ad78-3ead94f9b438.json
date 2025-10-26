@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b510a573-74d0-52e7-ad78-3ead94f9b438",
+    "name": "Professional Management Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/34052f8b-3103-5447-be9b-3c0ae9ca492d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811927486"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 MAIN STREET SUITE 2200 BLDG"
+        ],
+        "city": "BATON ROUGE",
+        "state": "LA",
+        "postalCode": "70801-1919"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26614"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26614.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b510a573-74d0-52e7-ad78-3ead94f9b438"
+}

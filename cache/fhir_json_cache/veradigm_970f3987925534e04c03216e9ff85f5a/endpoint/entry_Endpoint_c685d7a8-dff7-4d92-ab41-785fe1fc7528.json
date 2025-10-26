@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "c685d7a8-dff7-4d92-ab41-785fe1fc7528",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4dc654e0-80ca-4939-96b8-c95b30f55ad8",
+        "name": "Lung Associates of Sarasota"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Lung Associates of Sarasota",
+    "managingOrganization": {
+      "reference": "#4dc654e0-80ca-4939-96b8-c95b30f55ad8"
+    },
+    "period": {
+      "start": "2018-01-12T19:49:55+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10086560"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10086560"
+}

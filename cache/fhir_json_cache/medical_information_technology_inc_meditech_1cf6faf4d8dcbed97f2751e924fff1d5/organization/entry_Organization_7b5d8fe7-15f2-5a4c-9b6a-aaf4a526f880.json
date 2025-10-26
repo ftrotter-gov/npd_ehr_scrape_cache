@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7b5d8fe7-15f2-5a4c-9b6a-aaf4a526f880",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://locations.normanregional.com/norman/norman-regional-hospital"
+      }
+    ],
+    "name": "Norman Regional Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://locations.normanregional.com/norman/norman-regional-hospital"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "901 North Porter Avenue"
+        ],
+        "city": "Norman",
+        "state": "OK",
+        "postalCode": "73071",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:6f9746a2-a69d-46ab-a3d9-75d78529ff42"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:b840be7d-ed5e-5617-8637-df39ab45153a"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:6f9746a2-a69d-46ab-a3d9-75d78529ff42"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7b5d8fe7-15f2-5a4c-9b6a-aaf4a526f880"
+}

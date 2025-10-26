@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f63ab098-eea4-526b-866c-e0d8102d00b0",
+    "name": "Idaho Neurology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a709add9-a9cb-561f-9f4e-0a69858c5c3f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306016472"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720423429"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "901 N. Curtis",
+          "Suite 101"
+        ],
+        "city": "BOISE",
+        "state": "ID",
+        "postalCode": "83706-1388"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4873"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4873.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f63ab098-eea4-526b-866c-e0d8102d00b0"
+}

@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a4e2e763-c7a3-5b61-bfba-5405c555f812",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://parisregionalhealth.com"
+      }
+    ],
+    "name": "Paris Regional Medical Center - South Campus",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://parisregionalhealth.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "820 Clarksville Street"
+        ],
+        "city": "Paris",
+        "state": "TX",
+        "postalCode": "75460",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:96c35970-07b6-4fae-aea8-8743ac831b10"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:773285c5-e409-5d3b-b553-886c8e874b4b"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:96c35970-07b6-4fae-aea8-8743ac831b10"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a4e2e763-c7a3-5b61-bfba-5405c555f812"
+}

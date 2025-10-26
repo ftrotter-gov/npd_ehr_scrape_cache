@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1a0d3dcd-5b76-5ea7-b5ff-f735d4ece134",
+    "name": "Good Samaritan",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e043e46f-55cf-564c-867a-3b83c99b4434"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629221965"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "235 North Pearl Street"
+        ],
+        "city": "BROCKTON",
+        "state": "MA",
+        "postalCode": "02301-1794"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2020"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2020.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1a0d3dcd-5b76-5ea7-b5ff-f735d4ece134"
+}

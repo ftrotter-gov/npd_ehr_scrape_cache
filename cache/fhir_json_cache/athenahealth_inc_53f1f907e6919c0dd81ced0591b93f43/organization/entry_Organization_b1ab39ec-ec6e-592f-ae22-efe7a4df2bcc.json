@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1ab39ec-ec6e-592f-ae22-efe7a4df2bcc",
+    "name": "Providence St. Patrick Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7205eb26-422f-51ae-86cc-4969fd51f5d0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750310926"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 W. Broadway"
+        ],
+        "city": "MISSOULA",
+        "state": "MT",
+        "postalCode": "59802-4008"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12906"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12906.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1ab39ec-ec6e-592f-ae22-efe7a4df2bcc"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2449c7a3-50c0-55b2-bd38-943f9c3271c7",
+    "name": "Bryant Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1a911f9f-39f4-5ad6-bb03-7231762debbb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316970148"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "319 Bryant Ave. Ste 1"
+        ],
+        "city": "BRYANT",
+        "state": "AR",
+        "postalCode": "72022-3817"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1060"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1060.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2449c7a3-50c0-55b2-bd38-943f9c3271c7"
+}

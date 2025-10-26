@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5e69ad28-1075-5e8f-a9db-b5f420ad60c9",
+    "name": "Essential Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0bb40640-e327-5c3a-8595-0326f3f995c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972235554"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1750 EAST 87TH STREET",
+          "SUITE 101"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60617-3051"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26797"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26797.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5e69ad28-1075-5e8f-a9db-b5f420ad60c9"
+}

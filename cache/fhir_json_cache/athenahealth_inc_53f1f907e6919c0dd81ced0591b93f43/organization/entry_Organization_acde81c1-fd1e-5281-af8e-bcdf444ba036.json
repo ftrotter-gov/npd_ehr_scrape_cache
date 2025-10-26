@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "acde81c1-fd1e-5281-af8e-bcdf444ba036",
+    "name": "Graham Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f49813d5-dd40-5a9c-ab45-c2a1211536b6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972950467"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1301 MONTGOMERY ROAD"
+        ],
+        "city": "GRAHAM",
+        "state": "TX",
+        "postalCode": "76450-4240"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19954"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19954.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:acde81c1-fd1e-5281-af8e-bcdf444ba036"
+}

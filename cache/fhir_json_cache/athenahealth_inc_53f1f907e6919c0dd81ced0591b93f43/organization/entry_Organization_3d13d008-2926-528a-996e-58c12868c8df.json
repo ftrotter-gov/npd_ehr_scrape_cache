@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3d13d008-2926-528a-996e-58c12868c8df",
+    "name": "Canton Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aabd864c-62cf-5d6f-b511-784994904340"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770089997"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "95 WASHINGTON ST STE 204"
+        ],
+        "city": "CANTON",
+        "state": "MA",
+        "postalCode": "02021-4009"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24970"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24970.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3d13d008-2926-528a-996e-58c12868c8df"
+}

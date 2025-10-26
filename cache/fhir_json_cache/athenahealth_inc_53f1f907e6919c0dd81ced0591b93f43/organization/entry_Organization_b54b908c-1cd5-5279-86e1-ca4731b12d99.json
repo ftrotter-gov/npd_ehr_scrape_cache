@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b54b908c-1cd5-5279-86e1-ca4731b12d99",
+    "name": "Northwest Medical Group - Primary Care Wanatah",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1f2aed5-42f6-5829-9d08-63997b80601c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508075680"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457566309"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "306 S Ohio St"
+        ],
+        "city": "WANATAH",
+        "state": "IN",
+        "postalCode": "46390-9682"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2340"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2340.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b54b908c-1cd5-5279-86e1-ca4731b12d99"
+}

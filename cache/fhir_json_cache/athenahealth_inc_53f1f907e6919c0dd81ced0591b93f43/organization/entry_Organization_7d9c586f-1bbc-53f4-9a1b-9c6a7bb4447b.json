@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7d9c586f-1bbc-53f4-9a1b-9c6a7bb4447b",
+    "name": "Lab C",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/648d7cae-aed3-59ff-89df-8819b888c5fe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629455902"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 E TUDOR RD",
+          "SUITE 200"
+        ],
+        "city": "ANCHORAGE",
+        "state": "AK",
+        "postalCode": "99503-7368"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11196"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11196.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7d9c586f-1bbc-53f4-9a1b-9c6a7bb4447b"
+}

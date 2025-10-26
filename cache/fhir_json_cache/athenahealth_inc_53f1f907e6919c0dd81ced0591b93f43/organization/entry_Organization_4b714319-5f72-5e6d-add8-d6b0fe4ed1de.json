@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4b714319-5f72-5e6d-add8-d6b0fe4ed1de",
+    "name": "Dr.Sickler",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4787e355-641d-51f8-8ab5-333661f012b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932211992"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6560 Fannin",
+          "1760"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77030-2735"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-957"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-957.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4b714319-5f72-5e6d-add8-d6b0fe4ed1de"
+}

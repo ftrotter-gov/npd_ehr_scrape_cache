@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0040b025-e712-5c29-b963-ba0fd284716f",
+    "name": "PROVIDENCE HEALTHCARE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/da663802-0c8b-5a47-a81e-81c7627e8803"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912971458"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1011 S. GREEN ST"
+        ],
+        "city": "THOMASTON",
+        "state": "GA",
+        "postalCode": "30286-4643"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3614"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3614.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0040b025-e712-5c29-b963-ba0fd284716f"
+}

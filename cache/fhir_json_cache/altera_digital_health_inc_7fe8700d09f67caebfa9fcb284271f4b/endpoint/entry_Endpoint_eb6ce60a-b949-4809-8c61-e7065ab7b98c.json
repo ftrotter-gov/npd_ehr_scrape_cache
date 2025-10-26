@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "eb6ce60a-b949-4809-8c61-e7065ab7b98c",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "92164cdc-e168-43e5-ae90-2434f40c203f",
+        "name": "Sheppard Pratt Health System"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Sheppard Pratt Health System",
+    "managingOrganization": {
+      "reference": "#92164cdc-e168-43e5-ae90-2434f40c203f"
+    },
+    "period": {
+      "start": "2019-09-11T03:55:34+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.ep0.hos.allscriptscloud.com/R4/open-Prod"
+  },
+  "fullUrl": "https://fhir.ep0.hos.allscriptscloud.com/R4/open-Prod"
+}

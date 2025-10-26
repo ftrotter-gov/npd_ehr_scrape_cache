@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "helixbeat",
+    "name": "HelixBeat - FHIR API Provider",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "email",
+        "value": "api-support@helixbeat.com",
+        "use": "work"
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "city": "Tampa",
+        "state": "FL",
+        "postalCode": "33629",
+        "country": "United States of America"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/helixbeat-fhir-r4"
+      }
+    ]
+  },
+  "fullUrl": "https://fusion.helixbeat.com/fhir/R4/Organization/helixbeat"
+}

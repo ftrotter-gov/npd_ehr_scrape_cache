@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fb69bc2a-3dcf-5fe3-a085-2aa28feeca15",
+    "name": "Valley Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/362be78f-65ba-557b-8634-2961350a187a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891359857"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3809 W 6200 S"
+        ],
+        "city": "SALT LAKE CITY",
+        "state": "UT",
+        "postalCode": "84118-3725"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18360"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18360.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fb69bc2a-3dcf-5fe3-a085-2aa28feeca15"
+}

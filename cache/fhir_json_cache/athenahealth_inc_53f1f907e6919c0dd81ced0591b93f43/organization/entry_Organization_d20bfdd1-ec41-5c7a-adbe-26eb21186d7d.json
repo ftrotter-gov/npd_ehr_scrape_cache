@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d20bfdd1-ec41-5c7a-adbe-26eb21186d7d",
+    "name": "North Springs Urgent Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/59feacbd-a7f4-5183-9caf-688f01cb25f7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841212719"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8540 Scarborough",
+          "Suite 100"
+        ],
+        "city": "COLORADO SPRINGS",
+        "state": "CO",
+        "postalCode": "80920-7518"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4082"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4082.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d20bfdd1-ec41-5c7a-adbe-26eb21186d7d"
+}

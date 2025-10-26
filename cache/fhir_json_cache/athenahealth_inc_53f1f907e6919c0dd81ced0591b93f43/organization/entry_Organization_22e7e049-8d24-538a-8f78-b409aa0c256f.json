@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22e7e049-8d24-538a-8f78-b409aa0c256f",
+    "name": "GOOD SAMARITAN HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/248f9889-5155-5f4f-a12f-7c85c09bd46f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063501104"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295794105"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 MONTAUK HWY"
+        ],
+        "city": "WEST ISLIP",
+        "state": "NY",
+        "postalCode": "11795-4927"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11564"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11564.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22e7e049-8d24-538a-8f78-b409aa0c256f"
+}

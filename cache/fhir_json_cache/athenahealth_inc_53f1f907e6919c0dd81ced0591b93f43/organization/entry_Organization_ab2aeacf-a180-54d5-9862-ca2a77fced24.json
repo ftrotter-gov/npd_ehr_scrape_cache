@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ab2aeacf-a180-54d5-9862-ca2a77fced24",
+    "name": "Advent Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f87fd7ee-f3f7-505a-afaf-cbab228ba3d6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508906132"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11 SUNSHINE LN"
+        ],
+        "city": "COLUMBUS",
+        "state": "NC",
+        "postalCode": "28722-0237"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23197"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23197.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ab2aeacf-a180-54d5-9862-ca2a77fced24"
+}

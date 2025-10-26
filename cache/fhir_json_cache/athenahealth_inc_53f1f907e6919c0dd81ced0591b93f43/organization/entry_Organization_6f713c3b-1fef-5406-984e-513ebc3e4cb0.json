@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6f713c3b-1fef-5406-984e-513ebc3e4cb0",
+    "name": "test",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/29c1b7a7-afb4-509f-b23a-d81bf66f18b5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306547286"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 main st"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-1020"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31677"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31677.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6f713c3b-1fef-5406-984e-513ebc3e4cb0"
+}

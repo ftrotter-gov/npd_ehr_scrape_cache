@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5bd46965-640e-56ec-bf33-d6e2317dd191",
+    "name": "American Muslim Community Clinics, INC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/400a91fc-e93d-5c20-a19d-d0ac4def37d7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "588 WILMA ST"
+        ],
+        "city": "LONGWOOD",
+        "state": "FL",
+        "postalCode": "32750-5146"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15649"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15649.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5bd46965-640e-56ec-bf33-d6e2317dd191"
+}

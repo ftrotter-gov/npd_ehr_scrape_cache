@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9f01b821-7605-5488-83e9-700ee3915aa6",
+    "name": "El Paso Visiting Physicians",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cc8531bd-e1a4-5cce-ab7a-7d8b8a466ef0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255865879"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10501 gateway blvd. w ste #105"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79925-7934"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16735"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16735.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9f01b821-7605-5488-83e9-700ee3915aa6"
+}

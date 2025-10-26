@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cdfb937e-d3d4-51d4-b222-f555edc3f4cb",
+    "name": "The Center for Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/808fc5c2-b361-5462-b5ea-021e468f3d6d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770770919"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "501 N RIVERSIDE DR",
+          "STE 216"
+        ],
+        "city": "GURNEE",
+        "state": "IL",
+        "postalCode": "60031-5918"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29898"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29898.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cdfb937e-d3d4-51d4-b222-f555edc3f4cb"
+}

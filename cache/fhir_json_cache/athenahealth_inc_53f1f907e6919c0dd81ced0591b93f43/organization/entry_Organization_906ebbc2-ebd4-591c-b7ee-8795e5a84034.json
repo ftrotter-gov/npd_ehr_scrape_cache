@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "906ebbc2-ebd4-591c-b7ee-8795e5a84034",
+    "name": "SOI",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6718cd9c-487d-57a4-8751-752e9872dabd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699140426"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 Broadway"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98122-5330"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13091"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13091.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:906ebbc2-ebd4-591c-b7ee-8795e5a84034"
+}

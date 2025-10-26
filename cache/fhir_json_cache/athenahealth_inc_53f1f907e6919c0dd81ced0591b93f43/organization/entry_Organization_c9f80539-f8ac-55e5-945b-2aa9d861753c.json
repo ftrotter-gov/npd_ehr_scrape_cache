@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c9f80539-f8ac-55e5-945b-2aa9d861753c",
+    "name": "ZoomCare Downtown Seattle",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/03f96263-f0ca-53d9-bba7-227e351148db"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023582178"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "517 Union Street"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98101-2308"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30646"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30646.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c9f80539-f8ac-55e5-945b-2aa9d861753c"
+}

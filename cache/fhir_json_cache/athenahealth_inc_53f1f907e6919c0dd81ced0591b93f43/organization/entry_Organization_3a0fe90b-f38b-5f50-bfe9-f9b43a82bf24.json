@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3a0fe90b-f38b-5f50-bfe9-f9b43a82bf24",
+    "name": "Lena Family Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b27afefa-9605-5c13-aeba-5549c5b6ee95"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184120883"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1107 GRAND AVENUE"
+        ],
+        "city": "LENA",
+        "state": "MS",
+        "postalCode": "39094-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18216"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18216.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3a0fe90b-f38b-5f50-bfe9-f9b43a82bf24"
+}

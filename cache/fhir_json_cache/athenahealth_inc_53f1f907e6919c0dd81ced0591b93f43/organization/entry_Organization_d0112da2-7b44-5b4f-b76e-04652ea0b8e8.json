@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d0112da2-7b44-5b4f-b76e-04652ea0b8e8",
+    "name": "KADLEC HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/46520722-9683-5a0a-8b75-4a7c8947bfb0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114196391"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "888 SWIFT BLVD"
+        ],
+        "city": "RICHLAND",
+        "state": "WA",
+        "postalCode": "99352-3514"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16292"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16292.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d0112da2-7b44-5b4f-b76e-04652ea0b8e8"
+}

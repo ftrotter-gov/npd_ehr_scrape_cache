@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db42b5f3-9757-5841-a602-9fb5bc6ac3c3",
+    "name": "Haxtun Health Inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8bed95e5-40a3-5a95-9f6a-130da41cde25"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134185903"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "235 W Fletcher"
+        ],
+        "city": "HAXTUN",
+        "state": "CO",
+        "postalCode": "80731-2737"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14566"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14566.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db42b5f3-9757-5841-a602-9fb5bc6ac3c3"
+}

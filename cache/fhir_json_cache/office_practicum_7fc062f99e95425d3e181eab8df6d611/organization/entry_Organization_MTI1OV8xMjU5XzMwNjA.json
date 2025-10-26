@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTI1OV8xMjU5XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "621.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104906841"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Henrico Pediatrics PC VA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "804-288-3069",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "804-288-5464",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "7605 Forest Avenue Suite 102 Richmond, VA 232294936",
+        "line": [
+          "7605 Forest Avenue",
+          "Suite 102"
+        ],
+        "city": "Richmond",
+        "state": "VA",
+        "postalCode": "232294936",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTI1OV8xMjU5XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTI1OV8xMjU5XzMwNjA"
+}

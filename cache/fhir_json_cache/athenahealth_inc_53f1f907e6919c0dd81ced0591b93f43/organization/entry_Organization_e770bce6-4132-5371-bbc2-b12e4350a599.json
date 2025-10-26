@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e770bce6-4132-5371-bbc2-b12e4350a599",
+    "name": "VitaCare Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/098f4057-d2ce-56f1-823e-192740734bbd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831670595"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2128 SPEARS RD STE 600"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77067-1318"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18401"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18401.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e770bce6-4132-5371-bbc2-b12e4350a599"
+}

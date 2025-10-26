@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5dbefb66-e7b3-58b5-bc1d-7fdd322785f1",
+    "name": "Lenox Hill Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c8796e51-219c-5f79-8abe-b66f8ecff486"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942212642"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720184211"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 EAST 77TH STREET"
+        ],
+        "city": "new york",
+        "state": "NY",
+        "postalCode": "10075-1850"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1749"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1749.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5dbefb66-e7b3-58b5-bc1d-7fdd322785f1"
+}

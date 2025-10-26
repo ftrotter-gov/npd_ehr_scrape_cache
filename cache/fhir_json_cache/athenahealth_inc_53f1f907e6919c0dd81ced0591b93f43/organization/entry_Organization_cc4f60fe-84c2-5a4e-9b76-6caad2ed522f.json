@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cc4f60fe-84c2-5a4e-9b76-6caad2ed522f",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/17a83d5c-521b-516e-bdf9-2e2e8b05b42a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427050426"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "23 Hoyt  STE 4",
+          "Stamford, CT 60905"
+        ],
+        "city": "STAMFORD",
+        "state": "CT",
+        "postalCode": "06902-2913"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13206"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13206.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cc4f60fe-84c2-5a4e-9b76-6caad2ed522f"
+}

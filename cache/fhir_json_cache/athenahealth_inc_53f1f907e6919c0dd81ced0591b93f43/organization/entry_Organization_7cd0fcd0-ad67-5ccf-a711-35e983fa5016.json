@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7cd0fcd0-ad67-5ccf-a711-35e983fa5016",
+    "name": "Davis Ambulatory Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ce89ae5b-2d2b-5939-83b3-712fea0b179c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457601601"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "120 E. Carver Street"
+        ],
+        "city": "DURHAM",
+        "state": "NC",
+        "postalCode": "27704-2700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11945"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11945.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7cd0fcd0-ad67-5ccf-a711-35e983fa5016"
+}

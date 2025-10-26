@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1726f7e6-9149-5807-b722-51dfdea5d0a7",
+    "name": "Healing Path Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/17871fa8-3829-5945-8bb2-f3f9e528b126"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790486199"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 N 5 TH ST"
+        ],
+        "city": "EUNICE",
+        "state": "LA",
+        "postalCode": "70535-4110"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28120"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28120.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1726f7e6-9149-5807-b722-51dfdea5d0a7"
+}

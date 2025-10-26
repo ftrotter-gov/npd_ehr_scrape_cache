@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "130a9dc8-74db-5a7f-97fd-4c1bf9067d21",
+    "name": "PROVIDER'S HOME OFFICE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/783d3dec-8cf6-53fd-a552-15131b469d78"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811373731"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5 MOUNTAIN ST."
+        ],
+        "city": "CAMDEN",
+        "state": "ME",
+        "postalCode": "04843-1614"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11806"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11806.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:130a9dc8-74db-5a7f-97fd-4c1bf9067d21"
+}

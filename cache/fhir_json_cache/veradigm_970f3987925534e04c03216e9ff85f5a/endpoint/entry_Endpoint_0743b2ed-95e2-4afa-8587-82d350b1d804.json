@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0743b2ed-95e2-4afa-8587-82d350b1d804",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e99a8982-20ad-488d-be8c-93597510ad6b",
+        "name": "Mir Neurology Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Mir Neurology Center",
+    "managingOrganization": {
+      "reference": "#e99a8982-20ad-488d-be8c-93597510ad6b"
+    },
+    "period": {
+      "start": "2018-06-26T19:19:23+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75761"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/75761"
+}

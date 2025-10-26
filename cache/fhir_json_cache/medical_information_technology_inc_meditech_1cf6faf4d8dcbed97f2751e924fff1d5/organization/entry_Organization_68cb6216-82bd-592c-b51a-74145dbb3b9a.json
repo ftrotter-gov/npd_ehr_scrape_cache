@@ -1,0 +1,79 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "68cb6216-82bd-592c-b51a-74145dbb3b9a",
+    "meta": {
+      "lastUpdated": "2024-11-09T02:22:02.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://thorek.org"
+      }
+    ],
+    "name": "Thorek Memorial Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://thorek.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "850 West Irving Park Road"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60613",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:f9386e6c-9634-5919-8808-87d9e58a6842"
+      },
+      {
+        "reference": "urn:uuid:b284fb2d-3f9c-4842-bed8-eab6c5ba0234"
+      },
+      {
+        "reference": "urn:uuid:199ba4a9-f1e7-48c6-862d-7e40ce00e53b"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:7c4f0285-4319-5c63-b160-e7778d784080"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:f9386e6c-9634-5919-8808-87d9e58a6842"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:b284fb2d-3f9c-4842-bed8-eab6c5ba0234"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:68cb6216-82bd-592c-b51a-74145dbb3b9a"
+}

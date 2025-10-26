@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c7032a1-04d6-5a03-ba03-3018d6c5c02a",
+    "name": "Salt Lake Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ce3caa5a-e1cc-5d3b-b7c8-aab066f2f272"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306952783"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1050 S Temple"
+        ],
+        "city": "SALT LAKE CITY",
+        "state": "UT",
+        "postalCode": "84102-1507"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11893"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11893.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c7032a1-04d6-5a03-ba03-3018d6c5c02a"
+}

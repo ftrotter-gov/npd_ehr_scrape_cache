@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c48c67c4-37f1-575a-8bbb-d9e4291d3d93",
+    "name": "Marina Del Rey Outpatient Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5c541b52-d69d-5bd3-878d-71fa9050f47e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972666840"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9650 Lincoln Blvd"
+        ],
+        "city": "MARINA DEL REY",
+        "state": "CA",
+        "postalCode": "90292-6306"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2241"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2241.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c48c67c4-37f1-575a-8bbb-d9e4291d3d93"
+}

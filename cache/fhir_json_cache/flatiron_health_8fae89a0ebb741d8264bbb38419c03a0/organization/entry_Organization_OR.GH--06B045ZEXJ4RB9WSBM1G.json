@@ -1,0 +1,45 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "OR.GH--06B045ZEXJ4RB9WSBM1G",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "123456789"
+      }
+    ],
+    "active": true,
+    "name": "Natera Test Practice",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "(555)555-5555"
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "postal",
+        "line": [
+          "Foundation Cancer Center (Test Patients)"
+        ],
+        "city": "Cambridge",
+        "state": "MA",
+        "postalCode": "90210",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/EP.All",
+        "type": "Endpoint"
+      }
+    ]
+  },
+  "fullUrl": "https://fhir.prod.flatiron.io/fhir/Organization/OR.GH--06B045ZEXJ4RB9WSBM1G"
+}

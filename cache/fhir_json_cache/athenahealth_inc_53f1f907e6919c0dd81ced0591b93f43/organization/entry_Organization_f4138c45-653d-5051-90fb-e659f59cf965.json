@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f4138c45-653d-5051-90fb-e659f59cf965",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9f27201a-1922-56a1-87d6-689f6d8a93cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578984332"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "848 N RAINBOW BLVD # 8399"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89107-1103"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23545"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23545.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f4138c45-653d-5051-90fb-e659f59cf965"
+}

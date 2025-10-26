@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ff4173b7-1289-5d8b-8873-d7e86170a8de",
+    "name": "Saline Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1a911f9f-39f4-5ad6-bb03-7231762debbb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316970148"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Medical Park Drive"
+        ],
+        "city": "BENTON",
+        "state": "AR",
+        "postalCode": "72015-3353"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1060"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1060.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ff4173b7-1289-5d8b-8873-d7e86170a8de"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ac198cb1-4ab9-54ba-ae6f-ea935c5ca39c",
+    "name": "Mercy Health Anderson Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d07963a2-4c45-5436-a347-3e1d476b87dd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548299431"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7500 STATE RD"
+        ],
+        "city": "CINCINNATI",
+        "state": "OH",
+        "postalCode": "45255-2439"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6293"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6293.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ac198cb1-4ab9-54ba-ae6f-ea935c5ca39c"
+}

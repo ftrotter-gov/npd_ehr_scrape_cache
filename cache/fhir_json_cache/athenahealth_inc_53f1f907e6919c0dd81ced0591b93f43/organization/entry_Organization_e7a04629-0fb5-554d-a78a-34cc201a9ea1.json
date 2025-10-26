@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7a04629-0fb5-554d-a78a-34cc201a9ea1",
+    "name": "Yung Medical Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9bc4c822-3cb6-5318-94a0-79008b4a5304"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760435705"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3180 COLIMA RD",
+          "STE A"
+        ],
+        "city": "HACIENDA HEIGHTS",
+        "state": "CA",
+        "postalCode": "91745-6315"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32527"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32527.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7a04629-0fb5-554d-a78a-34cc201a9ea1"
+}

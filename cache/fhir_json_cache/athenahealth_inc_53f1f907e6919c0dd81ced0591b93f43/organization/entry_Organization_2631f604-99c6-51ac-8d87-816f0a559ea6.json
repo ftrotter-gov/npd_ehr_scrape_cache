@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2631f604-99c6-51ac-8d87-816f0a559ea6",
+    "name": "Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9bd42387-353d-5463-b0da-d97fe75b44ea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902954449"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "895 Blue Hill Avenue"
+        ],
+        "city": "DORCHESTER CENTER",
+        "state": "MA",
+        "postalCode": "02124-2902"
+      },
+      {
+        "line": [
+          "895 Blue Hill Avenue"
+        ],
+        "city": "DORCHESTER",
+        "state": "MA",
+        "postalCode": "02124-2902"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8526"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8526.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2631f604-99c6-51ac-8d87-816f0a559ea6"
+}

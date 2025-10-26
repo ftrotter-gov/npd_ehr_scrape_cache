@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c9f796c-5063-5c1c-9fde-4bc856cfc799",
+    "meta": {
+      "lastUpdated": "2022-08-10T22:51:27.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://bvhpr.org"
+      }
+    ],
+    "name": "Bella Vista Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://bvhpr.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "State Road 349, Cerro Las Mesas"
+        ],
+        "city": "Mayaguez",
+        "state": "PR",
+        "postalCode": "00681",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:6ebe2b1a-b506-5a6c-a01c-0ef97185e285"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:6ebe2b1a-b506-5a6c-a01c-0ef97185e285"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c9f796c-5063-5c1c-9fde-4bc856cfc799"
+}

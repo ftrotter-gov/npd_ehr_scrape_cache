@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "09270e12-4d71-5f09-8d3c-82c1ffc4fc09",
+    "name": "Dr Lugo's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/757effe6-6d63-5c21-a877-89fd28cc2688"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194742288"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "385 SERPENTINE DRIVE SUITE A"
+        ],
+        "city": "SPARTANBURG",
+        "state": "SC",
+        "postalCode": "29303-3018"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1548"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1548.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:09270e12-4d71-5f09-8d3c-82c1ffc4fc09"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d8f94816-7ceb-5273-88e8-550074baca33",
+    "name": "Pain Management at Headache and Pain Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bd191ffc-f598-5a2f-bfda-eebc05bc2d08"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801116223"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3500 Depauw Blvd",
+          "Suite 2082"
+        ],
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "postalCode": "46268-1137"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8540"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8540.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d8f94816-7ceb-5273-88e8-550074baca33"
+}

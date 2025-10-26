@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "476e8ebe-6f7d-568d-ab9c-064118176f2e",
+    "name": "MedNow Inc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fb65abb6-ddd3-5e03-b1b9-8e18d78a5a50"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033263769"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2709 Airport Road",
+          "Suite 101"
+        ],
+        "city": "DALTON",
+        "state": "GA",
+        "postalCode": "30721-0252"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5600"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5600.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:476e8ebe-6f7d-568d-ab9c-064118176f2e"
+}

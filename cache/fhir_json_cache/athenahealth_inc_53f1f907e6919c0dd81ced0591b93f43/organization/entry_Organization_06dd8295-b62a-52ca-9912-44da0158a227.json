@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "06dd8295-b62a-52ca-9912-44da0158a227",
+    "name": "AdventHealth Medical Group Primary Care at Shawnee Crossings",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2bf6e83-108e-5c35-ae37-e1623799cc8d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992735690"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6815 Hilltop Rd",
+          "Suite 100"
+        ],
+        "city": "SHAWNEE",
+        "state": "KS",
+        "postalCode": "66226-3551"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13124"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13124.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:06dd8295-b62a-52ca-9912-44da0158a227"
+}

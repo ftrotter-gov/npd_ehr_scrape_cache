@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f0241ff1-4b81-5a9a-86ea-cf35cd8f7182",
+    "name": "Decatur Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2d954d86-6c32-54f2-a026-a7b67287bd39"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982805149"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1215 7TH ST SE SUITE 110"
+        ],
+        "city": "DECATUR",
+        "state": "AL",
+        "postalCode": "35601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5258"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5258.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f0241ff1-4b81-5a9a-86ea-cf35cd8f7182"
+}

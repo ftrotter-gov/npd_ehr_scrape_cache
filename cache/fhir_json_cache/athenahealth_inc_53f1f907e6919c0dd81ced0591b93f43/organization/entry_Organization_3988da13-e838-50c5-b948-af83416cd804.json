@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3988da13-e838-50c5-b948-af83416cd804",
+    "name": "Neighborhood Medical Walk-in Clinic-PCP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d8b56a15-2fc2-51e1-8518-cf1f03f0ea4d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467817940"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8316 E 61st St.",
+          "Suite 101-AA"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74133-1908"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16240"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16240.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3988da13-e838-50c5-b948-af83416cd804"
+}

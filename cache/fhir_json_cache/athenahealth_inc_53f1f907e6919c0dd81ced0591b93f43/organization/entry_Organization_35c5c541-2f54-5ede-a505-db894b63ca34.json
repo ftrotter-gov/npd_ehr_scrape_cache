@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "35c5c541-2f54-5ede-a505-db894b63ca34",
+    "name": "Colorado In-Home Counseling",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8756b300-37d5-505e-b5ea-a9a025c8f463"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093220006"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8089 S Lincoln St"
+        ],
+        "city": "Littleton",
+        "state": "CO",
+        "postalCode": "80122-2700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24259"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24259.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:35c5c541-2f54-5ede-a505-db894b63ca34"
+}

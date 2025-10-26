@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e68889d9-6a0d-5845-90a4-f64ffa3cce50",
+    "name": "Amory Primary Medicine Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c985f289-70d6-5b68-a386-d7dab233889e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255361978"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1107 Earl Frye Blvd",
+          "Suite 6"
+        ],
+        "city": "Amory",
+        "state": "MS",
+        "postalCode": "38821-5519"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e68889d9-6a0d-5845-90a4-f64ffa3cce50"
+}

@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1f60f21d-8537-5edc-80ae-bee162dfe429",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://dignityhealth.org/socal/locations/glendalememorial"
+      }
+    ],
+    "name": "Glendale Memorial Hospital and Health Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://dignityhealth.org/socal/locations/glendalememorial"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1420 South Central Avenue"
+        ],
+        "city": "Glendale",
+        "state": "CA",
+        "postalCode": "91204",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:68f6df66-6ce1-4d56-8075-0eeead603f28"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:7f76bdad-3a19-5826-a7a2-611c633d4d07"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:68f6df66-6ce1-4d56-8075-0eeead603f28"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1f60f21d-8537-5edc-80ae-bee162dfe429"
+}

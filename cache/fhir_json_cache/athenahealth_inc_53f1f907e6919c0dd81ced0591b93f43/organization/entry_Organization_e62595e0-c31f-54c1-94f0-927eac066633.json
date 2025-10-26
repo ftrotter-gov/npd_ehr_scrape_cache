@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e62595e0-c31f-54c1-94f0-927eac066633",
+    "name": "Occupational Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e7c3a4e1-db63-5cc1-900f-7967b23ffbfe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760768709"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 N WASHINGTON AVE",
+          "STE 190"
+        ],
+        "city": "COOKEVILLE",
+        "state": "TN",
+        "postalCode": "38501-2623"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26661"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26661.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e62595e0-c31f-54c1-94f0-927eac066633"
+}

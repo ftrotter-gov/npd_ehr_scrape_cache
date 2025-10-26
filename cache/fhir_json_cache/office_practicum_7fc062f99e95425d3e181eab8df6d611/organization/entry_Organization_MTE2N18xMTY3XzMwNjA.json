@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTE2N18xMTY3XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "575.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215135025"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Sweetwater Pediatrics PC WY",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "307-362-5500",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "307-362-0300",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "SweetWater Pediatrics PC 1101 Gateway Blvd Rock Springs, WY 829016777",
+        "line": [
+          "SweetWater Pediatrics PC",
+          "1101 Gateway Blvd"
+        ],
+        "city": "Rock Springs",
+        "state": "WY",
+        "postalCode": "829016777",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTE2N18xMTY3XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTE2N18xMTY3XzMwNjA"
+}

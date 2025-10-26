@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6384a661-8f57-5233-9f4d-5a3fc6455267",
+    "name": "Helena Surgery Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e279f573-f302-5448-90c9-0bd9084a6cf2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003031600"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1803  Martin Luther King, Suite C"
+        ],
+        "city": "HELENA",
+        "state": "AR",
+        "postalCode": "72342-9103"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1590"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1590.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6384a661-8f57-5233-9f4d-5a3fc6455267"
+}

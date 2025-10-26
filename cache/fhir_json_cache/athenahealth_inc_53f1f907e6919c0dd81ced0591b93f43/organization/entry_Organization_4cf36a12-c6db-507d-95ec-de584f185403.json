@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4cf36a12-c6db-507d-95ec-de584f185403",
+    "name": "Virtual Pulse",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fe01d42c-d65e-5e39-a56b-96164cb505d2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801274238"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "167A JERUSALEM AVENUE"
+        ],
+        "city": "MASSAPEQUA",
+        "state": "NY",
+        "postalCode": "11758-3307"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25774"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25774.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4cf36a12-c6db-507d-95ec-de584f185403"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4fe95228-76c6-53c0-9994-200e8f94936c",
+    "name": "Lagom Wellness Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d511a932-05fd-5233-818e-615726cafac2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417406711"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3441 45TH STREET",
+          "SUITE B"
+        ],
+        "city": "FARGO",
+        "state": "ND",
+        "postalCode": "58104-8988"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28204"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28204.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4fe95228-76c6-53c0-9994-200e8f94936c"
+}

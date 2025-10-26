@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c9534d9-51f0-58bf-8787-0a5c8818e8d1",
+    "name": "Dr. Nouh's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/97a14122-1ccd-56c0-ba14-056a83b28fbd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811297260"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1417 NW 150TH ST."
+        ],
+        "city": "EDMOND",
+        "state": "OK",
+        "postalCode": "73013-1305"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14547"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14547.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c9534d9-51f0-58bf-8787-0a5c8818e8d1"
+}

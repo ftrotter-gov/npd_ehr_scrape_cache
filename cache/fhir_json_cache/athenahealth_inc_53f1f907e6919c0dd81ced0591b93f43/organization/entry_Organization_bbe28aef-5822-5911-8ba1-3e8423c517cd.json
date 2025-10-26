@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bbe28aef-5822-5911-8ba1-3e8423c517cd",
+    "name": "test",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/50e02e82-873f-5c61-ac4c-e6efbdab0b86"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699543207"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1400 Dowell Springs Blvd, STE 130"
+        ],
+        "city": "KNOXVILLE",
+        "state": "TN",
+        "postalCode": "37909-2456"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31067"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31067.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bbe28aef-5822-5911-8ba1-3e8423c517cd"
+}

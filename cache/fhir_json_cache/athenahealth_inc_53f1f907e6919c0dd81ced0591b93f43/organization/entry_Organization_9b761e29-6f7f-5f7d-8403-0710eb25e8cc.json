@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9b761e29-6f7f-5f7d-8403-0710eb25e8cc",
+    "name": "Pawtucket Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0a6c82fa-2709-521e-8675-76f6fc9d7899"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629509641"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "333 SCHOOL STREET, SUITE 210"
+        ],
+        "city": "PAWTUCKET",
+        "state": "RI",
+        "postalCode": "02860-5336"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15636"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15636.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9b761e29-6f7f-5f7d-8403-0710eb25e8cc"
+}

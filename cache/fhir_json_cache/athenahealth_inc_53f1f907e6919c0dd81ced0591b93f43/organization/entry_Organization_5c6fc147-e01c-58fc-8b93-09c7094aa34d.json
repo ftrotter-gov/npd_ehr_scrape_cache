@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5c6fc147-e01c-58fc-8b93-09c7094aa34d",
+    "name": "Primary Medical Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d78a0ecb-b109-5f2d-80c7-3ff07a028f26"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861001414"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7535 SW 62ND CT"
+        ],
+        "city": "OCALA",
+        "state": "FL",
+        "postalCode": "34476-5596"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31424"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31424.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5c6fc147-e01c-58fc-8b93-09c7094aa34d"
+}

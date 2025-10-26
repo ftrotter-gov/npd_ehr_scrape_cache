@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d049961-3b90-5c8f-b4c9-52134c065d09",
+    "name": "St. Mary's Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/84443919-9033-5d7d-9455-4c744d928012"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245391788"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 LANGHORNE-NEWTOWN RD"
+        ],
+        "city": "LANGHORNE",
+        "state": "PA",
+        "postalCode": "19047-1201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13165"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13165.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d049961-3b90-5c8f-b4c9-52134c065d09"
+}

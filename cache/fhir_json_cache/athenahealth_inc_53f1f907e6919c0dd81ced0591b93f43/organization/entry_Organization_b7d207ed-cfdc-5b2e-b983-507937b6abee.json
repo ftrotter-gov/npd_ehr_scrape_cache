@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b7d207ed-cfdc-5b2e-b983-507937b6abee",
+    "name": "St. Luke's Warren Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6926d36b-05a0-5b78-8cc6-15034e07f08f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760488266"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "185 ROSEBERRY STREET"
+        ],
+        "city": "PHILLIPSBURG",
+        "state": "NJ",
+        "postalCode": "08865-1690"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4567"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4567.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b7d207ed-cfdc-5b2e-b983-507937b6abee"
+}

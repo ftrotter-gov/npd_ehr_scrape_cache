@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a00a7dad-d92a-56b7-9482-54991bb6776d",
+    "name": "Wilmington Health Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4e4ff0c2-8a78-5937-8b67-6d523ed94e53"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174920565"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346222064"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "750 Woburn St"
+        ],
+        "city": "WILMINGTON",
+        "state": "MA",
+        "postalCode": "01887-3480"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-391.Brand-12"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a00a7dad-d92a-56b7-9482-54991bb6776d"
+}

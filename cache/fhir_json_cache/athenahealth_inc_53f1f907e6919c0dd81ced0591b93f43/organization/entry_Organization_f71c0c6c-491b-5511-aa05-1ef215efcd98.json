@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f71c0c6c-491b-5511-aa05-1ef215efcd98",
+    "name": "RMCHCS",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cf4695cc-8e93-5c6b-9479-6f4c7c8c1480"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689779860"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2111 College Drive"
+        ],
+        "city": "GALLUP",
+        "state": "NM",
+        "postalCode": "87301-5600"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11999"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11999.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f71c0c6c-491b-5511-aa05-1ef215efcd98"
+}

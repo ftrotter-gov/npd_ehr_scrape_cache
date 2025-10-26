@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e8f1fe63-c719-5ca2-9aff-f970a639b7c0",
+    "name": "Flower City Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/63106660-0e86-5efe-845a-7161372bfbb2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346095254"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1815 S CLINTON AVE STE 620"
+        ],
+        "city": "ROCHESTER",
+        "state": "NY",
+        "postalCode": "14618-5723"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30804"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30804.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e8f1fe63-c719-5ca2-9aff-f970a639b7c0"
+}

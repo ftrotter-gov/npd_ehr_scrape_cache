@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5b14ec5f-3e2b-5fec-9766-479f01d6d905",
+    "name": "Amory Specialty Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f46321f7-d117-5df4-8065-fe7b598cfddb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851831028"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1107 Earl Frye Blvd",
+          "Suite 6"
+        ],
+        "city": "AMORY",
+        "state": "MS",
+        "postalCode": "38821-5519"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15519"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15519.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5b14ec5f-3e2b-5fec-9766-479f01d6d905"
+}

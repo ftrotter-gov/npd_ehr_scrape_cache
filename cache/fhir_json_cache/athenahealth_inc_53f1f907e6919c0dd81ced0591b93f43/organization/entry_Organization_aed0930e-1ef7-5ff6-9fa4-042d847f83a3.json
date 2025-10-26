@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aed0930e-1ef7-5ff6-9fa4-042d847f83a3",
+    "name": "Mason and Partners Clinic - NVFS Serve RN Extension Site",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/09f1b6d3-8d3f-555c-8033-4b942119a684"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567891"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10056 DEAN DRIVE"
+        ],
+        "city": "MANASSAS",
+        "state": "VA",
+        "postalCode": "20110-4115"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29379"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29379.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aed0930e-1ef7-5ff6-9fa4-042d847f83a3"
+}

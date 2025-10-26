@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c19995b1-96a7-52d0-a490-9dacc91b3409",
+    "name": "Primary Care Clinic Of North Texas - Plano",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d1383348-94d0-5a7e-be81-9272cfaf1996"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3900 AMERICAN DR STE 201"
+        ],
+        "city": "PLANO",
+        "state": "TX",
+        "postalCode": "75075-6190"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20496"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20496.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c19995b1-96a7-52d0-a490-9dacc91b3409"
+}

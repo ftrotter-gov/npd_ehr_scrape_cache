@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1cd89c63-b1b0-54c8-9d88-3a00f7f2c952",
+    "name": "Puresculpting Tampa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2b32c2bf-ad80-5479-aca0-52be37e2c920"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2111 W SWANN AVE",
+          "STE 101"
+        ],
+        "city": "TAMPA",
+        "state": "FL",
+        "postalCode": "33606-2477"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27425"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27425.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1cd89c63-b1b0-54c8-9d88-3a00f7f2c952"
+}

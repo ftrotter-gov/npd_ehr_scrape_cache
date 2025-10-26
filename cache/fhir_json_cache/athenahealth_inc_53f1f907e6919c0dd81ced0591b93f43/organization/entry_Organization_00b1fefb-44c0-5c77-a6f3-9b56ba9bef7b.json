@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "00b1fefb-44c0-5c77-a6f3-9b56ba9bef7b",
+    "name": "Phillips Clinic Corp",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cba66be5-9990-54eb-b2c8-e7d13bd25bc3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003031600"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1801 Martin Luther King Dr"
+        ],
+        "city": "HELENA",
+        "state": "AR",
+        "postalCode": "72342-8998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1590"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1590.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:00b1fefb-44c0-5c77-a6f3-9b56ba9bef7b"
+}

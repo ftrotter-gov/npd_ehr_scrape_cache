@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9dda47a-e6ce-5bd3-8b17-7ca0a87f741d",
+    "name": "WCDPHE North Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/97aa6cc9-aafe-58e2-8f7a-3c15b47afaaf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174515258"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1555 N.17th Ave"
+        ],
+        "city": "Greeley",
+        "state": "CO",
+        "postalCode": "80631-9117"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27043"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27043.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9dda47a-e6ce-5bd3-8b17-7ca0a87f741d"
+}

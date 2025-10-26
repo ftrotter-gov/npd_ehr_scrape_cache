@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5a6840d3-310a-5a2d-b953-749836f56261",
+    "name": "NW Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f9463360-c80a-571e-bbb4-2e9938bde46f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225407489"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11111 RESEARCH BLVD",
+          "LL3"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78759-5282"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12869"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12869.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5a6840d3-310a-5a2d-b953-749836f56261"
+}

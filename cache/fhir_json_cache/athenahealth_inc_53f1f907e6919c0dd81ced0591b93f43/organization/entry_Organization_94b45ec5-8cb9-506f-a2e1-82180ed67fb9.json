@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "94b45ec5-8cb9-506f-a2e1-82180ed67fb9",
+    "name": "Doctors' Same Day Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/67d12b4f-74ea-5335-856e-39ddc0dbb03b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790296762"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4633 Wichers Dr"
+        ],
+        "city": "MARRERO",
+        "state": "LA",
+        "postalCode": "70072-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31102"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31102.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:94b45ec5-8cb9-506f-a2e1-82180ed67fb9"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5dc87de5-e47a-51bb-9e4f-6a9893f4a74c",
+    "name": "Downsville Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7ee76c68-34ef-56fc-8caf-9e7fdf6f14ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053373191"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4787 Highway 151"
+        ],
+        "city": "DOWNSVILLE",
+        "state": "LA",
+        "postalCode": "71234-5145"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11502"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11502.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5dc87de5-e47a-51bb-9e4f-6a9893f4a74c"
+}

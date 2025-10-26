@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cf9303aa-ae2c-579c-b6f7-d05bb4c08c7c",
+    "name": "LMC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3a7a6196-0e4c-5500-b268-e10404fdd234"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326503699"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "923 East Central Ave"
+        ],
+        "city": "LA FOLLETTE",
+        "state": "TN",
+        "postalCode": "37766-2768"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26702"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26702.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cf9303aa-ae2c-579c-b6f7-d05bb4c08c7c"
+}

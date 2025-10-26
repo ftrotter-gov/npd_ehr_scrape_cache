@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cb0553aa-48b6-5cb5-b260-70288c87ca86",
+    "name": "Abrazo Medical Group Physician Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ba79b642-7619-5907-8237-29be2a55ac4d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841453602"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10030 N. 25th Ave",
+          "Suite 100"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85021-4204"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-600"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-600.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cb0553aa-48b6-5cb5-b260-70288c87ca86"
+}

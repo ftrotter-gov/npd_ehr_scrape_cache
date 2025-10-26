@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "09e82847-0dca-541c-b14f-646dd746c6c6",
+    "name": "Roger Williams",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/28e57129-3436-5bd3-947a-04b688fe87a7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811304355"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "825 Chalkstone Avenue"
+        ],
+        "city": "PROVIDENCE",
+        "state": "RI",
+        "postalCode": "02908-4728"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9642"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9642.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:09e82847-0dca-541c-b14f-646dd746c6c6"
+}

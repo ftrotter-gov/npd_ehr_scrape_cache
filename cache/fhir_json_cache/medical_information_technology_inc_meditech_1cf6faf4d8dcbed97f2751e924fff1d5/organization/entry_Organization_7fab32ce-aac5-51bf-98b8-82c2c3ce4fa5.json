@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7fab32ce-aac5-51bf-98b8-82c2c3ce4fa5",
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://mmchs.org/directory/locations/liberty-street-facility"
+      }
+    ],
+    "name": "Meadville Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://mmchs.org/directory/locations/liberty-street-facility"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "751 Liberty Street"
+        ],
+        "city": "Meadville",
+        "state": "PA",
+        "postalCode": "16335",
+        "country": "United States"
+      }
+    ],
+    "meta": {
+      "lastUpdated": "2024-10-01T22:51:56.000Z"
+    },
+    "endpoint": [
+      {
+        "reference": "urn:uuid:69dfbac7-c45e-5a0d-892c-d995c458e1f4"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:73bee998-89e3-5dd5-b0ba-937847e86410"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:69dfbac7-c45e-5a0d-892c-d995c458e1f4"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7fab32ce-aac5-51bf-98b8-82c2c3ce4fa5"
+}

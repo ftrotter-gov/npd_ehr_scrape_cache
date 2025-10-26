@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "97ad628d-bf34-4d3c-ae29-68a50650926d",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "68509a56-a87f-40f7-b052-af8935dde28e",
+        "name": "Griego Family Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Griego Family Medical Center",
+    "managingOrganization": {
+      "reference": "#68509a56-a87f-40f7-b052-af8935dde28e"
+    },
+    "period": {
+      "start": "2019-10-03T19:33:13+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57534"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57534"
+}

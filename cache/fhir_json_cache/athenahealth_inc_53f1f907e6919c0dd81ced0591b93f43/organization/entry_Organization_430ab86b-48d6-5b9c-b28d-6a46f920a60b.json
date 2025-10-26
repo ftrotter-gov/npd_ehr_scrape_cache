@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "430ab86b-48d6-5b9c-b28d-6a46f920a60b",
+    "name": "Brightline",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/76e1e8de-82e0-5bfd-b939-556b4a81ab56"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003424870"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 CONCAR DR"
+        ],
+        "city": "SAN MATEO",
+        "state": "CA",
+        "postalCode": "94402-2681"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22628"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22628.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:430ab86b-48d6-5b9c-b28d-6a46f920a60b"
+}

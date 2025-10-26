@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "7e2aa531-04c4-467c-a718-9be0aeeaddfd",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c73904f2-3b13-4a72-a49d-61b95c4bc6ab",
+        "name": "MacGregor Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "MacGregor Medical Center",
+    "managingOrganization": {
+      "reference": "#c73904f2-3b13-4a72-a49d-61b95c4bc6ab"
+    },
+    "period": {
+      "start": "2024-05-04T06:53:15+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/59382"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/59382"
+}

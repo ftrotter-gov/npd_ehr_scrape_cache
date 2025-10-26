@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8da57914-b803-505d-9bfb-a51b272cecc9",
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://slhduluth.com/locations/st-lukes-hospital"
+      }
+    ],
+    "name": "St. Luke's Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://slhduluth.com/locations/st-lukes-hospital"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "915 East First Street"
+        ],
+        "city": "Duluth",
+        "state": "MN",
+        "postalCode": "55805",
+        "country": "United States"
+      }
+    ],
+    "meta": {
+      "lastUpdated": "2024-03-13T17:34:13.932Z"
+    },
+    "endpoint": [
+      {
+        "reference": "urn:uuid:088d9de0-6499-5189-a607-e19581804169"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:4389ef41-4beb-5ef8-9278-d3e544947f6a"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:088d9de0-6499-5189-a607-e19581804169"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8da57914-b803-505d-9bfb-a51b272cecc9"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6f255ff4-d8a4-508c-9631-9f32d614ef37",
+    "name": "Woodland Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/69230a4e-abcd-51d1-bd14-dbd5b3f6fb79"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710929252"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1299 Bishop Rd"
+        ],
+        "city": "CHEHALIS",
+        "state": "WA",
+        "postalCode": "98532-0196"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8022"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8022.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6f255ff4-d8a4-508c-9631-9f32d614ef37"
+}

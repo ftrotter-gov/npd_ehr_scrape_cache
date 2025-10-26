@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "903c246c-c500-446d-936d-6e3a69c9fb5d",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c2ffac46-ab0a-449c-817b-a7795b1447ca",
+        "name": "McCook Clinic PC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "McCook Clinic PC",
+    "managingOrganization": {
+      "reference": "#c2ffac46-ab0a-449c-817b-a7795b1447ca"
+    },
+    "period": {
+      "start": "2018-08-23T16:43:48+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10063181"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10063181"
+}

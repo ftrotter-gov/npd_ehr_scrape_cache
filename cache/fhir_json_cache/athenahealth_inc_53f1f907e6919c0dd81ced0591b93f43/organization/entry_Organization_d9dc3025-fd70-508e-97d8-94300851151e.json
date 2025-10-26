@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d9dc3025-fd70-508e-97d8-94300851151e",
+    "name": "Metropolitan Nashville General Hospital - IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/011a0f47-3045-5587-858e-3290e46511e8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326368515"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1818 ALBION ST"
+        ],
+        "city": "NASHVILLE",
+        "state": "TN",
+        "postalCode": "37208-2918"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12973"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12973.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d9dc3025-fd70-508e-97d8-94300851151e"
+}

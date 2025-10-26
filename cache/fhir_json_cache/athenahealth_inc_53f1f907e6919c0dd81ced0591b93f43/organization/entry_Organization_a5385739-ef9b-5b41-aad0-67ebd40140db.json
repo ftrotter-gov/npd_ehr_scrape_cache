@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a5385739-ef9b-5b41-aad0-67ebd40140db",
+    "name": "PSET",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fb071261-c392-57f7-a7a7-f8f6491b70e6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366655490"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "744 Tell Street",
+          "Suite 1"
+        ],
+        "city": "ATHENS",
+        "state": "TN",
+        "postalCode": "37303-3148"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-419"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-419.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a5385739-ef9b-5b41-aad0-67ebd40140db"
+}

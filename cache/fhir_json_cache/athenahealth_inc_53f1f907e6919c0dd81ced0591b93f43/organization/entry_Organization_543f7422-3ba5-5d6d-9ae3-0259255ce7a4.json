@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "543f7422-3ba5-5d6d-9ae3-0259255ce7a4",
+    "name": "Fairview Southdale Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/abb5f7d5-468e-5806-be46-fb2282afef02"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427438894"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6401 France Ave S"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55435-2104"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14268"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14268.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:543f7422-3ba5-5d6d-9ae3-0259255ce7a4"
+}

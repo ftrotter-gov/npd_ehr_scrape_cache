@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1744cf63-8f15-5d4a-af73-5933b9426b65",
+    "name": "Austin Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7c630b04-7996-568e-ab93-0d036463df0e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922101591"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 W Louis Henna Blvd"
+        ],
+        "city": "ROUND ROCK",
+        "state": "TX",
+        "postalCode": "78681-9922"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3126"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3126.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1744cf63-8f15-5d4a-af73-5933b9426b65"
+}

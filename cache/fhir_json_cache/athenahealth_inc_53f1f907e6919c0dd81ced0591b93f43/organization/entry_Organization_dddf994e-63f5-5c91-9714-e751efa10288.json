@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dddf994e-63f5-5c91-9714-e751efa10288",
+    "name": "Baylor University Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bb25abf2-83c3-51f5-b811-5afb62be2726"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720207392"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3500 Gaston Ave"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75246-2017"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1794"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1794.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dddf994e-63f5-5c91-9714-e751efa10288"
+}

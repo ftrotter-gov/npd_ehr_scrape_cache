@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "86bd4cd9-cc29-5231-8fa6-36427cfd0c02",
+    "name": "GA Visiting Providers",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/46623372-3347-5ef4-b2de-2b97395427d8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639869860"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6725 DALY RD",
+          "PO BOX 1162"
+        ],
+        "city": "WEST BLOOMFIELD",
+        "state": "MI",
+        "postalCode": "48325-3201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30273"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30273.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:86bd4cd9-cc29-5231-8fa6-36427cfd0c02"
+}

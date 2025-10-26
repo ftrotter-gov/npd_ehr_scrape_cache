@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "54e6bbbd-7696-5f05-a0c6-bc3c36ad2c31",
+    "name": "Kershaw Health Spine IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e253ae7e-c61d-5beb-8a54-ad588b9b743b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033593454"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1315 Roberts St"
+        ],
+        "city": "CAMDEN",
+        "state": "SC",
+        "postalCode": "29020-3737"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11951"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11951.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:54e6bbbd-7696-5f05-a0c6-bc3c36ad2c31"
+}

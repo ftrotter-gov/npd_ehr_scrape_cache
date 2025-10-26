@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9a78a88-5dbc-51e6-8ae8-41477726bdf4",
+    "name": "Town and Country Manor",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/400c96a5-4b38-54d9-8012-14e12058b938"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184098279"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "625 N Main Street"
+        ],
+        "city": "BOERNE",
+        "state": "TX",
+        "postalCode": "78006-1621"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16015"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16015.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9a78a88-5dbc-51e6-8ae8-41477726bdf4"
+}

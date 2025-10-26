@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bfd975da-27d4-595f-8fb8-2597671f259e",
+    "name": "Norcross Coop",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ea48875e-7320-5069-a8e9-8a3451a0644b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5320 Jimmy Carter Blvd"
+        ],
+        "city": "NORCROSS",
+        "state": "GA",
+        "postalCode": "30093-1501"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14358"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14358.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bfd975da-27d4-595f-8fb8-2597671f259e"
+}

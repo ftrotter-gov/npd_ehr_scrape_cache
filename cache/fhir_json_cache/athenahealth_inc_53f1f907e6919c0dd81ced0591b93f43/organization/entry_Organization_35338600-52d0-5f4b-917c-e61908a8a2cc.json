@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "35338600-52d0-5f4b-917c-e61908a8a2cc",
+    "name": "Mid-Manhattan Surg-Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/433b6190-d60a-5619-8bf5-3901acee3778"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033596952"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "61 W 23rd St",
+          "7th floor"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10010-4243"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11524"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11524.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:35338600-52d0-5f4b-917c-e61908a8a2cc"
+}

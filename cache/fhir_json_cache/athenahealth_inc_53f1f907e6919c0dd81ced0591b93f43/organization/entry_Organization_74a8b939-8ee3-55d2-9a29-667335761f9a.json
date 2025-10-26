@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "74a8b939-8ee3-55d2-9a29-667335761f9a",
+    "name": "Castle Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/654f3dba-357d-5402-8a1d-1c615de54375"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710148457"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "642 ULUKAHIKI ST",
+          "SUITE 211"
+        ],
+        "city": "KAILUA",
+        "state": "HI",
+        "postalCode": "96734-4418"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13633"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13633.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:74a8b939-8ee3-55d2-9a29-667335761f9a"
+}

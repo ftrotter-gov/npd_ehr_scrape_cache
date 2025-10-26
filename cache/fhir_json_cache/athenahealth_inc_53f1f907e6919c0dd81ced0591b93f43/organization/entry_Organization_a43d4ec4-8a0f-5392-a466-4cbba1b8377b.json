@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a43d4ec4-8a0f-5392-a466-4cbba1b8377b",
+    "name": "SV Pain Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/643e0649-8a48-5ff5-a534-3bf1339e2941"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124316724"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "265 Benton Drive"
+        ],
+        "city": "EAST LONGMEADOW",
+        "state": "MA",
+        "postalCode": "01028-3219"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3451"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3451.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a43d4ec4-8a0f-5392-a466-4cbba1b8377b"
+}

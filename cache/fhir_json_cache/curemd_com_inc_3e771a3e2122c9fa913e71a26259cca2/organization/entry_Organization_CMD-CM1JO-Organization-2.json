@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1JO-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1JO"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "SAFI Medical Kidney Care",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5169737234"
+      },
+      {
+        "system": "fax",
+        "value": "6463496022"
+      }
+    ],
+    "address": [
+      {
+        "text": "1 Fairway Court Oyster Bay NY 117714411 US",
+        "line": [
+          "1 Fairway Court"
+        ],
+        "city": "Oyster Bay",
+        "state": "NY",
+        "postalCode": "117714411",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1JO-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1JO-Organization-2"
+}

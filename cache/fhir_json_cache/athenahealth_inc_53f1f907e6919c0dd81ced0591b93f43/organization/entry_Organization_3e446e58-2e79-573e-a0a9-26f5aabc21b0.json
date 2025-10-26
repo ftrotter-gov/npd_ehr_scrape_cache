@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3e446e58-2e79-573e-a0a9-26f5aabc21b0",
+    "name": "FirstHealth RMH ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/352d56da-a94a-5a87-85be-b2270ba4a1de"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346681939"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "925 S Long Dr"
+        ],
+        "city": "Rockingham",
+        "state": "NC",
+        "postalCode": "28379-4835"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1434"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1434.Brand-16"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3e446e58-2e79-573e-a0a9-26f5aabc21b0"
+}

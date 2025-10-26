@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "11b3ba88-16a8-519c-9c62-648bfd802d73",
+    "name": "PRIME SURGICAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f10bdc5a-bac9-526a-9629-71f3074ae0c5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285900365"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "27462 PORTOLA PKWY",
+          "SUITE 100"
+        ],
+        "city": "FOOTHILL RANCH",
+        "state": "CA",
+        "postalCode": "92610-2838"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6584"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6584.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:11b3ba88-16a8-519c-9c62-648bfd802d73"
+}

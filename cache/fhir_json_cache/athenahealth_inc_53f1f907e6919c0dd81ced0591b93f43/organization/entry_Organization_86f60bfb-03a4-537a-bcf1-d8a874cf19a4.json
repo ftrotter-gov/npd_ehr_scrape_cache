@@ -1,0 +1,53 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "86f60bfb-03a4-537a-bcf1-d8a874cf19a4",
+    "name": "Belmont Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2cc21f1e-107f-54f4-b896-dceea6f22e51"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326014259"
+      }
+    ],
+    "address": [
+      {
+        "line": [],
+        "city": "CAMBRIDGE",
+        "state": "MA",
+        "postalCode": "02138-4302"
+      },
+      {
+        "line": [
+          "725 concord ave",
+          "ste 440"
+        ],
+        "city": "CAMBRIDGE",
+        "state": "MA",
+        "postalCode": "02138-1040"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2060"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2060.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:86f60bfb-03a4-537a-bcf1-d8a874cf19a4"
+}

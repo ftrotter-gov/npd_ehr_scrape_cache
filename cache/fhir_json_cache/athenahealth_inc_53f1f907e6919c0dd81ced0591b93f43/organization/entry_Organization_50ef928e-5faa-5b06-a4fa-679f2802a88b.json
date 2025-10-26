@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "50ef928e-5faa-5b06-a4fa-679f2802a88b",
+    "name": "Wound Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/59138cb6-079d-54b8-b9eb-e72e68384453"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528138104"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4201 MEDICAL CENTER DR STE 380"
+        ],
+        "city": "MCKINNEY",
+        "state": "TX",
+        "postalCode": "75069-1780"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21530"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21530.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:50ef928e-5faa-5b06-a4fa-679f2802a88b"
+}

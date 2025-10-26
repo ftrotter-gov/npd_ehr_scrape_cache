@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f404971c-c6a6-53e7-9952-f1b9c8885db9",
+    "name": "Eastland Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f2227e20-48a3-5a94-9d01-0e4161143a0d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760917371"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "304 South Daugherty Street"
+        ],
+        "city": "EASTLAND",
+        "state": "TX",
+        "postalCode": "76448-2609"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16520"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16520.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f404971c-c6a6-53e7-9952-f1b9c8885db9"
+}

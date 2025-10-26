@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5eb0012e-099e-54c6-9b14-ed4133248ddb",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f2c01205-cd8e-51e9-a3da-e329b1fa54fd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "117 S. WILLIAM BARNETT AVE."
+        ],
+        "city": "CLEVELAND",
+        "state": "TX",
+        "postalCode": "77327-4962"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14323"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14323.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5eb0012e-099e-54c6-9b14-ed4133248ddb"
+}

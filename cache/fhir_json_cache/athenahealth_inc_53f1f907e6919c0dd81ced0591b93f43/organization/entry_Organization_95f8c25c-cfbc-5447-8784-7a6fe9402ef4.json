@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "95f8c25c-cfbc-5447-8784-7a6fe9402ef4",
+    "name": "Precision Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7d11e8d9-be30-5b29-992f-7ff7758ebf96"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1010101010"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "722 GENEVIEVE ST",
+          "STE K"
+        ],
+        "city": "SOLANA BEACH",
+        "state": "CA",
+        "postalCode": "92075-2061"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18830"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18830.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:95f8c25c-cfbc-5447-8784-7a6fe9402ef4"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b8c236ae-7eca-5420-82ca-012b8d81861a",
+    "name": "Fuse Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/03ae9cef-54fe-5083-8760-0576f7991553"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164003125"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "43 WACO DRIVE"
+        ],
+        "city": "LONDON",
+        "state": "KY",
+        "postalCode": "40741-8327"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23735"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23735.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b8c236ae-7eca-5420-82ca-012b8d81861a"
+}

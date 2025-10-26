@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "169ad4ad-7fb3-5d81-b9f0-39a6a0d5cdb8",
+    "name": "United Regional Healthcare System",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4c35b5d1-8cda-56aa-8f7c-ae22bd98d6ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1679616502"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 11TH ST"
+        ],
+        "city": "WICHITA FALLS",
+        "state": "TX",
+        "postalCode": "76301-4300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28183"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28183.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:169ad4ad-7fb3-5d81-b9f0-39a6a0d5cdb8"
+}

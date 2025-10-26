@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ab7c73f7-6c76-518b-932f-ed034c1052bc",
+    "name": "Golden Apple Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/29f87293-cffb-5ade-9bdd-e3205f74fba6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518137520"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2970 N Litchfield Rd, Suite 110"
+        ],
+        "city": "Goodyear",
+        "state": "AZ",
+        "postalCode": "85395-7831"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19035"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19035.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ab7c73f7-6c76-518b-932f-ed034c1052bc"
+}

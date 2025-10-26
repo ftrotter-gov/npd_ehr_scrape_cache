@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "436e3ac8-7729-597d-80d9-ea765bd7e9ce",
+    "name": "Health to Home Medical Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b0134d2d-f968-5eab-96cc-05c9d90cf48a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033839469"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1902 WALTMAN RD"
+        ],
+        "city": "EDGEWOOD",
+        "state": "MD",
+        "postalCode": "21040-2338"
+      },
+      {
+        "line": [
+          "4690 MILLENNIUM DR # 3"
+        ],
+        "city": "BELCAMP",
+        "state": "MD",
+        "postalCode": "21017-1523"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29140"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29140.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:436e3ac8-7729-597d-80d9-ea765bd7e9ce"
+}

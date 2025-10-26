@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6adcc870-4bf9-5911-aa05-6bafe937a79c",
+    "name": "Dove Mountain Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d19c756a-d4cd-540f-aad4-d299b4aa28be"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447263405"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5224 W Dove Centre Rd"
+        ],
+        "city": "MARANA",
+        "state": "AZ",
+        "postalCode": "85658-5063"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32652"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32652.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6adcc870-4bf9-5911-aa05-6bafe937a79c"
+}

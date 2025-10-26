@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0b32967e-9266-4653-9733-f38e3aeba87d",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "41823779-f2e5-4c5d-865c-6d969343355b",
+        "name": "Delta Pediatrics"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Delta Pediatrics",
+    "managingOrganization": {
+      "reference": "#41823779-f2e5-4c5d-865c-6d969343355b"
+    },
+    "period": {
+      "start": "2018-10-11T09:03:10+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/70036KV"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/70036KV"
+}

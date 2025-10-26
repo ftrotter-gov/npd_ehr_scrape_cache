@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa4591ea-93be-5821-9ec1-b375df834fa0",
+    "name": "Minor Medical Squad LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ed567b46-589d-5000-b104-5d3090e8d0ec"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821646985"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 W Burnsville Pkwy",
+          "Suite 101"
+        ],
+        "city": "BURNSVILLE",
+        "state": "MN",
+        "postalCode": "55337-4401"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30749"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30749.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa4591ea-93be-5821-9ec1-b375df834fa0"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b23bf58e-80aa-526b-bc1e-d18c90c8ba7a",
+    "name": "CHC Casa - Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e8ad0de-e028-53e0-81f9-fb6a620e48d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841217866"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "77 Casa St",
+          "Suite 201"
+        ],
+        "city": "SAN LUIS OBISPO",
+        "state": "CA",
+        "postalCode": "93405-5803"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17363"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17363.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b23bf58e-80aa-526b-bc1e-d18c90c8ba7a"
+}

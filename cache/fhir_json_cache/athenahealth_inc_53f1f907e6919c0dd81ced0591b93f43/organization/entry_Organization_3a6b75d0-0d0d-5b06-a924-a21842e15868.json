@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3a6b75d0-0d0d-5b06-a924-a21842e15868",
+    "name": "Queen of the Valley Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6ba6b11-977a-5a8a-b870-6ecdafcaf016"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407880719"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 Trancas Street"
+        ],
+        "city": "NAPA",
+        "state": "CA",
+        "postalCode": "94558-2906"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3a6b75d0-0d0d-5b06-a924-a21842e15868"
+}

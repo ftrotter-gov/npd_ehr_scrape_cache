@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1B5-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1B5"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Teton County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4064662562"
+      },
+      {
+        "system": "fax",
+        "value": "4064665292"
+      },
+      {
+        "system": "url",
+        "value": "https://tetoncomt.org/health-department/"
+      }
+    ],
+    "address": [
+      {
+        "text": "905 4th Street Northwest CHOTEAU MT 59422 US",
+        "line": [
+          "905 4th Street Northwest"
+        ],
+        "city": "CHOTEAU",
+        "state": "MT",
+        "postalCode": "59422",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1B5-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1B5-Organization-2"
+}

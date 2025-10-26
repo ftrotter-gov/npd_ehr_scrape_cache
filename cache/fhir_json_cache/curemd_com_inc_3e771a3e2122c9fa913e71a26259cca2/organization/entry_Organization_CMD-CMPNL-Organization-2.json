@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMPNL-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMPNL"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pinal County Public Health District",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5208667320"
+      },
+      {
+        "system": "fax",
+        "value": "5208667066"
+      }
+    ],
+    "address": [
+      {
+        "text": "P.O. Box 2945 Florence AZ 85132 US",
+        "line": [
+          "P.O. Box 2945"
+        ],
+        "city": "Florence",
+        "state": "AZ",
+        "postalCode": "85132",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMPNL-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMPNL-Organization-2"
+}

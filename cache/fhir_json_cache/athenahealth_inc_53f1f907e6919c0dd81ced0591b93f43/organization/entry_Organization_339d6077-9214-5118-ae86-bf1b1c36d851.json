@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "339d6077-9214-5118-ae86-bf1b1c36d851",
+    "name": "Swansea Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1f38b9d7-f3a5-5a62-8a93-fad019eb023f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174688501"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3214 N Illinois St"
+        ],
+        "city": "Swansea",
+        "state": "IL",
+        "postalCode": "62226-2330"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9559"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9559.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:339d6077-9214-5118-ae86-bf1b1c36d851"
+}

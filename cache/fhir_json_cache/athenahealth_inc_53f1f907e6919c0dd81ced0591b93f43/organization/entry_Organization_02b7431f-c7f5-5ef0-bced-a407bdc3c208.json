@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "02b7431f-c7f5-5ef0-bced-a407bdc3c208",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df0f5048-643b-5c02-a369-d77b9d25b9bb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922457647"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "808 SOUTH 52ND ST.",
+          "SUITE 201"
+        ],
+        "city": "ROGERS",
+        "state": "AR",
+        "postalCode": "72758-8602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14002"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14002.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:02b7431f-c7f5-5ef0-bced-a407bdc3c208"
+}

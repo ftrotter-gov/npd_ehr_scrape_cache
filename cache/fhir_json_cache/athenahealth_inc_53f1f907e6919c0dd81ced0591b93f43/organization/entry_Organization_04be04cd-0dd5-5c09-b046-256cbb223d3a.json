@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "04be04cd-0dd5-5c09-b046-256cbb223d3a",
+    "name": "Destiny Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f5bd0f66-29de-53fc-9be8-15a5fd1a129f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326631086"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 Plaza Dr.",
+          "Suite 160"
+        ],
+        "city": "FOLSOM",
+        "state": "CA",
+        "postalCode": "95630-4746"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23152"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23152.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:04be04cd-0dd5-5c09-b046-256cbb223d3a"
+}

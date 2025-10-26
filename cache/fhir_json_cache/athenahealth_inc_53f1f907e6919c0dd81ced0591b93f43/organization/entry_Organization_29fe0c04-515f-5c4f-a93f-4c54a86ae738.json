@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "29fe0c04-515f-5c4f-a93f-4c54a86ae738",
+    "name": "Cleveland Ibn Sina Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e4a5c06-0dbf-5014-9d3d-627c24fae7f7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234356789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6055 WEST 130TH STREET"
+        ],
+        "city": "CLEVELAND",
+        "state": "OH",
+        "postalCode": "44134-1041"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19291"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19291.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:29fe0c04-515f-5c4f-a93f-4c54a86ae738"
+}

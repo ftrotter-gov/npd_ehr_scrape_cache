@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "33947a4a-b109-4e65-bb34-276268f5a39a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "f818e59e-cc6c-4510-90b8-401f73a4ea96",
+        "name": "NPS Physicians PittsburghLLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "NPS Physicians PittsburghLLC",
+    "managingOrganization": {
+      "reference": "#f818e59e-cc6c-4510-90b8-401f73a4ea96"
+    },
+    "period": {
+      "start": "2018-09-25T09:51:58+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72674"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72674"
+}

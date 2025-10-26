@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "905dedc5-21be-5a79-af0f-e42959f60c85",
+    "name": "Evangelion Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/67a1e9fe-ff27-55be-a53c-3825e6a09d53"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316026396"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15 SMITH RD STE 3004"
+        ],
+        "city": "MIDLAND",
+        "state": "TX",
+        "postalCode": "79705-5423"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14748"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14748.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:905dedc5-21be-5a79-af0f-e42959f60c85"
+}

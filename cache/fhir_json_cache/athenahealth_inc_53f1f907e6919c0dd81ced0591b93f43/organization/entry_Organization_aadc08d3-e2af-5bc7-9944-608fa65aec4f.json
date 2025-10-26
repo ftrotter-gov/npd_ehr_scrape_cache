@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aadc08d3-e2af-5bc7-9944-608fa65aec4f",
+    "name": "Dr. Burton's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/996085cf-2167-5628-adaa-2644b2fd3926"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578666756"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2200 Southwest Fwy ste 333"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77098-4709"
+      },
+      {
+        "line": [
+          "2200 Southwest Fwy Ste 333"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77098-4709"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15725"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15725.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aadc08d3-e2af-5bc7-9944-608fa65aec4f"
+}

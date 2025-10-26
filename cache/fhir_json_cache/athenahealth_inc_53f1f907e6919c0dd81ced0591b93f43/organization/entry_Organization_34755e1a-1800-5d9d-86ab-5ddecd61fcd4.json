@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "34755e1a-1800-5d9d-86ab-5ddecd61fcd4",
+    "name": "PATIENT HOME",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff984da8-c888-5970-a490-b8ed813502bc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669838645"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "60 DUTCH HILL RD.SUITE 12, PREL PLAZA"
+        ],
+        "city": "NYACK",
+        "state": "NY",
+        "postalCode": "10960-1723"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14551"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14551.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:34755e1a-1800-5d9d-86ab-5ddecd61fcd4"
+}

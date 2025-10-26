@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3756d9b-8411-593e-a840-ce91c0242114",
+    "name": "Golden State Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/82649d14-0a7a-52aa-88ef-b83864ab4efc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205570181"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3150 G ST STE E"
+        ],
+        "city": "MERCED",
+        "state": "CA",
+        "postalCode": "95340-1346"
+      },
+      {
+        "line": [
+          "1110 DELBON AVE"
+        ],
+        "city": "TURLOCK",
+        "state": "CA",
+        "postalCode": "95382-2021"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28111"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28111.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3756d9b-8411-593e-a840-ce91c0242114"
+}

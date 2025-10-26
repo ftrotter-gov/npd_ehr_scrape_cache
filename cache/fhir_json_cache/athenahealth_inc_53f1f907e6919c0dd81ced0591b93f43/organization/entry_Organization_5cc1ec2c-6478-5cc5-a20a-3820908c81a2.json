@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5cc1ec2c-6478-5cc5-a20a-3820908c81a2",
+    "name": "Primary MD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f98fac1b-2dab-5e62-8876-f3741671d490"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588492045"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 S SAN MATEO DR STE 311"
+        ],
+        "city": "SAN MATEO",
+        "state": "CA",
+        "postalCode": "94401-3843"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31866"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31866.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5cc1ec2c-6478-5cc5-a20a-3820908c81a2"
+}

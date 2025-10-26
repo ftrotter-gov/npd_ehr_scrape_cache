@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "43a44a0d-08a9-5f0c-9738-1ec1c520a29c",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/59933eff-79f3-5277-b88c-8c07757be671"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285721639"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "185 MONTAGUE",
+          "4TH FLOOR"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11201-3608"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8264"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8264.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:43a44a0d-08a9-5f0c-9738-1ec1c520a29c"
+}

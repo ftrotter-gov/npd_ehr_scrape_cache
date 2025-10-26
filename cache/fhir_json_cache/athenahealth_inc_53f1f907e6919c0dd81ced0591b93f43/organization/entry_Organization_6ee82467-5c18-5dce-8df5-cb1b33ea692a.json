@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6ee82467-5c18-5dce-8df5-cb1b33ea692a",
+    "name": "Midland Memorial Hospital - IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2a5a306-1f26-5d9f-a1d3-80cffd1bd438"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386000180"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 ROSALIND REDFERN GROVER PARKWAY"
+        ],
+        "city": "MIDLAND",
+        "state": "TX",
+        "postalCode": "79701-5849"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12909"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12909.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6ee82467-5c18-5dce-8df5-cb1b33ea692a"
+}

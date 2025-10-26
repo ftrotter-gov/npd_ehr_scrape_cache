@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5b0e5660-63ad-5684-b22c-da5884f2275a",
+    "name": "METROWEST FREE MEDICAL PROGRAM",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6c7ec1c6-1a06-53b8-88e0-208ec94d9f71"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "246 MAPLE ST"
+        ],
+        "city": "MARLBOROUGH",
+        "state": "MA",
+        "postalCode": "01752-3235"
+      },
+      {
+        "line": [
+          "534 BOSTON POST RD"
+        ],
+        "city": "SUDBURY",
+        "state": "MA",
+        "postalCode": "01776-3508"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24697"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24697.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5b0e5660-63ad-5684-b22c-da5884f2275a"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "03d5cd41-9795-554e-80b6-471b4935ee25",
+    "name": "Highland Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6cbb8830-cc92-59aa-ae20-84378bf16191"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205655602"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 HARDING BLVD, STE 103"
+        ],
+        "city": "ROSEVILLE",
+        "state": "CA",
+        "postalCode": "95678-5921"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32133"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32133.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:03d5cd41-9795-554e-80b6-471b4935ee25"
+}

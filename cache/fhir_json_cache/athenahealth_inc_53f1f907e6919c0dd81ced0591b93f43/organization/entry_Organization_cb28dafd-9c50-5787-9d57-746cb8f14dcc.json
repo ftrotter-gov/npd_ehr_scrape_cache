@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cb28dafd-9c50-5787-9d57-746cb8f14dcc",
+    "name": "Alliance Community Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5d317b46-7632-5e25-b3dc-32f304c0e556"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689769572"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1761 Beall Avenue"
+        ],
+        "city": "WOOSTER",
+        "state": "OH",
+        "postalCode": "44691-2342"
+      },
+      {
+        "line": [
+          "200 E State Street"
+        ],
+        "city": "ALLIANCE",
+        "state": "OH",
+        "postalCode": "44601-4936"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22081"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22081.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cb28dafd-9c50-5787-9d57-746cb8f14dcc"
+}

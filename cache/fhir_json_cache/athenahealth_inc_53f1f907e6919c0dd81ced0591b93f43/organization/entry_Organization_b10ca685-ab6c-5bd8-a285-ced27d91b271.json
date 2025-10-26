@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b10ca685-ab6c-5bd8-a285-ced27d91b271",
+    "name": "Pain Roosevelt",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7cbf7c80-c603-5a5b-abcd-39651b8835e2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033359419"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7720 N Dobson Rd",
+          "Suite 200"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85009-3404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19479"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19479.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b10ca685-ab6c-5bd8-a285-ced27d91b271"
+}

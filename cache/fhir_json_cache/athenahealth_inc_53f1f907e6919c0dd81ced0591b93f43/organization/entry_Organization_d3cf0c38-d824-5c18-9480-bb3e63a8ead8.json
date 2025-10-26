@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d3cf0c38-d824-5c18-9480-bb3e63a8ead8",
+    "name": "Main Office of Dr. Gladney",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3032bb77-c589-50db-ae6e-d5c44867020d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134507007"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4224 Swiss Ave"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75204-6670"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12959"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12959.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d3cf0c38-d824-5c18-9480-bb3e63a8ead8"
+}

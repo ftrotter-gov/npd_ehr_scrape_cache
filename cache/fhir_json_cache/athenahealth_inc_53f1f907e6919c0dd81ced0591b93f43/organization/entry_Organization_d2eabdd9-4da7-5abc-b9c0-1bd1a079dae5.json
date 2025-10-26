@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d2eabdd9-4da7-5abc-b9c0-1bd1a079dae5",
+    "name": "APOGEE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4481850e-ec56-5052-a66d-69abb4552637"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962722793"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1238 WEST STREET"
+        ],
+        "city": "REDDING",
+        "state": "CA",
+        "postalCode": "96001-0415"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13538"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13538.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d2eabdd9-4da7-5abc-b9c0-1bd1a079dae5"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "be50b303-c874-572a-ad02-e65e9813e38d",
+    "name": "BHBBJ - X-rays",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d84ca98-0d0a-5e25-83be-66cf7a4510ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134249725"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1728 8th Street"
+        ],
+        "city": "CODY",
+        "state": "WY",
+        "postalCode": "82414-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10620"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10620.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:be50b303-c874-572a-ad02-e65e9813e38d"
+}

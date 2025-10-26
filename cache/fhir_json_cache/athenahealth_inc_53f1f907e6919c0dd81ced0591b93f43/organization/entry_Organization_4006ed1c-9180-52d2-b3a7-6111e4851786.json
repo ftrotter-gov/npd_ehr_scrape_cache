@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4006ed1c-9180-52d2-b3a7-6111e4851786",
+    "name": "Surgery Center of Silver Spring",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e2d5baa1-c40b-5a25-a7fd-a075001c0510"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962821819"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8710 Cameron St"
+        ],
+        "city": "SILVER SPRING",
+        "state": "MD",
+        "postalCode": "20910-3703"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16421"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16421.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4006ed1c-9180-52d2-b3a7-6111e4851786"
+}

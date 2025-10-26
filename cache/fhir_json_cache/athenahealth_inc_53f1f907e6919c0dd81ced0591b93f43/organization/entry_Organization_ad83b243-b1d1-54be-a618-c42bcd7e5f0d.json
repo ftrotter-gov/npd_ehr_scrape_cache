@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ad83b243-b1d1-54be-a618-c42bcd7e5f0d",
+    "name": "NWMC Bentonville Inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/38d03970-71f6-5121-a699-36b23d91ddfe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649210584"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3000 Medical Center Parkway"
+        ],
+        "city": "BENTONVILLE",
+        "state": "AR",
+        "postalCode": "72712-3217"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18403"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18403.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ad83b243-b1d1-54be-a618-c42bcd7e5f0d"
+}

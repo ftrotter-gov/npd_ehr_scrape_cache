@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e9442eed-c8dc-5ea4-a0a2-635edc89cdb1",
+    "name": "Care Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9bfe9a17-f086-5e35-a897-9015ebe853d2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689738338"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "202 S BYNUM ST"
+        ],
+        "city": "LUFKIN",
+        "state": "TX",
+        "postalCode": "75904-3913"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11715"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11715.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e9442eed-c8dc-5ea4-a0a2-635edc89cdb1"
+}

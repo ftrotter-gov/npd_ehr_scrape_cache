@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "039b29a8-645b-5d55-b351-7265ff9bb55c",
+    "name": "LaGrange Med Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/82f32a3d-e9d4-561a-b5bc-a02befc2b7b4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043318355"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "309 VERNON ST"
+        ],
+        "city": "LAGRANGE",
+        "state": "GA",
+        "postalCode": "30240-3162"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13107"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13107.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:039b29a8-645b-5d55-b351-7265ff9bb55c"
+}

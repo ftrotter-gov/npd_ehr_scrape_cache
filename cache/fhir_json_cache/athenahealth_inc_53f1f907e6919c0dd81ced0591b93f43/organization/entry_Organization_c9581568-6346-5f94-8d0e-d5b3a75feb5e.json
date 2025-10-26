@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c9581568-6346-5f94-8d0e-d5b3a75feb5e",
+    "name": "Bartow Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/57061913-18a2-5034-9b11-50deb4e5ff6f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598115933"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2200 Osprey Blvd"
+        ],
+        "city": "BARTOW",
+        "state": "FL",
+        "postalCode": "33830-3308"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13799"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13799.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c9581568-6346-5f94-8d0e-d5b3a75feb5e"
+}

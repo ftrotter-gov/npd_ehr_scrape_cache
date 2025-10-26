@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c7c7b36-afd1-5670-9760-68eb7627d9d0",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://acmh.org"
+      }
+    ],
+    "name": "Armstrong County Memorial Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://acmh.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "One Nolte Drive"
+        ],
+        "city": "Kittanning",
+        "state": "PA",
+        "postalCode": "16201",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:704e7577-3743-4d37-b9cc-ea9b6cf6aafe"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:704e7577-3743-4d37-b9cc-ea9b6cf6aafe"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c7c7b36-afd1-5670-9760-68eb7627d9d0"
+}

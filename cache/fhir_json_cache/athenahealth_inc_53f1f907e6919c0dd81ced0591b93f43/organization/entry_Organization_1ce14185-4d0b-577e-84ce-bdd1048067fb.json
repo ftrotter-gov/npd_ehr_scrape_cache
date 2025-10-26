@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ce14185-4d0b-577e-84ce-bdd1048067fb",
+    "name": "Dr. Fellner White Plains",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/345012b2-ee5c-5889-b2aa-83a62d1c5878"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316280282"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "34 S. Broadway",
+          "Ste. 504"
+        ],
+        "city": "WHITE PLAINS",
+        "state": "NY",
+        "postalCode": "10601-4429"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9908"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9908.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ce14185-4d0b-577e-84ce-bdd1048067fb"
+}

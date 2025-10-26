@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c1d7d4e9-7b79-561f-85d3-7cfef3cbd2a9",
+    "name": "The Practice at Westlake",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58d92b25-652d-5a83-8e7f-b50e1a1a4285"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003549767"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3003 BEE CAVES ROAD"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78746-5542"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27995"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27995.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c1d7d4e9-7b79-561f-85d3-7cfef3cbd2a9"
+}

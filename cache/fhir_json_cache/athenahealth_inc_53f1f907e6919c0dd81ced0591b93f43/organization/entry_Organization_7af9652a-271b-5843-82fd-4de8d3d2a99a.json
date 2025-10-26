@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7af9652a-271b-5843-82fd-4de8d3d2a99a",
+    "name": "Easton Hospital-OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/577a6350-c7e9-5e60-8e65-96c73cbcb4bb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801086251"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "250 S 21ST STREET"
+        ],
+        "city": "EASTON",
+        "state": "PA",
+        "postalCode": "18042-3851"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12865"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12865.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7af9652a-271b-5843-82fd-4de8d3d2a99a"
+}

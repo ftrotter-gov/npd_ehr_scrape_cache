@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cfb80712-da21-5ec6-9771-0d3c1ba30334",
+    "name": "Nova Patient Care - Old Town Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/80c80161-9ae6-5acc-89e9-f7ed35be5d46"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235497892"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "526 N. HENRY STREET"
+        ],
+        "city": "ALEXANDRIA",
+        "state": "VI",
+        "postalCode": "22314-2233"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19570"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19570.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cfb80712-da21-5ec6-9771-0d3c1ba30334"
+}

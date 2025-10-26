@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "44ef3450-cd6a-5673-85b1-4f49ca0c07fe",
+    "name": "Billing",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43c5ce60-bbe7-5b00-a38c-21637776b8b1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154965093"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4171 Camino Del Rio South"
+        ],
+        "city": "SAN DIEGO",
+        "state": "CA",
+        "postalCode": "92108-4014"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10718"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10718.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:44ef3450-cd6a-5673-85b1-4f49ca0c07fe"
+}

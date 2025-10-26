@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d9744051-bf44-509d-9b42-71a2846e6dfa",
+    "name": "ALLEN WOUND CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/19b3ab5d-28da-582b-8eaf-bf755d85f5d6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710064290"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1825 LOGAN AVE"
+        ],
+        "city": "WATERLOO",
+        "state": "IA",
+        "postalCode": "50703-1916"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27130"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27130.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d9744051-bf44-509d-9b42-71a2846e6dfa"
+}

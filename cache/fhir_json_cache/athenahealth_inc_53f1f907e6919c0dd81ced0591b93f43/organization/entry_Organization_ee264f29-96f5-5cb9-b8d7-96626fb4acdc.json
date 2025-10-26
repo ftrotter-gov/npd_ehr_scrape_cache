@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ee264f29-96f5-5cb9-b8d7-96626fb4acdc",
+    "name": "Blue Concierge Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d41c0a1a-4f93-5a25-bce5-49e2d861cf66"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659046498"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "700 Second Avenue North",
+          "Suite 305"
+        ],
+        "city": "NAPLES",
+        "state": "FL",
+        "postalCode": "34102-9999"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14267"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14267.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ee264f29-96f5-5cb9-b8d7-96626fb4acdc"
+}

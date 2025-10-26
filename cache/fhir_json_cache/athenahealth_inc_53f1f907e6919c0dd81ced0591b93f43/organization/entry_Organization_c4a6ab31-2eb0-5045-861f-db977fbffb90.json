@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c4a6ab31-2eb0-5045-861f-db977fbffb90",
+    "name": "2me Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d15eadb2-acad-55df-8787-d66b9ef04123"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467910828"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1300 Upper Hembree Rd",
+          "Building 100 Suite C"
+        ],
+        "city": "ROSWELL",
+        "state": "GA",
+        "postalCode": "30076-0927"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19309"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19309.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c4a6ab31-2eb0-5045-861f-db977fbffb90"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "096b3cea-9fd3-5327-ab1b-92889dda094a",
+    "name": "Health Partners Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2027e435-b6e1-5ef8-90fd-223281757b64"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1300 N. COUNTY ROAD 25A"
+        ],
+        "city": "TROY",
+        "state": "OH",
+        "postalCode": "45373-1359"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24696"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24696.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:096b3cea-9fd3-5327-ab1b-92889dda094a"
+}

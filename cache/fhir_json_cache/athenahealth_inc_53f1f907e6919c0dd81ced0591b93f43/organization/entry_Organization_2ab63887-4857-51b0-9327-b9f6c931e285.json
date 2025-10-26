@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2ab63887-4857-51b0-9327-b9f6c931e285",
+    "name": "Boston Allergy Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c3011018-0d59-5080-a29c-12fd1d25ebe7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194346692"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "358 ELM STREET"
+        ],
+        "city": "GARDNER",
+        "state": "MA",
+        "postalCode": "01440-3933"
+      },
+      {
+        "line": [
+          "50 UNION STREET"
+        ],
+        "city": "NEWTON CENTER",
+        "state": "MA",
+        "postalCode": "02459-2223"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21512"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21512.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2ab63887-4857-51b0-9327-b9f6c931e285"
+}

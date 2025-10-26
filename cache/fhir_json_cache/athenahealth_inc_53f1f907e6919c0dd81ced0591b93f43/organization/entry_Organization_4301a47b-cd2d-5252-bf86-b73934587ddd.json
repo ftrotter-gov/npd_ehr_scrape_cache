@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4301a47b-cd2d-5252-bf86-b73934587ddd",
+    "name": "Vista Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a6b028cd-adfc-559e-8d32-f600eb5e3150"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548820137"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1324 N. Sheridan Rd."
+        ],
+        "city": "WAUKEGAN",
+        "state": "IL",
+        "postalCode": "60085-2161"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20105"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20105.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4301a47b-cd2d-5252-bf86-b73934587ddd"
+}

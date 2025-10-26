@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f22cc89d-3107-5556-9ac5-21426581805e",
+    "name": "Valhalla Post-Acute Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2e342995-c7b8-53d2-96ba-6bd22e2a2c4f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871508614"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922337617"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 Shelby Station Rd."
+        ],
+        "city": "LOUISVILLE",
+        "state": "KY",
+        "postalCode": "40245-4186"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8360"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8360.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f22cc89d-3107-5556-9ac5-21426581805e"
+}

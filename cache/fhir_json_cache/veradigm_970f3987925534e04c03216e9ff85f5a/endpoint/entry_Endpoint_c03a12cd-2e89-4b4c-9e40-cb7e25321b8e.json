@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "c03a12cd-2e89-4b4c-9e40-cb7e25321b8e",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "ee1c5d2e-24e2-45b1-9267-ab4819e7bc6c",
+        "name": "Gyn Fertility Specialists"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Gyn Fertility Specialists",
+    "managingOrganization": {
+      "reference": "#ee1c5d2e-24e2-45b1-9267-ab4819e7bc6c"
+    },
+    "period": {
+      "start": "2018-08-10T06:48:04+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/58015"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/58015"
+}

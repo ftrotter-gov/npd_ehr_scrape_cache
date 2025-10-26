@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d59e0a1c-3e73-5db6-8678-b5c473af40b5",
+    "name": "AriaMed Salinas",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b52ebd86-b2ee-5337-8bdc-99f953f73aab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538748322"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "515 Alameda Ave Suite D"
+        ],
+        "city": "SALINAS",
+        "state": "CA",
+        "postalCode": "93901-4024"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5713"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5713.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d59e0a1c-3e73-5db6-8678-b5c473af40b5"
+}

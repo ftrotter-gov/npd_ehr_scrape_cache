@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "de6db560-bed2-5d69-80c2-0a9310668c6b",
+    "name": "ER IU Health Saxony Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a31ce1b8-cb23-576b-b008-0cc3e8d5a693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871222422"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1701 N SENATE BLVD"
+        ],
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "postalCode": "46202-1239"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22724"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22724.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:de6db560-bed2-5d69-80c2-0a9310668c6b"
+}

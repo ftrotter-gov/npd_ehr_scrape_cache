@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c6fb12cf-f2ed-5c4a-8133-fca159f002f1",
+    "name": "Milwaukie Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/100d38fb-0ddb-5d7a-be6e-e23c6050b3f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417217894"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2305 SE Washington st"
+        ],
+        "city": "MILWAUKIE",
+        "state": "OR",
+        "postalCode": "97222-7647"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7480"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7480.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c6fb12cf-f2ed-5c4a-8133-fca159f002f1"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f9bf0885-e773-5974-8895-625e26d5115c",
+    "name": "Dr. Amis",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/24e24818-0873-51ee-981c-dec8bd802a42"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801274196"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3901 MEDICAL PARKWAY SUITE 301"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78756-4022"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11179"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11179.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f9bf0885-e773-5974-8895-625e26d5115c"
+}

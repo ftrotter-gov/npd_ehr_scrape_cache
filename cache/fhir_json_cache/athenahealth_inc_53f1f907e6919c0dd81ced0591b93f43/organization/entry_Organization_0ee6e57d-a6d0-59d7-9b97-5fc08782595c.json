@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0ee6e57d-a6d0-59d7-9b97-5fc08782595c",
+    "name": "Hospital, Generic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b4cd8a32-06f2-545a-94d1-c1ab4c19a4f5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013973973"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10 WINTHROP STREET"
+        ],
+        "postalCode": "01604-4435"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1204"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1204.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0ee6e57d-a6d0-59d7-9b97-5fc08782595c"
+}

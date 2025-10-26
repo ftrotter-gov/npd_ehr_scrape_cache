@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a74e6d22-b8dc-455b-9e0e-8243da9bca31",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e1ae7c71-4f08-487d-95f1-f56bf19a4396",
+        "name": "PainCare PA"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "PainCare PA",
+    "managingOrganization": {
+      "reference": "#e1ae7c71-4f08-487d-95f1-f56bf19a4396"
+    },
+    "period": {
+      "start": "2018-09-24T19:02:32+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10066099"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10066099"
+}

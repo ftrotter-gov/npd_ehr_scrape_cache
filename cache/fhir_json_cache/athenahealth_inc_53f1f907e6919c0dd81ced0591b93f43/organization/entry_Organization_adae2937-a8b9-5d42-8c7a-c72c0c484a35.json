@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "adae2937-a8b9-5d42-8c7a-c72c0c484a35",
+    "name": "Riverside Village Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff254f99-aba4-5294-a7e3-b39759779d1c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972009470"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1406 MCGAVOCK PK STE B"
+        ],
+        "city": "NASHVILLE",
+        "state": "TN",
+        "postalCode": "37216-3233"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27697"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27697.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:adae2937-a8b9-5d42-8c7a-c72c0c484a35"
+}

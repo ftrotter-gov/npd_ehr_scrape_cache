@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "beba2c15-5c86-5c94-83a8-48778921b89c",
+    "name": "HEALTHPLEX OFFICE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/78ed5267-9ea4-53ae-a092-f2ea06841b98"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073604971"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6355 WALKER LANE",
+          "SUITE 307"
+        ],
+        "city": "ALEXANDRIA",
+        "state": "VA",
+        "postalCode": "22310-3247"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19140"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19140.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:beba2c15-5c86-5c94-83a8-48778921b89c"
+}

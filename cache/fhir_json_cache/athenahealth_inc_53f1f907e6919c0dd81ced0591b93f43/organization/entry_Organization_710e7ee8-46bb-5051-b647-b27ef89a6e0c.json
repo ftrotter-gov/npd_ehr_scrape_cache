@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "710e7ee8-46bb-5051-b647-b27ef89a6e0c",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e534ee9c-df10-5760-976b-b03ad93f3973"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922184837"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "130 S UNION ST STE 7"
+        ],
+        "city": "OLEAN",
+        "state": "NY",
+        "postalCode": "14760-3676"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14452"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14452.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:710e7ee8-46bb-5051-b647-b27ef89a6e0c"
+}

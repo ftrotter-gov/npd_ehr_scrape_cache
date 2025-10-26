@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "28062f1f-e4a7-50d8-94f5-7b3a582ba702",
+    "name": "Edison",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dc65fd40-4c15-5020-950c-b8dd49de361e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235733833"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2 Lincoln Highway",
+          "Suite 507"
+        ],
+        "city": "EDISON",
+        "state": "NJ",
+        "postalCode": "08820-3961"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22906"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22906.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:28062f1f-e4a7-50d8-94f5-7b3a582ba702"
+}

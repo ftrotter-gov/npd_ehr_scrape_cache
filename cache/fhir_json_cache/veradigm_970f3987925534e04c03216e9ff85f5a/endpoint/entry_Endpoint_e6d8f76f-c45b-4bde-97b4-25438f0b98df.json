@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e6d8f76f-c45b-4bde-97b4-25438f0b98df",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "32fe292d-cfb5-44e1-8e5c-948aea64702d",
+        "name": "SAPC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "SAPC",
+    "managingOrganization": {
+      "reference": "#32fe292d-cfb5-44e1-8e5c-948aea64702d"
+    },
+    "period": {
+      "start": "2018-09-20T06:10:18+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10078825"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10078825"
+}

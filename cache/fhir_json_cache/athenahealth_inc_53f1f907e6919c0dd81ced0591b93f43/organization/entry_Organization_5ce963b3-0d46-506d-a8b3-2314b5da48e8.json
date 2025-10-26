@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5ce963b3-0d46-506d-a8b3-2314b5da48e8",
+    "name": "Merit Health Central",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/428687b8-098c-54df-9020-adfa23ca8595"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801128798"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1850 Chadwick Dr"
+        ],
+        "city": "JACKSON",
+        "state": "MS",
+        "postalCode": "39204-3404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-7"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5ce963b3-0d46-506d-a8b3-2314b5da48e8"
+}

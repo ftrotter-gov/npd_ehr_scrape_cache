@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f73081fa-99e6-54b7-86bf-3c423061936f",
+    "name": "AT&T Burbank In Treatment",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26fd2add-3bd2-506b-bed1-392394be4e50"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689931446"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Bluegrass Commons Blvd",
+          "Suite 2200"
+        ],
+        "city": "HENDERSONVILLE",
+        "state": "TN",
+        "postalCode": "37075-2739"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3908"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3908.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f73081fa-99e6-54b7-86bf-3c423061936f"
+}

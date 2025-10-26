@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "963d4226-c951-52f5-a5d0-816e7c2df81b",
+    "name": "Ponce City Dialysis",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0b050f87-93d9-5ac6-9700-27d5cf00aeed"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992756894"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "567 North Avenue, Suite 100"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30308-2721"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16547"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16547.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:963d4226-c951-52f5-a5d0-816e7c2df81b"
+}

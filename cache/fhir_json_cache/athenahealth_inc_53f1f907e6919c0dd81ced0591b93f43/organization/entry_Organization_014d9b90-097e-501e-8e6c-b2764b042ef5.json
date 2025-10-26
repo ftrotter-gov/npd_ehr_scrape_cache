@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "014d9b90-097e-501e-8e6c-b2764b042ef5",
+    "name": "Patient Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3a9e8daa-fb3c-53e5-824d-e4cbda84ccd0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710422373"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "109 ANDREW AVE",
+          "SUITE 203"
+        ],
+        "city": "WAYLAND",
+        "state": "MA",
+        "postalCode": "01778-3157"
+      },
+      {
+        "line": [
+          "109 Andrew Ave",
+          "Suite 203"
+        ],
+        "city": "WAYLAND",
+        "state": "MA",
+        "postalCode": "01778-3157"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15596"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15596.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:014d9b90-097e-501e-8e6c-b2764b042ef5"
+}

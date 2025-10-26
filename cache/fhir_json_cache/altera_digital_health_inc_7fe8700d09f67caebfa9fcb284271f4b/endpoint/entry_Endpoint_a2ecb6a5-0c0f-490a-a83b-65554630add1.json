@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a2ecb6a5-0c0f-490a-a83b-65554630add1",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2e7ccc21-3ce7-4136-81f0-0b0917aaa021",
+        "name": "South Nassau Communities Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "South Nassau Communities Hospital",
+    "managingOrganization": {
+      "reference": "#2e7ccc21-3ce7-4136-81f0-0b0917aaa021"
+    },
+    "period": {
+      "start": "2019-03-08T16:43:55+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhirprod.snch.org/open"
+  },
+  "fullUrl": "https://fhirprod.snch.org/open"
+}

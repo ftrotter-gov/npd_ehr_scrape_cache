@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0d87599b-68d2-59fb-a43c-79aa0a4c711f",
+    "name": "Apple Valley Convalescent Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b3149db0-3efe-58de-8129-7c5e30c0235f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184708968"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "05D0726228"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1035 Gravenstein Hwy S."
+        ],
+        "city": "SEBASTOPOL",
+        "state": "CA",
+        "postalCode": "95472-4538"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-165"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-165.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0d87599b-68d2-59fb-a43c-79aa0a4c711f"
+}

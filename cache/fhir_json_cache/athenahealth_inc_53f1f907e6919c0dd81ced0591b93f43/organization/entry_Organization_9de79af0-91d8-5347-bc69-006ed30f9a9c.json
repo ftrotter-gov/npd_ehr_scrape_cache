@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9de79af0-91d8-5347-bc69-006ed30f9a9c",
+    "name": "StoneSprings Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e50cafd7-17fd-5892-956c-ffea5917c846"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295174803"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "24440 Stone Springs Blvd"
+        ],
+        "city": "STERLING",
+        "state": "VA",
+        "postalCode": "20166-2247"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10651"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10651.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9de79af0-91d8-5347-bc69-006ed30f9a9c"
+}

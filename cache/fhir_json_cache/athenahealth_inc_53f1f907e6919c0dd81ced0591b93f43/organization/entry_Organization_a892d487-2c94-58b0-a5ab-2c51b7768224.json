@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a892d487-2c94-58b0-a5ab-2c51b7768224",
+    "name": "Texas Oncology- Surgical Specialist",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fc2537c5-c5c2-56d6-aaa3-ed4e105c7a30"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689743973"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3410 WORTH STREET STE 160"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75246-2003"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1405"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1405.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a892d487-2c94-58b0-a5ab-2c51b7768224"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8affacc4-6ccf-56b0-a953-2496b439728e",
+    "name": "Caton Family Physician Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d822857-4d7f-5016-8c78-74d9413dea50"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508439761"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8121 MADISON BOULEVARD",
+          "SUITE 101-A"
+        ],
+        "city": "MADISON",
+        "state": "AL",
+        "postalCode": "35758-2080"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23788"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23788.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8affacc4-6ccf-56b0-a953-2496b439728e"
+}

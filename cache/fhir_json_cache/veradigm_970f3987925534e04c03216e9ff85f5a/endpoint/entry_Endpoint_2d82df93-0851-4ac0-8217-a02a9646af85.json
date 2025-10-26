@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2d82df93-0851-4ac0-8217-a02a9646af85",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e0a1aa23-6396-41c5-83bf-5fb82d54bc00",
+        "name": "Breast Care Specialists, Llc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Breast Care Specialists, Llc",
+    "managingOrganization": {
+      "reference": "#e0a1aa23-6396-41c5-83bf-5fb82d54bc00"
+    },
+    "period": {
+      "start": "2019-03-14T14:12:17+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10008998"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10008998"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "50f57fce-096e-5fc3-9fea-6b44b3933e56",
+    "name": "Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a4c952ef-cb1e-583d-857f-75ac62020653"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740367275"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1425 Woodside Dr"
+        ],
+        "city": "SAN LUIS OBISPO",
+        "state": "CA",
+        "postalCode": "93401-5936"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13335"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13335.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:50f57fce-096e-5fc3-9fea-6b44b3933e56"
+}

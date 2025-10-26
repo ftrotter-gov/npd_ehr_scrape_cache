@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3bb70dd6-bf72-5f27-ad20-9187f54d0fc4",
+    "name": "SSS St. Mary Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9fcf85df-eda0-5697-82ce-4118b241487a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629825294"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2222 W. Division St,",
+          "Suite 230"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60622-2989"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32382"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32382.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3bb70dd6-bf72-5f27-ad20-9187f54d0fc4"
+}

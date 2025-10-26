@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cb684182-7ab4-5794-b008-ab95fa809cbd",
+    "name": "One Tent Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/675c61f9-e874-5fd1-a084-137fa47d3bc1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1440 G STREET NW"
+        ],
+        "city": "WASHINGTON",
+        "state": "DC",
+        "postalCode": "20005-2001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18801"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18801.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cb684182-7ab4-5794-b008-ab95fa809cbd"
+}

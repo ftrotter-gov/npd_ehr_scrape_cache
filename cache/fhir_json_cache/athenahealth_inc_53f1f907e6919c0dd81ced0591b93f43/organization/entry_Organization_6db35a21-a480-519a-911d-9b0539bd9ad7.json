@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6db35a21-a480-519a-911d-9b0539bd9ad7",
+    "name": "CWH_Surgery schedule",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ad8e9439-d47b-5a37-b871-d25dd3574873"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972515799"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1040 NW 22nd Ave"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97210-3157"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5500"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5500.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6db35a21-a480-519a-911d-9b0539bd9ad7"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "64a33dc6-2e62-59a0-ac89-d3959346153c",
+    "name": "Piedmont Medical Center Psych",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e0c6c9be-e90f-597c-b842-7f8f247e7521"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194277186"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "222 S Herlong Ave"
+        ],
+        "city": "ROCK HILL",
+        "state": "SC",
+        "postalCode": "29732-1158"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14929"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14929.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:64a33dc6-2e62-59a0-ac89-d3959346153c"
+}

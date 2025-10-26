@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "b9867b0f-fa4a-4fca-833a-b07fcae945eb",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "f169284a-8620-404e-be26-c978ac2a9319",
+        "name": "Optimal Health Associates"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Optimal Health Associates",
+    "managingOrganization": {
+      "reference": "#f169284a-8620-404e-be26-c978ac2a9319"
+    },
+    "period": {
+      "start": "2018-09-28T21:26:07+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10046172"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10046172"
+}

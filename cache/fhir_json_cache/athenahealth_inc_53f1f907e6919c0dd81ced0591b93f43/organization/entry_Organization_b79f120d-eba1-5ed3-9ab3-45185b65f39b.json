@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b79f120d-eba1-5ed3-9ab3-45185b65f39b",
+    "name": "Montana Headache Clinic, PLLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/64ae6c84-9e6c-582c-85bd-4e391400579b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982463147"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2831 FORT MISSOULA RD",
+          "STE 204"
+        ],
+        "city": "MISSOULA",
+        "state": "MT",
+        "postalCode": "59804-7419"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2827"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2827.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b79f120d-eba1-5ed3-9ab3-45185b65f39b"
+}

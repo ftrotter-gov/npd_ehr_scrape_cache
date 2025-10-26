@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2e82ffb5-b931-5ff5-a471-c79aeae52b49",
+    "name": "Brookwood Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cb6bef9f-bd1e-5e17-b34b-d2e42a0b877b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750577706"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2010 Brookwood Medical Center Dr"
+        ],
+        "city": "BIRMINGHAM",
+        "state": "AL",
+        "postalCode": "35209-8604"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1353"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1353.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2e82ffb5-b931-5ff5-a471-c79aeae52b49"
+}

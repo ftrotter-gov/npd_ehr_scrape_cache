@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6de57f0d-d964-5f82-8bff-26f51c06a58f",
+    "name": "NOVANT ID",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9f7744f0-6456-508a-b0ec-acc1029f3e3c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 RANDOLPH RD",
+          "SUITE 216"
+        ],
+        "city": "CHARLOTTE",
+        "state": "NC",
+        "postalCode": "28207-1106"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14698"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14698.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6de57f0d-d964-5f82-8bff-26f51c06a58f"
+}

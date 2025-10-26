@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d7881978-51dd-5fc0-8246-abdf6af9cc1d",
+    "name": "Continuum Healthcare Providers",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a29046c9-4280-5b47-9534-8597ceca2625"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609342708"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5008 SR 64 E"
+        ],
+        "city": "BRADENTON",
+        "state": "FL",
+        "postalCode": "34208-5522"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21347"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21347.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d7881978-51dd-5fc0-8246-abdf6af9cc1d"
+}

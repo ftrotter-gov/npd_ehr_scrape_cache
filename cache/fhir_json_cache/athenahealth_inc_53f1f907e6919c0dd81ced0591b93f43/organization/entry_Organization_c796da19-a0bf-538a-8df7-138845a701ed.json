@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c796da19-a0bf-538a-8df7-138845a701ed",
+    "name": "NCRH OUTPATIENT CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b71d54cc-a0c4-551e-9537-afec5dbf2bb9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356782270"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4401 UNION ST"
+        ],
+        "city": "JOHNSTOWN",
+        "state": "CO",
+        "postalCode": "80534-2800"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7782"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7782.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c796da19-a0bf-538a-8df7-138845a701ed"
+}

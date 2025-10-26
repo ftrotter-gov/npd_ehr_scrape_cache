@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c0a70763-731b-5623-9aba-7a9b728471b8",
+    "name": "Einstein SURGERY CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/691e1d4d-75f9-51fa-9bd5-a1cf332b28ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932143492"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "609 West Germantown Pike",
+          "Suite 100"
+        ],
+        "city": "East Norriton",
+        "state": "PA",
+        "postalCode": "19403-4243"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9306"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9306.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c0a70763-731b-5623-9aba-7a9b728471b8"
+}

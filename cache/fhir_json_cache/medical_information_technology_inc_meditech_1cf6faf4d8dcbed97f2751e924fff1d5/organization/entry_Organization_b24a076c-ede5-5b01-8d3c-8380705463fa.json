@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b24a076c-ede5-5b01-8d3c-8380705463fa",
+    "meta": {
+      "lastUpdated": "2022-05-05T23:15:32.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://southwoodshealth.com/surgical-hospital"
+      }
+    ],
+    "name": "Surgical Hospital at Southwoods",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://southwoodshealth.com/surgical-hospital"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7630 Southern Blvd"
+        ],
+        "city": "Boardman",
+        "state": "OH",
+        "postalCode": "44512",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:92f33665-40a5-5da6-9f3d-c42acc53a39f"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:92f33665-40a5-5da6-9f3d-c42acc53a39f"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b24a076c-ede5-5b01-8d3c-8380705463fa"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5e158ea4-ee1c-5fbf-a35e-a7525acf6911",
+    "name": "Frisco Quick Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/94c1ebd1-28df-5beb-af85-25cd2791c552"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154913572"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8845 GARY BURNS DR STE 180"
+        ],
+        "city": "FRISCO",
+        "state": "TX",
+        "postalCode": "75034-2548"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27433"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27433.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5e158ea4-ee1c-5fbf-a35e-a7525acf6911"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c8ce33d4-701b-56a7-8fac-b14482f4202a",
+    "name": "Headspace",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/36802c14-8e58-5606-bb43-f41110ee65cd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598705535"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "30 Maryland Plaza",
+          "3rd Floor"
+        ],
+        "city": "SAINT LOUIS",
+        "state": "MO",
+        "postalCode": "63108-1556"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14241"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14241.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c8ce33d4-701b-56a7-8fac-b14482f4202a"
+}

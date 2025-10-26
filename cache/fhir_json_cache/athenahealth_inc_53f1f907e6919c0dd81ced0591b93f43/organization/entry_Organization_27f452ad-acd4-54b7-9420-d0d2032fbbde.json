@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "27f452ad-acd4-54b7-9420-d0d2032fbbde",
+    "name": "ICARE Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/41adc0e8-b2f7-5cc8-8457-864f5c7fc3f3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700519444"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2150 ASSOCIATION DRIVE"
+        ],
+        "city": "OKEMOS",
+        "state": "MI",
+        "postalCode": "48864-6039"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27137"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27137.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:27f452ad-acd4-54b7-9420-d0d2032fbbde"
+}

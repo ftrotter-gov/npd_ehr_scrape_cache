@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7e1318a8-3aa5-5e13-8b33-4bff9ba56675",
+    "name": "HOME VISIT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dffbd2c1-f9a4-5259-8d85-35f67635d466"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669653242"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4500 EAST 9TH AVENUE",
+          "SUITE 170"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80220-3911"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1411"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1411.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7e1318a8-3aa5-5e13-8b33-4bff9ba56675"
+}

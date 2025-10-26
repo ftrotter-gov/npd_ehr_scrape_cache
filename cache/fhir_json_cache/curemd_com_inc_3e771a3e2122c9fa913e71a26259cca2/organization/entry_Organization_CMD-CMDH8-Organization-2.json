@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDH8-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDH8"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Anthony P. Chappie, D.C.",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4129213333"
+      },
+      {
+        "system": "fax",
+        "value": "4129213725"
+      },
+      {
+        "system": "email",
+        "value": "ginadchappie@comcast.net"
+      },
+      {
+        "system": "url",
+        "value": "www.greentreechiropractic.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "993 Greentree Road 1st Floor Pittsburgh PA 15220 US",
+        "line": [
+          "993 Greentree Road",
+          "1st Floor"
+        ],
+        "city": "Pittsburgh",
+        "state": "PA",
+        "postalCode": "15220",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDH8-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDH8-Organization-2"
+}

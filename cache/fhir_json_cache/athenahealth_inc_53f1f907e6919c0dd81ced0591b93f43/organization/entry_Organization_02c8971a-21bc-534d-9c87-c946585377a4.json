@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "02c8971a-21bc-534d-9c87-c946585377a4",
+    "name": "Exceed Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5b98489e-ca15-5e3a-869c-2f22657feb1d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780277731"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3725 Mall Drive"
+        ],
+        "city": "TEXARKANA",
+        "state": "TX",
+        "postalCode": "75501-2658"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6966"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6966.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:02c8971a-21bc-534d-9c87-c946585377a4"
+}

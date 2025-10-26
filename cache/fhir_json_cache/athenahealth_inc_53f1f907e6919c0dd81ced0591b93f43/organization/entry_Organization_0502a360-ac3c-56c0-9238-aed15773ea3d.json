@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0502a360-ac3c-56c0-9238-aed15773ea3d",
+    "name": "Village Medical - Ewing Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/22ad8ecd-16d8-517d-9c5e-c404eef4fd09"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861555294"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "25 Scotch Rd",
+          "Suite 29"
+        ],
+        "city": "EWING",
+        "state": "NJ",
+        "postalCode": "08628-2500"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21654"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21654.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0502a360-ac3c-56c0-9238-aed15773ea3d"
+}

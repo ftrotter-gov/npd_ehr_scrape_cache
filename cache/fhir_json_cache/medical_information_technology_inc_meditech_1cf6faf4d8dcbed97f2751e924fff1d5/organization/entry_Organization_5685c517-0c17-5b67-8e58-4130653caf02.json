@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5685c517-0c17-5b67-8e58-4130653caf02",
+    "meta": {
+      "lastUpdated": "2023-05-01T15:02:17.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://berkshirehealthsystems.org"
+      }
+    ],
+    "name": "Berkshire Health Systems, Inc.",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://berkshirehealthsystems.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "725 North Street"
+        ],
+        "city": "Pittsfield",
+        "state": "MA",
+        "postalCode": "01201",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:d51bf064-7c64-4c49-b544-4523bcdb33be"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:d51bf064-7c64-4c49-b544-4523bcdb33be"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5685c517-0c17-5b67-8e58-4130653caf02"
+}

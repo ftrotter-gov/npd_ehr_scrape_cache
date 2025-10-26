@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9805f4bc-f8af-5eeb-8a55-138c24255b66",
+    "name": "Whitfield Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a55f13b7-abcf-5a26-89e9-536276dc2137"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851395842"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1714 Cleveland Highway"
+        ],
+        "city": "DALTON",
+        "state": "GA",
+        "postalCode": "30721-8313"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5604"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5604.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9805f4bc-f8af-5eeb-8a55-138c24255b66"
+}

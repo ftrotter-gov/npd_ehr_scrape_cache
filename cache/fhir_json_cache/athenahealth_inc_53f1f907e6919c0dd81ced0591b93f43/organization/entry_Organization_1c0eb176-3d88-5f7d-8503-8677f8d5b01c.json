@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c0eb176-3d88-5f7d-8503-8677f8d5b01c",
+    "name": "Frederick Living Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6520657b-f243-5008-8ae6-60ebf26ca9f6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750805552"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891866182"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2849 Big Rd"
+        ],
+        "city": "FREDERICK",
+        "state": "PA",
+        "postalCode": "19435-8999"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1606"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1606.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c0eb176-3d88-5f7d-8503-8677f8d5b01c"
+}

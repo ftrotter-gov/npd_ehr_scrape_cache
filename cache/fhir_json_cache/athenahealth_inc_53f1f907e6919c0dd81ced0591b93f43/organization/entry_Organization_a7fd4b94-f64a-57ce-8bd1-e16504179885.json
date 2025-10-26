@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a7fd4b94-f64a-57ce-8bd1-e16504179885",
+    "name": "MRI Fayetteville",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d12972f8-090e-56cb-a0e8-c641f12f3d61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386697928"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1336 Highway 54W",
+          "Bldg 500"
+        ],
+        "city": "FAYETTEVILLE",
+        "state": "GA",
+        "postalCode": "30214-4574"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15749"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15749.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a7fd4b94-f64a-57ce-8bd1-e16504179885"
+}

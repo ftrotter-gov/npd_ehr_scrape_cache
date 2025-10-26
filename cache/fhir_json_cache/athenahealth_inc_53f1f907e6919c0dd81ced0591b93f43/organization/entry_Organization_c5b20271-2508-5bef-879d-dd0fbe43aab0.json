@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5b20271-2508-5bef-879d-dd0fbe43aab0",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7fa6894f-27e6-59c4-8d55-fbb806aa31ec"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437157583"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4 PRINCESS RD STE 210"
+        ],
+        "city": "LAWRENCE TOWNSHIP",
+        "state": "NJ",
+        "postalCode": "08648-2322"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14230"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14230.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5b20271-2508-5bef-879d-dd0fbe43aab0"
+}

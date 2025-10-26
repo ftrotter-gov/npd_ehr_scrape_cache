@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b461e730-9e21-5608-84b4-db595982e2e7",
+    "name": "Solara",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5aaac7c6-51d6-5e76-a7cc-765ce3b9c11d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184858375"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "37D2008024"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "351 S 40th Street"
+        ],
+        "city": "MUSKOGEE",
+        "state": "OK",
+        "postalCode": "74401-4916"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2065"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2065.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b461e730-9e21-5608-84b4-db595982e2e7"
+}

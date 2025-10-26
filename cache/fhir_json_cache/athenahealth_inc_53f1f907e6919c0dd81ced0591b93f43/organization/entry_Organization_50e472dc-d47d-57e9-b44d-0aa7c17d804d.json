@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "50e472dc-d47d-57e9-b44d-0aa7c17d804d",
+    "name": "ST MICHAELS MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/198fc45d-1060-56a2-b1cf-8fb022f7795f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336313113"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 CENTRAL AVENUE"
+        ],
+        "city": "NEWARK",
+        "state": "NJ",
+        "postalCode": "07102-1909"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3751"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3751.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:50e472dc-d47d-57e9-b44d-0aa7c17d804d"
+}

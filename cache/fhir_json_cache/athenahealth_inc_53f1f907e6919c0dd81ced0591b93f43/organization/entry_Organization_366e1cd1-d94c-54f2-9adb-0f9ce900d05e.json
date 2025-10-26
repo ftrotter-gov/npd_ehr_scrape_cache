@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "366e1cd1-d94c-54f2-9adb-0f9ce900d05e",
+    "name": "Winchester Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/05bb4116-d53f-51f4-acfb-6a948f7e6543"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184606865"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "41 Highland Ave"
+        ],
+        "city": "WINCHESTER",
+        "state": "MA",
+        "postalCode": "01890-1446"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-391.Brand-11"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:366e1cd1-d94c-54f2-9adb-0f9ce900d05e"
+}

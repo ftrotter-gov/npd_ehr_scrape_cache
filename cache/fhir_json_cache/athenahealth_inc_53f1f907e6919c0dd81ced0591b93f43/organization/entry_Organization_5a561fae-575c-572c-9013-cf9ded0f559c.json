@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5a561fae-575c-572c-9013-cf9ded0f559c",
+    "name": "St Mary Rehabilitation Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/180a9f68-d30b-53b9-b668-7f70d74ca215"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386783603"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1208 Langhonre-Newtown Rd"
+        ],
+        "city": "LANGHORNE",
+        "state": "PA",
+        "postalCode": "19047-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1620"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1620.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5a561fae-575c-572c-9013-cf9ded0f559c"
+}

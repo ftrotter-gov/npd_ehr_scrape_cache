@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c09192bc-7a8b-52b1-85ce-fb9cf9cd79f2",
+    "name": "Mansilla Medical Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cb158826-d8fe-5dac-8ed4-9465813fc6b2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316143860"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "360 BROWNS HILL CT"
+        ],
+        "city": "MIDLOTHIAN",
+        "state": "VA",
+        "postalCode": "23114-9500"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21587"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21587.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c09192bc-7a8b-52b1-85ce-fb9cf9cd79f2"
+}

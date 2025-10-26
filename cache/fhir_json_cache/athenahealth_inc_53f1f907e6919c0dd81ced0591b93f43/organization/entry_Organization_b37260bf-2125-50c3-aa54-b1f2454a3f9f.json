@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b37260bf-2125-50c3-aa54-b1f2454a3f9f",
+    "name": "Jal Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4605752b-8124-5c98-a10b-1e00591fa976"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558583005"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "805 W KANSAS AVE"
+        ],
+        "city": "JAL",
+        "state": "NM",
+        "postalCode": "88252-2525"
+      },
+      {
+        "line": [
+          "123 Main Street"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-1020"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27277"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27277.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b37260bf-2125-50c3-aa54-b1f2454a3f9f"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "29daadb1-93df-4c52-b797-bb74d59aa2b8",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "8cd7b2fe-c335-44b1-82ef-65deea53d57e",
+        "name": "Premier WomenS Health Assoc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Premier WomenS Health Assoc",
+    "managingOrganization": {
+      "reference": "#8cd7b2fe-c335-44b1-82ef-65deea53d57e"
+    },
+    "period": {
+      "start": "2018-10-17T07:25:22+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77481"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77481"
+}

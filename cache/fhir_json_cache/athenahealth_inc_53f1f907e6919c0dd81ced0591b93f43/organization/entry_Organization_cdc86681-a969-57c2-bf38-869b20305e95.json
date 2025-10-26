@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cdc86681-a969-57c2-bf38-869b20305e95",
+    "name": "Carine Pediatrics - 3300 Riverside Drive",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b28ed6f6-5719-5346-a055-84214780f3b7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497482111"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3300 Riverside Drive",
+          "Suite 200"
+        ],
+        "city": "UPPER ARLINGTON",
+        "state": "OH",
+        "postalCode": "43221-1738"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26020"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26020.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cdc86681-a969-57c2-bf38-869b20305e95"
+}

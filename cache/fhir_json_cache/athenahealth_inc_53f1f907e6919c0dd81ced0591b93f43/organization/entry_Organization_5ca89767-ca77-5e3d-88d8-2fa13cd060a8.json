@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5ca89767-ca77-5e3d-88d8-2fa13cd060a8",
+    "name": "Dr. Jessica Whelan's Office - HIHS",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d3d42e4d-83b4-5c3e-9752-46738b4ac334"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760018774"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 South Main Street"
+        ],
+        "city": "DUPO",
+        "state": "IL",
+        "postalCode": "62239-1325"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21369"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21369.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5ca89767-ca77-5e3d-88d8-2fa13cd060a8"
+}

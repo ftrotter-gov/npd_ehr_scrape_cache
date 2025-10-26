@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f655154-a37c-5427-90f3-a34afb980c86",
+    "name": "Patient Centered Health Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af26b546-f0c3-5df6-ad48-7ee02d452246"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316403868"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9470 ANNAPOLIS RD",
+          "STE 402"
+        ],
+        "city": "LANHAM",
+        "state": "MD",
+        "postalCode": "20706-3025"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20337"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20337.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f655154-a37c-5427-90f3-a34afb980c86"
+}

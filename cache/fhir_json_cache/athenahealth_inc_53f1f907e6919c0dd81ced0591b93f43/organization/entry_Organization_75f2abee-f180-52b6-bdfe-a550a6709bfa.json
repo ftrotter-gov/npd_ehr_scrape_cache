@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "75f2abee-f180-52b6-bdfe-a550a6709bfa",
+    "name": "Montgomery Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ad412c8d-4297-5d40-8506-258826b49e46"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447636048"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 S FREDERICK AVE"
+        ],
+        "city": "GAITHERSBURG",
+        "state": "MD",
+        "postalCode": "20877-4150"
+      },
+      {
+        "line": [
+          "800 S. FREDERICK AVENUE",
+          "SUITE 110"
+        ],
+        "city": "GAITHERSBURG",
+        "state": "MD",
+        "postalCode": "20877-4151"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15259"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15259.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:75f2abee-f180-52b6-bdfe-a550a6709bfa"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1b122316-9f90-5e0a-9345-60ec60a1b1d4",
+    "name": "DaVita - Upland",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d035d143-6aa0-5e23-a4e8-3d40f2e7c78f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689620254"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "30 Medical Center Blvd",
+          "POB II"
+        ],
+        "city": "CHESTER",
+        "state": "PA",
+        "postalCode": "19013-3955"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3389"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3389.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1b122316-9f90-5e0a-9345-60ec60a1b1d4"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e4442754-8930-548e-8d33-0558383daef1",
+    "name": "UH Conneaut Health Ctr",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3a6581a4-8ee6-54ef-b51a-46d679d7f6c3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669499414"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "158 W Main Rd",
+          "Lab"
+        ],
+        "city": "Conneaut",
+        "state": "OH",
+        "postalCode": "44030-2039"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1926"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1926.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e4442754-8930-548e-8d33-0558383daef1"
+}

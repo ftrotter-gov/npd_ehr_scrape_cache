@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d88a7733-efe9-576b-a034-e1e910e8eccb",
+    "name": "Zipongo",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec64b666-b327-5a39-a7f3-cc0ba1eef846"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972146694"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 CALIFORNIA STREET",
+          "11TH FLOOR"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94108-2727"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20786"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20786.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d88a7733-efe9-576b-a034-e1e910e8eccb"
+}

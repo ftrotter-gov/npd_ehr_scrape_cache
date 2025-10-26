@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9c924e13-07d8-5f98-bcf6-c47edee6c1cb",
+    "name": "MedStat Warsaw",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/07a9104e-2c65-57e6-91f5-2164bb5929bb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942388368"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1500 Provident Dr Suite A"
+        ],
+        "city": "WARSAW",
+        "state": "IN",
+        "postalCode": "46580-3297"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29579.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9c924e13-07d8-5f98-bcf6-c47edee6c1cb"
+}

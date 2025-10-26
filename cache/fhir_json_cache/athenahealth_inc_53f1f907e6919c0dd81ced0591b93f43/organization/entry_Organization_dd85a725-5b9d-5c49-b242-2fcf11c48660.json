@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dd85a725-5b9d-5c49-b242-2fcf11c48660",
+    "name": "Dental Main",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0d73debf-1485-5756-9320-92522665842c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386624278"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2900 N Saginaw St"
+        ],
+        "city": "FLINT",
+        "state": "MI",
+        "postalCode": "48505-4452"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25862"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25862.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dd85a725-5b9d-5c49-b242-2fcf11c48660"
+}

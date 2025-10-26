@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b06a025f-48bf-5ef7-9142-c1ff5af6382f",
+    "name": "Southside Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/062e938e-5f83-5bde-8b51-565d021bdae5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609334390"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "811 ALBERTSON PKWY",
+          "STE A"
+        ],
+        "city": "BROUSSARD",
+        "state": "LA",
+        "postalCode": "70518-5256"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21302"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21302.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b06a025f-48bf-5ef7-9142-c1ff5af6382f"
+}

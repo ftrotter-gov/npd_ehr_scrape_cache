@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3cfc7168-2579-5f91-9a1e-9e6667e902a6",
+    "name": "QVMC-IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/48d55389-2470-54c9-8488-7536a33019a2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871699074"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184719809"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 Trancas St"
+        ],
+        "city": "NAPA",
+        "state": "CA",
+        "postalCode": "94558-2823"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6134"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6134.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3cfc7168-2579-5f91-9a1e-9e6667e902a6"
+}

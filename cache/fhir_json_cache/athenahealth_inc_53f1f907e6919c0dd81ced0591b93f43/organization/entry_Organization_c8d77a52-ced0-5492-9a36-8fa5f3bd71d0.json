@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c8d77a52-ced0-5492-9a36-8fa5f3bd71d0",
+    "name": "Neura Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/496d84cc-8175-503f-9039-6985f1760abe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629248380"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1178 BROADWAY, ROOM 303"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10001-5404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23296"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23296.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c8d77a52-ced0-5492-9a36-8fa5f3bd71d0"
+}

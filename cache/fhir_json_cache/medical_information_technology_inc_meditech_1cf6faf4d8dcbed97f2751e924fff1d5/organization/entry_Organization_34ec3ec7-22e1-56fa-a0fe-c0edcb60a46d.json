@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "34ec3ec7-22e1-56fa-a0fe-c0edcb60a46d",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://jrmc.com"
+      }
+    ],
+    "name": "Johnson Regional Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://jrmc.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1100 East Poplar Street"
+        ],
+        "city": "Clarksville",
+        "state": "AR",
+        "postalCode": "72830",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:43bd92de-491f-4be2-a3d6-f31ebee80653"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:43bd92de-491f-4be2-a3d6-f31ebee80653"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:34ec3ec7-22e1-56fa-a0fe-c0edcb60a46d"
+}

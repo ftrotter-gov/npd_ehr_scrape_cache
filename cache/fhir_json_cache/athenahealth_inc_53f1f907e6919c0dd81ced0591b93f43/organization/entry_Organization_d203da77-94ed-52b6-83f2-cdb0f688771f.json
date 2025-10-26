@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d203da77-94ed-52b6-83f2-cdb0f688771f",
+    "name": "Hopscotch Primary Care Spindale",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/311faaa6-8789-5c5c-99d1-1a6cb0032f1d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265716922"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "153 West Main Street, Spindale, NC 28160"
+        ],
+        "city": "SPINDALE",
+        "state": "NC",
+        "postalCode": "28160-1539"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26812"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26812.Brand-11"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d203da77-94ed-52b6-83f2-cdb0f688771f"
+}

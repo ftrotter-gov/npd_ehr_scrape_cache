@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5c9ec9be-a624-504b-84fe-332ffaa3a794",
+    "name": "FMC Health Medical Drive",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0b07fbe7-aaa2-53ef-9466-3bbf8d67825a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104255272"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6 MEDICAL DR"
+        ],
+        "city": "AMARILLO",
+        "state": "TX",
+        "postalCode": "79106-4136"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33715"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33715.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5c9ec9be-a624-504b-84fe-332ffaa3a794"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "40405600-bf9a-5e28-b8cb-152002bae72b",
+    "name": "Community Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6af56f83-273e-503f-8f76-d2c38ca35aaf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922010479"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "708 W. Spring Valley Rd"
+        ],
+        "city": "RICHARDSON",
+        "state": "TX",
+        "postalCode": "75080-7216"
+      },
+      {
+        "line": [
+          "708 W SPRING VALLEY RD"
+        ],
+        "city": "RICHARDSON",
+        "state": "TX",
+        "postalCode": "75080-7216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19725"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19725.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:40405600-bf9a-5e28-b8cb-152002bae72b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c88a37ee-745b-5d66-8dc5-eb060b419d43",
+    "name": "Farmington Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3877f756-6bc0-5add-b403-ae6c78f3322f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588401384"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1179 W PARK LN STE 200"
+        ],
+        "city": "FARMINGTON",
+        "state": "UT",
+        "postalCode": "84025-3664"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30853"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30853.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c88a37ee-745b-5d66-8dc5-eb060b419d43"
+}

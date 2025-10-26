@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "29bffe5b-e285-5d82-b587-71802ff91a12",
+    "meta": {
+      "lastUpdated": "2022-07-12T22:51:45.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://cascademedical.org"
+      }
+    ],
+    "name": "Cascade Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://cascademedical.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "817 Commercial St"
+        ],
+        "city": "Leavenworth",
+        "state": "WA",
+        "postalCode": "98826",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:fd8d83f8-233f-5d03-afe7-c5dbb6ec05a6"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:fd8d83f8-233f-5d03-afe7-c5dbb6ec05a6"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:29bffe5b-e285-5d82-b587-71802ff91a12"
+}

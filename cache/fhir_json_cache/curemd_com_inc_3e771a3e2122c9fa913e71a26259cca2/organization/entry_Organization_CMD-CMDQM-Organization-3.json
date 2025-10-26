@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDQM-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDQM"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Queens Medical Services, PLLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7183354747"
+      },
+      {
+        "system": "fax",
+        "value": "7184762626"
+      }
+    ],
+    "address": [
+      {
+        "text": "9606 Northern Blvd Corona NY 11368 US",
+        "line": [
+          "9606 Northern Blvd"
+        ],
+        "city": "Corona",
+        "state": "NY",
+        "postalCode": "11368",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDQM-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDQM-Organization-3"
+}

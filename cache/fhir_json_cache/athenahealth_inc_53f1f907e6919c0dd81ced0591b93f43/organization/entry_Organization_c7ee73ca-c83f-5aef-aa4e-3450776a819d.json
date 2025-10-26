@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c7ee73ca-c83f-5aef-aa4e-3450776a819d",
+    "name": "Desert Ridge Outpatient Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9584955-1447-57d7-9b31-e0f643798610"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699051268"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20940 N Tatum Blvd"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85050-2825"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19165"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19165.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c7ee73ca-c83f-5aef-aa4e-3450776a819d"
+}

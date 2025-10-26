@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6da9d97f-6fbf-5921-9f93-b287b0365e53",
+    "name": "Dr Liu OBGYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff568a90-8ff7-5777-a4a3-c30ccb41b3e8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720032105"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "79 Hospital Drive"
+        ],
+        "city": "LOGAN",
+        "state": "WV",
+        "postalCode": "25601-0656"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26088"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26088.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6da9d97f-6fbf-5921-9f93-b287b0365e53"
+}

@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e2de7644-6cc1-5fc5-ac0f-bf82b54beb1d",
+    "name": "St Joes Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/882c4e02-5f6f-5f23-994a-50f190396e83"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366644551"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346284684"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "44555 Woodward Ave",
+          "Suite 402"
+        ],
+        "city": "PONTIAC",
+        "state": "MI",
+        "postalCode": "48341-5031"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16197"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16197.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e2de7644-6cc1-5fc5-ac0f-bf82b54beb1d"
+}

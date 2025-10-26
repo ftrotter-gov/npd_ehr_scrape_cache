@@ -1,0 +1,76 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "853e2312-c303-5e43-95be-a18f9a4fbaf4",
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://bryanhealth.com/locations/hospitals/girmc"
+      }
+    ],
+    "name": "Grand Island Regional Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://bryanhealth.com/locations/hospitals/girmc"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3533 Prairieview Street"
+        ],
+        "city": "Grand Island",
+        "state": "NE",
+        "postalCode": "68803",
+        "country": "United States"
+      }
+    ],
+    "meta": {
+      "lastUpdated": "2024-03-13T20:09:55.689Z"
+    },
+    "endpoint": [
+      {
+        "reference": "urn:uuid:e7eb33c4-0ba3-5803-92e1-d845be162130"
+      },
+      {
+        "reference": "urn:uuid:22693577-de24-40ba-89a9-4c5fff2d77c5"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:062ffd1e-1f3e-5451-9a54-99d41bdbbaae"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:e7eb33c4-0ba3-5803-92e1-d845be162130"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:22693577-de24-40ba-89a9-4c5fff2d77c5"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:853e2312-c303-5e43-95be-a18f9a4fbaf4"
+}

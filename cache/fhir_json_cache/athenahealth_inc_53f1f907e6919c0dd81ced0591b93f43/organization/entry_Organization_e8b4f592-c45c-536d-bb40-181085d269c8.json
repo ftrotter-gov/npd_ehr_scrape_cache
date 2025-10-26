@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e8b4f592-c45c-536d-bb40-181085d269c8",
+    "name": "Teladoc Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec23963e-4b92-54b9-b6a1-e64a7a6dfc6b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780252643"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1945 LAKEPOINTE DR"
+        ],
+        "city": "LEWISVILLE",
+        "state": "TX",
+        "postalCode": "75057-6424"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33201"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33201.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e8b4f592-c45c-536d-bb40-181085d269c8"
+}

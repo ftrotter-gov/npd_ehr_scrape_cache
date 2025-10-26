@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f190a944-0000-5b56-a3b4-f3b0a30f233d",
+    "name": "Midwest Surgical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c32a070e-61d1-5ae5-b66f-fdc880e708d2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376686733"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6829 NORTH 72 ST SUITE 5500"
+        ],
+        "city": "OMAHA",
+        "state": "NE",
+        "postalCode": "68122-1729"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15331"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15331.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f190a944-0000-5b56-a3b4-f3b0a30f233d"
+}

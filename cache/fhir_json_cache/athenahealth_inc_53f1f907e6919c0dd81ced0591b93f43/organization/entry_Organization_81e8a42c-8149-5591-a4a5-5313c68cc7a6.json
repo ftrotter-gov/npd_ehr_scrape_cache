@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "81e8a42c-8149-5591-a4a5-5313c68cc7a6",
+    "name": "WellMed",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a9106a4e-0bac-529a-9c59-ef34ee85691f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316385784"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "125 N. BROAD STREET",
+          "SUITE 203"
+        ],
+        "city": "THOMASVILLE",
+        "state": "GA",
+        "postalCode": "31792-8111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27685"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27685.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:81e8a42c-8149-5591-a4a5-5313c68cc7a6"
+}

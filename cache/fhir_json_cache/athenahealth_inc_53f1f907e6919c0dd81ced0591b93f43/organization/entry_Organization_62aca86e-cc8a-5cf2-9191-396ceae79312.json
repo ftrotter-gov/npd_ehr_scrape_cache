@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "62aca86e-cc8a-5cf2-9191-396ceae79312",
+    "name": "Eleanor Health Brockton",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/28e1bb0f-9d67-50bc-9598-b849b93457ed"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205446374"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "348 N Pearl Street",
+          "Suite 200"
+        ],
+        "city": "BROCKTON",
+        "state": "MA",
+        "postalCode": "02301-1197"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21505"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21505.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:62aca86e-cc8a-5cf2-9191-396ceae79312"
+}

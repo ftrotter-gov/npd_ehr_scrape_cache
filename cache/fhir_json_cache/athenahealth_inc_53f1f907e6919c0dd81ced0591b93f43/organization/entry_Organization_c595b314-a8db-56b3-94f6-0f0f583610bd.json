@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c595b314-a8db-56b3-94f6-0f0f583610bd",
+    "name": "Northwest Health & Healing",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/821de5bc-e779-52ed-8d9d-cd50400e350c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366298861"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7202 267th St Northwest Suite 104"
+        ],
+        "city": "STANWOOD",
+        "state": "WA",
+        "postalCode": "98292-6270"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31182"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31182.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c595b314-a8db-56b3-94f6-0f0f583610bd"
+}

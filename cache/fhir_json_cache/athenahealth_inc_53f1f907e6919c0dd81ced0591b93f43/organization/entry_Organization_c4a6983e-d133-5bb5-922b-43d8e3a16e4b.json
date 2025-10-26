@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c4a6983e-d133-5bb5-922b-43d8e3a16e4b",
+    "name": "Ear, Nose & Throat Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/792811dd-196d-5b0d-84e0-82d6c64af2dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386611580"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568808988"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.336",
+        "value": "370166"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1202 W CHEROKEE ST, STE D"
+        ],
+        "city": "WAGONER",
+        "state": "OK",
+        "postalCode": "74467-4629"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14254"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14254.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c4a6983e-d133-5bb5-922b-43d8e3a16e4b"
+}

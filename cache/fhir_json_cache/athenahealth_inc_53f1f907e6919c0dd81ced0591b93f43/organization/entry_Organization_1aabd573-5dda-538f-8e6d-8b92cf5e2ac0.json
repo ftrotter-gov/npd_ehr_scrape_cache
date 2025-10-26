@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1aabd573-5dda-538f-8e6d-8b92cf5e2ac0",
+    "name": "VOA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8ac05a79-b767-576f-b372-5d8ec81f9798"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043313208"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4600 N 19TH RD"
+        ],
+        "city": "ARLINGTON",
+        "state": "VA",
+        "postalCode": "22207-8031"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16578"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16578.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1aabd573-5dda-538f-8e6d-8b92cf5e2ac0"
+}

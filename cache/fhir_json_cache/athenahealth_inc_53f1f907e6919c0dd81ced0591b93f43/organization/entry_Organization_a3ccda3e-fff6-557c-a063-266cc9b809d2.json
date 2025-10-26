@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3ccda3e-fff6-557c-a063-266cc9b809d2",
+    "name": "Sarasota Employee Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a02109a4-0b58-5c73-8be7-fdfca047340d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043769722"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "237 Payne Parkway",
+          "Unit 101"
+        ],
+        "city": "SARASOTA",
+        "state": "FL",
+        "postalCode": "34237-7018"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14940"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14940.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3ccda3e-fff6-557c-a063-266cc9b809d2"
+}

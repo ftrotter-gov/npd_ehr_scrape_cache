@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b28d4c1e-3b2d-5dc7-a8fb-03aa6d3e491b",
+    "name": "Home Visits",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c243477d-ff2d-510f-bf33-7ab8710f04ab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215364104"
+      }
+    ],
+    "address": [
+      {
+        "line": [],
+        "city": "ROCHESTER",
+        "state": "NY",
+        "postalCode": "14626-2724"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3398"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3398.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b28d4c1e-3b2d-5dc7-a8fb-03aa6d3e491b"
+}

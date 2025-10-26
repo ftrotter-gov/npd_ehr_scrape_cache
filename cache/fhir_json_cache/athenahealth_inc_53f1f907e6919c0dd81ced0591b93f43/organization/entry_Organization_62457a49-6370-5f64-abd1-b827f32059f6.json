@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "62457a49-6370-5f64-abd1-b827f32059f6",
+    "name": "Powell Pediatric Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/40314ad5-b248-5d0a-b183-6f1e5b90dc6b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801961057"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "36D0948031"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7500 Hospital Drive"
+        ],
+        "city": "DUBLIN",
+        "state": "OH",
+        "postalCode": "43016-8518"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-517"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-517.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:62457a49-6370-5f64-abd1-b827f32059f6"
+}

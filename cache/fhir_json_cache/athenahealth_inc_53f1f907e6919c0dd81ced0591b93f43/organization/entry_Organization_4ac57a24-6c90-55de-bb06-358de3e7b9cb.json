@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ac57a24-6c90-55de-bb06-358de3e7b9cb",
+    "name": "Manzanita Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/304c9c4d-493b-517a-97c6-dca30677761a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306376611"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10585 NORTH TATUM BLVD",
+          "SUITE D134"
+        ],
+        "city": "PARADISE VALLEY",
+        "state": "AZ",
+        "postalCode": "85253-1073"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16225"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16225.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ac57a24-6c90-55de-bb06-358de3e7b9cb"
+}

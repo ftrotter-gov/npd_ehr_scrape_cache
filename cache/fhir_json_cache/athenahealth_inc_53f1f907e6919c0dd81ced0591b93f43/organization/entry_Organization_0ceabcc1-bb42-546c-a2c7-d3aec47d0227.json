@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0ceabcc1-bb42-546c-a2c7-d3aec47d0227",
+    "name": "Medi-First Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f6bd126a-df7f-5036-8e3b-ba5d93a368b3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437570587"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3008 N. Dobson Rd.",
+          "Ste. 2"
+        ],
+        "city": "CHANDLER",
+        "state": "AZ",
+        "postalCode": "85224-1295"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0ceabcc1-bb42-546c-a2c7-d3aec47d0227"
+}

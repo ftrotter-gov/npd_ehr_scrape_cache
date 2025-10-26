@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "85e6e7bd-2ed2-55ca-995c-fda7269b4902",
+    "name": "Advanced Practice Family Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6fd7d47-90df-53b3-afb4-9ba5ea9de386"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881260669"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2884 AAA COURT"
+        ],
+        "city": "BETTENDORF",
+        "state": "IA",
+        "postalCode": "52722-3406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24080"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24080.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:85e6e7bd-2ed2-55ca-995c-fda7269b4902"
+}

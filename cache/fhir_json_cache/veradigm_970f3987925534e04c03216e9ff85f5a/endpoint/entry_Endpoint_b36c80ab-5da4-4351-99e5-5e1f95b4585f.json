@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "b36c80ab-5da4-4351-99e5-5e1f95b4585f",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "bad1367e-a50a-40e4-a626-734f0e747c4e",
+        "name": "Advanced Urology Inc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Advanced Urology Inc",
+    "managingOrganization": {
+      "reference": "#bad1367e-a50a-40e4-a626-734f0e747c4e"
+    },
+    "period": {
+      "start": "2023-06-09T09:57:23+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57952"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57952"
+}

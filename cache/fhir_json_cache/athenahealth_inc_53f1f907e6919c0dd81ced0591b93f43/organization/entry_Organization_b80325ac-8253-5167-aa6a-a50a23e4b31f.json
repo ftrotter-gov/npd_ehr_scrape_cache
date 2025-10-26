@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b80325ac-8253-5167-aa6a-a50a23e4b31f",
+    "name": "Salmon River Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d7e72a35-cf36-5876-9acb-0f7985dece0b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104351972"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "403 RIVERFRONT DR"
+        ],
+        "city": "SALMON",
+        "state": "ID",
+        "postalCode": "83467-5162"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15946"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15946.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b80325ac-8253-5167-aa6a-a50a23e4b31f"
+}

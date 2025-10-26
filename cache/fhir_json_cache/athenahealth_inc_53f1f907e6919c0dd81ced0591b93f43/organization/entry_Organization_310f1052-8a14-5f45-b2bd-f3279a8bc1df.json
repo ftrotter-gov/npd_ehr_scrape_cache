@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "310f1052-8a14-5f45-b2bd-f3279a8bc1df",
+    "name": "spring hill regional hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/59981704-d26e-5707-8859-0c7f98636abf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073821674"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10461 quality drive"
+        ],
+        "city": "BROOKSVILLE",
+        "state": "FL",
+        "postalCode": "34609-9634"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2733"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2733.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:310f1052-8a14-5f45-b2bd-f3279a8bc1df"
+}

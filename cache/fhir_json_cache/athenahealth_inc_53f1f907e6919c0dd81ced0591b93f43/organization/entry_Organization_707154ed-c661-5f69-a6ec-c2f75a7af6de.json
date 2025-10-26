@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "707154ed-c661-5f69-a6ec-c2f75a7af6de",
+    "name": "Aspire Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ed5c146c-a215-5400-8743-aeee72a74cb7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 SKOKIE BOULEVARD SUITE 530"
+        ],
+        "city": "NORTHBROOK",
+        "state": "IL",
+        "postalCode": "60062-2816"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28810"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28810.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:707154ed-c661-5f69-a6ec-c2f75a7af6de"
+}

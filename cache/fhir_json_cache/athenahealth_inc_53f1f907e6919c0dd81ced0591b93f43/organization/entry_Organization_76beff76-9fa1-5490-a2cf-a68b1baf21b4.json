@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "76beff76-9fa1-5490-a2cf-a68b1baf21b4",
+    "name": "Cactus Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bd033a83-2273-5747-b703-fda1f61ed333"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962663740"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 N. WATER ST"
+        ],
+        "city": "FORT STOCKTON",
+        "state": "TX",
+        "postalCode": "79735-6814"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10395"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10395.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:76beff76-9fa1-5490-a2cf-a68b1baf21b4"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22b1e62b-617d-5be2-9f46-923cbad8caa3",
+    "name": "San Francisco Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/28622f40-32b4-56b5-a037-2dfaed2af0bc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912904806"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2100 WEBSTER ST STE 200"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94115-2375"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11269"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11269.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22b1e62b-617d-5be2-9f46-923cbad8caa3"
+}

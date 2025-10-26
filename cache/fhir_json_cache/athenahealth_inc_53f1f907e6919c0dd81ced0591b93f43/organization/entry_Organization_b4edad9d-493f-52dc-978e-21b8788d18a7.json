@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b4edad9d-493f-52dc-978e-21b8788d18a7",
+    "name": "Hackensack Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d77c36ad-828a-5cc1-a638-ceb776430511"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801042072"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "357 PROSPECT AVE"
+        ],
+        "city": "HACKENSACK",
+        "state": "NJ",
+        "postalCode": "07601-2519"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23990"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23990.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b4edad9d-493f-52dc-978e-21b8788d18a7"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "b0300c64-2819-4113-a672-13536b1f3ec7",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "6658222c-581d-40f6-9964-7f34b8a8e38f",
+        "name": "Jonathan Warman Md"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Jonathan Warman Md",
+    "managingOrganization": {
+      "reference": "#6658222c-581d-40f6-9964-7f34b8a8e38f"
+    },
+    "period": {
+      "start": "2018-05-30T09:44:25+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77505"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77505"
+}

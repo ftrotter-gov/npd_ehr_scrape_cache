@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ca3b8662-8355-5ec0-95ba-f38c4f00510d",
+    "name": "Primary Care Of Albuquerque",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/367a3a3a-c2e5-5567-b5d6-030f8b0219cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417780511"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7520 MONTGOMERY BLVD NE",
+          "BLDG D4"
+        ],
+        "city": "ALBUQUERQUE",
+        "state": "NM",
+        "postalCode": "87109-1533"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32694"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32694.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ca3b8662-8355-5ec0-95ba-f38c4f00510d"
+}

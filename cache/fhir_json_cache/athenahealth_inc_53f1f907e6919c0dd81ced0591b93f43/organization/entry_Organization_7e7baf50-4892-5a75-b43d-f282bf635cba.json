@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7e7baf50-4892-5a75-b43d-f282bf635cba",
+    "name": "Martha's Vineyard Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2fa10646-2bc4-592b-a09d-fbadd5a9dd10"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902024292"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "140 LINCOLN AVE"
+        ],
+        "city": "HAVERHILL",
+        "state": "MA",
+        "postalCode": "01830-6700"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28652"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28652.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7e7baf50-4892-5a75-b43d-f282bf635cba"
+}

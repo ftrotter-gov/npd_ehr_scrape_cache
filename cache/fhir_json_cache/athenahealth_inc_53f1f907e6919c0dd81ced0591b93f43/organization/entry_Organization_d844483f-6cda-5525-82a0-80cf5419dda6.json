@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d844483f-6cda-5525-82a0-80cf5419dda6",
+    "name": "Select Specialty Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/93758d45-28b2-5353-aa36-d145ce1d7fd1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861826943"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1125 S Trenton Ave"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74120-5418"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7730"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7730.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d844483f-6cda-5525-82a0-80cf5419dda6"
+}

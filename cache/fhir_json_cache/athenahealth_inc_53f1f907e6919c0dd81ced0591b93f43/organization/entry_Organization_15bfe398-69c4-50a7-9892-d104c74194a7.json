@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "15bfe398-69c4-50a7-9892-d104c74194a7",
+    "name": "Salaam Community",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bd6caa35-da6d-5af0-9d8d-5bf41ab7bd18"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376127225"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "613 E 67th St"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60637-4122"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25084"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25084.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:15bfe398-69c4-50a7-9892-d104c74194a7"
+}

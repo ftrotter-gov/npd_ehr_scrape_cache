@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c72abdfb-3b71-5189-8705-c93706d15a0c",
+    "name": "Rigsby Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f8521ae6-88dc-5bec-8005-85738478c7be"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891971859"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1800 HOG MOUNTAIN ROAD",
+          "BUILDING 600, SUITE 103"
+        ],
+        "city": "WATKINSVILLE",
+        "state": "GA",
+        "postalCode": "30677-1935"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14691"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14691.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c72abdfb-3b71-5189-8705-c93706d15a0c"
+}

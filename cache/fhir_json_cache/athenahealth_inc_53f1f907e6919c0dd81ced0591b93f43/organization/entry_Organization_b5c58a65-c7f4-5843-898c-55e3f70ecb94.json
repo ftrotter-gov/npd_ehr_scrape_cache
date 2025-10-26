@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b5c58a65-c7f4-5843-898c-55e3f70ecb94",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9bd3c60f-7b20-5851-93fe-9806b9101204"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376881870"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20104 SWANNER BLVD STE 4"
+        ],
+        "city": "TANNER",
+        "state": "AL",
+        "postalCode": "35671-3651"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17003"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17003.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b5c58a65-c7f4-5843-898c-55e3f70ecb94"
+}

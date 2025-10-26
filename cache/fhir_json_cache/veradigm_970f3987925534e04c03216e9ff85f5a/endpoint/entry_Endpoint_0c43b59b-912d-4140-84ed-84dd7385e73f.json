@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0c43b59b-912d-4140-84ed-84dd7385e73f",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "45a5ca52-812d-4f78-af32-8a9f78063952",
+        "name": "Family Medical Care Associates PLLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Family Medical Care Associates PLLC",
+    "managingOrganization": {
+      "reference": "#45a5ca52-812d-4f78-af32-8a9f78063952"
+    },
+    "period": {
+      "start": "2019-05-02T16:28:34+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10034084"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10034084"
+}

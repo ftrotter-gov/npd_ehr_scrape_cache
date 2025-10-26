@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d869dd88-848f-5e0e-9e84-ee5f3b6d226c",
+    "name": "EPIC Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9def10d4-d2ac-59d7-9f4c-51907378cd84"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1360 STAR COURT",
+          "SUITE T1"
+        ],
+        "city": "PLANO",
+        "state": "TX",
+        "postalCode": "75074-7353"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18152"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18152.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d869dd88-848f-5e0e-9e84-ee5f3b6d226c"
+}

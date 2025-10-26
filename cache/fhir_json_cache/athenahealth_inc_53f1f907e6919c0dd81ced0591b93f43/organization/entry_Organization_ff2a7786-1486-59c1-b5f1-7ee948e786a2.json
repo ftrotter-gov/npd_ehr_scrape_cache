@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ff2a7786-1486-59c1-b5f1-7ee948e786a2",
+    "name": "Main office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3ed9ed32-8319-5192-96cb-a0b094f86a63"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760883631"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10 CEDAR ST STE 24"
+        ],
+        "city": "WOBURN",
+        "state": "MA",
+        "postalCode": "01801-6365"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13317"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13317.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ff2a7786-1486-59c1-b5f1-7ee948e786a2"
+}

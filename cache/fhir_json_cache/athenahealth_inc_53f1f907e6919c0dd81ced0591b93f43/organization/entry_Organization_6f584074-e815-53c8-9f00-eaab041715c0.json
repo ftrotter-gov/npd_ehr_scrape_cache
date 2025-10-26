@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6f584074-e815-53c8-9f00-eaab041715c0",
+    "name": "Northwest Cardiovascular Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9d69143d-ccbb-58d8-ab3d-d336283819e1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437457686"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18220 TOMBALL PKWY SUITE 230"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77070-4350"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4530"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4530.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6f584074-e815-53c8-9f00-eaab041715c0"
+}

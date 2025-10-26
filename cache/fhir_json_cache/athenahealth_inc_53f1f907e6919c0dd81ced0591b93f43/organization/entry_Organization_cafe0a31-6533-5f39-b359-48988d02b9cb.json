@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cafe0a31-6533-5f39-b359-48988d02b9cb",
+    "name": "Eaton Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/182817b8-c60e-59b0-8e72-16c7d7db9e5f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538845557"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "271 S ELM ST"
+        ],
+        "city": "EATON",
+        "state": "CO",
+        "postalCode": "80615-5003"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29041"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29041.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cafe0a31-6533-5f39-b359-48988d02b9cb"
+}

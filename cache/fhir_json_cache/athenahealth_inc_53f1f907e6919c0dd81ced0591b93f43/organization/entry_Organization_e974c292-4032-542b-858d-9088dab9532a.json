@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e974c292-4032-542b-858d-9088dab9532a",
+    "name": "RediMed Clinic Northeast",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/500632fb-3b4f-50fa-b2b8-893852a51c44"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619918026"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3717 Maplecrest Road"
+        ],
+        "city": "FORT WAYNE",
+        "state": "IN",
+        "postalCode": "46815-8424"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29579.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e974c292-4032-542b-858d-9088dab9532a"
+}

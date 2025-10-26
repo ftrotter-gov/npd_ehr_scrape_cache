@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d42cda6-1b90-55f0-bcdd-6f39943737f0",
+    "name": "TriHealth Clinton Neurological Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e39071e5-cd4f-50bf-8358-e91de2b0d160"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811215742"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "630 W Main St",
+          "Suite 207"
+        ],
+        "city": "WILMINGTON",
+        "state": "OH",
+        "postalCode": "45177-2101"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6237"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6237.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d42cda6-1b90-55f0-bcdd-6f39943737f0"
+}

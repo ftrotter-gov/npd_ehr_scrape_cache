@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "53a37599-99c9-518e-b363-3a7a6577f960",
+    "name": "Adams County Health Department",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/48bf645a-b502-5f8f-950f-f669c5b59793"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164645289"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "560 RICE DR"
+        ],
+        "city": "WEST UNION",
+        "state": "OH",
+        "postalCode": "45693-9024"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33200"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33200.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:53a37599-99c9-518e-b363-3a7a6577f960"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7809d3f0-6868-50ba-9dc0-50f9a2875558",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d7c4bae1-0c66-5648-bb01-3bdfef85bc57"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306671714"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1230 ALVERSER DR",
+          "STE 104"
+        ],
+        "city": "MIDLOTHIAN",
+        "state": "VA",
+        "postalCode": "23113-2653"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32918"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32918.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7809d3f0-6868-50ba-9dc0-50f9a2875558"
+}

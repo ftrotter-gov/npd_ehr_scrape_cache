@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d8abbd7-65bf-5da9-90ec-388c1840006d",
+    "name": "Primary Medical Care at the Crossroads",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/304cba64-da0a-51eb-a28b-833427edc4f1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801428487"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "58 OLD ROBERTS RD STE 102"
+        ],
+        "city": "BENSON",
+        "state": "NC",
+        "postalCode": "27504-8047"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21598"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21598.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d8abbd7-65bf-5da9-90ec-388c1840006d"
+}

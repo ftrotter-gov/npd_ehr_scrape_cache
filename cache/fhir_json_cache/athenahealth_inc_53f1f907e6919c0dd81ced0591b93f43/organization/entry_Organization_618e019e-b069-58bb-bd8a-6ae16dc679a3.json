@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "618e019e-b069-58bb-bd8a-6ae16dc679a3",
+    "name": "FHCA Richardson After Hours",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8f8d82d7-7943-535b-8d18-e7ba22df2d9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811677610"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2821 E. President George Bush Highway",
+          "Suite 100"
+        ],
+        "city": "RICHARDSON",
+        "state": "TX",
+        "postalCode": "75082-4277"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30724"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30724.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:618e019e-b069-58bb-bd8a-6ae16dc679a3"
+}

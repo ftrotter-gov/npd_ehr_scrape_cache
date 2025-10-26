@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c667fc92-d83f-52a6-93ae-82b3f4353a0c",
+    "name": "Oak Hill Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ab9e5b23-aae9-56a1-8018-4c1e6a7dd895"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922011147"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11373 CORTEZ BOULEVARD"
+        ],
+        "city": "BROOKSVILLE",
+        "state": "FL",
+        "postalCode": "34613-6389"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10299"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10299.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c667fc92-d83f-52a6-93ae-82b3f4353a0c"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "29e466d8-63bc-5475-af75-5a23016ec43a",
+    "name": "My Hilltop Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7df6c795-1049-5cb2-81af-f8ee64ba5773"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780397380"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1925 E DUBLIN GRANVILLE RD",
+          "SUITE 234"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43229-3517"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28555"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28555.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:29e466d8-63bc-5475-af75-5a23016ec43a"
+}

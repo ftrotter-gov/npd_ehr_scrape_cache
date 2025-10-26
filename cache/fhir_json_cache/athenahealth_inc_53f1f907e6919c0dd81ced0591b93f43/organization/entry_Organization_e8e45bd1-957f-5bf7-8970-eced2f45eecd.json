@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e8e45bd1-957f-5bf7-8970-eced2f45eecd",
+    "name": "ST. JOSEPH HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f20325c2-e3d8-508d-b80f-a361483bdf47"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982948089"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1835 FRANKLIN STREET"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80218-1126"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-980"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-980.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e8e45bd1-957f-5bf7-8970-eced2f45eecd"
+}

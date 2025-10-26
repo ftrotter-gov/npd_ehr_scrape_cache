@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "57c81066-e284-5a8a-8611-88d6c8a64d87",
+    "name": "IMS Primary Care Phoenix Suite 450",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/12101a02-bb9e-5fe4-97ef-3780548c93f1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760441141"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "202 E Earll Dr",
+          "Suite 450"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85012-2675"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17394"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17394.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:57c81066-e284-5a8a-8611-88d6c8a64d87"
+}

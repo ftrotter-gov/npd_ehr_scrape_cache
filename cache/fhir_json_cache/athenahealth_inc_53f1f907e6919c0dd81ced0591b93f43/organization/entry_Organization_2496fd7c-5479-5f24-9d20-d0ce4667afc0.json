@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2496fd7c-5479-5f24-9d20-d0ce4667afc0",
+    "name": "Primary Care House Calls",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c4b8c2cd-74fb-59cd-bc3a-e725492e2f08"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811506389"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4704 SOUTHWEST 125TH PLACE"
+        ],
+        "city": "OKLAHOMA CITY",
+        "state": "OK",
+        "postalCode": "73173-8165"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24322"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24322.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2496fd7c-5479-5f24-9d20-d0ce4667afc0"
+}

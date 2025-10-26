@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d7b88d8c-4e06-5920-b05e-7c54d1b387b8",
+    "name": "ATLANTA MEDICAL CENTER HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1ea4bda6-90b5-51fb-8bf5-cb5defcac336"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215118831"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "303 PARKWAY"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30312-4012"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10786"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10786.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d7b88d8c-4e06-5920-b05e-7c54d1b387b8"
+}

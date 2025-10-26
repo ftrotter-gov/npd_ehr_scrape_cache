@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0072a763-f411-5c25-8376-6c753f5e71ba",
+    "name": "Valley Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f591c91d-7990-5a0d-be37-737fc4758ddf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417009077"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "223 North Van Dien Ave"
+        ],
+        "city": "RIDGEWOOD",
+        "state": "NJ",
+        "postalCode": "07450-2736"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1092"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1092.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0072a763-f411-5c25-8376-6c753f5e71ba"
+}

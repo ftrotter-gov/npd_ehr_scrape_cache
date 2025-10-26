@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c082c2d9-cf51-5f10-8c5e-27c27d706bb9",
+    "name": "Inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5c9bbef3-6325-5cb4-9194-8e4e77552d8c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558513812"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "802 S 200 W"
+        ],
+        "city": "BLANDING",
+        "state": "UT",
+        "postalCode": "84511-3910"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16299"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16299.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c082c2d9-cf51-5f10-8c5e-27c27d706bb9"
+}

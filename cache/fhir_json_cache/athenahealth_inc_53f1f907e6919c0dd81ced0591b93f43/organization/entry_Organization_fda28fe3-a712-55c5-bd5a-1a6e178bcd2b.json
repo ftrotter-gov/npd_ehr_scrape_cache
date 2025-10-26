@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fda28fe3-a712-55c5-bd5a-1a6e178bcd2b",
+    "name": "Evergreen Nephrology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4857ef1a-6d63-55fe-a494-ffa68ac63c91"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982305082"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "210 Athens Way",
+          "Ste 200"
+        ],
+        "city": "NASHVILLE",
+        "state": "TN",
+        "postalCode": "37228-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30737"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30737.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fda28fe3-a712-55c5-bd5a-1a6e178bcd2b"
+}

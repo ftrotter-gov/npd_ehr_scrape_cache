@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9d054e51-ab2b-5623-ae6d-eabe081575f1",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d5a74a0-8c9b-5ff8-8228-a795b297dd7b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760881726"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "161 east chicago street"
+        ],
+        "city": "COLDWATER",
+        "state": "MI",
+        "postalCode": "49036-1789"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9483"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9483.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9d054e51-ab2b-5623-ae6d-eabe081575f1"
+}

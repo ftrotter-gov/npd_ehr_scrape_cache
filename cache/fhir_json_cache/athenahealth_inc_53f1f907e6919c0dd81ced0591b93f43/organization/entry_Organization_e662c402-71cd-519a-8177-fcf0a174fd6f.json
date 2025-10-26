@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e662c402-71cd-519a-8177-fcf0a174fd6f",
+    "name": "Lincoln Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/095d0dd9-99b8-5ada-8b9f-8a47f2359979"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043482094"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "965 S 27th st"
+        ],
+        "city": "LINCOLN",
+        "state": "NE",
+        "postalCode": "68510-3140"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8703"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8703.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e662c402-71cd-519a-8177-fcf0a174fd6f"
+}

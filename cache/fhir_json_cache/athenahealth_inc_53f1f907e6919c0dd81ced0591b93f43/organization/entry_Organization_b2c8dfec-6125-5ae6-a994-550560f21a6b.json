@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b2c8dfec-6125-5ae6-a994-550560f21a6b",
+    "name": "San Joaquin Community Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1890aaae-cdff-540f-8c27-7f89bd0f07cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326419417"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2615 Chester Ave"
+        ],
+        "city": "BAKERSFIELD",
+        "state": "CA",
+        "postalCode": "93301-2014"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12545"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12545.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b2c8dfec-6125-5ae6-a994-550560f21a6b"
+}

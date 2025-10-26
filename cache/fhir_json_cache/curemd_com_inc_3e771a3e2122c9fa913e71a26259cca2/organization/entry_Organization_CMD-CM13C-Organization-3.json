@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM13C-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM13C"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Ultra Care NJ",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9737825550"
+      },
+      {
+        "system": "fax",
+        "value": "9737825548"
+      }
+    ],
+    "address": [
+      {
+        "text": "540 Straight St, Ste 2 C PATERSON NJ 7503 US",
+        "line": [
+          "540 Straight St,",
+          "Ste 2 C"
+        ],
+        "city": "PATERSON",
+        "state": "NJ",
+        "postalCode": "7503",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM13C-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM13C-Organization-3"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ce75f10-b3ea-5a66-8b2b-d1788cd6575c",
+    "name": "MedPsych-BC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d1cd3afb-e26d-531e-a01c-5e60500b465c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154898013"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7780 BRIER CREEK PKWY STE 306"
+        ],
+        "city": "RALEIGH",
+        "state": "NC",
+        "postalCode": "27617-7849"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28779"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28779.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ce75f10-b3ea-5a66-8b2b-d1788cd6575c"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9240a3b1-b806-5141-998b-2d73f0162a1b",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8c269cd6-5cd7-5207-8f7b-de45802b5265"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992824205"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3551 Wheeler Road"
+        ],
+        "city": "Augusta",
+        "state": "GA",
+        "postalCode": "30909-6500"
+      },
+      {
+        "line": [
+          "1215 W Wheeler Pkwy"
+        ],
+        "city": "Augusta",
+        "state": "GA",
+        "postalCode": "30909-1899"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14225"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14225.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9240a3b1-b806-5141-998b-2d73f0162a1b"
+}

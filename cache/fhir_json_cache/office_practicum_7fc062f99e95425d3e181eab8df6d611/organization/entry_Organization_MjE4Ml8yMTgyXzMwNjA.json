@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjE4Ml8yMTgyXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1001.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568596922"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Winghaven Pediatrics LLC MO",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "636-561-5561",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "636-561-5557",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "5551 Winghaven Blvd Suite 240 O'Fallon, MO 633683602",
+        "line": [
+          "5551 Winghaven Blvd",
+          "Suite 240"
+        ],
+        "city": "O'Fallon",
+        "state": "MO",
+        "postalCode": "633683602",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjE4Ml8yMTgyXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjE4Ml8yMTgyXzMwNjA"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5da192cb-d12d-5164-8a9b-c8473195707c",
+    "name": "Mercy Health Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/393992ec-fc88-5678-aaaf-5066ba5b9fdf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9520 JAMES A REED RD",
+          "SUITE F"
+        ],
+        "city": "KANSAS CITY",
+        "state": "MO",
+        "postalCode": "64134-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19735"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19735.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5da192cb-d12d-5164-8a9b-c8473195707c"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "02991514-43d4-5816-b96b-668ef1185e69",
+    "name": "ActFast Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2ecee035-b17e-5664-a970-0bc8118126f1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689302861"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 E ARAPAHO RD",
+          "UNIT 22303"
+        ],
+        "city": "RICHARDSON",
+        "state": "TX",
+        "postalCode": "75081-3180"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27058"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27058.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:02991514-43d4-5816-b96b-668ef1185e69"
+}

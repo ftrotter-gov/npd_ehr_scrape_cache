@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "52ce9258-2a65-52d8-9299-8f3316b9bfc6",
+    "name": "Illinois Doctors on Demand",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0038a52c-3072-5fe6-8b16-990c7df27d06"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780148072"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5940 W TOUHY AVENUE",
+          "SUITE 310-A"
+        ],
+        "city": "NILES",
+        "state": "IL",
+        "postalCode": "60714-4638"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26446"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26446.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:52ce9258-2a65-52d8-9299-8f3316b9bfc6"
+}

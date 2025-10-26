@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2f516f90-4510-5e7f-99d8-3f86ccf6d8fd",
+    "name": "North Shore OUTPT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/440c3583-29a7-56da-8860-8aae1568062f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114366408"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 Community Drive"
+        ],
+        "city": "MANHASSET",
+        "state": "NY",
+        "postalCode": "11030-3816"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7263"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7263.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2f516f90-4510-5e7f-99d8-3f86ccf6d8fd"
+}

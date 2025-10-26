@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ed1de012-96f8-5eda-a501-d1717fbf2c8f",
+    "name": "Norris Academy",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4349004b-f107-55b3-ba58-fd6d7503a2e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972043214"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "17 Ridgeway Road"
+        ],
+        "city": "NORRIS",
+        "state": "TN",
+        "postalCode": "37828-4067"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15711"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15711.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ed1de012-96f8-5eda-a501-d1717fbf2c8f"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2e37ba2e-1776-54b7-af1d-675272a99107",
+    "name": "Family Physicians of Tidewater",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/60a262a8-a839-5eb3-b6b2-c33553e218d4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790830826"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "425 W 20TH STREET",
+          "SUITE 1"
+        ],
+        "city": "NORFOLK",
+        "state": "VA",
+        "postalCode": "23517-2128"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33204"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33204.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2e37ba2e-1776-54b7-af1d-675272a99107"
+}

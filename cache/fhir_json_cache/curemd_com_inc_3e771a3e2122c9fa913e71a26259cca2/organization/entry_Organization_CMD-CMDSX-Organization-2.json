@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDSX-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDSX"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Silver Lane Medical Center",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8605687243"
+      },
+      {
+        "system": "fax",
+        "value": "8608958107"
+      },
+      {
+        "system": "email",
+        "value": "admin@silverlanemedical.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "677 Silver Lane East Hartford CT 61181257 US",
+        "line": [
+          "677 Silver Lane"
+        ],
+        "city": "East Hartford",
+        "state": "CT",
+        "postalCode": "61181257",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDSX-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDSX-Organization-2"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3d24acf6-0f02-4237-8509-dee379fa4b56",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "8c799886-4b2a-44a8-9181-02f21ac0960c",
+        "name": "Fayette Surgical Associates"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Fayette Surgical Associates",
+    "managingOrganization": {
+      "reference": "#8c799886-4b2a-44a8-9181-02f21ac0960c"
+    },
+    "period": {
+      "start": "2019-07-18T19:15:35+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10038347"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10038347"
+}

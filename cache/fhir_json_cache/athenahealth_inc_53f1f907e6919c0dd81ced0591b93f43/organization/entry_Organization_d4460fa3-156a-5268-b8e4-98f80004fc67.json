@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d4460fa3-156a-5268-b8e4-98f80004fc67",
+    "name": "MediHealth Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e4b1cca6-2fff-5762-96fa-dc1034e86f12"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083213607"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2345 W.FRANKLIN ST",
+          "SUITE 102"
+        ],
+        "city": "EVANSVILLE",
+        "state": "IN",
+        "postalCode": "47712-2605"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22875"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22875.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d4460fa3-156a-5268-b8e4-98f80004fc67"
+}

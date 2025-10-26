@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "30ee3d27-2720-5f94-9eb6-520dfc3ffaea",
+    "name": "PAIN MANAGEMENT-IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af22d322-d451-5432-a4c2-2d11428a6793"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801858501"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "875 8TH ST NE"
+        ],
+        "city": "MASSILLON",
+        "state": "OH",
+        "postalCode": "44646-8503"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2083"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2083.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:30ee3d27-2720-5f94-9eb6-520dfc3ffaea"
+}

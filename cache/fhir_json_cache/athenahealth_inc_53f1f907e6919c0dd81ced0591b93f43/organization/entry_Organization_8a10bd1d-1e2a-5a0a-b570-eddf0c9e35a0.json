@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8a10bd1d-1e2a-5a0a-b570-eddf0c9e35a0",
+    "name": "Lee Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/76575c17-3301-58f2-be2b-41c256edbda3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932575974"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "620 Laurel Street"
+        ],
+        "city": "LEE",
+        "state": "MA",
+        "postalCode": "01238-9181"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11991"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11991.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8a10bd1d-1e2a-5a0a-b570-eddf0c9e35a0"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b92cf799-60e3-5707-8135-5df33d8b94d3",
+    "name": "IMS Care Center - Primary Care - Phoenix",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/64a03284-ef31-5ef7-bf32-d35c2d3fc992"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760441141"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3815 E BELL RD",
+          "STE 4100"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85032-2167"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33227"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33227.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b92cf799-60e3-5707-8135-5df33d8b94d3"
+}

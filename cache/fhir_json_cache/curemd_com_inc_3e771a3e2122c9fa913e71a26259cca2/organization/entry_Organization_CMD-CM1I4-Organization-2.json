@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1I4-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1I4"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Livingston County Health Center",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6606465506"
+      },
+      {
+        "system": "fax",
+        "value": "6606464485"
+      },
+      {
+        "system": "url",
+        "value": "www.livcohealthcenter.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "800 Adam Drive Chillicothe MO 64601 US",
+        "line": [
+          "800 Adam Drive"
+        ],
+        "city": "Chillicothe",
+        "state": "MO",
+        "postalCode": "64601",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1I4-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1I4-Organization-2"
+}

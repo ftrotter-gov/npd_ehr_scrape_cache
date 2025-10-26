@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7e42c78f-f6c4-5bd3-a4a0-e520b5eb551b",
+    "name": "Doctors Office CT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f49b7c41-e25a-58ed-af84-ab17f6ab8ae0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962997940"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "40 E PUTNAM AVE"
+        ],
+        "city": "COS COB",
+        "state": "CT",
+        "postalCode": "06807-2600"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29110"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29110.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7e42c78f-f6c4-5bd3-a4a0-e520b5eb551b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6421fc65-b622-5670-9d29-eacd6dc9a277",
+    "name": "Randolph Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26ab2088-4794-5a1a-a96f-2428f0d912df"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851156707"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "120 S MAIN ST STE C"
+        ],
+        "city": "RANDOLPH",
+        "state": "UT",
+        "postalCode": "84064-7701"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28591"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28591.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6421fc65-b622-5670-9d29-eacd6dc9a277"
+}

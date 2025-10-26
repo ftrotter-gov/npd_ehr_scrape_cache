@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "876f23eb-d574-5346-97a1-29067d3f321d",
+    "name": "Premier Family Physicians at Lakeway",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5b6a7199-ffa1-510f-89aa-9d916534add2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235130592"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 Medical Parkway",
+          "Ste. 220"
+        ],
+        "city": "Lakeway",
+        "state": "TX",
+        "postalCode": "78738-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18292"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18292.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:876f23eb-d574-5346-97a1-29067d3f321d"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "707c330c-8a8b-539b-a9c5-19f84fc8abf8",
+    "name": "Central Family Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9dc5b6d6-812f-5efa-94f7-70ade921be9c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396395752"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3638 CENTRAL AVE NE"
+        ],
+        "city": "MINNEAPOLIS",
+        "state": "MN",
+        "postalCode": "55418-1343"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20378"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20378.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:707c330c-8a8b-539b-a9c5-19f84fc8abf8"
+}

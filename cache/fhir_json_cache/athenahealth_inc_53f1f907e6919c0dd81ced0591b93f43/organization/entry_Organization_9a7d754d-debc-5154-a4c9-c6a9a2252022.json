@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9a7d754d-debc-5154-a4c9-c6a9a2252022",
+    "name": "UMASS MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c731952b-76b1-5fa2-ae73-388eb280e199"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952695884"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "55 Lake Ave North"
+        ],
+        "city": "WORCESTER",
+        "state": "MA",
+        "postalCode": "01655-0002"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1559"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1559.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9a7d754d-debc-5154-a4c9-c6a9a2252022"
+}

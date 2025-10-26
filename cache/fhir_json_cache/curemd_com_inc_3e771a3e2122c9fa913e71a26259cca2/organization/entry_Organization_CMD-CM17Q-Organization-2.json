@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM17Q-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM17Q"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "INFECTIOUS DISEASE CONSULTANT",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2813518100"
+      }
+    ],
+    "address": [
+      {
+        "text": "150 PINE FOREST DRIVE SUITE # 102 SHENANDOAH TX 773845302 US",
+        "line": [
+          "150 PINE FOREST DRIVE",
+          "SUITE # 102"
+        ],
+        "city": "SHENANDOAH",
+        "state": "TX",
+        "postalCode": "773845302",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM17Q-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM17Q-Organization-2"
+}

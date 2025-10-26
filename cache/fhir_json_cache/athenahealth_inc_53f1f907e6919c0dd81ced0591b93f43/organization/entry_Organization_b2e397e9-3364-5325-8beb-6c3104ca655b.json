@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b2e397e9-3364-5325-8beb-6c3104ca655b",
+    "name": "Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3ee44571-72d1-5206-bbcf-24db781f4676"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831210517"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2050 STATE ROUTE 27",
+          "SUITE 101"
+        ],
+        "city": "NORTH BRUNSWICK",
+        "state": "NJ",
+        "postalCode": "08902-1380"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10095"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10095.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b2e397e9-3364-5325-8beb-6c3104ca655b"
+}

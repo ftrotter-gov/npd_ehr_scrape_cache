@@ -1,0 +1,39 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "hill1-419",
+    "meta": {
+      "lastUpdated": "2025-02-12T03:03:27Z",
+      "source": "Organization/419"
+    },
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Hillcrest Mayfield Eye Associates",
+    "managingOrganization": {
+      "reference": "Organization/419",
+      "type": "Organization"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+            "code": "any",
+            "display": "Any"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/fhir+xml",
+      "application/xml+fhir"
+    ],
+    "address": "https://hill1-fhir.practicegateway.net/smart"
+  },
+  "fullUrl": "https://fhir.practicegateway.net/smart/Endpoint/hill1-419"
+}

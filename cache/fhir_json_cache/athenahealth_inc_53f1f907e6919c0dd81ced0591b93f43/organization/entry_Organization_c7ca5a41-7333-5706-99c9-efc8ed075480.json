@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c7ca5a41-7333-5706-99c9-efc8ed075480",
+    "name": "Telemedicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2dabd784-2587-5a1a-b781-0321b0ed2267"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548752041"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2270 Joe Battle Blvd. Suite Q"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79938-2610"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18537"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18537.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c7ca5a41-7333-5706-99c9-efc8ed075480"
+}

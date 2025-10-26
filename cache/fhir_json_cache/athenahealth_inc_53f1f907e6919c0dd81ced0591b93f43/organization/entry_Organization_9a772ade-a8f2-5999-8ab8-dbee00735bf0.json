@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9a772ade-a8f2-5999-8ab8-dbee00735bf0",
+    "name": "POCONO MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/76e0a7ea-6757-5fbd-9072-192352a3ccf6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538254131"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "206 EAST BROWN STREET"
+        ],
+        "city": "EAST STROUDSBURG",
+        "state": "PA",
+        "postalCode": "18301-3006"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2106"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2106.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9a772ade-a8f2-5999-8ab8-dbee00735bf0"
+}

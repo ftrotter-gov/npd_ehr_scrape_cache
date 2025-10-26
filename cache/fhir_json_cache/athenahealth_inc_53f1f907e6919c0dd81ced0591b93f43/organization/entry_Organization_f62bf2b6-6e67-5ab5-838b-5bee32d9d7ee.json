@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f62bf2b6-6e67-5ab5-838b-5bee32d9d7ee",
+    "name": "Memorial Hospital Miramar",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ea595c23-8850-57a2-b4cf-dbe05252245b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841428919"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1901 South West 172nd Avenue"
+        ],
+        "city": "MIRAMAR",
+        "state": "FL",
+        "postalCode": "33029-5592"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2621"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2621.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f62bf2b6-6e67-5ab5-838b-5bee32d9d7ee"
+}

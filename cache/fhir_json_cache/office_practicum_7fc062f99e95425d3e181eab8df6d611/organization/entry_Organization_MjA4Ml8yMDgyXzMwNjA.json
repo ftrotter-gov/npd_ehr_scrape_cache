@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjA4Ml8yMDgyXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "906.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073570784"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Winsted Pediatrics CT",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "860-738-0400",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "860-738-0333",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "Winsted Pediatrics 115 spencer street 3RD FLR Winsted, CT 06098-1141",
+        "line": [
+          "Winsted Pediatrics",
+          "115 spencer street 3RD FLR"
+        ],
+        "city": "Winsted",
+        "state": "CT",
+        "postalCode": "06098-1141",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjA4Ml8yMDgyXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjA4Ml8yMDgyXzMwNjA"
+}

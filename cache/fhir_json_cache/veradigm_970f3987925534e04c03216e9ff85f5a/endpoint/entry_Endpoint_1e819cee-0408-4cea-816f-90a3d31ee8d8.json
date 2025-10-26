@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1e819cee-0408-4cea-816f-90a3d31ee8d8",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "b4da4d28-e88d-4623-bd43-8ea1868223a0",
+        "name": "Eden Internal Medicine"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Eden Internal Medicine",
+    "managingOrganization": {
+      "reference": "#b4da4d28-e88d-4623-bd43-8ea1868223a0"
+    },
+    "period": {
+      "start": "2018-01-04T19:08:51+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/56373"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/56373"
+}

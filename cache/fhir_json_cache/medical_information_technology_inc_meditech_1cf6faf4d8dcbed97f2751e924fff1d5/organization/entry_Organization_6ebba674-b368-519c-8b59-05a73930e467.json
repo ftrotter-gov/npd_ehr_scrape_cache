@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6ebba674-b368-519c-8b59-05a73930e467",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://chisaintjosephhealth.org/flaget-memorial-hospital"
+      }
+    ],
+    "name": "Flaget Memorial Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://chisaintjosephhealth.org/flaget-memorial-hospital"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4305 New Shepherdsville Road"
+        ],
+        "city": "Bardstown",
+        "state": "KY",
+        "postalCode": "40004",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:4a4535cf-37be-45d3-a01b-cc61570804ae"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:8b36fd6b-245d-5bce-82d2-181f9447a205"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:4a4535cf-37be-45d3-a01b-cc61570804ae"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6ebba674-b368-519c-8b59-05a73930e467"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9985c74-090e-5ba1-b7c6-9cf729c21b23",
+    "name": "Davita Northlake",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/17357171-c984-5ba0-9535-3b098f022e62"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063070654"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1350 Montreal Road",
+          "Suite 200"
+        ],
+        "city": "TUCKER",
+        "state": "GA",
+        "postalCode": "30084-8146"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20289"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20289.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9985c74-090e-5ba1-b7c6-9cf729c21b23"
+}

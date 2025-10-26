@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d0948180-5ef9-57e8-aace-e767545efc35",
+    "name": "Endocrinology Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ed09c14a-0bb4-5c6a-b6c5-3bb6e9dd4ad4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740417153"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1044 N. Mozart",
+          "Suite 205"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60622-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6283"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6283.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d0948180-5ef9-57e8-aace-e767545efc35"
+}

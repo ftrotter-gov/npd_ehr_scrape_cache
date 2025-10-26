@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9c7b697a-7756-5d60-afe5-3cf6c36c55d1",
+    "name": "St. John's Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/27623b7b-7c1b-5f7a-8ca1-ab1c678bba04"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073553590"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 North Rose Avenue"
+        ],
+        "city": "Oxnard",
+        "state": "CA",
+        "postalCode": "93030-3722"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1912"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1912.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9c7b697a-7756-5d60-afe5-3cf6c36c55d1"
+}

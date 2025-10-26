@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "89eee71f-4019-58a4-9ffc-61f5d9b371bd",
+    "name": "Familia First Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7d5a61e9-2c50-5090-be98-459ff8624b4d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871208074"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 S STATE ST STE B"
+        ],
+        "city": "CHAMPAIGN",
+        "state": "IL",
+        "postalCode": "61820-6877"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30500"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30500.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:89eee71f-4019-58a4-9ffc-61f5d9b371bd"
+}

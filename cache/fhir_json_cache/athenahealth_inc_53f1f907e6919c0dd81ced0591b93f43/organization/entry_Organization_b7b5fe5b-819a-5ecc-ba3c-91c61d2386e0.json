@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b7b5fe5b-819a-5ecc-ba3c-91c61d2386e0",
+    "name": "Spartanburg Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/241128cc-fb44-5a98-9a99-b1d5efa90e59"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750304002"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "391 Serpentine Drive"
+        ],
+        "city": "SPARTANBURG",
+        "state": "SC",
+        "postalCode": "29303-3079"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20461"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20461.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b7b5fe5b-819a-5ecc-ba3c-91c61d2386e0"
+}

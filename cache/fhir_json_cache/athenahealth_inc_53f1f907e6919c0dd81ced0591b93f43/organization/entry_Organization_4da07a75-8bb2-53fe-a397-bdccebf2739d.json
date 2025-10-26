@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4da07a75-8bb2-53fe-a397-bdccebf2739d",
+    "name": "St. Elizabeth's Medical Center (INP)",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/83dfab9e-6e51-5eb2-bb09-cc269044ef7f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497015507"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "736 CAMBRIDGE ST"
+        ],
+        "city": "BRIGHTON",
+        "state": "MA",
+        "postalCode": "02135-2907"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32236"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32236.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4da07a75-8bb2-53fe-a397-bdccebf2739d"
+}

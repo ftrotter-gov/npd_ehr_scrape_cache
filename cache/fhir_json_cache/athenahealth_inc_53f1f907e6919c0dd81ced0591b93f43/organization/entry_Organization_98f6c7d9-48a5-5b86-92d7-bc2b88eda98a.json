@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98f6c7d9-48a5-5b86-92d7-bc2b88eda98a",
+    "name": "Pathology-O'Bleness OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b46508f2-b52a-5311-955b-b487858aa8a3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982714358"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "55 Hospital Drive"
+        ],
+        "city": "ATHENS",
+        "state": "OH",
+        "postalCode": "45701-2860"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3310"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3310.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98f6c7d9-48a5-5b86-92d7-bc2b88eda98a"
+}

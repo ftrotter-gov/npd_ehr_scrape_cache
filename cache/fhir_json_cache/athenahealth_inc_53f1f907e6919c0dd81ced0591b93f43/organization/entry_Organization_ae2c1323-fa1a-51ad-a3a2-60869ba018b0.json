@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae2c1323-fa1a-51ad-a3a2-60869ba018b0",
+    "name": "Dr. Romero's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a7ef78e7-5811-5e0b-926e-53319e35d12f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194711820"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "133 DEFENSE HIGHWAY",
+          "SUITE 111"
+        ],
+        "city": "ANNAPOLIS",
+        "state": "MD",
+        "postalCode": "21401-7071"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4288"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4288.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae2c1323-fa1a-51ad-a3a2-60869ba018b0"
+}

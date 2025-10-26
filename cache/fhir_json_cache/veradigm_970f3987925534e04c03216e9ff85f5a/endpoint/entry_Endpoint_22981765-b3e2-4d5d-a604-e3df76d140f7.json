@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "22981765-b3e2-4d5d-a604-e3df76d140f7",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4b3e32b7-d832-4cd2-b17c-7d44ea6bf788",
+        "name": "Family First Of Jacksonville"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Family First Of Jacksonville",
+    "managingOrganization": {
+      "reference": "#4b3e32b7-d832-4cd2-b17c-7d44ea6bf788"
+    },
+    "period": {
+      "start": "2018-03-01T18:00:26+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76544"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76544"
+}

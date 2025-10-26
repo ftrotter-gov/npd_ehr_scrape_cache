@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b152463f-967d-544f-9eb7-5bc2aa66c0e5",
+    "name": "Tele-Peds",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/95bbfc36-33a3-5689-adb6-943ae1e9491f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457974222"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1704 LLANO ST STE B-1414"
+        ],
+        "city": "SANTA FE",
+        "state": "NM",
+        "postalCode": "87505-5415"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22000"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22000.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b152463f-967d-544f-9eb7-5bc2aa66c0e5"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c27c3000-49b6-58f3-a2a9-6b6af5c686a5",
+    "name": "Love In Action of the Tri-Cities",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/40a253e7-b792-528f-9020-45c68372ad96"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 JEFFERSON ST"
+        ],
+        "city": "MUSKEGON",
+        "state": "MI",
+        "postalCode": "49444-1444"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15079"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15079.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c27c3000-49b6-58f3-a2a9-6b6af5c686a5"
+}

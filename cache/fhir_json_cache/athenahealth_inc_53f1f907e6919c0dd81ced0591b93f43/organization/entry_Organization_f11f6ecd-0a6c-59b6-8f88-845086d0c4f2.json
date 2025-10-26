@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f11f6ecd-0a6c-59b6-8f88-845086d0c4f2",
+    "name": "VA_Vienna",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e736fba0-3ae7-51c5-819a-91ba429e5f25"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598524563"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8391 Old Courthouse Road",
+          "Suite 330"
+        ],
+        "city": "VIENNA",
+        "state": "VA",
+        "postalCode": "22180-4104"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32853"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32853.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f11f6ecd-0a6c-59b6-8f88-845086d0c4f2"
+}

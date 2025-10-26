@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8da70298-0a9b-51f0-8766-51786e83b04d",
+    "name": "Riverview Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/93cbaec6-eba9-5eb8-abb8-8907917a7e0b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437573664"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 JH Walker Drive"
+        ],
+        "city": "PENDLETON",
+        "state": "IN",
+        "postalCode": "46064-8730"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8718"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8718.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8da70298-0a9b-51f0-8766-51786e83b04d"
+}

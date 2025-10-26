@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0aed3a71-083a-5f5f-a950-db5ed7fad8bf",
+    "name": "Ranchero Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/93b010aa-ee4e-5d1c-ae8b-de9f83f7a7cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457245029"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "825 18TH ST",
+          "STE 238"
+        ],
+        "city": "CHARLESTON",
+        "state": "IL",
+        "postalCode": "61920-2940"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33791"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33791.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0aed3a71-083a-5f5f-a950-db5ed7fad8bf"
+}

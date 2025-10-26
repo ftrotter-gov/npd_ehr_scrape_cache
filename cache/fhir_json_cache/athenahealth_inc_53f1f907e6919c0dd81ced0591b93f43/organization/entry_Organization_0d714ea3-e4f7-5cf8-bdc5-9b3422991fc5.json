@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0d714ea3-e4f7-5cf8-bdc5-9b3422991fc5",
+    "name": "Catalight Care Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/56e0879b-1222-56a6-8502-262ea5aa3e5c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588157424"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700105079"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "77 N Almaden Ave #104"
+        ],
+        "city": "SAN JOSE",
+        "state": "CA",
+        "postalCode": "95110-2776"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9495"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9495.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0d714ea3-e4f7-5cf8-bdc5-9b3422991fc5"
+}

@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0W5-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0W5"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "County of Davidson",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3362422300"
+      },
+      {
+        "system": "fax",
+        "value": "3362422485"
+      },
+      {
+        "system": "url",
+        "value": "https://www.co.davidson.nc.us/200/Health"
+      }
+    ],
+    "address": [
+      {
+        "text": "915 Greensboro Street -- Lexington DAVIDSON NC 272922699 US",
+        "line": [
+          "915 Greensboro Street",
+          "--"
+        ],
+        "city": "Lexington",
+        "district": "DAVIDSON",
+        "state": "NC",
+        "postalCode": "272922699",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0W5-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0W5-Organization-2"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d8fc6d4-6f57-5087-9971-5f6ba48744d3",
+    "name": "Loredo Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b5ebea2e-1402-59aa-86e1-94cbcf9e820d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982653473"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4001 Cane Ridge Pkwy"
+        ],
+        "city": "ANTIOCH",
+        "state": "TN",
+        "postalCode": "37013-2971"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17007"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17007.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d8fc6d4-6f57-5087-9971-5f6ba48744d3"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a71d8574-e7bc-50c5-a05d-ea48158fb8b9",
+    "name": "Equal Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/727cf43f-d2bd-5865-9e98-ce12b1b4bc3d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780373290"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1720 PEACHTREE ST NW",
+          "STE 510"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30309-2462"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28026"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28026.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a71d8574-e7bc-50c5-a05d-ea48158fb8b9"
+}

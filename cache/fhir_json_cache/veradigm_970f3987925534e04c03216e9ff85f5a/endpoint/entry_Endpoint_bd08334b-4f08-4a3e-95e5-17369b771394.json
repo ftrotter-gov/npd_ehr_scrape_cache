@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "bd08334b-4f08-4a3e-95e5-17369b771394",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "6a849e08-edb9-456c-907b-6cae0fb8f677",
+        "name": "Thomas E Jackson Md"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Thomas E Jackson Md",
+    "managingOrganization": {
+      "reference": "#6a849e08-edb9-456c-907b-6cae0fb8f677"
+    },
+    "period": {
+      "start": "2020-12-16T10:24:58+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0011453"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0011453"
+}

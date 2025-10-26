@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c546950-e669-5ffd-a4d7-c7ab9020d472",
+    "name": "Athena Women's Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/766b7623-e92b-57e7-90ae-f2ea003f9b82"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033833728"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2647 REGENCY RD",
+          "STE 107"
+        ],
+        "city": "LEXINGTON",
+        "state": "KY",
+        "postalCode": "40503-2961"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31872"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31872.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c546950-e669-5ffd-a4d7-c7ab9020d472"
+}

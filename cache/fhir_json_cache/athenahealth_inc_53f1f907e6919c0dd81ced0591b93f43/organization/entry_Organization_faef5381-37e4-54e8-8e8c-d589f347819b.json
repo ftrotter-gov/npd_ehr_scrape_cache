@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "faef5381-37e4-54e8-8e8c-d589f347819b",
+    "name": "Orchard Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ee37158b-b4e7-5ddd-b402-19b8959f6d0c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467959155"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "240 Spruce St"
+        ],
+        "city": "GRIDLEY",
+        "state": "CA",
+        "postalCode": "95948-2216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10649"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10649.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:faef5381-37e4-54e8-8e8c-d589f347819b"
+}

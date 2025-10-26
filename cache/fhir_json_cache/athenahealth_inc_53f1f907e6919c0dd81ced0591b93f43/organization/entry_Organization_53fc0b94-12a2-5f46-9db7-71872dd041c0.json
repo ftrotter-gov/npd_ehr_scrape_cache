@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "53fc0b94-12a2-5f46-9db7-71872dd041c0",
+    "name": "Capital Health Primary Care-Mountain View",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/13e9f6c9-1d0c-58ec-ab89-e4f586c50b1f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083072342"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437516887"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "850 Bear Tavern Road",
+          "Suite 309"
+        ],
+        "city": "EWING",
+        "state": "NJ",
+        "postalCode": "08628-1018"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12833"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12833.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:53fc0b94-12a2-5f46-9db7-71872dd041c0"
+}

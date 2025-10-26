@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1a7b5cb9-64fe-577b-b5b3-c1636d9fd248",
+    "name": "FMC Weatherford Home Hemo",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dcec0fed-c623-55a0-bf5f-6684fef0451e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346250446"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2025 Fort Worth Highway",
+          "Suite 400"
+        ],
+        "city": "WEATHERFORD",
+        "state": "TX",
+        "postalCode": "76086-4777"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7543"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7543.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1a7b5cb9-64fe-577b-b5b3-c1636d9fd248"
+}

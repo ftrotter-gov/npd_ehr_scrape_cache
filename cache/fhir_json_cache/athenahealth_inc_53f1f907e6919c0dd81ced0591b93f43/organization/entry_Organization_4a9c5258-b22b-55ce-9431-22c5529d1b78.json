@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4a9c5258-b22b-55ce-9431-22c5529d1b78",
+    "name": "Hilltop Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1c34f500-0b33-589b-8bdd-1d85c0a4cd40"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821043837"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "217 Bulldog Blvd"
+        ],
+        "city": "CARBON HILL",
+        "state": "AL",
+        "postalCode": "35549-0019"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16425"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16425.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4a9c5258-b22b-55ce-9431-22c5529d1b78"
+}

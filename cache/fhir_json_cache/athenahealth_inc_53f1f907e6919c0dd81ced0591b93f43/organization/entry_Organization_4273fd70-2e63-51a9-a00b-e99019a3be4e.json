@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4273fd70-2e63-51a9-a00b-e99019a3be4e",
+    "name": "Gateway Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/794d86b3-d582-5016-812e-b09b3b277581"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083657829"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "647 Dunlop Ln"
+        ],
+        "city": "CLARKSVILLE",
+        "state": "TN",
+        "postalCode": "37040-5165"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1879"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1879.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4273fd70-2e63-51a9-a00b-e99019a3be4e"
+}

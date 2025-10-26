@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0ace639-045f-5d88-a70e-761288d7c642",
+    "name": "Victory Ministries Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/198a4820-5cc1-5564-94db-e5705ba6655a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3964 E MAIN STREET"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43213-2949"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19513"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19513.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0ace639-045f-5d88-a70e-761288d7c642"
+}

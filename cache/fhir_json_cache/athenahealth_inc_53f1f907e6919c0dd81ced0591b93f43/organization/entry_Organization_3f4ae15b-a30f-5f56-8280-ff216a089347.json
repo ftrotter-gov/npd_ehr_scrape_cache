@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f4ae15b-a30f-5f56-8280-ff216a089347",
+    "name": "Med Care - 35 White Street",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/78e19c3d-125c-573b-b586-4cb6089c412d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861176059"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "35 White Street",
+          "Suite 6"
+        ],
+        "city": "DANBURY",
+        "state": "CT",
+        "postalCode": "06810-3621"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27673"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27673.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f4ae15b-a30f-5f56-8280-ff216a089347"
+}

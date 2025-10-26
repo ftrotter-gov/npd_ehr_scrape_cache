@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e589cdf8-7335-43a3-849c-5d45c9c13fa2",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "fcfa6c7e-b44e-46ce-9d66-1c917fd84b26",
+        "name": "Henrietta Johnson Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Henrietta Johnson Medical Center",
+    "managingOrganization": {
+      "reference": "#fcfa6c7e-b44e-46ce-9d66-1c917fd84b26"
+    },
+    "period": {
+      "start": "2025-02-04T15:00:07+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042384"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042384"
+}

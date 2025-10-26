@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56e10c83-18de-5244-9655-d26d757383c7",
+    "name": "North Valley Rehab Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/226a6105-7864-5833-87c7-a24ebf73f462"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750372504"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8451 Pearl St."
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80229-4804"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1521"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1521.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56e10c83-18de-5244-9655-d26d757383c7"
+}

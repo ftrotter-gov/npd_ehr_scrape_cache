@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "386c69ba-c080-532b-9aa8-3dc01b90ae66",
+    "name": "Advanced Pain Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d26fa844-4a79-52dc-a6f5-0b928e4dcf59"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295055648"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1001 12th St. N"
+        ],
+        "city": "HUMBOLDT",
+        "state": "IA",
+        "postalCode": "50548-1166"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10988"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10988.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:386c69ba-c080-532b-9aa8-3dc01b90ae66"
+}

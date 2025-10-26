@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "03ae1a9b-7776-5cb1-8ca5-facfd551ceb2",
+    "name": "Nemasket Healthcare Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7bc11a46-6457-51d0-807c-12132206a929"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538172705"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "314 Marion Road"
+        ],
+        "city": "MIDDLEBORO",
+        "state": "MA",
+        "postalCode": "02346-3104"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-638"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-638.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:03ae1a9b-7776-5cb1-8ca5-facfd551ceb2"
+}

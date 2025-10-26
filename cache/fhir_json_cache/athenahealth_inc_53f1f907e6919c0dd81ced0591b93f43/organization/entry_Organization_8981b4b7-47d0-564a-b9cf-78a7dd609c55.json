@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8981b4b7-47d0-564a-b9cf-78a7dd609c55",
+    "name": "SGMH_Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8a2520fc-c922-587a-b2aa-21c8c4f36f83"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447200126"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 N Highland Springs Ave"
+        ],
+        "city": "BANNING",
+        "state": "CA",
+        "postalCode": "92220-3052"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8981b4b7-47d0-564a-b9cf-78a7dd609c55"
+}

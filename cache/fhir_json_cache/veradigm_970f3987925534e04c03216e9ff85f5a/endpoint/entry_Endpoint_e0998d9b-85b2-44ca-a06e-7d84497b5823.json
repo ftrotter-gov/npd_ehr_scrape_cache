@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e0998d9b-85b2-44ca-a06e-7d84497b5823",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "63e29e52-b3f4-4778-8e41-6ab74b556606",
+        "name": "Morris Ahdoot Inc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Morris Ahdoot Inc",
+    "managingOrganization": {
+      "reference": "#63e29e52-b3f4-4778-8e41-6ab74b556606"
+    },
+    "period": {
+      "start": "2023-04-11T08:52:15+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/74419"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/74419"
+}

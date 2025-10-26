@@ -1,0 +1,77 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "79c58c14-aabb-5328-8046-97765eb96c7b",
+    "meta": {
+      "lastUpdated": "2023-11-06T11:33:21.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://crmcinc.org"
+      }
+    ],
+    "name": "Coffeyville Regional Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://crmcinc.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1400 West Fourth Street"
+        ],
+        "city": "Coffeyville",
+        "state": "KS",
+        "postalCode": "67337",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:c059e1d4-c414-5ee8-a61b-b7115b94299e"
+      },
+      {
+        "reference": "urn:uuid:80b31b9a-7179-5549-b14a-bc3bcbf460b9"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:c059e1d4-c414-5ee8-a61b-b7115b94299e"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:80b31b9a-7179-5549-b14a-bc3bcbf460b9"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:79c58c14-aabb-5328-8046-97765eb96c7b"
+}

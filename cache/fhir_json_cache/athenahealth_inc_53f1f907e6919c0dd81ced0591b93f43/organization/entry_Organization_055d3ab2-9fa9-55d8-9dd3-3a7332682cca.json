@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "055d3ab2-9fa9-55d8-9dd3-3a7332682cca",
+    "name": "Palms West Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6ebbeed9-4123-5a3f-9dd0-7d1c905e44cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346209244"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13001 Southern Blvd"
+        ],
+        "city": "LOXAHATCHEE",
+        "state": "FL",
+        "postalCode": "33470-9212"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17796"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17796.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:055d3ab2-9fa9-55d8-9dd3-3a7332682cca"
+}

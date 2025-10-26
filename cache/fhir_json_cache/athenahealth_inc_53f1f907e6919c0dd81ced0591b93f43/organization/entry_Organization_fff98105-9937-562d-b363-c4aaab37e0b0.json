@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fff98105-9937-562d-b363-c4aaab37e0b0",
+    "name": "DME-NH",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/da824204-6c2e-5518-a130-471d12dfa13e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487846739"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10 N LOCUST ST",
+          "SUITE B"
+        ],
+        "city": "OXFORD",
+        "state": "OH",
+        "postalCode": "45056-1192"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1983"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1983.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fff98105-9937-562d-b363-c4aaab37e0b0"
+}

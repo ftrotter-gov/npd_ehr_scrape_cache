@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a7087a6c-51c4-49ee-a244-f329e8ba77e5",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c3beaf4c-6abb-4c40-91f6-515a2027993a",
+        "name": "Los Angeles LGBT Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Los Angeles LGBT Center",
+    "managingOrganization": {
+      "reference": "#c3beaf4c-6abb-4c40-91f6-515a2027993a"
+    },
+    "period": {
+      "start": "2019-07-12T10:14:24+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/60317"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/60317"
+}

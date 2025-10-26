@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ee8a8c9f-f991-507d-8201-3c05eb5ccfe2",
+    "name": "Harmon Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1dab6046-22ce-5d96-8660-86832dcd7b2d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568062446"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "828 Creswell Ln"
+        ],
+        "city": "OPELOUSAS",
+        "state": "LA",
+        "postalCode": "70570-5882"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27785"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27785.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ee8a8c9f-f991-507d-8201-3c05eb5ccfe2"
+}

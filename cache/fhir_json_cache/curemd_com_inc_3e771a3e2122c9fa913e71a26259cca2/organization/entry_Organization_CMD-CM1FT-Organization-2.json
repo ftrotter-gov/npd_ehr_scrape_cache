@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1FT-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1FT"
+        }
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740227495"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "City of Garland Public Health Clinic",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9722053370"
+      },
+      {
+        "system": "fax",
+        "value": "9722053375"
+      },
+      {
+        "system": "url",
+        "value": "https://www.garlandtx.gov/762/Public-Health-Clinic"
+      }
+    ],
+    "address": [
+      {
+        "text": "206 Carver Street Garland TX 750407361 US",
+        "line": [
+          "206 Carver Street"
+        ],
+        "city": "Garland",
+        "state": "TX",
+        "postalCode": "750407361",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1FT-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1FT-Organization-2"
+}

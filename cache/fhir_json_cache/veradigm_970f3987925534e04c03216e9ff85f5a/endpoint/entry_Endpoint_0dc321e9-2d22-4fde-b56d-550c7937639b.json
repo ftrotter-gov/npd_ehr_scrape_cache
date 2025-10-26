@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0dc321e9-2d22-4fde-b56d-550c7937639b",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "7a305595-b75f-47aa-bbcc-5c9d165d2650",
+        "name": "eHealth Consulting"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "eHealth Consulting",
+    "managingOrganization": {
+      "reference": "#7a305595-b75f-47aa-bbcc-5c9d165d2650"
+    },
+    "period": {
+      "start": "2023-07-19T19:22:15+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10226803"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10226803"
+}

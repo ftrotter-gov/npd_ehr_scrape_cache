@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7415ddb8-d2ab-5abf-b06e-44e72b706dca",
+    "meta": {
+      "lastUpdated": "2022-03-28T22:51:59.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://halifaxhealth.org"
+      }
+    ],
+    "name": "Halifax Health",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://halifaxhealth.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "303 North Clyde Morris Blvd"
+        ],
+        "city": "Daytona Beach",
+        "state": "FL",
+        "postalCode": "32114-2709",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:81725f5e-d5ed-510a-be90-5f9f9ef5c89c"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:81725f5e-d5ed-510a-be90-5f9f9ef5c89c"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7415ddb8-d2ab-5abf-b06e-44e72b706dca"
+}

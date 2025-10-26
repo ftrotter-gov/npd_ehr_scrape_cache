@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0cf3f570-e1df-523c-ad51-12ebd5ff64bd",
+    "name": "I-CARE Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2eb01ecc-3617-5772-a6d0-35e02145f153"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356665715"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2605 PARKER RD"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77093-4606"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29512"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29512.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0cf3f570-e1df-523c-ad51-12ebd5ff64bd"
+}

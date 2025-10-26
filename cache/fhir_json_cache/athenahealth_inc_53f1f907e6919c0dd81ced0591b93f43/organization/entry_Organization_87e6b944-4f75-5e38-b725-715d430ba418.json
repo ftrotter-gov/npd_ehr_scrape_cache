@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "87e6b944-4f75-5e38-b725-715d430ba418",
+    "name": "Instant Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f9d45f64-f1bd-5e1a-8161-5b5ce80ed119"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861970733"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5138 Monterey Hwy",
+          "Suite G"
+        ],
+        "city": "SAN JOSE",
+        "state": "CA",
+        "postalCode": "95111-4382"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11381"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11381.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:87e6b944-4f75-5e38-b725-715d430ba418"
+}

@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0SZ-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0SZ"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Young Minds Psychiatry",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6786157032"
+      },
+      {
+        "system": "fax",
+        "value": "6782810592"
+      },
+      {
+        "system": "url",
+        "value": "ympsychiatry.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "750 Hammond Drive Building 14, Suite 100 Atlanta GA 30328 US",
+        "line": [
+          "750 Hammond Drive Building 14, Suite 100"
+        ],
+        "city": "Atlanta",
+        "state": "GA",
+        "postalCode": "30328",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0SZ-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0SZ-Organization-2"
+}

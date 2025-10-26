@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "931ed31c-9f6d-5190-8a9a-915e0f01277a",
+    "name": "New Albany Surgical Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ea219483-ed18-57ab-8740-9174a430e009"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306845078"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7333 Smith's Mill Rd"
+        ],
+        "city": "NEW ALBANY",
+        "state": "OH",
+        "postalCode": "43054-9291"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-548"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-548.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:931ed31c-9f6d-5190-8a9a-915e0f01277a"
+}

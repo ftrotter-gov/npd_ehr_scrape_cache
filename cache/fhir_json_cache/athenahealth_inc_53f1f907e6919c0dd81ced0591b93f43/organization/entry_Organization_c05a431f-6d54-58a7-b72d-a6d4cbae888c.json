@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c05a431f-6d54-58a7-b72d-a6d4cbae888c",
+    "name": "IPW - Lee Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b7f3924b-daa3-5e0a-8519-e7e1c6edcaa1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871975920"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7114 W. Capitol Drive"
+        ],
+        "city": "MILWAUKEE",
+        "state": "WI",
+        "postalCode": "53216-1234"
+      },
+      {
+        "line": [
+          "501 Superior Ave"
+        ],
+        "city": "SHEBOYGAN",
+        "state": "WI",
+        "postalCode": "53081-2855"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18758"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18758.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c05a431f-6d54-58a7-b72d-a6d4cbae888c"
+}

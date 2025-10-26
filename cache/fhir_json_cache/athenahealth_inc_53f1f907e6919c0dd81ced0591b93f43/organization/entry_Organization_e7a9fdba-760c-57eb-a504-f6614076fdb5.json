@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7a9fdba-760c-57eb-a504-f6614076fdb5",
+    "name": "The SOAR Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a156a286-a2be-5e34-be76-1ac618248fa9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346014800"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "815 North Main St",
+          "Suite D"
+        ],
+        "city": "TAYLOR",
+        "state": "AZ",
+        "postalCode": "85939-1249"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31072"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31072.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7a9fdba-760c-57eb-a504-f6614076fdb5"
+}

@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "189",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "189",
+        "name": "Albemarle Pediatric Ophthalmology & Strabismus PC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Albemarle Pediatric Ophthalmology & Strabismus PC",
+    "managingOrganization": {
+      "reference": "#189"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://albpedoph.mdnavigatorclinical.com/prognocis/fhir/albpedoph"
+  },
+  "fullUrl": "https://albpedoph.mdnavigatorclinical.com/prognocis/fhir/albpedoph"
+}

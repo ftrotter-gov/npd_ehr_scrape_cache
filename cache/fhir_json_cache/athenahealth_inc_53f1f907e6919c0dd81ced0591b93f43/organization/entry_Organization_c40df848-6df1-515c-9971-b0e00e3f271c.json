@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c40df848-6df1-515c-9971-b0e00e3f271c",
+    "name": "Medical City Alliance IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/31f93f3a-3859-5192-a110-2248a3944fa6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023119336"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3101 N TARRANT PKWY"
+        ],
+        "city": "FORT WORTH",
+        "state": "TX",
+        "postalCode": "76177-8656"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29952"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29952.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c40df848-6df1-515c-9971-b0e00e3f271c"
+}

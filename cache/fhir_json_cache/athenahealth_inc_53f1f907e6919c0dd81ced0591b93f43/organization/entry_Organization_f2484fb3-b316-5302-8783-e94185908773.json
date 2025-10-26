@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f2484fb3-b316-5302-8783-e94185908773",
+    "name": "BNA Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e9b62bb1-bc83-5e64-a2fd-280fcf5fae63"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922523042"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "623 PAINT CREEK CT"
+        ],
+        "city": "MURPHY",
+        "state": "TX",
+        "postalCode": "75094-5302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19097"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19097.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f2484fb3-b316-5302-8783-e94185908773"
+}

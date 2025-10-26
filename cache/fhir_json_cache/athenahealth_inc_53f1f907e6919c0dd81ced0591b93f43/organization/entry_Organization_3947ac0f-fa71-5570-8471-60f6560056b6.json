@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3947ac0f-fa71-5570-8471-60f6560056b6",
+    "name": "IMAN Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/41fad107-9501-5bfc-b9a9-c32561a29fda"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003244567"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2744 W 63RD ST"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60629-2343"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12349"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12349.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3947ac0f-fa71-5570-8471-60f6560056b6"
+}

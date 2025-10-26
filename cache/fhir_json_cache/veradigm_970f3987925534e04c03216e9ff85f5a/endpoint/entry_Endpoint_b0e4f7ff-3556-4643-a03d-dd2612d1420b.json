@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "b0e4f7ff-3556-4643-a03d-dd2612d1420b",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "5ba0cc49-d872-469b-9676-4b4ab22b6882",
+        "name": "Cornerstone Medical Clinic"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Cornerstone Medical Clinic",
+    "managingOrganization": {
+      "reference": "#5ba0cc49-d872-469b-9676-4b4ab22b6882"
+    },
+    "period": {
+      "start": "2018-12-27T15:28:17+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/56435"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/56435"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1aebee07-3db2-55cc-ac11-14573cc21fc2",
+    "name": "PAM Rehabilitation Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca34d442-49a0-59b3-a930-497f04344e56"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659387934"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 N Tenaya Way"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89128-0482"
+      },
+      {
+        "line": [
+          "6166 N Durango Dr"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89149-3912"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29724"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29724.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1aebee07-3db2-55cc-ac11-14573cc21fc2"
+}

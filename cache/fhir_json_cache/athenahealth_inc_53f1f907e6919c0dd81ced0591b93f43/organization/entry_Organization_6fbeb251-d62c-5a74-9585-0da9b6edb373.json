@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6fbeb251-d62c-5a74-9585-0da9b6edb373",
+    "name": "PATIENTS HOME",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cfd1c147-754e-5132-add4-5c5648df3426"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194265595"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2301 REXWOODS DR STE 118"
+        ],
+        "city": "RALEIGH",
+        "state": "NC",
+        "postalCode": "27607-3366"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15768"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15768.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6fbeb251-d62c-5a74-9585-0da9b6edb373"
+}

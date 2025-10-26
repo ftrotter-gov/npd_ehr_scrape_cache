@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "89e93223-b1b4-527f-beea-3480e18b1ec8",
+    "name": "Deliverance Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f96eb2b0-ff7e-5a8b-9a3a-7f1b5f3aad57"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "660 SW MILITARY DRIVE",
+          "SUITE E"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78221-1671"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19029"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19029.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:89e93223-b1b4-527f-beea-3480e18b1ec8"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c13ad50-db45-5ac7-8624-f0a25e2e5ca7",
+    "name": "Mainstreet Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a5cc08f4-9eea-5678-85c8-cc8ca9e4ff27"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720511058"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9235 CROWN CREST BLVD",
+          "SUITE 100"
+        ],
+        "city": "PARKER",
+        "state": "CO",
+        "postalCode": "80138-8881"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15564"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15564.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c13ad50-db45-5ac7-8624-f0a25e2e5ca7"
+}

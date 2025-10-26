@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1DZ-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1DZ"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Western Wyoming Family Planning",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3073626813"
+      },
+      {
+        "system": "fax",
+        "value": "3073626791"
+      },
+      {
+        "system": "url",
+        "value": "westernwyomingfamilyplanning.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "333 Broadway, Suite 120 Rock Springs WY 82901 US",
+        "line": [
+          "333 Broadway, Suite 120"
+        ],
+        "city": "Rock Springs",
+        "state": "WY",
+        "postalCode": "82901",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1DZ-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1DZ-Organization-2"
+}

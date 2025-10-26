@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "81e5bd9d-6e21-5a92-abb1-9f7251e3fa81",
+    "name": "St Ann's Hospital Out Patient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ea219483-ed18-57ab-8740-9174a430e009"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306845078"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 Cleveland Ave"
+        ],
+        "city": "WESTERVILLE",
+        "state": "OH",
+        "postalCode": "43081-8998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-548"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-548.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:81e5bd9d-6e21-5a92-abb1-9f7251e3fa81"
+}

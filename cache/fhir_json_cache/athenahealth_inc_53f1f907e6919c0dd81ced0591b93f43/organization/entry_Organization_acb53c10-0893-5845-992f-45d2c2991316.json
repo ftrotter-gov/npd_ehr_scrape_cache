@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "acb53c10-0893-5845-992f-45d2c2991316",
+    "name": "St. John's Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b1dc6048-41aa-5bfe-946b-02b5c49bcf20"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548567498"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386911006"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 North Rose Ave"
+        ],
+        "city": "OXNARD",
+        "state": "CA",
+        "postalCode": "93030-3722"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3663"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3663.Brand-14"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:acb53c10-0893-5845-992f-45d2c2991316"
+}

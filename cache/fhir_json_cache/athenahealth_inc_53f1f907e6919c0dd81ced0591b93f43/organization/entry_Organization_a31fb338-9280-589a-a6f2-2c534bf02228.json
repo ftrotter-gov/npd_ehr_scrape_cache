@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a31fb338-9280-589a-a6f2-2c534bf02228",
+    "name": "BILLING Heart of Kansas Family Health Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/17e49487-f378-5192-8e0e-faec467171ca"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184739443"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1821 Kansas Ave."
+        ],
+        "city": "GREAT BEND",
+        "state": "KS",
+        "postalCode": "67530-2502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20094"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20094.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a31fb338-9280-589a-a6f2-2c534bf02228"
+}

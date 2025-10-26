@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f6e1ec55-d455-5ffc-8bde-e2bc7ab9959d",
+    "name": "Blue Mountain Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fac648a0-8af9-575c-9f2a-a60905e662f9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811991151"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "802 South 200 West"
+        ],
+        "city": "BLANDING",
+        "state": "UT",
+        "postalCode": "84511-3910"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16098"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16098.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f6e1ec55-d455-5ffc-8bde-e2bc7ab9959d"
+}

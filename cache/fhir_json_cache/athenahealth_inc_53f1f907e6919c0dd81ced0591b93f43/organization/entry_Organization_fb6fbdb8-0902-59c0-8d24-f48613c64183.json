@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fb6fbdb8-0902-59c0-8d24-f48613c64183",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9b9db22e-003e-5a4c-9177-33e1f234bf99"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700854148"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2700 QUARRY LAKE DRIVE",
+          "SUITE 260"
+        ],
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postalCode": "21209-3742"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13697"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13697.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fb6fbdb8-0902-59c0-8d24-f48613c64183"
+}

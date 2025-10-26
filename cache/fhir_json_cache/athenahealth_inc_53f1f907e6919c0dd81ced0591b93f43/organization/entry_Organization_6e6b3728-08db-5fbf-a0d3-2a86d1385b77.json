@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e6b3728-08db-5fbf-a0d3-2a86d1385b77",
+    "name": "POSM_Omega Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4fa497cd-3948-5ad1-8832-3f13311761b6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649351529"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2525 SEVERN AVE"
+        ],
+        "city": "METAIRIE",
+        "state": "LA",
+        "postalCode": "70002-5932"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29975"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29975.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e6b3728-08db-5fbf-a0d3-2a86d1385b77"
+}

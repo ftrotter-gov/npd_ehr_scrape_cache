@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b30d9c0f-6bbf-5558-9d62-64fb8b8b2174",
+    "name": "Mercy Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e8177e56-b479-5c00-97cc-784cd7709006"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366542342"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "271 Carew Street"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "postalCode": "01104-2377"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12089"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12089.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b30d9c0f-6bbf-5558-9d62-64fb8b8b2174"
+}

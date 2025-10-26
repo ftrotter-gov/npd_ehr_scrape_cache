@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b15fc401-d737-519e-a922-524cc2ad82a4",
+    "name": "Montebello Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f39c29b9-252a-5a47-b02d-f4842e087936"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073110607"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2444 W BEVERLY BLVD"
+        ],
+        "city": "MONTEBELLO",
+        "state": "CA",
+        "postalCode": "90640-2306"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32527"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32527.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b15fc401-d737-519e-a922-524cc2ad82a4"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2001ce02-d832-58b6-86a3-58b1c83bd4bc",
+    "name": "Northeast Prohealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd850c2a-eb80-54ba-bf0c-2bb9ecbb15b0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336491315"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12501 JUDSON RD, SUITE 202"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78233-4117"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6170"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6170.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2001ce02-d832-58b6-86a3-58b1c83bd4bc"
+}

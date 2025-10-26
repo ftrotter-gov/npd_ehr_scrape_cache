@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fdcedf8d-391a-5b59-a5a3-1cabbfb55293",
+    "name": "Dr. Umstattd's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/761ed5a0-17ac-5461-9b59-a0f79c55a5cb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124046701"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3008 DAWN DR STE 201"
+        ],
+        "city": "GEORGETOWN",
+        "state": "TX",
+        "postalCode": "78628-2822"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16242"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16242.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fdcedf8d-391a-5b59-a5a3-1cabbfb55293"
+}

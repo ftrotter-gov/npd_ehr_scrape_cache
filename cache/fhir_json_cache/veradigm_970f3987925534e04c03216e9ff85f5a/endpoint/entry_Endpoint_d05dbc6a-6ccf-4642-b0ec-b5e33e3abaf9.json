@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "d05dbc6a-6ccf-4642-b0ec-b5e33e3abaf9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "bfe84176-85ac-4965-9bb6-515565530ca8",
+        "name": "Bedford Surgical"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Bedford Surgical",
+    "managingOrganization": {
+      "reference": "#bfe84176-85ac-4965-9bb6-515565530ca8"
+    },
+    "period": {
+      "start": "2018-06-25T16:21:55+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0011059S"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0011059S"
+}

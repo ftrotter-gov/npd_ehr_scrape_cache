@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db260cc5-cb86-5293-be11-81aec2a71c37",
+    "name": "OPHR - Rose IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/912d5816-eba2-5e5d-b250-766cbd8fc8da"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821413923"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4567 E 9th Ave"
+        ],
+        "city": "Denver",
+        "state": "CO",
+        "postalCode": "80220-3908"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9821"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9821.Brand-11"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db260cc5-cb86-5293-be11-81aec2a71c37"
+}

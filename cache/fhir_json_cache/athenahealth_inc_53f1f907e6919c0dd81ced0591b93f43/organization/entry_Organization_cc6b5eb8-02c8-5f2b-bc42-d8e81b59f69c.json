@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cc6b5eb8-02c8-5f2b-bc42-d8e81b59f69c",
+    "name": "Pediatric Partners - Jupiter",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/71043b12-ba0a-5ea0-a375-de765d0ddafe"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861574030"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1025 MILITARY TRAIL",
+          "SUITE 109"
+        ],
+        "city": "JUPITER",
+        "state": "FL",
+        "postalCode": "33458-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-646"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-646.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cc6b5eb8-02c8-5f2b-bc42-d8e81b59f69c"
+}

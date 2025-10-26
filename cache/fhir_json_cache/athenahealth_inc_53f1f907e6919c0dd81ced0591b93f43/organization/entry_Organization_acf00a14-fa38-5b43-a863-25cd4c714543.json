@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "acf00a14-fa38-5b43-a863-25cd4c714543",
+    "name": "DMC Livonia Outpatient Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8db52f82-acf1-5fad-85fe-a8fcee64cdd4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073827101"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "36622 Five Mile Road",
+          "Suite 210"
+        ],
+        "city": "LIVONIA",
+        "state": "MI",
+        "postalCode": "48154-1900"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9704"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9704.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:acf00a14-fa38-5b43-a863-25cd4c714543"
+}

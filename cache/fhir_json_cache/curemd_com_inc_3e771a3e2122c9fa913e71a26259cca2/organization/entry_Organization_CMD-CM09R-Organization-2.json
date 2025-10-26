@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM09R-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM09R"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Falwell Family Medicine",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8703070264"
+      },
+      {
+        "system": "fax",
+        "value": "8703070382"
+      }
+    ],
+    "address": [
+      {
+        "text": "2201 Harrison St Batesville AR 725017418 US",
+        "line": [
+          "2201 Harrison St"
+        ],
+        "city": "Batesville",
+        "state": "AR",
+        "postalCode": "725017418",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM09R-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM09R-Organization-2"
+}

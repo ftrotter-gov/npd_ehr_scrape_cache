@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5cc5ba0b-c2d1-52fa-8b80-9e2da698dd1b",
+    "name": "Encompass Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9ee3a55-940b-53f2-a265-8f2893bb73ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699762286"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "250 Green Street",
+          "Suite 208"
+        ],
+        "city": "GARDNER",
+        "state": "MA",
+        "postalCode": "01440-2927"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-192"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-192.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5cc5ba0b-c2d1-52fa-8b80-9e2da698dd1b"
+}

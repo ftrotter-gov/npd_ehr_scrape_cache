@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "af8d1c25-68e1-53b0-9dc3-3691ffe88781",
+    "name": "Bryan Medical Center East IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a0252ec9-ab5e-5f98-9da7-5a34e5731a51"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114409984"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 S 48th St"
+        ],
+        "city": "LINCOLN",
+        "state": "NE",
+        "postalCode": "68506-1283"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18186"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18186.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:af8d1c25-68e1-53b0-9dc3-3691ffe88781"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d45fc394-a815-5e07-a46a-0aafaaa35d2c",
+    "name": "Wound Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a7c23728-099f-56fc-9ae8-925058e2e1d5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790945160"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10 Research Place",
+          "Suite 206"
+        ],
+        "city": "N. Chelmsford",
+        "state": "MA",
+        "postalCode": "01863-2456"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1850"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1850.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d45fc394-a815-5e07-a46a-0aafaaa35d2c"
+}

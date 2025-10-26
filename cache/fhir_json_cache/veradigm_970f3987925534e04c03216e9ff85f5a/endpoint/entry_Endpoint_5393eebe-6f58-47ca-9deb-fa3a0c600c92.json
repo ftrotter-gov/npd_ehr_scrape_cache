@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5393eebe-6f58-47ca-9deb-fa3a0c600c92",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "fd7ea615-e2d3-473c-8988-08f52ea41c4c",
+        "name": "Northern Arizona Gastroenterology"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Northern Arizona Gastroenterology",
+    "managingOrganization": {
+      "reference": "#fd7ea615-e2d3-473c-8988-08f52ea41c4c"
+    },
+    "period": {
+      "start": "2018-09-27T15:19:57+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10053936"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10053936"
+}

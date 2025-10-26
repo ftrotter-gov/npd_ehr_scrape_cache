@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b59173ad-c288-566e-9f52-2c620fe471b2",
+    "name": "Ashburnham Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9ee3a55-940b-53f2-a265-8f2893bb73ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699762286"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "61 Main Street"
+        ],
+        "city": "ASHBURNHAM",
+        "state": "MA",
+        "postalCode": "01430-1247"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-192"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-192.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b59173ad-c288-566e-9f52-2c620fe471b2"
+}

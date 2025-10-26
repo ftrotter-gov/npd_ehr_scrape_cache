@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e60a93a8-e9fc-573d-bcdb-9f57ce25b5f7",
+    "name": "Surgery Center of Des Moines-West",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/25b15f96-eda6-5972-bc4a-8349af770e07"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144646787"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5901 Westown Parkway",
+          "Suite 100"
+        ],
+        "city": "WEST DES MOINES",
+        "state": "IA",
+        "postalCode": "50266-1900"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20165"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20165.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e60a93a8-e9fc-573d-bcdb-9f57ce25b5f7"
+}

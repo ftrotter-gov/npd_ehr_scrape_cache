@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0096902-32a6-5ed3-a011-37f6596c8b0c",
+    "name": "Oxford After Hours",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d589fcb6-f6e5-5fe2-8986-6bd14e90d142"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578879235"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1929 University Ave"
+        ],
+        "city": "OXFORD",
+        "state": "MS",
+        "postalCode": "38655-4113"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2942"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2942.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0096902-32a6-5ed3-a011-37f6596c8b0c"
+}

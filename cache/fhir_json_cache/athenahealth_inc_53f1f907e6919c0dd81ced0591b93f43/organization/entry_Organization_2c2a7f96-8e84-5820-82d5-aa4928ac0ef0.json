@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c2a7f96-8e84-5820-82d5-aa4928ac0ef0",
+    "name": "Hillandale Internal Medicine - 5910 Hillandale Drive",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013313857"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5910 Hillandale Drive",
+          "Suite 355"
+        ],
+        "city": "LITHONIA",
+        "state": "GA",
+        "postalCode": "30058-1880"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c2a7f96-8e84-5820-82d5-aa4928ac0ef0"
+}

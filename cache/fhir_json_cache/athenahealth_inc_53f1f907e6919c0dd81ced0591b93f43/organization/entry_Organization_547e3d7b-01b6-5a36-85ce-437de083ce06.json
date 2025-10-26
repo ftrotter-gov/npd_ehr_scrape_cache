@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "547e3d7b-01b6-5a36-85ce-437de083ce06",
+    "name": "Vitalize Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f7f9f1e5-28ed-5b37-95d4-eb31b232ea32"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710540307"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6030 Village Dr",
+          "Ste 100"
+        ],
+        "city": "LINCOLN",
+        "state": "NE",
+        "postalCode": "68516-4773"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20975"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20975.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:547e3d7b-01b6-5a36-85ce-437de083ce06"
+}

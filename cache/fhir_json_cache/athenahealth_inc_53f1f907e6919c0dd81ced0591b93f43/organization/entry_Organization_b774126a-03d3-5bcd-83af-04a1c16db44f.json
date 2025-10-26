@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b774126a-03d3-5bcd-83af-04a1c16db44f",
+    "name": "Ambulatory Adult Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cd2004de-e34a-5e61-859a-c0a920e25177"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932180205"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1503 Landsdowne Ave"
+        ],
+        "city": "DARBY",
+        "state": "PA",
+        "postalCode": "19023-1200"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16196"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16196.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b774126a-03d3-5bcd-83af-04a1c16db44f"
+}

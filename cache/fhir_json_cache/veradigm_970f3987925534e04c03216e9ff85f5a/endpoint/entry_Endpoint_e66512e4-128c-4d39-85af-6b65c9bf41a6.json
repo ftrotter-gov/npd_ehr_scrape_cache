@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e66512e4-128c-4d39-85af-6b65c9bf41a6",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "52b20202-e435-429e-84da-17a122d65453",
+        "name": "Champlain Ctr For Natural Med"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Champlain Ctr For Natural Med",
+    "managingOrganization": {
+      "reference": "#52b20202-e435-429e-84da-17a122d65453"
+    },
+    "period": {
+      "start": "2024-01-18T18:52:39+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10017271"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10017271"
+}

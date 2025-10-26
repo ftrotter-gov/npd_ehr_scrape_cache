@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5f5a8573-9cd0-5ec4-a142-fe1fb33fc81a",
+    "name": "Frederick Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9466d562-2b85-591f-b851-7e59b6625b92"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982976056"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "45 Thomas Johnson Dr",
+          "Suite 207"
+        ],
+        "city": "FREDERICK",
+        "state": "MD",
+        "postalCode": "21702-4490"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16284"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16284.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5f5a8573-9cd0-5ec4-a142-fe1fb33fc81a"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ba235533-b796-536e-bbe1-35becada601d",
+    "name": "Dr Catalano",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8ad2bf97-62d1-5830-b282-fc463f9d7930"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245430909"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "119 OCEAN AVE",
+          "STE 1"
+        ],
+        "city": "JERSEY CITY",
+        "state": "NJ",
+        "postalCode": "07305-2500"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22239"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22239.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ba235533-b796-536e-bbe1-35becada601d"
+}

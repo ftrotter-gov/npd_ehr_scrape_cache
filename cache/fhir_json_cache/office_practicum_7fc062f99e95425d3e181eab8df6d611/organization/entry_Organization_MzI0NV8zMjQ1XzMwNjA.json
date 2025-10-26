@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MzI0NV8zMjQ1XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1190.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942497292"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Anthem Pediatrics",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "702-263-7800",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "702-263-0087",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "2510 W Horizon Ridge Pkwy Suite 130 Henderson, NV 890521600",
+        "line": [
+          "2510 W Horizon Ridge Pkwy",
+          "Suite 130"
+        ],
+        "city": "Henderson",
+        "state": "NV",
+        "postalCode": "890521600",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MzI0NV8zMjQ1XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MzI0NV8zMjQ1XzMwNjA"
+}

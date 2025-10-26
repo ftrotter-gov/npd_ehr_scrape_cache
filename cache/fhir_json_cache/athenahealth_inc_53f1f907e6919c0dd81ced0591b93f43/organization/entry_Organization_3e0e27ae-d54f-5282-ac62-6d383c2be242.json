@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3e0e27ae-d54f-5282-ac62-6d383c2be242",
+    "name": "WESLEY MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/426612b5-33d5-5c64-96b1-111def58fec8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538200209"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5001 Hardy St."
+        ],
+        "city": "HATTIESBURG",
+        "state": "MS",
+        "postalCode": "39402-1308"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1930"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1930.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3e0e27ae-d54f-5282-ac62-6d383c2be242"
+}

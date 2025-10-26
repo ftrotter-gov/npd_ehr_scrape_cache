@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cb5ad235-7951-5483-ab52-bfb9d39e28c4",
+    "name": "Texas Health Presbyterian Hospital Denton - OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bd770997-4b55-5908-b051-ce951b7e257f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922439389"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3000 N I-35"
+        ],
+        "city": "DENTON",
+        "state": "TX",
+        "postalCode": "76201-6817"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7981"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7981.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cb5ad235-7951-5483-ab52-bfb9d39e28c4"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2ffe12b5-51d2-57a0-b800-64dc0f50eebe",
+    "name": "HH Hospitalists OBS - PO",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e5c751d2-d1a8-5090-b945-262a7130f441"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245283530"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1041 Dunlawton Ave"
+        ],
+        "city": "Port Orange",
+        "state": "FL",
+        "postalCode": "32127-7968"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16462"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16462.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2ffe12b5-51d2-57a0-b800-64dc0f50eebe"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c30ac864-cad9-5f01-8697-9563cdf8f3c6",
+    "name": "NOVA Fairfax Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/00453144-644a-57d2-82d0-342e9fd77e75"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407157647"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3300 GALLOWS RD"
+        ],
+        "city": "FALLS CHURCH",
+        "state": "VA",
+        "postalCode": "22042-3307"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31267"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31267.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c30ac864-cad9-5f01-8697-9563cdf8f3c6"
+}

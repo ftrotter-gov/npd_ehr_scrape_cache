@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9a29b3a0-59c9-54fb-a979-d46aed98f733",
+    "name": "Trinity Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/01e3a10d-34b2-5ba3-95a3-5bf99431e931"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013507680"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2828 HWY 31 STE 111"
+        ],
+        "city": "DECATUR",
+        "state": "AL",
+        "postalCode": "35603-1538"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23322"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23322.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9a29b3a0-59c9-54fb-a979-d46aed98f733"
+}

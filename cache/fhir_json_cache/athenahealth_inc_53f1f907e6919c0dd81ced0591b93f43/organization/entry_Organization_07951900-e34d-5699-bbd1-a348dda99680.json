@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "07951900-e34d-5699-bbd1-a348dda99680",
+    "name": "SMC OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d67738f6-e384-5966-9fbb-abd303bde8f7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104170901"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 W 38th St"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78705-1006"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6181"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6181.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:07951900-e34d-5699-bbd1-a348dda99680"
+}

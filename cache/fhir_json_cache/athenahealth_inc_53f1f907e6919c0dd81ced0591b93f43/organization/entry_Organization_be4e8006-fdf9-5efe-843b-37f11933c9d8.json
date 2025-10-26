@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "be4e8006-fdf9-5efe-843b-37f11933c9d8",
+    "name": "Epic Pain - Broadway",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6de07fe4-f33c-5abd-b131-a530bac096a7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124806146"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8522 BROADWAY STE 216"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78217-6456"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30052"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30052.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:be4e8006-fdf9-5efe-843b-37f11933c9d8"
+}

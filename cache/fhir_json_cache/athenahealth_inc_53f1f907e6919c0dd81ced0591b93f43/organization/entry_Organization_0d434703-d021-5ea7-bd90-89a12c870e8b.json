@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0d434703-d021-5ea7-bd90-89a12c870e8b",
+    "name": "Physician HealthCare Network Marysville",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5f8ecd95-4590-5189-bf00-a83dd2d1cc8b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750334405"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3350 Gratiot Blvd"
+        ],
+        "city": "MARYSVILLE",
+        "state": "MI",
+        "postalCode": "48040-1145"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11357"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11357.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0d434703-d021-5ea7-bd90-89a12c870e8b"
+}

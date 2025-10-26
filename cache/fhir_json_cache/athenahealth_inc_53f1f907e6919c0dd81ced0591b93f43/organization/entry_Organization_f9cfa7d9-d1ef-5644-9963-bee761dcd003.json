@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f9cfa7d9-d1ef-5644-9963-bee761dcd003",
+    "name": "Frederick Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d610ff09-bebb-5dd6-b14e-9f3bcc1b05cc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174750970"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 w 7th st"
+        ],
+        "city": "FREDERICK",
+        "state": "MD",
+        "postalCode": "21701-4506"
+      },
+      {
+        "line": [
+          "400 w 75h st"
+        ],
+        "city": "FREDERICK",
+        "state": "MD",
+        "postalCode": "21701-4506"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16284"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16284.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f9cfa7d9-d1ef-5644-9963-bee761dcd003"
+}

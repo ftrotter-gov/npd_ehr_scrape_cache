@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e20f97c3-c4fd-5083-b19f-f78a99b53372",
+    "name": "Adventist Home Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e865323-dc80-5f15-b96c-96e315a859f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619912565"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 Cedar Road North"
+        ],
+        "city": "SONORA",
+        "state": "CA",
+        "postalCode": "95370-5925"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2000"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2000.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e20f97c3-c4fd-5083-b19f-f78a99b53372"
+}

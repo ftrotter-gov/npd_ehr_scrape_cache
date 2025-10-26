@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b3fe0736-9572-5a41-b124-2f6dcad1b4ae",
+    "name": "Union Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ddee9043-c19e-552b-a9f3-69105b0843b5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841479938"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "251 LEWIS LN",
+          "STE 201"
+        ],
+        "city": "HAVRE DE GRACE",
+        "state": "MD",
+        "postalCode": "21078-3753"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32478"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32478.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b3fe0736-9572-5a41-b124-2f6dcad1b4ae"
+}

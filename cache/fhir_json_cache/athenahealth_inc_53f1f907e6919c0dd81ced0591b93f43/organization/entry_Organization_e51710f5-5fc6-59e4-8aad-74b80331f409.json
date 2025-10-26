@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e51710f5-5fc6-59e4-8aad-74b80331f409",
+    "name": "Texas Health Presbyterian Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8acfa9b7-df5a-5290-b91b-82567ab3ef52"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134675366"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1105 N Central Expressway"
+        ],
+        "city": "ALLEN",
+        "state": "TX",
+        "postalCode": "75013-6103"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14040"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14040.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e51710f5-5fc6-59e4-8aad-74b80331f409"
+}

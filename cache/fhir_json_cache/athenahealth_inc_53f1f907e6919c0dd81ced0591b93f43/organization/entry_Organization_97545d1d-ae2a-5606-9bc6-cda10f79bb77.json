@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "97545d1d-ae2a-5606-9bc6-cda10f79bb77",
+    "name": "SoCO Primary Care Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/63ea097c-31e6-5773-bf32-6aa92a359200"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124677729"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1310 FORTINO BLVD",
+          "SUITE D"
+        ],
+        "city": "PUEBLO",
+        "state": "CO",
+        "postalCode": "81008-2075"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20321"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20321.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:97545d1d-ae2a-5606-9bc6-cda10f79bb77"
+}

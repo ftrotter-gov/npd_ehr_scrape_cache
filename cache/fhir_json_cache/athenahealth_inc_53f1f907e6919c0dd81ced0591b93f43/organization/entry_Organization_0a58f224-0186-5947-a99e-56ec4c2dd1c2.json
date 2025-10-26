@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0a58f224-0186-5947-a99e-56ec4c2dd1c2",
+    "name": "Spalding Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bdfc41a9-fab1-55b0-90f6-1c73ce86535e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356489850"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 South 8th Street"
+        ],
+        "city": "GRIFFIN",
+        "state": "GA",
+        "postalCode": "30224-4213"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4291"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4291.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0a58f224-0186-5947-a99e-56ec4c2dd1c2"
+}

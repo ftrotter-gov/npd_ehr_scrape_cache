@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eb15e0b1-741c-597e-b967-f1f77f72f81e",
+    "name": "Johnsons Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/566cf6bf-75d0-53fa-bd30-a1c5a472e769"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528772480"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2605 NAVY BLVD"
+        ],
+        "city": "PANAMA CITY",
+        "state": "FL",
+        "postalCode": "32408-6240"
+      },
+      {
+        "line": [
+          "2605 THOMAS DR.",
+          "UNIT 120"
+        ],
+        "city": "PANAMA CITY",
+        "state": "FL",
+        "postalCode": "32408-6254"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28129"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28129.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eb15e0b1-741c-597e-b967-f1f77f72f81e"
+}

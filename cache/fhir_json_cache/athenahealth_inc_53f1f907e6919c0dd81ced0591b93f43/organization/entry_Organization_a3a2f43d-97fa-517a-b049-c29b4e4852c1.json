@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a3a2f43d-97fa-517a-b049-c29b4e4852c1",
+    "name": "Hughston Rehabilitation - Macon",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c38f0217-b185-5e2f-8222-a513d13f400e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164461190"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 North Macon Street"
+        ],
+        "city": "MACON",
+        "state": "GA",
+        "postalCode": "31210-6563"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-321"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-321.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a3a2f43d-97fa-517a-b049-c29b4e4852c1"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7e5f9b06-f4cf-510e-9edc-34324b90e767",
+    "name": "JFK Wound Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5f0e9383-d911-58fe-9d2a-3a472632676d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093266314"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4665 S Congress AVE",
+          "#100"
+        ],
+        "city": "LAKE WORTH",
+        "state": "FL",
+        "postalCode": "33461-1000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15554"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15554.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7e5f9b06-f4cf-510e-9edc-34324b90e767"
+}

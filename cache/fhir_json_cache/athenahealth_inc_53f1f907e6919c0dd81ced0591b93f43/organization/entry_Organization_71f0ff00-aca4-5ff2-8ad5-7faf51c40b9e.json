@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "71f0ff00-aca4-5ff2-8ad5-7faf51c40b9e",
+    "name": "Dr. Farnad's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c70c847d-3f06-58db-8ccd-e1bf978c2da4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871078972"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5757 WILSHIRE BLVD, SUITE PR2"
+        ],
+        "city": "LOS ANGELES",
+        "state": "CA",
+        "postalCode": "90036-3689"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18610"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18610.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:71f0ff00-aca4-5ff2-8ad5-7faf51c40b9e"
+}

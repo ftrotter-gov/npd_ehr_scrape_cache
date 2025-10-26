@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e3456f4b-a603-55aa-bc67-913519feb542",
+    "name": "Colorado Springs Health Partners",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c6c4331a-dccf-5496-bdc7-d48cdeb38372"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538362389"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1615 Medical Center Point"
+        ],
+        "city": "COLORADO SPRINGS",
+        "state": "CO",
+        "postalCode": "80907-5788"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1521"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1521.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e3456f4b-a603-55aa-bc67-913519feb542"
+}

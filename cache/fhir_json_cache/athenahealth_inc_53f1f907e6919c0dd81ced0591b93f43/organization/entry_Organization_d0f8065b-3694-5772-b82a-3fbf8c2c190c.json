@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d0f8065b-3694-5772-b82a-3fbf8c2c190c",
+    "name": "MI Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e8f45816-2a2f-576f-b098-c31f7a2823c3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104441302"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1970 ASHLAND DR",
+          "STE B"
+        ],
+        "city": "MOUNT PLEASANT",
+        "state": "MI",
+        "postalCode": "48858-1203"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22056"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22056.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d0f8065b-3694-5772-b82a-3fbf8c2c190c"
+}

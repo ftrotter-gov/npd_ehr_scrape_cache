@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "baf1fe53-7c41-5fb7-a18f-946ee392a30e",
+    "name": "Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2f9a604c-db1b-5aab-8d1e-307e32e7e8ab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720702434"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 S 1000 E"
+        ],
+        "city": "SALT LAKE CITY",
+        "state": "UT",
+        "postalCode": "84102-1496"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29053"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29053.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:baf1fe53-7c41-5fb7-a18f-946ee392a30e"
+}

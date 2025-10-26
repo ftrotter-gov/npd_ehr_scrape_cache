@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e1519e0d-79db-5d9a-bff8-7473f794fe54",
+    "name": "Atlanta Foot Care Center at Medlock Gardens",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/23c51c51-8bc7-5a94-b1a2-548542c33c15"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932307923"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "460 Medlock Rd"
+        ],
+        "city": "DECATUR",
+        "state": "GA",
+        "postalCode": "30030-1508"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30101"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30101.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e1519e0d-79db-5d9a-bff8-7473f794fe54"
+}

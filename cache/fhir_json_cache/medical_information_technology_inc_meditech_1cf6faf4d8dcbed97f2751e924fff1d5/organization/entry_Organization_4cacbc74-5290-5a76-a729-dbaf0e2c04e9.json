@@ -1,0 +1,66 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4cacbc74-5290-5a76-a729-dbaf0e2c04e9",
+    "meta": {
+      "lastUpdated": "2025-02-20T05:23:06.000Z"
+    },
+    "name": "Preferred Management Corporation",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "asked-unknown"
+          }
+        ]
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "120 West MacArthur"
+        ],
+        "city": "SHAWNEE",
+        "state": "OK",
+        "postalCode": "74804",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:4409141e-be1c-5881-9672-41f99fc76985"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:4409141e-be1c-5881-9672-41f99fc76985"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4cacbc74-5290-5a76-a729-dbaf0e2c04e9"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a25525b3-d90e-589b-90ca-b3214f1d24b3",
+    "name": "Saint John Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e87ba37a-aaf3-508e-9b6f-d09511a57cd7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326080755"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3500 S4th St"
+        ],
+        "city": "LEAVENWORTH",
+        "state": "KS",
+        "postalCode": "66048-5046"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8648"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8648.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a25525b3-d90e-589b-90ca-b3214f1d24b3"
+}

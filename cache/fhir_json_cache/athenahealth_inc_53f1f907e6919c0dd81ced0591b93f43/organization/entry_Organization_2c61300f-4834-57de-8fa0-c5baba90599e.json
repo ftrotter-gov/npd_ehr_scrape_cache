@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c61300f-4834-57de-8fa0-c5baba90599e",
+    "name": "St. Marys Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9d8dfd9b-e0b4-502e-a024-e14b800ab938"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154633220"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2635 North 7th Street"
+        ],
+        "city": "GRAND JUNCTION",
+        "state": "CO",
+        "postalCode": "81501-3933"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6579.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c61300f-4834-57de-8fa0-c5baba90599e"
+}

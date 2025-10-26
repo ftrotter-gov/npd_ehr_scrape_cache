@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c2ecfd63-25aa-5d61-b77d-58d105a38b4e",
+    "name": "Compass Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/174dac32-b1ca-56d3-b071-a27a5d9f4b64"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154575058"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Compass Way",
+          "suite 202"
+        ],
+        "city": "East Bridgewater",
+        "state": "MA",
+        "postalCode": "02333-1465"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6537"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6537.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c2ecfd63-25aa-5d61-b77d-58d105a38b4e"
+}

@@ -1,0 +1,23 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "wecaremoreohio",
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+            "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+          }
+        ]
+      }
+    ],
+    "address": "https://api.qualifacts.org/api/fhir/wecaremoreohio/r4/"
+  },
+  "fullUrl": "https://api.qualifacts.org/api/fhir/wecaremoreohio/r4/"
+}

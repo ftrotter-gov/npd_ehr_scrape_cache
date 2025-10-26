@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b67c6bae-d6b1-5a97-a9b7-da0fc0c60954",
+    "name": "LINWORTH FREE CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3272e747-3c71-51e0-b490-9ece68efbbc5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7620 SMOKY ROW RD"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43235-2035"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19197"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19197.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b67c6bae-d6b1-5a97-a9b7-da0fc0c60954"
+}

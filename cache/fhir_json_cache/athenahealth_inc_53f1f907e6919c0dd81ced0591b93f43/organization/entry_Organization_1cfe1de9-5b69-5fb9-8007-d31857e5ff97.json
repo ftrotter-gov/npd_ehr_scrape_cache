@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1cfe1de9-5b69-5fb9-8007-d31857e5ff97",
+    "name": "Conejo Free Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/512abdd3-fbe8-5584-a7d9-4314f98cbc30"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "80 E HILLCREST DR STE 102"
+        ],
+        "city": "THOUSAND OAKS",
+        "state": "CA",
+        "postalCode": "91360-4219"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15456"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15456.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1cfe1de9-5b69-5fb9-8007-d31857e5ff97"
+}

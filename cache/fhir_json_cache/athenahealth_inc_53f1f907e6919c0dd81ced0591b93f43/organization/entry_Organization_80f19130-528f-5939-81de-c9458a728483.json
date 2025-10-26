@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "80f19130-528f-5939-81de-c9458a728483",
+    "name": "Rex Primary Care of Cary",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5fe31549-d534-555d-bf95-b082f75ed521"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "PEND**1023323771"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1515 SW CARY PARKWAY SUITE 200"
+        ],
+        "city": "CARY",
+        "state": "NC",
+        "postalCode": "27511"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4132"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4132.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:80f19130-528f-5939-81de-c9458a728483"
+}

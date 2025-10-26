@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0baa9cf3-d51f-5938-9961-ae0fd18f2c4f",
+    "name": "BridgeSpan Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b7569b34-cd64-5ef6-aed4-857707a44c6c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689225971"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3010 Westchester Avenue",
+          "Suite 307"
+        ],
+        "city": "PURCHASE",
+        "state": "NY",
+        "postalCode": "10577-2535"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32321"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32321.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0baa9cf3-d51f-5938-9961-ae0fd18f2c4f"
+}

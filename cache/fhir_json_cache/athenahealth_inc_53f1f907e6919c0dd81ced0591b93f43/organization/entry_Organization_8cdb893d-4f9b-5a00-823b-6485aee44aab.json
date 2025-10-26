@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8cdb893d-4f9b-5a00-823b-6485aee44aab",
+    "name": "Gonzalez Medical Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2a1629fc-2ddb-51de-bacd-e447a9d79c2a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720228463"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2311 ARCOLA AVE"
+        ],
+        "city": "SILVER SPRING",
+        "state": "MD",
+        "postalCode": "20902-2826"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17678"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17678.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8cdb893d-4f9b-5a00-823b-6485aee44aab"
+}

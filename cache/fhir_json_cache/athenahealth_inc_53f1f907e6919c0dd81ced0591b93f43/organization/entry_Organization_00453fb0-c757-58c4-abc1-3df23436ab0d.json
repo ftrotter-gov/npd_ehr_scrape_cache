@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "00453fb0-c757-58c4-abc1-3df23436ab0d",
+    "name": "BAC Cares Health Clinic - Missouri",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7cec9663-dabc-5107-ab65-2bf0f3a85a96"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336741123"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1670 Fenpark Drive"
+        ],
+        "city": "Fenton",
+        "state": "MO",
+        "postalCode": "63026-2918"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27404"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27404.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:00453fb0-c757-58c4-abc1-3df23436ab0d"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dfee631c-fa06-5418-adb2-dd5f0c8ca46d",
+    "name": "Diablo Dermatology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/673ec295-99ea-53db-8775-ce7bb4ebe8ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316970759"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3436 HILLCREST AVE",
+          "SUITE 150"
+        ],
+        "city": "ANTIOCH",
+        "state": "CA",
+        "postalCode": "94531-6305"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1488"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1488.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dfee631c-fa06-5418-adb2-dd5f0c8ca46d"
+}

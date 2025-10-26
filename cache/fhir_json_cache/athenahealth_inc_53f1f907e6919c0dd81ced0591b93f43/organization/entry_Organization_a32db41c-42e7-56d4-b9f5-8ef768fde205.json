@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a32db41c-42e7-56d4-b9f5-8ef768fde205",
+    "name": "Palmetto Community Health Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0a8894a1-ba85-561b-8640-ea3a2785e561"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "410 OAKLAND AVE"
+        ],
+        "city": "ROCK HILL",
+        "state": "SC",
+        "postalCode": "29730-3530"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20706"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20706.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a32db41c-42e7-56d4-b9f5-8ef768fde205"
+}

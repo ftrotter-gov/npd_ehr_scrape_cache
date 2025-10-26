@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a5b20113-2f39-5975-9ff6-7c106c78e7a0",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1b3153d9-8abc-5e3c-ada6-6bb7a2d20c2e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407060676"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "21 HAMPTON RD STE 201"
+        ],
+        "city": "EXETER",
+        "state": "NH",
+        "postalCode": "03833-4800"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16233"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16233.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a5b20113-2f39-5975-9ff6-7c106c78e7a0"
+}

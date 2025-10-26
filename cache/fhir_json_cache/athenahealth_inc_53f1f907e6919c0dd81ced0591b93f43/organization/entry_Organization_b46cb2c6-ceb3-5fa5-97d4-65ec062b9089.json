@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b46cb2c6-ceb3-5fa5-97d4-65ec062b9089",
+    "name": "HMU Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf47ad48-6b66-533a-a673-8deee1eff149"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245281922"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4219 RICHMOND AVE. #100"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77027-6838"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15454"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15454.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b46cb2c6-ceb3-5fa5-97d4-65ec062b9089"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4d64f4ad-3caf-57dc-8072-bacde4d1ca35",
+    "name": "Family Medicine Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d189a479-cd3c-5df3-a8ec-a3fd4f419e69"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972505717"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9398 VISCOUNT BLVD",
+          "STE 4C"
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79925-8028"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33731"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33731.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4d64f4ad-3caf-57dc-8072-bacde4d1ca35"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7ea6ba5-cfda-5c3e-9c0c-9ca96c88b39f",
+    "name": "KINDRED HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df38c850-a804-526c-ab4a-b5169a70397c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497795272"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6441 MAIN STREET"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77030-1502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-702"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-702.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7ea6ba5-cfda-5c3e-9c0c-9ca96c88b39f"
+}

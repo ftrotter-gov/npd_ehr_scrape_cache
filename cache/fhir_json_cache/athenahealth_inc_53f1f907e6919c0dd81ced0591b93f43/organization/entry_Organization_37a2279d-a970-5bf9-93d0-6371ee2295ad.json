@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "37a2279d-a970-5bf9-93d0-6371ee2295ad",
+    "name": "Hackley Hospital Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cb27c37d-3769-5cae-95f5-247384679d0f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932372919"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053641589"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1700 Clinton Street"
+        ],
+        "city": "MUSKEGON",
+        "state": "MI",
+        "postalCode": "49442-5502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2318"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2318.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:37a2279d-a970-5bf9-93d0-6371ee2295ad"
+}

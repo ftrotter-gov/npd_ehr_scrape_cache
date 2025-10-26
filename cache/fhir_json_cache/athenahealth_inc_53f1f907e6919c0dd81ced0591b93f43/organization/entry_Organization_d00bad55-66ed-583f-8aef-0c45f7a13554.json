@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d00bad55-66ed-583f-8aef-0c45f7a13554",
+    "name": "IPW Admin",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/98d7778b-6c59-515d-9ab2-151bf7c01bf9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871975920"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5434 W. Capitol Drive",
+          "Suite 3"
+        ],
+        "city": "MILWAUKEE",
+        "state": "WI",
+        "postalCode": "53216-2298"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18758"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18758.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d00bad55-66ed-583f-8aef-0c45f7a13554"
+}

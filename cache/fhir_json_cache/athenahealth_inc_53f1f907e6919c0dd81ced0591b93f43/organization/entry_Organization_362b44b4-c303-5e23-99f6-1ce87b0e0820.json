@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "362b44b4-c303-5e23-99f6-1ce87b0e0820",
+    "name": "Outpatient Surgery Center of La Jolla",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0d69be03-6e42-58cd-a6b1-453a260caa33"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851673511"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4120 La Jolla Village Drive"
+        ],
+        "city": "LA JOLLA",
+        "state": "CA",
+        "postalCode": "92037-1406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3926"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3926.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:362b44b4-c303-5e23-99f6-1ce87b0e0820"
+}

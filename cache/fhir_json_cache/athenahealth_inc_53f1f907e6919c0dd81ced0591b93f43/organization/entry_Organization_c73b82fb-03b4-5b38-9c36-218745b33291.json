@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c73b82fb-03b4-5b38-9c36-218745b33291",
+    "name": "Reston Hospital  ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7c5bc70f-041e-5bfa-b02a-9dac0f8fe439"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740377969"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1850 TOWN CENTER PARKWAY"
+        ],
+        "city": "RESTON",
+        "state": "VA",
+        "postalCode": "20190-3219"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8677"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8677.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c73b82fb-03b4-5b38-9c36-218745b33291"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "861fe0b5-4a4c-56cb-9693-38743777710e",
+    "name": "Mercy Hospital Laboratory",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bc54abd4-03c1-52ee-9ef8-c638028c8540"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477692010"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "144 State Street"
+        ],
+        "city": "Portland",
+        "state": "ME",
+        "postalCode": "04101-3776"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3400"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3400.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:861fe0b5-4a4c-56cb-9693-38743777710e"
+}

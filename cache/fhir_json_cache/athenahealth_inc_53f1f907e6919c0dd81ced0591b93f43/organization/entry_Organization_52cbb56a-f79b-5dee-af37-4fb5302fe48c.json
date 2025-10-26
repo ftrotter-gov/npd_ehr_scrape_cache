@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "52cbb56a-f79b-5dee-af37-4fb5302fe48c",
+    "name": "Dr. Lenet and Dr. Phan's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3d77dee4-c136-560b-a87b-f7309592fa60"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013039239"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 EAST HURON",
+          "SUITE 1226"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60611-2872"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:52cbb56a-f79b-5dee-af37-4fb5302fe48c"
+}

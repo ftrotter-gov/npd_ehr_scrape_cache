@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "498a881e-0327-537a-93a7-55b81d8f2905",
+    "name": "Helena Women's Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/38bfa5e8-6715-55be-88af-c223a62f9d47"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003031600"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1803 Martin Luther King Drive, Suite D"
+        ],
+        "city": "HELENA",
+        "state": "AR",
+        "postalCode": "72342-8998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1590"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1590.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:498a881e-0327-537a-93a7-55b81d8f2905"
+}

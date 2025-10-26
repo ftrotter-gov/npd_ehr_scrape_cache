@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eb774c1b-2462-5615-978a-bd38ffd84da5",
+    "name": "Sherman County Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cfeed112-3f78-56c1-a385-60c448aab97b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982692372"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "110 Main Street"
+        ],
+        "city": "MORO",
+        "state": "OR",
+        "postalCode": "97039-3115"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33561"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33561.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eb774c1b-2462-5615-978a-bd38ffd84da5"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3b2b248d-4d35-4618-aba5-bacb8fe2ce4e",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4c7f82d7-1dfe-4b41-8118-e58429839c15",
+        "name": "Louis P Coates LLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Louis P Coates LLC",
+    "managingOrganization": {
+      "reference": "#4c7f82d7-1dfe-4b41-8118-e58429839c15"
+    },
+    "period": {
+      "start": "2019-12-17T13:50:31+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10019871"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10019871"
+}

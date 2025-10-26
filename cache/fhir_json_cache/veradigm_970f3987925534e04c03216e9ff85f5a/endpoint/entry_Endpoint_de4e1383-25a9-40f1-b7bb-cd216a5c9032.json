@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "de4e1383-25a9-40f1-b7bb-cd216a5c9032",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "8db46c94-23eb-4d35-956d-07ddec0e4318",
+        "name": "NW Buffalo Community Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "NW Buffalo Community Health",
+    "managingOrganization": {
+      "reference": "#8db46c94-23eb-4d35-956d-07ddec0e4318"
+    },
+    "period": {
+      "start": "2019-09-30T20:26:45+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/69576"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/69576"
+}

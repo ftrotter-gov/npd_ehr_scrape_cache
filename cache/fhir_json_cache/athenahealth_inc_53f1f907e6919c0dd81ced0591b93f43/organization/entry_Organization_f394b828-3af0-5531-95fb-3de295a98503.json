@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f394b828-3af0-5531-95fb-3de295a98503",
+    "name": "West Madison Urgent and Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/91accbec-ba28-5ee2-9f7b-f3e19c408009"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558006767"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11202 COUNTY LINE RD",
+          "SUITE A"
+        ],
+        "city": "MADISON",
+        "state": "AL",
+        "postalCode": "35758-4866"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25760"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25760.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f394b828-3af0-5531-95fb-3de295a98503"
+}

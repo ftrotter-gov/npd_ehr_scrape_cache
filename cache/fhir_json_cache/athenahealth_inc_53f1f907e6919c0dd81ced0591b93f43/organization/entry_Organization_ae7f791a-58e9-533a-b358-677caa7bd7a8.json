@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae7f791a-58e9-533a-b358-677caa7bd7a8",
+    "name": "ELBA MEDICAL CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9cbb1aca-26a3-5fd7-bc08-48fc51895723"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366750788"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003124421"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "262 Larkin Rd"
+        ],
+        "city": "ELBA",
+        "state": "AL",
+        "postalCode": "36323-5102"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3503"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3503.Brand-12"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae7f791a-58e9-533a-b358-677caa7bd7a8"
+}

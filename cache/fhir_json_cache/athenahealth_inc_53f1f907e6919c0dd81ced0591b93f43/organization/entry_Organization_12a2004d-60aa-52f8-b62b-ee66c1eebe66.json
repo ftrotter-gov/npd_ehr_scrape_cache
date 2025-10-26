@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "12a2004d-60aa-52f8-b62b-ee66c1eebe66",
+    "name": "Brookdale Santa Monica",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f34b751d-b3b0-57bb-a6f6-d86466f3dc8d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013109834"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2107 Ocean Ave"
+        ],
+        "city": "SANTA MONICA",
+        "state": "CA",
+        "postalCode": "90405-2299"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12859"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12859.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:12a2004d-60aa-52f8-b62b-ee66c1eebe66"
+}

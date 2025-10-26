@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8af07ced-45e6-5aa4-aa38-1cc7cf33ae36",
+    "name": "Dr. Ashish Patel",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d76663fa-b5ef-5e23-82c0-15ce11cefd43"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851856975"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6100 GREENLAND ROAD",
+          "Suite 301"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "FL",
+        "postalCode": "32258-2626"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20391.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8af07ced-45e6-5aa4-aa38-1cc7cf33ae36"
+}

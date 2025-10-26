@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "28b12e80-9b3c-54c9-9b62-9958ec7dc0d3",
+    "name": "DOCTORS HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d9851fca-d322-5068-a776-4cabc676c4f4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568547586"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3651 WHEELER ROAD"
+        ],
+        "city": "AUGUSTA",
+        "state": "GA",
+        "postalCode": "30909-6426"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1459"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1459.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:28b12e80-9b3c-54c9-9b62-9958ec7dc0d3"
+}

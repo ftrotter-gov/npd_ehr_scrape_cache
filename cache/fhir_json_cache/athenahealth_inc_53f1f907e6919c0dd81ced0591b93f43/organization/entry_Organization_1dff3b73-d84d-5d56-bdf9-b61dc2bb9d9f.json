@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1dff3b73-d84d-5d56-bdf9-b61dc2bb9d9f",
+    "name": "NAC MED CTR ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/71c47fda-74e8-59c3-a384-4d5d139950c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407294168"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4920 NE STALLINGS DR"
+        ],
+        "city": "NACOGDOCHES",
+        "state": "TX",
+        "postalCode": "75965-1254"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9685"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9685.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1dff3b73-d84d-5d56-bdf9-b61dc2bb9d9f"
+}

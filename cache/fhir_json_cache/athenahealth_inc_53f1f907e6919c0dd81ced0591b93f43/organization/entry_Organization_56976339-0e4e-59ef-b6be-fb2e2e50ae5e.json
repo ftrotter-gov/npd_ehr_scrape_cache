@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56976339-0e4e-59ef-b6be-fb2e2e50ae5e",
+    "name": "Riverview Medical Center IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db6ff0aa-21f3-5b70-8b58-356202ec4e6e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558506550"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 S 3rd St"
+        ],
+        "city": "GADSDEN",
+        "state": "AL",
+        "postalCode": "35901-5304"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1831"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1831.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56976339-0e4e-59ef-b6be-fb2e2e50ae5e"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a90cd920-7a90-4330-b6bd-dd3479d3030a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "ad422678-9adb-4a6d-9990-76e8f50a56d6",
+        "name": "Pedi Health, PLLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Pedi Health, PLLC",
+    "managingOrganization": {
+      "reference": "#ad422678-9adb-4a6d-9990-76e8f50a56d6"
+    },
+    "period": {
+      "start": "2023-09-29T11:02:14+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10071523"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10071523"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c25b777d-a415-5d69-bcf1-439b2df0c10b",
+    "name": "Texas Medical & Surgical Associates, PA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a80ae222-3d87-54e6-b342-581ac4cb7d7a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447295910"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8440 Walnut Hill Lane",
+          "Suite 500"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75231-3833"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-863"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-863.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c25b777d-a415-5d69-bcf1-439b2df0c10b"
+}

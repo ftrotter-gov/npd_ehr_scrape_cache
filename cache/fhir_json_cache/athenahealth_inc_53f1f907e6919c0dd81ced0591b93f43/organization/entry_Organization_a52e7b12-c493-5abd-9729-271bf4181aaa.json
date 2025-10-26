@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a52e7b12-c493-5abd-9729-271bf4181aaa",
+    "name": "Suburban Family Practice & Associates Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d40993dc-0ce3-59ac-b3e8-af802c308062"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760658371"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972533149"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8701 Old Troy Pike",
+          "Ste 50"
+        ],
+        "city": "Dayton",
+        "state": "OH",
+        "postalCode": "45424-1055"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-237"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-237.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a52e7b12-c493-5abd-9729-271bf4181aaa"
+}

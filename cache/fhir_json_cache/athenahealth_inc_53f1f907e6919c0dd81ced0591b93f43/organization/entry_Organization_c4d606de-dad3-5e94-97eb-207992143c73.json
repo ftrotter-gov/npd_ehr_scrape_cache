@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c4d606de-dad3-5e94-97eb-207992143c73",
+    "name": "VivaSalud Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47584ec5-7fd1-5133-ab0f-8410aafd3f1d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386361756"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2336 WISTERIA DR STE 110"
+        ],
+        "city": "SNELLVILLE",
+        "state": "GA",
+        "postalCode": "30078-6162"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27555"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27555.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c4d606de-dad3-5e94-97eb-207992143c73"
+}

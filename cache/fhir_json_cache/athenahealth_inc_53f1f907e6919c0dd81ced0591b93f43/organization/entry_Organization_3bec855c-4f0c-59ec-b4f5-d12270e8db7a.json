@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3bec855c-4f0c-59ec-b4f5-d12270e8db7a",
+    "name": "Hillendale Medical Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5aa433ec-20ee-5040-860e-80dca462fd49"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740443183"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13168 CENTERPOINTE WAY",
+          "SUITE 101"
+        ],
+        "city": "WOODBRIDGE",
+        "state": "VA",
+        "postalCode": "22193-5287"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16257"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16257.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3bec855c-4f0c-59ec-b4f5-d12270e8db7a"
+}

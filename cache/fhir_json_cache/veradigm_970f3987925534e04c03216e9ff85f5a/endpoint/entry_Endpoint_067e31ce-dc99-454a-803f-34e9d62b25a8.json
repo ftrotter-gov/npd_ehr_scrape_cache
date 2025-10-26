@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "067e31ce-dc99-454a-803f-34e9d62b25a8",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "586f9b7f-0420-4ade-a1d5-1eeea664d9dc",
+        "name": "Northeastern Orthopedics"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Northeastern Orthopedics",
+    "managingOrganization": {
+      "reference": "#586f9b7f-0420-4ade-a1d5-1eeea664d9dc"
+    },
+    "period": {
+      "start": "2023-09-23T07:49:44+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10043116"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10043116"
+}

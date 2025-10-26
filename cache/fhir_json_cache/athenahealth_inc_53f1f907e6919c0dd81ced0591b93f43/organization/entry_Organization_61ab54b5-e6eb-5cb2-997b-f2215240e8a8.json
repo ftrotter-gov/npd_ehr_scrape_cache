@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "61ab54b5-e6eb-5cb2-997b-f2215240e8a8",
+    "name": "Security Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/64f50dfd-8db0-5793-8cfd-154d73d29935"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285090951"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1930 SECURITY DR"
+        ],
+        "city": "YORK",
+        "state": "PA",
+        "postalCode": "17402-4727"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20028"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20028.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:61ab54b5-e6eb-5cb2-997b-f2215240e8a8"
+}

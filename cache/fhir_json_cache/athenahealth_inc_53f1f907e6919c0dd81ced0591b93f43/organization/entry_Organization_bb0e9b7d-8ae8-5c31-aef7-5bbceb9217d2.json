@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bb0e9b7d-8ae8-5c31-aef7-5bbceb9217d2",
+    "name": "Medical - GMH Inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/885de5b1-4e0c-542c-b099-4bb51817706b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275586877"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "850 GOV CARLOS G CAMACHO RD"
+        ],
+        "city": "TAMUNING",
+        "state": "GU",
+        "postalCode": "96913-3128"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31775"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31775.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bb0e9b7d-8ae8-5c31-aef7-5bbceb9217d2"
+}

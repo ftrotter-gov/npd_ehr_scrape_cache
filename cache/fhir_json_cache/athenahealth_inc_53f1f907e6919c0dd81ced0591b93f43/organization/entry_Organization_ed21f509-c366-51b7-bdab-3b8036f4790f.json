@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ed21f509-c366-51b7-bdab-3b8036f4790f",
+    "name": "Advanced Knee Care, PC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a48082a9-26ef-509a-bb45-af43902f08b6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730330234"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8630 East Via De Ventura",
+          "Suite 201"
+        ],
+        "city": "Scottsdale",
+        "state": "AZ",
+        "postalCode": "85258-3358"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1797"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1797.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ed21f509-c366-51b7-bdab-3b8036f4790f"
+}

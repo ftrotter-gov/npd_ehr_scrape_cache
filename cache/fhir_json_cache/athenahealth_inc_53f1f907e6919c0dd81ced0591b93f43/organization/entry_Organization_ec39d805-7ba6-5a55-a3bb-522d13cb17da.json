@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ec39d805-7ba6-5a55-a3bb-522d13cb17da",
+    "name": "Brazos Pain Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5f07bbcf-3fad-51b6-b861-1e821f6427b8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "PEND**1205038465"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2225 WILLIAMS TRACE SUITE 108"
+        ],
+        "city": "SUGAR LAND",
+        "state": "TX",
+        "postalCode": "77478"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4446"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4446.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ec39d805-7ba6-5a55-a3bb-522d13cb17da"
+}

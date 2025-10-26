@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4b971666-4618-5dbe-89c4-e77c0e6138b0",
+    "name": "Dr. Bawani's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8fb4c285-c66f-5a9f-b608-18206c0d735a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891993606"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "801 S MILWAUKEE AVE"
+        ],
+        "city": "LIBERTYVILLE",
+        "state": "IL",
+        "postalCode": "60048-3204"
+      },
+      {
+        "line": [
+          "1105 W PARK AVE",
+          "STE 1"
+        ],
+        "city": "LIBERTYVILLE",
+        "state": "IL",
+        "postalCode": "60048-2567"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20879"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20879.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4b971666-4618-5dbe-89c4-e77c0e6138b0"
+}

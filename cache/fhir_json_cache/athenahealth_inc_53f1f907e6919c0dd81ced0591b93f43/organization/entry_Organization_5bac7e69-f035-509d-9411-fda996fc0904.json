@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5bac7e69-f035-509d-9411-fda996fc0904",
+    "name": "Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/70430dff-8d1d-58ed-aeb8-8cdb409bec27"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457701369"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "621 West Michigan Dr"
+        ],
+        "city": "VENICE",
+        "state": "FL",
+        "postalCode": "34293-1230"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17280"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17280.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5bac7e69-f035-509d-9411-fda996fc0904"
+}

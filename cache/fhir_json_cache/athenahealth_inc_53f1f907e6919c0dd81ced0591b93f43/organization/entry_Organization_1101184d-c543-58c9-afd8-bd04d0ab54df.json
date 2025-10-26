@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1101184d-c543-58c9-afd8-bd04d0ab54df",
+    "name": "Kern Primary Care Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8df0f92f-39a7-56c1-9cb0-5494d09c6256"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528149903"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2203 19th St"
+        ],
+        "city": "BAKERSFIELD",
+        "state": "CA",
+        "postalCode": "93301-3608"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7596"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7596.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1101184d-c543-58c9-afd8-bd04d0ab54df"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fcc0d153-0349-50af-92ae-54f45e798b96",
+    "name": "Madeline Telehealth Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0c7da7bf-aa7d-5ed6-8d36-db32a865de68"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124909601"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 VINE ST",
+          "STE 2500"
+        ],
+        "city": "CINCINNATI",
+        "state": "OH",
+        "postalCode": "45202-2491"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33344"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33344.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fcc0d153-0349-50af-92ae-54f45e798b96"
+}

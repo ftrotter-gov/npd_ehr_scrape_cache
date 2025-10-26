@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f1a6fe29-d992-5ff2-8807-e806c5e7ef76",
+    "name": "BAPTIST MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/47bb7cee-9a6d-5a63-a190-c075849ce370"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134398902"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 DALLAS STREET"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78205-1201"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11785"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11785.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f1a6fe29-d992-5ff2-8807-e806c5e7ef76"
+}

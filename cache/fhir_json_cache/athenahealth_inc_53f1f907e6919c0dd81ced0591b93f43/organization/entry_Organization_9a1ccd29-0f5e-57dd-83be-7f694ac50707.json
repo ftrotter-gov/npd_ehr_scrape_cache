@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9a1ccd29-0f5e-57dd-83be-7f694ac50707",
+    "name": "St Peter's Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d462ebd7-34dc-5460-a453-19aa8bafc4d3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033159975"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 S MANNING BLVD"
+        ],
+        "city": "ALBANY",
+        "state": "NY",
+        "postalCode": "12208-1707"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15298"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15298.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9a1ccd29-0f5e-57dd-83be-7f694ac50707"
+}

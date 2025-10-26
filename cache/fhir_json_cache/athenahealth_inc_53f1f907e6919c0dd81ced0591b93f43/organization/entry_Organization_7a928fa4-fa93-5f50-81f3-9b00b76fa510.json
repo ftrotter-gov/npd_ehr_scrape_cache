@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a928fa4-fa93-5f50-81f3-9b00b76fa510",
+    "name": "Hampton Health Home Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/25dd5611-d84b-59d1-91f6-f9d197a58bec"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013142280"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1700 California St #470"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94109-4586"
+      },
+      {
+        "line": [
+          "515 Northgate Drive #101"
+        ],
+        "city": "SAN RAFAEL",
+        "state": "CA",
+        "postalCode": "94903-3659"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12415"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12415.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a928fa4-fa93-5f50-81f3-9b00b76fa510"
+}

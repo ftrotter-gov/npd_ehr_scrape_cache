@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "00e3adf6-accf-5433-8aed-4da53e1eb1f1",
+    "name": "Jamestown Physician Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/beb78ee9-7a99-5f4d-87d2-6a068ac36799"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831142447"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "436 West Central Ave"
+        ],
+        "city": "JAMESTOWN",
+        "state": "TN",
+        "postalCode": "38556-3031"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4694"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4694.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:00e3adf6-accf-5433-8aed-4da53e1eb1f1"
+}

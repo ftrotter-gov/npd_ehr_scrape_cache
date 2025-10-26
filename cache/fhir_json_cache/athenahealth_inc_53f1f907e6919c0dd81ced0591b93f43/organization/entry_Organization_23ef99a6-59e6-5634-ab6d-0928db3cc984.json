@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "23ef99a6-59e6-5634-ab6d-0928db3cc984",
+    "name": "CMG Counseling Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7fc00f8a-c483-5dc2-bb8e-c9abdcbaa4f3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295023547"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5701 Bow Pointe Dr STE 315"
+        ],
+        "city": "Clarkston",
+        "state": "MI",
+        "postalCode": "48346-5402"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3928"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3928.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:23ef99a6-59e6-5634-ab6d-0928db3cc984"
+}

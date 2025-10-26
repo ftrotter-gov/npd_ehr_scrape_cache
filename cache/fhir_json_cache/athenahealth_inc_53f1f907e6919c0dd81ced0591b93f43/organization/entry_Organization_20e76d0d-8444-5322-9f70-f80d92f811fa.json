@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "20e76d0d-8444-5322-9f70-f80d92f811fa",
+    "name": "Bryn Mawr Rehab Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/40bc1789-53b6-5a90-901f-9fcbf29bea82"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033276076"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538230396"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "414 Paoli Pike"
+        ],
+        "city": "MALVERN",
+        "state": "PA",
+        "postalCode": "19355-3311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-554"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-554.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:20e76d0d-8444-5322-9f70-f80d92f811fa"
+}

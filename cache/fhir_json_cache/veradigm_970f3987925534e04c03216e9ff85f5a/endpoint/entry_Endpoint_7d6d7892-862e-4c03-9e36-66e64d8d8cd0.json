@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "7d6d7892-862e-4c03-9e36-66e64d8d8cd0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "d9f74a01-3c16-431d-bbed-24a0b1682e3c",
+        "name": "Pinehurst Neurology"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Pinehurst Neurology",
+    "managingOrganization": {
+      "reference": "#d9f74a01-3c16-431d-bbed-24a0b1682e3c"
+    },
+    "period": {
+      "start": "2019-05-24T17:43:25+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10038946"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10038946"
+}

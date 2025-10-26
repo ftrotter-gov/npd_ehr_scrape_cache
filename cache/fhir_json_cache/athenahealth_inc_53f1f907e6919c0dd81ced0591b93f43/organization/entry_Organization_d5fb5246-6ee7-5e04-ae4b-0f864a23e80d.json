@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d5fb5246-6ee7-5e04-ae4b-0f864a23e80d",
+    "name": "Southern Maine Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e4d3dc4a-104b-53a1-b950-1cf2a28776f3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477579100"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 MEDICAL CENTER DRIVE"
+        ],
+        "city": "BIDDEFORD",
+        "state": "ME",
+        "postalCode": "04005-9422"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4683"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4683.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d5fb5246-6ee7-5e04-ae4b-0f864a23e80d"
+}

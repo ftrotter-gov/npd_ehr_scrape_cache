@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ba5b36c-b36e-5637-9797-ac9b54edb958",
+    "name": "Chambers Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a3052deb-910e-5772-8536-09a3f7292a64"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417610999"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "719 DETROIT AVE"
+        ],
+        "city": "DANVILLE",
+        "state": "AR",
+        "postalCode": "72833-9607"
+      },
+      {
+        "line": [
+          "2500 W MAIN STREET"
+        ],
+        "city": "RUSSELLVILLE",
+        "state": "AR",
+        "postalCode": "72801-2533"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24926"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24926.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ba5b36c-b36e-5637-9797-ac9b54edb958"
+}

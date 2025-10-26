@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d73be8b8-f69c-5ac7-b17c-5191af1bd789",
+    "name": "Hanover Healthcare Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9b8d8792-d025-5213-bc5c-cf564120e861"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619350501"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "435 Avis Ave NW"
+        ],
+        "city": "MASSILLON",
+        "state": "OH",
+        "postalCode": "44646-3555"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11765"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11765.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d73be8b8-f69c-5ac7-b17c-5191af1bd789"
+}

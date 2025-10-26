@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "90a896e8-1b60-5047-b1ab-8724e8faeca6",
+    "name": "Sunview Health and Rehab",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3a28b0b8-1028-5489-9e7c-cb9563dcf4bf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821042540"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013962729"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12207 N 113th Ave"
+        ],
+        "city": "YOUNGTOWN",
+        "state": "AZ",
+        "postalCode": "85363-1208"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6761"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6761.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:90a896e8-1b60-5047-b1ab-8724e8faeca6"
+}

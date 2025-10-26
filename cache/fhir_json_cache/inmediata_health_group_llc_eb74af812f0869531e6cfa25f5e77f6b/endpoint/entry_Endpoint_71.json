@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "71",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "71",
+        "name": "Inmediata SecureEMR+ Access Medical Group"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Inmediata SecureEMR+ Access Medical Group",
+    "managingOrganization": {
+      "reference": "#71"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://www.secureemrplus.com/prognocis/fhir/accessmedicalgroup"
+  },
+  "fullUrl": "https://www.secureemrplus.com/prognocis/fhir/accessmedicalgroup"
+}

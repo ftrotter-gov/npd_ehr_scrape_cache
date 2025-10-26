@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0b00395d-26cc-51aa-b856-f7c57d67cb14",
+    "name": "CRP Sleep Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f0e47a78-0ef1-525c-9c20-085b55fe8443"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023397031"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 West 4th St",
+          "Suite 350"
+        ],
+        "city": "COOKEVILLE",
+        "state": "TN",
+        "postalCode": "38501-4225"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10383"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10383.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0b00395d-26cc-51aa-b856-f7c57d67cb14"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8e5a8117-2de8-5e9b-b34b-963da7084526",
+    "name": "Middlesex Hospital (OUT)",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/310dada1-ded5-5d6f-ac5e-4e5608f407bf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427607332"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "28 CRESCENT ST"
+        ],
+        "city": "MIDDLETOWN",
+        "state": "CT",
+        "postalCode": "06457-3654"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32237"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32237.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8e5a8117-2de8-5e9b-b34b-963da7084526"
+}

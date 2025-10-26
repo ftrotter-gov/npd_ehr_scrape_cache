@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e6b778ba-cfa0-543b-a044-43c448ea770d",
+    "name": "The Methodist Hospital TMC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58eb66d3-26ef-5333-a83a-ba74d8769598"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215955927"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6565 Fannin"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77030-2703"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-650"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-650.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e6b778ba-cfa0-543b-a044-43c448ea770d"
+}

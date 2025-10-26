@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "06137fce-c246-5c04-88a8-dd21f0066cf8",
+    "name": "Sutter Valley Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/32f9f16c-607f-50cd-850a-3b85398aa805"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144770256"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Medical Plaza Dr"
+        ],
+        "city": "ROSEVILLE",
+        "state": "CA",
+        "postalCode": "95661-3037"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20181"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20181.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:06137fce-c246-5c04-88a8-dd21f0066cf8"
+}

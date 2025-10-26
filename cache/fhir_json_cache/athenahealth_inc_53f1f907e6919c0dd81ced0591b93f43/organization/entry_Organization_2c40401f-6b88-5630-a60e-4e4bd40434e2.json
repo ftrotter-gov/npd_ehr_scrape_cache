@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c40401f-6b88-5630-a60e-4e4bd40434e2",
+    "name": "U of M Baltimore Washington Medical Center - OUTPT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ebf072cc-8670-5fbc-ba31-35cfd3eeb0b2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316058498"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 Hospital Dr"
+        ],
+        "city": "GLEN BURNIE",
+        "state": "MD",
+        "postalCode": "21061-5177"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6381"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6381.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c40401f-6b88-5630-a60e-4e4bd40434e2"
+}

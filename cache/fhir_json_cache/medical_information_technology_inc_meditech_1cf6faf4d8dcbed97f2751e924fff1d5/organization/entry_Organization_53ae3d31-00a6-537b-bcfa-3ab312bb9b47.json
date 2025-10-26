@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "53ae3d31-00a6-537b-bcfa-3ab312bb9b47",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://harlingenmedicalcenter.com"
+      }
+    ],
+    "name": "Harlingen Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://harlingenmedicalcenter.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5501 South Expressway 77"
+        ],
+        "city": "Harlingen",
+        "state": "TX",
+        "postalCode": "78550",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:bbbdd720-801c-494d-94bd-37c03bc1abca"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:d6a22ad1-7348-544c-a4f3-721fc48b292c"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:bbbdd720-801c-494d-94bd-37c03bc1abca"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:53ae3d31-00a6-537b-bcfa-3ab312bb9b47"
+}

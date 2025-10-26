@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "561c157a-5122-5611-b897-f30b972a2bbc",
+    "name": "Sorin Medical, PC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a9a4f11c-51bc-5996-9429-94a8f302b040"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942543053"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1111 Amsterdam Avenue"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10025-1716"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8181"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8181.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:561c157a-5122-5611-b897-f30b972a2bbc"
+}

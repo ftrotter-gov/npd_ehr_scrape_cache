@@ -1,0 +1,66 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0FF-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0FF"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Joshua Medical Centers",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4027317333"
+      },
+      {
+        "system": "fax",
+        "value": "4026145405"
+      },
+      {
+        "system": "email",
+        "value": "elbert@joshuahealthcare.com"
+      },
+      {
+        "system": "url",
+        "value": "www.joshuamedicalcenters.ocom"
+      }
+    ],
+    "address": [
+      {
+        "text": "PO Box 7365 Omaha NE 681072715 US",
+        "line": [
+          "PO Box 7365"
+        ],
+        "city": "Omaha",
+        "state": "NE",
+        "postalCode": "681072715",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0FF-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0FF-Organization-2"
+}

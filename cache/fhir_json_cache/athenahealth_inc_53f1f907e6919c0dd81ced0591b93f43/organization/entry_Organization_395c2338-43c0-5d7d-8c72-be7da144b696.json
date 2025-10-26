@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "395c2338-43c0-5d7d-8c72-be7da144b696",
+    "name": "Denny Community Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7d2dbe6a-010f-525c-a5b5-bf9581ee80b1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821079088"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 E. Huron St.",
+          "Suite #1101"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60611-2948"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31131"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31131.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:395c2338-43c0-5d7d-8c72-be7da144b696"
+}

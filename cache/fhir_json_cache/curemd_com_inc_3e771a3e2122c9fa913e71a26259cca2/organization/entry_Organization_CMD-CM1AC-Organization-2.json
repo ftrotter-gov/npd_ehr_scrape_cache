@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1AC-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1AC"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Clear Creek County Public Health",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3036707518"
+      }
+    ],
+    "address": [
+      {
+        "text": "1969 Miner Street PO Box 3669 Idaho Springs CO 80452 US",
+        "line": [
+          "1969 Miner Street",
+          "PO Box 3669"
+        ],
+        "city": "Idaho Springs",
+        "state": "CO",
+        "postalCode": "80452",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1AC-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1AC-Organization-2"
+}

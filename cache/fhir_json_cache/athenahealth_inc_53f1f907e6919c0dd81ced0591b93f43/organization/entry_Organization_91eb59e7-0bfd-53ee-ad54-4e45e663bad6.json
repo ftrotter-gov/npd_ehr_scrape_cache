@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "91eb59e7-0bfd-53ee-ad54-4e45e663bad6",
+    "name": "Alta Vista Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2fa5c990-3d7f-5c27-8947-d9ca8fb34e5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114920717"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "104 Legion Dr."
+        ],
+        "city": "LAS VEGAS",
+        "state": "NM",
+        "postalCode": "87701-4804"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1592"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1592.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:91eb59e7-0bfd-53ee-ad54-4e45e663bad6"
+}

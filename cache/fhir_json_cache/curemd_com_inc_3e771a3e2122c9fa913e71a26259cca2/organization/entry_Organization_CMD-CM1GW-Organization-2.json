@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1GW-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1GW"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Arkansas Vein Care Clinics",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5014872002"
+      }
+    ],
+    "address": [
+      {
+        "text": "100 shadow oaks dr Sherwood AR 72120 US",
+        "line": [
+          "100 shadow oaks dr"
+        ],
+        "city": "Sherwood",
+        "state": "AR",
+        "postalCode": "72120",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1GW-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1GW-Organization-2"
+}

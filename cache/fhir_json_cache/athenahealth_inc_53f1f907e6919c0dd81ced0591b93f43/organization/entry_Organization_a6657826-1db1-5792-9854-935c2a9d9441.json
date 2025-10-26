@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a6657826-1db1-5792-9854-935c2a9d9441",
+    "name": "Providence Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/61355ad2-70fa-5f9c-8a26-829e452f6e40"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417921628"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "47601 Grand River Ave"
+        ],
+        "city": "NOVI",
+        "state": "MI",
+        "postalCode": "48374-1233"
+      },
+      {
+        "line": [
+          "16001 W 9 Mile Rd"
+        ],
+        "city": "SOUTHFIELD",
+        "state": "MI",
+        "postalCode": "48075-4818"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12099"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12099.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a6657826-1db1-5792-9854-935c2a9d9441"
+}

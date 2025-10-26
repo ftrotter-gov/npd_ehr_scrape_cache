@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0bd14223-d7be-5be7-8a8a-ac9b4296e220",
+    "name": "DMC_HOME_VISIT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/da1aaa05-cd84-5a64-a7d6-50643696f286"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174698385"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "23 VILLAGE SQUARE"
+        ],
+        "city": "CHELMSFORD",
+        "state": "MA",
+        "postalCode": "01824-2712"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1559"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1559.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0bd14223-d7be-5be7-8a8a-ac9b4296e220"
+}

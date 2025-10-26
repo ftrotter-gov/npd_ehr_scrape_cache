@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bdb281fe-cb08-5485-bb77-6cb8cd70a23e",
+    "name": "Great Falls Clinic - Northwest Walk-In",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8df5749b-7e0a-586c-a1a8-27e33f720441"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801897780"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 Division Rd"
+        ],
+        "city": "GREAT FALLS",
+        "state": "MT",
+        "postalCode": "59404-1921"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25095"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25095.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bdb281fe-cb08-5485-bb77-6cb8cd70a23e"
+}

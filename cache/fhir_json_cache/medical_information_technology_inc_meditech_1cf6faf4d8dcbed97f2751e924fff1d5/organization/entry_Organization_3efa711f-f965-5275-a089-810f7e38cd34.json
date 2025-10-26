@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3efa711f-f965-5275-a089-810f7e38cd34",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://orthoindy.com/locations/northwest-hospital?service=hospital"
+      }
+    ],
+    "name": "Indiana Orthopaedic Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://orthoindy.com/locations/northwest-hospital?service=hospital"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8400 Northwest Boulevard"
+        ],
+        "city": "Indianapolis",
+        "state": "IN",
+        "postalCode": "46278",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:d79d332f-147f-41d9-b074-f3b3d15a992e"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:d79d332f-147f-41d9-b074-f3b3d15a992e"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3efa711f-f965-5275-a089-810f7e38cd34"
+}

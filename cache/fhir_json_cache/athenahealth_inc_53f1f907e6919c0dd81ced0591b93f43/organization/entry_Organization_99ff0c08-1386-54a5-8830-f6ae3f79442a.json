@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "99ff0c08-1386-54a5-8830-f6ae3f79442a",
+    "name": "SAN DIEGO",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bc5d76ad-4ab1-5558-be8f-615a3cc7671c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528213303"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7851 MISSION CENTER CT",
+          "SUITE 112"
+        ],
+        "city": "SAN DIEGO",
+        "state": "CA",
+        "postalCode": "92108-1326"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11062"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11062.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:99ff0c08-1386-54a5-8830-f6ae3f79442a"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c564868-f9eb-58cf-b6ee-08f93c74fff8",
+    "name": "Health For All",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1cb7c973-3816-5205-9540-056994099f80"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3030 29TH ST",
+          "SUITE 111"
+        ],
+        "city": "BRYAN",
+        "state": "TX",
+        "postalCode": "77802-2757"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18066"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18066.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c564868-f9eb-58cf-b6ee-08f93c74fff8"
+}

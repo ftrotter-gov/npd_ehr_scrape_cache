@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0BV-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0BV"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Donald Wing Kwong MD LLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2056641331"
+      },
+      {
+        "system": "fax",
+        "value": "2056641043"
+      }
+    ],
+    "address": [
+      {
+        "text": "644 2nd ST NE STE 106 Alabaster AL 35007 US",
+        "line": [
+          "644 2nd ST NE",
+          "STE 106"
+        ],
+        "city": "Alabaster",
+        "state": "AL",
+        "postalCode": "35007",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0BV-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0BV-Organization-2"
+}

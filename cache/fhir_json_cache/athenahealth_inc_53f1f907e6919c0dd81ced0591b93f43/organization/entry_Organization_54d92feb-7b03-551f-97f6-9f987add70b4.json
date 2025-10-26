@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "54d92feb-7b03-551f-97f6-9f987add70b4",
+    "name": "MERCY GENERAL HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/12bf0225-c977-5e26-8804-c97de2eab849"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134103856"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4001 J ST"
+        ],
+        "city": "SACRAMENTO",
+        "state": "CA",
+        "postalCode": "95819-3626"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5646"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5646.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:54d92feb-7b03-551f-97f6-9f987add70b4"
+}

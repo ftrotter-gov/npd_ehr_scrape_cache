@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5134f696-d8e9-530d-ae6d-711f15540f47",
+    "name": "Alaska Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92c4bbd7-d2e7-59c8-8075-3a96c3ff66ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275922346"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4100 Lake Otis Parkway",
+          "#104"
+        ],
+        "city": "ANCHORAGE",
+        "state": "AK",
+        "postalCode": "99508-5230"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10583"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10583.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5134f696-d8e9-530d-ae6d-711f15540f47"
+}

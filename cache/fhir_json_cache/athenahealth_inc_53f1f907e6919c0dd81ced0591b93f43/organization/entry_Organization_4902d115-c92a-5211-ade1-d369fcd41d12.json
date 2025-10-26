@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4902d115-c92a-5211-ade1-d369fcd41d12",
+    "name": "The Sanctuary MD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/89beb659-8a46-5ac5-8411-a3c911d5af31"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567899"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1300 FINKS HIDEAWAY ROAD"
+        ],
+        "city": "MONROE",
+        "state": "LA",
+        "postalCode": "71203-2804"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28248"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28248.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4902d115-c92a-5211-ade1-d369fcd41d12"
+}

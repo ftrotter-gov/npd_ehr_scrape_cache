@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f7fdf188-4129-5f5a-9d67-208e25f2e82b",
+    "name": "Mountain West Surgical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/36bd078b-5d60-51d2-901b-1dbbce6ca5ba"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053565788"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407809551"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1551 SRenaissance Town Dr #200"
+        ],
+        "city": "BOUNTIFUL",
+        "state": "UT",
+        "postalCode": "84010-7668"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3591"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3591.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f7fdf188-4129-5f5a-9d67-208e25f2e82b"
+}

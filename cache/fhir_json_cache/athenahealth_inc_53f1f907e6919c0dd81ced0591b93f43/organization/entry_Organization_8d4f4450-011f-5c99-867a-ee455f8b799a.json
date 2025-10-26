@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8d4f4450-011f-5c99-867a-ee455f8b799a",
+    "name": "Physicians Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c6ca6a4e-ce44-54f4-ab7b-1b3288944ab9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306280177"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "825 University Woods Drive"
+        ],
+        "city": "NEW ALBANY",
+        "state": "IN",
+        "postalCode": "47150-2228"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16521"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16521.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8d4f4450-011f-5c99-867a-ee455f8b799a"
+}

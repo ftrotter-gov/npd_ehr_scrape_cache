@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "226d11cd-5ea6-5dff-ad71-57be9a0f9986",
+    "meta": {
+      "lastUpdated": "2025-09-20T00:06:10.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://franklinhospital.net"
+      }
+    ],
+    "name": "Franklin Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://franklinhospital.net"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 Bailey Lane"
+        ],
+        "city": "Benton",
+        "state": "IL",
+        "postalCode": "62812",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:d7536e0e-d96b-5c5a-865e-0ee61149155e"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:d7536e0e-d96b-5c5a-865e-0ee61149155e"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:226d11cd-5ea6-5dff-ad71-57be9a0f9986"
+}

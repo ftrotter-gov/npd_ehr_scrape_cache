@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "00ff36f4-4ea6-54b2-b21c-8d18f39348a4",
+    "name": "HRMC - Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58236152-f278-56d5-8c50-fc29e49ea172"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083638639"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1701 E 23rd"
+        ],
+        "city": "HUTCHINSON",
+        "state": "KS",
+        "postalCode": "67502-1105"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19300"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19300.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:00ff36f4-4ea6-54b2-b21c-8d18f39348a4"
+}

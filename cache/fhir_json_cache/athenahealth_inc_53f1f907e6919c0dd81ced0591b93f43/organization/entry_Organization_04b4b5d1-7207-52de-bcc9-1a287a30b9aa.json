@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "04b4b5d1-7207-52de-bcc9-1a287a30b9aa",
+    "name": "VarzCare Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9442c47-ded6-5e17-a6d1-25b7df1de7d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003576125"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "999 N MAIN ST # RANDOLPH",
+          "STE 4"
+        ],
+        "city": "RANDOLPH",
+        "state": "MA",
+        "postalCode": "02368-3072"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25763"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25763.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:04b4b5d1-7207-52de-bcc9-1a287a30b9aa"
+}

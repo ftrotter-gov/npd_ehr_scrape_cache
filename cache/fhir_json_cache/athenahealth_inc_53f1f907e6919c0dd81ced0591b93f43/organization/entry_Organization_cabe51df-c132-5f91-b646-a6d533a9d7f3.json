@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cabe51df-c132-5f91-b646-a6d533a9d7f3",
+    "name": "Champaign County",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8644856f-373a-5e3f-a00c-2d1f6062158d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 S STATE ST STE B"
+        ],
+        "city": "CHAMPAIGN",
+        "state": "IL",
+        "postalCode": "61820-6877"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20777"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20777.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cabe51df-c132-5f91-b646-a6d533a9d7f3"
+}

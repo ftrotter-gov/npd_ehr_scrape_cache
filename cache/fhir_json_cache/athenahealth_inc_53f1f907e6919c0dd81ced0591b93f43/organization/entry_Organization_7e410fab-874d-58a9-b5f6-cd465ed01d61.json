@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7e410fab-874d-58a9-b5f6-cd465ed01d61",
+    "name": "AA Pain Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6a62c528-eea3-5e2e-852a-d09ac2e56728"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831465426"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3840  peachtree  industrial blvd",
+          "Suite 220"
+        ],
+        "city": "DULUTH",
+        "state": "GA",
+        "postalCode": "30096-5032"
+      },
+      {
+        "line": [
+          "70 Medical Center Dr."
+        ],
+        "city": "COMMERCE",
+        "state": "GA",
+        "postalCode": "30529-1078"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15110"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15110.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7e410fab-874d-58a9-b5f6-cd465ed01d61"
+}

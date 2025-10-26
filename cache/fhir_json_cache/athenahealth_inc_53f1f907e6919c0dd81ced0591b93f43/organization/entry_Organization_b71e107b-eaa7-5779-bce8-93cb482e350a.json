@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b71e107b-eaa7-5779-bce8-93cb482e350a",
+    "name": "St Joes Surgery ctr op",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6464b607-5193-511a-96eb-bce6ffe5dd41"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306043443"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "240 W Thomas Rd"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85013-4407"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3025"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3025.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b71e107b-eaa7-5779-bce8-93cb482e350a"
+}

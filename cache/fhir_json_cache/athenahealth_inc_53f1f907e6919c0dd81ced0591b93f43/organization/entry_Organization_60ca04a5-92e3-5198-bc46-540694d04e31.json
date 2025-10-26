@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "60ca04a5-92e3-5198-bc46-540694d04e31",
+    "name": "iHealth Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/900eb9ae-ef5e-5aa3-a467-7d4805ae6e70"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750677423"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6008 CENTRE AVENUE"
+        ],
+        "city": "PITTSBURGH",
+        "state": "PA",
+        "postalCode": "15206-3784"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19626"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19626.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:60ca04a5-92e3-5198-bc46-540694d04e31"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6ce89c11-74ce-517c-80db-a3e2f85ad8fb",
+    "name": "Doctors Diagnostic Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58eb66d3-26ef-5333-a83a-ba74d8769598"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215955927"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1017 SOuth Travis"
+        ],
+        "city": "CLEVELAND",
+        "state": "TX",
+        "postalCode": "77327-5152"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-650"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-650.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6ce89c11-74ce-517c-80db-a3e2f85ad8fb"
+}

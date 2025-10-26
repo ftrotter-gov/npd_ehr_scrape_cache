@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22edb875-7cf3-5b17-81e1-912ce7d620af",
+    "name": "Goshen Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f2536f0f-1237-5863-b1fd-8c105e0b7add"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609894518"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1302 COLLEGE AVENUE",
+          "STE 2"
+        ],
+        "city": "GOSHEN",
+        "state": "IN",
+        "postalCode": "46526-4939"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15748"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15748.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22edb875-7cf3-5b17-81e1-912ce7d620af"
+}

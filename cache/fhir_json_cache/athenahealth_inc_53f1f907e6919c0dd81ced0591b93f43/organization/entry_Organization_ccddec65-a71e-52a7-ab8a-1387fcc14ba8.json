@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ccddec65-a71e-52a7-ab8a-1387fcc14ba8",
+    "name": "Lander Free Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4389fd74-48e1-5983-9d0e-5c0e3f46db65"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467642884"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "860 S. 3RD ST."
+        ],
+        "city": "LANDER",
+        "state": "WY",
+        "postalCode": "82520-3712"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29403"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29403.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ccddec65-a71e-52a7-ab8a-1387fcc14ba8"
+}

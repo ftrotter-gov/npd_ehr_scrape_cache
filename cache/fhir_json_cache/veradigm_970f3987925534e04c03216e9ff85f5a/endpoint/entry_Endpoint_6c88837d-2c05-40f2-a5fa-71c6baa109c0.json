@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "6c88837d-2c05-40f2-a5fa-71c6baa109c0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "be5598f7-365c-4717-bf76-fed016d74bcf",
+        "name": "Cumberland Valley ENT Consultants"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Cumberland Valley ENT Consultants",
+    "managingOrganization": {
+      "reference": "#be5598f7-365c-4717-bf76-fed016d74bcf"
+    },
+    "period": {
+      "start": "2018-09-17T15:21:59+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10044371"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10044371"
+}

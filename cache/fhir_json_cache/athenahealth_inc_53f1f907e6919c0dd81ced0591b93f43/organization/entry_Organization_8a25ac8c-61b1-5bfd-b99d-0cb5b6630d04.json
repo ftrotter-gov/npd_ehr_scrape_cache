@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8a25ac8c-61b1-5bfd-b99d-0cb5b6630d04",
+    "name": "Psychiatry at NYP/Lawrence Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2f6a79e0-eb1a-54ce-bcb2-504d9625c091"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023257441"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "55 Palmer Avenue"
+        ],
+        "city": "Bronxville",
+        "state": "NY",
+        "postalCode": "10708-3403"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8a25ac8c-61b1-5bfd-b99d-0cb5b6630d04"
+}

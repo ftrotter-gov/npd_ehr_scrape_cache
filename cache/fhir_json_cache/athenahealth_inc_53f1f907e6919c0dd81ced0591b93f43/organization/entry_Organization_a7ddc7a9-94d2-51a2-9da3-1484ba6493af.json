@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a7ddc7a9-94d2-51a2-9da3-1484ba6493af",
+    "name": "Salem Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e2a895c4-bb60-5026-8970-d83e1852faaf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851842272"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "81 Highland Ave."
+        ],
+        "city": "SALEM",
+        "state": "MA",
+        "postalCode": "01970-2714"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-538"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-538.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a7ddc7a9-94d2-51a2-9da3-1484ba6493af"
+}

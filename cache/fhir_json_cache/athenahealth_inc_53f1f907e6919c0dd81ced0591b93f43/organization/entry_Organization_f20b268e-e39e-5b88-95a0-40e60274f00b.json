@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f20b268e-e39e-5b88-95a0-40e60274f00b",
+    "name": "Our Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cd1fca80-4ae4-5593-8923-c60f4b4d0a41"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609884790"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1899 ROUTE 88"
+        ],
+        "city": "BRICK",
+        "state": "NJ",
+        "postalCode": "08724-3124"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28485"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28485.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f20b268e-e39e-5b88-95a0-40e60274f00b"
+}

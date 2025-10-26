@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3d061ed8-c143-5990-8055-2ce4f51020ed",
+    "name": "Dr. Meyer Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1cdfa66-e037-5c99-b2fa-2d703a46ab39"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013959378"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4600 SE 29th",
+          "Suite 750"
+        ],
+        "city": "DEL CITY",
+        "state": "OK",
+        "postalCode": "73115-3407"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10970"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10970.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3d061ed8-c143-5990-8055-2ce4f51020ed"
+}

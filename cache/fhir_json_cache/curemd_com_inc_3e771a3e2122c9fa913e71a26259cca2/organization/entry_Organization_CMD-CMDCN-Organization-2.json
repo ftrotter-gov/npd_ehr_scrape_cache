@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDCN-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDCN"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "St. Charles Nephrology Inc",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6369280123"
+      },
+      {
+        "system": "fax",
+        "value": "6369280129"
+      }
+    ],
+    "address": [
+      {
+        "text": "6 Jungermann Circle, Suite 215 Saint Peters MO 633761626 US",
+        "line": [
+          "6 Jungermann Circle, Suite 215"
+        ],
+        "city": "Saint Peters",
+        "state": "MO",
+        "postalCode": "633761626",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDCN-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDCN-Organization-2"
+}

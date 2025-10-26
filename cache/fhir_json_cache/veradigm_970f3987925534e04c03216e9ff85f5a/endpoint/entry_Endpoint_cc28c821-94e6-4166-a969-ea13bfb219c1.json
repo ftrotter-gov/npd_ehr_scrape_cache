@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "cc28c821-94e6-4166-a969-ea13bfb219c1",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "83518250-bb77-4209-baea-cf62a270a78d",
+        "name": "Clayton Pediatrics Center Pa"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Clayton Pediatrics Center Pa",
+    "managingOrganization": {
+      "reference": "#83518250-bb77-4209-baea-cf62a270a78d"
+    },
+    "period": {
+      "start": "2018-08-14T08:15:52+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/70569"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/70569"
+}

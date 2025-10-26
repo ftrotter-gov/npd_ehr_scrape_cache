@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d9fea3df-cc52-51b2-8b2a-23630eb650a8",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://emhealth.org/location/ephraim-mcdowell-regional-medical-center"
+      }
+    ],
+    "name": "Ephraim McDowell Regional Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://emhealth.org/location/ephraim-mcdowell-regional-medical-center"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "217 South Third Street"
+        ],
+        "city": "Danville",
+        "state": "KY",
+        "postalCode": "40422",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:0aa293d9-1fb9-435c-bc77-bbface6d23f0"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:26933f1a-df33-5c2f-9abc-4491c7a0e30d"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0aa293d9-1fb9-435c-bc77-bbface6d23f0"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d9fea3df-cc52-51b2-8b2a-23630eb650a8"
+}

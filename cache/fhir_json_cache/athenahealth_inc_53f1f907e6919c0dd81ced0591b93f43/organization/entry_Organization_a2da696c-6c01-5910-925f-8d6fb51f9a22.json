@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a2da696c-6c01-5910-925f-8d6fb51f9a22",
+    "name": "BI Harvard Avenue",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a420ef03-abaa-5c3b-9697-9bd53e59666d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881902492"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "226 Harvard Ave"
+        ],
+        "city": "ALLSTON",
+        "state": "MA",
+        "postalCode": "02134-4605"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10678"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10678.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a2da696c-6c01-5910-925f-8d6fb51f9a22"
+}

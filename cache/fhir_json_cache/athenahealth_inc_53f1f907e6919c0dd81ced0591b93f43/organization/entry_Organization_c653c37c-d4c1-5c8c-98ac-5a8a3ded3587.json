@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c653c37c-d4c1-5c8c-98ac-5a8a3ded3587",
+    "name": "Pierson Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6b2b575-3847-5c04-8499-c0a279ca5b2f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992792311"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750546313"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "216 N FREDERICK ST"
+        ],
+        "city": "PIERSON",
+        "state": "FL",
+        "postalCode": "32180-3024"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13581"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13581.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c653c37c-d4c1-5c8c-98ac-5a8a3ded3587"
+}

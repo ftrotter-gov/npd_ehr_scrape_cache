@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae2726b1-fbc6-56af-8fe6-99da5e4bdbf7",
+    "name": "NHFM Heart Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca33bbdb-f2c4-5e22-9286-2b225acf67ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336585397"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8901 FM 1960 Bypass Rd W",
+          "Ste 304"
+        ],
+        "city": "HUMBLE",
+        "state": "TX",
+        "postalCode": "77338-4019"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11939"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11939.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae2726b1-fbc6-56af-8fe6-99da5e4bdbf7"
+}

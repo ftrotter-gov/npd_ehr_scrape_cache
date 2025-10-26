@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "43fcd36b-db57-59c4-b388-5fbcbed4b6d1",
+    "name": "Starlight Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9df4df3c-c9c8-56bc-8652-6090972e1c13"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700205515"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245223783"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "500 HOLLY SPRINGS RD STE 101"
+        ],
+        "city": "HOLLY SPRINGS",
+        "state": "NC",
+        "postalCode": "27540-6204"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23054"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23054.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:43fcd36b-db57-59c4-b388-5fbcbed4b6d1"
+}

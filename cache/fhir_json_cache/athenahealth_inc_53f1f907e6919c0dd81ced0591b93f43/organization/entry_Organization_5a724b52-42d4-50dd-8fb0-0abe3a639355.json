@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5a724b52-42d4-50dd-8fb0-0abe3a639355",
+    "name": "PeerWell Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c426dcc5-c075-5bd9-8355-bcd94d130a11"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235802760"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1460 Mission St"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94103-2511"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24441"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24441.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5a724b52-42d4-50dd-8fb0-0abe3a639355"
+}

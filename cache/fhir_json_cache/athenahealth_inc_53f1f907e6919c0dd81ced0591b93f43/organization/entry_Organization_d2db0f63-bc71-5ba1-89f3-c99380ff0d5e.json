@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d2db0f63-bc71-5ba1-89f3-c99380ff0d5e",
+    "name": "Mobile Health Outreach",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/947aca2d-2b2e-50ac-ac0c-104101d6e135"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "24127 CRYSTAL LAKE RD"
+        ],
+        "city": "WOODINVILLE",
+        "state": "WA",
+        "postalCode": "98077-9592"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23624"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23624.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d2db0f63-bc71-5ba1-89f3-c99380ff0d5e"
+}

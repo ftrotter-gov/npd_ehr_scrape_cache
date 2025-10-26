@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ef863131-da55-5d44-82a4-4c49960149eb",
+    "name": "Revere Medical - Foxboro Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/958fce3b-85d0-589e-9020-5bd5a160b83c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336976539"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "70 WALNUT ST"
+        ],
+        "city": "FOXBORO",
+        "state": "MA",
+        "postalCode": "02035-5312"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32866"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32866.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ef863131-da55-5d44-82a4-4c49960149eb"
+}

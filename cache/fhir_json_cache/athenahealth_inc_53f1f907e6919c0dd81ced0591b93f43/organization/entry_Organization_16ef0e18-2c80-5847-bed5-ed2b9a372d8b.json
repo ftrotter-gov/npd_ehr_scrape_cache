@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "16ef0e18-2c80-5847-bed5-ed2b9a372d8b",
+    "name": "NCPA K Street",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a1054e69-25a4-571c-8dbb-a9a1c7dcfbf1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598737751"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2021 K St NW",
+          "Suite 210"
+        ],
+        "city": "Washington",
+        "state": "DC",
+        "postalCode": "20006-1003"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23649"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23649.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:16ef0e18-2c80-5847-bed5-ed2b9a372d8b"
+}

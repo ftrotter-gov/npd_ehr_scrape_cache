@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "133c9be2-05ed-493b-aa5c-52a7b22ea30d",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "578f6283-96f3-4db6-b3d2-ea3154ea89b1",
+        "name": "Texas Breast Specialist"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Texas Breast Specialist",
+    "managingOrganization": {
+      "reference": "#578f6283-96f3-4db6-b3d2-ea3154ea89b1"
+    },
+    "period": {
+      "start": "2019-10-08T13:36:16+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10057691"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10057691"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "52c5d45e-857a-5814-bef1-d654cfcf13e6",
+    "name": "Hanna Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b140bada-1eda-50e7-a686-ef241a1c9973"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902342868"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3207 LAURA LN STE 105"
+        ],
+        "city": "MIDDLETON",
+        "state": "WI",
+        "postalCode": "53562-1428"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28770"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28770.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:52c5d45e-857a-5814-bef1-d654cfcf13e6"
+}

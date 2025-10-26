@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d43210ff-754e-56f7-bd1d-97ae52cec36d",
+    "name": "AT&T Pixel At Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c23595e5-7b08-5719-b7d0-a725db935fe2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649791179"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "208 S. Akard St"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75202-4206"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3908"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3908.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d43210ff-754e-56f7-bd1d-97ae52cec36d"
+}

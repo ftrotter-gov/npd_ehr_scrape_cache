@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b6c442da-c5d8-58b9-be92-9c2834233619",
+    "name": "Dr. Goldsmith",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dc8740b2-5bcb-5527-a655-17c9be73110e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699860742"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7115 GREENVILLE AVE",
+          "SUITE 210"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75231-5104"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8082"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8082.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b6c442da-c5d8-58b9-be92-9c2834233619"
+}

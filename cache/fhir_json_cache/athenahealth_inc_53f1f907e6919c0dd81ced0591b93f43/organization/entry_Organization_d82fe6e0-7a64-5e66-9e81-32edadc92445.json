@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d82fe6e0-7a64-5e66-9e81-32edadc92445",
+    "name": "Dr. Guth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/33bd5fe4-4ba2-55c5-96ff-5ad80d56bc07"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306487525"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4 CENTRE DRIVE",
+          "SUITE G"
+        ],
+        "city": "ORCHARD PARK",
+        "state": "NY",
+        "postalCode": "14127-4117"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20234"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20234.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d82fe6e0-7a64-5e66-9e81-32edadc92445"
+}

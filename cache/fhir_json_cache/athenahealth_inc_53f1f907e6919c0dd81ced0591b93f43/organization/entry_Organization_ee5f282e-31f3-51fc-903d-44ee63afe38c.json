@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ee5f282e-31f3-51fc-903d-44ee63afe38c",
+    "name": "Life Bridge Resources",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1196567d-c31e-5e59-ad9d-52474630d401"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1515 W A ST"
+        ],
+        "city": "MOSCOW",
+        "state": "ID",
+        "postalCode": "83843-3198"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20010"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20010.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ee5f282e-31f3-51fc-903d-44ee63afe38c"
+}

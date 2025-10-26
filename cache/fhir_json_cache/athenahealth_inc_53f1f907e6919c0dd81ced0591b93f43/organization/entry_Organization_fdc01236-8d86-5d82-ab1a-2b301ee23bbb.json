@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fdc01236-8d86-5d82-ab1a-2b301ee23bbb",
+    "name": "HAPPI Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7284b192-3592-5529-a2af-aa14d2b19f6f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528580404"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "813 Franklin St SE"
+        ],
+        "city": "HUNTSVILLE",
+        "state": "AL",
+        "postalCode": "35801-4311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23004"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23004.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fdc01236-8d86-5d82-ab1a-2b301ee23bbb"
+}

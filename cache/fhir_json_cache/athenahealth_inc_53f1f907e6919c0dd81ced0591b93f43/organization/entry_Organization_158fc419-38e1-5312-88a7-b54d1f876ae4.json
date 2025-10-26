@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "158fc419-38e1-5312-88a7-b54d1f876ae4",
+    "name": "CommonGood Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b80efb2c-eef7-5975-bf99-20c3969caaa6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "206 N MAIN ST"
+        ],
+        "city": "FARMERSVILLE",
+        "state": "TX",
+        "postalCode": "75442-1635"
+      },
+      {
+        "line": [
+          "103 E LAMAR ST"
+        ],
+        "city": "MCKINNEY",
+        "state": "TX",
+        "postalCode": "75069-3860"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16194"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16194.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:158fc419-38e1-5312-88a7-b54d1f876ae4"
+}

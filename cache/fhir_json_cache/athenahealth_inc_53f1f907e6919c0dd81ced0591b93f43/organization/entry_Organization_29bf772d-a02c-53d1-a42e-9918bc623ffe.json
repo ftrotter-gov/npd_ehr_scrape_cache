@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "29bf772d-a02c-53d1-a42e-9918bc623ffe",
+    "name": "Manor Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf59cb1f-80bb-5982-a0e0-e6acd8ddb14f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871546762"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 W Ridgeway Ave"
+        ],
+        "city": "WATERLOO",
+        "state": "IA",
+        "postalCode": "50701-4235"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15488"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15488.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:29bf772d-a02c-53d1-a42e-9918bc623ffe"
+}

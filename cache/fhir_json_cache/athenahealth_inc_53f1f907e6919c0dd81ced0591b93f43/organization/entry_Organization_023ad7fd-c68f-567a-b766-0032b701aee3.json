@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "023ad7fd-c68f-567a-b766-0032b701aee3",
+    "name": "Merryville Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4fb8a313-7897-58ec-8e48-f8842531e66c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801895495"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 N Bryan Street"
+        ],
+        "city": "MERRYVILLE",
+        "state": "LA",
+        "postalCode": "70653-3302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1522"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1522.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:023ad7fd-c68f-567a-b766-0032b701aee3"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c3f3dfed-6e9a-5f1f-99f4-15442ec11f74",
+    "name": "Greenfield Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4cb30ee4-48ba-5739-ae50-f405f3ab8f5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770196461"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "25900 GREENFIELD RD STE 140"
+        ],
+        "city": "OAK PARK",
+        "state": "MI",
+        "postalCode": "48237-1267"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22451"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22451.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c3f3dfed-6e9a-5f1f-99f4-15442ec11f74"
+}

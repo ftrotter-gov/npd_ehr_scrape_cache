@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MzQxXzM0MV8zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "876.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851305510"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Maria Ona MD",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "757-562-3233",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "757-562-4233",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "931 Armory Drive Suite C Franklin, VA 238511879",
+        "line": [
+          "931 Armory Drive",
+          "Suite C"
+        ],
+        "city": "Franklin",
+        "state": "VA",
+        "postalCode": "238511879",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MzQxXzM0MV8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MzQxXzM0MV8zMDYw"
+}

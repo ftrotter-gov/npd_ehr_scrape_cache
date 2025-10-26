@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "29bfbea4-2598-5898-8509-e56875c5ff54",
+    "name": "West Jefferson Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/67d12b4f-74ea-5335-856e-39ddc0dbb03b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790296762"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1111 Medical Center Blvd"
+        ],
+        "city": "MARRERO",
+        "state": "LA",
+        "postalCode": "70072-4338"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31102"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31102.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:29bfbea4-2598-5898-8509-e56875c5ff54"
+}

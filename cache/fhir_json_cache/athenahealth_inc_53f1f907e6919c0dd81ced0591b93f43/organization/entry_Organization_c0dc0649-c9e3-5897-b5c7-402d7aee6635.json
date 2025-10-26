@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c0dc0649-c9e3-5897-b5c7-402d7aee6635",
+    "name": "Breast Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a9dd35e3-8f25-5292-b2b3-5c9c08eacd3a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215262217"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "40124 US Highway 27",
+          "STE 207"
+        ],
+        "city": "DAVENPORT",
+        "state": "FL",
+        "postalCode": "33837-5905"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4692"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4692.Brand-15"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c0dc0649-c9e3-5897-b5c7-402d7aee6635"
+}

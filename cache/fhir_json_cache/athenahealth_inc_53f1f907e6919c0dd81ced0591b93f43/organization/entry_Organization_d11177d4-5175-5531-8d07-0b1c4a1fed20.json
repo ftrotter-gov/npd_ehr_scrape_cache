@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d11177d4-5175-5531-8d07-0b1c4a1fed20",
+    "name": "Physician Care Plus",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/88c5a653-9663-51eb-8a86-feb2870e12cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184793127"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201B N Church St"
+        ],
+        "city": "HAZLETON",
+        "state": "PA",
+        "postalCode": "18202-1455"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1704"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1704.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d11177d4-5175-5531-8d07-0b1c4a1fed20"
+}

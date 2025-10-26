@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3a9409fa-9268-4d29-bc10-d8dc84c83bba",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "241cdc86-88c0-41f2-9880-9a80b0d2436a",
+        "name": "Lansing Surgical Assoc PLLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Lansing Surgical Assoc PLLC",
+    "managingOrganization": {
+      "reference": "#241cdc86-88c0-41f2-9880-9a80b0d2436a"
+    },
+    "period": {
+      "start": "2021-10-02T04:23:19+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10019140"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10019140"
+}

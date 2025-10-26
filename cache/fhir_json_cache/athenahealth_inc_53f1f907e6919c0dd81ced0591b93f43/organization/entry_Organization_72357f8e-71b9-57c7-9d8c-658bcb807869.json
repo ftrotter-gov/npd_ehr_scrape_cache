@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "72357f8e-71b9-57c7-9d8c-658bcb807869",
+    "name": "MPO_CA_Heart Valve Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4f748875-16f8-5651-8ef3-b79cb4c8f444"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174565857"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "PEND**45D1048672"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6550 Fannin",
+          "Smith 1401"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77030-2717"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1171"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1171.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:72357f8e-71b9-57c7-9d8c-658bcb807869"
+}

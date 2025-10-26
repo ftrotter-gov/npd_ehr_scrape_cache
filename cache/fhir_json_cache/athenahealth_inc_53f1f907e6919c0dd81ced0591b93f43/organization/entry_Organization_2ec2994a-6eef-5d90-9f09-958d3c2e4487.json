@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2ec2994a-6eef-5d90-9f09-958d3c2e4487",
+    "name": "Village Primary Care Providers",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ea4df4a1-4eb7-5675-bb25-d7877fe6f753"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003324617"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1111 DELAFIELD ST",
+          "Ste 327"
+        ],
+        "city": "WAUKESHA",
+        "state": "WI",
+        "postalCode": "53188-3417"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30745"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30745.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2ec2994a-6eef-5d90-9f09-958d3c2e4487"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0002e15f-9b4b-51bc-9d49-fc0dbaca83db",
+    "name": "Saltville Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/98b5fc6e-b389-50e0-8a01-b30f5d297a0f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003272386"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "105 Fallin Rock Road"
+        ],
+        "city": "SALTVILLE",
+        "state": "VA",
+        "postalCode": "24370-3573"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11345"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11345.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0002e15f-9b4b-51bc-9d49-fc0dbaca83db"
+}

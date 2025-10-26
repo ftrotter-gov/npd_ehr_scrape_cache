@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a159888-3bfe-5c28-9c76-9e3983354b7d",
+    "name": "Chancellor Surgical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/609b9e0b-69c8-5533-8c2c-372ad6d9455b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922001833"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2845 CHANCELLOR DRIVE"
+        ],
+        "city": "CRESTVIEW HILLS",
+        "state": "KY",
+        "postalCode": "41017-3418"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6776"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6776.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a159888-3bfe-5c28-9c76-9e3983354b7d"
+}

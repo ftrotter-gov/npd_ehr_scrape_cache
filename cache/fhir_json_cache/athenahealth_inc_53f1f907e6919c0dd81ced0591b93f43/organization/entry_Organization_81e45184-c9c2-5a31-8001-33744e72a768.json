@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "81e45184-c9c2-5a31-8001-33744e72a768",
+    "name": "Wellstar North Fulton Hospital Inpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1f19ead0-4661-5b8c-9240-9cc63d8879c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811912611"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3000 HOSPITAL BLVD"
+        ],
+        "city": "ROSWELL",
+        "state": "GA",
+        "postalCode": "30076-4915"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8474"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8474.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:81e45184-c9c2-5a31-8001-33744e72a768"
+}

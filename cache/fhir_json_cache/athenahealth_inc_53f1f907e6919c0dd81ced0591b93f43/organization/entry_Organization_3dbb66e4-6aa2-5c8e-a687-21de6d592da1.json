@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3dbb66e4-6aa2-5c8e-a687-21de6d592da1",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/691f5ab9-c613-56f6-a288-ad43c1c02d73"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063969749"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "31608 US HWY 19 N",
+          "SUITE 2"
+        ],
+        "city": "PALM HARBOR",
+        "state": "FL",
+        "postalCode": "34684-3723"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14518"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14518.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3dbb66e4-6aa2-5c8e-a687-21de6d592da1"
+}

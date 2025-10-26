@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dc7ec42d-178f-5711-bae1-034ecd6e22cc",
+    "name": "Neuro Psych Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/687f0c08-ffcc-5080-826c-d7a4b08d7f5a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477500916"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "470 Clarkson Avenue, Suite A7-387"
+        ],
+        "city": "Brooklyn",
+        "state": "NY",
+        "postalCode": "11203-2012"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-438"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-438.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dc7ec42d-178f-5711-bae1-034ecd6e22cc"
+}

@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM09I-Organization-27",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM09I"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Mary Margaret O'Neill MD, Inc,",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4085830522"
+      },
+      {
+        "system": "fax",
+        "value": "4083354057"
+      },
+      {
+        "system": "url",
+        "value": "cedargyn.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "Cedar Ob/Gyn 200 W Campbell Ave Campbell CA 95008 US",
+        "line": [
+          "Cedar Ob/Gyn",
+          "200 W Campbell Ave"
+        ],
+        "city": "Campbell",
+        "state": "CA",
+        "postalCode": "95008",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM09I-Endpoint-27"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM09I-Organization-27"
+}

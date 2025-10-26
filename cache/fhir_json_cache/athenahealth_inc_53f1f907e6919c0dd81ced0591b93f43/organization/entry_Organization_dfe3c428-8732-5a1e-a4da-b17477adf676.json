@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dfe3c428-8732-5a1e-a4da-b17477adf676",
+    "name": "High Plains Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7382fd8d-98c6-5b94-836f-921691f53a6b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982808481"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2301 house ave"
+        ],
+        "city": "CHEYENNE",
+        "state": "WY",
+        "postalCode": "82001-3176"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6429"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6429.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dfe3c428-8732-5a1e-a4da-b17477adf676"
+}

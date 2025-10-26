@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c23f6a1-966f-511e-b5e9-eabec561349a",
+    "name": "Total Health Access",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f14e1fe0-0868-5a38-9087-48d2911b8759"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124049846"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9808 Bluebonnet Blvd",
+          "Building B, Ste. 200"
+        ],
+        "city": "BATON ROUGE",
+        "state": "LA",
+        "postalCode": "70810-6442"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1662"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1662.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c23f6a1-966f-511e-b5e9-eabec561349a"
+}

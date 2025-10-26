@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3ddb1a79-fc3e-5fa1-81f4-b408dbec42bf",
+    "name": "Ripley Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/221ecc9a-41ab-5005-8f66-10b154ee32b0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013012764"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "202 TUCKER AVE"
+        ],
+        "city": "RIPLEY",
+        "state": "TN",
+        "postalCode": "38063-1631"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17303"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17303.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3ddb1a79-fc3e-5fa1-81f4-b408dbec42bf"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0c3c6dd3-e11e-53fb-826a-cc6a0cf809e0",
+    "name": "San Juan Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2543538d-4532-5701-8a53-06919ddd1087"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881263309"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4255 E CHARLESTON BLVD., SUITE F & G"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89104-6685"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24737"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24737.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0c3c6dd3-e11e-53fb-826a-cc6a0cf809e0"
+}

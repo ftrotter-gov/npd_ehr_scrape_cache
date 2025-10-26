@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8d90bb24-38b8-5aa6-a501-8fafdcd92165",
+    "name": "Minute",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/50f716aa-a145-5e8d-b73a-834f92ed24cb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417076829"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2001 Colonial Avenue"
+        ],
+        "city": "ROANOKE",
+        "state": "VA",
+        "postalCode": "24015-3210"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1650"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1650.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8d90bb24-38b8-5aa6-a501-8fafdcd92165"
+}

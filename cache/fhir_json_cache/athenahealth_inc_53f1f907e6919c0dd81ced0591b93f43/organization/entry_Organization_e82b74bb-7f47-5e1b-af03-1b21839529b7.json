@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e82b74bb-7f47-5e1b-af03-1b21839529b7",
+    "name": "High Uintah Health LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/150257e4-7fa5-5ee0-af29-459545b31e28"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "195 E 100 N"
+        ],
+        "city": "PROVO",
+        "state": "UT",
+        "postalCode": "84606-3143"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28346"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28346.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e82b74bb-7f47-5e1b-af03-1b21839529b7"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d797706-9509-506d-b062-841c787a5f48",
+    "name": "NWLM - Salem",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dcb0c35f-db47-589d-a742-f2e160134216"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447481866"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1025 2nd St NW",
+          "Suite 100"
+        ],
+        "city": "SALEM",
+        "state": "OR",
+        "postalCode": "97304-4001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2220"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2220.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d797706-9509-506d-b062-841c787a5f48"
+}

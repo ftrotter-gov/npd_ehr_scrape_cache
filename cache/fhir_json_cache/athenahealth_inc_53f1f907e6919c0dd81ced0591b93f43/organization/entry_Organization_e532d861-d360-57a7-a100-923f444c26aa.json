@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e532d861-d360-57a7-a100-923f444c26aa",
+    "name": "Burke Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ddcdc5fc-b78a-5d9a-985a-77ffc25faf97"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225085707"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "103 MEDICAL HEIGHTS DR"
+        ],
+        "city": "MORGANTON",
+        "state": "NC",
+        "postalCode": "28655"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4127"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4127.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e532d861-d360-57a7-a100-923f444c26aa"
+}

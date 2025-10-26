@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d948e806-d782-5841-98d5-566856c2aa1a",
+    "name": "woman's hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92eaff9d-0b69-5cdc-a095-f590001c011b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457873572"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Woman's Way"
+        ],
+        "city": "BATON ROUGE",
+        "state": "LA",
+        "postalCode": "70817-5100"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16458"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16458.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d948e806-d782-5841-98d5-566856c2aa1a"
+}

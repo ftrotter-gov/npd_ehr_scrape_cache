@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM074-Organization-12",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM074"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "All Womens OB/GYN",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2568821785"
+      },
+      {
+        "system": "fax",
+        "value": "2568821770"
+      },
+      {
+        "system": "url",
+        "value": "www.allwomensobgyn.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "610 Airport Road Suite 210 Huntsville AL 35802 US",
+        "line": [
+          "610 Airport Road",
+          "Suite 210"
+        ],
+        "city": "Huntsville",
+        "state": "AL",
+        "postalCode": "35802",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM074-Endpoint-12"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM074-Organization-12"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a41774d1-f329-50d9-8871-9528563105e2",
+    "name": "Halim Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/89ecc55e-79af-5188-85e2-98f6a4c0a6ed"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4646 NANTUCKETT DR"
+        ],
+        "city": "TOLEDO",
+        "state": "OH",
+        "postalCode": "43623-3194"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19745"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19745.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a41774d1-f329-50d9-8871-9528563105e2"
+}

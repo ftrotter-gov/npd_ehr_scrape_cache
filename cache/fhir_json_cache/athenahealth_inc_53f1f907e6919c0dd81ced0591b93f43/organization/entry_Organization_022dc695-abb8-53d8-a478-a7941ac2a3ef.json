@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "022dc695-abb8-53d8-a478-a7941ac2a3ef",
+    "name": "Care House Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fa329e09-9641-5c52-862d-b2f790614e86"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1511 - 7TH ST. SOUTH"
+        ],
+        "city": "NAMPA",
+        "state": "ID",
+        "postalCode": "83651-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21291"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21291.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:022dc695-abb8-53d8-a478-a7941ac2a3ef"
+}

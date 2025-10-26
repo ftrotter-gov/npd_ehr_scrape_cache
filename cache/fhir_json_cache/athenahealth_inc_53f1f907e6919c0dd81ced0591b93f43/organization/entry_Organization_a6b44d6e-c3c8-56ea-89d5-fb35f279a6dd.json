@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a6b44d6e-c3c8-56ea-89d5-fb35f279a6dd",
+    "name": "DHR - Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/103e4003-cbda-5602-92ed-db4a7a2d2c2b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477960730"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5501 S McColl Road"
+        ],
+        "city": "EDINBURG",
+        "state": "TX",
+        "postalCode": "78539-5503"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17813"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17813.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a6b44d6e-c3c8-56ea-89d5-fb35f279a6dd"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0e8642a4-dee6-5330-86ae-46949208e0fc",
+    "name": "Simone Physical Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d1442a1a-3795-5270-9f01-d871a2ad05e3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225464399"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1111 1st Street"
+        ],
+        "city": "Fort Lupton",
+        "state": "CO",
+        "postalCode": "80621-2002"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29676"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29676.Brand-26"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0e8642a4-dee6-5330-86ae-46949208e0fc"
+}

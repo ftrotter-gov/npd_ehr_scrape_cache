@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bbc3378b-8b67-55ef-87db-e5a01e3f67f1",
+    "name": "Lonestar Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/535a74d3-eec0-5092-ba00-9a9a5902f38a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528617339"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 N. 15TH ST.",
+          "SUITE 102"
+        ],
+        "city": "RICHMOND",
+        "state": "IN",
+        "postalCode": "47374-4355"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20089"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20089.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bbc3378b-8b67-55ef-87db-e5a01e3f67f1"
+}

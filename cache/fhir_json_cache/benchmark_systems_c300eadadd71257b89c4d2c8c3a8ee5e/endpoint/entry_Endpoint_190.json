@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "190",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "190",
+        "name": "Louisa Family Practice"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Louisa Family Practice",
+    "managingOrganization": {
+      "reference": "#190"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://louisafam.mdnavigatorclinical.com/prognocis/fhir/louisafam"
+  },
+  "fullUrl": "https://louisafam.mdnavigatorclinical.com/prognocis/fhir/louisafam"
+}

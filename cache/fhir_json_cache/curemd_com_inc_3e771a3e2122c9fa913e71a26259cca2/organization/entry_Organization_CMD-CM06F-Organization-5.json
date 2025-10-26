@@ -1,0 +1,65 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM06F-Organization-5",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM06F"
+        }
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235198177"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Duplin County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9102962130"
+      },
+      {
+        "system": "fax",
+        "value": "9102962139"
+      }
+    ],
+    "address": [
+      {
+        "text": "PO Box 948 Kenansville DUPLIN NC 283498978 US",
+        "line": [
+          "PO Box 948"
+        ],
+        "city": "Kenansville",
+        "district": "DUPLIN",
+        "state": "NC",
+        "postalCode": "283498978",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM06F-Endpoint-5"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM06F-Organization-5"
+}

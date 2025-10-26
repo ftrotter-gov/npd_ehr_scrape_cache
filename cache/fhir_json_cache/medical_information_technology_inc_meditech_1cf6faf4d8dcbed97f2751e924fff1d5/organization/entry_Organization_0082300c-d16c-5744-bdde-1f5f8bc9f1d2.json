@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0082300c-d16c-5744-bdde-1f5f8bc9f1d2",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://dunessurgicalhospital.com"
+      }
+    ],
+    "name": "Dunes Surgical Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://dunessurgicalhospital.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 Sioux Point Road"
+        ],
+        "city": "Dakota Dunes",
+        "state": "SD",
+        "postalCode": "57049",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:c2700bd5-00e0-46ff-b283-fd72b35d26cd"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:c2700bd5-00e0-46ff-b283-fd72b35d26cd"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0082300c-d16c-5744-bdde-1f5f8bc9f1d2"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "45bfd88e-d88a-5595-98d5-3abee46507ec",
+    "name": "Boise Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8bf54327-57aa-5ce7-90f4-4da5143703ac"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356883326"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10798 W OVERLAND RD"
+        ],
+        "city": "BOISE",
+        "state": "ID",
+        "postalCode": "83709-1329"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17614"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17614.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:45bfd88e-d88a-5595-98d5-3abee46507ec"
+}

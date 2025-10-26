@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d1c4bdea-3aae-5916-84f5-c43d1aca6a44",
+    "name": "Moravian Village Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0fbc1486-5824-5c0a-8764-b7773681873c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518942655"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "526 Wood Street"
+        ],
+        "city": "BETHLEHEM",
+        "state": "PA",
+        "postalCode": "18018-4453"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15246"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15246.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d1c4bdea-3aae-5916-84f5-c43d1aca6a44"
+}

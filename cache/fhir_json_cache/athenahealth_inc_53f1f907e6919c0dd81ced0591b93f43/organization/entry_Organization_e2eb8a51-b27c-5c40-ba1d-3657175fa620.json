@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e2eb8a51-b27c-5c40-ba1d-3657175fa620",
+    "name": "Mission Hospital InPatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ae157fdb-937f-5c7f-b886-c4d4867da173"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528397585"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "509 Biltmore Ave"
+        ],
+        "city": "ASHEVILLE",
+        "state": "NC",
+        "postalCode": "28801-4601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30432"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30432.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e2eb8a51-b27c-5c40-ba1d-3657175fa620"
+}

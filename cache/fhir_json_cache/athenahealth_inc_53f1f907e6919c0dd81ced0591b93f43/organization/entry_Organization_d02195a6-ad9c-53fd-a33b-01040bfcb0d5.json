@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d02195a6-ad9c-53fd-a33b-01040bfcb0d5",
+    "name": "Fairmont Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/be25528d-263d-584a-a619-d9c70aed3152"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "PEND**1427282045"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "101 NORTH WALNUT ST."
+        ],
+        "city": "FAIRMONT",
+        "state": "NC",
+        "postalCode": "28340"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4141"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4141.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d02195a6-ad9c-53fd-a33b-01040bfcb0d5"
+}

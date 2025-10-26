@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fe8db29d-2aee-5105-9157-52b288143aa4",
+    "name": "Methodist Hospital West Houston",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf4703e9-2cce-572b-a257-3a657e32ea62"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497776017"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18400 Katy Freeway"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77094-1286"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1171"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1171.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fe8db29d-2aee-5105-9157-52b288143aa4"
+}

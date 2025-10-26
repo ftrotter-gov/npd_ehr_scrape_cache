@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5353fa80-04c9-5997-8bab-1dfd6307e4a4",
+    "name": "Northern NM Cancer Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/606cfffb-6858-575c-8572-225b76c1966b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285701623"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3917 WEST RD STE 225"
+        ],
+        "city": "LOS ALAMOS",
+        "state": "NM",
+        "postalCode": "87544-5311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19849"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19849.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5353fa80-04c9-5997-8bab-1dfd6307e4a4"
+}

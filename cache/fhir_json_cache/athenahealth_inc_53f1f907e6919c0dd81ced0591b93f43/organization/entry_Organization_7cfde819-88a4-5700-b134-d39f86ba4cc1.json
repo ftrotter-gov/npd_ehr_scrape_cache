@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7cfde819-88a4-5700-b134-d39f86ba4cc1",
+    "name": "CCRM Boston Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/585248de-cb8c-5eb3-99ea-df12b5e43b74"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871045815"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 Boylston Street",
+          "Suite 300"
+        ],
+        "city": "NEWTON CENTER",
+        "state": "MA",
+        "postalCode": "02459-1959"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17469"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17469.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7cfde819-88a4-5700-b134-d39f86ba4cc1"
+}

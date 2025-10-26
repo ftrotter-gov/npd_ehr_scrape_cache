@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e1e453d8-5850-55f5-99e8-4b1a4f27557e",
+    "name": "Fair Oaks Hospital ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013042480"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3600 Joseph Siewick Drive"
+        ],
+        "city": "FAIRFAX",
+        "state": "VA",
+        "postalCode": "22033-1709"
+      },
+      {
+        "line": [
+          "3600 Joseph Siewick Drive"
+        ],
+        "city": "Fairfax",
+        "state": "VA",
+        "postalCode": "22033-1709"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e1e453d8-5850-55f5-99e8-4b1a4f27557e"
+}

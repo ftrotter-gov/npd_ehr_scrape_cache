@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f59fbf3a-87c1-5e46-9c8f-a1076e740702",
+    "name": "Sandhills Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e48f6895-cc5b-5339-bc7f-99c0f65f65e8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164653499"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "102 Endo Lane Suite 1"
+        ],
+        "city": "HAMLET",
+        "state": "NC",
+        "postalCode": "28345-4563"
+      },
+      {
+        "line": [
+          "108 Endo Lane Suite 2"
+        ],
+        "city": "HAMLET",
+        "state": "NC",
+        "postalCode": "28345-4567"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12291"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12291.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f59fbf3a-87c1-5e46-9c8f-a1076e740702"
+}

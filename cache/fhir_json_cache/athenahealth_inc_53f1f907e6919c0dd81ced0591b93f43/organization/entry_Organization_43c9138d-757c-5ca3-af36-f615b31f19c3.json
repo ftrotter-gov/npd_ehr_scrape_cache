@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "43c9138d-757c-5ca3-af36-f615b31f19c3",
+    "name": "Regional Healthcare Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1a32fcf9-2c87-5572-bee8-baa8be1af7b7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093235046"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "904 W MOORE AVE STE B"
+        ],
+        "city": "TERRELL",
+        "state": "TX",
+        "postalCode": "75160-3004"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17636"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17636.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:43c9138d-757c-5ca3-af36-f615b31f19c3"
+}

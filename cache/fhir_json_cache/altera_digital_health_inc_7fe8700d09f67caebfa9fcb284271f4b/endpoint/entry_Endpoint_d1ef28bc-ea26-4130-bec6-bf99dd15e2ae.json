@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "d1ef28bc-ea26-4130-bec6-bf99dd15e2ae",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "76e42cf3-c5f6-4e5f-b738-bbf651473833",
+        "name": "Infinite Health Collaborative P.A."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Infinite Health Collaborative P.A.",
+    "managingOrganization": {
+      "reference": "#76e42cf3-c5f6-4e5f-b738-bbf651473833"
+    },
+    "period": {
+      "start": "2025-01-02T12:53:56+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://twfhir.revohealth.com/R4/open-R4"
+  },
+  "fullUrl": "https://twfhir.revohealth.com/R4/open-R4"
+}

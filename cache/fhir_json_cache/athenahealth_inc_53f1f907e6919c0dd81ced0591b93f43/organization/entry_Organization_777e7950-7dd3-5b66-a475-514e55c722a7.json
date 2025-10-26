@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "777e7950-7dd3-5b66-a475-514e55c722a7",
+    "name": "SABINE MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4fb8a313-7897-58ec-8e48-f8842531e66c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801895495"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "240 HIGHLAND DRIVE"
+        ],
+        "city": "MANY",
+        "state": "LA",
+        "postalCode": "71449-3718"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1522"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1522.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:777e7950-7dd3-5b66-a475-514e55c722a7"
+}

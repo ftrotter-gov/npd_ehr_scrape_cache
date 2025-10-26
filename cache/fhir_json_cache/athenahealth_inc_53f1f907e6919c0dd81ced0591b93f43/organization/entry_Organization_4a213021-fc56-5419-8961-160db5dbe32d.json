@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4a213021-fc56-5419-8961-160db5dbe32d",
+    "name": "Focus OB/GYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aa6ab6ec-56ec-523e-a2d4-d9f4911e4f30"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821041617"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Ethel Rd",
+          "Suite 106B"
+        ],
+        "city": "Edison",
+        "state": "NJ",
+        "postalCode": "08817-2838"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27010"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27010.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4a213021-fc56-5419-8961-160db5dbe32d"
+}

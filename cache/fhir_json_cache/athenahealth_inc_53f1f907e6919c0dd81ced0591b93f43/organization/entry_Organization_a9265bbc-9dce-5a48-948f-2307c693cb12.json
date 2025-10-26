@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a9265bbc-9dce-5a48-948f-2307c693cb12",
+    "name": "Kernersville Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1665fc6f-7318-53ec-b254-d13dd961eede"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811090475"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013002138"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1750 Kernersville medical Center"
+        ],
+        "city": "KERNERSVILLE",
+        "state": "NC",
+        "postalCode": "27284-2728"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-952"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-952.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a9265bbc-9dce-5a48-948f-2307c693cb12"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "27a8f0e3-3197-509a-8ecf-c40446ef3d9a",
+    "name": "Ken Hill Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a47c0d2d-12da-506b-894f-0c60551a9f95"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1411 CRAWFORD AVE."
+        ],
+        "city": "GRANBURY",
+        "state": "TX",
+        "postalCode": "76048-2269"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23838"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23838.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:27a8f0e3-3197-509a-8ecf-c40446ef3d9a"
+}

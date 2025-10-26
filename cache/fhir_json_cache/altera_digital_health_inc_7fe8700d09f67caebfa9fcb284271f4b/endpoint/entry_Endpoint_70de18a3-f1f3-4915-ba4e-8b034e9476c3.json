@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "70de18a3-f1f3-4915-ba4e-8b034e9476c3",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "6ba020ff-232d-434b-8c4a-eac585d5d19e",
+        "name": "York General Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "York General Hospital",
+    "managingOrganization": {
+      "reference": "#6ba020ff-232d-434b-8c4a-eac585d5d19e"
+    },
+    "period": {
+      "start": "2023-09-28T20:05:32+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10132739-LIVE"
+  },
+  "fullUrl": "https://fhir.fhirpoint.ahcentral.com/fhirroute/open/10132739-LIVE"
+}

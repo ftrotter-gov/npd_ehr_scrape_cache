@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "90ea089b-856d-5790-8f01-683b940f9ec6",
+    "name": "SHERIDAN HOLLOW DROP-IN CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/750f5c17-93d4-52d7-9458-6b19dbeb8e38"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567999"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "26 SOUTH SWAN STREET"
+        ],
+        "city": "ALBANY",
+        "state": "NY",
+        "postalCode": "12210-2446"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15543"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15543.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:90ea089b-856d-5790-8f01-683b940f9ec6"
+}

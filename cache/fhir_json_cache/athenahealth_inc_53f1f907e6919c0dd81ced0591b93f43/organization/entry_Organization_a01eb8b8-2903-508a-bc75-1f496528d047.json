@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a01eb8b8-2903-508a-bc75-1f496528d047",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9180b989-6693-5fc7-8931-a43983fad437"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881698686"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10605 CONCORD STREET",
+          "SUITE 500"
+        ],
+        "city": "KENSINGTON",
+        "state": "MD",
+        "postalCode": "20895-2519"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16191"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16191.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a01eb8b8-2903-508a-bc75-1f496528d047"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a6f33489-542d-5e1c-9ae7-5910fe417bc5",
+    "name": "ST LUKES BAPTIST HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6fb1bd7b-3f72-5923-b0dd-e2d602adf81c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407272834"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.336",
+        "value": "354137ZHAE"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7930 Floyd Curl Dr"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78229-3925"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10525"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10525.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a6f33489-542d-5e1c-9ae7-5910fe417bc5"
+}

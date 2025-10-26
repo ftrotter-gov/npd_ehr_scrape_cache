@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "11fd11ba-561d-5b94-a946-258c0f294426",
+    "name": "Sahara Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/34096e10-7987-5cdb-a789-9cec2e15ed7a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801251608"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2401 Paseo Del Prado"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89102-4363"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13159"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13159.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:11fd11ba-561d-5b94-a946-258c0f294426"
+}

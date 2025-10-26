@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f276e46-421b-5100-ac2c-49ba59f64307",
+    "meta": {
+      "lastUpdated": "2022-05-12T22:51:13.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://witham.org"
+      }
+    ],
+    "name": "Witham Memorial Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://witham.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2605 North Lebanon Street"
+        ],
+        "city": "Lebanon",
+        "state": "IN",
+        "postalCode": "46052",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:45589403-3938-581c-92db-caf8588f98a7"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:45589403-3938-581c-92db-caf8588f98a7"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f276e46-421b-5100-ac2c-49ba59f64307"
+}

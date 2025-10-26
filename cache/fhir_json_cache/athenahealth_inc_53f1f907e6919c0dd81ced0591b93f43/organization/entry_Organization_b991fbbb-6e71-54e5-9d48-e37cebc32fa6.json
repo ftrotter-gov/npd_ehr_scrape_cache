@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b991fbbb-6e71-54e5-9d48-e37cebc32fa6",
+    "name": "Bus Health Clinic North",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37f3118d-59cc-5b14-82a9-5c845de24d51"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619918026"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "315 E COOK RD"
+        ],
+        "city": "FORT WAYNE",
+        "state": "IN",
+        "postalCode": "46825-3311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29579"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29579.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b991fbbb-6e71-54e5-9d48-e37cebc32fa6"
+}

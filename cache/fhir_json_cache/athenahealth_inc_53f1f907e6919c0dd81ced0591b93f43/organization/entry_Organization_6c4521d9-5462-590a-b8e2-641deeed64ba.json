@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6c4521d9-5462-590a-b8e2-641deeed64ba",
+    "name": "St. Luke's BHC OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fa27acfc-9690-5089-b2eb-b88b467fb67c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518137520"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1800 E Van Buren St"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85006-3742"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19035"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19035.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6c4521d9-5462-590a-b8e2-641deeed64ba"
+}

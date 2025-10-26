@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "93f0c2b1-3e05-557f-8f3d-81abf1991aa3",
+    "name": "DOCTORS NEXT DOOR",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4e7cc775-562a-5b7d-8c72-e94ec7f5105b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407550023"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4021 W 63RD ST STE C",
+          "UNIT C"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60629-4642"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4021"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4021.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:93f0c2b1-3e05-557f-8f3d-81abf1991aa3"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "17c30e80-b71a-5c83-888c-939095267f2e",
+    "name": "Huntsville Pain Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5a7e2850-11e5-5ffc-9bac-ac4582c49c9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154690204"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "185 CHATEAU DR SW",
+          "STE 302"
+        ],
+        "city": "HUNTSVILLE",
+        "state": "AL",
+        "postalCode": "35801-7413"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32676"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32676.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:17c30e80-b71a-5c83-888c-939095267f2e"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "946a2618-13dc-5705-97a0-385d12a61995",
+    "name": "Northside Hospital 2",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b443fb7a-0afb-5696-a54c-95ac23837952"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912041864"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 Johnson Ferry Road"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30342-1606"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17749"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17749.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:946a2618-13dc-5705-97a0-385d12a61995"
+}

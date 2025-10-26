@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bf9c2a9-d43f-5cdd-aaf5-5e8732190cc6",
+    "name": "ST JOSEPH IN PATIENT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bee4f8a6-6a7e-591a-997f-f16e16af70fb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558600957"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2900 N LAKESHORE DRIVE"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60657-5640"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6721"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6721.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bf9c2a9-d43f-5cdd-aaf5-5e8732190cc6"
+}

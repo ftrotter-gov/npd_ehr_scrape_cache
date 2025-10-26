@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM00L-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM00L"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Genesis Medical Diagnostics",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2126449100"
+      },
+      {
+        "system": "fax",
+        "value": "2126446116"
+      },
+      {
+        "system": "email",
+        "value": "ruthjohnsonmd@gmail.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "425 Madison Avenue FL 14 NEW YORK NY 100171134 US",
+        "line": [
+          "425 Madison Avenue FL 14"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "100171134",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM00L-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM00L-Organization-2"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ae605a3-107a-5d62-a6b6-e24084c2dda7",
+    "name": "JFK Out Patient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/229f972a-9afb-5622-aa6f-b7158931372a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285037176"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5301 S Congress Avenue"
+        ],
+        "city": "LAKE WORTH",
+        "state": "FL",
+        "postalCode": "33462-1149"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11018"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11018.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ae605a3-107a-5d62-a6b6-e24084c2dda7"
+}

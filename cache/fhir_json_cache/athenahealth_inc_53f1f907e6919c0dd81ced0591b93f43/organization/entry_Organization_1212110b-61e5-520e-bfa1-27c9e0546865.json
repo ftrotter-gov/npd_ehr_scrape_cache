@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1212110b-61e5-520e-bfa1-27c9e0546865",
+    "name": "Gorham Health Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c8e8e45c-481f-5b45-80d0-4454a37d48bc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366474611"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "575 Main St"
+        ],
+        "city": "GORHAM",
+        "state": "ME",
+        "postalCode": "04038-1339"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5857"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5857.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1212110b-61e5-520e-bfa1-27c9e0546865"
+}

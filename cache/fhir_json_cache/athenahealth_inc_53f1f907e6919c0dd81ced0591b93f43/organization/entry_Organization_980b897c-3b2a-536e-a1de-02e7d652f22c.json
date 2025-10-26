@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "980b897c-3b2a-536e-a1de-02e7d652f22c",
+    "name": "Wasatch Horizons Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3137841e-bc0d-53cd-a1f9-a335733d7030"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972159952"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "974 W 14420 S",
+          "SUITE 5"
+        ],
+        "city": "RIVERTON",
+        "state": "UT",
+        "postalCode": "84065-1629"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27505"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27505.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:980b897c-3b2a-536e-a1de-02e7d652f22c"
+}

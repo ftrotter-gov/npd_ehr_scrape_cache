@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4e4a01fc-3c33-52f7-9006-b0caa6c9eaee",
+    "name": "Memorial Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58b4d5b4-acea-5bc3-a060-05df2bb03afb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063064640"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1615 Maple Ln"
+        ],
+        "city": "ASHLAND",
+        "state": "WI",
+        "postalCode": "54806-3689"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21990"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21990.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4e4a01fc-3c33-52f7-9006-b0caa6c9eaee"
+}

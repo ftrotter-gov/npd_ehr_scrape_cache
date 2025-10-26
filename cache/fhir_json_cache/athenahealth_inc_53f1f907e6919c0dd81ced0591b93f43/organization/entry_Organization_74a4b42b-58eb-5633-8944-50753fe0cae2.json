@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "74a4b42b-58eb-5633-8944-50753fe0cae2",
+    "name": "Custom Family Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5cd46339-d720-5b80-a6ba-65f875e05e33"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336304245"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1215 7TH STREET SE SUITE G-300"
+        ],
+        "city": "DECATUR",
+        "state": "AL",
+        "postalCode": "35601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5253"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5253.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:74a4b42b-58eb-5633-8944-50753fe0cae2"
+}

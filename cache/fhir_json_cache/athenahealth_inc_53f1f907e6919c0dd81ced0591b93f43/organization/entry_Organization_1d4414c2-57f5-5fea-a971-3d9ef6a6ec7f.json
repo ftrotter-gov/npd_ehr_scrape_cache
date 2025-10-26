@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1d4414c2-57f5-5fea-a971-3d9ef6a6ec7f",
+    "name": "Delhi Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/48818081-aa47-5e0c-bd25-ede2857262e5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891013496"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "508 BROADWAY ST"
+        ],
+        "city": "DELHI",
+        "state": "LA",
+        "postalCode": "71232-3002"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29430"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29430.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1d4414c2-57f5-5fea-a971-3d9ef6a6ec7f"
+}

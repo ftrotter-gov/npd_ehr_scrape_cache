@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c714f566-6a1a-57ec-9e3e-5196175d28a3",
+    "name": "Skilled Nursing Facility",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/796fb71b-6033-5f61-928f-34ba7aaf5a7e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659626265"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9011 N. Meridian St.",
+          "Suite 204"
+        ],
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "postalCode": "46260-5301"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31495"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31495.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c714f566-6a1a-57ec-9e3e-5196175d28a3"
+}

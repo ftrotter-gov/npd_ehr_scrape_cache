@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eb3ff58d-540e-501a-91af-f8925804d00d",
+    "name": "Howard Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/53c8f4f4-908f-5a1c-b8b8-749684fd649b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699783894"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2741 WEST LAYTON AVE",
+          "SUITE 201"
+        ],
+        "city": "MILWAUKEE",
+        "state": "WI",
+        "postalCode": "53221-2600"
+      },
+      {
+        "line": [
+          "10700 W HOWARD AVE STE B"
+        ],
+        "city": "MILWAUKEE",
+        "state": "WI",
+        "postalCode": "53228-1321"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25700"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25700.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eb3ff58d-540e-501a-91af-f8925804d00d"
+}

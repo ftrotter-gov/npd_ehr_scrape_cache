@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8429b330-c796-559f-a245-9c156289fd98",
+    "name": "Scotts Hill Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4b550094-1f19-5641-8eb3-5ce11ae31bc8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538805023"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "644 HIGHWAY 114 S"
+        ],
+        "city": "SCOTTS HILL",
+        "state": "TN",
+        "postalCode": "38374-5023"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26260"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26260.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8429b330-c796-559f-a245-9c156289fd98"
+}

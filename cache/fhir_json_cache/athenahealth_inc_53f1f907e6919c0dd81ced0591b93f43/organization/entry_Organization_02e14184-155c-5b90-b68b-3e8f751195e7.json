@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "02e14184-155c-5b90-b68b-3e8f751195e7",
+    "name": "Telemedicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4eab05eb-3f58-5b39-bdcf-4ae4ecfcf264"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790039725"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4415 w harrison st",
+          "suite 247"
+        ],
+        "city": "HILLSIDE",
+        "state": "IL",
+        "postalCode": "60162-1919"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17656"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17656.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:02e14184-155c-5b90-b68b-3e8f751195e7"
+}

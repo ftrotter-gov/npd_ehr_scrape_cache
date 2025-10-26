@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8b5ab939-1372-50dd-9b67-65c9a13c9ccc",
+    "name": "NuTherapy",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b6eca1fa-875f-5aa0-b407-8ff68bed7366"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164090924"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "550 SE 6TH AVE STE 200"
+        ],
+        "city": "DELRAY BEACH",
+        "state": "FL",
+        "postalCode": "33483-5306"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29308"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29308.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8b5ab939-1372-50dd-9b67-65c9a13c9ccc"
+}

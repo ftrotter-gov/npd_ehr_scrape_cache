@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "33552a67-f6c4-5fb7-bd77-89bbea027f4e",
+    "name": "LEO HEALTH",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/66b05e43-998f-5742-a34b-b4f2cf07f26b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1123456789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 PLACEHOLDER ST",
+          "2ND FLOOR"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11201-3634"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11060"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11060.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:33552a67-f6c4-5fb7-bd77-89bbea027f4e"
+}

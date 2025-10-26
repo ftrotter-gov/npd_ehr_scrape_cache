@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "61f4af84-c2ce-5cb5-9391-fa85dd7c8f44",
+    "name": "Phoenixville Clinic Company",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c45ce340-5f46-54bc-a3dd-0e05685e82fa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891866182"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750805552"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "140 Nutt Road"
+        ],
+        "city": "PHOENIXVILLE",
+        "state": "PA",
+        "postalCode": "19460-3906"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1606"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1606.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:61f4af84-c2ce-5cb5-9391-fa85dd7c8f44"
+}

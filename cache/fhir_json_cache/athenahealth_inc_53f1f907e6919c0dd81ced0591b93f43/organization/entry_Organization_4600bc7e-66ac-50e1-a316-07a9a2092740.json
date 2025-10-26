@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4600bc7e-66ac-50e1-a316-07a9a2092740",
+    "name": "Cath Lab",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f051c0e3-6d38-568c-815b-0f5abc4f85ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235323023"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "308 East Hazel Street"
+        ],
+        "city": "ORLANDO",
+        "state": "FL",
+        "postalCode": "32804-4023"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1577"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1577.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4600bc7e-66ac-50e1-a316-07a9a2092740"
+}

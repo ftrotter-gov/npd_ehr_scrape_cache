@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aad0d22f-b896-5af5-a148-29e74b412881",
+    "name": "Norwood Hospital Inpatient Dept.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a420ef03-abaa-5c3b-9697-9bd53e59666d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891034492"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "80 Washington Street"
+        ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "02062-3487"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10678"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10678.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aad0d22f-b896-5af5-a148-29e74b412881"
+}

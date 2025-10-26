@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9a0878de-9d1f-5396-8c33-7e247e5fc32b",
+    "name": "Tobey Hosiptal",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ac16de48-203e-532c-ab65-d75a545f0f4a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891783189"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "43 High Street"
+        ],
+        "city": "WAREHAM",
+        "state": "MA",
+        "postalCode": "02571-2097"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-788"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-788.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9a0878de-9d1f-5396-8c33-7e247e5fc32b"
+}

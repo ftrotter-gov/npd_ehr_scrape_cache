@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5e33dc33-8f63-5a80-954b-1c366b0e712b",
+    "name": "Las Palmas Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/573c6716-1a34-53bc-aab9-82710c9d0112"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316120116"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1801 N Oregon St."
+        ],
+        "city": "EL PASO",
+        "state": "TX",
+        "postalCode": "79902-3524"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10488"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10488.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5e33dc33-8f63-5a80-954b-1c366b0e712b"
+}

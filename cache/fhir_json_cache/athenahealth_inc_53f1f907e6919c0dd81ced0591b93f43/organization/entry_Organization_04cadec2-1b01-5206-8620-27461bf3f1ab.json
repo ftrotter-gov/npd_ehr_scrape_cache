@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "04cadec2-1b01-5206-8620-27461bf3f1ab",
+    "name": "Dr. Singh's office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c996247e-e1cf-5151-99e1-f7c20be8ca0c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821645458"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1800 N FEDERAL HIGHWAY, SUITE 101"
+        ],
+        "city": "POMPANO BEACH",
+        "state": "FL",
+        "postalCode": "33062-1011"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21716"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21716.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:04cadec2-1b01-5206-8620-27461bf3f1ab"
+}

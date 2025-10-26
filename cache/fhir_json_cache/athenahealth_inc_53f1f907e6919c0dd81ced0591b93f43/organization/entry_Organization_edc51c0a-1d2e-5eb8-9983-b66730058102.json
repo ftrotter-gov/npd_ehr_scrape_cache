@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "edc51c0a-1d2e-5eb8-9983-b66730058102",
+    "name": "South Nassau INPT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/440c3583-29a7-56da-8860-8aae1568062f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114366408"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "One Healthy Way"
+        ],
+        "city": "OCEANSIDE",
+        "state": "NY",
+        "postalCode": "11572-1548"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7263"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7263.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:edc51c0a-1d2e-5eb8-9983-b66730058102"
+}

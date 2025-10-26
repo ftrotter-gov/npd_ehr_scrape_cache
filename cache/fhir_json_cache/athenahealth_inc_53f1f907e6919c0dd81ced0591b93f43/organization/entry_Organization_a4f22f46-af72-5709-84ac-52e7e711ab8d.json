@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a4f22f46-af72-5709-84ac-52e7e711ab8d",
+    "name": "ACH Family Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/91c4459c-d05d-533b-b643-32c6c8d84370"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104846419"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "506 W. Main"
+        ],
+        "city": "LOUISVILLE",
+        "state": "OH",
+        "postalCode": "44641-1310"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10709"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10709.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a4f22f46-af72-5709-84ac-52e7e711ab8d"
+}

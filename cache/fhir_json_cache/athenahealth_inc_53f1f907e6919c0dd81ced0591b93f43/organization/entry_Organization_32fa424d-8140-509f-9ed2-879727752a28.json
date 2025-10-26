@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "32fa424d-8140-509f-9ed2-879727752a28",
+    "name": "Texas Physicians Group - Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/713d71be-9720-526e-b416-6809729131a2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497014369"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6102 82nd St.",
+          "Unit 14"
+        ],
+        "city": "LUBBOCK",
+        "state": "TX",
+        "postalCode": "79424-0802"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24018"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24018.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:32fa424d-8140-509f-9ed2-879727752a28"
+}

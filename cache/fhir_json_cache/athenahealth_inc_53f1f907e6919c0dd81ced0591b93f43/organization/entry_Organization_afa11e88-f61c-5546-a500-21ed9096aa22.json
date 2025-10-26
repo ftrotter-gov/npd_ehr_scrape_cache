@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "afa11e88-f61c-5546-a500-21ed9096aa22",
+    "name": "Fontaine Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a35a4bfd-2cf3-557c-ada6-7bb7c012b27c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770534927"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "525 Long Pond Drive",
+          "Walk-In Care"
+        ],
+        "city": "HARWICH",
+        "state": "MA",
+        "postalCode": "02645-1227"
+      },
+      {
+        "line": [
+          "525 Long Pond Drive",
+          "Internal Medicine"
+        ],
+        "city": "HARWICH",
+        "state": "MA",
+        "postalCode": "02645-1227"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-961"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-961.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:afa11e88-f61c-5546-a500-21ed9096aa22"
+}

@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM140-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM140"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "MOHAMMED SHAKAIB MD SC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "8478791049"
+      },
+      {
+        "system": "fax",
+        "value": "8476280819"
+      }
+    ],
+    "address": [
+      {
+        "text": "800 Biesterfield Road Suite#203 ELK GROVE VILLAGE IL 60007 US",
+        "line": [
+          "800 Biesterfield Road",
+          "Suite#203"
+        ],
+        "city": "ELK GROVE VILLAGE",
+        "state": "IL",
+        "postalCode": "60007",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM140-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM140-Organization-2"
+}

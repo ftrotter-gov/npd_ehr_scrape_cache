@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a450064-c9b5-50e0-9244-6cf5e480f289",
+    "name": "SELECT SPECIALTY HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9b8d8792-d025-5213-bc5c-cf564120e861"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619350501"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1320 MERCY DR"
+        ],
+        "city": "CANTON",
+        "state": "OH",
+        "postalCode": "44708-2614"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11765"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11765.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a450064-c9b5-50e0-9244-6cf5e480f289"
+}

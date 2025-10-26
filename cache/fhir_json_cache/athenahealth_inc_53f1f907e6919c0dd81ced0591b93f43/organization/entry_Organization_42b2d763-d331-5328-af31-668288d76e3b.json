@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42b2d763-d331-5328-af31-668288d76e3b",
+    "name": "Kamas Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0c6739cc-6545-5fdb-a856-0d5fed9e0be5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720379936"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "228 W. 200 S.",
+          "SUITE B"
+        ],
+        "city": "KAMAS",
+        "state": "UT",
+        "postalCode": "84036-0159"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27548"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27548.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42b2d763-d331-5328-af31-668288d76e3b"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c13de629-a03f-5d2a-ae61-7b4b6fc8fc78",
+    "name": "Dr. Jariwala's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/00469545-e8f2-5881-8527-018678fd6d31"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699882738"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2811 DR JOHN HAYNES DRIVE",
+          "SUITE 102"
+        ],
+        "city": "PELL CITY",
+        "state": "AL",
+        "postalCode": "35125-1486"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15465"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15465.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c13de629-a03f-5d2a-ae61-7b4b6fc8fc78"
+}

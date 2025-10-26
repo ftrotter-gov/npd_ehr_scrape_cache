@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "33892b83-1817-5b51-a395-4c5f91be7390",
+    "name": "Hurley Medical Center Out-patient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9b91637b-6e3e-5f93-823e-b7044b6af42c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669428926"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "One Hurley Plaza"
+        ],
+        "city": "FLINT",
+        "state": "MI",
+        "postalCode": "48503-1000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22104"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22104.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:33892b83-1817-5b51-a395-4c5f91be7390"
+}

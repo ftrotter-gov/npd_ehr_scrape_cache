@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1G4-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1G4"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Macon County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6603954711"
+      },
+      {
+        "system": "fax",
+        "value": "6603852014"
+      },
+      {
+        "system": "url",
+        "value": "https://www.maconmohealth.org/"
+      }
+    ],
+    "address": [
+      {
+        "text": "503 N. Missouri Street Macon MO 63552 US",
+        "line": [
+          "503 N. Missouri Street"
+        ],
+        "city": "Macon",
+        "state": "MO",
+        "postalCode": "63552",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1G4-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1G4-Organization-2"
+}

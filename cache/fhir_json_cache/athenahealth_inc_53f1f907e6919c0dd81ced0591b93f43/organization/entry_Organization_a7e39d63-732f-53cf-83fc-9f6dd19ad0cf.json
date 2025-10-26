@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a7e39d63-732f-53cf-83fc-9f6dd19ad0cf",
+    "name": "Banner University Hospital Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1583e5ae-b962-52a1-934a-7fb35965bd1f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1679538441"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1111 E Mc Dowell Rd"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85003-2612"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24142"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24142.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a7e39d63-732f-53cf-83fc-9f6dd19ad0cf"
+}

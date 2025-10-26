@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f4965782-2d69-5b3f-ad23-3181dda6cbf4",
+    "name": "Deaconess Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/27a3af46-e33b-5967-a5c7-9d7f8079a1ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457441180"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5501 N. Portland Ave."
+        ],
+        "city": "OKLAHOMA CITY",
+        "state": "OK",
+        "postalCode": "73112-2074"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7457"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7457.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f4965782-2d69-5b3f-ad23-3181dda6cbf4"
+}

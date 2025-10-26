@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a5c1ad33-4dcb-51a7-a4ef-445113619c6e",
+    "name": "Accompany Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bb5604a6-ace2-5e07-b9ef-0fa9f7d7fe48"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770396772"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "57 Grove Hill Ave"
+        ],
+        "city": "Newton",
+        "state": "MA",
+        "postalCode": "02460-2336"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27127"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27127.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a5c1ad33-4dcb-51a7-a4ef-445113619c6e"
+}

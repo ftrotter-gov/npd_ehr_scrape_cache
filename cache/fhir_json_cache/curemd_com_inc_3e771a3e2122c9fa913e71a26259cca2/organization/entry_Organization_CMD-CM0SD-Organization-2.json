@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0SD-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0SD"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "PL Physicians, Inc.",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5406049894"
+      },
+      {
+        "system": "fax",
+        "value": "5406049895"
+      },
+      {
+        "system": "url",
+        "value": "www.plphysicians.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "4550 Empire Court Fredericksburg VA 224081939 US",
+        "line": [
+          "4550 Empire Court"
+        ],
+        "city": "Fredericksburg",
+        "state": "VA",
+        "postalCode": "224081939",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0SD-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0SD-Organization-2"
+}

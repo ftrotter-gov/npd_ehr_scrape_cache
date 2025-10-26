@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c7752d0d-4177-5ebd-99ad-a84a290643d2",
+    "name": "PHX ST. LUKES HOSP E/R",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/697425b4-b855-501b-9327-e757c5a4439f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821149519"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1800 E. VAN BUREN ST"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85006-3742"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4588"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4588.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c7752d0d-4177-5ebd-99ad-a84a290643d2"
+}

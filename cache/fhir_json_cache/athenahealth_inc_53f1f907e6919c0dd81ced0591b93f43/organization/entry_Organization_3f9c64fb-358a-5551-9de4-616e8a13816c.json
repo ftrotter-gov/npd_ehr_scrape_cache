@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f9c64fb-358a-5551-9de4-616e8a13816c",
+    "name": "LRMC General Surgery In Patient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff568a90-8ff7-5777-a4a3-c30ccb41b3e8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720032105"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20 Hospital Drive"
+        ],
+        "city": "LOGAN",
+        "state": "WV",
+        "postalCode": "25601-3451"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26088"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26088.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f9c64fb-358a-5551-9de4-616e8a13816c"
+}

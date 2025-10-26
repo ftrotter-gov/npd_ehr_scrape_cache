@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2440654b-0f56-52c8-a9b3-c22cfdd973e9",
+    "name": "Dr. Bangston's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1d010402-47ac-58f7-8d55-9ce266e36aa5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710196332"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11671 JOLLYVILLE RD",
+          "STE 203"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78759-4141"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19925"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19925.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2440654b-0f56-52c8-a9b3-c22cfdd973e9"
+}

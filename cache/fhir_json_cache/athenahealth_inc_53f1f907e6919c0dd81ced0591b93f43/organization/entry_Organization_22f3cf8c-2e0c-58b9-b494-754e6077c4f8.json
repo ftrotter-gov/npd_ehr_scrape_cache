@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22f3cf8c-2e0c-58b9-b494-754e6077c4f8",
+    "name": "Overlake Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff25bffb-bab9-5ecb-980e-c0c8849e197f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013004803"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1135 116th Avenue NE",
+          "Suite 300"
+        ],
+        "city": "BELLEVUE",
+        "state": "WA",
+        "postalCode": "98004-4637"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4016"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4016.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22f3cf8c-2e0c-58b9-b494-754e6077c4f8"
+}

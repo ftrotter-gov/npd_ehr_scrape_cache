@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4a6e166f-0030-47cf-9924-d334ce9b40a4",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "c13c475b-7602-4b4a-b4aa-a7fc0add08f2",
+        "name": "Atlantic Orthopaedic Specialists"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Atlantic Orthopaedic Specialists",
+    "managingOrganization": {
+      "reference": "#c13c475b-7602-4b4a-b4aa-a7fc0add08f2"
+    },
+    "period": {
+      "start": "2019-10-02T17:06:43+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10005594"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10005594"
+}

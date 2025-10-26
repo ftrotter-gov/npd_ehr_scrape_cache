@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c0855496-7b40-5715-93c7-9ecc4b7cac3b",
+    "name": "Alliance Personalized Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/484f5edf-a9ad-5580-a549-61c305d9042c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770274540"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "151 NORTH EAGLE CREEK DR",
+          "SUITE 410"
+        ],
+        "city": "LEXINGTON",
+        "state": "KY",
+        "postalCode": "40509-1889"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29335"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29335.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c0855496-7b40-5715-93c7-9ecc4b7cac3b"
+}

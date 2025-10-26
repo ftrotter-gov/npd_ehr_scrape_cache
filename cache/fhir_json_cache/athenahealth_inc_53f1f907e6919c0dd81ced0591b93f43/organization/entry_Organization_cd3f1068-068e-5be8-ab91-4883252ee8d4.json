@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cd3f1068-068e-5be8-ab91-4883252ee8d4",
+    "name": "Dr. Chadwick's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/69f8703b-d638-5ea8-8557-47fadaa04234"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861424525"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "102 Carmichaels Plaza"
+        ],
+        "city": "Carmichaels",
+        "state": "PA",
+        "postalCode": "15320-9638"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-962"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-962.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cd3f1068-068e-5be8-ab91-4883252ee8d4"
+}

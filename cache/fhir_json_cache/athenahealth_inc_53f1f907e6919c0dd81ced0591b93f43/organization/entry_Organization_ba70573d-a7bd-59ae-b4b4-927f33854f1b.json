@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ba70573d-a7bd-59ae-b4b4-927f33854f1b",
+    "name": "Layton Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9d085b3-95d4-5e6d-8304-7196f7edcd68"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508073545"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 Layton Pkwy"
+        ],
+        "city": "LAYTON",
+        "state": "UT",
+        "postalCode": "84041-1142"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14360"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14360.Brand-20"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ba70573d-a7bd-59ae-b4b4-927f33854f1b"
+}

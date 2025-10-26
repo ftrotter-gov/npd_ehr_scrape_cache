@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "52d1981e-3314-5c01-a69d-16bedc9d9f82",
+    "name": "Dr. Genevieve Courtney",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/96e572e4-44a7-5633-afc9-ab52b2786d3e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619363074"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 E. Jefferson Street",
+          "Suite 603"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98122-5649"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30452"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30452.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:52d1981e-3314-5c01-a69d-16bedc9d9f82"
+}

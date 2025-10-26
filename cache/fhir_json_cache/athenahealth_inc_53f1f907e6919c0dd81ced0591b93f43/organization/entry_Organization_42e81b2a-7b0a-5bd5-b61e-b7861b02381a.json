@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42e81b2a-7b0a-5bd5-b61e-b7861b02381a",
+    "name": "AccessHealth Lab Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/45256c35-6f81-5b00-9a35-0a7a89a9f6e3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588738538"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851510002"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "252 Rural Acres Drive"
+        ],
+        "city": "BECKLEY",
+        "state": "WV",
+        "postalCode": "25801-3503"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14333"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14333.Brand-7"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42e81b2a-7b0a-5bd5-b61e-b7861b02381a"
+}

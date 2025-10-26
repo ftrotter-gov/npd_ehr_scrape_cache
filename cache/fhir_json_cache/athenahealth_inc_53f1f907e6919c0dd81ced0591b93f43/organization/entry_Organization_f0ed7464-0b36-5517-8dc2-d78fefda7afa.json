@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f0ed7464-0b36-5517-8dc2-d78fefda7afa",
+    "name": "Golden Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b5159167-cc10-5b52-adb0-c675a3e7c596"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669095071"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "915 SETON DRIVE"
+        ],
+        "city": "CUMBERLAND",
+        "state": "MD",
+        "postalCode": "21502-1817"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21772"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21772.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f0ed7464-0b36-5517-8dc2-d78fefda7afa"
+}

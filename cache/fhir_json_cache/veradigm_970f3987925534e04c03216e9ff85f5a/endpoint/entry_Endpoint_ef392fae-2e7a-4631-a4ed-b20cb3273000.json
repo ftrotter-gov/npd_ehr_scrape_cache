@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "ef392fae-2e7a-4631-a4ed-b20cb3273000",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2b81565e-7bc3-456e-ac36-2885c969c855",
+        "name": "Joyful Living LLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Joyful Living LLC",
+    "managingOrganization": {
+      "reference": "#2b81565e-7bc3-456e-ac36-2885c969c855"
+    },
+    "period": {
+      "start": "2019-12-05T19:42:49+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10009541"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10009541"
+}

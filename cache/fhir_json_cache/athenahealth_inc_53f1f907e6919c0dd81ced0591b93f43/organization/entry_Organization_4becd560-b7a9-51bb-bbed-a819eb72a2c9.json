@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4becd560-b7a9-51bb-bbed-a819eb72a2c9",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/efff0250-4cea-5ecf-a7a4-fe8d284162dc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235689647"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "305 21ST SUITE 253"
+        ],
+        "city": "GALVESTON",
+        "state": "TX",
+        "postalCode": "77550-1680"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15224"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15224.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4becd560-b7a9-51bb-bbed-a819eb72a2c9"
+}

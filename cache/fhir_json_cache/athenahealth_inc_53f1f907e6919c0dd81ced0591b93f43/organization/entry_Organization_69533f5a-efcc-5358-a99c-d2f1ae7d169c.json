@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "69533f5a-efcc-5358-a99c-d2f1ae7d169c",
+    "name": "Ally Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5b7daa23-5efd-546e-affd-6bdc39d774a5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568563187"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9740 N 56th St Suite B"
+        ],
+        "city": "Temple Terrace",
+        "state": "FL",
+        "postalCode": "33617-5500"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27472"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27472.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:69533f5a-efcc-5358-a99c-d2f1ae7d169c"
+}

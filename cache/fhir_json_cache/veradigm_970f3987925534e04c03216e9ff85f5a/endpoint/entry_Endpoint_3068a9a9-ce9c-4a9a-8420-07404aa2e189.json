@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3068a9a9-ce9c-4a9a-8420-07404aa2e189",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "9b104a26-4dce-461a-8250-9e4e5439d6c0",
+        "name": "Taylor Regional Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Taylor Regional Hospital",
+    "managingOrganization": {
+      "reference": "#9b104a26-4dce-461a-8250-9e4e5439d6c0"
+    },
+    "period": {
+      "start": "2019-09-30T17:20:39+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10021523"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10021523"
+}

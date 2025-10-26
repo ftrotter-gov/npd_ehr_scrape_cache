@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "70f42606-e2de-52cc-96e8-de22a78dfe34",
+    "name": "US Renal Care Camp Hill",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7a35c2cd-ad53-56d8-9908-e690ce3151cd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275784498"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "158 S 32nd Street",
+          "Ste 19"
+        ],
+        "city": "CAMP HILL",
+        "state": "PA",
+        "postalCode": "17011-5114"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13093"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13093.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:70f42606-e2de-52cc-96e8-de22a78dfe34"
+}

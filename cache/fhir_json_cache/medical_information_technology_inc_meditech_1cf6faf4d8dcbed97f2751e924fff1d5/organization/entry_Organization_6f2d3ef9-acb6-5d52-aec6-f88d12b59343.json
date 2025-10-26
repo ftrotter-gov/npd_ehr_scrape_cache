@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6f2d3ef9-acb6-5d52-aec6-f88d12b59343",
+    "meta": {
+      "lastUpdated": "2022-05-13T23:51:05.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://thomashealthsystem.com"
+      }
+    ],
+    "name": "Thomas Health System",
+    "active": true,
+    "partOf": {
+      "reference": "urn:uuid:ad1703eb-6612-5d25-9e04-1e6c8d7da8f6"
+    },
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://thomashealthsystem.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4605 MacCorkle Avenue, SW"
+        ],
+        "city": "South Charleston",
+        "state": "WV",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:e0d13a41-8047-56a5-aa9c-0040efd15239"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:e0d13a41-8047-56a5-aa9c-0040efd15239"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6f2d3ef9-acb6-5d52-aec6-f88d12b59343"
+}

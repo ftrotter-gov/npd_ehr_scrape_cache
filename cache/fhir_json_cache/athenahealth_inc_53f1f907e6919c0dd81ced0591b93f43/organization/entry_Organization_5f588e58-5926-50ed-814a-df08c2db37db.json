@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5f588e58-5926-50ed-814a-df08c2db37db",
+    "name": "Jovive Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5578393d-29c5-5f4d-ae69-e8478c070f39"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568132488"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 East Roosevelt Road"
+        ],
+        "city": "LOMBARD",
+        "state": "IL",
+        "postalCode": "60148-4740"
+      },
+      {
+        "line": [
+          "2112 South Michigan Avenue"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60616-1704"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22232"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22232.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5f588e58-5926-50ed-814a-df08c2db37db"
+}

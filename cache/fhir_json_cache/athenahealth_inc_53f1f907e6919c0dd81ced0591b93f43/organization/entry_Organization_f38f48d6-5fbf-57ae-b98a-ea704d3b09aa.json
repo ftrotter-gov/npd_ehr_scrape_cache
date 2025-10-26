@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f38f48d6-5fbf-57ae-b98a-ea704d3b09aa",
+    "name": "Centra Health Inc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c438258d-e536-500d-9072-2d9ad6429a6c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942376579"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770693939"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "Attention Lynn Evans,1204 Fenwick Drive",
+          "Lynchburg"
+        ],
+        "city": "LYNCHBURG",
+        "state": "VA",
+        "postalCode": "24502-2112"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-221"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-221.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f38f48d6-5fbf-57ae-b98a-ea704d3b09aa"
+}

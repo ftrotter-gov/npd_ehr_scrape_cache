@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "02c6f816-972d-5288-8255-47b9edb6ec76",
+    "name": "Westside Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/44818a1a-f621-5fa3-a533-6d9fc373acee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487841763"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8201 W Broward Blvd"
+        ],
+        "city": "Plantation",
+        "state": "FL",
+        "postalCode": "33324-2701"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12940"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12940.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:02c6f816-972d-5288-8255-47b9edb6ec76"
+}

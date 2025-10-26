@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "39ec86d3-f725-53c7-a881-67894b78797c",
+    "name": "MJM Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/936263bb-c127-5347-922d-f339a925166e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073072906"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "404 N MAIN ST STE 510"
+        ],
+        "city": "OSHKOSH",
+        "state": "WI",
+        "postalCode": "54901-4952"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25790"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25790.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:39ec86d3-f725-53c7-a881-67894b78797c"
+}

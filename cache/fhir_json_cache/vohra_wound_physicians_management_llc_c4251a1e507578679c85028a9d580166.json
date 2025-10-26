@@ -1,0 +1,341 @@
+{
+    "entry": [
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Endpoint/vohra-fhir-1",
+            "resource": {
+                "address": "https://fhir.vohrawoundteam.com:8443/fhir-server/api/v4",
+                "connectionType": {
+                    "code": "hl7-fhir-rest",
+                    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"
+                },
+                "id": "vohra-fhir-1",
+                "name": "Vohra FHIR Endpoint",
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1",
+                                "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"
+                            }
+                        ]
+                    }
+                ],
+                "resourceType": "Endpoint",
+                "status": "active"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Organization/Vohra-TX",
+            "resource": {
+                "active": true,
+                "address": [
+                    {
+                        "city": "Miramar",
+                        "country": "United States of America",
+                        "line": [
+                            "3601 SW 160th Ave Ste 202"
+                        ],
+                        "postalCode": "33027",
+                        "state": "FL"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "Endpoint/vohra-fhir-1"
+                    }
+                ],
+                "id": "Vohra-TX",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1821424789"
+                    }
+                ],
+                "name": "Vohra Post Acute Care Phys Of TX, PLLC",
+                "resourceType": "Organization"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Organization/Vohra-Northeast",
+            "resource": {
+                "active": true,
+                "address": [
+                    {
+                        "city": "Miramar",
+                        "country": "United States of America",
+                        "line": [
+                            "3601 SW 160th Ave Ste 202"
+                        ],
+                        "postalCode": "33027",
+                        "state": "FL"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "Endpoint/vohra-fhir-1"
+                    }
+                ],
+                "id": "Vohra-Northeast",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1275969131"
+                    }
+                ],
+                "name": "Vohra Post Acute Care Physicians Of The Northeast PA",
+                "resourceType": "Organization"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Organization/Vohra-East",
+            "resource": {
+                "active": true,
+                "address": [
+                    {
+                        "city": "Miramar",
+                        "country": "United States of America",
+                        "line": [
+                            "3601 SW 160th Ave Ste 202"
+                        ],
+                        "postalCode": "33027",
+                        "state": "FL"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "Endpoint/vohra-fhir-1"
+                    }
+                ],
+                "id": "Vohra-East",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1063848968"
+                    }
+                ],
+                "name": "Vohra Post Acute Care Physicians Of The East PA",
+                "resourceType": "Organization"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Organization/Vohra-Wound-FL",
+            "resource": {
+                "active": true,
+                "address": [
+                    {
+                        "city": "Miramar",
+                        "country": "United States of America",
+                        "line": [
+                            "3601 SW 160th Ave Ste 202"
+                        ],
+                        "postalCode": "33027",
+                        "state": "FL"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "Endpoint/vohra-fhir-1"
+                    }
+                ],
+                "id": "Vohra-Wound-FL",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1598061293"
+                    }
+                ],
+                "name": "Vohra Wound Physicians Of Fl LLC",
+                "resourceType": "Organization"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Organization/Vohra-CA",
+            "resource": {
+                "active": true,
+                "address": [
+                    {
+                        "city": "Miramar",
+                        "country": "United States of America",
+                        "line": [
+                            "3601 SW 160th Ave Ste 202"
+                        ],
+                        "postalCode": "33027",
+                        "state": "FL"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "Endpoint/vohra-fhir-1"
+                    }
+                ],
+                "id": "Vohra-CA",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1841599339"
+                    }
+                ],
+                "name": "Vohra Wound Physicians Of CA, PC",
+                "resourceType": "Organization"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Organization/Vohra-FL",
+            "resource": {
+                "active": true,
+                "address": [
+                    {
+                        "city": "Miramar",
+                        "country": "United States of America",
+                        "line": [
+                            "3601 SW 160th Ave Ste 202"
+                        ],
+                        "postalCode": "33027",
+                        "state": "FL"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "Endpoint/vohra-fhir-1"
+                    }
+                ],
+                "id": "Vohra-FL",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1598061293"
+                    }
+                ],
+                "name": "Vohra Wound Physicians Of Fl LLC",
+                "resourceType": "Organization"
+            }
+        },		
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Organization/Vohra-IL",
+            "resource": {
+                "active": true,
+                "address": [
+                    {
+                        "city": "Miramar",
+                        "country": "United States of America",
+                        "line": [
+                            "3601 SW 160th Ave Ste 202"
+                        ],
+                        "postalCode": "33027",
+                        "state": "FL"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "Endpoint/vohra-fhir-1"
+                    }
+                ],
+                "id": "Vohra-IL",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1790080505"
+                    }
+                ],
+                "name": "Vohra Wound Physicians Of IL SC",
+                "resourceType": "Organization"
+            }
+        },			
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Organization/Vohra-NY",
+            "resource": {
+                "active": true,
+                "address": [
+                    {
+                        "city": "Miramar",
+                        "country": "United States of America",
+                        "line": [
+                            "3601 SW 160th Ave Ste 202"
+                        ],
+                        "postalCode": "33027",
+                        "state": "FL"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "Endpoint/vohra-fhir-1"
+                    }
+                ],
+                "id": "Vohra-NY",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1447527320"
+                    }
+                ],
+                "name": "Vohra Wound Physicians Of NY PLLC",
+                "resourceType": "Organization"
+            }
+        },			
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Organization/Vohra-West",
+            "resource": {
+                "active": true,
+                "address": [
+                    {
+                        "city": "Miramar",
+                        "country": "United States of America",
+                        "line": [
+                            "3601 SW 160th Ave Ste 202"
+                        ],
+                        "postalCode": "33027",
+                        "state": "FL"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "Endpoint/vohra-fhir-1"
+                    }
+                ],
+                "id": "Vohra-West",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1205176096"
+                    }
+                ],
+                "name": "Vohra Wound Physicians Of The West PC",
+                "resourceType": "Organization"
+            }
+        },	
+        {
+            "fullUrl": "https://fhir.vohrawoundteam.com:8443/fhir-server/Organization/Vohra-Midwest",
+            "resource": {
+                "active": true,
+                "address": [
+                    {
+                        "city": "Miramar",
+                        "country": "United States of America",
+                        "line": [
+                            "3601 SW 160th Ave Ste 202"
+                        ],
+                        "postalCode": "33027",
+                        "state": "FL"
+                    }
+                ],
+                "endpoint": [
+                    {
+                        "reference": "Endpoint/vohra-fhir-1"
+                    }
+                ],
+                "id": "Vohra-Midwest",
+                "identifier": [
+                    {
+                        "system": "http://hl7.org/fhir/sid/us-npi",
+                        "value": "1720536477"
+                    }
+                ],
+                "name": "Vohra Wound Physicians Of The Mid-West SC",
+                "resourceType": "Organization"
+            }
+        }
+    ],
+    "id": "Vohra-endpoints",
+    "resourceType": "Bundle",
+    "type": "collection"
+}

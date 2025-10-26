@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "41e3eadd-e3cb-5931-847c-7023bea2e565",
+    "name": "Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cb6bef9f-bd1e-5e17-b34b-d2e42a0b877b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750577706"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 SOUTHLAKE PARK",
+          "SUITE 200"
+        ],
+        "city": "BIRMINGHAM",
+        "state": "AL",
+        "postalCode": "35244-3282"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1353"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1353.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:41e3eadd-e3cb-5931-847c-7023bea2e565"
+}

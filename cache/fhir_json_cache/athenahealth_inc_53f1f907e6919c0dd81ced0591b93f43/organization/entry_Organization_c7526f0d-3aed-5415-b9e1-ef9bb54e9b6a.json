@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c7526f0d-3aed-5415-b9e1-ef9bb54e9b6a",
+    "name": "MORRISTOWN MEDICAL CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6591c315-0cfa-578d-b037-2921c719661f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194063677"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 MADISON AVENUE"
+        ],
+        "city": "MORRISTOWN",
+        "state": "NJ",
+        "postalCode": "07960-6136"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6233"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6233.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c7526f0d-3aed-5415-b9e1-ef9bb54e9b6a"
+}

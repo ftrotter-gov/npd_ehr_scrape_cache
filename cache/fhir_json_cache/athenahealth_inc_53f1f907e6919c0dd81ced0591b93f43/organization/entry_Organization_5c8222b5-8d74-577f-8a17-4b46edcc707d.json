@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5c8222b5-8d74-577f-8a17-4b46edcc707d",
+    "name": "MCA - ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/78b23989-2ca1-5ef0-975b-6665f7d8cc08"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154325850"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3301 Matlock Road"
+        ],
+        "city": "ARLINGTON",
+        "state": "TX",
+        "postalCode": "76015-2908"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20865"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20865.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5c8222b5-8d74-577f-8a17-4b46edcc707d"
+}

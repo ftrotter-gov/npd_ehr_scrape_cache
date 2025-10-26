@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cb90168a-df3d-5ac2-b3a8-5e3e45e9a480",
+    "name": "First Choice Family HealthCare Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/407ca8e7-db9a-5fc0-953a-2bb4b326d918"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548720568"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "119 South Oak Suite 2"
+        ],
+        "city": "RAYMOND",
+        "state": "MS",
+        "postalCode": "39154-1473"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27203"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27203.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cb90168a-df3d-5ac2-b3a8-5e3e45e9a480"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b05a5d66-f6a7-5105-9534-20a155ce52d4",
+    "name": "IntraCare Health Center FPS",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b93a630a-03f6-5269-8651-13aabeb5bfa1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568116291"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4600 E SHEA BLVD STE 100"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85028-6031"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27041"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27041.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b05a5d66-f6a7-5105-9534-20a155ce52d4"
+}

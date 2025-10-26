@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a8ac1f85-2da4-563f-94f6-f416c5518623",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7bb8a418-f24e-5f59-bbfc-ca3d0009def3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497829428"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2633 NAPOLEON AVE STE 400"
+        ],
+        "city": "NEW ORLEANS",
+        "state": "LA",
+        "postalCode": "70115-8293"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15963"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15963.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a8ac1f85-2da4-563f-94f6-f416c5518623"
+}

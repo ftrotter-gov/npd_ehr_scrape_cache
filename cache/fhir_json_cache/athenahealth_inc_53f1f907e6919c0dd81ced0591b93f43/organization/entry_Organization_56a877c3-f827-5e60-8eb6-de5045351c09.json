@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56a877c3-f827-5e60-8eb6-de5045351c09",
+    "name": "Sanford Family Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/126d3660-b482-5b90-8eb5-2e0d728c0a33"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417688680"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2200 S FRENCH AVE",
+          "1003-100"
+        ],
+        "city": "SANFORD",
+        "state": "FL",
+        "postalCode": "32771-4253"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27550"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27550.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56a877c3-f827-5e60-8eb6-de5045351c09"
+}

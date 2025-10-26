@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c8649148-0e55-5a7d-8e70-122f73cf03fd",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c1dfd14e-44e0-543a-a8fa-1a7b068dc40d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245463801"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1629 K ST NW STE 300"
+        ],
+        "city": "WASHINGTON",
+        "state": "DC",
+        "postalCode": "20006-1631"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15257"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15257.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c8649148-0e55-5a7d-8e70-122f73cf03fd"
+}

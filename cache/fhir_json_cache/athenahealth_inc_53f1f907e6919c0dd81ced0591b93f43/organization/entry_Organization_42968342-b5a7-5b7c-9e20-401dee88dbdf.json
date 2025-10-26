@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "42968342-b5a7-5b7c-9e20-401dee88dbdf",
+    "name": "Central Park Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df006be3-d5f6-5b14-8531-e6292426be3b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003836404"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 West 38th street #200"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78705-1128"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8247"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8247.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:42968342-b5a7-5b7c-9e20-401dee88dbdf"
+}

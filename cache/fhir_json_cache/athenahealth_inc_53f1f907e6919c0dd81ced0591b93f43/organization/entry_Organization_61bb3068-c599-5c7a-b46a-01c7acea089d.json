@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "61bb3068-c599-5c7a-b46a-01c7acea089d",
+    "name": "EASTAR Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3a9500d3-8b4e-5599-a527-a67de5ee69a9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184858375"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "37D2008024"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "351 SOUTH 40TH STREET"
+        ],
+        "city": "MUSKOGEE",
+        "state": "OK",
+        "postalCode": "74401-4916"
+      },
+      {
+        "line": [
+          "300 ROCKEFELLER DRIVE"
+        ],
+        "city": "MUSKOGEE",
+        "state": "OK",
+        "postalCode": "74401-9999"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2065"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2065.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:61bb3068-c599-5c7a-b46a-01c7acea089d"
+}

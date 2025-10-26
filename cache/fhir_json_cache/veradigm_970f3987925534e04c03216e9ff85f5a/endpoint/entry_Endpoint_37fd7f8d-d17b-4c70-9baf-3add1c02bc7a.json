@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "37fd7f8d-d17b-4c70-9baf-3add1c02bc7a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "385d4bb7-cabe-436b-b941-18273a2cb9c2",
+        "name": "Allergy and Asthma Center Of The Rockies"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Allergy and Asthma Center Of The Rockies",
+    "managingOrganization": {
+      "reference": "#385d4bb7-cabe-436b-b941-18273a2cb9c2"
+    },
+    "period": {
+      "start": "2018-06-20T12:09:25+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/70893"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/70893"
+}

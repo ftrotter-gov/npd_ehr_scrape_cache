@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "ad4bf6d4-ddc4-4c88-aa6e-b7365531b917",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "14eae303-7a3b-420d-9358-1023983f7869",
+        "name": "Burgess Health Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Burgess Health Center",
+    "managingOrganization": {
+      "reference": "#14eae303-7a3b-420d-9358-1023983f7869"
+    },
+    "period": {
+      "start": "2021-01-29T18:42:05+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10036904"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10036904"
+}

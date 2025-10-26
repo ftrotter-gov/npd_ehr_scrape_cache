@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b06ef63e-44ca-53d1-b7fe-81e7ffab2aad",
+    "name": "Peakpoint Flatiron",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/51db4e36-7cec-51a9-86df-76f3516f12ab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285105866"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "16 West 25th Street"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10010-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14049"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14049.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b06ef63e-44ca-53d1-b7fe-81e7ffab2aad"
+}

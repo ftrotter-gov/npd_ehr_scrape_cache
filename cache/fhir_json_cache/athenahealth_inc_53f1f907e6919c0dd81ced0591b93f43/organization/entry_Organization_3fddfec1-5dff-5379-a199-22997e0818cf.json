@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3fddfec1-5dff-5379-a199-22997e0818cf",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd36a271-5ebd-55c3-8bde-4148f84494c3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457503617"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5333 HOLLISTER AVENUE",
+          "SUITE 295"
+        ],
+        "city": "SANTA BARBARA",
+        "state": "CA",
+        "postalCode": "93111-3326"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10058"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10058.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3fddfec1-5dff-5379-a199-22997e0818cf"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cb2e99f1-745e-5b53-b9b3-ee3d71563f32",
+    "name": "North Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7f13aced-c79e-5a59-b785-ad7c7f175ded"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548240344"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8726 Seminole Trail",
+          "Suite 4"
+        ],
+        "city": "RUCKERSVILLE",
+        "state": "VA",
+        "postalCode": "22968-3498"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4607"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4607.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cb2e99f1-745e-5b53-b9b3-ee3d71563f32"
+}

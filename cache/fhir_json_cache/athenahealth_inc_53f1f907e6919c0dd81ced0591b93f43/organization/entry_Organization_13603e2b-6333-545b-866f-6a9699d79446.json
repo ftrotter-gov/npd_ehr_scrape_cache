@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "13603e2b-6333-545b-866f-6a9699d79446",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f32f3fb2-dbfc-56c3-9d57-03874aba5402"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124471503"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "907 25TH DR. E"
+        ],
+        "city": "ELLENTON",
+        "state": "FL",
+        "postalCode": "34222-2053"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13889"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13889.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:13603e2b-6333-545b-866f-6a9699d79446"
+}

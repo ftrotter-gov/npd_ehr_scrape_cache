@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aabadb1f-d523-58cc-9f2a-32eaea862164",
+    "name": "AdventHealth Medical Group Primary Care at Shawnee Mission",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2bf6e83-108e-5c35-ae37-e1623799cc8d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992735690"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7450 Kessler Street",
+          "Suite 300"
+        ],
+        "city": "Shawnee Mission",
+        "state": "KS",
+        "postalCode": "66204-2347"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13124"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13124.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aabadb1f-d523-58cc-9f2a-32eaea862164"
+}

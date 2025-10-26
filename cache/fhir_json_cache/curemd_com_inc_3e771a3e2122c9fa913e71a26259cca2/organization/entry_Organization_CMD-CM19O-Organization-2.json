@@ -1,0 +1,73 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM19O-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM19O"
+        }
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023675634"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "McLean County Behavioral Health Coordination",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3098885700"
+      },
+      {
+        "system": "fax",
+        "value": "3088628202"
+      },
+      {
+        "system": "email",
+        "value": "fuse@mcleancountyil.gov"
+      },
+      {
+        "system": "url",
+        "value": "https://www.mcleancountyil.gov/1304/Behavioral-Hea"
+      }
+    ],
+    "address": [
+      {
+        "text": "200 W. Front Street Ste. 304 Bloomington IL 61701 US",
+        "line": [
+          "200 W. Front Street",
+          "Ste. 304"
+        ],
+        "city": "Bloomington",
+        "state": "IL",
+        "postalCode": "61701",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM19O-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM19O-Organization-2"
+}

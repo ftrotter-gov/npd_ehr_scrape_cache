@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "60bf21f4-175b-5f7b-8361-692d382569bf",
+    "name": "Lone Peak Hospital Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e2842812-08d8-5019-a6e2-ed17e9dfc62b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477081412"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11925 South State Street"
+        ],
+        "city": "DRAPER",
+        "state": "UT",
+        "postalCode": "84020-7735"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13304"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13304.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:60bf21f4-175b-5f7b-8361-692d382569bf"
+}

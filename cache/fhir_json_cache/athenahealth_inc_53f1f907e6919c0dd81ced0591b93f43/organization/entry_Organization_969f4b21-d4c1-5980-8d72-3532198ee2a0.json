@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "969f4b21-d4c1-5980-8d72-3532198ee2a0",
+    "name": "AdventHealth Medical Group Virtual Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2bf6e83-108e-5c35-ae37-e1623799cc8d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992735690"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7501 MISSION ROAD"
+        ],
+        "city": "PRAIRIE VILLAGE",
+        "state": "KS",
+        "postalCode": "66208-4217"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13124"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13124.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:969f4b21-d4c1-5980-8d72-3532198ee2a0"
+}

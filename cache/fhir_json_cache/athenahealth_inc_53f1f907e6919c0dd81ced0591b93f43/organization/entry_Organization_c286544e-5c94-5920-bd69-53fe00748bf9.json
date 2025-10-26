@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c286544e-5c94-5920-bd69-53fe00748bf9",
+    "name": "Ascentist Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e517d2a-543c-5810-bda8-cd761b8540f4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649206319"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4901 College Boulevard"
+        ],
+        "city": "LEAWOOD",
+        "state": "KS",
+        "postalCode": "66211-1602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12752"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12752.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c286544e-5c94-5920-bd69-53fe00748bf9"
+}

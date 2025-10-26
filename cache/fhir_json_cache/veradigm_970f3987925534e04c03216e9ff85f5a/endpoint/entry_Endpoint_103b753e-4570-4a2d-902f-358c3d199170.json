@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "103b753e-4570-4a2d-902f-358c3d199170",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "bbd74286-6183-432b-ba0c-402fc4123d81",
+        "name": "Cape Regional Health Enterprise"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Cape Regional Health Enterprise",
+    "managingOrganization": {
+      "reference": "#bbd74286-6183-432b-ba0c-402fc4123d81"
+    },
+    "period": {
+      "start": "2018-09-04T13:14:21+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042117"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10042117"
+}

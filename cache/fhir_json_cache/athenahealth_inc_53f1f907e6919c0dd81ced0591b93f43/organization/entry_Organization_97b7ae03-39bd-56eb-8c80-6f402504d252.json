@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "97b7ae03-39bd-56eb-8c80-6f402504d252",
+    "name": "The Workers Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aa823adc-520d-5f02-b98b-c88b60b9fd71"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326240508"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7034 BROOKLYN BLVD"
+        ],
+        "city": "BROOKLYN CENTER",
+        "state": "MN",
+        "postalCode": "55429-1370"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24470"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24470.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:97b7ae03-39bd-56eb-8c80-6f402504d252"
+}

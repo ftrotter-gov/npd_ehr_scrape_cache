@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f099bdc6-6f38-59b8-96a5-5432641a03a7",
+    "name": "Surgery Appointments",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/20b3d17d-8147-584b-99b7-2b40a69cf22b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558398818"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "Hospital- OP Surgery"
+        ],
+        "city": "NOVI",
+        "state": "MI",
+        "postalCode": "48374-1267"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11960"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11960.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f099bdc6-6f38-59b8-96a5-5432641a03a7"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fead03c9-bf37-53f2-96cb-bc55d58aef8b",
+    "name": "Hobble Creek Medical Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0e6afe94-6c41-5a30-bfd1-c395e508b7e0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013240845"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "672 W. 400 S.",
+          "Suite #101"
+        ],
+        "city": "SPRINGVILLE",
+        "state": "UT",
+        "postalCode": "84663-3127"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2222"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2222.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fead03c9-bf37-53f2-96cb-bc55d58aef8b"
+}

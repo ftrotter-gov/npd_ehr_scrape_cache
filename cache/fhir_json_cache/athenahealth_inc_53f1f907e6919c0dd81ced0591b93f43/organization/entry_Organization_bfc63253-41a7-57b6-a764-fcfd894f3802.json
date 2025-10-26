@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bfc63253-41a7-57b6-a764-fcfd894f3802",
+    "name": "Rheumatology East",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b90ea680-77a7-57ef-852f-0e4ae9f7a154"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730807926"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "145 Innovation Drive"
+        ],
+        "city": "JACKSON",
+        "state": "TN",
+        "postalCode": "38305-3019"
+      },
+      {
+        "line": [
+          "7612 POPLAR PIKE"
+        ],
+        "city": "GERMANTOWN",
+        "state": "TN",
+        "postalCode": "38138-5941"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27254"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27254.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bfc63253-41a7-57b6-a764-fcfd894f3802"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1ba581b2-f736-56b3-a66f-7f0b342e6efa",
+    "name": "Anesthesia Dr. Shepard",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4a00cdd5-3c2b-59cb-914a-5947083c6279"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972653038"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3820 Pointe Parkway",
+          "Suite #100"
+        ],
+        "city": "BEAUMONT",
+        "state": "TX",
+        "postalCode": "77701-2000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-443"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-443.Brand-7"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1ba581b2-f736-56b3-a66f-7f0b342e6efa"
+}

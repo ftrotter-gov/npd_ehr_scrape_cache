@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDSL-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDSL"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "SALVATORE R LENZO MD",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2127349949"
+      },
+      {
+        "system": "fax",
+        "value": "2127349894"
+      },
+      {
+        "system": "email",
+        "value": "reception@slenzomd.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "955 5TH AVENUE NEW YORK NY 100751738 US",
+        "line": [
+          "955 5TH AVENUE"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "100751738",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDSL-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDSL-Organization-3"
+}

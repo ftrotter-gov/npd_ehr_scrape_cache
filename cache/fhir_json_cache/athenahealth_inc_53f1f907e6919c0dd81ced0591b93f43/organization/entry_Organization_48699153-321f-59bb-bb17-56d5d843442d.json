@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "48699153-321f-59bb-bb17-56d5d843442d",
+    "name": "St. Luke's Boise Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e75ae8bf-469e-50a2-9c9f-f48150361006"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629043252"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "190 E Bannock St"
+        ],
+        "city": "BOISE",
+        "state": "ID",
+        "postalCode": "83712-6241"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15825"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15825.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:48699153-321f-59bb-bb17-56d5d843442d"
+}

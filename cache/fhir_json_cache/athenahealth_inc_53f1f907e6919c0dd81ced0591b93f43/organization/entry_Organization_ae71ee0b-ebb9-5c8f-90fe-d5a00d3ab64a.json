@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae71ee0b-ebb9-5c8f-90fe-d5a00d3ab64a",
+    "name": "Private Medical Review",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df7244c5-24b3-5679-a265-f8407e77ae93"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598710816"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 POLARIS PARKWAY",
+          "SUITE 450-066"
+        ],
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postalCode": "43240-4035"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22925"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22925.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae71ee0b-ebb9-5c8f-90fe-d5a00d3ab64a"
+}

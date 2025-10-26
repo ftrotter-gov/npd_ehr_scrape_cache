@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6fc7f0ff-5dd3-5b34-b0eb-1c5498e6c5b5",
+    "name": "River Park Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0f6e1afa-7095-5f58-8721-8d1583510c87"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881642809"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1559 Sparta Street"
+        ],
+        "city": "MC MINNVILLE",
+        "state": "TN",
+        "postalCode": "37110-1316"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5691"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5691.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6fc7f0ff-5dd3-5b34-b0eb-1c5498e6c5b5"
+}

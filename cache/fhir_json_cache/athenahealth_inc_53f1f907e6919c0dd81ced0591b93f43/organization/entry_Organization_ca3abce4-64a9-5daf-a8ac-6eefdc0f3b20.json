@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ca3abce4-64a9-5daf-a8ac-6eefdc0f3b20",
+    "name": "CarePlus Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/07068183-4579-5434-886f-8ceaebf3c7eb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922029040"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "207 W Jackson St",
+          "Suite 1"
+        ],
+        "city": "Ridgeland",
+        "state": "MS",
+        "postalCode": "39157-2355"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4695"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4695.Brand-11"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ca3abce4-64a9-5daf-a8ac-6eefdc0f3b20"
+}

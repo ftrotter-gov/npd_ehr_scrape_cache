@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9e1bd563-ebf3-5f0e-ad19-669652fd704b",
+    "name": "AllCare McHenry Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bb871ae6-61dd-54be-af8d-95438fc33ff9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336543925"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1234 McHenry Avenue, Suite A"
+        ],
+        "city": "Modesto",
+        "state": "CA",
+        "postalCode": "95350-0800"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29991"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29991.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9e1bd563-ebf3-5f0e-ad19-669652fd704b"
+}

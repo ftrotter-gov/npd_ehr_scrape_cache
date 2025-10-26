@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ae6a620f-6b95-556c-9678-35d1b93b9e31",
+    "name": "Perimeter Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1f19ead0-4661-5b8c-9240-9cc63d8879c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811912611"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1140 Hammond Drive"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30328-5555"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8474"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8474.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ae6a620f-6b95-556c-9678-35d1b93b9e31"
+}

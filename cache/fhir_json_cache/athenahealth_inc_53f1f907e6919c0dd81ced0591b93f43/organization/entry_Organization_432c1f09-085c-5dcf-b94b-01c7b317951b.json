@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "432c1f09-085c-5dcf-b94b-01c7b317951b",
+    "name": "DispatchHealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0e65bf3d-f123-5f17-96f5-1fd797878312"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932714284"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1616 E MILLBROOK RD STE 140"
+        ],
+        "city": "RALEIGH",
+        "state": "NC",
+        "postalCode": "27609-4968"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13869"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13869.Brand-36"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:432c1f09-085c-5dcf-b94b-01c7b317951b"
+}

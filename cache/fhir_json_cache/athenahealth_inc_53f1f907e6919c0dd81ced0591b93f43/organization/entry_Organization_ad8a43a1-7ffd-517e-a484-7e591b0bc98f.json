@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ad8a43a1-7ffd-517e-a484-7e591b0bc98f",
+    "name": "Broken Arrow Diagnostic Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37396cf5-ad0e-527e-8892-584abf263759"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710322672"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5050 E KENOSHA ST"
+        ],
+        "city": "BROKEN ARROW",
+        "state": "OK",
+        "postalCode": "74014-6711"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7102"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7102.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ad8a43a1-7ffd-517e-a484-7e591b0bc98f"
+}

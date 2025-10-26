@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e94da5fe-4802-516a-9e6a-1293ff2f6f7f",
+    "name": "Children's Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a65de219-5129-5b88-983c-f1cca3f06760"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285769844"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 Longwood Avenue"
+        ],
+        "city": "BOSTON",
+        "state": "MA",
+        "postalCode": "02115-5724"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-765"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-765.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e94da5fe-4802-516a-9e6a-1293ff2f6f7f"
+}

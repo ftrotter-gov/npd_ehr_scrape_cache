@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4a37087f-f916-4e8a-bbee-f721d410affa",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "44014200-64a3-4022-a051-4e3a9e7232b4",
+        "name": "Grand Lake Health System"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Grand Lake Health System",
+    "managingOrganization": {
+      "reference": "#44014200-64a3-4022-a051-4e3a9e7232b4"
+    },
+    "period": {
+      "start": "2019-09-23T17:25:20+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.jtdmh.org/R4/open-Prod"
+  },
+  "fullUrl": "https://fhir.jtdmh.org/R4/open-Prod"
+}

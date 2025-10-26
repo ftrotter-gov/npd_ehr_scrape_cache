@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3d1454ec-be0b-52de-bfd3-c41604ab4106",
+    "name": "Livingston HealthCare Outreach Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/29e7f1da-af9d-5ee4-8b7b-5f084cf9b2bc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235546094"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "320 Alpenglow Lane"
+        ],
+        "city": "LIVINGSTON",
+        "state": "MT",
+        "postalCode": "59047-3350"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9627"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9627.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3d1454ec-be0b-52de-bfd3-c41604ab4106"
+}

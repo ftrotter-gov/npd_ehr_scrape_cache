@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "328434aa-4a00-5a48-b42d-d5f06f69d015",
+    "name": "Patient home visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/919ff8d0-156b-5aa0-8edf-3a2c8be22313"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255773123"
+      }
+    ],
+    "address": [
+      {
+        "line": [],
+        "city": "SUGAR LAND",
+        "state": "TX",
+        "postalCode": "77478-3843"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7590"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7590.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:328434aa-4a00-5a48-b42d-d5f06f69d015"
+}

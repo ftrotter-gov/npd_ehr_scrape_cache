@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a6f1d6d0-c34d-46ec-8c4e-16ff4ae716e7",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2a7c4371-1b22-414f-98ce-6653bdfcb609",
+        "name": "Coastal Physicians and Surgeons"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Coastal Physicians and Surgeons",
+    "managingOrganization": {
+      "reference": "#2a7c4371-1b22-414f-98ce-6653bdfcb609"
+    },
+    "period": {
+      "start": "2018-06-26T17:52:53+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0007896"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/0007896"
+}

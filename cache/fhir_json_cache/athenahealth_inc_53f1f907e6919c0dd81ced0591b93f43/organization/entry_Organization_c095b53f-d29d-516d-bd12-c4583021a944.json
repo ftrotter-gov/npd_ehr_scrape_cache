@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c095b53f-d29d-516d-bd12-c4583021a944",
+    "name": "charis medical center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1595f655-45d9-535c-8e16-3a9f9a33f6cb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205466026"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2150 ACADEMY CIRCLE"
+        ],
+        "city": "COLORADO SPRINGS",
+        "state": "CO",
+        "postalCode": "80909-1693"
+      },
+      {
+        "line": [
+          "2150 Academy Cir",
+          "Suite A"
+        ],
+        "city": "COLORADO SPRINGS",
+        "state": "CO",
+        "postalCode": "80909-1676"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20543"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20543.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c095b53f-d29d-516d-bd12-c4583021a944"
+}

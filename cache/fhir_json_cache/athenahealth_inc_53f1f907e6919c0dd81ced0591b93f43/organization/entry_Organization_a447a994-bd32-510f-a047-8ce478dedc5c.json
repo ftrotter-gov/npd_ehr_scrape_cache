@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a447a994-bd32-510f-a047-8ce478dedc5c",
+    "name": "MyCare Clinic LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dad8ba75-bf9d-5b63-bcb2-a8959c65c218"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538401377"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6945 Carlisle Court"
+        ],
+        "city": "NAPLES",
+        "state": "FL",
+        "postalCode": "34109-8905"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7973"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7973.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a447a994-bd32-510f-a047-8ce478dedc5c"
+}

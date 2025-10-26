@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f140c095-2fbc-560d-9381-d07700b23958",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/afe9707c-cf16-5b6e-88a0-a121406d1cab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114109923"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2309 E MAIN ST STE 400"
+        ],
+        "city": "NEW IBERIA",
+        "state": "LA",
+        "postalCode": "70560-4046"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20384"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20384.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f140c095-2fbc-560d-9381-d07700b23958"
+}

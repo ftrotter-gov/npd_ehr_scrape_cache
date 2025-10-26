@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2bc675c1-cd19-49da-b924-8c5ccb9d07f6",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "a052ca26-d244-41eb-8ca5-6a7082ad056d",
+        "name": "APS051D Practice"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "APS051D Practice",
+    "managingOrganization": {
+      "reference": "#a052ca26-d244-41eb-8ca5-6a7082ad056d"
+    },
+    "period": {
+      "start": "2025-04-01T07:17:41+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/APS051D"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/APS051D"
+}

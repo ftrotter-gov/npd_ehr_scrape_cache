@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d961f502-892e-5e28-8d3d-16af1c9cec8c",
+    "name": "Lake Huron Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/580018e8-bedd-5f71-8c61-256c7c611eb1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619355930"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2601 Electric Avenue"
+        ],
+        "city": "PORT HURON",
+        "state": "MI",
+        "postalCode": "48060-6587"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13601"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13601.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d961f502-892e-5e28-8d3d-16af1c9cec8c"
+}

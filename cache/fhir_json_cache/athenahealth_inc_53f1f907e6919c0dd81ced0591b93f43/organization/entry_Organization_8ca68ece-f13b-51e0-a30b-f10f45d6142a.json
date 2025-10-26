@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ca68ece-f13b-51e0-a30b-f10f45d6142a",
+    "name": "Memorial Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf85b8cf-3db4-5e96-9da3-adb6bff108b7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356390769"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3030 w Picacho Ave"
+        ],
+        "city": "LAS CRUCES",
+        "state": "NM",
+        "postalCode": "88007-4721"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19849"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19849.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ca68ece-f13b-51e0-a30b-f10f45d6142a"
+}

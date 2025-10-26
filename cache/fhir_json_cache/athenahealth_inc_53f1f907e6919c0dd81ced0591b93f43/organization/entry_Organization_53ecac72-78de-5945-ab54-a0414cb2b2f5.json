@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "53ecac72-78de-5945-ab54-a0414cb2b2f5",
+    "name": "Primary Care Physician North, PC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c45dd060-d6f1-5cb0-94df-ca51ed063160"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902363294"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6 ESSEX DR",
+          "STE 201"
+        ],
+        "city": "PEABODY",
+        "state": "MA",
+        "postalCode": "01960-2906"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19553"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19553.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:53ecac72-78de-5945-ab54-a0414cb2b2f5"
+}

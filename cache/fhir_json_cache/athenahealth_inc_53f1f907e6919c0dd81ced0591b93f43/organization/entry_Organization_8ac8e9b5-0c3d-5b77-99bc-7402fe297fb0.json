@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ac8e9b5-0c3d-5b77-99bc-7402fe297fb0",
+    "name": "Ashland Free Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5983fd83-c719-578e-b121-e283489e44c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "50 E LEWELLING BLVD",
+          "S5"
+        ],
+        "city": "SAN LORENZO",
+        "state": "CA",
+        "postalCode": "94580-1732"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17742"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17742.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ac8e9b5-0c3d-5b77-99bc-7402fe297fb0"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "33905700-24dd-5779-9c1f-98d34ce6c476",
+    "name": "Madison Ave OB/GYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aa6ab6ec-56ec-523e-a2d4-d9f4911e4f30"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821041617"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "111 Madison Ave.",
+          "Suite 311"
+        ],
+        "city": "Morristown",
+        "state": "NJ",
+        "postalCode": "07960-7347"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27010"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27010.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:33905700-24dd-5779-9c1f-98d34ce6c476"
+}

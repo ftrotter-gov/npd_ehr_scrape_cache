@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "da22d8cc-8743-55bc-8fb8-9cdbe48d16c3",
+    "name": "Auburn Health Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/05c14913-a6b7-5807-9a0c-1c7c360f3b9d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285207241"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "139 Pearl St"
+        ],
+        "city": "AUBURN",
+        "state": "KY",
+        "postalCode": "42206-5121"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26087"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26087.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:da22d8cc-8743-55bc-8fb8-9cdbe48d16c3"
+}

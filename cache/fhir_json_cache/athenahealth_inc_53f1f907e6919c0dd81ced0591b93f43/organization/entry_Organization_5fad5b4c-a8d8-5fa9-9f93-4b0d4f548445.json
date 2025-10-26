@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5fad5b4c-a8d8-5fa9-9f93-4b0d4f548445",
+    "name": "Orthopaedic Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6e5fdc08-c359-5ec5-8965-3d65465c1b43"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043544489"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "401 Monroe Turnpike"
+        ],
+        "city": "Monroe",
+        "state": "CT",
+        "postalCode": "06468-2276"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10861"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10861.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5fad5b4c-a8d8-5fa9-9f93-4b0d4f548445"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "80e6ebeb-9a52-5917-8aad-edfb6fdcac40",
+    "name": "Test",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d6c5a7c-1b8b-54ac-a0d3-7da3eaeed789"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003290453"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3600 GASTON AVE STE 561"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75246-1904"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26729"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26729.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:80e6ebeb-9a52-5917-8aad-edfb6fdcac40"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1ce47fa-ab41-5edd-be92-63e4fb5ce47f",
+    "name": "PRIMARY CARE ARIZONA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f733e563-0e42-5d53-af6c-5beccce942a8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1609457159"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2550 WEST UNION HILLS DRIVE",
+          "SUITE 350"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85027-5163"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24098"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24098.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1ce47fa-ab41-5edd-be92-63e4fb5ce47f"
+}

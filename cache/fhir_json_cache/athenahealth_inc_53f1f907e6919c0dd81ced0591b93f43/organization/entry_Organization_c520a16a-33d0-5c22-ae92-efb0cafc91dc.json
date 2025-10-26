@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c520a16a-33d0-5c22-ae92-efb0cafc91dc",
+    "name": "DeKalb Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/415a4554-b8bc-5e3c-aa7f-749fa6bd9870"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396764395"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "83 George Wallace Dr"
+        ],
+        "city": "Rainsville",
+        "state": "AL",
+        "postalCode": "35986-5775"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4623"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4623.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c520a16a-33d0-5c22-ae92-efb0cafc91dc"
+}

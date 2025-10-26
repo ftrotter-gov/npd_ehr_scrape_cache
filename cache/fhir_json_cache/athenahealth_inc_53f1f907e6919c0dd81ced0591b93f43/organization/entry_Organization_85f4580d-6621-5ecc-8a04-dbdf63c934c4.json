@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "85f4580d-6621-5ecc-8a04-dbdf63c934c4",
+    "name": "Better Way Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/310b2dcf-6263-5bab-91c1-e003aa43a105"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902575418"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "191 MAIN ST., STE. 213"
+        ],
+        "city": "WAREHAM",
+        "state": "MA",
+        "postalCode": "02571-2166"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24848"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24848.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:85f4580d-6621-5ecc-8a04-dbdf63c934c4"
+}

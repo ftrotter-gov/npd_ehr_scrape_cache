@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ce3d8bbf-0d68-5ac8-aec9-3dba6a6a6505",
+    "name": "Do Not Use Trussville Primary Care STV",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9a2e0eb9-f434-50e4-a864-627bc99e43c1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245789270"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7201 Happy Hollow Road"
+        ],
+        "city": "TRUSSVILLE",
+        "state": "AL",
+        "postalCode": "35173-3724"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15135"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15135.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ce3d8bbf-0d68-5ac8-aec9-3dba6a6a6505"
+}

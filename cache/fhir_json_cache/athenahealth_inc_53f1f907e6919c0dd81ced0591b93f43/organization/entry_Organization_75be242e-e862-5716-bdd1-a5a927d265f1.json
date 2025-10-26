@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "75be242e-e862-5716-bdd1-a5a927d265f1",
+    "name": "Lakeview Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eb476b56-ab91-5623-a54a-f8962d01ac41"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750473948"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "630 EAST MEDICAL DRIVE"
+        ],
+        "city": "BOUNTIFUL",
+        "state": "UT",
+        "postalCode": "84014-4908"
+      },
+      {
+        "line": [
+          "630 EAST MEDICAL DRIVE"
+        ],
+        "city": "CENTERVILLE",
+        "state": "UT",
+        "postalCode": "84014-4908"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14360"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14360.Brand-19"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:75be242e-e862-5716-bdd1-a5a927d265f1"
+}

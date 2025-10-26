@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "175a9386-8b63-59e5-9dd4-0c79d9c6e784",
+    "name": "Elite Minimally Invasive Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9bc33b29-10c2-58f7-8cf8-9ad455e3087e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972653038"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6655 Travis",
+          "Suite 200"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77030-1312"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-443"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-443.Brand-10"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:175a9386-8b63-59e5-9dd4-0c79d9c6e784"
+}

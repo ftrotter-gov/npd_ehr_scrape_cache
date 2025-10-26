@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "23ca09aa-ed3e-53e2-825f-4d8ee6cf2623",
+    "name": "Family Medical Clinic of Jackson",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/11f59733-40a7-5c0c-aa09-6f405992a658"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750393682"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "220 Hospital Drive"
+        ],
+        "city": "JACKSON",
+        "state": "AL",
+        "postalCode": "36545-0428"
+      },
+      {
+        "line": [
+          "227 HOSPITAL DRIVE"
+        ],
+        "city": "JACKSON",
+        "state": "AL",
+        "postalCode": "36545-2131"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14082"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14082.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:23ca09aa-ed3e-53e2-825f-4d8ee6cf2623"
+}

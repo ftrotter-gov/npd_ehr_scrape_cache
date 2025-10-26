@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4dfa6c77-07ff-5184-9083-58d777bf50fe",
+    "name": "Riverside Family Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5a5bd4fb-0429-5840-b179-dc3e7251f1eb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821469602"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 WILLOW ST STE A"
+        ],
+        "city": "VINCENNES",
+        "state": "IN",
+        "postalCode": "47591-4264"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31214"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31214.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4dfa6c77-07ff-5184-9083-58d777bf50fe"
+}

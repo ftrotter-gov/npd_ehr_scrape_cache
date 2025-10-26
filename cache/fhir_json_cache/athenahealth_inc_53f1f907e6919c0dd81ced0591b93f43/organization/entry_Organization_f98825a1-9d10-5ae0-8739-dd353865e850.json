@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f98825a1-9d10-5ae0-8739-dd353865e850",
+    "name": "Dintyala Medical Corp",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4fc6ada1-b463-5ca9-b8d2-7493b7e04017"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255508123"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4150 REGENTS PARK ROW",
+          "SUITE 321"
+        ],
+        "city": "LA JOLLA",
+        "state": "CA",
+        "postalCode": "92037-9124"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28389"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28389.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f98825a1-9d10-5ae0-8739-dd353865e850"
+}

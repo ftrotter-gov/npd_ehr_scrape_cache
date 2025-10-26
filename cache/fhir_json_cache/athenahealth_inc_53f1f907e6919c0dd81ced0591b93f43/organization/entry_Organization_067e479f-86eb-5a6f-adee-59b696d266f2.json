@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "067e479f-86eb-5a6f-adee-59b696d266f2",
+    "name": "BRONSON HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3e7dca0d-a67f-5843-8337-363f62cc91bd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588611750"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 JOHN STREET"
+        ],
+        "city": "KALAMAZOO",
+        "state": "MI",
+        "postalCode": "49007-5341"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14030"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14030.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:067e479f-86eb-5a6f-adee-59b696d266f2"
+}

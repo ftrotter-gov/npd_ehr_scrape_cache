@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "936b037c-cc7c-540d-a1e5-03c825d0dfcf",
+    "name": "Medicus Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4ee52658-cd1d-539b-9b36-5493a3ab8b35"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1295586758"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "333 N. Shiloh Road",
+          "Suite 107"
+        ],
+        "city": "GARLAND",
+        "state": "TX",
+        "postalCode": "75042-6613"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33318"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33318.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:936b037c-cc7c-540d-a1e5-03c825d0dfcf"
+}

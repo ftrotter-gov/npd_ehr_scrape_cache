@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e247e5d4-4ceb-5764-bc38-f6c7868e0baa",
+    "name": "St. Francis Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f848603d-32af-5908-85f0-42e4a7d90799"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902129273"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "900 Hyde St."
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94109-4806"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12049"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12049.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e247e5d4-4ceb-5764-bc38-f6c7868e0baa"
+}

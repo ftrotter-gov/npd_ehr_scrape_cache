@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "be679222-f487-5568-af9d-d91e3d622240",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://connallymmc.org"
+      }
+    ],
+    "name": "Connally Memorial Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://connallymmc.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "499 Tenth Street"
+        ],
+        "city": "Floresville",
+        "state": "TX",
+        "postalCode": "78114",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:524426e1-2fb0-4b3c-a093-eb48657b62b7"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:524426e1-2fb0-4b3c-a093-eb48657b62b7"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:be679222-f487-5568-af9d-d91e3d622240"
+}

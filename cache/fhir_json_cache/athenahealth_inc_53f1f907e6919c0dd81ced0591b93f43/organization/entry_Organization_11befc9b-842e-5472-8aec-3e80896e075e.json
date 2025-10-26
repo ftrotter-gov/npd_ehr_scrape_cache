@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "11befc9b-842e-5472-8aec-3e80896e075e",
+    "name": "FHCB Brooklyn",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/39513bc6-b22e-5440-b368-f02c3a10c9d3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346286713"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3540 S Hanover St"
+        ],
+        "city": "BROOKLYN",
+        "state": "MD",
+        "postalCode": "21225-0430"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22355"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22355.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:11befc9b-842e-5472-8aec-3e80896e075e"
+}

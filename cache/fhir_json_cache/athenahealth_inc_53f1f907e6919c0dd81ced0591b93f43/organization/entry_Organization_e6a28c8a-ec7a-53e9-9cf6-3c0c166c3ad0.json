@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e6a28c8a-ec7a-53e9-9cf6-3c0c166c3ad0",
+    "name": "FHMC Inpatient Psychiatric Facility",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/79d43d30-4507-5816-826f-6b6120c46ab3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114932860"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "450 e 23rd st"
+        ],
+        "city": "FREMONT",
+        "state": "NE",
+        "postalCode": "68025-2303"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6066"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6066.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e6a28c8a-ec7a-53e9-9cf6-3c0c166c3ad0"
+}

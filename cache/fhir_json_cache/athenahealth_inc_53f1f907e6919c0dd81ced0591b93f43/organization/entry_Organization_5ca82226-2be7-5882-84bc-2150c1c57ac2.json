@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5ca82226-2be7-5882-84bc-2150c1c57ac2",
+    "name": "Dermatology Specialists of VA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/37903cff-fbf6-5da9-86ee-1c9903d4b301"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083688238"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1800 Town Center Drive",
+          "Suite 415"
+        ],
+        "city": "Reston",
+        "state": "VA",
+        "postalCode": "20190-3240"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8930"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8930.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5ca82226-2be7-5882-84bc-2150c1c57ac2"
+}

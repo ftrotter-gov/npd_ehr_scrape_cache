@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "af6b664c-0a9c-5a21-98e0-38bbca0f3b9f",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://marionhealth.com"
+      }
+    ],
+    "name": "Marion General Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://marionhealth.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "441 North Wabash Avenue"
+        ],
+        "city": "Marion",
+        "state": "IN",
+        "postalCode": "46952",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:125fe0d9-e003-4009-a510-b878c74c7676"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:125fe0d9-e003-4009-a510-b878c74c7676"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:af6b664c-0a9c-5a21-98e0-38bbca0f3b9f"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cd4fc23d-9a80-5428-9a8e-df3c3c42bc06",
+    "name": "Good Sam Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4d350467-2252-5ac8-8fc8-fabca6c55b61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497942528"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2425 SAMARITAN DR"
+        ],
+        "city": "SAN JOSE",
+        "state": "CA",
+        "postalCode": "95124-3908"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33570"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33570.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cd4fc23d-9a80-5428-9a8e-df3c3c42bc06"
+}

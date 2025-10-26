@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ee5efef2-a203-5734-87dc-101f37fcb1cf",
+    "name": "Smith Clinic, LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/962fca87-ddbe-54b2-a998-34522928ba0a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780241505"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5116 Northwind Blvd"
+        ],
+        "city": "VALDOSTA",
+        "state": "GA",
+        "postalCode": "31605-7672"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31322"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31322.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ee5efef2-a203-5734-87dc-101f37fcb1cf"
+}

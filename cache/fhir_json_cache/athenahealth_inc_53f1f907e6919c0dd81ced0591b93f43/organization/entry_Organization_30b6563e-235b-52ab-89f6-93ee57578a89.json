@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "30b6563e-235b-52ab-89f6-93ee57578a89",
+    "name": "Main office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2d1d59d-6681-531a-811e-6f7a418f413e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760804181"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "105 B NORTH MAIN AVE"
+        ],
+        "city": "NEWTON",
+        "state": "NC",
+        "postalCode": "28658-3213"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8329"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8329.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:30b6563e-235b-52ab-89f6-93ee57578a89"
+}

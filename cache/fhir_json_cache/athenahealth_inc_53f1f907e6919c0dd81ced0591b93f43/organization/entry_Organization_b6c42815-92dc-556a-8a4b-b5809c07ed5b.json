@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b6c42815-92dc-556a-8a4b-b5809c07ed5b",
+    "name": "Winston Salem Pediatrics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4603fce6-d94a-5da7-93f3-37be3fbd5008"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154348597"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2808 MAPLEWOOD AVE"
+        ],
+        "city": "WINSTON SALEM",
+        "state": "NC",
+        "postalCode": "27103-4138"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10142"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10142.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b6c42815-92dc-556a-8a4b-b5809c07ed5b"
+}

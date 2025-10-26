@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f392bca9-5a7c-5f6d-b19e-69e8ce6c7dc3",
+    "name": "NPO Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/63b0d1ca-3ac8-59eb-83e4-a67ccb19983e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336712348"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "44009 WEST NEALY DRIVE"
+        ],
+        "city": "MARICOPA",
+        "state": "AZ",
+        "postalCode": "85138-9460"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27015"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27015.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f392bca9-5a7c-5f6d-b19e-69e8ce6c7dc3"
+}

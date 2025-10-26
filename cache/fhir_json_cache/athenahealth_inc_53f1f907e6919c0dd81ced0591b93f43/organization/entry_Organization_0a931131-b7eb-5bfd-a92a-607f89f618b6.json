@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0a931131-b7eb-5bfd-a92a-607f89f618b6",
+    "name": "Brooklyn Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/697be51b-4740-5a05-bf93-f4f4b4de0bbb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265571863"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6010 BAY PKWY FL 4"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11204-6079"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24721"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24721.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0a931131-b7eb-5bfd-a92a-607f89f618b6"
+}

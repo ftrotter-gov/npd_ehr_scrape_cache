@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "da405f04-22bd-5f46-9065-28117a70e988",
+    "name": "MYOBGYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f4379e76-bea1-51a1-8fe0-9a25beee26f7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669534210"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "81 UPPER RIVERDALE RD SW STE 210"
+        ],
+        "city": "RIVERDALE",
+        "state": "GA",
+        "postalCode": "30274-2627"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27053"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27053.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:da405f04-22bd-5f46-9065-28117a70e988"
+}

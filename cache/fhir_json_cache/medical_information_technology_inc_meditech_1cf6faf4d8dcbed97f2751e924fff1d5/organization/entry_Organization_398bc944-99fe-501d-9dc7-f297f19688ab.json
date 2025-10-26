@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "398bc944-99fe-501d-9dc7-f297f19688ab",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://ecmc.edu"
+      }
+    ],
+    "name": "Erie County Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://ecmc.edu"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "462 Grider Street"
+        ],
+        "city": "Buffalo",
+        "state": "NY",
+        "postalCode": "14215",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:c0577436-d469-4e00-b8d7-13ec7a01abee"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:c0577436-d469-4e00-b8d7-13ec7a01abee"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:398bc944-99fe-501d-9dc7-f297f19688ab"
+}

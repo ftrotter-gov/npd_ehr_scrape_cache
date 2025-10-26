@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c379108-917d-5522-8d3a-ee81b3c4a9d9",
+    "name": "Home Physicians Medical Gorup",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c10fd4bf-c669-508b-b208-d9fd6adc3fdc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770523169"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1590 San Marcos Blvd."
+        ],
+        "city": "SAN MARCOs",
+        "state": "CA",
+        "postalCode": "92078-4076"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10731"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10731.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c379108-917d-5522-8d3a-ee81b3c4a9d9"
+}

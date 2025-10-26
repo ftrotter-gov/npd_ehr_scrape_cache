@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "50383b90-1468-59c4-af5e-a8ecf591c86e",
+    "name": "Patient Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58e3da83-8957-584a-b464-cdfaa60b8865"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568869048"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12600 n 113 ave",
+          "Ste B 13"
+        ],
+        "city": "YOUNGTOWN",
+        "state": "AZ",
+        "postalCode": "85363-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10600"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10600.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:50383b90-1468-59c4-af5e-a8ecf591c86e"
+}

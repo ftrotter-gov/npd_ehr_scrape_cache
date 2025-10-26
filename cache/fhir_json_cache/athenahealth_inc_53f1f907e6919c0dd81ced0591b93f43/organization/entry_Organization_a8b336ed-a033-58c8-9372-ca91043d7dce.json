@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a8b336ed-a033-58c8-9372-ca91043d7dce",
+    "name": "Athens Wound Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/36cdddfc-0b90-5d99-bd33-e31981cad97f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659715803"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15243 GREENFIELD DR"
+        ],
+        "city": "ATHENS",
+        "state": "AL",
+        "postalCode": "35613-2899"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16758"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16758.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a8b336ed-a033-58c8-9372-ca91043d7dce"
+}

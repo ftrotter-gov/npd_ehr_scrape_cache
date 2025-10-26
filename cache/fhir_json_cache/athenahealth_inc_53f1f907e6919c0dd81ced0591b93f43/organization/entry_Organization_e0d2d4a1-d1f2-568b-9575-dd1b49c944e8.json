@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0d2d4a1-d1f2-568b-9575-dd1b49c944e8",
+    "name": "Foothill presbyterian Hospital-IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2daa7d78-980c-5b50-9288-37f298cd03eb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952499378"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "250 S Grand Ave"
+        ],
+        "city": "GLENDORA",
+        "state": "CA",
+        "postalCode": "91741-4218"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12077"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12077.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0d2d4a1-d1f2-568b-9575-dd1b49c944e8"
+}

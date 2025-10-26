@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "68ea0d9b-e5fc-4589-970d-2479a4c5a5f6",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "170c91f5-18aa-4543-8a1c-b2f8c324d21d",
+        "name": "Eastern Carolina Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Eastern Carolina Medical Center",
+    "managingOrganization": {
+      "reference": "#170c91f5-18aa-4543-8a1c-b2f8c324d21d"
+    },
+    "period": {
+      "start": "2020-02-25T15:37:31+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10052809"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10052809"
+}

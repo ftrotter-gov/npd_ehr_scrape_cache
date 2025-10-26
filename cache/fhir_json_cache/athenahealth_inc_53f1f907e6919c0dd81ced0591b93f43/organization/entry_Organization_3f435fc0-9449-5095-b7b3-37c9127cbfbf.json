@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3f435fc0-9449-5095-b7b3-37c9127cbfbf",
+    "name": "Austin Podiatry House Calls",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/392d60ca-b106-5cbd-afc1-714494dffce0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033757414"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5900 BALCONES DR. STE 100"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78731-4298"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23047"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23047.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3f435fc0-9449-5095-b7b3-37c9127cbfbf"
+}

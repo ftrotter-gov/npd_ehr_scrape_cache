@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d00bca34-2a39-541f-8716-17f0c3264650",
+    "name": "DeBrady Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/73a4c2c8-beb0-5433-8881-4beea6314916"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205043304"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7601 GERMANTOWN AVE"
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19119-1608"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11295"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11295.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d00bca34-2a39-541f-8716-17f0c3264650"
+}

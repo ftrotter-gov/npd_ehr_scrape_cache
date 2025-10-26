@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "783e0beb-bf7c-55df-a8e8-739364734337",
+    "name": "Hands of Hope Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dfc26178-3fc3-537f-88c4-9f04f419a35b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1010 HOSPITAL DR., BLDG. B"
+        ],
+        "city": "STOCKBRIDGE",
+        "state": "GA",
+        "postalCode": "30281-7348"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18021"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18021.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:783e0beb-bf7c-55df-a8e8-739364734337"
+}

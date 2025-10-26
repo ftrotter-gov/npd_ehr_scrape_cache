@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5270376-42d5-5d2b-9dbe-5a736064370a",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4cffb222-8c4f-569a-aa60-550f399b3f6e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083020234"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8550 WEST FLAGLER STREET SUITE 109"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33144-2037"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12590"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12590.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5270376-42d5-5d2b-9dbe-5a736064370a"
+}

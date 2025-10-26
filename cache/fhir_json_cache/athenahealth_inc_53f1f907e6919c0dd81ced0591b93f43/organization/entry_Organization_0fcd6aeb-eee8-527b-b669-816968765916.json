@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0fcd6aeb-eee8-527b-b669-816968765916",
+    "name": "Quick Care of Arcadia",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/42eb39be-2794-5d5e-a554-aadace5cb3f8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336292432"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1251 Hazel St"
+        ],
+        "city": "Arcadia",
+        "state": "LA",
+        "postalCode": "71001-4111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2278"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2278.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0fcd6aeb-eee8-527b-b669-816968765916"
+}

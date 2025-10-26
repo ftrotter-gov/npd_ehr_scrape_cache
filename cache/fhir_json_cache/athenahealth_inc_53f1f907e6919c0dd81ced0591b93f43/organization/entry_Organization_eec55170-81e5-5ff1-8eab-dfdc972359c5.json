@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eec55170-81e5-5ff1-8eab-dfdc972359c5",
+    "name": "Zachary Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/951b11ff-84fd-5b2f-a978-044ba0947810"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922375526"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4753 West Park Drive",
+          "Suite B"
+        ],
+        "city": "ZACHARY",
+        "state": "LA",
+        "postalCode": "70791-4037"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3945"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3945.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eec55170-81e5-5ff1-8eab-dfdc972359c5"
+}

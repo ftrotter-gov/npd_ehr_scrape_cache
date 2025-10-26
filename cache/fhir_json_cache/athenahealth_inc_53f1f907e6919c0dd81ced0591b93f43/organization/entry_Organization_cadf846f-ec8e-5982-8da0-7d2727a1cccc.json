@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cadf846f-ec8e-5982-8da0-7d2727a1cccc",
+    "name": "Dr Rudder Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ea45ac3d-dec3-52ca-ad31-27686b4ee851"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730511387"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "180 MEDICAL PARK PLACE",
+          "SUITE 101"
+        ],
+        "city": "HOT SPRINGS",
+        "state": "AR",
+        "postalCode": "71901-8066"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7409"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7409.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cadf846f-ec8e-5982-8da0-7d2727a1cccc"
+}

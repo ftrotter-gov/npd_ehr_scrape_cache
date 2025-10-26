@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aefebd5b-6696-5400-94cd-5011296c88b8",
+    "name": "MDPC Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bba08fdb-cebe-5263-ab5c-775c801b792e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447715305"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10 FAIRWAY DR",
+          "STE 305"
+        ],
+        "city": "DEERFIELD BEACH",
+        "state": "FL",
+        "postalCode": "33441-1802"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33442"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33442.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aefebd5b-6696-5400-94cd-5011296c88b8"
+}

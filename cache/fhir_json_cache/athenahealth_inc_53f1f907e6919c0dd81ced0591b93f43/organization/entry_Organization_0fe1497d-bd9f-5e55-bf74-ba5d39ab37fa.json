@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0fe1497d-bd9f-5e55-bf74-ba5d39ab37fa",
+    "name": "Dr. Sueno's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/32de04ab-37b4-5d2a-9cfe-bd573bbc657b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194083956"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2411 S 19TH ST"
+        ],
+        "city": "TACOMA",
+        "state": "WA",
+        "postalCode": "98405-2954"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12961"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12961.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0fe1497d-bd9f-5e55-bf74-ba5d39ab37fa"
+}

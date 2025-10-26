@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "abccaefc-47fd-4c9f-854d-da5e53b33de4",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "7cd11d07-b1bb-4e93-ba7f-ef64dc4e70f1",
+        "name": "Elise M Brett, MD PC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Elise M Brett, MD PC",
+    "managingOrganization": {
+      "reference": "#7cd11d07-b1bb-4e93-ba7f-ef64dc4e70f1"
+    },
+    "period": {
+      "start": "2018-01-12T09:46:52+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10036569"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10036569"
+}

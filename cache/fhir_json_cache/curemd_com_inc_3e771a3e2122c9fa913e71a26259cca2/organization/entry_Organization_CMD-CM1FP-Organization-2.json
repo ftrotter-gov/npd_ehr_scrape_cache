@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1FP-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1FP"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Evolve Medical Care Clinic",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6786435580"
+      },
+      {
+        "system": "fax",
+        "value": "8885429103"
+      },
+      {
+        "system": "url",
+        "value": "www.evolvemedicalcareclinic.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "3639 LAWRENCEVILLE HWY, Lawrenceville GA 30044 US",
+        "line": [
+          "3639 LAWRENCEVILLE HWY,"
+        ],
+        "city": "Lawrenceville",
+        "state": "GA",
+        "postalCode": "30044",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1FP-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1FP-Organization-2"
+}

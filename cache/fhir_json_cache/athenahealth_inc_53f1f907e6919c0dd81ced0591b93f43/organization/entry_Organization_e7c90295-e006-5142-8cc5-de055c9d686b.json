@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e7c90295-e006-5142-8cc5-de055c9d686b",
+    "name": "nursing home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0f55c2b0-d13b-5985-b1a1-57bb42fc06c7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699957472"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "26850 PROVIDENCE PKWY"
+        ],
+        "city": "NOVI",
+        "state": "MI",
+        "postalCode": "48374-1213"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23553"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23553.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e7c90295-e006-5142-8cc5-de055c9d686b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "96de24d4-ee6f-5433-9b52-2090f2ea456c",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5ab10bda-1d23-56db-bee1-87ff056d9f11"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023488384"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9744 WEST NORTHERN AVENUE, STE 1330"
+        ],
+        "city": "PEORIA",
+        "state": "AZ",
+        "postalCode": "85345-4604"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12240"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12240.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:96de24d4-ee6f-5433-9b52-2090f2ea456c"
+}

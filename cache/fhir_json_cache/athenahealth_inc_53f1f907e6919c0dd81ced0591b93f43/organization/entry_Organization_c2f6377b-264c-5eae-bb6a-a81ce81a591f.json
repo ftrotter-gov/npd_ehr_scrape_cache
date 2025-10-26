@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c2f6377b-264c-5eae-bb6a-a81ce81a591f",
+    "name": "Geode Health - Aurora",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ab86667c-c80c-5ecb-b73c-6f650b8bc117"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821391442"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "98 MILLER DR",
+          "STE 103"
+        ],
+        "city": "NORTH AURORA",
+        "state": "IL",
+        "postalCode": "60542-1869"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25899"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25899.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c2f6377b-264c-5eae-bb6a-a81ce81a591f"
+}

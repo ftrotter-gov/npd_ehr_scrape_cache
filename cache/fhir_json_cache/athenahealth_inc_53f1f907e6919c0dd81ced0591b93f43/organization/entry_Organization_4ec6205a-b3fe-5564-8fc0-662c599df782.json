@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ec6205a-b3fe-5564-8fc0-662c599df782",
+    "name": "Clinton Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf9debcd-4b84-5c05-a224-9da88c33f9fb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427017862"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750518601"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 N 30th Street"
+        ],
+        "city": "CLINTON",
+        "state": "OK",
+        "postalCode": "73601-3117"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1889"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1889.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ec6205a-b3fe-5564-8fc0-662c599df782"
+}

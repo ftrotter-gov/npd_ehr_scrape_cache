@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "37bb6f73-b8b2-428b-aa4f-32cb92a78015",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "0007bc62-5dea-4cb5-8efb-8fd12442e701",
+        "name": "Florida Neurosurgical Associates"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Florida Neurosurgical Associates",
+    "managingOrganization": {
+      "reference": "#0007bc62-5dea-4cb5-8efb-8fd12442e701"
+    },
+    "period": {
+      "start": "2023-11-16T16:03:15+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10021331"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10021331"
+}

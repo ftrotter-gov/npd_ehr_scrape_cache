@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "948dcdfe-3a5b-5f61-a5d3-2ba414c6c0f6",
+    "name": "Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/86c55ad7-3c96-54db-8c51-60f44ae71641"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801921192"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9660 E 146TH ST",
+          "SUITE 300"
+        ],
+        "city": "NOBLESVILLE",
+        "state": "IN",
+        "postalCode": "46060-3095"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7014"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7014.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:948dcdfe-3a5b-5f61-a5d3-2ba414c6c0f6"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "99db4151-3bfd-5bd4-a161-1f976f6120bf",
+    "name": "GVH General Surgery Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/32e08263-4edf-5723-bc43-cd2c0baa8920"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861014284"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "711 N. Taylor St."
+        ],
+        "city": "GUNNISON",
+        "state": "CO",
+        "postalCode": "81230-2243"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11629"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11629.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:99db4151-3bfd-5bd4-a161-1f976f6120bf"
+}

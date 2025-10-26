@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3bc14160-837e-582c-a56a-907c0bb92800",
+    "name": "Dr. Gray's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/540f8f65-b73a-5ca4-ac2e-83eefe72de12"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003841909"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12505 HYMEADOW DR",
+          "SUITE 2-B"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78750-1867"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3892"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3892.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3bc14160-837e-582c-a56a-907c0bb92800"
+}

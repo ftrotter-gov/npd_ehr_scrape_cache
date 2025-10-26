@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e1675345-adfd-504f-9bb0-61b86e55fee5",
+    "name": "Primary Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/276544d1-ff92-5063-aea5-1895ab3a5e67"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982218574"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18 NATURES WAY"
+        ],
+        "city": "LAKEWOOD",
+        "state": "NJ",
+        "postalCode": "08701-4339"
+      },
+      {
+        "line": [
+          "500 RIVER AVE",
+          "SUITE 200"
+        ],
+        "city": "LAKEWOOD",
+        "state": "NJ",
+        "postalCode": "08701-4738"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23866"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23866.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e1675345-adfd-504f-9bb0-61b86e55fee5"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4a42eada-4671-4d6a-8dcf-9fccfc72f2c9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "fea3e2de-56b0-4348-ac3a-5a65e4822fd2",
+        "name": "Darroch Brain and Spine Institute"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Darroch Brain and Spine Institute",
+    "managingOrganization": {
+      "reference": "#fea3e2de-56b0-4348-ac3a-5a65e4822fd2"
+    },
+    "period": {
+      "start": "2018-12-04T09:08:50+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/74340"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/74340"
+}

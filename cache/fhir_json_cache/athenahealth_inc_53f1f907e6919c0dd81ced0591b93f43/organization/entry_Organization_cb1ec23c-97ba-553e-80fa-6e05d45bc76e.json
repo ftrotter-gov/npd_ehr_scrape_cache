@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cb1ec23c-97ba-553e-80fa-6e05d45bc76e",
+    "name": "ORTHO SAN ANTONIO",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/66bbd24b-8a8f-5519-a262-f8be05ed94eb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750815809"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2833 BABCOCK RD TOWER II, STE 435"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78229-1234"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15722"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15722.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cb1ec23c-97ba-553e-80fa-6e05d45bc76e"
+}

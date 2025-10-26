@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7433e9cc-6f86-5051-8bcb-6e673f01b2d5",
+    "name": "BA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9f7744f0-6456-508a-b0ec-acc1029f3e3c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 E 5TH ST",
+          "STE 470"
+        ],
+        "city": "CHARLOTTE",
+        "state": "NC",
+        "postalCode": "28202-3064"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14698"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14698.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7433e9cc-6f86-5051-8bcb-6e673f01b2d5"
+}

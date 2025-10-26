@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ddfd9d28-9e8b-5e10-bef1-f9eea93a5a88",
+    "name": "Surgical Specialist of North Texas",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43f825de-6040-530f-9747-449506d77105"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1033687900"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1942778816"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1627 N. Grand Ave"
+        ],
+        "city": "GAINESVILLE",
+        "state": "TX",
+        "postalCode": "76240-2343"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26154"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26154.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ddfd9d28-9e8b-5e10-bef1-f9eea93a5a88"
+}

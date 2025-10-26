@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cbc582f2-0a2b-596e-beab-85e1805ad5c6",
+    "name": "Dermatologists On Call",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/91b21208-7a7b-5499-a95e-e80b99bc3905"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972048288"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 Weldon Street"
+        ],
+        "city": "LATROBE",
+        "state": "PA",
+        "postalCode": "15650-1883"
+      },
+      {
+        "line": [
+          "400 Walden Street"
+        ],
+        "city": "LATROBE",
+        "state": "PA",
+        "postalCode": "15650-1883"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31433"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31433.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cbc582f2-0a2b-596e-beab-85e1805ad5c6"
+}

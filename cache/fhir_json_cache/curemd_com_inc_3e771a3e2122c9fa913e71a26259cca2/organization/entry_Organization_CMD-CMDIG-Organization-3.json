@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDIG-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDIG"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "I and G Pediatrics",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7188960105"
+      },
+      {
+        "system": "fax",
+        "value": "7188960108"
+      }
+    ],
+    "address": [
+      {
+        "text": "11115 Queens Blvd 2nd FL Forest Hills NY 113757422 US",
+        "line": [
+          "11115 Queens Blvd 2nd FL"
+        ],
+        "city": "Forest Hills",
+        "state": "NY",
+        "postalCode": "113757422",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDIG-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDIG-Organization-3"
+}

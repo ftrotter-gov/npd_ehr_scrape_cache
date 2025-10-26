@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "837cc650-582c-5103-af51-bea580d2d11b",
+    "name": "P3 Medical Group at State",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/56e0badd-43ca-5852-b34a-ab17a24cf931"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689266926"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3190 STATE ST",
+          "STE 102"
+        ],
+        "city": "MEDFORD",
+        "state": "OR",
+        "postalCode": "97504-8498"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17520"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17520.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:837cc650-582c-5103-af51-bea580d2d11b"
+}

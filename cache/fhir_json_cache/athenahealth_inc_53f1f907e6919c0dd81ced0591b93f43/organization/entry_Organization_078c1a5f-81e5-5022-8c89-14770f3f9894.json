@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "078c1a5f-81e5-5022-8c89-14770f3f9894",
+    "name": "Lowell Primary Care Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/efba64bb-9095-5ea9-a92d-43e6f3f0fe14"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619488210"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154866234"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1075 WESTFORD STREET SUITE 204"
+        ],
+        "city": "LOWELL",
+        "state": "MA",
+        "postalCode": "01851-2845"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17220"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17220.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:078c1a5f-81e5-5022-8c89-14770f3f9894"
+}

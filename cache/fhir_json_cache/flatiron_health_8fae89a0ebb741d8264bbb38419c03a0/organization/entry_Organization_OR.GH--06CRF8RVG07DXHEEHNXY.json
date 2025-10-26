@@ -1,0 +1,45 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "OR.GH--06CRF8RVG07DXHEEHNXY",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "active": true,
+    "name": "Exact Test Practice",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "(561)111-2222"
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "postal",
+        "line": [
+          "123 Street"
+        ],
+        "city": "City",
+        "state": "Fl",
+        "postalCode": "33469",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/EP.All",
+        "type": "Endpoint"
+      }
+    ]
+  },
+  "fullUrl": "https://fhir.prod.flatiron.io/fhir/Organization/OR.GH--06CRF8RVG07DXHEEHNXY"
+}

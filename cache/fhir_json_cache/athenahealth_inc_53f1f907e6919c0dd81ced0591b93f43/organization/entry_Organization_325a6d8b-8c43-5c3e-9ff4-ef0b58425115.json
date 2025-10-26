@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "325a6d8b-8c43-5c3e-9ff4-ef0b58425115",
+    "name": "MPower Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a2dd4952-fcf8-53d9-a99e-7788680b7180"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1356151476"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4028 STATE ST",
+          "STE A"
+        ],
+        "city": "SAGINAW",
+        "state": "MI",
+        "postalCode": "48603-4070"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32706"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32706.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:325a6d8b-8c43-5c3e-9ff4-ef0b58425115"
+}

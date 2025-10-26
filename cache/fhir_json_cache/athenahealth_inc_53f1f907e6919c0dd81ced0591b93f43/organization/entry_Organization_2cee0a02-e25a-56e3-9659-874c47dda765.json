@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2cee0a02-e25a-56e3-9659-874c47dda765",
+    "name": "Primary Care at Home of Florida",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/acabe368-5049-5901-a378-5f93e266ee07"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720656523"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5949 NW 24TH CT"
+        ],
+        "city": "POMPANO BEACH",
+        "state": "FL",
+        "postalCode": "33063-1952"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24270"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24270.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2cee0a02-e25a-56e3-9659-874c47dda765"
+}

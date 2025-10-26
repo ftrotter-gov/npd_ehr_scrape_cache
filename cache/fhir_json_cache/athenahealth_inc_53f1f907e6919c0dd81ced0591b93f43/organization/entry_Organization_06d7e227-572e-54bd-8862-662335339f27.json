@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "06d7e227-572e-54bd-8862-662335339f27",
+    "name": "Focused Primary Care, PC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ac5dc35b-92b3-5039-acb0-672d0297247d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912626615"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 SOUTH ST STE G08"
+        ],
+        "city": "SOUTHBRIDGE",
+        "state": "MA",
+        "postalCode": "01550-4051"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28921"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28921.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:06d7e227-572e-54bd-8862-662335339f27"
+}

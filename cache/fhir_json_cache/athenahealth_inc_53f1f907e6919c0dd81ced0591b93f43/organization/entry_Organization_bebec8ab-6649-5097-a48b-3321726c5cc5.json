@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bebec8ab-6649-5097-a48b-3321726c5cc5",
+    "name": "The Haley Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bc051fca-c431-5ede-9f1f-53e7a54f6f87"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "122 W. CENTRAL AVE."
+        ],
+        "city": "WINTER HAVEN",
+        "state": "FL",
+        "postalCode": "33880-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19922"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19922.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bebec8ab-6649-5097-a48b-3321726c5cc5"
+}

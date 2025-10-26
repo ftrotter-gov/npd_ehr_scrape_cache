@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dc8b8e3d-968e-5441-921b-33724b0f85ab",
+    "name": "Kootenai Health Emergency Dept",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7e11bbc7-ed14-5e0e-bdba-9eb462d0121d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932464989"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2003 kootenai health way"
+        ],
+        "city": "COEUR D ALENE",
+        "state": "ID",
+        "postalCode": "83814-6051"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6242"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6242.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dc8b8e3d-968e-5441-921b-33724b0f85ab"
+}

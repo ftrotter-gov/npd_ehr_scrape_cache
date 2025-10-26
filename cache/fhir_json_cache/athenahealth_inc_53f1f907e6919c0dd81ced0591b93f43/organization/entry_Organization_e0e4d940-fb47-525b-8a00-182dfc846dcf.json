@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0e4d940-fb47-525b-8a00-182dfc846dcf",
+    "name": "patients home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3b6c9563-76b1-5dc7-8217-7d2c3f5aa22a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699754119"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "Same as patient"
+        ],
+        "city": "Same as pt",
+        "state": "NC",
+        "postalCode": "Same as pt"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-508"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-508.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0e4d940-fb47-525b-8a00-182dfc846dcf"
+}

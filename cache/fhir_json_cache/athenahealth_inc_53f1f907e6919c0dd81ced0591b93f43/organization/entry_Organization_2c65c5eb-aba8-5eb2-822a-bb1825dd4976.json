@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c65c5eb-aba8-5eb2-822a-bb1825dd4976",
+    "name": "Deaconess Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6eb8c545-19b5-5fcd-a533-b565ff328188"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962944272"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 W 5TH AVE"
+        ],
+        "city": "SPOKANE",
+        "state": "WA",
+        "postalCode": "99204-2803"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15112"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15112.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c65c5eb-aba8-5eb2-822a-bb1825dd4976"
+}

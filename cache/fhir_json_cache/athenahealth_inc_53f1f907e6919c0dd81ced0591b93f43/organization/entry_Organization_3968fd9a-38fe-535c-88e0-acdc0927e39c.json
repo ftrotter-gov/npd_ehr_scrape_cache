@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3968fd9a-38fe-535c-88e0-acdc0927e39c",
+    "name": "Mount Sinai (Out Patient)",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3f20cb2f-a2a5-548e-b39c-2082fabb1de3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821245242"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4300 Alton Road"
+        ],
+        "city": "MIAMI BEACH",
+        "state": "FL",
+        "postalCode": "33140-2948"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8179"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8179.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3968fd9a-38fe-535c-88e0-acdc0927e39c"
+}

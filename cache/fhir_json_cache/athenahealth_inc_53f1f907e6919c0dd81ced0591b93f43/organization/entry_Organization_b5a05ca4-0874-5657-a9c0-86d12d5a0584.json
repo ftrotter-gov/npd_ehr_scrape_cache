@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b5a05ca4-0874-5657-a9c0-86d12d5a0584",
+    "name": "Maimonides Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/697be51b-4740-5a05-bf93-f4f4b4de0bbb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265571863"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4802 10TH AVE"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11219-2916"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24721"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24721.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b5a05ca4-0874-5657-a9c0-86d12d5a0584"
+}

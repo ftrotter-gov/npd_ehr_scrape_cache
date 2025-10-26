@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1A0-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1A0"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Johnson County Community Health Services",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6607476121"
+      },
+      {
+        "system": "fax",
+        "value": "6607471294"
+      }
+    ],
+    "address": [
+      {
+        "text": "723 PCA Road Warrensburg MO 64093 US",
+        "line": [
+          "723 PCA Road"
+        ],
+        "city": "Warrensburg",
+        "state": "MO",
+        "postalCode": "64093",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1A0-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1A0-Organization-2"
+}

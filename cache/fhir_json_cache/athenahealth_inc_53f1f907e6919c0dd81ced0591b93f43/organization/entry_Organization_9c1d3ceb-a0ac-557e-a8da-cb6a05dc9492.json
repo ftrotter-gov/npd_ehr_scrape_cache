@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9c1d3ceb-a0ac-557e-a8da-cb6a05dc9492",
+    "name": "ProHealth Home Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ee37158b-b4e7-5ddd-b402-19b8959f6d0c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1467959155"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1375 Exposition Blvd",
+          "Ste 250A & 250B"
+        ],
+        "city": "SACRAMENTO",
+        "state": "CA",
+        "postalCode": "95815-5115"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10649"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10649.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9c1d3ceb-a0ac-557e-a8da-cb6a05dc9492"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c7599f52-7eda-51a8-88dc-9735b39787e5",
+    "name": "Virginia Urology - Emporia Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3dd66f75-b269-5857-ad6f-e956edabaa62"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164485876"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6 Doctors Drive"
+        ],
+        "city": "Emporia",
+        "state": "VA",
+        "postalCode": "23847-1240"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30293"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30293.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c7599f52-7eda-51a8-88dc-9735b39787e5"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f04ef8fb-1773-54dd-8718-6893f278730b",
+    "name": "Dr. Mary Jacobson",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8acc01f4-dabe-5224-a0bd-244067af6187"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700220647"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "228 Hamilton Avenue, Third Floor,",
+          "Second Floor"
+        ],
+        "city": "PALO ALTO",
+        "state": "CA",
+        "postalCode": "94301-1040"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17222"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17222.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f04ef8fb-1773-54dd-8718-6893f278730b"
+}

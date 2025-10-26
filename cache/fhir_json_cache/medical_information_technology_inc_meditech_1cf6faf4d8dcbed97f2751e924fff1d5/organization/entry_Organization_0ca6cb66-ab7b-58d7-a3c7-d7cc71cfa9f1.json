@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0ca6cb66-ab7b-58d7-a3c7-d7cc71cfa9f1",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://thorekandersonville.org"
+      }
+    ],
+    "name": "Thorek Memorial Hospital - Andersonville",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://thorekandersonville.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5025 North Paulina Street"
+        ],
+        "city": "Chicago",
+        "state": "IL",
+        "postalCode": "60640",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:199ba4a9-f1e7-48c6-862d-7e40ce00e53b"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:68cb6216-82bd-592c-b51a-74145dbb3b9a"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:199ba4a9-f1e7-48c6-862d-7e40ce00e53b"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0ca6cb66-ab7b-58d7-a3c7-d7cc71cfa9f1"
+}

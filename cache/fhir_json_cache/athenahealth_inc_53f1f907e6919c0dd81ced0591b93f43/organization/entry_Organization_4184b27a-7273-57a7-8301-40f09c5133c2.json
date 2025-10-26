@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4184b27a-7273-57a7-8301-40f09c5133c2",
+    "name": "St Davids Round Rock Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/97829e1f-51c8-551a-8b6f-0fee761ed045"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326061714"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2400 Round Rock Ave"
+        ],
+        "city": "ROUND ROCK",
+        "state": "TX",
+        "postalCode": "78681-4004"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-856"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-856.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4184b27a-7273-57a7-8301-40f09c5133c2"
+}

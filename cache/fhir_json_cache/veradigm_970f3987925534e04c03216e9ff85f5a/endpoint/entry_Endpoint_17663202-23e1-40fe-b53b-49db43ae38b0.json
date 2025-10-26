@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "17663202-23e1-40fe-b53b-49db43ae38b0",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "6436023f-a87f-4fc0-aee1-9e913c39e443",
+        "name": "OKLAHOMA CENTER FOR ORTHOPAEDICS"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "OKLAHOMA CENTER FOR ORTHOPAEDICS",
+    "managingOrganization": {
+      "reference": "#6436023f-a87f-4fc0-aee1-9e913c39e443"
+    },
+    "period": {
+      "start": "2018-09-28T21:01:19+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10031011"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10031011"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c7fa7124-4257-5959-b574-6f4dea187ad6",
+    "name": "AMC - West Fork Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/383c3f07-5ead-5da9-a566-745ec0fbb362"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578007647"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "451 Phillips St"
+        ],
+        "city": "WEST FORK",
+        "state": "AR",
+        "postalCode": "72774-2813"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15024"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15024.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c7fa7124-4257-5959-b574-6f4dea187ad6"
+}

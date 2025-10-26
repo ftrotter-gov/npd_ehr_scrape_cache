@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f295e266-2e2c-5ffc-b256-a33350a251d3",
+    "name": "Dekalb County Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/71ca4b23-3b10-569d-b346-27af2ccf36c6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447433222"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 Medical Center Drive"
+        ],
+        "city": "FORT PAYNE",
+        "state": "AL",
+        "postalCode": "35968-3458"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4696"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4696.Brand-18"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f295e266-2e2c-5ffc-b256-a33350a251d3"
+}

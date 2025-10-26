@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMAKH-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMAKH"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "MARC MORRIS",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5702822040"
+      },
+      {
+        "system": "fax",
+        "value": "7188888889"
+      }
+    ],
+    "address": [
+      {
+        "text": "49 SALEM AVE CARBONDALE PA 184071928 US",
+        "line": [
+          "49 SALEM AVE"
+        ],
+        "city": "CARBONDALE",
+        "state": "PA",
+        "postalCode": "184071928",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMAKH-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMAKH-Organization-2"
+}

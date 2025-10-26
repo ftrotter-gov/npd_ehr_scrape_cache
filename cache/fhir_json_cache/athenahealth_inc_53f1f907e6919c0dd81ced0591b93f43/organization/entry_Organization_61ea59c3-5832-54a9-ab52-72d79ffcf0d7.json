@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "61ea59c3-5832-54a9-ab52-72d79ffcf0d7",
+    "name": "THE ARTHUR NAGEL COMMUNITY CLINIC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0e60af31-43a4-5915-9605-002440813a6c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7146 FM 1283"
+        ],
+        "city": "Pipe Creek",
+        "state": "TX",
+        "postalCode": "78063-1111"
+      },
+      {
+        "line": [
+          "1116 12TH ST"
+        ],
+        "city": "BANDERA",
+        "state": "TX",
+        "postalCode": "78003-3454"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20443"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20443.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:61ea59c3-5832-54a9-ab52-72d79ffcf0d7"
+}

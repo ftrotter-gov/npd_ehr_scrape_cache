@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "81504996-c613-5942-9eab-c8ecbd5d6765",
+    "name": "Troy Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c671b0ee-b909-54a4-9ec4-16b369683431"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760077747"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2555 PHILLIPS FIELD ROAD",
+          "SUITE 100"
+        ],
+        "city": "FAIRBANKS",
+        "state": "AK",
+        "postalCode": "99709-3933"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23654"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23654.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:81504996-c613-5942-9eab-c8ecbd5d6765"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f52ecae6-b06d-54e2-a19a-24ee4a5773a2",
+    "name": "COOMBS - Medical City Dallas Hospital - OP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fd3dbaa8-f253-5be1-b20b-c1c44a5821ad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851439780"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7777 FOREST LANE"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75230-2518"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8820"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8820.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f52ecae6-b06d-54e2-a19a-24ee4a5773a2"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7f82fe45-dc24-555a-86d9-ae66e17fefa5",
+    "name": "The Vineyard Free Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8efa4b8b-6227-5d3b-a739-17ab70bc8e7a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1001 W CHERRY ST"
+        ],
+        "city": "SUNBURY",
+        "state": "OH",
+        "postalCode": "43074-8015"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20411"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20411.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7f82fe45-dc24-555a-86d9-ae66e17fefa5"
+}

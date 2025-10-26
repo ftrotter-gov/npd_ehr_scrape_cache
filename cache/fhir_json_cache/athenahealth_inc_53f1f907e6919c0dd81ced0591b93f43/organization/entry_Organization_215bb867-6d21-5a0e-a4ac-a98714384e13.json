@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "215bb867-6d21-5a0e-a4ac-a98714384e13",
+    "name": "Cavery Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9ef607e6-19a3-5c87-8d37-7b646e9abf84"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700441326"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "14330 GIDEON DRIVE",
+          "SUITE B"
+        ],
+        "city": "WOODBRIDGE",
+        "state": "VA",
+        "postalCode": "22192-4640"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21080"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21080.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:215bb867-6d21-5a0e-a4ac-a98714384e13"
+}

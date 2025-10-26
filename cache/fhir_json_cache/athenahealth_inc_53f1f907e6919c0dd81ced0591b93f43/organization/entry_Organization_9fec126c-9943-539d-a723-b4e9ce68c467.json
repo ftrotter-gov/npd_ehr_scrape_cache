@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9fec126c-9943-539d-a723-b4e9ce68c467",
+    "name": "Family Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d40993dc-0ce3-59ac-b3e8-af802c308062"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972533149"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760658371"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "70 Remick Blvd"
+        ],
+        "city": "SPRINGBORO",
+        "state": "OH",
+        "postalCode": "45066-9168"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-237"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-237.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9fec126c-9943-539d-a723-b4e9ce68c467"
+}

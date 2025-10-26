@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b5c1b866-ba9a-5f7e-8044-87a6b1fa1139",
+    "name": "BengiCare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a688de91-4ee9-5762-a19c-e853b3636caa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083439053"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 Main St."
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-1020"
+      },
+      {
+        "line": [
+          "3330 N 65TH AVE"
+        ],
+        "city": "HOLLYWOOD",
+        "state": "FL",
+        "postalCode": "33024-2003"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31789"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31789.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b5c1b866-ba9a-5f7e-8044-87a6b1fa1139"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d4d063f8-8fec-522d-a144-74b3a6c8bf56",
+    "name": "Hospice of Wake county",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/065df973-c5c4-5502-9769-7cfebc174eec"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972531887"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "250 Hospice Circle"
+        ],
+        "city": "RALEIGH",
+        "state": "NC",
+        "postalCode": "27607-6372"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-887"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-887.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d4d063f8-8fec-522d-a144-74b3a6c8bf56"
+}

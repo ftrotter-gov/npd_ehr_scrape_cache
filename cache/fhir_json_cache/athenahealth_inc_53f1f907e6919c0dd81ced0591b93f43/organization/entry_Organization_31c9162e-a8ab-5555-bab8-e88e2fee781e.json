@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "31c9162e-a8ab-5555-bab8-e88e2fee781e",
+    "name": "Merrick Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b4b1de23-b6ee-537a-916e-01f661696f63"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669728457"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1715 26th Street"
+        ],
+        "city": "CENTRAL CITY",
+        "state": "NE",
+        "postalCode": "68826-9501"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32348"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32348.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:31c9162e-a8ab-5555-bab8-e88e2fee781e"
+}

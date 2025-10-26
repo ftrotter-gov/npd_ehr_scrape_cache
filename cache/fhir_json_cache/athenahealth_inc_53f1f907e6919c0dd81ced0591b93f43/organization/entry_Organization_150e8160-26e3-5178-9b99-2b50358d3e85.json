@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "150e8160-26e3-5178-9b99-2b50358d3e85",
+    "name": "Hope Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ece68d58-194f-5ad6-8f83-c51a62758dfa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "65 EAST 6850 SOUTH"
+        ],
+        "city": "MIDVALE",
+        "state": "UT",
+        "postalCode": "84047-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20766"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20766.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:150e8160-26e3-5178-9b99-2b50358d3e85"
+}

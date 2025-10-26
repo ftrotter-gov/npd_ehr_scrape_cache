@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b99dcf78-7beb-542e-a1e8-16753093f095",
+    "name": "Underground Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8389fdb3-5f01-5bfc-a26b-5b9ce8478b68"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2217 UNIVERSITY SQUARE MALL"
+        ],
+        "city": "TAMPA",
+        "state": "FL",
+        "postalCode": "33612-5516"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24583"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24583.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b99dcf78-7beb-542e-a1e8-16753093f095"
+}

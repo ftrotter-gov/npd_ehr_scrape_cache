@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b0eaee41-b124-5b7d-9394-f2d6c88a639f",
+    "name": "San Diego Downtown",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5794a0e8-bb43-52e4-bf1f-07853edfd538"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902390537"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "421 BROADWAY # 5012"
+        ],
+        "city": "SAN DIEGO",
+        "state": "CA",
+        "postalCode": "92101-5107"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b0eaee41-b124-5b7d-9394-f2d6c88a639f"
+}

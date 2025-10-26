@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ac81a836-7c1b-511f-8312-d55c03e03175",
+    "meta": {
+      "lastUpdated": "2024-02-26T23:54:48.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://permianregional.com"
+      }
+    ],
+    "name": "Permian Regional Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://permianregional.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "720 Hospital Drive"
+        ],
+        "city": "Andrews",
+        "state": "TX",
+        "postalCode": "79714",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:e4215f70-dfa8-5c09-a136-cb79cd013437"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:e4215f70-dfa8-5c09-a136-cb79cd013437"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ac81a836-7c1b-511f-8312-d55c03e03175"
+}

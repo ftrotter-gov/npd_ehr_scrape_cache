@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1bd1b108-b0e3-505a-8e2f-25598d71d41c",
+    "name": "Pacific Home Health Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d5f96d45-aea8-5fd4-982b-b2e27bedc900"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497938203"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1515 e tropicana ave",
+          "suite 775"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89119-6517"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1846"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1846.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1bd1b108-b0e3-505a-8e2f-25598d71d41c"
+}

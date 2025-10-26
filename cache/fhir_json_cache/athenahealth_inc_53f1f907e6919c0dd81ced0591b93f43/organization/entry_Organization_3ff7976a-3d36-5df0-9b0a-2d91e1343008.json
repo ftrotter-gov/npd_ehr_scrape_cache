@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3ff7976a-3d36-5df0-9b0a-2d91e1343008",
+    "name": "Virtual Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3684fbe4-4c91-5b8d-923e-8439e8a7fb45"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366105199"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "541 Willamette St,",
+          "Suite 214"
+        ],
+        "city": "EUGENE",
+        "state": "OR",
+        "postalCode": "97401-3238"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25367"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25367.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3ff7976a-3d36-5df0-9b0a-2d91e1343008"
+}

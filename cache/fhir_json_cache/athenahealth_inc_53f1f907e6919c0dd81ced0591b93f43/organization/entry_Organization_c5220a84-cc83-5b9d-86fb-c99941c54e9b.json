@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5220a84-cc83-5b9d-86fb-c99941c54e9b",
+    "name": "Martin Uram PA",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/50b03838-4424-5cfa-aa0b-77a2066c33bd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437179942"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Riverview Plaza"
+        ],
+        "city": "RED BANK",
+        "state": "NJ",
+        "postalCode": "07701-1864"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10428"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10428.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5220a84-cc83-5b9d-86fb-c99941c54e9b"
+}

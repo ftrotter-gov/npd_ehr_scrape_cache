@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "affa84fe-4ca8-5912-afe3-0391767fd3fe",
+    "name": "The Women's Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/070e4ef2-0e6f-53db-af9b-5263f93d5201"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215094222"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3000 Hunters Creek Blvd"
+        ],
+        "city": "ORLANDO",
+        "state": "FL",
+        "postalCode": "32837-6901"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-536"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-536.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:affa84fe-4ca8-5912-afe3-0391767fd3fe"
+}

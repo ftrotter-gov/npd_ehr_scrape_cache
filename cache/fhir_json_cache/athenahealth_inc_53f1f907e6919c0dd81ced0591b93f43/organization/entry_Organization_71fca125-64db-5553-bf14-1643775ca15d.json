@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "71fca125-64db-5553-bf14-1643775ca15d",
+    "name": "AT Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c4a895ba-737b-5be4-80c4-3ad8b1feea3d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275229452"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9517 GEORGIAN WAY"
+        ],
+        "city": "OWINGS MILLS",
+        "state": "MD",
+        "postalCode": "21117-7112"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27984"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27984.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:71fca125-64db-5553-bf14-1643775ca15d"
+}

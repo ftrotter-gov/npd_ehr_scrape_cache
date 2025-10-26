@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3fa7088e-d5c7-568c-a748-28dd3b5b1279",
+    "name": "Lakeview Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/90545560-049a-535a-b3d1-52f264a5354f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952019846"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "630 E MEDICAL DR"
+        ],
+        "city": "BOUNTIFUL",
+        "state": "UT",
+        "postalCode": "84010-4908"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27251"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27251.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3fa7088e-d5c7-568c-a748-28dd3b5b1279"
+}

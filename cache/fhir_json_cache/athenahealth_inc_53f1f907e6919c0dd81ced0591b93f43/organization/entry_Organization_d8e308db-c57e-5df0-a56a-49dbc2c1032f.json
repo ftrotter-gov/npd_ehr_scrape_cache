@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d8e308db-c57e-5df0-a56a-49dbc2c1032f",
+    "name": "First Choice Medical Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3e6df979-e340-57a3-9a58-f6d37ba8285c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528660180"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3056 UNIVERSITY PKWY"
+        ],
+        "city": "SARASOTA",
+        "state": "FL",
+        "postalCode": "34243-2502"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22990"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22990.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d8e308db-c57e-5df0-a56a-49dbc2c1032f"
+}

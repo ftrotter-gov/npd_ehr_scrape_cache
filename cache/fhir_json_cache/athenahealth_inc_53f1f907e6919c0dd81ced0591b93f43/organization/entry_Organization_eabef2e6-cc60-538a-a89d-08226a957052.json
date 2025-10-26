@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eabef2e6-cc60-538a-a89d-08226a957052",
+    "name": "Alabama Sleep Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5df72a50-0301-5d3d-ba0e-00b99a676b03"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881761302"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1215 7TH ST SE SUITE 130"
+        ],
+        "city": "DECATUR",
+        "state": "AL",
+        "postalCode": "35601"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5173"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5173.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eabef2e6-cc60-538a-a89d-08226a957052"
+}

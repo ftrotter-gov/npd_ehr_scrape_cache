@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5dd6b534-99c3-5fc0-80af-fc104050a4f6",
+    "name": "Neighborhood Resilience Project Free Health Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1e10d7dd-7509-558b-b482-6fdb9b99147d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234123412"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2038 Bedford AVENUE"
+        ],
+        "city": "PITTSBURGH",
+        "state": "PA",
+        "postalCode": "15219-4131"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18710"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18710.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5dd6b534-99c3-5fc0-80af-fc104050a4f6"
+}

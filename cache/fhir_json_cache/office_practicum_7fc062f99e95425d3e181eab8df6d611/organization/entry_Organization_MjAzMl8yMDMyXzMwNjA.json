@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjAzMl8yMDMyXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "873.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144848870"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Little Buddies Pediatrics PA TX",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "281-265-8800",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "281-265-1770",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "2343 Town Center Dr #2 Sugar Land, TX 774784391",
+        "line": [
+          "2343 Town Center Dr #2"
+        ],
+        "city": "Sugar Land",
+        "state": "TX",
+        "postalCode": "774784391",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjAzMl8yMDMyXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjAzMl8yMDMyXzMwNjA"
+}

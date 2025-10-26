@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b8cb898b-6449-585b-9c2c-698d13a8c0cd",
+    "name": "Southside Infectious Disease Specialists",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/07b665e7-a9aa-5cfa-b676-13126eedcf2a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811146194"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 Medical Park BLVD"
+        ],
+        "city": "PETERSBURG",
+        "state": "VA",
+        "postalCode": "23803-9274"
+      },
+      {
+        "line": [
+          "50 Medical Park Boulevard, Suite A"
+        ],
+        "city": "PETERSBURG",
+        "state": "VA",
+        "postalCode": "23805-9275"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1802"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1802.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b8cb898b-6449-585b-9c2c-698d13a8c0cd"
+}

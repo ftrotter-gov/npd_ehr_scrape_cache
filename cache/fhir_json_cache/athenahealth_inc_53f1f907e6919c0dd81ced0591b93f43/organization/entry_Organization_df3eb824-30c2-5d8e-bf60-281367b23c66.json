@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "df3eb824-30c2-5d8e-bf60-281367b23c66",
+    "name": "AVL Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a48620dc-7d31-5da8-8dc5-f33106ec4b8e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326844515"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1091 Hendersonville Rd"
+        ],
+        "city": "ASHEVILLE",
+        "state": "NC",
+        "postalCode": "28806-4705"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33150"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33150.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:df3eb824-30c2-5d8e-bf60-281367b23c66"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e005bfcd-06a0-4e68-97ae-2e2c97361255",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "f9f3c423-7047-41a8-8fd8-38be7fd90b21",
+        "name": "Central Utah Clinic dba Revere Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Central Utah Clinic dba Revere Health",
+    "managingOrganization": {
+      "reference": "#f9f3c423-7047-41a8-8fd8-38be7fd90b21"
+    },
+    "period": {
+      "start": "2023-05-05T14:04:40+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.reverehealth.com/R4/open-R4"
+  },
+  "fullUrl": "https://fhir.reverehealth.com/R4/open-R4"
+}

@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0BC-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0BC"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "EMPIRE CARDIAC MONITORING LLC",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5168727001"
+      },
+      {
+        "system": "fax",
+        "value": "5168727007"
+      },
+      {
+        "system": "url",
+        "value": "WWW.OEDMG.COM"
+      }
+    ],
+    "address": [
+      {
+        "text": "1900 HEMPSTEAD TURNPIKE SUITE 401 EAST MEADOW NY 11554 US",
+        "line": [
+          "1900 HEMPSTEAD TURNPIKE",
+          "SUITE 401"
+        ],
+        "city": "EAST MEADOW",
+        "state": "NY",
+        "postalCode": "11554",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0BC-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0BC-Organization-2"
+}

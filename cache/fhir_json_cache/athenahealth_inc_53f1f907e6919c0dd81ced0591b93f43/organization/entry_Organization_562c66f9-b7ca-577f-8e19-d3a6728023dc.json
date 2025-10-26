@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "562c66f9-b7ca-577f-8e19-d3a6728023dc",
+    "name": "Medical Surgical Unit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fc57e7c1-b507-5401-b629-14a29834670d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215376025"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4320 Seminary Rd"
+        ],
+        "city": "ALEXANDRIA",
+        "state": "VA",
+        "postalCode": "22304-1535"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7608"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7608.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:562c66f9-b7ca-577f-8e19-d3a6728023dc"
+}

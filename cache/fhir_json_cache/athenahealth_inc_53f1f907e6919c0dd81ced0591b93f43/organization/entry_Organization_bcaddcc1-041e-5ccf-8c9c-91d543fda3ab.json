@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bcaddcc1-041e-5ccf-8c9c-91d543fda3ab",
+    "name": "Psychiatric Rehabilitation Program",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/df0b4d78-1e64-563f-8f58-cc96889e0e6c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366025678"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518399187"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "575 S CHARLES ST STE 140"
+        ],
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postalCode": "21201-2477"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30113"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30113.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bcaddcc1-041e-5ccf-8c9c-91d543fda3ab"
+}

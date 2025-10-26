@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "32e42096-2320-5b18-86d9-3c8c5fb87b5b",
+    "name": "Monarch Primary Care a Deaconess Health Check Site",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dd4d39d3-bf41-5063-a29a-fabad0c1e9d1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972090843"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992228142"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "834 EZZARD CHARLES DR"
+        ],
+        "city": "CINCINNATI",
+        "state": "OH",
+        "postalCode": "45214-2525"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15757"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15757.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:32e42096-2320-5b18-86d9-3c8c5fb87b5b"
+}

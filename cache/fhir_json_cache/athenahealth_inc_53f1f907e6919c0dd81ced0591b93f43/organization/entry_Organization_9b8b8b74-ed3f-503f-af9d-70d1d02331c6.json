@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9b8b8b74-ed3f-503f-af9d-70d1d02331c6",
+    "name": "Piedmont Walton Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dd5d9f99-fb05-560f-b94e-325b28ea2ca9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1225329667"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2151 W Spring St."
+        ],
+        "city": "MONROE",
+        "state": "GA",
+        "postalCode": "30655-2140"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3403"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3403.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9b8b8b74-ed3f-503f-af9d-70d1d02331c6"
+}

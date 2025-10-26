@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "43c60f56-879c-5a26-8723-e7faa6fed4f6",
+    "name": "Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8c273ced-4122-5960-9656-6efc1b83489f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174713606"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 E. EIGHTH  ST."
+        ],
+        "city": "WESLACO",
+        "state": "TX",
+        "postalCode": "78596-6640"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1285"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1285.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:43c60f56-879c-5a26-8723-e7faa6fed4f6"
+}

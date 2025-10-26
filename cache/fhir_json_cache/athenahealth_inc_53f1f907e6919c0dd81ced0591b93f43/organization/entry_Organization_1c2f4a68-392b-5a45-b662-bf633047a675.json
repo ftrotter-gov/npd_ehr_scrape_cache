@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c2f4a68-392b-5a45-b662-bf633047a675",
+    "name": "Riverdale Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/79ee2cf0-537b-5b97-b12e-26c7c59b5d21"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720180276"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6510 Kenilworth ave"
+        ],
+        "city": "Riverdale",
+        "state": "MD",
+        "postalCode": "20737-1339"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-926"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-926.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c2f4a68-392b-5a45-b662-bf633047a675"
+}

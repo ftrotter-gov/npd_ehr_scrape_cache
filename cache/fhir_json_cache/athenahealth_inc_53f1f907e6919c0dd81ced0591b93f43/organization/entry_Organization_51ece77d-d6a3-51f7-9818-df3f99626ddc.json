@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "51ece77d-d6a3-51f7-9818-df3f99626ddc",
+    "name": "Boulder Community Health Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0eeef342-ddd1-5e91-b7ff-f2b99c45645e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922043645"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4747 arapahoe ave"
+        ],
+        "city": "BOULDER",
+        "state": "CO",
+        "postalCode": "80303-1133"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10688"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10688.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:51ece77d-d6a3-51f7-9818-df3f99626ddc"
+}

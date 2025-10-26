@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ef2a246c-243d-5147-a6ec-581f7656fc15",
+    "name": "Diane",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0e318474-1e35-53bd-93c9-bffab240b5b0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447218359"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "17 west grand avenue"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60654-4806"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6722"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6722.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ef2a246c-243d-5147-a6ec-581f7656fc15"
+}

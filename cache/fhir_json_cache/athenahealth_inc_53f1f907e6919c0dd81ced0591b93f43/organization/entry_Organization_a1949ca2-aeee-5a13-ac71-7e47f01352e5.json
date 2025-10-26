@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a1949ca2-aeee-5a13-ac71-7e47f01352e5",
+    "name": "John Mendelson MD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e0bfa4dc-a348-5f08-ba07-474ba13094f3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891889341"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "909 Hyde St",
+          "Suite 210"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94109-4822"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16211"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16211.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a1949ca2-aeee-5a13-ac71-7e47f01352e5"
+}

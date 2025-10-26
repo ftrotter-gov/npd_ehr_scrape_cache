@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0UP-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0UP"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Healthfirst Rehab & Wellness",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4043664124"
+      },
+      {
+        "system": "fax",
+        "value": "4043660297"
+      }
+    ],
+    "address": [
+      {
+        "text": "1075 Main St Forest Park GA 30297 US",
+        "line": [
+          "1075 Main St"
+        ],
+        "city": "Forest Park",
+        "state": "GA",
+        "postalCode": "30297",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0UP-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0UP-Organization-2"
+}

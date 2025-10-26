@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "552f3d83-63c9-5ea2-86b5-c5a14e2c7cbd",
+    "meta": {
+      "lastUpdated": "2023-09-23T05:14:56.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://grmc.org"
+      }
+    ],
+    "name": "Gila Regional Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://grmc.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1313 East Thirty-Second Street"
+        ],
+        "city": "Silver City",
+        "state": "NM",
+        "postalCode": "88061",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:d800a4c7-6cda-568d-a14a-353fed71a6fe"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:d800a4c7-6cda-568d-a14a-353fed71a6fe"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:552f3d83-63c9-5ea2-86b5-c5a14e2c7cbd"
+}

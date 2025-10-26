@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0dbfd24e-526b-5701-aafd-b82e5ae2ca7d",
+    "name": "BAY AREA MEDICAL GROUP, INC.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7a8bbc1b-191e-5751-b4ec-1cc16158d08c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567891"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "105 N. BASCOM AVE",
+          "SUITE 204"
+        ],
+        "city": "SAN JOSE",
+        "state": "CA",
+        "postalCode": "95128-1811"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14322"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14322.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0dbfd24e-526b-5701-aafd-b82e5ae2ca7d"
+}

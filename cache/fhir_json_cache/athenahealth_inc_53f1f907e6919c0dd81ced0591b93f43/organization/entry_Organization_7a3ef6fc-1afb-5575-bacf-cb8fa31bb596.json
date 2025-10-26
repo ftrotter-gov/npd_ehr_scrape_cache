@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7a3ef6fc-1afb-5575-bacf-cb8fa31bb596",
+    "name": "AllCare Ballston",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a78c22dc-18f1-52ca-b30a-29c41675aaab"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407162076"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811239627"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4501 FAIRFAX DR",
+          "SUITE 110"
+        ],
+        "city": "ARLINGTON",
+        "state": "VA",
+        "postalCode": "22203-1659"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15482"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15482.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7a3ef6fc-1afb-5575-bacf-cb8fa31bb596"
+}

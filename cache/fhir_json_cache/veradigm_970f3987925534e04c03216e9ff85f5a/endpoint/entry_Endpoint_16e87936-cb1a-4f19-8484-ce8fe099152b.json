@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "16e87936-cb1a-4f19-8484-ce8fe099152b",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "7f67cdc9-d9b2-4868-96fb-11be4454ff46",
+        "name": "Newport Childrens Med at Mission"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Newport Childrens Med at Mission",
+    "managingOrganization": {
+      "reference": "#7f67cdc9-d9b2-4868-96fb-11be4454ff46"
+    },
+    "period": {
+      "start": "2019-09-26T20:05:01+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10065589"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10065589"
+}

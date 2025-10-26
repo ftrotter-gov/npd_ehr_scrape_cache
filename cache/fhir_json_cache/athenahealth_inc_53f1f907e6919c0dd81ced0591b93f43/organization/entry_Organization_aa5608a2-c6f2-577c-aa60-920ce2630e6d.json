@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aa5608a2-c6f2-577c-aa60-920ce2630e6d",
+    "name": "Dover Family Pharmacy",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/70068124-299c-59eb-84ea-8c302af5ea57"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053932269"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6611 UNIVERSITY AVE",
+          "STE 200 PMB 117"
+        ],
+        "city": "WINDSOR HEIGHTS",
+        "state": "IA",
+        "postalCode": "50324-1655"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25410"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25410.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aa5608a2-c6f2-577c-aa60-920ce2630e6d"
+}

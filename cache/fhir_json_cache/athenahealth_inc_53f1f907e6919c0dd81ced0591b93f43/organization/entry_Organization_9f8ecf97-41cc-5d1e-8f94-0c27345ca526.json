@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9f8ecf97-41cc-5d1e-8f94-0c27345ca526",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0bbf9e4b-bafc-55b7-befe-6b4b0ab97e99"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619384179"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000 S. Wheeling Ave",
+          "Suite 1120"
+        ],
+        "city": "TULSA",
+        "state": "OK",
+        "postalCode": "74104-5414"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12219"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12219.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9f8ecf97-41cc-5d1e-8f94-0c27345ca526"
+}

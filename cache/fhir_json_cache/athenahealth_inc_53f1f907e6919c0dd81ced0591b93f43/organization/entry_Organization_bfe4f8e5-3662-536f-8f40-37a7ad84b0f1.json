@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bfe4f8e5-3662-536f-8f40-37a7ad84b0f1",
+    "name": "Bayview Center - SNF Telemedicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ab3c94d9-cbd1-5382-b577-4e4ea626089b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255376000"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 S Bay St"
+        ],
+        "city": "EUSTIS",
+        "state": "FL",
+        "postalCode": "32726-4005"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11352"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11352.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bfe4f8e5-3662-536f-8f40-37a7ad84b0f1"
+}

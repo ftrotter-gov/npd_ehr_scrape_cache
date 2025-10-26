@@ -1,0 +1,97 @@
+{
+  "resourceType": "Bundle",
+  "id": "one-medical-endpoint-bundle",
+  "type": "collection",
+  "timestamp": "2024-02-20T20:00:43.241070-07:00",
+  "entry": [
+    {
+      "fullUrl": "https://healthlake.us-east-1.amazonaws.com/datastore/f7a9bd560802a0178bfce2d9a6e66ecc/r4/Endpoint/ChirpProduction",
+      "resource": {
+        "resourceType": "Endpoint",
+        "id": "ChirpProduction",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\tOne Medical Endpoint<br/>\n\t\t\tThis is One Medical's Endpoint, formatted to comply with the HTI-1 ruling for 2024\n\t\t</div>"
+                  },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/endpoint-fhir-version",
+            "valueCode": "4.0.1"
+          }
+        ],
+        "status": "active",
+        "connectionType": {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "hl7-fhir-rest"
+        },
+        "name": "FHIR R4 Endpoint for One Medical (Chirp)",
+        "managingOrganization": {
+          "reference": "Organization/a9b4986d-d837-4f7c-95d5-1ec461c193fb"
+        },
+        "payloadType": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+                "code": "any"
+              }
+            ]
+          }
+        ],
+        "address": "https://healthlake.us-east-1.amazonaws.com/datastore/f7a9bd560802a0178bfce2d9a6e66ecc/r4"
+      }
+    },
+		{
+      "fullUrl": "https://healthlake.us-east-1.amazonaws.com/datastore/f7a9bd560802a0178bfce2d9a6e66ecc/r4/Organization/a9b4986d-d837-4f7c-95d5-1ec461c193fb",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a9b4986d-d837-4f7c-95d5-1ec461c193fb",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\tOne Medical Organization<br/>\n\t\t\tThis is the One Medical Organization in FHIR format, formatted to comply with the HTI-1 ruling for 2024\n\t\t</div>"
+                  },
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1467781641"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                "code": "prov",
+                "display": "Healthcare Provider"
+              }
+            ]
+          }
+        ],
+        "name": "One Medical",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(+1) 415-651-8065"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "One Embarcadero Center"
+            ],
+            "city": "San Francisco",
+            "state": "CA",
+            "postalCode": "94111",
+            "country": "USA"
+          }
+        ],
+        "endpoint": [
+            {
+                "reference": "Endpoint/ChirpProduction"
+            }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1d59597-4c75-58fe-8851-2af43eb8bb7d",
+    "name": "E-Concierge Health Care-Main",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4bd427af-1289-5308-8732-c6f0e29f195b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134847676"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1322 SPACE PARK DR STE C115"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77058-3460"
+      },
+      {
+        "line": [
+          "1322 SPACE PARK DR STE B180"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77058-3460"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27275"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27275.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1d59597-4c75-58fe-8851-2af43eb8bb7d"
+}

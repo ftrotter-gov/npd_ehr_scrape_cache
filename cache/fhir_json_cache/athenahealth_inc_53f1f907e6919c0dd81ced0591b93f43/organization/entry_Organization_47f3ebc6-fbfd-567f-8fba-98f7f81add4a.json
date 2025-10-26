@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "47f3ebc6-fbfd-567f-8fba-98f7f81add4a",
+    "name": "PATIENT'S HOME",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/06e68451-7956-5d8f-90cc-a12b62b5ff78"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1639180912"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "610 E 23RD ST"
+        ],
+        "city": "CRANE",
+        "state": "TX",
+        "postalCode": "79731-4804"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8064"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8064.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:47f3ebc6-fbfd-567f-8fba-98f7f81add4a"
+}

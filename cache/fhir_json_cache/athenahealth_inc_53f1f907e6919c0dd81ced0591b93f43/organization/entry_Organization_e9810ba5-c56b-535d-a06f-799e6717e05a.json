@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e9810ba5-c56b-535d-a06f-799e6717e05a",
+    "name": "Dr. Bill O'Brien, LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af71f722-dc7a-54b1-a138-279f7582d9f5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124374400"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9892 Bustleton Ave",
+          "Suite 104"
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19115-2138"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7171"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7171.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e9810ba5-c56b-535d-a06f-799e6717e05a"
+}

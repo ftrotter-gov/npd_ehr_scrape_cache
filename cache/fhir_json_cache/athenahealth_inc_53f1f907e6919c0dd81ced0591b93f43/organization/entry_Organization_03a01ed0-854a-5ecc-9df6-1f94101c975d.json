@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "03a01ed0-854a-5ecc-9df6-1f94101c975d",
+    "name": "Moravian Manor",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e1e78e41-2e8f-5147-96a3-c49165132cf3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457384265"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 W LEMON STREET"
+        ],
+        "city": "LITITZ",
+        "state": "PA",
+        "postalCode": "17543-2311"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12762"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12762.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:03a01ed0-854a-5ecc-9df6-1f94101c975d"
+}

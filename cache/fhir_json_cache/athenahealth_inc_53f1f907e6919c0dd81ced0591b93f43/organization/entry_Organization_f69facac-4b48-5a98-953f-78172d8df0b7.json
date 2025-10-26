@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f69facac-4b48-5a98-953f-78172d8df0b7",
+    "name": "A-P Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e12126f2-883d-5945-9c9c-5f9925099ace"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770025066"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2110 E FLAMINGO RD STE 100"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89119-5191"
+      },
+      {
+        "line": [
+          "2110 e Flamingo rd"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89119-5190"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19134"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19134.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f69facac-4b48-5a98-953f-78172d8df0b7"
+}

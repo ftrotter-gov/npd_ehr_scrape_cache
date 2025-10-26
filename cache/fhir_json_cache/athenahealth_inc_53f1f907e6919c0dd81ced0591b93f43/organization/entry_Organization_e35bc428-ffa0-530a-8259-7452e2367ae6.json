@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e35bc428-ffa0-530a-8259-7452e2367ae6",
+    "name": "Surgical Assistants of Dallas",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a824d847-795f-55cc-aaab-b5e20ebc3028"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255596086"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8440 Walnut Hill Lane",
+          "Suite 120"
+        ],
+        "city": "Dallas",
+        "state": "TX",
+        "postalCode": "75231-3879"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1504"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1504.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e35bc428-ffa0-530a-8259-7452e2367ae6"
+}

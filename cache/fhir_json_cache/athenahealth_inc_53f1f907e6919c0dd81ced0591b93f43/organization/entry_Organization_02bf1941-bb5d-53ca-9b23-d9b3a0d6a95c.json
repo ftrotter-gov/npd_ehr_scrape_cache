@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "02bf1941-bb5d-53ca-9b23-d9b3a0d6a95c",
+    "name": "Rose MD Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/478b3963-42e9-530d-8239-f6aacd38393b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801672035"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5877 LIVERNOIS RD",
+          "SUITE 105"
+        ],
+        "city": "TROY",
+        "state": "MI",
+        "postalCode": "48098-3100"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30050"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30050.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:02bf1941-bb5d-53ca-9b23-d9b3a0d6a95c"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2ae2eabd-da92-5def-8682-7980dc2ab838",
+    "name": "West Grove Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/998e478d-3f01-54de-8a25-7c64c9981cd0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1750535910"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "200 OLD FORGE LN SUITE 203"
+        ],
+        "city": "KENNETT SQUARE",
+        "state": "PA",
+        "postalCode": "19348-1895"
+      },
+      {
+        "line": [
+          "900 W BALTIMORE PIKE STE 200"
+        ],
+        "city": "WEST GROVE",
+        "state": "PA",
+        "postalCode": "19390-9313"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1699"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1699.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2ae2eabd-da92-5def-8682-7980dc2ab838"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "94c703a6-ece5-4e34-acc7-b07a2baa6ef5",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "0c19a595-987b-44c0-84a7-21e2c6991f91",
+        "name": "Missouri Vein Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Missouri Vein Care",
+    "managingOrganization": {
+      "reference": "#0c19a595-987b-44c0-84a7-21e2c6991f91"
+    },
+    "period": {
+      "start": "2018-10-23T09:11:57+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77697"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/77697"
+}

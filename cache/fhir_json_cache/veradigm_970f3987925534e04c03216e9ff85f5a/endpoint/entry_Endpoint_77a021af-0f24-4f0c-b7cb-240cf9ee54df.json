@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "77a021af-0f24-4f0c-b7cb-240cf9ee54df",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "779f5011-f95c-4ccd-968c-e0bbe630a39f",
+        "name": "Chuback Vein Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Chuback Vein Center",
+    "managingOrganization": {
+      "reference": "#779f5011-f95c-4ccd-968c-e0bbe630a39f"
+    },
+    "period": {
+      "start": "2018-06-20T15:04:09+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72253"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/72253"
+}

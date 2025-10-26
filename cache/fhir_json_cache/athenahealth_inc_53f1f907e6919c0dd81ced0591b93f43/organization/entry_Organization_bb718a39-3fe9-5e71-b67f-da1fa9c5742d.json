@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bb718a39-3fe9-5e71-b67f-da1fa9c5742d",
+    "name": "Health Reach Community Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec97b810-edd8-5240-8f8e-715f75e9dcb3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417131319"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 E STATESVILLE AVE STE 300"
+        ],
+        "city": "MOORESVILLE",
+        "state": "NC",
+        "postalCode": "28115-2588"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14847"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14847.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bb718a39-3fe9-5e71-b67f-da1fa9c5742d"
+}

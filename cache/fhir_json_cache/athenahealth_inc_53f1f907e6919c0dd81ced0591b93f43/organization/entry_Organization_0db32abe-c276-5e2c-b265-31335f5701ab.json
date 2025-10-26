@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0db32abe-c276-5e2c-b265-31335f5701ab",
+    "name": "Chagrin Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e55bfbd0-b622-5f2d-9e1e-062dd5aea358"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194757401"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3755 Orange Place",
+          "Suite 102"
+        ],
+        "city": "BEACHWOOD",
+        "state": "OH",
+        "postalCode": "44122-4455"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8295"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8295.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0db32abe-c276-5e2c-b265-31335f5701ab"
+}

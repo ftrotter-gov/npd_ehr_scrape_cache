@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "199d94af-76a5-5371-be96-2c11f57c0f1d",
+    "name": "Gottlieb Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/23abf8c9-3065-587b-906e-bace5de9ad68"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821432329"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "675 W North Ave"
+        ],
+        "city": "Melrose Park",
+        "state": "IL",
+        "postalCode": "60160-1634"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6901"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6901.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:199d94af-76a5-5371-be96-2c11f57c0f1d"
+}

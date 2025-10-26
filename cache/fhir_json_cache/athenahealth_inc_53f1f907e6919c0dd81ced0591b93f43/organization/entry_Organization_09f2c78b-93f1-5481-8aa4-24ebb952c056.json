@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "09f2c78b-93f1-5481-8aa4-24ebb952c056",
+    "name": "Dr. de la Garza's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/269dfa91-3b29-598e-b924-0634d65a95fa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487184610"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "77 S 700 E STE 220"
+        ],
+        "city": "SALT LAKE CITY",
+        "state": "UT",
+        "postalCode": "84102-1162"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20003"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20003.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:09f2c78b-93f1-5481-8aa4-24ebb952c056"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "aa090ad8-c026-5582-9e38-6477cd82654d",
+    "name": "Meade Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/98b05563-779e-5bb9-a32f-b0699e8560d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396817789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "134 HOSPITAL DR"
+        ],
+        "city": "WATERTOWN",
+        "state": "WI",
+        "postalCode": "53098-3304"
+      },
+      {
+        "line": [
+          "134 Hospital Dr"
+        ],
+        "city": "WATERTOWN",
+        "state": "WI",
+        "postalCode": "53098-3304"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21111"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21111.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:aa090ad8-c026-5582-9e38-6477cd82654d"
+}

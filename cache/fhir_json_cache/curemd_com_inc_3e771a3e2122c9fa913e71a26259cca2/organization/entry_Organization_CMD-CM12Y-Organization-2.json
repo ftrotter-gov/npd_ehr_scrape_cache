@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM12Y-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM12Y"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Vida Oncology",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3174282075"
+      },
+      {
+        "system": "fax",
+        "value": "3175340372"
+      },
+      {
+        "system": "email",
+        "value": "info@vidaoncology.com"
+      },
+      {
+        "system": "url",
+        "value": "vidaoncology.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "2150 Intelliplex Drive Suite 134 SHELBYVILLE IN 46176 US",
+        "line": [
+          "2150 Intelliplex Drive",
+          "Suite 134"
+        ],
+        "city": "SHELBYVILLE",
+        "state": "IN",
+        "postalCode": "46176",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM12Y-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM12Y-Organization-2"
+}

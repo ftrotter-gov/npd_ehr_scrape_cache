@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a47949bb-44bc-597a-96ec-149a6d306fd7",
+    "name": "CareMed Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5aa433ec-20ee-5040-860e-80dca462fd49"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740443183"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11213 LEE HWY",
+          "SUITE H"
+        ],
+        "city": "FAIRFAX",
+        "state": "VA",
+        "postalCode": "22030-5698"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16257"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16257.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a47949bb-44bc-597a-96ec-149a6d306fd7"
+}

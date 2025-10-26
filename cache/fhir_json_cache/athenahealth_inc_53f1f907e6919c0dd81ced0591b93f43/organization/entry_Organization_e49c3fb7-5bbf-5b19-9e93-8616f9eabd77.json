@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e49c3fb7-5bbf-5b19-9e93-8616f9eabd77",
+    "name": "Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/092b12a4-8ede-591a-a096-8a8d9ca551dd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144516535"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2004 N Pulaski Rd"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60639-3767"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7619"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7619.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e49c3fb7-5bbf-5b19-9e93-8616f9eabd77"
+}

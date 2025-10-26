@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5223d16-67cc-50cb-a021-88d6ee8ee600",
+    "name": "Dr. Linda Casteel's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ef513736-945c-51dd-90c8-6987bc8e6b71"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417429168"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1976 MAIN STREET EAST",
+          "SUITE C"
+        ],
+        "city": "SNELLVILLE",
+        "state": "GA",
+        "postalCode": "30078-6460"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19101"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19101.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5223d16-67cc-50cb-a021-88d6ee8ee600"
+}

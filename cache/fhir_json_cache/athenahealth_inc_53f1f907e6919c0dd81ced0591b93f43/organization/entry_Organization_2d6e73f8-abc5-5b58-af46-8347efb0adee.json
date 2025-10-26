@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2d6e73f8-abc5-5b58-af46-8347efb0adee",
+    "name": "Winship Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4c94f2ab-eb20-590f-beab-0a2357fbb7a0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902013709"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2401 Brookstone Centre Pkwy",
+          "Bldg.200"
+        ],
+        "city": "COLUMBUS",
+        "state": "GA",
+        "postalCode": "31904-4501"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-261"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-261.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2d6e73f8-abc5-5b58-af46-8347efb0adee"
+}

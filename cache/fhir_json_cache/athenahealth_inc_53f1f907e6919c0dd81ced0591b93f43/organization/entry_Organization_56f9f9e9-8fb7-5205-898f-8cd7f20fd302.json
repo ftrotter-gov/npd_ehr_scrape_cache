@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56f9f9e9-8fb7-5205-898f-8cd7f20fd302",
+    "name": "FLORIDA HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a0ae47ed-22d5-5000-9f8d-2385ad8139e9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457373623"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "601 E ROLLINS ST"
+        ],
+        "city": "ORLANDO",
+        "state": "FL",
+        "postalCode": "32803-1248"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7541"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7541.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56f9f9e9-8fb7-5205-898f-8cd7f20fd302"
+}

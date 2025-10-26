@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6fe35727-f6f9-5604-8c48-28947cfeb52d",
+    "name": "Jackson Medical Center Urgent Care Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/003320de-596e-542a-93a2-ef814ee06fa3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558487397"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1952427874"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "220 Hospital Drive"
+        ],
+        "city": "JACKSON",
+        "state": "AL",
+        "postalCode": "36545-0428"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14082"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14082.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6fe35727-f6f9-5604-8c48-28947cfeb52d"
+}

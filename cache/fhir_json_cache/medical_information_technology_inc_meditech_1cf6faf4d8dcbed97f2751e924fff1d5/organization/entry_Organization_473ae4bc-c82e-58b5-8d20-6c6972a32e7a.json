@@ -1,0 +1,76 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "473ae4bc-c82e-58b5-8d20-6c6972a32e7a",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://haysmed.com"
+      }
+    ],
+    "name": "Hays Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://haysmed.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2220 Canterbury Drive"
+        ],
+        "city": "Hays",
+        "state": "KS",
+        "postalCode": "67601",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:9663bbb4-d3de-5ed1-b2d4-1b659a41b932"
+      },
+      {
+        "reference": "urn:uuid:b417bb4f-b5f9-471f-b4af-53c2ff2bfd7c"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:ba1f9bf3-7064-5e14-99cb-4b854be806f5"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:9663bbb4-d3de-5ed1-b2d4-1b659a41b932"
+            }
+          },
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:b417bb4f-b5f9-471f-b4af-53c2ff2bfd7c"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:473ae4bc-c82e-58b5-8d20-6c6972a32e7a"
+}

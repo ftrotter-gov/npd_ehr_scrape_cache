@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5a7daa17-d42d-505a-a669-9dba2dada2db",
+    "name": "United Hospital IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/43d00dab-d9b4-54dd-99b3-3427186a6433"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912971912"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "333 N Smith Ave"
+        ],
+        "city": "SAINT PAUL",
+        "state": "MN",
+        "postalCode": "55102-2344"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20581"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20581.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5a7daa17-d42d-505a-a669-9dba2dada2db"
+}

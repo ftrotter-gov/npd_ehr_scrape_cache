@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5a275133-d5ce-5c76-ba75-73dd86f5f2af",
+    "name": "Bradenton East",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cb646fe7-6a23-513b-9da3-c50eaeae4148"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568563187"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8614 State Road 70 E",
+          "Suite 200"
+        ],
+        "city": "BRADENTON",
+        "state": "FL",
+        "postalCode": "34202-3710"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27472"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27472.Brand-6"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5a275133-d5ce-5c76-ba75-73dd86f5f2af"
+}

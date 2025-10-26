@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fa51956b-cc28-5d72-b54c-5616dbe4dfd7",
+    "name": "FHCA Northlake After Hours",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/65d8e775-2e13-5a09-9a37-cc6f947644f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831159466"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1610 Common Cir"
+        ],
+        "city": "NORTHLAKE",
+        "state": "TX",
+        "postalCode": "76226-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28396"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28396.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fa51956b-cc28-5d72-b54c-5616dbe4dfd7"
+}

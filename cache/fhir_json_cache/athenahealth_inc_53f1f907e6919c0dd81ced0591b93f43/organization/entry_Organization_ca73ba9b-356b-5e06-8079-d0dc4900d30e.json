@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ca73ba9b-356b-5e06-8079-d0dc4900d30e",
+    "name": "Lexington Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af78a6fa-84ae-5218-8b7f-23c43a225b33"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346249430"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2720 Sunset Blvd"
+        ],
+        "city": "WEST COLUMBIA",
+        "state": "SC",
+        "postalCode": "29169-4810"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10781"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10781.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ca73ba9b-356b-5e06-8079-d0dc4900d30e"
+}

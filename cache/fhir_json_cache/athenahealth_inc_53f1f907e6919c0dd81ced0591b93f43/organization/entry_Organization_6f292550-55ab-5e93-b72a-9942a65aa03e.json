@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6f292550-55ab-5e93-b72a-9942a65aa03e",
+    "name": "Scottsdale Healthcare Shea ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c0e3554b-83a4-511f-84d4-7a62d0021640"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851730535"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9003 E. SHEA BOULEVARD"
+        ],
+        "city": "Scottsdale",
+        "state": "AZ",
+        "postalCode": "85260-6709"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7365"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7365.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6f292550-55ab-5e93-b72a-9942a65aa03e"
+}

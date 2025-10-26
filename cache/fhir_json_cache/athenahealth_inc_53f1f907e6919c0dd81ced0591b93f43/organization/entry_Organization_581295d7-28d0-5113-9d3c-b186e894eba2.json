@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "581295d7-28d0-5113-9d3c-b186e894eba2",
+    "name": "Des Moines University Radiology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8941ffb4-2898-547b-a95f-41a19e16b812"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164475760"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3200 Grand Ave"
+        ],
+        "city": "DES MOINES",
+        "state": "IA",
+        "postalCode": "50312-4104"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11667"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11667.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:581295d7-28d0-5113-9d3c-b186e894eba2"
+}

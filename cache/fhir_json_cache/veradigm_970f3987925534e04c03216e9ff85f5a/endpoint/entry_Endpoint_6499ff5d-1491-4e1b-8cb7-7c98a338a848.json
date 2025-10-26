@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "6499ff5d-1491-4e1b-8cb7-7c98a338a848",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "cdfb6e08-709a-4f81-959a-2bd1bd45a622",
+        "name": "Dr. Patrick Tamim MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dr. Patrick Tamim MD",
+    "managingOrganization": {
+      "reference": "#cdfb6e08-709a-4f81-959a-2bd1bd45a622"
+    },
+    "period": {
+      "start": "2018-02-09T17:20:17+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10077298"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10077298"
+}

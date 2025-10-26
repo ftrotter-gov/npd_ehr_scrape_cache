@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5cc3a19a-b06c-5df3-8616-ae08b183b36d",
+    "name": "Candler Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7f1067af-5491-5eef-ace4-445f919cdb11"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619061579"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5353 REYNOLDS ST"
+        ],
+        "city": "SAVANNAH",
+        "state": "GA",
+        "postalCode": "31405-6015"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14924"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14924.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5cc3a19a-b06c-5df3-8616-ae08b183b36d"
+}

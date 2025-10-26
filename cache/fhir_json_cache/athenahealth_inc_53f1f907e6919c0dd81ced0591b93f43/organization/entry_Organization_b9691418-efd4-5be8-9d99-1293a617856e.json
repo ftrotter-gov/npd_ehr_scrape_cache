@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9691418-efd4-5be8-9d99-1293a617856e",
+    "name": "Your Neighborhood NP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/842c6e0d-a452-5206-9860-c8bfa8cd07a6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760143077"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "10440 LITTLE PATUXENT PKWY SUITE 300"
+        ],
+        "city": "COLUMBIA",
+        "state": "MD",
+        "postalCode": "21044-3648"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25597"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25597.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9691418-efd4-5be8-9d99-1293a617856e"
+}

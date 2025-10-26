@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b7fb4a91-7b58-51ed-9e29-c6561f440b1e",
+    "name": "Ridgeway Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af78a6fa-84ae-5218-8b7f-23c43a225b33"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346249430"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "755 US Highway 21 South",
+          "CH04327N"
+        ],
+        "city": "RIDGEWAY",
+        "state": "SC",
+        "postalCode": "29130-6844"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10781"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10781.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b7fb4a91-7b58-51ed-9e29-c6561f440b1e"
+}

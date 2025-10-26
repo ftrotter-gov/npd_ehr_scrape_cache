@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "04e83992-37d6-5f55-afd4-0637e710d8a9",
+    "name": "Neurology Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e5b60ebb-1511-5c90-885b-b075a1c62e77"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174513071"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "233 Ayer Road"
+        ],
+        "city": "Harvard",
+        "state": "MA",
+        "postalCode": "01451-1131"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-958"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-958.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:04e83992-37d6-5f55-afd4-0637e710d8a9"
+}

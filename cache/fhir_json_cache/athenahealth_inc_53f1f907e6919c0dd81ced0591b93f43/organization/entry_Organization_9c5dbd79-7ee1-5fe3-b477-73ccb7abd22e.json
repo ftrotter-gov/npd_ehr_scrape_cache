@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9c5dbd79-7ee1-5fe3-b477-73ccb7abd22e",
+    "name": "Dr Mevi's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/063b5185-e32f-5c82-9a1a-8c655ad40949"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801961925"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "245 H ST",
+          "STE 2"
+        ],
+        "city": "LOS BANOS",
+        "state": "CA",
+        "postalCode": "93635-4150"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14652"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14652.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9c5dbd79-7ee1-5fe3-b477-73ccb7abd22e"
+}

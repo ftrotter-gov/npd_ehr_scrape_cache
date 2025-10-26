@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "76e2ee79-cdf5-5c29-bc97-f743c5492aa8",
+    "name": "St. Joseph's Hospital and Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2fa8a43-c9c5-5543-a5e2-b8993266e028"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144662420"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "350 West Thomas Rd"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85013-4224"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7298"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7298.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:76e2ee79-cdf5-5c29-bc97-f743c5492aa8"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "00e7d1d4-65f2-5302-b441-267f217b895f",
+    "name": "Fort Myers Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ba63ad4f-0495-590e-bb16-f49e3aa37958"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598754822"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8350 Riverwalk Park Blvd",
+          "Suite 1"
+        ],
+        "city": "FORT MYERS",
+        "state": "FL",
+        "postalCode": "33919-8759"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25442"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25442.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:00e7d1d4-65f2-5302-b441-267f217b895f"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0cfe37ef-d033-52af-ab70-27997d920265",
+    "name": "Frontier Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cbff6997-7c84-555c-a799-ac58bf677093"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255008280"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4598 County Road 60"
+        ],
+        "city": "BURLINGTON",
+        "state": "CO",
+        "postalCode": "80807-1356"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25112"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25112.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0cfe37ef-d033-52af-ab70-27997d920265"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "698c2545-c704-5fce-b43a-464cbcef4f9e",
+    "name": "Streetsboro Kidney Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/864d20b7-ed66-5a9f-a562-9801a5260631"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932590460"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9200 Staples Dr",
+          "Ste A"
+        ],
+        "city": "STREETSBORO",
+        "state": "OH",
+        "postalCode": "44241-3950"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10691"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10691.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:698c2545-c704-5fce-b43a-464cbcef4f9e"
+}

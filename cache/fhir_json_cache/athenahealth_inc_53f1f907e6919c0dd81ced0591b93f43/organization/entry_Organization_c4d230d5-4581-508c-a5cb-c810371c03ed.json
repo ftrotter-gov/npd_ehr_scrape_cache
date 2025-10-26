@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c4d230d5-4581-508c-a5cb-c810371c03ed",
+    "name": "TEXAS FREE CARE, INC.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/02f02d16-f609-555a-8bae-4e83ce1b6b14"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8440 GRACE STREET"
+        ],
+        "city": "FRISCO",
+        "state": "TX",
+        "postalCode": "75034-4023"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19747"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19747.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c4d230d5-4581-508c-a5cb-c810371c03ed"
+}

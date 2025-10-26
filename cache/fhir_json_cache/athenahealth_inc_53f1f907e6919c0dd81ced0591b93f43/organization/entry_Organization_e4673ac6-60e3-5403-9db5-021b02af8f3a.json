@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e4673ac6-60e3-5403-9db5-021b02af8f3a",
+    "name": "Hunt Regional Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/64d58325-3cec-500e-b762-b90a2c6236a5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275031205"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4215 JOE RAMSEY BLVD E"
+        ],
+        "city": "GREENVILLE",
+        "state": "TX",
+        "postalCode": "75401-7852"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9148"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9148.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e4673ac6-60e3-5403-9db5-021b02af8f3a"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "846c58ad-dd74-52c5-8ae8-2a1cd6fe35c4",
+    "name": "California Pacifice Medical Center ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/af8f4636-cb61-5d45-95ff-77d2229ef4f4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912276007"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3700 CALIFORNIA ST"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94118-1618"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4632"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4632.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:846c58ad-dd74-52c5-8ae8-2a1cd6fe35c4"
+}

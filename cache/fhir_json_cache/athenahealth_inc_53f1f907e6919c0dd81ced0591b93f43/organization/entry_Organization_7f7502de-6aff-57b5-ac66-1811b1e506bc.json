@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7f7502de-6aff-57b5-ac66-1811b1e506bc",
+    "name": "NY Orthopedics Westbury",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7fa9a7c0-4331-5c76-8ca7-c751c8e6ea98"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316933872"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 Stewart Avenue",
+          "Suite 100"
+        ],
+        "city": "WESTBURY",
+        "state": "NY",
+        "postalCode": "11590-6611"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11998"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11998.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7f7502de-6aff-57b5-ac66-1811b1e506bc"
+}

@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTUxNV8xNTE1XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "633.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437254448"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pediatric Clinic PC MI",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "586-725-2670",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "586-725-3347",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "35054 23 Mile Road Suite 101 New Baltimore, MI 480472019",
+        "line": [
+          "35054 23 Mile Road",
+          "Suite 101"
+        ],
+        "city": "New Baltimore",
+        "state": "MI",
+        "postalCode": "480472019",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTUxNV8xNTE1XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTUxNV8xNTE1XzMwNjA"
+}

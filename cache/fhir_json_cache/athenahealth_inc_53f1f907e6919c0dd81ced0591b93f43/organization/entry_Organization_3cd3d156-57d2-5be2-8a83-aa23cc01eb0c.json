@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3cd3d156-57d2-5be2-8a83-aa23cc01eb0c",
+    "name": "Telemedicine - Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/95a1be58-263b-5ff7-bb9c-091eadefcf68"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053503763"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "325 Western Blvd"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "NC",
+        "postalCode": "28546-6341"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1905"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1905.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3cd3d156-57d2-5be2-8a83-aa23cc01eb0c"
+}

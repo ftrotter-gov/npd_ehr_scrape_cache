@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c01ef2bc-a965-5bfb-a291-42645baf72d4",
+    "name": "Allied Physicians Rocky Point",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/310d3728-c873-50e4-8de4-8e9cb429d4b8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396944799"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "346 Route 25A",
+          "Suite 34"
+        ],
+        "city": "ROCKY POINT",
+        "state": "NY",
+        "postalCode": "11778-8818"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29151"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29151.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c01ef2bc-a965-5bfb-a291-42645baf72d4"
+}

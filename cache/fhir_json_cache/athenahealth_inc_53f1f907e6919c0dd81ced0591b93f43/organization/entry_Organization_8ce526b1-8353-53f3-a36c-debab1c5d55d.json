@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8ce526b1-8353-53f3-a36c-debab1c5d55d",
+    "name": "Hamilton Arms",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3cd87ae6-8f6e-5bdd-88fb-085cb963e630"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770710766"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "336 S. West End Ave"
+        ],
+        "city": "LANCASTER",
+        "state": "PA",
+        "postalCode": "17603-5043"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6718"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6718.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8ce526b1-8353-53f3-a36c-debab1c5d55d"
+}

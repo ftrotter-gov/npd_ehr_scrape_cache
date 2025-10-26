@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b847b042-a45b-5453-a488-4190d9dc65b1",
+    "name": "Springfield Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d4c08454-0386-5b2f-8544-4c5466c66962"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730790874"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6128 BRANDON AVE SUITE 225"
+        ],
+        "city": "SPRINGFIELD",
+        "state": "VA",
+        "postalCode": "22150-2513"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22251"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22251.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b847b042-a45b-5453-a488-4190d9dc65b1"
+}

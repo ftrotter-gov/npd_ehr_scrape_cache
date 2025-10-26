@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf4828d8-dfea-580e-8a8d-08af3d21a9b3",
+    "name": "Clinica Buena Salud Inc",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/874e9de9-e2e1-5ca4-a6fa-531b733e5838"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982779542"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "520 W 17TH ST",
+          "STE 1"
+        ],
+        "city": "SANTA ANA",
+        "state": "CA",
+        "postalCode": "92706-3614"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32636"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32636.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf4828d8-dfea-580e-8a8d-08af3d21a9b3"
+}

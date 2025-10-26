@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c60bef3e-da16-5b60-b51a-67f68fd06cc3",
+    "name": "Evanston Hospital Corporation",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/41ba2195-5830-552d-b8c5-8d0685651f9b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013288836"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366989014"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "190 ARROWHEAD DR"
+        ],
+        "city": "EVANSTON",
+        "state": "WY",
+        "postalCode": "82930-9266"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1583"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1583.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c60bef3e-da16-5b60-b51a-67f68fd06cc3"
+}

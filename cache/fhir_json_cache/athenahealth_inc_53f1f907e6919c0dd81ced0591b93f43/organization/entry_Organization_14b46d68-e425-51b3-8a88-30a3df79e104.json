@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "14b46d68-e425-51b3-8a88-30a3df79e104",
+    "name": "Home Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6b454c97-3a25-5534-bbf7-7f2ec46cceb5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124412051"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "320 CENTRAL AVENUE, SUITE 418"
+        ],
+        "city": "COOS BAY",
+        "state": "OR",
+        "postalCode": "97420-2241"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11630"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11630.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:14b46d68-e425-51b3-8a88-30a3df79e104"
+}

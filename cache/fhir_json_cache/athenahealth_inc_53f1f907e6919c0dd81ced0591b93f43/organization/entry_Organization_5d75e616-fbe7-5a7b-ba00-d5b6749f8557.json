@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5d75e616-fbe7-5a7b-ba00-d5b6749f8557",
+    "name": "Lancaster Clinic Corp",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/151ff747-94e5-52b9-abf1-7a1fbd497b19"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760678841"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588825616"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "834 West Meeting Street Ste C"
+        ],
+        "city": "LANCASTER",
+        "state": "SC",
+        "postalCode": "29720-6220"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1398"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1398.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5d75e616-fbe7-5a7b-ba00-d5b6749f8557"
+}

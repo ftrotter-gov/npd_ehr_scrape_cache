@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4bf80431-1d39-56c3-9218-ad6899cf8a85",
+    "name": "Pediatric Direct Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/89f0b927-d29f-5fd5-ba9a-03bb39830ca7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154957942"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1325 S COLORADO BLVD",
+          "SUITE B312"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80222-3303"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21392"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21392.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4bf80431-1d39-56c3-9218-ad6899cf8a85"
+}

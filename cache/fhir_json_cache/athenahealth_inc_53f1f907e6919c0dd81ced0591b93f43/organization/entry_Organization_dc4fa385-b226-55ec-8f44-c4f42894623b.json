@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dc4fa385-b226-55ec-8f44-c4f42894623b",
+    "name": "NAC Cardio and General Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/27588f56-1a22-5fd0-aa59-1bdab920c56b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1447524392"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598958431"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "320 Russell Boulevard"
+        ],
+        "city": "NACOGDOCHES",
+        "state": "TX",
+        "postalCode": "75965-1240"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1438"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1438.Brand-7"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dc4fa385-b226-55ec-8f44-c4f42894623b"
+}

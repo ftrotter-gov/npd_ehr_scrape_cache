@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "central-hub",
+    "text": {
+      "status": "generated",
+      "div": "<div  xmlns='http://www.w3.org/1999/xhtml'>This is the central hub for all HST practices, all users using Medpointe are centrally provisioned on this endpoint. </div>"
+    },
+    "identifier": [
+      {
+        "system": "urn:oid:2.16.840.1.113883.3.8023.99",
+        "value": "central-hub"
+      }
+    ],
+    "address": "https://portal.viewmymed.com/fhir",
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Health Systems Technology - Central Hub",
+    "managingOrganization": {
+      "display": "Health Systems Technology, Inc",
+      "reference": "Organization/hst"
+    },
+    "contact": [
+      {
+        "system": "email",
+        "value": "support@hstcentral.com",
+        "use": "work"
+      }
+    ],
+    "period": {
+      "start": "2023-02-01"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
+            "code": "urn:hl7-org:sdwg:ccda-structuredBody:2.1"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json"
+    ]
+  },
+  "fullUrl": "https://portal.viewmymed.com/fhir/Endpoint/central-hub"
+}

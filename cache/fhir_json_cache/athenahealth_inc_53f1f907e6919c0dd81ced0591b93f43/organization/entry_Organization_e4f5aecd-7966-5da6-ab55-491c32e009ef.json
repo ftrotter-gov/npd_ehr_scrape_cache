@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e4f5aecd-7966-5da6-ab55-491c32e009ef",
+    "name": "Spring Harbor",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/71f793c3-37d8-529e-96a7-0bcd1739bc8e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790733244"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Spring Harbor Drive"
+        ],
+        "city": "COLUMBUS",
+        "state": "GA",
+        "postalCode": "31904-4619"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-202"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-202.Brand-20"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e4f5aecd-7966-5da6-ab55-491c32e009ef"
+}

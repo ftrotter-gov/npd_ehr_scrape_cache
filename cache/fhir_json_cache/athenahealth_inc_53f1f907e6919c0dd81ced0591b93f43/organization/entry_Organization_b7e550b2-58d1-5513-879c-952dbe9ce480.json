@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b7e550b2-58d1-5513-879c-952dbe9ce480",
+    "name": "Kentucky River Medical Center - ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/563f66f3-cac0-5e25-87ea-9bc63f81733f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174913172"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "540 Jett Dr"
+        ],
+        "city": "JACKSON",
+        "state": "KY",
+        "postalCode": "41339-9622"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9830"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9830.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b7e550b2-58d1-5513-879c-952dbe9ce480"
+}

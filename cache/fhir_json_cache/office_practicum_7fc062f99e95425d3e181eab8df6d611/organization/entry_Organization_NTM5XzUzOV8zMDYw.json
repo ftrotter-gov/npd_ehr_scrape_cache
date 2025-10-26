@@ -1,0 +1,66 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "NTM5XzUzOV8zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "173.PRACTICE"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "North Shore Childrens Health Care",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "516-759-1234",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "516-674-9172",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "3 School Street Suite 302 Glen Cove, NY 11542",
+        "line": [
+          "3 School Street Suite 302"
+        ],
+        "city": "Glen Cove",
+        "state": "NY",
+        "postalCode": "11542",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/NTM5XzUzOV8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/NTM5XzUzOV8zMDYw"
+}

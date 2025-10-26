@@ -1,0 +1,63 @@
+{
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+        {
+            "fullUrl": "https://fhir.healthtogo.me/fhir/r4/royal.cmbs/Endpoint",
+            "resource": {
+                "resourceType": "Endpoint",
+                "id": "royal.cmbs",
+                "status": "active",
+                "connectionType": 
+                    {
+                       
+                                "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+                                "code": "hl7-fhir-rest"
+                       
+                    }
+                ,
+                "name": "Royal CMBS",
+                "managingOrganization": {
+                    "display": "Royal Health",
+                    "reference": "Organization/royal.cmbs"
+                },
+                "payloadType": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+                                "code": "urn:ihe:pcc:xphr:2007"
+                            }
+                        ],
+                        "text": "Personal Health Records"
+                    }
+                ],
+                "address": "https://fhir.healthtogo.me/fhir/r4/royal.cmbs"
+            }
+        },
+        {
+            "fullUrl": "https://fhir.healthtogo.me/fhir/r4/royal.cmbs/Organization",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "RoyalHealth",
+                "active": true,
+                "name": "Royal Health",
+                "address": [{
+                    "use": "work",
+                    "line": [
+                        "347 E 74th St"
+                    ],
+                    "city": "New York",
+                    "state":"GA",
+                    "postalCode": "10021",
+                    "country": "USA"
+                }],
+                "endpoint":[
+                    {
+                        "reference":"royal.cmbs/Endpoint"
+                    }
+                ]
+            }
+        }
+    ]
+}

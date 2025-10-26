@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bd1c0ab6-8bec-52f3-8491-ce63f9e3c089",
+    "name": "MOBAP - OUTPATIENT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2840586e-ae35-556a-b308-0a42db2de3de"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740561943"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3015 NORTH BALLAS ROAD"
+        ],
+        "city": "SAINT LOUIS",
+        "state": "MO",
+        "postalCode": "63131-2329"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3941"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3941.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bd1c0ab6-8bec-52f3-8491-ce63f9e3c089"
+}

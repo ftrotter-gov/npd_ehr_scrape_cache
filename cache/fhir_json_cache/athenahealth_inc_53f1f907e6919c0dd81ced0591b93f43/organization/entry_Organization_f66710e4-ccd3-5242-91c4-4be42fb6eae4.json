@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f66710e4-ccd3-5242-91c4-4be42fb6eae4",
+    "name": "riverton memorial hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bfa0082a-afe3-5aaf-948b-86f6cc45dd48"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992744817"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "53D2009664"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2100 west sunset"
+        ],
+        "city": "RIVERTON",
+        "state": "WY",
+        "postalCode": "82501-2289"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5543"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5543.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f66710e4-ccd3-5242-91c4-4be42fb6eae4"
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "43b7019a-92a4-50cc-8258-b464805ae0fd",
+    "name": "CAPE COD HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/502a97da-bac4-535a-8935-ecb5195cb56e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114984671"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1679832364"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "27 PARK STREET"
+        ],
+        "city": "HYANNIS",
+        "state": "MA",
+        "postalCode": "02601-5230"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-961"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-961.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:43b7019a-92a4-50cc-8258-b464805ae0fd"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2f14a5ce-1599-50a5-ac77-4f1c33e09916",
+    "name": "AdventHealth Medical Group Bariatrics at Tampa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9f797e23-295f-552e-bef1-29d363e876af"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1174955256"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3000 Medical Park Drive STE 340"
+        ],
+        "city": "TAMPA",
+        "state": "FL",
+        "postalCode": "33613-4681"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13122"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13122.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2f14a5ce-1599-50a5-ac77-4f1c33e09916"
+}

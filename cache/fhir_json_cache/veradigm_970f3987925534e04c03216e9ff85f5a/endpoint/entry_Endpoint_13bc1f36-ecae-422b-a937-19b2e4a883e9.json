@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "13bc1f36-ecae-422b-a937-19b2e4a883e9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "744c137c-fdfe-494c-b913-58b5821ab8de",
+        "name": "Family Medcenters PA"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Family Medcenters PA",
+    "managingOrganization": {
+      "reference": "#744c137c-fdfe-494c-b913-58b5821ab8de"
+    },
+    "period": {
+      "start": "2019-10-01T09:50:09+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57689"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57689"
+}

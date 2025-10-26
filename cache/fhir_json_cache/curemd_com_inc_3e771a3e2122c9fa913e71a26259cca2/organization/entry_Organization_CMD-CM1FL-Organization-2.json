@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1FL-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1FL"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Neuragenex Treatment Centers IL",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "3855012433"
+      }
+    ],
+    "address": [
+      {
+        "text": "4140 E Baseline Rd Ste 101 Mesa AZ 85206 US",
+        "line": [
+          "4140 E Baseline Rd",
+          "Ste 101"
+        ],
+        "city": "Mesa",
+        "state": "AZ",
+        "postalCode": "85206",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1FL-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1FL-Organization-2"
+}

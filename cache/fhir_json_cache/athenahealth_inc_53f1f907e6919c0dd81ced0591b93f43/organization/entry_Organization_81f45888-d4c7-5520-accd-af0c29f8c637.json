@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "81f45888-d4c7-5520-accd-af0c29f8c637",
+    "name": "Providence ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9e42432c-80c8-5ad9-803f-790def0e9f8c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154392132"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "16001 West Nine Mile"
+        ],
+        "city": "SOUTHFIELD",
+        "state": "MI",
+        "postalCode": "48075-4818"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21194"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21194.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:81f45888-d4c7-5520-accd-af0c29f8c637"
+}

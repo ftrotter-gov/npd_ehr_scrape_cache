@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ab0d90ba-b588-5de6-816b-3b99429dd264",
+    "name": "CityHealth Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/aeb88e28-b01d-530d-9d2a-95ab5e20edea"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1477940187"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13690 E 14TH ST",
+          "Suite 100"
+        ],
+        "city": "SAN LEANDRO",
+        "state": "CA",
+        "postalCode": "94578-2582"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13700"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13700.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ab0d90ba-b588-5de6-816b-3b99429dd264"
+}

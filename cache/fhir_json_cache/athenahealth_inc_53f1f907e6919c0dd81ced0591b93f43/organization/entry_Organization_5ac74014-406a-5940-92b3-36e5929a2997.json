@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5ac74014-406a-5940-92b3-36e5929a2997",
+    "name": "Madison Ophthalmology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/44f9f566-b7e8-5928-b373-e9d8139a38c1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285078402"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "161 MADISON AVENUE",
+          "SUITE 5SE"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10016-5456"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3994"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3994.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5ac74014-406a-5940-92b3-36e5929a2997"
+}

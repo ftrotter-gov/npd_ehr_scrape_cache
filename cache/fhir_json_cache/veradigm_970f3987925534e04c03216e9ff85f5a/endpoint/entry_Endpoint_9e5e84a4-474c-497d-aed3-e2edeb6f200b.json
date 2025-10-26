@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "9e5e84a4-474c-497d-aed3-e2edeb6f200b",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "83e3ea74-2566-44fe-b7d7-4ce6bea2ce3e",
+        "name": "Georgia Kidney Assoc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Georgia Kidney Assoc",
+    "managingOrganization": {
+      "reference": "#83e3ea74-2566-44fe-b7d7-4ce6bea2ce3e"
+    },
+    "period": {
+      "start": "2018-09-27T14:48:14+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10011987"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10011987"
+}

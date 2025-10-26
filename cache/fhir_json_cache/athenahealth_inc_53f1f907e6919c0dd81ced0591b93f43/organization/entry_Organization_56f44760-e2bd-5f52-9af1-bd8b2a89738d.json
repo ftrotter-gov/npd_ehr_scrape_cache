@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "56f44760-e2bd-5f52-9af1-bd8b2a89738d",
+    "name": "Rochester Urgent Care P.C.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9a76fbc2-c85d-578f-bf8a-e592feb66f5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316018971"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "215 E Auburn Rd"
+        ],
+        "city": "ROCHESTER",
+        "state": "MI",
+        "postalCode": "48307-5260"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8723"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8723.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:56f44760-e2bd-5f52-9af1-bd8b2a89738d"
+}

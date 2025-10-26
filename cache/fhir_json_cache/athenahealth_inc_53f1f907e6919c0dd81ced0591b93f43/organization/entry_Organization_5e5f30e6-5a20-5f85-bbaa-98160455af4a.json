@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5e5f30e6-5a20-5f85-bbaa-98160455af4a",
+    "name": "Denver Sinus Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9a7fa9d9-bec6-579b-b69f-60cdffdc1baf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881439172"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3150 E. 3rd Ave",
+          "Ste 300"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80206-5247"
+      },
+      {
+        "line": [
+          "1501 S POTOMAC ST"
+        ],
+        "city": "AURORA",
+        "state": "CO",
+        "postalCode": "80012-5411"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31720"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31720.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5e5f30e6-5a20-5f85-bbaa-98160455af4a"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fe12bd89-8e15-58a9-80a9-8596e061d78e",
+    "name": "Bartram Crossing",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/11b90e86-cb41-5180-b250-478ac43d73d7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184874745"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6209 Brooks Bartram Drive",
+          "100"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "FL",
+        "postalCode": "32258-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1871"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1871.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fe12bd89-8e15-58a9-80a9-8596e061d78e"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d1407b33-d5f3-5bb7-9fe3-fdd5f002ea31",
+    "name": "Surgery Schedule",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fad1012e-b78a-5c85-bb91-3e10684f138a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427258912"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1200 E RIDGE ROAD SUITE 3"
+        ],
+        "city": "MCALLEN",
+        "state": "TX",
+        "postalCode": "78503-1528"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16372"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16372.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d1407b33-d5f3-5bb7-9fe3-fdd5f002ea31"
+}

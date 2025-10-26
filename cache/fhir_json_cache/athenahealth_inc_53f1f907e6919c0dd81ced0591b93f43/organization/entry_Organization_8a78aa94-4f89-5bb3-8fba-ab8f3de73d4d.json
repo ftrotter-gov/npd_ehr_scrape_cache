@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8a78aa94-4f89-5bb3-8fba-ab8f3de73d4d",
+    "name": "Women's Healthcare at Arlington",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4b81cc10-af55-57ba-83c3-da57d974d0a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407865439"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "22 Mill Street, Suite 204"
+        ],
+        "city": "Arlington",
+        "state": "MA",
+        "postalCode": "02476-4738"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-86"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-86.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8a78aa94-4f89-5bb3-8fba-ab8f3de73d4d"
+}

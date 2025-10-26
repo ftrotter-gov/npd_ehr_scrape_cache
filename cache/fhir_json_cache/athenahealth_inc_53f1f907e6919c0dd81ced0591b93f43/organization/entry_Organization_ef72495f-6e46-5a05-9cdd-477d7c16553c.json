@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ef72495f-6e46-5a05-9cdd-477d7c16553c",
+    "name": "West Oak Family Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5c91b5f8-387a-5d86-b0a3-414a96cdaa2c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932246261"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "903 West Oak St."
+        ],
+        "city": "AMITE",
+        "state": "LA",
+        "postalCode": "70422-2025"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17916"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17916.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ef72495f-6e46-5a05-9cdd-477d7c16553c"
+}

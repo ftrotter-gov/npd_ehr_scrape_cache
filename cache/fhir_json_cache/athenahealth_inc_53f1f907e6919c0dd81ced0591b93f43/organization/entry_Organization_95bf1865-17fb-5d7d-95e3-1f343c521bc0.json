@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "95bf1865-17fb-5d7d-95e3-1f343c521bc0",
+    "name": "Family Medical Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/606f2f55-2f92-5123-9664-41c034e4a4e3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336503960"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "104 UNIVERSITY PARKWAY"
+        ],
+        "city": "JOHNSON CITY",
+        "state": "TN",
+        "postalCode": "37604-7349"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13762"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13762.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:95bf1865-17fb-5d7d-95e3-1f343c521bc0"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7ffd022a-bd1d-5a38-a974-a2eabc0a89ce",
+    "name": "NorthPark Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f1034e98-23e3-5a75-ae33-23fb76f85322"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770617862"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2225 W. NORTH AVE.",
+          "SUITE I"
+        ],
+        "city": "MELROSE PARK",
+        "state": "IL",
+        "postalCode": "60160-1107"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14238"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14238.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7ffd022a-bd1d-5a38-a974-a2eabc0a89ce"
+}

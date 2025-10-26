@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cf394fd1-afc6-5ffd-afdd-5e68cfc91583",
+    "name": "HOUSTON METHODIST CLEAR LAKE HOSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9802c43f-d2e5-5d88-a24a-ca81291ad1a8"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285948547"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "45D2011943"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18300 Houston Methodist Dr"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77058-6302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2688"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2688.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cf394fd1-afc6-5ffd-afdd-5e68cfc91583"
+}

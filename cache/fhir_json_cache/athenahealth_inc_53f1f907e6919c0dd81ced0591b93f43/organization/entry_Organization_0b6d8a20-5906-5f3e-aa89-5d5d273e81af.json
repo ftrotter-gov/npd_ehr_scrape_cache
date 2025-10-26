@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0b6d8a20-5906-5f3e-aa89-5d5d273e81af",
+    "name": "Alivio Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/26481d65-5e90-5da4-9dc4-195076f09e87"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598483166"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5045 OLD HICKORY BLVD STE 105"
+        ],
+        "city": "HERMITAGE",
+        "state": "TN",
+        "postalCode": "37076-2581"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25918"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25918.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0b6d8a20-5906-5f3e-aa89-5d5d273e81af"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "028a1eff-74ad-59bb-905e-32d3ad68b628",
+    "name": "TriStar Health Center LLC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/28303398-f2bf-5b36-8ff0-2b98e8023ee4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1508632605"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "95 VERNON ST STE 203"
+        ],
+        "city": "WORCESTER",
+        "state": "MA",
+        "postalCode": "01610-1989"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30403"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30403.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:028a1eff-74ad-59bb-905e-32d3ad68b628"
+}

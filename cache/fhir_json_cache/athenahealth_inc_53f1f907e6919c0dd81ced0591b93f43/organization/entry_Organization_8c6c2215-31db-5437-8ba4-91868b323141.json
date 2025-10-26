@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8c6c2215-31db-5437-8ba4-91868b323141",
+    "name": "Sleep Diagnostic Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/72a51be8-c078-57a1-ad62-4fd8e8e46914"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831567577"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1511 chapel Hill"
+        ],
+        "city": "COLUMBIA",
+        "state": "MO",
+        "postalCode": "65203-5452"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12029"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12029.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8c6c2215-31db-5437-8ba4-91868b323141"
+}

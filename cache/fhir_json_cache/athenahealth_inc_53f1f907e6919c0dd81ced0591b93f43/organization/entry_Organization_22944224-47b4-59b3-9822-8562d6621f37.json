@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "22944224-47b4-59b3-9822-8562d6621f37",
+    "name": "Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7fa3566c-b7a4-5bdd-9393-a539abdc9182"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801551015"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4600 POWDER MILL ROAD",
+          "450-S12"
+        ],
+        "city": "BELTSVILLE",
+        "state": "MD",
+        "postalCode": "20705-2675"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27994"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27994.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:22944224-47b4-59b3-9822-8562d6621f37"
+}

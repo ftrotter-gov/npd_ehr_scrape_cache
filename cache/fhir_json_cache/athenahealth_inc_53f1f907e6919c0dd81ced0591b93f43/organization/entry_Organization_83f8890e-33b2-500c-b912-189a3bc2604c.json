@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "83f8890e-33b2-500c-b912-189a3bc2604c",
+    "name": "Heywood Nutrition",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9ee3a55-940b-53f2-a265-8f2893bb73ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1699762286"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "250 GREEN STREET",
+          "SUITE 100"
+        ],
+        "city": "GARDNER",
+        "state": "MA",
+        "postalCode": "01440-1396"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-192"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-192.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:83f8890e-33b2-500c-b912-189a3bc2604c"
+}

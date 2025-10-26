@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "ccc22812-7b41-47c5-9fb3-20956a7455dc",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "78d4b5db-771f-4f18-b0bd-1f3921174674",
+        "name": "Mankato Clinic"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Mankato Clinic",
+    "managingOrganization": {
+      "reference": "#78d4b5db-771f-4f18-b0bd-1f3921174674"
+    },
+    "period": {
+      "start": "2023-09-27T20:09:00+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://mcfhir.mankatoclinic.com/R4/open-R4"
+  },
+  "fullUrl": "https://mcfhir.mankatoclinic.com/R4/open-R4"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c338819-43f7-5bc0-aadf-e7748da9a245",
+    "name": "Meraki Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1b677a8c-c8cb-5032-b48b-ff216d553190"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1518587559"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2470 Windy Hill Road SE"
+        ],
+        "city": "MARIETTA",
+        "state": "GA",
+        "postalCode": "30067-8616"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23269"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23269.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c338819-43f7-5bc0-aadf-e7748da9a245"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d07f3f7-6332-5b16-ba7e-7148a09839e6",
+    "name": "McIntyre Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4060c815-f867-5272-91c3-994342b8e616"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891348272"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "345A W Ogden Ave"
+        ],
+        "city": "WESTMONT",
+        "state": "IL",
+        "postalCode": "60559-1419"
+      },
+      {
+        "line": [
+          "345A WEST OGDEN AVE"
+        ],
+        "city": "WESTMONT",
+        "state": "IL",
+        "postalCode": "60559-1614"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20111"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20111.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d07f3f7-6332-5b16-ba7e-7148a09839e6"
+}

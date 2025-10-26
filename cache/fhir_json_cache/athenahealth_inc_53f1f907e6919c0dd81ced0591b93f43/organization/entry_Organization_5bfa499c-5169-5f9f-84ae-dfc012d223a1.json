@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5bfa499c-5169-5f9f-84ae-dfc012d223a1",
+    "name": "Seton Medical Center Williamson",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/97829e1f-51c8-551a-8b6f-0fee761ed045"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326061714"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 Seton Parkway"
+        ],
+        "city": "ROUND ROCK",
+        "state": "TX",
+        "postalCode": "78665-8000"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-856"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-856.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5bfa499c-5169-5f9f-84ae-dfc012d223a1"
+}

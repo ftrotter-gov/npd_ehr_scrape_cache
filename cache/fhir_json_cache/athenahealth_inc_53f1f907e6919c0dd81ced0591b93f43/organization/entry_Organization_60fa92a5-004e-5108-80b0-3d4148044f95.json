@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "60fa92a5-004e-5108-80b0-3d4148044f95",
+    "name": "Hixson Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/83e89ec3-b9d7-56a8-aa9c-3c55787f493b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912013426"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1017 Executive Drive",
+          "Suite 101"
+        ],
+        "city": "HIXSON",
+        "state": "TN",
+        "postalCode": "37343-7911"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30780"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30780.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:60fa92a5-004e-5108-80b0-3d4148044f95"
+}

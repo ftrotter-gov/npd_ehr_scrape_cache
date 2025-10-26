@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b9886adc-73c2-5f1c-8fbf-06b5c427eea0",
+    "name": "Medical Center of Mckinney",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9eb3cc14-b4f9-5e4c-84e0-cb7c8d41a2f1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326430513"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4500 MEDICAL CENTER DR"
+        ],
+        "city": "MCKINNEY",
+        "state": "TX",
+        "postalCode": "75069-1650"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14701"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14701.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b9886adc-73c2-5f1c-8fbf-06b5c427eea0"
+}

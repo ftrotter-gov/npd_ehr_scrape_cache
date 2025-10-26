@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "23f3c931-54db-5cb6-8393-de6327574cf6",
+    "name": "Westover Hills Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/98e4d393-c7ea-5cdb-bdf7-3bad16ec8186"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730294166"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9002 CULEBRA RD",
+          "Suite 105"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78251-4503"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9432"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9432.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:23f3c931-54db-5cb6-8393-de6327574cf6"
+}

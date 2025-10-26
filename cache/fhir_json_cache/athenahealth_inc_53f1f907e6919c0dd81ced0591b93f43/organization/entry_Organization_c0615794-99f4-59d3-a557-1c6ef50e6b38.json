@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c0615794-99f4-59d3-a557-1c6ef50e6b38",
+    "name": "NAP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/73a7287e-5a6b-508a-910f-65404df36bd5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6220 MAPLE ST"
+        ],
+        "city": "OMAHA",
+        "state": "NE",
+        "postalCode": "68104-4004"
+      },
+      {
+        "line": [
+          "4623 2nd Ave., Suite 4"
+        ],
+        "city": "KEARNEY",
+        "state": "NE",
+        "postalCode": "68847-5475"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20572"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20572.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c0615794-99f4-59d3-a557-1c6ef50e6b38"
+}

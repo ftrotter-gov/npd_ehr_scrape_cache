@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDZA-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDZA"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Westside Medical Associates",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2123626468"
+      },
+      {
+        "system": "fax",
+        "value": "2123620851"
+      }
+    ],
+    "address": [
+      {
+        "text": "228 West 82nd Street NY NY 10024 US",
+        "line": [
+          "228 West 82nd Street"
+        ],
+        "city": "NY",
+        "state": "NY",
+        "postalCode": "10024",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDZA-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDZA-Organization-3"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "391ff7ba-6469-567c-b938-c80411cb0acf",
+    "name": "Eden Health Medical MA Video",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/740e0e92-6969-5cbe-b006-c8ba066d0b61"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316618192"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "44 School St.",
+          "Ste 505"
+        ],
+        "city": "BOSTON",
+        "state": "MA",
+        "postalCode": "02108-4221"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15349"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15349.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:391ff7ba-6469-567c-b938-c80411cb0acf"
+}

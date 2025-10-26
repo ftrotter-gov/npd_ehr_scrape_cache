@@ -1,0 +1,51 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "babdacc7-9911-5a41-b844-3440d2befde8",
+    "name": "Metro Chicago Surgical Oncology",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/33682355-b3c6-5727-b883-bd1e8be0c9a3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891755351"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043501448"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3201 Old Glenview Rd",
+          "Suite 130"
+        ],
+        "city": "WILMETTE",
+        "state": "IL",
+        "postalCode": "60091-2999"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3164"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3164.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:babdacc7-9911-5a41-b844-3440d2befde8"
+}

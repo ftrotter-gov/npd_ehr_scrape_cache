@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f1cc33b7-b3d9-55ea-80a5-f7def46730be",
+    "name": "VA Temp DEPT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7a9389b7-0750-5cd2-94dc-75c7ce0f6623"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568046837"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1776 Elly Rd"
+        ],
+        "city": "ARODA",
+        "state": "VA",
+        "postalCode": "22709-1013"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24144"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24144.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f1cc33b7-b3d9-55ea-80a5-f7def46730be"
+}

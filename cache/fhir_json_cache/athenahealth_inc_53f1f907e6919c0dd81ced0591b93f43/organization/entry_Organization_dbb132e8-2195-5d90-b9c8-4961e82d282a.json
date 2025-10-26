@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dbb132e8-2195-5d90-b9c8-4961e82d282a",
+    "name": "no portal",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cd638f15-17d7-5e13-bde5-6b281a84a619"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205024791"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3231 S EUCLID AVE",
+          "SUITE 407"
+        ],
+        "city": "BERWYN",
+        "state": "IL",
+        "postalCode": "60402-3471"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-683"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-683.Brand-4"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dbb132e8-2195-5d90-b9c8-4961e82d282a"
+}

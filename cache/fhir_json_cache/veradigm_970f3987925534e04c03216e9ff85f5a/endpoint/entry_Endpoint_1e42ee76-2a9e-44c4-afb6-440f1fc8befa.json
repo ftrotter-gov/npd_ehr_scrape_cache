@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1e42ee76-2a9e-44c4-afb6-440f1fc8befa",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2adb9c12-2bd9-4404-b655-9182603000ab",
+        "name": "Elkin Pediatric And Adult Medicine"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Elkin Pediatric And Adult Medicine",
+    "managingOrganization": {
+      "reference": "#2adb9c12-2bd9-4404-b655-9182603000ab"
+    },
+    "period": {
+      "start": "2018-09-20T17:34:40+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/55827"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/55827"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3c6f3e96-4d55-5570-85b6-5811227d39a3",
+    "name": "Patients Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5934747e-3252-5be9-85a1-64efce18343f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376631606"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2900 Eureka Way"
+        ],
+        "city": "Redding",
+        "state": "CA",
+        "postalCode": "96001-0220"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1693"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1693.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3c6f3e96-4d55-5570-85b6-5811227d39a3"
+}

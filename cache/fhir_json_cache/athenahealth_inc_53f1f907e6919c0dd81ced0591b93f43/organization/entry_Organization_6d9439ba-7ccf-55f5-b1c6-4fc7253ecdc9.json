@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d9439ba-7ccf-55f5-b1c6-4fc7253ecdc9",
+    "name": "Aspire Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/dc94e7c7-3fff-5920-bb39-6526839214f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083254890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8201 KELWOOD AVE"
+        ],
+        "city": "BATON ROUGE",
+        "state": "LA",
+        "postalCode": "70806-4802"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27658"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27658.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d9439ba-7ccf-55f5-b1c6-4fc7253ecdc9"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "33bc1e93-47af-5252-994f-b0d507f3c4b0",
+    "name": "St. Elizabeth Women's Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4b81cc10-af55-57ba-83c3-da57d974d0a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407865439"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "736 Cambridge Street"
+        ],
+        "city": "Brighton",
+        "state": "MA",
+        "postalCode": "02135-2907"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-86"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-86.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:33bc1e93-47af-5252-994f-b0d507f3c4b0"
+}

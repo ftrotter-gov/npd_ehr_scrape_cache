@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0RX-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0RX"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Montgomery County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9105721393"
+      },
+      {
+        "system": "fax",
+        "value": "9105728177"
+      },
+      {
+        "system": "url",
+        "value": "www.montgomerycountync.comn"
+      }
+    ],
+    "address": [
+      {
+        "text": "217 S. Main St. Troy MONTGOMERY NC 27371 US",
+        "line": [
+          "217 S. Main St."
+        ],
+        "city": "Troy",
+        "district": "MONTGOMERY",
+        "state": "NC",
+        "postalCode": "27371",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0RX-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0RX-Organization-2"
+}

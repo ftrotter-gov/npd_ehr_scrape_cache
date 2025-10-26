@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f1ccd611-f68b-5d99-b644-19e36a4c8c46",
+    "name": "John Miller MD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/196982cb-c118-506b-8fcf-7b7f514d54d1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063636892"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1220 BASICH BLVD STE B"
+        ],
+        "city": "ABERDEEN",
+        "state": "WA",
+        "postalCode": "98520-1070"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28054"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28054.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f1ccd611-f68b-5d99-b644-19e36a4c8c46"
+}

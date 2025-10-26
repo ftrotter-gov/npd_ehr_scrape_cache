@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ebb3c95b-e647-5150-9ac5-53882eda8152",
+    "name": "Aurora Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/58aa0f29-de0b-52f1-a88c-acd6a3cd3421"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801556394"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3181 CORAL WAY",
+          "Ste 301"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33145-3249"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27152"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27152.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ebb3c95b-e647-5150-9ac5-53882eda8152"
+}

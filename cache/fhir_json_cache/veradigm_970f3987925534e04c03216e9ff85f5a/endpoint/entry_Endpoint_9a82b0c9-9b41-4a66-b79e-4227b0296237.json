@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "9a82b0c9-9b41-4a66-b79e-4227b0296237",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "f5678c69-ffbb-41b6-acdb-21ef0e75f672",
+        "name": "MN Ctr. for Obesity, Metabolism and Endocrinology"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "MN Ctr. for Obesity, Metabolism and Endocrinology",
+    "managingOrganization": {
+      "reference": "#f5678c69-ffbb-41b6-acdb-21ef0e75f672"
+    },
+    "period": {
+      "start": "2023-06-13T19:19:50+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10026809"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10026809"
+}

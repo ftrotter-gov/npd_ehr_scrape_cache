@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "024fb4db-998a-5e3b-9ea3-aa3ff270a39d",
+    "name": "Dr Paul's Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/653c0825-d3e7-5daa-8b98-24467272cfcb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962748285"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1516 Martin St"
+        ],
+        "city": "STATE COLLEGE",
+        "state": "PA",
+        "postalCode": "16803-3058"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7202"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7202.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:024fb4db-998a-5e3b-9ea3-aa3ff270a39d"
+}

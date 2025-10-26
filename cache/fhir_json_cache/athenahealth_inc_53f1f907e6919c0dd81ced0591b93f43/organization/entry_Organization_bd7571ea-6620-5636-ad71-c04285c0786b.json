@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bd7571ea-6620-5636-ad71-c04285c0786b",
+    "name": "Kindred Hospital Santa Ana",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cb61c559-161a-59ce-b7b9-d2320d4e4c63"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962815779"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1901 College Ave"
+        ],
+        "city": "SANTA ANA",
+        "state": "CA",
+        "postalCode": "92706-2334"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16170"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16170.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bd7571ea-6620-5636-ad71-c04285c0786b"
+}

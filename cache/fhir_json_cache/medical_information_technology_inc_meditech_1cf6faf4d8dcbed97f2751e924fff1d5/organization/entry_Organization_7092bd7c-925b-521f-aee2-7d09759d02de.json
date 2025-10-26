@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7092bd7c-925b-521f-aee2-7d09759d02de",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://healthcare.ascension.org/Locations/Wisconsin/WIAPA/Appleton-Ascension-NE-Wisconsin-St-Elizabeth-Campus#Tab_1_1"
+      }
+    ],
+    "name": "Saint Elizabeth Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://healthcare.ascension.org/Locations/Wisconsin/WIAPA/Appleton-Ascension-NE-Wisconsin-St-Elizabeth-Campus#Tab_1_1"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1506 South Oneida Street"
+        ],
+        "city": "Appleton",
+        "state": "WI",
+        "postalCode": "54915",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:e9a0b402-64bd-41dc-bcc8-eafc67ec99d0"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:cf1b1532-4598-5e0f-8dd0-e56c15125d30"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:e9a0b402-64bd-41dc-bcc8-eafc67ec99d0"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7092bd7c-925b-521f-aee2-7d09759d02de"
+}

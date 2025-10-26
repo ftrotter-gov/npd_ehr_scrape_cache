@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fffab2ee-987e-596d-b681-8b0abe7a8dd0",
+    "name": "Centennial Outpatient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3c231b79-ebfb-5c99-954e-0e097f2524a3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407083306"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "345 23rd AVENUE NORTH",
+          "STE. 201"
+        ],
+        "city": "NASHVILLE",
+        "state": "TN",
+        "postalCode": "37203-1513"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2163"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2163.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fffab2ee-987e-596d-b681-8b0abe7a8dd0"
+}

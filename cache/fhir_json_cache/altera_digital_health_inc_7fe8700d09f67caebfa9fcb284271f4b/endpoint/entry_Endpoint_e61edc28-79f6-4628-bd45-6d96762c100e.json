@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e61edc28-79f6-4628-bd45-6d96762c100e",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "ff5ad1df-7c5d-45ef-a350-32b61970bdda",
+        "name": "Wise Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Wise Health",
+    "managingOrganization": {
+      "reference": "#ff5ad1df-7c5d-45ef-a350-32b61970bdda"
+    },
+    "period": {
+      "start": "2019-09-19T02:06:24+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.we0.hos.ahcentral.com/R4/open-Prod"
+  },
+  "fullUrl": "https://fhir.we0.hos.ahcentral.com/R4/open-Prod"
+}

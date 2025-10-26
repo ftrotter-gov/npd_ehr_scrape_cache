@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "407f39fc-6cd9-5df9-bf9a-02df1afe7cc5",
+    "name": "ADVENT HEALTH OUTPT CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/25e3184c-ac53-5cab-860c-92adae03ba46"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891529715"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2501 N ORANGE AVE",
+          "STE 100"
+        ],
+        "city": "ORLANDO",
+        "state": "FL",
+        "postalCode": "32804-4603"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32200"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32200.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:407f39fc-6cd9-5df9-bf9a-02df1afe7cc5"
+}

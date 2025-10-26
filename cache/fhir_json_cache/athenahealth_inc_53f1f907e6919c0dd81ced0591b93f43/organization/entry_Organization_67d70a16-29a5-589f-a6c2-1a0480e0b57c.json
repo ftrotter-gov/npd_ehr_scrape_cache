@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "67d70a16-29a5-589f-a6c2-1a0480e0b57c",
+    "name": "Woburn Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eaa152c1-c899-5564-8442-e232c9e19377"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184606865"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18 Francis Street"
+        ],
+        "city": "WOBURN",
+        "state": "MA",
+        "postalCode": "01801-3006"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-391.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:67d70a16-29a5-589f-a6c2-1a0480e0b57c"
+}

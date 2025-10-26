@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1ER-Organization-6",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1ER"
+        }
+      ]
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1134824410"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Suburban Medical Grp Corp",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6303602958"
+      },
+      {
+        "system": "fax",
+        "value": "6303602959"
+      }
+    ],
+    "address": [
+      {
+        "text": "200 N. Gary Ave Carol Stream IL 60188 US",
+        "line": [
+          "200 N. Gary Ave"
+        ],
+        "city": "Carol Stream",
+        "state": "IL",
+        "postalCode": "60188",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1ER-Endpoint-6"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1ER-Organization-6"
+}

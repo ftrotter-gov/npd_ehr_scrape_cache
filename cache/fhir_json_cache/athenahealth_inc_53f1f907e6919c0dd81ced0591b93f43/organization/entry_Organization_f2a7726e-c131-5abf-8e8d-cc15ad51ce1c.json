@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f2a7726e-c131-5abf-8e8d-cc15ad51ce1c",
+    "name": "Piedmont Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f3a125cb-6ba3-5b00-b108-c4e8443d7887"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386988301"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1968 Peachtree Road"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30309-1281"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6559"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6559.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f2a7726e-c131-5abf-8e8d-cc15ad51ce1c"
+}

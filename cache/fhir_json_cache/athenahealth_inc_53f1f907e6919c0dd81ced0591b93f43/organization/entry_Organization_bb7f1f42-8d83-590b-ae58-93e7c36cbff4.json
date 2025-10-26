@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bb7f1f42-8d83-590b-ae58-93e7c36cbff4",
+    "name": "Dr Hoffman's and Beth's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a84fbb94-9bcb-50fa-99db-bfca8f039dad"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376913962"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1713 NW FEDERAL HIGHWAY"
+        ],
+        "city": "STUART",
+        "state": "FL",
+        "postalCode": "34994-9631"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12611"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12611.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bb7f1f42-8d83-590b-ae58-93e7c36cbff4"
+}

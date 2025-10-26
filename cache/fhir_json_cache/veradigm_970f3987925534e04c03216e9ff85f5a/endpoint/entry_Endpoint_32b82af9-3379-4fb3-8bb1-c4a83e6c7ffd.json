@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "32b82af9-3379-4fb3-8bb1-c4a83e6c7ffd",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "52467c60-ae90-45a8-8f5d-6ee808bdec76",
+        "name": "Parkview Medical Clinic"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Parkview Medical Clinic",
+    "managingOrganization": {
+      "reference": "#52467c60-ae90-45a8-8f5d-6ee808bdec76"
+    },
+    "period": {
+      "start": "2018-09-04T18:29:03+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10016452"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10016452"
+}

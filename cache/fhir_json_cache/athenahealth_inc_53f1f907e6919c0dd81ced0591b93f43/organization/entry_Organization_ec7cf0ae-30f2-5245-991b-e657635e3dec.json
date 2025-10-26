@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ec7cf0ae-30f2-5245-991b-e657635e3dec",
+    "name": "HOPSPITAL",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bd45a90d-7094-54fe-b5f6-8d097d1c5a32"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871832113"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1900 SOUTH D STREET"
+        ],
+        "city": "MCALLEN",
+        "state": "TX",
+        "postalCode": "78503-2919"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6430"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6430.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ec7cf0ae-30f2-5245-991b-e657635e3dec"
+}

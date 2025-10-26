@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6555c827-58c3-5952-8865-16042713af1c",
+    "name": "Cedar Park Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/be5b93ec-720e-5c1f-a74a-af2998e1c33f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740525237"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "351 CYPRESS CREEK RD"
+        ],
+        "city": "CEDAR PARK",
+        "state": "TX",
+        "postalCode": "78613-4655"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6775"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6775.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6555c827-58c3-5952-8865-16042713af1c"
+}

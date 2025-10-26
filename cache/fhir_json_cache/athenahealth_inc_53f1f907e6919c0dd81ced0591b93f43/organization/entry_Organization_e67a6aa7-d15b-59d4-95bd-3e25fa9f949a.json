@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e67a6aa7-d15b-59d4-95bd-3e25fa9f949a",
+    "name": "Family Practice Associates",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/397597b9-49a1-5fc8-8330-9b5811ae624f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154497105"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "770 Middle St"
+        ],
+        "city": "FAIRHOPE",
+        "state": "AL",
+        "postalCode": "36532-1766"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31843"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31843.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e67a6aa7-d15b-59d4-95bd-3e25fa9f949a"
+}

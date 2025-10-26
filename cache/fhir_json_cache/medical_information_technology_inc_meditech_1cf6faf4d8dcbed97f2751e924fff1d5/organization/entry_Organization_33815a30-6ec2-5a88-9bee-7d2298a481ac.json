@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "33815a30-6ec2-5a88-9bee-7d2298a481ac",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://valleypres.org"
+      }
+    ],
+    "name": "Valley Presbyterian Hospital",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://valleypres.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15107 Vanowen Street"
+        ],
+        "city": "Van Nuys",
+        "state": "CA",
+        "postalCode": "91405",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:0c048489-fb17-4be5-ad5d-0aa1b1a2fd5a"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:0c048489-fb17-4be5-ad5d-0aa1b1a2fd5a"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:33815a30-6ec2-5a88-9bee-7d2298a481ac"
+}

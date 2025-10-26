@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e0f079dd-33e7-5db5-b7f5-108d861269b7",
+    "name": "Dr. Ramirez's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0f64ea66-05f5-5476-8ce7-4df472905976"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992728893"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8353 CULEBRA",
+          "Suite 103"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78251-1902"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4296"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4296.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e0f079dd-33e7-5db5-b7f5-108d861269b7"
+}

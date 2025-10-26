@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c6442c60-a7f1-5c05-b6c4-7aaa630456db",
+    "name": "Synapse Rheumatology Telehealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e4fca428-974e-5aa6-8e60-49a27c8afd4e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932822715"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5762 E MAIN STREET RD",
+          "Suite D"
+        ],
+        "city": "BATAVIA",
+        "state": "NY",
+        "postalCode": "14020-9649"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27095"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27095.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c6442c60-a7f1-5c05-b6c4-7aaa630456db"
+}

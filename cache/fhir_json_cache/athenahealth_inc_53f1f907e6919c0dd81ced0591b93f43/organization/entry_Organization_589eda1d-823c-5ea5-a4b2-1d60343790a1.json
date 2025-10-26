@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "589eda1d-823c-5ea5-a4b2-1d60343790a1",
+    "name": "Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4b760f4d-4a6d-50d9-823a-bae799bda85f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659687473"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 w. huntington dr."
+        ],
+        "city": "ARCADIA",
+        "state": "CA",
+        "postalCode": "91007-3402"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3528"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3528.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:589eda1d-823c-5ea5-a4b2-1d60343790a1"
+}

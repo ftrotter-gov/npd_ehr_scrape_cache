@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "806f373a-c2d0-5d8d-a86d-1f4053aaa829",
+    "name": "Surgery Center of Waxahachie",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/22461abc-dbc4-594a-b6e9-ae2855c1ef5f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104803089"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "106 Lucas Street"
+        ],
+        "city": "WAXAHACHIE",
+        "state": "TX",
+        "postalCode": "75165-2202"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-929"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-929.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:806f373a-c2d0-5d8d-a86d-1f4053aaa829"
+}

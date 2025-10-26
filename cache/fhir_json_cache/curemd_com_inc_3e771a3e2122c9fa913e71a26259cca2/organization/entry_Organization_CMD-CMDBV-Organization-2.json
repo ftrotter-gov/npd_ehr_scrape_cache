@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDBV-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDBV"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Brian Pavlas DPM PA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7869994840"
+      },
+      {
+        "system": "fax",
+        "value": "3053567150"
+      },
+      {
+        "system": "email",
+        "value": "bcpavlas@gmail.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "4821 SW 64th Ct Miami FL 331556105 US",
+        "line": [
+          "4821 SW 64th Ct"
+        ],
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "331556105",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDBV-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDBV-Organization-2"
+}

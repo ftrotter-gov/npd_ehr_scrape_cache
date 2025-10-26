@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d1ba4e4b-6a2d-572c-a748-daddb631c47d",
+    "name": "Summerville Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b17309c4-e36e-5981-a9bf-3712d7c27f76"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1922111715"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "295 Midland Parkway"
+        ],
+        "city": "Summerville",
+        "state": "SC",
+        "postalCode": "29485-8104"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1516"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1516.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d1ba4e4b-6a2d-572c-a748-daddb631c47d"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4ada491a-af36-5d9d-89e2-cfcdcf0bc60d",
+    "name": "Soldotna Family Practice",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bec1d258-0a28-53be-ae85-986a8148d006"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326757949"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "44604 Sterling Hwy. Ste. D"
+        ],
+        "city": "SOLDOTNA",
+        "state": "AK",
+        "postalCode": "99669-7962"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20934"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20934.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4ada491a-af36-5d9d-89e2-cfcdcf0bc60d"
+}

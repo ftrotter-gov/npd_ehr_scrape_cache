@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c7e0b033-a3a1-5544-a977-d5033cb6d383",
+    "name": "Hands of Grace Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6778f47a-31cc-57b6-b03b-376cc4820320"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1861 Watson Blvd"
+        ],
+        "city": "WARNER ROBINS",
+        "state": "GA",
+        "postalCode": "31093-3631"
+      },
+      {
+        "line": [
+          "1861 WATSON BLVD"
+        ],
+        "city": "WARNER ROBINS",
+        "state": "GA",
+        "postalCode": "31093-3631"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-19436"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-19436.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c7e0b033-a3a1-5544-a977-d5033cb6d383"
+}

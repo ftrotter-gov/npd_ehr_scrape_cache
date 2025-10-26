@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ba9a0ba5-2c4e-5680-a300-4a8cb09408b2",
+    "name": "CHC Mobile Medical Van 1 (CHOP)",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5e8ad0de-e028-53e0-81f9-fb6a620e48d9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841217866"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2801 Santa Maria Way",
+          "Bldg A"
+        ],
+        "city": "SANTA MARIA",
+        "state": "CA",
+        "postalCode": "93455-2118"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17363"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17363.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ba9a0ba5-2c4e-5680-a300-4a8cb09408b2"
+}

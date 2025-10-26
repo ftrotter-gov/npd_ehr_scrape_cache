@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2c3fcfcf-a922-5ab6-b1a3-7ac5d360fe6e",
+    "name": "Dr. Saheta/Podiatry",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/69f8703b-d638-5ea8-8557-47fadaa04234"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1861424525"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "220 Greene Plaza"
+        ],
+        "city": "WAYNESBURG",
+        "state": "PA",
+        "postalCode": "15370-8265"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-962"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-962.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2c3fcfcf-a922-5ab6-b1a3-7ac5d360fe6e"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "68b3d940-cdb7-5f0e-b8d9-668f8c0566e6",
+    "name": "MY DOCTOR",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b929b450-761f-5c0c-92f5-562d2e88056b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871574707"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9050 MONTGOMERY ROAD",
+          "SUITE B"
+        ],
+        "city": "CINCINNATI",
+        "state": "OH",
+        "postalCode": "45242-7740"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1702"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1702.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:68b3d940-cdb7-5f0e-b8d9-668f8c0566e6"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5d9cfdf8-e296-588b-86fc-ce18cfd7296f",
+    "name": "Atlanta Blood Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/28df7a8d-cbd8-51f0-8576-029251fa187b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1700809159"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5670 PTREE DWDY 1075"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30342"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-186"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-186.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5d9cfdf8-e296-588b-86fc-ce18cfd7296f"
+}

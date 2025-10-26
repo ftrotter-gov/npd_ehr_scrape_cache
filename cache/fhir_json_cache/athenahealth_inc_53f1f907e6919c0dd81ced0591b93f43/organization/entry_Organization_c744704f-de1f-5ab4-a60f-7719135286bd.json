@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c744704f-de1f-5ab4-a60f-7719135286bd",
+    "name": "Doctors House Call",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fc0ac9ae-ab02-507f-9442-c180b20096c3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275271066"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8941 E. C-466"
+        ],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162-3671"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30878"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30878.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c744704f-de1f-5ab4-a60f-7719135286bd"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e02080dd-dde6-5db9-96a1-0a55e2cb82e7",
+    "name": "Carolinas Hospital System",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/84b17366-f63b-5d64-8e66-a810790c6307"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588985857"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "805 Pamplico Hwy"
+        ],
+        "city": "FLORENCE",
+        "state": "SC",
+        "postalCode": "29505-6047"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-3963"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-3963.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e02080dd-dde6-5db9-96a1-0a55e2cb82e7"
+}

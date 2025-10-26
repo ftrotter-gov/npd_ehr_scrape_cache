@@ -1,0 +1,25 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "esh-hapi-fhir-server",
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "name": "ESH FHIR Server",
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/SearchParameter/Endpoint-payload-type",
+            "code": "application/fhir+json"
+          }
+        ]
+      }
+    ],
+    "address": "https://portal.escribe.com/ehr/api/fhir/metadata"
+  },
+  "fullUrl": "https://portal.escribe.com/ehr/api/fhir/Endpoint/esh-hapi-fhir-server"
+}

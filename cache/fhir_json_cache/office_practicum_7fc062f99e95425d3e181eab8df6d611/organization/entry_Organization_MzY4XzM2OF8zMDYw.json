@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MzY4XzM2OF8zMDYw",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "363.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1265434831"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Keysville Pediatrics",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "434-736-0544",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "434-736-8364",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "130 J STREET P.O.Box 829 KEYSVILLE, VA 239470829",
+        "line": [
+          "130 J STREET",
+          "P.O.Box 829"
+        ],
+        "city": "KEYSVILLE",
+        "state": "VA",
+        "postalCode": "239470829",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MzY4XzM2OF8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MzY4XzM2OF8zMDYw"
+}

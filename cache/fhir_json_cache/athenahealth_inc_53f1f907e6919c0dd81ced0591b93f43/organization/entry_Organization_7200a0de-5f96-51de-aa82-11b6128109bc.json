@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7200a0de-5f96-51de-aa82-11b6128109bc",
+    "name": "Great Basin Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/de98f6a4-3fb4-587d-b81c-6bbd9980897b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366022444"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1201 S MAIN ST STE 110"
+        ],
+        "city": "LOGAN",
+        "state": "UT",
+        "postalCode": "84321-8504"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31351"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31351.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7200a0de-5f96-51de-aa82-11b6128109bc"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2f20c57c-1397-599a-8359-dd89b14a75b7",
+    "name": "Astrana Health CAH",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c47fc023-5a29-5c08-8332-5092435dbb66"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598528671"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1301 ATWOOD AVE",
+          "# 206N"
+        ],
+        "city": "JOHNSTON",
+        "state": "RI",
+        "postalCode": "02919-4933"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30907"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30907.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2f20c57c-1397-599a-8359-dd89b14a75b7"
+}

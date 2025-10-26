@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "325a616d-6dec-5d91-8e33-aaca982de17e",
+    "name": "POA Physical Therapy",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3fbf35df-18da-5ad5-9014-492aa3afcc6b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811188766"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 Glen Avenue",
+          "Unit 203"
+        ],
+        "city": "SALISBURY",
+        "state": "MD",
+        "postalCode": "21804-5250"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8254"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8254.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:325a616d-6dec-5d91-8e33-aaca982de17e"
+}

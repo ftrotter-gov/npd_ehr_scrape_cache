@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d5a2b15a-ac18-5716-bf98-f87aefef8f1b",
+    "name": "Sarasota Memorial Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b7a63de0-7951-5371-a159-4e7168bddb31"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407806094"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1700 S TAMIAMI TRL"
+        ],
+        "city": "SARASOTA",
+        "state": "FL",
+        "postalCode": "34239-3509"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4692"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4692.Brand-25"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d5a2b15a-ac18-5716-bf98-f87aefef8f1b"
+}

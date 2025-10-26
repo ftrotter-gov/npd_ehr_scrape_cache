@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f99cb866-081b-57ce-92e5-7c1bd105d5e2",
+    "name": "Dr. Klein's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cdef5738-34af-54cc-a1dd-767889dcbeb1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013031376"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "555 MAIN STREET"
+        ],
+        "city": "SHREWSBURY",
+        "state": "MA",
+        "postalCode": "01545-2932"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-74"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-74.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f99cb866-081b-57ce-92e5-7c1bd105d5e2"
+}

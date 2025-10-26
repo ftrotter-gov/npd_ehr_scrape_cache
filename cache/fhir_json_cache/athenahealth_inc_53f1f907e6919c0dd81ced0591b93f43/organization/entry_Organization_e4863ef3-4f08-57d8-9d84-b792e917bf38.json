@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e4863ef3-4f08-57d8-9d84-b792e917bf38",
+    "name": "Care Management",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f70ef5e3-4ee7-5bbe-a3c8-3c750372cbe3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013383801"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1704 JENKINS ST"
+        ],
+        "city": "ROCKPORT",
+        "state": "TX",
+        "postalCode": "78382-3341"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18156"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18156.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e4863ef3-4f08-57d8-9d84-b792e917bf38"
+}

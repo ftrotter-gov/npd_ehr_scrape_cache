@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4200c4a6-34f5-4a1a-b714-d5dcae206c89",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "629cb2ff-50c0-429c-aa8b-4dc58114e03d",
+        "name": "Gratiot Isabella Nephrology"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Gratiot Isabella Nephrology",
+    "managingOrganization": {
+      "reference": "#629cb2ff-50c0-429c-aa8b-4dc58114e03d"
+    },
+    "period": {
+      "start": "2018-09-27T04:18:10+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11757"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11757"
+}

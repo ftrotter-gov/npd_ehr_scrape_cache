@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f1771f88-79b3-51fe-a426-deed17445500",
+    "name": "Monfared Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/be808d74-ed1b-5f3c-bc8f-1254027ebd59"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346865458"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "124 N 14TH ST"
+        ],
+        "city": "EASTON",
+        "state": "PA",
+        "postalCode": "18042-3218"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31290"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31290.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f1771f88-79b3-51fe-a426-deed17445500"
+}

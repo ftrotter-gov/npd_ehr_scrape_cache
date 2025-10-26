@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "21eacba2-fc52-57b8-87fa-b54504865bac",
+    "name": "Urgent Care Plus and Wellness",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f77f546c-6171-518c-b8ef-97197553cf8b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760113211"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "20711 BELLAIRE BLVD",
+          "SUITE B"
+        ],
+        "city": "RICHMOND",
+        "state": "TX",
+        "postalCode": "77407-7025"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28592"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28592.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:21eacba2-fc52-57b8-87fa-b54504865bac"
+}

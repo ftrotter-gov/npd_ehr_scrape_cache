@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM188-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM188"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Remote Focus",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "9296304100"
+      }
+    ],
+    "address": [
+      {
+        "text": "1989 Coney Island Ave BROOKLYN NY 112232328 US",
+        "line": [
+          "1989 Coney Island Ave"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "112232328",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM188-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM188-Organization-2"
+}

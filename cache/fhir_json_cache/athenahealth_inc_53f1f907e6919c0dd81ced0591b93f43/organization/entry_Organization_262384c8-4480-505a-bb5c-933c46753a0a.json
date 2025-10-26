@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "262384c8-4480-505a-bb5c-933c46753a0a",
+    "name": "Depaul Medical Center Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1c08454b-5519-5993-a3a9-f7ad6521b72c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194034363"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "150 KINGSLEY LN"
+        ],
+        "city": "NORFOLK",
+        "state": "VA",
+        "postalCode": "23505-4602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2745"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2745.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:262384c8-4480-505a-bb5c-933c46753a0a"
+}

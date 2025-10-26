@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bc8a66d5-c6b6-5d6d-9bb0-4d8044b29dd0",
+    "name": "Jackson Medical Clinic - Jett Drive",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0381a5ed-162f-5462-9b72-22313acbe585"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831411354"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "540 Jett Drive"
+        ],
+        "city": "Jackson",
+        "state": "KY",
+        "postalCode": "41339-9622"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1885"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1885.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bc8a66d5-c6b6-5d6d-9bb0-4d8044b29dd0"
+}

@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b4f4ce09-92b3-58cb-9095-9084085499eb",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://unitedmedicaldc.com"
+      }
+    ],
+    "name": "United Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://unitedmedicaldc.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1310 Southern Avenue, SE"
+        ],
+        "city": "Washington",
+        "state": "DC",
+        "postalCode": "20032",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:463d8338-4014-4489-b798-73ad75bac32b"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:463d8338-4014-4489-b798-73ad75bac32b"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b4f4ce09-92b3-58cb-9095-9084085499eb"
+}

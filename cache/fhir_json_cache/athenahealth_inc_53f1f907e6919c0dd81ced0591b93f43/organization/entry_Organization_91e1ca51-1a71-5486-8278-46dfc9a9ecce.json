@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "91e1ca51-1a71-5486-8278-46dfc9a9ecce",
+    "name": "Archbold Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35b6fd9f-056a-5a54-bdbf-c41e7d6eaab5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043769722"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "213 NOLAN PKWY"
+        ],
+        "city": "ARCHBOLD",
+        "state": "OH",
+        "postalCode": "43502-8404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14940"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14940.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:91e1ca51-1a71-5486-8278-46dfc9a9ecce"
+}

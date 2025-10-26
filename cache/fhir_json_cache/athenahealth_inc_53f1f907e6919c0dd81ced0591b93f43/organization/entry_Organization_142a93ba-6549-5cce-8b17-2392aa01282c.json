@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "142a93ba-6549-5cce-8b17-2392aa01282c",
+    "name": "Guadalupe Regional Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1bcfefef-65d9-5727-9557-9856c6c569f9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588801609"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1215 E Court ST"
+        ],
+        "city": "SEGUIN",
+        "state": "TX",
+        "postalCode": "78155-5129"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1838"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1838.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:142a93ba-6549-5cce-8b17-2392aa01282c"
+}

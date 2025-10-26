@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4f7dad1d-d751-5f88-8b97-f8099d76086e",
+    "name": "Christus St Joseph Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1d9a4cfc-8d54-5ace-bfcd-f58d13e37e44"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1780868265"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1401 St Joseph Parkway"
+        ],
+        "city": "Houston",
+        "state": "TX",
+        "postalCode": "77002-8301"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-381"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-381.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4f7dad1d-d751-5f88-8b97-f8099d76086e"
+}

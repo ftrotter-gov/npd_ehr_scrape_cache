@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ad59e2f5-06a0-58d3-9bdc-67c296db0a8a",
+    "name": "Dr Hair of Chicago",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/57a80c04-e37f-5fc7-bb61-2c2d573380e7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821548215"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "432 E Grand Ave",
+          "Suite B"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60611-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15632"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15632.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ad59e2f5-06a0-58d3-9bdc-67c296db0a8a"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8dad7b6f-4de6-5c0b-8ca1-d4e0a5c02f02",
+    "name": "Chino Valley Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9f0f6261-5e0a-59c0-8f00-6954c4e83224"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245294644"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5451 Walnut Ave"
+        ],
+        "city": "CHINO",
+        "state": "CA",
+        "postalCode": "91710-2609"
+      },
+      {
+        "line": [
+          "5451 walnut ave"
+        ],
+        "city": "CHINO",
+        "state": "CA",
+        "postalCode": "91710-2609"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-2708"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-2708.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8dad7b6f-4de6-5c0b-8ca1-d4e0a5c02f02"
+}

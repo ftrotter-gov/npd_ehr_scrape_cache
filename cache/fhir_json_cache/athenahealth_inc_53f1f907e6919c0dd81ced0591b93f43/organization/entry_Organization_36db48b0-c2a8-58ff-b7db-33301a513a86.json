@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "36db48b0-c2a8-58ff-b7db-33301a513a86",
+    "name": "Dermopath Laboratories",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/53512b11-83cb-567d-b96a-9dcd1357752c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346513678"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1501 Broadway St",
+          "Suite C"
+        ],
+        "city": "GALVESTON",
+        "state": "TX",
+        "postalCode": "77550-4906"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28885"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28885.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:36db48b0-c2a8-58ff-b7db-33301a513a86"
+}

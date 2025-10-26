@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c484eb35-3e5f-506a-857d-042cead64514",
+    "name": "Blue Ridge Rehab Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/784cdffd-c8aa-5b59-b2d4-4fa8b23eab8e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881019909"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "300 Blue Ridge St"
+        ],
+        "city": "MARTINSVILLE",
+        "state": "VA",
+        "postalCode": "24112-7261"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12917"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12917.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c484eb35-3e5f-506a-857d-042cead64514"
+}

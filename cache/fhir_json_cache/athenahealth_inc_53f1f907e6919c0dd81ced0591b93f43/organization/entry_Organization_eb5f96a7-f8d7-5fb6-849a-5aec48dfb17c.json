@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "eb5f96a7-f8d7-5fb6-849a-5aec48dfb17c",
+    "name": "Your Premier OB/GYN",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bb3ba477-08a4-5e58-9892-353195f48fd2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1164556908"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "630 N MAIN ST"
+        ],
+        "city": "SPRINGBORO",
+        "state": "OH",
+        "postalCode": "45066"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4978"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4978.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:eb5f96a7-f8d7-5fb6-849a-5aec48dfb17c"
+}

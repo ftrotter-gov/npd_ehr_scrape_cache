@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fc27b51f-55c0-5ed6-a659-ad8aef5d523a",
+    "name": "holy family hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/06ca56f5-4ddf-562f-a6a8-b8e14c3969cf"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821019779"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1841536174"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "60 east street"
+        ],
+        "city": "methuen",
+        "state": "MA",
+        "postalCode": "01844-4500"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1753"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1753.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fc27b51f-55c0-5ed6-a659-ad8aef5d523a"
+}

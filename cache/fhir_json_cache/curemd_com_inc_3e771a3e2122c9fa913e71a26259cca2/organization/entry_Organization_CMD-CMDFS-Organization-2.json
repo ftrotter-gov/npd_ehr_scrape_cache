@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDFS-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDFS"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Ronald Fuchs, MD",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6103536767"
+      },
+      {
+        "system": "fax",
+        "value": "7188888889"
+      }
+    ],
+    "address": [
+      {
+        "text": "580 Reed Road Broomall PA 190083655 US",
+        "line": [
+          "580 Reed Road"
+        ],
+        "city": "Broomall",
+        "state": "PA",
+        "postalCode": "190083655",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDFS-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDFS-Organization-2"
+}

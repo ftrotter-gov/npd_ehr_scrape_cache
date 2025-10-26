@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8f11c09e-053a-5039-988c-1da0a6495721",
+    "name": "Hurley Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/73cf84a1-dd16-55f9-a661-5b1e76e437af"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003166075"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Hurley Plaza"
+        ],
+        "city": "FLINT",
+        "state": "MI",
+        "postalCode": "48503-5902"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-5856"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-5856.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8f11c09e-053a-5039-988c-1da0a6495721"
+}

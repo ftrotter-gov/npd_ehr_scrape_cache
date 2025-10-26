@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1bdc6289-6108-475e-ba0f-0e1dcac5574e",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2bf386a2-7aa0-4a9e-aff3-6c718f6fec42",
+        "name": "Jackson Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Jackson Hospital",
+    "managingOrganization": {
+      "reference": "#2bf386a2-7aa0-4a9e-aff3-6c718f6fec42"
+    },
+    "period": {
+      "start": "2018-09-10T14:31:57+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10036295"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10036295"
+}

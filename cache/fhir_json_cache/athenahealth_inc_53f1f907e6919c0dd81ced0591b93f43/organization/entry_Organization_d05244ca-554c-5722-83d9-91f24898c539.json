@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d05244ca-554c-5722-83d9-91f24898c539",
+    "name": "Downtown Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1be080e3-1d0e-5e89-8d14-0c2318fd4daa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598531881"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "950 N ALABAMA STREET"
+        ],
+        "city": "INDIANAPOLIS",
+        "state": "IN",
+        "postalCode": "46202-3350"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30753"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30753.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d05244ca-554c-5722-83d9-91f24898c539"
+}

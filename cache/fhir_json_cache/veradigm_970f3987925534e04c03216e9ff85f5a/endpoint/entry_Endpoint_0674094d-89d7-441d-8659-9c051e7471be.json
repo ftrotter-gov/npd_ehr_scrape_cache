@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0674094d-89d7-441d-8659-9c051e7471be",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "bdb005fb-6016-408b-b7a6-ed0b2cb18266",
+        "name": "Urology Partners of North Texas"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Urology Partners of North Texas",
+    "managingOrganization": {
+      "reference": "#bdb005fb-6016-408b-b7a6-ed0b2cb18266"
+    },
+    "period": {
+      "start": "2025-09-30T04:36:25+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11560841"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11560841"
+}

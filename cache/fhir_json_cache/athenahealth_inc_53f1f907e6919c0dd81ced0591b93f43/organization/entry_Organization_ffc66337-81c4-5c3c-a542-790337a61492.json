@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ffc66337-81c4-5c3c-a542-790337a61492",
+    "name": "Charleston Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92f9e04b-f19a-5eaa-ac48-f26760dd5a6b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1194909556"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2690 Lake Park Drive"
+        ],
+        "city": "CHARLESTON",
+        "state": "SC",
+        "postalCode": "29406-9100"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27654"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27654.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ffc66337-81c4-5c3c-a542-790337a61492"
+}

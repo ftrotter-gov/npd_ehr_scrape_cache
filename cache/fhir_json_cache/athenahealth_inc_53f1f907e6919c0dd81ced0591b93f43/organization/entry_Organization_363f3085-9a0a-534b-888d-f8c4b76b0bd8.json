@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "363f3085-9a0a-534b-888d-f8c4b76b0bd8",
+    "name": "Dr. Patel's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/33108c35-c611-58ac-bec6-407c1f9f3e9e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093195257"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18059 HIGHWAY 105 WEST",
+          "120"
+        ],
+        "city": "CONROE",
+        "state": "TX",
+        "postalCode": "77305-5001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11207"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11207.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:363f3085-9a0a-534b-888d-f8c4b76b0bd8"
+}

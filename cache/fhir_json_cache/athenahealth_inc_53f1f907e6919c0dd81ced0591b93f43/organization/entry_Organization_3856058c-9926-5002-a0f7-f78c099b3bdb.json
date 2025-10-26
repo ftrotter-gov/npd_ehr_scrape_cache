@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3856058c-9926-5002-a0f7-f78c099b3bdb",
+    "name": "South Miami Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d526232-48e0-5def-8e4a-cf76c4dbbb5b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831123520"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6200 S.W. 73rd St"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33143-4679"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1931"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1931.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3856058c-9926-5002-a0f7-f78c099b3bdb"
+}

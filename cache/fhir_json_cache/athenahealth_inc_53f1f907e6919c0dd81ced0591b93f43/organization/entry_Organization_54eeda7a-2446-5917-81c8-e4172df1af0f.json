@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "54eeda7a-2446-5917-81c8-e4172df1af0f",
+    "name": "Primary Medical Group - Garden",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/581962db-d3ca-5ca5-9d52-4966fa6bc97f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1417970849"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "26 S GARDEN ST STE I"
+        ],
+        "city": "VENTURA",
+        "state": "CA",
+        "postalCode": "93001-4521"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21226"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21226.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:54eeda7a-2446-5917-81c8-e4172df1af0f"
+}

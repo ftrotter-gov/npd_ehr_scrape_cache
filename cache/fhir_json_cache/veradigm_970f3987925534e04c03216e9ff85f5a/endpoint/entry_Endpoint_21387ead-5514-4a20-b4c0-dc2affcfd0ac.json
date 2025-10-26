@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "21387ead-5514-4a20-b4c0-dc2affcfd0ac",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3c9c5ff9-7fb8-4ba7-a420-43a2cf17c997",
+        "name": "Center City Pediatrics"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Center City Pediatrics",
+    "managingOrganization": {
+      "reference": "#3c9c5ff9-7fb8-4ba7-a420-43a2cf17c997"
+    },
+    "period": {
+      "start": "2024-01-18T15:07:51+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10049726"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10049726"
+}

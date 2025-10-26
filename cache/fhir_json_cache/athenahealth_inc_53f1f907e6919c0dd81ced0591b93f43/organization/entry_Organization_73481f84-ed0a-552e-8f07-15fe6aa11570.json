@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "73481f84-ed0a-552e-8f07-15fe6aa11570",
+    "name": "SOAR Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/88bf1510-86ef-5c3e-86d7-2f0f8f9eef23"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1336469790"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1849 BAYSHORE HWY FL 3"
+        ],
+        "city": "BURLINGAME",
+        "state": "CA",
+        "postalCode": "94010-1215"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20181"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20181.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:73481f84-ed0a-552e-8f07-15fe6aa11570"
+}

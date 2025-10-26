@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "73a3a23d-98be-5c47-a8bf-dd5a5497846c",
+    "name": "Nze Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c3eb4f92-6776-5ac6-a4c6-814ccd2cd77e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003674334"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7801 YORK ROAD",
+          "STE 200"
+        ],
+        "city": "TOWSON",
+        "state": "MD",
+        "postalCode": "21204-7448"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31920"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31920.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:73a3a23d-98be-5c47-a8bf-dd5a5497846c"
+}

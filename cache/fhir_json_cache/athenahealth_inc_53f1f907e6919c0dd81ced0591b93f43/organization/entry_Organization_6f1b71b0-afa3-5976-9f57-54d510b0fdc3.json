@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6f1b71b0-afa3-5976-9f57-54d510b0fdc3",
+    "name": "On Duty Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e0806ced-a9dd-563b-bf35-15389e4f678d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851900344"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2112 South Michigan Avenue"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60616-1704"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22232"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22232.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6f1b71b0-afa3-5976-9f57-54d510b0fdc3"
+}

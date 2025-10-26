@@ -1,0 +1,66 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0J4-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0J4"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Portland Urgent Care",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "5032499000"
+      },
+      {
+        "system": "fax",
+        "value": "5037196829"
+      },
+      {
+        "system": "email",
+        "value": "contact@portlandurgentcare.com"
+      },
+      {
+        "system": "url",
+        "value": "www.portlandurgentcare.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "4160 NE Sandy Blvd Portland OR 972125336 US",
+        "line": [
+          "4160 NE Sandy Blvd"
+        ],
+        "city": "Portland",
+        "state": "OR",
+        "postalCode": "972125336",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0J4-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0J4-Organization-2"
+}

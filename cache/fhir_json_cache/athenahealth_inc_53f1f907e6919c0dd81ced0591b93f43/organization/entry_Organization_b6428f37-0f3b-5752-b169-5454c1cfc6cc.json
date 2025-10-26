@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b6428f37-0f3b-5752-b169-5454c1cfc6cc",
+    "name": "University Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/48659b07-32ab-585f-9a18-054407369b17"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932398831"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1350 WALTON WAY"
+        ],
+        "city": "AUGUSTA",
+        "state": "GA",
+        "postalCode": "30901-2629"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7148"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7148.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b6428f37-0f3b-5752-b169-5454c1cfc6cc"
+}

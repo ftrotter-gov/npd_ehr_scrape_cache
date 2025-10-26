@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c57c9ece-0d2a-5ac1-92bc-f4b1c7ea673f",
+    "name": "Doctor K",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f4db38f2-68b8-5181-9bf2-7b726afa229e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316551237"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4660 KENMORE AVE. STE. 200"
+        ],
+        "city": "ALEXANDRIA",
+        "state": "VA",
+        "postalCode": "22304-1306"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23576"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23576.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c57c9ece-0d2a-5ac1-92bc-f4b1c7ea673f"
+}

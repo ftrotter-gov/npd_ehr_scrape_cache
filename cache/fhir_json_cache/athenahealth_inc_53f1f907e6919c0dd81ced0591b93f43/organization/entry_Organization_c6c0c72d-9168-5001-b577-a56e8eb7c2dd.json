@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c6c0c72d-9168-5001-b577-a56e8eb7c2dd",
+    "name": "Ouch Urgent Care of Hamilton",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/65491d0f-9d9b-576c-8f25-20e7852c72fa"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1770968919"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1710 N. GLOSTER STREET"
+        ],
+        "city": "TUPELO",
+        "state": "MS",
+        "postalCode": "38804-1216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29425"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29425.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c6c0c72d-9168-5001-b577-a56e8eb7c2dd"
+}

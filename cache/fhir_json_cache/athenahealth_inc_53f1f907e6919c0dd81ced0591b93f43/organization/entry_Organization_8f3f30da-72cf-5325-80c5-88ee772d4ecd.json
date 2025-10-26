@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8f3f30da-72cf-5325-80c5-88ee772d4ecd",
+    "name": "Bay Area Orthopedic Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/cb6c64c2-2fe6-5da7-8a4b-825163d281fb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1629248109"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1599 TARA HILLS DR"
+        ],
+        "city": "PINOLE",
+        "state": "CA",
+        "postalCode": "94564-2519"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8666"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8666.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8f3f30da-72cf-5325-80c5-88ee772d4ecd"
+}

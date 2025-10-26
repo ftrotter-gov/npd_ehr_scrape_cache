@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4a30100a-255d-5201-bb47-0e04d052066b",
+    "name": "Sunrise Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ca34d442-49a0-59b3-a930-497f04344e56"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659387934"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3186 S Maryland Parkway"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89109-2317"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29724"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29724.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4a30100a-255d-5201-bb47-0e04d052066b"
+}

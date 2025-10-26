@@ -1,0 +1,67 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bf3f7663-397c-54ed-bdcd-a5b3ea317faa",
+    "meta": {
+      "lastUpdated": "2023-01-04T17:00:00.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://centinelamed.com"
+      }
+    ],
+    "name": "Centinela Hospital Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://centinelamed.com"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "555 East Hardy Street"
+        ],
+        "city": "Inglewood",
+        "state": "CA",
+        "postalCode": "90301",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:57c3f46e-0d28-40f7-ae7a-acb54996fc6c"
+      }
+    ],
+    "partOf": {
+      "reference": "urn:uuid:d6a22ad1-7348-544c-a4f3-721fc48b292c"
+    },
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:57c3f46e-0d28-40f7-ae7a-acb54996fc6c"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bf3f7663-397c-54ed-bdcd-a5b3ea317faa"
+}

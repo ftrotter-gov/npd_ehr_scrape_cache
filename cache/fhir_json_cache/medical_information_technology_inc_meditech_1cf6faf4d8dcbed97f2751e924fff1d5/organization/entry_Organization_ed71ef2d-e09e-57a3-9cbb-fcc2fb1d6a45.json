@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ed71ef2d-e09e-57a3-9cbb-fcc2fb1d6a45",
+    "meta": {
+      "lastUpdated": "2022-09-21T22:51:31.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://calverthealthmedicine.org"
+      }
+    ],
+    "name": "CalvertHealth Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://calverthealthmedicine.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 Hospital Road"
+        ],
+        "city": "Prince Frederick",
+        "state": "MD",
+        "postalCode": "20678",
+        "country": [
+          "United",
+          "States",
+          " "
+        ]
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:f09f7bd0-e4e3-59ee-9741-29d50459041b"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:f09f7bd0-e4e3-59ee-9741-29d50459041b"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ed71ef2d-e09e-57a3-9cbb-fcc2fb1d6a45"
+}

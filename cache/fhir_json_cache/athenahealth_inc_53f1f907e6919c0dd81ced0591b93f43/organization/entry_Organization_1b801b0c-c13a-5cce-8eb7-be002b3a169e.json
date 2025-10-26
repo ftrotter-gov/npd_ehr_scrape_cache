@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1b801b0c-c13a-5cce-8eb7-be002b3a169e",
+    "name": "Portland Doctor",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/3ccf0ba1-4629-5136-81c3-090afb59a77a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1497229165"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2024 SE 6TH AVE"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97214-4510"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-24885"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-24885.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1b801b0c-c13a-5cce-8eb7-be002b3a169e"
+}

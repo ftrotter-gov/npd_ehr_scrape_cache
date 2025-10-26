@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b6e184d0-ef82-5a36-8b52-508c3cd4a6d2",
+    "name": "MHSW ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b0a7d6ef-3084-52dc-bb45-e35545649a96"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063547891"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7600 BEECHNUT ST"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77074-4302"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4322"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4322.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b6e184d0-ef82-5a36-8b52-508c3cd4a6d2"
+}

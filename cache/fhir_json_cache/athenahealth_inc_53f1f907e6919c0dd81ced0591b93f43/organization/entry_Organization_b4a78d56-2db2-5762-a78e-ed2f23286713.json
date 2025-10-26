@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b4a78d56-2db2-5762-a78e-ed2f23286713",
+    "name": "The Practice at Westlake General Surgery",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7b5e89c5-4e2e-52ef-91dc-96fc51c4d58e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003549767"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3003 BEE CAVES RD"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78746-5542"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27995"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27995.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b4a78d56-2db2-5762-a78e-ed2f23286713"
+}

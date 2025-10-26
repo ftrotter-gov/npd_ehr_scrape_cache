@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2a539656-4d8b-4fa6-a336-ee5bc28f07a2",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "89d8c960-9a70-40d4-8cdf-efea0029f735",
+        "name": "Southpointe Family Physicians"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Southpointe Family Physicians",
+    "managingOrganization": {
+      "reference": "#89d8c960-9a70-40d4-8cdf-efea0029f735"
+    },
+    "period": {
+      "start": "2018-11-21T09:15:32+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57406"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57406"
+}

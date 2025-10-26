@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b15f8ec8-593f-5515-a646-1b07b3db13e1",
+    "name": "North Street Family Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f73f6666-1fc3-5a1d-8793-94e30ea9cff1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1124017546"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "953 NORTH ST"
+        ],
+        "city": "JACKSON",
+        "state": "MS",
+        "postalCode": "39202-2615"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11221"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11221.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b15f8ec8-593f-5515-a646-1b07b3db13e1"
+}

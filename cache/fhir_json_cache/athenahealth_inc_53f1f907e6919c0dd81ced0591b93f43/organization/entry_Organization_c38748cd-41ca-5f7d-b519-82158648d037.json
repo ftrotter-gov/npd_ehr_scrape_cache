@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c38748cd-41ca-5f7d-b519-82158648d037",
+    "name": "Anaheim",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5794a0e8-bb43-52e4-bf1f-07853edfd538"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902390537"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "211 S STATE COLLEGE BLVD # 1048"
+        ],
+        "city": "ANAHEIM",
+        "state": "CA",
+        "postalCode": "92806-4116"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25119"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25119.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c38748cd-41ca-5f7d-b519-82158648d037"
+}

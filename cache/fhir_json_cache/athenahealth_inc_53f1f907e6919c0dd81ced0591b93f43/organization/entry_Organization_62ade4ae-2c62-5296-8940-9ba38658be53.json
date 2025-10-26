@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "62ade4ae-2c62-5296-8940-9ba38658be53",
+    "name": "Dominican Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/35370aa1-2be1-5e15-92ed-23f87a987ab5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396903043"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1555 Soquel Drive"
+        ],
+        "city": "SANTA CRUZ",
+        "state": "CA",
+        "postalCode": "95065-1705"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7279"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7279.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:62ade4ae-2c62-5296-8940-9ba38658be53"
+}

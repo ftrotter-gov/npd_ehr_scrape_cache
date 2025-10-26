@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e051d649-eb71-40d5-9f15-352ce622346a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "aafab48d-ed4b-4603-979e-1f96a1a7371e",
+        "name": "Armando Franco Md"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Armando Franco Md",
+    "managingOrganization": {
+      "reference": "#aafab48d-ed4b-4603-979e-1f96a1a7371e"
+    },
+    "period": {
+      "start": "2018-12-21T09:04:53+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76308"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76308"
+}

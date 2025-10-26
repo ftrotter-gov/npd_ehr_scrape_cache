@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e2c76852-c7a1-5cb7-86b8-b3260cc2df34",
+    "name": "On Pointe Orthopaedics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a5a3c45b-1333-5e20-a26d-555ae1f48af1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073385431"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1350 HICKORY ST"
+        ],
+        "city": "MELBOURNE",
+        "state": "FL",
+        "postalCode": "32901-3224"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30100"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30100.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e2c76852-c7a1-5cb7-86b8-b3260cc2df34"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bfe4dcd2-b2ee-5e81-af7a-7f4c2fd842b2",
+    "name": "Corsicana Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/538b1bd9-83c1-509c-b7b1-62effd28281d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063849990"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "401 HOSPITAL DR STE 100"
+        ],
+        "city": "CORSICANA",
+        "state": "TX",
+        "postalCode": "75110-2415"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7873"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7873.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bfe4dcd2-b2ee-5e81-af7a-7f4c2fd842b2"
+}

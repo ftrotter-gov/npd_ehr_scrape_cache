@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "869e658e-6208-5cc2-977a-22b8419e1bfd",
+    "name": "Dream Center Women's Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2dd870ba-30a0-569d-abf1-2f76bc662bda"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4360 Montebello Drive",
+          "Suite 900"
+        ],
+        "city": "COLORADO SPRINGS",
+        "state": "CO",
+        "postalCode": "80918-7210"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17846"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17846.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:869e658e-6208-5cc2-977a-22b8419e1bfd"
+}

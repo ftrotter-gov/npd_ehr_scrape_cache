@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "ada6d21d-5c55-4071-9677-430a18a0b6cd",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "a99a5bb4-9998-4b1b-a738-ec7725a51068",
+        "name": "Shady Grove Pediatrics"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Shady Grove Pediatrics",
+    "managingOrganization": {
+      "reference": "#a99a5bb4-9998-4b1b-a738-ec7725a51068"
+    },
+    "period": {
+      "start": "2018-10-30T08:09:04+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76838B"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/76838B"
+}

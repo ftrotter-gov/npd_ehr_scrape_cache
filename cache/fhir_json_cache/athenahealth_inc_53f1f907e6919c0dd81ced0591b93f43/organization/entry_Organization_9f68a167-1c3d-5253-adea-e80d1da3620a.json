@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9f68a167-1c3d-5253-adea-e80d1da3620a",
+    "name": "Emergency Room",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5c9bbef3-6325-5cb4-9194-8e4e77552d8c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558513812"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "802 S 200 W"
+        ],
+        "city": "BLANDING",
+        "state": "UT",
+        "postalCode": "84511-3910"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16299"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16299.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9f68a167-1c3d-5253-adea-e80d1da3620a"
+}

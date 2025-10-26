@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8a948dfe-78fa-5eec-9a46-670f6306af4f",
+    "name": "19 West Aesthetics",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bbb2b392-b114-5e8c-a68f-eb16a663fc5a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "19 W WHIPP RD"
+        ],
+        "city": "DAYTON",
+        "state": "OH",
+        "postalCode": "45459-1811"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28332"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28332.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8a948dfe-78fa-5eec-9a46-670f6306af4f"
+}

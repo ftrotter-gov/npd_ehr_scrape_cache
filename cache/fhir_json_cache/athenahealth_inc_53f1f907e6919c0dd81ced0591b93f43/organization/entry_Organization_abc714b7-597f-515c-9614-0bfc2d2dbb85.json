@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "abc714b7-597f-515c-9614-0bfc2d2dbb85",
+    "name": "Institute of Complementary Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/96e572e4-44a7-5633-afc9-ab52b2786d3e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326458910"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1600 E. Jefferson Street",
+          "SUITE 603"
+        ],
+        "city": "SEATTLE",
+        "state": "WA",
+        "postalCode": "98122-5649"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30452"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30452.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:abc714b7-597f-515c-9614-0bfc2d2dbb85"
+}

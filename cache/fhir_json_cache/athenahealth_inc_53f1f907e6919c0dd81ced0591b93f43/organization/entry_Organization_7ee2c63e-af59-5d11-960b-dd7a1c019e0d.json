@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7ee2c63e-af59-5d11-960b-dd7a1c019e0d",
+    "name": "Village Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5ea1d766-624c-5cb9-8f5a-30ed2fad4c51"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1235736067"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "VM_CIN_Wellbrooke (SNF)"
+        ],
+        "city": "KOKOMO",
+        "state": "IN",
+        "postalCode": "46902-6406"
+      },
+      {
+        "line": [
+          "2200 S DIXON RD"
+        ],
+        "city": "KOKOMO",
+        "state": "IN",
+        "postalCode": "46902-6406"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22064"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22064.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7ee2c63e-af59-5d11-960b-dd7a1c019e0d"
+}

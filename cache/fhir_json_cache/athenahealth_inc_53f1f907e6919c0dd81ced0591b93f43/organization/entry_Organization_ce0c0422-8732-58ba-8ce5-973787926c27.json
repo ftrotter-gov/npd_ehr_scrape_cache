@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ce0c0422-8732-58ba-8ce5-973787926c27",
+    "name": "Free Clinic of Medina County",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fe9fb8a6-eaca-53ad-81b6-dd7e7985a788"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1123456789"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "970 E WASHINGTON ST, STE 104"
+        ],
+        "city": "MEDINA",
+        "state": "OH",
+        "postalCode": "44256-3332"
+      },
+      {
+        "line": [
+          "225 ELYRIA STREET",
+          "SUITE 102"
+        ],
+        "city": "LODI",
+        "state": "OH",
+        "postalCode": "44254-1031"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17870"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17870.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ce0c0422-8732-58ba-8ce5-973787926c27"
+}

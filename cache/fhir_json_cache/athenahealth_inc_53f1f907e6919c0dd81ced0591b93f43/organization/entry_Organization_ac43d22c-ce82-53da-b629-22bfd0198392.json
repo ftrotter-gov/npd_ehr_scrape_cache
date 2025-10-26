@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ac43d22c-ce82-53da-b629-22bfd0198392",
+    "name": "Get Aging",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ae306fdf-13f2-52c3-9a61-c97e47614c23"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1255017737"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1753 Carroll Ave"
+        ],
+        "city": "SAN FRANCISCO",
+        "state": "CA",
+        "postalCode": "94124-2647"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31781"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31781.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ac43d22c-ce82-53da-b629-22bfd0198392"
+}

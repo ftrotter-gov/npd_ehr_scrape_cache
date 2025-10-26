@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1e00424e-02fd-5e9f-8c05-fd849156b5dd",
+    "name": "The Forum at Parklane",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9b53410b-18c5-5fbf-93b6-10c66634d7a3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326203027"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7827 Park Lane"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75225-2032"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13371"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13371.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1e00424e-02fd-5e9f-8c05-fd849156b5dd"
+}

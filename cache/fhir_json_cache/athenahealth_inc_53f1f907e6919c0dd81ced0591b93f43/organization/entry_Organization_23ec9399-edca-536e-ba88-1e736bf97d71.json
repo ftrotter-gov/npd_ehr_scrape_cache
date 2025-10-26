@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "23ec9399-edca-536e-ba88-1e736bf97d71",
+    "name": "Specialty Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1b575241-bf7e-57d6-814c-a50df6d5ddb9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316038623"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1281 East Main St",
+          "suite 3100"
+        ],
+        "city": "STAMFORD",
+        "state": "CT",
+        "postalCode": "06902-3544"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12022"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12022.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:23ec9399-edca-536e-ba88-1e736bf97d71"
+}

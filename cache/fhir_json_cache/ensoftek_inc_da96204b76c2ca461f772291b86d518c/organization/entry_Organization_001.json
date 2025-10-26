@@ -1,0 +1,53 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "001",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\tOne Testing DrCloud Endpoint<br/>\n\t\t\tThis is One Testing DrCloud Endpoint\n\t\t</div>"
+    },
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "One Testing DrCloud",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "(+1) 503-643-1226"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "735 SW 158th Ave",
+          "Suite 140"
+        ],
+        "city": "Beaverton",
+        "state": "OR",
+        "postalCode": "97006",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/OneTestingDrCloudEndpoint"
+      }
+    ]
+  },
+  "fullUrl": "https://drc-india.drcloudemr.com/drcloud/apis/default/fhir/Organization/001"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a8d79100-3867-5550-9773-5df6551aa344",
+    "name": "Eleanor Health Worcester",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/28e1bb0f-9d67-50bc-9598-b849b93457ed"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205446374"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "108 Grove St",
+          "Suite 200"
+        ],
+        "city": "WORCESTER",
+        "state": "MA",
+        "postalCode": "01605-2651"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-21505"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-21505.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a8d79100-3867-5550-9773-5df6551aa344"
+}

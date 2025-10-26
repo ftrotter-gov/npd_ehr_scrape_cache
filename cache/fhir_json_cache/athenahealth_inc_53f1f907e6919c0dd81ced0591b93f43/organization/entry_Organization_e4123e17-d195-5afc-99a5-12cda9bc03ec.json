@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e4123e17-d195-5afc-99a5-12cda9bc03ec",
+    "name": "One Wellness",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fbbeb6f9-d00c-5ddd-a283-bae7ee7eb03a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1568 SOUTH 500 WEST",
+          "101"
+        ],
+        "city": "WOODS CROSS",
+        "state": "UT",
+        "postalCode": "84087-2227"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29644"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29644.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e4123e17-d195-5afc-99a5-12cda9bc03ec"
+}

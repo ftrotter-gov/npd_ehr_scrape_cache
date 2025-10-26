@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "38a00e44-64b6-5da3-bfbb-23782293a31a",
+    "name": "Lemont Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6bffa209-1de0-584a-a285-a3e0abd9f422"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1801318928"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013017839"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "12450 Walker Rd"
+        ],
+        "city": "LEMONT",
+        "state": "IL",
+        "postalCode": "60439-9301"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15182"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15182.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:38a00e44-64b6-5da3-bfbb-23782293a31a"
+}

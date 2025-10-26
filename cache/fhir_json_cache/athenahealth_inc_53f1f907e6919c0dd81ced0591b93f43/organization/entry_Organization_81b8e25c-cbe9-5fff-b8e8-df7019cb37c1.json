@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "81b8e25c-cbe9-5fff-b8e8-df7019cb37c1",
+    "name": "Texas Childrens Hosptial",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c9437f4b-a70b-5c6e-9882-baaf8713123d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1669894796"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285684431"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "18200 Katy Freeway"
+        ],
+        "city": "HOUSTON",
+        "state": "TX",
+        "postalCode": "77094-1285"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1171"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1171.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:81b8e25c-cbe9-5fff-b8e8-df7019cb37c1"
+}

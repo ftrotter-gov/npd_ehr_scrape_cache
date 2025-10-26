@@ -1,0 +1,44 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7106e096-a21b-5742-a1fd-fdbbb9ac4dde",
+    "name": "Northwest Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d526af34-4769-5e8a-9926-e7041e1c19fc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1902267875"
+      }
+    ],
+    "address": [
+      {
+        "line": [],
+        "city": "FRANKLIN",
+        "state": "TN",
+        "postalCode": "37067-1704"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13210"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13210.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7106e096-a21b-5742-a1fd-fdbbb9ac4dde"
+}

@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MzE2M18zMTYzXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1122.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972591238"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pediatric Partners LLC GA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "706-548-1216",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "706-548-1772",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "1500 Langford Drive Building 100 Watkinsville, GA 306777298",
+        "line": [
+          "1500 Langford Drive",
+          "Building 100"
+        ],
+        "city": "Watkinsville",
+        "state": "GA",
+        "postalCode": "306777298",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MzE2M18zMTYzXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MzE2M18zMTYzXzMwNjA"
+}

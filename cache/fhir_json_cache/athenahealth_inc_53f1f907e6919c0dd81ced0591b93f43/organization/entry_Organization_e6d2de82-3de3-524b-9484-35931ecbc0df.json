@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e6d2de82-3de3-524b-9484-35931ecbc0df",
+    "name": "The Headache Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/73fa6c52-62c4-50b4-b3df-3ffda70495b4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114364353"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1000 HIGHLAND COLONY PKWY STE 7205"
+        ],
+        "city": "RIDGELAND",
+        "state": "MS",
+        "postalCode": "39157-2099"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8600"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8600.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e6d2de82-3de3-524b-9484-35931ecbc0df"
+}

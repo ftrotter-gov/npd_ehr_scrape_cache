@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cf8a0788-c299-5d8e-8258-19b38611bbc8",
+    "name": "SHAMS Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/eda0afe2-99ab-586d-aa0b-30f1f9cb84e9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567891"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4075 LANCASTER AVE"
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19104-1747"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18824"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18824.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cf8a0788-c299-5d8e-8258-19b38611bbc8"
+}

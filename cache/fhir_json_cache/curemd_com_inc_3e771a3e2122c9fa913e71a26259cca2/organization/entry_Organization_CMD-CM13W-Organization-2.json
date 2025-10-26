@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM13W-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM13W"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Surgical Associates Chartered",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2404271630"
+      },
+      {
+        "system": "fax",
+        "value": "2404922070"
+      },
+      {
+        "system": "url",
+        "value": "www.sacmd.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "5801 Allentown Road Suite 502 Camp Springs MD 20746 US",
+        "line": [
+          "5801 Allentown Road Suite 502"
+        ],
+        "city": "Camp Springs",
+        "state": "MD",
+        "postalCode": "20746",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM13W-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM13W-Organization-2"
+}

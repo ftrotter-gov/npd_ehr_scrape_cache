@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1c4380ad-8c65-529f-8434-5d8cf3a79aaa",
+    "name": "South Polk Medical Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/de11e7c1-b58b-5ed0-a6fe-7ccdc8eac853"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043351760"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3436 SOUTH POLK ST"
+        ],
+        "city": "DALLAS",
+        "state": "TX",
+        "postalCode": "75224-3804"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29073"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29073.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1c4380ad-8c65-529f-8434-5d8cf3a79aaa"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1a9dbd38-eaab-5830-9eb6-7c317fa04c12",
+    "name": "IntraCare Health Center Mesa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b93a630a-03f6-5269-8651-13aabeb5bfa1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568116291"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4545 E SOUTHERN AVE STE 103"
+        ],
+        "city": "MESA",
+        "state": "AZ",
+        "postalCode": "85206-2677"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27041"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27041.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1a9dbd38-eaab-5830-9eb6-7c317fa04c12"
+}

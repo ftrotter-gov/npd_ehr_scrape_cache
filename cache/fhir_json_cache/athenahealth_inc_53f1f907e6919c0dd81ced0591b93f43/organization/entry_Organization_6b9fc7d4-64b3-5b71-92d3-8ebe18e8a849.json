@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6b9fc7d4-64b3-5b71-92d3-8ebe18e8a849",
+    "name": "VIP Family Medicine Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6cc8da9e-52ee-56e0-a382-a388e199f58e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003652439"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "15650 NE 24TH STREET"
+        ],
+        "city": "BELLEVUE",
+        "state": "WA",
+        "postalCode": "98008-2460"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31749"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31749.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6b9fc7d4-64b3-5b71-92d3-8ebe18e8a849"
+}

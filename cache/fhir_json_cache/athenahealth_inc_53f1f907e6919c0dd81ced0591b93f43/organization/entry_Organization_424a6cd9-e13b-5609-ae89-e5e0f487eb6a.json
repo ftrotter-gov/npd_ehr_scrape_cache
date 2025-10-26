@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "424a6cd9-e13b-5609-ae89-e5e0f487eb6a",
+    "name": "Oschner Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/67d12b4f-74ea-5335-856e-39ddc0dbb03b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790296762"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 Belle Chasse Hwy"
+        ],
+        "city": "GRETNA",
+        "state": "LA",
+        "postalCode": "70056-7156"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-31102"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-31102.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:424a6cd9-e13b-5609-ae89-e5e0f487eb6a"
+}

@@ -1,0 +1,59 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0NL-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0NL"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Iredell County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "7048785300"
+      },
+      {
+        "system": "url",
+        "value": "https://www.co.iredell.nc.us/161/Health-Department"
+      }
+    ],
+    "address": [
+      {
+        "text": "318 Turnersburg Hwy Statesville IREDELL NC 286252798 US",
+        "line": [
+          "318 Turnersburg Hwy"
+        ],
+        "city": "Statesville",
+        "district": "IREDELL",
+        "state": "NC",
+        "postalCode": "286252798",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0NL-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0NL-Organization-2"
+}

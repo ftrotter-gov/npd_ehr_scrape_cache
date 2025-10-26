@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3e12eb3c-37a1-5249-94e2-cdcd0a9573b0",
+    "name": "We Care Clinic- Community Health Outreach HH",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b09fb103-758e-5f34-9dab-0632b1af62b2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1234567890"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5126 Timuquana Road"
+        ],
+        "city": "JACKSONVILLE",
+        "state": "FL",
+        "postalCode": "32210-1111"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18516"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18516.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3e12eb3c-37a1-5249-94e2-cdcd0a9573b0"
+}

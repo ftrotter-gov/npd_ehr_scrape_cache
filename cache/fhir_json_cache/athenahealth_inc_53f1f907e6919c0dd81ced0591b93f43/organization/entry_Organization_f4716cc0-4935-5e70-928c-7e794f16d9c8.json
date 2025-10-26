@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f4716cc0-4935-5e70-928c-7e794f16d9c8",
+    "name": "Bear Hill Nursing Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1873b862-3f30-575a-b8cd-dd32a82a9f59"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184606865"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11 North Street"
+        ],
+        "city": "STONEHAM",
+        "state": "MA",
+        "postalCode": "02180-1040"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-391"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-391.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f4716cc0-4935-5e70-928c-7e794f16d9c8"
+}

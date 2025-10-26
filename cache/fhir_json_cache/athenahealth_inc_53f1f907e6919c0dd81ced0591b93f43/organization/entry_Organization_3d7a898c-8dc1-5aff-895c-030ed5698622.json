@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3d7a898c-8dc1-5aff-895c-030ed5698622",
+    "name": "Pohala Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c9a11a8a-21d1-55f1-8a4f-1aed6670717e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1689025231"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7477 SE 52ND AVE"
+        ],
+        "city": "PORTLAND",
+        "state": "OR",
+        "postalCode": "97206-8206"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22190"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22190.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3d7a898c-8dc1-5aff-895c-030ed5698622"
+}

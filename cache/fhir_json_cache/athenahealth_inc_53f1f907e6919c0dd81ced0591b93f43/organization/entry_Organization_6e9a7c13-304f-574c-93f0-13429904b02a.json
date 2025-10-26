@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e9a7c13-304f-574c-93f0-13429904b02a",
+    "name": "Dr. Ruppert's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f79fe75b-0a4e-5608-85cf-f61c7c68e072"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1366437667"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6485 DAY ST STE 206"
+        ],
+        "city": "RIVERSIDE",
+        "state": "CA",
+        "postalCode": "92507-0930"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17182"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17182.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e9a7c13-304f-574c-93f0-13429904b02a"
+}

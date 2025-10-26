@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "daa7a4b1-e8af-5757-bd9d-2250f22d4b5b",
+    "name": "OnPoint Urgent Care - Castle Rock",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/55e3e57e-3144-5443-834a-5c172257a04e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811555022"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1151 Aloha St",
+          "Ste 200"
+        ],
+        "city": "Castle Rock",
+        "state": "CO",
+        "postalCode": "80108-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-9821"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-9821.Brand-8"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:daa7a4b1-e8af-5757-bd9d-2250f22d4b5b"
+}

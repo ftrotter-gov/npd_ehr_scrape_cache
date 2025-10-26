@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5313e48e-67ed-5d0e-8756-c8e3acf5b256",
+    "name": "Dyersburg Regional Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/373d5cf8-fd1e-599a-9e91-316639554015"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1093710568"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "400 TICKLE"
+        ],
+        "city": "DYERSBURG",
+        "state": "TN",
+        "postalCode": "38024-3120"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1524"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1524.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5313e48e-67ed-5d0e-8756-c8e3acf5b256"
+}

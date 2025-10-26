@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e13ba49a-d592-5422-8ca2-57a021bfab46",
+    "name": "AdventHealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c84a0aed-dbbb-5408-a03c-8955debfe3f6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558340240"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "301 Memorial Medical Parkway"
+        ],
+        "city": "DAYTONA BEACH",
+        "state": "FL",
+        "postalCode": "32117-5167"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-10735"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-10735.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e13ba49a-d592-5422-8ca2-57a021bfab46"
+}

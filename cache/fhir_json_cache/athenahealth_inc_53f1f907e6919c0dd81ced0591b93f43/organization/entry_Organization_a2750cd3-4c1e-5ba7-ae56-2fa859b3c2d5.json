@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a2750cd3-4c1e-5ba7-ae56-2fa859b3c2d5",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c9007a74-0794-5117-9fe4-c858e7e46393"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285097683"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5276 DAWES AVE"
+        ],
+        "city": "ALEXANDRIA",
+        "state": "VA",
+        "postalCode": "22311-1404"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-14509"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-14509.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a2750cd3-4c1e-5ba7-ae56-2fa859b3c2d5"
+}

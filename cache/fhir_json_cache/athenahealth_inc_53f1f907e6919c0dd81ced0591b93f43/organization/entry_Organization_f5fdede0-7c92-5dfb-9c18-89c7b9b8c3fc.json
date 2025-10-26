@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f5fdede0-7c92-5dfb-9c18-89c7b9b8c3fc",
+    "name": "Davita Scottsdale HD",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6d805751-1c88-5042-866a-b5e6c616c717"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1316902208"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5705 N Scottsdale",
+          "#120"
+        ],
+        "city": "SCOTTSDALE",
+        "state": "AZ",
+        "postalCode": "85250-5910"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11625"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11625.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f5fdede0-7c92-5dfb-9c18-89c7b9b8c3fc"
+}

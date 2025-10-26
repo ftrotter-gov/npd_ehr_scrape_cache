@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7cefb20d-b5bb-51cd-8fbd-ef5ba2bb8ebc",
+    "name": "Precision Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e70720b0-cdef-5293-a53c-8ab9ec2202b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1760119986"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2001 S WOODRUFF AVE STE 4"
+        ],
+        "city": "IDAHO FALLS",
+        "state": "ID",
+        "postalCode": "83404-6372"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-28595"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-28595.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7cefb20d-b5bb-51cd-8fbd-ef5ba2bb8ebc"
+}

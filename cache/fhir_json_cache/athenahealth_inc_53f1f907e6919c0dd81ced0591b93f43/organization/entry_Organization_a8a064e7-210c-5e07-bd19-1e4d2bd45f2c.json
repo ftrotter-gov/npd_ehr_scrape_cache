@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a8a064e7-210c-5e07-bd19-1e4d2bd45f2c",
+    "name": "Merit Health Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f5c318a0-026b-5264-83d0-b19ffc1bddc9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1538200209"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5001 HARDY ST"
+        ],
+        "city": "HATTIESBURG",
+        "state": "MS",
+        "postalCode": "39402-1308"
+      },
+      {
+        "line": [
+          "107 MILLSAPS DR"
+        ],
+        "city": "HATTIESBURG",
+        "state": "MS",
+        "postalCode": "39402-1348"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1930"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1930.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a8a064e7-210c-5e07-bd19-1e4d2bd45f2c"
+}

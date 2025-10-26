@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a9a97dad-560a-579d-bafc-fa7b166b3314",
+    "name": "John P. Canova, M.D.",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b3149db0-3efe-58de-8129-7c5e30c0235f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184708968"
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.4.7",
+        "value": "05D0726228"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "678 Petaluma Ave"
+        ],
+        "city": "SEBASTOPOL",
+        "state": "CA",
+        "postalCode": "95472-4217"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-165"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-165.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a9a97dad-560a-579d-bafc-fa7b166b3314"
+}

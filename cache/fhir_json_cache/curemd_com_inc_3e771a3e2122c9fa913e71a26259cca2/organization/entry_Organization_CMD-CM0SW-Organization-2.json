@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM0SW-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM0SW"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "BrivaDERM Ltd.",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "2844957546"
+      },
+      {
+        "system": "email",
+        "value": "info@brivaderm.com"
+      },
+      {
+        "system": "url",
+        "value": "www.brivaderm.com"
+      }
+    ],
+    "address": [
+      {
+        "text": "Unit # 13 Road Reef Plaza Road Town Tortola Virgin Islands UK VG 11100 US",
+        "line": [
+          "Unit # 13 Road Reef Plaza",
+          "Road Town"
+        ],
+        "city": "Tortola Virgin Islands UK",
+        "state": "VG",
+        "postalCode": "11100",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM0SW-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM0SW-Organization-2"
+}

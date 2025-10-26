@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTY1NF8xNjU0XzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "685.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1932168606"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pediatric Partners PA AR",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "479-478-7200",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "479-478-7225",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "7303 Rogers Ave Suite 201 Fort Smith, AR 72903-4112",
+        "line": [
+          "7303 Rogers Ave",
+          "Suite 201"
+        ],
+        "city": "Fort Smith",
+        "state": "AR",
+        "postalCode": "72903-4112",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTY1NF8xNjU0XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTY1NF8xNjU0XzMwNjA"
+}

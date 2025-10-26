@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0a3845ab-5a9d-53a8-aea7-ccf8b3136a08",
+    "name": "Authentic Mental Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/68172aa2-0f14-5d90-8889-af3fda2b1ab9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962128322"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "505 S DEWEY STREET",
+          "212"
+        ],
+        "city": "EAU CLAIRE",
+        "state": "WI",
+        "postalCode": "54701-3781"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27651"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27651.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0a3845ab-5a9d-53a8-aea7-ccf8b3136a08"
+}

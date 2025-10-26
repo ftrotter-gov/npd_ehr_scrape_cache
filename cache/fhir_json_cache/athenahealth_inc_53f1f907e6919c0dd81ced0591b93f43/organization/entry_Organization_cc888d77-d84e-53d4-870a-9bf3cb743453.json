@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cc888d77-d84e-53d4-870a-9bf3cb743453",
+    "name": "Deekay Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0b2f157a-dc0d-5217-88bf-a721593aad25"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023326279"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1121 LOBDELL BOULEVARD"
+        ],
+        "city": "BATON ROUGE",
+        "state": "LA",
+        "postalCode": "70806-2235"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12080"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12080.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cc888d77-d84e-53d4-870a-9bf3cb743453"
+}

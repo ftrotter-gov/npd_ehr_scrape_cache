@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "55bd75a0-d83d-5f32-9599-6edf96633beb",
+    "name": "MAIN OFFICE",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8b97ddcb-79ab-5eca-91d2-3dcc4bf47f0e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1487093670"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2216 PRINCESS ANNE STREET",
+          "SUITE 106"
+        ],
+        "city": "FREDERICKSBURG",
+        "state": "VA",
+        "postalCode": "22401-3300"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-7273"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-7273.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:55bd75a0-d83d-5f32-9599-6edf96633beb"
+}

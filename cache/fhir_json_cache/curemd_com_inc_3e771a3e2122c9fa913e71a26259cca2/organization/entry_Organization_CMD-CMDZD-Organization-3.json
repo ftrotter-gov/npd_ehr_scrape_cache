@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CMDZD-Organization-3",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CMDZD"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Wading River Medical Care, P.C.",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6319290304"
+      },
+      {
+        "system": "fax",
+        "value": "6319290380"
+      }
+    ],
+    "address": [
+      {
+        "text": "5972 Route 25A Wading River NY 117922018 US",
+        "line": [
+          "5972 Route 25A"
+        ],
+        "city": "Wading River",
+        "state": "NY",
+        "postalCode": "117922018",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CMDZD-Endpoint-3"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CMDZD-Organization-3"
+}

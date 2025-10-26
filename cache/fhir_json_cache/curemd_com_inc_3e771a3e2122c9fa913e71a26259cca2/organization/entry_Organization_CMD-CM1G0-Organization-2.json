@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM1G0-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM1G0"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Christian County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "4175817285"
+      }
+    ],
+    "address": [
+      {
+        "text": "301 E Brick Street Ozark MO 65721 US",
+        "line": [
+          "301 E Brick Street"
+        ],
+        "city": "Ozark",
+        "state": "MO",
+        "postalCode": "65721",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM1G0-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM1G0-Organization-2"
+}

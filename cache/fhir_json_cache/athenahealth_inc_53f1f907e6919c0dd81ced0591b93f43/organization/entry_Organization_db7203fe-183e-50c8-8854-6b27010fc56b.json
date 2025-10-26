@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "db7203fe-183e-50c8-8854-6b27010fc56b",
+    "name": "Southborough",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/862bd897-b8f5-5615-971b-a10aa25c16a0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457302002"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2 PARK CENTRAL DRIVE",
+          "SUITE 210"
+        ],
+        "city": "SOUTHBOROUGH",
+        "state": "MA",
+        "postalCode": "01772-1747"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8485"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8485.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:db7203fe-183e-50c8-8854-6b27010fc56b"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0ee753af-19ed-5805-947c-cfe15fa814c0",
+    "name": "Heart Hospital of Austin",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/97829e1f-51c8-551a-8b6f-0fee761ed045"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326061714"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3801 N. Lamar"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78756-4080"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-856"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-856.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0ee753af-19ed-5805-947c-cfe15fa814c0"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d2a455a2-5773-590c-97c3-8a9d9baa564e",
+    "name": "Prosperity Internal Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ec90ce01-540e-58a6-ab0b-fcf51736db36"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831300482"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "11107 SUNSET HILLS RD",
+          "STE 200"
+        ],
+        "city": "RESTON",
+        "state": "VA",
+        "postalCode": "20190-5376"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-20274"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-20274.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d2a455a2-5773-590c-97c3-8a9d9baa564e"
+}

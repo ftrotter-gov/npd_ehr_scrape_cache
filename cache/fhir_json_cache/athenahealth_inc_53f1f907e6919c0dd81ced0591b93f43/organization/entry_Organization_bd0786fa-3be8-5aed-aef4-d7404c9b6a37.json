@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bd0786fa-3be8-5aed-aef4-d7404c9b6a37",
+    "name": "Berwick Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/85d9ee54-caba-5864-b4c1-8ff5a3960dc5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184793127"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "701 E 16th St"
+        ],
+        "city": "BERWICK",
+        "state": "PA",
+        "postalCode": "18603-2316"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1704"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1704.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bd0786fa-3be8-5aed-aef4-d7404c9b6a37"
+}

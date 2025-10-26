@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e9aecbdd-aa5e-4382-8746-c5e658a2f738",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e812dfe2-4ba1-48d8-835b-0f26cf90d984",
+        "name": "Respiratory Critical Care and Sleep Medicine Assoc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Respiratory Critical Care and Sleep Medicine Assoc",
+    "managingOrganization": {
+      "reference": "#e812dfe2-4ba1-48d8-835b-0f26cf90d984"
+    },
+    "period": {
+      "start": "2018-09-14T13:25:29+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10146739"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10146739"
+}

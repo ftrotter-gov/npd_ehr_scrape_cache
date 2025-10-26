@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "47d66fbe-732b-58f8-b8a0-0abd5d987c9c",
+    "name": "Iroquois Medical Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4fbdce7f-e962-59f7-9720-4b0f6698df88"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104973940"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5601 S 3RD ST STE 100"
+        ],
+        "city": "LOUISVILLE",
+        "state": "KY",
+        "postalCode": "40214-2691"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17135"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17135.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:47d66fbe-732b-58f8-b8a0-0abd5d987c9c"
+}

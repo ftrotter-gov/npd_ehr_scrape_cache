@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c6b8aafd-3ec7-5f00-beff-fcfd5fbb3f9d",
+    "name": "Bethlehem Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b1f1c338-8796-5ea9-880c-d789315c4451"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1881925097"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "916 Loganville Highway",
+          "Suite 350"
+        ],
+        "city": "Bethlehem",
+        "state": "GA",
+        "postalCode": "30620-2145"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4693"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4693.Brand-5"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c6b8aafd-3ec7-5f00-beff-fcfd5fbb3f9d"
+}

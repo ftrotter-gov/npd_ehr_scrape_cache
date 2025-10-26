@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "01e1e885-b305-4793-b9bb-bf3df9430b0f",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "416cf346-f616-413f-9d00-2a93d1293a32",
+        "name": "Eastside Premier Medicine"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Eastside Premier Medicine",
+    "managingOrganization": {
+      "reference": "#416cf346-f616-413f-9d00-2a93d1293a32"
+    },
+    "period": {
+      "start": "2018-12-07T12:45:16+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57879"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57879"
+}

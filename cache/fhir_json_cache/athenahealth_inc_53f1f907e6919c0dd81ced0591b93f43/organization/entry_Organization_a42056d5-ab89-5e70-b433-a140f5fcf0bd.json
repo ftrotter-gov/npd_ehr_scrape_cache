@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a42056d5-ab89-5e70-b433-a140f5fcf0bd",
+    "name": "Blackwell Hospital Physicians Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/65f2fe45-24b8-54d0-9b52-454624643f7d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821525304"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558990192"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "710 S 13TH STREET"
+        ],
+        "city": "BLACKWELL",
+        "state": "OK",
+        "postalCode": "74631-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16109"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16109.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a42056d5-ab89-5e70-b433-a140f5fcf0bd"
+}

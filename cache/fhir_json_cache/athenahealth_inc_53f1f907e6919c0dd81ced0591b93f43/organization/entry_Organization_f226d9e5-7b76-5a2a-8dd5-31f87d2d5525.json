@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f226d9e5-7b76-5a2a-8dd5-31f87d2d5525",
+    "name": "Ivy League Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b292b29e-9d8c-551d-8cb3-0f106d4a8df5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1528637915"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "23541 WESTHEIMER PARKWAY",
+          "STE 160B"
+        ],
+        "city": "KATY",
+        "state": "TX",
+        "postalCode": "77494-3598"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23804"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23804.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f226d9e5-7b76-5a2a-8dd5-31f87d2d5525"
+}

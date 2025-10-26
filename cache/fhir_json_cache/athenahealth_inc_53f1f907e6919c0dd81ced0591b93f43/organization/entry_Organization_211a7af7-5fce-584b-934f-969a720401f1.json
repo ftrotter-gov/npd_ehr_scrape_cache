@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "211a7af7-5fce-584b-934f-969a720401f1",
+    "name": "Yosi Test Department",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9e2ee123-9dd1-5736-adf1-d986c7903a48"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1386869139"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1310 SHERMER RD"
+        ],
+        "city": "NORTHBROOK",
+        "state": "IL",
+        "postalCode": "60062-4579"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-1769"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-1769.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:211a7af7-5fce-584b-934f-969a720401f1"
+}

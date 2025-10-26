@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fc96f8fe-7b89-5cb5-ae45-86aba75bf91a",
+    "name": "My Virtual Physician-Colorado",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/92a92863-5e58-505c-abaf-d305bf359ddb"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972122596"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7900 E UNION AVE"
+        ],
+        "city": "DENVER",
+        "state": "CO",
+        "postalCode": "80237-2735"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27998"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27998.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fc96f8fe-7b89-5cb5-ae45-86aba75bf91a"
+}

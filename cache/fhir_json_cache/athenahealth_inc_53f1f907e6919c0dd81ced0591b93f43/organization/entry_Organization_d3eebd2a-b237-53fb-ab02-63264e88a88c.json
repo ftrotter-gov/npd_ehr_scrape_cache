@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d3eebd2a-b237-53fb-ab02-63264e88a88c",
+    "name": "Agenacare Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6417df03-5bb0-5fd6-9f07-ee53fb96e2e9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144947508"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "21230 Virgil H Goode Hwy"
+        ],
+        "city": "ROCKY MOUNT",
+        "state": "VA",
+        "postalCode": "24151-4022"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26280"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26280.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d3eebd2a-b237-53fb-ab02-63264e88a88c"
+}

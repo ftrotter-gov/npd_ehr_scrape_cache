@@ -1,0 +1,62 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM156-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM156"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Harrison County Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6604256324"
+      },
+      {
+        "system": "fax",
+        "value": "6604257642"
+      },
+      {
+        "system": "url",
+        "value": "www.harrisoncountyhealthdept.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "1700 Bethany Avenue Bethany MO 64424 US",
+        "line": [
+          "1700 Bethany Avenue"
+        ],
+        "city": "Bethany",
+        "state": "MO",
+        "postalCode": "64424",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM156-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM156-Organization-2"
+}

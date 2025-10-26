@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTIxMl8xMjEyXzMwNjA",
+    "extension": [
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "599.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720302508"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Gulf Coast ABC Pediatrics Inc MS",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "228-594-8000",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "228-594-8002",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "1024 Tommy Munro Drive Suite A Biloxi, MS 395322157",
+        "line": [
+          "1024 Tommy Munro Drive",
+          "Suite A"
+        ],
+        "city": "Biloxi",
+        "state": "MS",
+        "postalCode": "395322157",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTIxMl8xMjEyXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTIxMl8xMjEyXzMwNjA"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "1a2b579b-ef2d-57ba-9758-28e55d281a74",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/613ca39c-3f00-55ac-bab4-bd39cde30050"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548376783"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13768 ROSWELL AVENUE, SUITE 205"
+        ],
+        "city": "CHINO",
+        "state": "CA",
+        "postalCode": "91710-1405"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6916"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6916.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:1a2b579b-ef2d-57ba-9758-28e55d281a74"
+}

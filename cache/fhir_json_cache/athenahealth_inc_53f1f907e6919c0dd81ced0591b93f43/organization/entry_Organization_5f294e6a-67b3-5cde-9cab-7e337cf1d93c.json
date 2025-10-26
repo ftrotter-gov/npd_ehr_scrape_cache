@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5f294e6a-67b3-5cde-9cab-7e337cf1d93c",
+    "name": "Wake Med Raleigh Hospital - IP",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f2173884-b474-5cb1-8be4-c0200b3bfa76"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285648584"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3000 NEW BERN AVE"
+        ],
+        "city": "RALEIGH",
+        "state": "NC",
+        "postalCode": "27610-1231"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-12817"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-12817.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5f294e6a-67b3-5cde-9cab-7e337cf1d93c"
+}

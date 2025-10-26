@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5840f9cd-22bd-4e87-9c32-6530bb372597",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "03142eb2-f379-4311-9641-4ea819ed4c33",
+        "name": "The Jackson Clinic"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "The Jackson Clinic",
+    "managingOrganization": {
+      "reference": "#03142eb2-f379-4311-9641-4ea819ed4c33"
+    },
+    "period": {
+      "start": "2019-06-10T12:26:16+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://tw22fhir.jacksonclinic.com/R4/open-R4"
+  },
+  "fullUrl": "https://tw22fhir.jacksonclinic.com/R4/open-R4"
+}

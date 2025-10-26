@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "11e03a24-8daa-5f58-b45b-53d4009eb9e5",
+    "name": "Surgical Specialty Center of Westchester",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e618268f-590b-51c2-97db-a46a765a91c4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245915172"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "440 Mamaroneck Ave"
+        ],
+        "city": "Harrison",
+        "state": "NY",
+        "postalCode": "10528-2418"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29754"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29754.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:11e03a24-8daa-5f58-b45b-53d4009eb9e5"
+}

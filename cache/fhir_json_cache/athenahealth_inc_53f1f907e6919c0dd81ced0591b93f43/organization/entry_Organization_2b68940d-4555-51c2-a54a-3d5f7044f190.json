@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2b68940d-4555-51c2-a54a-3d5f7044f190",
+    "name": "Athenos Medical Diagnostics LT",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5638f004-b671-51ad-8b63-995b197ed81c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205192978"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1033 PETERSON AVE SUITE# 208"
+        ],
+        "city": "PARK RIDGE",
+        "state": "IL",
+        "postalCode": "60068-5184"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33257"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33257.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2b68940d-4555-51c2-a54a-3d5f7044f190"
+}

@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0b50d003-05a1-49b4-9771-47e9bb4f32e9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "5b18fe62-69fe-40c5-b040-7381de8b5942",
+        "name": "Valdosta Foot  Ankle Clinic"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Valdosta Foot  Ankle Clinic",
+    "managingOrganization": {
+      "reference": "#5b18fe62-69fe-40c5-b040-7381de8b5942"
+    },
+    "period": {
+      "start": "2017-12-29T18:14:15+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10072875"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/10072875"
+}

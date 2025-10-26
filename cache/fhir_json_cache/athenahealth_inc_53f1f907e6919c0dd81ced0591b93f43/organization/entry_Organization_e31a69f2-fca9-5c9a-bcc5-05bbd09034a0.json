@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e31a69f2-fca9-5c9a-bcc5-05bbd09034a0",
+    "name": "NRHN PHYSICIAN SERVICES",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ff4c793b-3c2f-527b-a439-66bc0c31f14a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1831436633"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "70 BUTLER ST"
+        ],
+        "city": "SALEM",
+        "state": "NH",
+        "postalCode": "03079-3917"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6076"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6076.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e31a69f2-fca9-5c9a-bcc5-05bbd09034a0"
+}

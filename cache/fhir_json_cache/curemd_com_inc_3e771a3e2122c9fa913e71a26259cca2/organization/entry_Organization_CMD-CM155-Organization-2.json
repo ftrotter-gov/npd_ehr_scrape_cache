@@ -1,0 +1,63 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "CMD-CM155-Organization-2",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+      ],
+      "tag": [
+        {
+          "system": "https://www.curemd.com/tenant",
+          "code": "CM155"
+        }
+      ]
+    },
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Randolph County of Health Department",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "6602636643"
+      },
+      {
+        "system": "fax",
+        "value": "6602630333"
+      },
+      {
+        "system": "url",
+        "value": "www.randolphcountyhealth.org"
+      }
+    ],
+    "address": [
+      {
+        "text": "1319 East Highway 24 Suite A Moberly MO 65270 US",
+        "line": [
+          "1319 East Highway 24",
+          "Suite A"
+        ],
+        "city": "Moberly",
+        "state": "MO",
+        "postalCode": "65270",
+        "country": "US"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/CMD-CM155-Endpoint-2"
+      }
+    ]
+  },
+  "fullUrl": "https://fhirendpoint.curemd.net/fhir/DEFAULT/Organization/CMD-CM155-Organization-2"
+}

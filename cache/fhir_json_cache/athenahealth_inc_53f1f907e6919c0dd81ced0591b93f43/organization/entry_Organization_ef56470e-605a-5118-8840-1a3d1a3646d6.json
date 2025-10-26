@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ef56470e-605a-5118-8840-1a3d1a3646d6",
+    "name": "Circle Family Healthcare Network",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bcb3a281-bbc4-5dad-b074-61add1e3e58c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1326031998"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "115 N Parkside"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60644-4127"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15508"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15508.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ef56470e-605a-5118-8840-1a3d1a3646d6"
+}

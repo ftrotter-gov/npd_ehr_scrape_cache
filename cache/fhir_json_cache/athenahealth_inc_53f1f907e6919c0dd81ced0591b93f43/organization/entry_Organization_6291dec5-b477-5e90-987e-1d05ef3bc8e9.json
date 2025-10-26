@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6291dec5-b477-5e90-987e-1d05ef3bc8e9",
+    "name": "Cevares Medical Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/54a36f9e-45aa-5e3c-b507-1343e81f26f2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023606803"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "757 NW 27TH AVE",
+          "STE 201"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33125-3012"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26324"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26324.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6291dec5-b477-5e90-987e-1d05ef3bc8e9"
+}

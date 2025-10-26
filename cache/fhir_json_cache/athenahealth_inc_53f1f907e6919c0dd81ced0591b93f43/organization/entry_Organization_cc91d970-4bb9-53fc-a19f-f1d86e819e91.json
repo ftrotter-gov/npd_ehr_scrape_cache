@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cc91d970-4bb9-53fc-a19f-f1d86e819e91",
+    "name": "Main Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8f8d21fd-f6fe-5c5d-b90b-a94e2f54c73e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1275712069"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1909 CUBA AVE STE 1"
+        ],
+        "city": "ALAMOGORDO",
+        "state": "NM",
+        "postalCode": "88310-5646"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-11979"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-11979.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cc91d970-4bb9-53fc-a19f-f1d86e819e91"
+}

@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "2407d1bc-e88c-532a-b090-85fb6b1d699d",
+    "name": "DispatchHealth",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6721997f-8a2f-5ccc-b67b-a6fb1f986aff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1023538790"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6490 S MCCARRAN BLVD STE 15 BLDG B"
+        ],
+        "city": "RENO",
+        "state": "NV",
+        "postalCode": "89509-6126"
+      },
+      {
+        "line": [
+          "376 E WARM SPRINGS RD STE 110"
+        ],
+        "city": "LAS VEGAS",
+        "state": "NV",
+        "postalCode": "89119-4241"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-13869"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-13869.Brand-22"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:2407d1bc-e88c-532a-b090-85fb6b1d699d"
+}

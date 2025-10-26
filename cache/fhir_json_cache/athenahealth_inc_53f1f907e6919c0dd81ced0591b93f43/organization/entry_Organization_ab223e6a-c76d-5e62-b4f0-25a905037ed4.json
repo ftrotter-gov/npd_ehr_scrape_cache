@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ab223e6a-c76d-5e62-b4f0-25a905037ed4",
+    "name": "Mary Washington Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2ef1e33c-b04b-5a72-b09a-4aa5e9b5f9a6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1396085650"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1001 Sam Perry Blvd"
+        ],
+        "city": "FREDERICKSBURG",
+        "state": "VA",
+        "postalCode": "22401-4453"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-6575"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-6575.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ab223e6a-c76d-5e62-b4f0-25a905037ed4"
+}

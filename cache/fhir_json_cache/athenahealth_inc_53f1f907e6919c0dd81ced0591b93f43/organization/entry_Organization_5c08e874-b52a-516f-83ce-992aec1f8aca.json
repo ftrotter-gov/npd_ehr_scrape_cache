@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5c08e874-b52a-516f-83ce-992aec1f8aca",
+    "name": "Prospect Park Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1df5afd3-8fae-5f62-bf35-00d9d5a37c0e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1184786949"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "207 Prospect Park West"
+        ],
+        "city": "BROOKLYN",
+        "state": "NY",
+        "postalCode": "11215-8091"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-4812"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-4812.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5c08e874-b52a-516f-83ce-992aec1f8aca"
+}
