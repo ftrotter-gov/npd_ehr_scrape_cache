@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "aecb5e6b-f344-4588-bd6c-b0bb41243ee4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/aecb5e6b-f344-4588-bd6c-b0bb41243ee4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "aecb5e6b-f344-4588-bd6c-b0bb41243ee4",
-        "name": "The Oaks At Bartlett (FKA Clare Oaks CCR - Bartlett, IL",
-        "address": [
-          {
-            "line": [
-              "825 Carillon Drive"
-            ],
-            "city": "Bartlett",
-            "state": "IL",
-            "postalCode": "60103",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "aecb5e6b-f344-4588-bd6c-b0bb41243ee4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/aecb5e6b-f344-4588-bd6c-b0bb41243ee4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/aecb5e6b-f344-4588-bd6c-b0bb41243ee4"
 }

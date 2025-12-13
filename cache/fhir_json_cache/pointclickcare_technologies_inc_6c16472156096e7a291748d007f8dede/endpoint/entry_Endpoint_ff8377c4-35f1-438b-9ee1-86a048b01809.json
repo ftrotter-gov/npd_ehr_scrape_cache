@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ff8377c4-35f1-438b-9ee1-86a048b01809",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ff8377c4-35f1-438b-9ee1-86a048b01809"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ff8377c4-35f1-438b-9ee1-86a048b01809",
-        "name": "Grace Home Inc. - Livingston, CA",
-        "address": [
-          {
-            "line": [
-              "13435 W. Peach Ave"
-            ],
-            "city": "Livingston",
-            "state": "CA",
-            "postalCode": "95334",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ff8377c4-35f1-438b-9ee1-86a048b01809"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ff8377c4-35f1-438b-9ee1-86a048b01809/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ff8377c4-35f1-438b-9ee1-86a048b01809"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ba8cb3c6-873a-4f61-9e59-6395712d95be",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ba8cb3c6-873a-4f61-9e59-6395712d95be"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ba8cb3c6-873a-4f61-9e59-6395712d95be",
-        "name": "Greene County Hospital & Nursing Home - Eutaw, AL",
-        "address": [
-          {
-            "line": [
-              "509 Wilson Ave"
-            ],
-            "city": "Eutaw",
-            "state": "AL",
-            "postalCode": "35462",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ba8cb3c6-873a-4f61-9e59-6395712d95be"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ba8cb3c6-873a-4f61-9e59-6395712d95be/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ba8cb3c6-873a-4f61-9e59-6395712d95be"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "173009c5-0362-48f9-bd7a-47fc1015e278",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/173009c5-0362-48f9-bd7a-47fc1015e278"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "173009c5-0362-48f9-bd7a-47fc1015e278",
-        "name": "Trouves Health Care Corporation - Tacoma, WA",
-        "address": [
-          {
-            "line": [
-              "4301 North Stevens St."
-            ],
-            "city": "Tacoma",
-            "state": "WA",
-            "postalCode": "98407",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "173009c5-0362-48f9-bd7a-47fc1015e278"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/173009c5-0362-48f9-bd7a-47fc1015e278/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/173009c5-0362-48f9-bd7a-47fc1015e278"
 }

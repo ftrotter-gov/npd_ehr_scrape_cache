@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "515e2257-e7da-4cb5-89f0-33d7b70020b7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/515e2257-e7da-4cb5-89f0-33d7b70020b7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "515e2257-e7da-4cb5-89f0-33d7b70020b7",
-        "name": "Saber Healthcare Group - Bedford Heights, OH",
-        "address": [
-          {
-            "line": [
-              "26691 Richmond Road"
-            ],
-            "city": "Bedford Heights",
-            "state": "OH",
-            "postalCode": "44146",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "515e2257-e7da-4cb5-89f0-33d7b70020b7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/515e2257-e7da-4cb5-89f0-33d7b70020b7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/515e2257-e7da-4cb5-89f0-33d7b70020b7"
 }

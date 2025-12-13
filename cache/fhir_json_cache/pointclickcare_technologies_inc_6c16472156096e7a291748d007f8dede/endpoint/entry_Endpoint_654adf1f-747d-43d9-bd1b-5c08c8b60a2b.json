@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "654adf1f-747d-43d9-bd1b-5c08c8b60a2b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/654adf1f-747d-43d9-bd1b-5c08c8b60a2b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "654adf1f-747d-43d9-bd1b-5c08c8b60a2b",
-        "name": "Citrus Administrative Services - Pasadena, CA",
-        "address": [
-          {
-            "line": [
-              "990 E. Del Mar Blvd"
-            ],
-            "city": "Pasadena",
-            "state": "CA",
-            "postalCode": "91106",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "654adf1f-747d-43d9-bd1b-5c08c8b60a2b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/654adf1f-747d-43d9-bd1b-5c08c8b60a2b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/654adf1f-747d-43d9-bd1b-5c08c8b60a2b"
 }

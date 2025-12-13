@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "53bd5411-2dc9-483a-9550-99b8b1da3335",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/53bd5411-2dc9-483a-9550-99b8b1da3335"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "53bd5411-2dc9-483a-9550-99b8b1da3335",
-        "name": "Casa de las Campanas, Inc. - San Diego, CA",
-        "address": [
-          {
-            "line": [
-              "18655 W Bernardo Dr"
-            ],
-            "city": "San Diego",
-            "state": "CA",
-            "postalCode": "92127",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "53bd5411-2dc9-483a-9550-99b8b1da3335"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/53bd5411-2dc9-483a-9550-99b8b1da3335/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/53bd5411-2dc9-483a-9550-99b8b1da3335"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f0de31b6-1a0a-4e8f-81e5-c235b2f58b02",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f0de31b6-1a0a-4e8f-81e5-c235b2f58b02"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f0de31b6-1a0a-4e8f-81e5-c235b2f58b02",
-        "name": "Caring First Inc - O'Fallon, IL",
-        "address": [
-          {
-            "line": [
-              "774 Sunset Blvd"
-            ],
-            "city": "O'Fallon",
-            "state": "IL",
-            "postalCode": "62269",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f0de31b6-1a0a-4e8f-81e5-c235b2f58b02"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f0de31b6-1a0a-4e8f-81e5-c235b2f58b02/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f0de31b6-1a0a-4e8f-81e5-c235b2f58b02"
 }

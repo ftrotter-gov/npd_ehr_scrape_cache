@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a5171eee-1e58-45a8-8484-7dc9b63488e4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a5171eee-1e58-45a8-8484-7dc9b63488e4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a5171eee-1e58-45a8-8484-7dc9b63488e4",
-        "name": "Methodist Manor Retirement Community - ",
-        "address": [
-          {
-            "line": [
-              "1206 West 4th Street"
-            ],
-            "city": "Storm Lake",
-            "state": "IA",
-            "postalCode": "50588",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a5171eee-1e58-45a8-8484-7dc9b63488e4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a5171eee-1e58-45a8-8484-7dc9b63488e4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a5171eee-1e58-45a8-8484-7dc9b63488e4"
 }

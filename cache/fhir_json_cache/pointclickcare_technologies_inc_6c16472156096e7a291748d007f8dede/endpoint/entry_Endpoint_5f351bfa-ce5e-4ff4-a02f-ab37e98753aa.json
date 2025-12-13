@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5f351bfa-ce5e-4ff4-a02f-ab37e98753aa",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5f351bfa-ce5e-4ff4-a02f-ab37e98753aa"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5f351bfa-ce5e-4ff4-a02f-ab37e98753aa",
-        "name": "Catholic Charities of Baltimore - Timonium, MD",
-        "address": [
-          {
-            "line": [
-              "2300 B Dulaney Valley Rd"
-            ],
-            "city": "Timonium",
-            "state": "MD",
-            "postalCode": "21093",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5f351bfa-ce5e-4ff4-a02f-ab37e98753aa"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5f351bfa-ce5e-4ff4-a02f-ab37e98753aa/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5f351bfa-ce5e-4ff4-a02f-ab37e98753aa"
 }

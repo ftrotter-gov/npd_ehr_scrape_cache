@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c4fc8637-d2df-47d9-8ee5-1a84e1f8ed4d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c4fc8637-d2df-47d9-8ee5-1a84e1f8ed4d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c4fc8637-d2df-47d9-8ee5-1a84e1f8ed4d",
-        "name": "Bethany Lutheran - Council Bluffs, IA",
-        "address": [
-          {
-            "line": [
-              "7 Elliott St"
-            ],
-            "city": "Council Bluffs",
-            "state": "IA",
-            "postalCode": "51503",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c4fc8637-d2df-47d9-8ee5-1a84e1f8ed4d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c4fc8637-d2df-47d9-8ee5-1a84e1f8ed4d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c4fc8637-d2df-47d9-8ee5-1a84e1f8ed4d"
 }

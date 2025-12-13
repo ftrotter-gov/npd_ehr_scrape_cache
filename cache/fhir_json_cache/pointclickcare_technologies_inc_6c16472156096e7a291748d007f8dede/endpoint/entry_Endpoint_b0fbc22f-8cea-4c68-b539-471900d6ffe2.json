@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b0fbc22f-8cea-4c68-b539-471900d6ffe2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b0fbc22f-8cea-4c68-b539-471900d6ffe2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b0fbc22f-8cea-4c68-b539-471900d6ffe2",
-        "name": "The Willows of Marshalltown LLC - Fairfield, IA",
-        "address": [
-          {
-            "line": [
-              "2094 185th Street STE 3B"
-            ],
-            "city": "Fairfield",
-            "state": "IA",
-            "postalCode": "52556",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b0fbc22f-8cea-4c68-b539-471900d6ffe2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b0fbc22f-8cea-4c68-b539-471900d6ffe2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b0fbc22f-8cea-4c68-b539-471900d6ffe2"
 }

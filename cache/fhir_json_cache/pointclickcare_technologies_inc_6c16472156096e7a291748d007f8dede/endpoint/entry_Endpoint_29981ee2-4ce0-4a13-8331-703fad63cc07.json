@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "29981ee2-4ce0-4a13-8331-703fad63cc07",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/29981ee2-4ce0-4a13-8331-703fad63cc07"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "29981ee2-4ce0-4a13-8331-703fad63cc07",
-        "name": "Sacred Heart Jesuit Center - Los Gatos, CA",
-        "address": [
-          {
-            "line": [
-              "300 College Ave"
-            ],
-            "city": "Los Gatos",
-            "state": "CA",
-            "postalCode": "95030",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "29981ee2-4ce0-4a13-8331-703fad63cc07"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/29981ee2-4ce0-4a13-8331-703fad63cc07/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/29981ee2-4ce0-4a13-8331-703fad63cc07"
 }

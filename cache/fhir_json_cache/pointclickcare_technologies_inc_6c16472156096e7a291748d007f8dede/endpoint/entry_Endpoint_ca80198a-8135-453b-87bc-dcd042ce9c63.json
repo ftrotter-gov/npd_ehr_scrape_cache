@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ca80198a-8135-453b-87bc-dcd042ce9c63",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ca80198a-8135-453b-87bc-dcd042ce9c63"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ca80198a-8135-453b-87bc-dcd042ce9c63",
-        "name": "BVM Management, Inc. - Fishers, IN",
-        "address": [
-          {
-            "line": [
-              "9114 Technology Drive"
-            ],
-            "city": "Fishers",
-            "state": "IN",
-            "postalCode": "46038",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ca80198a-8135-453b-87bc-dcd042ce9c63"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ca80198a-8135-453b-87bc-dcd042ce9c63/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ca80198a-8135-453b-87bc-dcd042ce9c63"
 }

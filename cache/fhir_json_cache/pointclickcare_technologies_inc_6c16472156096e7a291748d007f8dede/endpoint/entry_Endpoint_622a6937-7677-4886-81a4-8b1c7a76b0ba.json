@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "622a6937-7677-4886-81a4-8b1c7a76b0ba",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/622a6937-7677-4886-81a4-8b1c7a76b0ba"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "622a6937-7677-4886-81a4-8b1c7a76b0ba",
-        "name": "Insight Living - Brea, CA",
-        "address": [
-          {
-            "line": [
-              "2913 Saturn Street Unit C",
-              "Suite 190"
-            ],
-            "city": "Brea",
-            "state": "CA",
-            "postalCode": "92821",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "622a6937-7677-4886-81a4-8b1c7a76b0ba"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/622a6937-7677-4886-81a4-8b1c7a76b0ba/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/622a6937-7677-4886-81a4-8b1c7a76b0ba"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "768fb60d-3d9e-4152-b0da-c03b3b28d901",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/768fb60d-3d9e-4152-b0da-c03b3b28d901"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "768fb60d-3d9e-4152-b0da-c03b3b28d901",
-        "name": "Mitchell County Community Hospital-LTCU - Beloit, KS",
-        "address": [
-          {
-            "line": [
-              "400 W 8th St",
-              "PO Box 399"
-            ],
-            "city": "Beloit",
-            "state": "KS",
-            "postalCode": "67420-1605",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "768fb60d-3d9e-4152-b0da-c03b3b28d901"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/768fb60d-3d9e-4152-b0da-c03b3b28d901/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/768fb60d-3d9e-4152-b0da-c03b3b28d901"
 }

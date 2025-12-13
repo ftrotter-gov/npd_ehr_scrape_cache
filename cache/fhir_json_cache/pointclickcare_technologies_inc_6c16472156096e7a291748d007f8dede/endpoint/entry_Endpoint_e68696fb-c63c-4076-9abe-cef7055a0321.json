@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e68696fb-c63c-4076-9abe-cef7055a0321",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e68696fb-c63c-4076-9abe-cef7055a0321"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e68696fb-c63c-4076-9abe-cef7055a0321",
-        "name": "Maybrook Healthcare LLC - Lynbrook, NY",
-        "address": [
-          {
-            "line": [
-              "600 Broadway"
-            ],
-            "city": "Lynbrook",
-            "state": "NY",
-            "postalCode": "11563",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e68696fb-c63c-4076-9abe-cef7055a0321"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e68696fb-c63c-4076-9abe-cef7055a0321/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e68696fb-c63c-4076-9abe-cef7055a0321"
 }

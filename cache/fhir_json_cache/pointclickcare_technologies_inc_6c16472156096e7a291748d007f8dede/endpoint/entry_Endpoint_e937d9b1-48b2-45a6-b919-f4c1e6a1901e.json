@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e937d9b1-48b2-45a6-b919-f4c1e6a1901e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e937d9b1-48b2-45a6-b919-f4c1e6a1901e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e937d9b1-48b2-45a6-b919-f4c1e6a1901e",
-        "name": "Rock Island Supportive Living Center LLC - Chicago, IL",
-        "address": [
-          {
-            "line": [
-              "PO 597665"
-            ],
-            "city": "Chicago",
-            "state": "IL",
-            "postalCode": "60659",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e937d9b1-48b2-45a6-b919-f4c1e6a1901e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e937d9b1-48b2-45a6-b919-f4c1e6a1901e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e937d9b1-48b2-45a6-b919-f4c1e6a1901e"
 }

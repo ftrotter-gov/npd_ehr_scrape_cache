@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3dcf7861-45e6-4a17-88e5-fe4b86b952d1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3dcf7861-45e6-4a17-88e5-fe4b86b952d1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3dcf7861-45e6-4a17-88e5-fe4b86b952d1",
-        "name": "Aurora Cares, LLC dba Tara Cares - Orchard Park, NY",
-        "address": [
-          {
-            "line": [
-              "3690 Southwestern Boulevard",
-              "P. O. Box 0428"
-            ],
-            "city": "Orchard Park",
-            "state": "NY",
-            "postalCode": "14127",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3dcf7861-45e6-4a17-88e5-fe4b86b952d1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3dcf7861-45e6-4a17-88e5-fe4b86b952d1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3dcf7861-45e6-4a17-88e5-fe4b86b952d1"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "705bcc8f-6795-4f88-b2d5-7bccfd18fd42",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/705bcc8f-6795-4f88-b2d5-7bccfd18fd42"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "705bcc8f-6795-4f88-b2d5-7bccfd18fd42",
-        "name": "St. Camillus Health Center, Inc. - Wauwatosa, WI",
-        "address": [
-          {
-            "line": [
-              "10101 W Wisconsin Ave"
-            ],
-            "city": "Wauwatosa",
-            "state": "WI",
-            "postalCode": "53226",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "705bcc8f-6795-4f88-b2d5-7bccfd18fd42"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/705bcc8f-6795-4f88-b2d5-7bccfd18fd42/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/705bcc8f-6795-4f88-b2d5-7bccfd18fd42"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5f30fe8f-9491-4f9f-898c-7efeba2b4564",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5f30fe8f-9491-4f9f-898c-7efeba2b4564"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5f30fe8f-9491-4f9f-898c-7efeba2b4564",
-        "name": "Glengariff Health Care Center - Glen Cove, NY",
-        "address": [
-          {
-            "line": [
-              "141 Dosoris Ln"
-            ],
-            "city": "Glen Cove",
-            "state": "NY",
-            "postalCode": "11542",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5f30fe8f-9491-4f9f-898c-7efeba2b4564"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5f30fe8f-9491-4f9f-898c-7efeba2b4564/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5f30fe8f-9491-4f9f-898c-7efeba2b4564"
 }

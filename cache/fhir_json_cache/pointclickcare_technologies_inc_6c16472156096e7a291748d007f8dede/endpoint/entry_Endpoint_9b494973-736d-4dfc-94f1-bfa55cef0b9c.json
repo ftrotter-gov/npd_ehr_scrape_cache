@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9b494973-736d-4dfc-94f1-bfa55cef0b9c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9b494973-736d-4dfc-94f1-bfa55cef0b9c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9b494973-736d-4dfc-94f1-bfa55cef0b9c",
-        "name": "Dudneywood Assisted Living - Magnolia, AR",
-        "address": [
-          {
-            "line": [
-              "2600 N Dudney Rd."
-            ],
-            "city": "Magnolia",
-            "state": "AR",
-            "postalCode": "71754",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9b494973-736d-4dfc-94f1-bfa55cef0b9c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9b494973-736d-4dfc-94f1-bfa55cef0b9c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9b494973-736d-4dfc-94f1-bfa55cef0b9c"
 }

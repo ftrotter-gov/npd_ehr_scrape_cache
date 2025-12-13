@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d7a496b5-7358-44c9-8401-267e96c9bffb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d7a496b5-7358-44c9-8401-267e96c9bffb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d7a496b5-7358-44c9-8401-267e96c9bffb",
-        "name": "Allied Services - Clarks Summit, PA",
-        "address": [
-          {
-            "line": [
-              "100 Abington Executive Park"
-            ],
-            "city": "Clarks Summit",
-            "state": "PA",
-            "postalCode": "18411",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d7a496b5-7358-44c9-8401-267e96c9bffb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d7a496b5-7358-44c9-8401-267e96c9bffb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d7a496b5-7358-44c9-8401-267e96c9bffb"
 }

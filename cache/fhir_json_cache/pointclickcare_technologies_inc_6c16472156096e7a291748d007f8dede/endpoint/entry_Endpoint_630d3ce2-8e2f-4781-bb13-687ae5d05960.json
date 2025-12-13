@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "630d3ce2-8e2f-4781-bb13-687ae5d05960",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/630d3ce2-8e2f-4781-bb13-687ae5d05960"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "630d3ce2-8e2f-4781-bb13-687ae5d05960",
-        "name": "S.L. Hinson Associates - Alexandria, VA",
-        "address": [
-          {
-            "line": [
-              "8101 Hinson Farm Road",
-              "Suite 317"
-            ],
-            "city": "Alexandria",
-            "state": "VA",
-            "postalCode": "22306",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "630d3ce2-8e2f-4781-bb13-687ae5d05960"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/630d3ce2-8e2f-4781-bb13-687ae5d05960/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/630d3ce2-8e2f-4781-bb13-687ae5d05960"
 }

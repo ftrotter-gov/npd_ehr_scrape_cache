@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "44987b94-7698-474c-91e9-5e67033cedac",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/44987b94-7698-474c-91e9-5e67033cedac"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "44987b94-7698-474c-91e9-5e67033cedac",
-        "name": "Maple Lawn Medical Care Facility - Coldwater, MI",
-        "address": [
-          {
-            "line": [
-              "50 Sanderson Ln"
-            ],
-            "city": "Coldwater",
-            "state": "MI",
-            "postalCode": "49036-2228",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "44987b94-7698-474c-91e9-5e67033cedac"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/44987b94-7698-474c-91e9-5e67033cedac/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/44987b94-7698-474c-91e9-5e67033cedac"
 }

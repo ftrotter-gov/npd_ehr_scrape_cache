@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "33090ddc-2d60-4ef5-8fb5-03127fe7e81e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/33090ddc-2d60-4ef5-8fb5-03127fe7e81e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "33090ddc-2d60-4ef5-8fb5-03127fe7e81e",
-        "name": "Greenewood Manor - Xenia, OH",
-        "address": [
-          {
-            "line": [
-              "711 Dayton Xenia Rd",
-              "35 Greene Street"
-            ],
-            "city": "Xenia",
-            "state": "OH",
-            "postalCode": "45385-2698",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "33090ddc-2d60-4ef5-8fb5-03127fe7e81e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/33090ddc-2d60-4ef5-8fb5-03127fe7e81e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/33090ddc-2d60-4ef5-8fb5-03127fe7e81e"
 }

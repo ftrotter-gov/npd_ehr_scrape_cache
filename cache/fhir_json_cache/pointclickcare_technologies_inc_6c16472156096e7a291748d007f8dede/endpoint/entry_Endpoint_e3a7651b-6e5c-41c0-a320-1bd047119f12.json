@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e3a7651b-6e5c-41c0-a320-1bd047119f12",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e3a7651b-6e5c-41c0-a320-1bd047119f12"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e3a7651b-6e5c-41c0-a320-1bd047119f12",
-        "name": "D'Youville Senior Care, Inc. - Lowell, MA",
-        "address": [
-          {
-            "line": [
-              "981 Varnum Ave"
-            ],
-            "city": "Lowell",
-            "state": "MA",
-            "postalCode": "01854",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e3a7651b-6e5c-41c0-a320-1bd047119f12"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e3a7651b-6e5c-41c0-a320-1bd047119f12/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e3a7651b-6e5c-41c0-a320-1bd047119f12"
 }

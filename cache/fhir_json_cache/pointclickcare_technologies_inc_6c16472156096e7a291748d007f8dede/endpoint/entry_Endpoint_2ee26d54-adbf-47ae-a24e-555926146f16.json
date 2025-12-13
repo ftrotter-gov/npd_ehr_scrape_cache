@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2ee26d54-adbf-47ae-a24e-555926146f16",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2ee26d54-adbf-47ae-a24e-555926146f16"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2ee26d54-adbf-47ae-a24e-555926146f16",
-        "name": "Azria Health Management, LLC - Skokie, IL",
-        "address": [
-          {
-            "line": [
-              "3450 Oakton Street",
-              "Suite 403"
-            ],
-            "city": "Skokie",
-            "state": "IL",
-            "postalCode": "60076",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2ee26d54-adbf-47ae-a24e-555926146f16"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2ee26d54-adbf-47ae-a24e-555926146f16/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2ee26d54-adbf-47ae-a24e-555926146f16"
 }

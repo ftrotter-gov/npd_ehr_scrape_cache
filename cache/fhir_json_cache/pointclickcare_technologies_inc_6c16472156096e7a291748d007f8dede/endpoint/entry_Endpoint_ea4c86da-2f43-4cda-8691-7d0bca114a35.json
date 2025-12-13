@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ea4c86da-2f43-4cda-8691-7d0bca114a35",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ea4c86da-2f43-4cda-8691-7d0bca114a35"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ea4c86da-2f43-4cda-8691-7d0bca114a35",
-        "name": "Clare Housing - Minneapolis, MN",
-        "address": [
-          {
-            "line": [
-              "929 Central Ave Ne"
-            ],
-            "city": "Minneapolis",
-            "state": "MN",
-            "postalCode": "55413",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ea4c86da-2f43-4cda-8691-7d0bca114a35"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ea4c86da-2f43-4cda-8691-7d0bca114a35/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ea4c86da-2f43-4cda-8691-7d0bca114a35"
 }

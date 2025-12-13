@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b6744937-c955-46ef-b951-97215157b5d1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b6744937-c955-46ef-b951-97215157b5d1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b6744937-c955-46ef-b951-97215157b5d1",
-        "name": "Elder Outreach Nursing & Rehabilitation - Baton Rouge, LA",
-        "address": [
-          {
-            "line": [
-              "10632 Hillary Court"
-            ],
-            "city": "Baton Rouge",
-            "state": "LA",
-            "postalCode": "70810",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b6744937-c955-46ef-b951-97215157b5d1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b6744937-c955-46ef-b951-97215157b5d1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b6744937-c955-46ef-b951-97215157b5d1"
 }

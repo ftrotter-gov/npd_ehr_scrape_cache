@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e6b105af-6722-46c5-82fd-28d98c7f5336",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e6b105af-6722-46c5-82fd-28d98c7f5336"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e6b105af-6722-46c5-82fd-28d98c7f5336",
-        "name": "Garden Village - Yakima, WA",
-        "address": [
-          {
-            "line": [
-              "206 S 10th Ave"
-            ],
-            "city": "Yakima",
-            "state": "WA",
-            "postalCode": "98902",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e6b105af-6722-46c5-82fd-28d98c7f5336"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e6b105af-6722-46c5-82fd-28d98c7f5336/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e6b105af-6722-46c5-82fd-28d98c7f5336"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "13b03597-6fca-4ebe-ad60-cb1ad74a03c4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/13b03597-6fca-4ebe-ad60-cb1ad74a03c4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "13b03597-6fca-4ebe-ad60-cb1ad74a03c4",
-        "name": "Catholic Health System - Buffalo, NY",
-        "address": [
-          {
-            "line": [
-              "144 Genesee St.",
-              "Accounts Payable 4th Floor"
-            ],
-            "city": "Buffalo",
-            "state": "NY",
-            "postalCode": "14203",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "13b03597-6fca-4ebe-ad60-cb1ad74a03c4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/13b03597-6fca-4ebe-ad60-cb1ad74a03c4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/13b03597-6fca-4ebe-ad60-cb1ad74a03c4"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b8419ec1-2a60-4bdd-a585-f3f24d7594b5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b8419ec1-2a60-4bdd-a585-f3f24d7594b5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b8419ec1-2a60-4bdd-a585-f3f24d7594b5",
-        "name": "Wisconsin  Dept of Veterans Affairs - Madison, WI",
-        "address": [
-          {
-            "line": [
-              "201 West Washington Ave"
-            ],
-            "city": "Madison",
-            "state": "WI",
-            "postalCode": "53707-7843",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b8419ec1-2a60-4bdd-a585-f3f24d7594b5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b8419ec1-2a60-4bdd-a585-f3f24d7594b5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b8419ec1-2a60-4bdd-a585-f3f24d7594b5"
 }

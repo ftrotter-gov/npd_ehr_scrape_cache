@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "39b39fa9-01e4-406c-84f1-41e4cca3decf",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/39b39fa9-01e4-406c-84f1-41e4cca3decf"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "39b39fa9-01e4-406c-84f1-41e4cca3decf",
-        "name": "White River Health Care Center - White River, SD",
-        "address": [
-          {
-            "line": [
-              "515 E 8th St",
-              "PO Box 310"
-            ],
-            "city": "White River",
-            "state": "SD",
-            "postalCode": "57579-0310",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "39b39fa9-01e4-406c-84f1-41e4cca3decf"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/39b39fa9-01e4-406c-84f1-41e4cca3decf/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/39b39fa9-01e4-406c-84f1-41e4cca3decf"
 }

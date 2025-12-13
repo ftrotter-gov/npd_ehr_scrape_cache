@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6e163a76-fac7-491c-9f8e-07380f9de5e6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6e163a76-fac7-491c-9f8e-07380f9de5e6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6e163a76-fac7-491c-9f8e-07380f9de5e6",
-        "name": "Colonial Manor Nursing & Rehabilitation - Rayville, LA",
-        "address": [
-          {
-            "line": [
-              "307 Foster St"
-            ],
-            "city": "Rayville",
-            "state": "LA",
-            "postalCode": "71269",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6e163a76-fac7-491c-9f8e-07380f9de5e6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6e163a76-fac7-491c-9f8e-07380f9de5e6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6e163a76-fac7-491c-9f8e-07380f9de5e6"
 }

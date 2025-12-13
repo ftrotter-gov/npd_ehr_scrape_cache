@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0378e704-035a-41d5-867c-649a6bd35872",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0378e704-035a-41d5-867c-649a6bd35872"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0378e704-035a-41d5-867c-649a6bd35872",
-        "name": "The Ambassador at Scarsdale - White Plains, NY",
-        "address": [
-          {
-            "line": [
-              "9 Saxon Wood Road"
-            ],
-            "city": "White Plains",
-            "state": "NY",
-            "postalCode": "10605",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0378e704-035a-41d5-867c-649a6bd35872"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0378e704-035a-41d5-867c-649a6bd35872/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0378e704-035a-41d5-867c-649a6bd35872"
 }

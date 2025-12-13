@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1f2b28a5-8299-423c-9b97-562ba02582fc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1f2b28a5-8299-423c-9b97-562ba02582fc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1f2b28a5-8299-423c-9b97-562ba02582fc",
-        "name": "Masonic Villages of Pennsylvania - Elizabethtown, PA",
-        "address": [
-          {
-            "line": [
-              "One Masonic Drive"
-            ],
-            "city": "Elizabethtown",
-            "state": "PA",
-            "postalCode": "17022",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1f2b28a5-8299-423c-9b97-562ba02582fc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1f2b28a5-8299-423c-9b97-562ba02582fc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1f2b28a5-8299-423c-9b97-562ba02582fc"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c895046d-13b2-4695-bdee-ea4c4fdf4232",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c895046d-13b2-4695-bdee-ea4c4fdf4232"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c895046d-13b2-4695-bdee-ea4c4fdf4232",
-        "name": "Tavares Village Retirement Community, LL - Tavares, FL",
-        "address": [
-          {
-            "line": [
-              "1501 Sunshine Parkway"
-            ],
-            "city": "Tavares",
-            "state": "FL",
-            "postalCode": "32778",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c895046d-13b2-4695-bdee-ea4c4fdf4232"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c895046d-13b2-4695-bdee-ea4c4fdf4232/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c895046d-13b2-4695-bdee-ea4c4fdf4232"
 }

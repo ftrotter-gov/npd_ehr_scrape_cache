@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0d5622af-e944-4e7b-8efc-ce46f3bd1533",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0d5622af-e944-4e7b-8efc-ce46f3bd1533"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0d5622af-e944-4e7b-8efc-ce46f3bd1533",
-        "name": "Riverside Manor - Newcomerstown, OH",
-        "address": [
-          {
-            "line": [
-              "1100 East State Rd"
-            ],
-            "city": "Newcomerstown",
-            "state": "OH",
-            "postalCode": "43832",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0d5622af-e944-4e7b-8efc-ce46f3bd1533"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0d5622af-e944-4e7b-8efc-ce46f3bd1533/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0d5622af-e944-4e7b-8efc-ce46f3bd1533"
 }

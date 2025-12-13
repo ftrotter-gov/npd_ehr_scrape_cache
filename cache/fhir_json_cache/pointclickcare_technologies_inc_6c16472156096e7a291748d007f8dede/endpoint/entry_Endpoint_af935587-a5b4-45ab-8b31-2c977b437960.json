@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "af935587-a5b4-45ab-8b31-2c977b437960",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/af935587-a5b4-45ab-8b31-2c977b437960"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "af935587-a5b4-45ab-8b31-2c977b437960",
-        "name": "Coral Landing Assisted Living - St. Augustine, FL",
-        "address": [
-          {
-            "line": [
-              "2820 Old Moultrie Road"
-            ],
-            "city": "St. Augustine",
-            "state": "FL",
-            "postalCode": "32086",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "af935587-a5b4-45ab-8b31-2c977b437960"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/af935587-a5b4-45ab-8b31-2c977b437960/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/af935587-a5b4-45ab-8b31-2c977b437960"
 }

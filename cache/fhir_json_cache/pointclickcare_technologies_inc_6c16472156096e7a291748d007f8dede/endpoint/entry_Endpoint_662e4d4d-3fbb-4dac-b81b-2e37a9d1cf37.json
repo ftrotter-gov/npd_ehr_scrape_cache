@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "662e4d4d-3fbb-4dac-b81b-2e37a9d1cf37",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/662e4d4d-3fbb-4dac-b81b-2e37a9d1cf37"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "662e4d4d-3fbb-4dac-b81b-2e37a9d1cf37",
-        "name": "SAYRE CHRISTIAN VILLAGE NURSING HOME, IN - Lexington, KY",
-        "address": [
-          {
-            "line": [
-              "3775 Belleau Wood Drive"
-            ],
-            "city": "Lexington",
-            "state": "KY",
-            "postalCode": "40517",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "662e4d4d-3fbb-4dac-b81b-2e37a9d1cf37"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/662e4d4d-3fbb-4dac-b81b-2e37a9d1cf37/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/662e4d4d-3fbb-4dac-b81b-2e37a9d1cf37"
 }

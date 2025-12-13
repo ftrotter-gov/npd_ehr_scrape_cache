@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0886ebec-3756-4594-a01f-e3ff0711f7d3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0886ebec-3756-4594-a01f-e3ff0711f7d3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0886ebec-3756-4594-a01f-e3ff0711f7d3",
-        "name": "Meridian Care - Alice, TX",
-        "address": [
-          {
-            "line": [
-              "219 N. King St"
-            ],
-            "city": "Alice",
-            "state": "TX",
-            "postalCode": "78332-4841",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0886ebec-3756-4594-a01f-e3ff0711f7d3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0886ebec-3756-4594-a01f-e3ff0711f7d3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0886ebec-3756-4594-a01f-e3ff0711f7d3"
 }

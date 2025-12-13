@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7cc0a0e8-b82e-482b-96bc-e9c6cf55d59a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7cc0a0e8-b82e-482b-96bc-e9c6cf55d59a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7cc0a0e8-b82e-482b-96bc-e9c6cf55d59a",
-        "name": "Buchanan County Health Center - Independence, IA",
-        "address": [
-          {
-            "line": [
-              "1600 1st St East"
-            ],
-            "city": "Independence",
-            "state": "IA",
-            "postalCode": "50644",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7cc0a0e8-b82e-482b-96bc-e9c6cf55d59a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7cc0a0e8-b82e-482b-96bc-e9c6cf55d59a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7cc0a0e8-b82e-482b-96bc-e9c6cf55d59a"
 }

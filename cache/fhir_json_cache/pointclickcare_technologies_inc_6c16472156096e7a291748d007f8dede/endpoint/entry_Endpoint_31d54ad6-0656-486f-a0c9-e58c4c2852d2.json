@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "31d54ad6-0656-486f-a0c9-e58c4c2852d2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/31d54ad6-0656-486f-a0c9-e58c4c2852d2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "31d54ad6-0656-486f-a0c9-e58c4c2852d2",
-        "name": "Elms, The - Macomb, IL",
-        "address": [
-          {
-            "line": [
-              "1212 Madelyn Ave"
-            ],
-            "city": "Macomb",
-            "state": "IL",
-            "postalCode": "61455-3398",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "31d54ad6-0656-486f-a0c9-e58c4c2852d2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/31d54ad6-0656-486f-a0c9-e58c4c2852d2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/31d54ad6-0656-486f-a0c9-e58c4c2852d2"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "738068d9-a1e6-45a8-8c65-2af93320f0b3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/738068d9-a1e6-45a8-8c65-2af93320f0b3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "738068d9-a1e6-45a8-8c65-2af93320f0b3",
-        "name": "The Garden's of Fountain Way, LLC - Menasha, WI",
-        "address": [
-          {
-            "line": [
-              "1700 Midway Rd"
-            ],
-            "city": "Menasha",
-            "state": "WI",
-            "postalCode": "54952",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "738068d9-a1e6-45a8-8c65-2af93320f0b3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/738068d9-a1e6-45a8-8c65-2af93320f0b3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/738068d9-a1e6-45a8-8c65-2af93320f0b3"
 }

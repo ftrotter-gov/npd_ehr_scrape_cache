@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "44dae95e-a635-4921-b817-2b8d4fc98a48",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/44dae95e-a635-4921-b817-2b8d4fc98a48"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "44dae95e-a635-4921-b817-2b8d4fc98a48",
-        "name": "Excelsior Care Group - Brooklyn, NY",
-        "address": [
-          {
-            "line": [
-              "1463 66th Street"
-            ],
-            "city": "Brooklyn",
-            "state": "NY",
-            "postalCode": "11219",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "44dae95e-a635-4921-b817-2b8d4fc98a48"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/44dae95e-a635-4921-b817-2b8d4fc98a48/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/44dae95e-a635-4921-b817-2b8d4fc98a48"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "633e59be-53e7-422a-b624-e94de1067ead",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/633e59be-53e7-422a-b624-e94de1067ead"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "633e59be-53e7-422a-b624-e94de1067ead",
-        "name": "Divine Healthcare Management, LLC - Brooklyn, NY",
-        "address": [
-          {
-            "line": [
-              "1632 61st St",
-              "Suite 213"
-            ],
-            "city": "Brooklyn",
-            "state": "NY",
-            "postalCode": "11204",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "633e59be-53e7-422a-b624-e94de1067ead"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/633e59be-53e7-422a-b624-e94de1067ead/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/633e59be-53e7-422a-b624-e94de1067ead"
 }

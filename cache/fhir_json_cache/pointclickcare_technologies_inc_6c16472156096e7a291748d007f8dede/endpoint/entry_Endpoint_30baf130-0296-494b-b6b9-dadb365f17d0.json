@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "30baf130-0296-494b-b6b9-dadb365f17d0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/30baf130-0296-494b-b6b9-dadb365f17d0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "30baf130-0296-494b-b6b9-dadb365f17d0",
-        "name": "Accordius Health LLC - Englewood Cliff, NJ",
-        "address": [
-          {
-            "line": [
-              "440 Sylvan Ave"
-            ],
-            "city": "Englewood Cliffs",
-            "state": "NJ",
-            "postalCode": "07632",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "30baf130-0296-494b-b6b9-dadb365f17d0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/30baf130-0296-494b-b6b9-dadb365f17d0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/30baf130-0296-494b-b6b9-dadb365f17d0"
 }

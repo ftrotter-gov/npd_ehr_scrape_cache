@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "81776928-fa92-4013-852b-9fb1a653e419",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/81776928-fa92-4013-852b-9fb1a653e419"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "81776928-fa92-4013-852b-9fb1a653e419",
-        "name": "Porter Hills Presbyterian Village, Inc - Grand Rapids, MI",
-        "address": [
-          {
-            "line": [
-              "4450 Cascade Road SE",
-              "Suite 200"
-            ],
-            "city": "Grand Rapids",
-            "state": "MI",
-            "postalCode": "49546",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "81776928-fa92-4013-852b-9fb1a653e419"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/81776928-fa92-4013-852b-9fb1a653e419/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/81776928-fa92-4013-852b-9fb1a653e419"
 }

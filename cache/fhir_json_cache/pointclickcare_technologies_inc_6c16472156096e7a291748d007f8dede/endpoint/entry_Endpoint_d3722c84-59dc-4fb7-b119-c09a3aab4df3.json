@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d3722c84-59dc-4fb7-b119-c09a3aab4df3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d3722c84-59dc-4fb7-b119-c09a3aab4df3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d3722c84-59dc-4fb7-b119-c09a3aab4df3",
-        "name": "Bayside Terrace - Waukegan, IL",
-        "address": [
-          {
-            "line": [
-              "1100 S Lewis Ave"
-            ],
-            "city": "Waukegan",
-            "state": "IL",
-            "postalCode": "60085-7799",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d3722c84-59dc-4fb7-b119-c09a3aab4df3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d3722c84-59dc-4fb7-b119-c09a3aab4df3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d3722c84-59dc-4fb7-b119-c09a3aab4df3"
 }

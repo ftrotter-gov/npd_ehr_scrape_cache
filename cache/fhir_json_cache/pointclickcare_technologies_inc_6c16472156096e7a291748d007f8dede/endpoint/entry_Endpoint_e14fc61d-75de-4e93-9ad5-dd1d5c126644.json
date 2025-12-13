@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e14fc61d-75de-4e93-9ad5-dd1d5c126644",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e14fc61d-75de-4e93-9ad5-dd1d5c126644"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e14fc61d-75de-4e93-9ad5-dd1d5c126644",
-        "name": "Maryland Province of the Society of Jesu - Towson, MD",
-        "address": [
-          {
-            "line": [
-              "8600 LaSalle Road",
-              "Suite 620"
-            ],
-            "city": "Towson",
-            "state": "MD",
-            "postalCode": "21286-2001",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e14fc61d-75de-4e93-9ad5-dd1d5c126644"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e14fc61d-75de-4e93-9ad5-dd1d5c126644/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e14fc61d-75de-4e93-9ad5-dd1d5c126644"
 }

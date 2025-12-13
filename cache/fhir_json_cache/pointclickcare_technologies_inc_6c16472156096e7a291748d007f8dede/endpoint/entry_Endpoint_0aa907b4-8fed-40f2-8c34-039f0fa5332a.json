@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0aa907b4-8fed-40f2-8c34-039f0fa5332a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0aa907b4-8fed-40f2-8c34-039f0fa5332a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0aa907b4-8fed-40f2-8c34-039f0fa5332a",
-        "name": "Manning Gardens Convalescent Hospital - Fresno, CA",
-        "address": [
-          {
-            "line": [
-              "2113 E Manning Ave"
-            ],
-            "city": "Fresno",
-            "state": "CA",
-            "postalCode": "93725-9681",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0aa907b4-8fed-40f2-8c34-039f0fa5332a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0aa907b4-8fed-40f2-8c34-039f0fa5332a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0aa907b4-8fed-40f2-8c34-039f0fa5332a"
 }

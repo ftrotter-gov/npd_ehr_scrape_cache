@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5b88cda4-5390-4ef6-bb9f-c08932edeaea",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5b88cda4-5390-4ef6-bb9f-c08932edeaea"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5b88cda4-5390-4ef6-bb9f-c08932edeaea",
-        "name": "Pinnacle Health & Rehab at S. Portland - South Portland, ME",
-        "address": [
-          {
-            "line": [
-              "42 Anthoine St"
-            ],
-            "city": "South Portland",
-            "state": "ME",
-            "postalCode": "04106",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5b88cda4-5390-4ef6-bb9f-c08932edeaea"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5b88cda4-5390-4ef6-bb9f-c08932edeaea/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5b88cda4-5390-4ef6-bb9f-c08932edeaea"
 }

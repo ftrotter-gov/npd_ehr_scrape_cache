@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d834b6a1-49f8-438c-a41c-73ecce38ecdc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d834b6a1-49f8-438c-a41c-73ecce38ecdc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d834b6a1-49f8-438c-a41c-73ecce38ecdc",
-        "name": "Sweetwater Care Resource LLC - Carlsbad, CA",
-        "address": [
-          {
-            "line": [
-              "1000 Aviara Pkwy"
-            ],
-            "city": "Carlsbad",
-            "state": "CA",
-            "postalCode": "92011",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d834b6a1-49f8-438c-a41c-73ecce38ecdc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d834b6a1-49f8-438c-a41c-73ecce38ecdc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d834b6a1-49f8-438c-a41c-73ecce38ecdc"
 }

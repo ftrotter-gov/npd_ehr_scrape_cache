@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1a317149-177a-40c7-a9a5-ee1f055b188b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1a317149-177a-40c7-a9a5-ee1f055b188b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1a317149-177a-40c7-a9a5-ee1f055b188b",
-        "name": "Mitchell's Nursing Home - Danville, AR",
-        "address": [
-          {
-            "line": [
-              "501 W 10th St",
-              "PO Box 10"
-            ],
-            "city": "Danville",
-            "state": "AR",
-            "postalCode": "72833",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1a317149-177a-40c7-a9a5-ee1f055b188b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1a317149-177a-40c7-a9a5-ee1f055b188b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1a317149-177a-40c7-a9a5-ee1f055b188b"
 }

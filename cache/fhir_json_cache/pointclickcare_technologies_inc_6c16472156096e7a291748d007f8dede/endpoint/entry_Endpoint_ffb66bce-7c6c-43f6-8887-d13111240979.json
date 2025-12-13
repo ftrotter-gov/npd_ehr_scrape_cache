@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ffb66bce-7c6c-43f6-8887-d13111240979",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ffb66bce-7c6c-43f6-8887-d13111240979"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ffb66bce-7c6c-43f6-8887-d13111240979",
-        "name": "Hazel Hawkins Memorial Hospital - Hollister, CA",
-        "address": [
-          {
-            "line": [
-              "911 Sunset Drive"
-            ],
-            "city": "Hollister",
-            "state": "CA",
-            "postalCode": "95023",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ffb66bce-7c6c-43f6-8887-d13111240979"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ffb66bce-7c6c-43f6-8887-d13111240979/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ffb66bce-7c6c-43f6-8887-d13111240979"
 }

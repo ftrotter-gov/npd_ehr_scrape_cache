@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d8e65924-e5e8-4950-8f56-2d3232fa0b89",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d8e65924-e5e8-4950-8f56-2d3232fa0b89"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d8e65924-e5e8-4950-8f56-2d3232fa0b89",
-        "name": "Smith Health Care Ltd - Mountain Top, PA",
-        "address": [
-          {
-            "line": [
-              "453 South Main Road"
-            ],
-            "city": "Mountain Top",
-            "state": "PA",
-            "postalCode": "18707",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d8e65924-e5e8-4950-8f56-2d3232fa0b89"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d8e65924-e5e8-4950-8f56-2d3232fa0b89/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d8e65924-e5e8-4950-8f56-2d3232fa0b89"
 }

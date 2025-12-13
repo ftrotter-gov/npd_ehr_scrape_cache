@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fbda2d80-770e-4439-8066-d45ffab40b17",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fbda2d80-770e-4439-8066-d45ffab40b17"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fbda2d80-770e-4439-8066-d45ffab40b17",
-        "name": "Rowntree Gardens - Stanton, CA",
-        "address": [
-          {
-            "line": [
-              "12151 Dale Ave"
-            ],
-            "city": "Stanton",
-            "state": "CA",
-            "postalCode": "90680",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fbda2d80-770e-4439-8066-d45ffab40b17"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fbda2d80-770e-4439-8066-d45ffab40b17/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fbda2d80-770e-4439-8066-d45ffab40b17"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cc0c0636-99c1-4e7a-8556-1edbe25ace95",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cc0c0636-99c1-4e7a-8556-1edbe25ace95"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cc0c0636-99c1-4e7a-8556-1edbe25ace95",
-        "name": "Pierce & Sunga Holdings - Antioch, CA",
-        "address": [
-          {
-            "line": [
-              "1210 A St"
-            ],
-            "city": "Antioch",
-            "state": "CA",
-            "postalCode": "94509-2327",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cc0c0636-99c1-4e7a-8556-1edbe25ace95"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cc0c0636-99c1-4e7a-8556-1edbe25ace95/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cc0c0636-99c1-4e7a-8556-1edbe25ace95"
 }

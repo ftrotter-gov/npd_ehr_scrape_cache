@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c2398530-b8d9-4836-9a02-b573ab35f89f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c2398530-b8d9-4836-9a02-b573ab35f89f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c2398530-b8d9-4836-9a02-b573ab35f89f",
-        "name": "Tri-State Healthcare Management, LLC DBA - Wayne, NJ",
-        "address": [
-          {
-            "line": [
-              "130 Terhune Dr"
-            ],
-            "city": "Wayne",
-            "state": "NJ",
-            "postalCode": "07470-7104",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c2398530-b8d9-4836-9a02-b573ab35f89f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c2398530-b8d9-4836-9a02-b573ab35f89f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c2398530-b8d9-4836-9a02-b573ab35f89f"
 }

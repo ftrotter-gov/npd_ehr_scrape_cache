@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fec5d88c-23b7-4969-bb60-bfea7d5ee133",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fec5d88c-23b7-4969-bb60-bfea7d5ee133"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fec5d88c-23b7-4969-bb60-bfea7d5ee133",
-        "name": "Jewish Home of Greater Harrisburg - Harrisburg, PA",
-        "address": [
-          {
-            "line": [
-              "1425 crooked Hill Rd. P.O. Box 60731"
-            ],
-            "city": "Harrisburg",
-            "state": "PA",
-            "postalCode": "17107",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fec5d88c-23b7-4969-bb60-bfea7d5ee133"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fec5d88c-23b7-4969-bb60-bfea7d5ee133/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fec5d88c-23b7-4969-bb60-bfea7d5ee133"
 }

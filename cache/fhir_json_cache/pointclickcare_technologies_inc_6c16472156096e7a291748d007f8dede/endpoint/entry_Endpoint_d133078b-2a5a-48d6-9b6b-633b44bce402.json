@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d133078b-2a5a-48d6-9b6b-633b44bce402",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d133078b-2a5a-48d6-9b6b-633b44bce402"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d133078b-2a5a-48d6-9b6b-633b44bce402",
-        "name": "East Bank Center - Loves Park, IL",
-        "address": [
-          {
-            "line": [
-              "6131 Park Ridge Rd"
-            ],
-            "city": "Loves Park",
-            "state": "IL",
-            "postalCode": "61111-4098",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d133078b-2a5a-48d6-9b6b-633b44bce402"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d133078b-2a5a-48d6-9b6b-633b44bce402/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d133078b-2a5a-48d6-9b6b-633b44bce402"
 }

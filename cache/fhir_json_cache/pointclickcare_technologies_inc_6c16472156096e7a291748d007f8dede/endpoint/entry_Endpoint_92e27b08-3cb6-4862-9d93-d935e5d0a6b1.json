@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "92e27b08-3cb6-4862-9d93-d935e5d0a6b1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/92e27b08-3cb6-4862-9d93-d935e5d0a6b1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "92e27b08-3cb6-4862-9d93-d935e5d0a6b1",
-        "name": "Fairhaven Corp - Whitewater, WI",
-        "address": [
-          {
-            "line": [
-              "435 W Starin Rd"
-            ],
-            "city": "Whitewater",
-            "state": "WI",
-            "postalCode": "53190-1125",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "92e27b08-3cb6-4862-9d93-d935e5d0a6b1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/92e27b08-3cb6-4862-9d93-d935e5d0a6b1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/92e27b08-3cb6-4862-9d93-d935e5d0a6b1"
 }

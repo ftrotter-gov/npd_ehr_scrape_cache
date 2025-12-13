@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "eed9ae02-2557-4de0-aa93-70ce60d49f9c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/eed9ae02-2557-4de0-aa93-70ce60d49f9c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "eed9ae02-2557-4de0-aa93-70ce60d49f9c",
-        "name": "Rauls Living, Inc. - ",
-        "address": [
-          {
-            "line": [
-              "P.O. Box 27598"
-            ],
-            "city": "Macon",
-            "state": "GA",
-            "postalCode": "31221",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "eed9ae02-2557-4de0-aa93-70ce60d49f9c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/eed9ae02-2557-4de0-aa93-70ce60d49f9c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/eed9ae02-2557-4de0-aa93-70ce60d49f9c"
 }

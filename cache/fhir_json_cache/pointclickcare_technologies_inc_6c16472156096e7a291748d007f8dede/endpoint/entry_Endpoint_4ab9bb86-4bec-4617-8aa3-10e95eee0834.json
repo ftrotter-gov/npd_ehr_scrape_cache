@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4ab9bb86-4bec-4617-8aa3-10e95eee0834",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4ab9bb86-4bec-4617-8aa3-10e95eee0834"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4ab9bb86-4bec-4617-8aa3-10e95eee0834",
-        "name": "St. John's Lutheran Ministries, Inc. - Billings, MT",
-        "address": [
-          {
-            "line": [
-              "3940 Rimrock Rd"
-            ],
-            "city": "Billings",
-            "state": "MT",
-            "postalCode": "59102-0141",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4ab9bb86-4bec-4617-8aa3-10e95eee0834"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4ab9bb86-4bec-4617-8aa3-10e95eee0834/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4ab9bb86-4bec-4617-8aa3-10e95eee0834"
 }

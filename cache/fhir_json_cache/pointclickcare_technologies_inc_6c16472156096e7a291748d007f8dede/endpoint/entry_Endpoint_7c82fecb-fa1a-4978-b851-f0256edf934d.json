@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7c82fecb-fa1a-4978-b851-f0256edf934d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7c82fecb-fa1a-4978-b851-f0256edf934d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7c82fecb-fa1a-4978-b851-f0256edf934d",
-        "name": "National Mentor Holdings, LLC - Care Mer - Irvine, CA",
-        "address": [
-          {
-            "line": [
-              "163 Technology Drive",
-              "Suite 200"
-            ],
-            "city": "Irvine",
-            "state": "CA",
-            "postalCode": "92618",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7c82fecb-fa1a-4978-b851-f0256edf934d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7c82fecb-fa1a-4978-b851-f0256edf934d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7c82fecb-fa1a-4978-b851-f0256edf934d"
 }

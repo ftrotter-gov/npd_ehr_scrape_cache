@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bf7682bd-883a-4370-bbaf-1bae85fc8020",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bf7682bd-883a-4370-bbaf-1bae85fc8020"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bf7682bd-883a-4370-bbaf-1bae85fc8020",
-        "name": "Bridgetown Health Care LLC dba Oak Hills - Cincinnati, OH",
-        "address": [
-          {
-            "line": [
-              "4307 Bridgetown Road"
-            ],
-            "city": "Cincinnati",
-            "state": "OH",
-            "postalCode": "45211",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bf7682bd-883a-4370-bbaf-1bae85fc8020"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bf7682bd-883a-4370-bbaf-1bae85fc8020/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bf7682bd-883a-4370-bbaf-1bae85fc8020"
 }

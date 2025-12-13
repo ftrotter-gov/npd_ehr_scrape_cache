@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "de757a85-7e1c-41b6-8fb4-e6a6c9ec1448",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/de757a85-7e1c-41b6-8fb4-e6a6c9ec1448"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "de757a85-7e1c-41b6-8fb4-e6a6c9ec1448",
-        "name": "Serene Congregate Living LLC - Redlands, CA",
-        "address": [
-          {
-            "line": [
-              "812 Concord Lane"
-            ],
-            "city": "Redlands",
-            "state": "CA",
-            "postalCode": "92374",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "de757a85-7e1c-41b6-8fb4-e6a6c9ec1448"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/de757a85-7e1c-41b6-8fb4-e6a6c9ec1448/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/de757a85-7e1c-41b6-8fb4-e6a6c9ec1448"
 }

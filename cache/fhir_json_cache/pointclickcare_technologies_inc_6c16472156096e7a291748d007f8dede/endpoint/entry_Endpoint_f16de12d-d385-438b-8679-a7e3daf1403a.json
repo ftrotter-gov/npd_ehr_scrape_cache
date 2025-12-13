@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f16de12d-d385-438b-8679-a7e3daf1403a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f16de12d-d385-438b-8679-a7e3daf1403a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f16de12d-d385-438b-8679-a7e3daf1403a",
-        "name": "Crowley County Nursing Center - Ordway, CO",
-        "address": [
-          {
-            "line": [
-              "401 Idaho Ave",
-              "PO Box 489"
-            ],
-            "city": "Ordway",
-            "state": "CO",
-            "postalCode": "81063-1328",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f16de12d-d385-438b-8679-a7e3daf1403a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f16de12d-d385-438b-8679-a7e3daf1403a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f16de12d-d385-438b-8679-a7e3daf1403a"
 }

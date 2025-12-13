@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b825587b-cd15-4d0e-b5d2-4225dbc609b4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b825587b-cd15-4d0e-b5d2-4225dbc609b4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b825587b-cd15-4d0e-b5d2-4225dbc609b4",
-        "name": "Senior Housing Managers, LLC - Wilsonville, OR",
-        "address": [
-          {
-            "line": [
-              "25260 Southwest Parkway Avenue",
-              "Suite B"
-            ],
-            "city": "Wilsonville",
-            "state": "OR",
-            "postalCode": "97070",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b825587b-cd15-4d0e-b5d2-4225dbc609b4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b825587b-cd15-4d0e-b5d2-4225dbc609b4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b825587b-cd15-4d0e-b5d2-4225dbc609b4"
 }

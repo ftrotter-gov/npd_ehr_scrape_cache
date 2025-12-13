@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fbf617a0-6c26-435b-82ed-59437cf56d21",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fbf617a0-6c26-435b-82ed-59437cf56d21"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fbf617a0-6c26-435b-82ed-59437cf56d21",
-        "name": "Provident Resources Group - Baton Rouge, LA",
-        "address": [
-          {
-            "line": [
-              "5565 Bankers Avenue"
-            ],
-            "city": "Baton Rouge",
-            "state": "LA",
-            "postalCode": "70808",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fbf617a0-6c26-435b-82ed-59437cf56d21"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fbf617a0-6c26-435b-82ed-59437cf56d21/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fbf617a0-6c26-435b-82ed-59437cf56d21"
 }

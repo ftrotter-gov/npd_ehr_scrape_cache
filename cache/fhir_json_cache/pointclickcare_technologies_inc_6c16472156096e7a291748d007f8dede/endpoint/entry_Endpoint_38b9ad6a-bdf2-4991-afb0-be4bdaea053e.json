@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "38b9ad6a-bdf2-4991-afb0-be4bdaea053e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/38b9ad6a-bdf2-4991-afb0-be4bdaea053e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "38b9ad6a-bdf2-4991-afb0-be4bdaea053e",
-        "name": "Runningwater Draw Care Center and Sandhi - Olton, TX",
-        "address": [
-          {
-            "line": [
-              "800 W 13th St",
-              "PO Box 409"
-            ],
-            "city": "Olton",
-            "state": "TX",
-            "postalCode": "79064",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "38b9ad6a-bdf2-4991-afb0-be4bdaea053e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/38b9ad6a-bdf2-4991-afb0-be4bdaea053e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/38b9ad6a-bdf2-4991-afb0-be4bdaea053e"
 }

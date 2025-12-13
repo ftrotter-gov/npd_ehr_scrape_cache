@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2b2c6ea0-d3ee-42c9-8dd5-75a29e7dc7ee",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2b2c6ea0-d3ee-42c9-8dd5-75a29e7dc7ee"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2b2c6ea0-d3ee-42c9-8dd5-75a29e7dc7ee",
-        "name": "Arnot Health - Elmira, NY",
-        "address": [
-          {
-            "line": [
-              "600 Roe Ave"
-            ],
-            "city": "Elmira",
-            "state": "NY",
-            "postalCode": "14905",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2b2c6ea0-d3ee-42c9-8dd5-75a29e7dc7ee"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2b2c6ea0-d3ee-42c9-8dd5-75a29e7dc7ee/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2b2c6ea0-d3ee-42c9-8dd5-75a29e7dc7ee"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ad72482c-b6a8-48ee-926e-9953fb7e1315",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ad72482c-b6a8-48ee-926e-9953fb7e1315"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ad72482c-b6a8-48ee-926e-9953fb7e1315",
-        "name": "St. Anthony Serenethos SNF, LLC - Hayward, CA",
-        "address": [
-          {
-            "line": [
-              "553 Smalley Avenue"
-            ],
-            "city": "Hayward",
-            "state": "CA",
-            "postalCode": "94541",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ad72482c-b6a8-48ee-926e-9953fb7e1315"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ad72482c-b6a8-48ee-926e-9953fb7e1315/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ad72482c-b6a8-48ee-926e-9953fb7e1315"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "baaa7dea-2106-43eb-98bf-0d34c07f8bf3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/baaa7dea-2106-43eb-98bf-0d34c07f8bf3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "baaa7dea-2106-43eb-98bf-0d34c07f8bf3",
-        "name": "St. Clare Home - Newport, RI",
-        "address": [
-          {
-            "line": [
-              "309 Spring St"
-            ],
-            "city": "Newport",
-            "state": "RI",
-            "postalCode": "02840-6854",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "baaa7dea-2106-43eb-98bf-0d34c07f8bf3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/baaa7dea-2106-43eb-98bf-0d34c07f8bf3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/baaa7dea-2106-43eb-98bf-0d34c07f8bf3"
 }

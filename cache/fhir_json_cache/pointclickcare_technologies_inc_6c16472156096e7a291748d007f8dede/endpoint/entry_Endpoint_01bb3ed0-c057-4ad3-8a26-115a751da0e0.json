@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "01bb3ed0-c057-4ad3-8a26-115a751da0e0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/01bb3ed0-c057-4ad3-8a26-115a751da0e0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "01bb3ed0-c057-4ad3-8a26-115a751da0e0",
-        "name": "Bethel Lutheran Home, Inc. - Selma, CA",
-        "address": [
-          {
-            "line": [
-              "2280 Dockery Ave"
-            ],
-            "city": "Selma",
-            "state": "CA",
-            "postalCode": "93662-3898",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "01bb3ed0-c057-4ad3-8a26-115a751da0e0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/01bb3ed0-c057-4ad3-8a26-115a751da0e0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/01bb3ed0-c057-4ad3-8a26-115a751da0e0"
 }

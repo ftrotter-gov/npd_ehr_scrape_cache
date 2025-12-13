@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "beede2e2-4d38-4bd0-8288-6273f747e398",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/beede2e2-4d38-4bd0-8288-6273f747e398"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "beede2e2-4d38-4bd0-8288-6273f747e398",
-        "name": "Colonial Terrace Nursing Home - Sebree, KY",
-        "address": [
-          {
-            "line": [
-              "142 Roger Powell Rd"
-            ],
-            "city": "Sebree",
-            "state": "KY",
-            "postalCode": "42455-2115",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "beede2e2-4d38-4bd0-8288-6273f747e398"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/beede2e2-4d38-4bd0-8288-6273f747e398/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/beede2e2-4d38-4bd0-8288-6273f747e398"
 }

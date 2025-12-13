@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2c8b0c68-73eb-422d-8c7a-af168b2dbdf7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2c8b0c68-73eb-422d-8c7a-af168b2dbdf7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2c8b0c68-73eb-422d-8c7a-af168b2dbdf7",
-        "name": "United Methodist Homes - Binghamton, NY",
-        "address": [
-          {
-            "line": [
-              "10 Acre Place"
-            ],
-            "city": "Binghamton",
-            "state": "NY",
-            "postalCode": "13904",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2c8b0c68-73eb-422d-8c7a-af168b2dbdf7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2c8b0c68-73eb-422d-8c7a-af168b2dbdf7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2c8b0c68-73eb-422d-8c7a-af168b2dbdf7"
 }

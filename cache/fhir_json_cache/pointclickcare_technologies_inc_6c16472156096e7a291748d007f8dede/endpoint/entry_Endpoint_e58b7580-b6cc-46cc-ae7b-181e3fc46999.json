@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e58b7580-b6cc-46cc-ae7b-181e3fc46999",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e58b7580-b6cc-46cc-ae7b-181e3fc46999"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e58b7580-b6cc-46cc-ae7b-181e3fc46999",
-        "name": "Allaire Healthcare Group LLC - Freehold, NJ",
-        "address": [
-          {
-            "line": [
-              "115 Dutch Lane Rd"
-            ],
-            "city": "Freehold",
-            "state": "NJ",
-            "postalCode": "07728",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e58b7580-b6cc-46cc-ae7b-181e3fc46999"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e58b7580-b6cc-46cc-ae7b-181e3fc46999/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e58b7580-b6cc-46cc-ae7b-181e3fc46999"
 }

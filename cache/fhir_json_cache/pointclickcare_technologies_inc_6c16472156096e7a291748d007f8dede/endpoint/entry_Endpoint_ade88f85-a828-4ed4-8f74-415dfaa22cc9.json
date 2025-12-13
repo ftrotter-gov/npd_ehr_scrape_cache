@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ade88f85-a828-4ed4-8f74-415dfaa22cc9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ade88f85-a828-4ed4-8f74-415dfaa22cc9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ade88f85-a828-4ed4-8f74-415dfaa22cc9",
-        "name": "PeaceCare St Joseph's - Jersey City, NJ",
-        "address": [
-          {
-            "line": [
-              "537 Pavonia Ave"
-            ],
-            "city": "Jersey City",
-            "state": "NJ",
-            "postalCode": "07306-1891",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ade88f85-a828-4ed4-8f74-415dfaa22cc9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ade88f85-a828-4ed4-8f74-415dfaa22cc9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ade88f85-a828-4ed4-8f74-415dfaa22cc9"
 }

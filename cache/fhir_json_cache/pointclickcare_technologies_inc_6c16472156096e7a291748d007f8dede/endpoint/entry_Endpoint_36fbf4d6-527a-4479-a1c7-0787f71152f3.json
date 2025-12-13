@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "36fbf4d6-527a-4479-a1c7-0787f71152f3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/36fbf4d6-527a-4479-a1c7-0787f71152f3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "36fbf4d6-527a-4479-a1c7-0787f71152f3",
-        "name": "UPMC Susquehanna - Williamsport, PA",
-        "address": [
-          {
-            "line": [
-              "700 High Street"
-            ],
-            "city": "Williamsport",
-            "state": "PA",
-            "postalCode": "17701",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "36fbf4d6-527a-4479-a1c7-0787f71152f3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/36fbf4d6-527a-4479-a1c7-0787f71152f3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/36fbf4d6-527a-4479-a1c7-0787f71152f3"
 }

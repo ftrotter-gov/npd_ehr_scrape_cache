@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0467f610-d72a-44f0-8185-5d3155bc296f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0467f610-d72a-44f0-8185-5d3155bc296f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0467f610-d72a-44f0-8185-5d3155bc296f",
-        "name": "LAVIE CARE CENTERS, LLC dba Consulate He - Maitland, FL",
-        "address": [
-          {
-            "line": [
-              "Consulate Health Care",
-              "800 Concourse Pkwy South Ste 200"
-            ],
-            "city": "Maitland",
-            "state": "FL",
-            "postalCode": "32751",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0467f610-d72a-44f0-8185-5d3155bc296f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0467f610-d72a-44f0-8185-5d3155bc296f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0467f610-d72a-44f0-8185-5d3155bc296f"
 }

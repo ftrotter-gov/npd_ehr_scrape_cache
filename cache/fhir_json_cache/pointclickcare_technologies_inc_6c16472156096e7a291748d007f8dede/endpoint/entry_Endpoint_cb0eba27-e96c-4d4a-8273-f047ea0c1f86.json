@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cb0eba27-e96c-4d4a-8273-f047ea0c1f86",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cb0eba27-e96c-4d4a-8273-f047ea0c1f86"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cb0eba27-e96c-4d4a-8273-f047ea0c1f86",
-        "name": "EXTENDED CARE CLINICAL, LLC - Crestwood, IL",
-        "address": [
-          {
-            "line": [
-              "14255 South Cicero Avenue"
-            ],
-            "city": "Crestwood",
-            "state": "IL",
-            "postalCode": "60445-2154",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cb0eba27-e96c-4d4a-8273-f047ea0c1f86"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cb0eba27-e96c-4d4a-8273-f047ea0c1f86/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cb0eba27-e96c-4d4a-8273-f047ea0c1f86"
 }

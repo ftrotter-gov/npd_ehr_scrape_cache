@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "306ed456-6182-49c9-927e-24be6359bd3b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/306ed456-6182-49c9-927e-24be6359bd3b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "306ed456-6182-49c9-927e-24be6359bd3b",
-        "name": "New Jersey Eastern Star Home - Bridgewater, NJ",
-        "address": [
-          {
-            "line": [
-              "111 Finderne Ave"
-            ],
-            "city": "Bridgewater",
-            "state": "NJ",
-            "postalCode": "08807-3100",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "306ed456-6182-49c9-927e-24be6359bd3b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/306ed456-6182-49c9-927e-24be6359bd3b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/306ed456-6182-49c9-927e-24be6359bd3b"
 }

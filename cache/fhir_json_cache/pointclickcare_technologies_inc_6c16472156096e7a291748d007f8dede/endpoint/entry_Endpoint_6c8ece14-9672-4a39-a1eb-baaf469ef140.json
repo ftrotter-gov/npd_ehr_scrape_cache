@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6c8ece14-9672-4a39-a1eb-baaf469ef140",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6c8ece14-9672-4a39-a1eb-baaf469ef140"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6c8ece14-9672-4a39-a1eb-baaf469ef140",
-        "name": "Nava HealthCare Group - Hollywood, FL",
-        "address": [
-          {
-            "line": [
-              "3440 Hollywood Boulevard"
-            ],
-            "city": "Hollywood",
-            "state": "FL",
-            "postalCode": "33021-6911",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6c8ece14-9672-4a39-a1eb-baaf469ef140"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6c8ece14-9672-4a39-a1eb-baaf469ef140/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6c8ece14-9672-4a39-a1eb-baaf469ef140"
 }

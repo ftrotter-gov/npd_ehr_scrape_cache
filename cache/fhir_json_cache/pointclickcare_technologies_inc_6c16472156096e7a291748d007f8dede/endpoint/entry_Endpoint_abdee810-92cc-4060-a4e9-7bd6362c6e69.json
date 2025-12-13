@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "abdee810-92cc-4060-a4e9-7bd6362c6e69",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/abdee810-92cc-4060-a4e9-7bd6362c6e69"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "abdee810-92cc-4060-a4e9-7bd6362c6e69",
-        "name": "Avamere Skilled Advisors, LLC - Wilsonville, OR",
-        "address": [
-          {
-            "line": [
-              "25117 SW Parkway Ste B"
-            ],
-            "city": "Wilsonville",
-            "state": "OR",
-            "postalCode": "97070",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "abdee810-92cc-4060-a4e9-7bd6362c6e69"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/abdee810-92cc-4060-a4e9-7bd6362c6e69/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/abdee810-92cc-4060-a4e9-7bd6362c6e69"
 }

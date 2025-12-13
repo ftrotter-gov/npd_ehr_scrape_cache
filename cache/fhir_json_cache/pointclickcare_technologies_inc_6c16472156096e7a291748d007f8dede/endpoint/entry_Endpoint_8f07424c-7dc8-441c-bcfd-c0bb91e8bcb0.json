@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8f07424c-7dc8-441c-bcfd-c0bb91e8bcb0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8f07424c-7dc8-441c-bcfd-c0bb91e8bcb0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8f07424c-7dc8-441c-bcfd-c0bb91e8bcb0",
-        "name": "Wickshire Senior Living - Brentwood, TN",
-        "address": [
-          {
-            "line": [
-              "750 Old Hickory Blvd"
-            ],
-            "city": "Brentwood",
-            "state": "TN",
-            "postalCode": "37027",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8f07424c-7dc8-441c-bcfd-c0bb91e8bcb0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8f07424c-7dc8-441c-bcfd-c0bb91e8bcb0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8f07424c-7dc8-441c-bcfd-c0bb91e8bcb0"
 }

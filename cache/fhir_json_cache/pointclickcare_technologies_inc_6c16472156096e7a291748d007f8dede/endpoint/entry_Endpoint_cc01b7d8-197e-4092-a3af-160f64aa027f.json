@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cc01b7d8-197e-4092-a3af-160f64aa027f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cc01b7d8-197e-4092-a3af-160f64aa027f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cc01b7d8-197e-4092-a3af-160f64aa027f",
-        "name": "Knollwood Retirement Community - Chesterfield, MO",
-        "address": [
-          {
-            "line": [
-              "7733 Forsyth Boulevard"
-            ],
-            "city": "Clayton",
-            "state": "MO",
-            "postalCode": "63105",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cc01b7d8-197e-4092-a3af-160f64aa027f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cc01b7d8-197e-4092-a3af-160f64aa027f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cc01b7d8-197e-4092-a3af-160f64aa027f"
 }

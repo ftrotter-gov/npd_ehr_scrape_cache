@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2ac8d6af-6f2e-43bd-84b9-710153a8781e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2ac8d6af-6f2e-43bd-84b9-710153a8781e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2ac8d6af-6f2e-43bd-84b9-710153a8781e",
-        "name": "Elevated Estates Edwinola - ",
-        "address": [
-          {
-            "line": [
-              "14235 Edwinola Way"
-            ],
-            "city": "Dade City",
-            "state": "FL",
-            "postalCode": "33523-6764",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2ac8d6af-6f2e-43bd-84b9-710153a8781e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2ac8d6af-6f2e-43bd-84b9-710153a8781e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2ac8d6af-6f2e-43bd-84b9-710153a8781e"
 }

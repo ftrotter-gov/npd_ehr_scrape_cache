@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "af0f7bb1-b432-4a95-be00-22f6486315ed",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/af0f7bb1-b432-4a95-be00-22f6486315ed"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "af0f7bb1-b432-4a95-be00-22f6486315ed",
-        "name": "OM Fisher Home Inc - Montpelier, VT",
-        "address": [
-          {
-            "line": [
-              "171 Westview Meadows Rd"
-            ],
-            "city": "Montpelier",
-            "state": "VT",
-            "postalCode": "05602-3385",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "af0f7bb1-b432-4a95-be00-22f6486315ed"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/af0f7bb1-b432-4a95-be00-22f6486315ed/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/af0f7bb1-b432-4a95-be00-22f6486315ed"
 }

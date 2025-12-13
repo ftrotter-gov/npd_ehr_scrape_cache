@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "009bed17-47b8-4e84-8fa5-5ec9db3a6592",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/009bed17-47b8-4e84-8fa5-5ec9db3a6592"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "009bed17-47b8-4e84-8fa5-5ec9db3a6592",
-        "name": "Quorum Health - Brentwood, TN",
-        "address": [
-          {
-            "line": [
-              "1573 Mallory Lane"
-            ],
-            "city": "Brentwood",
-            "state": "TN",
-            "postalCode": "37027",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "009bed17-47b8-4e84-8fa5-5ec9db3a6592"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/009bed17-47b8-4e84-8fa5-5ec9db3a6592/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/009bed17-47b8-4e84-8fa5-5ec9db3a6592"
 }

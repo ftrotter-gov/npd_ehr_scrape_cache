@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "517d8336-b538-4740-a4be-efa862c38ff4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/517d8336-b538-4740-a4be-efa862c38ff4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "517d8336-b538-4740-a4be-efa862c38ff4",
-        "name": "Silver Bluff Village - Canton, NC",
-        "address": [
-          {
-            "line": [
-              "100 Silver Bluff Dr"
-            ],
-            "city": "Canton",
-            "state": "NC",
-            "postalCode": "28716",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "517d8336-b538-4740-a4be-efa862c38ff4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/517d8336-b538-4740-a4be-efa862c38ff4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/517d8336-b538-4740-a4be-efa862c38ff4"
 }

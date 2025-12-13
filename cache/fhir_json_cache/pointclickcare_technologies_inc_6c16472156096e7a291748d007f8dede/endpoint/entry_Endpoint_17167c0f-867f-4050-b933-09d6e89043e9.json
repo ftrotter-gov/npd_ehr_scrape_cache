@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "17167c0f-867f-4050-b933-09d6e89043e9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/17167c0f-867f-4050-b933-09d6e89043e9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "17167c0f-867f-4050-b933-09d6e89043e9",
-        "name": "Carlyle Senior Care - Florence, SC",
-        "address": [
-          {
-            "line": [
-              "133 W Clarke Rd"
-            ],
-            "city": "Florence",
-            "state": "SC",
-            "postalCode": "29501",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "17167c0f-867f-4050-b933-09d6e89043e9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/17167c0f-867f-4050-b933-09d6e89043e9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/17167c0f-867f-4050-b933-09d6e89043e9"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "34ad0ab5-8330-46f9-af15-9046d48fa279",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/34ad0ab5-8330-46f9-af15-9046d48fa279"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "34ad0ab5-8330-46f9-af15-9046d48fa279",
-        "name": "Fox Trail Memory Care - Ramsey, NJ",
-        "address": [
-          {
-            "line": [
-              "38 N. Central Avenue"
-            ],
-            "city": "Ramsey",
-            "state": "NJ",
-            "postalCode": "07446",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "34ad0ab5-8330-46f9-af15-9046d48fa279"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/34ad0ab5-8330-46f9-af15-9046d48fa279/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/34ad0ab5-8330-46f9-af15-9046d48fa279"
 }

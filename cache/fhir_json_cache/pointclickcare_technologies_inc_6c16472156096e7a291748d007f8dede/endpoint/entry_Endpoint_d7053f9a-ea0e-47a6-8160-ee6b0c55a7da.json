@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d7053f9a-ea0e-47a6-8160-ee6b0c55a7da",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d7053f9a-ea0e-47a6-8160-ee6b0c55a7da"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d7053f9a-ea0e-47a6-8160-ee6b0c55a7da",
-        "name": "Mather Lifeways - Evanston, IL",
-        "address": [
-          {
-            "line": [
-              "1603 Orrington Ave",
-              "Ste 1800"
-            ],
-            "city": "Evanston",
-            "state": "IL",
-            "postalCode": "60201",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d7053f9a-ea0e-47a6-8160-ee6b0c55a7da"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d7053f9a-ea0e-47a6-8160-ee6b0c55a7da/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d7053f9a-ea0e-47a6-8160-ee6b0c55a7da"
 }

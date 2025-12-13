@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cfd4fbb5-df81-40e6-81b0-1a9ea3bda2fe",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cfd4fbb5-df81-40e6-81b0-1a9ea3bda2fe"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cfd4fbb5-df81-40e6-81b0-1a9ea3bda2fe",
-        "name": "Health Services Management of Florida - Crystal River, FL",
-        "address": [
-          {
-            "line": [
-              "7056 West Gulf to Lake Highway"
-            ],
-            "city": "Crystal River",
-            "state": "FL",
-            "postalCode": "34429",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cfd4fbb5-df81-40e6-81b0-1a9ea3bda2fe"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cfd4fbb5-df81-40e6-81b0-1a9ea3bda2fe/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cfd4fbb5-df81-40e6-81b0-1a9ea3bda2fe"
 }

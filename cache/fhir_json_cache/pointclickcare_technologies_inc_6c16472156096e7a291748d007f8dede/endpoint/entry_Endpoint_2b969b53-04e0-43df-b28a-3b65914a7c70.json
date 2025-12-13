@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2b969b53-04e0-43df-b28a-3b65914a7c70",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2b969b53-04e0-43df-b28a-3b65914a7c70"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2b969b53-04e0-43df-b28a-3b65914a7c70",
-        "name": "Pleasant Valley Health Care Center - Muskogee, OK",
-        "address": [
-          {
-            "line": [
-              "1120 Illinois St"
-            ],
-            "city": "Muskogee",
-            "state": "OK",
-            "postalCode": "74403-7410",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2b969b53-04e0-43df-b28a-3b65914a7c70"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2b969b53-04e0-43df-b28a-3b65914a7c70/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2b969b53-04e0-43df-b28a-3b65914a7c70"
 }

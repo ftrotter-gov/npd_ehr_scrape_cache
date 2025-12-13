@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e3ec23c0-d222-4d5b-9745-c436844a62e3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e3ec23c0-d222-4d5b-9745-c436844a62e3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e3ec23c0-d222-4d5b-9745-c436844a62e3",
-        "name": "MH Eckerd Living Center, LLLP - Richmond, VA",
-        "address": [
-          {
-            "line": [
-              "200 Wadsworth Drive"
-            ],
-            "city": "Richmond",
-            "state": "VA",
-            "postalCode": "23236",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e3ec23c0-d222-4d5b-9745-c436844a62e3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e3ec23c0-d222-4d5b-9745-c436844a62e3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e3ec23c0-d222-4d5b-9745-c436844a62e3"
 }

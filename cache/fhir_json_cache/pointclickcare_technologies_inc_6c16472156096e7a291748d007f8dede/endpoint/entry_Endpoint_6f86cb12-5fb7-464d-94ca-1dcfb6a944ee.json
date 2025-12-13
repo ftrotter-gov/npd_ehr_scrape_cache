@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6f86cb12-5fb7-464d-94ca-1dcfb6a944ee",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6f86cb12-5fb7-464d-94ca-1dcfb6a944ee"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6f86cb12-5fb7-464d-94ca-1dcfb6a944ee",
-        "name": "Golden Leaves Living Center - Newberry, MI",
-        "address": [
-          {
-            "line": [
-              "502 W Harrie St"
-            ],
-            "city": "Newberry",
-            "state": "MI",
-            "postalCode": "49868",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6f86cb12-5fb7-464d-94ca-1dcfb6a944ee"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6f86cb12-5fb7-464d-94ca-1dcfb6a944ee/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6f86cb12-5fb7-464d-94ca-1dcfb6a944ee"
 }

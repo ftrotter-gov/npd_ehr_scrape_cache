@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c1edd3e3-ca70-4283-892c-e3a4cd2e9107",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c1edd3e3-ca70-4283-892c-e3a4cd2e9107"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c1edd3e3-ca70-4283-892c-e3a4cd2e9107",
-        "name": "Sunny Hill Nursing Home of Will County - Joliet, IL",
-        "address": [
-          {
-            "line": [
-              "421 Doris Ave"
-            ],
-            "city": "Joliet",
-            "state": "IL",
-            "postalCode": "60433",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c1edd3e3-ca70-4283-892c-e3a4cd2e9107"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c1edd3e3-ca70-4283-892c-e3a4cd2e9107/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c1edd3e3-ca70-4283-892c-e3a4cd2e9107"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "eddf95e6-3d85-49d2-a0c6-2d80a81a3ee6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/eddf95e6-3d85-49d2-a0c6-2d80a81a3ee6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "eddf95e6-3d85-49d2-a0c6-2d80a81a3ee6",
-        "name": "Hillandale Communities - Hamilton, OH",
-        "address": [
-          {
-            "line": [
-              "4168 Tonya Trail"
-            ],
-            "city": "Hamilton",
-            "state": "OH",
-            "postalCode": "45011",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "eddf95e6-3d85-49d2-a0c6-2d80a81a3ee6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/eddf95e6-3d85-49d2-a0c6-2d80a81a3ee6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/eddf95e6-3d85-49d2-a0c6-2d80a81a3ee6"
 }

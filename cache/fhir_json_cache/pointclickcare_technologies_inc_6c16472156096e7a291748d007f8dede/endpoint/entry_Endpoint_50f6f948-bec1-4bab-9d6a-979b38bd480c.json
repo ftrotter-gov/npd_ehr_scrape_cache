@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "50f6f948-bec1-4bab-9d6a-979b38bd480c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/50f6f948-bec1-4bab-9d6a-979b38bd480c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "50f6f948-bec1-4bab-9d6a-979b38bd480c",
-        "name": "House of the Good Shepherd - Hackettstown, NJ",
-        "address": [
-          {
-            "line": [
-              "798 Willow Grove St."
-            ],
-            "city": "Hackettstown",
-            "state": "NJ",
-            "postalCode": "07840-1721",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "50f6f948-bec1-4bab-9d6a-979b38bd480c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/50f6f948-bec1-4bab-9d6a-979b38bd480c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/50f6f948-bec1-4bab-9d6a-979b38bd480c"
 }

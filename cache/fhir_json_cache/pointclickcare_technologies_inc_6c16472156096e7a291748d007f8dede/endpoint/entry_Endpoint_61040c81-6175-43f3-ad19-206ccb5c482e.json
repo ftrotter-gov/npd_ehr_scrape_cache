@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "61040c81-6175-43f3-ad19-206ccb5c482e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/61040c81-6175-43f3-ad19-206ccb5c482e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "61040c81-6175-43f3-ad19-206ccb5c482e",
-        "name": "Maple Valley NH of Maple City - Maple City, MI",
-        "address": [
-          {
-            "line": [
-              "1086 W Burdickville Rd"
-            ],
-            "city": "Maple City",
-            "state": "MI",
-            "postalCode": "49664",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "61040c81-6175-43f3-ad19-206ccb5c482e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/61040c81-6175-43f3-ad19-206ccb5c482e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/61040c81-6175-43f3-ad19-206ccb5c482e"
 }

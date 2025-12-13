@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0e1ec954-a397-4752-8905-a60aa01bdc9c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0e1ec954-a397-4752-8905-a60aa01bdc9c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0e1ec954-a397-4752-8905-a60aa01bdc9c",
-        "name": "Fredonia Place - Fredonia, NY",
-        "address": [
-          {
-            "line": [
-              "50 Howard Street"
-            ],
-            "city": "Fredonia",
-            "state": "NY",
-            "postalCode": "14063",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0e1ec954-a397-4752-8905-a60aa01bdc9c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0e1ec954-a397-4752-8905-a60aa01bdc9c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0e1ec954-a397-4752-8905-a60aa01bdc9c"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a8185695-7823-43a4-acbd-83c0766e755b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a8185695-7823-43a4-acbd-83c0766e755b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a8185695-7823-43a4-acbd-83c0766e755b",
-        "name": "Pilgrim Place - ",
-        "address": [
-          {
-            "line": [
-              "625 Mayflower Rd"
-            ],
-            "city": "Claremont",
-            "state": "CA",
-            "postalCode": "91711",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a8185695-7823-43a4-acbd-83c0766e755b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a8185695-7823-43a4-acbd-83c0766e755b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a8185695-7823-43a4-acbd-83c0766e755b"
 }

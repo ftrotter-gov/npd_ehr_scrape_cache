@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a2888dce-3ef3-4163-87b4-75ff6c2ffc4f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a2888dce-3ef3-4163-87b4-75ff6c2ffc4f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a2888dce-3ef3-4163-87b4-75ff6c2ffc4f",
-        "name": "Graham Hospital-ECF - Canton, IL",
-        "address": [
-          {
-            "line": [
-              "210 W Walnut St"
-            ],
-            "city": "Canton",
-            "state": "IL",
-            "postalCode": "61520-2497",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a2888dce-3ef3-4163-87b4-75ff6c2ffc4f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a2888dce-3ef3-4163-87b4-75ff6c2ffc4f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a2888dce-3ef3-4163-87b4-75ff6c2ffc4f"
 }

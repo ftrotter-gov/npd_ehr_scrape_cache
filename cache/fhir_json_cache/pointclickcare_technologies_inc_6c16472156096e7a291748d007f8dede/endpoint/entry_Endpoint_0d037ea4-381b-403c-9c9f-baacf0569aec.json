@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0d037ea4-381b-403c-9c9f-baacf0569aec",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0d037ea4-381b-403c-9c9f-baacf0569aec"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0d037ea4-381b-403c-9c9f-baacf0569aec",
-        "name": "The Altenheim - Louisville, KY",
-        "address": [
-          {
-            "line": [
-              "936 Barrett Ave"
-            ],
-            "city": "Louisville",
-            "state": "KY",
-            "postalCode": "40204",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0d037ea4-381b-403c-9c9f-baacf0569aec"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0d037ea4-381b-403c-9c9f-baacf0569aec/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0d037ea4-381b-403c-9c9f-baacf0569aec"
 }

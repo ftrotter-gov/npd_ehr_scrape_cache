@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bba25710-d565-45f2-bb9b-82e5c76b05e8",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bba25710-d565-45f2-bb9b-82e5c76b05e8"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bba25710-d565-45f2-bb9b-82e5c76b05e8",
-        "name": "Community Care Administrative Group - Van Nuys, CA",
-        "address": [
-          {
-            "line": [
-              "5946 KESTER AVE"
-            ],
-            "city": "Van Nuys",
-            "state": "CA",
-            "postalCode": "91411",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bba25710-d565-45f2-bb9b-82e5c76b05e8"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bba25710-d565-45f2-bb9b-82e5c76b05e8/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bba25710-d565-45f2-bb9b-82e5c76b05e8"
 }

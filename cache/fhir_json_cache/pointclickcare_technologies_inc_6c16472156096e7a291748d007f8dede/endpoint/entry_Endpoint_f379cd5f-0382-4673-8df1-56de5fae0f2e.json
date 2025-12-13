@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f379cd5f-0382-4673-8df1-56de5fae0f2e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f379cd5f-0382-4673-8df1-56de5fae0f2e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f379cd5f-0382-4673-8df1-56de5fae0f2e",
-        "name": "Stockton Edison Healthcare Corp. dba Goo - Stockton, CA",
-        "address": [
-          {
-            "line": [
-              "1630 N Edison Street"
-            ],
-            "city": "Stockton",
-            "state": "CA",
-            "postalCode": "95204-5633",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f379cd5f-0382-4673-8df1-56de5fae0f2e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f379cd5f-0382-4673-8df1-56de5fae0f2e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f379cd5f-0382-4673-8df1-56de5fae0f2e"
 }

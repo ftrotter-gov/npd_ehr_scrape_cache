@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "edd4c191-8bf0-45d5-8303-6de5eddd831a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/edd4c191-8bf0-45d5-8303-6de5eddd831a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "edd4c191-8bf0-45d5-8303-6de5eddd831a",
-        "name": "Birchwood Care Home - Minneapolis, MN",
-        "address": [
-          {
-            "line": [
-              "3427 Central Avenue NE"
-            ],
-            "city": "Minneapolis",
-            "state": "MN",
-            "postalCode": "55418",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "edd4c191-8bf0-45d5-8303-6de5eddd831a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/edd4c191-8bf0-45d5-8303-6de5eddd831a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/edd4c191-8bf0-45d5-8303-6de5eddd831a"
 }

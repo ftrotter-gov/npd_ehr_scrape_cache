@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f3821167-63bd-48be-8ec5-74d190c42975",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f3821167-63bd-48be-8ec5-74d190c42975"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f3821167-63bd-48be-8ec5-74d190c42975",
-        "name": "Atherton Baptist Home - Alhambra, CA",
-        "address": [
-          {
-            "line": [
-              "214 S Atlantic Blvd"
-            ],
-            "city": "Alhambra",
-            "state": "CA",
-            "postalCode": "91801-6311",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f3821167-63bd-48be-8ec5-74d190c42975"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f3821167-63bd-48be-8ec5-74d190c42975/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f3821167-63bd-48be-8ec5-74d190c42975"
 }

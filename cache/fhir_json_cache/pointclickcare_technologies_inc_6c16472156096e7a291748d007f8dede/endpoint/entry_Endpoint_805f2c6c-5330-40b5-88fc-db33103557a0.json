@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "805f2c6c-5330-40b5-88fc-db33103557a0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/805f2c6c-5330-40b5-88fc-db33103557a0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "805f2c6c-5330-40b5-88fc-db33103557a0",
-        "name": "Heritage Corner Nursing Home - Bowling Green, OH",
-        "address": [
-          {
-            "line": [
-              "1069 Klotz Road",
-              "Suite B"
-            ],
-            "city": "Bowling Green",
-            "state": "OH",
-            "postalCode": "43402",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "805f2c6c-5330-40b5-88fc-db33103557a0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/805f2c6c-5330-40b5-88fc-db33103557a0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/805f2c6c-5330-40b5-88fc-db33103557a0"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "abc45170-ad76-4d98-bbb5-ff9bba28f55a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/abc45170-ad76-4d98-bbb5-ff9bba28f55a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "abc45170-ad76-4d98-bbb5-ff9bba28f55a",
-        "name": "Whitney Center - Hamden, CT",
-        "address": [
-          {
-            "line": [
-              "200 Leeder Hill Dr"
-            ],
-            "city": "Hamden",
-            "state": "CT",
-            "postalCode": "06517",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "abc45170-ad76-4d98-bbb5-ff9bba28f55a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/abc45170-ad76-4d98-bbb5-ff9bba28f55a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/abc45170-ad76-4d98-bbb5-ff9bba28f55a"
 }

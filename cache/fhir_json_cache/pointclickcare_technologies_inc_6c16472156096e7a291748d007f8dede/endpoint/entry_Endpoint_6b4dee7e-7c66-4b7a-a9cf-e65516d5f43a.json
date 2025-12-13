@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6b4dee7e-7c66-4b7a-a9cf-e65516d5f43a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6b4dee7e-7c66-4b7a-a9cf-e65516d5f43a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6b4dee7e-7c66-4b7a-a9cf-e65516d5f43a",
-        "name": "Sherrill House - Boston, MA",
-        "address": [
-          {
-            "line": [
-              "135 S Huntington Ave"
-            ],
-            "city": "Boston",
-            "state": "MA",
-            "postalCode": "02130",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6b4dee7e-7c66-4b7a-a9cf-e65516d5f43a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6b4dee7e-7c66-4b7a-a9cf-e65516d5f43a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6b4dee7e-7c66-4b7a-a9cf-e65516d5f43a"
 }

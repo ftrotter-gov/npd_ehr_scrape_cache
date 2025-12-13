@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7dc8a626-8dca-45a0-b9ec-ed6c79f2b00e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7dc8a626-8dca-45a0-b9ec-ed6c79f2b00e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7dc8a626-8dca-45a0-b9ec-ed6c79f2b00e",
-        "name": "NS HEALTHCARE, LLC dba The Chateau at Mo - Cincinnati, OH",
-        "address": [
-          {
-            "line": [
-              "2586 Lafeuille Avenue"
-            ],
-            "city": "Cincinnati",
-            "state": "OH",
-            "postalCode": "45211",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7dc8a626-8dca-45a0-b9ec-ed6c79f2b00e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7dc8a626-8dca-45a0-b9ec-ed6c79f2b00e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7dc8a626-8dca-45a0-b9ec-ed6c79f2b00e"
 }

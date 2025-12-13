@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2e2f4741-1c3c-4290-bba2-ad09a89b50b7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2e2f4741-1c3c-4290-bba2-ad09a89b50b7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2e2f4741-1c3c-4290-bba2-ad09a89b50b7",
-        "name": "Lacoba Homes - Monett, MO",
-        "address": [
-          {
-            "line": [
-              "850 Hwy 60",
-              "PO Box 885"
-            ],
-            "city": "Monett",
-            "state": "MO",
-            "postalCode": "65708",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2e2f4741-1c3c-4290-bba2-ad09a89b50b7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2e2f4741-1c3c-4290-bba2-ad09a89b50b7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2e2f4741-1c3c-4290-bba2-ad09a89b50b7"
 }

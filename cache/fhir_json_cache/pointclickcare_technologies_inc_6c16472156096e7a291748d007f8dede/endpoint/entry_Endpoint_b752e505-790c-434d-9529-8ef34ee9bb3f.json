@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b752e505-790c-434d-9529-8ef34ee9bb3f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b752e505-790c-434d-9529-8ef34ee9bb3f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b752e505-790c-434d-9529-8ef34ee9bb3f",
-        "name": "Thornapple Manor - Hastings, MI",
-        "address": [
-          {
-            "line": [
-              "2700 Nashville Rd"
-            ],
-            "city": "Hastings",
-            "state": "MI",
-            "postalCode": "49058",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b752e505-790c-434d-9529-8ef34ee9bb3f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b752e505-790c-434d-9529-8ef34ee9bb3f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b752e505-790c-434d-9529-8ef34ee9bb3f"
 }

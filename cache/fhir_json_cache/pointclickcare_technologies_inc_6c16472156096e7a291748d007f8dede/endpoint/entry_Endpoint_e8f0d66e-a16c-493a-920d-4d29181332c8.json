@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e8f0d66e-a16c-493a-920d-4d29181332c8",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e8f0d66e-a16c-493a-920d-4d29181332c8"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e8f0d66e-a16c-493a-920d-4d29181332c8",
-        "name": "CHSPSC, LLC - Franklin, TN",
-        "address": [
-          {
-            "line": [
-              "4000 Meridian Blvd."
-            ],
-            "city": "Franklin",
-            "state": "TN",
-            "postalCode": "37067",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e8f0d66e-a16c-493a-920d-4d29181332c8"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e8f0d66e-a16c-493a-920d-4d29181332c8/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e8f0d66e-a16c-493a-920d-4d29181332c8"
 }

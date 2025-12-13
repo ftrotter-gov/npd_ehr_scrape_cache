@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "07694105-308a-4a4d-adde-5d7078251d9b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/07694105-308a-4a4d-adde-5d7078251d9b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "07694105-308a-4a4d-adde-5d7078251d9b",
-        "name": "New Summit Rehabilitation and Healthcare - Arlington Heigh, IL",
-        "address": [
-          {
-            "line": [
-              "1200 North Arlington Heights Road"
-            ],
-            "city": "Arlington Heights",
-            "state": "IL",
-            "postalCode": "60004",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "07694105-308a-4a4d-adde-5d7078251d9b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/07694105-308a-4a4d-adde-5d7078251d9b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/07694105-308a-4a4d-adde-5d7078251d9b"
 }

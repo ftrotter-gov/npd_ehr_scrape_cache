@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cf5e48e0-86e7-4404-9781-ed51f92c92fb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cf5e48e0-86e7-4404-9781-ed51f92c92fb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cf5e48e0-86e7-4404-9781-ed51f92c92fb",
-        "name": "Christian Living Services Inc. dba Cappe - Greenwood Villa, CO",
-        "address": [
-          {
-            "line": [
-              "7000 E Belleview Ave.",
-              "Suite #150"
-            ],
-            "city": "Greenwood Village",
-            "state": "CO",
-            "postalCode": "80111",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cf5e48e0-86e7-4404-9781-ed51f92c92fb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cf5e48e0-86e7-4404-9781-ed51f92c92fb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cf5e48e0-86e7-4404-9781-ed51f92c92fb"
 }

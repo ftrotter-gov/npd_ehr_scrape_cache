@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d5536698-f5f0-4b6b-944b-47cbbfb4bfdd",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d5536698-f5f0-4b6b-944b-47cbbfb4bfdd"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d5536698-f5f0-4b6b-944b-47cbbfb4bfdd",
-        "name": "Lutheran Haven Assisted Living Facility - Oviedo, FL",
-        "address": [
-          {
-            "line": [
-              "1525 Haven Dr"
-            ],
-            "city": "Oviedo",
-            "state": "FL",
-            "postalCode": "32765",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d5536698-f5f0-4b6b-944b-47cbbfb4bfdd"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d5536698-f5f0-4b6b-944b-47cbbfb4bfdd/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d5536698-f5f0-4b6b-944b-47cbbfb4bfdd"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "202131fa-0244-48f5-a35c-bdc9710f6a20",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/202131fa-0244-48f5-a35c-bdc9710f6a20"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "202131fa-0244-48f5-a35c-bdc9710f6a20",
-        "name": "Serra Village - Weirton, WV",
-        "address": [
-          {
-            "line": [
-              "2525 Pennsylvania Avenue"
-            ],
-            "city": "Weirton",
-            "state": "WV",
-            "postalCode": "26062",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "202131fa-0244-48f5-a35c-bdc9710f6a20"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/202131fa-0244-48f5-a35c-bdc9710f6a20/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/202131fa-0244-48f5-a35c-bdc9710f6a20"
 }

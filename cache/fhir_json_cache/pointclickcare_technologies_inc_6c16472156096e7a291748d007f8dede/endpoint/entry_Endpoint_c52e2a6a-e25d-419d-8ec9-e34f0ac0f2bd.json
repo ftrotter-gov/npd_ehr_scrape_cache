@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c52e2a6a-e25d-419d-8ec9-e34f0ac0f2bd",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c52e2a6a-e25d-419d-8ec9-e34f0ac0f2bd"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c52e2a6a-e25d-419d-8ec9-e34f0ac0f2bd",
-        "name": "American Religious Town Hall Meeting Inc - Dallas, TX",
-        "address": [
-          {
-            "line": [
-              "745 N Buckner Blvd",
-              "PO Box 180118"
-            ],
-            "city": "Dallas",
-            "state": "TX",
-            "postalCode": "75218",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c52e2a6a-e25d-419d-8ec9-e34f0ac0f2bd"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c52e2a6a-e25d-419d-8ec9-e34f0ac0f2bd/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c52e2a6a-e25d-419d-8ec9-e34f0ac0f2bd"
 }

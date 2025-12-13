@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d2053174-a197-43a6-8d5f-e74db90f8207",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d2053174-a197-43a6-8d5f-e74db90f8207"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d2053174-a197-43a6-8d5f-e74db90f8207",
-        "name": "Powder River Manor - Broadus, MT",
-        "address": [
-          {
-            "line": [
-              "104 N Trautman",
-              "PO Box 719"
-            ],
-            "city": "Broadus",
-            "state": "MT",
-            "postalCode": "59317",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d2053174-a197-43a6-8d5f-e74db90f8207"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d2053174-a197-43a6-8d5f-e74db90f8207/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d2053174-a197-43a6-8d5f-e74db90f8207"
 }

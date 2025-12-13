@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ea097e4b-9d15-410b-8533-9b107fed5e41",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ea097e4b-9d15-410b-8533-9b107fed5e41"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ea097e4b-9d15-410b-8533-9b107fed5e41",
-        "name": "Bethany Home of Rhode Island - Providence, RI",
-        "address": [
-          {
-            "line": [
-              "111 S Angell St"
-            ],
-            "city": "Providence",
-            "state": "RI",
-            "postalCode": "02906-5309",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ea097e4b-9d15-410b-8533-9b107fed5e41"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ea097e4b-9d15-410b-8533-9b107fed5e41/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ea097e4b-9d15-410b-8533-9b107fed5e41"
 }

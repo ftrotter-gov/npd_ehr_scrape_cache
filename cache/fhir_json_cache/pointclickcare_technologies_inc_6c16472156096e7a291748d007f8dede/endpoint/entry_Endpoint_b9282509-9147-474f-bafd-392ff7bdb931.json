@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b9282509-9147-474f-bafd-392ff7bdb931",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b9282509-9147-474f-bafd-392ff7bdb931"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b9282509-9147-474f-bafd-392ff7bdb931",
-        "name": "Recover-Care Healthcare - Brooklyn, NY",
-        "address": [
-          {
-            "line": [
-              "3009 Quentin Road",
-              "Second Floor"
-            ],
-            "city": "Brooklyn",
-            "state": "NY",
-            "postalCode": "11234",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b9282509-9147-474f-bafd-392ff7bdb931"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b9282509-9147-474f-bafd-392ff7bdb931/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b9282509-9147-474f-bafd-392ff7bdb931"
 }

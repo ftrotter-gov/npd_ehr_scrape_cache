@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8231bedf-e2cd-458c-869a-877a1c881310",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8231bedf-e2cd-458c-869a-877a1c881310"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8231bedf-e2cd-458c-869a-877a1c881310",
-        "name": "Sunrise Transitional Care LLC - Livermore, CA",
-        "address": [
-          {
-            "line": [
-              "52 Obsidian Way Livermore"
-            ],
-            "city": "Livermore",
-            "state": "CA",
-            "postalCode": "94550",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8231bedf-e2cd-458c-869a-877a1c881310"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8231bedf-e2cd-458c-869a-877a1c881310/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8231bedf-e2cd-458c-869a-877a1c881310"
 }

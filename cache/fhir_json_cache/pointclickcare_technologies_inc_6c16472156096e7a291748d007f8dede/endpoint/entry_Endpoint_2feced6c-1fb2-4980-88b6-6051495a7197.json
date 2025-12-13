@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2feced6c-1fb2-4980-88b6-6051495a7197",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2feced6c-1fb2-4980-88b6-6051495a7197"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2feced6c-1fb2-4980-88b6-6051495a7197",
-        "name": "Brickyard LP - ",
-        "address": [
-          {
-            "line": [
-              "2647 Waterfront Parkway East Drive"
-            ],
-            "city": "Indianapolis",
-            "state": "IN",
-            "postalCode": "46214",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2feced6c-1fb2-4980-88b6-6051495a7197"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2feced6c-1fb2-4980-88b6-6051495a7197/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2feced6c-1fb2-4980-88b6-6051495a7197"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "aec30f8a-daf6-4e21-82fc-16816deaa7ef",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/aec30f8a-daf6-4e21-82fc-16816deaa7ef"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "aec30f8a-daf6-4e21-82fc-16816deaa7ef",
-        "name": "Mille Lacs Health Center - Onamia, MN",
-        "address": [
-          {
-            "line": [
-              "200 N Elm St"
-            ],
-            "city": "Onamia",
-            "state": "MN",
-            "postalCode": "56359",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "aec30f8a-daf6-4e21-82fc-16816deaa7ef"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/aec30f8a-daf6-4e21-82fc-16816deaa7ef/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/aec30f8a-daf6-4e21-82fc-16816deaa7ef"
 }

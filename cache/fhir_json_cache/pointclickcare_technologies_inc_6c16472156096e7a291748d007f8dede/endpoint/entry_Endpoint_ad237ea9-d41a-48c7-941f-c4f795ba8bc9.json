@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ad237ea9-d41a-48c7-941f-c4f795ba8bc9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ad237ea9-d41a-48c7-941f-c4f795ba8bc9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ad237ea9-d41a-48c7-941f-c4f795ba8bc9",
-        "name": "Avida Lakes Park, LLC - Fort Myers, FL",
-        "address": [
-          {
-            "line": [
-              "7820 Fanning Court"
-            ],
-            "city": "Fort Myers",
-            "state": "FL",
-            "postalCode": "33907",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ad237ea9-d41a-48c7-941f-c4f795ba8bc9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ad237ea9-d41a-48c7-941f-c4f795ba8bc9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ad237ea9-d41a-48c7-941f-c4f795ba8bc9"
 }

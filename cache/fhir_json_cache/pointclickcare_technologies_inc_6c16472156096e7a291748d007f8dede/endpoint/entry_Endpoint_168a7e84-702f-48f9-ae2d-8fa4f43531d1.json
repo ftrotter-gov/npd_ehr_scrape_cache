@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "168a7e84-702f-48f9-ae2d-8fa4f43531d1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/168a7e84-702f-48f9-ae2d-8fa4f43531d1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "168a7e84-702f-48f9-ae2d-8fa4f43531d1",
-        "name": "Bostick Nursing Center dba Bostick Nursi - Milledgeville, GA",
-        "address": [
-          {
-            "line": [
-              "1700 Bostick Cir"
-            ],
-            "city": "Milledgeville",
-            "state": "GA",
-            "postalCode": "31061",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "168a7e84-702f-48f9-ae2d-8fa4f43531d1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/168a7e84-702f-48f9-ae2d-8fa4f43531d1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/168a7e84-702f-48f9-ae2d-8fa4f43531d1"
 }

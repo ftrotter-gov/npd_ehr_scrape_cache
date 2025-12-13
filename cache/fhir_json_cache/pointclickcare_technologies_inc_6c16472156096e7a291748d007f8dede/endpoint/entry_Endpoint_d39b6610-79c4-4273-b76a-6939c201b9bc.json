@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d39b6610-79c4-4273-b76a-6939c201b9bc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d39b6610-79c4-4273-b76a-6939c201b9bc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d39b6610-79c4-4273-b76a-6939c201b9bc",
-        "name": "Finnish-American Nursing Home - Lake Worth, FL",
-        "address": [
-          {
-            "line": [
-              "1800 South Dr"
-            ],
-            "city": "Lake Worth",
-            "state": "FL",
-            "postalCode": "33461-6199",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d39b6610-79c4-4273-b76a-6939c201b9bc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d39b6610-79c4-4273-b76a-6939c201b9bc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d39b6610-79c4-4273-b76a-6939c201b9bc"
 }

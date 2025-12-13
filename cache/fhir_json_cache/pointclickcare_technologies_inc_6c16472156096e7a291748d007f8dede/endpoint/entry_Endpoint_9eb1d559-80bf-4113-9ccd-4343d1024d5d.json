@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9eb1d559-80bf-4113-9ccd-4343d1024d5d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9eb1d559-80bf-4113-9ccd-4343d1024d5d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9eb1d559-80bf-4113-9ccd-4343d1024d5d",
-        "name": "Inspira Health Group - East Liverpool, OH",
-        "address": [
-          {
-            "line": [
-              "48444 Bell School Rd"
-            ],
-            "city": "East Liverpool",
-            "state": "OH",
-            "postalCode": "43920-9646",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9eb1d559-80bf-4113-9ccd-4343d1024d5d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9eb1d559-80bf-4113-9ccd-4343d1024d5d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9eb1d559-80bf-4113-9ccd-4343d1024d5d"
 }

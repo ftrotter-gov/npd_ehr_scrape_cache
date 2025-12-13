@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "114276f9-7353-4039-890a-a6711b03e714",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/114276f9-7353-4039-890a-a6711b03e714"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "114276f9-7353-4039-890a-a6711b03e714",
-        "name": "Logan Acres - Bellefontaine, OH",
-        "address": [
-          {
-            "line": [
-              "2739 County Rd 91"
-            ],
-            "city": "Bellefontaine",
-            "state": "OH",
-            "postalCode": "43311",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "114276f9-7353-4039-890a-a6711b03e714"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/114276f9-7353-4039-890a-a6711b03e714/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/114276f9-7353-4039-890a-a6711b03e714"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d38e3a88-e624-429b-a145-f701de739c9d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d38e3a88-e624-429b-a145-f701de739c9d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d38e3a88-e624-429b-a145-f701de739c9d",
-        "name": "Midwest Geriatrics Management - Creve Coeur, MO",
-        "address": [
-          {
-            "line": [
-              "477 N. Lindbergh Blvd.",
-              "Suite 310"
-            ],
-            "city": "Creve Coeur",
-            "state": "MO",
-            "postalCode": "63141",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d38e3a88-e624-429b-a145-f701de739c9d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d38e3a88-e624-429b-a145-f701de739c9d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d38e3a88-e624-429b-a145-f701de739c9d"
 }

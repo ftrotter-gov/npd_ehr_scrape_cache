@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "714344b8-1d1e-4859-9c0f-ee559ae105bb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/714344b8-1d1e-4859-9c0f-ee559ae105bb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "714344b8-1d1e-4859-9c0f-ee559ae105bb",
-        "name": "Cleveland IL/AL, LLC dba The Winfield at - Cleveland, OH",
-        "address": [
-          {
-            "line": [
-              "261 Richmond Road"
-            ],
-            "city": "Cleveland",
-            "state": "OH",
-            "postalCode": "44143",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "714344b8-1d1e-4859-9c0f-ee559ae105bb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/714344b8-1d1e-4859-9c0f-ee559ae105bb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/714344b8-1d1e-4859-9c0f-ee559ae105bb"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8cdbf550-5c88-40e9-96f1-c8bf6208cf52",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8cdbf550-5c88-40e9-96f1-c8bf6208cf52"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8cdbf550-5c88-40e9-96f1-c8bf6208cf52",
-        "name": "City of Clarkson dba Clarkson Community - Clarkson, NE",
-        "address": [
-          {
-            "line": [
-              "212 Sunrise Drive"
-            ],
-            "city": "Clarkson",
-            "state": "NE",
-            "postalCode": "68629",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8cdbf550-5c88-40e9-96f1-c8bf6208cf52"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8cdbf550-5c88-40e9-96f1-c8bf6208cf52/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8cdbf550-5c88-40e9-96f1-c8bf6208cf52"
 }

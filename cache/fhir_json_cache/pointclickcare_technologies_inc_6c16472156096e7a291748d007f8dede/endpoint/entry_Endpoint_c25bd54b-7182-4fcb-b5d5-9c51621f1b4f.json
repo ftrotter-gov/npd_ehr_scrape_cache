@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c25bd54b-7182-4fcb-b5d5-9c51621f1b4f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c25bd54b-7182-4fcb-b5d5-9c51621f1b4f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c25bd54b-7182-4fcb-b5d5-9c51621f1b4f",
-        "name": "Individual Care of Texas Inc. - Abilene, TX",
-        "address": [
-          {
-            "line": [
-              "2310 S Seventh"
-            ],
-            "city": "Abilene",
-            "state": "TX",
-            "postalCode": "79605",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c25bd54b-7182-4fcb-b5d5-9c51621f1b4f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c25bd54b-7182-4fcb-b5d5-9c51621f1b4f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c25bd54b-7182-4fcb-b5d5-9c51621f1b4f"
 }

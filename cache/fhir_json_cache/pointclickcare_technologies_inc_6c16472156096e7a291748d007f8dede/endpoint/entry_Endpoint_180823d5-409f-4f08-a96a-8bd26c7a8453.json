@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "180823d5-409f-4f08-a96a-8bd26c7a8453",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/180823d5-409f-4f08-a96a-8bd26c7a8453"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "180823d5-409f-4f08-a96a-8bd26c7a8453",
-        "name": "Monarch Cottage - La Jolla, CA",
-        "address": [
-          {
-            "line": [
-              "7630 Fay Avenue"
-            ],
-            "city": "La Jolla",
-            "state": "CA",
-            "postalCode": "92037",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "180823d5-409f-4f08-a96a-8bd26c7a8453"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/180823d5-409f-4f08-a96a-8bd26c7a8453/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/180823d5-409f-4f08-a96a-8bd26c7a8453"
 }

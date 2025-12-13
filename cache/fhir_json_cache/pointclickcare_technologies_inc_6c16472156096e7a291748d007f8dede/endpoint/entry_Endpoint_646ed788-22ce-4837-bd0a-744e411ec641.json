@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "646ed788-22ce-4837-bd0a-744e411ec641",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/646ed788-22ce-4837-bd0a-744e411ec641"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "646ed788-22ce-4837-bd0a-744e411ec641",
-        "name": "Pillar Stone Healthcare Company, LLC - Yorkville, IL",
-        "address": [
-          {
-            "line": [
-              "242 Greenbriar Rd"
-            ],
-            "city": "Yorkville",
-            "state": "IL",
-            "postalCode": "77581",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "646ed788-22ce-4837-bd0a-744e411ec641"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/646ed788-22ce-4837-bd0a-744e411ec641/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/646ed788-22ce-4837-bd0a-744e411ec641"
 }

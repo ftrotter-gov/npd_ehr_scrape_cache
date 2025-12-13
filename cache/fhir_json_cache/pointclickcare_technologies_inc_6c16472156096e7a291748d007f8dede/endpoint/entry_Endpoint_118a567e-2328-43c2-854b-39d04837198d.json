@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "118a567e-2328-43c2-854b-39d04837198d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/118a567e-2328-43c2-854b-39d04837198d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "118a567e-2328-43c2-854b-39d04837198d",
-        "name": "ACTS Retirement-Life Communities - Fort Washington, PA",
-        "address": [
-          {
-            "line": [
-              "420 Delaware Drive"
-            ],
-            "city": "Fort Washington",
-            "state": "PA",
-            "postalCode": "19034",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "118a567e-2328-43c2-854b-39d04837198d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/118a567e-2328-43c2-854b-39d04837198d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/118a567e-2328-43c2-854b-39d04837198d"
 }

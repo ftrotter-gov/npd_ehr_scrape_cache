@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "220ca4ab-fb14-4f3f-b348-ab6fa38bf861",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/220ca4ab-fb14-4f3f-b348-ab6fa38bf861"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "220ca4ab-fb14-4f3f-b348-ab6fa38bf861",
-        "name": "Salemhaven Nursing Home - Salem, NH",
-        "address": [
-          {
-            "line": [
-              "23 Geremonty Dr"
-            ],
-            "city": "Salem",
-            "state": "NH",
-            "postalCode": "03079",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "220ca4ab-fb14-4f3f-b348-ab6fa38bf861"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/220ca4ab-fb14-4f3f-b348-ab6fa38bf861/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/220ca4ab-fb14-4f3f-b348-ab6fa38bf861"
 }

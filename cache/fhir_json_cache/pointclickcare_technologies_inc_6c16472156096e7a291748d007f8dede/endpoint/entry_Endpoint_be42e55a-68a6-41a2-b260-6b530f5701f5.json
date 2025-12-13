@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "be42e55a-68a6-41a2-b260-6b530f5701f5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/be42e55a-68a6-41a2-b260-6b530f5701f5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "be42e55a-68a6-41a2-b260-6b530f5701f5",
-        "name": "Rest Haven Nursing Home - McDermott, OH",
-        "address": [
-          {
-            "line": [
-              "2274 McDermott Pondcreek Rd"
-            ],
-            "city": "McDermott",
-            "state": "OH",
-            "postalCode": "45652",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "be42e55a-68a6-41a2-b260-6b530f5701f5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/be42e55a-68a6-41a2-b260-6b530f5701f5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/be42e55a-68a6-41a2-b260-6b530f5701f5"
 }

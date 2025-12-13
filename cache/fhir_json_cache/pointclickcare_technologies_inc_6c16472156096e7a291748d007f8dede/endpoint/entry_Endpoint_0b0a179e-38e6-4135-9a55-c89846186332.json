@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0b0a179e-38e6-4135-9a55-c89846186332",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0b0a179e-38e6-4135-9a55-c89846186332"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0b0a179e-38e6-4135-9a55-c89846186332",
-        "name": "Islands Skilled Nursing and Rehabilitati - Honolulu, HI",
-        "address": [
-          {
-            "line": [
-              "1205 Alexander St"
-            ],
-            "city": "Honolulu",
-            "state": "HI",
-            "postalCode": "96826",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0b0a179e-38e6-4135-9a55-c89846186332"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0b0a179e-38e6-4135-9a55-c89846186332/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0b0a179e-38e6-4135-9a55-c89846186332"
 }

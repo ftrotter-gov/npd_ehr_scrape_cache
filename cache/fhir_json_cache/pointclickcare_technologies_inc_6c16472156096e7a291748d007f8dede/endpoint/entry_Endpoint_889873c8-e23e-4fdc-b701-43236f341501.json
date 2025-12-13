@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "889873c8-e23e-4fdc-b701-43236f341501",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/889873c8-e23e-4fdc-b701-43236f341501"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "889873c8-e23e-4fdc-b701-43236f341501",
-        "name": "Silver Maples of Chelsea - Chelsea, MI",
-        "address": [
-          {
-            "line": [
-              "100 Silver Maples Dr"
-            ],
-            "city": "Chelsea",
-            "state": "MI",
-            "postalCode": "48118",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "889873c8-e23e-4fdc-b701-43236f341501"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/889873c8-e23e-4fdc-b701-43236f341501/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/889873c8-e23e-4fdc-b701-43236f341501"
 }

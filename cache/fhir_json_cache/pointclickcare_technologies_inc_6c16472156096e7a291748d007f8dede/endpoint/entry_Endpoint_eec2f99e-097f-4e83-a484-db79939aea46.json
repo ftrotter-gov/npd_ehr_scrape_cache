@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "eec2f99e-097f-4e83-a484-db79939aea46",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/eec2f99e-097f-4e83-a484-db79939aea46"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "eec2f99e-097f-4e83-a484-db79939aea46",
-        "name": "HCR Manor Care Services, LLC - Toledo, OH",
-        "address": [
-          {
-            "line": [
-              "300 N Summit Street",
-              "PO Box 13307"
-            ],
-            "city": "Toledo",
-            "state": "OH",
-            "postalCode": "43604",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "eec2f99e-097f-4e83-a484-db79939aea46"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/eec2f99e-097f-4e83-a484-db79939aea46/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/eec2f99e-097f-4e83-a484-db79939aea46"
 }

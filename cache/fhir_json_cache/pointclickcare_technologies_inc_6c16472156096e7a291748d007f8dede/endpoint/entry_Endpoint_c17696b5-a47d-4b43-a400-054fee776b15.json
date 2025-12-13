@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c17696b5-a47d-4b43-a400-054fee776b15",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c17696b5-a47d-4b43-a400-054fee776b15"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c17696b5-a47d-4b43-a400-054fee776b15",
-        "name": "Nevada State Veterans Nursing Home Corpo - Somerset, NJ",
-        "address": [
-          {
-            "line": [
-              "290 Davidson Avenue",
-              "#C204"
-            ],
-            "city": "Somerset",
-            "state": "NJ",
-            "postalCode": "08873",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c17696b5-a47d-4b43-a400-054fee776b15"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c17696b5-a47d-4b43-a400-054fee776b15/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c17696b5-a47d-4b43-a400-054fee776b15"
 }

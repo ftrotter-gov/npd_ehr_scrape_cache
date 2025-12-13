@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "331faafd-a428-4bb2-a909-dd882e09064b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/331faafd-a428-4bb2-a909-dd882e09064b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "331faafd-a428-4bb2-a909-dd882e09064b",
-        "name": "Topaz Fiscal Services FL - Brooklyn, NY",
-        "address": [
-          {
-            "line": [
-              "6085 Strickland Avenue"
-            ],
-            "city": "Brooklyn",
-            "state": "NY",
-            "postalCode": "11234",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "331faafd-a428-4bb2-a909-dd882e09064b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/331faafd-a428-4bb2-a909-dd882e09064b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/331faafd-a428-4bb2-a909-dd882e09064b"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0800fdf0-1877-4dab-bc9d-ba8367f3520d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0800fdf0-1877-4dab-bc9d-ba8367f3520d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0800fdf0-1877-4dab-bc9d-ba8367f3520d",
-        "name": "Livia Health At East Hanover LLC - East Hanover, NJ",
-        "address": [
-          {
-            "line": [
-              "1 S. Ridgedale Ave"
-            ],
-            "city": "East Hanover",
-            "state": "NJ",
-            "postalCode": "07936",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0800fdf0-1877-4dab-bc9d-ba8367f3520d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0800fdf0-1877-4dab-bc9d-ba8367f3520d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0800fdf0-1877-4dab-bc9d-ba8367f3520d"
 }

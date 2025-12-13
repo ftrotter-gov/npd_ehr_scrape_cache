@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4d588d38-71a4-4dc1-a76f-db38b18091f2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4d588d38-71a4-4dc1-a76f-db38b18091f2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4d588d38-71a4-4dc1-a76f-db38b18091f2",
-        "name": "Miller's Health Systems - Warsaw, IN",
-        "address": [
-          {
-            "line": [
-              "1690 South County Farm Road",
-              "PO Box 4377"
-            ],
-            "city": "Warsaw",
-            "state": "IN",
-            "postalCode": "46580",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4d588d38-71a4-4dc1-a76f-db38b18091f2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4d588d38-71a4-4dc1-a76f-db38b18091f2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4d588d38-71a4-4dc1-a76f-db38b18091f2"
 }

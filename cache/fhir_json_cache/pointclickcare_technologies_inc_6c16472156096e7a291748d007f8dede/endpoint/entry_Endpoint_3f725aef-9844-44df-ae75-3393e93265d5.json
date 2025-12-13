@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3f725aef-9844-44df-ae75-3393e93265d5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3f725aef-9844-44df-ae75-3393e93265d5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3f725aef-9844-44df-ae75-3393e93265d5",
-        "name": "Pinewood Manor Nursing Home - Hawkinsville, GA",
-        "address": [
-          {
-            "line": [
-              "PO Box 1218",
-              "277 Commerce Street"
-            ],
-            "city": "Hawkinsville",
-            "state": "GA",
-            "postalCode": "31036-7218",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3f725aef-9844-44df-ae75-3393e93265d5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3f725aef-9844-44df-ae75-3393e93265d5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3f725aef-9844-44df-ae75-3393e93265d5"
 }

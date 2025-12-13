@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e9a484db-9229-422c-928b-201429ca4a0d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e9a484db-9229-422c-928b-201429ca4a0d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e9a484db-9229-422c-928b-201429ca4a0d",
-        "name": "Plantation Manor Nursing Home - McCalla, AL",
-        "address": [
-          {
-            "line": [
-              "6450 Old Tuscaloosa Hwy",
-              "PO Box 97"
-            ],
-            "city": "McCalla",
-            "state": "AL",
-            "postalCode": "35111",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e9a484db-9229-422c-928b-201429ca4a0d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e9a484db-9229-422c-928b-201429ca4a0d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e9a484db-9229-422c-928b-201429ca4a0d"
 }

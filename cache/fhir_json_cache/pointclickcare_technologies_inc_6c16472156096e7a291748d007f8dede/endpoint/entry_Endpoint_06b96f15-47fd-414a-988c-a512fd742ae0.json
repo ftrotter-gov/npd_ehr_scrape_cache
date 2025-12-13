@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "06b96f15-47fd-414a-988c-a512fd742ae0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/06b96f15-47fd-414a-988c-a512fd742ae0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "06b96f15-47fd-414a-988c-a512fd742ae0",
-        "name": "Camden Nursing Facility Inc - Camden, AL",
-        "address": [
-          {
-            "line": [
-              "210 Ponderosa Dr",
-              "PO Box 787"
-            ],
-            "city": "Camden",
-            "state": "AL",
-            "postalCode": "36726",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "06b96f15-47fd-414a-988c-a512fd742ae0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/06b96f15-47fd-414a-988c-a512fd742ae0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/06b96f15-47fd-414a-988c-a512fd742ae0"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7146bc7a-398a-4634-8216-12aac5fd0257",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7146bc7a-398a-4634-8216-12aac5fd0257"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7146bc7a-398a-4634-8216-12aac5fd0257",
-        "name": "Colonial Senior Living - Henderson, KY",
-        "address": [
-          {
-            "line": [
-              "2637 Stadium Dr."
-            ],
-            "city": "Henderson",
-            "state": "KY",
-            "postalCode": "42420",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7146bc7a-398a-4634-8216-12aac5fd0257"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7146bc7a-398a-4634-8216-12aac5fd0257/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7146bc7a-398a-4634-8216-12aac5fd0257"
 }

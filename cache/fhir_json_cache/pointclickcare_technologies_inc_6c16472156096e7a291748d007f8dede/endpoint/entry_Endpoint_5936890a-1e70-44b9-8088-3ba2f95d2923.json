@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5936890a-1e70-44b9-8088-3ba2f95d2923",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5936890a-1e70-44b9-8088-3ba2f95d2923"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5936890a-1e70-44b9-8088-3ba2f95d2923",
-        "name": "Calhoun County Medical Care Facility - Battle Creek, MI",
-        "address": [
-          {
-            "line": [
-              "1150 Michigan Ave East"
-            ],
-            "city": "Battle Creek",
-            "state": "MI",
-            "postalCode": "49014-6163",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5936890a-1e70-44b9-8088-3ba2f95d2923"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5936890a-1e70-44b9-8088-3ba2f95d2923/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5936890a-1e70-44b9-8088-3ba2f95d2923"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fb10b330-d306-4867-abd1-59f4a6e08766",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fb10b330-d306-4867-abd1-59f4a6e08766"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fb10b330-d306-4867-abd1-59f4a6e08766",
-        "name": "Silver Oak Health Services dba Silver Oa - Livermore, CA",
-        "address": [
-          {
-            "line": [
-              "788 Holmes St."
-            ],
-            "city": "Livermore",
-            "state": "CA",
-            "postalCode": "94550",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fb10b330-d306-4867-abd1-59f4a6e08766"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fb10b330-d306-4867-abd1-59f4a6e08766/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fb10b330-d306-4867-abd1-59f4a6e08766"
 }

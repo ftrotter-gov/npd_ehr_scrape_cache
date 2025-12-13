@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "42e58e9d-a792-4395-a233-46a055b40b37",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/42e58e9d-a792-4395-a233-46a055b40b37"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "42e58e9d-a792-4395-a233-46a055b40b37",
-        "name": "Quabbin Valley Healthcare - Athol, MA",
-        "address": [
-          {
-            "line": [
-              "821 Daniel Shays Highway"
-            ],
-            "city": "Athol",
-            "state": "MA",
-            "postalCode": "01331",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "42e58e9d-a792-4395-a233-46a055b40b37"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/42e58e9d-a792-4395-a233-46a055b40b37/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/42e58e9d-a792-4395-a233-46a055b40b37"
 }

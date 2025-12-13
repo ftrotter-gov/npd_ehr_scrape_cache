@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8979c328-4d42-4c93-81ca-a1705bcbaae7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8979c328-4d42-4c93-81ca-a1705bcbaae7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8979c328-4d42-4c93-81ca-a1705bcbaae7",
-        "name": "Summit at Blue Mountain Nursing & Rehab - Lehighton, PA",
-        "address": [
-          {
-            "line": [
-              "211 N 12th St"
-            ],
-            "city": "Lehighton",
-            "state": "PA",
-            "postalCode": "18235-1195",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8979c328-4d42-4c93-81ca-a1705bcbaae7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8979c328-4d42-4c93-81ca-a1705bcbaae7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8979c328-4d42-4c93-81ca-a1705bcbaae7"
 }

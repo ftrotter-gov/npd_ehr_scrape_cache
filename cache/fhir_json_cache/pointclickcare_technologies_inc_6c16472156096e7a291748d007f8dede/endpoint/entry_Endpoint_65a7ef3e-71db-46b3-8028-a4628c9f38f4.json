@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "65a7ef3e-71db-46b3-8028-a4628c9f38f4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/65a7ef3e-71db-46b3-8028-a4628c9f38f4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "65a7ef3e-71db-46b3-8028-a4628c9f38f4",
-        "name": "Turenne & Associates, LLC - Montgomery, AL",
-        "address": [
-          {
-            "line": [
-              "355 Industrial Park Blvd"
-            ],
-            "city": "Montgomery",
-            "state": "AL",
-            "postalCode": "36117",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "65a7ef3e-71db-46b3-8028-a4628c9f38f4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/65a7ef3e-71db-46b3-8028-a4628c9f38f4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/65a7ef3e-71db-46b3-8028-a4628c9f38f4"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "756d9b3f-a706-49b4-a9d7-b7c6d7de35d3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/756d9b3f-a706-49b4-a9d7-b7c6d7de35d3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "756d9b3f-a706-49b4-a9d7-b7c6d7de35d3",
-        "name": "Valley View Retirement Community - Belle - Belleville, PA",
-        "address": [
-          {
-            "line": [
-              "4702 E Main St"
-            ],
-            "city": "Belleville",
-            "state": "PA",
-            "postalCode": "17004",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "756d9b3f-a706-49b4-a9d7-b7c6d7de35d3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/756d9b3f-a706-49b4-a9d7-b7c6d7de35d3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/756d9b3f-a706-49b4-a9d7-b7c6d7de35d3"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "502b4b7d-780a-4bea-8ce6-2796b31a6e6b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/502b4b7d-780a-4bea-8ce6-2796b31a6e6b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "502b4b7d-780a-4bea-8ce6-2796b31a6e6b",
-        "name": "Management Seven, L.L.C. - Many, LA",
-        "address": [
-          {
-            "line": [
-              "145 North Highland Dr."
-            ],
-            "city": "Many",
-            "state": "LA",
-            "postalCode": "71449",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "502b4b7d-780a-4bea-8ce6-2796b31a6e6b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/502b4b7d-780a-4bea-8ce6-2796b31a6e6b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/502b4b7d-780a-4bea-8ce6-2796b31a6e6b"
 }

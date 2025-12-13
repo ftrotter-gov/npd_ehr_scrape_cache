@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0c5f0a0b-081c-4d20-b126-4659cfac1f83",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0c5f0a0b-081c-4d20-b126-4659cfac1f83"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0c5f0a0b-081c-4d20-b126-4659cfac1f83",
-        "name": "Redstone Highlands - Greensburg - Greensburg, PA",
-        "address": [
-          {
-            "line": [
-              "6 Garden Center Dr"
-            ],
-            "city": "Greensburg",
-            "state": "PA",
-            "postalCode": "15601-1351",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0c5f0a0b-081c-4d20-b126-4659cfac1f83"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0c5f0a0b-081c-4d20-b126-4659cfac1f83/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0c5f0a0b-081c-4d20-b126-4659cfac1f83"
 }

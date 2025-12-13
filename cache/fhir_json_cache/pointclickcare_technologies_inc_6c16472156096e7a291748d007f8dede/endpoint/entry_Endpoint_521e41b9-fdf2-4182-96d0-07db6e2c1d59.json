@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "521e41b9-fdf2-4182-96d0-07db6e2c1d59",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/521e41b9-fdf2-4182-96d0-07db6e2c1d59"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "521e41b9-fdf2-4182-96d0-07db6e2c1d59",
-        "name": "Morgan Estates Assisted Living Community - Geneseo, NY",
-        "address": [
-          {
-            "line": [
-              "4588 Morgan View Ro"
-            ],
-            "city": "Geneseo",
-            "state": "NY",
-            "postalCode": "14454",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "521e41b9-fdf2-4182-96d0-07db6e2c1d59"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/521e41b9-fdf2-4182-96d0-07db6e2c1d59/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/521e41b9-fdf2-4182-96d0-07db6e2c1d59"
 }

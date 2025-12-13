@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0b1e0023-ea6c-4192-8a9c-0469f98c7904",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0b1e0023-ea6c-4192-8a9c-0469f98c7904"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0b1e0023-ea6c-4192-8a9c-0469f98c7904",
-        "name": "S.A.I. Group Inc. - Toledo, OH",
-        "address": [
-          {
-            "line": [
-              "1440 S. Byrne Rd."
-            ],
-            "city": "Toledo",
-            "state": "OH",
-            "postalCode": "43614",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0b1e0023-ea6c-4192-8a9c-0469f98c7904"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0b1e0023-ea6c-4192-8a9c-0469f98c7904/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0b1e0023-ea6c-4192-8a9c-0469f98c7904"
 }

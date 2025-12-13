@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2a3e16f3-6d60-43a8-a836-26291232033e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2a3e16f3-6d60-43a8-a836-26291232033e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2a3e16f3-6d60-43a8-a836-26291232033e",
-        "name": "Little Nursing Home - Montclair, NJ",
-        "address": [
-          {
-            "line": [
-              "71 Christopher St"
-            ],
-            "city": "Montclair",
-            "state": "NJ",
-            "postalCode": "07042",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2a3e16f3-6d60-43a8-a836-26291232033e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2a3e16f3-6d60-43a8-a836-26291232033e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2a3e16f3-6d60-43a8-a836-26291232033e"
 }

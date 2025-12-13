@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fa74a1a1-0016-4582-89c4-4d4494d2c6bc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fa74a1a1-0016-4582-89c4-4d4494d2c6bc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fa74a1a1-0016-4582-89c4-4d4494d2c6bc",
-        "name": "Cummings Health Care Facility - Howland, ME",
-        "address": [
-          {
-            "line": [
-              "5 Crocker St Ext",
-              "PO Box 367"
-            ],
-            "city": "Howland",
-            "state": "ME",
-            "postalCode": "04448",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fa74a1a1-0016-4582-89c4-4d4494d2c6bc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fa74a1a1-0016-4582-89c4-4d4494d2c6bc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fa74a1a1-0016-4582-89c4-4d4494d2c6bc"
 }

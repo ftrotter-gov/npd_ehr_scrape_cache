@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5cf187a1-dc5d-452a-97ce-764cc6f30cd5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5cf187a1-dc5d-452a-97ce-764cc6f30cd5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5cf187a1-dc5d-452a-97ce-764cc6f30cd5",
-        "name": "Hillebrand Nursing & Rehabilitation Cent - Cincinnati, OH",
-        "address": [
-          {
-            "line": [
-              "4320 Bridgetown Rd"
-            ],
-            "city": "Cincinnati",
-            "state": "OH",
-            "postalCode": "45211",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5cf187a1-dc5d-452a-97ce-764cc6f30cd5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5cf187a1-dc5d-452a-97ce-764cc6f30cd5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5cf187a1-dc5d-452a-97ce-764cc6f30cd5"
 }

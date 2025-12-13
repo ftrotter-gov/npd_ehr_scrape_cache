@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bc0d721f-a443-44e0-a4f0-b839c2d1e94f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bc0d721f-a443-44e0-a4f0-b839c2d1e94f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bc0d721f-a443-44e0-a4f0-b839c2d1e94f",
-        "name": "Fulton Manor - Wauseon, OH",
-        "address": [
-          {
-            "line": [
-              "723 S Shoop Ave"
-            ],
-            "city": "Wauseon",
-            "state": "OH",
-            "postalCode": "43567",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bc0d721f-a443-44e0-a4f0-b839c2d1e94f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bc0d721f-a443-44e0-a4f0-b839c2d1e94f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bc0d721f-a443-44e0-a4f0-b839c2d1e94f"
 }

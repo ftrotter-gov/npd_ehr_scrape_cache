@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "70bdd131-1f29-42a1-81e6-eb1f4b9689df",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/70bdd131-1f29-42a1-81e6-eb1f4b9689df"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "70bdd131-1f29-42a1-81e6-eb1f4b9689df",
-        "name": "Hayes Management, Inc. - ",
-        "address": [
-          {
-            "line": [
-              "1620 Randolph Avenue",
-              "Suite 113"
-            ],
-            "city": "Saint Paul",
-            "state": "MN",
-            "postalCode": "55105",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "70bdd131-1f29-42a1-81e6-eb1f4b9689df"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/70bdd131-1f29-42a1-81e6-eb1f4b9689df/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/70bdd131-1f29-42a1-81e6-eb1f4b9689df"
 }

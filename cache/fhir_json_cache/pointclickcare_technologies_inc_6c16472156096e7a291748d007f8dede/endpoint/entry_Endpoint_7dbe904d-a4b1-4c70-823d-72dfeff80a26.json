@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7dbe904d-a4b1-4c70-823d-72dfeff80a26",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7dbe904d-a4b1-4c70-823d-72dfeff80a26"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7dbe904d-a4b1-4c70-823d-72dfeff80a26",
-        "name": "Longhorn Village - Austin, TX",
-        "address": [
-          {
-            "line": [
-              "12001 Longhorn Parkway"
-            ],
-            "city": "Austin",
-            "state": "TX",
-            "postalCode": "78732",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7dbe904d-a4b1-4c70-823d-72dfeff80a26"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7dbe904d-a4b1-4c70-823d-72dfeff80a26/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7dbe904d-a4b1-4c70-823d-72dfeff80a26"
 }

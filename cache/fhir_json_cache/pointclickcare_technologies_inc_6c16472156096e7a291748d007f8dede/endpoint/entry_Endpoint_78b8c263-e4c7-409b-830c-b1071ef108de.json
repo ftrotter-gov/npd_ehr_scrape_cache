@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "78b8c263-e4c7-409b-830c-b1071ef108de",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/78b8c263-e4c7-409b-830c-b1071ef108de"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "78b8c263-e4c7-409b-830c-b1071ef108de",
-        "name": "Link Associates - W. Des Moines, IA",
-        "address": [
-          {
-            "line": [
-              "1452 29th St."
-            ],
-            "city": "W. Des Moines",
-            "state": "IA",
-            "postalCode": "50266",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "78b8c263-e4c7-409b-830c-b1071ef108de"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/78b8c263-e4c7-409b-830c-b1071ef108de/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/78b8c263-e4c7-409b-830c-b1071ef108de"
 }

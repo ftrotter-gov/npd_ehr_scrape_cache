@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "aed768a3-a5a9-4219-869a-308e3320607a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/aed768a3-a5a9-4219-869a-308e3320607a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "aed768a3-a5a9-4219-869a-308e3320607a",
-        "name": "Sequoia Health Care Group - ",
-        "address": [
-          {
-            "line": [
-              "2018 Risborough Court"
-            ],
-            "city": "Bakersfield",
-            "state": "CA",
-            "postalCode": "93311",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "aed768a3-a5a9-4219-869a-308e3320607a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/aed768a3-a5a9-4219-869a-308e3320607a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/aed768a3-a5a9-4219-869a-308e3320607a"
 }

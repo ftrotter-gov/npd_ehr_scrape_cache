@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "257bd8ce-d9c1-44ad-a5c1-2e17397c614a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/257bd8ce-d9c1-44ad-a5c1-2e17397c614a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "257bd8ce-d9c1-44ad-a5c1-2e17397c614a",
-        "name": "DeSoto Health and Rehabilitation - Arcadia, FL",
-        "address": [
-          {
-            "line": [
-              "475 Nursing Home Way"
-            ],
-            "city": "Arcadia",
-            "state": "FL",
-            "postalCode": "34266",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "257bd8ce-d9c1-44ad-a5c1-2e17397c614a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/257bd8ce-d9c1-44ad-a5c1-2e17397c614a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/257bd8ce-d9c1-44ad-a5c1-2e17397c614a"
 }

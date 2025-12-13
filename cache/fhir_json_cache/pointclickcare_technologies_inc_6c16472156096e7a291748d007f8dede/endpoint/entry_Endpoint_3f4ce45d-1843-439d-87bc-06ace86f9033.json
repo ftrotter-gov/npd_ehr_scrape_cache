@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3f4ce45d-1843-439d-87bc-06ace86f9033",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3f4ce45d-1843-439d-87bc-06ace86f9033"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3f4ce45d-1843-439d-87bc-06ace86f9033",
-        "name": "Palm Village Retirement Communities - Reedley, CA",
-        "address": [
-          {
-            "line": [
-              "701 W Herbert Ave"
-            ],
-            "city": "Reedley",
-            "state": "CA",
-            "postalCode": "93654",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3f4ce45d-1843-439d-87bc-06ace86f9033"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3f4ce45d-1843-439d-87bc-06ace86f9033/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3f4ce45d-1843-439d-87bc-06ace86f9033"
 }

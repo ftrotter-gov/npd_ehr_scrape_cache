@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4ebd1deb-af90-482d-8015-006f25a22554",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4ebd1deb-af90-482d-8015-006f25a22554"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4ebd1deb-af90-482d-8015-006f25a22554",
-        "name": "Stoneridge Retirement Living - Myerstown, PA",
-        "address": [
-          {
-            "line": [
-              "501 South College Street"
-            ],
-            "city": "Myerstown",
-            "state": "PA",
-            "postalCode": "17067",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4ebd1deb-af90-482d-8015-006f25a22554"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4ebd1deb-af90-482d-8015-006f25a22554/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4ebd1deb-af90-482d-8015-006f25a22554"
 }

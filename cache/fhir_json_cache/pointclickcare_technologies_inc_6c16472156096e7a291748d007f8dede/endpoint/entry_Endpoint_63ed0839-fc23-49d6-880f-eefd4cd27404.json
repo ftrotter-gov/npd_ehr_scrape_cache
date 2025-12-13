@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "63ed0839-fc23-49d6-880f-eefd4cd27404",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/63ed0839-fc23-49d6-880f-eefd4cd27404"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "63ed0839-fc23-49d6-880f-eefd4cd27404",
-        "name": "Providence Group, Inc - National City, CA",
-        "address": [
-          {
-            "line": [
-              "2575 E 8th St"
-            ],
-            "city": "National City",
-            "state": "CA",
-            "postalCode": "91950",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "63ed0839-fc23-49d6-880f-eefd4cd27404"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/63ed0839-fc23-49d6-880f-eefd4cd27404/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/63ed0839-fc23-49d6-880f-eefd4cd27404"
 }

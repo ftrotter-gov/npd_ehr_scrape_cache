@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6c5ea936-2494-4b83-adb3-846cfeacf6c2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6c5ea936-2494-4b83-adb3-846cfeacf6c2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6c5ea936-2494-4b83-adb3-846cfeacf6c2",
-        "name": "Methodist Homes of Alabama & Northwest F - Birmingham, AL",
-        "address": [
-          {
-            "line": [
-              "1520 Cooper Hill Rd"
-            ],
-            "city": "Birmingham",
-            "state": "AL",
-            "postalCode": "35210",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6c5ea936-2494-4b83-adb3-846cfeacf6c2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6c5ea936-2494-4b83-adb3-846cfeacf6c2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6c5ea936-2494-4b83-adb3-846cfeacf6c2"
 }

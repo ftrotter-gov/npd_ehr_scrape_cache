@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7350775b-d429-424a-b323-1180186c854b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7350775b-d429-424a-b323-1180186c854b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7350775b-d429-424a-b323-1180186c854b",
-        "name": "Masonic Health System - Charlton, MA",
-        "address": [
-          {
-            "line": [
-              "88 Masonic Home Road",
-              "PO BOX 1000"
-            ],
-            "city": "Charlton",
-            "state": "MA",
-            "postalCode": "01507",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7350775b-d429-424a-b323-1180186c854b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7350775b-d429-424a-b323-1180186c854b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7350775b-d429-424a-b323-1180186c854b"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9bc90126-4a65-4ade-a23b-3a858f3de3c6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9bc90126-4a65-4ade-a23b-3a858f3de3c6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9bc90126-4a65-4ade-a23b-3a858f3de3c6",
-        "name": "Sharon Lane Health Services - Shawnee, KS",
-        "address": [
-          {
-            "line": [
-              "10315 Johnson Dr."
-            ],
-            "city": "Shawnee",
-            "state": "KS",
-            "postalCode": "66203",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9bc90126-4a65-4ade-a23b-3a858f3de3c6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9bc90126-4a65-4ade-a23b-3a858f3de3c6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9bc90126-4a65-4ade-a23b-3a858f3de3c6"
 }

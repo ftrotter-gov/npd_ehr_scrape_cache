@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f9bb3855-9cb7-4149-903b-510353f439ec",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f9bb3855-9cb7-4149-903b-510353f439ec"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f9bb3855-9cb7-4149-903b-510353f439ec",
-        "name": "Majestic Management LLC - Westfield, IN",
-        "address": [
-          {
-            "line": [
-              "777 East Main Street",
-              "Suite 1000-251"
-            ],
-            "city": "Westfield",
-            "state": "IN",
-            "postalCode": "46074",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f9bb3855-9cb7-4149-903b-510353f439ec"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f9bb3855-9cb7-4149-903b-510353f439ec/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f9bb3855-9cb7-4149-903b-510353f439ec"
 }

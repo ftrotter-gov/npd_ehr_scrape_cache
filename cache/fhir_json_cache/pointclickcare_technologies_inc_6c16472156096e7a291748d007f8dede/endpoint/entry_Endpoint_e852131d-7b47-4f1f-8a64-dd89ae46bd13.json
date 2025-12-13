@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e852131d-7b47-4f1f-8a64-dd89ae46bd13",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e852131d-7b47-4f1f-8a64-dd89ae46bd13"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e852131d-7b47-4f1f-8a64-dd89ae46bd13",
-        "name": "CARERITE CENTERS LLC - Rockville Centr, NY",
-        "address": [
-          {
-            "line": [
-              "922 North Village Avenue"
-            ],
-            "city": "Rockville Centre",
-            "state": "NY",
-            "postalCode": "11570",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e852131d-7b47-4f1f-8a64-dd89ae46bd13"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e852131d-7b47-4f1f-8a64-dd89ae46bd13/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e852131d-7b47-4f1f-8a64-dd89ae46bd13"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "feac71b4-e928-4e62-b7ef-d16472818021",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/feac71b4-e928-4e62-b7ef-d16472818021"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "feac71b4-e928-4e62-b7ef-d16472818021",
-        "name": "Gloria Dei Communities - Warrington, PA",
-        "address": [
-          {
-            "line": [
-              "2900 Street Rd"
-            ],
-            "city": "Warrington",
-            "state": "PA",
-            "postalCode": "18976",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "feac71b4-e928-4e62-b7ef-d16472818021"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/feac71b4-e928-4e62-b7ef-d16472818021/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/feac71b4-e928-4e62-b7ef-d16472818021"
 }

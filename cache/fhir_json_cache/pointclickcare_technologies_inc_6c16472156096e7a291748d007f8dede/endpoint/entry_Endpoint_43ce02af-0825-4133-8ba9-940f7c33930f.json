@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "43ce02af-0825-4133-8ba9-940f7c33930f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/43ce02af-0825-4133-8ba9-940f7c33930f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "43ce02af-0825-4133-8ba9-940f7c33930f",
-        "name": "Bolster Heights Residental Care Facility - Auburn, ME",
-        "address": [
-          {
-            "line": [
-              "26 Bolster St"
-            ],
-            "city": "Auburn",
-            "state": "ME",
-            "postalCode": "04210",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "43ce02af-0825-4133-8ba9-940f7c33930f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/43ce02af-0825-4133-8ba9-940f7c33930f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/43ce02af-0825-4133-8ba9-940f7c33930f"
 }

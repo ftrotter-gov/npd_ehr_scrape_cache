@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e09f2925-3f85-4826-ae67-aae0af1bc798",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e09f2925-3f85-4826-ae67-aae0af1bc798"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e09f2925-3f85-4826-ae67-aae0af1bc798",
-        "name": "Cottonwood Ridge - Rocky Ford, CO",
-        "address": [
-          {
-            "line": [
-              "1122 South 12th Street"
-            ],
-            "city": "Rocky Ford",
-            "state": "CO",
-            "postalCode": "81067",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e09f2925-3f85-4826-ae67-aae0af1bc798"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e09f2925-3f85-4826-ae67-aae0af1bc798/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e09f2925-3f85-4826-ae67-aae0af1bc798"
 }

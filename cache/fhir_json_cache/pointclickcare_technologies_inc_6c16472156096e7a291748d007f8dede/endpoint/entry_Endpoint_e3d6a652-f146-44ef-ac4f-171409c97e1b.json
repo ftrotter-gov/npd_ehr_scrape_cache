@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e3d6a652-f146-44ef-ac4f-171409c97e1b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e3d6a652-f146-44ef-ac4f-171409c97e1b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e3d6a652-f146-44ef-ac4f-171409c97e1b",
-        "name": "FSC of Lake St. Louis dba Cottages of La - Lake Saint Loui, MO",
-        "address": [
-          {
-            "line": [
-              "2885 Technology Drive"
-            ],
-            "city": "Lake Saint Louis",
-            "state": "MO",
-            "postalCode": "63367",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e3d6a652-f146-44ef-ac4f-171409c97e1b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e3d6a652-f146-44ef-ac4f-171409c97e1b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e3d6a652-f146-44ef-ac4f-171409c97e1b"
 }

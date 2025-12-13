@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ab44391c-a1f2-47a6-ae49-c32c43452863",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ab44391c-a1f2-47a6-ae49-c32c43452863"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ab44391c-a1f2-47a6-ae49-c32c43452863",
-        "name": "Bertha D. Garten Ketcham Memorial Center - Odon, IN",
-        "address": [
-          {
-            "line": [
-              "601 E Race St"
-            ],
-            "city": "Odon",
-            "state": "IN",
-            "postalCode": "47562-1425",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ab44391c-a1f2-47a6-ae49-c32c43452863"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ab44391c-a1f2-47a6-ae49-c32c43452863/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ab44391c-a1f2-47a6-ae49-c32c43452863"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a0652fa5-d41a-4701-89e7-709f8e4e4f25",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a0652fa5-d41a-4701-89e7-709f8e4e4f25"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a0652fa5-d41a-4701-89e7-709f8e4e4f25",
-        "name": "Diamond Healthcare at Stroud LLC - Effort, PA",
-        "address": [
-          {
-            "line": [
-              "510 Brookmont Drive"
-            ],
-            "city": "Effort",
-            "state": "PA",
-            "postalCode": "18330",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a0652fa5-d41a-4701-89e7-709f8e4e4f25"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a0652fa5-d41a-4701-89e7-709f8e4e4f25/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a0652fa5-d41a-4701-89e7-709f8e4e4f25"
 }

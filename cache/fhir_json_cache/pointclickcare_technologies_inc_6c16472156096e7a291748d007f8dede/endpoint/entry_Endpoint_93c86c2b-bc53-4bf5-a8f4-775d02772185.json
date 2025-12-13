@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "93c86c2b-bc53-4bf5-a8f4-775d02772185",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/93c86c2b-bc53-4bf5-a8f4-775d02772185"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "93c86c2b-bc53-4bf5-a8f4-775d02772185",
-        "name": "Saint Lukes Hospital - Crosby, ND",
-        "address": [
-          {
-            "line": [
-              "702 1st Street South-West",
-              "PO Box 10"
-            ],
-            "city": "Crosby",
-            "state": "ND",
-            "postalCode": "58730",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "93c86c2b-bc53-4bf5-a8f4-775d02772185"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/93c86c2b-bc53-4bf5-a8f4-775d02772185/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/93c86c2b-bc53-4bf5-a8f4-775d02772185"
 }

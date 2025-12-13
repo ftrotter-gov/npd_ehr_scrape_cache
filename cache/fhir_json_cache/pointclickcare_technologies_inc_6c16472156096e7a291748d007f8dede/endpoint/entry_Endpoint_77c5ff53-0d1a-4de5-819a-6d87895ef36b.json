@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "77c5ff53-0d1a-4de5-819a-6d87895ef36b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/77c5ff53-0d1a-4de5-819a-6d87895ef36b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "77c5ff53-0d1a-4de5-819a-6d87895ef36b",
-        "name": "BHP Management Corporation - Cleveland, OH",
-        "address": [
-          {
-            "line": [
-              "4401 W 150th St"
-            ],
-            "city": "Cleveland",
-            "state": "OH",
-            "postalCode": "44135",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "77c5ff53-0d1a-4de5-819a-6d87895ef36b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/77c5ff53-0d1a-4de5-819a-6d87895ef36b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/77c5ff53-0d1a-4de5-819a-6d87895ef36b"
 }

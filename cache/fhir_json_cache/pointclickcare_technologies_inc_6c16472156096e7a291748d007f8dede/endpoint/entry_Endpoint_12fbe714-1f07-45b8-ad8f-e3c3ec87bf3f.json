@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "12fbe714-1f07-45b8-ad8f-e3c3ec87bf3f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/12fbe714-1f07-45b8-ad8f-e3c3ec87bf3f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "12fbe714-1f07-45b8-ad8f-e3c3ec87bf3f",
-        "name": "Focal Neuroscience Solutions, LLC - Tampa, FL",
-        "address": [
-          {
-            "line": [
-              "6911 Pistol Range Rd. Ste 117"
-            ],
-            "city": "Tampa",
-            "state": "FL",
-            "postalCode": "33635",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "12fbe714-1f07-45b8-ad8f-e3c3ec87bf3f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/12fbe714-1f07-45b8-ad8f-e3c3ec87bf3f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/12fbe714-1f07-45b8-ad8f-e3c3ec87bf3f"
 }

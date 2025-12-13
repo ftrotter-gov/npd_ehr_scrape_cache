@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a84b7d7b-6cef-46e1-b19f-7c060f7099ce",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a84b7d7b-6cef-46e1-b19f-7c060f7099ce"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a84b7d7b-6cef-46e1-b19f-7c060f7099ce",
-        "name": "Skyblue Healthcare LLC - Houston, TX",
-        "address": [
-          {
-            "line": [
-              "7815 Coachwood Dr"
-            ],
-            "city": "Houston",
-            "state": "TX",
-            "postalCode": "77071",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a84b7d7b-6cef-46e1-b19f-7c060f7099ce"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a84b7d7b-6cef-46e1-b19f-7c060f7099ce/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a84b7d7b-6cef-46e1-b19f-7c060f7099ce"
 }

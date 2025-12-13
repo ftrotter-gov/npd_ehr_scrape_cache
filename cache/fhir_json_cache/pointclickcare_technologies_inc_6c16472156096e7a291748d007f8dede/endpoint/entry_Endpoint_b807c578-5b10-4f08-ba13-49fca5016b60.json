@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b807c578-5b10-4f08-ba13-49fca5016b60",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b807c578-5b10-4f08-ba13-49fca5016b60"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b807c578-5b10-4f08-ba13-49fca5016b60",
-        "name": "Allied Housing, Inc. - Denver, CO",
-        "address": [
-          {
-            "line": [
-              "11 S Adams Street"
-            ],
-            "city": "Denver",
-            "state": "CO",
-            "postalCode": "80209",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b807c578-5b10-4f08-ba13-49fca5016b60"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b807c578-5b10-4f08-ba13-49fca5016b60/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b807c578-5b10-4f08-ba13-49fca5016b60"
 }

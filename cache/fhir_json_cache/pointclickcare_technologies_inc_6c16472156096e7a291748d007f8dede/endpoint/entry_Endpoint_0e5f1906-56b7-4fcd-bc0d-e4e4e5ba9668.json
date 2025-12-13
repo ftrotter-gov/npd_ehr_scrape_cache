@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0e5f1906-56b7-4fcd-bc0d-e4e4e5ba9668",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0e5f1906-56b7-4fcd-bc0d-e4e4e5ba9668"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0e5f1906-56b7-4fcd-bc0d-e4e4e5ba9668",
-        "name": "Seacrest Convalescent Hospital - San Pedro, CA",
-        "address": [
-          {
-            "line": [
-              "1416 W"
-            ],
-            "city": "San Pedro",
-            "state": "CA",
-            "postalCode": "90732-3550",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0e5f1906-56b7-4fcd-bc0d-e4e4e5ba9668"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0e5f1906-56b7-4fcd-bc0d-e4e4e5ba9668/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0e5f1906-56b7-4fcd-bc0d-e4e4e5ba9668"
 }

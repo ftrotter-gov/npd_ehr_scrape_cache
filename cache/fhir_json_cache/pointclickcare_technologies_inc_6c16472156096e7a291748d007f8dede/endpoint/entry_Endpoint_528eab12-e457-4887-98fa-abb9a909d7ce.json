@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "528eab12-e457-4887-98fa-abb9a909d7ce",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/528eab12-e457-4887-98fa-abb9a909d7ce"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "528eab12-e457-4887-98fa-abb9a909d7ce",
-        "name": "Maples of Stoneleigh - Baltimore, MD",
-        "address": [
-          {
-            "line": [
-              "812 Regester Avenue"
-            ],
-            "city": "Baltimore",
-            "state": "MD",
-            "postalCode": "21239",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "528eab12-e457-4887-98fa-abb9a909d7ce"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/528eab12-e457-4887-98fa-abb9a909d7ce/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/528eab12-e457-4887-98fa-abb9a909d7ce"
 }

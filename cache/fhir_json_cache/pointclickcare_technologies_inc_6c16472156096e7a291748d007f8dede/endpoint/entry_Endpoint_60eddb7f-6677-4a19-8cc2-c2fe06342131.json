@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "60eddb7f-6677-4a19-8cc2-c2fe06342131",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/60eddb7f-6677-4a19-8cc2-c2fe06342131"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "60eddb7f-6677-4a19-8cc2-c2fe06342131",
-        "name": "Little River Nursing & Rehab - Ashdown, AR",
-        "address": [
-          {
-            "line": [
-              "162 HWY 32-2A",
-              "PO Box 69"
-            ],
-            "city": "Ashdown",
-            "state": "AR",
-            "postalCode": "71822",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "60eddb7f-6677-4a19-8cc2-c2fe06342131"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/60eddb7f-6677-4a19-8cc2-c2fe06342131/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/60eddb7f-6677-4a19-8cc2-c2fe06342131"
 }

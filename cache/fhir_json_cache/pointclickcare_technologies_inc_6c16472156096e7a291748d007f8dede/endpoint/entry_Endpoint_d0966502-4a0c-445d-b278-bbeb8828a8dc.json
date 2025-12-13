@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d0966502-4a0c-445d-b278-bbeb8828a8dc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d0966502-4a0c-445d-b278-bbeb8828a8dc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d0966502-4a0c-445d-b278-bbeb8828a8dc",
-        "name": "Faith Based Health Care Management - Shell Lake, WI",
-        "address": [
-          {
-            "line": [
-              "802 E. County Highway B"
-            ],
-            "city": "Shell Lake",
-            "state": "WI",
-            "postalCode": "54871",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d0966502-4a0c-445d-b278-bbeb8828a8dc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d0966502-4a0c-445d-b278-bbeb8828a8dc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d0966502-4a0c-445d-b278-bbeb8828a8dc"
 }

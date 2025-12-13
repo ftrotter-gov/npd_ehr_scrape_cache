@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "10338beb-a4d1-4802-9bfe-c6d12cb6208c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/10338beb-a4d1-4802-9bfe-c6d12cb6208c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "10338beb-a4d1-4802-9bfe-c6d12cb6208c",
-        "name": "Health Care Corporation - Altus, OK",
-        "address": [
-          {
-            "line": [
-              "Tamarack Retirement Centre",
-              "1224 E. Tamarack"
-            ],
-            "city": "Altus",
-            "state": "OK",
-            "postalCode": "73521",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "10338beb-a4d1-4802-9bfe-c6d12cb6208c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/10338beb-a4d1-4802-9bfe-c6d12cb6208c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/10338beb-a4d1-4802-9bfe-c6d12cb6208c"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0509bec9-6ada-429a-99c0-79be4eaf6843",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0509bec9-6ada-429a-99c0-79be4eaf6843"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0509bec9-6ada-429a-99c0-79be4eaf6843",
-        "name": "Virginia Veterans Care - Somerset, NJ",
-        "address": [
-          {
-            "line": [
-              "290 Davidson Ave."
-            ],
-            "city": "Somerset",
-            "state": "NJ",
-            "postalCode": "08873",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0509bec9-6ada-429a-99c0-79be4eaf6843"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0509bec9-6ada-429a-99c0-79be4eaf6843/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0509bec9-6ada-429a-99c0-79be4eaf6843"
 }

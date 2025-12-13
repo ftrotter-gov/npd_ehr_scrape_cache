@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "001e17b5-c539-41bc-ab8a-37603994f590",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/001e17b5-c539-41bc-ab8a-37603994f590"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "001e17b5-c539-41bc-ab8a-37603994f590",
-        "name": "Eidetik, Incorporated - Morganfield, KY",
-        "address": [
-          {
-            "line": [
-              "P.O. Box 525"
-            ],
-            "city": "Morganfield",
-            "state": "KY",
-            "postalCode": "42437",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "001e17b5-c539-41bc-ab8a-37603994f590"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/001e17b5-c539-41bc-ab8a-37603994f590/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/001e17b5-c539-41bc-ab8a-37603994f590"
 }

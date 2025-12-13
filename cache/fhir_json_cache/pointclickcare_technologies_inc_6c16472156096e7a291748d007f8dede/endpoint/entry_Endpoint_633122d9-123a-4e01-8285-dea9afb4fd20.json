@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "633122d9-123a-4e01-8285-dea9afb4fd20",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/633122d9-123a-4e01-8285-dea9afb4fd20"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "633122d9-123a-4e01-8285-dea9afb4fd20",
-        "name": "Oklahoma Department of Veterans Affairs - Oklahoma City, OK",
-        "address": [
-          {
-            "line": [
-              "PO Box: 53067"
-            ],
-            "city": "Oklahoma City",
-            "state": "OK",
-            "postalCode": "73152",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "633122d9-123a-4e01-8285-dea9afb4fd20"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/633122d9-123a-4e01-8285-dea9afb4fd20/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/633122d9-123a-4e01-8285-dea9afb4fd20"
 }

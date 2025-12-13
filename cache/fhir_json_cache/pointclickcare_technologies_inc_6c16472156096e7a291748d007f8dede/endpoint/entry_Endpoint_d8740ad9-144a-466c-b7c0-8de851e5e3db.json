@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d8740ad9-144a-466c-b7c0-8de851e5e3db",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d8740ad9-144a-466c-b7c0-8de851e5e3db"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d8740ad9-144a-466c-b7c0-8de851e5e3db",
-        "name": "Rockwell Healthcare LLC - ",
-        "address": [
-          {
-            "line": [
-              "12878 Wild Horse Way"
-            ],
-            "city": "Rancho Cucamonga",
-            "state": "CA",
-            "postalCode": "91739",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d8740ad9-144a-466c-b7c0-8de851e5e3db"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d8740ad9-144a-466c-b7c0-8de851e5e3db/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d8740ad9-144a-466c-b7c0-8de851e5e3db"
 }

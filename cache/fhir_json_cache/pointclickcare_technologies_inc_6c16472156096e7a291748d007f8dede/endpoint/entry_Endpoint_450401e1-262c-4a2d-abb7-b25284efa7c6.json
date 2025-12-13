@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "450401e1-262c-4a2d-abb7-b25284efa7c6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/450401e1-262c-4a2d-abb7-b25284efa7c6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "450401e1-262c-4a2d-abb7-b25284efa7c6",
-        "name": "Middletown Nursing & Rehab Center - Middletown, IN",
-        "address": [
-          {
-            "line": [
-              "131 Tenth St."
-            ],
-            "city": "Middletown",
-            "state": "IN",
-            "postalCode": "47356-9772",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "450401e1-262c-4a2d-abb7-b25284efa7c6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/450401e1-262c-4a2d-abb7-b25284efa7c6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/450401e1-262c-4a2d-abb7-b25284efa7c6"
 }

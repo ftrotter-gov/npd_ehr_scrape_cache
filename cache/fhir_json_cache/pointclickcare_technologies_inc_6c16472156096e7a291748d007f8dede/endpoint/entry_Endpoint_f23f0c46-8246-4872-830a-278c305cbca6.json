@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f23f0c46-8246-4872-830a-278c305cbca6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f23f0c46-8246-4872-830a-278c305cbca6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f23f0c46-8246-4872-830a-278c305cbca6",
-        "name": "Ellington of Rayne - Rayne, LA",
-        "address": [
-          {
-            "line": [
-              "308 Amelia St",
-              "PO Box 54"
-            ],
-            "city": "Rayne",
-            "state": "LA",
-            "postalCode": "70578",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f23f0c46-8246-4872-830a-278c305cbca6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f23f0c46-8246-4872-830a-278c305cbca6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f23f0c46-8246-4872-830a-278c305cbca6"
 }

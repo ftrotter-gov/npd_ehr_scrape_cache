@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "71893e64-d438-4336-be6c-7684ac04f541",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/71893e64-d438-4336-be6c-7684ac04f541"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "71893e64-d438-4336-be6c-7684ac04f541",
-        "name": "Sudbury Pines Extended Care - Sudbury, MA",
-        "address": [
-          {
-            "line": [
-              "642 Boston Post Rd"
-            ],
-            "city": "Sudbury",
-            "state": "MA",
-            "postalCode": "01776",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "71893e64-d438-4336-be6c-7684ac04f541"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/71893e64-d438-4336-be6c-7684ac04f541/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/71893e64-d438-4336-be6c-7684ac04f541"
 }

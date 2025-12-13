@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "07da38ff-8979-4295-96c7-1f8becaa44aa",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/07da38ff-8979-4295-96c7-1f8becaa44aa"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "07da38ff-8979-4295-96c7-1f8becaa44aa",
-        "name": "Harmonee House - Amherst, TX",
-        "address": [
-          {
-            "line": [
-              "1400 Main St"
-            ],
-            "city": "Amherst",
-            "state": "TX",
-            "postalCode": "79312",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "07da38ff-8979-4295-96c7-1f8becaa44aa"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/07da38ff-8979-4295-96c7-1f8becaa44aa/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/07da38ff-8979-4295-96c7-1f8becaa44aa"
 }

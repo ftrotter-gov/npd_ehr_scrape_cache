@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6fa7a073-0640-48bb-bf3d-5a526572506d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6fa7a073-0640-48bb-bf3d-5a526572506d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6fa7a073-0640-48bb-bf3d-5a526572506d",
-        "name": "The Baptist Home and Healthcare Ministri - Jefferson City, MO",
-        "address": [
-          {
-            "line": [
-              "400 E High St. Ste 600",
-              "Attn: VP Operations"
-            ],
-            "city": "Jefferson City",
-            "state": "MO",
-            "postalCode": "65102",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6fa7a073-0640-48bb-bf3d-5a526572506d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6fa7a073-0640-48bb-bf3d-5a526572506d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6fa7a073-0640-48bb-bf3d-5a526572506d"
 }

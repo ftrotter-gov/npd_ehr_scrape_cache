@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2c7cc610-25c2-4308-aca8-e3be590f6a6c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2c7cc610-25c2-4308-aca8-e3be590f6a6c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2c7cc610-25c2-4308-aca8-e3be590f6a6c",
-        "name": "Childway Pediatric Services East - Lansdale, PA",
-        "address": [
-          {
-            "line": [
-              "607 East Main Street"
-            ],
-            "city": "Lansdale",
-            "state": "PA",
-            "postalCode": "19446",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2c7cc610-25c2-4308-aca8-e3be590f6a6c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2c7cc610-25c2-4308-aca8-e3be590f6a6c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2c7cc610-25c2-4308-aca8-e3be590f6a6c"
 }

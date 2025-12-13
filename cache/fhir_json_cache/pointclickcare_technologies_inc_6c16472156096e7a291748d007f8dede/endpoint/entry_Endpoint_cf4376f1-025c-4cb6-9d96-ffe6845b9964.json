@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cf4376f1-025c-4cb6-9d96-ffe6845b9964",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cf4376f1-025c-4cb6-9d96-ffe6845b9964"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cf4376f1-025c-4cb6-9d96-ffe6845b9964",
-        "name": "Hampton Manor of Commerce - Walled Lake, MI",
-        "address": [
-          {
-            "line": [
-              "100 Decker Rd."
-            ],
-            "city": "Walled Lake",
-            "state": "MI",
-            "postalCode": "48390",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cf4376f1-025c-4cb6-9d96-ffe6845b9964"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cf4376f1-025c-4cb6-9d96-ffe6845b9964/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cf4376f1-025c-4cb6-9d96-ffe6845b9964"
 }

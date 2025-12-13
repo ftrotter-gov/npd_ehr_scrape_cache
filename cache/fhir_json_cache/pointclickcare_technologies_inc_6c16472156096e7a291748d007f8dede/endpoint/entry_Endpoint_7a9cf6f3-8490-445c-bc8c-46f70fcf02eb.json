@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7a9cf6f3-8490-445c-bc8c-46f70fcf02eb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7a9cf6f3-8490-445c-bc8c-46f70fcf02eb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7a9cf6f3-8490-445c-bc8c-46f70fcf02eb",
-        "name": "Harper Center Hospital - Tuscaloosa, AL",
-        "address": [
-          {
-            "line": [
-              "200 University Blvd"
-            ],
-            "city": "Tuscaloosa",
-            "state": "AL",
-            "postalCode": "35401",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7a9cf6f3-8490-445c-bc8c-46f70fcf02eb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7a9cf6f3-8490-445c-bc8c-46f70fcf02eb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7a9cf6f3-8490-445c-bc8c-46f70fcf02eb"
 }

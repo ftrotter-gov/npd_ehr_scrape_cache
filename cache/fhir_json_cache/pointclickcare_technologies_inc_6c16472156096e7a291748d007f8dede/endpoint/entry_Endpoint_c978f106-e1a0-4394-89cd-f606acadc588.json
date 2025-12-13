@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c978f106-e1a0-4394-89cd-f606acadc588",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c978f106-e1a0-4394-89cd-f606acadc588"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c978f106-e1a0-4394-89cd-f606acadc588",
-        "name": "Affinity Health Services Inc - Indiana, PA",
-        "address": [
-          {
-            "line": [
-              "942 Philadelphia Street"
-            ],
-            "city": "Indiana",
-            "state": "PA",
-            "postalCode": "15701",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c978f106-e1a0-4394-89cd-f606acadc588"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c978f106-e1a0-4394-89cd-f606acadc588/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c978f106-e1a0-4394-89cd-f606acadc588"
 }

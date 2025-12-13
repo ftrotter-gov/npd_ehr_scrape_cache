@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ce667fe9-6f37-40d1-bfda-d546d8f28e53",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ce667fe9-6f37-40d1-bfda-d546d8f28e53"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ce667fe9-6f37-40d1-bfda-d546d8f28e53",
-        "name": "Wheatland Manor - Wheatland, IA",
-        "address": [
-          {
-            "line": [
-              "316 E Lincolnway"
-            ],
-            "city": "Wheatland",
-            "state": "IA",
-            "postalCode": "52777",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ce667fe9-6f37-40d1-bfda-d546d8f28e53"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ce667fe9-6f37-40d1-bfda-d546d8f28e53/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ce667fe9-6f37-40d1-bfda-d546d8f28e53"
 }

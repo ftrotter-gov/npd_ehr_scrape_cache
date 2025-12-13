@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bb5ecbf3-365b-4f00-a9d5-7021342b231c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bb5ecbf3-365b-4f00-a9d5-7021342b231c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bb5ecbf3-365b-4f00-a9d5-7021342b231c",
-        "name": "Volare Health - Louisville, KY",
-        "address": [
-          {
-            "line": [
-              "10401 Linn Station Road"
-            ],
-            "city": "Louisville",
-            "state": "KY",
-            "postalCode": "40223",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bb5ecbf3-365b-4f00-a9d5-7021342b231c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bb5ecbf3-365b-4f00-a9d5-7021342b231c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bb5ecbf3-365b-4f00-a9d5-7021342b231c"
 }

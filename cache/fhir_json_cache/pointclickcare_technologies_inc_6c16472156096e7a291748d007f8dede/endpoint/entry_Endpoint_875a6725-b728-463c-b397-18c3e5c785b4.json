@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "875a6725-b728-463c-b397-18c3e5c785b4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/875a6725-b728-463c-b397-18c3e5c785b4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "875a6725-b728-463c-b397-18c3e5c785b4",
-        "name": "Orlando Senior Health Network - Orlando, FL",
-        "address": [
-          {
-            "line": [
-              "300 East Church Street"
-            ],
-            "city": "Orlando",
-            "state": "FL",
-            "postalCode": "32801",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "875a6725-b728-463c-b397-18c3e5c785b4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/875a6725-b728-463c-b397-18c3e5c785b4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/875a6725-b728-463c-b397-18c3e5c785b4"
 }

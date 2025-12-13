@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "09769a95-1799-4c81-8e8d-355a8ae8bdca",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/09769a95-1799-4c81-8e8d-355a8ae8bdca"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "09769a95-1799-4c81-8e8d-355a8ae8bdca",
-        "name": "Theora Management - Lubbock, TX",
-        "address": [
-          {
-            "line": [
-              "11003 Quaker Avenue"
-            ],
-            "city": "Lubbock",
-            "state": "TX",
-            "postalCode": "79424",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "09769a95-1799-4c81-8e8d-355a8ae8bdca"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/09769a95-1799-4c81-8e8d-355a8ae8bdca/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/09769a95-1799-4c81-8e8d-355a8ae8bdca"
 }

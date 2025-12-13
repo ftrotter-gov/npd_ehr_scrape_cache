@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3947ee3e-3569-4a33-a8d6-9c33d3901ae9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3947ee3e-3569-4a33-a8d6-9c33d3901ae9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3947ee3e-3569-4a33-a8d6-9c33d3901ae9",
-        "name": "Maple Manor Care Center - Langdon, ND",
-        "address": [
-          {
-            "line": [
-              "1116 9th Ave"
-            ],
-            "city": "Langdon",
-            "state": "ND",
-            "postalCode": "58249-1904",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3947ee3e-3569-4a33-a8d6-9c33d3901ae9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3947ee3e-3569-4a33-a8d6-9c33d3901ae9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3947ee3e-3569-4a33-a8d6-9c33d3901ae9"
 }

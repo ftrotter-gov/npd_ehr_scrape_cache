@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "916fb455-ca6b-4d9a-9ed9-eb50774ba415",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/916fb455-ca6b-4d9a-9ed9-eb50774ba415"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "916fb455-ca6b-4d9a-9ed9-eb50774ba415",
-        "name": "Saint Therese - St. Louis Park, MN",
-        "address": [
-          {
-            "line": [
-              "1660 South Highway 100"
-            ],
-            "city": "St. Louis Park",
-            "state": "MN",
-            "postalCode": "55416-1506",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "916fb455-ca6b-4d9a-9ed9-eb50774ba415"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/916fb455-ca6b-4d9a-9ed9-eb50774ba415/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/916fb455-ca6b-4d9a-9ed9-eb50774ba415"
 }

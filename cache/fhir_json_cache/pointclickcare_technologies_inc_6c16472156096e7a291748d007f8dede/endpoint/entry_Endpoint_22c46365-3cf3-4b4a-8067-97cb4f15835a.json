@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "22c46365-3cf3-4b4a-8067-97cb4f15835a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/22c46365-3cf3-4b4a-8067-97cb4f15835a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "22c46365-3cf3-4b4a-8067-97cb4f15835a",
-        "name": "Arvada Manor Associates - Arvada, CO",
-        "address": [
-          {
-            "line": [
-              "6550 Yank Way"
-            ],
-            "city": "Arvada",
-            "state": "CO",
-            "postalCode": "80004",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "22c46365-3cf3-4b4a-8067-97cb4f15835a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/22c46365-3cf3-4b4a-8067-97cb4f15835a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/22c46365-3cf3-4b4a-8067-97cb4f15835a"
 }

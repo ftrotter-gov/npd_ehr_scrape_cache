@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "be4b10e1-28ec-4563-a0e8-b1d73b5c3572",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/be4b10e1-28ec-4563-a0e8-b1d73b5c3572"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "be4b10e1-28ec-4563-a0e8-b1d73b5c3572",
-        "name": "Lydia Healthcare Center - Robbins, IL",
-        "address": [
-          {
-            "line": [
-              "13901 S Lydia Ave"
-            ],
-            "city": "Robbins",
-            "state": "IL",
-            "postalCode": "60472-2296",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "be4b10e1-28ec-4563-a0e8-b1d73b5c3572"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/be4b10e1-28ec-4563-a0e8-b1d73b5c3572/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/be4b10e1-28ec-4563-a0e8-b1d73b5c3572"
 }

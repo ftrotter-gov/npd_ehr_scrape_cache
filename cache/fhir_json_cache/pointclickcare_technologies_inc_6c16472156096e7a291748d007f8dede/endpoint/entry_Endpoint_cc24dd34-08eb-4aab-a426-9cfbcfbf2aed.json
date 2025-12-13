@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cc24dd34-08eb-4aab-a426-9cfbcfbf2aed",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cc24dd34-08eb-4aab-a426-9cfbcfbf2aed"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cc24dd34-08eb-4aab-a426-9cfbcfbf2aed",
-        "name": "Southern Hills Rehabilitation Center - T - Tulsa, OK",
-        "address": [
-          {
-            "line": [
-              "5170 South Vandalia Avenue"
-            ],
-            "city": "Tulsa",
-            "state": "OK",
-            "postalCode": "74135",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cc24dd34-08eb-4aab-a426-9cfbcfbf2aed"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cc24dd34-08eb-4aab-a426-9cfbcfbf2aed/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cc24dd34-08eb-4aab-a426-9cfbcfbf2aed"
 }

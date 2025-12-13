@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2853a124-b4ab-4cb0-903c-9ff00ff56837",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2853a124-b4ab-4cb0-903c-9ff00ff56837"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2853a124-b4ab-4cb0-903c-9ff00ff56837",
-        "name": "Vered Group - , FL",
-        "address": [
-          {
-            "line": [
-              "115 N. Calhoun St.,  Ste. 4",
-              "Suite B"
-            ],
-            "city": "Tallahassee",
-            "state": "FL",
-            "postalCode": "32301",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2853a124-b4ab-4cb0-903c-9ff00ff56837"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2853a124-b4ab-4cb0-903c-9ff00ff56837/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2853a124-b4ab-4cb0-903c-9ff00ff56837"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5a37badd-dd7b-4ca5-b6b6-fffd7027d623",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5a37badd-dd7b-4ca5-b6b6-fffd7027d623"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5a37badd-dd7b-4ca5-b6b6-fffd7027d623",
-        "name": "Capstone HC Management, LLC - McKinney, TX",
-        "address": [
-          {
-            "line": [
-              "7290 Virginia Pkwy"
-            ],
-            "city": "McKinney",
-            "state": "TX",
-            "postalCode": "75071",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5a37badd-dd7b-4ca5-b6b6-fffd7027d623"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5a37badd-dd7b-4ca5-b6b6-fffd7027d623/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5a37badd-dd7b-4ca5-b6b6-fffd7027d623"
 }

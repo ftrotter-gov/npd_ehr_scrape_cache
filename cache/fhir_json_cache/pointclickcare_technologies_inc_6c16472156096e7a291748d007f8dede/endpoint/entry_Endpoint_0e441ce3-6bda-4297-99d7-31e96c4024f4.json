@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0e441ce3-6bda-4297-99d7-31e96c4024f4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0e441ce3-6bda-4297-99d7-31e96c4024f4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0e441ce3-6bda-4297-99d7-31e96c4024f4",
-        "name": "Wyoming County Community Hospital-Nursin - Warsaw, NY",
-        "address": [
-          {
-            "line": [
-              "400 N Main St"
-            ],
-            "city": "Warsaw",
-            "state": "NY",
-            "postalCode": "14569",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0e441ce3-6bda-4297-99d7-31e96c4024f4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0e441ce3-6bda-4297-99d7-31e96c4024f4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0e441ce3-6bda-4297-99d7-31e96c4024f4"
 }

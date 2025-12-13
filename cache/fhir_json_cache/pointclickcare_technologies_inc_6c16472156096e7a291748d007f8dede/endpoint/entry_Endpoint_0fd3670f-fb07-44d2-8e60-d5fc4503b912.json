@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0fd3670f-fb07-44d2-8e60-d5fc4503b912",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0fd3670f-fb07-44d2-8e60-d5fc4503b912"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0fd3670f-fb07-44d2-8e60-d5fc4503b912",
-        "name": "Southwind at Spearville - ",
-        "address": [
-          {
-            "line": [
-              "102 Pine Street"
-            ],
-            "city": "Spearville",
-            "state": "KS",
-            "postalCode": "67876",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0fd3670f-fb07-44d2-8e60-d5fc4503b912"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0fd3670f-fb07-44d2-8e60-d5fc4503b912/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0fd3670f-fb07-44d2-8e60-d5fc4503b912"
 }

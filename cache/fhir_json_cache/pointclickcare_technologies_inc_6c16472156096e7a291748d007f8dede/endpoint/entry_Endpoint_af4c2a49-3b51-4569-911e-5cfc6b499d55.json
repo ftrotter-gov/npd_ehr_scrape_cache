@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "af4c2a49-3b51-4569-911e-5cfc6b499d55",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/af4c2a49-3b51-4569-911e-5cfc6b499d55"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "af4c2a49-3b51-4569-911e-5cfc6b499d55",
-        "name": "ACC Senior Services - Sacramento, CA",
-        "address": [
-          {
-            "line": [
-              "7801 Rush River Drive"
-            ],
-            "city": "Sacramento",
-            "state": "CA",
-            "postalCode": "95831",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "af4c2a49-3b51-4569-911e-5cfc6b499d55"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/af4c2a49-3b51-4569-911e-5cfc6b499d55/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/af4c2a49-3b51-4569-911e-5cfc6b499d55"
 }

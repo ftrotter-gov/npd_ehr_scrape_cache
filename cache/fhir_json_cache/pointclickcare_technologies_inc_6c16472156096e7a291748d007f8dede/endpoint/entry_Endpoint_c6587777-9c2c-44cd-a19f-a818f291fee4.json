@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c6587777-9c2c-44cd-a19f-a818f291fee4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c6587777-9c2c-44cd-a19f-a818f291fee4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c6587777-9c2c-44cd-a19f-a818f291fee4",
-        "name": "Ashley Healthcare, Inc - Madison, MS",
-        "address": [
-          {
-            "line": [
-              "132 N. Castle"
-            ],
-            "city": "Madison",
-            "state": "MS",
-            "postalCode": "39110",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c6587777-9c2c-44cd-a19f-a818f291fee4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c6587777-9c2c-44cd-a19f-a818f291fee4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c6587777-9c2c-44cd-a19f-a818f291fee4"
 }

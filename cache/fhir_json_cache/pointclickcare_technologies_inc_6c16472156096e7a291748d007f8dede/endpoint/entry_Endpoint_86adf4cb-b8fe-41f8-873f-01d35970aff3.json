@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "86adf4cb-b8fe-41f8-873f-01d35970aff3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/86adf4cb-b8fe-41f8-873f-01d35970aff3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "86adf4cb-b8fe-41f8-873f-01d35970aff3",
-        "name": "Buckeye Forest at Oregon LLC - ",
-        "address": [
-          {
-            "line": [
-              "3953 Navarre Avenue"
-            ],
-            "city": "Oregon",
-            "state": "OH",
-            "postalCode": "42616 3437",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "86adf4cb-b8fe-41f8-873f-01d35970aff3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/86adf4cb-b8fe-41f8-873f-01d35970aff3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/86adf4cb-b8fe-41f8-873f-01d35970aff3"
 }

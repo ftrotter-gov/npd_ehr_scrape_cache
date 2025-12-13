@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bf9a0453-1231-491b-a23a-cb64d78721e3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bf9a0453-1231-491b-a23a-cb64d78721e3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bf9a0453-1231-491b-a23a-cb64d78721e3",
-        "name": "Cave City Nursing Home, Inc. - Cave City, AR",
-        "address": [
-          {
-            "line": [
-              "442 Taylor Cir",
-              "PO Box 60"
-            ],
-            "city": "Cave City",
-            "state": "AR",
-            "postalCode": "72521",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bf9a0453-1231-491b-a23a-cb64d78721e3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bf9a0453-1231-491b-a23a-cb64d78721e3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bf9a0453-1231-491b-a23a-cb64d78721e3"
 }

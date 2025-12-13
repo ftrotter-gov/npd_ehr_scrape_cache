@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b216ea52-6141-434e-ac4f-5c8f72ebfd9c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b216ea52-6141-434e-ac4f-5c8f72ebfd9c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b216ea52-6141-434e-ac4f-5c8f72ebfd9c",
-        "name": "Lawrence Memorial Hospital - Lawrence, KS",
-        "address": [
-          {
-            "line": [
-              "325 Maine St"
-            ],
-            "city": "Lawrence",
-            "state": "KS",
-            "postalCode": "66044-1393",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b216ea52-6141-434e-ac4f-5c8f72ebfd9c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b216ea52-6141-434e-ac4f-5c8f72ebfd9c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b216ea52-6141-434e-ac4f-5c8f72ebfd9c"
 }

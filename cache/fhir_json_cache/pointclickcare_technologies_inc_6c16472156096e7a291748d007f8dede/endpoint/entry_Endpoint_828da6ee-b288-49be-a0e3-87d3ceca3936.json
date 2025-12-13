@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "828da6ee-b288-49be-a0e3-87d3ceca3936",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/828da6ee-b288-49be-a0e3-87d3ceca3936"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "828da6ee-b288-49be-a0e3-87d3ceca3936",
-        "name": "Marklund Children's Home - Geneva, IL",
-        "address": [
-          {
-            "line": [
-              "1S450 Wyatt Dr",
-              "Ste 100"
-            ],
-            "city": "Geneva",
-            "state": "IL",
-            "postalCode": "60134",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "828da6ee-b288-49be-a0e3-87d3ceca3936"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/828da6ee-b288-49be-a0e3-87d3ceca3936/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/828da6ee-b288-49be-a0e3-87d3ceca3936"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0abb42db-1730-48e8-84f3-551283fb9ae3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0abb42db-1730-48e8-84f3-551283fb9ae3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0abb42db-1730-48e8-84f3-551283fb9ae3",
-        "name": "Country View Manor, Inc. - Sibley, IA",
-        "address": [
-          {
-            "line": [
-              "100 Cedar Lane"
-            ],
-            "city": "Sibley",
-            "state": "IA",
-            "postalCode": "51249",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0abb42db-1730-48e8-84f3-551283fb9ae3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0abb42db-1730-48e8-84f3-551283fb9ae3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0abb42db-1730-48e8-84f3-551283fb9ae3"
 }

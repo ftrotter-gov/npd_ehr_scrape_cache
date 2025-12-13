@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6fec3235-6926-407a-b368-9e1562cd115b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6fec3235-6926-407a-b368-9e1562cd115b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6fec3235-6926-407a-b368-9e1562cd115b",
-        "name": "Jennings Terrace - Aurora, IL",
-        "address": [
-          {
-            "line": [
-              "275 S LaSalle"
-            ],
-            "city": "Aurora",
-            "state": "IL",
-            "postalCode": "60505",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6fec3235-6926-407a-b368-9e1562cd115b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6fec3235-6926-407a-b368-9e1562cd115b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6fec3235-6926-407a-b368-9e1562cd115b"
 }

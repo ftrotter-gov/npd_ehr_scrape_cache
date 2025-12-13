@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "83cd8465-b0c1-4feb-9e02-bb9ab4978777",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/83cd8465-b0c1-4feb-9e02-bb9ab4978777"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "83cd8465-b0c1-4feb-9e02-bb9ab4978777",
-        "name": "The Foundation Group - Sikeston, MO",
-        "address": [
-          {
-            "line": [
-              "731 North Main Street",
-              "PO Box 1210"
-            ],
-            "city": "Sikeston",
-            "state": "MO",
-            "postalCode": "63801",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "83cd8465-b0c1-4feb-9e02-bb9ab4978777"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/83cd8465-b0c1-4feb-9e02-bb9ab4978777/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/83cd8465-b0c1-4feb-9e02-bb9ab4978777"
 }

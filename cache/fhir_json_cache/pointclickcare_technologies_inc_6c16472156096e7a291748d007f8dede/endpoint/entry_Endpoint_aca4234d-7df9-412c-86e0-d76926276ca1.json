@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "aca4234d-7df9-412c-86e0-d76926276ca1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/aca4234d-7df9-412c-86e0-d76926276ca1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "aca4234d-7df9-412c-86e0-d76926276ca1",
-        "name": "Wellington Woods Assisted Living - ",
-        "address": [
-          {
-            "line": [
-              "2201 Wellington Village Road"
-            ],
-            "city": "Little Rock",
-            "state": "AR",
-            "postalCode": "72211",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "aca4234d-7df9-412c-86e0-d76926276ca1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/aca4234d-7df9-412c-86e0-d76926276ca1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/aca4234d-7df9-412c-86e0-d76926276ca1"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d98a2bd5-6201-4b17-a820-c33b4a747fb2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d98a2bd5-6201-4b17-a820-c33b4a747fb2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d98a2bd5-6201-4b17-a820-c33b4a747fb2",
-        "name": "New Orange Hills - Orange, CA",
-        "address": [
-          {
-            "line": [
-              "5017 E Chapman Ave"
-            ],
-            "city": "Orange",
-            "state": "CA",
-            "postalCode": "92869",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d98a2bd5-6201-4b17-a820-c33b4a747fb2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d98a2bd5-6201-4b17-a820-c33b4a747fb2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d98a2bd5-6201-4b17-a820-c33b4a747fb2"
 }

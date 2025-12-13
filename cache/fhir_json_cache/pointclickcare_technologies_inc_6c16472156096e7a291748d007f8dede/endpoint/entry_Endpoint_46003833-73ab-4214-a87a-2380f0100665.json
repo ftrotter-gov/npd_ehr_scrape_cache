@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "46003833-73ab-4214-a87a-2380f0100665",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/46003833-73ab-4214-a87a-2380f0100665"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "46003833-73ab-4214-a87a-2380f0100665",
-        "name": "Enterprise Health & Rehab Center - Enterprise, AL",
-        "address": [
-          {
-            "line": [
-              "300 Plaza Dr",
-              "PO Box 311227"
-            ],
-            "city": "Enterprise",
-            "state": "AL",
-            "postalCode": "36331",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "46003833-73ab-4214-a87a-2380f0100665"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/46003833-73ab-4214-a87a-2380f0100665/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/46003833-73ab-4214-a87a-2380f0100665"
 }

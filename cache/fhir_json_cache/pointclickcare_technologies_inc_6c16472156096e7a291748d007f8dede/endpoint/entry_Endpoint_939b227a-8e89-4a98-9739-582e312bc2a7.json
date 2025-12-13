@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "939b227a-8e89-4a98-9739-582e312bc2a7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/939b227a-8e89-4a98-9739-582e312bc2a7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "939b227a-8e89-4a98-9739-582e312bc2a7",
-        "name": "Health Dimensions Group - Minneapolis, MN",
-        "address": [
-          {
-            "line": [
-              "12900 Whitewater Drive",
-              "Suite 201"
-            ],
-            "city": "Minneapolis",
-            "state": "MN",
-            "postalCode": "55343-9407",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "939b227a-8e89-4a98-9739-582e312bc2a7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/939b227a-8e89-4a98-9739-582e312bc2a7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/939b227a-8e89-4a98-9739-582e312bc2a7"
 }

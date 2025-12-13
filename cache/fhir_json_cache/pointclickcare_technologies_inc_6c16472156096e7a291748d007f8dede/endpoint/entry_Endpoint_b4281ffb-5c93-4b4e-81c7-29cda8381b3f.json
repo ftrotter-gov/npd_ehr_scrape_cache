@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b4281ffb-5c93-4b4e-81c7-29cda8381b3f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b4281ffb-5c93-4b4e-81c7-29cda8381b3f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b4281ffb-5c93-4b4e-81c7-29cda8381b3f",
-        "name": "Lafayette County dba Lafayette Manor - Darlington, WI",
-        "address": [
-          {
-            "line": [
-              "719 E Catherine St"
-            ],
-            "city": "Darlington",
-            "state": "WI",
-            "postalCode": "53530-1330",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b4281ffb-5c93-4b4e-81c7-29cda8381b3f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b4281ffb-5c93-4b4e-81c7-29cda8381b3f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b4281ffb-5c93-4b4e-81c7-29cda8381b3f"
 }

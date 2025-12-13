@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "59ca4849-1b28-4e7d-a511-1115da220fc3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/59ca4849-1b28-4e7d-a511-1115da220fc3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "59ca4849-1b28-4e7d-a511-1115da220fc3",
-        "name": "Altacare Corporation - ALPHARETTA, GA",
-        "address": [
-          {
-            "line": [
-              "3050 Royal Blvd South "
-            ],
-            "city": "ALPHARETTA",
-            "state": "GA",
-            "postalCode": "30022",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "59ca4849-1b28-4e7d-a511-1115da220fc3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/59ca4849-1b28-4e7d-a511-1115da220fc3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/59ca4849-1b28-4e7d-a511-1115da220fc3"
 }

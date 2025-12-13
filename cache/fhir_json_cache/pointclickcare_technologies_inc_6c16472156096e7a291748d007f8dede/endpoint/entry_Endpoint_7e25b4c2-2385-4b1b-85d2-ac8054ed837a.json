@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7e25b4c2-2385-4b1b-85d2-ac8054ed837a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7e25b4c2-2385-4b1b-85d2-ac8054ed837a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7e25b4c2-2385-4b1b-85d2-ac8054ed837a",
-        "name": "Quaker Heights Care Community - Waynesville, OH",
-        "address": [
-          {
-            "line": [
-              "514 W High St"
-            ],
-            "city": "Waynesville",
-            "state": "OH",
-            "postalCode": "45068-9784",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7e25b4c2-2385-4b1b-85d2-ac8054ed837a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7e25b4c2-2385-4b1b-85d2-ac8054ed837a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7e25b4c2-2385-4b1b-85d2-ac8054ed837a"
 }

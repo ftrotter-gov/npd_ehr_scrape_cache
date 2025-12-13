@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "84978281-6da6-406b-9105-7f8b428ead63",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/84978281-6da6-406b-9105-7f8b428ead63"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "84978281-6da6-406b-9105-7f8b428ead63",
-        "name": "Overton County Health & Rehab Center - Livingston, TN",
-        "address": [
-          {
-            "line": [
-              "318 Bilbrey St"
-            ],
-            "city": "Livingston",
-            "state": "TN",
-            "postalCode": "38570",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "84978281-6da6-406b-9105-7f8b428ead63"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/84978281-6da6-406b-9105-7f8b428ead63/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/84978281-6da6-406b-9105-7f8b428ead63"
 }

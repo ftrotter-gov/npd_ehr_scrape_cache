@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0a18388c-e14f-4944-8ca4-db7e04eb135a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0a18388c-e14f-4944-8ca4-db7e04eb135a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0a18388c-e14f-4944-8ca4-db7e04eb135a",
-        "name": "Idaho Division of Veterans Services - Boise, ID",
-        "address": [
-          {
-            "line": [
-              "351 Collins Rd"
-            ],
-            "city": "Boise",
-            "state": "ID",
-            "postalCode": "83702",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0a18388c-e14f-4944-8ca4-db7e04eb135a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0a18388c-e14f-4944-8ca4-db7e04eb135a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0a18388c-e14f-4944-8ca4-db7e04eb135a"
 }

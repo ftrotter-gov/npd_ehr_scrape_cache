@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "da67964f-00c5-4115-9105-92e2b5d6fb5a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/da67964f-00c5-4115-9105-92e2b5d6fb5a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "da67964f-00c5-4115-9105-92e2b5d6fb5a",
-        "name": "Barron Center - Portland, ME",
-        "address": [
-          {
-            "line": [
-              "1145 Brighton Ave"
-            ],
-            "city": "Portland",
-            "state": "ME",
-            "postalCode": "04102",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "da67964f-00c5-4115-9105-92e2b5d6fb5a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/da67964f-00c5-4115-9105-92e2b5d6fb5a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/da67964f-00c5-4115-9105-92e2b5d6fb5a"
 }

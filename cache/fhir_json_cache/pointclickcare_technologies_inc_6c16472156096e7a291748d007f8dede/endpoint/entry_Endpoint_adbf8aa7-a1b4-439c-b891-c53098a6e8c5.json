@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "adbf8aa7-a1b4-439c-b891-c53098a6e8c5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/adbf8aa7-a1b4-439c-b891-c53098a6e8c5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "adbf8aa7-a1b4-439c-b891-c53098a6e8c5",
-        "name": "Family Health West Nursing Home - Fruita, CO",
-        "address": [
-          {
-            "line": [
-              "228 N Cherry St",
-              "PO Box 130"
-            ],
-            "city": "Fruita",
-            "state": "CO",
-            "postalCode": "81521-2101",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "adbf8aa7-a1b4-439c-b891-c53098a6e8c5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/adbf8aa7-a1b4-439c-b891-c53098a6e8c5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/adbf8aa7-a1b4-439c-b891-c53098a6e8c5"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "918b9126-2072-42d4-be02-cbc8c21dc119",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/918b9126-2072-42d4-be02-cbc8c21dc119"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "918b9126-2072-42d4-be02-cbc8c21dc119",
-        "name": "Cor Healthcare Partners - Baltimore, MD",
-        "address": [
-          {
-            "line": [
-              "2833 Smith Ave",
-              "Suite 144"
-            ],
-            "city": "Baltimore",
-            "state": "MD",
-            "postalCode": "21209",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "918b9126-2072-42d4-be02-cbc8c21dc119"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/918b9126-2072-42d4-be02-cbc8c21dc119/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/918b9126-2072-42d4-be02-cbc8c21dc119"
 }

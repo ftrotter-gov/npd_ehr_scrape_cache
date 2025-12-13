@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4128fd78-8c39-45a3-bbae-3d864156d8a4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4128fd78-8c39-45a3-bbae-3d864156d8a4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4128fd78-8c39-45a3-bbae-3d864156d8a4",
-        "name": "The Mennonite Home DBA- Tandem Living - Lancaster, PA",
-        "address": [
-          {
-            "line": [
-              "1520 Harrisburg Pike"
-            ],
-            "city": "Lancaster",
-            "state": "PA",
-            "postalCode": "17601",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4128fd78-8c39-45a3-bbae-3d864156d8a4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4128fd78-8c39-45a3-bbae-3d864156d8a4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4128fd78-8c39-45a3-bbae-3d864156d8a4"
 }

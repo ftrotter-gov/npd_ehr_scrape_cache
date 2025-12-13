@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f7b38146-62bd-4d96-94ac-fed0004810ec",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f7b38146-62bd-4d96-94ac-fed0004810ec"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f7b38146-62bd-4d96-94ac-fed0004810ec",
-        "name": "Whitney Manor Operating Company, LLC - Hamden, CT",
-        "address": [
-          {
-            "line": [
-              "2798 Whitney Ave"
-            ],
-            "city": "Hamden",
-            "state": "CT",
-            "postalCode": "06518",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f7b38146-62bd-4d96-94ac-fed0004810ec"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f7b38146-62bd-4d96-94ac-fed0004810ec/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f7b38146-62bd-4d96-94ac-fed0004810ec"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7071e0f1-5f0e-48ab-b31b-b26394382f57",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7071e0f1-5f0e-48ab-b31b-b26394382f57"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7071e0f1-5f0e-48ab-b31b-b26394382f57",
-        "name": "Ebenezer Care Center Adult Day Program ( - St Paul, MN",
-        "address": [
-          {
-            "line": [
-              "45 W 10th Street"
-            ],
-            "city": "St Paul",
-            "state": "MN",
-            "postalCode": "55102",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7071e0f1-5f0e-48ab-b31b-b26394382f57"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7071e0f1-5f0e-48ab-b31b-b26394382f57/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7071e0f1-5f0e-48ab-b31b-b26394382f57"
 }

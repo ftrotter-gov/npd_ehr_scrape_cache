@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "41921437-7a35-458b-adb9-a1544bb2b45f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/41921437-7a35-458b-adb9-a1544bb2b45f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "41921437-7a35-458b-adb9-a1544bb2b45f",
-        "name": "HERITAGE PARK OF KATY - Houston, TX",
-        "address": [
-          {
-            "line": [
-              "7907 Bayou Forest Dr"
-            ],
-            "city": "Houston",
-            "state": "TX",
-            "postalCode": "77088",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "41921437-7a35-458b-adb9-a1544bb2b45f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/41921437-7a35-458b-adb9-a1544bb2b45f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/41921437-7a35-458b-adb9-a1544bb2b45f"
 }

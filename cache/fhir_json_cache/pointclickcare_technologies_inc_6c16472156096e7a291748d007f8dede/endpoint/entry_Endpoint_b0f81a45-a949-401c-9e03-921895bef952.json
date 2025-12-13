@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b0f81a45-a949-401c-9e03-921895bef952",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b0f81a45-a949-401c-9e03-921895bef952"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b0f81a45-a949-401c-9e03-921895bef952",
-        "name": "Chaparral House - Berkeley, CA",
-        "address": [
-          {
-            "line": [
-              "1309 Allston Way"
-            ],
-            "city": "Berkeley",
-            "state": "CA",
-            "postalCode": "94702",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b0f81a45-a949-401c-9e03-921895bef952"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b0f81a45-a949-401c-9e03-921895bef952/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b0f81a45-a949-401c-9e03-921895bef952"
 }

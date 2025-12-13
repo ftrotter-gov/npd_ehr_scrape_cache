@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3f03b256-5c59-4ad7-a443-3337c3c3bed2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3f03b256-5c59-4ad7-a443-3337c3c3bed2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3f03b256-5c59-4ad7-a443-3337c3c3bed2",
-        "name": "Siloam Healthcare LLC - Siloam Springs, AR",
-        "address": [
-          {
-            "line": [
-              "811 W Elgin St"
-            ],
-            "city": "Siloam Springs",
-            "state": "AR",
-            "postalCode": "72761",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3f03b256-5c59-4ad7-a443-3337c3c3bed2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3f03b256-5c59-4ad7-a443-3337c3c3bed2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3f03b256-5c59-4ad7-a443-3337c3c3bed2"
 }

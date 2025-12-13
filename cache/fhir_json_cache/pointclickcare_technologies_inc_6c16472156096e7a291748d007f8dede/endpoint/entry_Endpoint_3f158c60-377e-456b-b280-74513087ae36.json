@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3f158c60-377e-456b-b280-74513087ae36",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3f158c60-377e-456b-b280-74513087ae36"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3f158c60-377e-456b-b280-74513087ae36",
-        "name": "White River Healthcare - Calico Rock, AR",
-        "address": [
-          {
-            "line": [
-              "1569 AR-56",
-              "PO Box 687"
-            ],
-            "city": "Calico Rock",
-            "state": "AR",
-            "postalCode": "72519",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3f158c60-377e-456b-b280-74513087ae36"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3f158c60-377e-456b-b280-74513087ae36/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3f158c60-377e-456b-b280-74513087ae36"
 }

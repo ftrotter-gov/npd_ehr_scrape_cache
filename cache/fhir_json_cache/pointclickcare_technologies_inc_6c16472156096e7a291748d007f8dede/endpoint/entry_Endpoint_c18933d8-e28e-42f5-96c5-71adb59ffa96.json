@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c18933d8-e28e-42f5-96c5-71adb59ffa96",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c18933d8-e28e-42f5-96c5-71adb59ffa96"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c18933d8-e28e-42f5-96c5-71adb59ffa96",
-        "name": "Chautauqua Guest Homes Inc - Charles City, IA",
-        "address": [
-          {
-            "line": [
-              "120 Chautauqua Ave"
-            ],
-            "city": "Charles City",
-            "state": "IA",
-            "postalCode": "50616-1697",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c18933d8-e28e-42f5-96c5-71adb59ffa96"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c18933d8-e28e-42f5-96c5-71adb59ffa96/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c18933d8-e28e-42f5-96c5-71adb59ffa96"
 }

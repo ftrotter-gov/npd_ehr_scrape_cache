@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0a6dfe89-dbb3-4d7d-ba67-33982b858f3d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0a6dfe89-dbb3-4d7d-ba67-33982b858f3d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0a6dfe89-dbb3-4d7d-ba67-33982b858f3d",
-        "name": "Caring Healthcare - Brooklyn, NY",
-        "address": [
-          {
-            "line": [
-              "3119 Quentin Road"
-            ],
-            "city": "Brooklyn",
-            "state": "NY",
-            "postalCode": "11234",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0a6dfe89-dbb3-4d7d-ba67-33982b858f3d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0a6dfe89-dbb3-4d7d-ba67-33982b858f3d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0a6dfe89-dbb3-4d7d-ba67-33982b858f3d"
 }

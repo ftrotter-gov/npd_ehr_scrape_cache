@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b107de04-e580-4450-b197-ca344be8b966",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b107de04-e580-4450-b197-ca344be8b966"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b107de04-e580-4450-b197-ca344be8b966",
-        "name": "Arrington Living Center - Collins, MS",
-        "address": [
-          {
-            "line": [
-              "703 S Holly Ave"
-            ],
-            "city": "Collins",
-            "state": "MS",
-            "postalCode": "39428",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b107de04-e580-4450-b197-ca344be8b966"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b107de04-e580-4450-b197-ca344be8b966/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b107de04-e580-4450-b197-ca344be8b966"
 }

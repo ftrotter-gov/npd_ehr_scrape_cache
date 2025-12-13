@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d9c68a5a-3c77-4ad3-a72e-a29a9bd4976d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d9c68a5a-3c77-4ad3-a72e-a29a9bd4976d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d9c68a5a-3c77-4ad3-a72e-a29a9bd4976d",
-        "name": "Valley Health Winchester Medical Center - Winchester, VA",
-        "address": [
-          {
-            "line": [
-              "1840 Amherst Street"
-            ],
-            "city": "Winchester",
-            "state": "VA",
-            "postalCode": "22601",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d9c68a5a-3c77-4ad3-a72e-a29a9bd4976d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d9c68a5a-3c77-4ad3-a72e-a29a9bd4976d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d9c68a5a-3c77-4ad3-a72e-a29a9bd4976d"
 }

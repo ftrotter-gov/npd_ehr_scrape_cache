@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cb7cbb8a-6b85-4ac0-8524-343ccbf60027",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cb7cbb8a-6b85-4ac0-8524-343ccbf60027"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cb7cbb8a-6b85-4ac0-8524-343ccbf60027",
-        "name": "Validus Senior Living Holdings, LLC - Tampa, FL",
-        "address": [
-          {
-            "line": [
-              "4301 Anchor Plaza Parkway",
-              "Suite 300"
-            ],
-            "city": "Tampa",
-            "state": "FL",
-            "postalCode": "33634",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cb7cbb8a-6b85-4ac0-8524-343ccbf60027"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cb7cbb8a-6b85-4ac0-8524-343ccbf60027/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cb7cbb8a-6b85-4ac0-8524-343ccbf60027"
 }

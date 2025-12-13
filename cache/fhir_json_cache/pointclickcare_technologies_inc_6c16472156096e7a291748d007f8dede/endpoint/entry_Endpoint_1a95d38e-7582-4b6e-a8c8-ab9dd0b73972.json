@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1a95d38e-7582-4b6e-a8c8-ab9dd0b73972",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1a95d38e-7582-4b6e-a8c8-ab9dd0b73972"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1a95d38e-7582-4b6e-a8c8-ab9dd0b73972",
-        "name": "SJF-CCRC, Inc dba Lions Gate - Voorhees, NJ",
-        "address": [
-          {
-            "line": [
-              "1110 Laurel Oak Road"
-            ],
-            "city": "Voorhees",
-            "state": "NJ",
-            "postalCode": "08043",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1a95d38e-7582-4b6e-a8c8-ab9dd0b73972"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1a95d38e-7582-4b6e-a8c8-ab9dd0b73972/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1a95d38e-7582-4b6e-a8c8-ab9dd0b73972"
 }

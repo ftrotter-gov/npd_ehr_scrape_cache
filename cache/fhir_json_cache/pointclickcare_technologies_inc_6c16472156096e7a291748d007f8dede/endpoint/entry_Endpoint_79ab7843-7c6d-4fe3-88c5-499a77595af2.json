@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "79ab7843-7c6d-4fe3-88c5-499a77595af2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/79ab7843-7c6d-4fe3-88c5-499a77595af2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "79ab7843-7c6d-4fe3-88c5-499a77595af2",
-        "name": "Crown Healthcare Group LLC - Lakewood, NJ",
-        "address": [
-          {
-            "line": [
-              "212 2nd St"
-            ],
-            "city": "Lakewood",
-            "state": "NJ",
-            "postalCode": "08701",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "79ab7843-7c6d-4fe3-88c5-499a77595af2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/79ab7843-7c6d-4fe3-88c5-499a77595af2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/79ab7843-7c6d-4fe3-88c5-499a77595af2"
 }

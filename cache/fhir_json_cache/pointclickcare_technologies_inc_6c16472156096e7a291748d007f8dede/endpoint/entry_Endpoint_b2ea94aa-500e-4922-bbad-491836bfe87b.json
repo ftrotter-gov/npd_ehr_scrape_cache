@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b2ea94aa-500e-4922-bbad-491836bfe87b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b2ea94aa-500e-4922-bbad-491836bfe87b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b2ea94aa-500e-4922-bbad-491836bfe87b",
-        "name": "Concord Healthcare - Lakewood, NJ",
-        "address": [
-          {
-            "line": [
-              "963 Ocean Ave"
-            ],
-            "city": "Lakewood",
-            "state": "NJ",
-            "postalCode": "08701-3649",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b2ea94aa-500e-4922-bbad-491836bfe87b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b2ea94aa-500e-4922-bbad-491836bfe87b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b2ea94aa-500e-4922-bbad-491836bfe87b"
 }

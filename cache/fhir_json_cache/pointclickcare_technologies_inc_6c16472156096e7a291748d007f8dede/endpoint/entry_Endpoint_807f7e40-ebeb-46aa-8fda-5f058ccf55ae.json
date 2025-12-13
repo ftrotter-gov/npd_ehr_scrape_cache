@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "807f7e40-ebeb-46aa-8fda-5f058ccf55ae",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/807f7e40-ebeb-46aa-8fda-5f058ccf55ae"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "807f7e40-ebeb-46aa-8fda-5f058ccf55ae",
-        "name": "Montana Veterans Home - Columbia Falls, MT",
-        "address": [
-          {
-            "line": [
-              "400 Veterans Rd",
-              "PO Box 250"
-            ],
-            "city": "Columbia Falls",
-            "state": "MT",
-            "postalCode": "59912",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "807f7e40-ebeb-46aa-8fda-5f058ccf55ae"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/807f7e40-ebeb-46aa-8fda-5f058ccf55ae/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/807f7e40-ebeb-46aa-8fda-5f058ccf55ae"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b2c751a5-701d-4010-98aa-ec5cefc9b6fa",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b2c751a5-701d-4010-98aa-ec5cefc9b6fa"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b2c751a5-701d-4010-98aa-ec5cefc9b6fa",
-        "name": "2210 Santa Ana Opco, LLC - Santa Ana, CA",
-        "address": [
-          {
-            "line": [
-              "2210 East 1st Street"
-            ],
-            "city": "Santa Ana",
-            "state": "CA",
-            "postalCode": "92705",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b2c751a5-701d-4010-98aa-ec5cefc9b6fa"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b2c751a5-701d-4010-98aa-ec5cefc9b6fa/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b2c751a5-701d-4010-98aa-ec5cefc9b6fa"
 }

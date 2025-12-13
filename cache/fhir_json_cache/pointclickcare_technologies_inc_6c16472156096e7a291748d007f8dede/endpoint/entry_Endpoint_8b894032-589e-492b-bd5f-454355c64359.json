@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8b894032-589e-492b-bd5f-454355c64359",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8b894032-589e-492b-bd5f-454355c64359"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8b894032-589e-492b-bd5f-454355c64359",
-        "name": "Landmark Group - Midlothian, VA",
-        "address": [
-          {
-            "line": [
-              "231 Wylderose Drive",
-              "105 Landmark Drive"
-            ],
-            "city": "Midlothian",
-            "state": "VA",
-            "postalCode": "23113",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8b894032-589e-492b-bd5f-454355c64359"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8b894032-589e-492b-bd5f-454355c64359/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8b894032-589e-492b-bd5f-454355c64359"
 }

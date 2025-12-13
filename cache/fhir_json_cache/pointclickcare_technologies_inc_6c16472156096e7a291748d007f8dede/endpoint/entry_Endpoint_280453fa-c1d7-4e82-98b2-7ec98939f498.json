@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "280453fa-c1d7-4e82-98b2-7ec98939f498",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/280453fa-c1d7-4e82-98b2-7ec98939f498"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "280453fa-c1d7-4e82-98b2-7ec98939f498",
-        "name": "Atlas Healthcare - Lakewood Townsh, NJ",
-        "address": [
-          {
-            "line": [
-              "475 Oberlin Avenue North"
-            ],
-            "city": "Lakewood Township",
-            "state": "NJ",
-            "postalCode": "08701",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "280453fa-c1d7-4e82-98b2-7ec98939f498"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/280453fa-c1d7-4e82-98b2-7ec98939f498/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/280453fa-c1d7-4e82-98b2-7ec98939f498"
 }

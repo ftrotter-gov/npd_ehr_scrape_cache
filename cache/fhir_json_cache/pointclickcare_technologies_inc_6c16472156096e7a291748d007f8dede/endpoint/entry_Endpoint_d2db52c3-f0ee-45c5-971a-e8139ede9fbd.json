@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d2db52c3-f0ee-45c5-971a-e8139ede9fbd",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d2db52c3-f0ee-45c5-971a-e8139ede9fbd"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d2db52c3-f0ee-45c5-971a-e8139ede9fbd",
-        "name": "Shepherd of the Valley Lutheran Retireme - Austintown, OH",
-        "address": [
-          {
-            "line": [
-              "5525 Silica Rd"
-            ],
-            "city": "Austintown",
-            "state": "OH",
-            "postalCode": "44515",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d2db52c3-f0ee-45c5-971a-e8139ede9fbd"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d2db52c3-f0ee-45c5-971a-e8139ede9fbd/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d2db52c3-f0ee-45c5-971a-e8139ede9fbd"
 }

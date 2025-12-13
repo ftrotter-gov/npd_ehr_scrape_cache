@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "59e5ce67-4a32-4439-a60d-a6060b6c06dc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/59e5ce67-4a32-4439-a60d-a6060b6c06dc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "59e5ce67-4a32-4439-a60d-a6060b6c06dc",
-        "name": "Pope Bucknell, LLC - Plymouth, MN",
-        "address": [
-          {
-            "line": [
-              "3675 Plymouth Blvd - #100",
-              "TIN# 26-1458592"
-            ],
-            "city": "Plymouth",
-            "state": "MN",
-            "postalCode": "55446",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "59e5ce67-4a32-4439-a60d-a6060b6c06dc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/59e5ce67-4a32-4439-a60d-a6060b6c06dc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/59e5ce67-4a32-4439-a60d-a6060b6c06dc"
 }

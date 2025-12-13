@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "de32a4ae-aca2-4135-a1a9-7044711f4d64",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/de32a4ae-aca2-4135-a1a9-7044711f4d64"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "de32a4ae-aca2-4135-a1a9-7044711f4d64",
-        "name": "Washington County Home - Marietta, OH",
-        "address": [
-          {
-            "line": [
-              "845 County House Lane"
-            ],
-            "city": "Marietta",
-            "state": "OH",
-            "postalCode": "45750",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "de32a4ae-aca2-4135-a1a9-7044711f4d64"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/de32a4ae-aca2-4135-a1a9-7044711f4d64/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/de32a4ae-aca2-4135-a1a9-7044711f4d64"
 }

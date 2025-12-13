@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5382b743-2f93-4a95-94d2-1f6d127b9066",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5382b743-2f93-4a95-94d2-1f6d127b9066"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5382b743-2f93-4a95-94d2-1f6d127b9066",
-        "name": "Milpitas Care Center - Milpitas, CA",
-        "address": [
-          {
-            "line": [
-              "120 Corning Ave"
-            ],
-            "city": "Milpitas",
-            "state": "CA",
-            "postalCode": "95035-5225",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5382b743-2f93-4a95-94d2-1f6d127b9066"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5382b743-2f93-4a95-94d2-1f6d127b9066/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5382b743-2f93-4a95-94d2-1f6d127b9066"
 }

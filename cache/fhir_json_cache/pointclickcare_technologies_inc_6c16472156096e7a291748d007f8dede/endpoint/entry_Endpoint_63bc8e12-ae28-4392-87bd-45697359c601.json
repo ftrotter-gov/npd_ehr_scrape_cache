@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "63bc8e12-ae28-4392-87bd-45697359c601",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/63bc8e12-ae28-4392-87bd-45697359c601"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "63bc8e12-ae28-4392-87bd-45697359c601",
-        "name": "Marbridge Foundation, Inc. - Manchaca, TX",
-        "address": [
-          {
-            "line": [
-              "P.O. Box 2250"
-            ],
-            "city": "Manchaca",
-            "state": "TX",
-            "postalCode": "78652",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "63bc8e12-ae28-4392-87bd-45697359c601"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/63bc8e12-ae28-4392-87bd-45697359c601/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/63bc8e12-ae28-4392-87bd-45697359c601"
 }

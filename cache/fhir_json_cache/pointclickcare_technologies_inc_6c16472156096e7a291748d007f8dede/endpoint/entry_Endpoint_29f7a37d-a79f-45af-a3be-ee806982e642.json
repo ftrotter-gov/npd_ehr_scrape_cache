@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "29f7a37d-a79f-45af-a3be-ee806982e642",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/29f7a37d-a79f-45af-a3be-ee806982e642"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "29f7a37d-a79f-45af-a3be-ee806982e642",
-        "name": "Briarcliffe Manor - Johnston, RI",
-        "address": [
-          {
-            "line": [
-              "49 Old Pocasset Rd"
-            ],
-            "city": "Johnston",
-            "state": "RI",
-            "postalCode": "02919",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "29f7a37d-a79f-45af-a3be-ee806982e642"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/29f7a37d-a79f-45af-a3be-ee806982e642/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/29f7a37d-a79f-45af-a3be-ee806982e642"
 }

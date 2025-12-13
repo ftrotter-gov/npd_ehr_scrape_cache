@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fc36b53d-03e2-4172-a3cb-2cb08b14b936",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fc36b53d-03e2-4172-a3cb-2cb08b14b936"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fc36b53d-03e2-4172-a3cb-2cb08b14b936",
-        "name": "Cascade Health Services, L.L.C. - Lufkin, TX",
-        "address": [
-          {
-            "line": [
-              "5040 Champions Drive"
-            ],
-            "city": "Lufkin",
-            "state": "TX",
-            "postalCode": "75901",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fc36b53d-03e2-4172-a3cb-2cb08b14b936"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fc36b53d-03e2-4172-a3cb-2cb08b14b936/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fc36b53d-03e2-4172-a3cb-2cb08b14b936"
 }

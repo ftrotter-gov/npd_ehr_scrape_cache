@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "19aa0ac5-17b7-406d-a458-76de1e4c995d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/19aa0ac5-17b7-406d-a458-76de1e4c995d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "19aa0ac5-17b7-406d-a458-76de1e4c995d",
-        "name": "Oxford Senior Living - Wichita, KS",
-        "address": [
-          {
-            "line": [
-              "125 N. Market St. Suite 1230",
-              "Suite 1416"
-            ],
-            "city": "Wichita",
-            "state": "KS",
-            "postalCode": "67202",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "19aa0ac5-17b7-406d-a458-76de1e4c995d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/19aa0ac5-17b7-406d-a458-76de1e4c995d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/19aa0ac5-17b7-406d-a458-76de1e4c995d"
 }

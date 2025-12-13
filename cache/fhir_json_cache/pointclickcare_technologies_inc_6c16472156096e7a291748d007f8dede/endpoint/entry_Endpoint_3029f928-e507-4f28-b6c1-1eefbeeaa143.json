@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3029f928-e507-4f28-b6c1-1eefbeeaa143",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3029f928-e507-4f28-b6c1-1eefbeeaa143"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3029f928-e507-4f28-b6c1-1eefbeeaa143",
-        "name": "East Cascade Retirement Community, LLC d - Madras, OR",
-        "address": [
-          {
-            "line": [
-              "175 Northeast 16th Street"
-            ],
-            "city": "Madras",
-            "state": "OR",
-            "postalCode": "97741",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3029f928-e507-4f28-b6c1-1eefbeeaa143"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3029f928-e507-4f28-b6c1-1eefbeeaa143/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3029f928-e507-4f28-b6c1-1eefbeeaa143"
 }

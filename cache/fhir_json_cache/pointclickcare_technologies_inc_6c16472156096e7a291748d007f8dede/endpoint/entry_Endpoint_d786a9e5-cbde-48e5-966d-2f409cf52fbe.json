@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d786a9e5-cbde-48e5-966d-2f409cf52fbe",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d786a9e5-cbde-48e5-966d-2f409cf52fbe"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d786a9e5-cbde-48e5-966d-2f409cf52fbe",
-        "name": "Trio Healthcare, LLC - Atlanta, GA",
-        "address": [
-          {
-            "line": [
-              "9040 Roswell Road Suite 540",
-              "Suite 540"
-            ],
-            "city": "Atlanta",
-            "state": "GA",
-            "postalCode": "30350",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d786a9e5-cbde-48e5-966d-2f409cf52fbe"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d786a9e5-cbde-48e5-966d-2f409cf52fbe/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d786a9e5-cbde-48e5-966d-2f409cf52fbe"
 }

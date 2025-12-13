@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "66dfb3eb-6861-44c0-bd18-19c54b80b47d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/66dfb3eb-6861-44c0-bd18-19c54b80b47d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "66dfb3eb-6861-44c0-bd18-19c54b80b47d",
-        "name": "CLHG-Ville Platte LLC dba Mercy Regional - Ville Platte, LA",
-        "address": [
-          {
-            "line": [
-              "2020 W. Main Street"
-            ],
-            "city": "Ville Platte",
-            "state": "LA",
-            "postalCode": "70586",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "66dfb3eb-6861-44c0-bd18-19c54b80b47d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/66dfb3eb-6861-44c0-bd18-19c54b80b47d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/66dfb3eb-6861-44c0-bd18-19c54b80b47d"
 }

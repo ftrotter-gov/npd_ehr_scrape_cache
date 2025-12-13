@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8089c7b9-2615-450a-ac9e-64f6b067bede",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8089c7b9-2615-450a-ac9e-64f6b067bede"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8089c7b9-2615-450a-ac9e-64f6b067bede",
-        "name": "Prairie Manor Inc - Blooming Prairi, MN",
-        "address": [
-          {
-            "line": [
-              "220 3rd St NW"
-            ],
-            "city": "Blooming Prairie",
-            "state": "MN",
-            "postalCode": "55917",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8089c7b9-2615-450a-ac9e-64f6b067bede"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8089c7b9-2615-450a-ac9e-64f6b067bede/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8089c7b9-2615-450a-ac9e-64f6b067bede"
 }

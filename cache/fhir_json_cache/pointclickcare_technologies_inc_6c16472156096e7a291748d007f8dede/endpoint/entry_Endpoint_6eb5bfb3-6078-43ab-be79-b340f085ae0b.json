@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6eb5bfb3-6078-43ab-be79-b340f085ae0b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6eb5bfb3-6078-43ab-be79-b340f085ae0b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6eb5bfb3-6078-43ab-be79-b340f085ae0b",
-        "name": "Sterling Healthcare Inc. - Roswell, GA",
-        "address": [
-          {
-            "line": [
-              "16 Norcross Street",
-              "Suite 50B"
-            ],
-            "city": "Roswell",
-            "state": "GA",
-            "postalCode": "30075",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6eb5bfb3-6078-43ab-be79-b340f085ae0b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6eb5bfb3-6078-43ab-be79-b340f085ae0b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6eb5bfb3-6078-43ab-be79-b340f085ae0b"
 }

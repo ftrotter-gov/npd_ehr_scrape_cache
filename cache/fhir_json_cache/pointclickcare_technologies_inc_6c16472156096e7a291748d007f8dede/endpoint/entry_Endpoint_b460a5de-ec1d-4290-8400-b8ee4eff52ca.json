@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b460a5de-ec1d-4290-8400-b8ee4eff52ca",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b460a5de-ec1d-4290-8400-b8ee4eff52ca"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b460a5de-ec1d-4290-8400-b8ee4eff52ca",
-        "name": "Yalobusha County Nursing Home - Water Valley, MS",
-        "address": [
-          {
-            "line": [
-              "630 S Main",
-              "PO Box 728"
-            ],
-            "city": "Water Valley",
-            "state": "MS",
-            "postalCode": "38965",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b460a5de-ec1d-4290-8400-b8ee4eff52ca"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b460a5de-ec1d-4290-8400-b8ee4eff52ca/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b460a5de-ec1d-4290-8400-b8ee4eff52ca"
 }

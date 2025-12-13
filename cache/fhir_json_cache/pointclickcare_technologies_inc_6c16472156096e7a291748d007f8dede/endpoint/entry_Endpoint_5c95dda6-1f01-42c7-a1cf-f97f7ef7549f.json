@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5c95dda6-1f01-42c7-a1cf-f97f7ef7549f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5c95dda6-1f01-42c7-a1cf-f97f7ef7549f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5c95dda6-1f01-42c7-a1cf-f97f7ef7549f",
-        "name": "Wellstar Health System, Inc - Marietta, GA",
-        "address": [
-          {
-            "line": [
-              "P.O. Box 669217"
-            ],
-            "city": "Marietta",
-            "state": "GA",
-            "postalCode": "30066",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5c95dda6-1f01-42c7-a1cf-f97f7ef7549f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5c95dda6-1f01-42c7-a1cf-f97f7ef7549f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5c95dda6-1f01-42c7-a1cf-f97f7ef7549f"
 }

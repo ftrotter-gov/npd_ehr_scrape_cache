@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3983d7f7-1434-487a-9aa3-f9ff6883cfb1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3983d7f7-1434-487a-9aa3-f9ff6883cfb1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3983d7f7-1434-487a-9aa3-f9ff6883cfb1",
-        "name": "New Hampshire Catholic Charities - Manchester, NH",
-        "address": [
-          {
-            "line": [
-              "100 William Loeb Drive",
-              "Unit 3"
-            ],
-            "city": "Manchester",
-            "state": "NH",
-            "postalCode": "03109",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3983d7f7-1434-487a-9aa3-f9ff6883cfb1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3983d7f7-1434-487a-9aa3-f9ff6883cfb1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3983d7f7-1434-487a-9aa3-f9ff6883cfb1"
 }

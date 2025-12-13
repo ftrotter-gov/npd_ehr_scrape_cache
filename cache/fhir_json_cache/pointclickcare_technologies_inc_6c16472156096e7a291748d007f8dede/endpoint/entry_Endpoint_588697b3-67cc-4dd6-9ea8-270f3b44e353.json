@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "588697b3-67cc-4dd6-9ea8-270f3b44e353",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/588697b3-67cc-4dd6-9ea8-270f3b44e353"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "588697b3-67cc-4dd6-9ea8-270f3b44e353",
-        "name": "Jefferson Davis Community Hospital ECF - Prentiss, MS",
-        "address": [
-          {
-            "line": [
-              "1320 Winfield Street"
-            ],
-            "city": "Prentiss",
-            "state": "MS",
-            "postalCode": "39474",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "588697b3-67cc-4dd6-9ea8-270f3b44e353"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/588697b3-67cc-4dd6-9ea8-270f3b44e353/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/588697b3-67cc-4dd6-9ea8-270f3b44e353"
 }

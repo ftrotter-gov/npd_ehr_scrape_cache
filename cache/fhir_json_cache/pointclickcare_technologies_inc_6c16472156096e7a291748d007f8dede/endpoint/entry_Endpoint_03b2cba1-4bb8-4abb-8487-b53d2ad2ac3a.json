@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "03b2cba1-4bb8-4abb-8487-b53d2ad2ac3a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/03b2cba1-4bb8-4abb-8487-b53d2ad2ac3a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "03b2cba1-4bb8-4abb-8487-b53d2ad2ac3a",
-        "name": "Concord Health Systems - Madisonville, KY",
-        "address": [
-          {
-            "line": [
-              "2850 N. Main Street"
-            ],
-            "city": "Madisonville",
-            "state": "KY",
-            "postalCode": "42431",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "03b2cba1-4bb8-4abb-8487-b53d2ad2ac3a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/03b2cba1-4bb8-4abb-8487-b53d2ad2ac3a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/03b2cba1-4bb8-4abb-8487-b53d2ad2ac3a"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6a962bf1-02fa-4fd6-a4a2-cf6c715a6507",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6a962bf1-02fa-4fd6-a4a2-cf6c715a6507"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6a962bf1-02fa-4fd6-a4a2-cf6c715a6507",
-        "name": "Bartley Healthcare - Jackson, NJ",
-        "address": [
-          {
-            "line": [
-              "175 Bartley Rd"
-            ],
-            "city": "Jackson",
-            "state": "NJ",
-            "postalCode": "08527",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6a962bf1-02fa-4fd6-a4a2-cf6c715a6507"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6a962bf1-02fa-4fd6-a4a2-cf6c715a6507/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6a962bf1-02fa-4fd6-a4a2-cf6c715a6507"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fd30c05e-67fd-40a5-bcde-71dac51f56a5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fd30c05e-67fd-40a5-bcde-71dac51f56a5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fd30c05e-67fd-40a5-bcde-71dac51f56a5",
-        "name": "Forest Ridge - Woodland Park, CO",
-        "address": [
-          {
-            "line": [
-              "16006 W.Highway 24"
-            ],
-            "city": "Woodland Park",
-            "state": "CO",
-            "postalCode": "80863",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fd30c05e-67fd-40a5-bcde-71dac51f56a5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fd30c05e-67fd-40a5-bcde-71dac51f56a5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fd30c05e-67fd-40a5-bcde-71dac51f56a5"
 }

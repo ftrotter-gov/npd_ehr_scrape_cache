@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c4ebc836-0210-4dda-803d-e723988869a3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c4ebc836-0210-4dda-803d-e723988869a3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c4ebc836-0210-4dda-803d-e723988869a3",
-        "name": "Hillcrest Nursing Home - San Bernardino, CA",
-        "address": [
-          {
-            "line": [
-              "4280 Cypress Dr"
-            ],
-            "city": "San Bernardino",
-            "state": "CA",
-            "postalCode": "92407-2997",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c4ebc836-0210-4dda-803d-e723988869a3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c4ebc836-0210-4dda-803d-e723988869a3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c4ebc836-0210-4dda-803d-e723988869a3"
 }

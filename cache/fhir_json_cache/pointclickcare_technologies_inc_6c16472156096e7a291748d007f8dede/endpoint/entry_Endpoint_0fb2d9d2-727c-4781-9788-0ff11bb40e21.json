@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0fb2d9d2-727c-4781-9788-0ff11bb40e21",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0fb2d9d2-727c-4781-9788-0ff11bb40e21"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0fb2d9d2-727c-4781-9788-0ff11bb40e21",
-        "name": "Genesis Health System - DeWitt, IA",
-        "address": [
-          {
-            "line": [
-              "1118 11th Street"
-            ],
-            "city": "DeWitt",
-            "state": "IA",
-            "postalCode": "52742",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0fb2d9d2-727c-4781-9788-0ff11bb40e21"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0fb2d9d2-727c-4781-9788-0ff11bb40e21/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0fb2d9d2-727c-4781-9788-0ff11bb40e21"
 }

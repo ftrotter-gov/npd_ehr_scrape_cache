@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "598e8777-2353-4ae3-a432-30be4448284c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/598e8777-2353-4ae3-a432-30be4448284c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "598e8777-2353-4ae3-a432-30be4448284c",
-        "name": "Melody Living Associates - IL, LLC - Lake in the Hil, IL",
-        "address": [
-          {
-            "line": [
-              "525 Harvest Gate Road"
-            ],
-            "city": "Lake in the Hills",
-            "state": "IL",
-            "postalCode": "60156",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "598e8777-2353-4ae3-a432-30be4448284c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/598e8777-2353-4ae3-a432-30be4448284c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/598e8777-2353-4ae3-a432-30be4448284c"
 }

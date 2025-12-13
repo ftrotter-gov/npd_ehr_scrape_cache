@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "51d2a59c-dc3a-4f18-9f47-b5cde94e905e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/51d2a59c-dc3a-4f18-9f47-b5cde94e905e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "51d2a59c-dc3a-4f18-9f47-b5cde94e905e",
-        "name": "Henry Ford Personal Care - Jackson, MI",
-        "address": [
-          {
-            "line": [
-              "3000 Kingsbrooke Drive"
-            ],
-            "city": "Jackson",
-            "state": "MI",
-            "postalCode": "49202",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "51d2a59c-dc3a-4f18-9f47-b5cde94e905e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/51d2a59c-dc3a-4f18-9f47-b5cde94e905e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/51d2a59c-dc3a-4f18-9f47-b5cde94e905e"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b1c992fe-80ca-44d3-9472-e48eee2c8975",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b1c992fe-80ca-44d3-9472-e48eee2c8975"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b1c992fe-80ca-44d3-9472-e48eee2c8975",
-        "name": "Hillcrest Home, Inc - Sumner, IA",
-        "address": [
-          {
-            "line": [
-              "915 West First Street"
-            ],
-            "city": "Sumner",
-            "state": "IA",
-            "postalCode": "50674",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b1c992fe-80ca-44d3-9472-e48eee2c8975"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b1c992fe-80ca-44d3-9472-e48eee2c8975/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b1c992fe-80ca-44d3-9472-e48eee2c8975"
 }

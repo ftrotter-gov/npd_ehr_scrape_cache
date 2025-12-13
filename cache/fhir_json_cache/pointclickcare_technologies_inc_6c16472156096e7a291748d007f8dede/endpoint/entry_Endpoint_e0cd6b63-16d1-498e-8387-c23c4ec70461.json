@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e0cd6b63-16d1-498e-8387-c23c4ec70461",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e0cd6b63-16d1-498e-8387-c23c4ec70461"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e0cd6b63-16d1-498e-8387-c23c4ec70461",
-        "name": "BMH, Inc. dba Bingham Memorial Skilled N - Blackfoot, ID",
-        "address": [
-          {
-            "line": [
-              "98 Poplar St"
-            ],
-            "city": "Blackfoot",
-            "state": "ID",
-            "postalCode": "83221-1758",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e0cd6b63-16d1-498e-8387-c23c4ec70461"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e0cd6b63-16d1-498e-8387-c23c4ec70461/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e0cd6b63-16d1-498e-8387-c23c4ec70461"
 }

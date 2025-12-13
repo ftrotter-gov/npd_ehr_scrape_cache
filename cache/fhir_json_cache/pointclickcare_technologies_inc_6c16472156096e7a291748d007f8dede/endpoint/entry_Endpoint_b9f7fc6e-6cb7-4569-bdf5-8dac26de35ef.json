@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b9f7fc6e-6cb7-4569-bdf5-8dac26de35ef",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b9f7fc6e-6cb7-4569-bdf5-8dac26de35ef"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b9f7fc6e-6cb7-4569-bdf5-8dac26de35ef",
-        "name": "OUTCOME HEALTHCARE LLC - New Brunswick, NJ",
-        "address": [
-          {
-            "line": [
-              "27 US Highway Route 1 South"
-            ],
-            "city": "New Brunswick",
-            "state": "NJ",
-            "postalCode": "80901",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b9f7fc6e-6cb7-4569-bdf5-8dac26de35ef"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b9f7fc6e-6cb7-4569-bdf5-8dac26de35ef/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b9f7fc6e-6cb7-4569-bdf5-8dac26de35ef"
 }

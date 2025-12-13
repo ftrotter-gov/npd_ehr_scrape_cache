@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "923631ef-020e-49aa-bc5d-3990d8e14f50",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/923631ef-020e-49aa-bc5d-3990d8e14f50"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "923631ef-020e-49aa-bc5d-3990d8e14f50",
-        "name": "Heritage Hills Retirement Community - Greencastle, PA",
-        "address": [
-          {
-            "line": [
-              "2256 Shanks Church Road"
-            ],
-            "city": "Greencastle",
-            "state": "PA",
-            "postalCode": "17225",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "923631ef-020e-49aa-bc5d-3990d8e14f50"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/923631ef-020e-49aa-bc5d-3990d8e14f50/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/923631ef-020e-49aa-bc5d-3990d8e14f50"
 }

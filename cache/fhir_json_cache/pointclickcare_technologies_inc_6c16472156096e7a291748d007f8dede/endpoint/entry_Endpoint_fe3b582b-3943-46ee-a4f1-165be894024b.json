@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fe3b582b-3943-46ee-a4f1-165be894024b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fe3b582b-3943-46ee-a4f1-165be894024b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fe3b582b-3943-46ee-a4f1-165be894024b",
-        "name": "Bethel Health Care Center - Bethel, CT",
-        "address": [
-          {
-            "line": [
-              "13 Park Lawn Drive"
-            ],
-            "city": "Bethel",
-            "state": "CT",
-            "postalCode": "06801",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fe3b582b-3943-46ee-a4f1-165be894024b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fe3b582b-3943-46ee-a4f1-165be894024b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fe3b582b-3943-46ee-a4f1-165be894024b"
 }

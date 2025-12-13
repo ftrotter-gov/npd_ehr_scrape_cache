@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "abec2b5f-16e4-41c9-9703-722a984a6a04",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/abec2b5f-16e4-41c9-9703-722a984a6a04"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "abec2b5f-16e4-41c9-9703-722a984a6a04",
-        "name": "Stonehenge Care LLC - Orem, UT",
-        "address": [
-          {
-            "line": [
-              "36 South 400 West",
-              "Suite 101"
-            ],
-            "city": "Orem",
-            "state": "UT",
-            "postalCode": "84058",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "abec2b5f-16e4-41c9-9703-722a984a6a04"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/abec2b5f-16e4-41c9-9703-722a984a6a04/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/abec2b5f-16e4-41c9-9703-722a984a6a04"
 }

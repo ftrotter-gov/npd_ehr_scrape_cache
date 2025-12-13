@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2b028973-7507-4ec0-b7e2-819eeb9e2950",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2b028973-7507-4ec0-b7e2-819eeb9e2950"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2b028973-7507-4ec0-b7e2-819eeb9e2950",
-        "name": "Connecticut Baptist Homes, Inc. - Meriden, CT",
-        "address": [
-          {
-            "line": [
-              "292 Thorpe Ave"
-            ],
-            "city": "Meriden",
-            "state": "CT",
-            "postalCode": "06450",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2b028973-7507-4ec0-b7e2-819eeb9e2950"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2b028973-7507-4ec0-b7e2-819eeb9e2950/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2b028973-7507-4ec0-b7e2-819eeb9e2950"
 }

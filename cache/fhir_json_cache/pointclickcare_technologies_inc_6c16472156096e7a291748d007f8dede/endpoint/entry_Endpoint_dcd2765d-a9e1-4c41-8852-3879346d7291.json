@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "dcd2765d-a9e1-4c41-8852-3879346d7291",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/dcd2765d-a9e1-4c41-8852-3879346d7291"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "dcd2765d-a9e1-4c41-8852-3879346d7291",
-        "name": "Rotary Senior Living - Eagle Grove, IA",
-        "address": [
-          {
-            "line": [
-              "620 SE 5th St."
-            ],
-            "city": "Eagle Grove",
-            "state": "IA",
-            "postalCode": "50533",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "dcd2765d-a9e1-4c41-8852-3879346d7291"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/dcd2765d-a9e1-4c41-8852-3879346d7291/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/dcd2765d-a9e1-4c41-8852-3879346d7291"
 }

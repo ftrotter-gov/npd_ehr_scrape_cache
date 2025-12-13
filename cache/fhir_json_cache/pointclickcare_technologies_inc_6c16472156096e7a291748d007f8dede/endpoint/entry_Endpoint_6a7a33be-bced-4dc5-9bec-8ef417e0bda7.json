@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6a7a33be-bced-4dc5-9bec-8ef417e0bda7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6a7a33be-bced-4dc5-9bec-8ef417e0bda7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6a7a33be-bced-4dc5-9bec-8ef417e0bda7",
-        "name": "Cheraw Healthcare, Inc. - Cheraw, SC",
-        "address": [
-          {
-            "line": [
-              "400 Moffat Road",
-              "P.O. Box 967"
-            ],
-            "city": "Cheraw",
-            "state": "SC",
-            "postalCode": "29520",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6a7a33be-bced-4dc5-9bec-8ef417e0bda7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6a7a33be-bced-4dc5-9bec-8ef417e0bda7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6a7a33be-bced-4dc5-9bec-8ef417e0bda7"
 }

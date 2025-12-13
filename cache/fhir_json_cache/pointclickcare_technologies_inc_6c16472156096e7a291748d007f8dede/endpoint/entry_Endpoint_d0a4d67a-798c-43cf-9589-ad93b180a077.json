@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d0a4d67a-798c-43cf-9589-ad93b180a077",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d0a4d67a-798c-43cf-9589-ad93b180a077"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d0a4d67a-798c-43cf-9589-ad93b180a077",
-        "name": "Walker Methodist - Minneapolis, MN",
-        "address": [
-          {
-            "line": [
-              "3737 Bryant Ave S"
-            ],
-            "city": "Minneapolis",
-            "state": "MN",
-            "postalCode": "55409-1019",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d0a4d67a-798c-43cf-9589-ad93b180a077"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d0a4d67a-798c-43cf-9589-ad93b180a077/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d0a4d67a-798c-43cf-9589-ad93b180a077"
 }

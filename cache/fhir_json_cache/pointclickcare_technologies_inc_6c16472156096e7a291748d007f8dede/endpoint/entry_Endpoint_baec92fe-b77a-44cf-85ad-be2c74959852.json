@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "baec92fe-b77a-44cf-85ad-be2c74959852",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/baec92fe-b77a-44cf-85ad-be2c74959852"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "baec92fe-b77a-44cf-85ad-be2c74959852",
-        "name": "Hillcrest Nursing Home - McCook, NE",
-        "address": [
-          {
-            "line": [
-              "309 W 7th St",
-              "PO Box 1087"
-            ],
-            "city": "McCook",
-            "state": "NE",
-            "postalCode": "69001-3507",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "baec92fe-b77a-44cf-85ad-be2c74959852"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/baec92fe-b77a-44cf-85ad-be2c74959852/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/baec92fe-b77a-44cf-85ad-be2c74959852"
 }

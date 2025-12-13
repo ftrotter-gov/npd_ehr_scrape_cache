@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "748bf638-2809-4afd-99d9-25707b4b5044",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/748bf638-2809-4afd-99d9-25707b4b5044"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "748bf638-2809-4afd-99d9-25707b4b5044",
-        "name": "Kissito Healthcare - Roanoke, VA",
-        "address": [
-          {
-            "line": [
-              "7500 Shadwell Dr",
-              "Suite D"
-            ],
-            "city": "Roanoke",
-            "state": "VA",
-            "postalCode": "24019",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "748bf638-2809-4afd-99d9-25707b4b5044"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/748bf638-2809-4afd-99d9-25707b4b5044/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/748bf638-2809-4afd-99d9-25707b4b5044"
 }

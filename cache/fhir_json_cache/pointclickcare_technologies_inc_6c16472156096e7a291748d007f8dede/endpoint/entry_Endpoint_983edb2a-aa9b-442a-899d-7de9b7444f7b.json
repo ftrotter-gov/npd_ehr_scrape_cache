@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "983edb2a-aa9b-442a-899d-7de9b7444f7b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/983edb2a-aa9b-442a-899d-7de9b7444f7b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "983edb2a-aa9b-442a-899d-7de9b7444f7b",
-        "name": "Brethren Retirement Community - Greenville, OH",
-        "address": [
-          {
-            "line": [
-              "750 Chestnut St"
-            ],
-            "city": "Greenville",
-            "state": "OH",
-            "postalCode": "45331-1312",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "983edb2a-aa9b-442a-899d-7de9b7444f7b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/983edb2a-aa9b-442a-899d-7de9b7444f7b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/983edb2a-aa9b-442a-899d-7de9b7444f7b"
 }

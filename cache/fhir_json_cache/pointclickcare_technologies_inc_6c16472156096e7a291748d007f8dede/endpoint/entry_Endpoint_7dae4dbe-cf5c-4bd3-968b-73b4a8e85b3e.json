@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7dae4dbe-cf5c-4bd3-968b-73b4a8e85b3e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7dae4dbe-cf5c-4bd3-968b-73b4a8e85b3e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7dae4dbe-cf5c-4bd3-968b-73b4a8e85b3e",
-        "name": "Aloha Nursing & Rehab Centre - Kaneohe, HI",
-        "address": [
-          {
-            "line": [
-              "45-545 Kamehameha Hwy"
-            ],
-            "city": "Kaneohe",
-            "state": "HI",
-            "postalCode": "96744",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7dae4dbe-cf5c-4bd3-968b-73b4a8e85b3e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7dae4dbe-cf5c-4bd3-968b-73b4a8e85b3e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7dae4dbe-cf5c-4bd3-968b-73b4a8e85b3e"
 }

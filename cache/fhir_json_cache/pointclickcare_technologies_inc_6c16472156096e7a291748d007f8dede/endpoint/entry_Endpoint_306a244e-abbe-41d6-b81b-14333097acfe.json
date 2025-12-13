@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "306a244e-abbe-41d6-b81b-14333097acfe",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/306a244e-abbe-41d6-b81b-14333097acfe"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "306a244e-abbe-41d6-b81b-14333097acfe",
-        "name": "Oakland Park Communities, Inc. - Thief River Fal, MN",
-        "address": [
-          {
-            "line": [
-              "123 Baken St"
-            ],
-            "city": "Thief River Falls",
-            "state": "MN",
-            "postalCode": "56701",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "306a244e-abbe-41d6-b81b-14333097acfe"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/306a244e-abbe-41d6-b81b-14333097acfe/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/306a244e-abbe-41d6-b81b-14333097acfe"
 }

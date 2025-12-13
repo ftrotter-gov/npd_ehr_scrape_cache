@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e60c80a3-61a7-49ec-ab77-007dc077afd6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e60c80a3-61a7-49ec-ab77-007dc077afd6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e60c80a3-61a7-49ec-ab77-007dc077afd6",
-        "name": "New Bethany Skilled Nursing - Los Banos, CA",
-        "address": [
-          {
-            "line": [
-              "1441 Berkeley Dr"
-            ],
-            "city": "Los Banos",
-            "state": "CA",
-            "postalCode": "93635",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e60c80a3-61a7-49ec-ab77-007dc077afd6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e60c80a3-61a7-49ec-ab77-007dc077afd6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e60c80a3-61a7-49ec-ab77-007dc077afd6"
 }

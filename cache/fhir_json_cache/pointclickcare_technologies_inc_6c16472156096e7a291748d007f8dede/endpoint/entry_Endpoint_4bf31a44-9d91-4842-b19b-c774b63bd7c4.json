@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4bf31a44-9d91-4842-b19b-c774b63bd7c4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4bf31a44-9d91-4842-b19b-c774b63bd7c4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4bf31a44-9d91-4842-b19b-c774b63bd7c4",
-        "name": "Cass County Michigan - Cassopolis, MI",
-        "address": [
-          {
-            "line": [
-              "23770 Hospital St"
-            ],
-            "city": "Cassopolis",
-            "state": "MI",
-            "postalCode": "49031",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4bf31a44-9d91-4842-b19b-c774b63bd7c4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4bf31a44-9d91-4842-b19b-c774b63bd7c4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4bf31a44-9d91-4842-b19b-c774b63bd7c4"
 }

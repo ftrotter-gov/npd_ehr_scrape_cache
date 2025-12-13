@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5557a621-3142-4821-b8e2-eaf49e5a87b9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5557a621-3142-4821-b8e2-eaf49e5a87b9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5557a621-3142-4821-b8e2-eaf49e5a87b9",
-        "name": "Lutheran Home for the Aged Association E - Vinton, IA",
-        "address": [
-          {
-            "line": [
-              "1415 2nd Ave",
-              "PO Box 559"
-            ],
-            "city": "Vinton",
-            "state": "IA",
-            "postalCode": "52349",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5557a621-3142-4821-b8e2-eaf49e5a87b9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5557a621-3142-4821-b8e2-eaf49e5a87b9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5557a621-3142-4821-b8e2-eaf49e5a87b9"
 }

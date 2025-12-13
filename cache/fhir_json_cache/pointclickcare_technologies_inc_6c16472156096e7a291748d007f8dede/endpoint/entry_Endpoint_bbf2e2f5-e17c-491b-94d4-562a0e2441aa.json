@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bbf2e2f5-e17c-491b-94d4-562a0e2441aa",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bbf2e2f5-e17c-491b-94d4-562a0e2441aa"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bbf2e2f5-e17c-491b-94d4-562a0e2441aa",
-        "name": "Zenith Healthcare - Ballston Spa, NY",
-        "address": [
-          {
-            "line": [
-              "149 Ballston Ave."
-            ],
-            "city": "Ballston Spa",
-            "state": "NY",
-            "postalCode": "12020-1982",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bbf2e2f5-e17c-491b-94d4-562a0e2441aa"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bbf2e2f5-e17c-491b-94d4-562a0e2441aa/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bbf2e2f5-e17c-491b-94d4-562a0e2441aa"
 }

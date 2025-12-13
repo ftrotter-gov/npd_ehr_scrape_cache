@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5c1d26c6-bb27-467a-8fa3-f9a67e4ccc40",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5c1d26c6-bb27-467a-8fa3-f9a67e4ccc40"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5c1d26c6-bb27-467a-8fa3-f9a67e4ccc40",
-        "name": "Generations Healthcare Mgmt - Ashtabula, OH",
-        "address": [
-          {
-            "line": [
-              "2420 Lake Ave"
-            ],
-            "city": "Ashtabula",
-            "state": "OH",
-            "postalCode": "44004",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5c1d26c6-bb27-467a-8fa3-f9a67e4ccc40"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5c1d26c6-bb27-467a-8fa3-f9a67e4ccc40/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5c1d26c6-bb27-467a-8fa3-f9a67e4ccc40"
 }

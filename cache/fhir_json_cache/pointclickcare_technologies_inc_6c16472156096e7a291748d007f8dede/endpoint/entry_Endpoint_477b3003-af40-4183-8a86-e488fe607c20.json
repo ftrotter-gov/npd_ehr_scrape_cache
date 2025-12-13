@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "477b3003-af40-4183-8a86-e488fe607c20",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/477b3003-af40-4183-8a86-e488fe607c20"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "477b3003-af40-4183-8a86-e488fe607c20",
-        "name": "American Baptist Homes of the Midwest - Eden Prairie, MN",
-        "address": [
-          {
-            "line": [
-              "14850 Scenic Heights Road",
-              "Suite 125"
-            ],
-            "city": "Eden Prairie",
-            "state": "MN",
-            "postalCode": "55344",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "477b3003-af40-4183-8a86-e488fe607c20"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/477b3003-af40-4183-8a86-e488fe607c20/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/477b3003-af40-4183-8a86-e488fe607c20"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "30891178-61e3-4fcf-8eec-f7540e66bdee",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/30891178-61e3-4fcf-8eec-f7540e66bdee"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "30891178-61e3-4fcf-8eec-f7540e66bdee",
-        "name": "Bayley - Cincinnati, OH",
-        "address": [
-          {
-            "line": [
-              "990 Bayley Place Drive"
-            ],
-            "city": "Cincinnati",
-            "state": "OH",
-            "postalCode": "45233",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "30891178-61e3-4fcf-8eec-f7540e66bdee"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/30891178-61e3-4fcf-8eec-f7540e66bdee/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/30891178-61e3-4fcf-8eec-f7540e66bdee"
 }

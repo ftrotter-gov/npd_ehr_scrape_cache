@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "20eb4143-2889-446c-adab-f9c5259d3dcd",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/20eb4143-2889-446c-adab-f9c5259d3dcd"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "20eb4143-2889-446c-adab-f9c5259d3dcd",
-        "name": "Bryn Mawr Terrace Saunder House HO - Bryn Mawr, PA",
-        "address": [
-          {
-            "line": [
-              "773 E Haverford Rd"
-            ],
-            "city": "Bryn Mawr",
-            "state": "PA",
-            "postalCode": "19090",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "20eb4143-2889-446c-adab-f9c5259d3dcd"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/20eb4143-2889-446c-adab-f9c5259d3dcd/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/20eb4143-2889-446c-adab-f9c5259d3dcd"
 }

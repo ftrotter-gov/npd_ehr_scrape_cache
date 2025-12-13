@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "83c24bb2-3a37-4025-bc32-ae363021c640",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/83c24bb2-3a37-4025-bc32-ae363021c640"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "83c24bb2-3a37-4025-bc32-ae363021c640",
-        "name": "Wyandot County Nursing - Upper Sandusky, OH",
-        "address": [
-          {
-            "line": [
-              "7830 N State Nwy 199"
-            ],
-            "city": "Upper Sandusky",
-            "state": "OH",
-            "postalCode": "43351",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "83c24bb2-3a37-4025-bc32-ae363021c640"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/83c24bb2-3a37-4025-bc32-ae363021c640/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/83c24bb2-3a37-4025-bc32-ae363021c640"
 }

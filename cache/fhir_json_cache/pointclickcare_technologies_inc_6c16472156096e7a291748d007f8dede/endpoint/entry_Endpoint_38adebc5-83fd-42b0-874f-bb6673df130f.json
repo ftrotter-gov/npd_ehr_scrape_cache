@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "38adebc5-83fd-42b0-874f-bb6673df130f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/38adebc5-83fd-42b0-874f-bb6673df130f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "38adebc5-83fd-42b0-874f-bb6673df130f",
-        "name": "BOTSFORD CONTINUING CARE CORPORATION - Farmington, MI",
-        "address": [
-          {
-            "line": [
-              "28050 Grand River Avenue"
-            ],
-            "city": "Farmington",
-            "state": "MI",
-            "postalCode": "48336-5933",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "38adebc5-83fd-42b0-874f-bb6673df130f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/38adebc5-83fd-42b0-874f-bb6673df130f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/38adebc5-83fd-42b0-874f-bb6673df130f"
 }

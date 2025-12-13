@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "db6c215c-2c11-4d4b-8e52-e693962371f7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/db6c215c-2c11-4d4b-8e52-e693962371f7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "db6c215c-2c11-4d4b-8e52-e693962371f7",
-        "name": "Community Supports, Inc. - Winter Park, FL",
-        "address": [
-          {
-            "line": [
-              "1890 State Road 436",
-              "Suite #300"
-            ],
-            "city": "Winter Park",
-            "state": "FL",
-            "postalCode": "32792",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "db6c215c-2c11-4d4b-8e52-e693962371f7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/db6c215c-2c11-4d4b-8e52-e693962371f7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/db6c215c-2c11-4d4b-8e52-e693962371f7"
 }

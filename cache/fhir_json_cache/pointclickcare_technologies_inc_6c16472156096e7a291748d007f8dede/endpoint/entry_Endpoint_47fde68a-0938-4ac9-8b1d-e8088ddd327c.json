@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "47fde68a-0938-4ac9-8b1d-e8088ddd327c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/47fde68a-0938-4ac9-8b1d-e8088ddd327c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "47fde68a-0938-4ac9-8b1d-e8088ddd327c",
-        "name": "United Zion Retirement Community - Lititz, PA",
-        "address": [
-          {
-            "line": [
-              "722 Furnace Hills Pike"
-            ],
-            "city": "Lititz",
-            "state": "PA",
-            "postalCode": "17543-9502",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "47fde68a-0938-4ac9-8b1d-e8088ddd327c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/47fde68a-0938-4ac9-8b1d-e8088ddd327c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/47fde68a-0938-4ac9-8b1d-e8088ddd327c"
 }

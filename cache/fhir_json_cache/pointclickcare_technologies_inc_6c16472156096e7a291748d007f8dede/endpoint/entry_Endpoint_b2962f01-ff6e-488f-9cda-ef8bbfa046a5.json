@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b2962f01-ff6e-488f-9cda-ef8bbfa046a5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b2962f01-ff6e-488f-9cda-ef8bbfa046a5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b2962f01-ff6e-488f-9cda-ef8bbfa046a5",
-        "name": "The Meadows at Osborn Park - Huron, OH",
-        "address": [
-          {
-            "line": [
-              "3916 Perkins Ave"
-            ],
-            "city": "Huron",
-            "state": "OH",
-            "postalCode": "44839-1059",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b2962f01-ff6e-488f-9cda-ef8bbfa046a5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b2962f01-ff6e-488f-9cda-ef8bbfa046a5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b2962f01-ff6e-488f-9cda-ef8bbfa046a5"
 }

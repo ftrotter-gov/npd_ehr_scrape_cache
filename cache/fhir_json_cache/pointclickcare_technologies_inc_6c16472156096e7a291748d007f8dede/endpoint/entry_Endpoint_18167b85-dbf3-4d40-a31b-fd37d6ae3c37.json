@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "18167b85-dbf3-4d40-a31b-fd37d6ae3c37",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/18167b85-dbf3-4d40-a31b-fd37d6ae3c37"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "18167b85-dbf3-4d40-a31b-fd37d6ae3c37",
-        "name": "Winder Health Care & Rehab Center - Winder, GA",
-        "address": [
-          {
-            "line": [
-              "263 E May St",
-              "PO Box 588"
-            ],
-            "city": "Winder",
-            "state": "GA",
-            "postalCode": "30680",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "18167b85-dbf3-4d40-a31b-fd37d6ae3c37"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/18167b85-dbf3-4d40-a31b-fd37d6ae3c37/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/18167b85-dbf3-4d40-a31b-fd37d6ae3c37"
 }

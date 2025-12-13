@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6cee30a3-e053-419b-b789-3918e9f64953",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6cee30a3-e053-419b-b789-3918e9f64953"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6cee30a3-e053-419b-b789-3918e9f64953",
-        "name": "Shinnery Oaks Community - Denver City, TX",
-        "address": [
-          {
-            "line": [
-              "711 West Broadway"
-            ],
-            "city": "Denver City",
-            "state": "TX",
-            "postalCode": "79323",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6cee30a3-e053-419b-b789-3918e9f64953"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6cee30a3-e053-419b-b789-3918e9f64953/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6cee30a3-e053-419b-b789-3918e9f64953"
 }

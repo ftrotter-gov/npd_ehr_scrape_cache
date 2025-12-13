@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "238a9479-b242-4bd4-a573-811845a0ebab",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/238a9479-b242-4bd4-a573-811845a0ebab"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "238a9479-b242-4bd4-a573-811845a0ebab",
-        "name": "Rockcastle Hospital & Respiratory - Mount Vernon, KY",
-        "address": [
-          {
-            "line": [
-              "145 Newcomb Ave",
-              "PO Box 1310"
-            ],
-            "city": "Mount Vernon",
-            "state": "KY",
-            "postalCode": "40456",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "238a9479-b242-4bd4-a573-811845a0ebab"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/238a9479-b242-4bd4-a573-811845a0ebab/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/238a9479-b242-4bd4-a573-811845a0ebab"
 }

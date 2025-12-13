@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "de2fd9b5-e92b-48e7-912c-15bd0695790a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/de2fd9b5-e92b-48e7-912c-15bd0695790a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "de2fd9b5-e92b-48e7-912c-15bd0695790a",
-        "name": "Lincoln Donalson Care Centers - Fayetteville, TN",
-        "address": [
-          {
-            "line": [
-              "501 Amana Ave",
-              "PO Box 838"
-            ],
-            "city": "Fayetteville",
-            "state": "TN",
-            "postalCode": "37334",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "de2fd9b5-e92b-48e7-912c-15bd0695790a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/de2fd9b5-e92b-48e7-912c-15bd0695790a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/de2fd9b5-e92b-48e7-912c-15bd0695790a"
 }

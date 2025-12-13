@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3853fd0f-d7e2-45dd-a85e-1f4634ee2742",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3853fd0f-d7e2-45dd-a85e-1f4634ee2742"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3853fd0f-d7e2-45dd-a85e-1f4634ee2742",
-        "name": "Aurora Health Management, LLC - Millersville, MD",
-        "address": [
-          {
-            "line": [
-              "8227 Cloverleaf Drive",
-              "Suite 309"
-            ],
-            "city": "Millersville",
-            "state": "MD",
-            "postalCode": "21108",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3853fd0f-d7e2-45dd-a85e-1f4634ee2742"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3853fd0f-d7e2-45dd-a85e-1f4634ee2742/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3853fd0f-d7e2-45dd-a85e-1f4634ee2742"
 }

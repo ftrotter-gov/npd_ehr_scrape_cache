@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e64f264f-6429-45bb-bbf8-38ed775cfa5d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e64f264f-6429-45bb-bbf8-38ed775cfa5d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e64f264f-6429-45bb-bbf8-38ed775cfa5d",
-        "name": "FF Mueller Center - Springfield, OH",
-        "address": [
-          {
-            "line": [
-              "2527 Kenton St"
-            ],
-            "city": "Springfield",
-            "state": "OH",
-            "postalCode": "45505",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e64f264f-6429-45bb-bbf8-38ed775cfa5d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e64f264f-6429-45bb-bbf8-38ed775cfa5d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e64f264f-6429-45bb-bbf8-38ed775cfa5d"
 }

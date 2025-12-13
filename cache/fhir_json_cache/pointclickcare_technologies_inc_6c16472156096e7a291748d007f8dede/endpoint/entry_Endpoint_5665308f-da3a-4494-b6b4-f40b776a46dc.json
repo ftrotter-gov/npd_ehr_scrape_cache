@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5665308f-da3a-4494-b6b4-f40b776a46dc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5665308f-da3a-4494-b6b4-f40b776a46dc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5665308f-da3a-4494-b6b4-f40b776a46dc",
-        "name": "Dow-Rummel Village - Sioux Falls, SD",
-        "address": [
-          {
-            "line": [
-              "1321 W Dow Rummel St"
-            ],
-            "city": "Sioux Falls",
-            "state": "SD",
-            "postalCode": "57104",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5665308f-da3a-4494-b6b4-f40b776a46dc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5665308f-da3a-4494-b6b4-f40b776a46dc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5665308f-da3a-4494-b6b4-f40b776a46dc"
 }

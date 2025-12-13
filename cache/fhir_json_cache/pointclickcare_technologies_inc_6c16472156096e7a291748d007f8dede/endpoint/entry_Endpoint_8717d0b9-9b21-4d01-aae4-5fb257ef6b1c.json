@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8717d0b9-9b21-4d01-aae4-5fb257ef6b1c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8717d0b9-9b21-4d01-aae4-5fb257ef6b1c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8717d0b9-9b21-4d01-aae4-5fb257ef6b1c",
-        "name": "Regent Management Services - Galveston, TX",
-        "address": [
-          {
-            "line": [
-              "2302 Post Office Street",
-              "Suite 402"
-            ],
-            "city": "Galveston",
-            "state": "TX",
-            "postalCode": "77550",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8717d0b9-9b21-4d01-aae4-5fb257ef6b1c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8717d0b9-9b21-4d01-aae4-5fb257ef6b1c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8717d0b9-9b21-4d01-aae4-5fb257ef6b1c"
 }

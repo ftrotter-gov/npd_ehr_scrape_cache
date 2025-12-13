@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "aada1818-063e-49ca-8903-301e22831a0d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/aada1818-063e-49ca-8903-301e22831a0d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "aada1818-063e-49ca-8903-301e22831a0d",
-        "name": "Cantex Continuing Care Network LLC - Carrollton, TX",
-        "address": [
-          {
-            "line": [
-              "2537 Golden Bear Drive"
-            ],
-            "city": "Carrollton",
-            "state": "TX",
-            "postalCode": "75006",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "aada1818-063e-49ca-8903-301e22831a0d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/aada1818-063e-49ca-8903-301e22831a0d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/aada1818-063e-49ca-8903-301e22831a0d"
 }

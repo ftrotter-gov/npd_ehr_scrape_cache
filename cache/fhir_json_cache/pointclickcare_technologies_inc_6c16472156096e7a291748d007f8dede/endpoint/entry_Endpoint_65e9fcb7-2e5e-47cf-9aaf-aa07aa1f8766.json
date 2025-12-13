@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "65e9fcb7-2e5e-47cf-9aaf-aa07aa1f8766",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/65e9fcb7-2e5e-47cf-9aaf-aa07aa1f8766"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "65e9fcb7-2e5e-47cf-9aaf-aa07aa1f8766",
-        "name": "Care Partners Management Group, LLC - Mercer Island, WA",
-        "address": [
-          {
-            "line": [
-              "7900 SE 28th St.",
-              "Suite 416"
-            ],
-            "city": "Mercer Island",
-            "state": "WA",
-            "postalCode": "98040",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "65e9fcb7-2e5e-47cf-9aaf-aa07aa1f8766"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/65e9fcb7-2e5e-47cf-9aaf-aa07aa1f8766/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/65e9fcb7-2e5e-47cf-9aaf-aa07aa1f8766"
 }

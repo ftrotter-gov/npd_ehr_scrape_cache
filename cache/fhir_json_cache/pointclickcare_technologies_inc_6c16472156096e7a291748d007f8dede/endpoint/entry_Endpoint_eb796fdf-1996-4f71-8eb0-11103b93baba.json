@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "eb796fdf-1996-4f71-8eb0-11103b93baba",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/eb796fdf-1996-4f71-8eb0-11103b93baba"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "eb796fdf-1996-4f71-8eb0-11103b93baba",
-        "name": "Fellowship Community FEL - Whitehall, PA",
-        "address": [
-          {
-            "line": [
-              "3000 Fellowship Drive"
-            ],
-            "city": "Whitehall",
-            "state": "PA",
-            "postalCode": "18052",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "eb796fdf-1996-4f71-8eb0-11103b93baba"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/eb796fdf-1996-4f71-8eb0-11103b93baba/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/eb796fdf-1996-4f71-8eb0-11103b93baba"
 }

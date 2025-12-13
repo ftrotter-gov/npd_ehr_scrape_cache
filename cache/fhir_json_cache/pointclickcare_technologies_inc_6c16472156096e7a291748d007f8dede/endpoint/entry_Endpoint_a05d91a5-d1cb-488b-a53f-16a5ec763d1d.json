@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a05d91a5-d1cb-488b-a53f-16a5ec763d1d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a05d91a5-d1cb-488b-a53f-16a5ec763d1d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a05d91a5-d1cb-488b-a53f-16a5ec763d1d",
-        "name": "Lutheran Homes of Michigan - Flint, MI",
-        "address": [
-          {
-            "line": [
-              "Wellspring Lutheran Services",
-              "4100 Pier North Boulevard"
-            ],
-            "city": "Flint",
-            "state": "MI",
-            "postalCode": "48504",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a05d91a5-d1cb-488b-a53f-16a5ec763d1d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a05d91a5-d1cb-488b-a53f-16a5ec763d1d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a05d91a5-d1cb-488b-a53f-16a5ec763d1d"
 }

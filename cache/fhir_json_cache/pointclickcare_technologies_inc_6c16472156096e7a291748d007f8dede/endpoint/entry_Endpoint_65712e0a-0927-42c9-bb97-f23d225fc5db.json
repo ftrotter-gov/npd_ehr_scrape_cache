@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "65712e0a-0927-42c9-bb97-f23d225fc5db",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/65712e0a-0927-42c9-bb97-f23d225fc5db"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "65712e0a-0927-42c9-bb97-f23d225fc5db",
-        "name": "Inter-Faith Care Center - Carlton, MN",
-        "address": [
-          {
-            "line": [
-              "811 3rd St"
-            ],
-            "city": "Carlton",
-            "state": "MN",
-            "postalCode": "55718",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "65712e0a-0927-42c9-bb97-f23d225fc5db"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/65712e0a-0927-42c9-bb97-f23d225fc5db/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/65712e0a-0927-42c9-bb97-f23d225fc5db"
 }

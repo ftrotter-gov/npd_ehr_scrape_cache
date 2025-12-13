@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "428f5d89-afb0-425d-a625-14b67420c13a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/428f5d89-afb0-425d-a625-14b67420c13a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "428f5d89-afb0-425d-a625-14b67420c13a",
-        "name": "4S Management Services, LLC - ",
-        "address": [
-          {
-            "line": [
-              "PO Box 519"
-            ],
-            "city": "SULPHUR",
-            "state": "OK",
-            "postalCode": "73086",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "428f5d89-afb0-425d-a625-14b67420c13a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/428f5d89-afb0-425d-a625-14b67420c13a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/428f5d89-afb0-425d-a625-14b67420c13a"
 }

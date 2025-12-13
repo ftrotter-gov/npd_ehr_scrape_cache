@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f3ac9cfa-affe-40f9-b355-4ed204a73f50",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f3ac9cfa-affe-40f9-b355-4ed204a73f50"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f3ac9cfa-affe-40f9-b355-4ed204a73f50",
-        "name": "South Florida Nursing Homes LLC - Hollywood, FL",
-        "address": [
-          {
-            "line": [
-              "4600 Sheridan Street",
-              "Suite 403"
-            ],
-            "city": "Hollywood",
-            "state": "FL",
-            "postalCode": "33021",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f3ac9cfa-affe-40f9-b355-4ed204a73f50"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f3ac9cfa-affe-40f9-b355-4ed204a73f50/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f3ac9cfa-affe-40f9-b355-4ed204a73f50"
 }

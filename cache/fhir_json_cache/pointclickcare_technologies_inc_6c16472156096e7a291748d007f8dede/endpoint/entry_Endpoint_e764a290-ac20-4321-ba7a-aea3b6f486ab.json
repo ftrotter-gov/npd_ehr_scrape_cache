@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e764a290-ac20-4321-ba7a-aea3b6f486ab",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e764a290-ac20-4321-ba7a-aea3b6f486ab"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e764a290-ac20-4321-ba7a-aea3b6f486ab",
-        "name": "Rim Country Health - Payson, AZ",
-        "address": [
-          {
-            "line": [
-              "807 W. Longhorn Rd."
-            ],
-            "city": "Payson",
-            "state": "AZ",
-            "postalCode": "85541",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e764a290-ac20-4321-ba7a-aea3b6f486ab"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e764a290-ac20-4321-ba7a-aea3b6f486ab/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e764a290-ac20-4321-ba7a-aea3b6f486ab"
 }

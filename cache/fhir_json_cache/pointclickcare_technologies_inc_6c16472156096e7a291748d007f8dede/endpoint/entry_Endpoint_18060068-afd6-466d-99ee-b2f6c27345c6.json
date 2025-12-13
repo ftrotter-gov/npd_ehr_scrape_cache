@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "18060068-afd6-466d-99ee-b2f6c27345c6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/18060068-afd6-466d-99ee-b2f6c27345c6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "18060068-afd6-466d-99ee-b2f6c27345c6",
-        "name": "HMG Services - The Woodlands, TX",
-        "address": [
-          {
-            "line": [
-              "1780 Hughes Landing Blvd",
-              "Suite 500"
-            ],
-            "city": "The Woodlands",
-            "state": "TX",
-            "postalCode": "77380",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "18060068-afd6-466d-99ee-b2f6c27345c6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/18060068-afd6-466d-99ee-b2f6c27345c6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/18060068-afd6-466d-99ee-b2f6c27345c6"
 }

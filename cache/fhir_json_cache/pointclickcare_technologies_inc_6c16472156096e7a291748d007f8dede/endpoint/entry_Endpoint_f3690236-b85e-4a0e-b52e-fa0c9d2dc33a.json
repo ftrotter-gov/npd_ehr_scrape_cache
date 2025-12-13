@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f3690236-b85e-4a0e-b52e-fa0c9d2dc33a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f3690236-b85e-4a0e-b52e-fa0c9d2dc33a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f3690236-b85e-4a0e-b52e-fa0c9d2dc33a",
-        "name": "Corona Care LLC - Corona, CA",
-        "address": [
-          {
-            "line": [
-              "1400 E Circle City Dr"
-            ],
-            "city": "Corona",
-            "state": "CA",
-            "postalCode": "92879",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f3690236-b85e-4a0e-b52e-fa0c9d2dc33a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f3690236-b85e-4a0e-b52e-fa0c9d2dc33a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f3690236-b85e-4a0e-b52e-fa0c9d2dc33a"
 }

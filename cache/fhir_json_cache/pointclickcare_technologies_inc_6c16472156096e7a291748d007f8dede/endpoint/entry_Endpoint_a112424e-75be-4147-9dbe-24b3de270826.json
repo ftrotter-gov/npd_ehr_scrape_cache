@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a112424e-75be-4147-9dbe-24b3de270826",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a112424e-75be-4147-9dbe-24b3de270826"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a112424e-75be-4147-9dbe-24b3de270826",
-        "name": "Fundamental Administrative Services, LLC - Sparks Glencoe, MD",
-        "address": [
-          {
-            "line": [
-              "920 Ridgebrook Road"
-            ],
-            "city": "Sparks Glencoe",
-            "state": "MD",
-            "postalCode": "21152",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a112424e-75be-4147-9dbe-24b3de270826"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a112424e-75be-4147-9dbe-24b3de270826/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a112424e-75be-4147-9dbe-24b3de270826"
 }

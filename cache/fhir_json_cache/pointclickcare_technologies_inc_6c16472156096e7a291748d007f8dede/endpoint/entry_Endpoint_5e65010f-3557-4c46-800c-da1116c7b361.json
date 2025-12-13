@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5e65010f-3557-4c46-800c-da1116c7b361",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5e65010f-3557-4c46-800c-da1116c7b361"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5e65010f-3557-4c46-800c-da1116c7b361",
-        "name": "Tuscola County Medical Care Community - Caro, MI",
-        "address": [
-          {
-            "line": [
-              "1285 Cleaver Rd"
-            ],
-            "city": "Caro",
-            "state": "MI",
-            "postalCode": "48723-9377",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5e65010f-3557-4c46-800c-da1116c7b361"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5e65010f-3557-4c46-800c-da1116c7b361/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5e65010f-3557-4c46-800c-da1116c7b361"
 }

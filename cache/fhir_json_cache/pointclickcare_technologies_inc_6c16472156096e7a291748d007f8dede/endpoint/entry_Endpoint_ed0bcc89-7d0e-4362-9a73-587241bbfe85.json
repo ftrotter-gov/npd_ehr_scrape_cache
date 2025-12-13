@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ed0bcc89-7d0e-4362-9a73-587241bbfe85",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ed0bcc89-7d0e-4362-9a73-587241bbfe85"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ed0bcc89-7d0e-4362-9a73-587241bbfe85",
-        "name": "Saba Healthcare - Skokie, IL",
-        "address": [
-          {
-            "line": [
-              "8153 N Lawndale Ave"
-            ],
-            "city": "Skokie",
-            "state": "IL",
-            "postalCode": "60076",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ed0bcc89-7d0e-4362-9a73-587241bbfe85"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ed0bcc89-7d0e-4362-9a73-587241bbfe85/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ed0bcc89-7d0e-4362-9a73-587241bbfe85"
 }

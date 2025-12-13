@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "aeefdd1c-d9c9-47d5-8726-a3a1921ceeab",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/aeefdd1c-d9c9-47d5-8726-a3a1921ceeab"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "aeefdd1c-d9c9-47d5-8726-a3a1921ceeab",
-        "name": "Prairieview Lutheran Home - Danforth, IL",
-        "address": [
-          {
-            "line": [
-              "403 N 4th St",
-              "PO Box 4"
-            ],
-            "city": "Danforth",
-            "state": "IL",
-            "postalCode": "60930",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "aeefdd1c-d9c9-47d5-8726-a3a1921ceeab"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/aeefdd1c-d9c9-47d5-8726-a3a1921ceeab/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/aeefdd1c-d9c9-47d5-8726-a3a1921ceeab"
 }

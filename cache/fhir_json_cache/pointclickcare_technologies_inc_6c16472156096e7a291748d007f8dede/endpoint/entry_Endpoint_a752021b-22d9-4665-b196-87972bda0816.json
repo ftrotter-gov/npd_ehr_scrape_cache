@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a752021b-22d9-4665-b196-87972bda0816",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a752021b-22d9-4665-b196-87972bda0816"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a752021b-22d9-4665-b196-87972bda0816",
-        "name": "PACS Group, Inc. - Farmington, UT",
-        "address": [
-          {
-            "line": [
-              "140 North Union Ave",
-              "Suite 320"
-            ],
-            "city": "Farmington",
-            "state": "UT",
-            "postalCode": "84025",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a752021b-22d9-4665-b196-87972bda0816"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a752021b-22d9-4665-b196-87972bda0816/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a752021b-22d9-4665-b196-87972bda0816"
 }

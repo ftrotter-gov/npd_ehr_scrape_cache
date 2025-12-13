@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ccd23513-4563-4dff-96c1-ad9417a24526",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ccd23513-4563-4dff-96c1-ad9417a24526"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ccd23513-4563-4dff-96c1-ad9417a24526",
-        "name": "Paramount Hospitality Inc. - ",
-        "address": [
-          {
-            "line": [
-              "475 Bellamy Lane"
-            ],
-            "city": "Clarksville",
-            "state": "TN",
-            "postalCode": "37043",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ccd23513-4563-4dff-96c1-ad9417a24526"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ccd23513-4563-4dff-96c1-ad9417a24526/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ccd23513-4563-4dff-96c1-ad9417a24526"
 }

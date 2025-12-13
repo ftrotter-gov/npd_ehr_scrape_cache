@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e50a1f02-fcad-47e9-a142-77135c6e393e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e50a1f02-fcad-47e9-a142-77135c6e393e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e50a1f02-fcad-47e9-a142-77135c6e393e",
-        "name": "Carriage Crossing Senior Living - Bloomington, IL",
-        "address": [
-          {
-            "line": [
-              "1402 Leslie Dr."
-            ],
-            "city": "Bloomington",
-            "state": "IL",
-            "postalCode": "61704",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e50a1f02-fcad-47e9-a142-77135c6e393e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e50a1f02-fcad-47e9-a142-77135c6e393e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e50a1f02-fcad-47e9-a142-77135c6e393e"
 }

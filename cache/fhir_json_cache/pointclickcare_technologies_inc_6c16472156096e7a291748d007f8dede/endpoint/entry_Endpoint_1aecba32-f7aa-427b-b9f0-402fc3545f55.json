@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1aecba32-f7aa-427b-b9f0-402fc3545f55",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1aecba32-f7aa-427b-b9f0-402fc3545f55"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1aecba32-f7aa-427b-b9f0-402fc3545f55",
-        "name": "Luthercare - Lititz, PA",
-        "address": [
-          {
-            "line": [
-              "600 E. Main Street"
-            ],
-            "city": "Lititz",
-            "state": "PA",
-            "postalCode": "17543",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1aecba32-f7aa-427b-b9f0-402fc3545f55"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1aecba32-f7aa-427b-b9f0-402fc3545f55/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1aecba32-f7aa-427b-b9f0-402fc3545f55"
 }

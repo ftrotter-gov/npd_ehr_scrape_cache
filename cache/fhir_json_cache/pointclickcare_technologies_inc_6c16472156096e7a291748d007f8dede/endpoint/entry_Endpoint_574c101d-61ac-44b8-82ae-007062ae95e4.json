@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "574c101d-61ac-44b8-82ae-007062ae95e4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/574c101d-61ac-44b8-82ae-007062ae95e4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "574c101d-61ac-44b8-82ae-007062ae95e4",
-        "name": "Cedar Community - West Bend, WI",
-        "address": [
-          {
-            "line": [
-              "5595 County Road Z"
-            ],
-            "city": "West Bend",
-            "state": "WI",
-            "postalCode": "53095",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "574c101d-61ac-44b8-82ae-007062ae95e4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/574c101d-61ac-44b8-82ae-007062ae95e4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/574c101d-61ac-44b8-82ae-007062ae95e4"
 }

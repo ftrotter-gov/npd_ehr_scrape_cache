@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "92e69601-6534-41f7-a64f-a039150bd755",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/92e69601-6534-41f7-a64f-a039150bd755"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "92e69601-6534-41f7-a64f-a039150bd755",
-        "name": "Brighton Healthcare Group - Jackson Townshi, NJ",
-        "address": [
-          {
-            "line": [
-              "8 Melissa Lee Drive"
-            ],
-            "city": "Jackson Township",
-            "state": "NJ",
-            "postalCode": "08527-5151",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "92e69601-6534-41f7-a64f-a039150bd755"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/92e69601-6534-41f7-a64f-a039150bd755/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/92e69601-6534-41f7-a64f-a039150bd755"
 }

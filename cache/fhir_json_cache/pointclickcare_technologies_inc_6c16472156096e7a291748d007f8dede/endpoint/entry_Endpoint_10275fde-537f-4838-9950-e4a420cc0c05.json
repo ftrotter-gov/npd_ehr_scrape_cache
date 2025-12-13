@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "10275fde-537f-4838-9950-e4a420cc0c05",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/10275fde-537f-4838-9950-e4a420cc0c05"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "10275fde-537f-4838-9950-e4a420cc0c05",
-        "name": "Newark Manor Nursing Home - Newark, DE",
-        "address": [
-          {
-            "line": [
-              "254 W Main St"
-            ],
-            "city": "Newark",
-            "state": "DE",
-            "postalCode": "19711",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "10275fde-537f-4838-9950-e4a420cc0c05"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/10275fde-537f-4838-9950-e4a420cc0c05/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/10275fde-537f-4838-9950-e4a420cc0c05"
 }

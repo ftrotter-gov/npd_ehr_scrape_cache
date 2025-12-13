@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5d7170fe-15bb-41e5-aa38-3a6145ca0aea",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5d7170fe-15bb-41e5-aa38-3a6145ca0aea"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5d7170fe-15bb-41e5-aa38-3a6145ca0aea",
-        "name": "Parkview Home - Wayland, IA",
-        "address": [
-          {
-            "line": [
-              "102 North Jackson",
-              "P.O. Box 38"
-            ],
-            "city": "Wayland",
-            "state": "IA",
-            "postalCode": "52654",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5d7170fe-15bb-41e5-aa38-3a6145ca0aea"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5d7170fe-15bb-41e5-aa38-3a6145ca0aea/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5d7170fe-15bb-41e5-aa38-3a6145ca0aea"
 }

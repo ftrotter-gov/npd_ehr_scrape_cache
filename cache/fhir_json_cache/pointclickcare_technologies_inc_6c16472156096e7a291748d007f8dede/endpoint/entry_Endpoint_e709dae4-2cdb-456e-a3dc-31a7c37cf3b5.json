@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e709dae4-2cdb-456e-a3dc-31a7c37cf3b5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e709dae4-2cdb-456e-a3dc-31a7c37cf3b5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e709dae4-2cdb-456e-a3dc-31a7c37cf3b5",
-        "name": "The Argyle - Denver, CO",
-        "address": [
-          {
-            "line": [
-              "4115 West 38th Avenue"
-            ],
-            "city": "Denver",
-            "state": "CO",
-            "postalCode": "80212",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e709dae4-2cdb-456e-a3dc-31a7c37cf3b5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e709dae4-2cdb-456e-a3dc-31a7c37cf3b5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e709dae4-2cdb-456e-a3dc-31a7c37cf3b5"
 }

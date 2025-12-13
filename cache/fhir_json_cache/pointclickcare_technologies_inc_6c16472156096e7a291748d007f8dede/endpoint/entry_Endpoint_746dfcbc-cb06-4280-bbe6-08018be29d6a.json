@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "746dfcbc-cb06-4280-bbe6-08018be29d6a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/746dfcbc-cb06-4280-bbe6-08018be29d6a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "746dfcbc-cb06-4280-bbe6-08018be29d6a",
-        "name": "Russell Regional Hospital - LTCU - Russell, KS",
-        "address": [
-          {
-            "line": [
-              "200 S Main St"
-            ],
-            "city": "Russell",
-            "state": "KS",
-            "postalCode": "67665-2920",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "746dfcbc-cb06-4280-bbe6-08018be29d6a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/746dfcbc-cb06-4280-bbe6-08018be29d6a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/746dfcbc-cb06-4280-bbe6-08018be29d6a"
 }

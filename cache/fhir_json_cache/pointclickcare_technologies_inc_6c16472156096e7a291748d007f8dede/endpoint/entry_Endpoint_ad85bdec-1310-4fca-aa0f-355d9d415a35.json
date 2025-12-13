@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ad85bdec-1310-4fca-aa0f-355d9d415a35",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ad85bdec-1310-4fca-aa0f-355d9d415a35"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ad85bdec-1310-4fca-aa0f-355d9d415a35",
-        "name": "Wakonda Heritage Manor - Avera Health So - Wakonda, SD",
-        "address": [
-          {
-            "line": [
-              "515 Ohio St",
-              "PO Box 327"
-            ],
-            "city": "Wakonda",
-            "state": "SD",
-            "postalCode": "57073-0327",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ad85bdec-1310-4fca-aa0f-355d9d415a35"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ad85bdec-1310-4fca-aa0f-355d9d415a35/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ad85bdec-1310-4fca-aa0f-355d9d415a35"
 }

@@ -81,7 +81,7 @@
 
 	<!-- css sheet -->
 	<link rel="stylesheet" type="text/css" href="/resources/css/documentation-9dd112868038c98c1e32bb02427c396b.css">
-	<link href="/resources/cdr-web-resources/css/help-common-08479060c9b9bb3c95b9a8a8acdbeb97.css" rel="stylesheet" type="text/css"/>
+	<link href="/resources/cdr-web-resources/css/help-common-f91a6b4901b0b6f6a878b0b9657886a6.css" rel="stylesheet" type="text/css"/>
 	<link href="/resources/cdr-web-resources/css/site-common-7caeb0b15db5c65d1a750b9a98501dac.css" rel="stylesheet" type="text/css"/>
 	<script src="/resources/htmx.org/dist/htmx.min.js"></script>
 	<script defer src="/resources/alpinejs/dist/cdn.min.js"></script>
@@ -124,7 +124,7 @@
                 //N.B.GGG: This is wild-looking thymeleaf, but needed so i can interpolate a variable in the bootup of the script (using th:inline=javascript)
                 $.get("\/available-versions", function(data) {
                     // Assuming `selectedDocsVersion` is a Thymeleaf variable passed from the server
-                    const selectedDocsVersion = "2025.11.PRE";
+                    const selectedDocsVersion = "2026.02.PRE";
                     let availableDocsVersions = data.versions;
                     if (availableDocsVersions.length <= 1) {
                         // Remove the dropdown container if there is only one version
@@ -300,6 +300,106 @@
 <div class="rightNavContainer hide-sm-and-below pageNav">
 	On this page:<br/>
 	<nav id="toc"></nav>
+
+	<!-- Related Articles Section (always render div for HTMX OOB swap target) -->
+	<div id="relatedArticlesSection">
+		
+			<strong>Related Articles:</strong><br/>
+			<ul>
+				<li>
+					<a href="/docs/javascript_execution_environment/introduction.html">JavaScript Execution Environment</a>
+				</li>
+				<li>
+					<a href="/docs/javascript_execution_environment/fhir_model.html">FHIR Model API</a>
+				</li>
+				<li>
+					<a href="/docs/javascript_execution_environment/transactionbuilder.html">TransactionBuilder API</a>
+				</li>
+				<li>
+					<a href="/docs/fhir_standard/fhir_search_queries.html">FHIR Searching Basics</a>
+				</li>
+				<li>
+					<a href="/docs/fhir_repository/fhir_endpoint_module.html">FHIR Endpoint Module</a>
+				</li>
+			</ul>
+		
+	</div>
+
+	<!-- Links to this Page Section (always render div for HTMX OOB swap target) -->
+	<div id="linksToThisPageSection">
+		
+			<strong>Links to this Page:</strong><br/>
+			<ul>
+				<li>
+					<a href="/docs/welcome/changelog_2019.html">Changelog: 2019</a>
+				</li>
+				<li>
+					<a href="/docs/cda_exchange_module/further_reading.html">Additional Documentation for CDA</a>
+				</li>
+				<li>
+					<a href="/docs/javascript_execution_environment/composition_section.html">Composition Section API</a>
+				</li>
+				<li>
+					<a href="/docs/security/script_inbound_security_module.html">Scripted Inbound Security</a>
+				</li>
+				<li>
+					<a href="/docs/guide_installation/configuring_smile_cdr.html">Configuring Smile CDR</a>
+				</li>
+				<li>
+					<a href="/docs/cda_exchange_module/javascript_templates.html">CDA JavaScript Templating System</a>
+				</li>
+				<li>
+					<a href="/docs/cda_exchange_plus/further_reading.html">Additional Documentation for CDA</a>
+				</li>
+				<li>
+					<a href="/docs/fhir_gateway/introduction.html">FHIR Gateway Endpoint</a>
+				</li>
+				<li>
+					<a href="/docs/cda_exchange_plus/javascript_templates.html">CDA JavaScript Templating System</a>
+				</li>
+				<li>
+					<a href="/docs/welcome/changelog.html">Changelog: 2025</a>
+				</li>
+				<li>
+					<a href="/docs/security/callback_scripts.html">Authentication Callback Scripts</a>
+				</li>
+				<li>
+					<a href="/docs/smileutil/execute_script_function.html">smileutil: Test Script Function</a>
+				</li>
+				<li>
+					<a href="/docs/hybrid_providers/hybrid_providers_intro.html">Hybrid Providers</a>
+				</li>
+				<li>
+					<a href="/docs/hl7_v2x_support/inbound_hl7v2.html">HL7 v2.x Support: Inbound Messaging (to Smile CDR)</a>
+				</li>
+			</ul>
+		
+	</div>
+
+	<!-- Tags Section (always render div for HTMX OOB swap target) -->
+	<div id="tagsSection">
+		
+			<strong>Tags:</strong><br/>
+			<div class="docs-tags-container">
+				
+					<a href="/docs/tags/reference.html"
+					   class="docs-tag-badge">reference</a>
+				
+					<a href="/docs/tags/javascript.html"
+					   class="docs-tag-badge">javascript</a>
+				
+					<a href="/docs/tags/fhir.html"
+					   class="docs-tag-badge">fhir</a>
+				
+					<a href="/docs/tags/intermediate.html"
+					   class="docs-tag-badge">intermediate</a>
+				
+					<a href="/docs/tags/fhir-repository.html"
+					   class="docs-tag-badge">fhir-repository</a>
+				
+			</div>
+		
+	</div>
 </div>
 
 <div class="container-fluid grid docs-container">
@@ -364,7 +464,7 @@
     });
 }">
 	<script>
-		const version = "2025.11.PRE";
+		const version = "2026.02.PRE";
 
 		function addSectionInfo(result, isHapiResult, organized) {
 			const chapterKey = result.chapter_title.raw + '::' + result.product_name.raw;
@@ -904,6 +1004,15 @@
 									hx-push-url="/docs/fhir_standard/fhir_search_uniqueness.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">FHIR Search: Enforcing Uniqueness</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/fhir_standard/fhir_search_uplifted_refchains.html"
+									hx-get="/docs/fhir_standard/fhir_search_uplifted_refchains/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/fhir_standard/fhir_search_uplifted_refchains.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">FHIR Search: Uplifted Refchains</span>
 								</a>
 							</li>
 							<li class="subheading-indent">
@@ -2191,6 +2300,36 @@
 									hx-push-url="/docs/terminology/response_terminology_enhancement.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">FHIR Response Terminology Mapping</span>
+								</a>
+							</li>
+						</ul>
+					</details>
+				</li>
+				<li class="subheading-indent">
+					<details>
+						<summary>
+							<span>Semantic Standardization</span>
+							<div class="hstack gap-2">
+								
+							</div>
+						</summary>
+						<ul>
+							<li class="subheading-indent">
+								<a href="/docs/semantic_std/semantic_std.html"
+									hx-get="/docs/semantic_std/semantic_std/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/semantic_std/semantic_std.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Semantic Standardization Module</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/semantic_std/semantic_std_provider_wci.html"
+									hx-get="/docs/semantic_std/semantic_std_provider_wci/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/semantic_std/semantic_std_provider_wci.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">West Coast Informatics (WCI) Provider</span>
 								</a>
 							</li>
 						</ul>
@@ -3795,6 +3934,15 @@
 									<span class="pull-left">Custom Matching Script</span>
 								</a>
 							</li>
+							<li class="subheading-indent">
+								<a href="/docs/system_to_system_data_exchange/bulk_member_match.html"
+									hx-get="/docs/system_to_system_data_exchange/bulk_member_match/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/system_to_system_data_exchange/bulk_member_match.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Bulk Member Match</span>
+								</a>
+							</li>
 						</ul>
 					</details>
 				</li>
@@ -4780,6 +4928,15 @@
 									hx-push-url="/docs/camel/smile_camel_processors_cda_exchange.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">Processors: CDA Exchange+ module</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/camel/smile_camel_processors_semantic_standardization.html"
+									hx-get="/docs/camel/smile_camel_processors_semantic_standardization/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/camel/smile_camel_processors_semantic_standardization.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Processors: Semantic Standardization module</span>
 								</a>
 							</li>
 							<li class="subheading-indent">
@@ -6613,15 +6770,6 @@
 								</a>
 							</li>
 							<li class="subheading-indent">
-								<a href="/docs/configuration_categories/scheduler_configuration.html"
-									hx-get="/docs/configuration_categories/scheduler_configuration/content"
-									hx-target="#docs-content-div"
-									hx-push-url="/docs/configuration_categories/scheduler_configuration.html"
-									onclick="NavigationHandler.toggleLeftBarActive(event)">
-									<span class="pull-left">Scheduler Configuration</span>
-								</a>
-							</li>
-							<li class="subheading-indent">
 								<a href="/docs/configuration_categories/search_parameter_seeding.html"
 									hx-get="/docs/configuration_categories/search_parameter_seeding/content"
 									hx-target="#docs-content-div"
@@ -6727,6 +6875,15 @@
 									hx-push-url="/docs/configuration_categories/security_smart_seeding.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">SMART Definitions Seeding</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/configuration_categories/semantic_uplift.html"
+									hx-get="/docs/configuration_categories/semantic_uplift/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/configuration_categories/semantic_uplift.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Semantic Standardization Configuration</span>
 								</a>
 							</li>
 							<li class="subheading-indent">
@@ -7927,15 +8084,6 @@
 								</a>
 							</li>
 							<li class="subheading-indent">
-								<a href="/docs/configuration_categories/scheduler_configuration.html"
-									hx-get="/docs/configuration_categories/scheduler_configuration/content"
-									hx-target="#docs-content-div"
-									hx-push-url="/docs/configuration_categories/scheduler_configuration.html"
-									onclick="NavigationHandler.toggleLeftBarActive(event)">
-									<span class="pull-left">Scheduler Configuration</span>
-								</a>
-							</li>
-							<li class="subheading-indent">
 								<a href="/docs/configuration_categories/search_parameter_seeding.html"
 									hx-get="/docs/configuration_categories/search_parameter_seeding/content"
 									hx-target="#docs-content-div"
@@ -8041,6 +8189,15 @@
 									hx-push-url="/docs/configuration_categories/security_smart_seeding.html"
 									onclick="NavigationHandler.toggleLeftBarActive(event)">
 									<span class="pull-left">SMART Definitions Seeding</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/configuration_categories/semantic_uplift.html"
+									hx-get="/docs/configuration_categories/semantic_uplift/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/configuration_categories/semantic_uplift.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Semantic Standardization Configuration</span>
 								</a>
 							</li>
 							<li class="subheading-indent">
@@ -8151,14 +8308,1745 @@
 						</ul>
 					</details>
 				</li>
+				<li class="subheading-indent">
+					<details>
+						<summary>
+							<span>Tags</span>
+							<div class="hstack gap-2">
+								
+							</div>
+						</summary>
+						<ul>
+							<li class="subheading-indent">
+								<a href="/docs/tags/activemq.html"
+									hx-get="/docs/tags/activemq/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/activemq.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;activemq&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/admin-json.html"
+									hx-get="/docs/tags/admin-json/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/admin-json.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;admin-json&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/admin-ui.html"
+									hx-get="/docs/tags/admin-ui/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/admin-ui.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;admin-ui&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/advanced.html"
+									hx-get="/docs/tags/advanced/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/advanced.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;advanced&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/api.html"
+									hx-get="/docs/tags/api/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/api.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;api&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/app-gallery.html"
+									hx-get="/docs/tags/app-gallery/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/app-gallery.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;app-gallery&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/architecture.html"
+									hx-get="/docs/tags/architecture/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/architecture.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;architecture&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/audit.html"
+									hx-get="/docs/tags/audit/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/audit.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;audit&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/authentication.html"
+									hx-get="/docs/tags/authentication/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/authentication.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;authentication&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/authorization.html"
+									hx-get="/docs/tags/authorization/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/authorization.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;authorization&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/automation.html"
+									hx-get="/docs/tags/automation/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/automation.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;automation&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/aws.html"
+									hx-get="/docs/tags/aws/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/aws.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;aws&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/azure.html"
+									hx-get="/docs/tags/azure/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/azure.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;azure&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/batch-operations.html"
+									hx-get="/docs/tags/batch-operations/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/batch-operations.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;batch-operations&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/batch-processing.html"
+									hx-get="/docs/tags/batch-processing/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/batch-processing.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;batch-processing&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/beginner.html"
+									hx-get="/docs/tags/beginner/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/beginner.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;beginner&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/best-practices.html"
+									hx-get="/docs/tags/best-practices/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/best-practices.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;best-practices&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/bulk-operations.html"
+									hx-get="/docs/tags/bulk-operations/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/bulk-operations.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;bulk-operations&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/caching.html"
+									hx-get="/docs/tags/caching/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/caching.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;caching&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/camel.html"
+									hx-get="/docs/tags/camel/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/camel.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;camel&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/care-gaps.html"
+									hx-get="/docs/tags/care-gaps/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/care-gaps.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;care-gaps&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/cda.html"
+									hx-get="/docs/tags/cda/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/cda.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;cda&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/cda-exchange-plus.html"
+									hx-get="/docs/tags/cda-exchange-plus/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/cda-exchange-plus.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;cda-exchange-plus&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/cds.html"
+									hx-get="/docs/tags/cds/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/cds.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;cds&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/cds-hooks.html"
+									hx-get="/docs/tags/cds-hooks/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/cds-hooks.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;cds-hooks&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/certification.html"
+									hx-get="/docs/tags/certification/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/certification.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;certification&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/changelog.html"
+									hx-get="/docs/tags/changelog/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/changelog.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;changelog&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/channel-import.html"
+									hx-get="/docs/tags/channel-import/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/channel-import.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;channel-import&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/clinical-reasoning.html"
+									hx-get="/docs/tags/clinical-reasoning/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/clinical-reasoning.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;clinical-reasoning&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/cloud.html"
+									hx-get="/docs/tags/cloud/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/cloud.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;cloud&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/cluster.html"
+									hx-get="/docs/tags/cluster/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/cluster.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;cluster&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/codesystem.html"
+									hx-get="/docs/tags/codesystem/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/codesystem.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;codesystem&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/compliance.html"
+									hx-get="/docs/tags/compliance/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/compliance.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;compliance&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/composition.html"
+									hx-get="/docs/tags/composition/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/composition.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;composition&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/concept.html"
+									hx-get="/docs/tags/concept/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/concept.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;concept&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/conceptmap.html"
+									hx-get="/docs/tags/conceptmap/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/conceptmap.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;conceptmap&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/configuration.html"
+									hx-get="/docs/tags/configuration/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/configuration.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;configuration&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/conformance.html"
+									hx-get="/docs/tags/conformance/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/conformance.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;conformance&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/consent.html"
+									hx-get="/docs/tags/consent/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/consent.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;consent&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/conversion.html"
+									hx-get="/docs/tags/conversion/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/conversion.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;conversion&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/cql.html"
+									hx-get="/docs/tags/cql/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/cql.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;cql&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/csv.html"
+									hx-get="/docs/tags/csv/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/csv.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;csv&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/customization.html"
+									hx-get="/docs/tags/customization/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/customization.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;customization&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/da-vinci.html"
+									hx-get="/docs/tags/da-vinci/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/da-vinci.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;da-vinci&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/database.html"
+									hx-get="/docs/tags/database/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/database.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;database&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/davinci.html"
+									hx-get="/docs/tags/davinci/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/davinci.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;davinci&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/debugging.html"
+									hx-get="/docs/tags/debugging/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/debugging.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;debugging&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/dependencies.html"
+									hx-get="/docs/tags/dependencies/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/dependencies.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;dependencies&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/deployment.html"
+									hx-get="/docs/tags/deployment/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/deployment.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;deployment&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/deprecated.html"
+									hx-get="/docs/tags/deprecated/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/deprecated.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;deprecated&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/developer.html"
+									hx-get="/docs/tags/developer/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/developer.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;developer&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/diagnostics.html"
+									hx-get="/docs/tags/diagnostics/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/diagnostics.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;diagnostics&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/docker.html"
+									hx-get="/docs/tags/docker/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/docker.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;docker&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/document-generation.html"
+									hx-get="/docs/tags/document-generation/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/document-generation.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;document-generation&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/documentation.html"
+									hx-get="/docs/tags/documentation/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/documentation.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;documentation&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/dqm.html"
+									hx-get="/docs/tags/dqm/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/dqm.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;dqm&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/easyshare.html"
+									hx-get="/docs/tags/easyshare/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/easyshare.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;easyshare&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/elasticsearch.html"
+									hx-get="/docs/tags/elasticsearch/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/elasticsearch.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;elasticsearch&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/error-handling.html"
+									hx-get="/docs/tags/error-handling/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/error-handling.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;error-handling&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/etl.html"
+									hx-get="/docs/tags/etl/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/etl.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;etl&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/etl-import.html"
+									hx-get="/docs/tags/etl-import/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/etl-import.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;etl-import&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/experimental.html"
+									hx-get="/docs/tags/experimental/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/experimental.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;experimental&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/export.html"
+									hx-get="/docs/tags/export/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/export.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;export&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/feature-maturity.html"
+									hx-get="/docs/tags/feature-maturity/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/feature-maturity.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;feature-maturity&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/features.html"
+									hx-get="/docs/tags/features/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/features.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;features&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/fhir.html"
+									hx-get="/docs/tags/fhir/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/fhir.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;fhir&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/fhir-client.html"
+									hx-get="/docs/tags/fhir-client/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/fhir-client.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;fhir-client&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/fhir-endpoint.html"
+									hx-get="/docs/tags/fhir-endpoint/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/fhir-endpoint.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;fhir-endpoint&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/fhir-gateway.html"
+									hx-get="/docs/tags/fhir-gateway/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/fhir-gateway.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;fhir-gateway&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/fhir-repository.html"
+									hx-get="/docs/tags/fhir-repository/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/fhir-repository.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;fhir-repository&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/fhir-storage.html"
+									hx-get="/docs/tags/fhir-storage/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/fhir-storage.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;fhir-storage&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/fhirpath.html"
+									hx-get="/docs/tags/fhirpath/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/fhirpath.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;fhirpath&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/getting-started.html"
+									hx-get="/docs/tags/getting-started/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/getting-started.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;getting-started&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/grafana.html"
+									hx-get="/docs/tags/grafana/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/grafana.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;grafana&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/guide.html"
+									hx-get="/docs/tags/guide/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/guide.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;guide&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/health-checks.html"
+									hx-get="/docs/tags/health-checks/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/health-checks.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;health-checks&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/hl7v2.html"
+									hx-get="/docs/tags/hl7v2/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/hl7v2.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;hl7v2&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/how-to.html"
+									hx-get="/docs/tags/how-to/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/how-to.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;how-to&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/howto.html"
+									hx-get="/docs/tags/howto/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/howto.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;howto&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/http.html"
+									hx-get="/docs/tags/http/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/http.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;http&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/hybrid-providers.html"
+									hx-get="/docs/tags/hybrid-providers/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/hybrid-providers.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;hybrid-providers&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/indexing.html"
+									hx-get="/docs/tags/indexing/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/indexing.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;indexing&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/ingestion.html"
+									hx-get="/docs/tags/ingestion/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/ingestion.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;ingestion&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/integration.html"
+									hx-get="/docs/tags/integration/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/integration.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;integration&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/interceptors.html"
+									hx-get="/docs/tags/interceptors/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/interceptors.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;interceptors&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/intermediate.html"
+									hx-get="/docs/tags/intermediate/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/intermediate.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;intermediate&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/internationalization.html"
+									hx-get="/docs/tags/internationalization/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/internationalization.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;internationalization&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/interoperability.html"
+									hx-get="/docs/tags/interoperability/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/interoperability.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;interoperability&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/java.html"
+									hx-get="/docs/tags/java/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/java.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;java&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/javascript.html"
+									hx-get="/docs/tags/javascript/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/javascript.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;javascript&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/jdbc.html"
+									hx-get="/docs/tags/jdbc/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/jdbc.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;jdbc&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/junit.html"
+									hx-get="/docs/tags/junit/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/junit.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;junit&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/jvm.html"
+									hx-get="/docs/tags/jvm/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/jvm.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;jvm&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/jwt.html"
+									hx-get="/docs/tags/jwt/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/jwt.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;jwt&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/kafka.html"
+									hx-get="/docs/tags/kafka/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/kafka.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;kafka&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/kubernetes.html"
+									hx-get="/docs/tags/kubernetes/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/kubernetes.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;kubernetes&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/ldap.html"
+									hx-get="/docs/tags/ldap/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/ldap.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;ldap&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/libraries.html"
+									hx-get="/docs/tags/libraries/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/libraries.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;libraries&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/licensing.html"
+									hx-get="/docs/tags/licensing/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/licensing.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;licensing&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/linux.html"
+									hx-get="/docs/tags/linux/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/linux.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;linux&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/logging.html"
+									hx-get="/docs/tags/logging/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/logging.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;logging&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/logs.html"
+									hx-get="/docs/tags/logs/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/logs.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;logs&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/loinc.html"
+									hx-get="/docs/tags/loinc/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/loinc.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;loinc&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/mappings.html"
+									hx-get="/docs/tags/mappings/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/mappings.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;mappings&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/mariadb.html"
+									hx-get="/docs/tags/mariadb/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/mariadb.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;mariadb&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/mdm.html"
+									hx-get="/docs/tags/mdm/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/mdm.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;mdm&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/member-match.html"
+									hx-get="/docs/tags/member-match/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/member-match.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;member-match&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/message-broker.html"
+									hx-get="/docs/tags/message-broker/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/message-broker.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;message-broker&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/messaging.html"
+									hx-get="/docs/tags/messaging/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/messaging.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;messaging&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/metrics.html"
+									hx-get="/docs/tags/metrics/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/metrics.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;metrics&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/migration.html"
+									hx-get="/docs/tags/migration/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/migration.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;migration&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/module-management.html"
+									hx-get="/docs/tags/module-management/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/module-management.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;module-management&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/mongodb.html"
+									hx-get="/docs/tags/mongodb/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/mongodb.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;mongodb&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/monitoring.html"
+									hx-get="/docs/tags/monitoring/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/monitoring.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;monitoring&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/mssql.html"
+									hx-get="/docs/tags/mssql/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/mssql.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;mssql&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/mysql.html"
+									hx-get="/docs/tags/mysql/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/mysql.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;mysql&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/narrative.html"
+									hx-get="/docs/tags/narrative/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/narrative.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;narrative&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/navigation.html"
+									hx-get="/docs/tags/navigation/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/navigation.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;navigation&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/ndjson.html"
+									hx-get="/docs/tags/ndjson/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/ndjson.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;ndjson&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/nginx.html"
+									hx-get="/docs/tags/nginx/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/nginx.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;nginx&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/oauth2.html"
+									hx-get="/docs/tags/oauth2/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/oauth2.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;oauth2&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/observability.html"
+									hx-get="/docs/tags/observability/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/observability.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;observability&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/openid.html"
+									hx-get="/docs/tags/openid/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/openid.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;openid&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/opentelemetry.html"
+									hx-get="/docs/tags/opentelemetry/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/opentelemetry.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;opentelemetry&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/operations.html"
+									hx-get="/docs/tags/operations/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/operations.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;operations&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/oracle.html"
+									hx-get="/docs/tags/oracle/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/oracle.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;oracle&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/otel.html"
+									hx-get="/docs/tags/otel/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/otel.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;otel&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/overview.html"
+									hx-get="/docs/tags/overview/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/overview.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;overview&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/packages.html"
+									hx-get="/docs/tags/packages/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/packages.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;packages&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/partitioning.html"
+									hx-get="/docs/tags/partitioning/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/partitioning.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;partitioning&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/patient.html"
+									hx-get="/docs/tags/patient/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/patient.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;patient&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/patient-matching.html"
+									hx-get="/docs/tags/patient-matching/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/patient-matching.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;patient-matching&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/payer-to-payer.html"
+									hx-get="/docs/tags/payer-to-payer/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/payer-to-payer.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;payer-to-payer&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/performance.html"
+									hx-get="/docs/tags/performance/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/performance.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;performance&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/permissions.html"
+									hx-get="/docs/tags/permissions/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/permissions.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;permissions&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/postgresql.html"
+									hx-get="/docs/tags/postgresql/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/postgresql.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;postgresql&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/premium.html"
+									hx-get="/docs/tags/premium/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/premium.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;premium&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/privacy.html"
+									hx-get="/docs/tags/privacy/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/privacy.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;privacy&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/processors.html"
+									hx-get="/docs/tags/processors/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/processors.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;processors&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/product-administration.html"
+									hx-get="/docs/tags/product-administration/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/product-administration.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;product-administration&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/product-lifecycle.html"
+									hx-get="/docs/tags/product-lifecycle/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/product-lifecycle.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;product-lifecycle&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/product-planning.html"
+									hx-get="/docs/tags/product-planning/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/product-planning.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;product-planning&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/production.html"
+									hx-get="/docs/tags/production/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/production.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;production&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/prometheus.html"
+									hx-get="/docs/tags/prometheus/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/prometheus.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;prometheus&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/provenance.html"
+									hx-get="/docs/tags/provenance/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/provenance.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;provenance&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/pulsar.html"
+									hx-get="/docs/tags/pulsar/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/pulsar.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;pulsar&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/quality-measures.html"
+									hx-get="/docs/tags/quality-measures/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/quality-measures.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;quality-measures&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/redis.html"
+									hx-get="/docs/tags/redis/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/redis.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;redis&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/reference.html"
+									hx-get="/docs/tags/reference/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/reference.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;reference&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/releases.html"
+									hx-get="/docs/tags/releases/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/releases.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;releases&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/remote-services.html"
+									hx-get="/docs/tags/remote-services/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/remote-services.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;remote-services&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/repository.html"
+									hx-get="/docs/tags/repository/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/repository.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;repository&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/rest-api.html"
+									hx-get="/docs/tags/rest-api/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/rest-api.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;rest-api&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/roadmap.html"
+									hx-get="/docs/tags/roadmap/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/roadmap.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;roadmap&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/saml.html"
+									hx-get="/docs/tags/saml/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/saml.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;saml&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/scripting.html"
+									hx-get="/docs/tags/scripting/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/scripting.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;scripting&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/sdc.html"
+									hx-get="/docs/tags/sdc/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/sdc.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;sdc&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/search.html"
+									hx-get="/docs/tags/search/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/search.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;search&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/security.html"
+									hx-get="/docs/tags/security/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/security.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;security&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/semantic-standardization.html"
+									hx-get="/docs/tags/semantic-standardization/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/semantic-standardization.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;semantic-standardization&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/session-management.html"
+									hx-get="/docs/tags/session-management/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/session-management.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;session-management&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/smart.html"
+									hx-get="/docs/tags/smart/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/smart.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;smart&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/snomed.html"
+									hx-get="/docs/tags/snomed/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/snomed.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;snomed&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/spring-batch.html"
+									hx-get="/docs/tags/spring-batch/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/spring-batch.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;spring-batch&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/sql.html"
+									hx-get="/docs/tags/sql/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/sql.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;sql&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/storage.html"
+									hx-get="/docs/tags/storage/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/storage.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;storage&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/structuredefinition.html"
+									hx-get="/docs/tags/structuredefinition/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/structuredefinition.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;structuredefinition&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/subscription.html"
+									hx-get="/docs/tags/subscription/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/subscription.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;subscription&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/swagger.html"
+									hx-get="/docs/tags/swagger/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/swagger.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;swagger&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/system-to-system-data-exchange.html"
+									hx-get="/docs/tags/system-to-system-data-exchange/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/system-to-system-data-exchange.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;system-to-system-data-exchange&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/systemd.html"
+									hx-get="/docs/tags/systemd/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/systemd.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;systemd&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/templates.html"
+									hx-get="/docs/tags/templates/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/templates.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;templates&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/terminology.html"
+									hx-get="/docs/tags/terminology/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/terminology.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;terminology&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/testcontainers.html"
+									hx-get="/docs/tags/testcontainers/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/testcontainers.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;testcontainers&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/testing.html"
+									hx-get="/docs/tags/testing/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/testing.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;testing&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/tls.html"
+									hx-get="/docs/tags/tls/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/tls.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;tls&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/transaction-logging.html"
+									hx-get="/docs/tags/transaction-logging/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/transaction-logging.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;transaction-logging&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/transactions.html"
+									hx-get="/docs/tags/transactions/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/transactions.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;transactions&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/transformation.html"
+									hx-get="/docs/tags/transformation/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/transformation.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;transformation&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/translation.html"
+									hx-get="/docs/tags/translation/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/translation.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;translation&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/troubleshooting.html"
+									hx-get="/docs/tags/troubleshooting/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/troubleshooting.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;troubleshooting&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/tutorial.html"
+									hx-get="/docs/tags/tutorial/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/tutorial.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;tutorial&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/upgrading.html"
+									hx-get="/docs/tags/upgrading/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/upgrading.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;upgrading&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/user-management.html"
+									hx-get="/docs/tags/user-management/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/user-management.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;user-management&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/validation.html"
+									hx-get="/docs/tags/validation/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/validation.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;validation&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/valueset.html"
+									hx-get="/docs/tags/valueset/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/valueset.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;valueset&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/version-info.html"
+									hx-get="/docs/tags/version-info/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/version-info.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;version-info&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/versioning.html"
+									hx-get="/docs/tags/versioning/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/versioning.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;versioning&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/web-ui.html"
+									hx-get="/docs/tags/web-ui/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/web-ui.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;web-ui&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/websocket.html"
+									hx-get="/docs/tags/websocket/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/websocket.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;websocket&quot;</span>
+								</a>
+							</li>
+							<li class="subheading-indent">
+								<a href="/docs/tags/xml.html"
+									hx-get="/docs/tags/xml/content"
+									hx-target="#docs-content-div"
+									hx-push-url="/docs/tags/xml.html"
+									onclick="NavigationHandler.toggleLeftBarActive(event)">
+									<span class="pull-left">Pages tagged with &quot;xml&quot;</span>
+								</a>
+							</li>
+						</ul>
+					</details>
+				</li>
 			</ul>
 		</details>
 	
 </div>
 </div>
 		</div>
-		<div class="versionBranding">Powered by Smile CDR v2025.11.PRE-39 (build 566d8493a5)</div>
-		<div class="currentDocsVersionBranding">Showing documentation for 2025.11.PRE</div>
+		<div class="versionBranding">Powered by Smile CDR v2026.02.PRE-19 (build 5a4489363e)</div>
+		<div class="currentDocsVersionBranding">Showing documentation for 2026.02.PRE</div>
 	</div>
 </div>
 
@@ -8177,7 +10065,7 @@
 			<a href="/docs/javascript_execution_environment/oauth2_exceptions.html" class="btn docs-inpage-nav-link">
 				<i class="fa fa-arrow-left"></i>
 				&nbsp;&nbsp;
-				47.7
+				48.7
 				&nbsp;&nbsp;
 				OAuth2 Exceptions API
 			</a>
@@ -8186,7 +10074,7 @@
 
 			<div class="dropdown">
 			  <button class="btn btn-outline-info dropdown-toggle" role="button" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-				  47.8
+				  48.8
 				  &nbsp;&nbsp;
 				  FHIR REST API
 			  </button>
@@ -8199,7 +10087,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/introduction.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.0
+								  48.0
 							  </span>
 							  Introduction
 						  </a>
@@ -8208,7 +10096,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/inline_javascript.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.1
+								  48.1
 							  </span>
 							  Specifying JavaScript in Configuration File
 						  </a>
@@ -8217,7 +10105,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/remote_debugging.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.2
+								  48.2
 							  </span>
 							  Remote Debugging
 						  </a>
@@ -8226,7 +10114,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/ecma_modules.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.3
+								  48.3
 							  </span>
 							  ECMA Modules (import)
 						  </a>
@@ -8235,7 +10123,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/converter.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.4
+								  48.4
 							  </span>
 							  Converter API
 						  </a>
@@ -8244,7 +10132,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/environment.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.5
+								  48.5
 							  </span>
 							  Environment API
 						  </a>
@@ -8253,7 +10141,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/exceptions.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.6
+								  48.6
 							  </span>
 							  Exceptions API
 						  </a>
@@ -8262,7 +10150,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/oauth2_exceptions.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.7
+								  48.7
 							  </span>
 							  OAuth2 Exceptions API
 						  </a>
@@ -8271,7 +10159,7 @@
 					  <li style="background-color: #F0F0F0;">
 						  <a href="/docs/javascript_execution_environment/fhir_rest.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.8
+								  48.8
 							  </span>
 							  FHIR REST API
 						  </a>
@@ -8280,7 +10168,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/fhir_model.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.9
+								  48.9
 							  </span>
 							  FHIR Model API
 						  </a>
@@ -8289,7 +10177,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/hl7v2.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.10
+								  48.10
 							  </span>
 							  HL7 v2.x Mapping API
 						  </a>
@@ -8298,7 +10186,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/http.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.11
+								  48.11
 							  </span>
 							  HTTP API
 						  </a>
@@ -8307,7 +10195,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/ldap.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.12
+								  48.12
 							  </span>
 							  LDAP API
 						  </a>
@@ -8316,7 +10204,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/log.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.13
+								  48.13
 							  </span>
 							  Log API
 						  </a>
@@ -8325,7 +10213,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/composition_resource.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.14
+								  48.14
 							  </span>
 							  Composition Resource API
 						  </a>
@@ -8334,7 +10222,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/composition_section.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.15
+								  48.15
 							  </span>
 							  Composition Section API
 						  </a>
@@ -8343,7 +10231,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/transactionbuilder.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.16
+								  48.16
 							  </span>
 							  TransactionBuilder API
 						  </a>
@@ -8352,7 +10240,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/util.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.17
+								  48.17
 							  </span>
 							  Util API
 						  </a>
@@ -8361,7 +10249,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/uuid.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.18
+								  48.18
 							  </span>
 							  UUID API
 						  </a>
@@ -8370,7 +10258,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/xml.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.19
+								  48.19
 							  </span>
 							  XML API
 						  </a>
@@ -8379,7 +10267,7 @@
 					  <li>
 						  <a href="/docs/javascript_execution_environment/callback_models.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.20
+								  48.20
 							  </span>
 							  Callback Models
 						  </a>
@@ -8390,7 +10278,7 @@
 		</span>
 		<span class="docs-inpage-nav-cell">
 			<a href="/docs/javascript_execution_environment/fhir_model.html" class="btn docs-inpage-nav-link">
-				47.9
+				48.9
 				&nbsp;&nbsp;
 				FHIR Model API
 				&nbsp;&nbsp;
@@ -8410,7 +10298,7 @@
 				<div id="docs-content-div" class="docs-content">
 					
 <a name="fhir-rest-api"></a>
-<section id="section0"><h1 data-toc-text="FHIR REST API"><span class="helpHeaderSectionNumberBadge">47.8.1</span>FHIR REST API</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#fhir-rest-api" class="helpSectionLink">&nbsp;</a>
+<section id="section0"><h1 data-toc-text="FHIR REST API"><span class="helpHeaderSectionNumberBadge">48.8.1</span>FHIR REST API</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#fhir-rest-api" class="helpSectionLink">&nbsp;</a>
 <p>The Smile CDR JavaScript execution environment has two objects that can be used to interact with the REST API of a FHIR server.</p>
 <p>The <code>Fhir</code> object can be used to connect to a local FHIR Storage module that is declared as a module dependency. This connection is internal and does not require authorization. For example, the following example shows an internal FHIR create operation.</p>
 <pre><code class="language-javascript">Fhir.create(patient);
@@ -8424,7 +10312,7 @@ client.create(patient);
 </section>
 
 <a name="method-createresource"></a>
-<section id="section1"><h1 data-toc-text="Method: create(resource)"><span class="helpHeaderSectionNumberBadge">47.8.2</span>Method: create(resource)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-createresource" class="helpSectionLink">&nbsp;</a>
+<section id="section1"><h1 data-toc-text="Method: create(resource)"><span class="helpHeaderSectionNumberBadge">48.8.2</span>Method: create(resource)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-createresource" class="helpSectionLink">&nbsp;</a>
 <p>Create a new resource.</p>
 <p>Inputs:</p>
 <ul>
@@ -8444,7 +10332,7 @@ Fhir.create(patient);
 </section>
 
 <a name="method-readurl"></a>
-<section id="section2"><h1 data-toc-text="Method: read(url)"><span class="helpHeaderSectionNumberBadge">47.8.3</span>Method: read(url)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-readurl" class="helpSectionLink">&nbsp;</a>
+<section id="section2"><h1 data-toc-text="Method: read(url)"><span class="helpHeaderSectionNumberBadge">48.8.3</span>Method: read(url)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-readurl" class="helpSectionLink">&nbsp;</a>
 <p>Read a resource at a particular url.</p>
 <p>Inputs:</p>
 <ul>
@@ -8461,7 +10349,7 @@ Fhir.create(patient);
 </section>
 
 <a name="method-searchforresourceresourcetype"></a>
-<section id="section3"><h1 data-toc-text="Method: search().forResource(resourceType)"><span class="helpHeaderSectionNumberBadge">47.8.4</span>Method: search().forResource(resourceType)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-searchforresourceresourcetype" class="helpSectionLink">&nbsp;</a>
+<section id="section3"><h1 data-toc-text="Method: search().forResource(resourceType)"><span class="helpHeaderSectionNumberBadge">48.8.4</span>Method: search().forResource(resourceType)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-searchforresourceresourcetype" class="helpSectionLink">&nbsp;</a>
 <p><code>Fhir.search().forResource(resourceType)</code> creates a Fhir search object which can be built up and eventually executed.</p>
 <p>Inputs:</p>
 <ul>
@@ -8471,7 +10359,7 @@ Fhir.create(patient);
 <ul>
 <li>Returns an IFhirTypedSearch object with the following methods:</li>
 </ul>
-<a name="whereparamname-paramvalue"></a><a name="whereparamname-paramvalue" /><h2><span class="helpHeaderSectionNumberBadge">47.8.4.1</span>where(paramName, paramValue)<a href="#whereparamname-paramvalue" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="whereparamname-paramvalue"></a><a name="whereparamname-paramvalue" /><h2><span class="helpHeaderSectionNumberBadge">48.8.4.1</span>where(paramName, paramValue)<a href="#whereparamname-paramvalue" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Each <code>.where</code> call adds an <strong>And</strong> condition to your search. To use an <strong>Or</strong> list, separate values with a comma like you would in a Fhir search (example below).</p>
 <p>Inputs:</p>
 <ul>
@@ -8488,7 +10376,7 @@ Fhir.create(patient);
     .where('subject', 'Patient/123')
     .asList();
 </code></pre>
-<a name="whereresourcetype-paramname-paramvalue"></a><a name="whereresourcetype-paramname-paramvalue" /><h2><span class="helpHeaderSectionNumberBadge">47.8.4.2</span>where(resourceType, paramName, paramValue)<a href="#whereresourcetype-paramname-paramvalue" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="whereresourcetype-paramname-paramvalue"></a><a name="whereresourcetype-paramname-paramvalue" /><h2><span class="helpHeaderSectionNumberBadge">48.8.4.2</span>where(resourceType, paramName, paramValue)<a href="#whereresourcetype-paramname-paramvalue" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Only to be used on searches of type reference. Same as the 2-parameter version, but with optional resourceType declaration for more specific / efficient reference type searches.</p>
 <pre><code class="language-javascript">var conditionList = Fhir
     .search()
@@ -8496,7 +10384,7 @@ Fhir.create(patient);
     .where('Encounter', 'context', 'Encounter/234')
     .asList();
 </code></pre>
-<a name="wheretokenparam-systemcode"></a><a name="wheretokenparam-systemcode" /><h2><span class="helpHeaderSectionNumberBadge">47.8.4.3</span>where(tokenParam, 'system|code')<a href="#wheretokenparam-systemcode" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="wheretokenparam-systemcode"></a><a name="wheretokenparam-systemcode" /><h2><span class="helpHeaderSectionNumberBadge">48.8.4.3</span>where(tokenParam, 'system|code')<a href="#wheretokenparam-systemcode" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>For comma separated Token searches, there is no need to repeat the same system multiple times. Instead, each comma-separated code will take on the most recently declared System.</p>
 <p>As a result, if you want to include any codes with a wildcard system, you must list those first.</p>
 <p>Example:</p>
@@ -8508,7 +10396,7 @@ Fhir.create(patient);
     .where('code', 'ABCDE,http://snomed.info/sct|123,456,789,http://loinc.org|12345')
     .asList();
 </code></pre>
-<a name="creating-token-parameter-values" /><h3><span class="helpHeaderSectionNumberBadge">47.8.4.3.1</span>Creating Token Parameter Values</h3>
+<a name="creating-token-parameter-values" /><h3><span class="helpHeaderSectionNumberBadge">48.8.4.3.1</span>Creating Token Parameter Values</h3>
 <p>You may also use the utility method <code>whereToken(paramName, system, value)</code> to generate a token.</p>
 <p>Example:</p>
 <pre><code class="language-javascript">var conditionList = Fhir
@@ -8517,7 +10405,7 @@ Fhir.create(patient);
     .whereToken('code', 'http://snomed.info/sct', '425363002')
     .asList();
 </code></pre>
-<a name="sortsortparam"></a><a name="sortsortparam" /><h2><span class="helpHeaderSectionNumberBadge">47.8.4.4</span>sort(sortParam)<a href="#sortsortparam" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="sortsortparam"></a><a name="sortsortparam" /><h2><span class="helpHeaderSectionNumberBadge">48.8.4.4</span>sort(sortParam)<a href="#sortsortparam" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Results from the search will be sorted according to the sort parameters specified.
 Your sort chain can be specified in a single comma separated sort call or in multiple calls to sort. Prepend your param with a dash <code>-</code> to sort in descending order.</p>
 <p>Example usage: Sort such that the most recent entry is first and break ties by id ascending.</p>
@@ -8527,7 +10415,7 @@ Your sort chain can be specified in a single comma separated sort call or in mul
     .sort('-date,_id')
     .asList();
 </code></pre>
-<a name="countresourcelimit"></a><a name="countresourcelimit" /><h2><span class="helpHeaderSectionNumberBadge">47.8.4.5</span>count(resourceLimit)<a href="#countresourcelimit" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="countresourcelimit"></a><a name="countresourcelimit" /><h2><span class="helpHeaderSectionNumberBadge">48.8.4.5</span>count(resourceLimit)<a href="#countresourcelimit" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Limit the maximum possible number of results. If this parameter is not specified, your search will return all matching results up to a maximum of 1000.</p>
 <p>Example usage: Retrieve only the most recent Observation for a patient.</p>
 <pre><code class="language-javascript">var conditionList = Fhir
@@ -8542,7 +10430,7 @@ if (conditionList.length &gt; 0) {
    Log.info(conditionList[0].toJson());
 }
 </code></pre>
-<a name="chaining"></a><a name="chaining" /><h2><span class="helpHeaderSectionNumberBadge">47.8.4.6</span>Chaining<a href="#chaining" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="chaining"></a><a name="chaining" /><h2><span class="helpHeaderSectionNumberBadge">48.8.4.6</span>Chaining<a href="#chaining" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>The JavaScript environment supports chaining for reference parameters. To create a chained query, place a dot <code>.</code> between each chain.</p>
 <p>When chaining, you can optionally add a resource type parameter for the expected resource type in the first chain.
 In the example below, by specifying <code>Encounter</code>, we ensure that <code>Condition.context</code> only matches resources of type <code>Encounter</code>
@@ -8556,7 +10444,7 @@ before continuing the chain.</p>
     .where('Encounter', 'context.service-provider.type', 'prov')
     .asList();
 </code></pre>
-<a name="dates"></a><a name="dates" /><h2><span class="helpHeaderSectionNumberBadge">47.8.4.7</span>Dates<a href="#dates" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="dates"></a><a name="dates" /><h2><span class="helpHeaderSectionNumberBadge">48.8.4.7</span>Dates<a href="#dates" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>To search by dates, use the same syntax as you would when making a Hapi Fhir query.</p>
 <pre><code class="language-javascript">var problemList = Fhir
     .search()
@@ -8578,13 +10466,13 @@ var problemList = Fhir
     .where('asserted-date', 'ge' + oneYearAgo.toISOString().slice(0,10))
     .asList();
 </code></pre>
-<a name="aslist"></a><a name="aslist" /><h2><span class="helpHeaderSectionNumberBadge">47.8.4.8</span>asList()<a href="#aslist" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="aslist"></a><a name="aslist" /><h2><span class="helpHeaderSectionNumberBadge">48.8.4.8</span>asList()<a href="#aslist" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Outputs:</p>
 <ul>
 <li>Performs the search and returns an array of resources.</li>
 </ul>
 <p>Note: no search is performed until the .asList() method is called. Everything before that just builds the query.</p>
-<a name="usage" /><h3><span class="helpHeaderSectionNumberBadge">47.8.4.8.1</span>Usage</h3>
+<a name="usage" /><h3><span class="helpHeaderSectionNumberBadge">48.8.4.8.1</span>Usage</h3>
 <pre><code class="language-javascript">var conditionList = Fhir
     .search()
     .forResource('Condition')
@@ -8600,7 +10488,7 @@ for (var i = 0; i &lt; conditionList.length; i++) {
 </section>
 
 <a name="method-transactionibundlebuilder-thetransaction"></a>
-<section id="section4"><h1 data-toc-text="Method: transaction(IBundleBuilder theTransaction)"><span class="helpHeaderSectionNumberBadge">47.8.5</span>Method: transaction(IBundleBuilder theTransaction)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-transactionibundlebuilder-thetransaction" class="helpSectionLink">&nbsp;</a>
+<section id="section4"><h1 data-toc-text="Method: transaction(IBundleBuilder theTransaction)"><span class="helpHeaderSectionNumberBadge">48.8.5</span>Method: transaction(IBundleBuilder theTransaction)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-transactionibundlebuilder-thetransaction" class="helpSectionLink">&nbsp;</a>
 <p>This method is used to persist the resources in a bundle built with the <a href="/docs/javascript_execution_environment/transactionbuilder.html">TransactionBuilder API</a>.</p>
 <pre><code class="language-javascript">var transaction = TransactionBuilder.newTransactionBuilder();
 
@@ -8613,10 +10501,10 @@ Fhir.transaction(transaction);
 </section>
 
 <a name="method-translate"></a>
-<section id="section5"><h1 data-toc-text="Method: translate()"><span class="helpHeaderSectionNumberBadge">47.8.6</span>Method: translate()</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-translate" class="helpSectionLink">&nbsp;</a>
+<section id="section5"><h1 data-toc-text="Method: translate()"><span class="helpHeaderSectionNumberBadge">48.8.6</span>Method: translate()</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-translate" class="helpSectionLink">&nbsp;</a>
 <p>This method facilitates terminology mapping by translating a code from one CodeSystem to another. It makes use of an underlying implementation of the <a href="http://www.hl7.org/fhir/conceptmap-operations.html#translate" target="_blank">$translate operation for ConceptMap</a>. Presently, only the three invocations detailed below are supported; however, more will be made available in future releases of Smile CDR.</p>
 <p>Note that for these translations to occur, mappings must first be stored on the server in <code>ConceptMap</code> resources. These mappings can be imported using either a FHIR endpoint or available command-line tools.</p>
-<a name="method-chain-translateandreturncodeasstring"></a><a name="method-chain-translateandreturncodeasstring" /><h2><span class="helpHeaderSectionNumberBadge">47.8.6.1</span>Method Chain: translate()...andReturnCodeAsString()<a href="#method-chain-translateandreturncodeasstring" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="method-chain-translateandreturncodeasstring"></a><a name="method-chain-translateandreturncodeasstring" /><h2><span class="helpHeaderSectionNumberBadge">48.8.6.1</span>Method Chain: translate()...andReturnCodeAsString()<a href="#method-chain-translateandreturncodeasstring" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Inputs:</p>
 <ul>
 <li><code>srcSystem</code> – The source CodeSystem.</li>
@@ -8634,7 +10522,7 @@ Fhir.transaction(transaction);
    .toCodeSystem(tgtSystem)
    .andReturnCodeAsString();
 </code></pre>
-<a name="method-chain-translateandreturncoding"></a><a name="method-chain-translateandreturncoding" /><h2><span class="helpHeaderSectionNumberBadge">47.8.6.2</span>Method Chain: translate()...andReturnCoding()<a href="#method-chain-translateandreturncoding" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="method-chain-translateandreturncoding"></a><a name="method-chain-translateandreturncoding" /><h2><span class="helpHeaderSectionNumberBadge">48.8.6.2</span>Method Chain: translate()...andReturnCoding()<a href="#method-chain-translateandreturncoding" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Inputs:</p>
 <ul>
 <li><code>srcSystem</code> – The source CodeSystem.</li>
@@ -8658,7 +10546,7 @@ var tgtCode = tgtCoding.code;
 var tgtDisplay = tgtCoding.display;
 </code></pre>
 <p>Note if multiple matches found in the case of the two methods above. The method will only take the first match with equal equivalence, or if none exists, just take the first match. For getting all the matched results, see the methods below.</p>
-<a name="method-chain-translateandreturnmultiplecodesasstring"></a><a name="method-chain-translateandreturnmultiplecodesasstring" /><h2><span class="helpHeaderSectionNumberBadge">47.8.6.3</span>Method Chain: translate()...andReturnMultipleCodesAsString()<a href="#method-chain-translateandreturnmultiplecodesasstring" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="method-chain-translateandreturnmultiplecodesasstring"></a><a name="method-chain-translateandreturnmultiplecodesasstring" /><h2><span class="helpHeaderSectionNumberBadge">48.8.6.3</span>Method Chain: translate()...andReturnMultipleCodesAsString()<a href="#method-chain-translateandreturnmultiplecodesasstring" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Inputs:</p>
 <ul>
 <li><code>srcSystem</code> – The source CodeSystem.</li>
@@ -8676,7 +10564,7 @@ var tgtDisplay = tgtCoding.display;
    .toCodeSystem(tgtSystem)
    .andReturnMultipleCodesAsString();
 </code></pre>
-<a name="method-chain-translateandreturnmultiplecodings"></a><a name="method-chain-translateandreturnmultiplecodings" /><h2><span class="helpHeaderSectionNumberBadge">47.8.6.4</span>Method Chain: translate()...andReturnMultipleCodings()<a href="#method-chain-translateandreturnmultiplecodings" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="method-chain-translateandreturnmultiplecodings"></a><a name="method-chain-translateandreturnmultiplecodings" /><h2><span class="helpHeaderSectionNumberBadge">48.8.6.4</span>Method Chain: translate()...andReturnMultipleCodings()<a href="#method-chain-translateandreturnmultiplecodings" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Inputs:</p>
 <ul>
 <li><code>srcSystem</code> – The source CodeSystem.</li>
@@ -8703,7 +10591,7 @@ var tgtDisplay = tgtCoding[0].display;
 </section>
 
 <a name="method-updateresource"></a>
-<section id="section6"><h1 data-toc-text="Method: update(resource)"><span class="helpHeaderSectionNumberBadge">47.8.7</span>Method: update(resource)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-updateresource" class="helpSectionLink">&nbsp;</a>
+<section id="section6"><h1 data-toc-text="Method: update(resource)"><span class="helpHeaderSectionNumberBadge">48.8.7</span>Method: update(resource)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-updateresource" class="helpSectionLink">&nbsp;</a>
 <p>Update an existing resource (can also be used to create a resource with a <a href="/docs/fhir_repository/resource_ids.html#client-assigned-ids">client assigned ID</a>.</p>
 <p>Inputs:</p>
 <ul>
@@ -8722,7 +10610,7 @@ Fhir.update(patient);
 </section>
 
 <a name="method-patchurl-parameters"></a>
-<section id="section7"><h1 data-toc-text="Method: patch(url, parameters)"><span class="helpHeaderSectionNumberBadge">47.8.8</span>Method: patch(url, parameters)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-patchurl-parameters" class="helpSectionLink">&nbsp;</a>
+<section id="section7"><h1 data-toc-text="Method: patch(url, parameters)"><span class="helpHeaderSectionNumberBadge">48.8.8</span>Method: patch(url, parameters)</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#method-patchurl-parameters" class="helpSectionLink">&nbsp;</a>
 <p>Update an existing resource using the FHIR Patch operation.</p>
 <p>Inputs:</p>
 <ul>
@@ -8748,9 +10636,9 @@ Fhir.update(patient);
 </section>
 
 <a name="authentication"></a>
-<section id="section8"><h1 data-toc-text="Authentication"><span class="helpHeaderSectionNumberBadge">47.8.9</span>Authentication</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#authentication" class="helpSectionLink">&nbsp;</a>
+<section id="section8"><h1 data-toc-text="Authentication"><span class="helpHeaderSectionNumberBadge">48.8.9</span>Authentication</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#authentication" class="helpSectionLink">&nbsp;</a>
 <p>When using the <code>FhirClientFactory</code> to access a remote HTTP server, the following methods may be used to add authentication headers to requests. Note that the <a href="./environment.html">Environment API</a> may be useful in order to securely store credentials without needing to hard-code them in your JavaScript code.</p>
-<a name="http-basic-auth"></a><a name="http-basic-auth" /><h2><span class="helpHeaderSectionNumberBadge">47.8.9.1</span>HTTP Basic Auth<a href="#http-basic-auth" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="http-basic-auth"></a><a name="http-basic-auth" /><h2><span class="helpHeaderSectionNumberBadge">48.8.9.1</span>HTTP Basic Auth<a href="#http-basic-auth" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Use the <code>withHttpBasicAuth(theUsername, thePassword)</code> method to add HTTP Basic Auth credentials to your request. For example:</p>
 <pre><code class="language-javascript">var client = FhirClientFactory.newClient('http://example.com/baseFhirUrl');
 client = client.withHttpBasicAuth('username', 'password');
@@ -8774,7 +10662,7 @@ var patient = client.read('Patient/1');
 </section>
 
 <a name="tenant-selection"></a>
-<section id="section9"><h1 data-toc-text="Tenant Selection"><span class="helpHeaderSectionNumberBadge">47.8.10</span>Tenant Selection</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#tenant-selection" class="helpSectionLink">&nbsp;</a>
+<section id="section9"><h1 data-toc-text="Tenant Selection"><span class="helpHeaderSectionNumberBadge">48.8.10</span>Tenant Selection</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#tenant-selection" class="helpSectionLink">&nbsp;</a>
 <p>When using the <code>Fhir</code> object for direct access to a FHIR Storage module that is using <a href="../fhir_repository/partitioning.html#request-partition-selection">Request Tenant Selection Mode</a>, you can request that the FHIR object perform operations against a specific tenant by invoking the <code>withTenantName(..)</code> method directly against the Fhir object. This method returns a new <em>Fhir</em> instance that will work against the given tenant.</p>
 <p>For example:</p>
 <pre><code class="language-javascript">Fhir.withTenantName('some-tenant').create(patient);
@@ -8785,7 +10673,7 @@ Fhir.withTenantName('some-tenant').transaction(bundle);
 </section>
 
 <a name="concurrency-retry"></a>
-<section id="section10"><h1 data-toc-text="Concurrency Retry"><span class="helpHeaderSectionNumberBadge">47.8.11</span>Concurrency Retry</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#concurrency-retry" class="helpSectionLink">&nbsp;</a>
+<section id="section10"><h1 data-toc-text="Concurrency Retry"><span class="helpHeaderSectionNumberBadge">48.8.11</span>Concurrency Retry</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#concurrency-retry" class="helpSectionLink">&nbsp;</a>
 <p>When using data ingestion modules that involve highly concurrent data writes (for example, when using the <a href="../bulk/etl_import_module.html">ETL Import module</a>) it is sometimes hard to avoid multiple rows resulting in the creation of the same resource.</p>
 <p>For example, suppose you are ingesting an ETL file where each row represents a single Observation resource, and then using a FHIR Conditional Create to create the relevant subject link in the Observation resources. In this case it is possible for two rows to try creating the same Patient resource at the exact same time.</p>
 <p>By default, Smile CDR will abort processing if it detects such a collision. However, it is also possible to direct Smile CDR to simply retry an operation if a collision is detected. This is done by invoking the <code>withMaxConcurrencyRetry(count)</code> function on the <code>Fhir</code> object. The argument to this function specifies a maximum number of retry attempts that should be made if a concurrency issue is detected.</p>
@@ -8798,7 +10686,7 @@ Fhir.withMaxConcurrencyRetry(10).transaction(bundle);
 </section>
 
 <a name="configuration-requirements-for-onc-g10-certification"></a>
-<section id="section11"><h1 data-toc-text="Configuration Requirements for ONC (g)(10) Certification"><span class="helpHeaderSectionNumberBadge">47.8.12</span>Configuration Requirements for ONC (g)(10) Certification</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#configuration-requirements-for-onc-g10-certification" class="helpSectionLink">&nbsp;</a>
+<section id="section11"><h1 data-toc-text="Configuration Requirements for ONC (g)(10) Certification"><span class="helpHeaderSectionNumberBadge">48.8.12</span>Configuration Requirements for ONC (g)(10) Certification</h1><a href="/docs/javascript_execution_environment/fhir_rest.html#configuration-requirements-for-onc-g10-certification" class="helpSectionLink">&nbsp;</a>
 <p>The following Smile CDR configurations were used during testing of ONC (g)(10).
 ONC (g)(10) certification impacts three components of the Smile CDR platform:</p>
 <ul>
@@ -8808,7 +10696,7 @@ ONC (g)(10) certification impacts three components of the Smile CDR platform:</p
 </ul>
 <p>The following modules require a specific configuration for ONC (g)(10) certification.
 Module names, paths, ports, threads and urls are flexible in this setup, but provided for completeness.</p>
-<a name="fhir-api"></a><a name="fhir-api" /><h2><span class="helpHeaderSectionNumberBadge">47.8.12.1</span>FHIR API<a href="#fhir-api" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="fhir-api"></a><a name="fhir-api" /><h2><span class="helpHeaderSectionNumberBadge">48.8.12.1</span>FHIR API<a href="#fhir-api" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <pre><code class="language-properties">################################################################################
 fhir_endpoint
 ################################################################################
@@ -8828,7 +10716,7 @@ module.fhir_endpoint.config.security.http.basic.enabled=true
 module.fhir_endpoint.config.security.oic.enabled=true
 module.fhir_endpoint.config.cors.enable=true
 </code></pre>
-<a name="smart-outbound-security-module"></a><a name="smart-outbound-security-module" /><h2><span class="helpHeaderSectionNumberBadge">47.8.12.2</span>SMART Outbound Security Module<a href="#smart-outbound-security-module" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="smart-outbound-security-module"></a><a name="smart-outbound-security-module" /><h2><span class="helpHeaderSectionNumberBadge">48.8.12.2</span>SMART Outbound Security Module<a href="#smart-outbound-security-module" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <pre><code class="language-properties">################################################################################
 smart_auth
 ################################################################################
@@ -8869,7 +10757,7 @@ module.smart_auth.config.respect_forward_headers=true
 module.smart_auth.config.rotate_refresh_token_after_use=true
 module.smart_auth.config.cors.enable=true
 </code></pre>
-<a name="bulk-export"></a><a name="bulk-export" /><h2><span class="helpHeaderSectionNumberBadge">47.8.12.3</span>Bulk Export<a href="#bulk-export" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="bulk-export"></a><a name="bulk-export" /><h2><span class="helpHeaderSectionNumberBadge">48.8.12.3</span>Bulk Export<a href="#bulk-export" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <pre><code class="language-properties">################################################################################
 persistence
 ################################################################################
@@ -8887,7 +10775,7 @@ module.persistence.config.db.hibernate_search.elasticsearch.url=http://localhost
 module.persistence.config.db.url=jdbc:postgresql://localhost/cdrnew?sslmode=disable
 module.persistence.config.bulk_export.enabled=true
 </code></pre>
-<a name="user-setup-for-testing"></a><a name="user-setup-for-testing" /><h2><span class="helpHeaderSectionNumberBadge">47.8.12.4</span>User Setup for testing<a href="#user-setup-for-testing" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
+<a name="user-setup-for-testing"></a><a name="user-setup-for-testing" /><h2><span class="helpHeaderSectionNumberBadge">48.8.12.4</span>User Setup for testing<a href="#user-setup-for-testing" class="helpSectionLinkTwo"><i class="fas fa-link"></i></a></h2>
 <p>Using the Anonymous user (provided with Smile CDR base installation), include access to the capability statement (/metadata operation)</p>
 <pre><code class="language-json">{
    &quot;pid&quot;:4,
@@ -8933,7 +10821,7 @@ module.persistence.config.bulk_export.enabled=true
 			<a href="/docs/javascript_execution_environment/oauth2_exceptions.html" class="btn docs-inpage-nav-link">
 				<i class="fa fa-arrow-left"></i>
 				&nbsp;&nbsp;
-				47.7
+				48.7
 				&nbsp;&nbsp;
 				OAuth2 Exceptions API
 			</a>
@@ -8942,7 +10830,7 @@ module.persistence.config.bulk_export.enabled=true
 
 			<div class="dropdown">
 			  <button class="btn btn-outline-info dropdown-toggle" role="button" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-				  47.8
+				  48.8
 				  &nbsp;&nbsp;
 				  FHIR REST API
 			  </button>
@@ -8955,7 +10843,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/introduction.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.0
+								  48.0
 							  </span>
 							  Introduction
 						  </a>
@@ -8964,7 +10852,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/inline_javascript.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.1
+								  48.1
 							  </span>
 							  Specifying JavaScript in Configuration File
 						  </a>
@@ -8973,7 +10861,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/remote_debugging.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.2
+								  48.2
 							  </span>
 							  Remote Debugging
 						  </a>
@@ -8982,7 +10870,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/ecma_modules.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.3
+								  48.3
 							  </span>
 							  ECMA Modules (import)
 						  </a>
@@ -8991,7 +10879,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/converter.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.4
+								  48.4
 							  </span>
 							  Converter API
 						  </a>
@@ -9000,7 +10888,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/environment.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.5
+								  48.5
 							  </span>
 							  Environment API
 						  </a>
@@ -9009,7 +10897,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/exceptions.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.6
+								  48.6
 							  </span>
 							  Exceptions API
 						  </a>
@@ -9018,7 +10906,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/oauth2_exceptions.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.7
+								  48.7
 							  </span>
 							  OAuth2 Exceptions API
 						  </a>
@@ -9027,7 +10915,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li style="background-color: #F0F0F0;">
 						  <a href="/docs/javascript_execution_environment/fhir_rest.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.8
+								  48.8
 							  </span>
 							  FHIR REST API
 						  </a>
@@ -9036,7 +10924,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/fhir_model.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.9
+								  48.9
 							  </span>
 							  FHIR Model API
 						  </a>
@@ -9045,7 +10933,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/hl7v2.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.10
+								  48.10
 							  </span>
 							  HL7 v2.x Mapping API
 						  </a>
@@ -9054,7 +10942,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/http.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.11
+								  48.11
 							  </span>
 							  HTTP API
 						  </a>
@@ -9063,7 +10951,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/ldap.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.12
+								  48.12
 							  </span>
 							  LDAP API
 						  </a>
@@ -9072,7 +10960,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/log.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.13
+								  48.13
 							  </span>
 							  Log API
 						  </a>
@@ -9081,7 +10969,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/composition_resource.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.14
+								  48.14
 							  </span>
 							  Composition Resource API
 						  </a>
@@ -9090,7 +10978,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/composition_section.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.15
+								  48.15
 							  </span>
 							  Composition Section API
 						  </a>
@@ -9099,7 +10987,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/transactionbuilder.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.16
+								  48.16
 							  </span>
 							  TransactionBuilder API
 						  </a>
@@ -9108,7 +10996,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/util.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.17
+								  48.17
 							  </span>
 							  Util API
 						  </a>
@@ -9117,7 +11005,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/uuid.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.18
+								  48.18
 							  </span>
 							  UUID API
 						  </a>
@@ -9126,7 +11014,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/xml.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.19
+								  48.19
 							  </span>
 							  XML API
 						  </a>
@@ -9135,7 +11023,7 @@ module.persistence.config.bulk_export.enabled=true
 					  <li>
 						  <a href="/docs/javascript_execution_environment/callback_models.html" class="dropdown-item">
 							  <span style="width: 30px; display: inline-block;">
-								  47.20
+								  48.20
 							  </span>
 							  Callback Models
 						  </a>
@@ -9146,7 +11034,7 @@ module.persistence.config.bulk_export.enabled=true
 		</span>
 		<span class="docs-inpage-nav-cell">
 			<a href="/docs/javascript_execution_environment/fhir_model.html" class="btn docs-inpage-nav-link">
-				47.9
+				48.9
 				&nbsp;&nbsp;
 				FHIR Model API
 				&nbsp;&nbsp;

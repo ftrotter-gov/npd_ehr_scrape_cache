@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "59f3bb00-de4c-4934-82ce-2631d7afe64e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/59f3bb00-de4c-4934-82ce-2631d7afe64e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "59f3bb00-de4c-4934-82ce-2631d7afe64e",
-        "name": "Bedlam Properties, L.L.C. dba Image Heal - Tulsa, OK",
-        "address": [
-          {
-            "line": [
-              "9717 East 42nd St"
-            ],
-            "city": "Tulsa",
-            "state": "OK",
-            "postalCode": "74146",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "59f3bb00-de4c-4934-82ce-2631d7afe64e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/59f3bb00-de4c-4934-82ce-2631d7afe64e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/59f3bb00-de4c-4934-82ce-2631d7afe64e"
 }

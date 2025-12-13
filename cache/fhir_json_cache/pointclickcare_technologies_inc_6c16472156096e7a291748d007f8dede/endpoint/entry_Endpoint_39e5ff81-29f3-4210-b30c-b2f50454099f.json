@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "39e5ff81-29f3-4210-b30c-b2f50454099f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/39e5ff81-29f3-4210-b30c-b2f50454099f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "39e5ff81-29f3-4210-b30c-b2f50454099f",
-        "name": "Schofield Residence - Kenmore, NY",
-        "address": [
-          {
-            "line": [
-              "3333 Elmwood Ave"
-            ],
-            "city": "Kenmore",
-            "state": "NY",
-            "postalCode": "14217",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "39e5ff81-29f3-4210-b30c-b2f50454099f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/39e5ff81-29f3-4210-b30c-b2f50454099f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/39e5ff81-29f3-4210-b30c-b2f50454099f"
 }

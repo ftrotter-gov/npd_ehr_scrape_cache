@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5dee7235-4e3a-43db-995c-0b3bbccf455d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5dee7235-4e3a-43db-995c-0b3bbccf455d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5dee7235-4e3a-43db-995c-0b3bbccf455d",
-        "name": "Pittsburg Skilled Nursing Center - Pittsburg, CA",
-        "address": [
-          {
-            "line": [
-              "535 School St"
-            ],
-            "city": "Pittsburg",
-            "state": "CA",
-            "postalCode": "94565",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5dee7235-4e3a-43db-995c-0b3bbccf455d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5dee7235-4e3a-43db-995c-0b3bbccf455d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5dee7235-4e3a-43db-995c-0b3bbccf455d"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f89d2fc7-c414-4709-9a14-64dc28039914",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f89d2fc7-c414-4709-9a14-64dc28039914"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f89d2fc7-c414-4709-9a14-64dc28039914",
-        "name": "Bon Secours Charity Health System - ",
-        "address": [
-          {
-            "line": [
-              "255 Lafayette Avenue"
-            ],
-            "city": "Suffern",
-            "state": "NY",
-            "postalCode": "10901",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f89d2fc7-c414-4709-9a14-64dc28039914"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f89d2fc7-c414-4709-9a14-64dc28039914/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f89d2fc7-c414-4709-9a14-64dc28039914"
 }

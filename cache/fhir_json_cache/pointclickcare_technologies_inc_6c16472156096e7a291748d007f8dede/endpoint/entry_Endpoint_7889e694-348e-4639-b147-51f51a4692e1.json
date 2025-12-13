@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7889e694-348e-4639-b147-51f51a4692e1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7889e694-348e-4639-b147-51f51a4692e1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7889e694-348e-4639-b147-51f51a4692e1",
-        "name": "PRS MANAGEMENT, INC. - Medford, OR",
-        "address": [
-          {
-            "line": [
-              "1 West Main Street",
-              "Suite 303"
-            ],
-            "city": "Medford",
-            "state": "OR",
-            "postalCode": "97501",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7889e694-348e-4639-b147-51f51a4692e1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7889e694-348e-4639-b147-51f51a4692e1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7889e694-348e-4639-b147-51f51a4692e1"
 }

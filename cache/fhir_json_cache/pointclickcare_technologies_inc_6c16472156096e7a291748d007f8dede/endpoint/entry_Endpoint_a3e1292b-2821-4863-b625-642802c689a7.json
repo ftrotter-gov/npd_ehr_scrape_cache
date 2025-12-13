@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a3e1292b-2821-4863-b625-642802c689a7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a3e1292b-2821-4863-b625-642802c689a7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a3e1292b-2821-4863-b625-642802c689a7",
-        "name": "Cordova Community Medical Center - Cordova, AK",
-        "address": [
-          {
-            "line": [
-              "602 Chase Ave",
-              "PO Box 160"
-            ],
-            "city": "Cordova",
-            "state": "AK",
-            "postalCode": "99574-0160",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a3e1292b-2821-4863-b625-642802c689a7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a3e1292b-2821-4863-b625-642802c689a7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a3e1292b-2821-4863-b625-642802c689a7"
 }

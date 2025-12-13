@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "69966722-4b85-49f0-84b4-c016f8b85122",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/69966722-4b85-49f0-84b4-c016f8b85122"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "69966722-4b85-49f0-84b4-c016f8b85122",
-        "name": "Complete Care Management LLC - Toms River, NJ",
-        "address": [
-          {
-            "line": [
-              "229 Route 70"
-            ],
-            "city": "Toms River",
-            "state": "NJ",
-            "postalCode": "08755",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "69966722-4b85-49f0-84b4-c016f8b85122"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/69966722-4b85-49f0-84b4-c016f8b85122/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/69966722-4b85-49f0-84b4-c016f8b85122"
 }

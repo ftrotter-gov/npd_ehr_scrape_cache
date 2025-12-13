@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "818e473d-243b-4b70-b347-0aeaf49d62e6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/818e473d-243b-4b70-b347-0aeaf49d62e6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "818e473d-243b-4b70-b347-0aeaf49d62e6",
-        "name": "Bellaken Skilled Nursing Center - Oakland, CA",
-        "address": [
-          {
-            "line": [
-              "2780 26th Ave."
-            ],
-            "city": "Oakland",
-            "state": "CA",
-            "postalCode": "94601",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "818e473d-243b-4b70-b347-0aeaf49d62e6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/818e473d-243b-4b70-b347-0aeaf49d62e6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/818e473d-243b-4b70-b347-0aeaf49d62e6"
 }

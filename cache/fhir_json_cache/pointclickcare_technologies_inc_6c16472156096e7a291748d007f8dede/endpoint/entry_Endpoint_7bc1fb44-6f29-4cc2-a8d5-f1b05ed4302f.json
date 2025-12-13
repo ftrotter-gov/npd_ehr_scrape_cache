@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7bc1fb44-6f29-4cc2-a8d5-f1b05ed4302f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7bc1fb44-6f29-4cc2-a8d5-f1b05ed4302f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7bc1fb44-6f29-4cc2-a8d5-f1b05ed4302f",
-        "name": "Bethany Manor Inc. - Story City, IA",
-        "address": [
-          {
-            "line": [
-              "212 Lafayette St."
-            ],
-            "city": "Story City",
-            "state": "IA",
-            "postalCode": "50248",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7bc1fb44-6f29-4cc2-a8d5-f1b05ed4302f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7bc1fb44-6f29-4cc2-a8d5-f1b05ed4302f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7bc1fb44-6f29-4cc2-a8d5-f1b05ed4302f"
 }

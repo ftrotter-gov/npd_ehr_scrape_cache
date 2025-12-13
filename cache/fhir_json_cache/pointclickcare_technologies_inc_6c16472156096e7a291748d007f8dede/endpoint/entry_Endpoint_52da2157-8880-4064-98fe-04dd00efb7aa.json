@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "52da2157-8880-4064-98fe-04dd00efb7aa",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/52da2157-8880-4064-98fe-04dd00efb7aa"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "52da2157-8880-4064-98fe-04dd00efb7aa",
-        "name": "Experience Senior Living Operations LLC - Denver, CO",
-        "address": [
-          {
-            "line": [
-              "1550 Market St",
-              "Suite 200"
-            ],
-            "city": "Denver",
-            "state": "CO",
-            "postalCode": "80202",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "52da2157-8880-4064-98fe-04dd00efb7aa"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/52da2157-8880-4064-98fe-04dd00efb7aa/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/52da2157-8880-4064-98fe-04dd00efb7aa"
 }

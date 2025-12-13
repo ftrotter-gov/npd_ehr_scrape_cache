@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c5ff909d-680e-484e-bec8-b23973d45a19",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c5ff909d-680e-484e-bec8-b23973d45a19"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c5ff909d-680e-484e-bec8-b23973d45a19",
-        "name": "Eliza Jennings Senior Care Network - Olmsted Townshi, OH",
-        "address": [
-          {
-            "line": [
-              "26376 John Road"
-            ],
-            "city": "Olmsted Township",
-            "state": "OH",
-            "postalCode": "44138",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c5ff909d-680e-484e-bec8-b23973d45a19"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c5ff909d-680e-484e-bec8-b23973d45a19/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c5ff909d-680e-484e-bec8-b23973d45a19"
 }

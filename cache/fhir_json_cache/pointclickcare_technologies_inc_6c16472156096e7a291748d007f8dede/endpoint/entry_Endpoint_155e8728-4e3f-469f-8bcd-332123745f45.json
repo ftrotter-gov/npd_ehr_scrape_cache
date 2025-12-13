@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "155e8728-4e3f-469f-8bcd-332123745f45",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/155e8728-4e3f-469f-8bcd-332123745f45"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "155e8728-4e3f-469f-8bcd-332123745f45",
-        "name": "Elm Enterprises - ",
-        "address": [
-          {
-            "line": [
-              "60 Exeter Road"
-            ],
-            "city": "Corinth",
-            "state": "ME",
-            "postalCode": "04427",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "155e8728-4e3f-469f-8bcd-332123745f45"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/155e8728-4e3f-469f-8bcd-332123745f45/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/155e8728-4e3f-469f-8bcd-332123745f45"
 }

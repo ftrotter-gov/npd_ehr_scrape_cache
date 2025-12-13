@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e3bfde6e-6e49-456d-bd70-8b9e817ff406",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e3bfde6e-6e49-456d-bd70-8b9e817ff406"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e3bfde6e-6e49-456d-bd70-8b9e817ff406",
-        "name": "Rosebud Health Care Center-Nursing Home - Forsyth, MT",
-        "address": [
-          {
-            "line": [
-              "383 N 17th Ave"
-            ],
-            "city": "Forsyth",
-            "state": "MT",
-            "postalCode": "59327",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e3bfde6e-6e49-456d-bd70-8b9e817ff406"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e3bfde6e-6e49-456d-bd70-8b9e817ff406/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e3bfde6e-6e49-456d-bd70-8b9e817ff406"
 }

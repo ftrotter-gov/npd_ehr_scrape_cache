@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "638c624b-e5ea-475e-adb9-6984f02b31e6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/638c624b-e5ea-475e-adb9-6984f02b31e6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "638c624b-e5ea-475e-adb9-6984f02b31e6",
-        "name": "UNH Physical Therapy Corp. - ",
-        "address": [
-          {
-            "line": [
-              "599 Menlo Dr"
-            ],
-            "city": "Rocklin",
-            "state": "CA",
-            "postalCode": "95765",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "638c624b-e5ea-475e-adb9-6984f02b31e6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/638c624b-e5ea-475e-adb9-6984f02b31e6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/638c624b-e5ea-475e-adb9-6984f02b31e6"
 }

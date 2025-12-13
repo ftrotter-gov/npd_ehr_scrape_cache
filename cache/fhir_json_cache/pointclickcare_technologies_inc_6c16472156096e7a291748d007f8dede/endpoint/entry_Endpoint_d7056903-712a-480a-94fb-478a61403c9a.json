@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d7056903-712a-480a-94fb-478a61403c9a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d7056903-712a-480a-94fb-478a61403c9a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d7056903-712a-480a-94fb-478a61403c9a",
-        "name": "The Servant Group, LLC - Surprise, AZ",
-        "address": [
-          {
-            "line": [
-              "17308 North Kimberly Way"
-            ],
-            "city": "Surprise",
-            "state": "AZ",
-            "postalCode": "85374",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d7056903-712a-480a-94fb-478a61403c9a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d7056903-712a-480a-94fb-478a61403c9a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d7056903-712a-480a-94fb-478a61403c9a"
 }

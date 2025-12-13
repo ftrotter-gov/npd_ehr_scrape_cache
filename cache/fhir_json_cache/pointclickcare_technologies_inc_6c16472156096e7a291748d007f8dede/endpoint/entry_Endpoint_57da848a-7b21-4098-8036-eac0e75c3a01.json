@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "57da848a-7b21-4098-8036-eac0e75c3a01",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/57da848a-7b21-4098-8036-eac0e75c3a01"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "57da848a-7b21-4098-8036-eac0e75c3a01",
-        "name": "Coral Oaks Care Living - Lynwood, CA",
-        "address": [
-          {
-            "line": [
-              "4271 Carlin Avenue"
-            ],
-            "city": "Lynwood",
-            "state": "CA",
-            "postalCode": "90262",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "57da848a-7b21-4098-8036-eac0e75c3a01"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/57da848a-7b21-4098-8036-eac0e75c3a01/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/57da848a-7b21-4098-8036-eac0e75c3a01"
 }

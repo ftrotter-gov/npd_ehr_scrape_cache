@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "69e5e746-82cf-4aea-b52d-10a7af1d6e6e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/69e5e746-82cf-4aea-b52d-10a7af1d6e6e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "69e5e746-82cf-4aea-b52d-10a7af1d6e6e",
-        "name": "Newport Health Care Center - Newport, VT",
-        "address": [
-          {
-            "line": [
-              "148 Prouty Dr"
-            ],
-            "city": "Newport",
-            "state": "VT",
-            "postalCode": "05855",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "69e5e746-82cf-4aea-b52d-10a7af1d6e6e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/69e5e746-82cf-4aea-b52d-10a7af1d6e6e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/69e5e746-82cf-4aea-b52d-10a7af1d6e6e"
 }

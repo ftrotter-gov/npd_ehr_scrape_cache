@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "571c3c62-d1f9-4e44-9a0c-bb0071e43014",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/571c3c62-d1f9-4e44-9a0c-bb0071e43014"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "571c3c62-d1f9-4e44-9a0c-bb0071e43014",
-        "name": "The Grande Royale - ",
-        "address": [
-          {
-            "line": [
-              "2900 Northeast Kendallwood Parkway"
-            ],
-            "city": "Gladstone",
-            "state": "MO",
-            "postalCode": "64119",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "571c3c62-d1f9-4e44-9a0c-bb0071e43014"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/571c3c62-d1f9-4e44-9a0c-bb0071e43014/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/571c3c62-d1f9-4e44-9a0c-bb0071e43014"
 }

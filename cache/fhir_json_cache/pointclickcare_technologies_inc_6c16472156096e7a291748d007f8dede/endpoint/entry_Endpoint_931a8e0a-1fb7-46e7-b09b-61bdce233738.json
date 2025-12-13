@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "931a8e0a-1fb7-46e7-b09b-61bdce233738",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/931a8e0a-1fb7-46e7-b09b-61bdce233738"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "931a8e0a-1fb7-46e7-b09b-61bdce233738",
-        "name": "Mount Carmel Health Ministries Inc. - Duarte, CA",
-        "address": [
-          {
-            "line": [
-              "931 Buena Vista St.",
-              "Suite 402"
-            ],
-            "city": "Duarte",
-            "state": "CA",
-            "postalCode": "91010",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "931a8e0a-1fb7-46e7-b09b-61bdce233738"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/931a8e0a-1fb7-46e7-b09b-61bdce233738/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/931a8e0a-1fb7-46e7-b09b-61bdce233738"
 }

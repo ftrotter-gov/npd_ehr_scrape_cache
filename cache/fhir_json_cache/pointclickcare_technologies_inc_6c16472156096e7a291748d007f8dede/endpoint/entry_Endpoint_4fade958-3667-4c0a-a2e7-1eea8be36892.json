@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4fade958-3667-4c0a-a2e7-1eea8be36892",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4fade958-3667-4c0a-a2e7-1eea8be36892"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4fade958-3667-4c0a-a2e7-1eea8be36892",
-        "name": "Caring Professionals - Sisseton, SD",
-        "address": [
-          {
-            "line": [
-              "6 E Chestnut St"
-            ],
-            "city": "Sisseton",
-            "state": "SD",
-            "postalCode": "57262-1494",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4fade958-3667-4c0a-a2e7-1eea8be36892"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4fade958-3667-4c0a-a2e7-1eea8be36892/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4fade958-3667-4c0a-a2e7-1eea8be36892"
 }

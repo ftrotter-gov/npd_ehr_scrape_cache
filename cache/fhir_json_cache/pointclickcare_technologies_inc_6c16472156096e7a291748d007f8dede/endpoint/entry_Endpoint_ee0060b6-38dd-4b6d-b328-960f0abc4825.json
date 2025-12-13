@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ee0060b6-38dd-4b6d-b328-960f0abc4825",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ee0060b6-38dd-4b6d-b328-960f0abc4825"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ee0060b6-38dd-4b6d-b328-960f0abc4825",
-        "name": "Blossom Ridge LLC - Auburn Hills, MI",
-        "address": [
-          {
-            "line": [
-              "3005 University Drive"
-            ],
-            "city": "Auburn Hills",
-            "state": "MI",
-            "postalCode": "48326",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ee0060b6-38dd-4b6d-b328-960f0abc4825"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ee0060b6-38dd-4b6d-b328-960f0abc4825/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ee0060b6-38dd-4b6d-b328-960f0abc4825"
 }

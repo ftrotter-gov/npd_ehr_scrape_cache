@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "682c515d-c881-4a73-acb3-0539ce071ec1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/682c515d-c881-4a73-acb3-0539ce071ec1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "682c515d-c881-4a73-acb3-0539ce071ec1",
-        "name": "MADISON AMERICAN LAKESHORE TRS, LLC - St. Clair Shore, MI",
-        "address": [
-          {
-            "line": [
-              "28801 Jefferson Ave.",
-              "Suite 1600"
-            ],
-            "city": "St. Clair Shores",
-            "state": "MI",
-            "postalCode": "48081",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "682c515d-c881-4a73-acb3-0539ce071ec1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/682c515d-c881-4a73-acb3-0539ce071ec1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/682c515d-c881-4a73-acb3-0539ce071ec1"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3694d798-1683-4e4e-b807-a2b18b0192d4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3694d798-1683-4e4e-b807-a2b18b0192d4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3694d798-1683-4e4e-b807-a2b18b0192d4",
-        "name": "Medina Memorial Health Care System - Medina, NY",
-        "address": [
-          {
-            "line": [
-              "200 Ohio St"
-            ],
-            "city": "Medina",
-            "state": "NY",
-            "postalCode": "14103",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3694d798-1683-4e4e-b807-a2b18b0192d4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3694d798-1683-4e4e-b807-a2b18b0192d4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3694d798-1683-4e4e-b807-a2b18b0192d4"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0d6e31e6-ce24-4999-90aa-66f39bc3a8be",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0d6e31e6-ce24-4999-90aa-66f39bc3a8be"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0d6e31e6-ce24-4999-90aa-66f39bc3a8be",
-        "name": "Hillcrest Home - Harrison - Harrison, AR",
-        "address": [
-          {
-            "line": [
-              "1111 Maplewood Rd"
-            ],
-            "city": "Harrison",
-            "state": "AR",
-            "postalCode": "72601",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0d6e31e6-ce24-4999-90aa-66f39bc3a8be"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0d6e31e6-ce24-4999-90aa-66f39bc3a8be/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0d6e31e6-ce24-4999-90aa-66f39bc3a8be"
 }

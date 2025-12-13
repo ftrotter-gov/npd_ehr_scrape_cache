@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f06ba768-55ce-4bda-9e3d-67ecf9c88a1d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f06ba768-55ce-4bda-9e3d-67ecf9c88a1d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f06ba768-55ce-4bda-9e3d-67ecf9c88a1d",
-        "name": "Devonshire Oaks - Redwood City, CA",
-        "address": [
-          {
-            "line": [
-              "3635 Jefferson Ave"
-            ],
-            "city": "Redwood City",
-            "state": "CA",
-            "postalCode": "94062",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f06ba768-55ce-4bda-9e3d-67ecf9c88a1d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f06ba768-55ce-4bda-9e3d-67ecf9c88a1d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f06ba768-55ce-4bda-9e3d-67ecf9c88a1d"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "df8c777d-fc0f-414a-9c88-0546c9a9ec12",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/df8c777d-fc0f-414a-9c88-0546c9a9ec12"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "df8c777d-fc0f-414a-9c88-0546c9a9ec12",
-        "name": "Oak Hammock at The University of Florida - Gainesville, FL",
-        "address": [
-          {
-            "line": [
-              "2660 SW 53rd Ln"
-            ],
-            "city": "Gainesville",
-            "state": "FL",
-            "postalCode": "32608",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "df8c777d-fc0f-414a-9c88-0546c9a9ec12"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/df8c777d-fc0f-414a-9c88-0546c9a9ec12/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/df8c777d-fc0f-414a-9c88-0546c9a9ec12"
 }

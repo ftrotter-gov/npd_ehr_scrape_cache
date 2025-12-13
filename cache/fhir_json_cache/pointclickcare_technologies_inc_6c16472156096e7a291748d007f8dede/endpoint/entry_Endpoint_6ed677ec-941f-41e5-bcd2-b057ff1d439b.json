@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6ed677ec-941f-41e5-bcd2-b057ff1d439b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6ed677ec-941f-41e5-bcd2-b057ff1d439b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6ed677ec-941f-41e5-bcd2-b057ff1d439b",
-        "name": "The Weinberg Campus - Getzville, NY",
-        "address": [
-          {
-            "line": [
-              "2700 N Forest Rd"
-            ],
-            "city": "Getzville",
-            "state": "NY",
-            "postalCode": "14068",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6ed677ec-941f-41e5-bcd2-b057ff1d439b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6ed677ec-941f-41e5-bcd2-b057ff1d439b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6ed677ec-941f-41e5-bcd2-b057ff1d439b"
 }

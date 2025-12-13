@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "97e8306c-0ab6-4772-bc45-b65086f78a0e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/97e8306c-0ab6-4772-bc45-b65086f78a0e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "97e8306c-0ab6-4772-bc45-b65086f78a0e",
-        "name": "Delano District Skilled Nursing Facility - Delano, CA",
-        "address": [
-          {
-            "line": [
-              "1509 Tokay Ave"
-            ],
-            "city": "Delano",
-            "state": "CA",
-            "postalCode": "93215-3603",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "97e8306c-0ab6-4772-bc45-b65086f78a0e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/97e8306c-0ab6-4772-bc45-b65086f78a0e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/97e8306c-0ab6-4772-bc45-b65086f78a0e"
 }

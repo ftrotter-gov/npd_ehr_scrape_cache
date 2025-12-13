@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "beffe668-4c6b-40c1-89e4-d1f152fbd0cf",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/beffe668-4c6b-40c1-89e4-d1f152fbd0cf"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "beffe668-4c6b-40c1-89e4-d1f152fbd0cf",
-        "name": "Earley and Ross Ltd - Sabina, OH",
-        "address": [
-          {
-            "line": [
-              "580 E Washington St"
-            ],
-            "city": "Sabina",
-            "state": "OH",
-            "postalCode": "45169-1297",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "beffe668-4c6b-40c1-89e4-d1f152fbd0cf"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/beffe668-4c6b-40c1-89e4-d1f152fbd0cf/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/beffe668-4c6b-40c1-89e4-d1f152fbd0cf"
 }

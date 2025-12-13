@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "519d00dd-19be-4a8e-becf-b0d768ed74e1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/519d00dd-19be-4a8e-becf-b0d768ed74e1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "519d00dd-19be-4a8e-becf-b0d768ed74e1",
-        "name": "Hughson Samaritan Village, a California - Hughson, CA",
-        "address": [
-          {
-            "line": [
-              "7700 Fox Road"
-            ],
-            "city": "Hughson",
-            "state": "CA",
-            "postalCode": "95326",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "519d00dd-19be-4a8e-becf-b0d768ed74e1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/519d00dd-19be-4a8e-becf-b0d768ed74e1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/519d00dd-19be-4a8e-becf-b0d768ed74e1"
 }

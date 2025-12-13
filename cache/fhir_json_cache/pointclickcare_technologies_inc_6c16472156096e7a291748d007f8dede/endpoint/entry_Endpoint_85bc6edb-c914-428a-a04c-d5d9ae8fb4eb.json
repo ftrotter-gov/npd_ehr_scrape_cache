@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "85bc6edb-c914-428a-a04c-d5d9ae8fb4eb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/85bc6edb-c914-428a-a04c-d5d9ae8fb4eb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "85bc6edb-c914-428a-a04c-d5d9ae8fb4eb",
-        "name": "Walter B. Crook Nursing Facility - Ruleville, MS",
-        "address": [
-          {
-            "line": [
-              "840 N Oak Ave",
-              "PO Box 369"
-            ],
-            "city": "Ruleville",
-            "state": "MS",
-            "postalCode": "38771",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "85bc6edb-c914-428a-a04c-d5d9ae8fb4eb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/85bc6edb-c914-428a-a04c-d5d9ae8fb4eb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/85bc6edb-c914-428a-a04c-d5d9ae8fb4eb"
 }

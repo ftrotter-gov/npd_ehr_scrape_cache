@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d46e3136-1f85-4e86-8eb7-db4fa10440a1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d46e3136-1f85-4e86-8eb7-db4fa10440a1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d46e3136-1f85-4e86-8eb7-db4fa10440a1",
-        "name": "Good Shepherd Lutheran Community - Blair, NE",
-        "address": [
-          {
-            "line": [
-              "2242 Wright St."
-            ],
-            "city": "Blair",
-            "state": "NE",
-            "postalCode": "68008-1197",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d46e3136-1f85-4e86-8eb7-db4fa10440a1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d46e3136-1f85-4e86-8eb7-db4fa10440a1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d46e3136-1f85-4e86-8eb7-db4fa10440a1"
 }

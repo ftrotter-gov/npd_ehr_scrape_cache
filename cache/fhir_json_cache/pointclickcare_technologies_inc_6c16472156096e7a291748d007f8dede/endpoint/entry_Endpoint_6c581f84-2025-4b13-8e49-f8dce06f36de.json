@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6c581f84-2025-4b13-8e49-f8dce06f36de",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6c581f84-2025-4b13-8e49-f8dce06f36de"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6c581f84-2025-4b13-8e49-f8dce06f36de",
-        "name": "Vista Pacifica Enterprises, Inc - Riverside, CA",
-        "address": [
-          {
-            "line": [
-              "3674 Pacifica Avenue"
-            ],
-            "city": "Riverside",
-            "state": "CA",
-            "postalCode": "92509",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6c581f84-2025-4b13-8e49-f8dce06f36de"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6c581f84-2025-4b13-8e49-f8dce06f36de/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6c581f84-2025-4b13-8e49-f8dce06f36de"
 }

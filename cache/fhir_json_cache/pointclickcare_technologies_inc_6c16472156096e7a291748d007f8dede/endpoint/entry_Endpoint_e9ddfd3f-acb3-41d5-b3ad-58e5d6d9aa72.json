@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e9ddfd3f-acb3-41d5-b3ad-58e5d6d9aa72",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e9ddfd3f-acb3-41d5-b3ad-58e5d6d9aa72"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e9ddfd3f-acb3-41d5-b3ad-58e5d6d9aa72",
-        "name": "Penacook Assisted Living Facility, Inc. - Penacook, NH",
-        "address": [
-          {
-            "line": [
-              "30 Borough Rd"
-            ],
-            "city": "Penacook",
-            "state": "NH",
-            "postalCode": "03303-1918",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e9ddfd3f-acb3-41d5-b3ad-58e5d6d9aa72"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e9ddfd3f-acb3-41d5-b3ad-58e5d6d9aa72/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e9ddfd3f-acb3-41d5-b3ad-58e5d6d9aa72"
 }

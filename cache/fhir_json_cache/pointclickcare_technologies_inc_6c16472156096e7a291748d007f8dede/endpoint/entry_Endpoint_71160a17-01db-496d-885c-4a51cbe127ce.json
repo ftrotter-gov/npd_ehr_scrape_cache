@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "71160a17-01db-496d-885c-4a51cbe127ce",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/71160a17-01db-496d-885c-4a51cbe127ce"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "71160a17-01db-496d-885c-4a51cbe127ce",
-        "name": "Robert Lee Care Center - Robert Lee, TX",
-        "address": [
-          {
-            "line": [
-              "307 W 8th St",
-              "PO Box 1209"
-            ],
-            "city": "Robert Lee",
-            "state": "TX",
-            "postalCode": "76945",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "71160a17-01db-496d-885c-4a51cbe127ce"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/71160a17-01db-496d-885c-4a51cbe127ce/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/71160a17-01db-496d-885c-4a51cbe127ce"
 }

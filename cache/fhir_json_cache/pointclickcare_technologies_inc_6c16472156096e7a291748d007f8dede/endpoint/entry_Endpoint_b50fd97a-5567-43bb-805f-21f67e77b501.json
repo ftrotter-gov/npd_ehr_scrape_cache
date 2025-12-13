@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b50fd97a-5567-43bb-805f-21f67e77b501",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b50fd97a-5567-43bb-805f-21f67e77b501"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b50fd97a-5567-43bb-805f-21f67e77b501",
-        "name": "Vintage Healthcare LLC - Tampa, FL",
-        "address": [
-          {
-            "line": [
-              "2811 Campus Hill Drive"
-            ],
-            "city": "Tampa",
-            "state": "FL",
-            "postalCode": "33612",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b50fd97a-5567-43bb-805f-21f67e77b501"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b50fd97a-5567-43bb-805f-21f67e77b501/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b50fd97a-5567-43bb-805f-21f67e77b501"
 }

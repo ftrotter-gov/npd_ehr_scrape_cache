@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "258df74e-b2cc-465c-bf71-b6cc6ab9416d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/258df74e-b2cc-465c-bf71-b6cc6ab9416d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "258df74e-b2cc-465c-bf71-b6cc6ab9416d",
-        "name": "The Senior Lifestyle Company, LLC - Chicago, IL",
-        "address": [
-          {
-            "line": [
-              "303 East Wacker Drive",
-              "Suite 2400"
-            ],
-            "city": "Chicago",
-            "state": "IL",
-            "postalCode": "60601",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "258df74e-b2cc-465c-bf71-b6cc6ab9416d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/258df74e-b2cc-465c-bf71-b6cc6ab9416d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/258df74e-b2cc-465c-bf71-b6cc6ab9416d"
 }

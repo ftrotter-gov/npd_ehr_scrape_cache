@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e43d3dc1-2418-46f5-b54a-e382009f8de0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e43d3dc1-2418-46f5-b54a-e382009f8de0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e43d3dc1-2418-46f5-b54a-e382009f8de0",
-        "name": "GLENHAVEN, INC. - Glenwood City, WI",
-        "address": [
-          {
-            "line": [
-              "612 E Oak St"
-            ],
-            "city": "Glenwood City",
-            "state": "WI",
-            "postalCode": "54013-9802",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e43d3dc1-2418-46f5-b54a-e382009f8de0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e43d3dc1-2418-46f5-b54a-e382009f8de0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e43d3dc1-2418-46f5-b54a-e382009f8de0"
 }

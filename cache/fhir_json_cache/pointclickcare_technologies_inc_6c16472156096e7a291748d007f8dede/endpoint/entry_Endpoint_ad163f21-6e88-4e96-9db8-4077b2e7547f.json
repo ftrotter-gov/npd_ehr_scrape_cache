@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ad163f21-6e88-4e96-9db8-4077b2e7547f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ad163f21-6e88-4e96-9db8-4077b2e7547f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ad163f21-6e88-4e96-9db8-4077b2e7547f",
-        "name": "Iowa Mennonite Benevolent Association db - Kalona, IA",
-        "address": [
-          {
-            "line": [
-              "811 3rd St",
-              "PO Box 309"
-            ],
-            "city": "Kalona",
-            "state": "IA",
-            "postalCode": "52247",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ad163f21-6e88-4e96-9db8-4077b2e7547f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ad163f21-6e88-4e96-9db8-4077b2e7547f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ad163f21-6e88-4e96-9db8-4077b2e7547f"
 }

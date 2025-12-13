@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9f8c072f-d7fe-4ca8-ad2e-16e0d62d0d4f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9f8c072f-d7fe-4ca8-ad2e-16e0d62d0d4f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9f8c072f-d7fe-4ca8-ad2e-16e0d62d0d4f",
-        "name": "First Atlantic Healthcare - South Portland, ME",
-        "address": [
-          {
-            "line": [
-              "100 Waterman Drive"
-            ],
-            "city": "South Portland",
-            "state": "ME",
-            "postalCode": "04106",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9f8c072f-d7fe-4ca8-ad2e-16e0d62d0d4f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9f8c072f-d7fe-4ca8-ad2e-16e0d62d0d4f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9f8c072f-d7fe-4ca8-ad2e-16e0d62d0d4f"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "aa339199-bec6-4869-ac36-7194033200eb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/aa339199-bec6-4869-ac36-7194033200eb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "aa339199-bec6-4869-ac36-7194033200eb",
-        "name": "Carillon Assisted Living Corporate Offic - Raleigh, NC",
-        "address": [
-          {
-            "line": [
-              "4901 Waters Edge Dr",
-              "Suite 200"
-            ],
-            "city": "Raleigh",
-            "state": "NC",
-            "postalCode": "27606",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "aa339199-bec6-4869-ac36-7194033200eb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/aa339199-bec6-4869-ac36-7194033200eb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/aa339199-bec6-4869-ac36-7194033200eb"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c0a32589-023b-4236-98d6-6582c9c5218b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c0a32589-023b-4236-98d6-6582c9c5218b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c0a32589-023b-4236-98d6-6582c9c5218b",
-        "name": "Community Care Center - Stuart - Stuart, IA",
-        "address": [
-          {
-            "line": [
-              "325 Sw 7th Street"
-            ],
-            "city": "Stuart",
-            "state": "IA",
-            "postalCode": "50250",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c0a32589-023b-4236-98d6-6582c9c5218b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c0a32589-023b-4236-98d6-6582c9c5218b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c0a32589-023b-4236-98d6-6582c9c5218b"
 }

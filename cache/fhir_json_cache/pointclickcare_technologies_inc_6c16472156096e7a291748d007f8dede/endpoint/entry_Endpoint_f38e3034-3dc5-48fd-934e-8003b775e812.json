@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f38e3034-3dc5-48fd-934e-8003b775e812",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f38e3034-3dc5-48fd-934e-8003b775e812"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f38e3034-3dc5-48fd-934e-8003b775e812",
-        "name": "Oakwood-North Baldwin's Center For Livin - Bay Minette, AL",
-        "address": [
-          {
-            "line": [
-              "2010 Medical Center Dr"
-            ],
-            "city": "Bay Minette",
-            "state": "AL",
-            "postalCode": "36507",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f38e3034-3dc5-48fd-934e-8003b775e812"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f38e3034-3dc5-48fd-934e-8003b775e812/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f38e3034-3dc5-48fd-934e-8003b775e812"
 }

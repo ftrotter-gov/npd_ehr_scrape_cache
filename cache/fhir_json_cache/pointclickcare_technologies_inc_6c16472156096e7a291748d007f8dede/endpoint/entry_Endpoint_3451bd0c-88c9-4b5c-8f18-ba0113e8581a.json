@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3451bd0c-88c9-4b5c-8f18-ba0113e8581a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3451bd0c-88c9-4b5c-8f18-ba0113e8581a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3451bd0c-88c9-4b5c-8f18-ba0113e8581a",
-        "name": "Maranatha Village - Springfield, MO",
-        "address": [
-          {
-            "line": [
-              "233 E Norton Rd"
-            ],
-            "city": "Springfield",
-            "state": "MO",
-            "postalCode": "65803",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3451bd0c-88c9-4b5c-8f18-ba0113e8581a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3451bd0c-88c9-4b5c-8f18-ba0113e8581a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3451bd0c-88c9-4b5c-8f18-ba0113e8581a"
 }

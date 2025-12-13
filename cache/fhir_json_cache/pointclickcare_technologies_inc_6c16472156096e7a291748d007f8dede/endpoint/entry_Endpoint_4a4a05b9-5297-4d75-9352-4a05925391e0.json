@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4a4a05b9-5297-4d75-9352-4a05925391e0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4a4a05b9-5297-4d75-9352-4a05925391e0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4a4a05b9-5297-4d75-9352-4a05925391e0",
-        "name": "Sunset Home of Waterville - Waterville, ME",
-        "address": [
-          {
-            "line": [
-              "114 College Avenue"
-            ],
-            "city": "Waterville",
-            "state": "ME",
-            "postalCode": "04901",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4a4a05b9-5297-4d75-9352-4a05925391e0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4a4a05b9-5297-4d75-9352-4a05925391e0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4a4a05b9-5297-4d75-9352-4a05925391e0"
 }

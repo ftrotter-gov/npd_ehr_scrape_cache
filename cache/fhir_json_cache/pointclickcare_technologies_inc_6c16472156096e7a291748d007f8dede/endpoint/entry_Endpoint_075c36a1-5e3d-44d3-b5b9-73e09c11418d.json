@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "075c36a1-5e3d-44d3-b5b9-73e09c11418d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/075c36a1-5e3d-44d3-b5b9-73e09c11418d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "075c36a1-5e3d-44d3-b5b9-73e09c11418d",
-        "name": "Mother of Good Counsel Home - St. Louis, MO",
-        "address": [
-          {
-            "line": [
-              "6825 Natural Bridge Rd"
-            ],
-            "city": "St. Louis",
-            "state": "MO",
-            "postalCode": "63121",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "075c36a1-5e3d-44d3-b5b9-73e09c11418d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/075c36a1-5e3d-44d3-b5b9-73e09c11418d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/075c36a1-5e3d-44d3-b5b9-73e09c11418d"
 }

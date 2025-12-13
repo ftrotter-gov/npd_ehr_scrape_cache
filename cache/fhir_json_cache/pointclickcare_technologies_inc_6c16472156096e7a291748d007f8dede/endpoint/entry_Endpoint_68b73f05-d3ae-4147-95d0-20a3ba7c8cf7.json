@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "68b73f05-d3ae-4147-95d0-20a3ba7c8cf7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/68b73f05-d3ae-4147-95d0-20a3ba7c8cf7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "68b73f05-d3ae-4147-95d0-20a3ba7c8cf7",
-        "name": "New Perspective Senior Living - Saint Paul, MN",
-        "address": [
-          {
-            "line": [
-              "1010 Dale Street North"
-            ],
-            "city": "Saint Paul",
-            "state": "MN",
-            "postalCode": "55117",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "68b73f05-d3ae-4147-95d0-20a3ba7c8cf7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/68b73f05-d3ae-4147-95d0-20a3ba7c8cf7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/68b73f05-d3ae-4147-95d0-20a3ba7c8cf7"
 }

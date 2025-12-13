@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bc75ac32-a04c-4782-9430-e48dbcc72e1d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bc75ac32-a04c-4782-9430-e48dbcc72e1d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bc75ac32-a04c-4782-9430-e48dbcc72e1d",
-        "name": "Prairie View Home - Sanborn, IA",
-        "address": [
-          {
-            "line": [
-              "610 Eastern St."
-            ],
-            "city": "Sanborn",
-            "state": "IA",
-            "postalCode": "51248",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bc75ac32-a04c-4782-9430-e48dbcc72e1d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bc75ac32-a04c-4782-9430-e48dbcc72e1d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bc75ac32-a04c-4782-9430-e48dbcc72e1d"
 }

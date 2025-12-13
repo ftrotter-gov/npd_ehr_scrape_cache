@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "31fb033d-c45f-4d6a-9dcd-f3c7b4fdb6ae",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/31fb033d-c45f-4d6a-9dcd-f3c7b4fdb6ae"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "31fb033d-c45f-4d6a-9dcd-f3c7b4fdb6ae",
-        "name": "Pivotal Health Care LLC - Overland Park, KS",
-        "address": [
-          {
-            "line": [
-              "6731 W 121st St Suite 100"
-            ],
-            "city": "Overland Park",
-            "state": "KS",
-            "postalCode": "66209",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "31fb033d-c45f-4d6a-9dcd-f3c7b4fdb6ae"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/31fb033d-c45f-4d6a-9dcd-f3c7b4fdb6ae/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/31fb033d-c45f-4d6a-9dcd-f3c7b4fdb6ae"
 }

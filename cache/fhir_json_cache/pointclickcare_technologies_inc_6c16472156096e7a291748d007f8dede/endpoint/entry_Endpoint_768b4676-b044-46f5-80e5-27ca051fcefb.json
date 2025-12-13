@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "768b4676-b044-46f5-80e5-27ca051fcefb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/768b4676-b044-46f5-80e5-27ca051fcefb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "768b4676-b044-46f5-80e5-27ca051fcefb",
-        "name": "Oregon MC Operations, LLC - Happy Valley, OR",
-        "address": [
-          {
-            "line": [
-              "12195 Southeast 117 Ave."
-            ],
-            "city": "Happy Valley",
-            "state": "OR",
-            "postalCode": "97086",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "768b4676-b044-46f5-80e5-27ca051fcefb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/768b4676-b044-46f5-80e5-27ca051fcefb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/768b4676-b044-46f5-80e5-27ca051fcefb"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e40594dc-79e6-4e96-9085-47fbee50e290",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e40594dc-79e6-4e96-9085-47fbee50e290"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e40594dc-79e6-4e96-9085-47fbee50e290",
-        "name": "Highland Meadows - Rockwall, TX",
-        "address": [
-          {
-            "line": [
-              "1870 South John King Boulevard"
-            ],
-            "city": "Rockwall",
-            "state": "TX",
-            "postalCode": "75032",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e40594dc-79e6-4e96-9085-47fbee50e290"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e40594dc-79e6-4e96-9085-47fbee50e290/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e40594dc-79e6-4e96-9085-47fbee50e290"
 }

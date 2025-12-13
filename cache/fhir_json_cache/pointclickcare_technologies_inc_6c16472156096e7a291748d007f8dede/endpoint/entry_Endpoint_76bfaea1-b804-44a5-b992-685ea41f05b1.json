@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "76bfaea1-b804-44a5-b992-685ea41f05b1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/76bfaea1-b804-44a5-b992-685ea41f05b1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "76bfaea1-b804-44a5-b992-685ea41f05b1",
-        "name": "Ensign Services, Inc. - San Juan Capist, CA",
-        "address": [
-          {
-            "line": [
-              "29222 Rancho Viejo Road"
-            ],
-            "city": "San Juan Capistrano",
-            "state": "CA",
-            "postalCode": "92675",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "76bfaea1-b804-44a5-b992-685ea41f05b1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/76bfaea1-b804-44a5-b992-685ea41f05b1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/76bfaea1-b804-44a5-b992-685ea41f05b1"
 }

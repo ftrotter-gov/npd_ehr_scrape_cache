@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3dc48e83-c67c-409b-9640-ce5d356d13d5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3dc48e83-c67c-409b-9640-ce5d356d13d5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3dc48e83-c67c-409b-9640-ce5d356d13d5",
-        "name": "Hurlbut Care Communities - Rochester, NY",
-        "address": [
-          {
-            "line": [
-              "740 East Avenue"
-            ],
-            "city": "Rochester",
-            "state": "NY",
-            "postalCode": "14607",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3dc48e83-c67c-409b-9640-ce5d356d13d5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3dc48e83-c67c-409b-9640-ce5d356d13d5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3dc48e83-c67c-409b-9640-ce5d356d13d5"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "847c57ae-212e-4ad1-bd6f-9eacd58c69b7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/847c57ae-212e-4ad1-bd6f-9eacd58c69b7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "847c57ae-212e-4ad1-bd6f-9eacd58c69b7",
-        "name": "Craighead County Nursing Home - Jonesboro, AR",
-        "address": [
-          {
-            "line": [
-              "5101 Harrisburg Rd"
-            ],
-            "city": "Jonesboro",
-            "state": "AR",
-            "postalCode": "72404",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "847c57ae-212e-4ad1-bd6f-9eacd58c69b7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/847c57ae-212e-4ad1-bd6f-9eacd58c69b7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/847c57ae-212e-4ad1-bd6f-9eacd58c69b7"
 }

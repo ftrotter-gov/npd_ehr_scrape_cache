@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cbeb3291-e15c-4fc2-9bfe-5e7563a1c7a3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cbeb3291-e15c-4fc2-9bfe-5e7563a1c7a3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cbeb3291-e15c-4fc2-9bfe-5e7563a1c7a3",
-        "name": "Northeast Health - Troy, MI",
-        "address": [
-          {
-            "line": [
-              "PO BOX 7007 TH# 30220"
-            ],
-            "city": "Troy",
-            "state": "MI",
-            "postalCode": "48007",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cbeb3291-e15c-4fc2-9bfe-5e7563a1c7a3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cbeb3291-e15c-4fc2-9bfe-5e7563a1c7a3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cbeb3291-e15c-4fc2-9bfe-5e7563a1c7a3"
 }

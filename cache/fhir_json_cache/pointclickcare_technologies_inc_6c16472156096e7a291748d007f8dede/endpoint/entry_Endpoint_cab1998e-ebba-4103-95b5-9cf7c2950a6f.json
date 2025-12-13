@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cab1998e-ebba-4103-95b5-9cf7c2950a6f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cab1998e-ebba-4103-95b5-9cf7c2950a6f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cab1998e-ebba-4103-95b5-9cf7c2950a6f",
-        "name": "Wellmont Health System - Kingsport, TN",
-        "address": [
-          {
-            "line": [
-              "2421 N John B. Dennis Hwy"
-            ],
-            "city": "Kingsport",
-            "state": "TN",
-            "postalCode": "37660-4773",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cab1998e-ebba-4103-95b5-9cf7c2950a6f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cab1998e-ebba-4103-95b5-9cf7c2950a6f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cab1998e-ebba-4103-95b5-9cf7c2950a6f"
 }

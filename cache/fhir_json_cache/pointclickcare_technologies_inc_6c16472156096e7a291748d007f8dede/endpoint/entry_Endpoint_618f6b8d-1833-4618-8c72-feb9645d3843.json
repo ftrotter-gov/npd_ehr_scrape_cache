@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "618f6b8d-1833-4618-8c72-feb9645d3843",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/618f6b8d-1833-4618-8c72-feb9645d3843"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "618f6b8d-1833-4618-8c72-feb9645d3843",
-        "name": "Gunnison Valley Health Senior Care Cente - Gunnison, CO",
-        "address": [
-          {
-            "line": [
-              "1500 W Tomichi Ave"
-            ],
-            "city": "Gunnison",
-            "state": "CO",
-            "postalCode": "81230-3711",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "618f6b8d-1833-4618-8c72-feb9645d3843"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/618f6b8d-1833-4618-8c72-feb9645d3843/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/618f6b8d-1833-4618-8c72-feb9645d3843"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e03a3136-8978-4c9c-8d25-53633755c5cb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e03a3136-8978-4c9c-8d25-53633755c5cb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e03a3136-8978-4c9c-8d25-53633755c5cb",
-        "name": "Cherrywood Advanced Living - Sauk Rapids, MN",
-        "address": [
-          {
-            "line": [
-              "1637 4th Ave N"
-            ],
-            "city": "Sauk Rapids",
-            "state": "MN",
-            "postalCode": "56379",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e03a3136-8978-4c9c-8d25-53633755c5cb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e03a3136-8978-4c9c-8d25-53633755c5cb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e03a3136-8978-4c9c-8d25-53633755c5cb"
 }

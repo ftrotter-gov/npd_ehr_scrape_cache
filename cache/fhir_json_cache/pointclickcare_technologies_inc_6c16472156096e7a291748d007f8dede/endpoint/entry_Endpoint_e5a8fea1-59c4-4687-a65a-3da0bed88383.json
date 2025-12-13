@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e5a8fea1-59c4-4687-a65a-3da0bed88383",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e5a8fea1-59c4-4687-a65a-3da0bed88383"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e5a8fea1-59c4-4687-a65a-3da0bed88383",
-        "name": "Guardian Elder Care - Brockway, PA",
-        "address": [
-          {
-            "line": [
-              "8796 Rte 219"
-            ],
-            "city": "Brockway",
-            "state": "PA",
-            "postalCode": "15824-6010",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e5a8fea1-59c4-4687-a65a-3da0bed88383"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e5a8fea1-59c4-4687-a65a-3da0bed88383/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e5a8fea1-59c4-4687-a65a-3da0bed88383"
 }

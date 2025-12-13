@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e0d0c3da-870d-49f4-abfd-acaae4999959",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e0d0c3da-870d-49f4-abfd-acaae4999959"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e0d0c3da-870d-49f4-abfd-acaae4999959",
-        "name": "Wakefield Health Care Center, Inc. - Wakefield, NE",
-        "address": [
-          {
-            "line": [
-              "306 Ash St"
-            ],
-            "city": "Wakefield",
-            "state": "NE",
-            "postalCode": "68784",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e0d0c3da-870d-49f4-abfd-acaae4999959"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e0d0c3da-870d-49f4-abfd-acaae4999959/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e0d0c3da-870d-49f4-abfd-acaae4999959"
 }

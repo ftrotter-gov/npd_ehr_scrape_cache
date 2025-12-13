@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "375d50ea-2b61-4d30-8d34-cbe25e2d7f5f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/375d50ea-2b61-4d30-8d34-cbe25e2d7f5f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "375d50ea-2b61-4d30-8d34-cbe25e2d7f5f",
-        "name": "Sierra Winds (New) - Peoria, AZ",
-        "address": [
-          {
-            "line": [
-              "17300 North 88th Avenue"
-            ],
-            "city": "Peoria",
-            "state": "AZ",
-            "postalCode": "85382",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "375d50ea-2b61-4d30-8d34-cbe25e2d7f5f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/375d50ea-2b61-4d30-8d34-cbe25e2d7f5f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/375d50ea-2b61-4d30-8d34-cbe25e2d7f5f"
 }

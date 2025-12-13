@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9d288738-c7cc-44da-bbb5-5b4e13cdf590",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9d288738-c7cc-44da-bbb5-5b4e13cdf590"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9d288738-c7cc-44da-bbb5-5b4e13cdf590",
-        "name": "Columbia Basin Care Facility - The Dalles, OR",
-        "address": [
-          {
-            "line": [
-              "1015 Webber St"
-            ],
-            "city": "The Dalles",
-            "state": "OR",
-            "postalCode": "97058",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9d288738-c7cc-44da-bbb5-5b4e13cdf590"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9d288738-c7cc-44da-bbb5-5b4e13cdf590/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9d288738-c7cc-44da-bbb5-5b4e13cdf590"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b2db4a8e-3fad-44dc-bf66-2c3e25c8fe97",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b2db4a8e-3fad-44dc-bf66-2c3e25c8fe97"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b2db4a8e-3fad-44dc-bf66-2c3e25c8fe97",
-        "name": "St. Anthony Health Care - Lafayette, IN",
-        "address": [
-          {
-            "line": [
-              "1205 N 14th St"
-            ],
-            "city": "Lafayette",
-            "state": "IN",
-            "postalCode": "47904-2000",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b2db4a8e-3fad-44dc-bf66-2c3e25c8fe97"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b2db4a8e-3fad-44dc-bf66-2c3e25c8fe97/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b2db4a8e-3fad-44dc-bf66-2c3e25c8fe97"
 }

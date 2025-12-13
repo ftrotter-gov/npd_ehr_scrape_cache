@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7913fbfd-6de9-4926-9c94-c9646a3bbe66",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7913fbfd-6de9-4926-9c94-c9646a3bbe66"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7913fbfd-6de9-4926-9c94-c9646a3bbe66",
-        "name": "Villa Saint Francis - Olathe, KS",
-        "address": [
-          {
-            "line": [
-              "16600 W 126th St"
-            ],
-            "city": "Olathe",
-            "state": "KS",
-            "postalCode": "66062",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7913fbfd-6de9-4926-9c94-c9646a3bbe66"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7913fbfd-6de9-4926-9c94-c9646a3bbe66/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7913fbfd-6de9-4926-9c94-c9646a3bbe66"
 }

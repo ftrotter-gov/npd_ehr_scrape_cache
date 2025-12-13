@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "76b6ce02-0dc4-447b-88cb-1e992671a72b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/76b6ce02-0dc4-447b-88cb-1e992671a72b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "76b6ce02-0dc4-447b-88cb-1e992671a72b",
-        "name": "Our Lady of Fatima Villa - Saratoga, CA",
-        "address": [
-          {
-            "line": [
-              "20400 Saratoga Los Gatos Rd"
-            ],
-            "city": "Saratoga",
-            "state": "CA",
-            "postalCode": "95070",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "76b6ce02-0dc4-447b-88cb-1e992671a72b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/76b6ce02-0dc4-447b-88cb-1e992671a72b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/76b6ce02-0dc4-447b-88cb-1e992671a72b"
 }

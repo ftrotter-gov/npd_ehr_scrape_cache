@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e2e4cfe6-99c0-417e-b470-e99b4bd38929",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e2e4cfe6-99c0-417e-b470-e99b4bd38929"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e2e4cfe6-99c0-417e-b470-e99b4bd38929",
-        "name": "Martha Jefferson House - Charlottesville, VA",
-        "address": [
-          {
-            "line": [
-              "1600 Gordon Ave."
-            ],
-            "city": "Charlottesville",
-            "state": "VA",
-            "postalCode": "22903",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e2e4cfe6-99c0-417e-b470-e99b4bd38929"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e2e4cfe6-99c0-417e-b470-e99b4bd38929/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e2e4cfe6-99c0-417e-b470-e99b4bd38929"
 }

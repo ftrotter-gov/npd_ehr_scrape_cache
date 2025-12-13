@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2c5aab81-277f-4df7-915e-598548bfc88b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2c5aab81-277f-4df7-915e-598548bfc88b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2c5aab81-277f-4df7-915e-598548bfc88b",
-        "name": "Emerald Gardens Properties, LLC - Pensacola, FL",
-        "address": [
-          {
-            "line": [
-              "1012 N 72nd Avenue"
-            ],
-            "city": "Pensacola",
-            "state": "FL",
-            "postalCode": "32506",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2c5aab81-277f-4df7-915e-598548bfc88b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2c5aab81-277f-4df7-915e-598548bfc88b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2c5aab81-277f-4df7-915e-598548bfc88b"
 }

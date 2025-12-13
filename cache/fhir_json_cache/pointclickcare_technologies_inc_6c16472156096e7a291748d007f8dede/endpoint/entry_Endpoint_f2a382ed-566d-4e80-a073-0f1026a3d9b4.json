@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f2a382ed-566d-4e80-a073-0f1026a3d9b4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f2a382ed-566d-4e80-a073-0f1026a3d9b4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f2a382ed-566d-4e80-a073-0f1026a3d9b4",
-        "name": "Vetter Senior Living - Elkhorn, NE",
-        "address": [
-          {
-            "line": [
-              "20220 Harney St."
-            ],
-            "city": "Elkhorn",
-            "state": "NE",
-            "postalCode": "68022",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f2a382ed-566d-4e80-a073-0f1026a3d9b4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f2a382ed-566d-4e80-a073-0f1026a3d9b4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f2a382ed-566d-4e80-a073-0f1026a3d9b4"
 }

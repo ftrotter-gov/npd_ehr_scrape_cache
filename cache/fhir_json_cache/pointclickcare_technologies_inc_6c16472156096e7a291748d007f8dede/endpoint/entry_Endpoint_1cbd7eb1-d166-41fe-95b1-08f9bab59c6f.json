@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1cbd7eb1-d166-41fe-95b1-08f9bab59c6f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1cbd7eb1-d166-41fe-95b1-08f9bab59c6f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1cbd7eb1-d166-41fe-95b1-08f9bab59c6f",
-        "name": "ABCM Corporation - Hampton, IA",
-        "address": [
-          {
-            "line": [
-              "1320 4th St NE",
-              "PO Box 436"
-            ],
-            "city": "Hampton",
-            "state": "IA",
-            "postalCode": "50441",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1cbd7eb1-d166-41fe-95b1-08f9bab59c6f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1cbd7eb1-d166-41fe-95b1-08f9bab59c6f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1cbd7eb1-d166-41fe-95b1-08f9bab59c6f"
 }

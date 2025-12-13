@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b4ccc081-a751-4642-bfe5-d5ea91f1c3d5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b4ccc081-a751-4642-bfe5-d5ea91f1c3d5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b4ccc081-a751-4642-bfe5-d5ea91f1c3d5",
-        "name": "Frontier Management, LLC - Washington DC, DC",
-        "address": [
-          {
-            "line": [
-              "4656 Livingston Rd. SE",
-              "Suite 230"
-            ],
-            "city": "Washington DC",
-            "state": "DC",
-            "postalCode": "20032",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b4ccc081-a751-4642-bfe5-d5ea91f1c3d5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b4ccc081-a751-4642-bfe5-d5ea91f1c3d5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b4ccc081-a751-4642-bfe5-d5ea91f1c3d5"
 }

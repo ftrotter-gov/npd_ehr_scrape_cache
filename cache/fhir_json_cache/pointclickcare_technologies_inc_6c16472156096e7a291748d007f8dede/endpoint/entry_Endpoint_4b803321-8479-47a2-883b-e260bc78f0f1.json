@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4b803321-8479-47a2-883b-e260bc78f0f1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4b803321-8479-47a2-883b-e260bc78f0f1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4b803321-8479-47a2-883b-e260bc78f0f1",
-        "name": "Archie Hendricks Senior - Sells, AZ",
-        "address": [
-          {
-            "line": [
-              "Federal Route 15 Milepost 9",
-              "HC 1 Box 9100"
-            ],
-            "city": "Sells",
-            "state": "AZ",
-            "postalCode": "85634",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4b803321-8479-47a2-883b-e260bc78f0f1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4b803321-8479-47a2-883b-e260bc78f0f1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4b803321-8479-47a2-883b-e260bc78f0f1"
 }

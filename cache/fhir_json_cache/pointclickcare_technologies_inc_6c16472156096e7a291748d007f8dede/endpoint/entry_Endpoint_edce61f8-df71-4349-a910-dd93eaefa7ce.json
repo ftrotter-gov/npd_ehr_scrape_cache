@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "edce61f8-df71-4349-a910-dd93eaefa7ce",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/edce61f8-df71-4349-a910-dd93eaefa7ce"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "edce61f8-df71-4349-a910-dd93eaefa7ce",
-        "name": "Holy Trinity Nursing & Rehab Center - Worcester, MA",
-        "address": [
-          {
-            "line": [
-              "300 Barber Ave"
-            ],
-            "city": "Worcester",
-            "state": "MA",
-            "postalCode": "01606",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "edce61f8-df71-4349-a910-dd93eaefa7ce"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/edce61f8-df71-4349-a910-dd93eaefa7ce/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/edce61f8-df71-4349-a910-dd93eaefa7ce"
 }

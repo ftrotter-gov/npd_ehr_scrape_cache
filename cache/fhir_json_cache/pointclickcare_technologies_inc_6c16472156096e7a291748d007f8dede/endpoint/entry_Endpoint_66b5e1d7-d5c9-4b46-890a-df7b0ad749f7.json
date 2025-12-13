@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "66b5e1d7-d5c9-4b46-890a-df7b0ad749f7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/66b5e1d7-d5c9-4b46-890a-df7b0ad749f7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "66b5e1d7-d5c9-4b46-890a-df7b0ad749f7",
-        "name": "Cascadia Healthcare - Eagle, ID",
-        "address": [
-          {
-            "line": [
-              "2205 East Riverside Drive"
-            ],
-            "city": "Eagle",
-            "state": "ID",
-            "postalCode": "83616",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "66b5e1d7-d5c9-4b46-890a-df7b0ad749f7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/66b5e1d7-d5c9-4b46-890a-df7b0ad749f7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/66b5e1d7-d5c9-4b46-890a-df7b0ad749f7"
 }

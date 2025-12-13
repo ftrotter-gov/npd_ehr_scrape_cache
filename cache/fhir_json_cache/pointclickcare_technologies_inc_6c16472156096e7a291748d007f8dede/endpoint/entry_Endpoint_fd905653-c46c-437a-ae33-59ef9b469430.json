@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fd905653-c46c-437a-ae33-59ef9b469430",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fd905653-c46c-437a-ae33-59ef9b469430"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fd905653-c46c-437a-ae33-59ef9b469430",
-        "name": "Cornwall Manor - Cornwall, PA",
-        "address": [
-          {
-            "line": [
-              "1 Boyd Street",
-              "PO Box 125"
-            ],
-            "city": "Cornwall",
-            "state": "PA",
-            "postalCode": "17016",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fd905653-c46c-437a-ae33-59ef9b469430"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fd905653-c46c-437a-ae33-59ef9b469430/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fd905653-c46c-437a-ae33-59ef9b469430"
 }

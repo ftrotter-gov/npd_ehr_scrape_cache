@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c1a169b8-caa8-42ca-b488-dd60774a8068",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c1a169b8-caa8-42ca-b488-dd60774a8068"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c1a169b8-caa8-42ca-b488-dd60774a8068",
-        "name": "Margaret E. Moul Home - York, PA",
-        "address": [
-          {
-            "line": [
-              "2050 Barley Rd"
-            ],
-            "city": "York",
-            "state": "PA",
-            "postalCode": "17404-1598",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c1a169b8-caa8-42ca-b488-dd60774a8068"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c1a169b8-caa8-42ca-b488-dd60774a8068/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c1a169b8-caa8-42ca-b488-dd60774a8068"
 }

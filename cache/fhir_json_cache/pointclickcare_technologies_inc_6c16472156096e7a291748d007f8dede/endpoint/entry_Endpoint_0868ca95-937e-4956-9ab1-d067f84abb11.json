@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0868ca95-937e-4956-9ab1-d067f84abb11",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0868ca95-937e-4956-9ab1-d067f84abb11"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0868ca95-937e-4956-9ab1-d067f84abb11",
-        "name": "Mary Health Of The Sick - Newbury Park, CA",
-        "address": [
-          {
-            "line": [
-              "2929 Theresa Dr"
-            ],
-            "city": "Newbury Park",
-            "state": "CA",
-            "postalCode": "91320",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0868ca95-937e-4956-9ab1-d067f84abb11"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0868ca95-937e-4956-9ab1-d067f84abb11/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0868ca95-937e-4956-9ab1-d067f84abb11"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b6457d55-d773-4112-af12-adb5c12e7a03",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b6457d55-d773-4112-af12-adb5c12e7a03"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b6457d55-d773-4112-af12-adb5c12e7a03",
-        "name": "Larned Senior Living, LLC dba Country Li - Larned, KS",
-        "address": [
-          {
-            "line": [
-              "714 West 9th Street"
-            ],
-            "city": "Larned",
-            "state": "KS",
-            "postalCode": "67550",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b6457d55-d773-4112-af12-adb5c12e7a03"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b6457d55-d773-4112-af12-adb5c12e7a03/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b6457d55-d773-4112-af12-adb5c12e7a03"
 }

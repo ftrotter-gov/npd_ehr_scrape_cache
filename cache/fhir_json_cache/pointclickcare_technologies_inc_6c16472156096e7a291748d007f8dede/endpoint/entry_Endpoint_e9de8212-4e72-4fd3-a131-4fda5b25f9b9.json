@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e9de8212-4e72-4fd3-a131-4fda5b25f9b9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e9de8212-4e72-4fd3-a131-4fda5b25f9b9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e9de8212-4e72-4fd3-a131-4fda5b25f9b9",
-        "name": "Mayers Memorial Hospital District - Fall River Mill, CA",
-        "address": [
-          {
-            "line": [
-              "43563 Hwy 299 East",
-              "PO Box 459"
-            ],
-            "city": "Fall River Mills",
-            "state": "CA",
-            "postalCode": "96028",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e9de8212-4e72-4fd3-a131-4fda5b25f9b9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e9de8212-4e72-4fd3-a131-4fda5b25f9b9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e9de8212-4e72-4fd3-a131-4fda5b25f9b9"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ea1519f0-6a45-4be5-bb0a-3b3912de719a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ea1519f0-6a45-4be5-bb0a-3b3912de719a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ea1519f0-6a45-4be5-bb0a-3b3912de719a",
-        "name": "Blackfeet Care Center - Browning, MT",
-        "address": [
-          {
-            "line": [
-              "S Government Sq",
-              "PO Box 728"
-            ],
-            "city": "Browning",
-            "state": "MT",
-            "postalCode": "59417",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ea1519f0-6a45-4be5-bb0a-3b3912de719a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ea1519f0-6a45-4be5-bb0a-3b3912de719a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ea1519f0-6a45-4be5-bb0a-3b3912de719a"
 }

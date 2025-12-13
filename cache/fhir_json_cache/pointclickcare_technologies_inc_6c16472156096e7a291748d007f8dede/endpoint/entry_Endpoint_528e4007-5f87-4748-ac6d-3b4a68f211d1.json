@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "528e4007-5f87-4748-ac6d-3b4a68f211d1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/528e4007-5f87-4748-ac6d-3b4a68f211d1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "528e4007-5f87-4748-ac6d-3b4a68f211d1",
-        "name": "JBF Healthcare Management Inc. - East Greenwich, RI",
-        "address": [
-          {
-            "line": [
-              "620 Main Street",
-              "Suite 3B"
-            ],
-            "city": "East Greenwich",
-            "state": "RI",
-            "postalCode": "02818",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "528e4007-5f87-4748-ac6d-3b4a68f211d1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/528e4007-5f87-4748-ac6d-3b4a68f211d1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/528e4007-5f87-4748-ac6d-3b4a68f211d1"
 }

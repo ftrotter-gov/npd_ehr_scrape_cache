@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "66427a2a-7e73-439a-973b-2660d3e47466",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/66427a2a-7e73-439a-973b-2660d3e47466"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "66427a2a-7e73-439a-973b-2660d3e47466",
-        "name": "Eisenhower Healthcare Center - Pasadena, CA",
-        "address": [
-          {
-            "line": [
-              "1470 N. Fair Oaks Ave"
-            ],
-            "city": "Pasadena",
-            "state": "CA",
-            "postalCode": "91103",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "66427a2a-7e73-439a-973b-2660d3e47466"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/66427a2a-7e73-439a-973b-2660d3e47466/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/66427a2a-7e73-439a-973b-2660d3e47466"
 }

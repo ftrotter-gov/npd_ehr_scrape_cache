@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e5a65562-cf38-4edc-82b5-3baaf9809cd6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e5a65562-cf38-4edc-82b5-3baaf9809cd6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e5a65562-cf38-4edc-82b5-3baaf9809cd6",
-        "name": "TCBB, LLC dba The Club At Boynton Beach, - Boynton Beach, FL",
-        "address": [
-          {
-            "line": [
-              "623 South Federal Highway"
-            ],
-            "city": "Boynton Beach",
-            "state": "FL",
-            "postalCode": "33435",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e5a65562-cf38-4edc-82b5-3baaf9809cd6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e5a65562-cf38-4edc-82b5-3baaf9809cd6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e5a65562-cf38-4edc-82b5-3baaf9809cd6"
 }

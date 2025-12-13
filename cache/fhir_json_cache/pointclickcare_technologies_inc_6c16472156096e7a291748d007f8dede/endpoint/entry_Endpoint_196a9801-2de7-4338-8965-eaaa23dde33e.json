@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "196a9801-2de7-4338-8965-eaaa23dde33e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/196a9801-2de7-4338-8965-eaaa23dde33e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "196a9801-2de7-4338-8965-eaaa23dde33e",
-        "name": "Maison Healthcare Management - Monroe, LA",
-        "address": [
-          {
-            "line": [
-              "PO Box 3068",
-              "300 Washington St."
-            ],
-            "city": "Monroe",
-            "state": "LA",
-            "postalCode": "71210-3068",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "196a9801-2de7-4338-8965-eaaa23dde33e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/196a9801-2de7-4338-8965-eaaa23dde33e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/196a9801-2de7-4338-8965-eaaa23dde33e"
 }

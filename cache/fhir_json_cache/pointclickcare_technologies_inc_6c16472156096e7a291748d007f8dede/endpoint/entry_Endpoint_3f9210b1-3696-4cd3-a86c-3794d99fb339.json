@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3f9210b1-3696-4cd3-a86c-3794d99fb339",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3f9210b1-3696-4cd3-a86c-3794d99fb339"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3f9210b1-3696-4cd3-a86c-3794d99fb339",
-        "name": "Hearthstone Place - Elkton, KY",
-        "address": [
-          {
-            "line": [
-              "506 Allenville Rd",
-              "PO Box 427"
-            ],
-            "city": "Elkton",
-            "state": "KY",
-            "postalCode": "42220",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3f9210b1-3696-4cd3-a86c-3794d99fb339"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3f9210b1-3696-4cd3-a86c-3794d99fb339/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3f9210b1-3696-4cd3-a86c-3794d99fb339"
 }

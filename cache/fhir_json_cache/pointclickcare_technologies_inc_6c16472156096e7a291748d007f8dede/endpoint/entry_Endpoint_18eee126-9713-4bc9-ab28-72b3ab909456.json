@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "18eee126-9713-4bc9-ab28-72b3ab909456",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/18eee126-9713-4bc9-ab28-72b3ab909456"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "18eee126-9713-4bc9-ab28-72b3ab909456",
-        "name": "AltaVita Memory Care Centre LLC - Longmo - Longmont, CO",
-        "address": [
-          {
-            "line": [
-              "800 S Fordham Street"
-            ],
-            "city": "Longmont",
-            "state": "CO",
-            "postalCode": "80503",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "18eee126-9713-4bc9-ab28-72b3ab909456"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/18eee126-9713-4bc9-ab28-72b3ab909456/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/18eee126-9713-4bc9-ab28-72b3ab909456"
 }

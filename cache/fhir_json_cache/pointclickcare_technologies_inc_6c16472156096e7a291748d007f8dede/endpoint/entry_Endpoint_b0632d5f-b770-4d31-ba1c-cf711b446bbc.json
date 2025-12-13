@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b0632d5f-b770-4d31-ba1c-cf711b446bbc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b0632d5f-b770-4d31-ba1c-cf711b446bbc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b0632d5f-b770-4d31-ba1c-cf711b446bbc",
-        "name": "Orchid House, Inc. - Louisville, KY",
-        "address": [
-          {
-            "line": [
-              "703 S. 31st St."
-            ],
-            "city": "Louisville",
-            "state": "KY",
-            "postalCode": "40211",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b0632d5f-b770-4d31-ba1c-cf711b446bbc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b0632d5f-b770-4d31-ba1c-cf711b446bbc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b0632d5f-b770-4d31-ba1c-cf711b446bbc"
 }

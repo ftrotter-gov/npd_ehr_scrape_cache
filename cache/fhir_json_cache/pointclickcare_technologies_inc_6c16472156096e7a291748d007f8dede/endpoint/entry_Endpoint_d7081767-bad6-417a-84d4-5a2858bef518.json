@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d7081767-bad6-417a-84d4-5a2858bef518",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d7081767-bad6-417a-84d4-5a2858bef518"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d7081767-bad6-417a-84d4-5a2858bef518",
-        "name": "Aftenro Home - Duluth, MN",
-        "address": [
-          {
-            "line": [
-              "510 West College Street"
-            ],
-            "city": "Duluth",
-            "state": "MN",
-            "postalCode": "55811",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d7081767-bad6-417a-84d4-5a2858bef518"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d7081767-bad6-417a-84d4-5a2858bef518/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d7081767-bad6-417a-84d4-5a2858bef518"
 }

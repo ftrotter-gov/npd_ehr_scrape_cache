@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "26f3cdd0-eb35-49e4-ac09-2549871332ac",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/26f3cdd0-eb35-49e4-ac09-2549871332ac"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "26f3cdd0-eb35-49e4-ac09-2549871332ac",
-        "name": "Pinnacle Health Care - Rogers, AR",
-        "address": [
-          {
-            "line": [
-              "5 Halsted Circle",
-              "Suite 1"
-            ],
-            "city": "Rogers",
-            "state": "AR",
-            "postalCode": "72756",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "26f3cdd0-eb35-49e4-ac09-2549871332ac"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/26f3cdd0-eb35-49e4-ac09-2549871332ac/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/26f3cdd0-eb35-49e4-ac09-2549871332ac"
 }

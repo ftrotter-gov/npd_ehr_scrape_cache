@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "850288dc-1838-4ad0-b8cc-f27a7d995ba8",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/850288dc-1838-4ad0-b8cc-f27a7d995ba8"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "850288dc-1838-4ad0-b8cc-f27a7d995ba8",
-        "name": "Evansville Care Campus, LLC - Evansville, MN",
-        "address": [
-          {
-            "line": [
-              "649 State St Nw"
-            ],
-            "city": "Evansville",
-            "state": "MN",
-            "postalCode": "56326",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "850288dc-1838-4ad0-b8cc-f27a7d995ba8"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/850288dc-1838-4ad0-b8cc-f27a7d995ba8/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/850288dc-1838-4ad0-b8cc-f27a7d995ba8"
 }

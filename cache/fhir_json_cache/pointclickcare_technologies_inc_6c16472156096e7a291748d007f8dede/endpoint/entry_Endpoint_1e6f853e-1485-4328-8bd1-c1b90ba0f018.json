@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1e6f853e-1485-4328-8bd1-c1b90ba0f018",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1e6f853e-1485-4328-8bd1-c1b90ba0f018"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1e6f853e-1485-4328-8bd1-c1b90ba0f018",
-        "name": "Baywind Village - League City, TX",
-        "address": [
-          {
-            "line": [
-              "411 Alabama"
-            ],
-            "city": "League City",
-            "state": "TX",
-            "postalCode": "77573",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1e6f853e-1485-4328-8bd1-c1b90ba0f018"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1e6f853e-1485-4328-8bd1-c1b90ba0f018/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1e6f853e-1485-4328-8bd1-c1b90ba0f018"
 }

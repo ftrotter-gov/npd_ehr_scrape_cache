@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "89c91b37-1789-4d6d-9dc7-4956b4967d90",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/89c91b37-1789-4d6d-9dc7-4956b4967d90"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "89c91b37-1789-4d6d-9dc7-4956b4967d90",
-        "name": "Park Boulevard Inc - Broken Arrow, OK",
-        "address": [
-          {
-            "line": [
-              "124 S Elm Pl"
-            ],
-            "city": "Broken Arrow",
-            "state": "OK",
-            "postalCode": "74012-4031",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "89c91b37-1789-4d6d-9dc7-4956b4967d90"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/89c91b37-1789-4d6d-9dc7-4956b4967d90/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/89c91b37-1789-4d6d-9dc7-4956b4967d90"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e2439990-2700-4bed-8e1a-b679e57be9cc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e2439990-2700-4bed-8e1a-b679e57be9cc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e2439990-2700-4bed-8e1a-b679e57be9cc",
-        "name": "Accord Care Community Orrville, LLC dba - Orrville, OH",
-        "address": [
-          {
-            "line": [
-              "1980 Lynn Dr"
-            ],
-            "city": "Orrville",
-            "state": "OH",
-            "postalCode": "44667",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e2439990-2700-4bed-8e1a-b679e57be9cc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e2439990-2700-4bed-8e1a-b679e57be9cc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e2439990-2700-4bed-8e1a-b679e57be9cc"
 }

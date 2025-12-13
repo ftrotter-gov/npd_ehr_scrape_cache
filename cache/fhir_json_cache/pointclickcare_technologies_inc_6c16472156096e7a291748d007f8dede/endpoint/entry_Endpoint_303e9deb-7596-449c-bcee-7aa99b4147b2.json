@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "303e9deb-7596-449c-bcee-7aa99b4147b2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/303e9deb-7596-449c-bcee-7aa99b4147b2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "303e9deb-7596-449c-bcee-7aa99b4147b2",
-        "name": "Tallahatchie General Hospital ECF - Charleston, MS",
-        "address": [
-          {
-            "line": [
-              "201 S Market St",
-              "PO Box 230"
-            ],
-            "city": "Charleston",
-            "state": "MS",
-            "postalCode": "38921",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "303e9deb-7596-449c-bcee-7aa99b4147b2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/303e9deb-7596-449c-bcee-7aa99b4147b2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/303e9deb-7596-449c-bcee-7aa99b4147b2"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ba2e029c-9646-492e-b88c-644692949ca2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ba2e029c-9646-492e-b88c-644692949ca2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ba2e029c-9646-492e-b88c-644692949ca2",
-        "name": "Detroit Baptist Manor - Farmington Hill, MI",
-        "address": [
-          {
-            "line": [
-              "30225 W. 13 Mile Rd."
-            ],
-            "city": "Farmington Hills",
-            "state": "MI",
-            "postalCode": "48334",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ba2e029c-9646-492e-b88c-644692949ca2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ba2e029c-9646-492e-b88c-644692949ca2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ba2e029c-9646-492e-b88c-644692949ca2"
 }

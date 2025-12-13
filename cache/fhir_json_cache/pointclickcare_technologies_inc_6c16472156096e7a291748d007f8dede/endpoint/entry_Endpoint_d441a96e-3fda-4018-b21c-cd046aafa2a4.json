@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d441a96e-3fda-4018-b21c-cd046aafa2a4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d441a96e-3fda-4018-b21c-cd046aafa2a4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d441a96e-3fda-4018-b21c-cd046aafa2a4",
-        "name": "Tolstoy Foundation Nursing Home - Valley Cottage, NY",
-        "address": [
-          {
-            "line": [
-              "100 Lake Rd"
-            ],
-            "city": "Valley Cottage",
-            "state": "NY",
-            "postalCode": "10989",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d441a96e-3fda-4018-b21c-cd046aafa2a4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d441a96e-3fda-4018-b21c-cd046aafa2a4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d441a96e-3fda-4018-b21c-cd046aafa2a4"
 }

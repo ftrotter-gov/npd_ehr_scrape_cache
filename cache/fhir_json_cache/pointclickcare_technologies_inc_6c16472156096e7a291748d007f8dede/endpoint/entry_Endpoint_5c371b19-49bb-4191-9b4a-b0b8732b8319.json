@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5c371b19-49bb-4191-9b4a-b0b8732b8319",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5c371b19-49bb-4191-9b4a-b0b8732b8319"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5c371b19-49bb-4191-9b4a-b0b8732b8319",
-        "name": "The County of Atlantic for and on behalf - Atlantic City, NJ",
-        "address": [
-          {
-            "line": [
-              "235 Dolphin Ave"
-            ],
-            "city": "Atlantic City",
-            "state": "NJ",
-            "postalCode": "08225",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5c371b19-49bb-4191-9b4a-b0b8732b8319"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5c371b19-49bb-4191-9b4a-b0b8732b8319/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5c371b19-49bb-4191-9b4a-b0b8732b8319"
 }

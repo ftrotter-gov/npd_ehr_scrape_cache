@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "16e201fa-25dc-4ed2-b87d-a0ce25e82191",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/16e201fa-25dc-4ed2-b87d-a0ce25e82191"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "16e201fa-25dc-4ed2-b87d-a0ce25e82191",
-        "name": "Bartlesville Care Center - Bartlesville, OK",
-        "address": [
-          {
-            "line": [
-              "3434 Kentucky Pl"
-            ],
-            "city": "Bartlesville",
-            "state": "OK",
-            "postalCode": "74006-2307",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "16e201fa-25dc-4ed2-b87d-a0ce25e82191"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/16e201fa-25dc-4ed2-b87d-a0ce25e82191/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/16e201fa-25dc-4ed2-b87d-a0ce25e82191"
 }

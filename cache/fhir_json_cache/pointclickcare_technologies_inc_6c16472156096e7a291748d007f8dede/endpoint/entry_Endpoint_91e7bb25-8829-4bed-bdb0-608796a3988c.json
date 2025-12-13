@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "91e7bb25-8829-4bed-bdb0-608796a3988c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/91e7bb25-8829-4bed-bdb0-608796a3988c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "91e7bb25-8829-4bed-bdb0-608796a3988c",
-        "name": "Douglas County Nebraska - Omaha, NE",
-        "address": [
-          {
-            "line": [
-              "1111 South 41st Street"
-            ],
-            "city": "Omaha",
-            "state": "NE",
-            "postalCode": "68105",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "91e7bb25-8829-4bed-bdb0-608796a3988c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/91e7bb25-8829-4bed-bdb0-608796a3988c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/91e7bb25-8829-4bed-bdb0-608796a3988c"
 }

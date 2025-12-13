@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4c32ef5b-4301-42ac-9b86-f4f47c294228",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4c32ef5b-4301-42ac-9b86-f4f47c294228"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4c32ef5b-4301-42ac-9b86-f4f47c294228",
-        "name": "Northwoods Rehabilitation and Nursing Ce - Pomona, NY",
-        "address": [
-          {
-            "line": [
-              "7 B Medical Park Drive"
-            ],
-            "city": "Pomona",
-            "state": "NY",
-            "postalCode": "10970",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4c32ef5b-4301-42ac-9b86-f4f47c294228"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4c32ef5b-4301-42ac-9b86-f4f47c294228/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4c32ef5b-4301-42ac-9b86-f4f47c294228"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "66c89adc-6cbb-4704-b8cb-809336aba5d6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/66c89adc-6cbb-4704-b8cb-809336aba5d6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "66c89adc-6cbb-4704-b8cb-809336aba5d6",
-        "name": "Lincoln Community Care Center - Lincoln, MO",
-        "address": [
-          {
-            "line": [
-              "205 Timberline Dr"
-            ],
-            "city": "Lincoln",
-            "state": "MO",
-            "postalCode": "65338",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "66c89adc-6cbb-4704-b8cb-809336aba5d6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/66c89adc-6cbb-4704-b8cb-809336aba5d6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/66c89adc-6cbb-4704-b8cb-809336aba5d6"
 }

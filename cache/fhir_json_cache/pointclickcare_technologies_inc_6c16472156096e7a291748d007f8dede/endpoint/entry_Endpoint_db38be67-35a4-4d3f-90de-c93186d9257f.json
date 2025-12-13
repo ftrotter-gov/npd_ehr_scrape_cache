@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "db38be67-35a4-4d3f-90de-c93186d9257f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/db38be67-35a4-4d3f-90de-c93186d9257f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "db38be67-35a4-4d3f-90de-c93186d9257f",
-        "name": "Wesley Homes Health Center - Des Moines, WA",
-        "address": [
-          {
-            "line": [
-              "815 S. 216th Street"
-            ],
-            "city": "Des Moines",
-            "state": "WA",
-            "postalCode": "98198",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "db38be67-35a4-4d3f-90de-c93186d9257f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/db38be67-35a4-4d3f-90de-c93186d9257f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/db38be67-35a4-4d3f-90de-c93186d9257f"
 }

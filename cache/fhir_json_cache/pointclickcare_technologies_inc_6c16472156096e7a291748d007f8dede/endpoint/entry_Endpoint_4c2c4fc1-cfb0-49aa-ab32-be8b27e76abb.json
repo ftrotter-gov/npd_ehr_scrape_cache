@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4c2c4fc1-cfb0-49aa-ab32-be8b27e76abb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4c2c4fc1-cfb0-49aa-ab32-be8b27e76abb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4c2c4fc1-cfb0-49aa-ab32-be8b27e76abb",
-        "name": "Evergreen Healthcare LLC - Montebello, NY",
-        "address": [
-          {
-            "line": [
-              "400 Rella Blvd",
-              "Suite 200"
-            ],
-            "city": "Montebello",
-            "state": "NY",
-            "postalCode": "10901",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4c2c4fc1-cfb0-49aa-ab32-be8b27e76abb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4c2c4fc1-cfb0-49aa-ab32-be8b27e76abb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4c2c4fc1-cfb0-49aa-ab32-be8b27e76abb"
 }

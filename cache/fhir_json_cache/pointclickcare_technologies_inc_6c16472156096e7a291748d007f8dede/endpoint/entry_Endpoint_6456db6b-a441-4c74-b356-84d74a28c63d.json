@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6456db6b-a441-4c74-b356-84d74a28c63d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6456db6b-a441-4c74-b356-84d74a28c63d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6456db6b-a441-4c74-b356-84d74a28c63d",
-        "name": "Bishop J. H. Hodges Continuing Care Cent - Morgantown, WV",
-        "address": [
-          {
-            "line": [
-              "CC6010500",
-              "PO Box 8030"
-            ],
-            "city": "Morgantown",
-            "state": "WV",
-            "postalCode": "26506",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6456db6b-a441-4c74-b356-84d74a28c63d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6456db6b-a441-4c74-b356-84d74a28c63d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6456db6b-a441-4c74-b356-84d74a28c63d"
 }

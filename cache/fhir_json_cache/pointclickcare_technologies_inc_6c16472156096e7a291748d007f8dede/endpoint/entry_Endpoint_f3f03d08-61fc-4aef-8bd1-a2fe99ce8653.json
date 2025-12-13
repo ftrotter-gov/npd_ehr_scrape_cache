@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f3f03d08-61fc-4aef-8bd1-a2fe99ce8653",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f3f03d08-61fc-4aef-8bd1-a2fe99ce8653"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f3f03d08-61fc-4aef-8bd1-a2fe99ce8653",
-        "name": "Grove Manor Nursing Home - Waterbury, CT",
-        "address": [
-          {
-            "line": [
-              "145 Grove St"
-            ],
-            "city": "Waterbury",
-            "state": "CT",
-            "postalCode": "06710",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f3f03d08-61fc-4aef-8bd1-a2fe99ce8653"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f3f03d08-61fc-4aef-8bd1-a2fe99ce8653/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f3f03d08-61fc-4aef-8bd1-a2fe99ce8653"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7ea2020c-cb7e-424e-a62c-263d1a8e372b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7ea2020c-cb7e-424e-a62c-263d1a8e372b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7ea2020c-cb7e-424e-a62c-263d1a8e372b",
-        "name": "Tide Group - Draper, UT",
-        "address": [
-          {
-            "line": [
-              "138 East 12300 South"
-            ],
-            "city": "Draper",
-            "state": "UT",
-            "postalCode": "84020",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7ea2020c-cb7e-424e-a62c-263d1a8e372b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7ea2020c-cb7e-424e-a62c-263d1a8e372b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7ea2020c-cb7e-424e-a62c-263d1a8e372b"
 }

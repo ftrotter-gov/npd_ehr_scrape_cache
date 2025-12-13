@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3be25357-f2f3-4fac-bf19-af75537d4333",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3be25357-f2f3-4fac-bf19-af75537d4333"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3be25357-f2f3-4fac-bf19-af75537d4333",
-        "name": "McKinley Care LLC - Anchorage, AK",
-        "address": [
-          {
-            "line": [
-              "337 East 4th Avenue",
-              "Unit B"
-            ],
-            "city": "Anchorage",
-            "state": "AK",
-            "postalCode": "99501",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3be25357-f2f3-4fac-bf19-af75537d4333"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3be25357-f2f3-4fac-bf19-af75537d4333/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3be25357-f2f3-4fac-bf19-af75537d4333"
 }

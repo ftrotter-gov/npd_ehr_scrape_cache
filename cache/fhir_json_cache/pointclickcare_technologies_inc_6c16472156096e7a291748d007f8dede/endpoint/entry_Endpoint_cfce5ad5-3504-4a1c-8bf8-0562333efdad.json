@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cfce5ad5-3504-4a1c-8bf8-0562333efdad",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cfce5ad5-3504-4a1c-8bf8-0562333efdad"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cfce5ad5-3504-4a1c-8bf8-0562333efdad",
-        "name": "Inglis House - Philadelphia, PA",
-        "address": [
-          {
-            "line": [
-              "2600 Belmont Avenue"
-            ],
-            "city": "Philadelphia",
-            "state": "PA",
-            "postalCode": "19131",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cfce5ad5-3504-4a1c-8bf8-0562333efdad"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cfce5ad5-3504-4a1c-8bf8-0562333efdad/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cfce5ad5-3504-4a1c-8bf8-0562333efdad"
 }

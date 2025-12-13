@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b693c43d-fa85-489c-bb89-fbfa533c2e1e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b693c43d-fa85-489c-bb89-fbfa533c2e1e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b693c43d-fa85-489c-bb89-fbfa533c2e1e",
-        "name": "Nile Living - ",
-        "address": [
-          {
-            "line": [
-              "4001 SE 182nd Ave"
-            ],
-            "city": "Gresham",
-            "state": "OR",
-            "postalCode": "97030-5031",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b693c43d-fa85-489c-bb89-fbfa533c2e1e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b693c43d-fa85-489c-bb89-fbfa533c2e1e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b693c43d-fa85-489c-bb89-fbfa533c2e1e"
 }

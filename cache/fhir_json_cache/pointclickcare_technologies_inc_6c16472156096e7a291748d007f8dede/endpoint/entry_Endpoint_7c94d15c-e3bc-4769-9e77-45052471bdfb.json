@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7c94d15c-e3bc-4769-9e77-45052471bdfb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7c94d15c-e3bc-4769-9e77-45052471bdfb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7c94d15c-e3bc-4769-9e77-45052471bdfb",
-        "name": "Infinite Healthcare - Pacific Palisad, CA",
-        "address": [
-          {
-            "line": [
-              "980 Corsica drive"
-            ],
-            "city": "Pacific Palisades",
-            "state": "CA",
-            "postalCode": "90272",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7c94d15c-e3bc-4769-9e77-45052471bdfb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7c94d15c-e3bc-4769-9e77-45052471bdfb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7c94d15c-e3bc-4769-9e77-45052471bdfb"
 }

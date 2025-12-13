@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6f439f1b-1580-4e96-af12-ec685bf281ca",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6f439f1b-1580-4e96-af12-ec685bf281ca"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6f439f1b-1580-4e96-af12-ec685bf281ca",
-        "name": "Sunny View Care Center - Ankeny, IA",
-        "address": [
-          {
-            "line": [
-              "410 Nw Ash Drive"
-            ],
-            "city": "Ankeny",
-            "state": "IA",
-            "postalCode": "50023",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6f439f1b-1580-4e96-af12-ec685bf281ca"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6f439f1b-1580-4e96-af12-ec685bf281ca/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6f439f1b-1580-4e96-af12-ec685bf281ca"
 }

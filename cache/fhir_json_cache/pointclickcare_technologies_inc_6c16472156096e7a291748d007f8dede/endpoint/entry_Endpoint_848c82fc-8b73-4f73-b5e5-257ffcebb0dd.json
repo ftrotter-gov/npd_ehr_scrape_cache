@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "848c82fc-8b73-4f73-b5e5-257ffcebb0dd",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/848c82fc-8b73-4f73-b5e5-257ffcebb0dd"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "848c82fc-8b73-4f73-b5e5-257ffcebb0dd",
-        "name": "New Paradigm Solutions, Inc. - Manhattan, KS",
-        "address": [
-          {
-            "line": [
-              "2310 Anderson Ave",
-              "Suite 129"
-            ],
-            "city": "Manhattan",
-            "state": "KS",
-            "postalCode": "66502",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "848c82fc-8b73-4f73-b5e5-257ffcebb0dd"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/848c82fc-8b73-4f73-b5e5-257ffcebb0dd/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/848c82fc-8b73-4f73-b5e5-257ffcebb0dd"
 }

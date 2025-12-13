@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "77abbd63-31ea-48b1-bdea-5d1fc15b148f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/77abbd63-31ea-48b1-bdea-5d1fc15b148f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "77abbd63-31ea-48b1-bdea-5d1fc15b148f",
-        "name": "Meritage Healthcare - Sunset Beach, CA",
-        "address": [
-          {
-            "line": [
-              "15472 Chemical Lane",
-              "PO BOX 1619"
-            ],
-            "city": "Sunset Beach",
-            "state": "CA",
-            "postalCode": "90742",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "77abbd63-31ea-48b1-bdea-5d1fc15b148f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/77abbd63-31ea-48b1-bdea-5d1fc15b148f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/77abbd63-31ea-48b1-bdea-5d1fc15b148f"
 }

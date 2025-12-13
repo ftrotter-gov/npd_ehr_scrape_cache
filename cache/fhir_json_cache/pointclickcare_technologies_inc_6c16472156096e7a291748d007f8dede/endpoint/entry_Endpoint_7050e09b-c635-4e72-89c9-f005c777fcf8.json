@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7050e09b-c635-4e72-89c9-f005c777fcf8",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7050e09b-c635-4e72-89c9-f005c777fcf8"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7050e09b-c635-4e72-89c9-f005c777fcf8",
-        "name": "Missouri Slope Lutheran Care Center - Bismarck, ND",
-        "address": [
-          {
-            "line": [
-              "2425 Hillview Ave."
-            ],
-            "city": "Bismarck",
-            "state": "ND",
-            "postalCode": "58501",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7050e09b-c635-4e72-89c9-f005c777fcf8"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7050e09b-c635-4e72-89c9-f005c777fcf8/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7050e09b-c635-4e72-89c9-f005c777fcf8"
 }

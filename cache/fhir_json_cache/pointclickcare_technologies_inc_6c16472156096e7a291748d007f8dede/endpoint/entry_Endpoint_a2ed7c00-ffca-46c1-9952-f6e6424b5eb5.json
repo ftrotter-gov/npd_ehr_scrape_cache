@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a2ed7c00-ffca-46c1-9952-f6e6424b5eb5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a2ed7c00-ffca-46c1-9952-f6e6424b5eb5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a2ed7c00-ffca-46c1-9952-f6e6424b5eb5",
-        "name": "Crisp Regional Health Services - Cordele, GA",
-        "address": [
-          {
-            "line": [
-              "902 North 7th St"
-            ],
-            "city": "Cordele",
-            "state": "GA",
-            "postalCode": "31015",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a2ed7c00-ffca-46c1-9952-f6e6424b5eb5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a2ed7c00-ffca-46c1-9952-f6e6424b5eb5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a2ed7c00-ffca-46c1-9952-f6e6424b5eb5"
 }

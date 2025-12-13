@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7bad30e7-17f7-40cb-8edd-dca0a0ccbc72",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7bad30e7-17f7-40cb-8edd-dca0a0ccbc72"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7bad30e7-17f7-40cb-8edd-dca0a0ccbc72",
-        "name": "Pennswood Village - Newtown, PA",
-        "address": [
-          {
-            "line": [
-              "1382 Newtown-Langhorne Rd"
-            ],
-            "city": "Newtown",
-            "state": "PA",
-            "postalCode": "18940-2401",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7bad30e7-17f7-40cb-8edd-dca0a0ccbc72"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7bad30e7-17f7-40cb-8edd-dca0a0ccbc72/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7bad30e7-17f7-40cb-8edd-dca0a0ccbc72"
 }

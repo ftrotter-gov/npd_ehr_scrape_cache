@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ba40d4d0-69b5-4059-a6f8-4f882cc22702",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ba40d4d0-69b5-4059-a6f8-4f882cc22702"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ba40d4d0-69b5-4059-a6f8-4f882cc22702",
-        "name": "CHI Living Communities - Toledo, OH",
-        "address": [
-          {
-            "line": [
-              "5942 Renaissance Place",
-              "Suite A"
-            ],
-            "city": "Toledo",
-            "state": "OH",
-            "postalCode": "43623",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ba40d4d0-69b5-4059-a6f8-4f882cc22702"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ba40d4d0-69b5-4059-a6f8-4f882cc22702/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ba40d4d0-69b5-4059-a6f8-4f882cc22702"
 }

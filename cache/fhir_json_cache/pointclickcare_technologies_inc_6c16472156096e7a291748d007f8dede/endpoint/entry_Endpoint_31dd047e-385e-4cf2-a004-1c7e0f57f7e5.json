@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "31dd047e-385e-4cf2-a004-1c7e0f57f7e5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/31dd047e-385e-4cf2-a004-1c7e0f57f7e5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "31dd047e-385e-4cf2-a004-1c7e0f57f7e5",
-        "name": "Lakeside Neurologic - Wauchula, FL",
-        "address": [
-          {
-            "line": [
-              "1962 Vandolah Road",
-              "PO Box 1348"
-            ],
-            "city": "Wauchula",
-            "state": "FL",
-            "postalCode": "33873",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "31dd047e-385e-4cf2-a004-1c7e0f57f7e5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/31dd047e-385e-4cf2-a004-1c7e0f57f7e5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/31dd047e-385e-4cf2-a004-1c7e0f57f7e5"
 }

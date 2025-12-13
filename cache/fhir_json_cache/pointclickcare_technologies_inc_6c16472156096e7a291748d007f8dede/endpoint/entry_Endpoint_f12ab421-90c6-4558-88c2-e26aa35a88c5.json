@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f12ab421-90c6-4558-88c2-e26aa35a88c5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f12ab421-90c6-4558-88c2-e26aa35a88c5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f12ab421-90c6-4558-88c2-e26aa35a88c5",
-        "name": "Early Memorial Nursing Home - Blakely, GA",
-        "address": [
-          {
-            "line": [
-              "11740 Columbia Rd"
-            ],
-            "city": "Blakely",
-            "state": "GA",
-            "postalCode": "39823",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f12ab421-90c6-4558-88c2-e26aa35a88c5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f12ab421-90c6-4558-88c2-e26aa35a88c5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f12ab421-90c6-4558-88c2-e26aa35a88c5"
 }

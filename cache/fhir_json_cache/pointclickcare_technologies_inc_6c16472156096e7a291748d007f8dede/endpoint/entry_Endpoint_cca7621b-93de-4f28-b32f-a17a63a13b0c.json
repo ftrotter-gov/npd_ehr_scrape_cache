@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cca7621b-93de-4f28-b32f-a17a63a13b0c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cca7621b-93de-4f28-b32f-a17a63a13b0c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cca7621b-93de-4f28-b32f-a17a63a13b0c",
-        "name": "Vantage Senior Care LLC - Lincolnwood, IL",
-        "address": [
-          {
-            "line": [
-              "7383 N Lincoln Ave"
-            ],
-            "city": "Lincolnwood",
-            "state": "IL",
-            "postalCode": "60712",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cca7621b-93de-4f28-b32f-a17a63a13b0c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cca7621b-93de-4f28-b32f-a17a63a13b0c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cca7621b-93de-4f28-b32f-a17a63a13b0c"
 }

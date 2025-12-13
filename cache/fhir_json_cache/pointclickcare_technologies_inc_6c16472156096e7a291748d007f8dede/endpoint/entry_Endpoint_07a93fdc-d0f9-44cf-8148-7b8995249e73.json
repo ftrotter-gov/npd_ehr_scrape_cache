@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "07a93fdc-d0f9-44cf-8148-7b8995249e73",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/07a93fdc-d0f9-44cf-8148-7b8995249e73"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "07a93fdc-d0f9-44cf-8148-7b8995249e73",
-        "name": "Ito Family Holdings Corp. - Pearl City, HI",
-        "address": [
-          {
-            "line": [
-              "919 Lehua Avenue"
-            ],
-            "city": "Pearl City",
-            "state": "HI",
-            "postalCode": "96782",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "07a93fdc-d0f9-44cf-8148-7b8995249e73"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/07a93fdc-d0f9-44cf-8148-7b8995249e73/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/07a93fdc-d0f9-44cf-8148-7b8995249e73"
 }

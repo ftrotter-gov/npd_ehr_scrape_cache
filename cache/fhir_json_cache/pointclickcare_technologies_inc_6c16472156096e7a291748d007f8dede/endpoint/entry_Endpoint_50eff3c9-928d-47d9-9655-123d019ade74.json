@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "50eff3c9-928d-47d9-9655-123d019ade74",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/50eff3c9-928d-47d9-9655-123d019ade74"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "50eff3c9-928d-47d9-9655-123d019ade74",
-        "name": "Arbor Care Centers, LLC - Elkhorn, NE",
-        "address": [
-          {
-            "line": [
-              "3425 North 190th Plaza"
-            ],
-            "city": "Elkhorn",
-            "state": "NE",
-            "postalCode": "68022",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "50eff3c9-928d-47d9-9655-123d019ade74"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/50eff3c9-928d-47d9-9655-123d019ade74/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/50eff3c9-928d-47d9-9655-123d019ade74"
 }

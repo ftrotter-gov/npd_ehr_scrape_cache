@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "143f80e7-d11d-4754-ab3f-d8f1f30fab37",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/143f80e7-d11d-4754-ab3f-d8f1f30fab37"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "143f80e7-d11d-4754-ab3f-d8f1f30fab37",
-        "name": "Creative Solutions in Healthcare, Inc. - Ft. Worth, TX",
-        "address": [
-          {
-            "line": [
-              "4150 International Plaza",
-              "Suite 600"
-            ],
-            "city": "Ft. Worth",
-            "state": "TX",
-            "postalCode": "76109",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "143f80e7-d11d-4754-ab3f-d8f1f30fab37"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/143f80e7-d11d-4754-ab3f-d8f1f30fab37/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/143f80e7-d11d-4754-ab3f-d8f1f30fab37"
 }

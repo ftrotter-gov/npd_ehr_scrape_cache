@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4d8cbb74-f607-4078-a2ad-a165460e66cc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4d8cbb74-f607-4078-a2ad-a165460e66cc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4d8cbb74-f607-4078-a2ad-a165460e66cc",
-        "name": "ChildServe - ",
-        "address": [
-          {
-            "line": [
-              "5406 Merle Hay Road"
-            ],
-            "city": "Johnston",
-            "state": "IA",
-            "postalCode": "50131",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4d8cbb74-f607-4078-a2ad-a165460e66cc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4d8cbb74-f607-4078-a2ad-a165460e66cc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4d8cbb74-f607-4078-a2ad-a165460e66cc"
 }

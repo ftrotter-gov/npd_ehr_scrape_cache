@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fee64505-e2bf-4a11-b413-d7889393438d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fee64505-e2bf-4a11-b413-d7889393438d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fee64505-e2bf-4a11-b413-d7889393438d",
-        "name": "Synergy Healthcare Services, LLC - orlando, FL",
-        "address": [
-          {
-            "line": [
-              "509 S Chickasaw Trl. #292"
-            ],
-            "city": "orlando",
-            "state": "FL",
-            "postalCode": "32825",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fee64505-e2bf-4a11-b413-d7889393438d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fee64505-e2bf-4a11-b413-d7889393438d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fee64505-e2bf-4a11-b413-d7889393438d"
 }

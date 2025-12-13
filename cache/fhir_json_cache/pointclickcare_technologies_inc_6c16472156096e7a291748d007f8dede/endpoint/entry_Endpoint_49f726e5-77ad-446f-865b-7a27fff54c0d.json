@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "49f726e5-77ad-446f-865b-7a27fff54c0d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/49f726e5-77ad-446f-865b-7a27fff54c0d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "49f726e5-77ad-446f-865b-7a27fff54c0d",
-        "name": "Grover C. Dils Medical Center - Caliente, NV",
-        "address": [
-          {
-            "line": [
-              "700 North Spring Street",
-              "PO Box 1010"
-            ],
-            "city": "Caliente",
-            "state": "NV",
-            "postalCode": "89008",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "49f726e5-77ad-446f-865b-7a27fff54c0d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/49f726e5-77ad-446f-865b-7a27fff54c0d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/49f726e5-77ad-446f-865b-7a27fff54c0d"
 }

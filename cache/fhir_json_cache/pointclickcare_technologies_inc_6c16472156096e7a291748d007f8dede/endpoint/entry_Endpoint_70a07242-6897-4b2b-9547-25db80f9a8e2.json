@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "70a07242-6897-4b2b-9547-25db80f9a8e2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/70a07242-6897-4b2b-9547-25db80f9a8e2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "70a07242-6897-4b2b-9547-25db80f9a8e2",
-        "name": "Hereford Nursing and Rehabilitation - Hereford, TX",
-        "address": [
-          {
-            "line": [
-              "231 Kingwood St."
-            ],
-            "city": "Hereford",
-            "state": "TX",
-            "postalCode": "79045-3816",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "70a07242-6897-4b2b-9547-25db80f9a8e2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/70a07242-6897-4b2b-9547-25db80f9a8e2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/70a07242-6897-4b2b-9547-25db80f9a8e2"
 }

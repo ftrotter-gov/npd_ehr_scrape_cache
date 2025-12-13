@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "129be8c7-49a1-40d9-affc-4e7f42502412",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/129be8c7-49a1-40d9-affc-4e7f42502412"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "129be8c7-49a1-40d9-affc-4e7f42502412",
-        "name": "Wishek Home For The Aged - Wishek, ND",
-        "address": [
-          {
-            "line": [
-              "400 S 4th St",
-              "PO Box 187"
-            ],
-            "city": "Wishek",
-            "state": "ND",
-            "postalCode": "58495-7404",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "129be8c7-49a1-40d9-affc-4e7f42502412"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/129be8c7-49a1-40d9-affc-4e7f42502412/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/129be8c7-49a1-40d9-affc-4e7f42502412"
 }

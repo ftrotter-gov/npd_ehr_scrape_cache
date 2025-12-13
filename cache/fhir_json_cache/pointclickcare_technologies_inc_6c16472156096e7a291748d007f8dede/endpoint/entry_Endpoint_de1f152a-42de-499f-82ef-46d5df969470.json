@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "de1f152a-42de-499f-82ef-46d5df969470",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/de1f152a-42de-499f-82ef-46d5df969470"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "de1f152a-42de-499f-82ef-46d5df969470",
-        "name": "Germantown Home - Philadelphia, PA",
-        "address": [
-          {
-            "line": [
-              "6970 Germantown Ave"
-            ],
-            "city": "Philadelphia",
-            "state": "PA",
-            "postalCode": "19119",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "de1f152a-42de-499f-82ef-46d5df969470"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/de1f152a-42de-499f-82ef-46d5df969470/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/de1f152a-42de-499f-82ef-46d5df969470"
 }

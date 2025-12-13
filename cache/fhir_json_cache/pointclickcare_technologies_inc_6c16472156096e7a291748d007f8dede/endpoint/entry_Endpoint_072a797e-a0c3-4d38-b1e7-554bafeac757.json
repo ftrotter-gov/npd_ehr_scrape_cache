@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "072a797e-a0c3-4d38-b1e7-554bafeac757",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/072a797e-a0c3-4d38-b1e7-554bafeac757"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "072a797e-a0c3-4d38-b1e7-554bafeac757",
-        "name": "Dawson Place, Inc. - Hill City, KS",
-        "address": [
-          {
-            "line": [
-              "208 W Prout St"
-            ],
-            "city": "Hill City",
-            "state": "KS",
-            "postalCode": "67642",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "072a797e-a0c3-4d38-b1e7-554bafeac757"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/072a797e-a0c3-4d38-b1e7-554bafeac757/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/072a797e-a0c3-4d38-b1e7-554bafeac757"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0027f8e9-f41c-4141-9831-e23b13a74ba1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0027f8e9-f41c-4141-9831-e23b13a74ba1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0027f8e9-f41c-4141-9831-e23b13a74ba1",
-        "name": "Allure Care Management LLC dba The Allur - Brooklyn, NY",
-        "address": [
-          {
-            "line": [
-              "691 92nd Street"
-            ],
-            "city": "Brooklyn",
-            "state": "NY",
-            "postalCode": "11228",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0027f8e9-f41c-4141-9831-e23b13a74ba1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0027f8e9-f41c-4141-9831-e23b13a74ba1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0027f8e9-f41c-4141-9831-e23b13a74ba1"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0cee2ea0-c875-45be-a517-9478fb7ae029",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0cee2ea0-c875-45be-a517-9478fb7ae029"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0cee2ea0-c875-45be-a517-9478fb7ae029",
-        "name": "Daughters of Miriam Center - Clifton, NJ",
-        "address": [
-          {
-            "line": [
-              "155 Hazel St"
-            ],
-            "city": "Clifton",
-            "state": "NJ",
-            "postalCode": "07105",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0cee2ea0-c875-45be-a517-9478fb7ae029"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0cee2ea0-c875-45be-a517-9478fb7ae029/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0cee2ea0-c875-45be-a517-9478fb7ae029"
 }

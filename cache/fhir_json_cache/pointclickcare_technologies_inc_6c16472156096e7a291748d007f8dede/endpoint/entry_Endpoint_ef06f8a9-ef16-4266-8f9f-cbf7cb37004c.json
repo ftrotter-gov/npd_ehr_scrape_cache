@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ef06f8a9-ef16-4266-8f9f-cbf7cb37004c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ef06f8a9-ef16-4266-8f9f-cbf7cb37004c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ef06f8a9-ef16-4266-8f9f-cbf7cb37004c",
-        "name": "Rock County Hospital-Long Term Care - Bassett, NE",
-        "address": [
-          {
-            "line": [
-              "102 E South St"
-            ],
-            "city": "Bassett",
-            "state": "NE",
-            "postalCode": "68714",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ef06f8a9-ef16-4266-8f9f-cbf7cb37004c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ef06f8a9-ef16-4266-8f9f-cbf7cb37004c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ef06f8a9-ef16-4266-8f9f-cbf7cb37004c"
 }

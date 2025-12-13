@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a8d0db64-8f0e-4c32-aef3-bd3593096280",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a8d0db64-8f0e-4c32-aef3-bd3593096280"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a8d0db64-8f0e-4c32-aef3-bd3593096280",
-        "name": "Stoddard Baptist Global Care - Washington, DC",
-        "address": [
-          {
-            "line": [
-              "2601 18th Street"
-            ],
-            "city": "Washington",
-            "state": "DC",
-            "postalCode": "20018",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a8d0db64-8f0e-4c32-aef3-bd3593096280"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a8d0db64-8f0e-4c32-aef3-bd3593096280/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a8d0db64-8f0e-4c32-aef3-bd3593096280"
 }

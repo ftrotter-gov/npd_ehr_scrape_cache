@@ -2,27 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d97ce1de-ae47-441e-a719-2f18af1e880c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d97ce1de-ae47-441e-a719-2f18af1e880c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d97ce1de-ae47-441e-a719-2f18af1e880c",
-        "name": "Eastern Plumas Health Care - Portola,, CA",
-        "address": [
-          {
-            "line": [
-              "500 1st Avenue"
-            ],
-            "state": "CA",
-            "postalCode": "96122",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d97ce1de-ae47-441e-a719-2f18af1e880c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d97ce1de-ae47-441e-a719-2f18af1e880c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d97ce1de-ae47-441e-a719-2f18af1e880c"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7d70ad61-202a-494b-9205-e676ba9cedc4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7d70ad61-202a-494b-9205-e676ba9cedc4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7d70ad61-202a-494b-9205-e676ba9cedc4",
-        "name": "Reliant Management Group, LLC - Anaheim, CA",
-        "address": [
-          {
-            "line": [
-              "P.O. Box 4290"
-            ],
-            "city": "Anaheim",
-            "state": "CA",
-            "postalCode": "92803",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7d70ad61-202a-494b-9205-e676ba9cedc4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7d70ad61-202a-494b-9205-e676ba9cedc4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7d70ad61-202a-494b-9205-e676ba9cedc4"
 }

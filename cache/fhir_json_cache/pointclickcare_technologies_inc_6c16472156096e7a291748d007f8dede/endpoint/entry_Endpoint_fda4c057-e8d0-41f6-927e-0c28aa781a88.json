@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fda4c057-e8d0-41f6-927e-0c28aa781a88",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fda4c057-e8d0-41f6-927e-0c28aa781a88"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fda4c057-e8d0-41f6-927e-0c28aa781a88",
-        "name": "Nebraska Masonic Home, The - Plattsmouth, NE",
-        "address": [
-          {
-            "line": [
-              "1300 Ave D"
-            ],
-            "city": "Plattsmouth",
-            "state": "NE",
-            "postalCode": "68048",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fda4c057-e8d0-41f6-927e-0c28aa781a88"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fda4c057-e8d0-41f6-927e-0c28aa781a88/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fda4c057-e8d0-41f6-927e-0c28aa781a88"
 }

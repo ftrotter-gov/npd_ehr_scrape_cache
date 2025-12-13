@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d66d2be3-b510-4121-ac26-e41b9ea7fa9b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d66d2be3-b510-4121-ac26-e41b9ea7fa9b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d66d2be3-b510-4121-ac26-e41b9ea7fa9b",
-        "name": "Merry Heart Senior Care Services - Succasunna, NJ",
-        "address": [
-          {
-            "line": [
-              "118 Main St"
-            ],
-            "city": "Succasunna",
-            "state": "NJ",
-            "postalCode": "07876",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d66d2be3-b510-4121-ac26-e41b9ea7fa9b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d66d2be3-b510-4121-ac26-e41b9ea7fa9b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d66d2be3-b510-4121-ac26-e41b9ea7fa9b"
 }

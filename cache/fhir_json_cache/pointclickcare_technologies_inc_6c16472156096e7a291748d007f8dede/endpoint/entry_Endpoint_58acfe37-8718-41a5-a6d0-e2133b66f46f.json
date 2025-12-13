@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "58acfe37-8718-41a5-a6d0-e2133b66f46f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/58acfe37-8718-41a5-a6d0-e2133b66f46f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "58acfe37-8718-41a5-a6d0-e2133b66f46f",
-        "name": "Field Crest Care Center - Hayfield, MN",
-        "address": [
-          {
-            "line": [
-              "318 2nd St NE"
-            ],
-            "city": "Hayfield",
-            "state": "MN",
-            "postalCode": "55940",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "58acfe37-8718-41a5-a6d0-e2133b66f46f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/58acfe37-8718-41a5-a6d0-e2133b66f46f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/58acfe37-8718-41a5-a6d0-e2133b66f46f"
 }

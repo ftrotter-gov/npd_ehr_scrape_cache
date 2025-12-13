@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f248e7a7-c89a-4979-8422-a6b7745c7c7d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f248e7a7-c89a-4979-8422-a6b7745c7c7d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f248e7a7-c89a-4979-8422-a6b7745c7c7d",
-        "name": "Advanced Healthcare Management - Magee, MS",
-        "address": [
-          {
-            "line": [
-              "800 4th St Sw"
-            ],
-            "city": "Magee",
-            "state": "MS",
-            "postalCode": "39111",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f248e7a7-c89a-4979-8422-a6b7745c7c7d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f248e7a7-c89a-4979-8422-a6b7745c7c7d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f248e7a7-c89a-4979-8422-a6b7745c7c7d"
 }

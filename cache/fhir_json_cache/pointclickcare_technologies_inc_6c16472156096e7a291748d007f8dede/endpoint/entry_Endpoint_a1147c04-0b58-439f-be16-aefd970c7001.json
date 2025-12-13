@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a1147c04-0b58-439f-be16-aefd970c7001",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a1147c04-0b58-439f-be16-aefd970c7001"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a1147c04-0b58-439f-be16-aefd970c7001",
-        "name": "BRP Health Management Systems Inc. & JLR - Pocatello, ID",
-        "address": [
-          {
-            "line": [
-              "275 S. 5th Ave.",
-              "Lower Level"
-            ],
-            "city": "Pocatello",
-            "state": "ID",
-            "postalCode": "83201",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a1147c04-0b58-439f-be16-aefd970c7001"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a1147c04-0b58-439f-be16-aefd970c7001/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a1147c04-0b58-439f-be16-aefd970c7001"
 }

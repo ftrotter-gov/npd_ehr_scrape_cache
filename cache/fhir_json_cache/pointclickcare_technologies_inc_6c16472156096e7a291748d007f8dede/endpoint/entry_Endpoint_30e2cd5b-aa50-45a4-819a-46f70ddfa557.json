@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "30e2cd5b-aa50-45a4-819a-46f70ddfa557",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/30e2cd5b-aa50-45a4-819a-46f70ddfa557"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "30e2cd5b-aa50-45a4-819a-46f70ddfa557",
-        "name": "Seasons Living - Lake Oswego, OR",
-        "address": [
-          {
-            "line": [
-              "560 First Street",
-              "Suite 104"
-            ],
-            "city": "Lake Oswego",
-            "state": "OR",
-            "postalCode": "97034",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "30e2cd5b-aa50-45a4-819a-46f70ddfa557"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/30e2cd5b-aa50-45a4-819a-46f70ddfa557/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/30e2cd5b-aa50-45a4-819a-46f70ddfa557"
 }

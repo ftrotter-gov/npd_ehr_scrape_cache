@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ae0a488c-2065-4a21-a6e6-bb496ec6b99c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ae0a488c-2065-4a21-a6e6-bb496ec6b99c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ae0a488c-2065-4a21-a6e6-bb496ec6b99c",
-        "name": "Cla-Cliff Nursing & Rehab Center - Brinkley, AR",
-        "address": [
-          {
-            "line": [
-              "1214 N Hwy 49",
-              "PO Box 671"
-            ],
-            "city": "Brinkley",
-            "state": "AR",
-            "postalCode": "72021",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ae0a488c-2065-4a21-a6e6-bb496ec6b99c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ae0a488c-2065-4a21-a6e6-bb496ec6b99c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ae0a488c-2065-4a21-a6e6-bb496ec6b99c"
 }

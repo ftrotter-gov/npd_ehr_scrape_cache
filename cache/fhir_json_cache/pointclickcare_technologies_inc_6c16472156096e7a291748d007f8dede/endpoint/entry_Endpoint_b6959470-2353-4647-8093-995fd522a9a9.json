@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b6959470-2353-4647-8093-995fd522a9a9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b6959470-2353-4647-8093-995fd522a9a9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b6959470-2353-4647-8093-995fd522a9a9",
-        "name": "Cal Turner Rehab and Specialty Care - Scottsville, KY",
-        "address": [
-          {
-            "line": [
-              "456 Burnley Rd"
-            ],
-            "city": "Scottsville",
-            "state": "KY",
-            "postalCode": "42164 - 6355",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b6959470-2353-4647-8093-995fd522a9a9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b6959470-2353-4647-8093-995fd522a9a9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b6959470-2353-4647-8093-995fd522a9a9"
 }

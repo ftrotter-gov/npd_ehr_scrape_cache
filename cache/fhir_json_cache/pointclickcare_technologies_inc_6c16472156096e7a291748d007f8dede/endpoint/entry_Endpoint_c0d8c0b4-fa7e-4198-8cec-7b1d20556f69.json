@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c0d8c0b4-fa7e-4198-8cec-7b1d20556f69",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c0d8c0b4-fa7e-4198-8cec-7b1d20556f69"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c0d8c0b4-fa7e-4198-8cec-7b1d20556f69",
-        "name": "Heartland Senior Living - Winnebago - Winnebago, MN",
-        "address": [
-          {
-            "line": [
-              "211 Sixth St. NW"
-            ],
-            "city": "Winnebago",
-            "state": "MN",
-            "postalCode": "56098",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c0d8c0b4-fa7e-4198-8cec-7b1d20556f69"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c0d8c0b4-fa7e-4198-8cec-7b1d20556f69/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c0d8c0b4-fa7e-4198-8cec-7b1d20556f69"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cbfe6a83-5cca-46f2-8275-33a4bf9a2876",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cbfe6a83-5cca-46f2-8275-33a4bf9a2876"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cbfe6a83-5cca-46f2-8275-33a4bf9a2876",
-        "name": "United Methodist Homes of New Jersey - Neptune, NJ",
-        "address": [
-          {
-            "line": [
-              "3311 State Rte 33"
-            ],
-            "city": "Neptune",
-            "state": "NJ",
-            "postalCode": "7753",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cbfe6a83-5cca-46f2-8275-33a4bf9a2876"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cbfe6a83-5cca-46f2-8275-33a4bf9a2876/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cbfe6a83-5cca-46f2-8275-33a4bf9a2876"
 }

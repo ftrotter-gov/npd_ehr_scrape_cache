@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a9d6cc6f-f36a-479c-951b-f9ed4daa3911",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a9d6cc6f-f36a-479c-951b-f9ed4daa3911"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a9d6cc6f-f36a-479c-951b-f9ed4daa3911",
-        "name": "Westview Manor of Peabody - Peabody, KS - ",
-        "address": [
-          {
-            "line": [
-              "500 Peabody Street"
-            ],
-            "city": "Peabody",
-            "state": "KS",
-            "postalCode": "66866",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a9d6cc6f-f36a-479c-951b-f9ed4daa3911"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a9d6cc6f-f36a-479c-951b-f9ed4daa3911/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a9d6cc6f-f36a-479c-951b-f9ed4daa3911"
 }

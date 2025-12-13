@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f4473fca-d967-479b-9e90-5de4cdaebab7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f4473fca-d967-479b-9e90-5de4cdaebab7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f4473fca-d967-479b-9e90-5de4cdaebab7",
-        "name": "Middletown AL/MC, LLC dba The Winfield a - Middletown, OH",
-        "address": [
-          {
-            "line": [
-              "3000 McGee Avenue"
-            ],
-            "city": "Middletown",
-            "state": "OH",
-            "postalCode": "45044",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f4473fca-d967-479b-9e90-5de4cdaebab7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f4473fca-d967-479b-9e90-5de4cdaebab7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f4473fca-d967-479b-9e90-5de4cdaebab7"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b539661c-2a89-45c2-a859-a98985ad96ae",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b539661c-2a89-45c2-a859-a98985ad96ae"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b539661c-2a89-45c2-a859-a98985ad96ae",
-        "name": "Kindred Healthcare Operations, LLC - Louisville, KY",
-        "address": [
-          {
-            "line": [
-              "PO Box 3007"
-            ],
-            "city": "Louisville",
-            "state": "KY",
-            "postalCode": "40201",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b539661c-2a89-45c2-a859-a98985ad96ae"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b539661c-2a89-45c2-a859-a98985ad96ae/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b539661c-2a89-45c2-a859-a98985ad96ae"
 }

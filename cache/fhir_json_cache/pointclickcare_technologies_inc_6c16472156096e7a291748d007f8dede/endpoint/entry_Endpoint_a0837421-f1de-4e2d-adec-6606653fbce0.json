@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a0837421-f1de-4e2d-adec-6606653fbce0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a0837421-f1de-4e2d-adec-6606653fbce0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a0837421-f1de-4e2d-adec-6606653fbce0",
-        "name": "Villa Scalabrini Special Care Unit - Sun Valley, CA",
-        "address": [
-          {
-            "line": [
-              "10631 Vinedale St"
-            ],
-            "city": "Sun Valley",
-            "state": "CA",
-            "postalCode": "91352-2899",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a0837421-f1de-4e2d-adec-6606653fbce0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a0837421-f1de-4e2d-adec-6606653fbce0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a0837421-f1de-4e2d-adec-6606653fbce0"
 }

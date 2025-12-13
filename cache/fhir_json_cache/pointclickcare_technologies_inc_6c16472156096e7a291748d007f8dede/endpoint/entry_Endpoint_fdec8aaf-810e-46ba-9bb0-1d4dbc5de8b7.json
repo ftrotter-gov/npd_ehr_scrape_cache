@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fdec8aaf-810e-46ba-9bb0-1d4dbc5de8b7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fdec8aaf-810e-46ba-9bb0-1d4dbc5de8b7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fdec8aaf-810e-46ba-9bb0-1d4dbc5de8b7",
-        "name": "The Landing Senior Living, LLC - Bogart, GA",
-        "address": [
-          {
-            "line": [
-              "2881 Monroe Hwy Suite 1900"
-            ],
-            "city": "Bogart",
-            "state": "GA",
-            "postalCode": "30622",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fdec8aaf-810e-46ba-9bb0-1d4dbc5de8b7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fdec8aaf-810e-46ba-9bb0-1d4dbc5de8b7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fdec8aaf-810e-46ba-9bb0-1d4dbc5de8b7"
 }

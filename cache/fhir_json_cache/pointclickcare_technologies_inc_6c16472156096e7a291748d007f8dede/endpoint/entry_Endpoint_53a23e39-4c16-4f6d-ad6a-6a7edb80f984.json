@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "53a23e39-4c16-4f6d-ad6a-6a7edb80f984",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/53a23e39-4c16-4f6d-ad6a-6a7edb80f984"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "53a23e39-4c16-4f6d-ad6a-6a7edb80f984",
-        "name": "Epiphany Care Homes LLC - Minnetonka, MN",
-        "address": [
-          {
-            "line": [
-              "3704 Cardinal Road"
-            ],
-            "city": "Minnetonka",
-            "state": "MN",
-            "postalCode": "55345",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "53a23e39-4c16-4f6d-ad6a-6a7edb80f984"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/53a23e39-4c16-4f6d-ad6a-6a7edb80f984/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/53a23e39-4c16-4f6d-ad6a-6a7edb80f984"
 }

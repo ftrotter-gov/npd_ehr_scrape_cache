@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ca5b6625-7502-4abf-8adb-9245133598e2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ca5b6625-7502-4abf-8adb-9245133598e2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ca5b6625-7502-4abf-8adb-9245133598e2",
-        "name": "Ingraham Manor Health & Rehab Centers - Bristol, CT",
-        "address": [
-          {
-            "line": [
-              "400 N Main St"
-            ],
-            "city": "Bristol",
-            "state": "CT",
-            "postalCode": "06010",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ca5b6625-7502-4abf-8adb-9245133598e2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ca5b6625-7502-4abf-8adb-9245133598e2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ca5b6625-7502-4abf-8adb-9245133598e2"
 }

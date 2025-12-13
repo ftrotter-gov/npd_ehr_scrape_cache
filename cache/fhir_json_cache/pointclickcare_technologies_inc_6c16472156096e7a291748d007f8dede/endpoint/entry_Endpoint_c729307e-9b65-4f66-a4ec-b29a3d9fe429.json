@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c729307e-9b65-4f66-a4ec-b29a3d9fe429",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c729307e-9b65-4f66-a4ec-b29a3d9fe429"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c729307e-9b65-4f66-a4ec-b29a3d9fe429",
-        "name": "Brevillier Village - Erie, PA",
-        "address": [
-          {
-            "line": [
-              "5416 E Lake Rd"
-            ],
-            "city": "Erie",
-            "state": "PA",
-            "postalCode": "16511-1496",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c729307e-9b65-4f66-a4ec-b29a3d9fe429"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c729307e-9b65-4f66-a4ec-b29a3d9fe429/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c729307e-9b65-4f66-a4ec-b29a3d9fe429"
 }

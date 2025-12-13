@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e2159e79-f53b-4107-a31a-f9256a6f74ff",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e2159e79-f53b-4107-a31a-f9256a6f74ff"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e2159e79-f53b-4107-a31a-f9256a6f74ff",
-        "name": "Sandhills Care Center - Ainsworth, NE",
-        "address": [
-          {
-            "line": [
-              "143 N. Fullerton St."
-            ],
-            "city": "Ainsworth",
-            "state": "NE",
-            "postalCode": "69210-1515",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e2159e79-f53b-4107-a31a-f9256a6f74ff"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e2159e79-f53b-4107-a31a-f9256a6f74ff/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e2159e79-f53b-4107-a31a-f9256a6f74ff"
 }

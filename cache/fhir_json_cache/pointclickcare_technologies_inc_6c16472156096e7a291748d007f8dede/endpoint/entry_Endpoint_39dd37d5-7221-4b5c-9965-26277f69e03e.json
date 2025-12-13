@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "39dd37d5-7221-4b5c-9965-26277f69e03e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/39dd37d5-7221-4b5c-9965-26277f69e03e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "39dd37d5-7221-4b5c-9965-26277f69e03e",
-        "name": "Lebanon Valley Brethren Home dba Londond - Palmyra, PA",
-        "address": [
-          {
-            "line": [
-              "1200 Grubb Rd."
-            ],
-            "city": "Palmyra",
-            "state": "PA",
-            "postalCode": "17078",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "39dd37d5-7221-4b5c-9965-26277f69e03e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/39dd37d5-7221-4b5c-9965-26277f69e03e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/39dd37d5-7221-4b5c-9965-26277f69e03e"
 }

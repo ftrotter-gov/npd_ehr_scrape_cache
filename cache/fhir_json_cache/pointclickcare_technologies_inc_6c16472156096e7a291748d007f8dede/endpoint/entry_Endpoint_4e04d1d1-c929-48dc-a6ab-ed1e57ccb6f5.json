@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4e04d1d1-c929-48dc-a6ab-ed1e57ccb6f5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4e04d1d1-c929-48dc-a6ab-ed1e57ccb6f5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4e04d1d1-c929-48dc-a6ab-ed1e57ccb6f5",
-        "name": "Eventide Lutheran Home - Denison, IA",
-        "address": [
-          {
-            "line": [
-              "114 South 20th Street"
-            ],
-            "city": "Denison",
-            "state": "IA",
-            "postalCode": "51442",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4e04d1d1-c929-48dc-a6ab-ed1e57ccb6f5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4e04d1d1-c929-48dc-a6ab-ed1e57ccb6f5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4e04d1d1-c929-48dc-a6ab-ed1e57ccb6f5"
 }

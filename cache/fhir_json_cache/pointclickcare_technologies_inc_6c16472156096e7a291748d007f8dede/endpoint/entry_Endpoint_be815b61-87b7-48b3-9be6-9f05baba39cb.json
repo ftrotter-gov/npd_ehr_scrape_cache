@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "be815b61-87b7-48b3-9be6-9f05baba39cb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/be815b61-87b7-48b3-9be6-9f05baba39cb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "be815b61-87b7-48b3-9be6-9f05baba39cb",
-        "name": "Care Initiatives - West Des Moines, IA",
-        "address": [
-          {
-            "line": [
-              "1611 West Lakes Parkway"
-            ],
-            "city": "West Des Moines",
-            "state": "IA",
-            "postalCode": "50266",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "be815b61-87b7-48b3-9be6-9f05baba39cb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/be815b61-87b7-48b3-9be6-9f05baba39cb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/be815b61-87b7-48b3-9be6-9f05baba39cb"
 }

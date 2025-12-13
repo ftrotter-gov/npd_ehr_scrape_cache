@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5f906e8d-767e-4b45-aaec-86c896ca78b7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5f906e8d-767e-4b45-aaec-86c896ca78b7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5f906e8d-767e-4b45-aaec-86c896ca78b7",
-        "name": "Sunshine Health Facilities, Inc. dba Sun - Spokane, WA",
-        "address": [
-          {
-            "line": [
-              "10410 E 9th Ave"
-            ],
-            "city": "Spokane",
-            "state": "WA",
-            "postalCode": "99206-3598",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5f906e8d-767e-4b45-aaec-86c896ca78b7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5f906e8d-767e-4b45-aaec-86c896ca78b7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5f906e8d-767e-4b45-aaec-86c896ca78b7"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ea0861f9-83f5-4976-b8aa-71f3c087d92f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ea0861f9-83f5-4976-b8aa-71f3c087d92f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ea0861f9-83f5-4976-b8aa-71f3c087d92f",
-        "name": "CATHOLIC CHARITIES OF THE ARCHDIOCESE OF - Norwood, PA",
-        "address": [
-          {
-            "line": [
-              "20 East Cleveland Avenue"
-            ],
-            "city": "Norwood",
-            "state": "PA",
-            "postalCode": "19074",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ea0861f9-83f5-4976-b8aa-71f3c087d92f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ea0861f9-83f5-4976-b8aa-71f3c087d92f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ea0861f9-83f5-4976-b8aa-71f3c087d92f"
 }

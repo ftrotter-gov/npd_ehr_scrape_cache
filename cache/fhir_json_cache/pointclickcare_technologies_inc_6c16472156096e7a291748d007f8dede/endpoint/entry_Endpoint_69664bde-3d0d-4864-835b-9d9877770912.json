@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "69664bde-3d0d-4864-835b-9d9877770912",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/69664bde-3d0d-4864-835b-9d9877770912"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "69664bde-3d0d-4864-835b-9d9877770912",
-        "name": "Pioneer Home, Inc, d/b/a Pioneer Care - Fergus Falls, MN",
-        "address": [
-          {
-            "line": [
-              "1131 Mabelle Ave S"
-            ],
-            "city": "Fergus Falls",
-            "state": "MN",
-            "postalCode": "56537",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "69664bde-3d0d-4864-835b-9d9877770912"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/69664bde-3d0d-4864-835b-9d9877770912/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/69664bde-3d0d-4864-835b-9d9877770912"
 }

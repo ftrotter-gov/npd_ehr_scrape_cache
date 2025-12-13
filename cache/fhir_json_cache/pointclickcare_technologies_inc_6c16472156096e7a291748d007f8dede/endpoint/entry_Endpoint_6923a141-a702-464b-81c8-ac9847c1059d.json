@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6923a141-a702-464b-81c8-ac9847c1059d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6923a141-a702-464b-81c8-ac9847c1059d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6923a141-a702-464b-81c8-ac9847c1059d",
-        "name": "Colonial Acres of Humboldt - Humboldt, NE",
-        "address": [
-          {
-            "line": [
-              "1043 10th St"
-            ],
-            "city": "Humboldt",
-            "state": "NE",
-            "postalCode": "68376",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6923a141-a702-464b-81c8-ac9847c1059d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6923a141-a702-464b-81c8-ac9847c1059d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6923a141-a702-464b-81c8-ac9847c1059d"
 }

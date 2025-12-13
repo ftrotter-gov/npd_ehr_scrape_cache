@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1d9eebbe-7da8-470b-bf75-e840b2fa07bf",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1d9eebbe-7da8-470b-bf75-e840b2fa07bf"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1d9eebbe-7da8-470b-bf75-e840b2fa07bf",
-        "name": "Emmanuel Home - Northumberland, PA",
-        "address": [
-          {
-            "line": [
-              "800 Priestley Ave"
-            ],
-            "city": "Northumberland",
-            "state": "PA",
-            "postalCode": "17857",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1d9eebbe-7da8-470b-bf75-e840b2fa07bf"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1d9eebbe-7da8-470b-bf75-e840b2fa07bf/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1d9eebbe-7da8-470b-bf75-e840b2fa07bf"
 }

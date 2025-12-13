@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6bb2edca-3da1-48cf-8e42-8d8c2c96309a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6bb2edca-3da1-48cf-8e42-8d8c2c96309a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6bb2edca-3da1-48cf-8e42-8d8c2c96309a",
-        "name": "Paintsville Investors, LLC - Louisville, KY",
-        "address": [
-          {
-            "line": [
-              "1025 Euclid Avenue"
-            ],
-            "city": "Paintsville",
-            "state": "KY",
-            "postalCode": "41240",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6bb2edca-3da1-48cf-8e42-8d8c2c96309a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6bb2edca-3da1-48cf-8e42-8d8c2c96309a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6bb2edca-3da1-48cf-8e42-8d8c2c96309a"
 }

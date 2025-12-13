@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "72063a5a-abe8-490b-8e7f-1da0ced3cba1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/72063a5a-abe8-490b-8e7f-1da0ced3cba1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "72063a5a-abe8-490b-8e7f-1da0ced3cba1",
-        "name": "Navion Senior Solutions - Wichita, NC",
-        "address": [
-          {
-            "line": [
-              "PO Box 780072"
-            ],
-            "city": "Wichita",
-            "state": "NC",
-            "postalCode": "67278",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "72063a5a-abe8-490b-8e7f-1da0ced3cba1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/72063a5a-abe8-490b-8e7f-1da0ced3cba1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/72063a5a-abe8-490b-8e7f-1da0ced3cba1"
 }

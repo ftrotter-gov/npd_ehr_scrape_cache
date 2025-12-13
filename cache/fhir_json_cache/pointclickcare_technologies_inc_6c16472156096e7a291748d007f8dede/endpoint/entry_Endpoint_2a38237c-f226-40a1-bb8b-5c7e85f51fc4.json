@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2a38237c-f226-40a1-bb8b-5c7e85f51fc4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2a38237c-f226-40a1-bb8b-5c7e85f51fc4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2a38237c-f226-40a1-bb8b-5c7e85f51fc4",
-        "name": "Accura Healthcare - Clive, IA",
-        "address": [
-          {
-            "line": [
-              "1370 Nw 114th St"
-            ],
-            "city": "Clive",
-            "state": "IA",
-            "postalCode": "50325",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2a38237c-f226-40a1-bb8b-5c7e85f51fc4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2a38237c-f226-40a1-bb8b-5c7e85f51fc4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2a38237c-f226-40a1-bb8b-5c7e85f51fc4"
 }

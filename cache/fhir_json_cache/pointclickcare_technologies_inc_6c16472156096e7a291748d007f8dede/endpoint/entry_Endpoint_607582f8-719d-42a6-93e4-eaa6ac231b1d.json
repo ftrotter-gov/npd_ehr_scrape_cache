@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "607582f8-719d-42a6-93e4-eaa6ac231b1d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/607582f8-719d-42a6-93e4-eaa6ac231b1d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "607582f8-719d-42a6-93e4-eaa6ac231b1d",
-        "name": "Plantation Pointe Retirement Community - Columbus, MS",
-        "address": [
-          {
-            "line": [
-              "234 Windsor Blvd"
-            ],
-            "city": "Columbus",
-            "state": "MS",
-            "postalCode": "39702-3152",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "607582f8-719d-42a6-93e4-eaa6ac231b1d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/607582f8-719d-42a6-93e4-eaa6ac231b1d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/607582f8-719d-42a6-93e4-eaa6ac231b1d"
 }

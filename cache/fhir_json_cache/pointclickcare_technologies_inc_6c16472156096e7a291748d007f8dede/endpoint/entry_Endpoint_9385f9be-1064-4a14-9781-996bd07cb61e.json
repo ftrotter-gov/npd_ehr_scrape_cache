@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9385f9be-1064-4a14-9781-996bd07cb61e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9385f9be-1064-4a14-9781-996bd07cb61e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9385f9be-1064-4a14-9781-996bd07cb61e",
-        "name": "Plainview Manor - Plainview, NE",
-        "address": [
-          {
-            "line": [
-              "101 Harper St",
-              "PO Box 219"
-            ],
-            "city": "Plainview",
-            "state": "NE",
-            "postalCode": "68769",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9385f9be-1064-4a14-9781-996bd07cb61e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9385f9be-1064-4a14-9781-996bd07cb61e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9385f9be-1064-4a14-9781-996bd07cb61e"
 }

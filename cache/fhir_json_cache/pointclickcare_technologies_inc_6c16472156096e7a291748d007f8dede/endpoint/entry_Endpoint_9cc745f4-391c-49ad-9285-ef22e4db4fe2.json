@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9cc745f4-391c-49ad-9285-ef22e4db4fe2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9cc745f4-391c-49ad-9285-ef22e4db4fe2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9cc745f4-391c-49ad-9285-ef22e4db4fe2",
-        "name": "Pleasant Ridge Manor West - Girard, PA",
-        "address": [
-          {
-            "line": [
-              "8300 W Ridge Rd"
-            ],
-            "city": "Girard",
-            "state": "PA",
-            "postalCode": "16417-8702",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9cc745f4-391c-49ad-9285-ef22e4db4fe2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9cc745f4-391c-49ad-9285-ef22e4db4fe2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9cc745f4-391c-49ad-9285-ef22e4db4fe2"
 }

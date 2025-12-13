@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c64aa1f4-bb65-4877-ac58-8d5fdd9de07d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c64aa1f4-bb65-4877-ac58-8d5fdd9de07d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c64aa1f4-bb65-4877-ac58-8d5fdd9de07d",
-        "name": "Evergreen Estates Retirement & Assisted - Clarkston, WA",
-        "address": [
-          {
-            "line": [
-              "1215 Evergreen Ct"
-            ],
-            "city": "Clarkston",
-            "state": "WA",
-            "postalCode": "99403",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c64aa1f4-bb65-4877-ac58-8d5fdd9de07d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c64aa1f4-bb65-4877-ac58-8d5fdd9de07d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c64aa1f4-bb65-4877-ac58-8d5fdd9de07d"
 }

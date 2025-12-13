@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f98a9311-3181-4d38-8cc8-23f12416d0f8",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f98a9311-3181-4d38-8cc8-23f12416d0f8"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f98a9311-3181-4d38-8cc8-23f12416d0f8",
-        "name": "Abundant Acres Care & Rehab  - Savannah, MO",
-        "address": [
-          {
-            "line": [
-              "13277 State Route D",
-              "PO Box 277"
-            ],
-            "city": "Savannah",
-            "state": "MO",
-            "postalCode": "64485-9431",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f98a9311-3181-4d38-8cc8-23f12416d0f8"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f98a9311-3181-4d38-8cc8-23f12416d0f8/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f98a9311-3181-4d38-8cc8-23f12416d0f8"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9e75c8a1-7e03-4012-834f-092abd7e86fb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9e75c8a1-7e03-4012-834f-092abd7e86fb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9e75c8a1-7e03-4012-834f-092abd7e86fb",
-        "name": "Folsom Care Center - Folsom, CA",
-        "address": [
-          {
-            "line": [
-              "510 Mill Street"
-            ],
-            "city": "Folsom",
-            "state": "CA",
-            "postalCode": "95630",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9e75c8a1-7e03-4012-834f-092abd7e86fb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9e75c8a1-7e03-4012-834f-092abd7e86fb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9e75c8a1-7e03-4012-834f-092abd7e86fb"
 }

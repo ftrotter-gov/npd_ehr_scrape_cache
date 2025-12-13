@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "05cb858d-2988-4ec8-b512-7fa37b92f8d4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/05cb858d-2988-4ec8-b512-7fa37b92f8d4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "05cb858d-2988-4ec8-b512-7fa37b92f8d4",
-        "name": "Westview Acres Care Center - Leon, IA",
-        "address": [
-          {
-            "line": [
-              "203 SW Lorraine Street"
-            ],
-            "city": "Leon",
-            "state": "IA",
-            "postalCode": "50144",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "05cb858d-2988-4ec8-b512-7fa37b92f8d4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/05cb858d-2988-4ec8-b512-7fa37b92f8d4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/05cb858d-2988-4ec8-b512-7fa37b92f8d4"
 }

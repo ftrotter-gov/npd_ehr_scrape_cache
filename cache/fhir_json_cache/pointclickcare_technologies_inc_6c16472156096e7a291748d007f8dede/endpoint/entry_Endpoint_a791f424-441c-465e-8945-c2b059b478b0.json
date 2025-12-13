@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a791f424-441c-465e-8945-c2b059b478b0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a791f424-441c-465e-8945-c2b059b478b0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a791f424-441c-465e-8945-c2b059b478b0",
-        "name": "Rose Villa - Portland, OR",
-        "address": [
-          {
-            "line": [
-              "13505 SE River Rd"
-            ],
-            "city": "Portland",
-            "state": "OR",
-            "postalCode": "97222",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a791f424-441c-465e-8945-c2b059b478b0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a791f424-441c-465e-8945-c2b059b478b0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a791f424-441c-465e-8945-c2b059b478b0"
 }

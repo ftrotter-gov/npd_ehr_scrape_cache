@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4f725bb6-5d35-42be-a73a-616ec0e5e592",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4f725bb6-5d35-42be-a73a-616ec0e5e592"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4f725bb6-5d35-42be-a73a-616ec0e5e592",
-        "name": "Lantis Enterprises, Inc. - Spearfish, SD",
-        "address": [
-          {
-            "line": [
-              "4755 E Colorado Blvd – PO Box 699"
-            ],
-            "city": "Spearfish",
-            "state": "SD",
-            "postalCode": "57783",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4f725bb6-5d35-42be-a73a-616ec0e5e592"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4f725bb6-5d35-42be-a73a-616ec0e5e592/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4f725bb6-5d35-42be-a73a-616ec0e5e592"
 }

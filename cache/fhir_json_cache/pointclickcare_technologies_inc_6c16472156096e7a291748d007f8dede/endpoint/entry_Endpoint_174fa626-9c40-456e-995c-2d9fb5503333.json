@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "174fa626-9c40-456e-995c-2d9fb5503333",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/174fa626-9c40-456e-995c-2d9fb5503333"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "174fa626-9c40-456e-995c-2d9fb5503333",
-        "name": "San Juan Nursing Home - San Juan, TX",
-        "address": [
-          {
-            "line": [
-              "300 N Nebraska Ave"
-            ],
-            "city": "San Juan",
-            "state": "TX",
-            "postalCode": "78589-3040",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "174fa626-9c40-456e-995c-2d9fb5503333"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/174fa626-9c40-456e-995c-2d9fb5503333/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/174fa626-9c40-456e-995c-2d9fb5503333"
 }

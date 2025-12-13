@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "21aaee60-35bc-441d-8a7b-c81b3a21f183",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/21aaee60-35bc-441d-8a7b-c81b3a21f183"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "21aaee60-35bc-441d-8a7b-c81b3a21f183",
-        "name": "Eastern Star Masonic Home - Boone, IA",
-        "address": [
-          {
-            "line": [
-              "715 West 3rd Street"
-            ],
-            "city": "Boone",
-            "state": "IA",
-            "postalCode": "50036-4006",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "21aaee60-35bc-441d-8a7b-c81b3a21f183"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/21aaee60-35bc-441d-8a7b-c81b3a21f183/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/21aaee60-35bc-441d-8a7b-c81b3a21f183"
 }

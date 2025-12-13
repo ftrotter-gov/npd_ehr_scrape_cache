@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "df37fd7f-7504-4521-b802-8950b54edaf7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/df37fd7f-7504-4521-b802-8950b54edaf7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "df37fd7f-7504-4521-b802-8950b54edaf7",
-        "name": "Bedrock Care LLC - Monsey, NY",
-        "address": [
-          {
-            "line": [
-              "22 Dike Drive"
-            ],
-            "city": "Monsey",
-            "state": "NY",
-            "postalCode": "10952",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "df37fd7f-7504-4521-b802-8950b54edaf7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/df37fd7f-7504-4521-b802-8950b54edaf7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/df37fd7f-7504-4521-b802-8950b54edaf7"
 }

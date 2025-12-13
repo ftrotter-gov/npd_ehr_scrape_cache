@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d373f122-5270-4d25-a610-fdf9dc18ab43",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d373f122-5270-4d25-a610-fdf9dc18ab43"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d373f122-5270-4d25-a610-fdf9dc18ab43",
-        "name": "Saint Clare's Hospital, Inc. d/b/a The D - Dover, NJ",
-        "address": [
-          {
-            "line": [
-              "400 W Balckwell St"
-            ],
-            "city": "Dover",
-            "state": "NJ",
-            "postalCode": "07801",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d373f122-5270-4d25-a610-fdf9dc18ab43"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d373f122-5270-4d25-a610-fdf9dc18ab43/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d373f122-5270-4d25-a610-fdf9dc18ab43"
 }

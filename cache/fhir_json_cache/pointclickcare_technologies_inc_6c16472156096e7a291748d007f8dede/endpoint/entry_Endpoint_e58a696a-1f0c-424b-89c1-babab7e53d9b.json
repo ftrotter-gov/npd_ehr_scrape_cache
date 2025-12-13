@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e58a696a-1f0c-424b-89c1-babab7e53d9b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e58a696a-1f0c-424b-89c1-babab7e53d9b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e58a696a-1f0c-424b-89c1-babab7e53d9b",
-        "name": "Tieszen Memorial Home - Marion, SD",
-        "address": [
-          {
-            "line": [
-              "312 E State St"
-            ],
-            "city": "Marion",
-            "state": "SD",
-            "postalCode": "57043-2011",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e58a696a-1f0c-424b-89c1-babab7e53d9b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e58a696a-1f0c-424b-89c1-babab7e53d9b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e58a696a-1f0c-424b-89c1-babab7e53d9b"
 }

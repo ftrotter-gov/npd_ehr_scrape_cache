@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "852df6a3-eea9-44b2-95f4-853447e8b138",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/852df6a3-eea9-44b2-95f4-853447e8b138"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "852df6a3-eea9-44b2-95f4-853447e8b138",
-        "name": "Stern Therapy Consultants - Pomona, NY",
-        "address": [
-          {
-            "line": [
-              "7B Medical Park Drive"
-            ],
-            "city": "Pomona",
-            "state": "NY",
-            "postalCode": "10970",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "852df6a3-eea9-44b2-95f4-853447e8b138"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/852df6a3-eea9-44b2-95f4-853447e8b138/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/852df6a3-eea9-44b2-95f4-853447e8b138"
 }

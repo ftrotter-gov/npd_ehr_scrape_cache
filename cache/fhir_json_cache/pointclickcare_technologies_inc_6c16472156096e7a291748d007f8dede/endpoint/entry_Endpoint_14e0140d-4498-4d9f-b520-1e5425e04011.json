@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "14e0140d-4498-4d9f-b520-1e5425e04011",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/14e0140d-4498-4d9f-b520-1e5425e04011"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "14e0140d-4498-4d9f-b520-1e5425e04011",
-        "name": "Hyatt Family Facilities - Yakima, WA",
-        "address": [
-          {
-            "line": [
-              "2609 River Rd."
-            ],
-            "city": "Yakima",
-            "state": "WA",
-            "postalCode": "98902",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "14e0140d-4498-4d9f-b520-1e5425e04011"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/14e0140d-4498-4d9f-b520-1e5425e04011/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/14e0140d-4498-4d9f-b520-1e5425e04011"
 }

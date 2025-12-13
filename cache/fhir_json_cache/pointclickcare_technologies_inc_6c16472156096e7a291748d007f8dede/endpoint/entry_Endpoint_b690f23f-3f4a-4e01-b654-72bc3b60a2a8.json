@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b690f23f-3f4a-4e01-b654-72bc3b60a2a8",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b690f23f-3f4a-4e01-b654-72bc3b60a2a8"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b690f23f-3f4a-4e01-b654-72bc3b60a2a8",
-        "name": "Welch Senior Living - Rockland, MA",
-        "address": [
-          {
-            "line": [
-              "1050 Hingham Street"
-            ],
-            "city": "Rockland",
-            "state": "MA",
-            "postalCode": "02370",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b690f23f-3f4a-4e01-b654-72bc3b60a2a8"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b690f23f-3f4a-4e01-b654-72bc3b60a2a8/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b690f23f-3f4a-4e01-b654-72bc3b60a2a8"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e9aafb60-4785-4a44-980b-ae5c145f0895",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e9aafb60-4785-4a44-980b-ae5c145f0895"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e9aafb60-4785-4a44-980b-ae5c145f0895",
-        "name": "Mississippi State Hospital dba - Jaquith - Whitfield, MS",
-        "address": [
-          {
-            "line": [
-              "PO Box 157-A"
-            ],
-            "city": "Whitfield",
-            "state": "MS",
-            "postalCode": "39193",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e9aafb60-4785-4a44-980b-ae5c145f0895"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e9aafb60-4785-4a44-980b-ae5c145f0895/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e9aafb60-4785-4a44-980b-ae5c145f0895"
 }

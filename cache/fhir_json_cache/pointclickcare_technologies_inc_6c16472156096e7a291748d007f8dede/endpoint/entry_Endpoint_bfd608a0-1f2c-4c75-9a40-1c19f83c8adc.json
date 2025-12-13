@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bfd608a0-1f2c-4c75-9a40-1c19f83c8adc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bfd608a0-1f2c-4c75-9a40-1c19f83c8adc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bfd608a0-1f2c-4c75-9a40-1c19f83c8adc",
-        "name": "Aldersgate UMRC, Inc. - Charlotte, NC",
-        "address": [
-          {
-            "line": [
-              "3800 Shamrock Dr"
-            ],
-            "city": "Charlotte",
-            "state": "NC",
-            "postalCode": "28215",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bfd608a0-1f2c-4c75-9a40-1c19f83c8adc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bfd608a0-1f2c-4c75-9a40-1c19f83c8adc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bfd608a0-1f2c-4c75-9a40-1c19f83c8adc"
 }

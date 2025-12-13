@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e4dbae77-d765-4a12-87bc-0c80e25d29e1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e4dbae77-d765-4a12-87bc-0c80e25d29e1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e4dbae77-d765-4a12-87bc-0c80e25d29e1",
-        "name": "Miravida Living, Inc. - Oshkosh, WI",
-        "address": [
-          {
-            "line": [
-              "225 North Eagle Street"
-            ],
-            "city": "Oshkosh",
-            "state": "WI",
-            "postalCode": "54902",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e4dbae77-d765-4a12-87bc-0c80e25d29e1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e4dbae77-d765-4a12-87bc-0c80e25d29e1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e4dbae77-d765-4a12-87bc-0c80e25d29e1"
 }

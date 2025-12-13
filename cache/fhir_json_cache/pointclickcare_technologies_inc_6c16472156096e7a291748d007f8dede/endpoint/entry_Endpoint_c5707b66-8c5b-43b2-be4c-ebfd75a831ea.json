@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c5707b66-8c5b-43b2-be4c-ebfd75a831ea",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c5707b66-8c5b-43b2-be4c-ebfd75a831ea"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c5707b66-8c5b-43b2-be4c-ebfd75a831ea",
-        "name": "Willamette View Health Center - Portland, OR",
-        "address": [
-          {
-            "line": [
-              "12705 S.E. River"
-            ],
-            "city": "Portland",
-            "state": "OR",
-            "postalCode": "97222",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c5707b66-8c5b-43b2-be4c-ebfd75a831ea"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c5707b66-8c5b-43b2-be4c-ebfd75a831ea/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c5707b66-8c5b-43b2-be4c-ebfd75a831ea"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e8dabaaf-c5c4-4383-acf8-395fee1cc03a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e8dabaaf-c5c4-4383-acf8-395fee1cc03a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e8dabaaf-c5c4-4383-acf8-395fee1cc03a",
-        "name": "iCare Consulting Services LLC - Skokie, IL",
-        "address": [
-          {
-            "line": [
-              "8153 N Lawndale Avenue"
-            ],
-            "city": "Skokie",
-            "state": "IL",
-            "postalCode": "60076",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e8dabaaf-c5c4-4383-acf8-395fee1cc03a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e8dabaaf-c5c4-4383-acf8-395fee1cc03a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e8dabaaf-c5c4-4383-acf8-395fee1cc03a"
 }

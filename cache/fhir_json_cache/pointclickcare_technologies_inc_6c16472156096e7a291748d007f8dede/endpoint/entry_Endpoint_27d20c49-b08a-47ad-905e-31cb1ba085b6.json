@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "27d20c49-b08a-47ad-905e-31cb1ba085b6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/27d20c49-b08a-47ad-905e-31cb1ba085b6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "27d20c49-b08a-47ad-905e-31cb1ba085b6",
-        "name": "Schleicher County Nursing Home - Eldorado, TX",
-        "address": [
-          {
-            "line": [
-              "P.O. Box V"
-            ],
-            "city": "Eldorado",
-            "state": "TX",
-            "postalCode": "76936-1246",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "27d20c49-b08a-47ad-905e-31cb1ba085b6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/27d20c49-b08a-47ad-905e-31cb1ba085b6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/27d20c49-b08a-47ad-905e-31cb1ba085b6"
 }

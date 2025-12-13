@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d1aa8f87-a47b-4991-9f00-5faa98e67676",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d1aa8f87-a47b-4991-9f00-5faa98e67676"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d1aa8f87-a47b-4991-9f00-5faa98e67676",
-        "name": "Daake Family Homes - St. Louis, MO",
-        "address": [
-          {
-            "line": [
-              "3421 Gasconade Street"
-            ],
-            "city": "St. Louis",
-            "state": "MO",
-            "postalCode": "63118",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d1aa8f87-a47b-4991-9f00-5faa98e67676"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d1aa8f87-a47b-4991-9f00-5faa98e67676/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d1aa8f87-a47b-4991-9f00-5faa98e67676"
 }

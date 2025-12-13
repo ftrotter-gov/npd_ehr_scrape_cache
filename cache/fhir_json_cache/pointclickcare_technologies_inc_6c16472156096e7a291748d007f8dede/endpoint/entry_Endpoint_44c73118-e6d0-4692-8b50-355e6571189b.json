@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "44c73118-e6d0-4692-8b50-355e6571189b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/44c73118-e6d0-4692-8b50-355e6571189b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "44c73118-e6d0-4692-8b50-355e6571189b",
-        "name": "The Pavilion at Kenton for Nursing and R - Covington, KY",
-        "address": [
-          {
-            "line": [
-              "401 East 20th Street"
-            ],
-            "city": "Covington",
-            "state": "KY",
-            "postalCode": "41014",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "44c73118-e6d0-4692-8b50-355e6571189b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/44c73118-e6d0-4692-8b50-355e6571189b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/44c73118-e6d0-4692-8b50-355e6571189b"
 }

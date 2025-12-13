@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "59049499-6d71-41ac-82a9-b1daef5a9ad4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/59049499-6d71-41ac-82a9-b1daef5a9ad4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "59049499-6d71-41ac-82a9-b1daef5a9ad4",
-        "name": "Trace Extended Care & Rehabilitation - Houston, MS",
-        "address": [
-          {
-            "line": [
-              "1000 East Madison Street"
-            ],
-            "city": "Houston",
-            "state": "MS",
-            "postalCode": "38851",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "59049499-6d71-41ac-82a9-b1daef5a9ad4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/59049499-6d71-41ac-82a9-b1daef5a9ad4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/59049499-6d71-41ac-82a9-b1daef5a9ad4"
 }

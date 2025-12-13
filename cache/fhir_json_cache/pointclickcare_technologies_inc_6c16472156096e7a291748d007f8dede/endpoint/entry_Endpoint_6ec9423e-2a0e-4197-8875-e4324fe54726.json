@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6ec9423e-2a0e-4197-8875-e4324fe54726",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6ec9423e-2a0e-4197-8875-e4324fe54726"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6ec9423e-2a0e-4197-8875-e4324fe54726",
-        "name": "Bluegrass Health Partners - Richmond, KY",
-        "address": [
-          {
-            "line": [
-              "300 Provider Court",
-              "Suite 100"
-            ],
-            "city": "Richmond",
-            "state": "KY",
-            "postalCode": "40475",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6ec9423e-2a0e-4197-8875-e4324fe54726"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6ec9423e-2a0e-4197-8875-e4324fe54726/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6ec9423e-2a0e-4197-8875-e4324fe54726"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "015e9e1d-b676-4b81-952f-3df8966d2de5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/015e9e1d-b676-4b81-952f-3df8966d2de5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "015e9e1d-b676-4b81-952f-3df8966d2de5",
-        "name": "The Manor, Inc - Morrisville, VT",
-        "address": [
-          {
-            "line": [
-              "577 Washington Hwy"
-            ],
-            "city": "Morrisville",
-            "state": "VT",
-            "postalCode": "05661",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "015e9e1d-b676-4b81-952f-3df8966d2de5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/015e9e1d-b676-4b81-952f-3df8966d2de5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/015e9e1d-b676-4b81-952f-3df8966d2de5"
 }

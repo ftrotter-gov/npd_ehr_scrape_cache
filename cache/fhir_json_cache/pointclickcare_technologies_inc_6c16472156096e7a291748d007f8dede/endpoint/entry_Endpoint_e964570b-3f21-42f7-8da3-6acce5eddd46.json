@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e964570b-3f21-42f7-8da3-6acce5eddd46",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e964570b-3f21-42f7-8da3-6acce5eddd46"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e964570b-3f21-42f7-8da3-6acce5eddd46",
-        "name": "Winston Medical Center - Louisville, MS",
-        "address": [
-          {
-            "line": [
-              "17560 East Main Street",
-              "PO Box 967"
-            ],
-            "city": "Louisville",
-            "state": "MS",
-            "postalCode": "39339",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e964570b-3f21-42f7-8da3-6acce5eddd46"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e964570b-3f21-42f7-8da3-6acce5eddd46/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e964570b-3f21-42f7-8da3-6acce5eddd46"
 }

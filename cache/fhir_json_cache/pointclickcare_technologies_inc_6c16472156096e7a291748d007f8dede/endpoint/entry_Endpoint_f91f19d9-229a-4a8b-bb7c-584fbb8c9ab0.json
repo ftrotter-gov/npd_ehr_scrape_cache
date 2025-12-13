@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f91f19d9-229a-4a8b-bb7c-584fbb8c9ab0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f91f19d9-229a-4a8b-bb7c-584fbb8c9ab0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f91f19d9-229a-4a8b-bb7c-584fbb8c9ab0",
-        "name": "Vermont Healthcare Center, LLC - Torrance, CA",
-        "address": [
-          {
-            "line": [
-              "22035 S. Vermont Ave"
-            ],
-            "city": "Torrance",
-            "state": "CA",
-            "postalCode": "90502",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f91f19d9-229a-4a8b-bb7c-584fbb8c9ab0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f91f19d9-229a-4a8b-bb7c-584fbb8c9ab0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f91f19d9-229a-4a8b-bb7c-584fbb8c9ab0"
 }

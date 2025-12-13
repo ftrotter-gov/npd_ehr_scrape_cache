@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fb13106f-b7be-4d85-bd89-d5cb086b7faf",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fb13106f-b7be-4d85-bd89-d5cb086b7faf"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fb13106f-b7be-4d85-bd89-d5cb086b7faf",
-        "name": "Mt. Grant General Hospital - Hawthorne, NV",
-        "address": [
-          {
-            "line": [
-              "P.O. Box 1510"
-            ],
-            "city": "Hawthorne",
-            "state": "NV",
-            "postalCode": "89415-18510",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fb13106f-b7be-4d85-bd89-d5cb086b7faf"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fb13106f-b7be-4d85-bd89-d5cb086b7faf/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fb13106f-b7be-4d85-bd89-d5cb086b7faf"
 }

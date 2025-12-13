@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "26170601-2fc1-48a8-8689-c97222423022",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/26170601-2fc1-48a8-8689-c97222423022"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "26170601-2fc1-48a8-8689-c97222423022",
-        "name": "The Residences at Kenilworth Park - Washington, DC",
-        "address": [
-          {
-            "line": [
-              "1650 Kenilworth Avenue Northeast"
-            ],
-            "city": "Washington",
-            "state": "DC",
-            "postalCode": "20019",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "26170601-2fc1-48a8-8689-c97222423022"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/26170601-2fc1-48a8-8689-c97222423022/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/26170601-2fc1-48a8-8689-c97222423022"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "008acc1d-e403-40f9-9af8-04161ee21983",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/008acc1d-e403-40f9-9af8-04161ee21983"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "008acc1d-e403-40f9-9af8-04161ee21983",
-        "name": "ESSENTIAL HEALTH GROUP LLC - Northport, AL",
-        "address": [
-          {
-            "line": [
-              "2215 32nd Street"
-            ],
-            "city": "Northport",
-            "state": "AL",
-            "postalCode": "35476",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "008acc1d-e403-40f9-9af8-04161ee21983"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/008acc1d-e403-40f9-9af8-04161ee21983/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/008acc1d-e403-40f9-9af8-04161ee21983"
 }

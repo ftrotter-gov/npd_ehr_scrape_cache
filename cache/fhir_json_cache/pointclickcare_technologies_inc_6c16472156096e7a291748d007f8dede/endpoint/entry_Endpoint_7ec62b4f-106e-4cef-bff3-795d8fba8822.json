@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7ec62b4f-106e-4cef-bff3-795d8fba8822",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7ec62b4f-106e-4cef-bff3-795d8fba8822"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7ec62b4f-106e-4cef-bff3-795d8fba8822",
-        "name": "Ottawa County Riverview Senior HealthCar - Oak Harbor, OH",
-        "address": [
-          {
-            "line": [
-              "8180 W State Rte 163"
-            ],
-            "city": "Oak Harbor",
-            "state": "OH",
-            "postalCode": "43449-9602",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7ec62b4f-106e-4cef-bff3-795d8fba8822"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7ec62b4f-106e-4cef-bff3-795d8fba8822/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7ec62b4f-106e-4cef-bff3-795d8fba8822"
 }

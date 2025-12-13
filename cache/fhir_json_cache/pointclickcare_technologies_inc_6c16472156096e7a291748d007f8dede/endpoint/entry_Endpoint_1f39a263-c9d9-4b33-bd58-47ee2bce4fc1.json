@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1f39a263-c9d9-4b33-bd58-47ee2bce4fc1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1f39a263-c9d9-4b33-bd58-47ee2bce4fc1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1f39a263-c9d9-4b33-bd58-47ee2bce4fc1",
-        "name": "LONGHOUSE SUPPORTED LIVING LLC - Kirkland, WA",
-        "address": [
-          {
-            "line": [
-              "11417 124th Ave NE",
-              "Suite 100"
-            ],
-            "city": "Kirkland",
-            "state": "WA",
-            "postalCode": "98033",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1f39a263-c9d9-4b33-bd58-47ee2bce4fc1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1f39a263-c9d9-4b33-bd58-47ee2bce4fc1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1f39a263-c9d9-4b33-bd58-47ee2bce4fc1"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "860429d9-c01a-401a-91db-cddf35808c40",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/860429d9-c01a-401a-91db-cddf35808c40"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "860429d9-c01a-401a-91db-cddf35808c40",
-        "name": "Good Samaritan Care Provider LLC - ",
-        "address": [
-          {
-            "line": [
-              "10599 Davis Road"
-            ],
-            "city": "Stockton",
-            "state": "CA",
-            "postalCode": "95209",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "860429d9-c01a-401a-91db-cddf35808c40"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/860429d9-c01a-401a-91db-cddf35808c40/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/860429d9-c01a-401a-91db-cddf35808c40"
 }

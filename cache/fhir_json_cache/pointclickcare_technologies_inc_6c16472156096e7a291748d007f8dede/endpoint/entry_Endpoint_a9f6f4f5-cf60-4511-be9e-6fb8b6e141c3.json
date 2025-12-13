@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a9f6f4f5-cf60-4511-be9e-6fb8b6e141c3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a9f6f4f5-cf60-4511-be9e-6fb8b6e141c3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a9f6f4f5-cf60-4511-be9e-6fb8b6e141c3",
-        "name": "Upstate Services Group - Spring Valley, NY",
-        "address": [
-          {
-            "line": [
-              "1 Hillcrest Center Drive",
-              "225"
-            ],
-            "city": "Spring Valley",
-            "state": "NY",
-            "postalCode": "10977",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a9f6f4f5-cf60-4511-be9e-6fb8b6e141c3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a9f6f4f5-cf60-4511-be9e-6fb8b6e141c3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a9f6f4f5-cf60-4511-be9e-6fb8b6e141c3"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "62114b55-1fd0-449b-a8fa-4dbfb777d3cf",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/62114b55-1fd0-449b-a8fa-4dbfb777d3cf"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "62114b55-1fd0-449b-a8fa-4dbfb777d3cf",
-        "name": "Avon Healthcare Services - Lakewood, NJ",
-        "address": [
-          {
-            "line": [
-              "100 Boulevard of the Americas"
-            ],
-            "city": "Lakewood",
-            "state": "NJ",
-            "postalCode": "08701",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "62114b55-1fd0-449b-a8fa-4dbfb777d3cf"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/62114b55-1fd0-449b-a8fa-4dbfb777d3cf/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/62114b55-1fd0-449b-a8fa-4dbfb777d3cf"
 }

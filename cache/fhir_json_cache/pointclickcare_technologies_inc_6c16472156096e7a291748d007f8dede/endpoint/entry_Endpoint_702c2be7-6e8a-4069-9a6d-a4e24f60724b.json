@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "702c2be7-6e8a-4069-9a6d-a4e24f60724b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/702c2be7-6e8a-4069-9a6d-a4e24f60724b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "702c2be7-6e8a-4069-9a6d-a4e24f60724b",
-        "name": "Meadowbrook Post Acute - Hemet, CA",
-        "address": [
-          {
-            "line": [
-              "461 E Johnston Ave"
-            ],
-            "city": "Hemet",
-            "state": "CA",
-            "postalCode": "92543-7195",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "702c2be7-6e8a-4069-9a6d-a4e24f60724b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/702c2be7-6e8a-4069-9a6d-a4e24f60724b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/702c2be7-6e8a-4069-9a6d-a4e24f60724b"
 }

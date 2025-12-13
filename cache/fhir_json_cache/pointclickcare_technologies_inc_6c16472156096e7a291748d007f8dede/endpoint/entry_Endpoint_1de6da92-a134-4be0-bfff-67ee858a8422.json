@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1de6da92-a134-4be0-bfff-67ee858a8422",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1de6da92-a134-4be0-bfff-67ee858a8422"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1de6da92-a134-4be0-bfff-67ee858a8422",
-        "name": "AristaCare Health Services - South Plainfiel, NJ",
-        "address": [
-          {
-            "line": [
-              "51 Cragwood Road"
-            ],
-            "city": "South Plainfield",
-            "state": "NJ",
-            "postalCode": "07080",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1de6da92-a134-4be0-bfff-67ee858a8422"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1de6da92-a134-4be0-bfff-67ee858a8422/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1de6da92-a134-4be0-bfff-67ee858a8422"
 }

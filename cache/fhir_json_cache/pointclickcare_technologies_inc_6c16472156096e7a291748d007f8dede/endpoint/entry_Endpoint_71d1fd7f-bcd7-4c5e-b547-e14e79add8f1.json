@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "71d1fd7f-bcd7-4c5e-b547-e14e79add8f1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/71d1fd7f-bcd7-4c5e-b547-e14e79add8f1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "71d1fd7f-bcd7-4c5e-b547-e14e79add8f1",
-        "name": "Ashland Hospital Corporation dba Kings D - Ashland, KY",
-        "address": [
-          {
-            "line": [
-              "2201 Lexington Avenue",
-              "3rd Floor"
-            ],
-            "city": "Ashland",
-            "state": "KY",
-            "postalCode": "41101",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "71d1fd7f-bcd7-4c5e-b547-e14e79add8f1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/71d1fd7f-bcd7-4c5e-b547-e14e79add8f1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/71d1fd7f-bcd7-4c5e-b547-e14e79add8f1"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "37466875-b619-424b-8cbc-0a27bca2caaa",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/37466875-b619-424b-8cbc-0a27bca2caaa"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "37466875-b619-424b-8cbc-0a27bca2caaa",
-        "name": "Seton Residence - ",
-        "address": [
-          {
-            "line": [
-              "9200 New Harmony Road"
-            ],
-            "city": "Evansville",
-            "state": "IN",
-            "postalCode": "47720",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "37466875-b619-424b-8cbc-0a27bca2caaa"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/37466875-b619-424b-8cbc-0a27bca2caaa/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/37466875-b619-424b-8cbc-0a27bca2caaa"
 }

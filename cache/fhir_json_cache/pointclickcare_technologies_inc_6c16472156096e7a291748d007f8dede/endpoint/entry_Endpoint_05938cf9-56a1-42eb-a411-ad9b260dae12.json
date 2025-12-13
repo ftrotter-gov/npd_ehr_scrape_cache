@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "05938cf9-56a1-42eb-a411-ad9b260dae12",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/05938cf9-56a1-42eb-a411-ad9b260dae12"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "05938cf9-56a1-42eb-a411-ad9b260dae12",
-        "name": "Brayco, Inc. - Elberton, GA",
-        "address": [
-          {
-            "line": [
-              "1571 Bowman Highway"
-            ],
-            "city": "Elberton",
-            "state": "GA",
-            "postalCode": "30635",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "05938cf9-56a1-42eb-a411-ad9b260dae12"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/05938cf9-56a1-42eb-a411-ad9b260dae12/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/05938cf9-56a1-42eb-a411-ad9b260dae12"
 }

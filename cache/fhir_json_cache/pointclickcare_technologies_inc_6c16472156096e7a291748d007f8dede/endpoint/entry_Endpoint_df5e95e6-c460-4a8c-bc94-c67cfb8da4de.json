@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "df5e95e6-c460-4a8c-bc94-c67cfb8da4de",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/df5e95e6-c460-4a8c-bc94-c67cfb8da4de"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "df5e95e6-c460-4a8c-bc94-c67cfb8da4de",
-        "name": "ABRI HEALTH SERVICES LLC - Dallas, TX",
-        "address": [
-          {
-            "line": [
-              "600 North Pearl Street",
-              "Suite 1050"
-            ],
-            "city": "Dallas",
-            "state": "TX",
-            "postalCode": "75201",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "df5e95e6-c460-4a8c-bc94-c67cfb8da4de"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/df5e95e6-c460-4a8c-bc94-c67cfb8da4de/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/df5e95e6-c460-4a8c-bc94-c67cfb8da4de"
 }

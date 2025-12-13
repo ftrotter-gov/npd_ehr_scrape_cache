@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "87f5c5ca-b628-4279-81c1-4e61565e772b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/87f5c5ca-b628-4279-81c1-4e61565e772b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "87f5c5ca-b628-4279-81c1-4e61565e772b",
-        "name": "Piatt County dba Piatt County Nursing Ho - Monticello, IL",
-        "address": [
-          {
-            "line": [
-              "1111 North State Street"
-            ],
-            "city": "Monticello",
-            "state": "IL",
-            "postalCode": "61856",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "87f5c5ca-b628-4279-81c1-4e61565e772b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/87f5c5ca-b628-4279-81c1-4e61565e772b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/87f5c5ca-b628-4279-81c1-4e61565e772b"
 }

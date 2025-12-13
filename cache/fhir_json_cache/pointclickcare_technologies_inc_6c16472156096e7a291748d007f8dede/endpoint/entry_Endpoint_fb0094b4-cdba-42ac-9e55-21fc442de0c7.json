@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fb0094b4-cdba-42ac-9e55-21fc442de0c7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fb0094b4-cdba-42ac-9e55-21fc442de0c7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fb0094b4-cdba-42ac-9e55-21fc442de0c7",
-        "name": "Life Care Services LLC - Des Moines, IA",
-        "address": [
-          {
-            "line": [
-              "400 Locust Street",
-              "Suite 820"
-            ],
-            "city": "Des Moines",
-            "state": "IA",
-            "postalCode": "50309",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fb0094b4-cdba-42ac-9e55-21fc442de0c7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fb0094b4-cdba-42ac-9e55-21fc442de0c7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fb0094b4-cdba-42ac-9e55-21fc442de0c7"
 }

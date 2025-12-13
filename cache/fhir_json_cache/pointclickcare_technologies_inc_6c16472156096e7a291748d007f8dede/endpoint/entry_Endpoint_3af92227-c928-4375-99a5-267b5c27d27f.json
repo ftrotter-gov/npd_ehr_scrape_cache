@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3af92227-c928-4375-99a5-267b5c27d27f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3af92227-c928-4375-99a5-267b5c27d27f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3af92227-c928-4375-99a5-267b5c27d27f",
-        "name": "Cherokee Indian Hospital - Tsali SNF - Cherokee, NC",
-        "address": [
-          {
-            "line": [
-              "Cherokee, Qualla Boundary (NC)",
-              "55 Echota Church Road"
-            ],
-            "city": "Cherokee",
-            "state": "NC",
-            "postalCode": "28719",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3af92227-c928-4375-99a5-267b5c27d27f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3af92227-c928-4375-99a5-267b5c27d27f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3af92227-c928-4375-99a5-267b5c27d27f"
 }

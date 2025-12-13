@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4bcb1b6a-3da8-457e-b929-5067ee4ae123",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4bcb1b6a-3da8-457e-b929-5067ee4ae123"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4bcb1b6a-3da8-457e-b929-5067ee4ae123",
-        "name": "Graceworks Lutheran Services - Dayton, OH",
-        "address": [
-          {
-            "line": [
-              "6430 Inner Mission Way"
-            ],
-            "city": "Dayton",
-            "state": "OH",
-            "postalCode": "45459",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4bcb1b6a-3da8-457e-b929-5067ee4ae123"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4bcb1b6a-3da8-457e-b929-5067ee4ae123/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4bcb1b6a-3da8-457e-b929-5067ee4ae123"
 }

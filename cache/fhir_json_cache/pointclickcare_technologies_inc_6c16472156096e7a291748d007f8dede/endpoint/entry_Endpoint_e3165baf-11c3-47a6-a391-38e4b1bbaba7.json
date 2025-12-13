@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e3165baf-11c3-47a6-a391-38e4b1bbaba7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e3165baf-11c3-47a6-a391-38e4b1bbaba7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e3165baf-11c3-47a6-a391-38e4b1bbaba7",
-        "name": "Evangelical Homes of Michigan - Saine, MI",
-        "address": [
-          {
-            "line": [
-              "400 W. Russell",
-              "Suite 101"
-            ],
-            "city": "Saine",
-            "state": "MI",
-            "postalCode": "48176",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e3165baf-11c3-47a6-a391-38e4b1bbaba7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e3165baf-11c3-47a6-a391-38e4b1bbaba7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e3165baf-11c3-47a6-a391-38e4b1bbaba7"
 }

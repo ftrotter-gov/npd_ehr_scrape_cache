@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d5512b03-e309-48bd-a87d-fc4b3250f5de",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d5512b03-e309-48bd-a87d-fc4b3250f5de"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d5512b03-e309-48bd-a87d-fc4b3250f5de",
-        "name": "County of Northampton dba Gracedale Nurs - Nazareth, PA",
-        "address": [
-          {
-            "line": [
-              "2 Gracedale Ave"
-            ],
-            "city": "Nazareth",
-            "state": "PA",
-            "postalCode": "18064",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d5512b03-e309-48bd-a87d-fc4b3250f5de"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d5512b03-e309-48bd-a87d-fc4b3250f5de/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d5512b03-e309-48bd-a87d-fc4b3250f5de"
 }

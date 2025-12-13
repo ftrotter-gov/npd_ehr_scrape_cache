@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b0c4f42d-2632-4d06-a2b1-94cfdabbcffa",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b0c4f42d-2632-4d06-a2b1-94cfdabbcffa"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b0c4f42d-2632-4d06-a2b1-94cfdabbcffa",
-        "name": "Symphony Senior Home Care - White Bear Lake, MN",
-        "address": [
-          {
-            "line": [
-              "4711 Clark Ave."
-            ],
-            "city": "White Bear Lake",
-            "state": "MN",
-            "postalCode": "55110",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b0c4f42d-2632-4d06-a2b1-94cfdabbcffa"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b0c4f42d-2632-4d06-a2b1-94cfdabbcffa/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b0c4f42d-2632-4d06-a2b1-94cfdabbcffa"
 }

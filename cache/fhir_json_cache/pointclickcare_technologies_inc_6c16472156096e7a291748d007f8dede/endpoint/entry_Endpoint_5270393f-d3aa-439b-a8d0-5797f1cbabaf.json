@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5270393f-d3aa-439b-a8d0-5797f1cbabaf",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5270393f-d3aa-439b-a8d0-5797f1cbabaf"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5270393f-d3aa-439b-a8d0-5797f1cbabaf",
-        "name": "Alameda Elder Communities - Moving to AL - Alameda, CA",
-        "address": [
-          {
-            "line": [
-              "1723 Webster St"
-            ],
-            "city": "Alameda",
-            "state": "CA",
-            "postalCode": "94501",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5270393f-d3aa-439b-a8d0-5797f1cbabaf"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5270393f-d3aa-439b-a8d0-5797f1cbabaf/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5270393f-d3aa-439b-a8d0-5797f1cbabaf"
 }

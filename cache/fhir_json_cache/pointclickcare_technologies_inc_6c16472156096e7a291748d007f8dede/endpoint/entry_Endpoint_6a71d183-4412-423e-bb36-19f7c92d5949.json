@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6a71d183-4412-423e-bb36-19f7c92d5949",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6a71d183-4412-423e-bb36-19f7c92d5949"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6a71d183-4412-423e-bb36-19f7c92d5949",
-        "name": "Garden View Care Center - Saint Louis, MO",
-        "address": [
-          {
-            "line": [
-              "12444 Powerscourt",
-              "Suite 170"
-            ],
-            "city": "Saint Louis",
-            "state": "MO",
-            "postalCode": "63131",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6a71d183-4412-423e-bb36-19f7c92d5949"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6a71d183-4412-423e-bb36-19f7c92d5949/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6a71d183-4412-423e-bb36-19f7c92d5949"
 }

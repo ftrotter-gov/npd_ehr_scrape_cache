@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "824acf17-2f42-4d04-96e9-485d7e3eaa2f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/824acf17-2f42-4d04-96e9-485d7e3eaa2f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "824acf17-2f42-4d04-96e9-485d7e3eaa2f",
-        "name": "Brookville Enterprises, Inc. dba Brookha - Brookville, OH",
-        "address": [
-          {
-            "line": [
-              "1 Country Ln"
-            ],
-            "city": "Brookville",
-            "state": "OH",
-            "postalCode": "45309-9268",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "824acf17-2f42-4d04-96e9-485d7e3eaa2f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/824acf17-2f42-4d04-96e9-485d7e3eaa2f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/824acf17-2f42-4d04-96e9-485d7e3eaa2f"
 }

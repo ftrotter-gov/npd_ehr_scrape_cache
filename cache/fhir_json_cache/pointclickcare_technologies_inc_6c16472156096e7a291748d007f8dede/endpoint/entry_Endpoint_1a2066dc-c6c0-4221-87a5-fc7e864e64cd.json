@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1a2066dc-c6c0-4221-87a5-fc7e864e64cd",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1a2066dc-c6c0-4221-87a5-fc7e864e64cd"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1a2066dc-c6c0-4221-87a5-fc7e864e64cd",
-        "name": "Bedford Health Properties, LLC - Hattiesburg, MS",
-        "address": [
-          {
-            "line": [
-              "100 West Pine St."
-            ],
-            "city": "Hattiesburg",
-            "state": "MS",
-            "postalCode": "39401",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1a2066dc-c6c0-4221-87a5-fc7e864e64cd"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1a2066dc-c6c0-4221-87a5-fc7e864e64cd/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1a2066dc-c6c0-4221-87a5-fc7e864e64cd"
 }

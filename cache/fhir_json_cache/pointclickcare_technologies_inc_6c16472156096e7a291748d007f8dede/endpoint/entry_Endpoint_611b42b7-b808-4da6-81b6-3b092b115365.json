@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "611b42b7-b808-4da6-81b6-3b092b115365",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/611b42b7-b808-4da6-81b6-3b092b115365"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "611b42b7-b808-4da6-81b6-3b092b115365",
-        "name": "P&M Management - Fontana, CA",
-        "address": [
-          {
-            "line": [
-              "16742 Orange Way"
-            ],
-            "city": "Fontana",
-            "state": "CA",
-            "postalCode": "92335",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "611b42b7-b808-4da6-81b6-3b092b115365"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/611b42b7-b808-4da6-81b6-3b092b115365/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/611b42b7-b808-4da6-81b6-3b092b115365"
 }

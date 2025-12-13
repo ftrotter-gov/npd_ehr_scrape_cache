@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0773a0b2-81d9-4269-89d5-829b7181f6d0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0773a0b2-81d9-4269-89d5-829b7181f6d0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0773a0b2-81d9-4269-89d5-829b7181f6d0",
-        "name": "Fairview Health Services - Minneapolis, MN",
-        "address": [
-          {
-            "line": [
-              "Attn.: Martha Swenson 4th Floor Rehab Bldg",
-              "2450 Riverside Ave"
-            ],
-            "city": "Minneapolis",
-            "state": "MN",
-            "postalCode": "55454",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0773a0b2-81d9-4269-89d5-829b7181f6d0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0773a0b2-81d9-4269-89d5-829b7181f6d0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0773a0b2-81d9-4269-89d5-829b7181f6d0"
 }

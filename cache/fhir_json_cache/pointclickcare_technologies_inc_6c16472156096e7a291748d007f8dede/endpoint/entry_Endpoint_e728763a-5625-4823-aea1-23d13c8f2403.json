@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e728763a-5625-4823-aea1-23d13c8f2403",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e728763a-5625-4823-aea1-23d13c8f2403"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e728763a-5625-4823-aea1-23d13c8f2403",
-        "name": "Alaimo Healthcare, LLC dba Country Villa - Casco, ME",
-        "address": [
-          {
-            "line": [
-              "960 Meadow Road",
-              "Route 121"
-            ],
-            "city": "Casco",
-            "state": "ME",
-            "postalCode": "04015",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e728763a-5625-4823-aea1-23d13c8f2403"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e728763a-5625-4823-aea1-23d13c8f2403/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e728763a-5625-4823-aea1-23d13c8f2403"
 }

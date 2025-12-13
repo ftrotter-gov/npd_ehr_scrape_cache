@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1ea93fa0-f181-4faf-b817-cc8635f9ac61",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1ea93fa0-f181-4faf-b817-cc8635f9ac61"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1ea93fa0-f181-4faf-b817-cc8635f9ac61",
-        "name": "Lena Living Center, LLC - Lena, IL",
-        "address": [
-          {
-            "line": [
-              "1010 South Logan Street",
-              "Suite 300"
-            ],
-            "city": "Lena",
-            "state": "IL",
-            "postalCode": "61048",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1ea93fa0-f181-4faf-b817-cc8635f9ac61"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1ea93fa0-f181-4faf-b817-cc8635f9ac61/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1ea93fa0-f181-4faf-b817-cc8635f9ac61"
 }

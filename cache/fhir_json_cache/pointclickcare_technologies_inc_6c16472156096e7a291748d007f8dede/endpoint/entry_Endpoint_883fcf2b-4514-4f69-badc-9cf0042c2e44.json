@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "883fcf2b-4514-4f69-badc-9cf0042c2e44",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/883fcf2b-4514-4f69-badc-9cf0042c2e44"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "883fcf2b-4514-4f69-badc-9cf0042c2e44",
-        "name": "Elmwood Centre Inc. - Green Springs, OH",
-        "address": [
-          {
-            "line": [
-              "P.O. Box 187"
-            ],
-            "city": "Green Springs",
-            "state": "OH",
-            "postalCode": "44836",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "883fcf2b-4514-4f69-badc-9cf0042c2e44"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/883fcf2b-4514-4f69-badc-9cf0042c2e44/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/883fcf2b-4514-4f69-badc-9cf0042c2e44"
 }

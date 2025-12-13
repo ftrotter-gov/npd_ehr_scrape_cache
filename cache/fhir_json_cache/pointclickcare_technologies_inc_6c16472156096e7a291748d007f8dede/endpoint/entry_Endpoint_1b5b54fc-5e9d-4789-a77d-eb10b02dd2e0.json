@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1b5b54fc-5e9d-4789-a77d-eb10b02dd2e0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1b5b54fc-5e9d-4789-a77d-eb10b02dd2e0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1b5b54fc-5e9d-4789-a77d-eb10b02dd2e0",
-        "name": "McCamey Convalescent Center - McCamey, TX",
-        "address": [
-          {
-            "line": [
-              "2500 Hwy 385 South",
-              "PO Box 1200"
-            ],
-            "city": "McCamey",
-            "state": "TX",
-            "postalCode": "79752",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1b5b54fc-5e9d-4789-a77d-eb10b02dd2e0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1b5b54fc-5e9d-4789-a77d-eb10b02dd2e0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1b5b54fc-5e9d-4789-a77d-eb10b02dd2e0"
 }

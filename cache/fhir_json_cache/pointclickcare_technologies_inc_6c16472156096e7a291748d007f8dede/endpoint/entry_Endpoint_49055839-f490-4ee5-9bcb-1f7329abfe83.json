@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "49055839-f490-4ee5-9bcb-1f7329abfe83",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/49055839-f490-4ee5-9bcb-1f7329abfe83"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "49055839-f490-4ee5-9bcb-1f7329abfe83",
-        "name": "St. Agnes Health Care & Rehab Center - Breaux Bridge, LA",
-        "address": [
-          {
-            "line": [
-              "606 Latiolais Rd",
-              "PO Box 10"
-            ],
-            "city": "Breaux Bridge",
-            "state": "LA",
-            "postalCode": "70517",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "49055839-f490-4ee5-9bcb-1f7329abfe83"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/49055839-f490-4ee5-9bcb-1f7329abfe83/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/49055839-f490-4ee5-9bcb-1f7329abfe83"
 }

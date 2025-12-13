@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a793d7d1-b740-4de9-b0b8-da07a50346e4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a793d7d1-b740-4de9-b0b8-da07a50346e4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a793d7d1-b740-4de9-b0b8-da07a50346e4",
-        "name": "Chelsea Jewish LifeCare, Inc - Chelsea, MA",
-        "address": [
-          {
-            "line": [
-              "165 Captains Row"
-            ],
-            "city": "Chelsea",
-            "state": "MA",
-            "postalCode": "02150",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a793d7d1-b740-4de9-b0b8-da07a50346e4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a793d7d1-b740-4de9-b0b8-da07a50346e4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a793d7d1-b740-4de9-b0b8-da07a50346e4"
 }

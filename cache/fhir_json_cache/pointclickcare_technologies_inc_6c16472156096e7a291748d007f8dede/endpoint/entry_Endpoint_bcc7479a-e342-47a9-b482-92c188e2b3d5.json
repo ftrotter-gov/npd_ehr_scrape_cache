@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bcc7479a-e342-47a9-b482-92c188e2b3d5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bcc7479a-e342-47a9-b482-92c188e2b3d5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bcc7479a-e342-47a9-b482-92c188e2b3d5",
-        "name": "Elderwood Administrative Services, LLC - Buffalo, NY",
-        "address": [
-          {
-            "line": [
-              "500 Seneca St.",
-              "Suite 100"
-            ],
-            "city": "Buffalo",
-            "state": "NY",
-            "postalCode": "14204",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bcc7479a-e342-47a9-b482-92c188e2b3d5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bcc7479a-e342-47a9-b482-92c188e2b3d5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bcc7479a-e342-47a9-b482-92c188e2b3d5"
 }

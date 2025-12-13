@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fc1b28e5-d4cd-4309-9681-012b8cb6a52e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fc1b28e5-d4cd-4309-9681-012b8cb6a52e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fc1b28e5-d4cd-4309-9681-012b8cb6a52e",
-        "name": "Coffey County Hospital - Burlington, KS",
-        "address": [
-          {
-            "line": [
-              "801 N. 4th"
-            ],
-            "city": "Burlington",
-            "state": "KS",
-            "postalCode": "66839",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fc1b28e5-d4cd-4309-9681-012b8cb6a52e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fc1b28e5-d4cd-4309-9681-012b8cb6a52e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fc1b28e5-d4cd-4309-9681-012b8cb6a52e"
 }

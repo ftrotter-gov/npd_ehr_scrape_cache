@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b6d6a900-cdd7-4ef8-a7aa-9326fc9f995e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b6d6a900-cdd7-4ef8-a7aa-9326fc9f995e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b6d6a900-cdd7-4ef8-a7aa-9326fc9f995e",
-        "name": "Hamister Group, LLC - Buffalo, NY",
-        "address": [
-          {
-            "line": [
-              "10 Lafayette Square",
-              "Suite 1900"
-            ],
-            "city": "Buffalo",
-            "state": "NY",
-            "postalCode": "14203",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b6d6a900-cdd7-4ef8-a7aa-9326fc9f995e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b6d6a900-cdd7-4ef8-a7aa-9326fc9f995e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b6d6a900-cdd7-4ef8-a7aa-9326fc9f995e"
 }

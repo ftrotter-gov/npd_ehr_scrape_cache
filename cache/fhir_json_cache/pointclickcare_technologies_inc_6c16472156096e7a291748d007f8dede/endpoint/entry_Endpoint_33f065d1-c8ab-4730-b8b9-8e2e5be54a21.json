@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "33f065d1-c8ab-4730-b8b9-8e2e5be54a21",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/33f065d1-c8ab-4730-b8b9-8e2e5be54a21"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "33f065d1-c8ab-4730-b8b9-8e2e5be54a21",
-        "name": "Bancroft Health Group Inc - San Leandro, CA",
-        "address": [
-          {
-            "line": [
-              "1475 Bancroft Ave"
-            ],
-            "city": "San Leandro",
-            "state": "CA",
-            "postalCode": "94577",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "33f065d1-c8ab-4730-b8b9-8e2e5be54a21"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/33f065d1-c8ab-4730-b8b9-8e2e5be54a21/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/33f065d1-c8ab-4730-b8b9-8e2e5be54a21"
 }

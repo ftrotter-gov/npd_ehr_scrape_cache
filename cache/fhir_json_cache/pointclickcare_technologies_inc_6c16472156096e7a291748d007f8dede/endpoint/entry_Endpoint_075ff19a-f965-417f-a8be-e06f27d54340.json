@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "075ff19a-f965-417f-a8be-e06f27d54340",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/075ff19a-f965-417f-a8be-e06f27d54340"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "075ff19a-f965-417f-a8be-e06f27d54340",
-        "name": "The Heritage of the Woodlands, LLC - Spring, TX",
-        "address": [
-          {
-            "line": [
-              "10700 Montfair Blvd"
-            ],
-            "city": "Spring",
-            "state": "TX",
-            "postalCode": "77382",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "075ff19a-f965-417f-a8be-e06f27d54340"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/075ff19a-f965-417f-a8be-e06f27d54340/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/075ff19a-f965-417f-a8be-e06f27d54340"
 }

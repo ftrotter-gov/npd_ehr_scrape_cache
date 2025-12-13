@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3dffb55c-af9a-41f0-84fc-39e31b3794ee",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3dffb55c-af9a-41f0-84fc-39e31b3794ee"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3dffb55c-af9a-41f0-84fc-39e31b3794ee",
-        "name": "Carnelian Assisted Living - Walnut Creek, CA",
-        "address": [
-          {
-            "line": [
-              "2380 Warren Road"
-            ],
-            "city": "Walnut Creek",
-            "state": "CA",
-            "postalCode": "94595",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3dffb55c-af9a-41f0-84fc-39e31b3794ee"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3dffb55c-af9a-41f0-84fc-39e31b3794ee/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3dffb55c-af9a-41f0-84fc-39e31b3794ee"
 }

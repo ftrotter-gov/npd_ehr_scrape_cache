@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "921f2b32-ca20-4231-a9a3-5f41015096c4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/921f2b32-ca20-4231-a9a3-5f41015096c4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "921f2b32-ca20-4231-a9a3-5f41015096c4",
-        "name": "Lutheran Social Services of Central Ohio - Worthington, OH",
-        "address": [
-          {
-            "line": [
-              "500 West Wilson Bridge Road",
-              "Suite#245"
-            ],
-            "city": "Worthington",
-            "state": "OH",
-            "postalCode": "43085",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "921f2b32-ca20-4231-a9a3-5f41015096c4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/921f2b32-ca20-4231-a9a3-5f41015096c4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/921f2b32-ca20-4231-a9a3-5f41015096c4"
 }

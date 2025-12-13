@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bfcf23eb-837a-46fd-ace5-fa20bf256154",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bfcf23eb-837a-46fd-ace5-fa20bf256154"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bfcf23eb-837a-46fd-ace5-fa20bf256154",
-        "name": "Coos County Nursing Home - Berlin, NH",
-        "address": [
-          {
-            "line": [
-              "364 Cates Hill Rd",
-              "PO Box 416"
-            ],
-            "city": "Berlin",
-            "state": "NH",
-            "postalCode": "3570",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bfcf23eb-837a-46fd-ace5-fa20bf256154"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bfcf23eb-837a-46fd-ace5-fa20bf256154/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bfcf23eb-837a-46fd-ace5-fa20bf256154"
 }

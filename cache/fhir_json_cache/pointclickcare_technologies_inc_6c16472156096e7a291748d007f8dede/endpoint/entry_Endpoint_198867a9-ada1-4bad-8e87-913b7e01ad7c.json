@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "198867a9-ada1-4bad-8e87-913b7e01ad7c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/198867a9-ada1-4bad-8e87-913b7e01ad7c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "198867a9-ada1-4bad-8e87-913b7e01ad7c",
-        "name": "BETHANY HOME ASSOCIATION OF LINDSBORG, K - Lindsborg, KS",
-        "address": [
-          {
-            "line": [
-              "321 N. Chestnut"
-            ],
-            "city": "Lindsborg",
-            "state": "KS",
-            "postalCode": "67456",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "198867a9-ada1-4bad-8e87-913b7e01ad7c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/198867a9-ada1-4bad-8e87-913b7e01ad7c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/198867a9-ada1-4bad-8e87-913b7e01ad7c"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "84cba71b-47ab-486b-a203-38aae5ebe65f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/84cba71b-47ab-486b-a203-38aae5ebe65f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "84cba71b-47ab-486b-a203-38aae5ebe65f",
-        "name": "Ivy Healthcare LLC - Surfside, FL",
-        "address": [
-          {
-            "line": [
-              "9429 Harding Avenue #141"
-            ],
-            "city": "Surfside",
-            "state": "FL",
-            "postalCode": "33154",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "84cba71b-47ab-486b-a203-38aae5ebe65f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/84cba71b-47ab-486b-a203-38aae5ebe65f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/84cba71b-47ab-486b-a203-38aae5ebe65f"
 }

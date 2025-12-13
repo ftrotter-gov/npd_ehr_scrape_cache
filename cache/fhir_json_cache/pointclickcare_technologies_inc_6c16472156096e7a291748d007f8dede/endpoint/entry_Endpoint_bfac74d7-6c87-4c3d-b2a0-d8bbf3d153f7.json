@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bfac74d7-6c87-4c3d-b2a0-d8bbf3d153f7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bfac74d7-6c87-4c3d-b2a0-d8bbf3d153f7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bfac74d7-6c87-4c3d-b2a0-d8bbf3d153f7",
-        "name": "Maples Benzie County Medical Care Facili - Frankfort, MI",
-        "address": [
-          {
-            "line": [
-              "210 Maple St"
-            ],
-            "city": "Frankfort",
-            "state": "MI",
-            "postalCode": "49635",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bfac74d7-6c87-4c3d-b2a0-d8bbf3d153f7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bfac74d7-6c87-4c3d-b2a0-d8bbf3d153f7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bfac74d7-6c87-4c3d-b2a0-d8bbf3d153f7"
 }

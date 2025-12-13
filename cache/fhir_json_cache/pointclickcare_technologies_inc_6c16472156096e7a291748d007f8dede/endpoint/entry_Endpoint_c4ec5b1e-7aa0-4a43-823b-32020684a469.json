@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c4ec5b1e-7aa0-4a43-823b-32020684a469",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c4ec5b1e-7aa0-4a43-823b-32020684a469"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c4ec5b1e-7aa0-4a43-823b-32020684a469",
-        "name": "Lima Convalescent Home - Lima, OH",
-        "address": [
-          {
-            "line": [
-              "1640 Allentown Rd"
-            ],
-            "city": "Lima",
-            "state": "OH",
-            "postalCode": "45805",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c4ec5b1e-7aa0-4a43-823b-32020684a469"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c4ec5b1e-7aa0-4a43-823b-32020684a469/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c4ec5b1e-7aa0-4a43-823b-32020684a469"
 }

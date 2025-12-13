@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a8ca3855-8ad8-4d4a-942f-3a6284102583",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a8ca3855-8ad8-4d4a-942f-3a6284102583"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a8ca3855-8ad8-4d4a-942f-3a6284102583",
-        "name": "Platte County Legacy Home - Wheatland, WY",
-        "address": [
-          {
-            "line": [
-              "Platte County Legacy Home",
-              "100 19th Street"
-            ],
-            "city": "Wheatland",
-            "state": "WY",
-            "postalCode": "82201",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a8ca3855-8ad8-4d4a-942f-3a6284102583"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a8ca3855-8ad8-4d4a-942f-3a6284102583/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a8ca3855-8ad8-4d4a-942f-3a6284102583"
 }

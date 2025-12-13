@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ec533012-470d-484f-ad29-aa29c8dd7bdf",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ec533012-470d-484f-ad29-aa29c8dd7bdf"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ec533012-470d-484f-ad29-aa29c8dd7bdf",
-        "name": "Cedar Communities - Jericho, NY",
-        "address": [
-          {
-            "line": [
-              "420 Jericho Turnpike"
-            ],
-            "city": "Jericho",
-            "state": "NY",
-            "postalCode": "11753",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ec533012-470d-484f-ad29-aa29c8dd7bdf"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ec533012-470d-484f-ad29-aa29c8dd7bdf/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ec533012-470d-484f-ad29-aa29c8dd7bdf"
 }

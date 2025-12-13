@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a853cafb-80aa-4343-949a-70d95a17ac5a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a853cafb-80aa-4343-949a-70d95a17ac5a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a853cafb-80aa-4343-949a-70d95a17ac5a",
-        "name": "Rockwood Retirement Communities - Spokane, WA",
-        "address": [
-          {
-            "line": [
-              "101 E Hawthorne Rd"
-            ],
-            "city": "Spokane",
-            "state": "WA",
-            "postalCode": "99218",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a853cafb-80aa-4343-949a-70d95a17ac5a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a853cafb-80aa-4343-949a-70d95a17ac5a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a853cafb-80aa-4343-949a-70d95a17ac5a"
 }

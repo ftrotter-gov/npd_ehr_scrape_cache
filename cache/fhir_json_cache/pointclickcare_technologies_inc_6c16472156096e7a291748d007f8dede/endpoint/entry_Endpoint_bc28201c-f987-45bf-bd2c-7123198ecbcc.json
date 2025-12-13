@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bc28201c-f987-45bf-bd2c-7123198ecbcc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bc28201c-f987-45bf-bd2c-7123198ecbcc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bc28201c-f987-45bf-bd2c-7123198ecbcc",
-        "name": "Integro Asset Management LLC - Wilmington, DE",
-        "address": [
-          {
-            "line": [
-              "251 LITTLE FALLS DRIVE"
-            ],
-            "city": "Wilmington",
-            "state": "DE",
-            "postalCode": "19808",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bc28201c-f987-45bf-bd2c-7123198ecbcc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bc28201c-f987-45bf-bd2c-7123198ecbcc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bc28201c-f987-45bf-bd2c-7123198ecbcc"
 }

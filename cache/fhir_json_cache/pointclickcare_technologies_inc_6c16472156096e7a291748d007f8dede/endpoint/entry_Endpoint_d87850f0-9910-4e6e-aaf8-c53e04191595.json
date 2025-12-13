@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d87850f0-9910-4e6e-aaf8-c53e04191595",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d87850f0-9910-4e6e-aaf8-c53e04191595"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d87850f0-9910-4e6e-aaf8-c53e04191595",
-        "name": "Silverado - Irvine, CA",
-        "address": [
-          {
-            "line": [
-              "6400 Oak Canyon",
-              "Suite 200"
-            ],
-            "city": "Irvine",
-            "state": "CA",
-            "postalCode": "92618",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d87850f0-9910-4e6e-aaf8-c53e04191595"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d87850f0-9910-4e6e-aaf8-c53e04191595/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d87850f0-9910-4e6e-aaf8-c53e04191595"
 }

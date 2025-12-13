@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e3ad4efb-8150-4bb5-aedd-698a14cab4d1",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e3ad4efb-8150-4bb5-aedd-698a14cab4d1"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e3ad4efb-8150-4bb5-aedd-698a14cab4d1",
-        "name": "Regal Heights Rehabilitation & Health Ca - Jackson Heights, NY",
-        "address": [
-          {
-            "line": [
-              "70-05 35th Avenue"
-            ],
-            "city": "Jackson Heights",
-            "state": "NY",
-            "postalCode": "11372",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e3ad4efb-8150-4bb5-aedd-698a14cab4d1"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e3ad4efb-8150-4bb5-aedd-698a14cab4d1/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e3ad4efb-8150-4bb5-aedd-698a14cab4d1"
 }

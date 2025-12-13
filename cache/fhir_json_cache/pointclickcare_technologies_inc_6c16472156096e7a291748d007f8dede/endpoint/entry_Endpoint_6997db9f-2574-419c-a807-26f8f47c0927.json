@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6997db9f-2574-419c-a807-26f8f47c0927",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6997db9f-2574-419c-a807-26f8f47c0927"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6997db9f-2574-419c-a807-26f8f47c0927",
-        "name": "NewGen Health - Los Angeles, CA",
-        "address": [
-          {
-            "line": [
-              "9526 West Pico Boulevard"
-            ],
-            "city": "Los Angeles",
-            "state": "CA",
-            "postalCode": "90035",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6997db9f-2574-419c-a807-26f8f47c0927"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6997db9f-2574-419c-a807-26f8f47c0927/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6997db9f-2574-419c-a807-26f8f47c0927"
 }

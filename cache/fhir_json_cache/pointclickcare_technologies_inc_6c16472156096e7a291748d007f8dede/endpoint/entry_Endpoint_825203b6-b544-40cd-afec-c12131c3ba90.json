@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "825203b6-b544-40cd-afec-c12131c3ba90",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/825203b6-b544-40cd-afec-c12131c3ba90"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "825203b6-b544-40cd-afec-c12131c3ba90",
-        "name": "Oak Park Estates Assisted Living and Mem - Cedar Falls, IA",
-        "address": [
-          {
-            "line": [
-              "3212 Greenhill Circle"
-            ],
-            "city": "Cedar Falls",
-            "state": "IA",
-            "postalCode": "50613",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "825203b6-b544-40cd-afec-c12131c3ba90"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/825203b6-b544-40cd-afec-c12131c3ba90/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/825203b6-b544-40cd-afec-c12131c3ba90"
 }

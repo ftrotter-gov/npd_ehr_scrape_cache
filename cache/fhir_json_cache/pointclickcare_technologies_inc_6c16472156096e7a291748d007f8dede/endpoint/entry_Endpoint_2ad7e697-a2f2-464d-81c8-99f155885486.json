@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2ad7e697-a2f2-464d-81c8-99f155885486",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2ad7e697-a2f2-464d-81c8-99f155885486"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2ad7e697-a2f2-464d-81c8-99f155885486",
-        "name": "Appleton City Manor - Appleton City, MO",
-        "address": [
-          {
-            "line": [
-              "600 N Ohio",
-              "PO Box 98"
-            ],
-            "city": "Appleton City",
-            "state": "MO",
-            "postalCode": "64724",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2ad7e697-a2f2-464d-81c8-99f155885486"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2ad7e697-a2f2-464d-81c8-99f155885486/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2ad7e697-a2f2-464d-81c8-99f155885486"
 }

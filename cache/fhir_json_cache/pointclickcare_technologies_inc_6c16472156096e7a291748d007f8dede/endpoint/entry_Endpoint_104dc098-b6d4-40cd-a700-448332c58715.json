@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "104dc098-b6d4-40cd-a700-448332c58715",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/104dc098-b6d4-40cd-a700-448332c58715"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "104dc098-b6d4-40cd-a700-448332c58715",
-        "name": "Mid America Care Centers, Inc. - Lincoln, NE",
-        "address": [
-          {
-            "line": [
-              "6101 Normal Blvd"
-            ],
-            "city": "Lincoln",
-            "state": "NE",
-            "postalCode": "68506",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "104dc098-b6d4-40cd-a700-448332c58715"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/104dc098-b6d4-40cd-a700-448332c58715/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/104dc098-b6d4-40cd-a700-448332c58715"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5bca0b8e-9efd-406f-97a6-ea9abcef5f4d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5bca0b8e-9efd-406f-97a6-ea9abcef5f4d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5bca0b8e-9efd-406f-97a6-ea9abcef5f4d",
-        "name": "Covenant Health, Inc. - Tewksbury, MA",
-        "address": [
-          {
-            "line": [
-              "100 Ames Pond Drive"
-            ],
-            "city": "Tewksbury",
-            "state": "MA",
-            "postalCode": "1876-1293",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5bca0b8e-9efd-406f-97a6-ea9abcef5f4d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5bca0b8e-9efd-406f-97a6-ea9abcef5f4d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5bca0b8e-9efd-406f-97a6-ea9abcef5f4d"
 }

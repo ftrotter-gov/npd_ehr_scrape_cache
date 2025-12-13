@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "11c88a12-b2f4-44c0-b993-81761ca37cc9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/11c88a12-b2f4-44c0-b993-81761ca37cc9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "11c88a12-b2f4-44c0-b993-81761ca37cc9",
-        "name": "St Catherine of Siena, Inc - Caldwell, NJ",
-        "address": [
-          {
-            "line": [
-              "7 Ryerson Ave"
-            ],
-            "city": "Caldwell",
-            "state": "NJ",
-            "postalCode": "07006",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "11c88a12-b2f4-44c0-b993-81761ca37cc9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/11c88a12-b2f4-44c0-b993-81761ca37cc9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/11c88a12-b2f4-44c0-b993-81761ca37cc9"
 }

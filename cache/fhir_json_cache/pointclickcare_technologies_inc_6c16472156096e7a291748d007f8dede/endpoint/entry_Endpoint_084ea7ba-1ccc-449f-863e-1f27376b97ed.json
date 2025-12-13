@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "084ea7ba-1ccc-449f-863e-1f27376b97ed",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/084ea7ba-1ccc-449f-863e-1f27376b97ed"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "084ea7ba-1ccc-449f-863e-1f27376b97ed",
-        "name": "Mease Life - Dunedin, FL",
-        "address": [
-          {
-            "line": [
-              "700 Mease Plaza"
-            ],
-            "city": "Dunedin",
-            "state": "FL",
-            "postalCode": "34698-6680",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "084ea7ba-1ccc-449f-863e-1f27376b97ed"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/084ea7ba-1ccc-449f-863e-1f27376b97ed/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/084ea7ba-1ccc-449f-863e-1f27376b97ed"
 }

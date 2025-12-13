@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "de11afbe-b1bc-4b85-b43d-7d5fa9ed5eb7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/de11afbe-b1bc-4b85-b43d-7d5fa9ed5eb7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "de11afbe-b1bc-4b85-b43d-7d5fa9ed5eb7",
-        "name": "Arbors of Hop Brooks LTD Partnership DBA - Manchester, CT",
-        "address": [
-          {
-            "line": [
-              "385 W Center St"
-            ],
-            "city": "Manchester",
-            "state": "CT",
-            "postalCode": "06040",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "de11afbe-b1bc-4b85-b43d-7d5fa9ed5eb7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/de11afbe-b1bc-4b85-b43d-7d5fa9ed5eb7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/de11afbe-b1bc-4b85-b43d-7d5fa9ed5eb7"
 }

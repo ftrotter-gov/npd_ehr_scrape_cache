@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "776ffb86-bd83-407f-88e3-0dbfcb2823a3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/776ffb86-bd83-407f-88e3-0dbfcb2823a3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "776ffb86-bd83-407f-88e3-0dbfcb2823a3",
-        "name": "Solutions Healthcare Consulting LLC - Las Vegas, NV",
-        "address": [
-          {
-            "line": [
-              "2008 Bloomfield Court"
-            ],
-            "city": "Las Vegas",
-            "state": "NV",
-            "postalCode": "89134",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "776ffb86-bd83-407f-88e3-0dbfcb2823a3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/776ffb86-bd83-407f-88e3-0dbfcb2823a3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/776ffb86-bd83-407f-88e3-0dbfcb2823a3"
 }

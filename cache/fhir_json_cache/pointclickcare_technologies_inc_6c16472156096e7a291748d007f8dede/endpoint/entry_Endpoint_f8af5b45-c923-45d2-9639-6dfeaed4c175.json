@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f8af5b45-c923-45d2-9639-6dfeaed4c175",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f8af5b45-c923-45d2-9639-6dfeaed4c175"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f8af5b45-c923-45d2-9639-6dfeaed4c175",
-        "name": "Crestwood Behavioral Health, Inc. - Stockton, CA",
-        "address": [
-          {
-            "line": [
-              "7590 Shoreline Drive"
-            ],
-            "city": "Stockton",
-            "state": "CA",
-            "postalCode": "95219",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f8af5b45-c923-45d2-9639-6dfeaed4c175"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f8af5b45-c923-45d2-9639-6dfeaed4c175/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f8af5b45-c923-45d2-9639-6dfeaed4c175"
 }

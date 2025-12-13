@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7d6a024b-2b43-43b7-afc6-85c7d8f18d94",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7d6a024b-2b43-43b7-afc6-85c7d8f18d94"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7d6a024b-2b43-43b7-afc6-85c7d8f18d94",
-        "name": "The Saint Elizabeth Community - East Greenwich, RI",
-        "address": [
-          {
-            "line": [
-              "One Saint Elizabeth Way"
-            ],
-            "city": "East Greenwich",
-            "state": "RI",
-            "postalCode": "02818",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7d6a024b-2b43-43b7-afc6-85c7d8f18d94"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7d6a024b-2b43-43b7-afc6-85c7d8f18d94/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7d6a024b-2b43-43b7-afc6-85c7d8f18d94"
 }

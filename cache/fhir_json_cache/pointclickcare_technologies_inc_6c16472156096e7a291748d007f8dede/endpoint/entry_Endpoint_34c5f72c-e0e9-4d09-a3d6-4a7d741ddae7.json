@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "34c5f72c-e0e9-4d09-a3d6-4a7d741ddae7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/34c5f72c-e0e9-4d09-a3d6-4a7d741ddae7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "34c5f72c-e0e9-4d09-a3d6-4a7d741ddae7",
-        "name": "Greene Acres Nursing Home - Paragould, AR",
-        "address": [
-          {
-            "line": [
-              "2402 Country Club Rd",
-              "PO Box 1027"
-            ],
-            "city": "Paragould",
-            "state": "AR",
-            "postalCode": "72451",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "34c5f72c-e0e9-4d09-a3d6-4a7d741ddae7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/34c5f72c-e0e9-4d09-a3d6-4a7d741ddae7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/34c5f72c-e0e9-4d09-a3d6-4a7d741ddae7"
 }

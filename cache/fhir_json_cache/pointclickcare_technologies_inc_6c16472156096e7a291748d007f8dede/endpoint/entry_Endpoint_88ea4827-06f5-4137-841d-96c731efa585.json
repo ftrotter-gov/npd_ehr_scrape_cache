@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "88ea4827-06f5-4137-841d-96c731efa585",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/88ea4827-06f5-4137-841d-96c731efa585"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "88ea4827-06f5-4137-841d-96c731efa585",
-        "name": "Brookfield Assisted Living - Bella Vista, AR",
-        "address": [
-          {
-            "line": [
-              "3 Highlands Crossing Dr"
-            ],
-            "city": "Bella Vista",
-            "state": "AR",
-            "postalCode": "72715",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "88ea4827-06f5-4137-841d-96c731efa585"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/88ea4827-06f5-4137-841d-96c731efa585/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/88ea4827-06f5-4137-841d-96c731efa585"
 }

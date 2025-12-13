@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "352881f0-b20c-41b2-87e2-f10553e0c856",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/352881f0-b20c-41b2-87e2-f10553e0c856"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "352881f0-b20c-41b2-87e2-f10553e0c856",
-        "name": "Comprehensive Management Services, Inc. - Sallisaw, OK",
-        "address": [
-          {
-            "line": [
-              "111 East Chickasaw Ave."
-            ],
-            "city": "Sallisaw",
-            "state": "OK",
-            "postalCode": "74955-4625",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "352881f0-b20c-41b2-87e2-f10553e0c856"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/352881f0-b20c-41b2-87e2-f10553e0c856/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/352881f0-b20c-41b2-87e2-f10553e0c856"
 }

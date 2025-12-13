@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "803b0988-05ab-44c4-b5f7-4ac99cd426ec",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/803b0988-05ab-44c4-b5f7-4ac99cd426ec"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "803b0988-05ab-44c4-b5f7-4ac99cd426ec",
-        "name": "LionStone Care - Cincinnati, OH",
-        "address": [
-          {
-            "line": [
-              "3995 Cottingham Drive"
-            ],
-            "city": "Cincinnati",
-            "state": "OH",
-            "postalCode": "45241",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "803b0988-05ab-44c4-b5f7-4ac99cd426ec"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/803b0988-05ab-44c4-b5f7-4ac99cd426ec/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/803b0988-05ab-44c4-b5f7-4ac99cd426ec"
 }

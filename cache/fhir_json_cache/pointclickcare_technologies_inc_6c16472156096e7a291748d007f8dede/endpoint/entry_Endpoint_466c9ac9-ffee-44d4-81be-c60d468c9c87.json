@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "466c9ac9-ffee-44d4-81be-c60d468c9c87",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/466c9ac9-ffee-44d4-81be-c60d468c9c87"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "466c9ac9-ffee-44d4-81be-c60d468c9c87",
-        "name": "Henry C. Nevins Home, Inc. - Methuen, MA",
-        "address": [
-          {
-            "line": [
-              "Ten Ingalls Court"
-            ],
-            "city": "Methuen",
-            "state": "MA",
-            "postalCode": "01844",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "466c9ac9-ffee-44d4-81be-c60d468c9c87"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/466c9ac9-ffee-44d4-81be-c60d468c9c87/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/466c9ac9-ffee-44d4-81be-c60d468c9c87"
 }

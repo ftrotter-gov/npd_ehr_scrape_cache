@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6e7736fa-79e6-4838-84c5-ffec10222fdc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6e7736fa-79e6-4838-84c5-ffec10222fdc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6e7736fa-79e6-4838-84c5-ffec10222fdc",
-        "name": "Jewish Home at Rockleigh - Rockleigh, NJ",
-        "address": [
-          {
-            "line": [
-              "10 Link Dr"
-            ],
-            "city": "Rockleigh",
-            "state": "NJ",
-            "postalCode": "07647",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6e7736fa-79e6-4838-84c5-ffec10222fdc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6e7736fa-79e6-4838-84c5-ffec10222fdc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6e7736fa-79e6-4838-84c5-ffec10222fdc"
 }

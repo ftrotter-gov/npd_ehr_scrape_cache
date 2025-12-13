@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c4d8b5b4-6dda-4830-bfb5-420d395c0dd5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c4d8b5b4-6dda-4830-bfb5-420d395c0dd5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c4d8b5b4-6dda-4830-bfb5-420d395c0dd5",
-        "name": "Harmony Court Rehab and Nursing LLC - Cincinnati, OH",
-        "address": [
-          {
-            "line": [
-              "6969 Glenmeadow Lane"
-            ],
-            "city": "Cincinnati",
-            "state": "OH",
-            "postalCode": "45237",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c4d8b5b4-6dda-4830-bfb5-420d395c0dd5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c4d8b5b4-6dda-4830-bfb5-420d395c0dd5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c4d8b5b4-6dda-4830-bfb5-420d395c0dd5"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b6a64d41-46f9-4128-96a1-c5f5663b9fc5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b6a64d41-46f9-4128-96a1-c5f5663b9fc5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b6a64d41-46f9-4128-96a1-c5f5663b9fc5",
-        "name": "Euson Lindsay Legacy LLC - ",
-        "address": [
-          {
-            "line": [
-              "616 Green House Way"
-            ],
-            "city": "Carmel",
-            "state": "IN",
-            "postalCode": "46032-2150",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b6a64d41-46f9-4128-96a1-c5f5663b9fc5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b6a64d41-46f9-4128-96a1-c5f5663b9fc5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b6a64d41-46f9-4128-96a1-c5f5663b9fc5"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7b64869a-ef84-45df-a002-df1781ce234e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7b64869a-ef84-45df-a002-df1781ce234e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7b64869a-ef84-45df-a002-df1781ce234e",
-        "name": "South Arkansas Regional Hospital - ",
-        "address": [
-          {
-            "line": [
-              "700 West Grove Street"
-            ],
-            "city": "El Dorado",
-            "state": "AR",
-            "postalCode": "71730",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7b64869a-ef84-45df-a002-df1781ce234e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7b64869a-ef84-45df-a002-df1781ce234e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7b64869a-ef84-45df-a002-df1781ce234e"
 }

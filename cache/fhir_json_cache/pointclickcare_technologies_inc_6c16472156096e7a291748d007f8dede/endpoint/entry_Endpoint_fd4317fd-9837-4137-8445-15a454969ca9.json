@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fd4317fd-9837-4137-8445-15a454969ca9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fd4317fd-9837-4137-8445-15a454969ca9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fd4317fd-9837-4137-8445-15a454969ca9",
-        "name": "Meridian Management Services LLC - BREA - Brea, CA",
-        "address": [
-          {
-            "line": [
-              "530 N Puente Street"
-            ],
-            "city": "Brea",
-            "state": "CA",
-            "postalCode": "92821",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fd4317fd-9837-4137-8445-15a454969ca9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fd4317fd-9837-4137-8445-15a454969ca9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fd4317fd-9837-4137-8445-15a454969ca9"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ac6701a6-3de9-4e8a-af1c-85a17b7a951f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ac6701a6-3de9-4e8a-af1c-85a17b7a951f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ac6701a6-3de9-4e8a-af1c-85a17b7a951f",
-        "name": "Roman Eagle Rehabilitation and Health Ca - Danville, VA",
-        "address": [
-          {
-            "line": [
-              "2526 N Main St"
-            ],
-            "city": "Danville",
-            "state": "VA",
-            "postalCode": "24540-2395",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ac6701a6-3de9-4e8a-af1c-85a17b7a951f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ac6701a6-3de9-4e8a-af1c-85a17b7a951f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ac6701a6-3de9-4e8a-af1c-85a17b7a951f"
 }

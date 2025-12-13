@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b2018436-a7d0-427f-92a5-cf271c9ea848",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b2018436-a7d0-427f-92a5-cf271c9ea848"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b2018436-a7d0-427f-92a5-cf271c9ea848",
-        "name": "The Marian Home - Fort Dodge, IA",
-        "address": [
-          {
-            "line": [
-              "2400 6th Ave North"
-            ],
-            "city": "Fort Dodge",
-            "state": "IA",
-            "postalCode": "50501-3541",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b2018436-a7d0-427f-92a5-cf271c9ea848"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b2018436-a7d0-427f-92a5-cf271c9ea848/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b2018436-a7d0-427f-92a5-cf271c9ea848"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "37a6f982-a8ab-442d-a7d9-5cfbe4ca7ba7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/37a6f982-a8ab-442d-a7d9-5cfbe4ca7ba7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "37a6f982-a8ab-442d-a7d9-5cfbe4ca7ba7",
-        "name": "J. Park & Sons, Incorporated - Savannah, TN",
-        "address": [
-          {
-            "line": [
-              "1620 Wayne Rd"
-            ],
-            "city": "Savannah",
-            "state": "TN",
-            "postalCode": "38372",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "37a6f982-a8ab-442d-a7d9-5cfbe4ca7ba7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/37a6f982-a8ab-442d-a7d9-5cfbe4ca7ba7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/37a6f982-a8ab-442d-a7d9-5cfbe4ca7ba7"
 }

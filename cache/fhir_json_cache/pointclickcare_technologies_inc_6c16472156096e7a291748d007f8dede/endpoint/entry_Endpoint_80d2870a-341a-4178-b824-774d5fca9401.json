@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "80d2870a-341a-4178-b824-774d5fca9401",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/80d2870a-341a-4178-b824-774d5fca9401"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "80d2870a-341a-4178-b824-774d5fca9401",
-        "name": "Lifespace Communities, Inc. - West Des Moines, IA",
-        "address": [
-          {
-            "line": [
-              "4201 Corporate Drive"
-            ],
-            "city": "West Des Moines",
-            "state": "IA",
-            "postalCode": "50266",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "80d2870a-341a-4178-b824-774d5fca9401"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/80d2870a-341a-4178-b824-774d5fca9401/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/80d2870a-341a-4178-b824-774d5fca9401"
 }

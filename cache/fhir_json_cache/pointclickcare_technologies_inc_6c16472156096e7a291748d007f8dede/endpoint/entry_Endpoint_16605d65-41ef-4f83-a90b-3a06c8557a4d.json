@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "16605d65-41ef-4f83-a90b-3a06c8557a4d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/16605d65-41ef-4f83-a90b-3a06c8557a4d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "16605d65-41ef-4f83-a90b-3a06c8557a4d",
-        "name": "Eva Care Group - Los Angeles, CA",
-        "address": [
-          {
-            "line": [
-              "1937 Pontius Ave"
-            ],
-            "city": "Los Angeles",
-            "state": "CA",
-            "postalCode": "90025",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "16605d65-41ef-4f83-a90b-3a06c8557a4d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/16605d65-41ef-4f83-a90b-3a06c8557a4d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/16605d65-41ef-4f83-a90b-3a06c8557a4d"
 }

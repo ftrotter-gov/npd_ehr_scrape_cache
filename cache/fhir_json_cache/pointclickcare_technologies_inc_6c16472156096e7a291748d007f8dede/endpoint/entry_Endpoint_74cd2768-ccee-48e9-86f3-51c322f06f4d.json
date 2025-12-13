@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "74cd2768-ccee-48e9-86f3-51c322f06f4d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/74cd2768-ccee-48e9-86f3-51c322f06f4d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "74cd2768-ccee-48e9-86f3-51c322f06f4d",
-        "name": "Legacy Health Services - Parma, OH",
-        "address": [
-          {
-            "line": [
-              "12380 Plaza Drive"
-            ],
-            "city": "Parma",
-            "state": "OH",
-            "postalCode": "44130",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "74cd2768-ccee-48e9-86f3-51c322f06f4d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/74cd2768-ccee-48e9-86f3-51c322f06f4d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/74cd2768-ccee-48e9-86f3-51c322f06f4d"
 }

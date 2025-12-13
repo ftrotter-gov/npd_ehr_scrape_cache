@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "324605f2-d6ec-4f80-bed4-db9fbad97281",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/324605f2-d6ec-4f80-bed4-db9fbad97281"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "324605f2-d6ec-4f80-bed4-db9fbad97281",
-        "name": "Jenkins Living Center - Watertown, SD",
-        "address": [
-          {
-            "line": [
-              "215 S Maple St"
-            ],
-            "city": "Watertown",
-            "state": "SD",
-            "postalCode": "57201-4316",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "324605f2-d6ec-4f80-bed4-db9fbad97281"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/324605f2-d6ec-4f80-bed4-db9fbad97281/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/324605f2-d6ec-4f80-bed4-db9fbad97281"
 }

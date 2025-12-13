@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bcb583e8-815b-4a1b-aa22-8a41cc747717",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bcb583e8-815b-4a1b-aa22-8a41cc747717"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bcb583e8-815b-4a1b-aa22-8a41cc747717",
-        "name": "Community Skilled Nursing Center - Warren, OH",
-        "address": [
-          {
-            "line": [
-              "1320 Mahoning Ave NW"
-            ],
-            "city": "Warren",
-            "state": "OH",
-            "postalCode": "44483-2092",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bcb583e8-815b-4a1b-aa22-8a41cc747717"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bcb583e8-815b-4a1b-aa22-8a41cc747717/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bcb583e8-815b-4a1b-aa22-8a41cc747717"
 }

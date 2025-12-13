@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ff50bf91-24a5-4d4d-aa0f-de84d64ba6ab",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ff50bf91-24a5-4d4d-aa0f-de84d64ba6ab"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ff50bf91-24a5-4d4d-aa0f-de84d64ba6ab",
-        "name": "Singleton Health Care - Cleveland, OH",
-        "address": [
-          {
-            "line": [
-              "1867 E 82nd St"
-            ],
-            "city": "Cleveland",
-            "state": "OH",
-            "postalCode": "44103",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ff50bf91-24a5-4d4d-aa0f-de84d64ba6ab"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ff50bf91-24a5-4d4d-aa0f-de84d64ba6ab/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ff50bf91-24a5-4d4d-aa0f-de84d64ba6ab"
 }

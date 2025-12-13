@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "73fa4eb6-c19f-439c-89df-5cd8a83fc75f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/73fa4eb6-c19f-439c-89df-5cd8a83fc75f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "73fa4eb6-c19f-439c-89df-5cd8a83fc75f",
-        "name": "Blue Mountain Hospital District - Prairie City, OR",
-        "address": [
-          {
-            "line": [
-              "112 E 5th St",
-              "PO Box 305"
-            ],
-            "city": "Prairie City",
-            "state": "OR",
-            "postalCode": "97869",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "73fa4eb6-c19f-439c-89df-5cd8a83fc75f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/73fa4eb6-c19f-439c-89df-5cd8a83fc75f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/73fa4eb6-c19f-439c-89df-5cd8a83fc75f"
 }

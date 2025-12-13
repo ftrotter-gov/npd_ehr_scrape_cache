@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "84fd8f40-479f-40ad-a045-0dfde248b52c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/84fd8f40-479f-40ad-a045-0dfde248b52c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "84fd8f40-479f-40ad-a045-0dfde248b52c",
-        "name": "Collar City Nursing and Rehabilitation C - Troy, NY",
-        "address": [
-          {
-            "line": [
-              "100 New Turnpike Road"
-            ],
-            "city": "Troy",
-            "state": "NY",
-            "postalCode": "12182",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "84fd8f40-479f-40ad-a045-0dfde248b52c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/84fd8f40-479f-40ad-a045-0dfde248b52c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/84fd8f40-479f-40ad-a045-0dfde248b52c"
 }

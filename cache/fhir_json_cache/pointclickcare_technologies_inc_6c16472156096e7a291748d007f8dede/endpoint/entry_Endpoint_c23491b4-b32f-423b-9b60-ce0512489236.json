@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c23491b4-b32f-423b-9b60-ce0512489236",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c23491b4-b32f-423b-9b60-ce0512489236"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c23491b4-b32f-423b-9b60-ce0512489236",
-        "name": "Belgrade Nursing Home - Belgrade, MN",
-        "address": [
-          {
-            "line": [
-              "103 School St",
-              "PO Box 340"
-            ],
-            "city": "Belgrade",
-            "state": "MN",
-            "postalCode": "56312",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c23491b4-b32f-423b-9b60-ce0512489236"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c23491b4-b32f-423b-9b60-ce0512489236/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c23491b4-b32f-423b-9b60-ce0512489236"
 }

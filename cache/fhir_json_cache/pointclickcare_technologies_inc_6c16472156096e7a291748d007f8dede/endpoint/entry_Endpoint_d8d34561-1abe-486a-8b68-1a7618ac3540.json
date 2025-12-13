@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d8d34561-1abe-486a-8b68-1a7618ac3540",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d8d34561-1abe-486a-8b68-1a7618ac3540"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d8d34561-1abe-486a-8b68-1a7618ac3540",
-        "name": "Las Flores Convalescent Hospital - Gardena, CA",
-        "address": [
-          {
-            "line": [
-              "14165 Purche Ave"
-            ],
-            "city": "Gardena",
-            "state": "CA",
-            "postalCode": "90249-2801",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d8d34561-1abe-486a-8b68-1a7618ac3540"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d8d34561-1abe-486a-8b68-1a7618ac3540/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d8d34561-1abe-486a-8b68-1a7618ac3540"
 }

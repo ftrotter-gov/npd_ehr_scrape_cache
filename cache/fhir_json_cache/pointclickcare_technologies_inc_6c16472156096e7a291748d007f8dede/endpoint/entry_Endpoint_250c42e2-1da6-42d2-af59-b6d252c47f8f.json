@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "250c42e2-1da6-42d2-af59-b6d252c47f8f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/250c42e2-1da6-42d2-af59-b6d252c47f8f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "250c42e2-1da6-42d2-af59-b6d252c47f8f",
-        "name": "MSTC Development, Inc. - Warren, OH",
-        "address": [
-          {
-            "line": [
-              "628 Niles-Cortland Rd SE #102"
-            ],
-            "city": "Warren",
-            "state": "OH",
-            "postalCode": "44484",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "250c42e2-1da6-42d2-af59-b6d252c47f8f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/250c42e2-1da6-42d2-af59-b6d252c47f8f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/250c42e2-1da6-42d2-af59-b6d252c47f8f"
 }

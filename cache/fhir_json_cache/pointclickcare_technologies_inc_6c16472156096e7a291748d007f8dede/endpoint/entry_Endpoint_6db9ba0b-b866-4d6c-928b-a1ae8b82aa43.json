@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6db9ba0b-b866-4d6c-928b-a1ae8b82aa43",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6db9ba0b-b866-4d6c-928b-a1ae8b82aa43"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6db9ba0b-b866-4d6c-928b-a1ae8b82aa43",
-        "name": "Washington County Hospital - Nashville - Nashville, IL",
-        "address": [
-          {
-            "line": [
-              "705 South Grand Avenue"
-            ],
-            "city": "Nashville",
-            "state": "IL",
-            "postalCode": "62263",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6db9ba0b-b866-4d6c-928b-a1ae8b82aa43"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6db9ba0b-b866-4d6c-928b-a1ae8b82aa43/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6db9ba0b-b866-4d6c-928b-a1ae8b82aa43"
 }

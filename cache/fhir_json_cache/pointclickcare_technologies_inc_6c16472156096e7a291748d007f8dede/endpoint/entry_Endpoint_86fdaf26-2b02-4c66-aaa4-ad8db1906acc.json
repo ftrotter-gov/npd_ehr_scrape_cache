@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "86fdaf26-2b02-4c66-aaa4-ad8db1906acc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/86fdaf26-2b02-4c66-aaa4-ad8db1906acc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "86fdaf26-2b02-4c66-aaa4-ad8db1906acc",
-        "name": "Marian Estates - Sublimity, OR",
-        "address": [
-          {
-            "line": [
-              "390 SE Church St"
-            ],
-            "city": "Sublimity",
-            "state": "OR",
-            "postalCode": "97385",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "86fdaf26-2b02-4c66-aaa4-ad8db1906acc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/86fdaf26-2b02-4c66-aaa4-ad8db1906acc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/86fdaf26-2b02-4c66-aaa4-ad8db1906acc"
 }

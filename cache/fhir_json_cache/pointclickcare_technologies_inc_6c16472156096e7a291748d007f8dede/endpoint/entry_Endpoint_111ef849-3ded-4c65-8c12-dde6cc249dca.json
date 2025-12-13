@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "111ef849-3ded-4c65-8c12-dde6cc249dca",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/111ef849-3ded-4c65-8c12-dde6cc249dca"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "111ef849-3ded-4c65-8c12-dde6cc249dca",
-        "name": "Franke Tobey Jones Home - Tacoma, WA",
-        "address": [
-          {
-            "line": [
-              "5340 N Bristol"
-            ],
-            "city": "Tacoma",
-            "state": "WA",
-            "postalCode": "98407",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "111ef849-3ded-4c65-8c12-dde6cc249dca"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/111ef849-3ded-4c65-8c12-dde6cc249dca/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/111ef849-3ded-4c65-8c12-dde6cc249dca"
 }

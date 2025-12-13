@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6660c786-76fd-4f37-afed-d7aff85da345",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6660c786-76fd-4f37-afed-d7aff85da345"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6660c786-76fd-4f37-afed-d7aff85da345",
-        "name": "Baptist Health Nursing & Rehabilitation - Scotia, NY",
-        "address": [
-          {
-            "line": [
-              "297 N Ballston Ave"
-            ],
-            "city": "Scotia",
-            "state": "NY",
-            "postalCode": "12302",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6660c786-76fd-4f37-afed-d7aff85da345"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6660c786-76fd-4f37-afed-d7aff85da345/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6660c786-76fd-4f37-afed-d7aff85da345"
 }

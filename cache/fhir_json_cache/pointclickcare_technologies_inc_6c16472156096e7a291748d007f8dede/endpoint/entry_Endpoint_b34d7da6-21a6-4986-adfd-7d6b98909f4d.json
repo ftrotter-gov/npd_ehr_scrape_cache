@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b34d7da6-21a6-4986-adfd-7d6b98909f4d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b34d7da6-21a6-4986-adfd-7d6b98909f4d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b34d7da6-21a6-4986-adfd-7d6b98909f4d",
-        "name": "Marlow Manor Assisted Living - Anchorage, AK",
-        "address": [
-          {
-            "line": [
-              "2030 Muldoon Road"
-            ],
-            "city": "Anchorage",
-            "state": "AK",
-            "postalCode": "99504",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b34d7da6-21a6-4986-adfd-7d6b98909f4d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b34d7da6-21a6-4986-adfd-7d6b98909f4d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b34d7da6-21a6-4986-adfd-7d6b98909f4d"
 }

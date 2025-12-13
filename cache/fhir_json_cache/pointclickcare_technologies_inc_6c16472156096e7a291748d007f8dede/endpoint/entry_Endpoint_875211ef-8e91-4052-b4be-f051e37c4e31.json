@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "875211ef-8e91-4052-b4be-f051e37c4e31",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/875211ef-8e91-4052-b4be-f051e37c4e31"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "875211ef-8e91-4052-b4be-f051e37c4e31",
-        "name": "UNITED ODD FELLOW AND REBEKAH HOME - Bronx, NY",
-        "address": [
-          {
-            "line": [
-              "1070 Havemeyer Avenue"
-            ],
-            "city": "Bronx",
-            "state": "NY",
-            "postalCode": "10462",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "875211ef-8e91-4052-b4be-f051e37c4e31"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/875211ef-8e91-4052-b4be-f051e37c4e31/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/875211ef-8e91-4052-b4be-f051e37c4e31"
 }

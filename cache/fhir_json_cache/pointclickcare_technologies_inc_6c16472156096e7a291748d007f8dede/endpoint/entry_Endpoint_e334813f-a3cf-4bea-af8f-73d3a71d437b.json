@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e334813f-a3cf-4bea-af8f-73d3a71d437b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e334813f-a3cf-4bea-af8f-73d3a71d437b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e334813f-a3cf-4bea-af8f-73d3a71d437b",
-        "name": "Wilmot Care Center - Wilmot, SD",
-        "address": [
-          {
-            "line": [
-              "501 4th St",
-              "RR 2 Box 3"
-            ],
-            "city": "Wilmot",
-            "state": "SD",
-            "postalCode": "57279-9401",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e334813f-a3cf-4bea-af8f-73d3a71d437b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e334813f-a3cf-4bea-af8f-73d3a71d437b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e334813f-a3cf-4bea-af8f-73d3a71d437b"
 }

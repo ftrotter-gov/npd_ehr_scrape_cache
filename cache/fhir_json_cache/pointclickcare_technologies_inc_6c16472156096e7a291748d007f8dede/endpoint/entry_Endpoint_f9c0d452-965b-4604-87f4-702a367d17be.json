@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f9c0d452-965b-4604-87f4-702a367d17be",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f9c0d452-965b-4604-87f4-702a367d17be"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f9c0d452-965b-4604-87f4-702a367d17be",
-        "name": "Pacifica Health Services - Des Moines, IA",
-        "address": [
-          {
-            "line": [
-              "4911 SW 19th St"
-            ],
-            "city": "Des Moines",
-            "state": "IA",
-            "postalCode": "50315",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f9c0d452-965b-4604-87f4-702a367d17be"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f9c0d452-965b-4604-87f4-702a367d17be/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f9c0d452-965b-4604-87f4-702a367d17be"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ef7f5959-dc97-4540-bedd-4f2aac1cb4bd",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ef7f5959-dc97-4540-bedd-4f2aac1cb4bd"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ef7f5959-dc97-4540-bedd-4f2aac1cb4bd",
-        "name": "Senior Management Inc. dba Care & Rehab - Ladysmith, WI",
-        "address": [
-          {
-            "line": [
-              "1001 E 11th St. N"
-            ],
-            "city": "Ladysmith",
-            "state": "WI",
-            "postalCode": "54848",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ef7f5959-dc97-4540-bedd-4f2aac1cb4bd"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ef7f5959-dc97-4540-bedd-4f2aac1cb4bd/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ef7f5959-dc97-4540-bedd-4f2aac1cb4bd"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8346c40f-c176-41f0-ad3c-895c01de7f77",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8346c40f-c176-41f0-ad3c-895c01de7f77"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8346c40f-c176-41f0-ad3c-895c01de7f77",
-        "name": "Healthmark Services Inc. - Van Buren, AR",
-        "address": [
-          {
-            "line": [
-              "217 Lakewood Rd."
-            ],
-            "city": "Van Buren",
-            "state": "AR",
-            "postalCode": "72956",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8346c40f-c176-41f0-ad3c-895c01de7f77"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8346c40f-c176-41f0-ad3c-895c01de7f77/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8346c40f-c176-41f0-ad3c-895c01de7f77"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c3b1941a-834f-4ca0-b2bb-c65507066566",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c3b1941a-834f-4ca0-b2bb-c65507066566"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c3b1941a-834f-4ca0-b2bb-c65507066566",
-        "name": "National Church Residences - Columbus, OH",
-        "address": [
-          {
-            "line": [
-              "2335 N Bank Dr"
-            ],
-            "city": "Columbus",
-            "state": "OH",
-            "postalCode": "43220-5499",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c3b1941a-834f-4ca0-b2bb-c65507066566"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c3b1941a-834f-4ca0-b2bb-c65507066566/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c3b1941a-834f-4ca0-b2bb-c65507066566"
 }

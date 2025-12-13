@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9f32abf4-4121-422d-abae-90cb85ab01d0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9f32abf4-4121-422d-abae-90cb85ab01d0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9f32abf4-4121-422d-abae-90cb85ab01d0",
-        "name": "The Brookwood Community - Brookshire, TX",
-        "address": [
-          {
-            "line": [
-              "1752 FR 1489"
-            ],
-            "city": "Brookshire",
-            "state": "TX",
-            "postalCode": "77423",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9f32abf4-4121-422d-abae-90cb85ab01d0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9f32abf4-4121-422d-abae-90cb85ab01d0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9f32abf4-4121-422d-abae-90cb85ab01d0"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ebc713c0-2963-4530-8743-a1b12c229082",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ebc713c0-2963-4530-8743-a1b12c229082"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ebc713c0-2963-4530-8743-a1b12c229082",
-        "name": "Roscoe Regional Healthcare, LLC - Roscoe, NY",
-        "address": [
-          {
-            "line": [
-              "420 Rockland Rd"
-            ],
-            "city": "Roscoe",
-            "state": "NY",
-            "postalCode": "12776",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ebc713c0-2963-4530-8743-a1b12c229082"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ebc713c0-2963-4530-8743-a1b12c229082/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ebc713c0-2963-4530-8743-a1b12c229082"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "65677a6d-a8d0-4d88-afc8-eee82e8f23d9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/65677a6d-a8d0-4d88-afc8-eee82e8f23d9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "65677a6d-a8d0-4d88-afc8-eee82e8f23d9",
-        "name": "Cardinal Bay, Inc - Austin, TX",
-        "address": [
-          {
-            "line": [
-              "317 Martinique Pass"
-            ],
-            "city": "Austin",
-            "state": "TX",
-            "postalCode": "78734",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "65677a6d-a8d0-4d88-afc8-eee82e8f23d9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/65677a6d-a8d0-4d88-afc8-eee82e8f23d9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/65677a6d-a8d0-4d88-afc8-eee82e8f23d9"
 }

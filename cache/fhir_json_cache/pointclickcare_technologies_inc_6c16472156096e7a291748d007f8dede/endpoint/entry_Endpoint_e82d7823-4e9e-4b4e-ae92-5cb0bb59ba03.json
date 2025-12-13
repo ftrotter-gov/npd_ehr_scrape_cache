@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e82d7823-4e9e-4b4e-ae92-5cb0bb59ba03",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e82d7823-4e9e-4b4e-ae92-5cb0bb59ba03"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e82d7823-4e9e-4b4e-ae92-5cb0bb59ba03",
-        "name": "Delaware Veterans Home - Somerset, NJ",
-        "address": [
-          {
-            "line": [
-              "290 Davidson Avenue"
-            ],
-            "city": "Somerset",
-            "state": "NJ",
-            "postalCode": "08873",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e82d7823-4e9e-4b4e-ae92-5cb0bb59ba03"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e82d7823-4e9e-4b4e-ae92-5cb0bb59ba03/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e82d7823-4e9e-4b4e-ae92-5cb0bb59ba03"
 }

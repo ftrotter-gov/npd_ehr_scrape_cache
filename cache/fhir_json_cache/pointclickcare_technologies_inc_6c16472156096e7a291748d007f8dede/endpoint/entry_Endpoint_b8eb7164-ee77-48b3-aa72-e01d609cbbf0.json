@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b8eb7164-ee77-48b3-aa72-e01d609cbbf0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b8eb7164-ee77-48b3-aa72-e01d609cbbf0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b8eb7164-ee77-48b3-aa72-e01d609cbbf0",
-        "name": "Villa de Matel - Houston, TX",
-        "address": [
-          {
-            "line": [
-              "6510 Lawndale Avenue"
-            ],
-            "city": "Houston",
-            "state": "TX",
-            "postalCode": "77023",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b8eb7164-ee77-48b3-aa72-e01d609cbbf0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b8eb7164-ee77-48b3-aa72-e01d609cbbf0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b8eb7164-ee77-48b3-aa72-e01d609cbbf0"
 }

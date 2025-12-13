@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "343c4cd1-353a-4246-967f-ee57b44c2de0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/343c4cd1-353a-4246-967f-ee57b44c2de0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "343c4cd1-353a-4246-967f-ee57b44c2de0",
-        "name": "Atlantic Shores Cooperative Association, - ",
-        "address": [
-          {
-            "line": [
-              "1200 Atlantic Shores Drive"
-            ],
-            "city": "Virginia Beach",
-            "state": "VA",
-            "postalCode": "23454-7311",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "343c4cd1-353a-4246-967f-ee57b44c2de0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/343c4cd1-353a-4246-967f-ee57b44c2de0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/343c4cd1-353a-4246-967f-ee57b44c2de0"
 }

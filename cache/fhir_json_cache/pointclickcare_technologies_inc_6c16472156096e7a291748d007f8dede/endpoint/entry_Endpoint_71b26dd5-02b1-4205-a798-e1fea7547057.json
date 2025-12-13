@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "71b26dd5-02b1-4205-a798-e1fea7547057",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/71b26dd5-02b1-4205-a798-e1fea7547057"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "71b26dd5-02b1-4205-a798-e1fea7547057",
-        "name": "Centers Health Care - Bronx, NY",
-        "address": [
-          {
-            "line": [
-              "4770 White Plains Road",
-              "3rd Floor"
-            ],
-            "city": "Bronx",
-            "state": "NY",
-            "postalCode": "10470",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "71b26dd5-02b1-4205-a798-e1fea7547057"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/71b26dd5-02b1-4205-a798-e1fea7547057/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/71b26dd5-02b1-4205-a798-e1fea7547057"
 }

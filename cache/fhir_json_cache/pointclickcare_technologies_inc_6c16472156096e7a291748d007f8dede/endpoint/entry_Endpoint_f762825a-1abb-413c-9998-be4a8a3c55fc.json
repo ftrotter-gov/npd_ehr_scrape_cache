@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f762825a-1abb-413c-9998-be4a8a3c55fc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f762825a-1abb-413c-9998-be4a8a3c55fc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f762825a-1abb-413c-9998-be4a8a3c55fc",
-        "name": "Montereau - Tulsa, OK",
-        "address": [
-          {
-            "line": [
-              "6800 South Granite Ave."
-            ],
-            "city": "Tulsa",
-            "state": "OK",
-            "postalCode": "74136",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f762825a-1abb-413c-9998-be4a8a3c55fc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f762825a-1abb-413c-9998-be4a8a3c55fc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f762825a-1abb-413c-9998-be4a8a3c55fc"
 }

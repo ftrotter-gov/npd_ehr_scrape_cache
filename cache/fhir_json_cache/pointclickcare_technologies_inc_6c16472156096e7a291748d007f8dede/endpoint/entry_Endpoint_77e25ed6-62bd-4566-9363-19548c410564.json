@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "77e25ed6-62bd-4566-9363-19548c410564",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/77e25ed6-62bd-4566-9363-19548c410564"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "77e25ed6-62bd-4566-9363-19548c410564",
-        "name": "Altercare of Ohio, Inc. - Green, OH",
-        "address": [
-          {
-            "line": [
-              "Accounts Payable",
-              "PO Box 497"
-            ],
-            "city": "Green",
-            "state": "OH",
-            "postalCode": "44232",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "77e25ed6-62bd-4566-9363-19548c410564"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/77e25ed6-62bd-4566-9363-19548c410564/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/77e25ed6-62bd-4566-9363-19548c410564"
 }

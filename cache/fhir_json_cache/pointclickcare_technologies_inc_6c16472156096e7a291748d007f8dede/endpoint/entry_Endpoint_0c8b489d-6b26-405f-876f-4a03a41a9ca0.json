@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0c8b489d-6b26-405f-876f-4a03a41a9ca0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0c8b489d-6b26-405f-876f-4a03a41a9ca0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0c8b489d-6b26-405f-876f-4a03a41a9ca0",
-        "name": "West Wharton County Hospital District S. - El Campo, TX",
-        "address": [
-          {
-            "line": [
-              "248 Wisteria Lane"
-            ],
-            "city": "El Campo",
-            "state": "TX",
-            "postalCode": "77437",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0c8b489d-6b26-405f-876f-4a03a41a9ca0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0c8b489d-6b26-405f-876f-4a03a41a9ca0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0c8b489d-6b26-405f-876f-4a03a41a9ca0"
 }

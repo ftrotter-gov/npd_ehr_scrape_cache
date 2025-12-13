@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c2ad1999-4050-4404-8bdf-1be85c12120f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c2ad1999-4050-4404-8bdf-1be85c12120f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c2ad1999-4050-4404-8bdf-1be85c12120f",
-        "name": "Continuum Health Management - Greeley, CO",
-        "address": [
-          {
-            "line": [
-              "5401 West Tenth Street"
-            ],
-            "city": "Greeley",
-            "state": "CO",
-            "postalCode": "80634",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c2ad1999-4050-4404-8bdf-1be85c12120f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c2ad1999-4050-4404-8bdf-1be85c12120f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c2ad1999-4050-4404-8bdf-1be85c12120f"
 }

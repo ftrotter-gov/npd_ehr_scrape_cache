@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0565e05f-1f44-44a2-80a2-a0f4b6237682",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0565e05f-1f44-44a2-80a2-a0f4b6237682"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0565e05f-1f44-44a2-80a2-a0f4b6237682",
-        "name": "Brethren Hillcrest Homes - La Verne, CA",
-        "address": [
-          {
-            "line": [
-              "2705 Mountain View Dr Ofc"
-            ],
-            "city": "La Verne",
-            "state": "CA",
-            "postalCode": "91750-4398",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0565e05f-1f44-44a2-80a2-a0f4b6237682"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0565e05f-1f44-44a2-80a2-a0f4b6237682/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0565e05f-1f44-44a2-80a2-a0f4b6237682"
 }

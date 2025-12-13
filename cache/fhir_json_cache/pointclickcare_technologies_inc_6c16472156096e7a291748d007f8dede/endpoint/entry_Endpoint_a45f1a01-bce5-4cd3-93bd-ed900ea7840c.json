@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a45f1a01-bce5-4cd3-93bd-ed900ea7840c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a45f1a01-bce5-4cd3-93bd-ed900ea7840c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a45f1a01-bce5-4cd3-93bd-ed900ea7840c",
-        "name": "Bethany Retirement Living - Fargo, ND",
-        "address": [
-          {
-            "line": [
-              "201 S University Drive"
-            ],
-            "city": "Fargo",
-            "state": "ND",
-            "postalCode": "58103",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a45f1a01-bce5-4cd3-93bd-ed900ea7840c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a45f1a01-bce5-4cd3-93bd-ed900ea7840c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a45f1a01-bce5-4cd3-93bd-ed900ea7840c"
 }

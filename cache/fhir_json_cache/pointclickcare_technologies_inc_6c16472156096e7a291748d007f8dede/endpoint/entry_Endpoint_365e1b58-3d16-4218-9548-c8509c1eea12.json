@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "365e1b58-3d16-4218-9548-c8509c1eea12",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/365e1b58-3d16-4218-9548-c8509c1eea12"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "365e1b58-3d16-4218-9548-c8509c1eea12",
-        "name": "WyndRidge Health & Rehab Center - Crossville, TN",
-        "address": [
-          {
-            "line": [
-              "456 Wayne Ave",
-              "PO Box 709"
-            ],
-            "city": "Crossville",
-            "state": "TN",
-            "postalCode": "38555-5600",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "365e1b58-3d16-4218-9548-c8509c1eea12"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/365e1b58-3d16-4218-9548-c8509c1eea12/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/365e1b58-3d16-4218-9548-c8509c1eea12"
 }

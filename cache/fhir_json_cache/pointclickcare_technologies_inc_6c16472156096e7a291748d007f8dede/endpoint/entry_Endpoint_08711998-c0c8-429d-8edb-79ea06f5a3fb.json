@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "08711998-c0c8-429d-8edb-79ea06f5a3fb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/08711998-c0c8-429d-8edb-79ea06f5a3fb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "08711998-c0c8-429d-8edb-79ea06f5a3fb",
-        "name": "Oak Hollow Healthcare Management LLC - Lenoir, NC",
-        "address": [
-          {
-            "line": [
-              "P.O. Box 50"
-            ],
-            "city": "Lenoir",
-            "state": "NC",
-            "postalCode": "28645-3604",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "08711998-c0c8-429d-8edb-79ea06f5a3fb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/08711998-c0c8-429d-8edb-79ea06f5a3fb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/08711998-c0c8-429d-8edb-79ea06f5a3fb"
 }

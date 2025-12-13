@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ca7a435e-a048-4b92-ba0a-6a66ec9e9ff3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ca7a435e-a048-4b92-ba0a-6a66ec9e9ff3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ca7a435e-a048-4b92-ba0a-6a66ec9e9ff3",
-        "name": "JenMax Group LLC - ",
-        "address": [
-          {
-            "line": [
-              "6554 Trumbull Avenue"
-            ],
-            "city": "Lincolnwood",
-            "state": "IL",
-            "postalCode": "60712",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ca7a435e-a048-4b92-ba0a-6a66ec9e9ff3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ca7a435e-a048-4b92-ba0a-6a66ec9e9ff3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ca7a435e-a048-4b92-ba0a-6a66ec9e9ff3"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2c168dd9-7cbf-4ee8-beb8-10f9025c4398",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2c168dd9-7cbf-4ee8-beb8-10f9025c4398"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2c168dd9-7cbf-4ee8-beb8-10f9025c4398",
-        "name": "Grace Senior Living - Rochester Hills, MI",
-        "address": [
-          {
-            "line": [
-              "2791 Walton Blvd"
-            ],
-            "city": "Rochester Hills",
-            "state": "MI",
-            "postalCode": "48309",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2c168dd9-7cbf-4ee8-beb8-10f9025c4398"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2c168dd9-7cbf-4ee8-beb8-10f9025c4398/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2c168dd9-7cbf-4ee8-beb8-10f9025c4398"
 }

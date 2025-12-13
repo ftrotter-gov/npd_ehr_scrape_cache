@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "30611f16-252e-48c4-b2a5-0f5869a689ea",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/30611f16-252e-48c4-b2a5-0f5869a689ea"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "30611f16-252e-48c4-b2a5-0f5869a689ea",
-        "name": "Compass Connections - San Antonio, TX",
-        "address": [
-          {
-            "line": [
-              "1506 Bexar Crossing"
-            ],
-            "city": "San Antonio",
-            "state": "TX",
-            "postalCode": "78232",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "30611f16-252e-48c4-b2a5-0f5869a689ea"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/30611f16-252e-48c4-b2a5-0f5869a689ea/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/30611f16-252e-48c4-b2a5-0f5869a689ea"
 }

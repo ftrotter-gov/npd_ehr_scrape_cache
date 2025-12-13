@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "43cab96f-9785-49e6-b151-6156853b981c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/43cab96f-9785-49e6-b151-6156853b981c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "43cab96f-9785-49e6-b151-6156853b981c",
-        "name": "Fort Sanders Sevier Medical Center & Nur - Sevierville, TN",
-        "address": [
-          {
-            "line": [
-              "709 Middle Creek Rd"
-            ],
-            "city": "Sevierville",
-            "state": "TN",
-            "postalCode": "37862-5016",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "43cab96f-9785-49e6-b151-6156853b981c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/43cab96f-9785-49e6-b151-6156853b981c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/43cab96f-9785-49e6-b151-6156853b981c"
 }

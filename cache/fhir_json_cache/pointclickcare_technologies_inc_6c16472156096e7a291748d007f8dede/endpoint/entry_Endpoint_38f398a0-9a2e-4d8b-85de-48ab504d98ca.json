@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "38f398a0-9a2e-4d8b-85de-48ab504d98ca",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/38f398a0-9a2e-4d8b-85de-48ab504d98ca"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "38f398a0-9a2e-4d8b-85de-48ab504d98ca",
-        "name": "Channing House - Palo Alto, CA",
-        "address": [
-          {
-            "line": [
-              "850 Webster St Ofc"
-            ],
-            "city": "Palo Alto",
-            "state": "CA",
-            "postalCode": "94301-2859",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "38f398a0-9a2e-4d8b-85de-48ab504d98ca"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/38f398a0-9a2e-4d8b-85de-48ab504d98ca/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/38f398a0-9a2e-4d8b-85de-48ab504d98ca"
 }

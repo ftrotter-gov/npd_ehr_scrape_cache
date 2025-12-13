@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "315e41eb-3f2a-411e-a174-a9912cf4eadd",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/315e41eb-3f2a-411e-a174-a9912cf4eadd"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "315e41eb-3f2a-411e-a174-a9912cf4eadd",
-        "name": "Front Porch Communities and Services - Glendale, CA",
-        "address": [
-          {
-            "line": [
-              "800 North Brand Boulevard"
-            ],
-            "city": "Glendale",
-            "state": "CA",
-            "postalCode": "91203",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "315e41eb-3f2a-411e-a174-a9912cf4eadd"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/315e41eb-3f2a-411e-a174-a9912cf4eadd/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/315e41eb-3f2a-411e-a174-a9912cf4eadd"
 }

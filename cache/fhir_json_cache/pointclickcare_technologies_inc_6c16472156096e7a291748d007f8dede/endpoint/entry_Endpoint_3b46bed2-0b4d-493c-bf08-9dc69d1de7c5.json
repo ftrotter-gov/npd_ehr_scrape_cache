@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3b46bed2-0b4d-493c-bf08-9dc69d1de7c5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3b46bed2-0b4d-493c-bf08-9dc69d1de7c5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3b46bed2-0b4d-493c-bf08-9dc69d1de7c5",
-        "name": "Morrison Nursing Home - Whitefield, NH",
-        "address": [
-          {
-            "line": [
-              "6 Terrace St."
-            ],
-            "city": "Whitefield",
-            "state": "NH",
-            "postalCode": "03598-1016",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3b46bed2-0b4d-493c-bf08-9dc69d1de7c5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3b46bed2-0b4d-493c-bf08-9dc69d1de7c5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3b46bed2-0b4d-493c-bf08-9dc69d1de7c5"
 }

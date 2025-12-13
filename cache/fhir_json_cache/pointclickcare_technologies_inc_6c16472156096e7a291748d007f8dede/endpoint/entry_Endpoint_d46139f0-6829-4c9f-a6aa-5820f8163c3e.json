@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d46139f0-6829-4c9f-a6aa-5820f8163c3e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d46139f0-6829-4c9f-a6aa-5820f8163c3e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d46139f0-6829-4c9f-a6aa-5820f8163c3e",
-        "name": "Geriatric Care Facilities - Rockville, MD",
-        "address": [
-          {
-            "line": [
-              "4413 Muncaster Mill Rd."
-            ],
-            "city": "Rockville",
-            "state": "MD",
-            "postalCode": "20853-1434",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d46139f0-6829-4c9f-a6aa-5820f8163c3e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d46139f0-6829-4c9f-a6aa-5820f8163c3e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d46139f0-6829-4c9f-a6aa-5820f8163c3e"
 }

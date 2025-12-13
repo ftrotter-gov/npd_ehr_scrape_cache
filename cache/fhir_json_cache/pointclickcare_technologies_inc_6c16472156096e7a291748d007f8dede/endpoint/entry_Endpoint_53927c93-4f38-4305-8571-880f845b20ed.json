@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "53927c93-4f38-4305-8571-880f845b20ed",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/53927c93-4f38-4305-8571-880f845b20ed"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "53927c93-4f38-4305-8571-880f845b20ed",
-        "name": "Oak Lane Nursing & Rehab - Stronghurst, IL",
-        "address": [
-          {
-            "line": [
-              "604 Oakwood Dr"
-            ],
-            "city": "Stronghurst",
-            "state": "IL",
-            "postalCode": "61480",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "53927c93-4f38-4305-8571-880f845b20ed"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/53927c93-4f38-4305-8571-880f845b20ed/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/53927c93-4f38-4305-8571-880f845b20ed"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d0ea3f09-e356-405f-82d3-4d244b03419f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d0ea3f09-e356-405f-82d3-4d244b03419f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d0ea3f09-e356-405f-82d3-4d244b03419f",
-        "name": "Alliance Health Group - ",
-        "address": [
-          {
-            "line": [
-              "141 Washington Avenue"
-            ],
-            "city": "Lawrence",
-            "state": "NY",
-            "postalCode": "11559",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d0ea3f09-e356-405f-82d3-4d244b03419f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d0ea3f09-e356-405f-82d3-4d244b03419f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d0ea3f09-e356-405f-82d3-4d244b03419f"
 }

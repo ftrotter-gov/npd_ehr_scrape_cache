@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b6c98d01-69bd-48a8-ac2e-52c83919976c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b6c98d01-69bd-48a8-ac2e-52c83919976c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b6c98d01-69bd-48a8-ac2e-52c83919976c",
-        "name": "Mt. Carmel Community - Benton, AR",
-        "address": [
-          {
-            "line": [
-              "3505 Boone Road Benton"
-            ],
-            "city": "Benton",
-            "state": "AR",
-            "postalCode": "72015",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b6c98d01-69bd-48a8-ac2e-52c83919976c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b6c98d01-69bd-48a8-ac2e-52c83919976c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b6c98d01-69bd-48a8-ac2e-52c83919976c"
 }

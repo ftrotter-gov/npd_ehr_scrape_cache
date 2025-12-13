@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8dc4cc2a-c1f8-4798-9da3-86c9a3e06260",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8dc4cc2a-c1f8-4798-9da3-86c9a3e06260"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8dc4cc2a-c1f8-4798-9da3-86c9a3e06260",
-        "name": "Longhouse-Northshire Ltd - Spencer, IA",
-        "address": [
-          {
-            "line": [
-              "711 W 11th St"
-            ],
-            "city": "Spencer",
-            "state": "IA",
-            "postalCode": "51301-0177",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8dc4cc2a-c1f8-4798-9da3-86c9a3e06260"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8dc4cc2a-c1f8-4798-9da3-86c9a3e06260/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8dc4cc2a-c1f8-4798-9da3-86c9a3e06260"
 }

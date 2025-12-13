@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1fc47c75-b040-47c1-b915-ffaf262d99d0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1fc47c75-b040-47c1-b915-ffaf262d99d0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1fc47c75-b040-47c1-b915-ffaf262d99d0",
-        "name": "AHMC Healthcare Corporate Office - Alhambra, CA",
-        "address": [
-          {
-            "line": [
-              "1000 South Fremont Ave. Building A-9East"
-            ],
-            "city": "Alhambra",
-            "state": "CA",
-            "postalCode": "91803",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1fc47c75-b040-47c1-b915-ffaf262d99d0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1fc47c75-b040-47c1-b915-ffaf262d99d0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1fc47c75-b040-47c1-b915-ffaf262d99d0"
 }

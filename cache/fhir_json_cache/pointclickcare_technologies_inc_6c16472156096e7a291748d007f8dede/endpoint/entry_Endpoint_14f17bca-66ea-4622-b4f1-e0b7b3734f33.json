@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "14f17bca-66ea-4622-b4f1-e0b7b3734f33",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/14f17bca-66ea-4622-b4f1-e0b7b3734f33"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "14f17bca-66ea-4622-b4f1-e0b7b3734f33",
-        "name": "Fair Haven Operating Company, LLC - Bostic, NC",
-        "address": [
-          {
-            "line": [
-              "149 Fairhaven Drive"
-            ],
-            "city": "Bostic",
-            "state": "NC",
-            "postalCode": "28018",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "14f17bca-66ea-4622-b4f1-e0b7b3734f33"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/14f17bca-66ea-4622-b4f1-e0b7b3734f33/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/14f17bca-66ea-4622-b4f1-e0b7b3734f33"
 }

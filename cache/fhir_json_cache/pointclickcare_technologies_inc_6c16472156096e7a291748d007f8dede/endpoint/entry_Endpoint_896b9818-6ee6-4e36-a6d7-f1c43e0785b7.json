@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "896b9818-6ee6-4e36-a6d7-f1c43e0785b7",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/896b9818-6ee6-4e36-a6d7-f1c43e0785b7"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "896b9818-6ee6-4e36-a6d7-f1c43e0785b7",
-        "name": "Elder Living Operations - Prosper, LP - Prosper, TX",
-        "address": [
-          {
-            "line": [
-              "190 North Preston Road"
-            ],
-            "city": "Prosper",
-            "state": "TX",
-            "postalCode": "75078",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "896b9818-6ee6-4e36-a6d7-f1c43e0785b7"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/896b9818-6ee6-4e36-a6d7-f1c43e0785b7/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/896b9818-6ee6-4e36-a6d7-f1c43e0785b7"
 }

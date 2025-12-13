@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9aaaf072-96f9-4292-a945-3678b508dadc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9aaaf072-96f9-4292-a945-3678b508dadc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9aaaf072-96f9-4292-a945-3678b508dadc",
-        "name": "Ciena Health Care Management, Inc. - Southfield, MI",
-        "address": [
-          {
-            "line": [
-              "4000 Town Center"
-            ],
-            "city": "Southfield",
-            "state": "MI",
-            "postalCode": "48075",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9aaaf072-96f9-4292-a945-3678b508dadc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9aaaf072-96f9-4292-a945-3678b508dadc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9aaaf072-96f9-4292-a945-3678b508dadc"
 }

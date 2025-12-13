@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2de21e07-136f-4419-9dab-c27b66426765",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2de21e07-136f-4419-9dab-c27b66426765"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2de21e07-136f-4419-9dab-c27b66426765",
-        "name": "Smith Senior Living - Chicago, IL",
-        "address": [
-          {
-            "line": [
-              "2320 West 113th Place"
-            ],
-            "city": "Chicago",
-            "state": "IL",
-            "postalCode": "60643",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2de21e07-136f-4419-9dab-c27b66426765"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2de21e07-136f-4419-9dab-c27b66426765/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2de21e07-136f-4419-9dab-c27b66426765"
 }

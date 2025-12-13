@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "78ffb327-dd6e-4317-9115-f007ffdfcf35",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/78ffb327-dd6e-4317-9115-f007ffdfcf35"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "78ffb327-dd6e-4317-9115-f007ffdfcf35",
-        "name": "Suncrest Health Management Inc - Henderson, NC",
-        "address": [
-          {
-            "line": [
-              "129 West Belle Street",
-              "Post Office Box 247"
-            ],
-            "city": "Henderson",
-            "state": "NC",
-            "postalCode": "27536",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "78ffb327-dd6e-4317-9115-f007ffdfcf35"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/78ffb327-dd6e-4317-9115-f007ffdfcf35/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/78ffb327-dd6e-4317-9115-f007ffdfcf35"
 }

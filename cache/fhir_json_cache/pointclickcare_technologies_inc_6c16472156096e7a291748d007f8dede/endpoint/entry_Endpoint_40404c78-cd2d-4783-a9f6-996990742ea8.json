@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "40404c78-cd2d-4783-a9f6-996990742ea8",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/40404c78-cd2d-4783-a9f6-996990742ea8"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "40404c78-cd2d-4783-a9f6-996990742ea8",
-        "name": "Friendsview Retirement Community - Newberg, OR",
-        "address": [
-          {
-            "line": [
-              "1301 Fulton St"
-            ],
-            "city": "Newberg",
-            "state": "OR",
-            "postalCode": "97132-1799",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "40404c78-cd2d-4783-a9f6-996990742ea8"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/40404c78-cd2d-4783-a9f6-996990742ea8/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/40404c78-cd2d-4783-a9f6-996990742ea8"
 }

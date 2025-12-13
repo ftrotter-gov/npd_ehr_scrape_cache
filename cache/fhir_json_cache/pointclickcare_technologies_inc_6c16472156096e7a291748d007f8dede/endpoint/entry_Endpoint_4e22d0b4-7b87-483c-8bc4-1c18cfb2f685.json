@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4e22d0b4-7b87-483c-8bc4-1c18cfb2f685",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4e22d0b4-7b87-483c-8bc4-1c18cfb2f685"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4e22d0b4-7b87-483c-8bc4-1c18cfb2f685",
-        "name": "Legacy Services Group LLC - Fort Smith, AR",
-        "address": [
-          {
-            "line": [
-              "PO Box 2585",
-              "Ste A"
-            ],
-            "city": "Fort Smith",
-            "state": "AR",
-            "postalCode": "72902",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4e22d0b4-7b87-483c-8bc4-1c18cfb2f685"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4e22d0b4-7b87-483c-8bc4-1c18cfb2f685/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4e22d0b4-7b87-483c-8bc4-1c18cfb2f685"
 }

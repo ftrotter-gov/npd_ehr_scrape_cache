@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fe77469c-e2b2-4001-b6a8-df7d97609cca",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fe77469c-e2b2-4001-b6a8-df7d97609cca"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fe77469c-e2b2-4001-b6a8-df7d97609cca",
-        "name": "Kingsbrook Lifecare Center - Ashland, KY",
-        "address": [
-          {
-            "line": [
-              "2500 State Rte 5",
-              "PO Box 1354"
-            ],
-            "city": "Ashland",
-            "state": "KY",
-            "postalCode": "41102",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fe77469c-e2b2-4001-b6a8-df7d97609cca"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fe77469c-e2b2-4001-b6a8-df7d97609cca/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fe77469c-e2b2-4001-b6a8-df7d97609cca"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "233bf278-5444-4d00-bc48-d52f754a13ce",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/233bf278-5444-4d00-bc48-d52f754a13ce"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "233bf278-5444-4d00-bc48-d52f754a13ce",
-        "name": "Center Point Heights - ",
-        "address": [
-          {
-            "line": [
-              "800 Mustang Lane"
-            ],
-            "city": "Center Point",
-            "state": "IA",
-            "postalCode": "52213",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "233bf278-5444-4d00-bc48-d52f754a13ce"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/233bf278-5444-4d00-bc48-d52f754a13ce/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/233bf278-5444-4d00-bc48-d52f754a13ce"
 }

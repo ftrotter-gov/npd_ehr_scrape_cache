@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4cf2f79b-ba26-4a1c-8b5f-68535e2a959e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4cf2f79b-ba26-4a1c-8b5f-68535e2a959e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4cf2f79b-ba26-4a1c-8b5f-68535e2a959e",
-        "name": "Jaybird Senior Living - Cedar Rapids, IA",
-        "address": [
-          {
-            "line": [
-              "208 35th St Dr SE",
-              "Suite 500"
-            ],
-            "city": "Cedar Rapids",
-            "state": "IA",
-            "postalCode": "52403",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4cf2f79b-ba26-4a1c-8b5f-68535e2a959e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4cf2f79b-ba26-4a1c-8b5f-68535e2a959e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4cf2f79b-ba26-4a1c-8b5f-68535e2a959e"
 }

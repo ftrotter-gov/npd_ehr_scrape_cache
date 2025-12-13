@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "61c1f69a-ef10-47a2-a397-25e1115caaaf",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/61c1f69a-ef10-47a2-a397-25e1115caaaf"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "61c1f69a-ef10-47a2-a397-25e1115caaaf",
-        "name": "The Peplinski Group - Farwell, MI",
-        "address": [
-          {
-            "line": [
-              "2532 West Cadillac Dr",
-              "PO BOx 579"
-            ],
-            "city": "Farwell",
-            "state": "MI",
-            "postalCode": "48622",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "61c1f69a-ef10-47a2-a397-25e1115caaaf"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/61c1f69a-ef10-47a2-a397-25e1115caaaf/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/61c1f69a-ef10-47a2-a397-25e1115caaaf"
 }

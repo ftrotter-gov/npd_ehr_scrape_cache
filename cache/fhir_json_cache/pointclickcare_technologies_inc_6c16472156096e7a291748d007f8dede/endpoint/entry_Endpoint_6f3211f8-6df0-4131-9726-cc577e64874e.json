@@ -2,22 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6f3211f8-6df0-4131-9726-cc577e64874e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6f3211f8-6df0-4131-9726-cc577e64874e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6f3211f8-6df0-4131-9726-cc577e64874e",
-        "name": "RSL Management Group - ",
-        "address": [
-          {
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6f3211f8-6df0-4131-9726-cc577e64874e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6f3211f8-6df0-4131-9726-cc577e64874e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6f3211f8-6df0-4131-9726-cc577e64874e"
 }

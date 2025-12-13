@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "b78bf35e-8e75-4028-bbc5-2d2321c199df",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/b78bf35e-8e75-4028-bbc5-2d2321c199df"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "b78bf35e-8e75-4028-bbc5-2d2321c199df",
-        "name": "Lighthouse Healthcare Center, LLC - Los Angeles, CA",
-        "address": [
-          {
-            "line": [
-              "2222 Santa Ana Blvd"
-            ],
-            "city": "Los Angeles",
-            "state": "CA",
-            "postalCode": "90059",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "b78bf35e-8e75-4028-bbc5-2d2321c199df"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/b78bf35e-8e75-4028-bbc5-2d2321c199df/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/b78bf35e-8e75-4028-bbc5-2d2321c199df"
 }

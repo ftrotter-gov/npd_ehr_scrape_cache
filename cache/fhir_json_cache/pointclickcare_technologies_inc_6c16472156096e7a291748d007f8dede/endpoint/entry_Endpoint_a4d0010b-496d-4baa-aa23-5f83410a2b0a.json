@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a4d0010b-496d-4baa-aa23-5f83410a2b0a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a4d0010b-496d-4baa-aa23-5f83410a2b0a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a4d0010b-496d-4baa-aa23-5f83410a2b0a",
-        "name": "Oasis Health Care Group - Lakewood, NJ",
-        "address": [
-          {
-            "line": [
-              "317 Monmouth Avenue"
-            ],
-            "city": "Lakewood",
-            "state": "NJ",
-            "postalCode": "08701",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a4d0010b-496d-4baa-aa23-5f83410a2b0a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a4d0010b-496d-4baa-aa23-5f83410a2b0a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a4d0010b-496d-4baa-aa23-5f83410a2b0a"
 }

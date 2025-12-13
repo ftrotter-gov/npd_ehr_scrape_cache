@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bddd3ffe-a007-4278-875c-1e766baa36a3",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bddd3ffe-a007-4278-875c-1e766baa36a3"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bddd3ffe-a007-4278-875c-1e766baa36a3",
-        "name": "St John Vianney Center - ",
-        "address": [
-          {
-            "line": [
-              "151 Woodbine Road"
-            ],
-            "city": "Downingtown",
-            "state": "PA",
-            "postalCode": "19335-3057",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bddd3ffe-a007-4278-875c-1e766baa36a3"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bddd3ffe-a007-4278-875c-1e766baa36a3/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bddd3ffe-a007-4278-875c-1e766baa36a3"
 }

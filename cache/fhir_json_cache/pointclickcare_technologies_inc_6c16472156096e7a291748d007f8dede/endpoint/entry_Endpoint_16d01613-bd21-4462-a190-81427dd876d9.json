@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "16d01613-bd21-4462-a190-81427dd876d9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/16d01613-bd21-4462-a190-81427dd876d9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "16d01613-bd21-4462-a190-81427dd876d9",
-        "name": "Sunset Home, Inc. - Concordia, KS",
-        "address": [
-          {
-            "line": [
-              "620 2nd Ave"
-            ],
-            "city": "Concordia",
-            "state": "KS",
-            "postalCode": "66901-2727",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "16d01613-bd21-4462-a190-81427dd876d9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/16d01613-bd21-4462-a190-81427dd876d9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/16d01613-bd21-4462-a190-81427dd876d9"
 }

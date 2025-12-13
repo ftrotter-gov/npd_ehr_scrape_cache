@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "597aee27-d7cc-4192-8b33-5a7593e891a0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/597aee27-d7cc-4192-8b33-5a7593e891a0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "597aee27-d7cc-4192-8b33-5a7593e891a0",
-        "name": "SENIOR CARE CENTERS, LLC - Dallas, TX",
-        "address": [
-          {
-            "line": [
-              "600 N Pearl Street",
-              "Suite 1100"
-            ],
-            "city": "Dallas",
-            "state": "TX",
-            "postalCode": "75201",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "597aee27-d7cc-4192-8b33-5a7593e891a0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/597aee27-d7cc-4192-8b33-5a7593e891a0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/597aee27-d7cc-4192-8b33-5a7593e891a0"
 }

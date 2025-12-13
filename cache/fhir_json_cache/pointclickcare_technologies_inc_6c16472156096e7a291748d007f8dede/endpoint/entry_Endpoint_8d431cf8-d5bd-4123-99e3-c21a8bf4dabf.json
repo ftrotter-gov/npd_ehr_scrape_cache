@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8d431cf8-d5bd-4123-99e3-c21a8bf4dabf",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8d431cf8-d5bd-4123-99e3-c21a8bf4dabf"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8d431cf8-d5bd-4123-99e3-c21a8bf4dabf",
-        "name": "Oxford Healthcare Management, Inc. - Oxford, MS",
-        "address": [
-          {
-            "line": [
-              "1403 Van Buren Avenue",
-              "Suite 101"
-            ],
-            "city": "Oxford",
-            "state": "MS",
-            "postalCode": "38655",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8d431cf8-d5bd-4123-99e3-c21a8bf4dabf"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8d431cf8-d5bd-4123-99e3-c21a8bf4dabf/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8d431cf8-d5bd-4123-99e3-c21a8bf4dabf"
 }

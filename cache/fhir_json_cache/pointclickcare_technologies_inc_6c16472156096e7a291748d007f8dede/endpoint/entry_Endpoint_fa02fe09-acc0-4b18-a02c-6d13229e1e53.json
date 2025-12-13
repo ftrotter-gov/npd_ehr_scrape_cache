@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fa02fe09-acc0-4b18-a02c-6d13229e1e53",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fa02fe09-acc0-4b18-a02c-6d13229e1e53"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fa02fe09-acc0-4b18-a02c-6d13229e1e53",
-        "name": "Community Health Services Corporation - Prairie du Chie, WI",
-        "address": [
-          {
-            "line": [
-              "720 South Fremont Street"
-            ],
-            "city": "Prairie du Chien",
-            "state": "WI",
-            "postalCode": "53821",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fa02fe09-acc0-4b18-a02c-6d13229e1e53"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fa02fe09-acc0-4b18-a02c-6d13229e1e53/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fa02fe09-acc0-4b18-a02c-6d13229e1e53"
 }

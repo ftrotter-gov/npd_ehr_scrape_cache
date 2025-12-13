@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a1a12f35-51af-4330-99e7-43f91b880154",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a1a12f35-51af-4330-99e7-43f91b880154"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a1a12f35-51af-4330-99e7-43f91b880154",
-        "name": "Lifequest - Quakertown, PA",
-        "address": [
-          {
-            "line": [
-              "2460 John Fries Highway"
-            ],
-            "city": "Quakertown",
-            "state": "PA",
-            "postalCode": "18951",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a1a12f35-51af-4330-99e7-43f91b880154"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a1a12f35-51af-4330-99e7-43f91b880154/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a1a12f35-51af-4330-99e7-43f91b880154"
 }

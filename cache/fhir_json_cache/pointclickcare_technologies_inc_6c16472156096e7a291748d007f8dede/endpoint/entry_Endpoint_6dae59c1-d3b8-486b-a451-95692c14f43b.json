@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6dae59c1-d3b8-486b-a451-95692c14f43b",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6dae59c1-d3b8-486b-a451-95692c14f43b"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6dae59c1-d3b8-486b-a451-95692c14f43b",
-        "name": "Integrity Healthcare Communities LLC - Skokie, IL",
-        "address": [
-          {
-            "line": [
-              "4213 Main St.",
-              "Suite 106"
-            ],
-            "city": "Skokie",
-            "state": "IL",
-            "postalCode": "60076",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6dae59c1-d3b8-486b-a451-95692c14f43b"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6dae59c1-d3b8-486b-a451-95692c14f43b/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6dae59c1-d3b8-486b-a451-95692c14f43b"
 }

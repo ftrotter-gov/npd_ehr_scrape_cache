@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0e1705d2-6a8e-465d-bf4b-cd1863e02d70",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0e1705d2-6a8e-465d-bf4b-cd1863e02d70"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0e1705d2-6a8e-465d-bf4b-cd1863e02d70",
-        "name": "Orchard Creek Healthcare Inc. - Traverse City, MI",
-        "address": [
-          {
-            "line": [
-              "9731 East Cherry Bend Road"
-            ],
-            "city": "Traverse City",
-            "state": "MI",
-            "postalCode": "49684-7621",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0e1705d2-6a8e-465d-bf4b-cd1863e02d70"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0e1705d2-6a8e-465d-bf4b-cd1863e02d70/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0e1705d2-6a8e-465d-bf4b-cd1863e02d70"
 }

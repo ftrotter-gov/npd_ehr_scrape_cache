@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "78562a58-5ba9-4ce4-9354-b05a6cd836e8",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/78562a58-5ba9-4ce4-9354-b05a6cd836e8"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "78562a58-5ba9-4ce4-9354-b05a6cd836e8",
-        "name": "Wilkins Health and Rehabilitation Commun - Duncan, OK",
-        "address": [
-          {
-            "line": [
-              "1205 S 4th St"
-            ],
-            "city": "Duncan",
-            "state": "OK",
-            "postalCode": "73533-7870",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "78562a58-5ba9-4ce4-9354-b05a6cd836e8"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/78562a58-5ba9-4ce4-9354-b05a6cd836e8/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/78562a58-5ba9-4ce4-9354-b05a6cd836e8"
 }

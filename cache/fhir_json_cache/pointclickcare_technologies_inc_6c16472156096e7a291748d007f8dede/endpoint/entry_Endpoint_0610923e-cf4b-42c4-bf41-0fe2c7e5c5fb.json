@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0610923e-cf4b-42c4-bf41-0fe2c7e5c5fb",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0610923e-cf4b-42c4-bf41-0fe2c7e5c5fb"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0610923e-cf4b-42c4-bf41-0fe2c7e5c5fb",
-        "name": "HORST SENIORCARE COMPANY - Lancaster, PA",
-        "address": [
-          {
-            "line": [
-              "320 Granite Run Drive",
-              "PO Box 3330"
-            ],
-            "city": "Lancaster",
-            "state": "PA",
-            "postalCode": "17604-3330",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0610923e-cf4b-42c4-bf41-0fe2c7e5c5fb"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0610923e-cf4b-42c4-bf41-0fe2c7e5c5fb/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0610923e-cf4b-42c4-bf41-0fe2c7e5c5fb"
 }

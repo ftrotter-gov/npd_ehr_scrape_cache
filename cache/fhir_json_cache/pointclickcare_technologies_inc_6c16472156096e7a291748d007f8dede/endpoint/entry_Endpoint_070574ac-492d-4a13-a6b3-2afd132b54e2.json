@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "070574ac-492d-4a13-a6b3-2afd132b54e2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/070574ac-492d-4a13-a6b3-2afd132b54e2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "070574ac-492d-4a13-a6b3-2afd132b54e2",
-        "name": "Sisters of Notre Dame - Covington - Covington, KY",
-        "address": [
-          {
-            "line": [
-              "1601 Dixie Highway"
-            ],
-            "city": "Covington",
-            "state": "KY",
-            "postalCode": "41011",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "070574ac-492d-4a13-a6b3-2afd132b54e2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/070574ac-492d-4a13-a6b3-2afd132b54e2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/070574ac-492d-4a13-a6b3-2afd132b54e2"
 }

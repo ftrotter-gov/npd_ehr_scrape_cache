@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1c4b6a09-681a-41d4-b3fa-0666663a1105",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1c4b6a09-681a-41d4-b3fa-0666663a1105"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1c4b6a09-681a-41d4-b3fa-0666663a1105",
-        "name": "The Grand Healthcare System - Whitestone, NY",
-        "address": [
-          {
-            "line": [
-              "1720 Whitestone Expressway",
-              "Suite 500"
-            ],
-            "city": "Whitestone",
-            "state": "NY",
-            "postalCode": "11357",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1c4b6a09-681a-41d4-b3fa-0666663a1105"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1c4b6a09-681a-41d4-b3fa-0666663a1105/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1c4b6a09-681a-41d4-b3fa-0666663a1105"
 }

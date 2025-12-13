@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7f2c6e20-13e8-4e42-a7b5-9c51e15fe812",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7f2c6e20-13e8-4e42-a7b5-9c51e15fe812"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7f2c6e20-13e8-4e42-a7b5-9c51e15fe812",
-        "name": "Southern SNF Management - Monsey, NY",
-        "address": [
-          {
-            "line": [
-              "21 Robert Pitt Drive",
-              "Suite 210"
-            ],
-            "city": "Monsey",
-            "state": "NY",
-            "postalCode": "10952",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7f2c6e20-13e8-4e42-a7b5-9c51e15fe812"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7f2c6e20-13e8-4e42-a7b5-9c51e15fe812/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7f2c6e20-13e8-4e42-a7b5-9c51e15fe812"
 }

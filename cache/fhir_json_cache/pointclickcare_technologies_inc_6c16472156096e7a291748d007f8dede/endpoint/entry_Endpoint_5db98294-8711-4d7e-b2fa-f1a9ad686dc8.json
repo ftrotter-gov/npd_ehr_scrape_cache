@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5db98294-8711-4d7e-b2fa-f1a9ad686dc8",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5db98294-8711-4d7e-b2fa-f1a9ad686dc8"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5db98294-8711-4d7e-b2fa-f1a9ad686dc8",
-        "name": "Saint Anne Home & Retirement Community - Fort Wayne, IN",
-        "address": [
-          {
-            "line": [
-              "1900 Randallia Dr"
-            ],
-            "city": "Fort Wayne",
-            "state": "IN",
-            "postalCode": "46805-4698",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5db98294-8711-4d7e-b2fa-f1a9ad686dc8"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5db98294-8711-4d7e-b2fa-f1a9ad686dc8/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5db98294-8711-4d7e-b2fa-f1a9ad686dc8"
 }

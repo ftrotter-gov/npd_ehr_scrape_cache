@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f66abcb4-e398-48bf-80d7-86b16de27d44",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f66abcb4-e398-48bf-80d7-86b16de27d44"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f66abcb4-e398-48bf-80d7-86b16de27d44",
-        "name": "Twin Oaks Manor - Booker, TX",
-        "address": [
-          {
-            "line": [
-              "112 Pioneer Dr",
-              "PO Box 369"
-            ],
-            "city": "Booker",
-            "state": "TX",
-            "postalCode": "79005",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f66abcb4-e398-48bf-80d7-86b16de27d44"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f66abcb4-e398-48bf-80d7-86b16de27d44/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f66abcb4-e398-48bf-80d7-86b16de27d44"
 }

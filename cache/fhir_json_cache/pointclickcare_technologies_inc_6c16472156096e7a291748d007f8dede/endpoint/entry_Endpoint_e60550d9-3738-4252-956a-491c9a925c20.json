@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e60550d9-3738-4252-956a-491c9a925c20",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e60550d9-3738-4252-956a-491c9a925c20"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e60550d9-3738-4252-956a-491c9a925c20",
-        "name": "Pearl River County Hospital & Nursing Ho - Poplarville, MS",
-        "address": [
-          {
-            "line": [
-              "305 W Moody St",
-              "PO Box 392"
-            ],
-            "city": "Poplarville",
-            "state": "MS",
-            "postalCode": "39470",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e60550d9-3738-4252-956a-491c9a925c20"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e60550d9-3738-4252-956a-491c9a925c20/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e60550d9-3738-4252-956a-491c9a925c20"
 }

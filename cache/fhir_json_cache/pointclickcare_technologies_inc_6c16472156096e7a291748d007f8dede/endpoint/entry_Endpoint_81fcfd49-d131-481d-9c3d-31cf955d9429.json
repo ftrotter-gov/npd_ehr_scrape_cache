@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "81fcfd49-d131-481d-9c3d-31cf955d9429",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/81fcfd49-d131-481d-9c3d-31cf955d9429"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "81fcfd49-d131-481d-9c3d-31cf955d9429",
-        "name": "Little Sisters of the Poor - Chicago, IL",
-        "address": [
-          {
-            "line": [
-              "Little Sisters of the Poor",
-              "2325 N Lakewood Ave."
-            ],
-            "city": "Chicago",
-            "state": "IL",
-            "postalCode": "60614",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "81fcfd49-d131-481d-9c3d-31cf955d9429"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/81fcfd49-d131-481d-9c3d-31cf955d9429/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/81fcfd49-d131-481d-9c3d-31cf955d9429"
 }

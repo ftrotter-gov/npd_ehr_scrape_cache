@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e0485d77-49d4-435f-913d-1ee14a469c89",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e0485d77-49d4-435f-913d-1ee14a469c89"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e0485d77-49d4-435f-913d-1ee14a469c89",
-        "name": "Blount Memorial Hospital-TCU - Maryville, TN",
-        "address": [
-          {
-            "line": [
-              "2320 E Lamar Alexander Pkwy"
-            ],
-            "city": "Maryville",
-            "state": "TN",
-            "postalCode": "37804",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e0485d77-49d4-435f-913d-1ee14a469c89"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e0485d77-49d4-435f-913d-1ee14a469c89/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e0485d77-49d4-435f-913d-1ee14a469c89"
 }

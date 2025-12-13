@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "238cbacf-5e41-4146-8a2e-07d90f8a0f5a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/238cbacf-5e41-4146-8a2e-07d90f8a0f5a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "238cbacf-5e41-4146-8a2e-07d90f8a0f5a",
-        "name": "Oaks Senior Living, L.L.C. - Alpharetta, GA",
-        "address": [
-          {
-            "line": [
-              "1111 Alderman Drive",
-              "Suite 420"
-            ],
-            "city": "Alpharetta",
-            "state": "GA",
-            "postalCode": "30005",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "238cbacf-5e41-4146-8a2e-07d90f8a0f5a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/238cbacf-5e41-4146-8a2e-07d90f8a0f5a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/238cbacf-5e41-4146-8a2e-07d90f8a0f5a"
 }

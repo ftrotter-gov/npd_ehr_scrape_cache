@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "9726e054-010c-42fe-a4e9-b8eda0f51727",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/9726e054-010c-42fe-a4e9-b8eda0f51727"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "9726e054-010c-42fe-a4e9-b8eda0f51727",
-        "name": "Norwegian Christian Home & Health Center - Brooklyn, NY",
-        "address": [
-          {
-            "line": [
-              "1250-1270 67th St"
-            ],
-            "city": "Brooklyn",
-            "state": "NY",
-            "postalCode": "11219",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "9726e054-010c-42fe-a4e9-b8eda0f51727"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/9726e054-010c-42fe-a4e9-b8eda0f51727/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/9726e054-010c-42fe-a4e9-b8eda0f51727"
 }

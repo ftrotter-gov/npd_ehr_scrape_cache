@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "46f1b23c-e7d4-461c-8f8e-d397b4d5e59c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/46f1b23c-e7d4-461c-8f8e-d397b4d5e59c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "46f1b23c-e7d4-461c-8f8e-d397b4d5e59c",
-        "name": "S&F Management Company, LLC - West Hollywood, CA",
-        "address": [
-          {
-            "line": [
-              "9200 Sunset Blvd"
-            ],
-            "city": "West Hollywood",
-            "state": "CA",
-            "postalCode": "90069",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "46f1b23c-e7d4-461c-8f8e-d397b4d5e59c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/46f1b23c-e7d4-461c-8f8e-d397b4d5e59c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/46f1b23c-e7d4-461c-8f8e-d397b4d5e59c"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "e5f1eb7d-d91f-4a43-a799-95b4dcbc0a5d",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/e5f1eb7d-d91f-4a43-a799-95b4dcbc0a5d"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "e5f1eb7d-d91f-4a43-a799-95b4dcbc0a5d",
-        "name": "Chicago Methodist Senior Services - Chicago, IL",
-        "address": [
-          {
-            "line": [
-              "1415 West Foster Avenue"
-            ],
-            "city": "Chicago",
-            "state": "IL",
-            "postalCode": "60640",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "e5f1eb7d-d91f-4a43-a799-95b4dcbc0a5d"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/e5f1eb7d-d91f-4a43-a799-95b4dcbc0a5d/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/e5f1eb7d-d91f-4a43-a799-95b4dcbc0a5d"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "122ca719-0d59-405e-9cc2-1f8a5a6f4c57",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/122ca719-0d59-405e-9cc2-1f8a5a6f4c57"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "122ca719-0d59-405e-9cc2-1f8a5a6f4c57",
-        "name": "Christ the King Manor - Du Bois, PA",
-        "address": [
-          {
-            "line": [
-              "1100 W Long Ave",
-              "PO Box 448"
-            ],
-            "city": "Du Bois",
-            "state": "PA",
-            "postalCode": "15801",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "122ca719-0d59-405e-9cc2-1f8a5a6f4c57"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/122ca719-0d59-405e-9cc2-1f8a5a6f4c57/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/122ca719-0d59-405e-9cc2-1f8a5a6f4c57"
 }

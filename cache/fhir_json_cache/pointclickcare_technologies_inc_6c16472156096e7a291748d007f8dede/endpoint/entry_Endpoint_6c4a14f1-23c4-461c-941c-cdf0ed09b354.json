@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6c4a14f1-23c4-461c-941c-cdf0ed09b354",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6c4a14f1-23c4-461c-941c-cdf0ed09b354"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6c4a14f1-23c4-461c-941c-cdf0ed09b354",
-        "name": "St. Claire Regional Medical Center-TCU - Morehead, KY",
-        "address": [
-          {
-            "line": [
-              "222 Medical Cir"
-            ],
-            "city": "Morehead",
-            "state": "KY",
-            "postalCode": "40351",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6c4a14f1-23c4-461c-941c-cdf0ed09b354"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6c4a14f1-23c4-461c-941c-cdf0ed09b354/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6c4a14f1-23c4-461c-941c-cdf0ed09b354"
 }

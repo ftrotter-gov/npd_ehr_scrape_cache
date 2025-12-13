@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "29fbbdc2-e395-4dbd-ac1a-26dadcd41668",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/29fbbdc2-e395-4dbd-ac1a-26dadcd41668"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "29fbbdc2-e395-4dbd-ac1a-26dadcd41668",
-        "name": "Sarah Reed Senior Living - Erie, PA",
-        "address": [
-          {
-            "line": [
-              "227 W 22nd St"
-            ],
-            "city": "Erie",
-            "state": "PA",
-            "postalCode": "16502-2614",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "29fbbdc2-e395-4dbd-ac1a-26dadcd41668"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/29fbbdc2-e395-4dbd-ac1a-26dadcd41668/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/29fbbdc2-e395-4dbd-ac1a-26dadcd41668"
 }

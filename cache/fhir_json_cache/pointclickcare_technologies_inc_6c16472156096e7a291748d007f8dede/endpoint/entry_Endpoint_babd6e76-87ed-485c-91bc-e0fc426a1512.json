@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "babd6e76-87ed-485c-91bc-e0fc426a1512",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/babd6e76-87ed-485c-91bc-e0fc426a1512"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "babd6e76-87ed-485c-91bc-e0fc426a1512",
-        "name": "Frederick Mennonite Community - Frederick, PA",
-        "address": [
-          {
-            "line": [
-              "2489 Big Rd"
-            ],
-            "city": "Frederick",
-            "state": "PA",
-            "postalCode": "19435",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "babd6e76-87ed-485c-91bc-e0fc426a1512"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/babd6e76-87ed-485c-91bc-e0fc426a1512/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/babd6e76-87ed-485c-91bc-e0fc426a1512"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8619e033-2687-45f5-8dcc-33b7dfbc1f6e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8619e033-2687-45f5-8dcc-33b7dfbc1f6e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8619e033-2687-45f5-8dcc-33b7dfbc1f6e",
-        "name": "Eastern Star Home in Kentucky, Inc. - Louisville, KY",
-        "address": [
-          {
-            "line": [
-              "923 Eastern Star Ct"
-            ],
-            "city": "Louisville",
-            "state": "KY",
-            "postalCode": "40204",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8619e033-2687-45f5-8dcc-33b7dfbc1f6e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8619e033-2687-45f5-8dcc-33b7dfbc1f6e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8619e033-2687-45f5-8dcc-33b7dfbc1f6e"
 }

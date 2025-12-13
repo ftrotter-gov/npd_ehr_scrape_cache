@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7241397d-6d77-4e48-94ec-c8b403643295",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7241397d-6d77-4e48-94ec-c8b403643295"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7241397d-6d77-4e48-94ec-c8b403643295",
-        "name": "Cedar Haven Acquisition, LLC dba Cedar H - Lebanon, PA",
-        "address": [
-          {
-            "line": [
-              "590 S 5th Ave"
-            ],
-            "city": "Lebanon",
-            "state": "PA",
-            "postalCode": "17042",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7241397d-6d77-4e48-94ec-c8b403643295"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7241397d-6d77-4e48-94ec-c8b403643295/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7241397d-6d77-4e48-94ec-c8b403643295"
 }

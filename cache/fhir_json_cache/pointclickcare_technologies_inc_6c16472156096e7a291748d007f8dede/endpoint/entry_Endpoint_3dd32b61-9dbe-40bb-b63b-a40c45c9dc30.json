@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3dd32b61-9dbe-40bb-b63b-a40c45c9dc30",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3dd32b61-9dbe-40bb-b63b-a40c45c9dc30"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3dd32b61-9dbe-40bb-b63b-a40c45c9dc30",
-        "name": "Eventide Senior Living Communities - Moorhead, MN",
-        "address": [
-          {
-            "line": [
-              "2405 8th St. South",
-              "Suite A"
-            ],
-            "city": "Moorhead",
-            "state": "MN",
-            "postalCode": "56560",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3dd32b61-9dbe-40bb-b63b-a40c45c9dc30"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3dd32b61-9dbe-40bb-b63b-a40c45c9dc30/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3dd32b61-9dbe-40bb-b63b-a40c45c9dc30"
 }

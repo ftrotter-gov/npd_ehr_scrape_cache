@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "55b3f208-560d-4e55-bd1e-ed4247bcd2ae",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/55b3f208-560d-4e55-bd1e-ed4247bcd2ae"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "55b3f208-560d-4e55-bd1e-ed4247bcd2ae",
-        "name": "Green House Living for Sheridan - Sheridan, WY",
-        "address": [
-          {
-            "line": [
-              "2311 Shirley Cove"
-            ],
-            "city": "Sheridan",
-            "state": "WY",
-            "postalCode": "82801",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "55b3f208-560d-4e55-bd1e-ed4247bcd2ae"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/55b3f208-560d-4e55-bd1e-ed4247bcd2ae/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/55b3f208-560d-4e55-bd1e-ed4247bcd2ae"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c86ccf2d-bf9b-4467-8dcc-1f272a586f2a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c86ccf2d-bf9b-4467-8dcc-1f272a586f2a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c86ccf2d-bf9b-4467-8dcc-1f272a586f2a",
-        "name": "Elms of Cranbury, The - Cranbury, NJ",
-        "address": [
-          {
-            "line": [
-              "61 Maplewood Ave"
-            ],
-            "city": "Cranbury",
-            "state": "NJ",
-            "postalCode": "08512",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c86ccf2d-bf9b-4467-8dcc-1f272a586f2a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c86ccf2d-bf9b-4467-8dcc-1f272a586f2a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c86ccf2d-bf9b-4467-8dcc-1f272a586f2a"
 }

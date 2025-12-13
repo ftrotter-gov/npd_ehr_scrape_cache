@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "04e5e471-b51c-4f0c-9134-ca0c5dd096b2",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/04e5e471-b51c-4f0c-9134-ca0c5dd096b2"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "04e5e471-b51c-4f0c-9134-ca0c5dd096b2",
-        "name": "Hilltop Care Center - Watkins, MN",
-        "address": [
-          {
-            "line": [
-              "410 Louella St"
-            ],
-            "city": "Watkins",
-            "state": "MN",
-            "postalCode": "55389",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "04e5e471-b51c-4f0c-9134-ca0c5dd096b2"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/04e5e471-b51c-4f0c-9134-ca0c5dd096b2/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/04e5e471-b51c-4f0c-9134-ca0c5dd096b2"
 }

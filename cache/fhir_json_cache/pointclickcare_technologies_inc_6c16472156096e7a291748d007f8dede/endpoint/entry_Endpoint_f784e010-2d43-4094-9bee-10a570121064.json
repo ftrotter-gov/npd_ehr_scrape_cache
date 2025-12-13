@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f784e010-2d43-4094-9bee-10a570121064",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f784e010-2d43-4094-9bee-10a570121064"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f784e010-2d43-4094-9bee-10a570121064",
-        "name": "Optalis Group - Novi, MI",
-        "address": [
-          {
-            "line": [
-              "25500 Meadowbrook Road"
-            ],
-            "city": "Novi",
-            "state": "MI",
-            "postalCode": "48375",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f784e010-2d43-4094-9bee-10a570121064"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f784e010-2d43-4094-9bee-10a570121064/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f784e010-2d43-4094-9bee-10a570121064"
 }

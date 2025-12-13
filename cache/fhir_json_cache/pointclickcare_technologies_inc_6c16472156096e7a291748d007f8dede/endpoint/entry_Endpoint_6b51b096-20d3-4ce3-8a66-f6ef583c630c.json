@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "6b51b096-20d3-4ce3-8a66-f6ef583c630c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/6b51b096-20d3-4ce3-8a66-f6ef583c630c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "6b51b096-20d3-4ce3-8a66-f6ef583c630c",
-        "name": "Heritage Health Therapy & Senior Care - Bloomington, IL",
-        "address": [
-          {
-            "line": [
-              "115 W. Jefferson St. Suite 401",
-              "PO Box 3188"
-            ],
-            "city": "Bloomington",
-            "state": "IL",
-            "postalCode": "61702-3188",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "6b51b096-20d3-4ce3-8a66-f6ef583c630c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/6b51b096-20d3-4ce3-8a66-f6ef583c630c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/6b51b096-20d3-4ce3-8a66-f6ef583c630c"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "db144d90-6850-4c6d-b4ce-bc6cad53ec55",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/db144d90-6850-4c6d-b4ce-bc6cad53ec55"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "db144d90-6850-4c6d-b4ce-bc6cad53ec55",
-        "name": "Midwest Health, Inc. - Topeka, KS",
-        "address": [
-          {
-            "line": [
-              "3024 SW Wanamaker Rd",
-              "Suite 300"
-            ],
-            "city": "Topeka",
-            "state": "KS",
-            "postalCode": "66614",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "db144d90-6850-4c6d-b4ce-bc6cad53ec55"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/db144d90-6850-4c6d-b4ce-bc6cad53ec55/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/db144d90-6850-4c6d-b4ce-bc6cad53ec55"
 }

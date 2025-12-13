@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "59dd1fd7-2531-4341-b85f-742cee0e6bf0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/59dd1fd7-2531-4341-b85f-742cee0e6bf0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "59dd1fd7-2531-4341-b85f-742cee0e6bf0",
-        "name": "Cardinal Senior Management, LLC - Grand Rapids, MI",
-        "address": [
-          {
-            "line": [
-              "6157 28th Street SE Suite 7"
-            ],
-            "city": "Grand Rapids",
-            "state": "MI",
-            "postalCode": "49546",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "59dd1fd7-2531-4341-b85f-742cee0e6bf0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/59dd1fd7-2531-4341-b85f-742cee0e6bf0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/59dd1fd7-2531-4341-b85f-742cee0e6bf0"
 }

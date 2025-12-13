@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7c82f6f8-a938-4894-ab40-666506ed3cfc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7c82f6f8-a938-4894-ab40-666506ed3cfc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7c82f6f8-a938-4894-ab40-666506ed3cfc",
-        "name": "Noble Senior Services - Red Bank, NJ",
-        "address": [
-          {
-            "line": [
-              "137 Broad Street"
-            ],
-            "city": "Red Bank",
-            "state": "NJ",
-            "postalCode": "07701",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7c82f6f8-a938-4894-ab40-666506ed3cfc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7c82f6f8-a938-4894-ab40-666506ed3cfc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7c82f6f8-a938-4894-ab40-666506ed3cfc"
 }

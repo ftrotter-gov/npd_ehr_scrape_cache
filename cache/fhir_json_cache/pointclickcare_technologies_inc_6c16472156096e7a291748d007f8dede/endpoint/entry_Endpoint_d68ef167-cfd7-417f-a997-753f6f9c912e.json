@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d68ef167-cfd7-417f-a997-753f6f9c912e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d68ef167-cfd7-417f-a997-753f6f9c912e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d68ef167-cfd7-417f-a997-753f6f9c912e",
-        "name": "Teresian House Nursing Home - Albany, NY",
-        "address": [
-          {
-            "line": [
-              "200 Washington Ave Ext"
-            ],
-            "city": "Albany",
-            "state": "NY",
-            "postalCode": "12203",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d68ef167-cfd7-417f-a997-753f6f9c912e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d68ef167-cfd7-417f-a997-753f6f9c912e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d68ef167-cfd7-417f-a997-753f6f9c912e"
 }

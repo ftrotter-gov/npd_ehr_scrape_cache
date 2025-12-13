@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f0991aa3-d27f-44e5-bd23-40f4b378ea28",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f0991aa3-d27f-44e5-bd23-40f4b378ea28"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f0991aa3-d27f-44e5-bd23-40f4b378ea28",
-        "name": "Franklin County Rehab Center - Saint Albans, VT",
-        "address": [
-          {
-            "line": [
-              "110 Fairfax Road"
-            ],
-            "city": "Saint Albans",
-            "state": "VT",
-            "postalCode": "05478",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f0991aa3-d27f-44e5-bd23-40f4b378ea28"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f0991aa3-d27f-44e5-bd23-40f4b378ea28/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f0991aa3-d27f-44e5-bd23-40f4b378ea28"
 }

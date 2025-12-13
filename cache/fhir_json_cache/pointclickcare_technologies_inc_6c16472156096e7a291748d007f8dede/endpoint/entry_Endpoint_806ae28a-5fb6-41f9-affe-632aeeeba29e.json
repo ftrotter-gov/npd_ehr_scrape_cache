@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "806ae28a-5fb6-41f9-affe-632aeeeba29e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/806ae28a-5fb6-41f9-affe-632aeeeba29e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "806ae28a-5fb6-41f9-affe-632aeeeba29e",
-        "name": "Bear Mountain Healthcare LLC - Thomaston, CT",
-        "address": [
-          {
-            "line": [
-              "‍130 South Main Street Suite 203"
-            ],
-            "city": "Thomaston",
-            "state": "CT",
-            "postalCode": "06786",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "806ae28a-5fb6-41f9-affe-632aeeeba29e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/806ae28a-5fb6-41f9-affe-632aeeeba29e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/806ae28a-5fb6-41f9-affe-632aeeeba29e"
 }

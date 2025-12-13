@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ef709295-b256-4af6-8f7b-f07fff5b8740",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ef709295-b256-4af6-8f7b-f07fff5b8740"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ef709295-b256-4af6-8f7b-f07fff5b8740",
-        "name": "ProMedica Continuing Care Services Corpo - Sylvania, OH",
-        "address": [
-          {
-            "line": [
-              "5855 Monroe Street"
-            ],
-            "city": "Sylvania",
-            "state": "OH",
-            "postalCode": "43560",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ef709295-b256-4af6-8f7b-f07fff5b8740"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ef709295-b256-4af6-8f7b-f07fff5b8740/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ef709295-b256-4af6-8f7b-f07fff5b8740"
 }

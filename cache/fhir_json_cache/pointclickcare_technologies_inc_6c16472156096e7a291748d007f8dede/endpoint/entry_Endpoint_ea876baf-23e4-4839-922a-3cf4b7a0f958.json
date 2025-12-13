@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ea876baf-23e4-4839-922a-3cf4b7a0f958",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ea876baf-23e4-4839-922a-3cf4b7a0f958"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ea876baf-23e4-4839-922a-3cf4b7a0f958",
-        "name": "Grant Rehabilitation and Care Center - Petersburg, WV",
-        "address": [
-          {
-            "line": [
-              "127 Early Ave"
-            ],
-            "city": "Petersburg",
-            "state": "WV",
-            "postalCode": "26847-9403",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ea876baf-23e4-4839-922a-3cf4b7a0f958"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ea876baf-23e4-4839-922a-3cf4b7a0f958/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ea876baf-23e4-4839-922a-3cf4b7a0f958"
 }

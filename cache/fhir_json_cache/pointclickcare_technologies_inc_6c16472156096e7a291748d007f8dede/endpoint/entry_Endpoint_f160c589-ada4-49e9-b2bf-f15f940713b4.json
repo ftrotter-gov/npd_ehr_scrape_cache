@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "f160c589-ada4-49e9-b2bf-f15f940713b4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/f160c589-ada4-49e9-b2bf-f15f940713b4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "f160c589-ada4-49e9-b2bf-f15f940713b4",
-        "name": "Sharkey Issaquena Community Hospital - Rolling Fork, MS",
-        "address": [
-          {
-            "line": [
-              "47 S 4th St"
-            ],
-            "city": "Rolling Fork",
-            "state": "MS",
-            "postalCode": "39159",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "f160c589-ada4-49e9-b2bf-f15f940713b4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/f160c589-ada4-49e9-b2bf-f15f940713b4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/f160c589-ada4-49e9-b2bf-f15f940713b4"
 }

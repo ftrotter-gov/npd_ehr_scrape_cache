@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a5ea06c2-8d63-47ed-8c34-891b0d6b725e",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a5ea06c2-8d63-47ed-8c34-891b0d6b725e"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a5ea06c2-8d63-47ed-8c34-891b0d6b725e",
-        "name": "Medway Country Manor - Medway, MA",
-        "address": [
-          {
-            "line": [
-              "115 Holliston St"
-            ],
-            "city": "Medway",
-            "state": "MA",
-            "postalCode": "02053",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a5ea06c2-8d63-47ed-8c34-891b0d6b725e"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a5ea06c2-8d63-47ed-8c34-891b0d6b725e/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a5ea06c2-8d63-47ed-8c34-891b0d6b725e"
 }

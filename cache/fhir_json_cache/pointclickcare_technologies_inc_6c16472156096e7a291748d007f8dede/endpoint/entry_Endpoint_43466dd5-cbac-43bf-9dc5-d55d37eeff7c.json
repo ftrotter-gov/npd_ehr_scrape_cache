@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "43466dd5-cbac-43bf-9dc5-d55d37eeff7c",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/43466dd5-cbac-43bf-9dc5-d55d37eeff7c"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "43466dd5-cbac-43bf-9dc5-d55d37eeff7c",
-        "name": "Takifhu Associates LLC - Hollywood, FL",
-        "address": [
-          {
-            "line": [
-              "3389 Sheridan St."
-            ],
-            "city": "Hollywood",
-            "state": "FL",
-            "postalCode": "33021",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "43466dd5-cbac-43bf-9dc5-d55d37eeff7c"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/43466dd5-cbac-43bf-9dc5-d55d37eeff7c/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/43466dd5-cbac-43bf-9dc5-d55d37eeff7c"
 }

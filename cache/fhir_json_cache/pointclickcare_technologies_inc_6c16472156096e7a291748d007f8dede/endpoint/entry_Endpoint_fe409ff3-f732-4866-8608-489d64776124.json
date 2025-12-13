@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "fe409ff3-f732-4866-8608-489d64776124",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/fe409ff3-f732-4866-8608-489d64776124"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "fe409ff3-f732-4866-8608-489d64776124",
-        "name": "Mount San Antonio Gardens - Pomona, CA",
-        "address": [
-          {
-            "line": [
-              "900 E Harrison Ave"
-            ],
-            "city": "Pomona",
-            "state": "CA",
-            "postalCode": "91767-2075",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "fe409ff3-f732-4866-8608-489d64776124"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/fe409ff3-f732-4866-8608-489d64776124/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/fe409ff3-f732-4866-8608-489d64776124"
 }

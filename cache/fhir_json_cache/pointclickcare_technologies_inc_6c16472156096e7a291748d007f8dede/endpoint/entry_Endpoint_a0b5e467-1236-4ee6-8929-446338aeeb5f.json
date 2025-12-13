@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a0b5e467-1236-4ee6-8929-446338aeeb5f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a0b5e467-1236-4ee6-8929-446338aeeb5f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a0b5e467-1236-4ee6-8929-446338aeeb5f",
-        "name": "Glen Island Care Center - New Rochelle, NY",
-        "address": [
-          {
-            "line": [
-              "490 Pelham Rd"
-            ],
-            "city": "New Rochelle",
-            "state": "NY",
-            "postalCode": "10805",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a0b5e467-1236-4ee6-8929-446338aeeb5f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a0b5e467-1236-4ee6-8929-446338aeeb5f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a0b5e467-1236-4ee6-8929-446338aeeb5f"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8eddbd65-d463-41af-a25a-eab37d248846",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8eddbd65-d463-41af-a25a-eab37d248846"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8eddbd65-d463-41af-a25a-eab37d248846",
-        "name": "Ohio Department of Veteran Services - Sandusky, OH",
-        "address": [
-          {
-            "line": [
-              "3416 Columbus Ave"
-            ],
-            "city": "Sandusky",
-            "state": "OH",
-            "postalCode": "44870-5557",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8eddbd65-d463-41af-a25a-eab37d248846"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8eddbd65-d463-41af-a25a-eab37d248846/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8eddbd65-d463-41af-a25a-eab37d248846"
 }

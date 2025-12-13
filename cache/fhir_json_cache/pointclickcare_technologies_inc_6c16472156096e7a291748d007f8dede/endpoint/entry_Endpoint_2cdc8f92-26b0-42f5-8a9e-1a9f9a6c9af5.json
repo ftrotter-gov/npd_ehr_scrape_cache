@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2cdc8f92-26b0-42f5-8a9e-1a9f9a6c9af5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2cdc8f92-26b0-42f5-8a9e-1a9f9a6c9af5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2cdc8f92-26b0-42f5-8a9e-1a9f9a6c9af5",
-        "name": "Laurel Heights Conv Hospital - San Francisco, CA",
-        "address": [
-          {
-            "line": [
-              "2740 California Street"
-            ],
-            "city": "San Francisco",
-            "state": "CA",
-            "postalCode": "94115",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2cdc8f92-26b0-42f5-8a9e-1a9f9a6c9af5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2cdc8f92-26b0-42f5-8a9e-1a9f9a6c9af5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2cdc8f92-26b0-42f5-8a9e-1a9f9a6c9af5"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "056f0477-3c36-4e8a-a21d-3900c2a4266a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/056f0477-3c36-4e8a-a21d-3900c2a4266a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "056f0477-3c36-4e8a-a21d-3900c2a4266a",
-        "name": "Benjamin Health Care Center - Boston, MA",
-        "address": [
-          {
-            "line": [
-              "120 Fisher Ave."
-            ],
-            "city": "Boston",
-            "state": "MA",
-            "postalCode": "02120",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "056f0477-3c36-4e8a-a21d-3900c2a4266a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/056f0477-3c36-4e8a-a21d-3900c2a4266a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/056f0477-3c36-4e8a-a21d-3900c2a4266a"
 }

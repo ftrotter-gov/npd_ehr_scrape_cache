@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "c37953e9-079d-49b7-8403-8453a591f187",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/c37953e9-079d-49b7-8403-8453a591f187"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "c37953e9-079d-49b7-8403-8453a591f187",
-        "name": "Lita & Ava Inc. - San Jose, CA",
-        "address": [
-          {
-            "line": [
-              "1250 S. Winchester Blvd"
-            ],
-            "city": "San Jose",
-            "state": "CA",
-            "postalCode": "95128",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "c37953e9-079d-49b7-8403-8453a591f187"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/c37953e9-079d-49b7-8403-8453a591f187/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/c37953e9-079d-49b7-8403-8453a591f187"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "74eedea0-49a0-4822-937c-2823a7f39a37",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/74eedea0-49a0-4822-937c-2823a7f39a37"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "74eedea0-49a0-4822-937c-2823a7f39a37",
-        "name": "Cascades Healthcare - Provo, UT",
-        "address": [
-          {
-            "line": [
-              "5314 N. River Run Drive",
-              "Suite 140"
-            ],
-            "city": "Provo",
-            "state": "UT",
-            "postalCode": "84604",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "74eedea0-49a0-4822-937c-2823a7f39a37"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/74eedea0-49a0-4822-937c-2823a7f39a37/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/74eedea0-49a0-4822-937c-2823a7f39a37"
 }

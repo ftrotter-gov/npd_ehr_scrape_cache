@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7689a674-f852-4317-96fd-91f40620f4d5",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7689a674-f852-4317-96fd-91f40620f4d5"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7689a674-f852-4317-96fd-91f40620f4d5",
-        "name": "Sterling Senior Care, LLC - Silver Spring, MD",
-        "address": [
-          {
-            "line": [
-              "709 Kersey Road"
-            ],
-            "city": "Silver Spring",
-            "state": "MD",
-            "postalCode": "20902",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7689a674-f852-4317-96fd-91f40620f4d5"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7689a674-f852-4317-96fd-91f40620f4d5/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7689a674-f852-4317-96fd-91f40620f4d5"
 }

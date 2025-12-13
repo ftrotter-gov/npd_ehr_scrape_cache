@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "1afc45ee-3d08-455d-b94f-5a42c7acb4c6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/1afc45ee-3d08-455d-b94f-5a42c7acb4c6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "1afc45ee-3d08-455d-b94f-5a42c7acb4c6",
-        "name": "Clarendon Memorial Hospital d/b/a Southe - Manning, SC",
-        "address": [
-          {
-            "line": [
-              "3147a Sumter Highway"
-            ],
-            "city": "Manning",
-            "state": "SC",
-            "postalCode": "29102",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "1afc45ee-3d08-455d-b94f-5a42c7acb4c6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/1afc45ee-3d08-455d-b94f-5a42c7acb4c6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/1afc45ee-3d08-455d-b94f-5a42c7acb4c6"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a3b6467d-b991-44af-9132-dd7764fc4e25",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a3b6467d-b991-44af-9132-dd7764fc4e25"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a3b6467d-b991-44af-9132-dd7764fc4e25",
-        "name": "Priority Management Services - MM - Bossier City, LA",
-        "address": [
-          {
-            "line": [
-              "1000 Chinaberry Drive",
-              "Suite 200"
-            ],
-            "city": "Bossier City",
-            "state": "LA",
-            "postalCode": "71111",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a3b6467d-b991-44af-9132-dd7764fc4e25"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a3b6467d-b991-44af-9132-dd7764fc4e25/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a3b6467d-b991-44af-9132-dd7764fc4e25"
 }

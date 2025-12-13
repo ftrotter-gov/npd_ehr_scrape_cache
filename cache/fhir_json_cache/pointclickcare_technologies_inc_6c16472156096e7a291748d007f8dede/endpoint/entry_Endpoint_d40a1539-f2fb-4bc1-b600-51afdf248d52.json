@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d40a1539-f2fb-4bc1-b600-51afdf248d52",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d40a1539-f2fb-4bc1-b600-51afdf248d52"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d40a1539-f2fb-4bc1-b600-51afdf248d52",
-        "name": "CommuniCare Health Services, Inc. - Blue Ash, OH",
-        "address": [
-          {
-            "line": [
-              "10123 Alliance Road Suite 320"
-            ],
-            "city": "Blue Ash",
-            "state": "OH",
-            "postalCode": "45242",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d40a1539-f2fb-4bc1-b600-51afdf248d52"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d40a1539-f2fb-4bc1-b600-51afdf248d52/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d40a1539-f2fb-4bc1-b600-51afdf248d52"
 }

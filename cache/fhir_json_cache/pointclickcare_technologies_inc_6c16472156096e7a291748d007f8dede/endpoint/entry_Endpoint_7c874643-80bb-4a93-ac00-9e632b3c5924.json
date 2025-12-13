@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7c874643-80bb-4a93-ac00-9e632b3c5924",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7c874643-80bb-4a93-ac00-9e632b3c5924"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7c874643-80bb-4a93-ac00-9e632b3c5924",
-        "name": "Midwest Medical Center -  Galena Stauss - Galena, IL",
-        "address": [
-          {
-            "line": [
-              "215 Summit St"
-            ],
-            "city": "Galena",
-            "state": "IL",
-            "postalCode": "61036-1697",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7c874643-80bb-4a93-ac00-9e632b3c5924"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7c874643-80bb-4a93-ac00-9e632b3c5924/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7c874643-80bb-4a93-ac00-9e632b3c5924"
 }

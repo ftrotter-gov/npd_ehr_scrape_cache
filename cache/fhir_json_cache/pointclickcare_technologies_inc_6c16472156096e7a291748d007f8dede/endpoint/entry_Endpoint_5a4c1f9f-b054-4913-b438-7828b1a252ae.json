@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5a4c1f9f-b054-4913-b438-7828b1a252ae",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5a4c1f9f-b054-4913-b438-7828b1a252ae"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5a4c1f9f-b054-4913-b438-7828b1a252ae",
-        "name": "Elderly and Disabled Services - Medford, OR",
-        "address": [
-          {
-            "line": [
-              "3126 State Street"
-            ],
-            "city": "Medford",
-            "state": "OR",
-            "postalCode": "97504",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5a4c1f9f-b054-4913-b438-7828b1a252ae"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5a4c1f9f-b054-4913-b438-7828b1a252ae/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5a4c1f9f-b054-4913-b438-7828b1a252ae"
 }

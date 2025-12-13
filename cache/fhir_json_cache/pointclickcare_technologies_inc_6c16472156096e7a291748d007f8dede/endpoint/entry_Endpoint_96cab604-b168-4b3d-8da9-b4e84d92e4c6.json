@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "96cab604-b168-4b3d-8da9-b4e84d92e4c6",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/96cab604-b168-4b3d-8da9-b4e84d92e4c6"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "96cab604-b168-4b3d-8da9-b4e84d92e4c6",
-        "name": "Goodwill Retirement Community - Grantsville, MD",
-        "address": [
-          {
-            "line": [
-              "891 Dorsey Hotel Rd"
-            ],
-            "city": "Grantsville",
-            "state": "MD",
-            "postalCode": "21536",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "96cab604-b168-4b3d-8da9-b4e84d92e4c6"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/96cab604-b168-4b3d-8da9-b4e84d92e4c6/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/96cab604-b168-4b3d-8da9-b4e84d92e4c6"
 }

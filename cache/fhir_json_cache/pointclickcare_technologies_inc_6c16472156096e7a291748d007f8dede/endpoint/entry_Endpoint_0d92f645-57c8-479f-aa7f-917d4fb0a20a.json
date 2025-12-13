@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "0d92f645-57c8-479f-aa7f-917d4fb0a20a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/0d92f645-57c8-479f-aa7f-917d4fb0a20a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "0d92f645-57c8-479f-aa7f-917d4fb0a20a",
-        "name": "Elim Park Baptist Home, Inc. The - Cheshire, CT",
-        "address": [
-          {
-            "line": [
-              "140 Cook Hill Rd"
-            ],
-            "city": "Cheshire",
-            "state": "CT",
-            "postalCode": "06410",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "0d92f645-57c8-479f-aa7f-917d4fb0a20a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/0d92f645-57c8-479f-aa7f-917d4fb0a20a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/0d92f645-57c8-479f-aa7f-917d4fb0a20a"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "a92090b4-bf24-4755-84f6-17c74c69ffb0",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/a92090b4-bf24-4755-84f6-17c74c69ffb0"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "a92090b4-bf24-4755-84f6-17c74c69ffb0",
-        "name": "Liberty Healthcare Management, LLC - Danville, PA",
-        "address": [
-          {
-            "line": [
-              "1301 Bloom Road"
-            ],
-            "city": "Danville",
-            "state": "PA",
-            "postalCode": "17821",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "a92090b4-bf24-4755-84f6-17c74c69ffb0"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/a92090b4-bf24-4755-84f6-17c74c69ffb0/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/a92090b4-bf24-4755-84f6-17c74c69ffb0"
 }

@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "ddeb20bb-302c-48bd-a3dd-41122e749aaf",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/ddeb20bb-302c-48bd-a3dd-41122e749aaf"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "ddeb20bb-302c-48bd-a3dd-41122e749aaf",
-        "name": "Perry County DBA Buffalo River Health Ca - Linden, TN",
-        "address": [
-          {
-            "line": [
-              "127 E Brooklyn Ave"
-            ],
-            "city": "Linden",
-            "state": "TN",
-            "postalCode": "37096-9407",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "ddeb20bb-302c-48bd-a3dd-41122e749aaf"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/ddeb20bb-302c-48bd-a3dd-41122e749aaf/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/ddeb20bb-302c-48bd-a3dd-41122e749aaf"
 }

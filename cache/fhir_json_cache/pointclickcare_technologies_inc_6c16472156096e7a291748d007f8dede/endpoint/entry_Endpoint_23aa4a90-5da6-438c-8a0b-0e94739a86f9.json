@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "23aa4a90-5da6-438c-8a0b-0e94739a86f9",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/23aa4a90-5da6-438c-8a0b-0e94739a86f9"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "23aa4a90-5da6-438c-8a0b-0e94739a86f9",
-        "name": "Vanguard Healthcare, LLC - Brentwood, TN",
-        "address": [
-          {
-            "line": [
-              "6 Cadillac Drive"
-            ],
-            "city": "Brentwood",
-            "state": "TN",
-            "postalCode": "37027",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "23aa4a90-5da6-438c-8a0b-0e94739a86f9"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/23aa4a90-5da6-438c-8a0b-0e94739a86f9/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/23aa4a90-5da6-438c-8a0b-0e94739a86f9"
 }

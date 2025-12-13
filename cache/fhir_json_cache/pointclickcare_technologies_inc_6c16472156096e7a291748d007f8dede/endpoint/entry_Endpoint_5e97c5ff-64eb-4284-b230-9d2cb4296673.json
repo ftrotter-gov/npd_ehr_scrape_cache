@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "5e97c5ff-64eb-4284-b230-9d2cb4296673",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/5e97c5ff-64eb-4284-b230-9d2cb4296673"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "5e97c5ff-64eb-4284-b230-9d2cb4296673",
-        "name": "Living Branches - Lansdale, PA",
-        "address": [
-          {
-            "line": [
-              "275 Dock Drive"
-            ],
-            "city": "Lansdale",
-            "state": "PA",
-            "postalCode": "19446",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "5e97c5ff-64eb-4284-b230-9d2cb4296673"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/5e97c5ff-64eb-4284-b230-9d2cb4296673/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/5e97c5ff-64eb-4284-b230-9d2cb4296673"
 }

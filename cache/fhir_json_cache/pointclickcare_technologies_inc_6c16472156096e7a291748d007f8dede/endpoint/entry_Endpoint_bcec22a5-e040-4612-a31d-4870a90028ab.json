@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bcec22a5-e040-4612-a31d-4870a90028ab",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bcec22a5-e040-4612-a31d-4870a90028ab"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bcec22a5-e040-4612-a31d-4870a90028ab",
-        "name": "Jewish Home of Eastern Pennsylvania - Scranton, PA",
-        "address": [
-          {
-            "line": [
-              "1101 Vine St."
-            ],
-            "city": "Scranton",
-            "state": "PA",
-            "postalCode": "18510-2126",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bcec22a5-e040-4612-a31d-4870a90028ab"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bcec22a5-e040-4612-a31d-4870a90028ab/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bcec22a5-e040-4612-a31d-4870a90028ab"
 }

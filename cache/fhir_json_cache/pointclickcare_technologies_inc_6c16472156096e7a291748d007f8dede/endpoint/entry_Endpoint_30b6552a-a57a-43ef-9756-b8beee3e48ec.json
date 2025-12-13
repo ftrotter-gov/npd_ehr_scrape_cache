@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "30b6552a-a57a-43ef-9756-b8beee3e48ec",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/30b6552a-a57a-43ef-9756-b8beee3e48ec"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "30b6552a-a57a-43ef-9756-b8beee3e48ec",
-        "name": "Altercare, Inc d/b/a The Northridge Heal - ",
-        "address": [
-          {
-            "line": [
-              "35990 Westminister Avenue"
-            ],
-            "city": "North Ridgeville",
-            "state": "OH",
-            "postalCode": "44039",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "30b6552a-a57a-43ef-9756-b8beee3e48ec"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/30b6552a-a57a-43ef-9756-b8beee3e48ec/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/30b6552a-a57a-43ef-9756-b8beee3e48ec"
 }

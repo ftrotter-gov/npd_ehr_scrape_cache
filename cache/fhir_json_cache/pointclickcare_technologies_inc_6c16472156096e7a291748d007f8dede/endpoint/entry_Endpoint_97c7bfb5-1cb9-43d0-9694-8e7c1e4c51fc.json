@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "97c7bfb5-1cb9-43d0-9694-8e7c1e4c51fc",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/97c7bfb5-1cb9-43d0-9694-8e7c1e4c51fc"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "97c7bfb5-1cb9-43d0-9694-8e7c1e4c51fc",
-        "name": "Kin On Health Care Center - Seattle, WA",
-        "address": [
-          {
-            "line": [
-              "4416 S Brandon St"
-            ],
-            "city": "Seattle",
-            "state": "WA",
-            "postalCode": "98118",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "97c7bfb5-1cb9-43d0-9694-8e7c1e4c51fc"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/97c7bfb5-1cb9-43d0-9694-8e7c1e4c51fc/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/97c7bfb5-1cb9-43d0-9694-8e7c1e4c51fc"
 }

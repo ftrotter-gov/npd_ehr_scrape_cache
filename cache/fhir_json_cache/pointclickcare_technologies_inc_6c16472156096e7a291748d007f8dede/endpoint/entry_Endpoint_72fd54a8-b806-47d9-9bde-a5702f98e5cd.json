@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "72fd54a8-b806-47d9-9bde-a5702f98e5cd",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/72fd54a8-b806-47d9-9bde-a5702f98e5cd"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "72fd54a8-b806-47d9-9bde-a5702f98e5cd",
-        "name": "Brooks Rehabilitation - Jacksonville, FL",
-        "address": [
-          {
-            "line": [
-              "3599 Universtiy Blvd S"
-            ],
-            "city": "Jacksonville",
-            "state": "FL",
-            "postalCode": "32216",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "72fd54a8-b806-47d9-9bde-a5702f98e5cd"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/72fd54a8-b806-47d9-9bde-a5702f98e5cd/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/72fd54a8-b806-47d9-9bde-a5702f98e5cd"
 }

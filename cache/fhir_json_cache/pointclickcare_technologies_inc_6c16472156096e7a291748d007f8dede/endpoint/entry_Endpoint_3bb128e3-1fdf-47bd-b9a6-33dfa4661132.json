@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "3bb128e3-1fdf-47bd-b9a6-33dfa4661132",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/3bb128e3-1fdf-47bd-b9a6-33dfa4661132"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "3bb128e3-1fdf-47bd-b9a6-33dfa4661132",
-        "name": "Retirement Housing Foundation - Long Beach, CA",
-        "address": [
-          {
-            "line": [
-              "911 N Studebaker Rd"
-            ],
-            "city": "Long Beach",
-            "state": "CA",
-            "postalCode": "90815",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "3bb128e3-1fdf-47bd-b9a6-33dfa4661132"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/3bb128e3-1fdf-47bd-b9a6-33dfa4661132/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/3bb128e3-1fdf-47bd-b9a6-33dfa4661132"
 }

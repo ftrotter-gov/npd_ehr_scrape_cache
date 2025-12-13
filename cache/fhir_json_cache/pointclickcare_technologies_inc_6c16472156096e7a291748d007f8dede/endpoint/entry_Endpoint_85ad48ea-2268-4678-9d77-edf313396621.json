@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "85ad48ea-2268-4678-9d77-edf313396621",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/85ad48ea-2268-4678-9d77-edf313396621"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "85ad48ea-2268-4678-9d77-edf313396621",
-        "name": "GreenView Senior Living - Uniontown, OH",
-        "address": [
-          {
-            "line": [
-              "4000 Massillon Road"
-            ],
-            "city": "Uniontown",
-            "state": "OH",
-            "postalCode": "44685",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "85ad48ea-2268-4678-9d77-edf313396621"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/85ad48ea-2268-4678-9d77-edf313396621/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/85ad48ea-2268-4678-9d77-edf313396621"
 }

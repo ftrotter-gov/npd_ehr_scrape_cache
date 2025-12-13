@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "cfa0dd86-5f92-4c88-b8ce-082b230ee1af",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/cfa0dd86-5f92-4c88-b8ce-082b230ee1af"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "cfa0dd86-5f92-4c88-b8ce-082b230ee1af",
-        "name": "Crowne Management, LLC - Monroeville, AL",
-        "address": [
-          {
-            "line": [
-              "501 Whetstone St."
-            ],
-            "city": "Monroeville",
-            "state": "AL",
-            "postalCode": "36460",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "cfa0dd86-5f92-4c88-b8ce-082b230ee1af"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/cfa0dd86-5f92-4c88-b8ce-082b230ee1af/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/cfa0dd86-5f92-4c88-b8ce-082b230ee1af"
 }

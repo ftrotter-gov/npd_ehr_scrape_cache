@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "7af32d79-4ea3-4c1f-a240-ca929a16fc39",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/7af32d79-4ea3-4c1f-a240-ca929a16fc39"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "7af32d79-4ea3-4c1f-a240-ca929a16fc39",
-        "name": "Levering Management Inc - Mount Vernon, OH",
-        "address": [
-          {
-            "line": [
-              "201 N Main St"
-            ],
-            "city": "Mount Vernon",
-            "state": "OH",
-            "postalCode": "43050",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "7af32d79-4ea3-4c1f-a240-ca929a16fc39"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/7af32d79-4ea3-4c1f-a240-ca929a16fc39/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/7af32d79-4ea3-4c1f-a240-ca929a16fc39"
 }

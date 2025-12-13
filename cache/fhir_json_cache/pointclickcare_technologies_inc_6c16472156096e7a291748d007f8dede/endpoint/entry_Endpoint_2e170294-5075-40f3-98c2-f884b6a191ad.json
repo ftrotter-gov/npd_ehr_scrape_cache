@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "2e170294-5075-40f3-98c2-f884b6a191ad",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/2e170294-5075-40f3-98c2-f884b6a191ad"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "2e170294-5075-40f3-98c2-f884b6a191ad",
-        "name": "Azura, LLC - Boulder, CO",
-        "address": [
-          {
-            "line": [
-              "PO Box 894"
-            ],
-            "city": "Boulder",
-            "state": "CO",
-            "postalCode": "80306-0894",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "2e170294-5075-40f3-98c2-f884b6a191ad"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/2e170294-5075-40f3-98c2-f884b6a191ad/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/2e170294-5075-40f3-98c2-f884b6a191ad"
 }

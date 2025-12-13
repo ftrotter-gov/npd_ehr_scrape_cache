@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "88ba5f69-a090-4401-a38b-c0a3c51d2d72",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/88ba5f69-a090-4401-a38b-c0a3c51d2d72"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "88ba5f69-a090-4401-a38b-c0a3c51d2d72",
-        "name": "Colombiere Jesuit Healthcare - Clarkston, MI",
-        "address": [
-          {
-            "line": [
-              "9075 Big Lake Rd."
-            ],
-            "city": "Clarkston",
-            "state": "MI",
-            "postalCode": "48346",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "88ba5f69-a090-4401-a38b-c0a3c51d2d72"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/88ba5f69-a090-4401-a38b-c0a3c51d2d72/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/88ba5f69-a090-4401-a38b-c0a3c51d2d72"
 }

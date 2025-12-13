@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "d840ce98-1516-4f7d-9b1f-574e64df7191",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/d840ce98-1516-4f7d-9b1f-574e64df7191"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "d840ce98-1516-4f7d-9b1f-574e64df7191",
-        "name": "Wicomico Nursing Home - Salisbury, MD",
-        "address": [
-          {
-            "line": [
-              "900 Booth Street",
-              "PO Box 2378"
-            ],
-            "city": "Salisbury",
-            "state": "MD",
-            "postalCode": "21801",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "d840ce98-1516-4f7d-9b1f-574e64df7191"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/d840ce98-1516-4f7d-9b1f-574e64df7191/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/d840ce98-1516-4f7d-9b1f-574e64df7191"
 }

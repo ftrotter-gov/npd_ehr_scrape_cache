@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "bc63831c-623f-484f-8c0d-b68fc253904f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/bc63831c-623f-484f-8c0d-b68fc253904f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "bc63831c-623f-484f-8c0d-b68fc253904f",
-        "name": "Convacare Administrative Services - Judsonia, AR",
-        "address": [
-          {
-            "line": [
-              "101 Cynthia St",
-              "PO Box 670"
-            ],
-            "city": "Judsonia",
-            "state": "AR",
-            "postalCode": "72081-9766",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "bc63831c-623f-484f-8c0d-b68fc253904f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/bc63831c-623f-484f-8c0d-b68fc253904f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/bc63831c-623f-484f-8c0d-b68fc253904f"
 }

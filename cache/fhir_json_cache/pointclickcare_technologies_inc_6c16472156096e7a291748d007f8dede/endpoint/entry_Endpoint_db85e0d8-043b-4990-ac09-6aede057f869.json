@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "db85e0d8-043b-4990-ac09-6aede057f869",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/db85e0d8-043b-4990-ac09-6aede057f869"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "db85e0d8-043b-4990-ac09-6aede057f869",
-        "name": "Coos County Nursing Hospital - West Stewartsto, NH",
-        "address": [
-          {
-            "line": [
-              "136 County Farm Rd",
-              "PO Box 10"
-            ],
-            "city": "West Stewartstown",
-            "state": "NH",
-            "postalCode": "03597",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "db85e0d8-043b-4990-ac09-6aede057f869"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/db85e0d8-043b-4990-ac09-6aede057f869/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/db85e0d8-043b-4990-ac09-6aede057f869"
 }

@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "8ebb8156-2dbd-4bae-bbab-c424f3a6604f",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/8ebb8156-2dbd-4bae-bbab-c424f3a6604f"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "8ebb8156-2dbd-4bae-bbab-c424f3a6604f",
-        "name": "Vetras Healthcare. LLC - Bloomington, MN",
-        "address": [
-          {
-            "line": [
-              "8400 Normandale Lake Blvd",
-              "Suite 920"
-            ],
-            "city": "Bloomington",
-            "state": "MN",
-            "postalCode": "55437",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "8ebb8156-2dbd-4bae-bbab-c424f3a6604f"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/8ebb8156-2dbd-4bae-bbab-c424f3a6604f/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/8ebb8156-2dbd-4bae-bbab-c424f3a6604f"
 }

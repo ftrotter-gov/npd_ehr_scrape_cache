@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "4a4f1ed4-90d5-43bd-85f6-65eb713fbdf4",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/4a4f1ed4-90d5-43bd-85f6-65eb713fbdf4"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "4a4f1ed4-90d5-43bd-85f6-65eb713fbdf4",
-        "name": "Beadles Nursing Home - Alva, OK",
-        "address": [
-          {
-            "line": [
-              "916 Noble St",
-              "PO Box 728"
-            ],
-            "city": "Alva",
-            "state": "OK",
-            "postalCode": "73717-2852",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "4a4f1ed4-90d5-43bd-85f6-65eb713fbdf4"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/4a4f1ed4-90d5-43bd-85f6-65eb713fbdf4/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/4a4f1ed4-90d5-43bd-85f6-65eb713fbdf4"
 }

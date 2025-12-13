@@ -2,28 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "28d0b9fe-649f-49fd-9088-d8b1ead35949",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/28d0b9fe-649f-49fd-9088-d8b1ead35949"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "28d0b9fe-649f-49fd-9088-d8b1ead35949",
-        "name": "Memorial Nursing Center - Frederick - Frederick, OK",
-        "address": [
-          {
-            "line": [
-              "P.O. Box 159"
-            ],
-            "city": "Frederick",
-            "state": "OK",
-            "postalCode": "73542",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "28d0b9fe-649f-49fd-9088-d8b1ead35949"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/28d0b9fe-649f-49fd-9088-d8b1ead35949/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/28d0b9fe-649f-49fd-9088-d8b1ead35949"
 }

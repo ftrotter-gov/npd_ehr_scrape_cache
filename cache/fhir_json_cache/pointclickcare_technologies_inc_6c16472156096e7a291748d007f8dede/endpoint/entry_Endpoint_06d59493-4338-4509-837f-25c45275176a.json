@@ -2,29 +2,21 @@
   "resource": {
     "resourceType": "Endpoint",
     "id": "06d59493-4338-4509-837f-25c45275176a",
-    "contained": [
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest",
+      "display": "HL7 FHIR"
+    },
+    "managingOrganization": {
+      "reference": "Organization/06d59493-4338-4509-837f-25c45275176a"
+    },
+    "payloadType": [
       {
-        "resourceType": "Organization",
-        "id": "06d59493-4338-4509-837f-25c45275176a",
-        "name": "Alpha Care Properties, LLC - Holdenville, OK",
-        "address": [
-          {
-            "line": [
-              "225 Kingsberry Rd",
-              "PO Box 852"
-            ],
-            "city": "Holdenville",
-            "state": "OK",
-            "postalCode": "74848",
-            "country": "United States"
-          }
-        ]
+        "text": "FHIR R4 Resources"
       }
     ],
-    "status": "active",
-    "managingOrganization": {
-      "id": "06d59493-4338-4509-837f-25c45275176a"
-    },
     "address": "https://connect.pointclickcare.com/fhir/R4/06d59493-4338-4509-837f-25c45275176a/"
-  }
+  },
+  "fullUrl": "https://connect.pointclickcare.com/fhir/R4/Endpoint/06d59493-4338-4509-837f-25c45275176a"
 }
