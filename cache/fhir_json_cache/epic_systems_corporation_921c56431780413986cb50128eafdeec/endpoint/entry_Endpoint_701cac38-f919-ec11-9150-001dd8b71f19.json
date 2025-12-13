@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "701cac38-f919-ec11-9150-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "V/sH8su2/+hPlCzkDCXG17uGFaIX92YXz5ixGLEzPEo=",
+        "name": "Kaiser Permanente - Maryland/Virginia/Washington D.C."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Kaiser Permanente - Maryland/Virginia/Washington D.C.",
+    "managingOrganization": {
+      "reference": "V/sH8su2/+hPlCzkDCXG17uGFaIX92YXz5ixGLEzPEo="
+    },
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.kp.org/service/ptnt_care/EpicEdiFhirRoutingSvc/v2014/esb-envlbl/170/api/FHIR/R4/"
+  }
+}

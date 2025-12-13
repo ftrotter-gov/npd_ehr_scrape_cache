@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1306",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "1306",
+        "name": "Glenn T. Hifumi, MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Glenn T. Hifumi, MD",
+    "managingOrganization": {
+      "reference": "#1306"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://glennhifumi.prognocis.com/prognocis/fhir/glennhifumi"
+  },
+  "fullUrl": "https://glennhifumi.prognocis.com/prognocis/fhir/glennhifumi"
+}

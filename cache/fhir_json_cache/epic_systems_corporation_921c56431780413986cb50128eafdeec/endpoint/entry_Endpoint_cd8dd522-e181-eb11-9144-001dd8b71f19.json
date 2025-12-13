@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "cd8dd522-e181-eb11-9144-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "io4UdTsEIzS5kPRs+C8PZwGXhiLREy0pDi82GQP87e0=",
+        "name": "Northeast Georgia Health System"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Northeast Georgia Health System",
+    "managingOrganization": {
+      "reference": "io4UdTsEIzS5kPRs+C8PZwGXhiLREy0pDi82GQP87e0="
+    },
+    "period": {
+      "start": "2024-11-06T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://wpprod.nghs.com/fhir/api/FHIR/R4/"
+  }
+}

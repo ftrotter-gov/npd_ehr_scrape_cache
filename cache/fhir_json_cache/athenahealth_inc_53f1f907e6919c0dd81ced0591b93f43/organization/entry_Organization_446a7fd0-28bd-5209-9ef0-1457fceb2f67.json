@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "446a7fd0-28bd-5209-9ef0-1457fceb2f67",
+    "name": "Alaga Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/25d06f49-6907-5075-b59f-cf2397485303"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720959596"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "360 KINGSTOWN RD",
+          "UNIT 200"
+        ],
+        "city": "NARRAGANSETT",
+        "state": "RI",
+        "postalCode": "02882-3258"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-34188"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-34188.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:446a7fd0-28bd-5209-9ef0-1457fceb2f67"
+}

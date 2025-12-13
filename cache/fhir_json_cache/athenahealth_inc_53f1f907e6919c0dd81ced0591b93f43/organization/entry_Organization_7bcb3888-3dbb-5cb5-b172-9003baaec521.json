@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7bcb3888-3dbb-5cb5-b172-9003baaec521",
+    "name": "Hava Oaks Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/69cc516b-4825-566b-869f-068b6d5af31f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1972268753"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 W MAIN ST"
+        ],
+        "city": "BERRYVILLE",
+        "state": "VA",
+        "postalCode": "22611-1340"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32888"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32888.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7bcb3888-3dbb-5cb5-b172-9003baaec521"
+}

@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4f86d85e-fa16-ec11-9150-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "apxMz5wmKORDFMczT2CA9K9n/ho1fmiaB+oAZl8nrak=",
+        "name": "Mount Sinai Health System"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Mount Sinai Health System",
+    "managingOrganization": {
+      "reference": "apxMz5wmKORDFMczT2CA9K9n/ho1fmiaB+oAZl8nrak="
+    },
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicsoapproxyprd.mountsinai.org/FHIR-PRD/api/FHIR/R4/"
+  }
+}

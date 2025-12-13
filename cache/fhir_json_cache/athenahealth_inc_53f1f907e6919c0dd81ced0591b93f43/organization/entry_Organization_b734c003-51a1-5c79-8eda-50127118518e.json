@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b734c003-51a1-5c79-8eda-50127118518e",
+    "name": "H&M Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4a138de7-5691-5d63-b9f8-ea4c86512a1e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659253391"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7101 Woodland Avenue"
+        ],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19142-1039"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33852"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33852.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b734c003-51a1-5c79-8eda-50127118518e"
+}

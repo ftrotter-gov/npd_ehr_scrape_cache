@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3202",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3202",
+        "name": "Grayson County - Jail Medicine"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Grayson County - Jail Medicine",
+    "managingOrganization": {
+      "reference": "#3202"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://gcjailmed.prognocis.com/prognocis/fhir/gcjailmed"
+  },
+  "fullUrl": "https://gcjailmed.prognocis.com/prognocis/fhir/gcjailmed"
+}

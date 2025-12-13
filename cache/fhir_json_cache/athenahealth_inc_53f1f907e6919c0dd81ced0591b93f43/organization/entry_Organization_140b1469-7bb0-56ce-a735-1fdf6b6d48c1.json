@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "140b1469-7bb0-56ce-a735-1fdf6b6d48c1",
+    "name": "SHFT Behavioral Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ad035be0-13ad-5ac5-a58a-56979b84b4d3"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346130911"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "730 N Franklin St",
+          "Suite 510"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60654-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33308"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33308.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:140b1469-7bb0-56ce-a735-1fdf6b6d48c1"
+}

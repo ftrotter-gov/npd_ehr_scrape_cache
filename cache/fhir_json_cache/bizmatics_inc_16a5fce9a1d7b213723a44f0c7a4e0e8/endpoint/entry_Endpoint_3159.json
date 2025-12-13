@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3159",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3159",
+        "name": "NY State ARC - Rensselaer ARC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "NY State ARC - Rensselaer ARC",
+    "managingOrganization": {
+      "reference": "#3159"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://nysarc.prognocis.com/prognocis/fhir/rensselaer"
+  },
+  "fullUrl": "https://nysarc.prognocis.com/prognocis/fhir/rensselaer"
+}

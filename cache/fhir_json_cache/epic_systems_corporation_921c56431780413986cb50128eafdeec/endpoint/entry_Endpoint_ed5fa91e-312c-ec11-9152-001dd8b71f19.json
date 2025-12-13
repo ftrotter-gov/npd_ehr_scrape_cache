@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "ed5fa91e-312c-ec11-9152-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "30MQtlcdQapqtI0beKXx9rw8xxvpfMkTcnKO4GnzFwE=",
+        "name": "Prisma Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Prisma Health",
+    "managingOrganization": {
+      "reference": "30MQtlcdQapqtI0beKXx9rw8xxvpfMkTcnKO4GnzFwE="
+    },
+    "period": {
+      "start": "2024-11-09T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et0915.epichosted.com/FHIRProxy/api/FHIR/R4/"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "47110f85-032d-52d8-bb8f-cc2d358da723",
+    "name": "Specialty Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9d7ca029-1900-5678-8403-d623b1d6aeb5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144663543"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1548355811"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1030 S MEDICAL DR"
+        ],
+        "city": "BRIGHAM CITY",
+        "state": "UT",
+        "postalCode": "84302-3119"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17373"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17373.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:47110f85-032d-52d8-bb8f-cc2d358da723"
+}

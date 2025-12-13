@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "dd5218a5-00d0-543f-b282-c4cc20d8f26c",
+    "name": "Legacy Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a6c37d4f-4786-5074-8613-045f8ec3febc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1568289247"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2273 E GALA ST",
+          "STE 120"
+        ],
+        "city": "MERIDIAN",
+        "state": "ID",
+        "postalCode": "83642-7289"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-34044"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-34044.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:dd5218a5-00d0-543f-b282-c4cc20d8f26c"
+}

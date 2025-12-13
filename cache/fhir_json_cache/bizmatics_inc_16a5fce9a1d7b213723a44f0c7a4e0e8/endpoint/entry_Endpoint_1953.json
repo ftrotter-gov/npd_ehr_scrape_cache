@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1953",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "1953",
+        "name": "PR Pain Group, LLC - Hector Delucca, MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "PR Pain Group, LLC - Hector Delucca, MD",
+    "managingOrganization": {
+      "reference": "#1953"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://deluccamd.prognocis.com/prognocis/fhir/deluccamd"
+  },
+  "fullUrl": "https://deluccamd.prognocis.com/prognocis/fhir/deluccamd"
+}

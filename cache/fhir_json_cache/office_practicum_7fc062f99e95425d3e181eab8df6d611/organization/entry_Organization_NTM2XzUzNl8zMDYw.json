@@ -1,0 +1,68 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "NTM2XzUzNl8zMDYw",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "395.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1306017231"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Ellenton Pediatrics",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "941-723-7877",
+        "use": "work",
+        "rank": 1
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "8425 US Highway 301 N Parrish, FL 34219",
+        "line": [
+          "8425 US Highway 301 N"
+        ],
+        "city": "Parrish",
+        "state": "FL",
+        "postalCode": "34219",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/NTM2XzUzNl8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/NTM2XzUzNl8zMDYw"
+}

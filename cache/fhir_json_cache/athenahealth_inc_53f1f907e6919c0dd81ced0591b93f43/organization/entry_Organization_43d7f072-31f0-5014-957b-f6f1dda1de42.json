@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "43d7f072-31f0-5014-957b-f6f1dda1de42",
+    "name": "Central KY Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/70147afa-1cbf-5884-bfeb-d85c539054ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821038696"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "230 W Main St",
+          "Ste 400"
+        ],
+        "city": "DANVILLE",
+        "state": "KY",
+        "postalCode": "40422-1871"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22145"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22145.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:43d7f072-31f0-5014-957b-f6f1dda1de42"
+}

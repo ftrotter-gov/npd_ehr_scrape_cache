@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5de7eff7-1c6a-537c-982d-71019aa7f336",
+    "name": "Powell Health Solutions",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/4a94e56b-dc50-59ef-b73e-6c115d99e01a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427277292"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 NW 170th Street",
+          "#303"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33169-6035"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33187"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33187.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5de7eff7-1c6a-537c-982d-71019aa7f336"
+}

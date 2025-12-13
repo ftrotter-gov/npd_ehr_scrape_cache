@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6c8004a3-c4a6-5f7c-8907-44ae0208a301",
+    "name": "Iowa Diabetes Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/816b13eb-1ef8-5cce-b0d5-0cf779d57d9f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982285821"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4201 Corporate Drive",
+          "Suite 100"
+        ],
+        "city": "WEST DES MOINES",
+        "state": "IA",
+        "postalCode": "50266-5906"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33897"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33897.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6c8004a3-c4a6-5f7c-8907-44ae0208a301"
+}

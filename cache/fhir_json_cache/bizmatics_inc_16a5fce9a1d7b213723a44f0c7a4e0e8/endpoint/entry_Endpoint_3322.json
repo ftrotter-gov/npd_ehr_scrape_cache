@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3322",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3322",
+        "name": "Miguel A. Magraner Suarez, MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Miguel A. Magraner Suarez, MD",
+    "managingOrganization": {
+      "reference": "#3322"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://mmsmd.prognocis.com/prognocis/fhir/mmsmd"
+  },
+  "fullUrl": "https://mmsmd.prognocis.com/prognocis/fhir/mmsmd"
+}

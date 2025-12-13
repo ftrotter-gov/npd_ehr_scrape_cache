@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6e7f3d25-96de-5c0f-a72f-8b955f21fff7",
+    "name": "Provident Health Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/231a29b0-716f-5172-b0b5-a0b5cd8192da"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871334227"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "314 MAIN ST"
+        ],
+        "city": "GREENWOOD",
+        "state": "SC",
+        "postalCode": "29646-2758"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33389"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33389.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6e7f3d25-96de-5c0f-a72f-8b955f21fff7"
+}

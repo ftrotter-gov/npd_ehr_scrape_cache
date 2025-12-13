@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bc5360d6-58c5-50a5-bbc8-ba3e9d04f8ad",
+    "name": "Fallsway OB",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/be5e6b09-982b-5c94-8a8c-77edf862c367"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003819665"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "421 Fallsway"
+        ],
+        "city": "Baltimore",
+        "state": "MD",
+        "postalCode": "21202-4800"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23840"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23840.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bc5360d6-58c5-50a5-bbc8-ba3e9d04f8ad"
+}

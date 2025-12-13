@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "f05fc2f0-573d-48ea-8d55-6d7fb66673d9",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "fe80106d-b6fa-4197-9b18-75b961d8b5d0",
+        "name": "Carolina Clinic for Health and Wellness"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Carolina Clinic for Health and Wellness",
+    "managingOrganization": {
+      "reference": "#fe80106d-b6fa-4197-9b18-75b961d8b5d0"
+    },
+    "period": {
+      "start": "2025-12-09T07:39:50+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11699843"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/11699843"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b01e586a-999d-541c-afae-2217d3821719",
+    "name": "The Headache Lab- Westmont",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ace638e5-be19-5416-9bd9-e20b46111f9d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1891984068"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "6321 FAIRVIEW AVE",
+          "STE B"
+        ],
+        "city": "WESTMONT",
+        "state": "IL",
+        "postalCode": "60559-2886"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-27901"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-27901.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b01e586a-999d-541c-afae-2217d3821719"
+}

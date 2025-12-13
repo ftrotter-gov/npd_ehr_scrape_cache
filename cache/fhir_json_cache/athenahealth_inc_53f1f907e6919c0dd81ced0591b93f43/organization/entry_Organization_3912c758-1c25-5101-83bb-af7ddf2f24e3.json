@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3912c758-1c25-5101-83bb-af7ddf2f24e3",
+    "name": "The Healthy Place",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a9c1331a-888a-5733-aab4-d1d7aa1dafdc"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1659255859"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2942 NORTH 24TH ST",
+          "STE 115 PMB 818048"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85016-7849"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33841"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33841.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3912c758-1c25-5101-83bb-af7ddf2f24e3"
+}

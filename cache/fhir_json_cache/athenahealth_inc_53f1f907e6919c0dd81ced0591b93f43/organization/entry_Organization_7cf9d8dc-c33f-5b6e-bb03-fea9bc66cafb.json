@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7cf9d8dc-c33f-5b6e-bb03-fea9bc66cafb",
+    "name": "Providence Health Cares of NC",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/442aef7e-25fe-528c-81af-9f63f6a7888b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437990884"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5709 W FRIENDLY AVE",
+          "STE A"
+        ],
+        "city": "GREENSBORO",
+        "state": "NC",
+        "postalCode": "27410-4112"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33389"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33389.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7cf9d8dc-c33f-5b6e-bb03-fea9bc66cafb"
+}

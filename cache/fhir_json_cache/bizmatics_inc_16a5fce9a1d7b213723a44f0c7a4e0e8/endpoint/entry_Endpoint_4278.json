@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4278",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4278",
+        "name": "Imran Khan MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Imran Khan MD",
+    "managingOrganization": {
+      "reference": "#4278"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://niftyikh.prognocis.com/prognocis/fhir/niftyikh"
+  },
+  "fullUrl": "https://niftyikh.prognocis.com/prognocis/fhir/niftyikh"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0e59d689-413a-59d5-8b1d-edfd3ab37de4",
+    "name": "Be Well Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8d5cc1ef-ecf2-5b4f-a589-6592ade4e33a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144014556"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "19600 E PARKER SQUARE DR",
+          "STE 120"
+        ],
+        "city": "PARKER",
+        "state": "CO",
+        "postalCode": "80134-7322"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33743"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33743.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0e59d689-413a-59d5-8b1d-edfd3ab37de4"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6f26bde2-18d9-5483-a68b-c2eb3c47dce0",
+    "name": "HealthZork",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b4d842a3-f387-5668-b74a-a0a506c16193"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1457932345"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "525 RAYMOND ST"
+        ],
+        "city": "MARIETTA",
+        "state": "GA",
+        "postalCode": "30008-9900"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33700"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33700.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6f26bde2-18d9-5483-a68b-c2eb3c47dce0"
+}

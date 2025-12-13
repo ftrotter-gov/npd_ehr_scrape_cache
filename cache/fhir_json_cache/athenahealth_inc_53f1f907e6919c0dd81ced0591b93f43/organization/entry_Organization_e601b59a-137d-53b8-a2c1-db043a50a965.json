@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e601b59a-137d-53b8-a2c1-db043a50a965",
+    "name": "VirtuMedex",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1c02ecad-2518-5fdd-87ea-5e32fc65ec3e"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013807494"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1230 HEMPSTEAD TURNPIKE"
+        ],
+        "city": "FRANKLIN SQUARE",
+        "state": "NY",
+        "postalCode": "11010-1534"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33555"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33555.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e601b59a-137d-53b8-a2c1-db043a50a965"
+}

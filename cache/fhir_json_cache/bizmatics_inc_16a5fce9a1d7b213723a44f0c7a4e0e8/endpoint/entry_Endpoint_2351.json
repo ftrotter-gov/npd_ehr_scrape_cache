@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2351",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2351",
+        "name": "Urocentro Del Sur"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Urocentro Del Sur",
+    "managingOrganization": {
+      "reference": "#2351"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://urocentro.prognocis.com/prognocis/fhir/urocentro"
+  },
+  "fullUrl": "https://urocentro.prognocis.com/prognocis/fhir/urocentro"
+}

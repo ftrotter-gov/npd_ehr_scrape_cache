@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4c992caa-a8fd-57d1-b65f-67ccbd8babf8",
+    "name": "Gracey Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ed6717ea-c998-547f-af14-ce9d1c96ee98"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154295673"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "9063 E La Palma Dr"
+        ],
+        "city": "TUCSON",
+        "state": "AZ",
+        "postalCode": "85747-5368"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-34230"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-34230.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4c992caa-a8fd-57d1-b65f-67ccbd8babf8"
+}

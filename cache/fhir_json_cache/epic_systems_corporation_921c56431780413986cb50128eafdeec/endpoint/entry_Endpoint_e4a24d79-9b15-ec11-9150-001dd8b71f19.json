@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e4a24d79-9b15-ec11-9150-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "FkpmPznub+QVOPeqaRui/OUPsHr+krXVa8SVqKltlr0=",
+        "name": "Dayton Children's Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dayton Children's Hospital",
+    "managingOrganization": {
+      "reference": "FkpmPznub+QVOPeqaRui/OUPsHr+krXVa8SVqKltlr0="
+    },
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://appprd.childrensdayton.org/interconnect-prd-fhir/api/FHIR/R4/"
+  }
+}

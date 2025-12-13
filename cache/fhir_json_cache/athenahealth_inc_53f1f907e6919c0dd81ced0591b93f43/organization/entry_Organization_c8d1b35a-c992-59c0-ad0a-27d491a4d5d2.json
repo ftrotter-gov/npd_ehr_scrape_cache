@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c8d1b35a-c992-59c0-ad0a-27d491a4d5d2",
+    "name": "Sarah's Hope",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/be5e6b09-982b-5c94-8a8c-77edf862c367"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003819665"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1114 N MOUNT ST"
+        ],
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postalCode": "21217-2216"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23840"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23840.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c8d1b35a-c992-59c0-ad0a-27d491a4d5d2"
+}

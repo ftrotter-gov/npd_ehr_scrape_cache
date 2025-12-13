@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "c6eaef94-9f91-eb11-9145-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "nld44+uRyeGEzvzlOPFMKINaah3WE0rhkct6E0nPUoY=",
+        "name": "DaVita Physician Solutions"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "DaVita Physician Solutions",
+    "managingOrganization": {
+      "reference": "nld44+uRyeGEzvzlOPFMKINaah3WE0rhkct6E0nPUoY="
+    },
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et1087.epichosted.com/FHIRProxy/api/FHIR/R4/"
+  }
+}

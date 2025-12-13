@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "48957985-e7d0-ee11-9169-001dd8b73101",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "RZzjHGi0/JGWKOKqTi3X6578W9oDVdhhHfE5L2001C8=",
+        "name": "Tidelands Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Tidelands Health",
+    "managingOrganization": {
+      "reference": "RZzjHGi0/JGWKOKqTi3X6578W9oDVdhhHfE5L2001C8="
+    },
+    "period": {
+      "start": "2024-11-07T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhirprod.musc.edu/fhirprod/TIDELANDS/api/FHIR/R4/"
+  }
+}

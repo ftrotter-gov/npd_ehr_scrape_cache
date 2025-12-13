@@ -1,0 +1,58 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a992bbd3-f048-57bd-a92a-580aa104aa47",
+    "name": "Blackwell Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/65f2fe45-24b8-54d0-9b52-454624643f7d"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1558990192"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821525304"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1601 ACADEMY RD"
+        ],
+        "city": "PONCA CITY",
+        "state": "OK",
+        "postalCode": "74604-4409"
+      },
+      {
+        "line": [
+          "706 13th St. Suite C"
+        ],
+        "city": "BLACKWELL",
+        "state": "OK",
+        "postalCode": "74631-0002"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16109"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16109.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a992bbd3-f048-57bd-a92a-580aa104aa47"
+}

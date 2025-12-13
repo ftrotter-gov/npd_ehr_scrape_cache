@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "fc14d56f-2f72-5252-8605-46545021a7b5",
+    "name": "GENESYS ER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/45bdaa9f-484f-51df-87d5-bdaae49f47bd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215930490"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1 Genesys Pkwy"
+        ],
+        "city": "GRAND BLANC",
+        "state": "MI",
+        "postalCode": "48439-2558"
+      },
+      {
+        "line": [
+          "4466 W BRISTOL RD"
+        ],
+        "city": "FLINT",
+        "state": "MI",
+        "postalCode": "48507-3170"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33541"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33541.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:fc14d56f-2f72-5252-8605-46545021a7b5"
+}

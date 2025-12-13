@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2d3d97d9-eb93-eb11-9145-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "U/CANCCc/9Gl/1jXVVWF0R7yITaSIw07sIsnlJPXCvA=",
+        "name": "QuadMed"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "QuadMed",
+    "managingOrganization": {
+      "reference": "U/CANCCc/9Gl/1jXVVWF0R7yITaSIw07sIsnlJPXCvA="
+    },
+    "period": {
+      "start": "2024-11-09T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicicfore.quadmedical.com/fhirprd/api/FHIR/R4/"
+  }
+}

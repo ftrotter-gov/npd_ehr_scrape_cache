@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4230",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4230",
+        "name": "Superb Pain Management Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Superb Pain Management Center",
+    "managingOrganization": {
+      "reference": "#4230"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://superbpain.prognocis.com/prognocis/fhir/superbpain"
+  },
+  "fullUrl": "https://superbpain.prognocis.com/prognocis/fhir/superbpain"
+}

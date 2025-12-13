@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "7c060a08-d019-5a33-a3e0-2dc284b89a5a",
+    "name": "Henry Ford Madison Heights Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6a89cdf6-ef16-5cda-83ca-bac051503df9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851765374"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "27351 Dequindre Rd"
+        ],
+        "city": "MADISON HEIGHTS",
+        "state": "MI",
+        "postalCode": "48071-3487"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8209"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8209.Brand-9"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:7c060a08-d019-5a33-a3e0-2dc284b89a5a"
+}

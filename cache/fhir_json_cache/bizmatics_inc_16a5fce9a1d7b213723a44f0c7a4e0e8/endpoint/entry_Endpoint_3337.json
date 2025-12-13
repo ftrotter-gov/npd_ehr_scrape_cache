@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3337",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3337",
+        "name": "Center For Employee Health and Wellness"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Center For Employee Health and Wellness",
+    "managingOrganization": {
+      "reference": "#3337"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://sbcounty.prognocis.com/prognocis/fhir/sbcounty"
+  },
+  "fullUrl": "https://sbcounty.prognocis.com/prognocis/fhir/sbcounty"
+}

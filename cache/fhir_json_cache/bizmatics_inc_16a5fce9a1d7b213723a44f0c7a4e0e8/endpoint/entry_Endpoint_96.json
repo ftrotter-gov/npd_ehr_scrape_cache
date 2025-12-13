@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "96",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "96",
+        "name": "Omni Health Solutions"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Omni Health Solutions",
+    "managingOrganization": {
+      "reference": "#96"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://omnihealth.prognocis.com/prognocis/fhir/omnihealth"
+  },
+  "fullUrl": "https://omnihealth.prognocis.com/prognocis/fhir/omnihealth"
+}

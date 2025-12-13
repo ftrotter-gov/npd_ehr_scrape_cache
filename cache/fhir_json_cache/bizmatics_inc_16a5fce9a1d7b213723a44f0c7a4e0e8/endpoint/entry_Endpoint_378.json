@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "378",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "378",
+        "name": "Total Neurology of the Gulf Coast"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Total Neurology of the Gulf Coast",
+    "managingOrganization": {
+      "reference": "#378"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://total.prognocis.com/prognocis/fhir/total"
+  },
+  "fullUrl": "https://total.prognocis.com/prognocis/fhir/total"
+}

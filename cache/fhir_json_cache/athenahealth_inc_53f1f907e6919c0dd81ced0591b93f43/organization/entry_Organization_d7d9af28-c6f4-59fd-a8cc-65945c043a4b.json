@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d7d9af28-c6f4-59fd-a8cc-65945c043a4b",
+    "name": "AK Regional Out-Patient",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/d2ea7921-258e-5e88-a71f-fd3a2e64bea9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1285677054"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2801 DEBARR RD"
+        ],
+        "city": "ANCHORAGE",
+        "state": "AK",
+        "postalCode": "99508-2932"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33745"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33745.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d7d9af28-c6f4-59fd-a8cc-65945c043a4b"
+}

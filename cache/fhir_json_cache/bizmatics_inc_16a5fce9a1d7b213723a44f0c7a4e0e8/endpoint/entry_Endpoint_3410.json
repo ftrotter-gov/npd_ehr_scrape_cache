@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3410",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3410",
+        "name": "Thomasville Regional Medical Associates dba Thomasville Regional Primary Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Thomasville Regional Medical Associates dba Thomasville Regional Primary Care",
+    "managingOrganization": {
+      "reference": "#3410"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://tim.prognocis.com/prognocis/fhir/tim"
+  },
+  "fullUrl": "https://tim.prognocis.com/prognocis/fhir/tim"
+}

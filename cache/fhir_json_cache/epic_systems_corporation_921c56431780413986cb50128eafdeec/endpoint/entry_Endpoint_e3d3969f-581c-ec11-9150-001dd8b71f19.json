@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e3d3969f-581c-ec11-9150-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "Vzk1CNlByS9DI9v+P2GjtoFXwu4gz7LOGDgq843d2Y8=",
+        "name": "University of Colorado Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "University of Colorado Health",
+    "managingOrganization": {
+      "reference": "Vzk1CNlByS9DI9v+P2GjtoFXwu4gz7LOGDgq843d2Y8="
+    },
+    "period": {
+      "start": "2024-11-09T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://ss.uch.edu/FHIRProxy/api/FHIR/R4/"
+  }
+}

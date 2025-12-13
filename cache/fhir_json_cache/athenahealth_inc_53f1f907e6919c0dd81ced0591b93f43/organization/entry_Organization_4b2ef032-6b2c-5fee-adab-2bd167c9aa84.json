@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4b2ef032-6b2c-5fee-adab-2bd167c9aa84",
+    "name": "CA Only AL AHA - Connected Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9077660b-7b49-550e-8631-d9581157f50c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003607987"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4221 GLASSCOTT XING"
+        ],
+        "city": "BIRMINGHAM",
+        "state": "AL",
+        "postalCode": "35226-6376"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32896"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32896.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4b2ef032-6b2c-5fee-adab-2bd167c9aa84"
+}

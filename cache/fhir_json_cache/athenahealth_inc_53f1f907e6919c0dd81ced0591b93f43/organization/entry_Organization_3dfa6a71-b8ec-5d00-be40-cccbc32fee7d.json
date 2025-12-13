@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3dfa6a71-b8ec-5d00-be40-cccbc32fee7d",
+    "name": "St. Mary's Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/86d47247-e3b3-5deb-bbfc-b9e8aea7855f"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992547178"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3 WASHINGTON SQ"
+        ],
+        "city": "ALBANY",
+        "state": "NY",
+        "postalCode": "12205-5530"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32733"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32733.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3dfa6a71-b8ec-5d00-be40-cccbc32fee7d"
+}

@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2525",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2525",
+        "name": "Vitali Aizin, MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Vitali Aizin, MD",
+    "managingOrganization": {
+      "reference": "#2525"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://vitaliaizinmd.prognocis.com/prognocis/fhir/vitaliaizinmd"
+  },
+  "fullUrl": "https://vitaliaizinmd.prognocis.com/prognocis/fhir/vitaliaizinmd"
+}

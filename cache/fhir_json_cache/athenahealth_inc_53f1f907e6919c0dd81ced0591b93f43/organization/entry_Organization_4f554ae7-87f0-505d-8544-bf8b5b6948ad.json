@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "4f554ae7-87f0-505d-8544-bf8b5b6948ad",
+    "name": "Neurosurgery Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/66d879d0-4d47-5926-bee0-b37053707af6"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1407226962"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "8715 VILLAGE DR",
+          "STE 618"
+        ],
+        "city": "SAN ANTONIO",
+        "state": "TX",
+        "postalCode": "78217-5407"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-16794"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-16794.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:4f554ae7-87f0-505d-8544-bf8b5b6948ad"
+}

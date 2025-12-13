@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "563",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "563",
+        "name": "Global Institute of Spine and Joint Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Global Institute of Spine and Joint Care",
+    "managingOrganization": {
+      "reference": "#563"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://global.prognocis.com/prognocis/fhir/global"
+  },
+  "fullUrl": "https://global.prognocis.com/prognocis/fhir/global"
+}

@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTU0Ml8xNTQyXzMwNjA",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "642.PRACTICE"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Pediatric Care Of Sapulpa PLLC OK",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "918-347-6484",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "918-216-4335",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "825 S. Bixby St. Suite A Sapulpa, OK 74066",
+        "line": [
+          "825 S. Bixby St.",
+          "Suite A"
+        ],
+        "city": "Sapulpa",
+        "state": "OK",
+        "postalCode": "74066",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTU0Ml8xNTQyXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTU0Ml8xNTQyXzMwNjA"
+}

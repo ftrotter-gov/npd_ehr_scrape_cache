@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "59caa8c9-a5f1-51a1-9476-e93d103531fd",
+    "name": "Stone Healthcare",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5a014b6e-8fe0-5171-847b-70531db59ba2"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1619154150"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2125 BISCAYNE BLVD",
+          "STE 204"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33137-5031"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33817"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33817.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:59caa8c9-a5f1-51a1-9476-e93d103531fd"
+}

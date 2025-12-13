@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1752",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "1752",
+        "name": "EDGARDO F. CARTAGENA AYALA, M.D."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "EDGARDO F. CARTAGENA AYALA, M.D.",
+    "managingOrganization": {
+      "reference": "#1752"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://cartagenaayalamd.prognocis.com/prognocis/fhir/cartagenaayalamd"
+  },
+  "fullUrl": "https://cartagenaayalamd.prognocis.com/prognocis/fhir/cartagenaayalamd"
+}

@@ -1,0 +1,74 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTk2NV8xOTY1XzMwNjA",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "286.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740842962"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Koala Pediatrics LLC NJ",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "973-361-4900",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "973-361-1842",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "121 Center Grove Rd Randolph, NJ 078694453",
+        "line": [
+          "121 Center Grove Rd"
+        ],
+        "city": "Randolph",
+        "state": "NJ",
+        "postalCode": "078694453",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTk2NV8xOTY1XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTk2NV8xOTY1XzMwNjA"
+}

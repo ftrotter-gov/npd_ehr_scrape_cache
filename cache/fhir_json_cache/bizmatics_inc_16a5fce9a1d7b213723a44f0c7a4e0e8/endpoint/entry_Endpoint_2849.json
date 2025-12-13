@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2849",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2849",
+        "name": "Precision Family Healthcare, LLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Precision Family Healthcare, LLC",
+    "managingOrganization": {
+      "reference": "#2849"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://pfhealthcare.prognocis.com/prognocis/fhir/pfhealthcare"
+  },
+  "fullUrl": "https://pfhealthcare.prognocis.com/prognocis/fhir/pfhealthcare"
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "29e5b8cf-fea7-5277-a663-fca068498d71",
+    "name": "Mercy Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/434e0c76-456d-5420-8166-85c730c14de5"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1205896719"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "345 SAINT PAUL ST"
+        ],
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postalCode": "21202-2123"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32356"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32356.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:29e5b8cf-fea7-5277-a663-fca068498d71"
+}

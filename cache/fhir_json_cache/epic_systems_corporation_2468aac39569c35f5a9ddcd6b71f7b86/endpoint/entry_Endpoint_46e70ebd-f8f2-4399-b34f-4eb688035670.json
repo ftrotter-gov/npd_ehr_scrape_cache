@@ -1,0 +1,52 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "46e70ebd-f8f2-4399-b34f-4eb688035670",
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/endpoint-fhir-version",
+        "valueCode": "4.0.1"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "El Rio Health",
+    "managingOrganization": {
+      "identifier": {
+        "system": "https://fhir.epic.com/Developer/Management/OrganizationId",
+        "value": "11545"
+      },
+      "display": "El Rio Santa Cruz Neighborhood Health Center"
+    },
+    "contact": [
+      {
+        "system": "url",
+        "value": "https://open.epic.com"
+      }
+    ],
+    "period": {
+      "start": "2025-11-01T00:00:00-05:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
+            "code": "none"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et1240.epichosted.com/FHIRProxy/api/FHIR/R4"
+  },
+  "fullUrl": "urn:uuid:46e70ebd-f8f2-4399-b34f-4eb688035670"
+}

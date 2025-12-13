@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3651",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3651",
+        "name": "Urban Foot Care Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Urban Foot Care Center",
+    "managingOrganization": {
+      "reference": "#3651"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://ufcc.prognocis.com/prognocis/fhir/ufcc"
+  },
+  "fullUrl": "https://ufcc.prognocis.com/prognocis/fhir/ufcc"
+}

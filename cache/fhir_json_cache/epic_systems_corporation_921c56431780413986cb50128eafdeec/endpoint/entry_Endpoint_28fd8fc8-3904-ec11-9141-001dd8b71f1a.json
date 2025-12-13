@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "28fd8fc8-3904-ec11-9141-001dd8b71f1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "bLiay5t4uItTcPuEmM9Xw7z06dyrzUYIn3VugRBANys=",
+        "name": "Providence Health & Services - Oregon/California"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Providence Health & Services - Oregon/California",
+    "managingOrganization": {
+      "reference": "bLiay5t4uItTcPuEmM9Xw7z06dyrzUYIn3VugRBANys="
+    },
+    "period": {
+      "start": "2024-11-09T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://haikuor.providence.org/fhirproxy/api/FHIR/R4/"
+  }
+}

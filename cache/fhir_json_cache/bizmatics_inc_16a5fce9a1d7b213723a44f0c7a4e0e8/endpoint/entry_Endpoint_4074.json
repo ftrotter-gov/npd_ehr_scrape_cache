@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4074",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4074",
+        "name": "Gisela Okonski MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Gisela Okonski MD",
+    "managingOrganization": {
+      "reference": "#4074"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://niftyrgok.prognocis.com/prognocis/fhir/niftyrgok"
+  },
+  "fullUrl": "https://niftyrgok.prognocis.com/prognocis/fhir/niftyrgok"
+}

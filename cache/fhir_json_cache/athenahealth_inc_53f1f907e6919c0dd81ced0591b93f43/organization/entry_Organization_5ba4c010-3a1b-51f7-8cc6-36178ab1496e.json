@@ -1,0 +1,56 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5ba4c010-3a1b-51f7-8cc6-36178ab1496e",
+    "name": "Calyx Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c9d89d48-b64f-50fa-a03f-9118781356ae"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1649153578"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "201 E CENTER ST",
+          "STE 112-3143"
+        ],
+        "city": "ANAHEIM",
+        "state": "CA",
+        "postalCode": "92805-7204"
+      },
+      {
+        "line": [
+          "201 E CENTER ST",
+          "STE 112 PMB 3143"
+        ],
+        "city": "ANAHEIM",
+        "state": "CA",
+        "postalCode": "92805-7212"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-34117"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-34117.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5ba4c010-3a1b-51f7-8cc6-36178ab1496e"
+}

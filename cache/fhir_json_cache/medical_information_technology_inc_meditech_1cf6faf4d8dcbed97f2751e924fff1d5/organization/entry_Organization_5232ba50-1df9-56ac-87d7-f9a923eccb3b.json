@@ -1,0 +1,64 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "5232ba50-1df9-56ac-87d7-f9a923eccb3b",
+    "meta": {
+      "lastUpdated": "2025-11-21T01:51:49.000Z"
+    },
+    "identifier": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "value": "https://morganmedical.org"
+      }
+    ],
+    "name": "Morgan Medical Center",
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "url",
+        "value": "https://morganmedical.org"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1740 Lions Club Road"
+        ],
+        "city": "Madison",
+        "state": "GA",
+        "postalCode": "30650",
+        "country": "United States"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "urn:uuid:ded163ef-8051-5030-a471-41bc9bb7c6b3"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:ded163ef-8051-5030-a471-41bc9bb7c6b3"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:5232ba50-1df9-56ac-87d7-f9a923eccb3b"
+}

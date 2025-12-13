@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ccd3b03c-d636-52a8-b0c7-668c4a19b82e",
+    "name": "Elemental Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/db872e9c-be45-53ce-8d97-51a5a40c07a4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1821897547"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "60 FIREMENS WAY"
+        ],
+        "city": "POUGHKEEPSIE",
+        "state": "NY",
+        "postalCode": "12603-6524"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32790"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32790.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ccd3b03c-d636-52a8-b0c7-668c4a19b82e"
+}

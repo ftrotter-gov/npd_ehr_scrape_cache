@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e5f5b549-96bc-5ed2-b7a4-d12074b2af57",
+    "name": "Behavioral Health Program",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/147e1ea4-915c-5f89-9ef6-e4cf5253f9df"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710983903"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "100 PASIGO ST"
+        ],
+        "city": "BURNS",
+        "state": "OR",
+        "postalCode": "97720-2442"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-22718"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-22718.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e5f5b549-96bc-5ed2-b7a4-d12074b2af57"
+}

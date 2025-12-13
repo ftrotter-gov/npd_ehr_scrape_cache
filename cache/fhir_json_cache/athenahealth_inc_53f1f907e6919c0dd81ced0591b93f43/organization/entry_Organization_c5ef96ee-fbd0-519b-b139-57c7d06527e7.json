@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c5ef96ee-fbd0-519b-b139-57c7d06527e7",
+    "name": "Shasta Regional Pre-Op Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f3dd1eb7-c6e7-59a5-b1b5-f058d1f7955c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114415759"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1100 BUTTE ST"
+        ],
+        "city": "REDDING",
+        "state": "CA",
+        "postalCode": "96001-0852"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-17799"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-17799.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c5ef96ee-fbd0-519b-b139-57c7d06527e7"
+}

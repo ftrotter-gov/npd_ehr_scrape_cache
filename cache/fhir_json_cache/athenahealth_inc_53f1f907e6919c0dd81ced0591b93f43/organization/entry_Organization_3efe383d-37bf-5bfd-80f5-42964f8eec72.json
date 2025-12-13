@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3efe383d-37bf-5bfd-80f5-42964f8eec72",
+    "name": "Allevate Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/05685ff3-65d3-57d7-9610-4cd1ca0a7936"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1730062316"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "440 N BARRANCA AVE # 6960"
+        ],
+        "city": "COVINA",
+        "state": "CA",
+        "postalCode": "91723-1722"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33079"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33079.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3efe383d-37bf-5bfd-80f5-42964f8eec72"
+}

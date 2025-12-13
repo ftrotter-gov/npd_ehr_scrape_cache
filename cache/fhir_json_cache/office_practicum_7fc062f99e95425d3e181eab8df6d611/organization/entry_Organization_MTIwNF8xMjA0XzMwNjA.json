@@ -1,0 +1,74 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTIwNF8xMjA0XzMwNjA",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "153.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740373166"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Hanna Zielnik MD NY",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "718-383-0301",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "718-366-1112",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "60-49 69th Ave Ridgewood, NY 11385-5139",
+        "line": [
+          "60-49 69th Ave"
+        ],
+        "city": "Ridgewood",
+        "state": "NY",
+        "postalCode": "11385-5139",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTIwNF8xMjA0XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTIwNF8xMjA0XzMwNjA"
+}

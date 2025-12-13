@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "21f17912-202a-5549-ad6a-85df0d705f8b",
+    "name": "Dr. Sarah Whiteford",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/88fdd82a-bcc9-5f73-9199-ec7f0a056877"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1912886011"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2448 HOLLY AVE",
+          "STE 202A"
+        ],
+        "city": "ANNAPOLIS",
+        "state": "MD",
+        "postalCode": "21401-3148"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33947"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33947.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:21f17912-202a-5549-ad6a-85df0d705f8b"
+}

@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3794",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3794",
+        "name": "PAINCARE MEDICINE"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "PAINCARE MEDICINE",
+    "managingOrganization": {
+      "reference": "#3794"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://paincaremed.prognocis.com/prognocis/fhir/paincaremed"
+  },
+  "fullUrl": "https://paincaremed.prognocis.com/prognocis/fhir/paincaremed"
+}

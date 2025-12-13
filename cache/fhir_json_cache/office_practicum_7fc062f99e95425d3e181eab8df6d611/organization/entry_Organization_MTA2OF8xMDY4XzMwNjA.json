@@ -1,0 +1,75 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTA2OF8xMDY4XzMwNjA",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "914.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1811956287"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Tan & Garcia Pediatrics PC PA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "717-540-1743",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "717-901-3919",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "Tan & Garcia Pediatrics PC PA 4700 Union Deposit Road, Suite 220 Harrisburg, PA 171113774",
+        "line": [
+          "Tan & Garcia Pediatrics PC PA",
+          "4700 Union Deposit Road, Suite 220"
+        ],
+        "city": "Harrisburg",
+        "state": "PA",
+        "postalCode": "171113774",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTA2OF8xMDY4XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTA2OF8xMDY4XzMwNjA"
+}

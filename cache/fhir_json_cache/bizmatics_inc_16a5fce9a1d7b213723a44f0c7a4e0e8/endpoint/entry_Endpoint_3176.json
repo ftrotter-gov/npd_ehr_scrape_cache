@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3176",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3176",
+        "name": "Michelle Anson, MD PLLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Michelle Anson, MD PLLC",
+    "managingOrganization": {
+      "reference": "#3176"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://dranson.prognocis.com/prognocis/fhir/dranson"
+  },
+  "fullUrl": "https://dranson.prognocis.com/prognocis/fhir/dranson"
+}

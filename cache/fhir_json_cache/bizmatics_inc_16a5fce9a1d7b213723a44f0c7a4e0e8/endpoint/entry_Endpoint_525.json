@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "525",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "525",
+        "name": "Premier Clinic- Dr. Dinesh Patel"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Premier Clinic- Dr. Dinesh Patel",
+    "managingOrganization": {
+      "reference": "#525"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://premierclinic.prognocis.com/prognocis/fhir/premierclinic"
+  },
+  "fullUrl": "https://premierclinic.prognocis.com/prognocis/fhir/premierclinic"
+}

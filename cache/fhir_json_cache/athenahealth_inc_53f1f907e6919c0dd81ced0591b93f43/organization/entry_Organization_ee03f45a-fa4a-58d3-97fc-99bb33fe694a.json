@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ee03f45a-fa4a-58d3-97fc-99bb33fe694a",
+    "name": "THE SURGERY CENTER",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/45bdaa9f-484f-51df-87d5-bdaae49f47bd"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1215930490"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "5202 Miller Rd"
+        ],
+        "city": "FLINT",
+        "state": "MI",
+        "postalCode": "48507-3170"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33541"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33541.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:ee03f45a-fa4a-58d3-97fc-99bb33fe694a"
+}

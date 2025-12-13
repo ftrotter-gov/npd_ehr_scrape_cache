@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "86cf12ff-b34d-52f5-bf0e-5ab741ff25c4",
+    "name": "Waterloo South",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e3fa5e67-4bf5-5e11-a997-834d8dfa1e52"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1578175576"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2800 S Interstate 35",
+          "STE 215"
+        ],
+        "city": "AUSTIN",
+        "state": "TX",
+        "postalCode": "78704-5616"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-15777"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-15777.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:86cf12ff-b34d-52f5-bf0e-5ab741ff25c4"
+}

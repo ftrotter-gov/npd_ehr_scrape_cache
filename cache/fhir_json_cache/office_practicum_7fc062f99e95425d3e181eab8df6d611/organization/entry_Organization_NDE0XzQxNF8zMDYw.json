@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "NDE0XzQxNF8zMDYw",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "373.PRACTICE"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Ingram Pediatrics PA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "954-321-1591",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "954-321-1592",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "4100 S Hospital Dr Suite 302 Plantation, FL 333172838",
+        "line": [
+          "4100 S Hospital Dr",
+          "Suite 302"
+        ],
+        "city": "Plantation",
+        "state": "FL",
+        "postalCode": "333172838",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/NDE0XzQxNF8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/NDE0XzQxNF8zMDYw"
+}

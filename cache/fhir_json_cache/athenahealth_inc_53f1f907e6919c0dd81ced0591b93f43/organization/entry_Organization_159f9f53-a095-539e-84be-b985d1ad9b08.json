@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "159f9f53-a095-539e-84be-b985d1ad9b08",
+    "name": "VirtualMed Iowa",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/b9c39df3-aa5e-5360-b909-ec48ee373c97"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992520548"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2610 North Ridge Pkwy",
+          "Suite 103"
+        ],
+        "city": "AMES",
+        "state": "IA",
+        "postalCode": "50010-4088"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-34150"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-34150.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:159f9f53-a095-539e-84be-b985d1ad9b08"
+}

@@ -1,0 +1,74 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTUyNV8xNTI1XzMwNjA",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "42.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114136843"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Covington Pediatrics LLC GA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "770-787-7444",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "770-787-5050",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "5211 US HWY 278 NE Covington, GA 300142671",
+        "line": [
+          "5211 US HWY 278 NE"
+        ],
+        "city": "Covington",
+        "state": "GA",
+        "postalCode": "300142671",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTUyNV8xNTI1XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTUyNV8xNTI1XzMwNjA"
+}

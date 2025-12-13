@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "a918bdf4-2b56-ee11-9162-001dd8b71f1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2ua23VOZnoQ3d6z6pmb6apUIpe8M5CYQJUcH7vNpPPw=",
+        "name": "Dr. Bruce W Moskowitz, MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dr. Bruce W Moskowitz, MD",
+    "managingOrganization": {
+      "reference": "2ua23VOZnoQ3d6z6pmb6apUIpe8M5CYQJUcH7vNpPPw="
+    },
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et4001.epichosted.com/FHIRProxy/api/FHIR/R4/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3349",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3349",
+        "name": "Dr. Gilberto Gil Santiago"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dr. Gilberto Gil Santiago",
+    "managingOrganization": {
+      "reference": "#3349"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://ggsmd.prognocis.com/prognocis/fhir/ggsmd"
+  },
+  "fullUrl": "https://ggsmd.prognocis.com/prognocis/fhir/ggsmd"
+}

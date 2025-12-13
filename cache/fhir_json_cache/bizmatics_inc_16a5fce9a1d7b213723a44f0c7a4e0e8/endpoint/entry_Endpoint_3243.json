@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3243",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3243",
+        "name": "Advanced OBGYN Doctors LLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Advanced OBGYN Doctors LLC",
+    "managingOrganization": {
+      "reference": "#3243"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://advancedobgyndocs.prognocis.com/prognocis/fhir/advancedobgyndocs"
+  },
+  "fullUrl": "https://advancedobgyndocs.prognocis.com/prognocis/fhir/advancedobgyndocs"
+}

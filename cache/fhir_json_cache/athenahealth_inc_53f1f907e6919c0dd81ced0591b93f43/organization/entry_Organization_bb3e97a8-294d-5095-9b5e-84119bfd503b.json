@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "bb3e97a8-294d-5095-9b5e-84119bfd503b",
+    "name": "South Miami Medical",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/59192663-e075-5811-80e8-a18719ff16b1"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1427270412"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "7000 SW 62ND AVE",
+          "STE 600"
+        ],
+        "city": "MIAMI",
+        "state": "FL",
+        "postalCode": "33143-4728"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-18144"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-18144.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:bb3e97a8-294d-5095-9b5e-84119bfd503b"
+}

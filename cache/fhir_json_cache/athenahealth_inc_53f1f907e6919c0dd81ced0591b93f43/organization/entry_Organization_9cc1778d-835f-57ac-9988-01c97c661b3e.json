@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "9cc1778d-835f-57ac-9988-01c97c661b3e",
+    "name": "CoreMed Plus",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/a3199c9f-da8c-5a08-9d8f-2e5089d1eea0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1114484540"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1181 N MILFORD RD"
+        ],
+        "city": "MILFORD",
+        "state": "MI",
+        "postalCode": "48381-1061"
+      },
+      {
+        "line": [
+          "3959 CENTERPOINT PKWY"
+        ],
+        "city": "PONTIAC",
+        "state": "MI",
+        "postalCode": "48341-3121"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30191"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30191.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:9cc1778d-835f-57ac-9988-01c97c661b3e"
+}

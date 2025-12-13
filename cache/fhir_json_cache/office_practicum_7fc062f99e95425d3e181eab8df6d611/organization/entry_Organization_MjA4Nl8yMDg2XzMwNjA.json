@@ -1,0 +1,75 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MjA4Nl8yMDg2XzMwNjA",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "930.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851980379"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "J Fails LLC MS",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "601-791-5004",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "601-791-5243",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "2210 Mill Street Ext Suite D Lucedale, MS 394526079",
+        "line": [
+          "2210 Mill Street Ext",
+          "Suite D"
+        ],
+        "city": "Lucedale",
+        "state": "MS",
+        "postalCode": "394526079",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MjA4Nl8yMDg2XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MjA4Nl8yMDg2XzMwNjA"
+}

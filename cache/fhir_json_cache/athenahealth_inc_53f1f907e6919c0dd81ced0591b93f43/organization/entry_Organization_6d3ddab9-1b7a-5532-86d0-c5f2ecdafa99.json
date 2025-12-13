@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "6d3ddab9-1b7a-5532-86d0-c5f2ecdafa99",
+    "name": "Ana Gomez",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/f5903678-e837-5b0b-8e34-44bc3ce3ddc7"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962489757"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2000PennsylvaniaAve. NW. Suite 4000"
+        ],
+        "city": "WASHINGTON",
+        "state": "DC",
+        "postalCode": "20006-1834"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30300"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30300.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:6d3ddab9-1b7a-5532-86d0-c5f2ecdafa99"
+}

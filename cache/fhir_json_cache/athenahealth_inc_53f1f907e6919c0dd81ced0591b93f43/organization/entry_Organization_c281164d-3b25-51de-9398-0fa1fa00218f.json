@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "c281164d-3b25-51de-9398-0fa1fa00218f",
+    "name": "CVFP Internal Medicine - 800 Graves Mill",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013042480"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "800 Graves Mill",
+          "Suite 1500"
+        ],
+        "city": "LYNCHBURG",
+        "state": "VA",
+        "postalCode": "24502-4218"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:c281164d-3b25-51de-9398-0fa1fa00218f"
+}

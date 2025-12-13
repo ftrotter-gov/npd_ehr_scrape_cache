@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b209e1b4-f8bb-54f8-a644-83591fe9ab94",
+    "name": "Dr. McRunels and Dr. Acuna's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6b76107b-e2e3-5bba-9466-af43d10aa7db"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1053663336"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4350 N 19th Ave",
+          "STE 7"
+        ],
+        "city": "PHOENIX",
+        "state": "AZ",
+        "postalCode": "85015-4602"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33659"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33659.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b209e1b4-f8bb-54f8-a644-83591fe9ab94"
+}

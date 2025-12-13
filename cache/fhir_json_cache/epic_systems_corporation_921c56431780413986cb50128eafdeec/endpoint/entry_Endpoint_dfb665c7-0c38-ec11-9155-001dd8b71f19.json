@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "dfb665c7-0c38-ec11-9155-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "Ze00PMP9lbq0zod0V3RnBkDn5QD3fG1/LBeG38GQhpk=",
+        "name": "Loma Linda University Health and CareConnect Partners"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Loma Linda University Health and CareConnect Partners",
+    "managingOrganization": {
+      "reference": "Ze00PMP9lbq0zod0V3RnBkDn5QD3fG1/LBeG38GQhpk="
+    },
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://prd.lluh.org/fhir/api/FHIR/R4/"
+  }
+}

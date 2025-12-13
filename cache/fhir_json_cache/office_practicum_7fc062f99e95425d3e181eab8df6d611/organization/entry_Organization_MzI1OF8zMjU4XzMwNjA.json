@@ -1,0 +1,75 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MzI1OF8zMjU4XzMwNjA",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1217.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1144989385"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Dr Jimmy Phan Medical Corporation",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "951-981-3122",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "951-981-3123",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "425 Diamond Drive Suite 103 Lake Elsinore, CA 925304495",
+        "line": [
+          "425 Diamond Drive",
+          "Suite 103"
+        ],
+        "city": "Lake Elsinore",
+        "state": "CA",
+        "postalCode": "925304495",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MzI1OF8zMjU4XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MzI1OF8zMjU4XzMwNjA"
+}

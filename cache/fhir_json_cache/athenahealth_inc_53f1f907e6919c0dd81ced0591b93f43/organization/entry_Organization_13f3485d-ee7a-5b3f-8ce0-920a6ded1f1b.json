@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "13f3485d-ee7a-5b3f-8ce0-920a6ded1f1b",
+    "name": "Goodhaven Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/fbfa106c-da8d-550c-9c8b-98ff4948e8a0"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003614140"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "62 WALNUT STREET",
+          "FLOOR 2, STE B"
+        ],
+        "city": "WELLESLEY HILLS",
+        "state": "MA",
+        "postalCode": "02481-2109"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33509"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33509.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:13f3485d-ee7a-5b3f-8ce0-920a6ded1f1b"
+}

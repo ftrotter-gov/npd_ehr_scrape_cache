@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4263",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4263",
+        "name": "On Site Health and Wellness Center - SALUS"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "On Site Health and Wellness Center - SALUS",
+    "managingOrganization": {
+      "reference": "#4263"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://onsitehealth.saluspr.com/prognocis/fhir/onsitehealth"
+  },
+  "fullUrl": "https://onsitehealth.saluspr.com/prognocis/fhir/onsitehealth"
+}

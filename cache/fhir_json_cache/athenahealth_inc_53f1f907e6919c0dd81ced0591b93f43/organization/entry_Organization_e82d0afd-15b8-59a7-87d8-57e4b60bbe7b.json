@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e82d0afd-15b8-59a7-87d8-57e4b60bbe7b",
+    "name": "NewU Behavioral Health and Wellness",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/347e8d45-b075-572e-a843-3702e8614a23"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710539614"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "13540 W CAMINO DEL SOL",
+          "STE 3"
+        ],
+        "city": "SUN CITY WEST",
+        "state": "AZ",
+        "postalCode": "85375-4435"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33203"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33203.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e82d0afd-15b8-59a7-87d8-57e4b60bbe7b"
+}

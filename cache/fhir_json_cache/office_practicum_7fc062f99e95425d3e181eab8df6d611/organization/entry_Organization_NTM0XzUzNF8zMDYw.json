@@ -1,0 +1,70 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "NTM0XzUzNF8zMDYw",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "311.PRACTICE"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Richard D Lippmann MD FAAP",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "516-771-8123",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "516-208-8343",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "664 Merrick Road Baldwin, NY 11510",
+        "line": [
+          "664 Merrick Road"
+        ],
+        "city": "Baldwin",
+        "state": "NY",
+        "postalCode": "11510",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/NTM0XzUzNF8zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/NTM0XzUzNF8zMDYw"
+}

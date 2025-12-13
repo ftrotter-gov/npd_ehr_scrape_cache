@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2098",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2098",
+        "name": "Dr. Vinu Ganti MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Dr. Vinu Ganti MD",
+    "managingOrganization": {
+      "reference": "#2098"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://ganti.prognocis.com/prognocis/fhir/ganti"
+  },
+  "fullUrl": "https://ganti.prognocis.com/prognocis/fhir/ganti"
+}

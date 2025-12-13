@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2672",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2672",
+        "name": "South County Urgent Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "South County Urgent Care",
+    "managingOrganization": {
+      "reference": "#2672"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://scuc.prognocis.com/prognocis/fhir/scuc"
+  },
+  "fullUrl": "https://scuc.prognocis.com/prognocis/fhir/scuc"
+}

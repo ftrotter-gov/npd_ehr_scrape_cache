@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8066129d-9f28-5eb0-89b3-bc7ea2c81b84",
+    "name": "Oak Valley Specialty Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/7e50f397-c229-5889-ae97-1aade0127b48"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346381415"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1425 W H ST",
+          "STE 380A"
+        ],
+        "city": "OAKDALE",
+        "state": "CA",
+        "postalCode": "95361-3588"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33563"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33563.Brand-3"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8066129d-9f28-5eb0-89b3-bc7ea2c81b84"
+}

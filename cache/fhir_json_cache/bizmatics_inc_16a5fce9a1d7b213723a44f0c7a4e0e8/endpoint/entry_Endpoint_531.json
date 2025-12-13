@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "531",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "531",
+        "name": "Pain Management Solutions"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Pain Management Solutions",
+    "managingOrganization": {
+      "reference": "#531"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://masimore.prognocis.com/prognocis/fhir/masimore"
+  },
+  "fullUrl": "https://masimore.prognocis.com/prognocis/fhir/masimore"
+}

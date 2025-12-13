@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "d12be2aa-e996-5f31-92a9-6851fe67b237",
+    "name": "Clearwater Health Department",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/c1c966a7-14c7-529c-8adf-74ab5acde1c9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1871641613"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "310 N MYRTLE AVE"
+        ],
+        "city": "CLEARWATER",
+        "state": "FL",
+        "postalCode": "33755-4431"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32351"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32351.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:d12be2aa-e996-5f31-92a9-6851fe67b237"
+}

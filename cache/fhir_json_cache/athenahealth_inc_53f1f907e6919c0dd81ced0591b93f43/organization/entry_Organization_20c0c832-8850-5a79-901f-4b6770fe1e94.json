@@ -1,0 +1,54 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "20c0c832-8850-5a79-901f-4b6770fe1e94",
+    "name": "Ascension Providence Hospital",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6a89cdf6-ef16-5cda-83ca-bac051503df9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1851765374"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "47601 Grand River Ave"
+        ],
+        "city": "NOVI",
+        "state": "MI",
+        "postalCode": "48374-1200"
+      },
+      {
+        "line": [
+          "16001 W 9 Mile Road"
+        ],
+        "city": "SOUTHFIELD",
+        "state": "MI",
+        "postalCode": "48075-4818"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8209"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8209.Brand-9"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:20c0c832-8850-5a79-901f-4b6770fe1e94"
+}

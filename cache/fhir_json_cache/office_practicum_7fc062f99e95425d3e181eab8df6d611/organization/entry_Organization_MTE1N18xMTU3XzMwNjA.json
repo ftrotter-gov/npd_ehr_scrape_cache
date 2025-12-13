@@ -1,0 +1,75 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTE1N18xMTU3XzMwNjA",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "568.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1083793525"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Drs Perl & Feinerman PA MD",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "410-795-7300",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "410-795-5078",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "1645 Liberty Road Suite 205 Eldersburg, MD 217846521",
+        "line": [
+          "1645 Liberty Road",
+          "Suite 205"
+        ],
+        "city": "Eldersburg",
+        "state": "MD",
+        "postalCode": "217846521",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTE1N18xMTU3XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTE1N18xMTU3XzMwNjA"
+}

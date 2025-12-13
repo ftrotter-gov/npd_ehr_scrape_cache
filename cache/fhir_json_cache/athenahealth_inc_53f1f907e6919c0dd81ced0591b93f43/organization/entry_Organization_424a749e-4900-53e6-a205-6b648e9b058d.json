@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "424a749e-4900-53e6-a205-6b648e9b058d",
+    "name": "Dr. Moore's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/bf90e94d-58d9-5061-b0b7-6b0f28cf63ee"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588654552"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2323 E GREENLAW LN STE 10"
+        ],
+        "city": "FLAGSTAFF",
+        "state": "AZ",
+        "postalCode": "86004-1849"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29914"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29914.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:424a749e-4900-53e6-a205-6b648e9b058d"
+}

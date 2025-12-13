@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "43e49a97-ccc0-ec11-9155-001dd8b71f1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "jBja3pda88jzxcq7kPmus0WEH8Mc3o4o0O3KVvHOg2g=",
+        "name": "Baptist Health - Northeast Florida"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Baptist Health - Northeast Florida",
+    "managingOrganization": {
+      "reference": "jBja3pda88jzxcq7kPmus0WEH8Mc3o4o0O3KVvHOg2g="
+    },
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et1206.epichosted.com/FHIRProxy/api/FHIR/R4/"
+  }
+}

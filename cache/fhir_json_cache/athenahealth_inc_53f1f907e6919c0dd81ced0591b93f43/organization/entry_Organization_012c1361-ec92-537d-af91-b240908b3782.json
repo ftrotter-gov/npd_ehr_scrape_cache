@@ -1,0 +1,55 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "012c1361-ec92-537d-af91-b240908b3782",
+    "name": "Gentle Beginnings",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6ac0e327-5819-5578-b234-ac79e6a21326"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1588535421"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "123 main street"
+        ],
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10017-1020"
+      },
+      {
+        "line": [
+          "4300 PACES FERRY RD SE",
+          "STE 500"
+        ],
+        "city": "ATLANTA",
+        "state": "GA",
+        "postalCode": "30339-5714"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-34211"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-34211.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:012c1361-ec92-537d-af91-b240908b3782"
+}

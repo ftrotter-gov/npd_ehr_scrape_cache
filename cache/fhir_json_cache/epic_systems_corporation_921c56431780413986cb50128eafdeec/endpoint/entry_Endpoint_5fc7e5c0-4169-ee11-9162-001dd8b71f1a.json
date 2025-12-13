@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5fc7e5c0-4169-ee11-9162-001dd8b71f1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "srFFggHN3wpkej/M1W01DpmTqYSp5+pMEGqPc3mq/Os=",
+        "name": "SBH Health System"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "SBH Health System",
+    "managingOrganization": {
+      "reference": "srFFggHN3wpkej/M1W01DpmTqYSp5+pMEGqPc3mq/Os="
+    },
+    "period": {
+      "start": "2024-11-09T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://sbhepicrevprox.barnabas.network/FHIRProxy/api/FHIR/R4/"
+  }
+}

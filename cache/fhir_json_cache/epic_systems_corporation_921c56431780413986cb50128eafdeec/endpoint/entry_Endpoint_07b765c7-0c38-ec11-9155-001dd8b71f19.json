@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "07b765c7-0c38-ec11-9155-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "EP+2bpIRjLhzYhJTQQrb8++g6zGAQjzZ+WCrYgqFkfw=",
+        "name": "Trinity Health of New England"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Trinity Health of New England",
+    "managingOrganization": {
+      "reference": "EP+2bpIRjLhzYhJTQQrb8++g6zGAQjzZ+WCrYgqFkfw="
+    },
+    "period": {
+      "start": "2024-11-09T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicprdext.stfranciscare.org/FhirProxy/api/FHIR/R4/"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "5f6f8c64-7264-ee11-9162-001dd8b71f1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "UQkp82sL+uEb0ZH0FKov6ryGmL/RuVmJN23OGswMw7A=",
+        "name": "Midwestern University"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Midwestern University",
+    "managingOrganization": {
+      "reference": "UQkp82sL+uEb0ZH0FKov6ryGmL/RuVmJN23OGswMw7A="
+    },
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et1329.epichosted.com/APIProxyPRD/api/FHIR/R4/"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "f43979d4-43a0-5841-afe4-8780ff7ab029",
+    "name": "Oakdale Occupational Health",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/46ef1b14-82de-5153-a54f-11295050c85b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346381415"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1420 W H ST"
+        ],
+        "city": "OAKDALE",
+        "state": "CA",
+        "postalCode": "95361-3557"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33563"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33563.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:f43979d4-43a0-5841-afe4-8780ff7ab029"
+}

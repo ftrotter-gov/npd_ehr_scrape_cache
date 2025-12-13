@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "93b765c7-0c38-ec11-9155-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "lclC/i15aua4rghP9SKllZlchRuB1Ltt5Hk79T71j5Y=",
+        "name": "The University of Texas Health Science Center at Houston"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "The University of Texas Health Science Center at Houston",
+    "managingOrganization": {
+      "reference": "lclC/i15aua4rghP9SKllZlchRuB1Ltt5Hk79T71j5Y="
+    },
+    "period": {
+      "start": "2024-11-09T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et1178.epichosted.com/FHIRProxy/api/FHIR/R4/"
+  }
+}

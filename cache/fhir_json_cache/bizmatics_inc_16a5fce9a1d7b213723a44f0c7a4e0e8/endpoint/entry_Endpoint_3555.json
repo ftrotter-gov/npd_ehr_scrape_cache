@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3555",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3555",
+        "name": "Injury and Health Institute"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Injury and Health Institute",
+    "managingOrganization": {
+      "reference": "#3555"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://injuryandhealthinstitute.prognocis.com/prognocis/fhir/injuryandhealthinstitute"
+  },
+  "fullUrl": "https://injuryandhealthinstitute.prognocis.com/prognocis/fhir/injuryandhealthinstitute"
+}

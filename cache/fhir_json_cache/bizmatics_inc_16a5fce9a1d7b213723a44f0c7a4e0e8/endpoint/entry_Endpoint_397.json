@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "397",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "397",
+        "name": "LA Pain Doctor - Dr. Hijazi APMC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "LA Pain Doctor - Dr. Hijazi APMC",
+    "managingOrganization": {
+      "reference": "#397"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://apmc.prognocis.com/prognocis/fhir/apmc"
+  },
+  "fullUrl": "https://apmc.prognocis.com/prognocis/fhir/apmc"
+}

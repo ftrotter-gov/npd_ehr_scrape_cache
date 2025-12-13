@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "abc758b8-d730-56fd-b9b7-b003c953f4a0",
+    "name": "Advanced Occupational Health Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0eec78e3-5114-5baf-b86e-ab7702cd6585"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1710877014"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "4174 LIND AVE SW"
+        ],
+        "city": "RENTON",
+        "state": "WA",
+        "postalCode": "98057-4973"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-34109"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-34109.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:abc758b8-d730-56fd-b9b7-b003c953f4a0"
+}

@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4125",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4125",
+        "name": "Saginaw Valley Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Saginaw Valley Medical Center",
+    "managingOrganization": {
+      "reference": "#4125"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://svmc.prognocis.com/prognocis/fhir/svmc"
+  },
+  "fullUrl": "https://svmc.prognocis.com/prognocis/fhir/svmc"
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8783682b-3e26-5663-852f-655eb2903263",
+    "name": "Sarieh Medical Group",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2228baeb-4d02-532c-8bc1-3aa929682098"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1043033665"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "600 N BRAND BLVD",
+          "STE 530"
+        ],
+        "city": "GLENDALE",
+        "state": "CA",
+        "postalCode": "91203-4210"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33766"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33766.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8783682b-3e26-5663-852f-655eb2903263"
+}

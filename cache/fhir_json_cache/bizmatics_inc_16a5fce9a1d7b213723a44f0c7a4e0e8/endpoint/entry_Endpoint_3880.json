@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3880",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3880",
+        "name": "Jose Rodriguez Portela, D.P.M."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Jose Rodriguez Portela, D.P.M.",
+    "managingOrganization": {
+      "reference": "#3880"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://caribbeanfootclinic.prognocis.com/prognocis/fhir/caribbeanfootclinic"
+  },
+  "fullUrl": "https://caribbeanfootclinic.prognocis.com/prognocis/fhir/caribbeanfootclinic"
+}

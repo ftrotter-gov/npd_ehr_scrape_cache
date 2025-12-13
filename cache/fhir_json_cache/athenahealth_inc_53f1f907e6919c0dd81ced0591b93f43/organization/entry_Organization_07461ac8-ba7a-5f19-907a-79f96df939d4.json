@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "07461ac8-ba7a-5f19-907a-79f96df939d4",
+    "name": "MyHealthConnect",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1f92c0b0-ceb7-5b9c-98f8-bab710da2cb9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1073508545"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1800 S MAIN ST",
+          "STE 1100"
+        ],
+        "city": "MCALLEN",
+        "state": "TX",
+        "postalCode": "78503-5444"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33464"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33464.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:07461ac8-ba7a-5f19-907a-79f96df939d4"
+}

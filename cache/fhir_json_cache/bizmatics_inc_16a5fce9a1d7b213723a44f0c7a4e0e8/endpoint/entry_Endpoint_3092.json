@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3092",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3092",
+        "name": "William L Nguyen, MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "William L Nguyen, MD",
+    "managingOrganization": {
+      "reference": "#3092"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://williamlnguyenmd.prognocis.com/prognocis/fhir/williamlnguyenmd"
+  },
+  "fullUrl": "https://williamlnguyenmd.prognocis.com/prognocis/fhir/williamlnguyenmd"
+}

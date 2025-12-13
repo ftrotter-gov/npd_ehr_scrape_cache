@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "e7625ad2-5fb3-eb11-913d-001dd8b71f1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "hsz0aJNJXA0q0dT13Go/Q1juurC1H24nMFZSflNQDzE=",
+        "name": "Beaumont Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Beaumont Health",
+    "managingOrganization": {
+      "reference": "hsz0aJNJXA0q0dT13Go/Q1juurC1H24nMFZSflNQDzE="
+    },
+    "period": {
+      "start": "2024-09-11T00:00:00-05:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://moc.beaumont.org/FHIR/api/FHIR/R4/"
+  }
+}

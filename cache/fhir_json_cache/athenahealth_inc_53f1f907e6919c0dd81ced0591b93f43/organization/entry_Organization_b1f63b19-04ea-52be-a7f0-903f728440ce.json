@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b1f63b19-04ea-52be-a7f0-903f728440ce",
+    "name": "MLM Medical Services",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/ac3bdd06-3321-5b63-8bc9-63d7f06012de"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1962205013"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "55 S. Valle Verde., Ste 265"
+        ],
+        "city": "HENDERSON",
+        "state": "NV",
+        "postalCode": "89012-3434"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33319"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33319.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b1f63b19-04ea-52be-a7f0-903f728440ce"
+}

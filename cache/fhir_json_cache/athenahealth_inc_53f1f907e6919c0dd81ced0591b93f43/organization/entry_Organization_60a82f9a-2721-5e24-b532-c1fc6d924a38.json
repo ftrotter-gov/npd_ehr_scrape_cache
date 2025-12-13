@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "60a82f9a-2721-5e24-b532-c1fc6d924a38",
+    "name": "Waverly Family Medicine",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5d1e8c71-0c7f-5d2b-a2f0-ef45565ddf7b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1104021203"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "104 HILLWOOD DR"
+        ],
+        "city": "WAVERLY",
+        "state": "TN",
+        "postalCode": "37185-2116"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33486"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33486.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:60a82f9a-2721-5e24-b532-c1fc6d924a38"
+}

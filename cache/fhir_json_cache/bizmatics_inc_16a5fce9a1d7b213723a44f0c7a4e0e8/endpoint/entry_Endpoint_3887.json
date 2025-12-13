@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3887",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3887",
+        "name": "North Scottsdale Womens Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "North Scottsdale Womens Care",
+    "managingOrganization": {
+      "reference": "#3887"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://nswc.prognocis.com/prognocis/fhir/nswc"
+  },
+  "fullUrl": "https://nswc.prognocis.com/prognocis/fhir/nswc"
+}

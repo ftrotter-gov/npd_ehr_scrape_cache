@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "0034ba67-a8e5-5178-8118-16b89c1a1cbc",
+    "name": "Fredericksburg Primary Care - 2500 Charles Street",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/0344bd9b-08ba-58fa-bb19-b8f730279693"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1013042480"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2500 Charles Street"
+        ],
+        "city": "FREDERICKSBURG",
+        "state": "VA",
+        "postalCode": "22401-3312"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-8042"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-8042.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:0034ba67-a8e5-5178-8118-16b89c1a1cbc"
+}

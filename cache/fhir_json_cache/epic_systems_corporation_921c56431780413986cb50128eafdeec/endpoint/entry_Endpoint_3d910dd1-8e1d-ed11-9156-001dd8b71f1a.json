@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3d910dd1-8e1d-ed11-9156-001dd8b71f1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "TzfAYfGFT5aC9UP+y17p1lLIAyNZcCAt6XxuQMg2F2Y=",
+        "name": "St. Jude Children's Research Hospital"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "St. Jude Children's Research Hospital",
+    "managingOrganization": {
+      "reference": "TzfAYfGFT5aC9UP+y17p1lLIAyNZcCAt6XxuQMg2F2Y="
+    },
+    "period": {
+      "start": "2024-11-09T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://rp.stjude.org/oauth2-prd/api/FHIR/R4/"
+  }
+}

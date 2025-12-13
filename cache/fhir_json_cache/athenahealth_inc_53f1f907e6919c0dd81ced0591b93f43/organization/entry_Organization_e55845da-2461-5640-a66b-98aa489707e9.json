@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "e55845da-2461-5640-a66b-98aa489707e9",
+    "name": "Mercy Urgent Care Boone",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/50bd9968-45df-55f7-9356-f44b64fda907"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1437175700"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "321 Watauga Village Dr",
+          "Suite C"
+        ],
+        "city": "BOONE",
+        "state": "NC",
+        "postalCode": "28607-5263"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-29997"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-29997.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:e55845da-2461-5640-a66b-98aa489707e9"
+}

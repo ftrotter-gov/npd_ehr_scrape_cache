@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "1730525c-d24f-ed11-9157-001dd8b71f1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4vRFnzop6JTOkQ9Lk/dCNoVqdZpaw1U3GTkkI9GpnNs=",
+        "name": "Summa Health"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Summa Health",
+    "managingOrganization": {
+      "reference": "4vRFnzop6JTOkQ9Lk/dCNoVqdZpaw1U3GTkkI9GpnNs="
+    },
+    "period": {
+      "start": "2024-11-09T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et1289.epichosted.com/FHIRProxy/api/FHIR/R4/"
+  }
+}

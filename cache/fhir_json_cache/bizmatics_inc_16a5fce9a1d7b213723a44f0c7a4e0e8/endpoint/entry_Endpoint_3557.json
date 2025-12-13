@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3557",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3557",
+        "name": "Jaime A. Figueroa Sosa, MD"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Jaime A. Figueroa Sosa, MD",
+    "managingOrganization": {
+      "reference": "#3557"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://jafsmd.prognocis.com/prognocis/fhir/jafsmd"
+  },
+  "fullUrl": "https://jafsmd.prognocis.com/prognocis/fhir/jafsmd"
+}

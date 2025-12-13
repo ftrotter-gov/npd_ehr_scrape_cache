@@ -1,0 +1,74 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "ODMzXzgzM18zMDYw",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "1218.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1790858124"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Valley Pediatric Medical Group Inc",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "818-789-7181",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "818-986-8322",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": " 5353 Balboa Blvd. #104 Encino, CA 91316",
+        "line": [
+          "5353 Balboa Blvd. #104"
+        ],
+        "city": "Encino",
+        "state": "CA",
+        "postalCode": "91316",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/ODMzXzgzM18zMDYx"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/ODMzXzgzM18zMDYw"
+}

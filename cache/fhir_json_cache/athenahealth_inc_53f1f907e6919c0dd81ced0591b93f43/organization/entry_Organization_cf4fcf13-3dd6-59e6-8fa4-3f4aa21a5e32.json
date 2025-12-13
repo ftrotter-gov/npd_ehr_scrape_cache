@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "cf4fcf13-3dd6-59e6-8fa4-3f4aa21a5e32",
+    "name": "Escalon Community Health Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/2844f15f-5d85-5ee5-9462-e66f3def78b9"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346381415"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2080 McHenry Ave",
+          "Suite 200"
+        ],
+        "city": "ESCALON",
+        "state": "CA",
+        "postalCode": "95320-9998"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33563"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33563.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:cf4fcf13-3dd6-59e6-8fa4-3f4aa21a5e32"
+}

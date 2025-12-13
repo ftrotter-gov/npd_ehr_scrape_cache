@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "98d85543-ea26-56f3-9e7a-d4d9666b17ce",
+    "name": "Dr. Tirmal's Office",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/67451194-ae96-5421-bf00-9d964ff7f6ff"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1063290690"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3905 NATIONAL DRIVE",
+          "SUITE 220"
+        ],
+        "city": "BURTONSVILLE",
+        "state": "MD",
+        "postalCode": "20866-6106"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-30004"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-30004.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:98d85543-ea26-56f3-9e7a-d4d9666b17ce"
+}

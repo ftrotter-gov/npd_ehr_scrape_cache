@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "23a3ee5c-1617-5a01-be11-b60261efd50e",
+    "name": "CA Only AR AHA - Connected Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/9077660b-7b49-550e-8631-d9581157f50c"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1003607987"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "3819 N 13TH ST"
+        ],
+        "city": "ROGERS",
+        "state": "AR",
+        "postalCode": "72756-7021"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32896"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32896.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:23a3ee5c-1617-5a01-be11-b60261efd50e"
+}

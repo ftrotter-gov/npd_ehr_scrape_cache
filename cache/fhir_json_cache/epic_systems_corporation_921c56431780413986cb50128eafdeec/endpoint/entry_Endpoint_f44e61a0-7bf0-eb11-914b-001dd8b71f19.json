@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "f44e61a0-7bf0-eb11-914b-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "TUTs823JX+5G4xUcM07EBvxqN8hiM8VnxSAksSLBG9A=",
+        "name": "UHS San Antonio"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "UHS San Antonio",
+    "managingOrganization": {
+      "reference": "TUTs823JX+5G4xUcM07EBvxqN8hiM8VnxSAksSLBG9A="
+    },
+    "period": {
+      "start": "2024-11-06T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epicproxy.et1130.epichosted.com/FHIRProxy/api/FHIR/R4/"
+  }
+}

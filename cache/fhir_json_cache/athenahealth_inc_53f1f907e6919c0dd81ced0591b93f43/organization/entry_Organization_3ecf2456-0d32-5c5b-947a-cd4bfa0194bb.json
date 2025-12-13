@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "3ecf2456-0d32-5c5b-947a-cd4bfa0194bb",
+    "name": "Hoskinson Health Urgent Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/6ed354d4-1646-5fe5-aa12-0b937e82e908"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1376280750"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "469 HIGHWAY 50"
+        ],
+        "city": "GILLETTE",
+        "state": "WY",
+        "postalCode": "82718-9330"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-26742"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-26742.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:3ecf2456-0d32-5c5b-947a-cd4bfa0194bb"
+}

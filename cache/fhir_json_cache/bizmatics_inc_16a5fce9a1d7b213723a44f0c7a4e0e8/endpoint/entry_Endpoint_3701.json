@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3701",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3701",
+        "name": "Diamond State Primary Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Diamond State Primary Care",
+    "managingOrganization": {
+      "reference": "#3701"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://dspc.prognocis.com/prognocis/fhir/dspc"
+  },
+  "fullUrl": "https://dspc.prognocis.com/prognocis/fhir/dspc"
+}

@@ -1,0 +1,71 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTY1N18xNjU3XzMwNjA",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "123.PRACTICE"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "The Kids Specialists Henry Pediatrics LLC GA",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "678-289-8184",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "678-565-9856",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "1215 Eagle's Landing Parkway Suite 108 and 109 Stockbridge, GA 30281",
+        "line": [
+          "1215 Eagle's Landing Parkway",
+          "Suite 108 and 109"
+        ],
+        "city": "Stockbridge",
+        "state": "GA",
+        "postalCode": "30281",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTY1N18xNjU3XzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTY1N18xNjU3XzMwNjA"
+}

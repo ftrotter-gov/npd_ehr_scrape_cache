@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "74270494-737c-53f0-b52e-6d12939035f8",
+    "name": "Nurse Visit",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/14daecf0-5d74-5fbc-a6d5-ebd66563c846"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1598356982"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "106 N Walnut St"
+        ],
+        "city": "IMBODEN",
+        "state": "AR",
+        "postalCode": "72434-9160"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-23407"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-23407.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:74270494-737c-53f0-b52e-6d12939035f8"
+}

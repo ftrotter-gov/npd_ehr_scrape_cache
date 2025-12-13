@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3479",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3479",
+        "name": "Southern Health Care Group, Inc."
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Southern Health Care Group, Inc.",
+    "managingOrganization": {
+      "reference": "#3479"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://shcg.prognocis.com/prognocis/fhir/shcg"
+  },
+  "fullUrl": "https://shcg.prognocis.com/prognocis/fhir/shcg"
+}

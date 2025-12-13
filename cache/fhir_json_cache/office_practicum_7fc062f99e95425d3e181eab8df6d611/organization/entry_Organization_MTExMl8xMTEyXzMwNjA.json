@@ -1,0 +1,75 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "MTExMl8xMTEyXzMwNjA",
+    "extension": [
+      {
+        "url": "https://fhir-documentation.patientmedrecords.com/resource/Organization/extension/age-of-majority",
+        "valueInteger": 18
+      },
+      {
+        "url": "https://OrganizationType",
+        "valueString": "PRACTICE"
+      }
+    ],
+    "identifier": [
+      {
+        "use": "old",
+        "system": "https://fhir-documentation.patientmedrecords.com/atlas",
+        "value": "546.PRACTICE"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1982795431"
+      }
+    ],
+    "active": true,
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+            "code": "prov",
+            "display": "Healthcare Provider"
+          }
+        ]
+      }
+    ],
+    "name": "Commonwealth Pediatrics PSC KY",
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "859-277-6636",
+        "use": "work",
+        "rank": 1
+      },
+      {
+        "system": "fax",
+        "value": "859-277-1455",
+        "use": "work",
+        "rank": 2
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "type": "both",
+        "text": "1780 Nicholasville Road Suite 301 Lexington, KY 405031413",
+        "line": [
+          "1780 Nicholasville Road",
+          "Suite 301"
+        ],
+        "city": "Lexington",
+        "state": "KY",
+        "postalCode": "405031413",
+        "country": "USA"
+      }
+    ],
+    "endpoint": [
+      {
+        "reference": "Endpoint/MTExMl8xMTEyXzMwNjE"
+      }
+    ]
+  },
+  "fullUrl": "https://applications.op.healthcare/Organization/MTExMl8xMTEyXzMwNjA"
+}

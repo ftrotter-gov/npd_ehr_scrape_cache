@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "612182b9-860d-eb11-9130-001dd8b71f1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "e/2D9lo/fukphjiliiJ8550rDDfNWB/GjEUo5nMComo=",
+        "name": "Bayhealth Medical Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Bayhealth Medical Center",
+    "managingOrganization": {
+      "reference": "e/2D9lo/fukphjiliiJ8550rDDfNWB/GjEUo5nMComo="
+    },
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epproxy.bayhealth.org/FHIR/api/FHIR/R4/"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "79173f74-00af-5d7a-aced-d86501e02141",
+    "name": "San Juan Clinic_Home",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8fda4e1a-4f27-5696-b807-48c4fc73ca9a"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1154158814"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1315 Snowden Street",
+          "PO Box 247"
+        ],
+        "city": "SILVERTON",
+        "state": "CO",
+        "postalCode": "81433-0001"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32294"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32294.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:79173f74-00af-5d7a-aced-d86501e02141"
+}

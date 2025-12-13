@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "3960",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "3960",
+        "name": "VCare Primary Care LLC"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "VCare Primary Care LLC",
+    "managingOrganization": {
+      "reference": "#3960"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://vcareurgentcare.prognocis.com/prognocis/fhir/vcareurgentcare"
+  },
+  "fullUrl": "https://vcareurgentcare.prognocis.com/prognocis/fhir/vcareurgentcare"
+}

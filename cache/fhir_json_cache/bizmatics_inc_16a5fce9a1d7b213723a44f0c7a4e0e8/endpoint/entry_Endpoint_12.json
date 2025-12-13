@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "12",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "12",
+        "name": "North Austin Urology"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "North Austin Urology",
+    "managingOrganization": {
+      "reference": "#12"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://northaustinurology.prognocis.com/prognocis/fhir/naurology"
+  },
+  "fullUrl": "https://northaustinurology.prognocis.com/prognocis/fhir/naurology"
+}

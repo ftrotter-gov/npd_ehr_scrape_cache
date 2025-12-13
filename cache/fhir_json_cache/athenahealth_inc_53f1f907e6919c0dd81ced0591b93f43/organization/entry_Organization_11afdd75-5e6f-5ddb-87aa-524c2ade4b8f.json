@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "11afdd75-5e6f-5ddb-87aa-524c2ade4b8f",
+    "name": "Family Medicine Clinic of Danville",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/15d15eec-e8c6-5556-bd33-2e94cf333565"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1720059090"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "640 E LEXINGTON AVE"
+        ],
+        "city": "DANVILLE",
+        "state": "KY",
+        "postalCode": "40422-1719"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33068"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33068.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:11afdd75-5e6f-5ddb-87aa-524c2ade4b8f"
+}

@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4155",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4155",
+        "name": "ReadyOne Industries"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "ReadyOne Industries",
+    "managingOrganization": {
+      "reference": "#4155"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://roi.prognocis.com/prognocis/fhir/roi"
+  },
+  "fullUrl": "https://roi.prognocis.com/prognocis/fhir/roi"
+}

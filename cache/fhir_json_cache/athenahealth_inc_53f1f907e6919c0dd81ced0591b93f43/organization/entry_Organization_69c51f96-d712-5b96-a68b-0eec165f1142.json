@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "69c51f96-d712-5b96-a68b-0eec165f1142",
+    "name": "Capital City Surgery Center",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/e1069c54-3535-5fd9-a160-a99423450da4"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1740918044"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "23 SUNNYBROOK RD",
+          "STE 100"
+        ],
+        "city": "RALEIGH",
+        "state": "NC",
+        "postalCode": "27610-1874"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-32969"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-32969.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:69c51f96-d712-5b96-a68b-0eec165f1142"
+}

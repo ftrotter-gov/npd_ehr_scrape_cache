@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "4158",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4158",
+        "name": "Comprehensive Mobile Insurance Company Inc"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Comprehensive Mobile Insurance Company Inc",
+    "managingOrganization": {
+      "reference": "#4158"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://cmc.prognocis.com/prognocis/fhir/cmc"
+  },
+  "fullUrl": "https://cmc.prognocis.com/prognocis/fhir/cmc"
+}

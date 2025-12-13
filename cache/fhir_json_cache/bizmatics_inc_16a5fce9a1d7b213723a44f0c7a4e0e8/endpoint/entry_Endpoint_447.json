@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "447",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "447",
+        "name": "Cornerstone Sports Medicine"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Cornerstone Sports Medicine",
+    "managingOrganization": {
+      "reference": "#447"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://csm.prognocis.com/prognocis/fhir/csm"
+  },
+  "fullUrl": "https://csm.prognocis.com/prognocis/fhir/csm"
+}

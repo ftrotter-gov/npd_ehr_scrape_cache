@@ -1,0 +1,46 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "8f641af8-3dbd-5dac-933c-32dbb12d153b",
+    "name": "Pavlik Medical Department",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/1d9dfd05-e4f9-5c60-9464-28cf6608093b"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1992166284"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "102 W PINELOCH AVE"
+        ],
+        "city": "ORLANDO",
+        "state": "FL",
+        "postalCode": "32806-6100"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-33019"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-33019.Brand-2"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:8f641af8-3dbd-5dac-933c-32dbb12d153b"
+}

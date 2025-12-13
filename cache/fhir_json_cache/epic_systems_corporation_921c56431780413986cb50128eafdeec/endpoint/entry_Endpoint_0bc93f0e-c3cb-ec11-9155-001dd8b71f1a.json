@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "0bc93f0e-c3cb-ec11-9155-001dd8b71f1a",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4aSETAn5rEopmRfSaowVaeSejh8fSNoSURTcs6fBSoQ=",
+        "name": "Spectrum Health Lakeland"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Spectrum Health Lakeland",
+    "managingOrganization": {
+      "reference": "4aSETAn5rEopmRfSaowVaeSejh8fSNoSURTcs6fBSoQ="
+    },
+    "period": {
+      "start": "2022-05-04T00:00:00-05:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.lakelandregional.org/fhirproxy/api/FHIR/R4/"
+  }
+}

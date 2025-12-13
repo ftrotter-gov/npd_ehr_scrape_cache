@@ -1,0 +1,43 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "57ec67c1-87b3-4b23-a4e8-1923cb408fba",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "4b68395a-1f9a-44db-8ea3-55e55f05dd4d",
+        "name": "WNY Immediate Care"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "WNY Immediate Care",
+    "managingOrganization": {
+      "reference": "#4b68395a-1f9a-44db-8ea3-55e55f05dd4d"
+    },
+    "period": {
+      "start": "2025-11-20T08:21:00+00:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57678"
+  },
+  "fullUrl": "https://fhir.fhirpoint.open.allscripts.com/fhirroute/open/57678"
+}

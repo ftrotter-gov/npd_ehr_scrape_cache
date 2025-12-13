@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2618",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2618",
+        "name": "Border Region Behavioral Health Center"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Border Region Behavioral Health Center",
+    "managingOrganization": {
+      "reference": "#2618"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://borderregion.prognocis.com/prognocis/fhir/borderregion"
+  },
+  "fullUrl": "https://borderregion.prognocis.com/prognocis/fhir/borderregion"
+}

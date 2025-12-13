@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "b5a06698-b709-53ea-9130-175e4950f480",
+    "name": "Lincoln Park Primary Care",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/8caa2e9e-d735-5300-a127-2d153c2ab208"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1245118579"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "2845 N. Sheridan Rd.",
+          "STE 910"
+        ],
+        "city": "CHICAGO",
+        "state": "IL",
+        "postalCode": "60657-7227"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-34069"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-34069.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:b5a06698-b709-53ea-9130-175e4950f480"
+}

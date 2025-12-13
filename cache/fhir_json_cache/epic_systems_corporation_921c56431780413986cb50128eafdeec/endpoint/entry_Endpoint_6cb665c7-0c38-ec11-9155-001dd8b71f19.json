@@ -1,0 +1,42 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "6cb665c7-0c38-ec11-9155-001dd8b71f19",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "GDDdeJrXGwxlOxq3fG18i5B97V8ZfrLiUPAa5uQOZa0=",
+        "name": "Tahoe Forest Health System"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Tahoe Forest Health System",
+    "managingOrganization": {
+      "reference": "GDDdeJrXGwxlOxq3fG18i5B97V8ZfrLiUPAa5uQOZa0="
+    },
+    "period": {
+      "start": "2024-11-08T00:00:00-06:00"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://epic-fhir.mercy.net/PRDFHIRAOK2/TAO/api/FHIR/R4/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "resource": {
+    "resourceType": "Endpoint",
+    "id": "2836",
+    "contained": [
+      {
+        "resourceType": "Organization",
+        "id": "2836",
+        "name": "Northern Lights Pain Management"
+      }
+    ],
+    "status": "active",
+    "connectionType": {
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "code": "hl7-fhir-rest"
+    },
+    "name": "Northern Lights Pain Management",
+    "managingOrganization": {
+      "reference": "#2836"
+    },
+    "payloadType": [
+      {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS",
+            "code": "NA"
+          }
+        ]
+      }
+    ],
+    "payloadMimeType": [
+      "application/fhir+json",
+      "application/json+fhir",
+      "application/xml+fhir",
+      "application/fhir+xml"
+    ],
+    "address": "https://nlpain.prognocis.com/prognocis/fhir/nlpain"
+  },
+  "fullUrl": "https://nlpain.prognocis.com/prognocis/fhir/nlpain"
+}

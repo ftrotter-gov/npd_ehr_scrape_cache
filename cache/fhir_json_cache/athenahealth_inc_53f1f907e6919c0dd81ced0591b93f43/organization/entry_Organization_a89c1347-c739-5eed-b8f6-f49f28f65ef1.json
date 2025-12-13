@@ -1,0 +1,47 @@
+{
+  "resource": {
+    "resourceType": "Organization",
+    "id": "a89c1347-c739-5eed-b8f6-f49f28f65ef1",
+    "name": "NC Chapel Hill - Sage Clinic",
+    "endpoint": [
+      {
+        "reference": "Endpoint/27a4e967-47aa-5a9c-a572-b8297ee268a2"
+      },
+      {
+        "reference": "Endpoint/5831dd6f-2878-5817-87db-981cb2057c00"
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "1346820123"
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "205 SAGE RD",
+          "STE 203"
+        ],
+        "city": "CHAPEL HILL",
+        "state": "NC",
+        "postalCode": "27514-6995"
+      }
+    ],
+    "extension": [
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-practice",
+        "valueReference": {
+          "reference": "Organization/a-1.Practice-25598"
+        }
+      },
+      {
+        "url": "https://fhir.athena.io/StructureDefinition/ah-brand",
+        "valueReference": {
+          "reference": "Organization/a-25598.Brand-1"
+        }
+      }
+    ]
+  },
+  "fullUrl": "urn:uuid:a89c1347-c739-5eed-b8f6-f49f28f65ef1"
+}
