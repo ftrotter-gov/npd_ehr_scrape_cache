@@ -1,118 +1,63 @@
 {
-  "id": "glaceemr-endpoints-r4",
- "type": "collection",
   "resourceType": "Bundle",
+  "id": "glaceemr-endpoints-r4",
+  "type": "collection",
   "entry": [
     {
+      "fullUrl": "https://example.com/base/Endpoint/example-endpoint-1",
       "resource": {
-        "address": [
-          {
-            "country": "US",
-            "city": "Waterbury",
-            "line": [
-              "506 Frost Rd"
-            ],
-            "postalCode": "06705",
-            "state": "CT"
-          }
-        ],
-        "name": "Primecare Medical, P.C. ",
-        "id": "PRIMECARE",
-        "resourceType": "Organization"
-      }
-    },
-    {
-      "resource": {
-        "contained": [
-          {
-            "id": "PRIMECARE",
-            "resourceType": "Organization"
-          }
-        ],
-        "period": {
-          "start": "2022-12-06T19:22:58.000Z"
-        },
-        "managingOrganization": {
-          "reference": "Organization/PRIMECARE"
-        },
-        "address": "https://fhir.glaceemr.com/fhir_base_r4/fhir/primecare",
-        "payloadType": [
-          {
-            "text": "FHIR R4 facade"
-          }
-        ],
-        "name": "Primecare Medical, P.C.",
-        "id": "PRIMECARE",
-        "payloadMimeType": [
-          "application/fhir+json",
-          "application/json+fhir",
-          "application/xml+fhir",
-          "application/fhir+xml"
-        ],
+        "resourceType": "Endpoint",
+        "id": "example-endpoint-1",
+        "name": "Example Endpoint 1",
+        "status": "active",
         "connectionType": {
           "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest"
+          "code": "direct-project"
         },
-        "resourceType": "Endpoint",
-        "status": "active"
-      }
-    },
-    {
-      "resource": {
-        "address": [
-          {
-            "country": "US",
-            "city": "Waterbury",
-            "line": [
-              "1389 West Main Street, Suite 308"
-            ],
-            "postalCode": "06708",
-            "state": "CT"
-          }
-        ],
-        "name": "FHIR R4 Production Sandbox EMR",
-        "id": "demo",
-        "resourceType": "Organization"
-      }
-    },
-    {
-      "resource": {
-        "contained": [
-          {
-            "id": "demo",
-            "resourceType": "Organization"
-          }
-        ],
-        "period": {
-          "start": "2022-11-30T23:29:20.000Z"
-        },
-        "managingOrganization": {
-          "reference": "Organization/demo"
-        },
-        "address": "https://fhir.glaceemr.com/fhir_base_r4/fhir/primecare",
         "payloadType": [
           {
-            "text": "FHIR R4 facade"
+            "coding": [
+              {
+                "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+                "code": "urn:hl7-org:sdwg:ccda-structuredBody:1.1"
+              }
+            ]
           }
         ],
-        "name": "FHIR R4 Production Sandbox EMR",
-        "id": "demo",
-        "payloadMimeType": [
-          "application/fhir+json",
-          "application/json+fhir",
-          "application/xml+fhir",
-          "application/fhir+xml"
+        "address": "https://fhir.glaceemr.com/fhir_base_r4/fhir/primecare"
+      }
+    },
+    {
+      "fullUrl": "https://example.com/base/Organization/example-organization-1",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "example-organization-1",
+        "name": "Test Medical Center 1",
+        "active": true,
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1407071236"
+          }
         ],
-        "connectionType": {
-          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
-          "code": "hl7-fhir-rest"
-        },
-        "resourceType": "Endpoint",
-        "status": "active"
+        "address": [
+          {
+            "line": [
+              "5414 Hilpert Pines"
+            ],
+            "city": "Abbigailburgh",
+            "state": "MA",
+            "postalCode": "43926-0428",
+            "country": "United States of America"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "Endpoint/example-endpoint-1"
+          }
+        ]
       }
     }
-  ],
-  "total": 2
- 
-
+  
+  ]
 }
