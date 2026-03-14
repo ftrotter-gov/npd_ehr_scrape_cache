@@ -1,4 +1,4 @@
 Analysis
 =================
 
-Look in [./reports](./reports) for the results
+Look in [reports](./reports) for the results of the analysis.
