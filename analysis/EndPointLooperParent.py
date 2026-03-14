@@ -18,11 +18,11 @@ Do not over-write this comment as you implement this program.
 TODO add a static function to the parent class called "get_web_url_of_cache_file" that accepts a filename and returns the link to our online scrape cache. 
 The local directory name corresponds to the name of the git project.. so the subdirectory of 
 
-../npd_ehr_scrape_cache/cehrt_fhir_json/citiustech_inc_dddab3b714c651b71131540f5d1afbaf/entry_Endpoint-2.json
+../npd_ehr_scrape_cache/cache/fhir_json_cache/citiustech_inc_dddab3b714c651b71131540f5d1afbaf/endpoint/entry_Endpoint-2.json
 
 Should return the web url of
 
-https://github.com/ftrotter-gov/npd_ehr_scrape_cache/blob/main/cehrt_fhir_json/citiustech_inc_dddab3b714c651b71131540f5d1afbaf/entry_Endpoint-2.json
+https://github.com/ftrotter-gov/npd_ehr_scrape_cache/blob/main/cache/fhir_json_cache/citiustech_inc_dddab3b714c651b71131540f5d1afbaf/endpoint/entry_Endpoint-2.json
 
 This will be use to create markdown links to files in the summary printouts. 
 
@@ -365,10 +365,6 @@ class EndPointLooperParent(ABC):
                 Path("../../npd_ehr_scrape_cache/cache/fhir_json_cache/"),  # From json_data_mine subdirectory
                 Path("../npd_ehr_scrape_cache/cache/fhir_json_cache/"),     # From misc_scripts directory  
                 Path("npd_ehr_scrape_cache/cache/fhir_json_cache/"),        # From root directory
-                Path("../../../npd_ehr_scrape_cache/cehrt_fhir_json/"),     # Legacy path structure
-                Path("../../npd_ehr_scrape_cache/cehrt_fhir_json/"),        # Legacy path structure
-                Path("../npd_ehr_scrape_cache/cehrt_fhir_json/"),           # Legacy path structure
-                Path("npd_ehr_scrape_cache/cehrt_fhir_json/"),              # Legacy path structure
             ]
             
             cache_path_found = False
@@ -467,10 +463,6 @@ class EndPointLooperParent(ABC):
                     Path("../../npd_ehr_scrape_cache/cache/fhir_json_cache/"),  
                     Path("../npd_ehr_scrape_cache/cache/fhir_json_cache/"),     
                     Path("npd_ehr_scrape_cache/cache/fhir_json_cache/"),        
-                    Path("../../../npd_ehr_scrape_cache/cehrt_fhir_json/"),     
-                    Path("../../npd_ehr_scrape_cache/cehrt_fhir_json/"),        
-                    Path("../npd_ehr_scrape_cache/cehrt_fhir_json/"),           
-                    Path("npd_ehr_scrape_cache/cehrt_fhir_json/"),              
                 ]
                 for alt_path in alternative_paths:
                     if alt_path.exists():

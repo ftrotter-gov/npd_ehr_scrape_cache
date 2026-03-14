@@ -67,10 +67,6 @@ class ManyIdentifierLooper(EndPointLooperParent):
                 Path("../../npd_ehr_scrape_cache/cache/fhir_json_cache/"),
                 Path("../npd_ehr_scrape_cache/cache/fhir_json_cache/"),
                 Path("npd_ehr_scrape_cache/cache/fhir_json_cache/"),
-                Path("../../../npd_ehr_scrape_cache/cehrt_fhir_json/"),
-                Path("../../npd_ehr_scrape_cache/cehrt_fhir_json/"),
-                Path("../npd_ehr_scrape_cache/cehrt_fhir_json/"),
-                Path("npd_ehr_scrape_cache/cehrt_fhir_json/"),
             ]
             
             cache_path_found = False
