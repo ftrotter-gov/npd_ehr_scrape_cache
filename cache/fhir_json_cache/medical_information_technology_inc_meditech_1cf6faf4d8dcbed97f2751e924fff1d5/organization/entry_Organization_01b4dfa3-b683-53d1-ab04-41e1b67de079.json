@@ -5,12 +5,6 @@
     "meta": {
       "lastUpdated": "2022-03-23T02:20:56.000Z"
     },
-    "identifier": [
-      {
-        "system": "urn:ietf:rfc:3986",
-        "value": "https://sanjorgechildrenshospital.com"
-      }
-    ],
     "name": "The San Jorge Hospital, Inc.",
     "active": true,
     "type": [
@@ -26,8 +20,12 @@
     ],
     "telecom": [
       {
-        "system": "url",
-        "value": "https://sanjorgechildrenshospital.com"
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+            "valueCode": "asked-unknown"
+          }
+        ]
       }
     ],
     "address": [
