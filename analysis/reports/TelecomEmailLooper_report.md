@@ -12,13 +12,13 @@ as valid or invalid. Files without any email telecoms are also tracked.
 ## Processing Results
 **Files Processed:** 383487
 **Files Failed:** 0
-**Files Without Email Telecoms:** 382292
+**Files Without Email Telecoms:** 382287
 **Total Email Categories Found:** 1
 
 ## Email Validation Results
 
 | Email Category | Count | Longest Example | Shortest Example | Random Example |
 |----------------|-------|-----------------|------------------|----------------|
-| Valid Email | 1198 | [entry_Organization_CMD-CMZCC-Organization-2.json](https://github.com/ftrotter-gov/npd_ehr_scrape_cache/blob/main/cache/fhir_json_cache/curemd_com_inc_3e771a3e2122c9fa913e71a26259cca2/organization/entry_Organization_CMD-CMZCC-Organization-2.json) | [entry_Organization_idFA6NjJ01p.WnqGN2lfXufQ.json](https://github.com/ftrotter-gov/npd_ehr_scrape_cache/blob/main/cache/fhir_json_cache/aarista_technology_llc_98dd118c306868b25684644c95fe4c75/organization/entry_Organization_idFA6NjJ01p.WnqGN2lfXufQ.json) | [entry_Organization_CMD-CMDPN-Organization-2.json](https://github.com/ftrotter-gov/npd_ehr_scrape_cache/blob/main/cache/fhir_json_cache/curemd_com_inc_3e771a3e2122c9fa913e71a26259cca2/organization/entry_Organization_CMD-CMDPN-Organization-2.json) |
+| Valid Email | 1203 | [entry_Organization_CMD-CMZCC-Organization-2.json](https://github.com/ftrotter-gov/npd_ehr_scrape_cache/blob/main/cache/fhir_json_cache/curemd_com_inc_3e771a3e2122c9fa913e71a26259cca2/organization/entry_Organization_CMD-CMZCC-Organization-2.json) | [entry_Organization_idFA6NjJ01p.WnqGN2lfXufQ.json](https://github.com/ftrotter-gov/npd_ehr_scrape_cache/blob/main/cache/fhir_json_cache/aarista_technology_llc_98dd118c306868b25684644c95fe4c75/organization/entry_Organization_idFA6NjJ01p.WnqGN2lfXufQ.json) | [entry_Organization_CMD-CM0CX-Organization-2.json](https://github.com/ftrotter-gov/npd_ehr_scrape_cache/blob/main/cache/fhir_json_cache/curemd_com_inc_3e771a3e2122c9fa913e71a26259cca2/organization/entry_Organization_CMD-CM0CX-Organization-2.json) |
 
-**Total Email Telecoms Found:** 1198
+**Total Email Telecoms Found:** 1203

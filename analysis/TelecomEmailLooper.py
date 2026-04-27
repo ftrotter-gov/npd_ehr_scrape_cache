@@ -49,24 +49,8 @@ class TelecomEmailLooper(EndPointLooperParent):
             json_data: The JSON data as a dictionary
             source_filename: Name of the source file being processed
         """
-        # Extract relative path for GitHub URLs
-        cache_directory = self.load_environment_config()
-        cache_path = Path(cache_directory)
-        if not cache_path.exists():
-            alternative_paths = [
-                Path("../../../npd_ehr_scrape_cache/cehrt_fhir_json/"),  
-                Path("../../npd_ehr_scrape_cache/cehrt_fhir_json/"),    
-                Path("../npd_ehr_scrape_cache/cehrt_fhir_json/"),       
-                Path("npd_ehr_scrape_cache/cehrt_fhir_json/"),          
-            ]
-            for alt_path in alternative_paths:
-                if alt_path.exists():
-                    cache_path = alt_path
-                    break
-        
-        # Extract relative path - need to reconstruct from directory structure
-        # Since we only have source_filename, we'll set a placeholder
-        # This will be set properly when run_loop is called
+        # The parent class sets self.current_relative_path for each file during run_loop().
+        # If something calls analyze_this_json_data() directly, use a placeholder.
         if not self.current_relative_path:
             self.current_relative_path = f"unknown_dir/{source_filename}"
         
