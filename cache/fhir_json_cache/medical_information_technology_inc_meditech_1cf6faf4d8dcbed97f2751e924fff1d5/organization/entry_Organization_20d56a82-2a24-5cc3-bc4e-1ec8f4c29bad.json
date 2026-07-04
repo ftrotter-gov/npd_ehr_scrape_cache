@@ -46,6 +46,9 @@
     },
     "endpoint": [
       {
+        "reference": "urn:uuid:535db085-f1d8-5a57-945a-6c8f8e577631"
+      },
+      {
         "reference": "urn:uuid:6b306973-a7db-40a4-a153-4a0ae1374292"
       }
     ],
@@ -53,6 +56,12 @@
       {
         "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
         "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:535db085-f1d8-5a57-945a-6c8f8e577631"
+            }
+          },
           {
             "url": "portalEndpoint",
             "valueReference": {

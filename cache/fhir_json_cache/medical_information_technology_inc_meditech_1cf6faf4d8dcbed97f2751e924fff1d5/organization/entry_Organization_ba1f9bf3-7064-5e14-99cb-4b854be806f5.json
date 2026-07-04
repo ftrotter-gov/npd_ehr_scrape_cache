@@ -2,9 +2,6 @@
   "resource": {
     "resourceType": "Organization",
     "id": "ba1f9bf3-7064-5e14-99cb-4b854be806f5",
-    "meta": {
-      "lastUpdated": "2023-01-04T17:00:00.000Z"
-    },
     "identifier": [
       {
         "system": "urn:ietf:rfc:3986",
@@ -41,12 +38,31 @@
         "country": "United States"
       }
     ],
+    "meta": {
+      "lastUpdated": "2026-04-29T22:06:25.419Z"
+    },
     "endpoint": [
       {
         "reference": "urn:uuid:9663bbb4-d3de-5ed1-b2d4-1b659a41b932"
       },
       {
         "reference": "urn:uuid:b417bb4f-b5f9-471f-b4af-53c2ff2bfd7c"
+      },
+      {
+        "reference": "urn:uuid:b54e1a9e-e2c3-4297-ae5e-e92379fe6b17"
+      }
+    ],
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
+        "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:b54e1a9e-e2c3-4297-ae5e-e92379fe6b17"
+            }
+          }
+        ]
       }
     ]
   },

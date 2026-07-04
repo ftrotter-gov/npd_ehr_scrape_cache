@@ -3,7 +3,7 @@
     "resourceType": "Organization",
     "id": "53f67e33-ebf4-5501-93db-0202e6e102c3",
     "meta": {
-      "lastUpdated": "2023-01-04T17:00:00.000Z"
+      "lastUpdated": "2024-10-14T07:02:37.000Z"
     },
     "identifier": [
       {
@@ -43,6 +43,9 @@
     ],
     "endpoint": [
       {
+        "reference": "urn:uuid:64d78f5e-9508-571a-817d-bbe9a3036dab"
+      },
+      {
         "reference": "urn:uuid:1648e357-7f88-4712-9a53-d685604a9ff9"
       }
     ],
@@ -50,6 +53,12 @@
       {
         "url": "http://hl7.org/fhir/StructureDefinition/organization-portal",
         "extension": [
+          {
+            "url": "portalEndpoint",
+            "valueReference": {
+              "reference": "urn:uuid:64d78f5e-9508-571a-817d-bbe9a3036dab"
+            }
+          },
           {
             "url": "portalEndpoint",
             "valueReference": {

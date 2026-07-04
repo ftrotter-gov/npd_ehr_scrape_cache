@@ -1,35 +1,35 @@
 {
   "resource": {
-    "id": "660a5367-248c-4fcb-8d18-7ad8ea90939d",
+    "resourceType": "Endpoint",
+    "connectionType": {
+      "code": "hl7-fhir-rest",
+      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+      "display": "HL7 FHIR"
+    },
     "payloadType": [
       {
         "coding": [
           {
             "code": "Bundle",
-            "display": "Bundle",
-            "system": "http://hl7.org/fhir/resource-types"
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Bundle"
           }
         ]
       }
     ],
-    "connectionType": {
-      "code": "hl7-fhir-rest",
-      "display": "HL7 FHIR",
-      "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"
-    },
-    "resourceType": "Endpoint",
+    "id": "660a5367-248c-4fcb-8d18-7ad8ea90939d",
+    "contact": [
+      {
+        "system": "email",
+        "value": "info@unityhealth360.com"
+      }
+    ],
+    "status": "active",
+    "address": "https://dev-fhir.cinch-project.com/fhir",
     "managingOrganization": {
       "display": "Unity Health",
       "reference": "Organization/660a5367-248c-4fcb-8d18-7ad8ea90939d"
-    },
-    "address": "https://dev-fhir.cinch-project.com/fhir",
-    "status": "active",
-    "contact": [
-      {
-        "value": "info@unityhealth360.com",
-        "system": "email"
-      }
-    ]
+    }
   },
   "fullUrl": "https://dev-fhir.cinch-project.com/fhir/Endpoint/660a5367-248c-4fcb-8d18-7ad8ea90939d"
 }
